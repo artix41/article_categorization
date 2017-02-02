@@ -1,0 +1,68 @@
+Hydrostatique — Wikipédia
+Hydrostatique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Statique.
+L'hydrostatique est l'étude des fluides immobiles. Fondée par Archimède, c'est de loin le cas le plus simple de la mécanique des fluides, mais il est cependant riche d'enseignements.
+Sommaire
+1 Pression dans un fluide
+1.1 Cas d'un fluide incompressible au repos dans un champ de pesanteur uniforme
+1.2 Baromètre
+1.3 Écarts à ce cas idéal
+2 Applications
+2.1 Mesure de pression
+2.2 Pression de l'eau
+2.3 Mesure de masse volumique
+2.4 Météorologie
+2.5 Articles connexes
+2.6 Liens externes
+3 Notes et références
+Pression dans un fluide[modifier | modifier le code]
+Principe de Pascal : éclatement d'un tonneau sous la pression d'une colonne d'eau
+Expérimentalement, on constate que la pression dans l'eau immobile ne dépend que de la profondeur et pas de la direction. En effet, si l'on prend une petite boîte rigide ouverte d'un côté et que l'on tend une membrane élastique, cette boîte enfermant de l'air à pression atmosphérique, et que l'on plonge cette boîte dans l'eau, la déformation de la membrane permet de visualiser la différence de pression entre l'air et l'eau, et celle-ci ne dépend que de la profondeur, pas de l'orientation de la boîte ni de sa position dans le plan horizontal. Cette relation entre la pression dans un fluide et la profondeur est connue sous le nom de principe de Pascal, et est à la base de l'hydrostatique.
+Convention : dans l'exemple qui suit, nous orientons l'axe vertical vers le bas (z croît lorsque l'on descend).
+Cas d'un fluide incompressible au repos dans un champ de pesanteur uniforme[modifier | modifier le code]
+Le fluide étant incompressible, il transmet intégralement les efforts. La pression à une profondeur z résulte donc de la pression P0 qu'exerce l'air en surface, et du poids p de la colonne d'eau au-dessus de la membrane.
+Supposons que la membrane soit horizontale et orientée vers le haut, et que son aire soit S. La colonne d'eau située au-dessus a pour volume S·z, donc pour masse ρ·S·z si ρ est la masse volumique de l'eau équivalant à 999,95 kg/m³. Le poids p de l'eau est donc :
+où g est l'accélération de la gravité. La membrane est alors soumise à une force F :
+soit une pression :
+C'est cette variation de la pression en fonction de la profondeur qui crée la poussée d'Archimède.
+Baromètre[modifier | modifier le code]
+Mettons un liquide dans un tube fermé d'un côté ; ce tube est immergé dans une bassine de liquide (il se remplit intégralement), puis on le place verticalement, le côté fermé en haut, le côté ouvert trempant dans la bassine.
+La pression atmosphérique s'exerçant sur la surface du liquide dans la bassine fait monter le liquide dans le tube. Si le tube est suffisamment grand, du vide est obtenu au-dessus de la colonne de liquide dans le tube (en fait, il s'y trouve en quantité faible de la vapeur de liquide à une pression très basse, la pression de vapeur saturante).
+En mesurant la hauteur h de la colonne, on peut déterminer la pression atmosphérique :
+Cette hauteur équivaut environ à 10 m si le liquide est de l'eau, et à 76 cm si c'est du mercure. On a ainsi un baromètre.
+Prenons maintenant un tube en forme de U dont chacune des extrémités est ouverte et reliée à une enceinte étanche. Le tube contient un liquide. Si la pression régnant dans les deux enceintes est identique, la hauteur de liquide est identique dans les deux branches. Si la hauteur diffère d'une valeur δh, alors la différence de pression vaut :
+On exprime ainsi parfois une faible surpression en hauteur de la colonne d'eau (mm CE).
+g : où g est l'accélération de la gravité. dépend de la place géographique ainsi que la nature du mesuré.
+Écarts à ce cas idéal[modifier | modifier le code]
+Lorsque l'on considère de grandes variations d'altitude, on ne peut plus considérer le champ de gravité comme constant, g dépend donc de z. Et lorsque le fluide est un gaz, on ne peut plus considérer celui-ci comme incompressible, donc ρ dépend également de z ; mais ceci n'est sensible que pour des variations de pression significatives, donc ρ étant faible dans le cas d'un gaz, ceci n'intervient que pour des variations de z assez grandes.
+Localement, pour de petites variations dz de z, on peut toujours écrire :
+Il faut alors intégrer cette loi :
+si l'on connaît la loi de comportement du gaz, par exemple s'il s'agit d'un gaz parfait, alors pour une masse m de gaz donnée, on peut relier le volume V à la pression P, donc la masse volumique ρ à la pression P :
+si ρ0 et P0 sont des valeurs à une altitude z0 de référence.
+Par ailleurs, la variation de la pesanteur se calcule avec la loi de Newton.
+Dans le cas de l'atmosphère, il faut de plus prendre en compte la variation de température et la variation de composition.
+Applications[modifier | modifier le code]
+Mesure de pression[modifier | modifier le code]
+Baromètre de Torriccelli, baromètre en U.
+Pression de l'eau[modifier | modifier le code]
+Pompage par aspiration, plongée sous-marine, osmose inverse, Largueur hydrostatique.
+Mesure de masse volumique[modifier | modifier le code]
+En physique expérimentale, la pesée hydrostatique permet de déterminer la masse volumique et la densité d'un matériau[1]. En techniques de marine, la pesée hydrostatique, ou plus communément, pesage hydrostatique, permet de déterminer la masse d'un chargement à partir de repères de jauge calibrant le navire en fonction du volume de la carène.
+Météorologie[modifier | modifier le code]
+En météorologie, l'approximation hydrostatique stipule que la composante verticale de la force de pression est en équilibre exact avec la force gravitationnelle : l'équilibre hydrostatique. Elle permet de négliger, dans le calcul de la pression le long de l'axe vertical, les forces dues :
+au mouvement horizontal ou vertical de l'air ;
+à la force de Coriolis.
+Il s'ensuit que la pression, en tout point du volume atmosphérique, est uniquement et directement proportionnelle au poids de la colonne d'air au-dessus de ce point. Cette approximation est valide à un grand degré de précision dans un très grand nombre des états naturels de l'atmosphère en particulier pour les mouvements de grande échelle. Elle cesse d'être valide à petite échelle (< 10 km) et pour des systèmes intenses comme les tornades et les lignes de grains.
+Sur les autres projets Wikimedia :
+Hydrostatique, sur Wikiversity
+Articles connexes[modifier | modifier le code]
+Hydromécanique
+Pression lithostatique
+Simon Stevin
+Transmission hydrostatique
+Vases communicants
+Liens externes[modifier | modifier le code]
+une vidéo explicative sur les vases communicants
+détermination de la masse volumique par méthode des pesées hydrostatiquess

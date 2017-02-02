@@ -1,0 +1,350 @@
+Neutron — Wikipédia
+Neutron
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir neutron (homonymie).
+Neutron
+Représentation schématique de la composition en quarks d'un neutron, avec deux quarks d et un quark u. L'interaction forte est transmise par des gluons (représentés ici par un tracé sinusoïdal). La couleur des quarks fait référence aux trois types de charges de l'interaction forte : rouge, verte et bleue. Le choix de couleur effectué ici est arbitraire, la charge de couleur circulant à travers les trois quarks.
+Propriétés générales
+Classification
+Particule composite (baryon)
+Composition
+1 quarks u
+2 quarks d
+Famille
+Fermion
+Groupe
+Baryon (nucléon)
+Interaction(s)
+Forte, faible, gravitation
+Symbole
+n, n0
+Antiparticule
+Antineutron
+Propriétés physiques
+Masse
+939,5654 MeV/c²[1]
+(1,67493×10-27 kg)
+(1,0086649 u[1])
+Charge électrique
+0 C
+Moment dipôlaire
+<2,9×10−26 e.cm
+Polarisabilité électrique
+1,16(15)×10−3 fm3
+Moment magnétique
+−1,9130427(5) μN
+Polarisabilité magnétique
+3,7(20)×10−4 fm3
+Charge de couleur
+0
+Spin
+½
+Isospin
+½
+Parité
++1
+Durée de vie
+885,7 ± 0,8 s
+Forme condensée
+I(JP) = 1⁄2(1⁄2+)
+Historique
+Prédiction
+Ernest Rutherford (1920)
+Découverte
+1932
+Découvreur
+James Chadwick
+modifier
+Le neutron est une particule subatomique de charge électrique nulle.
+Les neutrons sont présents dans le noyau des atomes, liés avec des protons par l'interaction forte. Si le nombre de protons d'un noyau détermine son élément chimique, le nombre de neutrons détermine son isotope. Les neutrons liés dans un noyau atomique sont en général stables mais les neutrons libres sont instables : ils se désintègrent en un peu moins de 15 minutes (885,7 secondes). Les neutrons libres sont produits dans les opérations de fission et de fusion nucléaires.
+Le neutron n'est pas une particule élémentaire, étant composé de trois autres particules : un quark up et deux quarks down.
+Sommaire
+1 Caractéristiques
+1.1 Description
+1.2 Stabilité
+1.3 Radioactivité
+2 Historique
+3 Détection
+4 Applications
+5 Sources
+6 Centres de recherche
+7 Voir aussi
+7.1 Articles connexes
+7.2 Liens externes
+7.3 Références
+Caractéristiques[modifier | modifier le code]
+Description[modifier | modifier le code]
+Le neutron est un fermion de spin ½. Il est composé de trois quarks, ce qui en fait un baryon. Les deux quarks down et le quark up du neutron sont liés par l'interaction forte, transmise par des gluons.
+La masse du neutron est égale à environ 1,0086655 u, soit à peu près 939,5659 MeV/c2 ou 1,67493×10−27 kg[2]. Le neutron est 1,0014 fois plus massif que le proton. Il se comporte comme un aimant. Il tourne sur lui-même. Il est radioactif. Sa charge électrique est nulle, étant égale à la somme des charges électriques de ses quarks :
+celle du quark-up vaut 2/3 e
+celle de chacun des deux quark-down vaut −1/3 e.
+Tout comme le proton, le neutron est un nucléon et peut être lié à d'autres nucléons par la force nucléaire à l'intérieur d'un noyau atomique. Le nombre de protons d'un noyau (son numéro atomique, noté Z) détermine les propriétés chimiques de l'atome et donc quel élément chimique il représente ; le nombre de neutrons détermine en revanche l'isotope de cet élément. Le nombre de masse (noté A) est le nombre total de nucléons du noyau.
+Le modèle standard de la physique des particules prédit une légère séparation des charges positive et négative à l'intérieur du neutron, conduisant à un moment dipolaire électrique permanent[3]. La valeur prédite est cependant trop petite pour être mesurée avec les instruments actuels.
+Le neutron possède une antiparticule, l'antineutron.
+Stabilité[modifier | modifier le code]
+Diagramme de Feynman de la désintégration bêta d'un neutron en un proton, un électron et un antineutrino électrique par l'intermédiaire d'un boson W.
+Selon les contraintes du modèle standard de la physique des particules, comme le neutron est composé de trois quarks, son seul mode de désintégration possible (sans modifier le nombre baryonique) suppose le changement de saveur d'un quark par l'intermédiaire de l'interaction faible. La désintégration d'un quark down, de charge - 1/3, en un quark up, de charge +2/3, est réalisée par l'émission d'un boson W ; de cette façon, le neutron se désintègre en un proton (qui contient un quark down et deux quarks up), un électron et un antineutrino électronique.
+n → p + e- + antineutrino + 782 keV
+À l'extérieur d'un noyau atomique, le neutron libre est instable et sa durée de vie moyenne est de 885,7 s (soit un peu moins de 15 minutes ; la demi-vie correspondante est de 885,7 x Ln (2) = 613,9 s, soit un peu plus de 10 minutes)[2]. Il se désintègre suivant le processus décrit ci-dessus. Ce processus, nommé désintégration bêta, peut également transformer un neutron à l'intérieur d'un noyau atomique instable.
+Ces durées de vie (moyenne et demi-vie) sont très supérieures aux durées de vie des neutrons rencontrées dans un réacteur nucléaire, ce qui fait que la disparition des neutrons par désintégration peut être négligée dans le bilan neutronique (production/disparition) du réacteur.
+À l'intérieur d'un noyau atomique, un proton peut se transformer en neutron par un processus de désintégration bêta inverse. La transformation provoque également l'émission d'un positron (un antiélectron) et d'un neutrino électronique.
+p + 782 keV? → n + positron + neutrino
+Dans un noyau atomique, l'instabilité du neutron est contre-balancée par celle qui serait acquise par le noyau dans son ensemble si un proton additionnel participait aux interactions répulsives des autres protons déjà présents. De cette façon, si les neutrons libres sont instables, les neutrons liés ne le sont pas forcément. En astrophysique, la stabilité du neutron peut être obtenue non plus par l’interaction forte mais par la gravitation. Une étoile à neutrons est un astre extrêmement dense dont la composition interne est majoritairement faite de neutrons maintenus ensemble par le très fort champ gravitationnel qu'ils génèrent du fait de leur grand nombre et de leur haute densité. La désintégration du neutron est cette fois rendue impossible par le principe d'exclusion de Pauli qui empêche les électrons ainsi produits de coexister en grand nombre.
+Radioactivité[modifier | modifier le code]
+La radioactivité produit des neutrons libres. Ces neutrons peuvent être absorbés par les noyaux d'autres atomes qui peuvent alors devenir instables. Ils peuvent aussi provoquer une fission nucléaire par collision avec un noyau lourd fissile (plutonium 239, uranium 235,...).
+Le neutron étant globalement neutre, il ne produit pas directement d'ionisations en traversant la matière. En revanche, il peut avoir de nombreuses réactions avec les noyaux des atomes (capture radiative, diffusion inélastique, réactions produisant des particules alpha ou d'autres neutrons, fission du noyau, etc.), produisant chacune des rayonnements ionisants. À ce titre, les neutrons sont considérés comme un rayonnement ionisant, soit un rayonnement qui produit des ionisations dans la matière qu'il traverse.
+Historique[modifier | modifier le code]
+La découverte du neutron a résulté de trois séries d’expériences, faites dans trois pays différents, l’une entraînant l’autre. En ce sens elle est exemplaire de la recherche de la connaissance.
+En 1930, en Allemagne, W. Bothe et H. Becker, spécialistes du rayonnement cosmique observent que des éléments légers, bombardés par des particules alpha (α), émettent des rayons « ultra pénétrants » qu’ils supposent être des rayons gamma beaucoup plus énergiques que ceux émis par des noyaux radioactifs ou accompagnant les transmutations nucléaires.
+En 1931, en France, Irène et Frédéric Joliot-Curie intrigués par ces résultats cherchent à comprendre la nature de ce rayonnement et découvrent qu’il a la propriété de mettre en mouvement des noyaux atomiques et en particulier des protons… Ils supposent qu’il s’agit là d’un effet Compton entre des gamma dont ils estiment l’énergie à environ 50 MeV (une énergie très élevée pour l’époque) et de l’hydrogène.
+En 1932, en Angleterre, aussitôt ces résultats parus, James Chadwick fait un test confirmant les résultats et va plus loin et mesurant avec précision l’énergie des noyaux projetés en utilisant la réaction nucléaire 4He(α) + 9Be → 12C + 1n, il peut affirmer que le rayonnement « ultra pénétrant » ne peut être un rayonnement gamma, d’énergie très élevée, mais doit être composé de particules de masse 1 et de charge électrique 0 : c’est le neutron.
+Chacune des trois équipes avait travaillé avec les appareils dont elle disposait, mais aussi avec ses connaissances et avait baigné dans la tradition de son laboratoire. Il n’est pas étonnant que ce soit au laboratoire de Cambridge, dirigé par Ernest Rutherford que le neutron ait été découvert. Depuis 1920, Rutherford, en effet, avait émis l’hypothèse de l’existence du neutron.
+James Chadwick fut l’assistant de Rutherford et l’un de ses plus brillants disciples. Ce fut le 3 juin 1920 qu’il entendit Rutherford, dans le cercle des habitués des Bakerian Lectures de la Royal Society, formuler l’idée d’une sorte d’atome de masse 1 et de charge 0 qui n’était pas l’hydrogène : cet objet, n’étant pas sujet aux répulsions électriques que subissaient les protons et les particules alpha, devait pouvoir s’approcher des noyaux et y pénétrer facilement. Chadwick se souvint douze ans plus tard de cette communication, quand il eut à interpréter les résultats de ses expériences.
+Plus tard, apprenant que le prix Nobel avait été décerné à Chadwick pour la découverte du neutron, Rutherford dira, selon Emilio Segrè : « Pour le neutron, c’est Chadwick tout seul. Les Joliot-Curie sont tellement brillants qu’ils le mériteront vite pour quelque chose d’autre ! »
+Détection[modifier | modifier le code]
+Article détaillé : Détection de neutrons.
+Les particules atomiques et subatomiques sont détectées par la signature qu'elles produisent par interaction avec leur environnement. Ces interactions résultent de leurs caractéristiques fondamentales. Du fait notamment de sa charge globalement nulle, le neutron est généralement détecté par interaction nucléaire, c'est-à-dire par l'utilisation de réactions nucléaires spécifiques.
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Applications[modifier | modifier le code]
+Les neutrons sont utilisés pour la diffusion neutronique, processus permettant d'étudier de la matière à l'état condensé. Ce rayonnement pénétrant permet de voir les intérieurs des corps, comme des métaux, des minerais, des fluides et permet d'examiner leur structure à l'échelle atomique par diffraction. Un autre avantage des neutrons réside dans leur sensibilité magnétique due à leur spin, ce qui permet d'étudier la structure magnétique des matériaux. La spectroscopie neutronique permet d'étudier d'une manière unique les excitations des corps, comme les phonons, les vibrations atomiques et les magnons. Les neutrons sont également utilisés pour radiographier des objets spéciaux (éléments pyrotechniques de moteurs fusée par exemple, ou encore barres de combustible irradié). On parle dans ce cas de neutronographie. Dans ces utilisations, le rayonnement neutronique est complémentaire des rayons X.
+Les neutrons sont également utilisés pour leur aptitude à provoquer des réactions nucléaires (fissions, capture radiative ou diffusion inélastique). Une application en est le contrôle nucléaire de procédé, qui permet de mesurer quantitativement et qualitativement le contenu de mélanges de matière fissile (uranium, plutonium, actinides mineurs) dans le processus de traitement du combustible usé (usine de La Hague notamment).
+Sources[modifier | modifier le code]
+Les sources de neutrons à haut flux sont soit des réacteurs nucléaires destinés à la production de ce rayonnement, soit des sources de spallation, grands accélérateurs de protons qui envoient un faisceau de protons accélérés sur une cible évaporant des neutrons. Typiquement, les sources de neutrons rassemblent un parc d'instrumentation formant de grands centres d'utilisateurs nationaux ou internationaux.
+Centres de recherche[modifier | modifier le code]
+Australie :
+Australian Nuclear Science and Technology Organisation (ANSTO) opère le réacteur historique HIFAR et met en service un des plus modernes centres neutroniques OPAL.
+Europe :
+L'institut Laue-Langevin est le plus grand centre du monde autour d'un réacteur neutronique.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+neutron, sur le Wiktionnaire
+Articles connexes[modifier | modifier le code]
+Neutronique
+Antineutron
+Physique nucléaire
+Thermalisation des neutrons
+Physique des particules
+Proton
+Neutronthérapie
+Neutronographie
+Tomographie neutronique
+Neutron thermique
+Étoile à neutrons
+Liens externes[modifier | modifier le code]
+[PDF] (fr) Élémentaire no 2 (Revue d'information scientifique de l'IN2P3, du LAL, du P2I et du synchrotron Soleil sur le neutron).
+[PDF] (en) Caractéristiques du neutron (Particle Data Group)
+(en) Neutronsources.org (Site d'informations sur les sources de neutrons)
+(en) NMI3 - Integrated Infrastructure Initiative of Neutron scattering and Muon Spectroscopy (Projet de la commission européenne)
+Références[modifier | modifier le code]
+↑ a et b CODATA 2010
+↑ a et b (en) [PDF] « n », Particle Data Group,‎ 2009
+↑ (en) « Pear-shaped particles probe big-bang mystery », Université du Sussex,‎ 20 février 2006
+v · d · m
+Particules en physique
+Particules élémentaires
+Avérées
+Bosons
+De jauge
+Photon (γ) · Gluon (g) · Bosons W+, W-, de Higgs (Ȟ) et Z0
+Fermions
+Quarks
+Down (d) · Up (u) · Strange (s) · Charm (c) · Bottom (b) · Top (t)
+Leptons
+Électron (e-) · Positron (e+) · Muons (μ-, μ+) · Tauons (τ-, τ+) · Neutrinos (νe, ν̅e, νμ, ν̅μ, ντ, ν̅τ)
+Hypothétiques
+Bosons
+Bosons Wʹ et Zʹ (en) · Bosons X et Y (en) · Graviton (G) · Axion (A0) · Majoron (J) (en)
+Fermions
+Neutrino stérile
+Superpartenaires
+de bosons
+Photino · Neutralinos : Wino, Bino, Higgsino · Jauginos : Gluino (en), Zino, Gravitino, Axino (en) Charginos
+de fermions
+Squarks · Sleptons
+Autres
+Leptoquarks (en) · Dilaton · Tachyon · Corde · Préon
+Particules composites
+Hadrons
+Mésons (bosons)
+Quarkoniums : Charmoniums (J/ψ, ηc) · Bottomoniums (ϒ, ηb) · Méson thêta (θ) · Méson phi (φ) · Pions (π-, π+, π0, π̅0) · Kaons (K-, K+, K0, K̅0) · Mésons rho (ρ), oméga (ω), D, êta (η), êta prime (ηʹ), B (B0-B̅0, Bs0-B̅s0, B-, B+, Bc-, Bc+), T
+Baryons (fermions)
+Nucléons : Proton (p), Antiproton (p̅), Neutron (n), Antineutron (n̄) ·
+Baryons Delta (Δ++, Δ+, Δ0, Δ−) ·
+Hypérons : Λ, Σ, Ξ, Ω
+Autres
+Atomes exotiques : Oniums leptoniques (en) (positronium, muonium) · Oniums mésoniques (en) (pioniums) ·
+Noyau atomique · Atome · Molécule
+Hypothétiques
+Mésons
+Boule de glu · Tétraquark
+Baryons
+Pentaquark · Dibaryon (en)
+Autres
+Molécule mésonique · Poméron (en) · Oddéron (en)
+Quasi-particules
+Exciton · Fluxon · Magnon · Phonon · Plasmon · Polariton · Polaron · Soliton · Ghost (en) · Roton · Monopôle magnétique · Instanton
+Liste de particules
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Neutron&oldid=110349286 ».
+Catégories : NeutronPhysique nucléaireChimie nucléaireRadioactivitéCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Asturianu
+Azərbaycanca
+Žemaitėška
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+Brezhoneg
+Bosanski
+ᨅᨔ ᨕᨘᨁᨗ
+Català
+کوردی
+Čeština
+Чӑвашла
+Cymraeg
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Võro
+Nordfriisk
+Furlan
+Frysk
+Gaeilge
+Galego
+עברית
+हिन्दी
+Fiji Hindi
+Hrvatski
+Kreyòl ayisyen
+Magyar
+Հայերեն
+Interlingua
+Bahasa Indonesia
+Ido
+Íslenska
+Italiano
+日本語
+ქართული
+Қазақша
+ಕನ್ನಡ
+한국어
+Къарачай-малкъар
+Ripoarisch
+Kurdî
+Latina
+Lumbaart
+Lingála
+Lietuvių
+Latviešu
+Македонски
+മലയാളം
+Монгол
+मराठी
+Bahasa Melayu
+မြန်မာဘာသာ
+Plattdüütsch
+नेपाली
+नेपाल भाषा
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Novial
+Occitan
+ਪੰਜਾਬੀ
+Polski
+Piemontèis
+پنجابی
+Português
+Runa Simi
+Română
+Русский
+Sicilianu
+Scots
+Srpskohrvatski / српскохрватски
+සිංහල
+Simple English
+Slovenčina
+Slovenščina
+Shqip
+Српски / srpski
+Seeltersk
+Basa Sunda
+Svenska
+Kiswahili
+தமிழ்
+తెలుగు
+ไทย
+Tagalog
+Türkçe
+Татарча/tatarça
+Українська
+اردو
+Oʻzbekcha
+Vèneto
+Tiếng Việt
+Winaray
+Wolof
+Хальмг
+ייִדיש
+中文
+文言
+Bân-lâm-gú
+粵語
+Modifier les liens
+Dernière modification de cette page le 29 décembre 2014 à 15:21.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

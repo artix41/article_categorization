@@ -1,0 +1,211 @@
+Statistique mathématique — Wikipédia
+Statistique mathématique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Statistique (homonymie).
+Cet article est une ébauche concernant les probabilités et la statistique.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Les statistiques, dans le sens populaire du terme, traitent des populations. En statistique descriptive, on se contente de décrire un échantillon à partir de grandeurs comme la moyenne, la médiane, l'écart type, la proportion, la corrélation, etc. C'est souvent la technique qui est utilisée dans les recensements.
+Dans un sens plus large, la théorie statistique est utilisée en recherche dans un but inférentiel. Le but de l'inférence statistique est de dégager le portrait d'une population donnée, à partir de l'image plus ou moins floue constituée à l'aide d'un échantillon issu de cette population.
+Dans un autre ordre d'idées, il existe aussi la statistique « mathématique » où le défi est de trouver des estimateurs judicieux (non biaisées et efficaces). L'analyse des propriétés mathématiques de ces estimateurs sont au cœur du travail du mathématicien spécialiste de la statistique.
+Sommaire
+1 Statistique
+1.1 Fonctions de répartition
+1.2 Types de statistiques
+2 Exemple de statistiques : Moyenne et variance
+3 Estimation
+4 Tests d'hypothèses
+4.1 Notion générale de test d'hypothèse statistique
+4.2 Test paramétrique
+4.3 Test du χ²
+5 Voir aussi
+5.1 Bibliographie
+5.2 Articles connexes
+Statistique[modifier | modifier le code]
+La statistique mathématique repose sur la théorie des probabilités. Des notions comme la mesurabilité ou la convergence en loi y sont souvent utilisées. Mais il faut distinguer la statistique en tant que discipline et la statistique en tant que fonction des données.
+Une fois les bases de la théorie des probabilités acquises, il est possible de définir une statistique à partir d'une fonction
+mesurable à
+arguments. Lorsque les valeurs
+sont des réalisations d'une même variable aléatoire , on note :
+La loi de
+dépend uniquement de la loi de
+et de la forme de .
+Fonctions de répartition[modifier | modifier le code]
+La fonction de répartition d'une variable aléatoire réelle
+(cette définition s'étend naturellement aux variables aléatoires à valeurs dans des espaces de dimension quelconque) associe à une valeur
+la probabilité qu'une réalisation de
+soit plus petite que  :
+Lorsqu'on dispose de
+réalisations de , on peut construire la fonction de répartition empirique de
+ainsi (on note
+la e valeur ordonnée des
+et on pose arbitrairement
+et ) :
+de même, la distribution empirique peut se définir (pour tout borélien ) comme :
+Le Théorème de Glivenko-Cantelli assure la convergence de la fonction de distribution empirique vers la fonction de distribution originale lorsque la taille
+de l'échantillon augmente vers l'infini.
+Ces deux fonctions empirique n'étant pas continues, on leur préfère souvent des estimateurs par noyau, qui ont les mêmes propriétés de convergence.
+Types de statistiques[modifier | modifier le code]
+On définit usuellement plusieurs types de statistiques suivant la forme de  :
+les L-statistiques qui sont des combinaisons de statistiques d'ordres,
+les M-statistiques qui s'expriment comme le maximum d'une fonction des réalisations d'une variable aléatoire,
+les U-statistiques qui s'expriment sous la forme d'intégrales.
+L'intérêt de cette différenciation est que chaque catégorie de statistique va avoir des caractéristiques propres.
+Les estimateurs par noyau, et les moments empiriques d'une loi sont les M-statistiques.
+Le moment empirique d'ordre
+d'une loi calculé à partir d'un échantillon
+est :
+Il s'agit d'un estimateur de . Le moment centré d'ordre
+est . La variance est le moment centré d'ordre 2.
+Exemple de statistiques : Moyenne et variance[modifier | modifier le code]
+Considérons une population d'où l'on extrait un échantillon d'effectif n de façon purement aléatoire dont les éléments sont . Dans ce cas, la statistique descriptive qui estime la moyenne de la population est la moyenne empirique
+La statistique qui estime la dispersion autour de la moyenne est la variance empirique
+La loi de probabilité associée à cette population possède une moyenne μ et une variance σ2 qui sont estimés par
+et . Le problème est que, si on avait choisi un autre échantillon, on aurait trouvé des valeurs différentes pour ces estimations.
+Ceci conduit à considérer les éléments, la moyenne empirique et la variance empirique comme des variables aléatoires. Ces variables suivent une loi de probabilité donnée. Une fois qu'on connait ces lois de probabilité, il est possible de construire les tests statistiques voulus pour étudier les paramètres d'intérêt ( μ et σ2 pour cet exemple).
+Sous la condition d'indépendance entre les observations, on peut calculer la moyenne (ou espérance) et la variance de la moyenne empirique. On obtient :
+L'écart-type de la moyenne empirique vaut σ / √n. Si n devient grand, le théorème de la limite centrale enseigne que la moyenne empirique suit une loi normale caractérisée par la moyenne μ et cet écart-type. Ce résultat reste valable quelle que soit la taille de l'échantillon lorsque la loi de probabilité assignée à la population est normale. Dans ce dernier cas, particulièrement important en pratique, on montre également que (n-1) s2 / σ2 suit une loi de χ2 à n-1 degrés de liberté.
+Estimation[modifier | modifier le code]
+Ces résultats s’interprètent directement en termes d’estimation.
+La moyenne empirique et la variance empirique fournissent des estimations de la moyenne et de la variance de la population.
+Ces estimations sont convergentes car leurs variances tendent vers zéro lorsque la taille de l’échantillon s’accroît indéfiniment.
+Elles sont non biaisées car leur limite est égale à la valeur à estimer.
+Le problème d’estimation est relié aux intervalles de confiance. L’idée est de fournir une estimation d’un paramètre accompagnée d’une idée de sa précision liée aux fluctuations échantillonnales.
+Voici un exemple bien spécifique d’intervalle de confiance pour la moyenne.
+Pour décrire le principe, considérons un exemple assez artificiel qui présente l’avantage de la simplicité : l’estimation de la moyenne () d’une population supposée normale dont nous connaîtrions l’écart-type (). D’après le paragraphe précédent, la moyenne empirique suit également une loi normale dont l’écart-type est divisé par le facteur .
+Puisque les tables de probabilités de la loi normale sont connues, nous pouvons déterminer qu’un intervalle centré autour de la moyenne empirique aura  % de chance de contenir la vraie moyenne. En pratique,
+est souvent fixé à 95. Lorsqu’on fixe
+(à 95 par exemple), on détermine la longueur de l’intervalle de confiance simplement par connaissance de la loi normale. Voici l’intervalle de confiance à 95 % pour ce cas très précis.
+voir aussi loi de Student.
+Tests d'hypothèses[modifier | modifier le code]
+Notion générale de test d'hypothèse statistique[modifier | modifier le code]
+Une hypothèse statistique concerne les paramètres issue d'une ou plusieurs populations. On ne peut pas la vérifier mais seulement la rejeter lorsque les observations paraissent en contradiction avec elle. Nous conclurons que la valeur observée (à partir de l'échantillon) est très peu probable dans le cadre de l'hypothèse (qui concerne la population).
+La première étape consiste à édicter l'hypothèse nulle. Souvent cette hypothèse sera ce qu'on croit faux. Exemple d'hypothèses nulles : Les deux moyennes issues de deux populations sont égales La corrélation entre deux variables est nulle Il n'y a pas de lien entre l'âge et l'acuité visuelle etc.
+L'hypothèse nulle concerne les paramètres (valeurs vraies) de la population.
+Pour chaque test statistique, il y a une mesure ou statistique précise (selon le paramètre qui nous intéresse) qui suit une loi de probabilité connue. Cette statistique peut être vue comme une mesure entre ce qu'on observe dans l'échantillon et ce qu'on postule dans la population (hypothèse nulle). Plus cette mesure sera grande, plus sa probabilité d'occurrence sera petite. Si cette probabilité d'occurrence est trop petite, on aura tendance à rejeter l'hypothèse nulle et donc conclure que l'hypothèse nulle est fausse.
+Test paramétrique[modifier | modifier le code]
+Se dit des tests qui présupposent que les variables à étudier suivent une certaine distribution décrite par des paramètres. De nombreux tests paramétriques concernent des variables qui suivent la loi normale. Les tests t pour échantillons indépendants ou appariés, les ANOVA, la régression multiple, le test de Wald, etc.
+Test du χ²[modifier | modifier le code]
+Voici l'exemple d'un test qui utilise la loi du χ². Cependant, une multitude de tests utilisent cette loi de probabilité: (Mc Nemar, tests d'adéquation de modèles, tests d'adéquation à une distribution etc...)
+Exemple :
+On se demande si un échantillon extrait d'une population correspond raisonnablement à une loi de probabilité hypothétique.
+L'échantillon d'effectif
+est divisé en
+classes d'effectifs
+comme pour la construction d'un histogramme, avec une différence : il est possible d'utiliser des classes de largeur variable, c'est même recommandé pour éviter qu'elles soient trop petites. Avec cette précaution, le théorème de la limite centrale dans sa version multidimensionnelle indique que le vecteur des effectifs
+se comporte approximativement comme un vecteur gaussien.
+La loi de probabilité étant donnée d'autre part, elle permet d'assigner à chaque classe une probabilité . Dans ces conditions l'expression
+qui représente d'une certaine manière la distance entre les données empiriques et la loi de probabilité supposée, suit une loi de probabilité de χ2 à
+degrés de liberté.
+Les tables de χ2 permettent de déterminer s'il y a lieu de rejeter l'hypothèse en prenant le risque, fixé à l'avance, de se tromper.
+Si on considère le cas d'une loi de probabilité dont les paramètres (en général moyenne et écart-type) sont inconnus, la minimisation du χ2 par rapport à ces paramètres fournit une estimation de ceux-ci.
+Voir aussi[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Jean-Pierre Favre, Mathématiques de gestion, Digilex, 2009 (ISBN 978-2-940404-01-8).
+Borokov, A. A. (1999). Mathematical Statistics. Taylor & Francis. (ISBN 90-5699-018-7).
+Didier Pelat, Bruits et Signaux (introduction aux méthodes de traitements des données) : statistique des variables aléatoires.
+P. E. Greenwood et M. S. Nikulin, A Guide to Chi-Squared Testing, John Wiley and Sons, 1996.
+(en) George Casella et Roger Berger, Statistical Inference, Brooks/Cole,‎ 2001, 2e éd.
+Articles connexes[modifier | modifier le code]
+Estimateur (statistique)
+Test d'hypothèse
+Inférence bayésienne
+v · d · m
+Probabilités et statistiques
+Théorie des probabilités
+Axiomes des probabilités · Espace probabilisable · Probabilité · Événement · Tribu · Indépendance
+Probabilités élémentaires
+Moyenne · Espérance · Médiane · Variance · Écart type
+Loi de probabilité
+Variable aléatoire · Loi de Bernoulli · Loi de Poisson · Loi uniforme · Loi normale · Loi de Student · Loi de Fisher · Variables iid
+Convergence de lois
+Théorème central limite · Loi des grands nombres · Théorème de Borel-Cantelli
+Calcul stochastique
+Marche aléatoire · Chaîne de Markov · Processus stochastique · Processus de Markov · Martingale · Mouvement brownien · Équation différentielle stochastique
+Statistique
+Statistique descriptive
+Échantillon · Quantile · Erreur type · Intervalle de confiance · Représentations de données · Histogramme · Diagramme circulaire · Boîte à moustaches · Régression linéaire · Méthode des moindres carrés · Analyse des données
+Statistique mathématique
+Une statistique · Fonction de répartition empirique · Théorème de Glivenko-Cantelli · Inférence bayésienne
+Tests statistiques
+Test d'hypothèse · Hypothèse statistique (Hypothèse nulle) · Estimateur · Signification statistique · Test du χ² · Test de Fisher · Test de Kolmogorov-Smirnov · Test de Student · Valeur p
+Applications
+Économétrie · Mécanique statistique · Jeu de hasard · Biomathématique · Mathématiques financières
+Portail des probabilités et de la statistique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Statistique_mathématique&oldid=110296485 ».
+Catégorie : StatistiquesCatégories cachées : Wikipédia:ébauche probabilités et statistiquesPortail:Probabilités et statistiques/Articles liésProjet:Mathématiques/ArticlesBon article en tchèque
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Беларуская (тарашкевіца)‎
+Català
+Čeština
+Deutsch
+English
+Español
+Eesti
+Հայերեն
+Ido
+ქართული
+Қазақша
+Lietuvių
+Македонски
+Norsk nynorsk
+Ирон
+Polski
+Română
+Русский
+Sicilianu
+Slovenčina
+Basa Sunda
+Svenska
+Українська
+Oʻzbekcha
+中文
+Modifier les liens
+Dernière modification de cette page le 27 décembre 2014 à 19:40.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

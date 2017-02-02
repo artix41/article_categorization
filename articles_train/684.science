@@ -1,0 +1,227 @@
+Protein Data Bank — Wikipédia
+Protein Data Bank
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Banque de données des protéines)
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir PDB.
+La banque de données sur les protéines du Research Collaboratory for Structural Bioinformatics, plus communément appelée Protein Data Bank ou PDB est une collection mondiale de données sur la structure tridimensionnelle (ou structure 3D) de macromolécules biologiques : protéines, essentiellement, et acides nucléiques. Ces structures sont essentiellement déterminées par cristallographie aux rayons X ou par spectroscopie RMN. Ces données expérimentales sont déposées dans la PDB par des biologistes et des biochimistes du monde entier et appartiennent au domaine public. Leur consultation est gratuite et peut se faire directement depuis les site web de la banque :
+– Europe : PDBe ;
+– Japon : PDBj ;
+– USA : RCSB PDB.
+La PDB est la principale source de données de biologie structurale et permet en particulier d’accéder à des structures 3D de protéines d’intérêt pharmaceutique.
+Sommaire
+1 Historique
+2 Contenu
+3 Formats des fichiers
+3.1 Le format PDB
+3.2 Le format mmCIF
+3.3 Comparaison d’un fichier pdb et d’un fichier mmCIF
+3.4 Le format pdbml
+4 Consultation des données
+5 Liens vers les données de la base de données des enzymes
+6 Références
+6.1 Imprimées
+6.2 En ligne
+7 Voir aussi
+7.1 Articles connexes
+7.2 Liens externes
+Historique[modifier | modifier le code]
+Fondée en 1971 par le Laboratoire national de Brookhaven, la Banque de données des protéines a été transférée en 2003 au Worlwide Protein Data Bank (wwPDB), qui se compose de PDBe, PDBj, RCSB PDB et BMRB pour la RMN.
+Le financement est assuré par la National Science Foundation, le département de l'Énergie, la National Library of Medicine et le National Institute of General Medical Sciences (en). L’Institut européen de bio-informatique (European Bioinformatics Institute, EBI), au Royaume-Uni, et le Institute for Protein Research, au Japon, collectent et traitent également les fichiers de données structurales.
+La Worlwide Protein Data Bank (wwPDB) comprend trois organisations membres qui sont des centres de dépôt, de traitement et de distribution des données de la PDB. Ces organisations sont RCSB (USA), PDBe (Protein Databank in Europe - EBI, Europe) et PDBj (Protein Data Bank Japan, Japon). La mission de la wwPDB est de maintenir à jour une archive PDB unique de données structurales macromoléculaires, accessible gratuitement et publiquement pour l’ensemble de la communauté.
+Croissance de la PDB et diversification des utilisateurs
+La PDB contenait à l’origine (en 1971) 7 structures. Le nombre de structures déposées a considérablement augmenté à partir des années 1980. En effet, à cette époque, les techniques cristallographiques se sont améliorées, les structures déterminées par RMN ont été ajoutées, et la communauté scientifique a changé de vue sur le partage des données.
+Au début des années 1990, la majorité des journaux demandaient un code PDB et une agence de financement, le NIST, exigeait le dépôt de toutes les données structurales. La PDB est également devenue accessible par le réseau Internet, plutôt que sur supports physiques. De fait, les premiers utilisateurs de la PDB qui étaient limités à des experts impliqués dans la recherche structurale, sont devenus des déposants utilisant des techniques variées pour déterminer les structures : diffraction des rayons X, RMN, microscopie cryoélectronique et modélisation théorique. Les modèles théoriques (voir protein structure prediction (en)) ne sont cependant plus acceptés et ont été supprimés en juillet 2002. Les usagers de la PDB sont aujourd’hui très divers, regroupant des chercheurs en biologie, chimie ou bio-informatique, des enseignants et des étudiants de tous niveaux.
+De nombreuses sources de financement et de journaux scientifiques demandent à présent le dépôt des structures dans la PDB. Un afflux incroyable de données a également été généré par la génomique structurale. La croissance du nombre d’entrées de la PDB est aujourd’hui exponentielle.
+Contenu[modifier | modifier le code]
+Des exemples de la structure des protéines de la PDB
+La PDB contient, au 13/11/2013, 95475 structures. Les données sont depuis l’origine au format pdb, et sont depuis quelques années également au format mmCif, spécifiquement développé pour les données structurales de la PDB. 6 000 à 7 000 structures sont ajoutées chaque année.
+La banque contient des fichiers pour chaque modèle moléculaire. Ces fichiers décrivent la localisation exacte de chaque atome de la macromolécule étudiée, c'est-à-dire les coordonnées cartésiennes de l’atome dans un repère à trois dimensions. Si l’on s’intéresse plutôt à la séquence de la macromolécule (la liste des acides aminés ou nucléiques), il vaut mieux utiliser d’autres banques bien plus grandes, comme Swiss-Prot. Les fichiers contiennent également des métadonnées.
+Statistiques de la PDB (PDB Holdings List) au 02/02/2012 :
+Méthode expérimentale
+Protéines
+Acides nucléiques
+Complexes protéines /
+acides nucléiques
+Autres
+Total
+Diffractométrie de rayons X
+64591
+1337
+3187
+2
+69 117
+RMN
+8108
+966
+186
+7
+9 267
+Microscopie électronique
+277
+22
+101
+0
+400
+Hybride
+42
+3
+2
+1
+48
+Autres
+138
+4
+5
+13
+160
+Total
+73 156
+2 332
+3 481
+23
+78 992
+Formats des fichiers[modifier | modifier le code]
+Chaque modèle est référencé dans la banque par un identifiant unique à 4 caractères, le premier étant toujours un caractère numérique, les trois suivants étant des caractères alphanumériques. Cet identifiant est appelé « code pdb ».
+Plusieurs formats existent pour les fichiers de la PDB :
+Le format PDB[modifier | modifier le code]
+Le format pdb est le format original de la banque. La guide de ce format a été révisé à plusieurs reprises ; la version actuelle (nov. 2012) est la version 3.30. Il est fortement conseillé de lire ce guide avant d’examiner les données brutes des fichiers pdb.
+Les archives contiennent les coordonnées cartésiennes des atomes, la bibliographie, les informations structurales, les facteurs de la structure cristallographique et les données expérimentales de la RMN. À l’origine, le format pdb a été dicté par l’utilisation et la largeur de cartes perforées pour ordinateur. En conséquence, chaque ligne contient exactement 80 caractères.
+Un fichier au format pdb est un fichier texte où chaque colonne possède sa signification : chaque paramètre est positionné de façon immuable. Ainsi, les 6 premières colonnes, c’est-à-dire les 6 premiers caractères pour une ligne donnée, déterminent le champ du fichier. On retrouve par exemple les champs « TITLE_ » (c'est-à-dire le titre de la macromolécule étudiée), « KEYWDS » (les mots-clé de l’entrée), « EXPDTA » qui donne des informations sur la méthode expérimentale employée, « SEQRES » (la séquence de la protéine étudiée), « ATOM__ » ou « HETATM », champs comprenant toutes les informations liées à un atome particulier. Dernier exemple, dans ces derniers champs, le nom de l’atome est décrit par les colonnes 13 à 16 (soit du treizième au seizième caractère de la ligne).
+Les lignes « ATOM__ » concernent les acides aminés ou les acides nucléiques, et les lignes « HETATM » sont dédiées aux autres molécules (solvant, substrat, ion, détergent…). Il y a autant de lignes « ATOM__ » et « HETATM » que d’atomes observés par l’expérimentateur, pour une macromolécule ou un complexe donné.
+La longue histoire du format pdb a abouti sur des données non uniformes. Ce format laisse également la place à de nombreuses erreurs, qui ne sont pas systématiquement éliminées lors des contrôles accompagnant le dépôt des structures. Il peut s’agir de désaccords entre la séquence et les résidus représentés, ou de problèmes liés à la nomenclature des atomes des acides aminés ou des ligands.
+Limitations du format pdb. Le format en 80 colonnes des fichiers pdb est relativement restrictif. Le nombre maximum d’atomes d’un fichier pdb est de 99 999, vu qu’il n’y a que 5 colonnes allouées pour les numéros des atomes. De même le nombre de résidus par chaîne est au maximum de 9 999 : il n’y a que 4 colonnes autorisées pour ce chiffre. Le nombre de chaînes, lui, est limité à 62 : une seule colonne est disponible, et les valeurs possibles sont une des lettres des 26 lettres de l’alphabet, en minuscule ou en majuscule, ou un des chiffres de 0 à 9. Quant ce format a été défini, ces limitations ne semblaient pas restrictives, mais elles ont plusieurs fois été franchies lors du dépôt de structures extrêmement grandes, comme des virus, des ribosomes ou des complexes multienzymatiques.
+Le format mmCIF[modifier | modifier le code]
+L’intérêt croissant pour le développement de bases de données et de publications électroniques, à la fin des années 1980, a fait naître le besoin d’une représentation plus structurée, uniformisée, non limitée et de haute qualité pour les données de la PDB. En 1990, l’Union internationale de la cristallographie (International Union of Crystallography, IUCr) a étendu aux macromolécules la représentation des données utilisée pour décrire les structures cristallographiques des molécules de faible poids moléculaire. Cette représentation est appelée CIF, pour Crystallographic Information File. À partir de celle-ci, le dictionnaire mmCIF (macromolecular Crystallographic Information File) a donc été développé. La première version du dictionnaire mmCIF a été publiée en 1996.
+Quand le RCSB a pris la direction de la PDB en 1998, il a adopté le format mmCIF pour le traitement et la gestion des données. En 2001, tous les fichiers pdb ont été corrigés et convertis au format mmCIF4.
+Dans le format mmCIF, chaque champ de chaque section d’un fichier pdb est représenté par une description d’une caractéristique d’un objet, qui comprend d’une part le nom de la caractéristique (par exemple _struct.entry_id), et d’autre part le contenu de la description (ici le code pdb : 1cbn). On parle de paire « nom-valeur ». Il est aisé de convertir, sans perte d’informations, un fichier mmCIF au format pdb, puisque toute l’information est directement analysable. Il n’est pas possible, en revanche, de complètement automatiser la conversion d’un fichier pdb au format mmCIF, puisque plusieurs descripteurs mmCIF sont soit absents du fichier PDB, soit présent dans un champ « REMARK » qui ne peut pas toujours être analysé. Le contenu des champs « REMARK » est en effet séparé suivant différentes entrées du dictionnaire mmCIF, afin de préserver l’intégralité des informations, contenues par exemple dans la section Matériel et Méthodes (caractéristiques du cristal, méthode de raffinement…) ou dans les descriptions de la molécule biologiquement active ou des autres molécules présentes (substrat, inhibiteur…).
+Le dictionnaire mmCIF comprend plus de 1 700 entrées, qui ne sont, bien sûr, pas toutes utilisées dans un même fichier de la PDB. Tous les noms des champs sont précédés du caractère « underscore » ( _ ), afin de pouvoir les différencier des valeurs elles-mêmes. Chaque nom correspond à une entrée du dictionnaire mmCIF, où les caractéristiques de l’objet sont exactement définies.
+Comparaison d’un fichier pdb et d’un fichier mmCIF[modifier | modifier le code]
+Chaque champ d’un fichier pdb est représenté par un nom spécifique en mmCIF. Par exemple, le champ « HEADER » du fichier pdb 1cbn :
+HEADER PLANT SEED PROTEIN 11-OCT-91 1CBN
+devient :
+_struct.entry_id '1CBN'
+_struct.title 'PLANT SEED PROTEIN'
+_struct_keywords.entry_id '1CBN'
+_struct_keywords.text 'plant seed protein'
+_database_2.database_id 'PDB'
+_database_2.database_code '1CBN'
+_database_PDB_rev.rev_num 1
+_database_PDB_rev.date_original '1991-10-11'
+L’appariement nom-valeur est la différence majeure par rapport au format pdb. Il présente l’avantage de fournir une référence explicite pour chaque élément des données du fichier, plutôt que de librement laisser l’interprétation au programme qui lit le fichier.
+Le format pdbml[modifier | modifier le code]
+Le format pdbml est l’adaptation au format XML des données au format pdb et contient les entrées décrites dans le dictionnaire PDB Exchange Dictionnary. Ce dictionnaire contient les mêmes entrées que le dictionnaire mmCIF ainsi que d’autres, pour pouvoir prendre en compte toutes les données gérées et distribuées par la PDB. Ce format permet de stocker beaucoup plus d'informations sur les modèles que le format pdb.
+Consultation des données[modifier | modifier le code]
+Les fichiers décrivant les modèles moléculaires peuvent être téléchargés à partir du site de la PDBe ou RCSB ou PDBj et visualisés grâce à différents logiciels tels que rasmol, Jmol, Protein Segment Finder, chime, une extension VRML (plugin) d'un navigateur ou une bibliothèque mmLib pour le langage de programmation Python. Le site web de la PDB contient également des ressources pour l'enseignement, sur la génomique structurale et d'autres logiciels utiles.
+Liens vers les données de la base de données des enzymes[modifier | modifier le code]
+[1] La meilleure cartographie est fourni par le groupe de Kim Henrick à l'EBI.
+La PDB elle-même fournit des liens vers d'autres bases de données.
+[2] Effectuer une recherche sur le portail BRENDA enzyme database.
+[3] PDBSProtEC:
+Références[modifier | modifier le code]
+Imprimées[modifier | modifier le code]
+Bernstein FC, Koetzle TF, Williams GJ, Meyer Jr EF, Brice MD, Rodgers JR, Kennard O, Shimanouchi T, Tasumi M. The Protein Data Bank: a computer-based archival file for macromolecular structures. J Mol Biol 1977;112:535-542. PMID 875032.
+En ligne[modifier | modifier le code]
+Protein Data Bank - home page
+Protein Data Bank Europe
+Protein Data Bank Japan
+RCSB Protein Data Bank - US
+The Protein Data Bank - La publication de référence sur la PDB, par Berman et al. PMID 10592235
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Biologie structurale
+Inorganic crystal structure database
+Powder diffraction file
+Liens externes[modifier | modifier le code]
+RasMol Home Page - Un outil de visualisation moléculaire
+ExPASy - Swiss-Prot et TrEMBL
+DNA Sequence Collaborator's Page International Nucleotide Sequence Database Collaboration
+v · d · m
+Bio-informatique
+Bases de données
+Banques de séquences : GenBank, EMBL Nucleotide Sequence Database et DNA Data Bank of Japan (DDBJ)
+Bases de données secondaires : UniProt, base de donnée de séquences protéiques regroupant Swiss-Prot, TrEMBL et Protein Information Resource (PIR)
+Quelques autres bases de données : Protein Data Bank · Ensembl · InterPro
+Bases de données génomiques spécialisées : Saccharomyces Genome Database, FlyBase, WormBase, The Arabidopsis Information Resource, Zebrafish Information Network
+Divers
+Algorithme : BLAST · FASTA · Smith-Waterman · Serveur : ExPASy
+Institutions
+Institut européen de bio-informatique (EBI) · Centre américain pour les informations biotechnologiques (NCBI) · Institut suisse de bioinformatique · Institut japonais de génétique
+Séquençage · Alignement de séquences · Phylogénie moléculaire
+Portail de la biochimie
+Portail de la biologie cellulaire et moléculaire
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Protein_Data_Bank&oldid=108752631 ».
+Catégories : Base de données bioinformatiquesProtéomiqueRecherche scientifique sur InternetCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Biochimie/Articles liésPortail:Biologie/Articles liésPortail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Biologie cellulaire et moléculaire/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Català
+Čeština
+Dansk
+Deutsch
+English
+Español
+فارسی
+Suomi
+Galego
+עברית
+Italiano
+日本語
+한국어
+Nederlands
+Polski
+Português
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Српски / srpski
+Svenska
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 2 novembre 2014 à 11:23.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

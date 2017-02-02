@@ -1,0 +1,153 @@
+Ligne d'univers — Wikipédia
+Ligne d'univers
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Deux exemples de lignes d'univers
+En physique, la ligne d'univers d'un objet est le tracé d'un objet lorsqu'il voyage à travers l'espace-temps en 4 dimensions. Le concept de ligne d'univers se distingue du concept de l'« orbite » ou de la « trajectoire » (tel que l'orbite d'un corps dans l'espace ou la trajectoire d'un camion sur une route) par la dimension temporelle. L'idée des lignes d'univers trouve son origine dans la physique et Einstein en fut le pionnier. Le terme est maintenant utilisé le plus souvent dans les théories de la relativité (générale ou restreinte, par exemple).
+Cependant, les lignes d'univers sont une manière de représenter le cours des événements. Son utilisation n'est pas liée à une théorie spécifique. Dans un usage général, une ligne d'univers est un chemin séquentiel d'événements (avec le temps et l'endroit comme dimensions) qui marquent l'histoire d'un objet. Le carnet de bord d'un navire est une description de sa ligne d'univers, pour autant qu'il comprenne une « étiquette de temps » attachée à chaque position. Il en va de même pour la vitesse d'un navire selon une mesure de distance (appelée métrique) appropriée à la courbe de la surface de la Terre.
+Sommaire
+1 Utilisation en physique
+2 Les lignes d'univers comme outils pour décrire des événements
+2.1 Exemples triviaux de courbes d'espace-temps
+2.2 Vecteur tangent à une ligne d'univers, de dimension quatre
+3 En relativité restreinte
+4 En relativité générale
+5 Voir aussi
+5.1 Articles connexes
+5.2 Lien externe
+Utilisation en physique[modifier | modifier le code]
+En physique, la ligne d'univers d'un objet (comme une particule ponctuelle, par exemple) est la séquence des événements de l'espace-temps correspondant à l'histoire de l'objet. La ligne d'univers est un cas spécial de courbe de l'espace-temps. Chaque point d'une ligne d'univers est un événement qui pourrait être libellé avec le temps et la position spéciale de l'objet à ce moment-là.
+Par exemple, dans un repère fixe par rapport au soleil, l'orbite de la Terre dans l'espace ressemble à un cercle, à une courbe fermée tridimensionnelle : la terre retourne chaque année au même point dans l'espace. Cependant, elle arrive à cet endroit à un moment différent (un an plus tard). La ligne d'univers de la terre est ainsi représentée par une hélice dans l'espace-temps, une courbe dans l'espace quadridimensionnel, et elle ne retourne donc jamais au même point.
+L'espace temps est une collection de points appelés événements, avec un système coordonné et continu, identifiant les événements. Chaque événement peut être libellé par quatre nombres : une coordonnée de temps et 3 coordonnés d'espaces. L'espace-temps est donc un espace quadridimensionnel. La terminologie mathématique pour l'espace-temps est une variété quadridimensionnelle. Le concept peut être appliqué également à un espace comprenant plus de dimensions. Pour une visualisation plus aisée des quatre dimensions, deux coordonnés d'espaces sont souvent supprimés. L'évènement est alors représenté par un point dans un espace bidimensionnel, un plan muni généralement d'une coordonnée de temps, souvent appelée t, et d'une coordonnée d'espace (souvent horizontale), généralement nommée x.
+Une ligne d'univers trace la trajectoire d'un seul point dans l'espace-temps. Une feuille d'univers est la surface bidimensionnelle analogue, tracée par une ligne (comme une corde) voyageant à travers l'espace-temps. La feuille d'univers d'une corde ouverte est un ruban, et celle d'une corde fermée, un cylindre.
+Les lignes d'univers comme outils pour décrire des événements[modifier | modifier le code]
+Une ligne d'univers, une feuille d'univers et un volume d'univers, engendrés par une particule ponctuelle, une corde, et une brane.
+Une ligne ou courbe unidimensionnelle peut être représentée par ses coordonnées comme une fonction d'un paramètre. Chaque valeur a un point dans l'espace-temps et, variant le paramètre, il trace une ligne. Donc, en termes mathématiques, une courbe est définie par quatre fonctions coordonnées
+(quand
+dénote un temps coordonné) qui dépend d'un paramètre . Une grille coordonnée dans l'espace-temps est un ensemble de courbes que l'on obtient si trois des quatre fonctions sont des constantes.
+Quelquefois, le terme « ligne d'univers » est librement utilisé pour n'importe quelle courbe d'espace-temps. Cette terminologie pose problème. Plus convenablement, une ligne d'univers est une courbe dans l'espace-temps qui trace l'histoire (selon le temps) d'une particule, d'un observateur, ou plus généralement, d'un objet. On prend généralement le temps propre d'un objet ou d'un observateur comme paramètre
+de la courbe le long de la ligne de temps.
+Exemples triviaux de courbes d'espace-temps[modifier | modifier le code]
+Différentes lignes d'univers voyageant à différentes vitesses constantes.
+t représente le temps et x représente la distance.
+Une courbe qui consiste en un segment de ligne horizontale (une ligne au temps coordonné constant) peut représenter une tige dans l'espace-temps et ne serait pas une ligne d'univers dans le sens propre du terme. Le paramètre trace la longueur de la tige.
+Une ligne à espace coordonné constant (une ligne verticale, par convention) peut représenter une particule au repos, ou encore un observateur stationnaire. Plus la ligne se rapproche de l'horizontale, plus la vitesse est grande.
+Deux lignes d'univers qui démarrent séparément et qui s'entrecoupent par la suite signifient une collision ou une rencontre. Deux lignes démarrant au même événement dans l'espace-temps, chacune suivant par la suite son propre chemin, peuvent représenter la décadence d'une particule dans deux autres émissions ou une émission d'une particule par une autre.
+Les lignes d'univers d'une particule et d'un observateur peuvent être interconnectées avec la ligne d'univers d'un photon et former un diagramme qui décrit les émissions d'un photon par une particule qui sera ensuite observée par l'observateur, ou absorbée par une autre particule.
+Vecteur tangent à une ligne d'univers, de dimension quatre[modifier | modifier le code]
+Les quatre fonctions coordonnées
+définissant une ligne d'univers, sont les fonctions réelles d'un vrai
+variable, et peuvent simplement être différentiées dans les calculs usuels. Sans l'existence d'une métrique, on ne peut parler de la différence entre un point
+sur la courbe au paramètre de la valeur
+et un point sur la courbe (paramètre ) situé un peu plus loin. Dans la limite , cette différence divisée par
+définit un vecteur, le vecteur tangent de la ligne d'univers au point . C'est un vecteur de dimension quatre, défini dans le point . Il est associé avec la vélocité normale tridimensionnelle d'un objet (mais ce n'est pas le même) et donc appelé
+de vélocité quatre, ou dans les composants :
+où les dérivées sont prises en compte au point , ainsi, .
+Toutes les autres courbes passant à travers le point
+ont un vecteur tangent, et pas seulement des lignes d'univers. La somme de deux vecteurs est encore un vecteur tangent pour certaines autres courbes et la même base pour multiplier par un scalaire. Par conséquent, tous les vecteurs tangents en un point
+traversent un espace linéaire, appelé espace tangent au point . Par exemple, prenons un espace bidimensionnel, comme la surface courbe de la Terre, son espace tangent à un point spécifique serait l'approximation plane de l'espace courbé.
+Imaginons un pendule flottant dans l'espace. Nous imaginons dans notre tête quatre étapes dans le temps : « Maintenant », « Puis », « Avant », et le « Passé »[pas clair]. Imaginons le pendule se balançant ainsi que le tic-tac du mécanisme interne. Chaque balancement de droite à gauche représente un mouvement dans l'espace, et la période entre un tic et un tac représente une période de temps.
+Maintenant, visualisons une ligne ondoyante entre les différentes situations du pendule aux intervalles de temps : « Maintenant », « Puis », « Avant », et le « Passé ». La ligne est une ligne d'univers et est une représentation de la position du pendule dans l'espace-temps à n'importe quel point entre les intervalles. Le temps s'écoule donc entre « Passé » et « Maintenant ».
+En relativité restreinte[modifier | modifier le code]
+Dans les paragraphes précédents, une ligne d'univers (et le concept de vecteurs tangents) est définie dans l'espace-temps même sans une définition d'une métrique. Cette section présente les théories dans lesquelles une métrique est définie.
+La théorie de la relativité restreinte met quelques contraintes sur les possibles lignes d'univers. En relativité restreinte, la description de l'espace-temps est limitée à des systèmes coordonnés spéciaux qui n'accélèrent pas (et donc, qui ne tournent pas non plus), appelés les systèmes coordonnés inertes. Dans de tels systèmes coordonnés, la vitesse de la lumière est constante. L'espace-temps possède alors un type spécial de métrique qui lui est imposé, la métrique de Lorentz, qui, dans ce cas, porte le nom d'espace de Minkowski. Celui-ci permet par exemple une description de la trajectoire de la lumière.
+Les lignes d'univers des particules ou objets à vitesse constante sont appelées des géodésiques. En relativité restreinte, ce sont des lignes droites dans l'espace de Minkowski.
+Souvent, les unités de temps sont choisies de façon à ce que la vitesse de la lumière soit représentée par des lignes à un angle fixe, généralement, 45°, formant un cône avec l'axe vertical (le temps). En général, les courbes d'espace-temps munies d'une métrique donnée peuvent être de trois types :
+Un exemple d'un cône de lumière. Les surfaces tridimensionnelles de tous les rayons de lumière possibles arrivant et partant d'un point dans l'espace-temps. Ici, il est décrit avec une dimension spatiale supprimée.
+Les courbes de lumière, ayant à chaque point la vitesse c. Elles forment un cône dans l'espace-temps, le divisant en deux parties. Le cône est un hyperplan tridimensionnel dans l'espace-temps, qui apparaît comme une ligne sur les dessins avec deux dimensions supprimées, et comme un cône sur les dessins avec une dimension spatiale supprimée.
+Les courbes de temps avec une vitesse inférieure à c. Ces courbes doivent tomber dans les limites d'un cône défini par les courbes de lumière. Dans la définition ci-dessus, les lignes d'univers sont des courbes de temps dans l'espace.
+Les courbes d'espace tombent en dehors du cône de lumière. De telles courbes peuvent décrire, par exemple, la longueur d'un objet physique. La circonférence d'un cercle et la longueur d'une tige sont des courbes d'espace.
+Un événement spécifique donne sur une ligne d'univers, l'espace-temps (espace de Minkowski) est divisé en trois parties :
+Le futur d'un événement donné est formé par tous les événements qui peuvent être atteints à travers une courbe de temps se situant dans le cône de lumière futur.
+Le passé d'un événement donné est formé par tous les évènements qui peuvent influencer l'événement (cela étant, qui puisse être connecté par les lignes d'univers du cône de lumière passé vers l'événement en question).
+Le cône de lumière d'un moment donné est formé par tous les événements qui peuvent être connectés à travers des rayons de lumière avec l'événement. Lorsque nous observons le ciel nocturne, nous voyons uniquement le cône de lumière passé dans la totalité de l'espace-temps.
+Le présent est la région entre deux cônes de lumière. Les points dans le présent d'un observateur lui sont inaccessibles. Seuls les points dans le passé peuvent envoyer des signaux à l'observateur. Dans les laboratoires ordinaires, utilisant des unités communes et des méthodes de mesures, il peut sembler que l'on regarde le présent : « maintenant nous le voyons, maintenant plus », mais en fait il y a toujours un retard pour la propagation de la lumière. Par exemple, nous voyons le Soleil tel qu'il était il y a 8 minutes et non pas comme il est à l'instant présent. Contrairement à la théorie galiléenne ou newtonienne, le présent est épais ; ce n'est pas une surface, mais un volume.
+L'instant présent est défini pour un observateur donné, par un plan normal à sa ligne d'univers (plan de simultanéité). Bien que les cônes de lumières soient les mêmes pour tous les observateurs à un point donné de l'espace-temps, différents observateurs, avec des vitesses différentes mais présent à un même point de l'espace-temps, ont des lignes d'univers qui s'entrecroisent à un angle déterminé par leur vitesse relative, et le plan de simultanéité est donc différent pour chacun d'eux. Le fait que la simultanéité dépende de la vitesse relative a posé problème à beaucoup de scientifiques et aux profanes essayant d'accepter la relativité lorsqu'elle en était à ses balbutiements. L'illustration avec les cônes de lumière peut faire croire qu'ils ne peuvent pas être à 45° des deux lignes qui se croisent mais cela peut être démontré avec la transformation de Lorentz. La géométrie est minkowskienne et non pas euclidienne.
+En relativité générale[modifier | modifier le code]
+L'usage des lignes d'univers en relativité générale est fondamentalement le même qu'en relativité restreinte. Cependant, ici, tous les systèmes coordonnés sont permis. Une métrique existe et elle est déterminée par la distribution de la masse dans l'espace-temps. À nouveau, la métrique définit les courbes de lumière, d'espace et de temps. Aussi, en relativité générale, les lignes d'univers sont des courbes de temps dans l'espace-temps, là où les courbes de temps tombent dans le cône de lumière. Cependant, un cône de lumière n'est pas nécessairement incliné à 45° sur l'axe du temps. Les lignes d'univers ou d'objets tombant librement (tels que les planètes autour du Soleil, ou un astronaute dans l'espace) sont appelés des géodésiques.
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Théorie de la relativité
+Espace de Minkowski
+Espace-temps
+Géodésique
+Cône de lumière
+Feuille d'univers
+Volume d'univers
+Lien externe[modifier | modifier le code]
+(en) Pour en savoir plus..., article de H2g2 (site Web)
+Portail de la physique
+Portail de la cosmologie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Ligne_d%27univers&oldid=109972462 ».
+Catégorie : RelativitéCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Cosmologie/Articles liésPortail:Astronomie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Català
+Deutsch
+English
+Esperanto
+Español
+Euskara
+فارسی
+Suomi
+עברית
+Italiano
+日本語
+Қазақша
+한국어
+മലയാളം
+Nederlands
+ਪੰਜਾਬੀ
+Polski
+Русский
+Simple English
+Slovenščina
+Українська
+اردو
+中文
+Modifier les liens
+Dernière modification de cette page le 15 décembre 2014 à 11:47.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

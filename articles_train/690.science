@@ -1,0 +1,115 @@
+Addition électrophile — Wikipédia
+Addition électrophile
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'addition électrophile est une réaction d'addition en chimie organique, où une liaison π est supprimée par la création de deux liaisons covalentes.
+Sommaire
+1 Principe général
+2 Addition de H+
+2.1 Synthèse de composés halogénés
+2.2 Hydratation, synthèse d'alcools
+2.3 Synthèse de thiols
+3 Addition de X+
+3.1 Addition de dihalogène
+3.2 Addition d'acides hypohalogéneux, synthèse d'halogénohydrines
+4 Formation d'epoxydes
+5 Voir aussi
+Principe général[modifier | modifier le code]
+Attirance d'un électrophile par des électrons π
+L'addition électrophile se fonde sur l'attirance qu'a un groupement électrophile pour le champ des électrons π d'une double liaison (d'un alcène dans la plupart des cas). Les liaisons π sont en effet bien plus cassables que les liaisons σ.
+.
+Une addition consiste donc à l'appropriation des électrons π par un électrophile qui formera une liaison σ avec l'un des carbones de la double liaison. Dans la majorité des cas, l'addition électrophile sera suivie de l'addition d'un nucléophile. Cette réaction conduira à un grand nombre de composés, tels que des alcools, thiols, halogénohydrines ou encore époxydes.
+Addition de H+[modifier | modifier le code]
+Synthèse de composés halogénés[modifier | modifier le code]
+L'ajout d'un acide halogénohydrique (chlorhydrique, bromhydrique ou iodhydrique) sur un alcène conduit à la formation d'un composé halogéné. On appelle ce type de réaction hydrohalogénation. L'électrophile H+ réagit sur les électrons π pour conduire à un carbocation intermédiaire. L'ion halogénure restant vient alors attaquer le carbone déficitaire pour finalement former la molécule halogénée. On constate donc que l'addition électrophile est nécessairement suivie d'une addition nucléophile pour stabiliser le carbocation.
+Régiosélectivité : le proton H+ choisira de se positionner sur le carbone permettant de conduire au carbocation le plus stable. Cette règle est connue sous le nom de régiosélectivité de Markovnikov.
+Exemple : Le propylène CH3-CH=CH2 pourra passer par l'intermédiaire CH3-CH2-C+H2 ou CH3-C+H-CH3. Les effets inductifs des méthyles stabilisent le deuxième carbocation. D'après la règle Markovnikov, c'est donc ce dernier qui se formera à quasiment 100 %.
+Stéréosélectivité : quelle que soit la configuration de l'alcène de départ (Z ou E lorsque les a≠b≠c≠d), la réaction conduira a un mélange des quatre stéréoisomères (si les deux carbones sont asymétriques) RR, SS, RS et SR, l'halogénure X- attaquant indifféremment le carbocation par un côté ou l'autre. Cette synthèse n'est donc pas stéréosélective, il n'y a aucun intérêt à choisir l'isomère Z plutôt que le E au départ, et inversement.
+Hydratation, synthèse d'alcools[modifier | modifier le code]
+Selon un procédé identique, on peut hydrater un alcène pour former un alcool. On a besoin d'être en milieu acide pour activer la réaction (formation du carbocation). La forme oxonium R-O+H2 est en équilibre avec l'alcool sur le papier mais comme on est en présence d'une catalyse homogène acide, l'ion H+ formé réagit avec l'alcène de départ et donc déplace l'équilibre vers la formation de l'alcool.
+Cette réaction n'est pas stéréosélective, et la régiosélectivité est toujours liée au carbocation intermédiaire (H+ est toujours l'électrophile).
+Synthèse de thiols[modifier | modifier le code]
+L'addition de l'analogue soufré de l'eau, c'est-à-dire le sulfure d'hydrogène (H2S), conduit quant à elle à la synthèse d'un thiol, l'analogue soufré d'un alcool.
+Les propriétés de cette réactions sont les mêmes que pour l'addition de l'eau.
+Addition de X+[modifier | modifier le code]
+Addition de dihalogène[modifier | modifier le code]
+Article détaillé : Halogénation.
+Lorsqu'un dihalogène X2 (Cl2, Br2, I2) est proche du champ des électrons π d'une double liaison, il se polarise. Dans le cas du brome, X+ vient ensuite former sur le substrat un pont halonium (bromonium) par dessus la liaison C-C. L'halogénure X- préalablement libéré attaque ce composé intermédiaire en anti, générant ainsi un composé dihalogéné.
+Cette réaction ne présente pas de régiosélectivité particulière, en raison de la symétrie du pont halonium qui couvre la totalité de la liaison C-C.
+Par contre, cette addition est qualifiée de diastéréosélective. En effet, l'attaque de l'halogénure se faisant en anti, on forme un couple d'énantiomères (si les deux carbones sont asymétriques). De plus, si l'on part de l'isomère configurationnel Z et que l'on obtient le couple RR/SS, alors on obtient le couple RS/SR avec l'isomère E, et vice-versa. Le terme de diastéréosélectivité est conservé si le couple RS/SR est un composé méso.
+Addition d'acides hypohalogéneux, synthèse d'halogénohydrines[modifier | modifier le code]
+Selon le même principe, les acides hypohalogéneux (HOX) viennent réagir sur une double liaison pour former un composé présentant un groupement hydroxyde et un halogène sur le carbone voisin. Ces composés sont appelés halogénohydrines.
+Les atomes d'oxygène n'ayant pas forcément la même priorité selon Cahn, Ingold et Prelog que les halogènes, on n'obtiendra pas les mêmes stéréoisomères qu'avec l'addition d'un dihalogène. On a toutefois toujours une réaction diastéréospécifique.
+Formation d'epoxydes[modifier | modifier le code]
+Article détaillé : époxyde.
+L'action d'un peracide sur un alcène conduit à un époxyde
+On peut ensuite attaquer l'époxyde avec un nucléophile fort, à l'instar de l'attaque d'un pont halonium. On peut ainsi générer une grande palette de composés.
+Voir aussi[modifier | modifier le code]
+Addition nucléophile
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Addition_électrophile&oldid=107625053 ».
+Catégorie : Réaction d'additionCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Deutsch
+English
+Español
+Eesti
+فارسی
+Magyar
+Italiano
+日本語
+Nederlands
+Polski
+Português
+Русский
+Slovenčina
+Slovenščina
+中文
+Modifier les liens
+Dernière modification de cette page le 21 septembre 2014 à 11:14.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

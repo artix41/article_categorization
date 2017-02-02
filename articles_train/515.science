@@ -1,0 +1,277 @@
+Arithmétique — Wikipédia
+Arithmétique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour le film de 1952, voir Arithmétique (documentaire).
+Illustration d’une décomposition arborescente d’un calcul arithmétique faisant intervenir l’addition (symbole +), la soustraction (symbole -), la multiplication (symbole *), le quotient (symbole /) et le reste (symbole %) de la division euclidienne.
+L’arithmétique est une branche des mathématiques qui comprend la partie de la théorie des nombres qui utilise des méthodes de la géométrie algébrique et de la théorie des groupes[réf. nécessaire]. On l'appelle plus généralement la « science des nombres ». Son étymologie provient du mot grec « ἀριθμός » qui signifie « nombre ».
+Autrefois, l'arithmétique se limitait à l'étude des propriétés des entiers naturels, des entiers relatifs, et des nombres rationnels (sous forme de fractions), et aux propriétés des opérations sur ces nombres.
+Les opérations arithmétiques traditionnelles sont l'addition, la division, la multiplication, et la soustraction.
+Cette discipline fut ensuite élargie par l'inclusion de l'étude d'autres nombres comme les réels (sous forme de développement décimal illimité), ou même de concepts plus avancés, comme l'exponentiation ou la racine carrée.
+Sommaire
+1 Histoire
+2 Différentes arithmétiques
+2.1 Arithmétique élémentaire
+2.2 Arithmétique modulaire
+2.3 Théorie algébrique des nombres
+2.4 Arithmétique des polynômes
+3 Ensembles utilisés en arithmétique
+4 Propriétés
+4.1 Nombres premiers
+4.2 Nombres pairs et impairs
+5 Bibliographie
+5.1 En mathématiques
+5.2 En philosophie
+6 Voir aussi
+Histoire[modifier | modifier le code]
+Dans l'école pythagoricienne (Pythagore de Samos), à la deuxième moitié du VIe siècle avant J.-C., l'arithmétique était, avec la géométrie, l'astronomie et la musique, une des quatre sciences quantitatives ou mathématiques (Mathemata). Celles-ci furent regroupées au sein des sept arts libéraux par Martianus Capella (Ve siècle), et plus précisément désignées sous le nom de quadrivium par Boèce. Les trois autres disciplines étaient littéraires (grammaire, rhétorique, dialectique) et firent l'objet des travaux de Cassiodore et, plus tard, Alcuin qui leur donna le nom de trivium.
+Différentes arithmétiques[modifier | modifier le code]
+Arithmétique élémentaire[modifier | modifier le code]
+Article détaillé : Arithmétique élémentaire.
+L'expression arithmétique élémentaire désigne parfois la forme la plus basique des mathématiques, apprise à l’école élémentaire. Il s’agit essentiellement de l’étude des nombres, et des opérations élémentaires (soustraction, addition, division, multiplication).
+Ce terme désigne aussi les rudiments des techniques de l'arithmétique. Les outils utilisés sont la division euclidienne, le lemme d'Euclide, le théorème de Bachet-Bézout ou encore le théorème fondamental de l'arithmétique. Il permet de démontrer des théorèmes comme celui de Wilson ou encore le petit théorème de Fermat.
+Cette deuxième acception du terme est traitée dans l'article détaillé.
+Arithmétique modulaire[modifier | modifier le code]
+Article détaillé : Arithmétique modulaire.
+Carl Friedrich Gauss (1777 - 1855) étudie l'ensemble des congruences sur les entiers, c'est-à-dire celui composé des restes de la division euclidienne par un nombre entier donné. Cet ensemble est naturellement muni d'une addition et d'une multiplication.
+L'étude de cette structure porte le nom d'arithmétique modulaire. Elle permet de généraliser les résultats de l'arithmétique élémentaire. Le théorème d'Euler, correspondant à un résultat plus fort que celui du petit théorème de Fermat, illustre une généralisation.
+L'arithmétique modulaire est utilisé en cryptologie ou pour la construction de codes correcteurs en informatique.
+Théorie algébrique des nombres[modifier | modifier le code]
+Article détaillé : Théorie algébrique des nombres.
+De nombreuses questions ne trouvent pas de réponse, même avec les techniques de l'arithmétique modulaire. Des exemples proviennent d'équations diophantiennes, c'est-à-dire d'équations dont les coefficients sont entiers et dont les solutions recherchées sont entières. Une méthode consiste à élargir l'ensemble des entiers à une nouvelle structure qualifiée d'anneau d'entiers algébriques, comme par exemple celui des entiers de Gauss.
+L'étude de ces structures, plus générales que celles de l'arithmétique modulaire qui se limite aux anneaux euclidiens, constitue le premier chapitre de la théorie algébrique des nombres.
+Arithmétique des polynômes[modifier | modifier le code]
+Article détaillé : Arithmétique des polynômes.
+L'étude de l'arithmétique, au sens des nombres entiers, suppose d'établir des théorèmes. Ces théorèmes se démontrent à l'aide de techniques qui ne se limitent pas aux nombres entiers. Il est possible de faire usage de la même démarche sur d'autres structures, comme par exemple celle des polynômes. À travers l'étude des polynômes cyclotomiques, Gauss parvient à trouver un nouveau polygone régulier constructible à la règle et au compas, de 17 côtés.
+Sa démarche est de nature arithmétique, pour cette raison, on parle d'arithmétique des polynômes.
+Ensembles utilisés en arithmétique[modifier | modifier le code]
+La totalité des nombres ont été regroupés dans des ensembles. Les plus connus sont :
+: l'ensemble des entiers naturels ().
+: l'ensemble des entiers relatifs ().
+: l'ensemble des nombres décimaux, c'est-à-dire qui s'écrivent sous la forme d'un quotient d'un nombre entier relatif et d'une puissance positive de 10, c'est-à-dire,
+où x est un nombre entier relatif et n un nombre entier naturel .
+: l'ensemble des nombres rationnels, c'est-à-dire des nombres pouvant s'écrire comme un quotient (résultat d'une division) de deux nombres entiers relatifs. En posant la division, il peut y avoir une infinité de chiffres après la virgule dans le résultat, mais ces chiffres finiront par se répéter; dans ce cas on dit que l'écriture décimale est illimitée périodique. .
+: l'ensemble des nombres réels, mesurant toutes les distances entre deux points d'une droite, peuvent se voir comme limite de nombres rationnels, peuvent s'écrire avec des chiffres après la virgule mais les chiffres ne se répètent plus nécessairement (, soit ).
+: nombres complexes de la forme
+où x et y sont réels et
+imaginaire tel que .
+Certains de ces ensembles sont des sous-ensembles des autres ; Tous les éléments de
+appartiennent aussi à , par exemple. Mais à l'inverse, un élément de
+n'est pas forcément élément de . On peut représenter ces ensembles par des cercles concentriques: le plus petit est , puis viennent , , ,
+et .
+Il est possible de ne considérer qu'une partie d'un ensemble. Ainsi, on notera
+l'ensemble des nombres positifs de . De même on notera
+l'ensemble
+privé de 0. On remarque entre autres que
+et que
+(il s'agit de
+« privé de » .).
+Propriétés[modifier | modifier le code]
+De nombreux nombres entiers ont des propriétés particulières. Ces propriétés font l'objet d'une théorie appelée Théorie des nombres. Parmi ces nombres particuliers les nombres premiers sont sans doute les plus importants.
+Nombres premiers[modifier | modifier le code]
+C'est le cas des nombres dits premiers. Ce sont des éléments de ℕ possédant uniquement deux diviseurs positifs distincts, à savoir 1 et eux-mêmes. Les premiers nombres premiers sont 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 etc. 1 n'est pas premier car il n'a pas deux diviseurs distincts, mais un seul. Il existe une infinité de nombres premiers. En complétant une grille de taille 10 × 10 avec les 100 premiers entiers non nuls, et en rayant ceux qui ne sont pas premiers, on obtient les nombres premiers appartenant à { 1, … , 100 } par un procédé appelé un crible d'Ératosthène, du nom du savant grec qui l'inventa.
+Nombres pairs et impairs[modifier | modifier le code]
+Les entiers naturels sont divisés en deux catégories bien connues des joueurs de roulette: les pairs et les impairs.
+Un entier
+pair est un multiple de 2 et peut être noté , avec . Un nombre
+impair n'est pas multiple de 2 et se note , avec .
+On montre que tout entier est soit pair soit impair, et au moins l'un des deux, et ce pour un unique  : on note
+Les premiers entiers pairs sont 0, 2, 4, 6, 8, 10 ... Les premiers entiers impairs sont 1, 3, 5, 7, 9, 11 ...
+Bibliographie[modifier | modifier le code]
+En mathématiques[modifier | modifier le code]
+Jean-Pierre Serre, Cours d'arithmétique [détail des éditions]
+En philosophie[modifier | modifier le code]
+Gottlob Frege, Les Fondements de l'arithmétique, 1884
+Richard Dedekind, Was sind und was sollen die Zahlen?, 1888
+Edmund Husserl, Philosophie de l'arithmétique (en), 1891
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Arithmétique, sur Wikimedia Commons
+Arithmétique, sur Wikiversity
+Addition des entiers naturels
+Associativité
+Commutativité
+Distributivité
+Transitivité
+Ordre des opérations
+Arithmétique des intervalles
+Arithmétique saturée
+Nombre premier
+v · d · m
+Notion de nombre
+Ensembles usuels
+Entier naturel () · Entier relatif () · Nombre décimal () · Nombre rationnel () · Nombre réel () · Nombre complexe ()
+Extensions
+Quaternion () · Octonion () · Sédénion () · Nombre complexe déployé · Tessarine · Nombre bicomplexe () · Nombre multicomplexe () · Biquaternion · Coquaternion · Quaternion hyperbolique · Octonion déployé · Nombre hypercomplexe · Nombre p-adique () · Nombre hyperréel · Nombre superréel · Nombre dual · Droite réelle achevée · Nombre cardinal · Nombre ordinal · Nombre surréel · Nombre pseudo-réel
+Propriétés particulières
+Parité · Nombre premier · Nombre composé · Carré parfait · Nombre parfait · Nombre positif · Nombre négatif · Fraction dyadique · Nombre irrationnel · Nombre algébrique · Nombre transcendant · Nombre imaginaire pur · Nombre de Liouville · Période · Nombre normal · Nombre univers · Nombre constructible · Nombre réel calculable · Nombre transfini · Infiniment petit
+Exemples
+Pi (π) · Racine carrée de deux (√2) · Nombre d’or (φ) · Zéro (0) · Unité imaginaire (i) · Constante de Neper (e) · Aleph-zéro (ℵ0) · Table de constantes mathématiques
+Articles liés
+Chiffre · Numération · Fraction · Opération · Calcul · Algèbre · Arithmétique · Suite d'entiers · Infini (∞) · Chiffre significatif
+Portail de l’arithmétique et de la théorie des nombres
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Arithmétique&oldid=107337437 ».
+Catégorie : ArithmétiqueCatégories cachées : Article à référence nécessaireArticle contenant un appel à traduction en anglaisCatégorie Commons avec lien local identique sur WikidataPortail:Arithmétique et théorie des nombres/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesArticle de qualité en hébreuArticle de qualité en latinArticle de qualité en russe
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Alemannisch
+አማርኛ
+Aragonés
+العربية
+Asturianu
+Azərbaycanca
+Башҡортса
+Žemaitėška
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+Brezhoneg
+Bosanski
+Буряад
+Català
+کوردی
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+Estremeñu
+فارسی
+Suomi
+Võro
+Gaeilge
+贛語
+Gàidhlig
+Galego
+עברית
+हिन्दी
+Fiji Hindi
+Hrvatski
+Հայերեն
+Interlingua
+Bahasa Indonesia
+Ilokano
+Ido
+Íslenska
+Italiano
+日本語
+Lojban
+Basa Jawa
+ქართული
+Kongo
+Қазақша
+Kalaallisut
+ಕನ್ನಡ
+한국어
+Кыргызча
+Latina
+Lietuvių
+Latviešu
+Malagasy
+Македонски
+മലയാളം
+मराठी
+Bahasa Melayu
+Mirandés
+မြန်မာဘာသာ
+Nāhuatl
+Napulitano
+नेपाली
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Novial
+Occitan
+Oromoo
+Ирон
+ਪੰਜਾਬੀ
+Polski
+Piemontèis
+پنجابی
+Português
+Runa Simi
+Română
+Русский
+Русиньскый
+Саха тыла
+Sardu
+Sicilianu
+Scots
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+ChiShona
+Shqip
+Српски / srpski
+Svenska
+Kiswahili
+தமிழ்
+ไทย
+Tagalog
+Türkçe
+Татарча/tatarça
+Українська
+اردو
+Oʻzbekcha
+Vèneto
+Tiếng Việt
+Winaray
+Хальмг
+ייִדיש
+Yorùbá
+Zeêuws
+中文
+文言
+粵語
+Modifier les liens
+Dernière modification de cette page le 11 septembre 2014 à 05:24.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

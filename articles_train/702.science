@@ -1,0 +1,57 @@
+Polymérisation en chaîne — Wikipédia
+Polymérisation en chaîne
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Polyaddition)
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant les réactions chimiques.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Une polymérisation en chaîne est une polymérisation dans laquelle la croissance d'une chaîne polymère résulte exclusivement d'une ou plusieurs réactions entre monomère et site réactif de la chaîne polymère, avec régénération du ou des sites réactifs à la fin de chaque étape de croissance. Une polymérisation en chaîne comporte des réactions d'amorçage et de propagation et peut également inclure des réactions de terminaison et de transfert de chaîne[1].
+Pour qu'une polymérisation en chaîne se développe, il faut la création de centres actifs qui ne préexistent pas dans le monomère. Ces centres actifs (équivalents des intermédiaires réactionnels en cinétique chimique) peuvent être des carboradicaux, carbocations, carbanions, etc. Ce sont eux qui permettent la croissance de la chaîne.
+À la différence de la polymérisation par étapes, on obtient des polymères de degré moyen beaucoup plus élevé (n de 103 à 106) en des temps beaucoup plus court (t de 1 s à 1 min). Un centre actif additionne une molécule de monomère en un temps très bref (de l'ordre de 10-5 s) et donne naissance à un nouveau centre actif.
+Parmi les monomères susceptibles de polymériser par polymérisation en chaîne, figurent :
+les monomères contenant des liaisons insaturées ;
+carbone-carbone : alcènes (vinyle), alcynes,
+carbone-oxygène : aldéhydes, cétones ;
+les hétérocycles : éthers cycliques, lactames. Dans ce cas, la polymérisation s'effectue par ouverture de cycle.
+De plus, ce sont les acides nucléiques qui polymérisent en chaîne (réaction en chaîne par polymérase) pour former la molécule d'ADN.
+Sommaire
+1 Aspect thermodynamique: Température plafond
+2 Les différentes étapes
+3 Classification
+3.1 Polymérisation ionique
+4 Notes et références
+Aspect thermodynamique: Température plafond[modifier | modifier le code]
+Soit la réaction de propagation (voir plus bas), notée :
+.
+On peut lui attribuer la constante d'équilibre thermodynamique :
+.
+On sait :
+.
+À l'équilibre,
+où
+est la température plafond, c'est-à-dire la température limite pour que la polymérisation l'emporte sur la dépolymérisation (car il faut .
+On en tire la température plafond :
+.
+Si cette température (calculable en utilisant des tables) est trop basse, cela peut poser problème expérimentalement.
+Les différentes étapes[modifier | modifier le code]
+Les étapes d'amorçage, propagation et terminaison sont analogues aux étapes correspondantes d'une réaction chimique en chaîne entre les petites molécules. Dans la polymérisation, il peut y avoir aussi une étape de transfert de chaîne, qui n'a pas d'analogue pour les réactions des petites molécules.
+Pour les polymérisations en chaîne, on distingue :
+l'amorçage consiste en la création de centre actif , qui peut être de nature radicalaire, cationique, anionique ou organométallique
+;
+la propagation qui correspond à la croissance de chaîne (les additions successives conduisent aux macromolécules sous forme active) et qui est très rapide
+;
+il peut y avoir également :
+la terminaison qui correspond à l'arrêt de la croissance des chaînes par désactivation des centres actifs
+;
+le transfert sur un agent ajouté (T), sur une petite molécule présente, sur le monomère, sur le solvant, sur le polymère ou sur l'amorceur :
+Ces quatre phases sont la plupart du temps simultanées. Dans le cas d'une polymérisation vivante, les étapes de terminaison et de transfert n'existent pas.
+Bien que l'on retrouve le vocabulaire des réactions complexes en chaîne, en toute rigueur une polymérisation en chaîne correspond à un mécanisme par stades car chaque intermédiaire réactionnel (centre actif à k motifs) est détruit (centre à k + 1 motifs) sans être régénéré.
+Classification[modifier | modifier le code]
+Selon la nature du centre actif, on peut classer toute polymérisation en chaîne en :
+polymérisation radicalaire : amorçage par peroxydes... (source de radicaux libres) ;
+polymérisation cationique : amorçage par cation H+, ... (source de carbocations) ;
+polymérisation anionique : amorçage par anion Y- (source de carbanions) ;
+polymérisation coordinative : amorçage par un complexe des métaux de transition.
+Polymérisation ionique[modifier | modifier le code]
+La polymérisation en chaîne par voie radicalaire ne permet pas un contrôle de linéarité des chaînes. C'est pourquoi on s'est tourné vers les polymérisations ioniques (cationiques ou anioniques) dès les années 1950.
+La première étape est toujours l'amorçage, mais avec désormais une rupture hétérolytique, d'où le nom de polymérisation ionique. Selon la polarité du milieu, l'amorceur peut donner naissance à une paire d'ions (cas d'un milieu de faible constante diélectrique) ou à des ions libres solvatés (milieu dissociant). Ensuite vient la propagation bien plus rapide que par mode radicalaire (facteur de 3 à 6 décades). La croissance se fait par insertion du monomère dans l'ion libre ou la paire d'ions. La différence essentielle avec le mode radicalaire se situe au niveau de la terminaison. En effet les espèces ioniques actives ne réagissent pas entre elles. En l'absence d'échanges avec un solvant, les réactions de terminaison sont très lentes ou inexistantes en polymérisation ionique.

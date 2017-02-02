@@ -1,0 +1,179 @@
+E=mc2 — Wikipédia
+E=mc2
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir E=mc2 (homonymie).
+Sculpture de « E=mc2 », à Berlin.
+L'équation E=mc2 (lire « E égal M C carré ») a été exprimée en 1905 par Albert Einstein dans le cadre de la relativité restreinte. Elle signifie qu'une particule de masse m isolée et au repos dans un référentiel possède, du fait de cette masse, une énergie E appelée énergie de masse, de valeur donnée par le produit de m par le carré de la vitesse de la lumière.
+Cette relation a fortement marqué les esprits car elle montre que, du fait de l'énormité du facteur c2, une perte de masse même petite à l'échelle humaine peut dégager une quantité considérable d'énergie. Par exemple, un gramme de matière que l'on annihilerait par collision avec de l'antimatière correspond à environ 1014 joules, soit approximativement l'énergie dégagée par les premières bombes nucléaires.
+Sommaire
+1 Historique
+2 Illustrations
+2.1 Application au domaine nucléaire
+2.1.1 Résolution de la production d'énergie des étoiles
+2.2 Domaines d'application générale de la formule
+2.2.1 Domaine moléculaire et atomique
+2.2.2 Domaine gravitationnel
+3 Formulation générale
+3.1 Cas d'une particule de masse nulle
+3.2 Cas des tachyons
+4 Unités
+4.1 Énergie en unités de masse
+4.2 Masse en électron-volt
+5 Énergie d'une particule
+6 Validité générale de la formule
+7 Notes et références
+8 Voir aussi
+8.1 Articles connexes
+Historique[modifier | modifier le code]
+Selon l'historien Umberto Bartocci (it), l'équation d'équivalence entre masse et énergie aurait été formulée dès 1903 par un physicien italien amateur, Olinto de Pretto[1]. La formule est décrite le 29 novembre 1903 dans un article de 62 pages publié par la revue scientifique de l'Institut Royal des Sciences, Lettres et Arts de Venise[2].
+C'est deux ans plus tard, avec le dernier des articles publiés lors de son annus mirabilis, qu'Einstein exprime ce qui deviendra son équation célèbre : « Si un corps perd une énergie L sous forme de rayonnement, sa masse diminue de L/c2 »[3].
+Dans ce texte, il produit une première démonstration pour le cas général de cette égalité qui jusque-là n'avait été démontrée que dans des cas particuliers[4]. Il en proposera par la suite deux autres, en 1934 et en 1946[4].
+L'équation E=mc2 fait toutefois partie des apports que certains contestent à Einstein dans le cadre de la controverse sur la paternité de la relativité.
+Une formule équivalente à E=mc2 a été publiée en 1900 par le mathématicien français Henri Poincaré dans son mémoire La théorie de Lorentz et le principe de l’action et de la réaction[5], et il a énoncé certaines notions liées à la relativité restreinte et à la relativité générale[réf. souhaitée], dans son ouvrage La Science et l'Hypothèse, publié en 1902.
+Illustrations[modifier | modifier le code]
+En mécanique newtonienne, l'énergie d'une particule isolée provient de sa vitesse et se manifeste sous forme d'énergie cinétique. Au contraire, d'une façon inattendue à l'époque de sa découverte, E = mc2 exprime qu'une particule de masse m possède intrinsèquement une énergie E, même si elle est au repos. Elle stipule que la masse (au repos) fait partie de l’énergie (totale) d'un corps, comme l'est l’énergie cinétique. L’énergie (totale) d’un corps devient donc la somme de son énergie cinétique et de son énergie de masse (au repos).
+Cette équivalence entre masse et énergie ouvre un éventail de possibilités inconnues de la physique pré-relativiste. En relativité restreinte, la masse (au repos) peut être « convertie » en chaleur, énergie cinétique ou autre forme d’énergie, au cours d'une réaction. En effet lorsque les particules d'un système donné subissent une transformation, par exemple lors d'une collision, la relativité restreinte impose que l'énergie totale (évaluée dans un certain système de coordonnées) se conserve. Mais comme l'énergie (totale) comprend la masse (au repos), il est tout-à-fait possible que « de la masse » (au repos) apparaisse lors de la réaction (par exemple sous forme de particules) au détriment d'énergie ou que, au contraire, de l'énergie soit libérée par « consommation » de masse (au repos).
+Numériquement, dans l'équation E=mc2 et dans le système international d'unités :
+E est l'énergie exprimée en joules ;
+m est la masse en kilogrammes ;
+c est la vitesse de la lumière dans le vide, soit 299 792 458 m/s = 2,997 924 58×108 m/s (soit c ≈ 300000 km/s), ce qui correspond à un facteur c2 ≈ 9×1016 m2⋅s-2.
+Dans le système CGS, E est en erg, m en grammes, c vaut 2,997 925×1010 cm/s et c2 ≈ 9×1020 cm2⋅s-2.
+On peut vérifier expérimentalement que la racine carrée du rapport E/m est égale à c dans l'exemple suivant. Dans la désintégration du positronium, il y a création et émission de deux rayons gamma d'énergie (mesurée) 0,511 MeV = 0,8186×10-13 J, en compensation de la disparition de deux masses d'électron.
+La masse d'un électron étant de 9,11×10-31 kg, on trouve bien :
+et donc :
+.
+Application au domaine nucléaire[modifier | modifier le code]
+La fameuse équation sur le pont de l'USS Enterprise lors de l'Opération Sea Orbit, dont tous les navires présents étaient propulsés grâce à l'énergie nucléaire.
+Ce type de transformation de masse en énergie est utilisée par les piles atomiques ainsi que des bombes nucléaires. L'énergie correspondant à 1 kg de matière est énorme, car égale à 9×1016 joules : c'est l'énergie produite par un réacteur nucléaire d'une puissance électrique de 1 400 MW pendant deux ans environ[note 1]. La France produisait en 2006 environ 80 % de son électricité dans 58 centrales nucléaires d'une puissance chacune de l'ordre du gigawatt, leur bilan d'énergie peut être évalué à partir de la formule d'Einstein[note 2].
+Résolution de la production d'énergie des étoiles[modifier | modifier le code]
+À l'échelle astronomique, la formule explique également comment les étoiles, comme le Soleil, peuvent émettre leur énergie pendant des milliards d'années, alors que cette situation constituait un mystère pour la physique du début du XXe siècle, aucune source d'énergie connue à l'époque ne pouvant en rendre compte.
+Au centre du Soleil, les conditions physiques sont telles que s'y produisent des réactions nucléaires capables au bout d'une chaîne de processus de transformer 4 noyaux d'hydrogène (4 protons), en 1 noyau d'hélium. Il se trouve que la masse au repos du noyau d'hélium (4He) est inférieure à la somme des masses au repos des 2 protons et 2 neutrons[note 3] qui le constituent.
+L'énergie équivalente à cette différence de masse est la source de l'énergie du Soleil, et grâce à l'importance du facteur de conversion c2 et à la masse considérable du Soleil, le calcul montre que l'énergie libérée permet à notre étoile de briller pendant une bonne douzaine de milliards d'années[note 4].
+Domaines d'application générale de la formule[modifier | modifier le code]
+Domaine moléculaire et atomique[modifier | modifier le code]
+Cette relation s'applique à d'autres domaines que le nucléaire. Par exemple en chimie, lorsque 1 000 moles d'hydrogène se combinent avec 500 moles d'oxygène pour former 500 moles de vapeur d'eau, environ 1,21 x 108 joules d'énergie est libérée. Cette énergie correspond à une perte de masse d'environ 1,35 x 10-9 kg, ce qui entraine que la masse de l'eau formée est inférieure de cette quantité à la masse initiale de 9,008 kilogrammes des réactifs.
+Le défaut de masse, de l'ordre du dixième de milliardième en valeur relative, est trop infime pour pouvoir être mis en évidence par des mesures expérimentales, qui arrivent au mieux à l'ordre du centième de millionième. C'est pour ça que l'on continue à utiliser sans inconvénient le « théorème classique » de la conservation de la masse dans les réactions chimiques et dans la vie courante[note 5].
+Les mesures de spectrométrie de masse actuelles (2013) approchent cependant cette précision, et devraient permettre de visualiser directement l'équivalent de masse de l'énergie de liaison moléculaire, comme on le fait avec l'énergie de liaison nucléaire.
+Un autre cas d'équivalence entre variation de masse et énergie est donné par le défaut de masse de l'atome le plus simple : la masse de l'atome d'hydrogène
+[réf. nécessaire] est inférieure à la somme des masses de l'électron et du proton d'une quantité juste égale à l'équivalent en masse de l'énergie d'ionisation de l'atome, bien que ce défaut soit tout à fait hors de portée de la mesure courante, puisqu'il vaut 13,6 eV =  ; c'est-à-dire un peu plus de quatorze milliardièmes (1,4 centième de millionième) des masses d'un proton et d'un électron libres.
+Domaine gravitationnel[modifier | modifier le code]
+Il en est de même dans le domaine gravitationnel, bien que (très) rarement mis en évidence dû au rapport généralement infime entre le défaut de masse des systèmes gravitationnels « communs » (du système solaire) et au caractère globalement statique de la répartition des sources gravitationnelles.
+Mais par exemple, le voyage de la Terre à la Lune, peut être considéré comme une « réaction gravitationnelle », un astronaute (ou tout corps massif) qui effectue ce voyage a nécessité l'apport d'énergie à l'ensemble (Terre + Lune + astronaute), et la masse de cet ensemble s'est accrue de l'équivalent de masse de cette énergie apportée, et inversement lors du retour de l'astronaute, qui en chute libre après s'être libéré de l'attraction lunaire retomberait sur la Terre, libèrerait par radiation cet excès d'énergie, et la masse de l'ensemble re-diminuerait... Cette variation de masse de l'ensemble serait en principe mesurable sur l'effet gravitationnel de l'ensemble pour un corps lointain passant dans son champ, par mesure de la déviation angulaire dans sa trajectoire hyperbolique.
+De même, une chute d'eau (ou toute chute d'un corps massif dans le potentiel gravitationnel) est aussi une « réaction gravitationnelle », elle émet l'énergie du potentiel gravitationnel de la masse d'eau à l'altitude plus élevée à celle plus basse. La masse de l'eau qui a chuté a aussi décru de l'équivalent de masse de l'énergie émise (ainsi que la masse de l'ensemble Terre + eau) ; qui a été apportée essentiellement par le rayonnement solaire. Une centrale hydroélectrique récupère cette énergie libérée, qui peut être évaluée par la formule d'équivalence comme dans le cas d'une centrale nucléaire.
+La chute d'un corps massif dans le potentiel gravitationnel terrestre dégage une énergie qui est une fraction (d'environ) un milliardième de l'énergie de masse initiale du corps (avec une vitesse de libération terrestre de 11,2 km/s). Les objets sur Terre sont liés (à la Terre) avec cette fraction de masse. Mais par exemple, une chute sur une étoile à neutrons (avec une vitesse de libération d'environ 200 000 km/s) dégage environ 25 % de l'énergie de masse initiale du corps chutant[note 6] ! Théoriquement, la chute d'un corps massif sur un trou noir (avec une vitesse de libération égale à la vitesse de la lumière) pourrait dégager l'intégralité de l'énergie de masse de l'objet chutant, avec un arrêt à l'horizon du trou noir[note 7]. Mais cet arrêt est impossible, l'énergie dégagée[note 8] est une fraction de l'énergie de masse du corps chutant[note 9], selon les forces de marée agissant sur lui.
+→ Cette variation de masse pourrait être théoriquement mise en évidence par une expérience de Cavendish, ou bien d'une pesée, d'un corps ayant participé à la chute, avec ces niveaux de précision.
+Formulation générale[modifier | modifier le code]
+Énergie et impulsion en relativité restreinte
+Si la formule E=mc2 concerne une particule au repos, c'est-à-dire une particule dont la vitesse est nulle dans le référentiel choisi, que devient cette expression dans un autre référentiel, avec une particule animée d'une vitesse v ?
+Alors que la géométrie euclidienne raisonne sur des points repérés dans l'espace par trois coordonnées, la relativité restreinte raisonne sur des événements repérés dans l'espace-temps par quatre coordonnées, une de temps et trois d'espace. De même que la distance euclidienne entre deux points est invariante par changement de repère, de même la théorie relativiste stipule que le carré de l'intervalle d'espace-temps Δs défini par :
+où Δt représente l'intervalle de temps entre les deux événements et Δl la distance, est invariant par changement de repère. Autrement dit quand on mesure les coordonnées des mêmes événements dans plusieurs repères (t, x, y, z), (t', x', y', z'), (t", x", y", z") différents respectant pour le passage de l'un à l'autre la transformation de Lorentz, la quantité suivante ne change pas de valeur :
+Alors que la mécanique newtonienne considère d'une part l'énergie et d'autre part la quantité de mouvement d'un corps en mouvement, la relativité unifie ces deux concepts dans un objet unique : le quadrivecteur énergie-impulsion. Ce vecteur à quatre dimensions a pour composante temporelle l'énergie E/c de la particule et pour composante spatiale son vecteur impulsion (ou quantité de mouvement)
+à trois dimensions. Comme il est le pendant du vecteur impulsion mv de la mécanique classique (produit de la masse par la vitesse) il est égal à m u où u est maintenant le quadrivecteur vitesse.
+De même que le carré de l'intervalle d'espace-temps était invariant par changement de coordonnées, de même l'est le carré de la norme du quadrivecteur énergie-impulsion. Autrement dit la quantité :
+est indépendante du repère dans lequel on l'évalue. Mais séparément, l'énergie et l'impulsion en dépendent.
+Dans le repère propre de la particule, celui où elle est au repos, la vitesse, et donc l'impulsion, est nulle. Si on note E0 l'énergie dans ce repère propre l'invariance de la quantité précédente s'écrit :
+.
+La valeur de E0 nous est donnée par le fameux mc2 de sorte que l'on aboutit à l'équation capitale suivante :
+ou encore :
+.
+La théorie montre que dans un repère où la vitesse de la particule est v l'énergie et la quantité de mouvement sont données par les formules :
+avec la notation classique,
+On vérifie que
+et on déduit de ces formules la relation importante entre énergie et impulsion :
+.
+Cas d'une particule de masse nulle[modifier | modifier le code]
+Relativité restreinte, vitesse des particules de masse nulle
+Article détaillé : Luxon.
+Le cas d'une particule de masse nulle découle des formules précédentes, et notamment de :
+.
+Si une particule a une vitesse égale à c son énergie est :
+.
+Par conséquent sa masse est nulle puisqu'elle est donnée par la formule :
+.
+Inversement, si une particule a une masse nulle, son énergie est E=pc et par conséquent v = c.
+Il est impossible de démontrer qu'une particule a une masse strictement nulle, on ne peut que fixer une limite supérieure. Les particules suivantes ont une masse nulle dans le modèle connu : le photon (particule de lumière), les bosons de jauge (qui transmettent les autres interactions fondamentales), et le graviton (particule transmettant la gravité, non observé, mais dont la relativité générale prédit l'existence et la masse nulle). Les neutrinos ont longtemps été candidats à cette liste, avant la mise en évidence de l'oscillation du neutrino.
+Cas des tachyons[modifier | modifier le code]
+Article détaillé : Tachyon.
+Quelques physiciens ont envisagé, formellement, le cas de particules qui se déplaceraient plus vite que la lumière. Pour que l'énergie totale soit un nombre positif, on trouve alors comme masse au repos un nombre imaginaire pur. Ce n'est pas une contradiction parce que le tachyon n'est jamais au repos.
+Toutefois, la plupart des physiciens estiment que l'existence de telles particules créerait de tels paradoxes qu'elle est simplement impossible.
+Unités[modifier | modifier le code]
+Énergie en unités de masse[modifier | modifier le code]
+Les formules utilisées ci-dessus sont écrites en unités conventionnelles. Mais il peut être commode d'utiliser des unités mieux adaptées à l'espace-temps, en exprimant en particulier une énergie en kilogrammes, autrement dit en prenant comme unité d'énergie l'énergie d'un kilogramme de matière.
+D'après la formule :
+E (joules) = m (kilogrammes)×[c (m/s)]2,
+l'énergie équivalente à la masse d'un kilogramme est :
+énergie d'un kilogramme (en joules) = [c (m/s)]2.
+Par conséquent l'énergie en unités de masse sera :
+E (en unités de masse) ≡ E (en kilogrammes) = E (en joules)/(énergie d'un kilogramme en joules) ≡ E (en joules)/[c (m/s)]2.
+On peut donc écrire :
+et en sens inverse :
+.
+Numériquement :
+1 kg = 8,988×1016 J
+1 J = 1,113×10-17 kg
+ou dans le système CGS utilisé par habitude en astronomie :
+1 g = 8,988×1020 erg
+1 erg = 1,113×10-21 g.
+De la même façon, la réunion du temps et de l'espace en une seule entité invite le physicien à utiliser une même unité, la seconde ou le mètre, pour mesurer les longueurs et les temps[note 10].
+On a les formules de passage suivantes :
+,
+où d(s) est le temps mis par la lumière pour parcourir d(m).
+On écrit à l'identique :
+,
+où t(m) est la distance parcourue par la lumière en t(s).
+L'utilisation d'une unité commune, disons la seconde, pour mesurer distance et temps est riche d'enseignement dans le contexte présent. En effet grâce à ce choix, la vitesse v, rapport d'une distance à un temps, devient sans dimension. Par conséquent l'énergie cinétique newtonienne K = (1/2)mv2 prend les dimensions d'une masse, ce qui revient à dire qu'on peut exprimer une énergie en unités de masse. On retrouve donc de façon simple, et néanmoins convenable, l'équivalence entre énergie et masse.
+Ainsi, si l'énergie E est exprimée en unités de masse (par exemple en kilogrammes) la formule d'Einstein devient :
+ou plus simplement :
+.
+En fait, en utilisant des unités relativistes, le facteur c disparaît de toutes les formules. Ainsi, la formule donnant l'invariant du vecteur énergie-impulsion s'écrit maintenant :
+,
+où Erel et prel sont exprimées en unités relativistes (c'est-à-dire en kilogrammes).
+De même, il est agréable d'écrire le carré du temps propre sous la forme homogène et symétrique :
+sans avoir à traîner des facteurs c.
+Masse en électron-volt[modifier | modifier le code]
+En sens inverse il est très courant en physique atomique de mesurer une masse en unités d'énergie. Ainsi la masse d'une particule est souvent donnée en électron-volt.
+La fameuse équation sur le gratte-ciel Taipei 101 en l'honneur de l'année de la physique 2005.
+Un électron-volt vaut 1,602 176 53×10-19 joule, énergie à laquelle correspond la masse 1 eV/c2, soit 1,783×10-36 kg.
+On a donc les formules de passage :
+;
+.
+Puisque le nombre sans dimensions qui mesure une certaine grandeur est par définition le rapport entre la grandeur à mesurer et la grandeur choisie pour unité, ce nombre est inversement proportionnel à la valeur de l'unité choisie (si l'unité choisie est plus grande, le nombre qui mesurera la grandeur est lui plus petit).
+Ici on a donc :
+m (en eV) / m (en kg) = 1 kg / 1 eV,
+de sorte que l'on peut écrire :
+;
+.
+Rappelons les multiples usuels :
+1 keV = 103 eV ;
+1 MeV = 106 eV ;
+1 GeV = 109 eV ;
+1 TeV = 1012 eV.
+Par exemple, la masse de l'électron est de 511 keV, celle du proton de 938 MeV et celle du neutron est de 940 MeV.
+Énergie d'une particule[modifier | modifier le code]
+Relativité restreinte, énergie cinétique
+L'énergie totale d'une particule isolée (qui dépend, rappelons-le, du repère choisi) peut s'écrire comme la somme de son énergie au repos mc2 et de son énergie cinétique K.
+On a donc :
+.
+L'énergie cinétique devient :
+.
+En utilisant un développement en série entière de cette fonction :
+On retrouve bien l'énergie au repos contenue dans la masse (v=0) :
+,
+ainsi que l'approximation de l'énergie cinétique pour les faibles vitesses (v<<c) :
+.
+Pour les vitesses très proches de celle de la lumière, l'énergie au repos de la particule s'avère négligeable devant l'énergie cinétique.
+Comme on peut écrire :
+l'énergie totale devient :
+.
+Validité générale de la formule[modifier | modifier le code]
+En notant m0 la masse de la particule et E0 son énergie (équivalente) au repos, l'équation d'Einstein s'écrit :
+.
+On introduit alors la quantité :
+qui n'est plus la masse m0, mais qui, mesurant l'inertie de la particule dans le repère considéré où elle a cette vitesse v, indique sa masse inerte dans ce repère.
+Dans ces conditions, la formule écrite plus haut « E=γm0c2 » donnant l'énergie de la particule prend la même forme :
+l'expression étant alors valable même dans le cas où le corps n'est pas au repos.
+Note
+Il peut alors avoir confusion avec la notation classique de « E=mc2 » qui se réfère en fait à la masse au repos, qui est m0 (notée communément m). On peut remarquer en effet que la masse au repos, notée ici m0, possède une signification physique indépendante du repère choisi car son carré est l'invariant du vecteur énergie-impulsion (en unités relativistes).
+Mais bien que cette propriété majeure ne soit pas partagée par la masse inerte m, qui elle dépend du repère choisi comme l'énergie cinétique et son équivalent de masse (qui est la différence entre m et m0), la masse inerte m est précisément la masse (totale) du corps considéré dans le système considéré.
+→ Pour preuve, les particules accélérées augmentent leur masse (γm0) ce qui modifie réellement leur trajectoire (ou les moyens de les maintenir sur leur trajectoire, ce qui est équivalent) dans le repère de l'accélérateur (au repos). On a donc affaire à une véritable grandeur physique, qui bien que relative montre la validité générale de l'équivalence masse-énergie (qui est en fait toujours vérifiée).

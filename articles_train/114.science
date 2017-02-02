@@ -1,0 +1,164 @@
+Oxymètre — Wikipédia
+Oxymètre
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Oxymètre de pouls
+Un oxymètre est un appareil permettant la mesure de la concentration en oxygène moléculaire dans un mélange gazeux ou dans un liquide.
+Ce type de mesure est utilisé par exemple en laboratoire (analyses physico-chimiques...) et dans l'industrie, pour la protection de personnes, le contrôle de processus, le conditionnement sous atmosphère protectrice. Les oxymètres sont aussi utilisés dans le domaine du sport, comme lors d'un entraînement en hypoventilation, et dans de nombreuses activités de loisirs telles la plongée sous-marine et l'aquariophilie.
+Le contrôle du taux de dioxygène (O2) est par ailleurs un paramètre important du réglage des moteurs à combustion interne. Aussi retrouve-t-on des sondes à dioxygène (sondes lambda) sur la plupart des moteurs modernes. Les informations issues de ces sondes sont utilisées par les boîtiers de contrôle moteur (Engine Control Unit, ECU en anglais) pour piloter au mieux l'injection de carburant et la combustion.
+Sommaire
+1 Principes de mesure
+1.1 Oxymètre paramagnétique
+1.2 Oxymètre à pile à combustible
+1.3 Oxymètre ampèremétrique
+1.4 Oxymètre optique par luminescence
+1.5 Oxymétrie colorimétrique (médecine)
+1.6 Oxymètre à capteur à diffusion électrochimique
+Principes de mesure[modifier | modifier le code]
+La diversité des applications entraîne l'utilisation de principes variés pour mesurer le taux d'oxygène.
+Oxymètre paramagnétique[modifier | modifier le code]
+Ce type d'appareil utilise les propriétés magnétiques de l'oxygène. Ce sont en général des appareils coûteux et encombrants réservés à l'usage en laboratoire.
+Oxymètre à pile à combustible[modifier | modifier le code]
+Ce type d'appareil utilise une pile à combustible utilisant l'oxygène du mélange à mesurer comme l'un des constituants de la pile. Ce principe est généralement bien adapté à la réalisation d'appareils de mesure de terrain, légers (moins d'un kilogramme) et peu coûteux.
+Une pile à oxygène est alors incorporée dans une sonde, souvent dotée de composants additionnels (thermistances, réseau de compensation) qui lui assurent une réponse indépendante de la température. L'intégration du capteur et des composants de compensation dans un boîtier compact assure une température constante pour tous ces composants, ce qui permet de délivrer une tension proportionnelle au taux d'oxygène du mélange.
+À partir de là, la mesure du taux d'oxygène revient à mesurer une tension.
+Dans la pratique, les choses sont un tout petit plus complexes :
+la sonde n'a pas une réponse constante dans le temps, le capteur fonctionnant sur le principe d'une pile, il est sensible à la consommation de ses constituants ;
+deux sondes du même modèle peuvent présenter une dispersion des tensions de sorties due aux tolérances de fabrication ;
+la mesure, comme toute réaction chimique, peut être influencé par l'environnement (température, humidité...).
+Cela oblige à rajouter un système de calibration qui va permettre de régler l'appareil, en se basant sur un gaz de référence. Souvent ce type d'appareil requiert une calibration avant chaque série de mesure.
+Cependant, les technologies membranaires permettent d'assurer de très bonnes performances jusqu'à 98 % d'humidité non condensée.
+De plus la gamme des tensions de sortie de la pile n'est en général pas utilisable pour un affichage direct. Il faut donc utiliser un système permettant de transposer la tension du capteur en une lecture utilisable (généralement un pourcentage).
+La linéarité de ce type de capteurs permet souvent d'utiliser pour la calibration et la transposition de la mesure un simple amplificateur ou un millivoltmètre à échelle ajustable.
+D'un point de vue physico-chimique, les signaux sont voisins de zéro en l'absence d'oxygène, ce qui rend ces capteurs facilement réajustables sur un seul point de l'échelle, souvent à l'air frais.
+Ce qui nous amène au schéma général suivant :
+Oxymètre ampèremétrique[modifier | modifier le code]
+Les oxymètres ampèremétriques utilisent la variation de conductibilité d'une céramique poreuse à base d'oxyde de zirconium (ZrO2) traversée par un flux d'oxygène.
+La réaction chimique intervient à 700°C. La précision dépend du système de régulation de température. La consommation d'énergie en découlant, interdit l'utilisation de cette technologie dans du matériel portatif, ce d'autant plus que la céramique ou les liaisons du tube avec les éléments chauffants sont très sensibles aux chocs mécaniques.
+Le courant est directement fonction de la différence de potentiel électrique entre les parois d'un tube de céramique et constituant par l'électrode, l'intérieur du tube étant le canal d'amenée des gaz. La différence de potentiel est donnée par la loi de Nernst.
+La réponse en signal est fortement non linéaire avec une courbure asymptotique dans les très faibles concentrations en O2. Les équipements utilisant ce type de capteur nécessitent plusieurs gaz de référence très précis pour tranformer la réponse en signal linéaire.
+Ce type d'appareil est généralement conçu pour fonctionner dans une plage de températures élevées, ce qui l'indique particulièrement pour les mesures sur les gaz chauds, en particulier les échappements de moteurs thermiques.
+Ces capteurs sont connus dans l'automobile sous le nom de « sondes lambda ».
+Oxymètre optique par luminescence[modifier | modifier le code]
+Ce procédé révolutionnaire appelé opto-luminescence permet de s'affranchir de tout besoin de calibration et de changement de membranes par rapport à des technologies classiques développées dans les années 1950. Le principe de mesure repose sur l'excitation de molécules photosensibles situées sur un support inerte par une lumière bleue. Le complexe réagit en émettant de la lumière rouge (phénomène appelé luminescence). On mesure alors le déphasage entre la lumière bleue et rouge, celle-ci étant proportionnelle à la concentration en oxygène dans le milieu.
+Les principaux avantages de cette technologie repose sur la non consommation d'oxygène ce qui fait de cette technique la méthode de référence pour la mesure de très faible taux d'oxygène ou pour des milieux stagnants. Les deux principales sociétés maitrisant cette technologie sont PONSEL en France avec sa technologie ODO et HACH LANGE en Allemagne avec sa technologie LDO.
+Dans les applications pratiques, l'élément sensible réagissant à la présence d'oxygène est composé de métal lourd, comme le ruthenium. Le quench et le phénomène de luminescence sont fonction de la densité du matériau, ce qui dans la pratique nécessite des rajustages de l'instrument lecteur en fonction de la qualité de réalisation du substrat. Par ailleurs, cette technique est sensible à l'humidité et à la température en surface de l'élément capteur. Le matériau excité par le rayon lumineux a des vitesses d'absorption qui dépend de ces facteurs, et les précisions atteintes sont de ce fait de l'ordre de 5 % relatif dans des niveaux inférieurs à 25 %. Les autres technologies usuelles en petit appareillage, ou à l'aide de la technologie électrochimique ou zircone, atteignent des précisions de l'ordre de 1 % relatif.
+Oxymétrie colorimétrique (médecine)[modifier | modifier le code]
+L'oxymétrie colorimétrique permet de déterminer le taux de dioxygène (saturation) du sang grâce à sa variation de couleur.
+Oxymètre à capteur à diffusion électrochimique[modifier | modifier le code]
+Oxymètre fixe de contrôle en continu de l'air ambiant relié à une alarme sonore et visuelle. Celle-ci se déclenche si la concentration en O2 atteint un certain seuil.
+Ce type, compact et bon marché, est couramment utilisé en laboratoire ou dans l'industrie, par exemple. Généralement l'électrolyte des capteurs électrochimique est composé d'un acide faible réagissant avec de la paille de plomb pour former un oxyde de plomb lorsque les molécules d'oxygène traversent la membrane perméable du capteur. Ces capteurs fonctionnent comme une pile et délivrent une tension de quelques millivolts proportionnelle à la pression partielle d'O2.
+v · d · m
+Équipement de laboratoire
+Équipement de sécurité en laboratoire
+Boîte à gants · Couverture antifeu · Chaussures de sécurité · Déclencheur d'alarme incendie · Détecteur et avertisseur autonome de fumée · Douche de sécurité · Douche portative de sécurité · EPI · Extincteur · Hotte · Oxymètre
+Équipement de laboratoire
+(hors sécurité)
+Agitateur · Appareil de mesure d'épaisseur de revêtement · Autoclave · Automate · Bain-marie · Bain thermostaté · Balance · Bec Auer · Bec Bunsen · Bec Meker · Boy · Calorimètre · Centrifugeuse · Chambre d'essais · Chauffe-ballon · Chronomètre · Colorimètre · Cryostat · Échangeur d'ions · Enregistreur de données · Étuve · Évaporateur rotatif · Fabricants · Lecteur de plaques · Machine de traction · Manomètre · Marbre · Microscope · Minuterie · Paillasse · Papier essuie-tout · Papier Joseph · Papier lentille · Plaque chauffante · pH-mètre · Pompe à vide · Presse hydraulique · Réfractomètre · Réfractomètre hyperfréquence · Réfrigérateur · Soude sachet · Spatule · Spectromètre · Spectrophotomètre · Tamiseuse · Thermocycleur · Thermo-hygrographe · Thermomètre · Thermostat · Titrateur · Trompe à eau · Viscosimètre
+Verrerie de laboratoire
+Ampoule à brome · Ampoule à décanter · Ballon · Bécher · Boîte de Petri · Burette · Colonne de Vigreux · Colonne desséchante · Creuset · Cristallisoir · Cuvette · Dame-jeanne · Dean Stark · Débitmètre · Dessiccateur · Entonnoir · Entonnoir Büchner · Éprouvette graduée · Erlenmeyer · Eudiomètre · Fiole à vide · Fiole jaugée · Flacon laveur · Hydromètre · Mortier et pilon · Pipette * Pipette automatique * Pipette Pasteur · Pissette · Plaque microtitre · Pycnomètre · Rampe à vide · Réfrigérant · Soxhlet · Tube à essai * Microtube * Tube de 15 ml * Tube de 50 ml * Tube de Nessler · Tube de sûreté (tube Thistle) · Tube de Thiele · Vase Dewar · Verre de montre
+v · d · m
+Instruments de mesure
+Voir aussi Palette Instruments de mesure météorologique
+Acoustique
+Acoumètre · Audiomètre · Applaudimètre · Sonomètre · VU-mètre
+Angles et Position
+Axiomètre · Boussole · Cercle répétiteur · Compas · Demi-carré · GPS · Graphomètre · Goniomètre · Inclinomètre · Rapporteur · Octant, Quadrant, Quart de cercle et Sextant · Sitomètre · Théodolite · Tiltmètre
+Composition chimique
+Alcoomètre · Butyromètre · Galactomètre · pH-mètre · Spectrofluoromètre (ou fluorimètre) · Spectromètre de masse · Uromètre
+Distances
+Altimètre · Bathymètre · Cale étalon · Capteur de déplacement · Cathétomètre · Chaine d'arpenteur · Colonne de mesure · Comparateur · Curvimètre · Dendromètre · Dilatomètre · Fissuromètre · Iconomètre · Interféromètre · Jauge d'épaisseur · Jauge à flotteur · Jauge de profondeur · Jauge de déformation · Jauge de profondeur · Machine à mesurer tridimensionnelle · mètre ruban & mètre pliant · Micromètre · Odomètre, Taximètre · Pied à coulisse · Podomètre · Règle, Kutsch, Typomètre · Sphéromètre · Stadimètre · Tachéomètre · Télémètre, Célomètre · Toise · Vernier
+Grandeurs cinématiques
+Accéléromètre · Anémomètre · Annubar · Cinémomètre · Compte-tours · Sonde Pitot · Tachymètre · Vélocimètre · Vibromètre laser
+Grandeurs mécaniques
+Baromètre · Clé dynamométrique · Densimètre · Dynamomètre · Manomètre · Pénétromètre · Rhéomètre · Tensiomètre · Tribomètre · Vacuomètre · Viscoanalyseur · Viscosimètre
+Grandeurs électriques
+Courant électrique : Galvanomètre, Ampèremètre · Charge électrique : Électromètre · Potentiel électrique : Voltmètre · Résistance : Ohmmètre, Mégohmmètre (mesure des résistances d'isolement), Telluromètre (mesure des résistances de terre), Conductimètre · Spectromètre (décomposition des composantes spectrales d'un signal électrique) · Capacimètre (mesure des capacités des condensateurs) · Coulombmètre · Diélectrimètre (mesure des constantes diélectriques) · Fréquencemètre (mesure de la fréquence d'un signal électrique) · Multimètre (multiples mesures de valeurs électriques : tension, intensité, résistance, etc.) · Oscilloscope (mesure de tension, fréquence et période)
+Électromagnétisme et Optique
+Actinomètre · Bolomètre · Colorimètre (spectre lumineux) · Champ magnétique : Fluxmètre, Inductancemètre (mesure de l'inductance d'un circuit inductif), Magnétomètre, Teslamètre · Diffractomètre · Luxmètre · Photomètre · Polarimètre · Radiomètre · Strabomètre
+Puissance, énergie
+Wattmètre
+Quantité de matière
+Analyseur thermogravimétrique · Balance · Compteur Geiger · Détecteur de particules (Chambre à brouillard, Chambre à bulle, Chambre à étincelles, Chambre à fils, Chambre d'ionisation) · Dosimètre · Humidité : Hygromètre et Thermo-hygromètre, Thermobalance · Oxymètre · Pèse-personne · Peson · Poids public · Radiamètre
+Superficies
+Planimètre
+Température
+Calorimètre · Thermistance · Thermocouple · Thermomètre · Thermoscope
+Temps
+Astrolabe · Cadran solaire · Chronomètre · Clepsydre · Datation radioactive · Horloge · Horloge atomique · Minuteur · Montre · Pendule · Sablier
+Volumes et débits
+Aréomètre · Burette · Courantomètre · Débitmètre · Eudiomètre · Éprouvette graduée · Fiole jaugée · Fluviomètre · Maréomètre · Micropipette · Pipettes graduée, jaugée et compte-gouttes · Pycnomètre · Spiromètre (médecine) · Verre doseur (cuisine)
+Voir aussi Palette Capteur
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Oxymètre&oldid=102994926 ».
+Catégories : Équipement médicalInstrument de mesureCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Čeština
+Deutsch
+Ελληνικά
+English
+Español
+فارسی
+עברית
+Italiano
+日本語
+Lietuvių
+Nederlands
+Polski
+Português
+Русский
+Slovenčina
+Svenska
+Ślůnski
+தமிழ்
+中文
+Modifier les liens
+Dernière modification de cette page le 17 avril 2014 à 15:34.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

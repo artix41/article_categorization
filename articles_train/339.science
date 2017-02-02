@@ -1,0 +1,284 @@
+Viscosité — Wikipédia
+Viscosité
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article ne cite pas suffisamment ses sources (janvier 2008).
+Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les références utiles à sa vérifiabilité et en les liant à la section « Notes et références » (modifier l'article).
+La substance du dessus a une viscosité moindre que celle du dessous.
+La viscosité (du latin viscum, gui) peut être définie comme la résistance à l'écoulement uniforme et sans turbulence se produisant dans la masse d'une matière. La viscosité dynamique correspond à la contrainte de cisaillement qui accompagne l'existence d'un gradient de vitesse d'écoulement dans la matière.
+Lorsque la viscosité augmente, la capacité du fluide à s'écouler diminue. Pour un liquide (au contraire d'un gaz), la viscosité tend généralement à diminuer lorsque la température augmente. On pourrait croire que la viscosité d'un fluide s'accroît avec sa densité mais ce n'est pas nécessairement le cas : l'huile est moins dense que l'eau (huile de colza : 0,92 à 20 °C, contre 1 pour l'eau) cependant elle est nettement plus visqueuse.
+On classe notamment les huiles mécaniques selon leur viscosité, en fonction des besoins de lubrification du moteur et des températures auxquelles l'huile sera soumise lors du fonctionnement du moteur[1].
+Sommaire
+1 Grandeurs physiques
+1.1 Viscosité de cisaillement
+1.1.1 Viscosité dynamique
+1.2 = Viscosité cinématique =12,5 24,5
+1.2.1 Fluidité
+1.3 Viscosité élongationnelle
+2 Évolution suivant la température
+3 Quelques valeurs
+4 Voir aussi
+4.1 Articles connexes
+4.2 Liens externes
+4.3 Bibliographie
+5 Références
+Grandeurs physiques[modifier | modifier le code]
+Plusieurs grandeurs physiques sont liées à la viscosité. La viscosité est en fait une quantité tensorielle mais il est possible, dans certains cas, de l'exprimer sous la forme d'une grandeur scalaire.
+Viscosité de cisaillement[modifier | modifier le code]
+La viscosité de cisaillement peut être vue comme la résistance à l'écoulement des différentes couches d'un fluide les unes sur les autres.
+Viscosité dynamique[modifier | modifier le code]
+Article détaillé : viscosité dynamique.
+Force de viscosité agissant dans un fluide
+La viscosité dynamique
+[2] (ou encore ) se mesure[3] en pascal.seconde (Pa.s), cette unité ayant remplacé le poiseuille (Pl) qui a la même valeur : 1 Pa.s = 1 Pl.
+On trouve encore parfois l'ancienne unité[4] du système CGS, la poise (Po) : 1 Pa.s = 10 Po.
+La viscosité de l'eau à 20 °C est de 1 cPo (centipoise) soit 1 mPa.s.
+Une façon de définir la viscosité dynamique est de considérer deux couches d'un fluide notées abcd et a’b’c’d’, la couche abcd étant animée d'une vitesse relative à a’b’c’d’ notée
+et dirigée suivant . Sous l'effet de la viscosité, une force
+s'exerce sur la couche a’b’c’d’ séparée de dz. La viscosité dynamique
+(le symbole
+est également utilisé) intervient dans la relation entre la norme de cette force
+et le taux de cisaillement ,
+étant la surface de chaque couche.
+= Viscosité cinématique =12,5 24,5[modifier | modifier le code]
+Article détaillé : viscosité cinématique.
+La viscosité cinématique
+(nu) s'obtient en divisant la viscosité dynamique par la masse volumique
+soit :
+.
+Elle s'exprime en m2/s [3]. Dans le système CGS, la viscosité cinématique était exprimée en stokes (St) ou en centistokes (cSt).
+La conversion est immédiate, puisque 1 St = 1 cm2/s = 10-4 m2/s et 1 cSt = 1 mm2/s = 10-6 m2/s.
+Fluidité[modifier | modifier le code]
+La fluidité est l'inverse de la viscosité dynamique.
+Viscosité élongationnelle[modifier | modifier le code]
+Article détaillé : viscosité élongationnelle.
+Évolution suivant la température[modifier | modifier le code]
+La viscosité d'un fluide varie en fonction de sa température et des actions mécaniques auxquelles il est soumis. Voir par exemple à ce propos le phénomène de thixotropie. Pour déterminer l'importance de l'effet de la température sur la viscosité d'un fluide, on utilise un indice de viscosité. Plus cet indice est grand, moins la température a d'influence sur la viscosité du fluide.
+Concernant un gaz, il est courant d'utiliser la loi de Sutherland définie de la façon suivante :
+,
+où :
+est la viscosité à la température  ;
+est la température de Sutherland.
+Pour l'air par exemple on prend habituellement les valeurs suivantes :
+= 1,715⋅10-5 Pa.s,
+= 273,15 K et
+= 110,4 K, ce qui donne une bonne approximation sur une plage de température de l'ordre de 170 K à 1 900 K environ.
+Quelques valeurs[modifier | modifier le code]
+Viscosité dynamique
+Corps
+Température (°C)
+Viscosité (Pa.s)
+Fluide parfaitement défini
+hydrogène
+0
+8,4 × 10-6
+50
+9,3 × 10-6
+100
+10,3 × 10-6
+air
+0
+1,71 × 10-5
+50
+1,94 × 10-5
+100
+2,20 × 10-5
+xénon
+0
+2,12 × 10-5
+eau
+0
+1,793 × 10-3
+20
+1,002 × 10-3
+50
+0,5470 × 10-3
+100
+0,2818 × 10-3
+glace
+-13
+15 × 1012
+mercure
+20
+1,526 × 10-3
+acétone
+0,326 × 10-3
+éthanol
+1,20 × 10-3
+méthanol
+0,59 × 10-3
+benzène
+0,64 × 10-3
+nitrobenzène
+2,0 × 10-3
+glycérine
+1,49
+Fluide de la vie courante
+bitume
+20
+108
+mélasse
+20
+102
+miel
+20
+101
+huile de ricin
+20
+0,95
+huile d'olive
+20
+de 0,081 à 0,1
+café crème
+20
+10-2
+sang
+37
+de 4 à 25 (généralement 6)× 10-3
+jus de raisin
+20
+de 2 à 5 × 10-3
+pétrole
+20
+0,65 × 10-3
+Viscosité de corps à la pression atmosphérique
+Viscosité cinématique
+Corps
+Température (°C)
+Viscosité (cSt)
+huile
+40
+20 à 60
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+viscosité, sur le Wiktionnaire
+Tribologie : les lubrifiants liquides, sur Wikibooks
+Articles connexes[modifier | modifier le code]
+Viscosimètre
+Piézoviscosité
+Rhéologie
+Viscoélasticité
+Viscosité des solutions polymères
+Expérience de la goutte de poix
+Modèle cross
+Liens externes[modifier | modifier le code]
+Viscosités de divers liquides en fonction de la température
+Bibliographie[modifier | modifier le code]
+É. Guyon, J.-P. Hulin et L. Petit, Hydrodynamique physique, EDP Sciences, CNRS Éd., 674 p., 2001 (ISBN 2-868-83502-3).
+Références[modifier | modifier le code]
+↑ Le grand dictionnaire terminologique, Viscosité
+↑ (en) « dynamic viscosity », IUPAC, Compendium of Chemical Terminology (« Gold Book »), 2e éd. (1997). Version corrigée en ligne:  (2006-).
+↑ a et b Le système SI d'unités de mesure, IV - Unités mécaniques, Ministère de l'Économie, des Finances et de l'Industrie
+↑ Textes officiels, éd. du 28 février 1982, Direction générale de la compétitivité, de l'industrie et des services
+Portail de la physique
+Portail des sciences des matériaux
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Viscosité&oldid=110254797 ».
+Catégories : ViscositéRhéologieGrandeur physiqueCatégories cachées : Article manquant de référence depuis janvier 2008Article manquant de référence/Liste complètePortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Matériaux/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Беларуская
+Български
+বাংলা
+Bosanski
+Català
+Čeština
+Cymraeg
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Gaeilge
+עברית
+हिन्दी
+Hrvatski
+Kreyòl ayisyen
+Magyar
+Հայերեն
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+Basa Jawa
+Қазақша
+한국어
+Lëtzebuergesch
+Lietuvių
+Latviešu
+Македонски
+മലയാളം
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+پښتو
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Türkçe
+Українська
+اردو
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 26 décembre 2014 à 09:50.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

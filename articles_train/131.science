@@ -1,0 +1,202 @@
+Viscosimètre — Wikipédia
+Viscosimètre
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant les techniques, les sciences appliquées ou la technologie.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Consultez la liste des tâches à accomplir en page de discussion.
+Un viscosimètre est un appareil destiné à mesurer la viscosité des fluides. Il existe deux types de viscosimètre : les viscosimètres de « process » et les viscosimètres de laboratoire.
+Sommaire
+1 Viscosimètre industriel vibrant
+1.1 Principe de fonctionnement
+1.2 Applications principales
+2 Viscosimètres à écoulement libre
+2.1 Coupe normalisée
+2.2 Viscosimètre d'Ostwald
+2.2.1 Description
+2.2.2 Détermination de la viscosité dynamique d'un liquide
+2.2.3 Détermination de la viscosité d'un polymère
+3 Rhéomètres capillaires à écoulement forcé
+4 Viscosimètre rotationnel de laboratoire
+4.1 Viscosimètre Stabinger
+4.2 Viscosimètre Mooney
+5 Références
+6 Voir aussi
+6.1 Articles connexes
+Viscosimètre industriel vibrant[modifier | modifier le code]
+Principe de fonctionnement[modifier | modifier le code]
+La partie active du viscosimètre est une tige vibrante animée par une alimentation électrique constante. L'amplitude de la vibration varie en fonction de la viscosité du fluide dans lequel la tige est immergée. Ces viscosimètres de « process » sont pratiques, en effet, n'ayant pas de pièce d'usure, ils ne demandent aucune maintenance. De plus, certaines configurations de viscosimètres vibrants peuvent fonctionner dans des conditions industrielles très difficiles : zone explosive, haute pression 300 bar, haute température 300 °C, haute viscosité 1 000 000 mPa·s.
+Contrairement aux viscosimètres rotatifs, les viscosimètres de type vibrant sont les mieux adaptés pour des mesures de viscosité industrielle, car ils fonctionnent à haut taux de cisaillement et peuvent mesurer des fluides très visqueux, colmatants et fibreux.
+Applications principales[modifier | modifier le code]
+Contrôle des réactions de polymérisation
+Contrôle de la viscosité des encres en imprimerie
+Contrôle de combustion de fioul lourd
+Contrôle de texture en industrie agroalimentaire
+Contrôle qualité de tout fluide.
+Viscosimètres à écoulement libre[modifier | modifier le code]
+Le principe est la mesure du temps d'écoulement du produit pour en déduire sa viscosité. L'écoulement étant lent, on n'a accès qu'à la viscosité à taux de cisaillement faible ; en particulier, on ne peut pas déterminer la dépendance entre viscosité et taux de cisaillement.
+Coupe normalisée[modifier | modifier le code]
+Coupe de Ford
+La mesure la plus simple consiste à déterminer le temps de vidange d'une coupe normalisée. L'avantage de cette méthode est qu'elle peut être mise en œuvre in situ, qu'elle ne nécessite pas de préparation et utilise un matériel bon marché.
+Viscosimètre d'Ostwald[modifier | modifier le code]
+Description[modifier | modifier le code]
+Viscosimètre d'Ostwald
+Le viscosimètre d'Ostwald, nommé d'après Wilhelm Ostwald, est un viscosimètre à capillaire composé d'un tube en U à rayon variable. Dans une des branches verticales du U, se trouve en hauteur une partie plus large en forme de bulbe qui est directement suivi par un capillaire. Le tube reprend sa largeur standard puis effectue la partie courbée du tube. Dans l'autre branche verticale, on trouve un second bulbe, plus large encore, mais, cette fois, situé dans la partie inférieure.
+Deux points, situés l'un au-dessus du bulbe supérieur (A), l'autre en dessous de ce même bulbe (B), déterminent un volume connu.
+Détermination de la viscosité dynamique d'un liquide[modifier | modifier le code]
+Le but est de mesurer le temps nécessaire à un liquide pour passer du point supérieur A au point inférieur B. Le Δt ainsi obtenu permet de déterminer la viscosité dynamique (η) à taux de cisaillement faible du liquide, connaissant sa masse volumique (ρ) via la loi de Poiseuille.
+On obtient alors
+où k est une constante propre au viscosimètre fournie par le fabricant, ou devant être déterminée par étalonnage avec un liquide dont la masse volumique et la viscosité sont connues. Cependant, k est une constante uniquement si le liquide est toujours mis au même niveau (point A) au début de chaque manipulation et s'il n'y a pas de bulles.
+Dans la pratique, le liquide dont la viscosité est à déterminer est versé dans le tube puis est monté jusqu'au point A, souvent à l'aide d'une pompe à eau.
+D'autres types de viscosimètres fonctionnant sur le même modèle sont utilisés pour les liquides opaques.
+Détermination de la viscosité d'un polymère[modifier | modifier le code]
+Article détaillé : Viscosité d'une solution polymère.
+Ce type de viscosimètre peut être utilisé pour déterminer la viscosité d'un polymère à température ambiante : ce dernier est dissout dans un solvant à différentes concentrations, puis on détermine la viscosité dynamique de chaque solution. On extrapole la limite lorsque la concentration en polymère tend vers 1. On obtient ainsi la viscosité intrinsèque notée [η], également appelée indice de viscosité (IV) ou viscosité logarithmique
+où η0 est la viscosité du solvant pur et ∅ est la fraction volumique du soluté. Dans la pratique, la fraction volumique est exprimée en grammes par décilitre, l'IV est donc exprimé en décilitres par gramme (dL/g).
+Toutefois, les solvants utilisés étant souvent toxiques, cette méthode est de nos jours rarement utilisée.
+Rhéomètres capillaires à écoulement forcé[modifier | modifier le code]
+Rhéomètre capillaire à écoulement forcé de table.
+Les rhéomètres capillaires à écoulement forcé (dits haute pression) sont des appareils forçant l'écoulement du fluide à travers une filière. Le choix du diamètre de la filière et de la vitesse du piston permettent de faire varier le gradient de vitesse au sein du capillaire, c'est-à-dire le taux de cisaillement . Un capteur de pression permet de déterminer la contrainte de cisaillement τ (tau).
+Schémas de principe du rhéomètre capillaire.
+Dans le cas d'un capillaire « idéal », on a
+où ΔP est la chute de pression entre le début du capillaire (pression mesurée par le capteur) et la fin du capillaire (pression atmosphérique). En parallèle du capillaire, on force l'écoulement dans un « capillaire de longueur nulle » qui permet de déterminer les effets d'entrée et de sortie, et de les soustraire pour n'avoir que l'effet à l'intérieur du capillaire long (correction de Bagley)
+où e est le terme correctif.
+Dans le cas d'un fluide newtonien, on a par ailleurs une relation entre le débit volumique Q et le taux de cisaillement
+.
+Pour un fluide non-newtonien, on a un écoulement « en bouchon » : la vitesse est uniforme dans la zone centrale du capillaire, et il y a un gradient de vitesse uniquement à la périphérie. On applique donc un facteur correctif n compris entre 0 et 1 : 1 pour un fluide newtonien, 0 pour un bouchon glissant sans frottement sur les parois (correction de Rabinowitsch)
+avec
+.
+Viscosimètre rotationnel de laboratoire[modifier | modifier le code]
+Les viscosimètres rotationnels mesurent le couple nécessaire pour faire tourner une tige généralement en immersion dans un fluide. Les plus communs sont de type « Brookfield » (en). La tige est entraînée en rotation par un moteur en passant par un ressort étalonné. La résistance à l'écoulement va augmenter en fonction de la grosseur de la tige et/ou la vitesse de rotation. Certains sont à mesure bidirectionnelle avec un contrôle de vitesse variable. Ce type de viscosimètre n'est pas adapté à l'industrie. En effet, en raison de la présence d'un moteur et en fonction de la fréquence d'utilisation, la mesure de viscosité peut diverger assez rapidement et des étalonnages réguliers sont nécessaires. De plus, avec ces systèmes, il est impossible de mesurer des fluides de très haute viscosité, des produits colmatants, ou encore des produits fibreux.
+Un autre type de viscosimètre rotationnel est le viscosimètre de Couette : il est composé de deux cylindres concentriques, le cylindre intérieur étant fixe et le cylindre extérieur en rotation entraînée par un moteur. La mesure du couple nécessaire pour empêcher la rotation du cylindre intérieur sous l'effet de la force de viscosité du fluide contenu entre les deux cylindres permet de remonter à la valeur de la viscosité du fluide. L'écoulement entre les deux cylindres est un écoulement de Couette.
+Viscosimètre Stabinger[modifier | modifier le code]
+Le viscosimètre Stabinger est un viscosimètre rotatif basé sur le principe de Couette modifié. Il permet de mesurer la viscosité cinématique sur une plage de mesure étendue avec une précision suivant les normes internationales (ASTM…).
+Le cylindre extérieur du viscosimètre est un tube tournant à une vitesse constante dans un bloc de cuivre thermorégulé. Le rotor, cylindre creux intérieur de forme conique, flotte librement dans l'échantillon. En raison de sa faible densité, il est centré par les forces centrifuges. Par conséquent, il n'y a pas de phénomène de friction qui est inévitable pour la plupart des instruments se basant sur ce principe de mesure par rotation. Les forces de cisaillement du liquide permettent la rotation du rotor tandis qu'un aimant à l'intérieur du rotor agit comme un frein à la rotation créée par courants de Foucault avec le bloc de cuivre. À l'équilibre entre les forces qui l'entrainent et qui le freinent, le rotor atteint une vitesse de rotation stable. Celle-ci est une mesure univoque de la viscosité dynamique. Le couple moteur et la vitesse de rotation sont mesurés sans contact par un capteur à effet Hall qui mesure la fréquence du champ magnétique. Grâce à cette technique, la résolution du couple moteur atteint la valeur très faible de 50 pN·m. Ainsi, avec ce seul système de mesure, on peut couvrir une plage de viscosité de 0,2 à 20 000 mPa·s. Une cellule de mesure de masse volumique selon le principe tube en U oscillant[1] permet de calculer la viscosité cinématique à partir de la viscosité dynamique mesurée.
+Viscosimètre Mooney[modifier | modifier le code]
+Développé par le physicien et rhéologiste américain Melvin Mooney (en) (1893-1968), ce viscosimètre est très répandu dans l'industrie du caoutchouc. Il sert en contrôle qualité, pour le choix du grade d'un caoutchouc, ou pour contrôler une fabrication. Il se compose d'un rotor ou d'une chambre oscillante sur lequel est déposé un échantillon de caoutchouc solide non vulcanisé. Lors d'une mesure qui dure quelques minutes, à une température fixe comprise entre 100 °C et environ 200 °C, deux plateaux thermorégulés recouvrent l'échantillon. L'appareil détermine le couple résistant. La viscosité est donnée en « unités Mooney » ou « points Mooney » arbitraires (ex. : 50 points Mooney pour un grade de caoutchouc).
+Viscosimètre Mooney.
+Échantillon posé sur le rotor, entre les deux plateaux chauffants.
+Il permet aussi la détermination de la constante k, égale au couple en points Mooney, mesurée 1 s après l'arrêt du rotor. De plus, un essai de relaxation Mooney donne la grandeur α, qui est une mesure de la vitesse de relaxation. Plus la valeur de α est proche de 0, plus le matériau fait preuve d'un comportement élastique. Voir aussi[2].
+Références[modifier | modifier le code]
+↑ Voir (en) Oscillating U-tube sur Wikipédia
+↑ Vulcamètre (de)
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Viscosimètre, sur Wikimedia Commons
+Articles connexes[modifier | modifier le code]
+Rhéomètre
+Melt flow index
+Coupe Zahn
+v · d · m
+Équipement de laboratoire
+Équipement de sécurité en laboratoire
+Boîte à gants · Couverture antifeu · Chaussures de sécurité · Déclencheur d'alarme incendie · Détecteur et avertisseur autonome de fumée · Douche de sécurité · Douche portative de sécurité · EPI · Extincteur · Hotte · Oxymètre
+Équipement de laboratoire
+(hors sécurité)
+Agitateur · Appareil de mesure d'épaisseur de revêtement · Autoclave · Automate · Bain-marie · Bain thermostaté · Balance · Bec Auer · Bec Bunsen · Bec Meker · Boy · Calorimètre · Centrifugeuse · Chambre d'essais · Chauffe-ballon · Chronomètre · Colorimètre · Cryostat · Échangeur d'ions · Enregistreur de données · Étuve · Évaporateur rotatif · Fabricants · Lecteur de plaques · Machine de traction · Manomètre · Marbre · Microscope · Minuterie · Paillasse · Papier essuie-tout · Papier Joseph · Papier lentille · Plaque chauffante · pH-mètre · Pompe à vide · Presse hydraulique · Réfractomètre · Réfractomètre hyperfréquence · Réfrigérateur · Soude sachet · Spatule · Spectromètre · Spectrophotomètre · Tamiseuse · Thermocycleur · Thermo-hygrographe · Thermomètre · Thermostat · Titrateur · Trompe à eau · Viscosimètre
+Verrerie de laboratoire
+Ampoule à brome · Ampoule à décanter · Ballon · Bécher · Boîte de Petri · Burette · Colonne de Vigreux · Colonne desséchante · Creuset · Cristallisoir · Cuvette · Dame-jeanne · Dean Stark · Débitmètre · Dessiccateur · Entonnoir · Entonnoir Büchner · Éprouvette graduée · Erlenmeyer · Eudiomètre · Fiole à vide · Fiole jaugée · Flacon laveur · Hydromètre · Mortier et pilon · Pipette * Pipette automatique * Pipette Pasteur · Pissette · Plaque microtitre · Pycnomètre · Rampe à vide · Réfrigérant · Soxhlet · Tube à essai * Microtube * Tube de 15 ml * Tube de 50 ml * Tube de Nessler · Tube de sûreté (tube Thistle) · Tube de Thiele · Vase Dewar · Verre de montre
+v · d · m
+Instruments de mesure
+Voir aussi Palette Instruments de mesure météorologique
+Acoustique
+Acoumètre · Audiomètre · Applaudimètre · Sonomètre · VU-mètre
+Angles et Position
+Axiomètre · Boussole · Cercle répétiteur · Compas · Demi-carré · GPS · Graphomètre · Goniomètre · Inclinomètre · Rapporteur · Octant, Quadrant, Quart de cercle et Sextant · Sitomètre · Théodolite · Tiltmètre
+Composition chimique
+Alcoomètre · Butyromètre · Galactomètre · pH-mètre · Spectrofluoromètre (ou fluorimètre) · Spectromètre de masse · Uromètre
+Distances
+Altimètre · Bathymètre · Cale étalon · Capteur de déplacement · Cathétomètre · Chaine d'arpenteur · Colonne de mesure · Comparateur · Curvimètre · Dendromètre · Dilatomètre · Fissuromètre · Iconomètre · Interféromètre · Jauge d'épaisseur · Jauge à flotteur · Jauge de profondeur · Jauge de déformation · Jauge de profondeur · Machine à mesurer tridimensionnelle · mètre ruban & mètre pliant · Micromètre · Odomètre, Taximètre · Pied à coulisse · Podomètre · Règle, Kutsch, Typomètre · Sphéromètre · Stadimètre · Tachéomètre · Télémètre, Célomètre · Toise · Vernier
+Grandeurs cinématiques
+Accéléromètre · Anémomètre · Annubar · Cinémomètre · Compte-tours · Sonde Pitot · Tachymètre · Vélocimètre · Vibromètre laser
+Grandeurs mécaniques
+Baromètre · Clé dynamométrique · Densimètre · Dynamomètre · Manomètre · Pénétromètre · Rhéomètre · Tensiomètre · Tribomètre · Vacuomètre · Viscoanalyseur · Viscosimètre
+Grandeurs électriques
+Courant électrique : Galvanomètre, Ampèremètre · Charge électrique : Électromètre · Potentiel électrique : Voltmètre · Résistance : Ohmmètre, Mégohmmètre (mesure des résistances d'isolement), Telluromètre (mesure des résistances de terre), Conductimètre · Spectromètre (décomposition des composantes spectrales d'un signal électrique) · Capacimètre (mesure des capacités des condensateurs) · Coulombmètre · Diélectrimètre (mesure des constantes diélectriques) · Fréquencemètre (mesure de la fréquence d'un signal électrique) · Multimètre (multiples mesures de valeurs électriques : tension, intensité, résistance, etc.) · Oscilloscope (mesure de tension, fréquence et période)
+Électromagnétisme et Optique
+Actinomètre · Bolomètre · Colorimètre (spectre lumineux) · Champ magnétique : Fluxmètre, Inductancemètre (mesure de l'inductance d'un circuit inductif), Magnétomètre, Teslamètre · Diffractomètre · Luxmètre · Photomètre · Polarimètre · Radiomètre · Strabomètre
+Puissance, énergie
+Wattmètre
+Quantité de matière
+Analyseur thermogravimétrique · Balance · Compteur Geiger · Détecteur de particules (Chambre à brouillard, Chambre à bulle, Chambre à étincelles, Chambre à fils, Chambre d'ionisation) · Dosimètre · Humidité : Hygromètre et Thermo-hygromètre, Thermobalance · Oxymètre · Pèse-personne · Peson · Poids public · Radiamètre
+Superficies
+Planimètre
+Température
+Calorimètre · Thermistance · Thermocouple · Thermomètre · Thermoscope
+Temps
+Astrolabe · Cadran solaire · Chronomètre · Clepsydre · Datation radioactive · Horloge · Horloge atomique · Minuteur · Montre · Pendule · Sablier
+Volumes et débits
+Aréomètre · Burette · Courantomètre · Débitmètre · Eudiomètre · Éprouvette graduée · Fiole jaugée · Fluviomètre · Maréomètre · Micropipette · Pipettes graduée, jaugée et compte-gouttes · Pycnomètre · Spiromètre (médecine) · Verre doseur (cuisine)
+Voir aussi Palette Capteur
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Viscosimètre&oldid=104726532 ».
+Catégories : Instrument de mesureÉquipement de laboratoireViscositéRhéologiePolymèrePlasturgieCatégories cachées : Article contenant un appel à traduction en allemandWikipédia:ébauche techniqueArticle contenant un appel à traduction en anglaisCatégorie Commons avec lien local identique sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Bosanski
+Català
+Čeština
+Deutsch
+English
+Español
+Eesti
+فارسی
+Galego
+हिन्दी
+Հայերեն
+Bahasa Indonesia
+Italiano
+한국어
+Македонски
+Nederlands
+Polski
+Português
+Русский
+Українська
+Modifier les liens
+Dernière modification de cette page le 17 juin 2014 à 04:09.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

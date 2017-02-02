@@ -1,0 +1,123 @@
+Variété de Calabi-Yau — Wikipédia
+Variété de Calabi-Yau
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Espace de Calabi-Yau)
+Aller à :					navigation, 					rechercher
+Cet article a une forme trop académique.
+La forme ressemble trop à un extrait de cours et nécessite une réécriture afin de correspondre aux standards de Wikipédia. N'hésitez pas à l'améliorer.
+Un exemple de variété de Calabi-Yau
+En mathématiques, une variété de Calabi-Yau, ou espace de Calabi-Yau (souvent abrégé simplement en Calabi-Yau) est un type particulier de variété intervenant en géométrie algébrique. On les rencontre également en physique théorique, et notamment dans la théorie des supercordes, où elles jouent le rôle d'espace de compactification. C'est dans le cadre de l'étude de ces variétés qu'a eu lieu l'une des plus importantes collaborations entre physiciens et mathématiciens ; celle-ci a abouti à la découverte de la symétrie miroir, qui établit une relation non triviale entre deux variétés de Calabi-Yau dont les topologies peuvent être différentes. La définition précise de ces variétés est très technique. Elle sera exposée plus bas.
+Sommaire
+1 Historique et définition formelle
+2 Exemples de variétés de Calabi-Yau
+3 Usage en théorie des cordes
+3.1 Description
+3.2 Transitions de géométrie
+4 Symétrie miroir
+5 Voir aussi
+5.1 Articles connexes
+5.2 Liens externes
+Historique et définition formelle[modifier | modifier le code]
+Une variété de Calabi-Yau est définie comme une variété kählérienne dont la première classe de Chern est nulle. Eugenio Calabi a conjecturé en 1957 que de telles variétés admettent nécessairement une métrique dont le tenseur de Ricci s'annule (on parle aussi de variété Ricci-plate (en)). La conjecture a été démontrée par Shing-Tung Yau en 1977 dans ce qui est devenu le théorème de Yau (en). Dès lors, on peut également définir une variété de Calabi-Yau comme un espace compact, Kähler et Ricci-plat.
+De façon encore équivalente, un espace de Calabi-Yau de dimension complexe n (ce qui correspond à une dimension réelle 2n) peut être vu comme une variété riemannienne d'holonomie réduite à SU(n) (le groupe d'holonomie d'une variété riemannienne de dimension réelle 2n étant génériquement le groupe SO(2n)).
+Enfin, on peut encore voir de façon équivalente un espace de Calabi-Yau comme une variété kählérienne admettant une (n, 0)-forme holomorphe définie globalement et ne s'annulant nulle part. Cette dernière condition est équivalente à ce que le fibré canonique (en) sur la variété soit trivial. Ceci se traduit par une classe canonique triviale. Ce dernier point de vue est utile pour généraliser la définition d'une variété Calabi-Yau au cas d'espaces possédant des singularités car même si la classe de Chern n'est pas bien définie pour un espace singulier on peut encore considérer les notions de fibré canonique et de classe canonique.
+Il est notable toutefois que même pour certains des Calabi-Yau les plus simples (voir plus bas) on ne sait pas exhiber explicitement la métrique Ricci-plate bien que son existence soit assurée par le théorème de Yau.
+Exemples de variétés de Calabi-Yau[modifier | modifier le code]
+En dimension complexe 1 la seule variété de Calabi-Yau est le 2-tore.
+En dimension complexe 2 il n'existe que deux variétés de Calabi-Yau à isomorphisme près. Il s'agit du 4-tore et de l'espace K3. Sur ce dernier, aucune métrique Ricci-plate explicite n'est connue. Il en va de même pour tous les Calabi-Yau de dimensions supplémentaires non triviaux.
+À partir de la dimension complexe 3 (dimension réelle 6) le nombre de Calabi-Yau devient infini et il n'existe pas encore de classification générale. On peut en construire toutefois un grand nombre qui possèdent en plus la propriété d'être des variétés toriques.
+Usage en théorie des cordes[modifier | modifier le code]
+Les variétés de Calabi-Yau sont particulièrement utilisées en théorie des supercordes car elles préservent une partie de la supersymétrie de la théorie originale à 10 dimensions sous le processus de réduction dimensionnelle pour obtenir une théorie effective à 4 dimensions. En plus des propriétés phénoménologiques intéressantes de la supersymétrie (notamment pour expliquer la faiblesse de la constante cosmologique), l'existence de la supersymétrie au niveau de la théorie effective simplifie l'étude formelle des modèles envisagés car nombre de constantes de couplage sont protégées de corrections perturbatives ou non perturbatives par l'intermédiaire de théorème de non-renormalisation (en). Leur détermination à l'ordre des arbres dans l'expansion diagrammatique de la théorie (il est parfois nécessaire de pousser le développement jusqu'à l'ordre d'une boucle) est alors suffisante pour connaître leur valeur dans la théorie effective.
+Description[modifier | modifier le code]
+La complexité de cette variété est telle qu'elle ne peut pas être représentée exactement. Elle contiendrait à elle seule six dimensions, raison pour laquelle de tels replis et déformations apparaissent. Car c'est bien de la compression de la variété que découle cette complexité en 2 dimensions. Lorsqu'elle est utilisée en tant que dimension enroulée, la taille d'une variété de Calabi-Yau vaut la longueur de Planck, soit 10-33cm.
+Transitions de géométrie[modifier | modifier le code]
+Article détaillé : Transition géométrique.
+Il est remarquable que contrairement à l'intuition classique, la théorie des cordes puisse donner des résultats équivalents au niveau de la théorie effective à 4 dimensions lorsqu'elle est compactifiée sur deux variétés différentes. Parfois ces deux variétés de Calabi-Yau peuvent même avoir des topologies différentes. On parle alors de transition géométrique. Des exemples particuliers de telles transitions sont donnés par la transition de flop et la transition de conifold.
+Symétrie miroir[modifier | modifier le code]
+Article détaillé : Symétrie miroir.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Variété de Calabi-Yau, sur Wikimedia Commons
+Articles connexes[modifier | modifier le code]
+Théorie des cordes
+Théorie de Kaluza-Klein
+Dimensions enroulées
+Transition de flop
+Transition de conifold
+Orbifold
+Liens externes[modifier | modifier le code]
+Quelques exemples de variétés Calabi-Yau : [1], [2], [3]
+Portail de la physique
+Portail des mathématiques
+Portail de la géométrie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Variété_de_Calabi-Yau&oldid=109117301 ».
+Catégories : Géométrie différentielleThéorie des cordesCatégories cachées : Article à désacadémiserArticle contenant un appel à traduction en anglaisCatégorie Commons avec lien local identique sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Mathématiques/Articles liésProjet:Mathématiques/ArticlesPortail:Géométrie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+বাংলা
+Català
+Deutsch
+English
+Español
+فارسی
+עברית
+Italiano
+日本語
+한국어
+Latina
+Latviešu
+Nederlands
+Polski
+Português
+Русский
+Simple English
+Svenska
+中文
+Modifier les liens
+Dernière modification de cette page le 14 novembre 2014 à 17:07.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

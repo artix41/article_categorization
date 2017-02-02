@@ -1,0 +1,44 @@
+Magnétorésistance géante — Wikipédia
+Magnétorésistance géante
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir GMR.
+La magnétorésistance géante (en anglais, Giant Magnetoresistance Effect ou GMR) est un effet quantique observé dans les structures de films minces composées d'une alternance de couches ferromagnétiques et de couches non magnétiques. Elle se manifeste sous forme d'une baisse significative de la résistance observée sous l'application d'un champ magnétique externe : à champ nul, les deux couches ferromagnétiques adjacentes ont une aimantation antiparallèle, car elles subissent un couplage ferromagnétique faible[1]. Un champ magnétique externe induit un renversement d'aimantation: les aimantations respectives des deux couches s'alignent et la résistance de la multicouche décroît brutalement.
+L'effet se produit parce que le spin des électrons du métal non magnétique se répartit équitablement de façon parallèle et antiparallèle, et subit ainsi une diffusion magnétique moins importante lorsque les couches ferromagnétiques sont aimantées de façon parallèle.
+Sommaire
+1 Découverte
+2 Premières applications
+3 Différents types de phénomènes GMR
+3.1 Magnétorésistance géante dans les multicouches
+3.2 Magnétorésistance géante spin-valve
+3.3 Magnétorésistance géante granulaire
+4 Applications
+5 Articles connexes
+6 Notes et références
+6.1 Sources
+Découverte[modifier | modifier le code]
+Reproduction des résultats de Fert et al.
+Lire le média
+Animation expliquant la courbe obtenue par A.Fert montrant la decouverte de la magnétorésistance géante
+En 1988, la magnétorésistance géante est découverte, dans des couches monocristallines, par deux équipes indépendantes :
+celle d'Albert Fert, de l'Université de Paris-Sud-Orsay en France,
+celle de Peter Grünberg au Centre de recherche de Jülich en Allemagne[2].
+Le 9 octobre 2007, Albert Fert et Peter Grünberg ont reçu conjointement le Prix Nobel de physique pour leur découverte de la magnétorésistance géante. Ces travaux fondamentaux ont permis le développement d’un nouveau champ de recherches en nanotechnologie, la spintronique (ou électronique de spin), qui exploite les propriétés quantiques du spin de l’électron. La spintronique guide les électrons en agissant sur la rotation de leur spin au lieu d’agir sur leur charge électrique.
+Premières applications[modifier | modifier le code]
+Une équipe de recherche d'IBM menée par Stuart Parkin a réalisé la même expérience sur des couches polycristallines en 1989, ouvrant ainsi la voie à des applications suffisamment économiques pour envisager des applications commerciales. En particulier, l'une des applications possibles était l'utilisation de la GMR pour réaliser un capteur de champ magnétique, et ainsi proposer un nouveau type de tête de lecture dans les disques durs d'ordinateurs. Le premier dispositif utilisant la magnétorésistance géante a été commercialisé par IBM en décembre 1997.
+Depuis 1999 environ, les recherches portent sur l'emploi de nanofils organisés en multicouches, mais également sur l'emploi de nombreux types de matériaux nanostructurés (agrégats, nanoparticules piégées dans des substrats diélectriques, etc.)
+Différents types de phénomènes GMR[modifier | modifier le code]
+Magnétorésistance géante dans les multicouches[modifier | modifier le code]
+Au moins deux couches ferromagnétiques sont séparées par un film ultra-mince (environ 1 nanomètre) de métal non ferromagnétique (par exemple, deux couches de fer séparées par du chrome : Fe/Cr/Fe). Pour certaines épaisseurs, le couplage RKKY entre les couches ferromagnétiques adjacentes devient un couplage antiferromagnétique : au niveau énergétique, il devient préférable pour les couches adjacentes que leurs aimantations respectives s'alignent de façon antiparallèle. La résistance électrique du dispositif est normalement plus grande dans le cas anti-parallèle, et la différence peut atteindre plusieurs dizaines de pourcents à température ambiante. Dans ces dispositifs, la couche intermédiaire correspond au second pic antiferromagnétique dans l'oscillation antiferromagnétique-ferromagnétique du couplage RKKY.
+La magnétorésistance géante a été observée pour la première fois dans une configuration multicouche, et la recherche concernait principalement des empilements de 10 couches ou plus.
+Magnétorésistance géante spin-valve[modifier | modifier le code]
+GMR «spin-valve»
+Deux couches ferromagnétiques sont séparées par une couche non magnétique (environ 3 nm), mais sans couplage RKKY. Si le champ coercitif des deux électrodes ferromagnétiques est différent, il est possible de les commuter indépendamment. Ainsi, on peut réaliser un alignement parallèle ou antiparallèle, et la résistance doit être plus grande dans le cas antiparallèle. Ce système est parfois appelé spin-valve, car il permet de contrôler le spin des électrons qui transitent.
+La magnétorésistance géante par spin-valve est celle qui présente le plus d'intérêt industriel et commercial ; c'est la configuration utilisée dans les têtes de lecture des disques durs des ordinateurs.
+Magnétorésistance géante granulaire[modifier | modifier le code]
+La magnétorésistance géante granulaire est un phénomène se produisant dans les précipités solides de matériaux magnétiques dans une matrice non magnétique. En pratique, la GMR granulaire est uniquement observée dans des matrices de cuivre contenant des granules de cobalt. La raison en est que le cobalt et le cuivre sont non miscibles, et il est donc possible de créer le précipité solide en refroidissant rapidement un mélange en fusion de cuivre et de cobalt. La taille des granules dépend de la vitesse de refroidissement et du post-recuit. Les matériaux montrant une magnétorésistance géante granulaire ne semblent en 2005 pas capables de reproduire des effets aussi importants que ceux présentés par leurs homologues formés de multicouches.
+Applications[modifier | modifier le code]
+Le phénomène de magnétorésistance géante est très utilisé dans les têtes de lecture GMR des disques durs modernes. Les mémoires magnétiques non volatiles (ou MRAM) en sont une autre application. Cette technologie est très prometteuse pour remplacer un certain nombre de disques durs sous la forme de SSD.
+Articles connexes[modifier | modifier le code]
+Ferromagnétisme
+Spintronique

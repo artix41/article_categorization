@@ -1,0 +1,161 @@
+Interaction médicamenteuse — Wikipédia
+Interaction médicamenteuse
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la pharmacie.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Consultez la liste des tâches à accomplir en page de discussion.
+Des informations de cet article ou section devraient être mieux reliées aux sources mentionnées dans la bibliographie ou en liens externes.
+Améliorez sa vérifiabilité en les associant par des références.
+L'interaction médicamenteuse est une situation qui résulte de l'administration concomitante ou successive de deux ou plusieurs médicaments (ou parfois d'autres substances comme certains aliments) chez un même patient et dans laquelle l'une des substances absorbées affecte l'activité thérapeutique d'un ou plusieurs des autres médicaments administrés. Dans certains cas, on peut avoir une augmentation de l'activité du médicament pour une même dose, dans d'autre une réduction, voire une abolition de l'efficacité du traitement. Dans le premier cas, on parle d'interaction synergique et dans le second, d'interaction antagoniste.
+Les interactions médicamenteuses pouvent mener à des conséquences graves pour la santé du patient.
+Plusieurs mécanismes peuvent être responsables de dans les interactions médicamenteuses, notamment ceux qui affectent la pharmacocinétique, c'est-à-dire l'absorption, le transport, le métabolisme et l'élimination de ces composés actifs par l'organisme. En particulier, l'administration de deux médicaments métabolisés par la même voie aura des conséquences sur la clairance de ces médicaments qui seront en compétition pour les enzymes qui sont responsables de leur élimination, et notamment les cytochromes P450.
+Sommaire
+1 Épidémiologie
+2 Interactions médicamenteuses dépendantes de la pharmacocinétique
+2.1 Absorption
+2.1.1 Accélération de l'absorption
+2.1.2 Ralentissement de l'absorption
+2.2 Distribution
+2.3 Métabolisme
+2.3.1 Inhibition du métabolisme
+2.3.2 Induction du métabolisme
+2.4 Élimination
+2.4.1 Augmentation de l'élimination du médicament
+2.4.2 Ralentissement de l'élimination du médicament
+3 Interactions médicamenteuses dépendantes du mécanisme d'action
+3.1 Par effet pharmacologique additif
+3.2 Par effet pharmacologique contraire
+4 Interactions médicamenteuses et pharmacothérapie
+5 Notes
+6 Références
+7 Annexes
+7.1 Articles connexes
+7.2 Liens externes
+Épidémiologie[modifier | modifier le code]
+Un chiffre pour montrer l'ampleur du phénomène en France, pays où on consomme au monde le plus de médicaments, le Ministère de la Santé évalue (mais sans citer ses sources) à 8 000 le nombre de décès annuels du seul fait des interactions médicamenteuses[1]
+Les dernières analyses des bases de remboursement de l'Assurance maladie montrent l’émergence des associations médicamenteuses formellement contre-indiquées (AFCI) exposant au risque de torsades de pointes. Ce risque représente 96,2 % des 9 076 AFCI prescrites en Rhône-Alpes au 4e trimestre 2013 (régime général). Le phénomène s’explique par le classement en contre-indication de plusieurs associations médicamenteuses torsadogènes en 2012 et 2013. Les molécules les plus fréquemment impliquées[2] dans les AFCI torsadogènes sont escitalopram ou citalopram (92,7 %), souvent associées à un neuroleptique (68,7 %, notamment cyamemazine 40,5 %), domperidone (11,2 %), amiodarone, sotalol, méthadone, etc. D'une manière générale, parmi les médicaments impliqués dans les AFCI, nous retrouvons surtout les psychotropes (antidépresseurs, neuroleptiques) et en deuxième lieu les antibiotiques[3] [4].
+Interactions médicamenteuses dépendantes de la pharmacocinétique[modifier | modifier le code]
+Absorption[modifier | modifier le code]
+Mécanisme direct :
+formation de complexe mal absorbé dans l'intestin par exemple  : tétracycline avec ion Ca++
+augmentation de l'absorption digestive ex: griseofulvine (antifongique) et certaines huiles comme l'huile d'olive.
+Mécanisme indirect : les laxatifs qui accélèrent le transit intestinal ou les anticholinergiques qui le ralentissent modifient la durée du contact d'un autre médicament ingéré en même temps.
+Accélération de l'absorption[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Ralentissement de l'absorption[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Distribution[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Métabolisme[modifier | modifier le code]
+Inhibition du métabolisme[modifier | modifier le code]
+Par exemple, si on administre un médicament inhibiteur d'une voie de métabolisation donnée et qu'on administre aussi un médicament qui est un substrat de cette même voie, la molécule substrat verra sa clairance diminuée, sa demi-vie augmentée, son volume de distribution augmenté et, conséquemment, sa concentration plasmatique augmentera au fil des jours, ce qui pourra résulter en des effets indésirables plus importants. Un exemple de ce mécanisme est l'interaction médicamenteuse entre la clarithromycine (Biaxin®), un antibiotique inhibiteur du CYP3A4, et l'atorvastatine (Lipitor®,Tahor®),un substrat du CYP 3A4. L'administration concomitante de ces deux médicaments entraîne une augmentation de la biodisponibilité de l'atorvastatine et augmente de façon cliniquement significative le risque de rhabdomyolyse1,2.
+Induction du métabolisme[modifier | modifier le code]
+En revanche, si l'on administre un médicament inducteur d'une voie de métabolisation donnée et qu'on administre aussi un médicament qui est un substrat de cette même voie, la molécule substrat verra sa clairance augmenter, sa biodisponibilité diminuer et, conséquemment, sa concentration plasmatique diminuera au fil des jours et son efficacité diminuera. Dans le cas des antibiotiques, cette interaction est catastrophique, car cela peut mener fréquemment à des échecs de traitement. Un exemple de ce mécanisme est l'interaction médicamenteuse entre la ciclosporine (Sandimmune® ou Neoral®), un immunosuppresseur utilisé dans les traitements anti-rejets, et le millepertuis, un produit de santé naturel. Le millepertuis est un inducteur du CYP3A4, et la ciclosporine en est un substrat. L'administration concomitante de ces deux médicaments diminuent de 46 % la biodisponibilité de la ciclosporine après seulement 14 jours1,2. Conséquence : rejet de l'organe transplanté.
+Élimination[modifier | modifier le code]
+Augmentation de l'élimination du médicament[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Ralentissement de l'élimination du médicament[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Interactions médicamenteuses dépendantes du mécanisme d'action[modifier | modifier le code]
+Par effet pharmacologique additif[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Par effet pharmacologique contraire[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Interactions médicamenteuses et pharmacothérapie[modifier | modifier le code]
+Les interactions médicamenteuse sont un des huit problèmes reliés à la pharmacothérapie. Il est important de les régler pour optimiser la thérapie d'un patient, et le pharmacien est le professionnel de la santé le mieux formé pour travailler avec la pharmacothérapie d'un patient.
+Notes[modifier | modifier le code]
+↑ 8 000 décès annuels en France du seul fait des interactions médicamenteuses
+↑ « Dossier | Associations médicamenteuses formellement contre-indiquées : le risque de torsades de pointes est le plus fréquente » [PDF], sur www.ameli.fr
+↑ « Les principales interactions des antibiotiques à éviter », sur Assurance Maladie,‎ 14/11/2014 (consulté le 16/11/2014)
+↑ « Les AFCI des antibiotiques les plus fréquentes », sur Assurance Maladie,‎ 14/11/2014 (consulté le 16/11/2014)
+Références[modifier | modifier le code]
+Association des pharmaciens du Canada. Compendium des produits et spécialités pharmaceutiques. Ottawa : Association des pharmaciens du Canada : 2005.
+Klasco RK (Ed): DRUGDEX® System. Thomson MICROMEDEX, Greenwood Village, Colorado; Édition expires 03/2006.
+Agence Française de Sécurité Sanitaire des Produits de Santé http://agmed.sante.gouv.fr/htm/10/iam/indiam.htm
+Banque de données Médicamenteuses Claude Bernard http://www.resip.fr/
+Banque de données médicamenteuses Thériaque http://www.theriaque.org/
+Drug Interactions from Ivan H Stockley (Pharmaceutical Press)
+Outil clinique de pharmacovigilance InterMed-Rx : http://www.intermed-rx.ca
+Annexes[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Médicament
+Interactions médicaments-aliments
+Prescription de médicaments
+Médicament sous ordonnance
+Médicaments et grossesse
+Surconsommation de médicaments
+Surprescription
+iatrogénèse
+Iatrogénèse systémique
+Liste de médicaments retirés du marché
+Liens externes[modifier | modifier le code]
+(en) Interactions of 44.000 medicaments in more than 77.000 German drug formulations
+(en) 11.500 possible interactions in 5.000 substances
+(en) Drugs.com
+Portail de la médecine
+Portail de la pharmacie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Interaction_médicamenteuse&oldid=109163275 ».
+Catégories : MédicamentPharmacologieIndustrie pharmaceutiqueCatégories cachées : Wikipédia:ébauche pharmaciePortail:Médecine/Articles liésPortail:Pharmacie/Articles liésBon article en espagnol
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Čeština
+Deutsch
+English
+Español
+Euskara
+Suomi
+日本語
+Norsk bokmål
+Polski
+Português
+Srpskohrvatski / српскохрватски
+Slovenščina
+Српски / srpski
+Modifier les liens
+Dernière modification de cette page le 16 novembre 2014 à 08:46.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

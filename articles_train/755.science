@@ -1,0 +1,42 @@
+Concentration molaire — Wikipédia
+Concentration molaire
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La concentration molaire, ou molarité, d'une espèce chimique est sa quantité de matière, exprimée en moles, par unité de volume[1] ; cette notion est essentiellement utilisée pour des espèces en solution. La concentration d'une espèce X sera notée CX ou [X].
+La concentration molaire
+du soluté est ainsi liée à la quantité de matière
+de soluté et au volume
+de solution par la relation
+Sommaire
+1 Unités
+2 Grandeurs voisines
+2.1 Concentration moléculaire
+2.2 Concentration massique
+2.3 Concentration pondérale (molalité)
+3 Applications
+4 Notes et références
+5 Voir aussi
+Unités[modifier | modifier le code]
+Dans le système international d'unités la concentration molaire s'exprime en moles par mètre-cube (mol/m3 ou mol.m-3), mais on utilise plus couramment les moles par litre (mol/L ou mol.L-1)
+1 mol/L = 1000 mol/m3.
+L'unité mol/L est souvent abrégée en M ; par exemple une solution d'acide chlorhydrique de concentration 0,1 mol/L peut être étiquetée « HCl 0,1 M ».
+Grandeurs voisines[modifier | modifier le code]
+Concentration moléculaire[modifier | modifier le code]
+Soulignons que la concentration molaire ne s'exprime pas directement en nombre d'entités (molécules), qui serait peu pratique, requérant des nombres très élevés, mais en moles (à l'instar de douzaines ou de milliers): Il y a la relation C(moléculaire) = NA x c(molaire), ou NA est la constante d'Avogadro (6,02214129(27) × 1023 entités).
+Par exemple 1 mole d'eau liquide à 25 °C occupe un volume de 0,018 L donc la concentration (molaire) de l'eau dans l'eau pure est 55,5 mol/L. Dans la vapeur d'eau à 100 °C sous 1 atm ce même volume est 30,6 L donc la concentration de l'eau y est 0,033 mol/L, soit 1700 fois moins que dans l'eau liquide. La concentration (moléculaire) est respectivement de 3,34229 × 1025 et 1,84278 × 1022 (molécules H2O par Litre).
+Concentration massique[modifier | modifier le code]
+Il ne faut pas confondre la concentration molaire, en unité de moles par volume: mol/Litre par exemple ) avec la concentration massique (notée
+ou usuellement C (majuscule); en unité de masse par volume: g/L - désignée en physique comme la masse volumique en vrac ou apparente). En effet, les 2 sont souvent désignées sous le simple terme « concentration », ce qui se comprend de par le contexte ou l'unité indiquée, mais cela porte parfois ambiguïté.
+Concentration pondérale (molalité)[modifier | modifier le code]
+La concentration molaire diffère aussi de la 'concentration pondérale' (ou teneur, molalité, notée m; sans unité (masse par masse), exemple 15 g de composé X par 10 000g de solvant) et de la Fraction molaire (notée x, ou x%; sans unité (mole par mole), exemple 0.15% de composé X par mole totale). La concentration est une grandeur dite intensive car elle ne dépend pas de la quantité de matière présente mais d'un nombre d'entités, tout comme la masse volumique.
+Applications[modifier | modifier le code]
+La notion de concentration molaire s'applique typiquement en chimie et biologie, aux constituants en solution, mais elle est également valable à l'état pur et dans les mélanges gazeux.
+Dans les solutions ioniques il existe le plus souvent plusieurs espèces chimiques en équilibre. Par exemple une solution d'un acide faible HA contient les espèces H+, A- et HA à cause de l'équilibre de dissociation HA ⇆ H+ + A-. La concentration (molaire) de la matière acide est alors:
+cHA = [A-] + [HA], C'est-à-dire la somme des concentrations de ses espèces chimiques dérivées.
+Ceci s'applique aux réactions d'ionisation, de complexation, d'oxydo-réduction...
+Les concentrations sont très utilisées en chimie, notamment en analyse quantitative par volumétrie, cinétique chimique, et théorie des ions (théorie de Debye et Hückel). En thermodynamique on leur préfère les fractions molaires ou les molalités qui ont l'avantage d'être indépendantes de la température et de la pression.
+En biochimie et biologie, les concentrations molaires sont aussi très utilisées, pour déduire les concentrations des produits de réaction, ou à l'inverse des réactants d'origine quand on dose les produits. Ainsi, avec une réaction A + 3 B → AB + B2, on utilise la Stœchiométrie des éléments chimiques (proportion molaire des éléments entre réactants et produits) - et/ou un bilan de masse -. 1 mole de A donnera 1 mole de AB, tandis qu'1 mole de B2 sera issue d'1/3 de mole de B. Une mole de AB contient 1 mole de A et 1 mole de B. A volume(s) initial et final connu(s), on peut calculer les concentrations molaires apparues ou disparues.
+On parlera de solutions équimolaires en composé X pour des solutions ayant la même concentration molaire en X, et de réaction équimolaire pour une réaction chimique qui fait réagir ses réactifs mole à mole (molécule à molécule ou espèce chimique à espèce chimique).
+La quantité ou concentration (massique) de certains éléments étant déterminée notamment par des pesées, on utilise beaucoup la relation entre concentration massique du soluté i de masse molaire Mi à sa concentration molaire ci :
+Mais certaines méthodes de mesure donnent accès direct à la concentration molaire, comme la loi de Loi de Beer-Lambert (la concentration est proportionnelle à l'absorption de la lumière (Abs.), la longueur du trajet parcouru (L), et un coefficient d'extinction () propre à la substance à la longueur d'onde mesurée
+donnée).

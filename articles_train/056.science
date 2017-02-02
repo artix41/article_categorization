@@ -1,0 +1,56 @@
+Gaz de fermions dégénéré — Wikipédia
+Gaz de fermions dégénéré
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un gaz de fermions dégénéré possède un comportement qui n'est plus décrit par la physique classique mais par la physique quantique. Un gaz entre dans ce régime purement quantique lorsque sa température est suffisamment basse. Par définition, la température en dessous de laquelle la physique classique n'est plus pertinente est appelée la température de Fermi.
+En 1995 furent produits les premiers condensats de Bose-Einstein gazeux, ouvrant la voie à l'étude des gaz quantiques. En 2003, l'équipe de Deborah Jin, du laboratoire NIST-JILA (Université du Colorado, USA), refroidit pour la première fois un gaz de fermions dans le régime de dégénérescence quantique.
+Sommaire
+1 Refroidissement d'un gaz de fermions
+2 Effets de la statistique fermionique
+3 Interactions dans un gaz de fermions dégénéré
+4 Condensat de Bose-Einstein de molécules
+5 Phase Bardeen-Cooper-Schrieffer
+6 La transition BEC-BCS
+7 Les gaz de fermions déséquilibrés
+8 Equipes de recherche produisant des gaz de fermions dégénérés
+9 Annexes
+9.1 Notes et références
+9.2 Liens internes
+Refroidissement d'un gaz de fermions[modifier | modifier le code]
+Refroidir un gaz de fermions est plus difficile que pour un gaz de bosons. En effet, en dessous d'une température de l'ordre du mK, i.e. bien avant d'entrer dans le régime dégénéré, les collisions entre fermions identiques dans le même état interne sont fortement inhibées par le principe de Pauli, ce qui limite l'efficacité du refroidissement par évaporation. Deux voies ont été empruntées pour contourner cette limitation : on prépare le gaz dans un mélange d'états internes avant l'évaporation, et les collisions se font entre atomes d'états internes différents, ou bien on refroidit le gaz par thermalisation avec un gaz de bosons simultanément présent (on parle alors de refroidissement sympathique).
+On parvient ainsi à produire un gaz de 104 à 106 atomes fermioniques à une température de l'ordre de .
+Effets de la statistique fermionique[modifier | modifier le code]
+Deux fermions identiques ne pouvant être dans le même état, il est clair qu'à suffisamment basse température les prédictions de la physique classique (distribution statistique de Maxwell-Boltzmann) perdent leur sens, puisqu'elles prévoient que les états de plus basse énergie sont occupés par plusieurs particules.
+La théorie quantique prévoit qu'à température nulle, si le gaz contient N particules, les N états de plus basse énergie sont chacun occupés par un fermion exactement, et les autres sont vides. L'énergie seuil à partir de laquelle l'occupation des états devient nulle est par définition l'énergie de Fermi ; la température de Fermi
+est simplement l'énergie de Fermi divisée par la constante de Boltzmann.
+Pour un gaz de fermions identiques sans interaction, piégé dans un potentiel harmonique de pulsation , on a
+Les gaz de fermions ultrafroids produits actuellement contiennent typiquement
+atomes piégés à une fréquence
+de l'ordre de * 100 Hz. La température de Fermi est alors de l'ordre du K.
+Interactions dans un gaz de fermions dégénéré[modifier | modifier le code]
+Les interactions entre fermions identiques dans le même état interne sont fortement inhibées à basse température. Cependant on peut préparer un mélange ultrafroid de fermions identiques dans deux états de spin différents ; les collisions entre atomes de spins différents sont alors autorisées. La plupart des études faites à ce jour concernent des gaz à deux espèces de spin en proportions égales.
+De plus, on peut exploiter le phénomène de résonance de Feshbach pour varier à souhait la force des interactions en plongeant le gaz dans un champ magnétique ajustable. Selon la valeur des interactions, les atomes peuvent s'apparier en molécules qui forment alors un condensat de Bose-Einstein, s'apparier en paires de Cooper pour former un état BCS (Bardeen-Cooper-Schrieffer, voir ci-dessous), et, dans le cas intermédiaire, former un état à N corps complexe qui résiste aux études théoriques et qui pourrait s'avérer intéressant pour l'étude de la supraconductivité à haute température critique.
+Condensat de Bose-Einstein de molécules[modifier | modifier le code]
+Images par absorption après expansion libre d'un gaz de fermions en interaction forte : aux plus basses températures, on observe un pic caractéristique d'un condensat de Bose-Einstein.
+En 2003, l'équipe de Deborah Jin parvint à refroidir un gaz de fermions (du ) en deçà de la température de dégénérescence dans le régime d'interaction forte[1]. Les atomes se regroupent alors en paires, c'est-à-dire forment des « molécules ». Ces dernières ont un comportement bosonique et peuvent donc former un condensat de Bose-Einstein, comprenant environ 500 000 molécules à une température de 50 nK.
+Phase Bardeen-Cooper-Schrieffer[modifier | modifier le code]
+Lorsque les atomes d'états internes s'attirent faiblement, ils s'apparient en paires de Cooper, un objet très différent d'une molécule. Chaque paire est constituée de deux atomes d'impulsions opposées, et est délocalisée dans l'espace des positions. Le gaz dans son ensemble forme un état proposé théoriquement par Bardeen, Cooper et Schrieffer[2] afin d'expliquer la supraconductivité de certains métaux à basse température. Un gap est ouvert dans le spectre des excitations possibles, c'est-à-dire qu'on ne peut créer une excitation dans le gaz dont l'énergie est inférieure à une valeur strictement positive, appelée le gap. Ce dernier est directement relié au caractère superfluide du gaz.
+La transition BEC-BCS[modifier | modifier le code]
+Dans le régime intermédiaire entre le condensat de molécules et l'état BCS qui sont deux cas limites simplement descriptibles, le gaz forme un état complexe à N corps fortement intriqué. Les théories de type champ moyen décrivent qualitativement le comportement du gaz mais échouent à faire des prédictions quantitatives. Seules les simulations numériques de type Monte Carlo parviennent à décrire précisément les propriétés du gaz.
+Ce régime est atteint expérimentalement en exploitant le phénomène de résonance de Feshbach. En plongeant le gaz dans un champ magnétique adéquat, la force des interactions entre atomes est choisie par l'expérimentateur. Selon le champ imposé, on peut se placer dans le régime BEC, BCS, ou intermédiaire.
+A basse température on observe une transition de phase vers un état superfluide et l'apparition d'un gap dans les excitations possibles du fluide ; cependant, contrairement à la transition BCS, le gap apparaît à une température plus haute que la superfluidité. Ces deux notions sont donc clairement distinctes.
+En plus de la motivation théorique de compréhension d'un système quantique complexe modèle, ce système présente un caractère superfluide particulièrement robuste. En effet, la température de transition de phase entre l'état normal et l'état superfluide est haute, de l'ordre de la température de Fermi, et la vitesse critique de Landau, vitesse limite du superfluide avant de perdre sa superfluidité, l'est aussi. Son étude pourrait donc éclaircir la physique des superfluides à haute température critique, comme les supraconducteurs à haute température critique. Elle pourrait aussi s'appliquer à d'autres systèmes contenant des fermions en interaction forte, comme les étoiles à neutrons et les noyaux atomiques.
+Les gaz de fermions déséquilibrés[modifier | modifier le code]
+Le cas où le nombre d'atomes dans un état de spin diffère du nombre d'atomes dans l'autre état de spin est encore plus complexe, étant donné que la plupart des théories existantes concernant les gaz de fermions en interaction reposent sur la possibilité d'apparier les fermions d'états internes différents. Le groupe de W. Ketterle a mis en évidence la limite de Clogson-Chandrasekhar, c'est-à-dire le déséquilibre de populations critique qui détruit la superfluidité du gaz, même à température nulle[3].
+Equipes de recherche produisant des gaz de fermions dégénérés[modifier | modifier le code]
+Equipe de Deborah S. Jin (JILA, University of Colorado, USA) : K refroidi sous la forme d'un mélange de deux états hyperfins
+Equipe de Christophe Salomon (ENS, Paris, France) : Li refroidi sympathiquement avec du Li
+Equipe de Wolfgang Ketterle (MIT, USA) : Li refroidi sympathiquement avec du Na
+Equipe de Randall G. Hulet (Rice University, USA) : Li refroidi sympathiquement avec du Li
+Equipe de John E. Thomas (JETLab, Duke University, USA) : Li refroidi sous la forme d'un mélange de deux états hyperfins dans un piège optique ultrastable
+Equipe de Rudi Grimm (Innsbruck, Autriche) : Li
+Equipe de Tilman Esslinger (Zurich, Suisse) : K
+Equipe d'Immanuel Bloch (Mainz, Allemagne) : K refroidi sympathiquement avec du Rb
+Equipe de B. J. Desalvo (RICE University, USA) : Sr (Alcalino-terreux)
+Equipe de Yoshiro Takahashi (Kyoto, Japon) : Yb et Yb
+Annexes[modifier | modifier le code]

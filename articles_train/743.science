@@ -1,0 +1,180 @@
+Spectrophotométrie — Wikipédia
+Spectrophotométrie
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la chimie.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Un spectrophotomètre
+La spectrophotométrie est une méthode analytique quantitative qui consiste à mesurer l'absorbance ou la densité optique d'une substance chimique donnée, généralement en solution. Plus l'échantillon est concentré, plus il absorbe la lumière dans les limites de proportionnalité énoncées par la loi de Beer-Lambert.
+La densité optique des échantillons est déterminée par un spectrophotomètre préalablement étalonné sur la longueur d'onde d'absorption de la substance à étudier.
+Sommaire
+1 Principe
+2 Domaine UV-visible de la spectrophotométrie
+3 Spectrophotomètre
+4 Limites
+4.1 Importance du phénomène de diffusion
+5 Applications
+6 Références
+7 Voir aussi
+7.1 Articles connexes
+7.2 Liens externes
+Principe[modifier | modifier le code]
+Pour plus de détails, voir l'article Loi de Beer-Lambert.
+Lorsqu’une lumière d’intensité
+passe à travers une solution, une partie de celle-ci est absorbée par le(s) soluté(s). L’intensité
+de la lumière transmise est donc inférieure à . On définit l’absorbance de la solution comme :
+.
+On parle aussi de transmittance définie par la relation :
+c'est-à-dire que .
+L’absorbance est une valeur positive, sans unité. Elle est d’autant plus grande que l’intensité transmise est faible.
+La relation de Beer-Lambert décrit que, à une longueur d’onde λ donnée, l’absorbance d’une solution est proportionnelle à sa concentration, et à la longueur du trajet optique (distance sur laquelle la lumière traverse la solution).
+Alors, pour une solution limpide contenant une seule substance absorbante :
+est l’absorbance ou la densité optique (sans unité) de la solution pour une longueur d'onde λ ;
+(en mol.m-3) est la concentration de la substance absorbante ;
+(en cm) est la longueur du trajet optique ;
+(en m3.mol-1.cm-1) est le coefficient d’extinction molaire de la substance absorbante en solution. Il rend compte de la capacité de cette substance à absorber la lumière, à la longueur d’onde λ.
+Selon la loi de Beer-Lambert, l'absorbance est additive (mais non la transmittance). Ainsi, pour une solution contenant plusieurs substances absorbantes, l’absorbance de la solution est la somme de leurs absorbances. Pour n substances absorbantes :
+.
+Domaine UV-visible de la spectrophotométrie[modifier | modifier le code]
+Pour plus de détails, voir l'article Spectroscopie
+Un soluté coloré ou chromophore absorbe la lumière visible (longueurs d'onde comprises entre 400 et 800 nm). On parle de spectrophotocolorimétrie ou plus simplement de colorimétrie. Certaines solutions absorbent dans l'ultraviolet (longueurs d'onde inférieures à 380 nm), on parle alors de spectrophotométrie UV. Les infrarouges ne sont pas utilisés en spectrophotométrie car ils dépendent surtout de la température de la solution et non de sa concentration, ils sont plutôt couverts par la spectroscopie en infrarouge. La spectrophotométrie est plus spécifique que la spectroscopie qui couvre d'autres longueurs d'ondes du spectre électromagnétique. Lorsque cela s'applique aux rayons gama, le calcul est différent, car sa longueur d'onde est trop frappante et le spectrophotomètre ne le tolère pas.
+Spectrophotomètre[modifier | modifier le code]
+Pour plus de détails, voir l'article Spectrophotomètre
+Schéma de principe du spectrophotomètre UV-visible monofaisceau
+Un spectrophotomètre mesure l’absorbance d’une solution à une longueur d’onde donnée. Un dispositif monochromateur permet de générer, à partir d’une source de lumière visible ou ultraviolette, une lumière monochromatique, dont la longueur d’onde est choisie par l’utilisateur. La lumière monochromatique incidente d’intensité
+traverse alors une cuve contenant la solution étudiée, et l’appareil mesure l’intensité
+de la lumière transmise. La valeur affichée par le spectrophotomètre est l’absorbance à la longueur d’onde étudiée. Le spectrophotomètre peut être utilisé pour mesurer de manière instantanée une absorbance à une longueur d’onde donnée, ou pour produire un spectre d’absorbance (spectrophotomètre à balayage). Dans ce dernier cas, le dispositif monochromateur décrit en un temps court l’ensemble des longueurs d’onde comprises entre deux valeurs choisies par l’opérateur.
+Limites[modifier | modifier le code]
+Plusieurs facteurs peuvent dégrader la loi de Beer-Lambert et limiter la validité de la spectrophotométrie :
+le domaine de mesure idéal est pour les valeurs de T situées entre 20 et 60 % ;
+plusieurs aberrations optiques liés à la diffusion, la réflexion et la diffraction de la lumière peuvent fausser la mesure ;
+les phénomènes de fluorescence ainsi que d'autres particularités chimiques liées aux substances absorbantes peuvent interférer ;
+plus la densité du soluté est importante, plus le faisceau de lumière incident sera réfracté avec une valeur donnée. Cette tendance est normalement infime mais devient plus prononcée avec les hautes concentrations. Ainsi, la réfraction réduit l'intensité de la lumière transmise et l'instrument indique faussement une absorbance plus élevée. Généralement, ce phénomène peut être évité en travaillant avec des concentrations inférieures à 0,01 mol.L-1.
+Importance du phénomène de diffusion[modifier | modifier le code]
+Voir [1].
+Comme la loi de Beer-Lambert le stipule, le pouvoir d'un milieu à bloquer le passage de la lumière est quantifié par un coefficient d'extinction donné par l'équation :
+Cette impédance est générée par deux phénomènes distincts : l'absorbance et la diffusion.
+La diffusion intervient lorsque la lumière est défléchie par les particules du milieu de manière à ne pas atteindre l'autre côté de l'échantillon.
+L'absorbance est le processus par lequel l'énergie lumineuse est absorbée par les molécules de l'échantillon avant d'être libérée sous forme de chaleur ou emmagasinée sous forme de liaisons chimiques.
+Donc que le coefficient
+de l'équation précédente est composé par le coefficient de diffusion () ainsi que celui de l'absorption (), c'est-à-dire :
+Le coefficient de diffusion peut être exprimé par le produit de la concentration des particules, , et la section efficace de celles-ci,
+(à supposer que ces particules sont homogènes et régulièrement réparties dans le milieu), on a :
+La section efficace, qui est une mesure de la proportion de lumière diffusé par particule, est fonction de leur taille. En effet, pour les particules de petite taille (p. ex. leur diamètre représente 10 % de la longueur d'onde incidente) la diffusion de Rayleigh prédomine. La diffusion de Rayleigh dépend de la longueur du parcours, de la concentration des particules diffusantes, de la longueur d'onde et de la polarisation de cette dernière. Pour une particule idéalement sphérique, la section efficace de Rayleigh s'écrit :
+est le diamètre des particules,
+est la longueur d'onde,
+est l'indice de réfraction.
+Cette équation prédit que les courtes longueur d'ondes seront les plus diffusées.
+Pour des particules plus grosses que la longueur d'onde, elles font l'objet d'un phénomène plus complexe appelé diffusion de Mie. Puisque la lumière sera diffusée selon différents angles, dans ce cas la forme des particules doit être prise en compte dans la section efficace. La section efficace maximale est obtenue quand la taille de la particule est proche de la longueur d'onde incidente. La diffusion diminue de plus en plus que la différence entre la taille de la particule et la longueur d'onde augmente (c'est le cas de la spectrophotométrie moléculaire).
+Applications[modifier | modifier le code]
+Détermination d'une concentration inconnue
+Connaissant le spectre d'absorption d'une substance chimique, on peut mesurer, à l'une de ses longueurs d'onde
+(là où l'absorption est maximale) les variations de l'intensité
+d'un faisceau lumineux traversant une même épaisseur
+de solutions de concentrations diverses.
+Courbe d'étalonnage
+Ceci permet d'établir expérimentalement la courbe
+reliant l'absorbance et la concentration de la substance étudiée (avec ), en effectuant les mesures de
+pour diverses concentrations. Cette courbe est une courbe d'étalonnage.
+La courbe expérimentale d'étalonnage permet ensuite de déterminer la concentration inconnue d'une solution de cette substance par simple mesure de son absorbance et report sur le graphe .
+La loi de Lambert-Beer a des limites. Elle n'est linéaire que dans un intervalle de concentrations réduit regroupant des valeurs inférieures à 10-2mol.l-1.
+Suivi cinétique
+Suivi de la cinétique d'une réaction chimique
+Lorsqu'au cours d'une réaction chimique dont on veut étudier la cinétique de l'une des substances chimiques en solution, on peut par spectrophotométrie d'absorption suivre la concentration de cette substance (généralement colorée). Si cette substance est un réactif, l'absorbance de la solution diminue au cours du temps. Si au contraire, c'est un produit de la réaction, l'absorbance de la solution augmente au cours du temps.
+Exemples
+On peut suivre la cinétique de la réaction d'oxydo-réduction en milieu acide, entre l'acide oxalique C2H2O4 par l'ion permanganate MnO4- (couleur violette) par la mesure de la diminution d'absorbance de ce dernier pour la longueur d'onde λ = 540 nm.
+.
+Références[modifier | modifier le code]
+James Henkel, Essentials of drug product quality (pp. 130,133). 1978, The Mosby Company, (ISBN 0801600316).
+↑ (en) Light-scattering and molecular spectrophotometry
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Lumière
+Chromophore
+Absorbance
+Spectrométrie d'absorption
+Spectroscopie
+Liens externes[modifier | modifier le code]
+Simulation d'un spectrophotomètre (Ang)
+Portail de la chimie
+Portail de la biochimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Spectrophotométrie&oldid=109185827 ».
+Catégories : SpectroscopieChimie analytiqueInstrument de mesureCatégories cachées : Wikipédia:ébauche chimiePortail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Biochimie/Articles liésPortail:Biologie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Català
+Čeština
+Dansk
+Ελληνικά
+English
+Español
+Eesti
+فارسی
+Suomi
+עברית
+Հայերեն
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Occitan
+Polski
+Português
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenščina
+Српски / srpski
+தமிழ்
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 16 novembre 2014 à 23:07.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

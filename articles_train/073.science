@@ -1,0 +1,182 @@
+Radioactivité α — Wikipédia
+Radioactivité α
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Ce diagramme présente les différents genres de radiation ionisante et leur capacité à pénétrer la matière. Les particules alpha sont arrêtées par une simple feuille de papier tandis que les particules bêta sont stoppées par une feuille d'aluminium. Le rayonnement gamma quant à lui, très pénétrant est amorti quand il pénètre de la matière dense. Les rayons gamma peuvent être arrêtés avec quatre mètres de béton.
+La radioactivité alpha (ou rayonnement alpha, symbolisé α) est le rayonnement provoqué par la désintégration alpha, soit la forme de désintégration radioactive où un noyau atomique
+éjecte une particule alpha et se transforme en un noyau
+de nombre de masse diminué de 4 et de numéro atomique diminué de 2.
+Sommaire
+1 Phénomène physique
+2 Spectre énergétique
+2.1 Vitesse d'émission de la particule α
+3 Exemples
+4 Liens externes
+5 Références
+Phénomène physique[modifier | modifier le code]
+Émission d'une particule alpha.
+La désintégration alpha peut être vue comme une forme de fission nucléaire où le noyau père se scinde en deux noyaux fils dont l'un est un noyau d'hélium.
+ou
+où
+représente le nombre de masse (nombre de nucléons),
+le numéro atomique (nombre de protons).
+Il est vite apparu un lien remarquable entre l'énergie disponible de la réaction (pratiquement, l'énergie cinétique de la particule α) et la période radioactive du noyau père : les périodes sont d'autant plus grandes que l'énergie disponible est petite. Cette observation a mené à une interprétation de la désintégration comme due à un effet tunnel entre le puits de potentiel intranucléaire et l'extérieur de la barrière de potentiel coulombienne existant entre les deux noyaux finaux ; ceci constitue le fondement du modèle de Gamow.
+Si on excepte le cas des fissions, le rayonnement alpha est en pratique la seule façon pour un atome de perdre des nucléons, soit donc 4 par 4 (2 neutrons + 2 protons)
+Spectre énergétique[modifier | modifier le code]
+Au niveau énergétique, la désintégration α présente un spectre de raie, signature de la différence des masses des noyaux père et fils.
+Pour certains isotopes, la raie est unique, mais pour d'autres un même noyau père peut (statistiquement) mener au noyau fils dans plusieurs états différents : soit son fondamental, soit l'un de ses états excités, il conserve alors une partie de l'énergie retranchée à celle que reçoit la particule α. Une série de raies est alors présente dont l'intensité dépend de la probabilité de chacune des transitions.
+Si le noyau résultant est dans un état excité qui n'est pas métastable, on observe presque simultanément à la désintégration alpha un rayonnement gamma par désexcitation pour revenir au fondamental. Le schéma de désintégration détaillé des particules indique la probabilité relative de chaque raie et les rayonnements gamma éventuellement associés.
+Vitesse d'émission de la particule α[modifier | modifier le code]
+La masse relativement importante de la particule α réduit d'autant sa vitesse pour une énergie donnée. Comme l'énergie associée à la radioactivité alpha est toujours inférieure à 10 MeV[1], autour de 5 MeV dans la majorité des cas – soit une vitesse de 15 300 km/s –, elle n'est pas suffisante pour que les particules α émises soient relativistes. Ce fait, associé à leur caractéristique de particules chargées (Z=2), leur confère une pénétration faible (quelques centimètres dans l'air).
+La particule α ayant une masse non négligeable, une impulsion en réaction est conférée au noyau émetteur qui reste modérée (vitesse de l'ordre de 280 km/s) sans être complètement négligeable.
+Évaluation des vitesses et énergies moyennes de la particule et du noyau émetteur
+Masses atomiques et masses des particules
+Nombre moyen de nucléons dans l'émetteur alpha avant émission de la particule = 224 (masse atomique moyenne des émetteurs α des quatre chaines de désintégration, soit:
+A = 224
+N moyen = Arrondi ( 0,6427 * A - 7,707 ) = 136 neutrons
+Z moyen = A - N moyen = 224 - 136 = 88 protons
+Masse de la particule α
+uma au 1er ordre
+Masse de l'atome après émission de la particule;
+uma au 1er ordre
+kg
+kg
+kg
+kg
+Conservation de la quantité de mouvement:
+d'où
+Bilan énergétique:
+Énergie totale libérée lors de la désintégration α = 5 MeV = 8,011E-13 J
+, d'où par symétrie:
+d'où par symétrie:
+Numériquement:
+km/s
+km/s
+MeV
+MeV
+Exemples[modifier | modifier le code]
+La désintégration de l'uranium 238 s'écrit :
+Elle peut être précisée sous la forme :
+En effet la particule alpha est un noyau d'hélium et la désintégration conserve bien le nombre total de nucléons et la charge électrique totale.
+En aval le thorium 234 se transforme en uranium 234 dont la période est longue (245 500 ans), présent dans l'uranium naturel, et qui est le véritable "fils" de l'uranium 238 dans sa chaîne de désintégration.
+En effet le thorium 234 formé par émission de la particule α a perdu 2 protons par rapport à la proportion d'équilibre (celle de l'uranium 238 ou du thorium 232) et se trouve en excès de neutrons.
+Autre exemple courant, la désintégration du radium qui se transforme en radon :
+Liens externes[modifier | modifier le code]
+A C R O - Notions de base de radioactivité
+CNA - Désintégration alpha
+Université d'Angers - Rayonnements ionisants et radioactivité - L'émission alpha
+Références[modifier | modifier le code]
+↑ Oregon State University : Chemistry 418/518 Nuclear Chemistry Spring 2012 - Chapter 7 - Alpha Decay [(en) texte en ligne (page consultée le 18 octobre 2012)]
+Sur les autres projets Wikimedia :
+Rayonnement ionisant, sur Wikimedia Commons
+v · d · m
+Processus nucléaires
+Radioactivité
+Radioactivité α · Radioactivité β · Rayon gamma · Radioactivité de clusters · Double désintégration bêta · Double capture électronique · Conversion interne · Transition isomérique · Fission spontanée
+Autres processus
+Processus d'émission
+Émission de neutron · Émission de positron · Émission de proton · Radioactivité 2-protons
+Capture
+Capture électronique · Capture neutronique
+Nucléosynthèse stellaire
+Chaîne proton-proton · Cycle carbone-azote-oxygène · Réaction alpha · Réaction triple alpha · Fusion du carbone · Fusion du néon · Fusion de l'oxygène · Fusion du silicium · Processus R · Processus S · Processus P · Processus RP
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Radioactivité_α&oldid=109491547 ».
+Catégorie : RadioactivitéCatégories cachées : Catégorie Commons avec lien local différent sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liésArticle de qualité en croate
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Azərbaycanca
+Беларуская
+Български
+Català
+Dansk
+Ελληνικά
+English
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Gaeilge
+עברית
+Hrvatski
+Magyar
+Հայերեն
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+Қазақша
+한국어
+Limburgs
+Lietuvių
+Latviešu
+Монгол
+Bahasa Melayu
+Nederlands
+Occitan
+Polski
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Türkçe
+Українська
+Tiếng Việt
+中文
+Bân-lâm-gú
+Modifier les liens
+Dernière modification de cette page le 27 novembre 2014 à 19:28.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

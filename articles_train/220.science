@@ -1,0 +1,325 @@
+Vitesse du son — Wikipédia
+Vitesse du son
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La vitesse du son ou célérité du son est la vitesse de propagation des ondes sonores. Elle dépend très peu de la fréquence de la vibration, et varie selon la compressibilité et la masse volumique du milieu de propagation.
+Sommaire
+1 Définition
+2 Historique
+3 Vitesse du son dans différents milieux
+3.1 Dans un solide
+3.2 Dans un fluide quelconque
+3.3 Dans un liquide
+3.4 Dans un gaz parfait
+3.4.1 Influence des autres facteurs
+3.5 Dans un gaz de van der Waals
+3.6 Démonstrations
+3.7 Fluides diphasiques
+4 Vitesse particulaire
+5 Tables des propriétés de l'air
+5.1 En fonction de la température
+5.2 En fonction de l'altitude
+6 Méthodes expérimentales
+6.1 Mesure d'un temps de propagation
+6.2 Mesure de la fréquence et de la longueur d'onde
+7 Exemples de vitesses du son pour différents matériaux
+8 Voir aussi
+8.1 Bibliographie
+8.2 Articles connexes
+8.3 Liens externes
+8.4 Notes et références
+Définition[modifier | modifier le code]
+La vitesse du son peut se définir rigoureusement de deux manières :
+Vitesse de groupe
+vitesse de propagation de l'énergie sonore, quotient de la distance parcourue par un ébranlement sonore par le temps nécessaire à son arrivée.
+vitesse de phase
+(en m/s)
+avec :
+: la vitesse du son en mètres par seconde ;
+: la pulsation de l'onde (en radians par seconde) ;
+: la norme de son vecteur d'onde (en radians par mètre).
+On détermine la vitesse du son dans les milieux solides par la vitesse de phase en réalisant des ondes stationnaires[1].
+En vibroacoustique, on étudie les vibrations, non seulement dans l'air, mais dans toute sorte de milieux et de matériaux, et cette distinction importe. Dans le cas où le milieu est dispersif, la vitesse de phase diffère de la vitesse de groupe.
+Il ne faut pas confondre ces vitesses avec la vitesse acoustique, qui est celle des particules matérielles constituant le milieu de propagation, dans leur très petit déplacement alternatif.
+Les deux principaux facteurs jouant sur la valeur de la vitesse du son sont la masse volumique et la constante d'élasticité (ou compressibilité) du milieu de propagation :
+La vitesse du son est d'autant plus grande que la masse volumique du milieu et sa compressibilité sont faibles.
+Ainsi, dans un gaz à pression atmosphérique, la vitesse du son est bien plus faible que dans un liquide : bien que la masse volumique du gaz soit bien plus faible, celui-ci est presque infiniment plus compressible que le liquide (qui est souvent considéré incompressible). Par exemple, le son se propage exactement à 1 482,343 m/s (5 336,435 km/h) dans l'eau pure à 20 °C[2], approximativement à 340 m/s (1 224 km/h) dans l'air à 15 °C et à environ 1 500 m/s (5 400 km/h) dans l'eau de mer.
+Cette propriété est notamment utilisée pour déterminer la qualité d'un béton, car une propagation plus rapide signifie que le béton contient peu de bulles d'air (la vitesse du son dans le béton est beaucoup plus élevée que dans l'air). La célérité dans l'eau de mer intervient notamment dans les systèmes de repérage des bancs de poissons et des sous-marins[2].
+Historique[modifier | modifier le code]
+Marin Mersenne, réalisant en 1635 les premières expériences visant à mesurer la vitesse du son, trouva une vitesse de 230 toises (soit 448 m) par seconde, valeur citée par Pierre Gassendi, qui montra que les sons graves et aigus se propagent à la même vitesse[3].
+Durant le XVIIe siècle, d'autres expériences furent menées par Edmond Halley et Robert Boyle ainsi que par Giovanni Domenico Cassini et Christian Huygens, avec des résultats différents.
+En 1738, l'Académie des sciences française chargea MM. De Turi, Maraldi et l'Abbé de la Caille d'organiser des nouvelles expériences[4]. Ils firent certaines de leurs opérations sur une ligne de 14 636 toises (soit 28,5 km) à l'aide de coups de canon tirés la nuit (pour voir les flammes sortant de la bouche de l'arme) entre la tour de Montlhéry et la pyramide de Montmartre. Les principaux résultats furent :
+le son parcourt 173 toises (soit 337,2 m) en une seconde ;
+s'il fait un vent dont la direction soit perpendiculaire à celle du son, celui-ci a la même vitesse qu'il aurait par temps calme ;
+si le vent souffle dans la même direction que celle du son, il le retarde ou l'accélère selon sa propre vitesse ;
+la vitesse du son est uniforme, c'est-à-dire que dans des laps de temps égaux et consécutifs, il parcourt des espaces semblables ;
+l'intensité ou la force du son ne change rien à sa vitesse. Enfin, dans le même ouvrage, l'Abbé Nollet démontre que « le son décroît comme le carré de la distance qui augmente ».
+En 1822, François Arago et Gaspard de Prony réalisent de nouvelles expériences plus rigoureuses, sur ordre du Bureau des longitudes. Cette fois-ci, ils décident d'utiliser des tirs croisés, entre Villejuif et Montlhéry. Les coups de canons seront tirés en même temps, de cette manière, les expérimentateurs espèrent limiter les perturbations dues à l'hygrométrie, à la vitesse du vent, à la pression et à la température. De plus, des chronomètres plus précis sont utilisés. Les expériences ont lieu dans les nuits du 21 et 22 juin 1822. Les résultats donnent la valeur de 340,88 m·s-1 à une température de 15,9 °C. Après correction, la vitesse à 0 °C est de 330,9 m·s-1.
+Ces résultats servirent à Pierre-Simon Laplace pour montrer, en 1823, que l'hypothèse d'Isaac Newton selon lequel le son aurait été un processus isotherme était erroné, et qu'il s'agit d'un processus adiabatique[5].
+La vitesse du son est également déterminée dans d'autres environnements, comme en 1808 dans les solides par Jean-Baptiste Biot et en 1828 dans l'eau du lac Léman par Jean-Daniel Colladon et Charles Sturm.
+Vitesse du son dans différents milieux[modifier | modifier le code]
+Dans un solide[modifier | modifier le code]
+Dans un solide, la vitesse des ondes mécaniques est dépendante de la masse volumique ρ et des constantes d'élasticité. Des ondes tant longitudinales que transverses peuvent se propager (ondes P et S en sismologie) dont les vitesses sont données par :
+et
+où :
+désigne la vitesse longitudinale ;
+désigne la vitesse transverse ;
+désigne le module d'Young ;
+est le coefficient de Poisson du matériau.
+Dans un fluide quelconque[modifier | modifier le code]
+Sans onde de cisaillement, la vitesse du son se propage seulement par compression. Si le son n'est pas trop fort (), la compression et la détente du fluide peuvent être considérées comme étant isentropiques et la vitesse du son est :
+.
+La racine carrée de la dérivée partielle de la pression par la masse volumique à entropie constante.
+Dans un liquide[modifier | modifier le code]
+La célérité du son dans un liquide est une fonction de la masse volumique ρ et du coefficient de compressibilité adiabatique χ et se calcule ainsi :
+.
+Dans un gaz parfait[modifier | modifier le code]
+La vitesse du son dans un gaz parfait est fonction du coefficient isentropique γ (gamma), de la masse volumique ρ ainsi que de la pression p du gaz, et se calcule théoriquement ainsi :
+avec :
+cp et cv étant les capacités thermiques massiques isobare et isochore.
+La vitesse du son peut être aussi calculée à l'aide de l'équation d'état, du coefficient adiabatique γ (gamma), de la constante spécifique du gaz parfait Rs et de T, la température thermodynamique en kelvins (K).
+Les valeurs du ratio, γ, des capacités thermiques sont égales à :
+γ = 5/3 = 1,67 pour les gaz parfaits monoatomiques ;
+γ = 7/5 = 1,40 pour les gaz parfaits diatomiques ;
+γ = 1,33 pour les gaz parfaits polyatomiques.
+Les formules (I) et (II) montrent que la célérité
+est indépendante de la pression du gaz et de la fréquence, mais qu'elle est proportionnelle à la racine carrée de la température ; elle est de plus inversement proportionnelle à la racine carrée de la masse volumique[2]. L'indépendance de la vitesse du son avec la pression du gaz n'est toutefois vérifiée que pour des pressions voisines de la pression atmosphérique normale.
+Pour l'air :
+;
+;
+la formule pour l'air s'écrit[6] :
+Le coefficient adiabatique γ dépend peu de la température T, la constante R est une grandeur indépendante de la température.
+Cette vitesse est corrélée à la vitesse moyenne <v> des molécules. En effet, l'équation des gaz parfaits relie p à la température T et au volume V, et l'on a
+pVγ = constante.
+Ce qui permet d'exprimer c en fonction de T seul, et donc de <v>. Dans le cas d'un gaz parfait monoatomique (γ = 5/3), on a :
+cgaz ≈ 0,81·<v'>
+m étant la masse d'une molécule.
+Cette relation indique que dans le domaine des gaz parfaits (c'est-à-dire des pressions modérées), la vitesse du son est proportionnelle à la vitesse des molécules, c'est-à-dire à la racine carrée de la température absolue.
+Dans le cas de l'air (composé en majorité de gaz parfaits diatomiques) au voisinage de la température ambiante, la célérité du son peut être approchée par la linéarisation suivante :
+cair = (331,5 + 0,607·θ) m·s-1
+où θ (thêta) est la température en degrés Celsius :
+θ = T-273,15
+T étant en K.
+Cette formule approchée permet d'obtenir la célérité du son de −20 à +40 °C avec une incertitude inférieure à 0,2 %.
+Influence des autres facteurs[modifier | modifier le code]
+L'hygrométrie influe peu.
+Dans un gaz de van der Waals[modifier | modifier le code]
+La vitesse du son dans un gaz de van der Waals est fonction de deux variables thermodynamiques indépendantes, classiquement la température et la masse volumique, ainsi que de quatre paramètres, γ, , a et b.
+Démonstrations[modifier | modifier le code]
+Vitesse du son dans un liquide
+Soit un fluide non visqueux, initialement au repos. Les propriétés du milieu en un point M situé à une distance r de la source de perturbation peuvent s'écrire comme la somme d'une valeur moyenne temporelle (uniforme) et d'une composante instationnaire (de faible amplitude). Ainsi :
+Masse volumique :
+Pression :
+Vitesse : composante radiale uniquement, de moyenne temporelle nulle, notée
+Les équations de Navier-Stokes relient les variations de ,
+et , tandis qu'une équation d'état est nécessaire pour relier
+à la pression .
+Bilan de masse (équation de continuité)
+Soit :
+En négligeant le terme convectif
+puisque , en assimilant
+à sa moyenne temporelle , et en développant le tout en coordonnées sphériques, il vient :
+Bilan de quantité de mouvement (équation d'Euler en l'absence de prise en compte de la viscosité)
+Projetée sur l'axe radial, cette équation s'écrit :
+En négligeant le terme
+puisque
+et en assimilant
+à sa moyenne temporelle , il vient :
+Équation d'état
+La masse volumique est reliée à la pression par l'équation d'état du fluide , dont la dérivée au premier ordre est exprimée par le coefficient de compressibilité isentropique . On peut donc écrire : .
+Expression du champ de pression
+En éliminant
+de l'équation (E1) grâce à l'équation (E3), nous obtenons :
+La dérivation de la première équation par rapport au temps et de la seconde par rapport à r donne :
+En éliminant
+et , on aboutit à :
+où le symbole
+désigne l'opérateur laplacien.
+Il s'agit de l'équation de propagation d'une onde sphérique de célérité .
+La solution générale du champ de pression est de la forme :
+Vitesse du son dans un gaz parfait
+La démonstration précédente reste vraie pour un gaz.
+Pour un gaz parfait de constante massique
+(J/kg/K) et de rapport des capacités thermiques  :
+L'équation d'état est
+Le coefficient de compressibilité isentropique défini par
+vaut
+Le coefficient de compressibilité isotherme défini par
+vaut
+La célérité du son
+est donc égale à .
+Fluides diphasiques[modifier | modifier le code]
+Dans le cas d'un fluide diphasique (bulle d'air dans l'eau par exemple), la vitesse du son se trouve fortement modifiée. Le calcul de la vitesse du son est alors assez complexe et dépend notamment des relations qui unissent les deux fluides (par exemple, dans le cas d'un liquide avec des bulles de vapeur, il faudra prendre en compte les changements de phase).
+Néanmoins, un résultat général peut être donné. La vitesse du son de ce mélange est bien inférieure à la plus petite des deux. Par exemple, pour un mélange eau/vapeur, la vitesse du son est autour de 30 m/s pour un taux de présence de 0,5. Cela s'explique en considérant la masse volumique moyenne du mélange, qui est comprise entre celle de l'eau et celle de la vapeur, et la compressibilité (ou la constante d'élasticité moyenne) qui est elle aussi comprise entre celle de l'eau et celle de la vapeur. En introduisant les bulles de vapeur dans l'eau, on a tout à la fois diminué la masse volumique moyenne du milieu (cette modification, seule, tend à augmenter la vitesse du son) et augmenté sa compressibilité (cette modification, seule, diminue la vitesse du son). Mais on a beaucoup plus augmenté la constante élastique, que diminué la masse volumique. C'est pourquoi on a obtenu une vitesse du son plus faible dans ce mélange que dans l'eau pure.
+Vitesse particulaire[modifier | modifier le code]
+Lors de la propagation d'un son dans un milieu, les particules de ce milieu ne se déplacent généralement pas à la vitesse de propagation de l'onde. Les ondes transverses étant possibles, sauf dans un gaz parfait, il n'y a même parfois aucun déplacement des particules dans la direction de propagation de l’onde.
+Tables des propriétés de l'air[modifier | modifier le code]
+En fonction de la température[modifier | modifier le code]
+La table suivante présente l'évolution de quelques propriétés de l'air sous une pression d'une atmosphère en fonction de la température.
+Influence de la température sur l'air
+θ en °C
+c en m·s-1
+ρ en kg·m-3
+Z en N·s·m-3
+- 10
+325,4
+1,341
+436,5
+- 5
+328,5
+1,316
+432,4
+0
+331,5
+1,293
+428,3
++ 5
+334,5
+1,269
+424,5
++ 10
+337,5
+1,247
+420,7
++ 15
+340,5
+1,225
+417,0
++ 20
+343,4
+1,204
+413,5
++ 25
+346,3
+1,184
+410,0
++ 30
+349,2
+1,164
+406,6
+En fonction de l'altitude[modifier | modifier le code]
+La table suivante présente l'évolution de quelques propriétés de l'air en fonction de l'altitude en atmosphère ISA.
+Influence de l'altitude sur l'air[7]
+Altitude en m
+θ en °C
+P en kPa
+c en m·s-1
+ρ en kg·m-3
+0
+15,00
+101,33
+340,3
+1,225
+200
+13,70
+98,95
+339,5
+1,202
+400
+12,40
+96,61
+338,8
+1,179
+600
+11,10
+94,32
+338,0
+1,156
+800
+9,80
+92,08
+337,2
+1,134
+1 000
+8,50
+89,88
+336,4
+1,112
+2 000
+2,00
+79,50
+332,5
+1,007
+3 000
+-4,49
+70,12
+328,6
+0,909
+4 000
+-10,98
+61,66
+324,6
+0,819
+6 000
+-24,0
+47,22
+316,5
+0,660
+8 000
+-36,9
+35,65
+308,1
+0,526
+10 000
+-49,9
+26,50
+299,5
+0,414
+12 000
+-62,9
+19,40
+295,1
+0,312
+Méthodes expérimentales[modifier | modifier le code]
+Il existe plusieurs façons de mesurer la vitesse du son.
+Mesure d'un temps de propagation[modifier | modifier le code]
+En envoyant depuis un émetteur des impulsions sonores et en les détectant à l'aide d'un microphone, on peut mesurer le temps que met l'impulsion à parcourir la distance les séparant. Cela correspond donc à mesurer la vitesse de l'énergie sonore, c'est-à-dire la vitesse de groupe.
+Mesure de la fréquence et de la longueur d'onde[modifier | modifier le code]
+En mesurant la longueur d'onde du son et en la multipliant par sa fréquence, on obtient sa vitesse. Cela correspond à la vitesse de phase. Il existe plusieurs méthodes permettant ces mesures :
+par exemple, un tube de Kundt est constitué d'un tube bouché à l'une des extrémités, et accolé à un haut-parleur à l'autre. Le son issu de ce haut-parleur est réfléchi par le côté du tube, et il s'installe une onde stationnaire dedans. En déplaçant un microphone dans le tube, on peut en détecter les ventres (maxima) et les nœuds (minima), ce qui permet de mesurer la longueur d'onde, puis la vitesse du son ;
+on peut aussi réaliser des ondes stationnaires dans les liquides, mais il est alors impossible d'utiliser un microphone pour les détecter. Cependant, ces ondes agissent sur la lumière de la même façon qu'un réseau optique. Il est donc possible, grâce à un montage optique, de mesurer la vitesse du son.
+La différence principale entre ces deux méthodes est le résultat obtenu : d'une part la vitesse de phase, et d'autre part la vitesse de groupe. La différence entre ces deux grandeurs n'est cependant visible que lorsque la dispersion du milieu est importante, ce qui est rarement le cas.
+Exemples de vitesses du son pour différents matériaux[modifier | modifier le code]
+Une onde sonore est une onde mécanique qui se propage nécessite dans milieu matériel de propagation. Il n'y a pas de son dans le vide, puisqu'il n'y a aucune particule qui puisse servir de support aux ondes sonores.
+La table suivante donne quelques exemples pour quelques matériaux dans les conditions normales de température et de pression.
+Exemples[réf. nécessaire]
+Matériaux
+c en m·s-1
+Air
+340
+Eau
+1 480
+Glace
+3 200
+Verre
+5 300
+Acier
+5 600 à 5 900
+Plomb
+1 200
+Titane
+4 950
+PVC (souple, plastifié)
+2 000
+PVC (rigide)
+2 400
+Béton
+3 100
+Hêtre
+3 300
+Granite
+6 200
+Péridotite
+7 700
+Sable sec
+10 à 300
+Voir aussi[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Michel Rival, Les grandes expériences scientifiques, chap. 1822 - Mesurer la vitesse du son, 1996 (ISBN 2-0202-2851-3)
+Articles connexes[modifier | modifier le code]
+Nombre de Mach
+Mur du son
+Supersonique
+Liens externes[modifier | modifier le code]
+Le son dans la mer
+Simulation pour différentes conditions, université du Mans

@@ -1,0 +1,243 @@
+Tribu (mathématiques) — Wikipédia
+Tribu (mathématiques)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Vous lisez un « bon article ».
+Pour les articles homonymes, voir Tribu et Algèbre (homonymie).
+En mathématiques, une tribu ou σ-algèbre (lire sigma-algèbre) ou plus rarement corps de Borel[1] sur un ensemble X est un ensemble non vide de parties de X, stable par passage au complémentaire et par réunion dénombrable (donc aussi par intersection dénombrable). Les tribus permettent de définir rigoureusement la notion d'ensemble mesurable.
+Progressivement formalisées pendant le premier tiers du XXe siècle, les tribus constituent le cadre dans lequel s'est développée la théorie de la mesure. Les exemples les plus fameux en sont les tribus boréliennes, du nom d'Émile Borel, qui construisit la tribu borélienne de la droite réelle en 1898, et la tribu de Lebesgue, formée des ensembles mesurables définis par Henri Lebesgue en 1901. En conséquence, les tribus sont aussi fondamentales en théorie des probabilités, dont l'axiomatisation moderne s'appuie sur la théorie de la mesure. Dans ce domaine, les tribus ne sont pas seulement le support du formalisme, mais aussi un outil puissant, qui est à la base de la définition de concepts parmi les plus importants  : espérance conditionnelle, martingales, etc.
+Sommaire
+1 Définition
+1.1 Quelques exemples
+2 Motivations
+3 Propriétés élémentaires
+4 Tribu engendrée par un ensemble de parties
+5 Deux exemples importants : les tribus de Borel et de Lebesgue
+6 Constructions de tribus
+6.1 Tribu image réciproque
+6.2 Tribu image
+6.3 Tribu trace
+6.4 Tribu produit
+6.5 Tribu complétée
+7 Notion d'atomes et cardinalité des tribus
+8 Histoire du concept
+9 Notes et références
+Définition[modifier | modifier le code]
+Définition[2] — Soit
+un ensemble. On appelle tribu (ou σ-algèbre) sur , un ensemble
+de parties de
+qui vérifie :
+n'est pas vide
+est stable par complémentaire
+est stable par union dénombrable.
+Une minorité de sources exigent également que
+ne soit pas vide[3] ; cette hypothèse supplémentaire n'est utilisée à aucun endroit de cet article.
+Formellement :
+(où
+désigne le complémentaire de
+dans ).
+si
+alors
+(l'union est dite « dénombrable » parce que l'ensemble des indices l'est).
+La définition qui précède a l'intérêt d'être lisible sans connaître le langage des algèbres de Boole ; si on le connaît, on peut l'exprimer sous forme plus resserrée :
+Forme alternative de la définition[4] — Une tribu est une algèbre d'ensembles stable par réunion dénombrable.
+Le couple
+est appelé espace mesurable[5] ou espace probabilisable en fonction du contexte. Sur les espaces mesurables on définit des mesures ; sur les espaces probabilisables on s'intéresse spécifiquement aux probabilités.
+Les parties de
+qui appartiennent à la tribu
+sont appelées ensembles mesurables. Dans un contexte probabiliste, on les appelle événements.
+Quelques exemples[modifier | modifier le code]
+La tribu dite grossière  : .
+La tribu dite discrète :
+où
+représente l'ensemble de toutes les parties de .
+Si
+alors
+est une tribu sur . C'est la plus petite tribu contenant l'ensemble .
+Pour tout ,
+ou
+fini ou dénombrable
+est une tribu sur .
+En revanche si
+est infini,
+ou
+fini
+n'est pas une tribu sur , bien que ce soit une algèbre de Boole de parties de .
+Motivations[modifier | modifier le code]
+En analyse, l'importance des tribus s'est progressivement affirmée au long des trente premières années du XXe siècle. Le siècle s'ouvre par l'élaboration par Henri Lebesgue de sa théorie de l'intégration. Dans la décennie suivante on commence à exploiter la notion géométrique de mesure en probabilités[6], Johann Radon construit en 1913 une théorie de l'intégration sur ℝn qui généralise à la fois celle de Lebesgue et celle de Stieltjes[7], Felix Hausdorff définit en 1918 la mesure qui porte aujourd'hui son nom en dimensions non entières[8]. Simultanément, on s'efforce de bâtir une axiomatisation abstraite de l'intégration dans laquelle s'intègreraient toutes ces nouvelles théories. Cette unification, réalisée dans le début des années 1930, s'appuie sur la définition moderne d'une mesure. La notion de tribu en est un élément constitutif.
+Un exemple de processus aléatoire : le mouvement brownien
+Depuis la publication en 1933 des Fondements de la théorie des probabilités d'Andreï Kolmogorov, les probabilités sont solidement ancrées sur la théorie de la mesure[9]. Les σ-algèbres y jouent un rôle incontournable, peut-être plus central qu'en analyse : ici elles ne sont pas seulement un cadre de travail, mais aussi un outil puissant. La preuve de la loi du zéro un de Kolmogorov fournit un exemple relativement élémentaire de leur efficacité.
+La théorie des processus stochastiques (l'étude probabiliste de phénomènes variant avec le temps) permet de donner une interprétation intuitive de certaines tribus. Par exemple, supposons qu'on s'intéresse à l'évolution du prix d'un actif financier en fonction du temps. L'espace des événements
+est l'ensemble des évolutions possibles de cet actif, c'est-à-dire des fonctions associant à chaque instant un prix. Pour chaque valeur
+du temps, on définit ainsi une tribu  : étant donné un ensemble
+d'événements, on décidera que
+est dans
+si on peut le décrire par une formulation qui, lue par un observateur vivant à la date , ne se réfère qu'au passé. Pour fixer les idées, si
+est l'événement « le cours de l'actif a constamment augmenté pendant l'année 2006 », il appartient à
+puisqu'un observateur vivant en 2010 peut en décider en consultant des archives, mais n'est pas dans
+(sauf à être extralucide, un observateur vivant en 2005 n'en peut rien savoir). On dispose finalement d'une tribu évoluant en fonction du temps, dont la valeur
+représente le niveau d'information disponible à la date . Sa croissance exprime l'expansion constante de l'information disponible. Cette famille croissante de tribus (on parle de filtration) permet alors de formaliser diverses hypothèses sur le phénomène modélisé (via les concepts d'espérance conditionnelle, de martingale, etc.) puis d'en tirer mathématiquement des conclusions[10].
+Propriétés élémentaires[modifier | modifier le code]
+Une tribu est stable par union finie (appliquer le point 3 de la définition à une suite infinie dénombrable
+constituée de
+ensembles, le dernier étant répété à l'infini).
+(prendre un élément
+et écrire ).
+( est le complémentaire de ).
+Une tribu est également stable pour l'opération d'intersection dénombrable (d'après les points 2 et 3 de la définition) et a fortiori stable sous intersection finie :
+si
+alors .
+Si
+est une famille de tribus sur , alors
+est aussi une tribu sur .
+Le critère suivant est occasionnellement utile pour prouver qu'un ensemble de parties est une tribu :
+Proposition[11] — Soit
+un ensemble, et soit
+un ensemble de parties de
+qui vérifie :
+n'est pas vide
+est stable par complémentaire
+Une union dénombrable d'éléments de
+deux à deux disjoints est encore dans
+est stable par intersection finie.
+Alors
+est une tribu sur .
+On le prouve facilement en remarquant que pour toute suite d'éléments de
+(a priori non disjoints) on peut écrire :
+D'autres sources fournissent une variante de cette proposition, en posant comme troisième condition la stabilité par réunion dénombrable croissante. Si on est familier du vocabulaire défini à l'article « lemme de classe monotone », cet énoncé peut se dire ainsi : tout λ-système qui est aussi un π-système est une σ-algèbre[12].
+Tribu engendrée par un ensemble de parties[modifier | modifier le code]
+Article détaillé : Tribu engendrée.
+Si
+est un ensemble arbitraire de parties de , il existe alors une plus petite tribu (au sens de l'inclusion) contenant , notée
+et appelée la tribu engendrée par .
+On prouve l'existence de
+en la définissant comme l'intersection de toutes les tribus sur
+qui contiennent
+(cette intersection a un sens, puisqu'au moins une telle tribu existe, à savoir la tribu discrète)[13].
+Exemples :
+Soit
+et , alors . Pour
+et , on retrouve l'exemple donné plus haut.
+Soit
+l'ensemble des singletons de l'espace de référence . La tribu
+est égale à
+ou
+fini ou dénombrable  : on retrouve là aussi un exemple déjà mentionné.
+On dispose d'un procédé un peu plus « constructif » de production de , par application itérée à partir des éléments de
+des opérations d'intersection, de réunion dénombrable et de passage au complémentaire. La « construction » est toutefois techniquement un peu subtile, car il ne suffit pas de répéter cette itération pendant une suite dénombrable d'étapes indexée par  : on doit faire appel à une technique de récurrence transfinie.
+Deux exemples importants : les tribus de Borel et de Lebesgue[modifier | modifier le code]
+Articles détaillés : Tribu borélienne et Mesure de Lebesgue.
+On appelle tribu de Borel ou tribu borélienne sur un espace topologique donné la tribu engendrée par les ensembles ouverts. Dans le cas simple et fondamental de l'espace usuel à
+dimensions, la tribu borélienne de ℝn est engendrée par une famille dénombrable de parties, les pavés dont les sommets sont à coordonnées rationnelles. Par un résultat mentionné plus loin, elle a donc la puissance du continu — ce qui prouve incidemment qu'elle n'est pas égale à l'ensemble de toutes les parties de ℝn, qui est de cardinal strictement supérieur[14].
+En probabilités, ou dans les théories de l'intégration dérivant de celle de la mesure, la tribu de Borel de ℝ (ou de la droite achevée ℝ) joue un rôle prééminent : c'est en effet relativement à elle qu'on définit les fonctions mesurables à valeurs réelles ou les variables aléatoires réelles[15].
+Les tribus boréliennes sont le cadre naturel où se rencontrent les théories de l'intégration et la théorie de la mesure, notamment par le théorème de représentation de Riesz qui associe une mesure définie sur la tribu de Borel à certaines fonctionnelles sur un espace de fonctions continues.
+Bien que les espaces métriques non dénombrables usuels aient des propriétés topologiques extrêmement dissemblables, toutes leurs tribus boréliennes sont indiscernables. Un théorème de Kuratowski affirme en effet que tous ceux appartenant à une très large classe, les espaces de Lusin, ont des tribus boréliennes isomorphes entre elles et en particulier isomorphes à la tribu de Borel sur la droite réelle. Les espaces de Lusin en tant qu'espaces mesurables sont donc classifiés par leur cardinal[16].
+Sur l'espace , une autre tribu mérite d'être signalée : la tribu de Lebesgue, dont les éléments sont les ensembles mesurables au sens de Lebesgue. Cette tribu contient strictement la tribu de Borel, dont elle est la complétée pour la mesure de Lebesgue. Si on accepte d'utiliser l'axiome du choix, elle ne coïncide pas non plus avec l'ensemble de toutes les parties de ℝn.
+Constructions de tribus[modifier | modifier le code]
+Tribu image réciproque[modifier | modifier le code]
+Proposition et définition — Soit
+un espace mesurable,
+un ensemble et
+une application.
+L'ensemble
+défini par :
+est une tribu sur . On l'appelle tribu image réciproque ou tribu engendrée par .
+Comme indiqué un peu plus bas, ceci permet notamment de restreindre une tribu à un sous-ensemble de son univers . Le lemme de transport est un résultat simple mais utile pour manipuler une image réciproque de tribu définie par une partie génératrice, par exemple une tribu borélienne[17].
+Lorsque plusieurs fonctions partent de
+— typiquement en probabilités, où plusieurs variables aléatoires sont simultanément considérées au départ d'un même espace — il est facile de généraliser la tribu image réciproque : on parle de tribu engendrée par une famille d'applications (qui sont souvent des variables aléatoires). On trouvera cette définition à l'article « tribu engendrée ».
+Tribu image[modifier | modifier le code]
+Proposition et définition[17] — Soit
+un espace mesurable,
+un ensemble et
+une application.
+L'ensemble
+défini par :
+est une tribu sur . On l'appelle tribu image.
+Tribu trace[modifier | modifier le code]
+Proposition et définition — Soit
+un espace mesurable et
+une partie de .
+L'ensemble :
+est une tribu sur . On l'appelle tribu trace.
+La vérification directe est immédiate, mais on peut aussi s'apercevoir que c'est un cas particulier de tribu image réciproque, en l'espèce sous l'injection canonique de
+dans [17].
+Tribu produit[modifier | modifier le code]
+Article détaillé : Tribu produit.
+Définition — Soit
+et
+deux espaces mesurables. La tribu produit, notée
+ou , est la tribu de parties du produit cartésien
+engendrée par les pavés
+où
+La définition de la tribu produit est le préalable à celle de la mesure produit dont l'usage permet de généraliser à des espaces abstraits les intégrales multiples[18].
+Le concept se généralise à un produit d'une famille infinie d'espaces mesurables[19].
+Tribu complétée[modifier | modifier le code]
+Article détaillé : Complétion d'une mesure.
+Proposition et définition — Soit
+un espace mesuré.
+L'ensemble
+défini par :
+est une tribu sur . On l'appelle tribu complétée.
+Le résultat de la complétion dépend de , puisque la notion de partie négligeable n'a de sens que vis-à-vis d'une mesure bien précisée[20].
+La construction généralise dans un cadre abstrait la situation de la tribu de Lebesgue relativement à la tribu borélienne de ℝn (sous la mesure de Lebesgue).
+Notion d'atomes et cardinalité des tribus[modifier | modifier le code]
+Sur un espace mesurable
+, (et indépendamment de toute mesure), on définit les atomes de X par rapport à
+comme étant les classes d'équivalences d'éléments de X, pour la relation d'équivalence
+définie pour tout x et y dans X par
+si et seulement si pour tout A dans
+,
+Les atomes sont donc des éléments de l'espace quotient
+\ . Heureusement, chaque élément de
+\
+peut être identifié à une partie de X. Ainsi la classe d'équivalence (élément de l'espace quotient
+\
+) associée à un élément x de X qu'on appelle "atome" de x ( qui est l'atome associé à x à travers la surjection canonique de X dans
+\
+vu comme un ensemble de partie dans X ), est donnée par
+Un espace mesurable dont les atomes sont les points est dit séparé. Avant de passer à quelques résultats sur la cardinalité des atomes, il faut noter qu'outre la notion d'atome, qui comme on vient de le voir est définie sur un espace mesurable indépendamment de toute mesure, il existe une autre notion sur un espace probabilisé avec une probabilité P, celle de P-atomes. La définition en est la suivante : sur un espace probabilisé
+on dit qu'un élément A de
+est un P-atome si
+et si quel que soit B dans
+tel que
+P presque surement, ou bien
+ou bien . Dans la suite nous ne nous préoccuperont pas de P-atomes, mais seulement d'atomes. Notons enfin que, contrairement aux P-atomes, l'atome
+associé à un quelconque x qui est une partie de X n'est pas forcément un élément de . Cela dit quand l'espace probabilisé mesurable sous jacent est séparable i.e. si la tribu
+est engendrée par un ensemble dénombrable de parties ( notamment s'il s'agit d'un espace métrisable séparable muni de sa tribu Borélienne), alors les atomes sont mesurables. (pour en savoir plus sur les atomes ainsi que les démonstrations de ce qu'on vient d'énoncer voir le Dellacherie Meyer Probabilité et Potentiel tome 1, quant aux P-atomes, voir par exemple integration et probabilité de Malliavin chapitre sur les probabilités)
+En utilisant seulement la stabilité de
+par passage au complémentaire, on vérifie que les atomes constituent une partition de . On voit également que tout élément de
+est réunion d'atomes[21].
+Ce concept permet notamment de prouver la proposition suivante[22] :
+Proposition — Toute tribu infinie a au moins la puissance du continu.
+Démonstration : Supposons infinie la tribu
+sur l'ensemble . Comme tout élément de
+est réunion d'atomes, les atomes sont eux aussi en nombre infini. Considérons alors
+une suite d'atomes distincts (donc deux à deux disjoints).
+Pour tous indices , la définition de
+et le fait que , entraînent l'existence d'un
+tel que :
+mais .
+On définit alors une application
+en posant, pour  :
+.
+En utilisant , on vérifie que , on conclut que
+est injective.
+CQFD
+La conjonction de ce résultat et de la construction d'une tribu engendrée par récurrence transfinie permet de prouver un résultat plus précis lorsqu'on suppose la tribu dénombrablement engendrée :
+Théorème[23] — Soit
+un espace mesuré. S'il existe une partie infinie dénombrable de la tribu
+qui engendre celle-ci, alors
+a la puissance du continu.
+Histoire du concept[modifier | modifier le code]
+La notion de tribu est étroitement liée à celle de mesure, qui est elle-même une généralisation des notions de longueur (sur une droite), d'aire (dans le plan) et de volume (dans l'espace à trois dimensions). Dans la deuxième moitié du XIXe siècle, la question de savoir quels ensembles peuvent être mesurés se pose[24]. La longueur d'un intervalle de bornes
+et
+est . Bernhard Riemann, avec l'intégrale qui porte son nom, est le premier à permettre de mesurer des parties de la droite réelle qui ne sont pas des intervalles[25].
+À sa suite, d'autres mathématiciens cherchent la meilleure façon de définir les ensembles mesurables : Stolz et Harnack considèrent les réunions finies d'intervalles, dans ℝ. Cependant, Harnack, en 1884, est le premier à évoquer une union dénombrable d'intervalles, il prouve ainsi que tout ensemble dénombrable (dont l'ensemble des nombres rationnels) inclus dans ℝ est de mesure nulle.
+« pour éviter de fausses interprétations, je remarque incidemment que dans un certain sens, tout ensemble “dénombrable” de points peut être confiné dans des intervalles dont la somme des longueurs est arbitrairement petite. Ainsi peut-on par exemple inclure, quoiqu’ils soient denses dans le segment, tous les nombres rationnels entre 0 et 1 dans des intervalles dont la somme des longueurs est aussi petite qu’on veut[26]. »
+Cela n'est pas admis par les mathématiciens de l'époque, car paraît contradictoire avec le fait que l'ensemble des nombres rationnels est dense dans celui des réels. En effet, un ensemble de mesure nulle est perçu « très petit » alors qu'un ensemble dense est « très grand »[27].
+Ce paradoxe apparent conduit les mathématiciens (dont Camille Jordan en 1892) à ne considérer comme mesurables que les sous-ensembles de ℝ égaux à une union finie d'intervalles[27].
+En 1898, Émile Borel s'appuie sur les réunions dénombrables d'intervalles ouverts disjoints et construit, par récurrence transfinie, l'ensemble de parties qu'on appelle aujourd'hui la tribu borélienne de la droite réelle[28]. Les boréliens ont la propriété suivante : la mesure d'une réunion d'ensembles boréliens deux à deux disjoints est égale à la somme des mesures de chacun de ces ensembles[29].
+Les travaux contemporains de René Baire méritent aussi d'être mentionnés. Ils ont en effet nourri l'inspiration de ses contemporains en prouvant l'efficacité des techniques ensemblistes en analyse, même si c'est ailleurs que dans les fondements de l'intégration qu'ils ont révélé leur fécondité[30].
+Les années 1901 à 1904 voient la publication par Henri Lebesgue de la théorie de la mesure des parties de l'espace euclidien et de la théorie de l'intégration qui portent son nom. Les ensembles mesurables qu'il définit forment un deuxième exemple de tribu, qui est l'ensemble de définition de la mesure de Lebesgue. On sait rapidement qu'en présence de l'axiome du choix il existe des ensembles non mesurables  : il n'est plus question d'espérer mesurer toute partie de l'espace[31].
+Les années 1910 voient se développer des recherches où l'accent est mis sur les fondements ensemblistes de la théorie de l'intégration et désormais aussi des probabilités. Felix Hausdorff et surtout Constantin Carathéodory, dont l'axiomatique des mesures extérieures étend à un cadre abstrait les travaux de Lebesgue[32], ont fait progresser ces recherches. En 1915, Maurice Fréchet publie un article qui propose déjà une définition des mesures très voisine de celle admise de nos jours. Il les définit sur ce qu'on appelle aujourd'hui des sigma-anneaux et est le premier à considérer des « ensembles abstraits » sans relation avec les nombres réels[33]. Dans un article de 1927, Wacław Sierpiński introduit ce qu'on nomme aujourd'hui la tribu engendrée[34].
+Dans les années 1930, la maturation du formalisme moderne est terminée. Pour la première fois semble-t-il, un article de 1930 d'Otton Nikodým énonce explicitement les définitions de sigma-algèbre et de mesure utilisées aujourd'hui[35]. Deux traités influents parus pendant cette décennie popularisent définitivement la notion  : Théorie de l'intégrale de Stanisław Saks pour l'analyse[36] et Fondements de la théorie des probabilités d'Andreï Kolmogorov[37]. Quant au terme de « tribu » utilisé en français pour dénommer les σ-algèbres, il a été introduit dans un article publié en 1936 par René de Possel, membre du groupe Bourbaki[38].

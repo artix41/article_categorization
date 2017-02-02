@@ -1,0 +1,215 @@
+Oscillateur harmonique — Wikipédia
+Oscillateur harmonique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un oscillateur harmonique est un oscillateur idéal dont l'évolution au cours du temps est décrite par une fonction sinusoïdale, dont la fréquence ne dépend que des caractéristiques du système et dont l'amplitude est constante. L'intérêt d'un tel modèle est qu'il décrit l'évolution de n'importe quel système physique au voisinage d'une position d'équilibre stable, ce qui en fait un outil transversal utilisé dans de nombreux domaines : mécanique, électricité et électronique, optique.
+Dans la pratique, de tels oscillateurs ne sont approchés que dans des cas rares pour lesquels les forces dissipatives (frottement par exemple) sont négligées. Pour que leur amplitude reste constante, il est nécessaire d'entretenir les oscillations en fournissant de l'énergie.
+Sommaire
+1 Définition générale et propriétés
+1.1 Approche expérimentale: exemples d'oscillateurs réels
+1.2 Oscillateur harmonique libre unidimensionnel
+1.3 Interprétation en termes énergétiques
+1.3.1 Mise en évidence de la conservation de l'énergie
+1.3.2 Interprétations des oscillations en termes énergétiques
+2 L'oscillateur harmonique comme modèle - limitations
+2.1 Importance physique de l'oscillateur harmonique
+2.2 Limitations du modèle de l'oscillateur harmonique
+2.2.1 Limites du modèle pour les systèmes réels
+2.2.2 Prise en compte de la dissipation d'énergie: oscillateur harmonique amorti
+3 Oscillateurs mécaniques
+3.1 Oscillations de translation
+3.2 Oscillations de rotation
+4 Oscillateurs électriques
+4.1 Circuit LC
+4.2 Circuit RLC
+5 Analogie électro-mécanique
+6 Oscillateurs électriques entretenus
+7 Notes et références
+8 Articles connexes
+9 Bibliographie
+Définition générale et propriétés[modifier | modifier le code]
+Approche expérimentale: exemples d'oscillateurs réels[modifier | modifier le code]
+Oscillation d'une masse suspendue à un ressort.
+De nombreux systèmes physiques réels, pour lesquels on rend négligeable l'influence des frottements se comportent comme des systèmes oscillants, qui peuvent être modélisés comme des oscillateurs harmoniques.
+Article détaillé : système masse-ressort.
+Système masse-ressort: Il s'agit d'un système très simple à réaliser (cf. figure ci-contre). Si la masse est écartée légèrement de sa position d'équilibre et relâchée sans vitesse initiale, l'expérimentateur constate que celle-ci se met à osciller autour de cette position d'équilibre. La mesure, à l'aide d'un capteur adapté, de l'évolution au cours du temps de l'élongation x(t) du ressort (par rapport à la position où la masse est au repos) montre que les (petites) oscillations sont purement sinusoïdales, de fréquence , du moins si l'influence des frottements est négligée[1]. La valeur de
+ne dépend pas de l'amplitude initiale de déplacement de la masse, mais uniquement de la valeur de celle-ci et des propriétés du ressort, plus précisément de sa raideur k.
+Il est facile de montrer que l'équation du mouvement de la masse s'écrit , avec .
+Démonstration
+Soit (R) le référentiel, considéré comme galiléen, lié au support sur lequel est fixé le ressort, Ox l'axe parallèle à la direction de l'axe du ressort, orienté positivement vers le bas, d'origine O la position de la masse m considérée comme ponctuelle à l'équilibre,
+l'élongation du ressort à vide,
+celle du ressort à l'équilibre. Lorsque la masse m est au repos il vient (en projection sur Ox) l'équation . L'élongation totale du ressort pour une position
+quelconque de la masse m est donnée par , par suite l'application à celle-ci du principe fondamental de la dynamique dans le référentiel (R) donne en projection sur Ox:
+,
+soit compte tenu de l'équation statique précédente:
+,
+soit encore .
+Par suite l'équation horaire est donnée par , où
+est l'amplitude des oscillations et
+la phase à l'origine, qui dépendent des conditions initiales. Le mouvement est qualifiée d'harmonique, de fréquence propre , caractéristique du système.
+Représentation schématique de l'évolution dans le temps de l'élongation de la masse m.
+Les oscillations libres d'un circuit LC constituent un exemple d'oscillations harmoniques.
+Courbe de la tension aux bornes du condensateur (en haut) et aux bornes de la bobine (en bas). Celles-ci sont en opposition de phase, montrant le transfert d'énergie entre le condensateur et la bobine.
+Oscillations libres d'un Circuit LC: un condensateur de capacité électrique C, initialement chargé avec une charge
+commence à se décharger à un instant choisi comme origine dans une bobine d'inductance L, dont la résistance est considérée comme négligeable (cf. figure ci-contre). Il est facile de visualiser à l’oscilloscope l'évolution de la tension
+aux bornes du condensateur, et donc celle de sa charge du fait de la relation [2]. Les résultats de mesures montrent que
+a une évolution sinusoïdale pure au cours du temps, de fréquence , dont la valeur ne dépend pas là encore de la charge initiale du condensateur, mais uniquement des valeurs de L et de C.
+L'utilisation de la loi des mailles pour le circuit considéré permet de montrer que l'évolution de
+obéit à l'équation différentielle , avec
+fréquence propre des oscillations libres du circuit LC. Il vient l'expression
+pour l'évolution de la charge du condensateur, les valeurs de l'amplitude
+et de la phase à l'origine
+dépendant des conditions initiales.
+Les analogies entre l'oscillateur mécanique qu'est le système masse-ressort et l'oscillateur électrique qu'est le circuit LC permettent d'identifier entre elles certaines grandeurs mécanique et électrique (cf. plus bas: analogie électromécanique). Elles montrent aussi que les grandeurs permettant de caractériser l'état du système obéissent à une équation différentielle de même forme, dont les solutions sont harmoniques sinusoïdales. Il est ainsi possible de définir de façon générale un oscillateur harmonique comme un système dont l'évolution libre (non amortie du moins) est caractérisée par une équation de cette forme.
+Oscillateur harmonique libre unidimensionnel[modifier | modifier le code]
+Illustration animée du mouvement harmonique unidimensionnel.
+Les considérations expérimentales précédentes permettent de définir de façon générale un oscillateur harmonique, pour un système physique quelconque, "unidimensionnel" (ou à un degré de liberté), c'est-à-dire dont l'état peut être décrit à un instant t donné par une seule grandeur physique, notée s(t)[3]. La nature précise de cette grandeur physique dépend du système considéré (cf. exemples précédents).
+Un tel système se comporte comme un oscillateur harmonique (idéal) si lorsque le système est "libre", c'est-à-dire pouvant être considéré comme isolé, la grandeur physique s(t) obéit à l'équation différentielle d'évolution suivante:
+, (1),
+avec
+constante réelle positive, ayant les dimensions d'une fréquence, appelée fréquence ou pulsation propre[4] du système, qui ne dépend que des caractéristiques propres de celui-ci.
+La solution générale de (1) , avec
+amplitude des oscillations et
+phase à l'origine, ces deux constantes étant déterminées par les conditions initiales sur s(t) et sa dérivée première.
+Interprétation en termes énergétiques[modifier | modifier le code]
+Mise en évidence de la conservation de l'énergie[modifier | modifier le code]
+De par sa définition, un système idéal est un système dans lequel l'énergie totale est conservée, c'est-à-dire qu'elle demeure constante à travers le temps. Pour mettre l'aspect idéal de ce système en évidence et la signification physique de l'équation (1), il est très intéressant de multiplier celle-ci membre à membre par . Il vient alors:
+, soit encore .
+Par suite pour un oscillateur harmonique la quantité
+est conservée. Aux dimensions près, celle-ci correspond à l'énergie du système (de fait il sera toujours possible en pratique de multiplier e par des combinaisons de paramètres du système pour obtenir les "bonnes" dimensions).
+Cette "énergie" est constituée de deux termes:
+un terme "d'énergie potentielle" en ;
+un terme "d'énergie cinétique" en , (défini ici à une constante multiplicative près).
+La forme quadratique de l'énergie "potentielle" est en fait caractéristique d'un oscillateur harmonique: en effet, ce n'est qu'avec cette forme que la prise en compte du caractère conservatif du système
+redonne l'équation d'évolution précédente.
+Bien entendu, la nature exacte de ces termes (et leurs noms...) dépend de celle du système étudié:
+pour le système masse-ressort, ,
+est la vitesse instantanée de la masse à l'instant t, et . Par suite
+et il suffit de multiplier membre à membre par la masse m pour obtenir l'énergie mécanique du système : dans ce cas il s'agit bien de la somme de l'énergie cinétique et de l'énergie potentielle élastique de la masse m. Dans la limite où les frottements sont négligeables, cette énergie mécanique est conservée.
+pour le circuit LC, la grandeur s(t) est la charge q(t) de l'oscillateur à l'instant t,
+est l'intensité dans le circuit, et . Par suite
+et il suffit de multiplier membre à membre cette quantité par l'inductance L pour obtenir l'énergie du système . Le terme en , qui correspond à l'énergie contenue dans la bobine, est l'analogue "électrique" de l'énergie cinétique du système masse-ressort, et celui en , qui correspond à l'énergie stockée dans le condensateur, est l'analogue de l'énergie potentielle mécanique.
+Interprétations des oscillations en termes énergétiques[modifier | modifier le code]
+Le caractère conservatif de l'énergie d'un oscillateur harmonique idéal est bien sûr lié à l'absence de termes de dissipation. Il est en effet facile de voir que l'équation (1) est invariante par renversement du temps : une telle symétrie implique que l'énergie du système physique soit conservée (cf. théorème de Noether). Cette conservation de l'énergie totale du système implique qu'au cours de son évolution il y a transfert entre les formes "potentielle" et "cinétique" de l'énergie du système: en fait, le caractère "oscillant" du système peut s'interpréter comme la conséquence du "va-et-vient" entre les deux formes d'énergie, dont la somme demeure (idéalement) constante au cours du temps.
+Physiquement, un oscillateur harmonique présente la propriété fondamentale d'isochronisme des oscillations, c'est-à-dire que celles-ci possèdent une période donnée
+(période propre), constante, au bout de laquelle elles se répètent à l'identique. Sur le plan fondamental, cette propriété résulte de l'invariance par translation dans le temps, qui elle-même implique le caractère conservatif de l'énergie du système[5],[6]. Sur le plan mathématique, l'invariance par translation dans le temps se traduit par l'absence de termes d'ordre impair en t, par exemple en , dans l'équation différentielle d'évolution. En présence de frottements, la symétrie par translation dans le temps est brisée, et il n'y aura plus d'isochronisme des oscillations (cf. oscillateur harmonique amorti).
+L'oscillateur harmonique comme modèle - limitations[modifier | modifier le code]
+Importance physique de l'oscillateur harmonique[modifier | modifier le code]
+Bien qu'il s'agisse d'une idéalisation, le modèle de l'oscillateur harmonique est d'une importance fondamentale en Physique. En effet, tout système à un seul degré de liberté noté q(t), pour lequel il est possible de définir une énergie potentielle (notée
+de façon générale), laquelle possède un minimum en , se comporte au voisinage de celui-ci comme un oscillateur harmonique.
+En effet, au voisinage de
+l'énergie potentielle s'écrit , avec nécessairement puisque
+correspond à un minimum . Par suite en prenant , l'origine des énergies étant prise en , l'énergie potentielle se met au voisinage de tout minimum sous la forme de celle d'un oscillateur harmonique idéal:
+,
+k étant une "constante de raideur" (par analogie avec le système masse-ressort) de l'oscillateur harmonique[7].
+potentiel d'un pendule simple et son approximation parabolique
+Exemple: pendule simple
+Dans le cas d'un pendule simple, le système est à un seul degré de liberté noté θ (angle entre la verticale et le fil), et l'énergie potentielle de la masse m (assimilée à un point matériel) est donnée par , g étant la pesanteur et
+la longueur du pendule. Cette énergie potentielle est clairement minimale en
+et au voisinage de cette position d'équilibre l'énergie potentielle du système s'écrit:
+puisque , dans ce cas . L'équation différentielle du mouvement est alors dans ce domaine celle d'un oscillateur harmonique: , avec
+pulsation propre du pendule simple. Elle correspond à une linéarisation, dans la limite des petites oscillations, de l'équation "complète"
+donnant l'évolution du pendule[8].
+Dans le cas du pendule simple, l'approximation harmonique, dite aussi des petites oscillations, revient à remplacer le potentiel réel par le potentiel parabolique, caractéristique de l'oscillateur harmonique (cf. figure ci-contre).
+Limitations du modèle de l'oscillateur harmonique[modifier | modifier le code]
+Le modèle de l'oscillateur harmonique possède des limites de deux ordres.
+En premier lieu, il correspond à la situation d'un système physique pris au voisinage d'un point d'équilibre stable comme indiqué précédemment. Si l'écart à l'équilibre est important, il apparaît en général des termes supplémentaires non-quadratiques (dits anharmoniques) dans le développement de l'énergie potentielle.
+Par ailleurs, il s'agit d'un modèle conservatif, qui néglige tous les termes de dissipation d'énergie, ou alors pour lequel ceux-ci sont exactement compensés par un apport extérieur d'énergie. Dans le premier cas, l'oscillateur harmonique est dit amorti, dans le second il est dit entretenu.
+Limites du modèle pour les systèmes réels[modifier | modifier le code]
+Pour tout système physique réel, le comportement n'est celui d'un oscillateur harmonique que dans un domaine restreint, même en négligeant tout terme de dissipation.
+Par exemple, pour le système masse-ressort le système ne se comporte comme un oscillateur harmonique que dans la limite des petites oscillations, c'est-à-dire si l'on reste dans le domaine linéaire du ressort, où la force de rappel est proportionnelle à son élongation[9]. Pour des élongations plus élevées, il y a apparitions de termes non-linéaires (dits anharmoniques) dans la relation force de rappel / élongation. Ceux-ci se caractérisent en pratique par l'apparition de termes en x^3 ou plus dans l'expression de l'énergie potentielle. Pour des élongations encore plus élevées, il y aura déformation permanente du ressort, qui quitte alors le domaine élastique pour entrer dans celui de la déformation plastique, voire se rompre. Dans ce cas-là la modélisation du système par une énergie potentielle ne sera pas possible.
+Par ailleurs, il est fait l'hypothèse que le ressort revient toujours dans son état initial après déformation: en pratique, et même pour de petites élongations pour lesquelles le ressort reste dans le domaine élastique, ceci n'est pas strictement vérifié, du fait d'une certaine usure des matériaux du ressort. En fait, l'état réel du ressort dépend de son "histoire" (phénomène d'hystérésis): cet effet est particulièrement visible sur un grand nombre d'oscillations et peut être modélisé par un terme d'amortissement dit structurel[10].
+Prise en compte de la dissipation d'énergie: oscillateur harmonique amorti[modifier | modifier le code]
+De façon générale, l'énergie d'un oscillateur harmonique sera donnée par une expression de la forme:
+,
+expression dans laquelle
+représente un paramètre multiplicatif positif, dépendant du système considéré, et tel que E ait effectivement la dimension d'une énergie: ainsi pour un système masse-ressort , pour un circuit LC, , pour un pendule simple , etc.
+Si la dissipation d'énergie est prise en compte, la relation
+traduisant le caractère conservatif du système n'est plus valide, et il faudra tenir compte de la puissance perdue par dissipation notée , qui est toujours négative[11], et telle que:
+.
+En règle générale, le cette puissance des forces de dissipation n'a pas d'expression simple, et peut dépendre d'un très grand nombre de paramètres, parfois extérieurs au système considéré. Par exemple, pour un oscillateur mécanique, ce terme correspondra aussi bien à des forces dissipatives intérieures au système, traduisant les "frottements" entre ses différentes sous-parties, qu'à des forces extérieures, avec un transfert thermique entre le système et l'extérieur. En toute rigueur il faudrait alors utiliser une approche thermodynamique plutôt que purement mécanique[12].
+Toutefois dans le cas où la dissipation est faible, et que les propriétés physiques du système sont considérées comme invariantes au cours du temps, il est possible de développer
+en puissance de .
+A l'ordre le plus bas, l'expression de
+est alors de la forme:
+,
+étant un paramètre positif, supposé constant, ayant nécessairement les dimensions de l'inverse d'une durée[13] (cf. ci-après pour une discussion sur son interprétation physique).
+Système masse-ressort amorti. La force d'amortissement visqueux est proportionnelle à la vitesse.
+Sur le plan physique, une telle expression peut se justifier par le fait que l'introduction d'un terme de dissipation doit donner une équation différentielle qui ne soit plus invariante par renversement du temps, dont un terme en
+à l'ordre le plus bas, ce que seul peut réaliser un terme de dissipation dépendant de
+au moins.
+Dans le cas du système masse-ressort, cette expression correspond à celle de la puissance d'une force d'amortissement visqueux de la forme , avec .
+Un montage expérimental permettant d'obtenir cette forme peut être celui de la figure ci-contre, où la masse est relié à un dispositif dissipateur plongeant dans un liquide, dont la viscosité peut être plus ou moins forte (cf. figure ci-contre à droite).
+Circuit LC avec introduction d'une résistance R pour modéliser les pertes.
+Dans le cas du circuit LC, elle correspond à la prise en compte de la résistance R de la bobine et du reste du circuit pour modéliser les sources de pertes (cf. figure ci-contre à gauche).
+La puissance dissipée par effet Joule dans celle-ci est donnée par , ce qui correspond bien à l'expression proposée précédente.
+Par suite, en tenant compte de cette expression approchée pour l'oscillateur faiblement amorti, il vient compte tenu de
+l'équation différentielle donnant l'évolution de la grandeur s(t):
+Contrairement au cas de l'oscillateur harmonique idéal, cette équation n'est pas symétrique par renversement du temps du fait du terme en , ce qui traduit sur le plan mathématique la non-conservation de l'énergie.
+L'équation différentielle donnant l'évolution de l'oscillateur harmonique (faiblement) amorti peut être réécrite sous une forme plus physique en posant
+ou
+est une durée caractéristique des processus de dissipation appelé temps de relaxation. Il vient alors:
+.
+La résolution mathématique de cette équation différentielle permet de distinguer trois régimes selon les valeurs relatives de
+et de la fréquence propre :
+Allure de s(t) en régime sous-critique.
+régime dit sous-critique: si , il vient , ce qui correspond à des oscillations sinusoïdales amorties de pseudo-fréquence[14] , A et
+étant des constantes dépendant des conditions initiales. Il n'y plus d'oscillations au sens strict mais s(t) prend la forme d'une sinusoïdale dont l'enveloppe décroît exponentiellement au cours du temps (cf. figure ci-contre): on parle alors d'oscillations libres amorties.
+L'étude de la courbe représentative de
+permet de déterminer la pseudo-période
+des oscillations, ainsi que le décrément logarithmique , qui est donné dans le cas du régime sous-critique par . Ceci permet la mesure expérimentale du temps de relaxation , caractéristique des phénomènes dissipatifs.
+régime critique: si , il vient , A et B étant deux constantes dépendant des conditions initiales. Il n'y a pas d'oscillations amorties, le système revient exponentiellement vers son état de repos. Il s'agit d'un cas limite.
+régime sur-critique: si , il vient , avec , A et B étant deux constantes dépendant des conditions initiales. Il n'y a pas d'oscillations amorties, le système revient exponentiellement vers son état de repos.
+Oscillateurs mécaniques[modifier | modifier le code]
+Oscillations de translation[modifier | modifier le code]
+On peut mettre en oscillation une masse soumise à l'action d'un ressort. On peut suivant les cas, réaliser des oscillations verticales ou des oscillations horizontales (en utilisant un dispositif permettant de minimiser les frottements sur le support).
+Dans les deux cas, les oscillations sont harmoniques : la fonction du temps
+de la position de la masse de part et d'autre de la position d'équilibre (statique) est une fonction sinus. La période est indépendante de l’amplitude (isochronisme des oscillations) : elle ne dépend que de l'inertie du système (masse m) et de la caractéristique de la force de rappel (constante de raideur k du ressort) :
+La constante de raideur k est exprimée en N/m. Pour k = 1 N/m, il faudrait un Newton pour allonger le ressort d'un mètre. En réalité, la période dépend aussi de la masse du ressort, qui est négligée dans la formule ci-dessus. Voir l'article détaillé : système masse-ressort, pour une théorie plus complète.
+Si les oscillations sont amorties par une force de frottement fluide (type visqueux à faible vitesse, force en
+), l'équation différentielle du mouvement peut s'écrire :
+Oscillations de rotation[modifier | modifier le code]
+Schéma d'un pendule de torsion
+Article détaillé : pendule de torsion.
+Le dispositif est constitué d'une barre horizontale fixée à un support par l'intermédiaire d'un fil de torsion : ce fil d'acier exerce un couple de rappel proportionnel à l'angle de torsion qu'on lui impose : . Sur la barre on peut positionner deux masselottes de façon symétrique de façon à modifier le moment d'inertie.
+La période est indépendante de l’amplitude (isochronisme des oscillations). Elle est donnée par la relation ci-dessous où J désigne le moment d'inertie de la barre munie des masselottes.
+Équation différentielle :
+Oscillateurs électriques[modifier | modifier le code]
+Circuit LC[modifier | modifier le code]
+Un circuit LC en électrocinétique est un circuit théorique comportant une bobine idéale : parfaitement inductive (inductance L et résistance nulle) et un condensateur (capacité C). Les deux dipôles sont en outre totalement linéaires, ce qui est le cas avec des bobines à noyau d'air mais qui ne l'est pas pour de bobines avec un noyau ferromagnétique.
+Un tel circuit se comporte alors comme un oscillateur dont la période propre est :
+De la loi des mailles : , et des équations caractéristiques des deux dipôles :
+et , on déduit :
+, avec
+L'équation différentielle peut donc s'écrire :
+Circuit RLC[modifier | modifier le code]
+Dans un circuit LC réel, on ne peut s'affranchir de la résistance. Celle-ci dissipe de l'énergie par effet joule. Dans ce cas, l'équation différentielle qui régit les oscillations (amorties) peut s'écrire :
+Remarque : on peut entretenir les oscillations grâce à un montage dit à résistance négative.
+Analogie électro-mécanique[modifier | modifier le code]
+Les oscillations mécaniques avec amortissement fluide, et les oscillations électriques d'un circuit RLC conduisent à deux équations différentielles du second ordre formellement identiques.
+Oscillateur générique
+RLC
+Masse soumise à un ressort
+= tension
+= Force
+= charge électrique
+= déplacement
+= intensité
+= vitesse
+= accélération
+= inductance propre
+m = masse du mobile
+R = résistance
+= coef de frottement
+= inverse de la capacité
+k = constante de raideur
+= période propre
+= période propre
+= période propre
+: effet Joule
+: force de frottement
+= facteur de qualité
+Oscillateurs électriques entretenus[modifier | modifier le code]
+On obtient des oscillations électriques entretenues en associant un élément amplificateur, à un circuit LC. L'énergie est prélevée sur le circuit LC, amplifiée puis réinjectée sur le même circuit, tout cela par des couplages adéquats. L'oscillation a lieu lorsque les pertes du circuit LC sont compensées par l'énergie réinjectée par l'amplificateur. L'étude théorique peut être réalisée en considérant deux quadripoles bouclés l'un sur l'autre: Le quadripôle amplificateur et le circuit LC considéré comme un quadripôle filtre.
+Différents montages pratiques d'oscillateurs ont été proposés : oscillateur Colpitts, oscillateur Clapp, oscillateur Hartley, oscillateur de Pierce.
+Ces oscillateurs entretenus peuvent inclure un quartz, qui permet d'obtenir une meilleure stabilité de fréquence. Les oscillateurs entretenus sont très utilisés en électronique par exemple, pour les horloges des circuits numériques, ou pour les pilotes des appareils de télécommunications.

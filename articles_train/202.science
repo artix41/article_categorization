@@ -1,0 +1,204 @@
+Force de Lorentz — Wikipédia
+Force de Lorentz
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Force électromagnétique)
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la physique et l'électromagnétisme.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Le cercle décrit par le champ magnétique dans un moteur triphasé.
+La force de Lorentz, ou force électromagnétique, est la force que va subir une particule chargée dans un champ électromagnétique.
+C'est la principale manifestation de l'interaction électromagnétique. La force de Lorentz, appliquée dans diverses situations, induit l'ensemble des interactions électriques et magnétiques observées ; elle est de ce fait principalement étudiée en physique et en chimie.
+Les effets quantiques affectant la force électromagnétique sont étudiés dans le cadre de l'électrodynamique quantique.
+Sommaire
+1 Description mathématique
+2 Démonstration de la formule de la force de Lorentz
+3 Ordre de grandeur
+4 Articles connexes
+Description mathématique[modifier | modifier le code]
+Champ magnétique dans une bobine.
+Le champ électromagnétique exerce la force suivante sur des particules possédant une charge électrique q non nulle
+.
+ATTENTION : Cette partie est à revoir.
+E et B sont respectivement le champ électrique et le champ magnétique pris au point où se trouve la particule. v représente la vitesse de la particule dans le référentiel d'étude. On peut distinguer deux contributions à cette force :
+, qui est la force électrique ;
+, qui est la force magnétique.
+Dans le cas où la charge électrique est immobile à une certaine position nommée r', sa vitesse est donc nulle, et elle n'est pas soumise à une quelconque force magnétique : le produit vectoriel
+s'annule, et la charge est alors soumise à une force qui ne dépend que du champ électrique .
+.
+Action de la force de Lorentz dans le cas d'un champ électrique nul.
+Le champ électrique s'exerçant en r est alors donné par la loi de Coulomb :
+,
+εo est une constante universelle appelée la permittivité du vide (à remplacer par la permittivité du milieu, lorsqu'on n'est pas dans le vide).
+Le calcul de la force ne se fait que lorsque l'on connaît la valeur des champs E et B, qui sont principalement déterminés par la distribution de l'ensemble des particules chargées intervenant dans la configuration étudiée.
+Démonstration de la formule de la force de Lorentz[modifier | modifier le code]
+Historiquement, la force de Lorentz était une donnée indépendante de l'équation décrivant le champ électromagnétique. On peut retrouver la force de Lorentz grâce au formalisme Lagrangien. Le Lagrangien permettant de retrouver les équations de Maxwell permet également de retrouver la force de Lorentz. Les équations de Maxwell sont les équations sources, et la Force de Lorentz est l'équation d'évolution (équation dynamique). On retrouve les deux grâce aux équations d'Euler Lagrange. Pour retrouver les équations dynamiques on applique les équations d'Euler Lagrange aux coordonnées d'espaces (positions, vitesses), et pour retrouver les équations sources (équation de Maxwell), on applique les équations d'Euler Lagrange aux coordonnées généralisées (champs, et dérivées du champ). L'action d'une particule chargée ponctuelle soumise à un champ électrique est:
+.
+avec
+.
+Pour appliquer les équations d'Euler Lagrange, on cherche donc d'abord le moment:
+La notation
+étant un peu abusive. L'équation d'Euler Lagrange nous dit alors que:
+.
+et
+.
+donc
+.
+Et en utilisant l'identité vectorielle (fausse)
+.
+on obtient
+.
+soit la force de Lorentz si
+.
+et
+.
+On peut également faire apparaitre la force de Lorentz grâce aux équations de maxwell, elle apparait comme terme source dans l'équation de continuité de la densité d'impulsion du champ électromagnétique. Soit
+.
+avec
+le tenseur des contraintes de Maxwell.
+On peut aussi passer par le formalisme relativiste du lagrangien, appliqué à la relativité restreinte. Dans ce cadre-là, le mouvement d'une particule suivant la trajectoire xb(τ) soumise au champ électromagnétique est décrit par son action, qui prend la forme , où la quantité Ai est ce que l'on appelle le quadripotentiel, duquel on tire le potentiel électrique et le potentiel vecteur qui déterminent entièrement le champ électrique et le champ magnétique.
+On définit comme de coutume en relativité restreinte la quadrivitesse par
+ce qui permet de réécrire l'action sous la forme
+.
+Dans le formalisme de l'action (qui est l'intégrale du lagrangien), la trajectoire est déterminée par la maximisation de l'action par rapport aux variations possibles de la trajectoire xb(τ). La trajectoire apparaît explicitement dans le quadrivecteur vitesse, mais aussi implicitement dans le quadripotentiel, puisque l'on évalue celui-ci en chaque point de la trajectoire. Ainsi, la variation de l'action donne-t-elle
+.
+On peut intégrer le premier terme par partie, pour obtenir
+,
+mais comme le quadripotentiel dépend est uniquement évalué sur des points de la trajectoires, on a
+.
+En regroupant l'ensemble des termes, il vient
+.
+Le terme de l'intégrale en dehors du dτ et des δxa donne la force. En introduisant le tenseur électromagnétique Fab tel que
+,
+la force fa s'écrit donc
+.
+Du fait de la structure des équations de Maxwell, on montre que le champ magnétique peut être écrit sous la forme du rotationnel d'un vecteur, le potentiel vecteur du champ magnétique. Or la partie spatiale du tenseur électromagnétique peut s'écrire, si l'on se place en coordonnées cartésiennes x, y, z,
+.
+Appliqué à la partie spatiale de la quadrivitesse, on vérifie, en notant B le rotationnel de A, que l'on a
+.
+Si maintenant on considère en sus les composantes temporelles du tenseur F, on a
+.
+Or, étant données les équations de Maxwell, on sait que l'on peut écrire le champ électrique comme la somme de l'opposé de la dérivée temporelle du potentiel vecteur et du gradient du potentiel électrique, que l'on va assimiler à At. On a ainsi l'expression quadridimensionnelle de la force :
+.
+Ordre de grandeur[modifier | modifier le code]
+L'interaction électromagnétique est la deuxième des quatre interactions élémentaires dans l'ordre des puissances. À basse énergie, soit celle des réactions chimiques ou nucléaires, elle est à peu près cent fois plus faible que l'interaction forte, mais dépasse les interactions faibles et gravitationnelles d'un facteur 1011 et 1042 respectivement. C’est grâce à cette force que les objets peuvent avoir des formes variées (cubique, cylindrique, parabolique...) ce qui n'est pas le cas pour les corps régis par la gravitation (étoiles, planètes…).[réf. nécessaire]
+Articles connexes[modifier | modifier le code]
+Électrostatique
+Magnétostatique
+Électromagnétisme
+Force de Laplace
+v · d · m
+Automatique • Électricité • Électrochimie • Électromagnétisme • Électronique • Électrotechnique • Robotique • Traitement du signal
+Électrostatique
+Champ électrique • Charge électrique • Loi de Coulomb • Potentiel électrique • Pression électrostatique
+Magnétostatique
+Champ magnétique • Loi de Biot et Savart • Moment magnétique
+Électrocinétique
+Ampère • Champ électromagnétique • Courant de déplacement • Courant électrique • Courants de Foucault • Équations de Maxwell • Force électromotrice • Force de Lorentz • Induction électromagnétique • Loi de Lenz-Faraday • Rayonnement électromagnétique
+Magnétisme
+Antiferromagnétisme • Circuit magnétique • Diamagnétisme • Domaine de Weiss • Ferrimagnétisme • Ferromagnétisme • Inversion du champ magnétique terrestre • Loi de Curie • Paramagnétisme • Perméabilité magnétique • Superparamagnétisme • Susceptibilité magnétique
+Portail de la physique
+Portail de l’électricité et de l’électronique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Force_de_Lorentz&oldid=110002319 ».
+Catégories : Outils théoriques de l'électromagnétismeMécaniqueCatégories cachées : Wikipédia:ébauche physiqueWikipédia:ébauche électromagnétismeArticle à référence nécessairePortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Électricité et électronique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+עברית
+Hrvatski
+Magyar
+Հայերեն
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+Basa Jawa
+ქართული
+Қазақша
+한국어
+Latina
+Latviešu
+मराठी
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Piemontèis
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Shqip
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Tagalog
+Türkçe
+Татарча/tatarça
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 16 décembre 2014 à 12:54.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

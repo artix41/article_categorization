@@ -1,0 +1,86 @@
+Coefficient de partage — Wikipédia
+Coefficient de partage
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+On appelle coefficient de partage, généralement noté K ou P, le rapport des activités chimiques d’un soluté entre deux phases. Le coefficient de partage est la constante d'équilibre de la réaction :
+, où X est le soluté, A et B les deux phases dans lesquelles il est en équilibre.
+Par conséquent :
+, où aA et aB sont les activités chimiques respectives du soluté X dans les phases A et B.
+Pour un soluté et des solvants donnés, le coefficient de partage ne dépend que de la température, éventuellement de la pression, mais pas des volumes de solutions ni du mode de préparation.
+Ce coefficient est déterminant pour les extractions liquide-liquide, qui consistent à faire passer un soluté d'un solvant A où il est peu soluble à un solvant B où il l'est davantage et/ou dont on peut le séparer plus facilement, A et B n'étant pas miscibles.
+Sommaire
+1 Cas des solutions diluées
+2 Détermination de K
+3 Cas particulier des acides et des bases faibles
+4 Voir aussi
+Cas des solutions diluées[modifier | modifier le code]
+Pour des solutions diluées, l'activité chimique, a, peut être assimilée à la concentration molaire, C, et on a donc
+, où A et B sont les deux phases considérées.
+soit :
+La masse totale de soluté m0 étant constante,
+donc ,
+d'où:
+,
+d'où l'on tire:
+Détermination de K[modifier | modifier le code]
+Le coefficient de partage est déterminé expérimentalement par mesure des concentrations de l'espèce concernée dans chacune des deux phases à l'équilibre, au moyen de méthodes de dosages diverses : gravimétrie, titrimétrie, spectrophotométrie, chromatographie...
+On peut également calculer un coefficient de partage théorique correspondant au rapport des solubilités du soluté entre les deux phases :
+Cependant, on ne peut considérer un tel résultat comme satisfaisant qu'à condition que la miscibilité réciproque des deux solvants soit négligeable. De plus, il faut tenir compte du fait que le coefficient de partage de l'espèce concernée peut être modifié par la présence d'autres solutés dans l'une ou l'autre phase. Un coefficient de partage théorique n'a donc que peu d'intérêt en pratique et il est préférable de déterminer expérimentalement le coefficient de partage dans les conditions opératoires pour être le plus proche possible de la réalité.
+Cas particulier des acides et des bases faibles[modifier | modifier le code]
+Dans le cas particulier des acides et des bases faibles, partiellement ionisés en solution aqueuse, le coefficient de partage varie en fonction du pH de la solution. En effet, l'équilibre entre la phase aqueuse et la phase organique ne s'établit qu'avec la fraction non ionisée, la fraction ionisée n'étant soluble que dans la phase aqueuse. On définit alors un coefficient de distribution D prenant en compte le recul d'ionisation. Ce coefficient dépend du coefficient de partage K, du Ka du couple acide-base et de la concentration en ions H3O+.
+Pour un acide faible de type HA :
+Pour une base faible de type B :
+Voir aussi[modifier | modifier le code]
+logP, logarithme décimal du coefficient de partage octanol-eau
+Koc, coefficient de partage carbone organique-eau
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Coefficient_de_partage&oldid=105688544 ».
+Catégories : Chimie des solutionsProcédé de séparationChimie des équilibresCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Modifier les liens
+Dernière modification de cette page le 24 juillet 2014 à 18:01.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

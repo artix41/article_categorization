@@ -1,0 +1,43 @@
+Cycle de Carnot — Wikipédia
+Cycle de Carnot
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Le cycle de Carnot est un cycle thermodynamique théorique pour un moteur ditherme, constitué de quatre processus réversibles : une détente isotherme réversible, une détente adiabatique (donc isentropique car réversible), une compression isotherme réversible, et une compression adiabatique.
+C'est le cycle le plus efficace pour obtenir du travail à partir de deux sources de chaleur de températures constantes, considérées comme des thermostats. C'est un cycle moteur, donc parcouru dans le sens anti-trigonométrique dans un diagramme de Clapeyron. Le cycle inverse (parcouru dans le sens trigonométrique) est le moyen le plus efficace de transférer de la chaleur d'une source froide à une source chaude à partir d'une source de travail.
+L'efficacité des autres cycles et des machines réelles est comparée à celle du cycle de Carnot par le biais du rendement, un nombre sans dimension compris entre 0 (efficacité nulle) et 1 (efficacité parfaite).
+Il fut publié par Sadi Carnot en 1824 dans son unique ouvrage Réflexions sur la puissance motrice du feu et sur les machines propres à développer cette puissance [1] et permit d'ouvrir la voie à la formulation du second principe de la thermodynamique.
+Cycle de Carnot dans le diagramme de Clapeyron. AB : détente isotherme ; BC : détente adiabatique ; CD : compression isotherme ; DA : compression adiabatique.
+Cycle de Carnot dans un diagramme température-entropie. AB : détente isotherme ; BC : détente adiabatique ; CD : compression isotherme ; DA : compression adiabatique.
+Sommaire
+1 Description du cycle
+2 L'efficacité de Carnot
+3 Notes et références
+4 Articles connexes
+5 Liens externes
+6 Bibliographie
+Description du cycle[modifier | modifier le code]
+Carnot cherchait à faire un cycle avec la meilleure efficacité[2] possible. Ainsi l'efficacité de toute machine thermodynamique peut être comparée avec l'efficacité du cycle de Carnot. C'est un cycle théorique : en effet, le cycle étant réversible, il s'effectue en l'absence de phénomènes dissipatifs, et n'est donc pas un cycle réel (voir notamment la notion de Réversibilité thermodynamique).
+Le cycle est composé de quatre transformations successives :
+Compression isotherme réversible (C→D) / (3→4) (sur respectivement : figures du haut / du bas)
+Compression adiabatique réversible (D→A) / (4→1)
+Détente isotherme réversible (A→B) / (1→2)
+Détente adiabatique réversible (B→C) / (2→3)
+Le deuxième principe de la thermodynamique permet d'établir pour une transformation réversible (car le fluide est à la température de la source) l'égalité de Clausius-Carnot :
+avec :
+transfert thermique avec la source froide (compté négativement).
+transfert thermique avec la source chaude (compté positivement).
+température de la source froide, constante (en kelvins).
+température de la source chaude, constante (en kelvins).
+L'efficacité de Carnot[modifier | modifier le code]
+Cycle de Carnot moteur d'un gaz parfait dans le diagramme de Clapeyron. 1-2 : isotherme réversible ; 2-3 : adiabatique réversible ; 3-4 : isotherme réversible ; 4-1 : adiabatique réversible. W est le travail total reçu par le système au cours d'un cycle et est représenté géométriquement par l'aire du cycle.
+De nombreux systèmes thermodynamiques ont une efficacité définie à partir de celui du Cycle de Carnot, qui est un cycle théorique.
+L'efficacité thermodynamique (ou énergétique) d'un système est définie comme le rapport entre l'énergie utile en sortie de ce système, et l'énergie fournie par les utilisateurs en entrée de ce système :
+Le cycle de carnot étant un cycle moteur, l'énergie utile en sortie est un travail positif
+correspondant à un travail algébrique fourni au fluide négatif, et l'énergie fournie en entrée est sous forme de chaleur, c'est-à-dire qu'il s'agit du transfert thermique avec la source chaude
+Par définition, on obtient :
+Par ailleurs, le premier principe de la thermodynamique donne, appliqué à ce cycle :
+soit
+On obtient donc : .
+L'égalité de Clausius-Carnot affirme que .
+Ainsi :
+Il est impossible d'obtenir une efficacité de 100 %, même pour le cycle de Carnot moteur entièrement réversible, sauf pour le cas théorique

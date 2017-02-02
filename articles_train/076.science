@@ -1,0 +1,233 @@
+Radioprotection — Wikipédia
+Radioprotection
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Boîte en bois et en plomb pour le transport d'échantillons de radium. Début du XXe siècle, Musée Curie.
+Assemblage de briques de plomb protégeant l'environnement du rayonnement émis par une source radioactive
+Conteneur en plomb pour le transport des seringues de technétium 99m en service de médecine nucléaire au XXIe siècle
+La radioprotection est l'ensemble des mesures prises pour assurer la protection de l'homme et de son environnement contre les effets néfastes des rayonnements ionisants.
+Sommaire
+1 Principes
+2 Effets biologiques
+3 Dose et expositions
+3.1 Dose externe
+3.2 Dose interne
+4 Règles de protection opérationnelle
+4.1 Distance
+4.2 Activité
+4.3 Temps
+4.4 Écran
+5 Aspects réglementaires
+5.1 Organismes internationaux
+5.2 Au niveau européen
+5.3 En France
+5.3.1 Code de la santé
+5.3.2 Code du travail
+5.3.2.1 Les principales modifications réglementaires
+5.4 Plan de surveillance de l'alimentation
+6 Médicaments
+7 Notes et références
+8 Voir aussi
+8.1 Bibliographie
+8.2 Articles connexes
+8.2.1 Physique
+8.2.2 Effets biologiques
+8.3 Liens externes
+Principes[modifier | modifier le code]
+Les trois principes fondamentaux de la radioprotection, liés à la source et quelle que soit la situation, sont[1] :
+la justification. Les sources de rayonnements ionisants ne doivent pas être utilisées s'il existe d'autres alternatives (par exemple, pas de radiographie si des résultats similaires sont obtenus avec une échographie) ; de plus, les sources radioactives sont maintenant strictement interdites dans les produits de la vie courante (mais certains anciens détecteurs de fumée, certains anciens paratonnerres, ... peuvent en contenir).
+Dans le cas des analyses médicales, c'est au médecin de faire la balance entre le bénéfice et le risque, le bénéfice que le patient retire de l'examen doit être supérieur au risque radiologique ;
+l'optimisation. C'est la recherche de l'exposition minimum nécessaire, elle correspond au principe « ALARA » (As Low As Reasonably Achievable) ;
+la limitation. Il existe des limites annuelles d'exposition à ne pas dépasser : elles sont les plus basses possible, afin d'éviter l'apparition d'effets stochastiques. Chaque pays définit des limites réglementaires en fonction des recommandations de la Commission internationale de protection radiologique (CIPR).
+Effets biologiques[modifier | modifier le code]
+Article détaillé : Échelles et effets de doses de radiation.
+Compte tenu de leur énergie, les rayonnements ionisants ont un effet néfaste sur les cellules vivantes et particulièrement sur l'ADN. Les rayonnements peuvent ainsi induire des modifications ou ruptures de la chaîne d'ADN, réparables ou non.
+Les effets ainsi produit peuvent être :
+stochastiques (aléatoire) pour des faibles doses d'irradiation et dans le cas où la cellule a réussi à se réparer mais de manière incomplète, entraînant ainsi des modifications de sa fonction. Les effets sanitaires de ces atteintes à l'ADN sont peu étudiés de par le monde[2] ;
+déterministes pour des doses plus fortes, entraînant la mort de la cellule à plus ou moins court terme.
+Dose et expositions[modifier | modifier le code]
+Article détaillé : Dose efficace (radioprotection).
+Les sources d'expositions aux rayonnements ionisants peuvent être de deux natures :
+l'exposition externe engendrée soit par un panache soit par une source éloignée ;
+l'exposition interne engendrée par l'incorporation de radionucléides dans l'organisme.
+Il y a des différences majeures entre ces deux types d'exposition :
+il est possible de se soustraire aux effets néfastes des expositions externes en s'éloignant de la source tandis que cela n'est pas possible en cas d'exposition interne ;
+l'exposition interne suppose une incorporation de radionucléides, et la personne devient alors une source d'exposition externe pour ses voisins (voire de contamination) ;
+les rayonnements alpha sont trop peu pénétrants pour être dangereux en exposition externe, alors qu'ils sont particulièrement radiotoxiques en exposition interne (20 fois plus radiotoxiques que les rayonnements béta ou gamma pour la même énergie délivrée).
+Relation entre dose absorbée, dose équivalente et dose efficace (CIPR)
+La dose efficace est calculée en prenant en compte ces deux composantes de l'exposition.
+Origine de l'exposition
+Dose efficace annuelle moyenne en France
+Radon
+1,2 à 1,8 mSv
+Rayonnement cosmique
+0,3 mSv
+Rayonnement tellurique
+0,5 mSv
+Total exposition naturelle[3]
+2 à 2,5 mSv
+Total exposition médicale en 2002[4]
+0,66 à 0,83 mSv
+Les doses mentionnées dans le tableau pour l'exposition des populations françaises sont moyennes. Concernant l'exposition d'origine naturelle, les variations selon les régions de France et selon les modes de vie sont importantes. De même, le nombre d'actes médicaux « dosant » effectués dans l'année peut largement varier d'un individu à un autre (de nombreuses personnes n'ont pas eu d'exposition médicale en 2002).
+Dose externe[modifier | modifier le code]
+Illustration de la Crête de Tavernier, phénomène qu'il découvrit en 1948 et qui se caractérise par l'accroissement de la dose d'irradiation de certains rayonnements dans l'organisme avant sa décroissance exponentielle
+La dose externe est engendrée par différents types d’exposition :
+exposition naturelle : elle est principalement causée par les rayonnements cosmique et tellurique ;
+exposition artificielle : elle est principalement médicale (radiographie, scanner, radiothérapie) ;
+exposition professionnelle : sources scellées, générateurs de rayon x et réacteurs ;
+exposition accidentelle.
+La dose d'irradiation a essentiellement une décroissance exponentielle dans l'organisme en fonction de la profondeur après un passage par un maximum appelé Crête de Tavernier du nom du physicien belge Guy Tavernier qui découvrit le phénomène en 1948. Cette allure de courbe est semblable pour les faisceaux de photons et de neutrons et les rayons X et Gamma.
+Dans le cas d’un accident, la dose peut être évaluée avec des codes de calcul qui prennent en compte l'activité de la source, la distance, les écrans et les réflecteurs. L’utilisation de la dosimétrie biologique est également efficace pour reconstituer la dose dans ce cas. Elle est effectuée par un prélèvement sanguin (lymphocyte) et le recensement d’anomalies chromosomiques.
+Les travailleurs pouvant être soumis à des rayonnements ionisants lors de leur activité (industries nucléaires, médecins, radiologues…) portent un dosimètre (dosimètre électronique et/ou RPL, « RadioPhotoLuminescent », en remplacement des films dosimétriques…) qui mesure la quantité de rayonnements auxquels ils ont été soumis. Ces dispositifs permettent de s’assurer que la personne n’a pas reçu une dose supérieure à la norme tolérée ou d’en mesurer l’importance.
+En 2002, ce suivi dosimétrique réglementaire concernait 253 000 travailleurs exposés aux rayonnements ionisants, dont 111 000 personnes dans le secteur médical (le premier concerné, devant le secteur nucléaire)[5].
+Dose interne[modifier | modifier le code]
+La dose interne est engendrée par l'incorporation de radionucléides dans l'organisme.
+Comme la dose externe elle peut être la conséquence de différentes exposition :
+exposition naturelle : principalement par inhalation de radon, ingestion de potassium 40 et carbone 14 ;
+exposition artificielle : exposition médicale lors d'injection de composés radiopharmaceutiques (scintigraphie ...) ;
+exposition professionnelle : source non scellées ;
+exposition accidentelle.
+Si l'exposition n'est pas chronique, la concentration en radionucléides présents dans l'organisme va diminuer avec le temps. La dose n'est donc pas immédiate mais répartie sur plusieurs mois ou années. On parle alors de « dose engagée » : la dose intégrée sur la vie de l'individu (soit sur 50 ans pour un adulte et sur 70 ans pour un enfant).
+Les radionucléides vont décroître selon deux phénomènes :
+la décroissance radioactive : phénomène physique correspondant à la désintégration des noyaux radioactifs et caractérisé par la période radioactive, Tr (temps nécessaire à la désintégration de la moitié des noyaux) ;
+la décroissance biologique, phénomène biologique correspondant à l'élimination des atomes ou molécules par l'organisme et caractérisé par la période biologique, Tb (temps nécessaire à l'élimination de la moitié de la radioactivité).
+Pour prendre en compte la décroissance globale des radionucléides dans l'organisme, on utilise la notion de période effective :
+L'élimination des radionucléides de l'organisme ne s'effectue pas de façon linéaire. Elle suit une fonction d'excrétion (ou de rétention si on considère l'évolution de l'activité encore présente dans l'organisme).
+Ces fonctions mathématiques dépendent principalement des radionucléides (pour la décroissance radioactive) et de leur formes physico-chimique (pour la décroissance biologique). Le mode d'exposition (chronique ou aiguë) et la voie d'entrée (inhalation ou ingestion) peuvent venir également perturber cette élimination.
+Règles de protection opérationnelle[modifier | modifier le code]
+Pour l'utilisateur, il existe quatre règles fondamentales de protection contre les sources de rayonnements externes : la Distance, l'Activité, le Temps et les Écrans (moyen mnémotechnique : « D.A.T.E. »).
+Distance[modifier | modifier le code]
+S’éloigner de la source de rayonnements.
+En effet, dans le cas de rayonnement qui s'atténuent peu dans l'air, la dose reçue par une source ponctuelle à la distance d1 est plus faible que la dose reçue à la distance d0 et peut-être calculée en utilisant la relation inverse carré de la distance (cette relation est valable dans tous les milieux isotropes ainsi que dans le vide) :
+Activité[modifier | modifier le code]
+Réduire l'activité de la source, par exemple :
+diminuer les quantités de matière radioactive engagées, dans le cadre d'une décontamination par exemple ;
+diluer les gaz radioactifs. Dans les mines d’uranium souterraines, la ventilation permet de maintenir une faible concentration de radon dans l’air que respirent les mineurs ;
+attendre la décroissance radioactive des éléments. Par exemple, les installations nucléaires ne sont pas démantelées aussitôt leur arrêt, de façon à permettre une diminution de l’activité des zones concernées.
+Temps[modifier | modifier le code]
+Minimiser la durée de l’exposition aux rayonnements.
+Écran[modifier | modifier le code]
+Article connexe : rayonnements ionisants.
+Dans le cas d'une exposition externe, il est possible d'utiliser des écrans de protection entre la source et les personnes (ce qui est de facto caduc en cas de contamination interne). Ces écrans sont choisis en fonction des caractéristiques des rayonnements ionisants émis (par exemple : des murs de béton, des parois en plomb et des verres spéciaux chargés en plomb pour les rayonnements électromagnétiques : gamma et X)[6].
+Le rayonnement alpha peut être arrêté par une simple feuille de papier.
+Le rayonnement bêta doit être arrêté par des écrans dont les atomes qui le constituent ont un faible numéro atomique afin de ne pas favoriser l'émission de rayonnement de freinage. Quelques millimètres d'aluminium permettent d'arrêter ce rayonnement, le laiton et le plexiglas permettent également d'arrêter ce rayonnement, quelques mètres d'air permettent également de l'arrêter.
+Pour le rayonnement électromagnétique, on utilise les notions d'« épaisseur demi » (ou couche de demi atténuation : CDA) et d'« épaisseur dixième ». Elles correspondent aux épaisseurs permettant de réduire la dose efficace, respectivement d'un facteur deux et d'un facteur dix. Ces valeurs sont étroitement liées au coefficient d'atténuation linéique (ou coefficient massique d'atténuation), µ (en cm-1), lui-même dépendant du numéro atomique de l'élément utilisé comme écran.
+On estime qu'à partir de 10 CDA (qui laissera donc passer un photon sur 1024), si la source n'est pas trop forte, le nombre de rayonnement restant est négligeable. Il faut donc plusieurs CDA afin d'arrêter un maximum de rayons incidents.
+Le tablier avec son cache-thyroïde.
+Le tablier de plomb existe selon plusieurs épaisseurs de plomb. En toute logique, un tablier de 0,5 mm de plomb arrêtera plus de rayons incidents qu'un tablier de 0,25 mm de plomb. Mais cela dépend évidemment de l'énergie des rayons incidents car un tablier de 0,25 mm de plomb suffira amplement à arrêter des rayons de basse énergie (tel que 40 keV) et cela est moins lourd sur les épaules. Toutefois, le tablier devient inefficace aux hautes énergies (> 100 keV) car il ne permet plus d'arrêter les rayonnements de manière significative. Il ne convient pas non plus pour le rayonnement de particules chargées (béta …) à cause du rayonnement de freinage qui peut être induit.
+Il existe aussi des gants de protection aux radiations, dont l'efficacité varie avec le type de source manipulée [7]
+Aspects réglementaires[modifier | modifier le code]
+La prise de conscience du danger d’une exposition excessive aux rayonnements ionisants a amené les autorités à fixer des normes réglementaires pour les limites de dose radiative. Ces limites correspondent à un risque supplémentaire minime par rapport au risque naturel, ce qui le rend donc acceptable, les valeurs de ces limites réglementaires par conséquence ne prennent pas en compte l'exposition naturelle.
+Organismes internationaux[modifier | modifier le code]
+Depuis 1928, la Commission internationale de protection radiologique (CIPR) rassemble des médecins, physiciens, biologistes… de tous pays. Cette société savante statutairement indépendante émet des avis précieux en matière de radioprotection, pour les réglementations propres à chaque État.
+Depuis 1955, l’United Nations Scientific Committee on the Effects of Atomic Radiation (UNSCEAR), qui réunit des scientifiques représentant 21 États, a été créé au sein de l’ONU pour évaluer les niveaux et les effets de l’exposition aux rayonnements ionisants et leurs conséquences biologiques, sanitaires et environnementales. Les rapports de l'UNSCEAR, publiés tous les quatre à cinq ans, constituent des sommes exhaustives de milliers de références bibliographiques. Ils servent de bases aux travaux de la CIPR.
+Au niveau européen[modifier | modifier le code]
+L’Union européenne, au travers d'Euratom, reprend les avis de l'UNSCEAR et les recommandations de la CIPR dans ses propres normes ou directives.
+Les limites légales de radioprotection donnent[8] :
+Travailleurs (hors situations d'urgence)
+Public
+Dose efficace
+Dose équivalente
+Dose efficace
+Dose équivalente
+100 mSv sur 5 ans
+Cristallin : 150 mSv sur 12 mois glissants
+Peau (1 cm2) : 500 mSv sur 12 mois glissants
+Extrémités : 500 mSv sur 12 mois glissants
+1 mSv sur 12 mois glissants
+Cristallin : 15 mSv sur 12 mois glissants
+Peau (1 cm2) : 50 mSv sur 12 mois glissants
+Le législateur divise par 10 ou 20 les doses admissibles des travailleurs pour la population car il considère que celle-ci comporte des sujets de tous âges, de tous états de santé et qui ne sont pas si bien suivis médicalement…
+Ces directives doivent être transcrites dans les législations de chacun des pays membres qui peuvent également fixer une limite annuelle pour les travailleurs.
+La limite de 1 mSv/an pour le public ne concerne pas l'irradiation naturelle ni l'irradiation à des fins médicales. Cette limite porte donc spécifiquement sur l'irradiation (non-médicale) d'origine artificielle, d'où l'on peut déduire d'autres règles de protection : épaisseurs des écrans à placer autour d'installations émettant des rayonnements ionisants, règles de zonage des installations nucléaires, etc.
+En France[modifier | modifier le code]
+En France, la radioprotection est définie par la loi comme « la protection contre les rayonnements ionisants, c'est-à-dire l'ensemble des règles, des procédures et des moyens de prévention et de surveillance visant à empêcher ou à réduire les effets nocifs des rayonnements ionisants produits sur les personnes, directement ou indirectement, y compris par les atteintes portées à l'environnement »[9]. Pour le Code de la santé publique, c'est l'« ensemble de mesures destinées à assurer la protection sanitaire de la population et des travailleurs au regard de l’exposition aux rayonnements ionisants. Elle satisfait les trois principes fondamentaux que sont la justification, la limitation et l'optimisation »[10] Elle relève de l'Autorité de sûreté nucléaire (ASN) devenue depuis mai 2006 une autorité administrative indépendante, avec l'appui technique de l’Institut de radioprotection et de sûreté nucléaire (IRSN). Cette dernière entité est placée sous la tutelle conjointe de différents ministères.
+Les établissements détenant une source de rayonnements ionisants sont astreints à l'application du code de la santé publique et du code du travail.
+Les limites annuelles de dose efficace en vigueur, fixées par le décret du 31 mars 2003, transposent en droit français la directive Euratom 96/29, soit :
+pour le public : 1 mSv/12 mois glissants (cela ne concerne pas l'exposition médicale) ;
+pour les travailleurs : 20 mSv/12 mois glissants (cette limite est plus restrictive que la limite européenne à 100 mSv par périodes de 5 ans).
+Par ailleurs, les femmes enceintes ne doivent pas dépasser 1 mSv au niveau de l'abdomen, le fœtus étant considéré comme protégé par les mêmes limites que le public. Ainsi, dès qu'une travailleuse a déclaré sa grossesse, elle est exclue des travaux nécessitant une catégorisation A. De même, la femme allaitante doit être exclue de tous les travaux à risque de contamination. Enfin les travailleurs mineurs ne doivent également pas dépasser 3/10 des limites et les personnes en contrat à durée déterminée ou en contrat intérimaire ne peuvent pas être soumis à un débit de dose supérieur à 2 mSv/h
+Code de la santé[modifier | modifier le code]
+Le code de la santé publique fixe entre autres les limites de doses admissibles pour le public. Il oblige à avoir une autorisation ou à déposer une déclaration pour toute activité pouvant exposer des personnes aux rayonnements ionisants, sauf s'ils émanent d'une source entrant dans un des cas d'exemption. Ces cas concernent par exemple les sources radioactives d'activité inférieure aux seuils d'exemption internationaux, les générateurs de rayons X de faible tension, sources naturelles non utilisées en raison de leur radioactivité. L'existence d'exemptions paraît critiquable à certains mais à défaut d'exemption, il faudrait autoriser les tubes cathodiques des vielles télés ou les fabricants de parpaings ou de céramiques.
+L'autorisation existe depuis 1952 pour les sources composées de radionucléides artificiels, c'est-à-dire les sources radioactives dont le contenu n'est pas un produit présent dans les minerais de thorium ou d'uranium. Ces radionucléides dits naturels avaient probablement été exclus car leur représentant principal (le radium) était utilisé depuis plus de trente ans librement et son emploi était déjà sur le déclin : l'époque n'était pas encore axée sur les problèmes de déchets ou la remise en état des sites, la cessation d'utilisation semblant un peu assimilée à la cessation de l'exposition. Les générateurs électriques, notamment industriels, ont eu pendant longtemps un régime uniquement déclaratif.
+Un nouveau décret vient d'être publié en novembre 2007 (décret 2007-1582 du 7 novembre 2007) Les retours d’expérience ont amené le législateur à prendre des décrets modificatifs. De même, la prise en compte de directives européennes non transposées est effective dans ces nouveaux textes.
+De même que pour le code du travail, il fallait achever la transposition de la directive relative au contrôle des sources radioactives scellées de haute activité et des sources orphelines et prendre en compte les nouvelles prérogatives accordées à l’ASN.
+Des mesures de simplification administrative ont été introduites dans le régime d’autorisation et de déclaration des sources de rayonnements ionisants et les contrôles réalisés par les organismes agréés par l’ASN ont été renforcés. Les arrêtés d’application prévus par le nouveau chapitre III sont pris après avis de l’ASN (consultation obligatoire prévue par l’article 4 de la loi du 13 juin 2006) et que plusieurs arrêtés d’application sont transformés en décision technique de l’ASN. Il conviendra de suivre attentivement la sortie de ces textes, notamment sur le site Internet de l’autorité.
+Le régime général des autorisations et déclarations est la partie du texte réglementaire qui change le plus. En effet cette section 3 est totalement réorganisée et complétée afin de :
+simplifier le régime des autorisations et déclaration mis en place en 2002, en intégrant les nouvelles prérogatives de l’ASN en matière de décision individuelle ;
+apporter des compléments nécessaires à la transposition de la directive 2003-122 ;
+apporter des précisions rédactionnelles pour améliorer la précision du texte.
+La nouvelle section 3 se veut plus simple d’accès. Dans la 1re sous-section, le premier article définit le domaine d’application de cette section. Il exclut celles qui sont couvertes par des régimes d’autorisation spécifiques tels que celui applicables aux installations nucléaires de base ou aux installations classées pour la protection de l’environnement. Le second article précise les possibilités d’exemption au régime d’autorisation et de déclaration.
+Il y a maintenant un nouveau régime d’autorisation et de déclaration applicable au transport des matières radioactives (art. R.1333-44). Ce nouvel article est intégré afin de prévoir les modalités d’autorisation ou de déclaration des transports de matières radioactives. Un examen approfondi de la directive 96/29 Euratom, montre en effet que le transport des sources radioactives relève du champ couvert par cette directive et, de ce fait, oblige à prévoir une procédure d’autorisation ou de déclaration. La directive 2003/122 Euratom indique que la détention des sources radioactives de haute activité justifie une autorisation.
+L’ancienne section 6 devient la section 5. Cette section fait l’objet de quelques ajustements justifiés par l’expérience acquise pour son application. De plus, les arrêtés du ministre chargé de la santé sont remplacés par des décisions de l’ASN homologuées par le dit ministre, sauf celui concernant les missions de la personne spécialisée en radiophysique médicale (PSRPM). Les questions de responsabilité de ces spécialistes, traitées dans l’arrêté du 18 novembre 2004, justifient le maintien d’un arrêté. L’ancienne section 7 devient la section 6. L’ancienne section 7 avait été complétée par décret no 2005-1179 du 13 septembre 2005 relatif aux situations d’urgence radiologique et portant modification du code de la santé publique afin d’achever la transposition de la directive 89/618 Euratom.
+L’ancienne section 5 « contrôle » devient la section 7. Elle contient des nouvelles dispositions sur le contrôle technique des organismes agréés, sur l’inspection de l’ASN et sur la déclaration des incidents en radioprotection.
+Code du travail[modifier | modifier le code]
+Le code du travail organise la radioprotection dans l'entreprise, par exemple, les limites de dose, le suivi dosimétrique des travailleurs exposés ou le balisage des zones d'expositions (notions de zones contrôlées, zones surveillées…). Les premiers textes applicables remontent à 1934, à la suite des problèmes de santé qui se sont révélés dans les années 1920 pour les médecins radiologues ou les ouvriers de certains secteurs comme l'horlogerie. Des révisions majeures ont été faites en 1967 et 1986 (création de la personne compétente en radioprotection avec formation « diplômante »).
+La refonte du 31 mars 2003[11] concerne :
+la personne compétente en radioprotection (PCR)[12]. sous la responsabilité de l'employeur, elle est nommée par ce dernier après avoir suivi avec succès une formation en radioprotection. Dans le cas d'une Installation Nucléaire de Base (INB), elle doit obligatoirement faire partie des effectifs de l'entreprise ; pour les entreprises extérieures et les professionnels de santé équipés de générateurs à rayons X (Radiologues, chirurgiens dentistes[13], rhumatologues et les vétérinaires), la PCR peut être sous traitée. Son rôle est de coordonner et mettre en application les différents aspects de la protection des travailleurs, du public et de l'environnement :
+définition des zones radiologiques ;
+information et formation du personnel intervenant sous rayonnement ionisant ;
+participation à l'élaboration des fiches de poste avec le médecin du travail ;
+définition des objectifs de dose (collective et individuelle) et suivi de la dosimétrie ;
+interlocuteurs internes : CHSCT, médecin du travail, chef d'établissement, personnel ...
+interlocuteurs externes : principalement l'ASN (dans le cadre des inspections), l'IRSN (dans le cadre de détention des sources, générateurs de rayonnements et gestion de la dosimétrie), la DDASS ;
+l'aménagement des locaux de travail[14]. Deux types de zones doivent être définies et correctement délimitées autour des sources de rayonnements ionisants par le chef d'établissement :
+une zone surveillée si le travailleur risque de recevoir une dose efficace supérieure à 1 mSv ou une dose équivalente supérieure à un dixième des limites annuelles. Le port d'une dosimètrie réglementaire (dosimètre passif actuellement) est obligatoire ;
+une zone contrôlée si le travailleur risque de recevoir une dose efficace supérieure à 6 mSv ou une dose équivalente supérieure à trois dixièmes des limites annuelles. Le port des dosimètries passive et opérationnelle sont obligatoires et l'accès n'est autorisée qu'aux personnes ayant reçu une information préalable ;
+les travailleurs soumis aux rayonnements ionisants. Une fiche d'exposition doit être établie par le chef d'établissement en fonction de l'étude du poste du travailleur. Un suivi médical doit être réalisé incluant au moins une visite médicale annuelle. De plus, dans les situations normales de travail, ils sont classés en deux catégories par le chef d'établissement après avis du médecin du travail :
+catégorie A pour les travailleurs susceptibles de recevoir une dose efficace de plus de 6 mSv par an ou une dose équivalente supérieure aux trois dixièmes des limites annuelles ;
+catégorie B pour les autres travailleurs.
+Le dernier décret modifiant le code du travail et concernant la radioprotection des travailleurs date du 5 novembre 2007[15].
+Les modifications introduites par le décret 2007-1570 du 5 novembre 2007 entrent en vigueur à compter du 7 novembre 2007, à l’exception des dispositions portant sur le certificat d’aptitude à la manipulation d’appareils de radiologie industriels (CAMARI) pour lesquelles des mesures transitoires sont prévues. Toutefois bon nombre de mesures d’application sont conditionnées à la publication d’arrêtés ou de décision réglementaire à caractère technique de l’ASN.
+Les principales modifications réglementaires[modifier | modifier le code]
+Elles concernent en premier lieu les mesures de transposition de la directive 2003/122 qui concernent en particulier les sources scellées de haute activité, en matière d’information et de formation à la santé et à la sécurité des travailleurs. La formation des opérateurs utilisant de telles sources va être renforcée.
+Des dispositions particulières concernent les sources orphelines. Ces sources étant sans détenteur légal, puisqu’elles correspondent aux sources perdues ou volées étaient jusqu’à présent exclues de ce régime. En conséquence, une sous-section 8 spécifique, où est inséré l’article R. 231-116-2, a été créée.
+Le code du travail détermine, conformément aux dispositions de l’article 4 de la loi TSN, les décisions réglementaires à caractère technique de l’ASN. Ces décisions doivent être homologuées par les ministres chargés du travail et de l’agriculture dans l’ensemble du champ réglementaire visé par l’article L. 231-7 du code du travail.
+Les agréments des organismes assurant les mesures de l’exposition des travailleurs prévus à l’article R. 231-93 sont désormais confiés, selon le cas, à l’ASN ou au Délégué à la sûreté nucléaire et à la radioprotection pour les activités et installations intéressant la Défense (DSND) pour les activités relevant de la défense nationale.
+L’inspecteur de la radioprotection a désormais accès à l’ensemble des informations et documents nécessaires à l’exercice de ses missions au même titre que l’inspecteur du travail.
+R. 231-86-2, accès aux résultats des contrôles techniques de sources, d’appareils émetteurs de rayonnements ionisants, des dispositifs de protection et d’alarme, des instruments de mesures consignés dans le Document Unique.
+R. 231-93 III, accès aux résultats nominatifs des doses efficaces reçues à la demande de l’inspecteur.
+R. 231-94 II, accès aux résultats nominatifs de la dosimétrie opérationnelle à la demande de l’inspecteur.
+R. 231-111, accès à l’ensemble des documents auxquels a accès l’inspecteur du travail.
+R. 231-113, accès à l’ensemble des résultats des mesures individuelles de l’exposition des travailleurs tenus à la disposition de l’inspecteur par l’IRSN.
+De même, l’article R. 230-1 a été complété pour que l’inspecteur de la radioprotection ait accès aux résultats des évaluations relatives aux risques liés à l’exposition des travailleurs aux rayonnements ionisants.
+Il faut adresser à l’ASN un certain nombre d’informations en application des articles suivants :
+R. 231-86-1, constat de non-conformité susceptible d’entraîner une exposition des travailleurs au delà des limites de doses ;
+R. 231-86-2, liste des établissements relevant du régime d’autorisation ou de déclaration en application de l’article L. 1333-4 du code de la santé publique (hors défense nationale) ;
+R. 231-96, dépassement d’une limite de dose ;
+R. 231-103, décision de l’inspecteur du travail relative à une autorisation spéciale en application du R.231-79 ;
+R. 231-105-1, déclaration d’un événement significatif ;
+R. 231-114, résultats de l’évaluation des doses reçues par les travailleurs des établissements visés à l’article L. 231-1 où sont employées ou stockées des matières non utilisées en raison de leur propriétés radioactives mais contenant naturellement des radionucléides ;
+R. 231-115, résultats des mesures de l’activité du radon et de ses descendants.
+L’article R. 231-105-1 instaure un principe de déclaration à l’ASN des événements significatifs en matière de radioprotection. Une décision de l’ASN fixera les critères définissant l’événement significatif ainsi que les critères de déclaration et de gestion de ces événements par le chef d’établissement, compte tenu de la nature et de l’importance du risque. À noter qu’il existe déjà des guides relatifs aux déclarations INB et hors INB.
+Autres modifications réglementaires
+Elles concernent :
+la sous-section 2 relative aux règles techniques d’aménagement de locaux de travail en ce qui concerne les contrôles de radioprotection afin de renforcer l’effectivité des contrôles, clarifier les exigences réglementaires et enfin permettre de graduer les obligations réglementaires en fonction du risque ;
+la formation des travailleurs appelés à manipuler des appareils de radiologie industrielle ;
+l’organisation de la radioprotection dans les établissements et notamment au sein des entreprises extérieures;
+un renforcement des mesures de protection des travailleurs exposés aux rayonnements d’origine naturelle.
+Afin de renforcer les contrôles de radioprotection des sources et des ambiances de travail, deux nouvelles dispositions (R. 231-86-1 et 86-3) sont introduites :
+les organismes agréés pour les contrôles de radioprotection doivent désormais formaliser leurs interventions dans un rapport écrit et informer le chef d’établissement en cas de non-conformité susceptible d’entraîner un dépassement des limites de dose ;
+les agents de contrôle compétents, dont les inspecteurs de radioprotection, peuvent prescrire au chef d’établissement, à tout moment, de faire procéder, par un organisme agréé à un contrôle technique de source ou d’ambiance.
+Les articles R. 231-84 et R. 231-85 (anciennement article 86) relatifs respectivement aux contrôles de sources et aux contrôles d’ambiance ont été réécrits pour distinguer clairement les contrôles réalisés par la personne ou les services compétents en radioprotection de ceux obligatoirement réalisés par un organisme agréé ou l’IRSN. Si le chef d’établissement décide de ne pas faire réaliser les contrôles de radioprotection incombant à la personne ou au service compétent en radioprotection par ces derniers, il devra recourir obligatoirement à l’IRSN ou à un organisme agréé distinct de l’organisme agréé ayant réalisant les contrôles obligatoires de radioprotection.
+Les périodicités respectivement annuelle pour les contrôles de sources et a minima mensuelle pour les contrôles d’ambiance sont en attente d’être supprimées. Ces périodicités seront fixées par une décision réglementaire à caractère technique de l’ASN compte tenu de la nature de l’activité exercée et des caractéristiques des appareils et sources utilisés.
+La formation requise pour l’obtention du certificat d’aptitude à la manipulation d’appareils de radiologie industrielle (CAMARI) est renforcée (R. 231-91). La liste des appareils nécessitant pour leur manipulation un CAMARI de la part de l’utilisateur est fixée par une décision de l’ASN supprimant ainsi les mesures dérogatoires existantes. Cette décision a été homologuée par un arrêté (21 décembre 2007)
+L’arrêté du 21 décembre 2007 fixe les modalités de formation par des organismes des travailleurs concernés et de contrôle de connaissance des candidats. Le contrôle des connaissances est assuré par l’IRSN.
+Des dispositions transitoires sont prévues pour la mise en place de ce nouveau dispositif, la validité des certificats et des dérogations qui ont été et seront délivrés avant l’entrée en vigueur de ce nouveau dispositif.
+L’article R. 231-93 a été amendé pour tenir compte, notamment, du retour d’expérience et intégrer les particularités de la surveillance d’expositions professionnelles liées à la radioactivité naturelle. Sa nouvelle rédaction pose le principe d’un suivi dosimétrique adapté au mode d’exposition pour chaque travailleur appelé à intervenir en zone surveillée ou contrôlée ou dans certains lieux de travail des établissements où il existe des expositions professionnelles liées à la radioactivité naturelle.
+L’article R. 231-106 qui concerne l’organisation de la radioprotection au sein des établissements est réorganisé, d’une part, pour prendre en compte les dispositions du décret no 2006-1454 du 24 novembre 2006 modifiant la nomenclature des installations classées et, d’autre part, pour encadrer les conditions dans lesquelles une personne compétente en radioprotection externe à l’établissement peut exercer ses missions. Ces conditions seront précisées par une décision de l’ASN.
+Les personnes compétentes en radioprotection doivent être obligatoirement choisies parmi les salariés de l’établissement dans les cas suivants :
+les établissements comprenant au moins une installation nucléaire de base ;
+les établissements comprenant une installation ou une activité soumise à autorisation (Installation classée pour la protection de l’environnement) ;
+les établissements comprenant une installation ou une activité soumise à une autorisation ASN.
+De plus, la modification de l’article R. 231-74 rend désormais obligatoire la désignation d’une personne compétente en radioprotection pour les entreprises extérieures qui font intervenir leur salariés en tant que travailleurs exposés à des rayonnements ionisants dans une entreprise utilisatrice.
+Les dispositions applicables aux expositions professionnelles liées à la radioactivité naturelle en matière de radioprotection étaient jusqu’alors exclusivement définies dans la sous-section 7 (articles R. 231-114 à 116).
+Désormais, l’article R. 231-73 du code du travail prévoit que lorsque les mesures de prévention prévues à cette sous-section ne permettent pas de réduire l’exposition des travailleurs en dessous des niveaux définis (par exemple exposition en dose efficace < 1 mSv), l’activité professionnelle peut être maintenue sous réserve de la mise en œuvre par le chef d’établissement de l’ensemble des règles générales de protection applicables aux travailleurs exposés. Certains articles ont été modifiés pour tenir compte de cette nouvelle obligation.
+Plan de surveillance de l'alimentation[modifier | modifier le code]
+Ce plan (imposé par l’Europe pour quelques contaminants dont plomb, mercure, cadmium) est reconduit chaque année (mis en œuvre avec l'IRSN pour la partie concernant la recherche et le dosage de radionucléides). Le ministère de l’agriculture rappelle que « les résultats obtenus sont autant de données indispensables à l'évaluation de l'exposition du consommateur, qui doit se faire dans le cadre de l'analyse de risque menée dans une optique de révision des teneurs retenues dans le règlement européen post-accidentel (règlement (Euratom) n°3954/87) »[16].
+À titre d'exemple, en 2010, le plan de surveillance annuel n'a pas inclus d'analyses à grande échelle ni d’analyses d’échantillons en nombre statistiquement significatif[16]. Seuls 683 échantillons ont été étudiés pour toute la France, dont une grande partie par des moyens dont les limites de quantification n’ont pas permis de mesure[16]. Ces mesures ont toutefois confirmé que pour les échantillons alimentaires dont la radioactivité dépassait la limite de quantification, la bioaccumulation et teneur en radionucléides semble être la plus élevée dans le gibier (forestier probablement)[16]. La radioactivité a en 2010 été mesurée dans quelques échantillons de viande d'animaux chassés (le ministère de l'Agriculture ne précise pas chez quelles espèces ni dans quels organes) ; Elle était en 2010 en moyenne de 12,43 Bq/kg pour le gibier, soit 113 fois plus que la moyenne pour la viande bovine cette même année (établie à 0,114 Bq/kg, radioactivité équivalente à celle trouvés dans le groupe crustacés/mollusques qui était de 0,133 Bq/kg).
+Concernant les maxima : cette même année 2010, l’échantillon de gibier le plus contaminé (parmi ces mêmes quelques prélèvements aléatoires) présentait une radioactivité de 50 Bq/kg, soit 335 fois plus que les 0,149 Bq/kg mesurés pour l’échantillon bovin le plus contaminé)[16].
+Améliorer la qualité du travail analytique passe à la fois par l'amélioration du seuil de quantification et par celle du seuil de détection (d'autres critères sont la spécificité, la fidélité, l'exactitude, la linéarité et la stabilité du processus analytique).
+Médicaments[modifier | modifier le code]
+Comprimés d'iodure
+Radiogardase

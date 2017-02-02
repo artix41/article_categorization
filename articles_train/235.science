@@ -1,0 +1,161 @@
+Téléportation quantique — Wikipédia
+Téléportation quantique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La téléportation quantique est un protocole de communications quantiques consistant à transférer l’état quantique d’un système vers un autre système similaire et séparé spatialement du premier en mettant à profit l’intrication quantique. Contrairement à ce que le nom laisse entendre, il ne s'agit donc pas de transfert de matière. Le terme de téléportation quantique est utilisé pour souligner le fait que le processus est destructif : à l'issue de la téléportation, le premier système ne sera plus dans le même état qu'initialement.
+Sommaire
+1 Définitions préliminaires
+1.1 Notion de qubit
+1.2 Théorème de non clonage quantique
+1.3 Quelques portes de logiques quantiques
+2 Protocole de téléportation quantique
+3 Premières réalisations expérimentales
+4 Téléportation quantique en variables continues
+4.1 Expression d’un champ électrique monomode
+4.2 Opérateurs de quadrature
+4.3 Limite quantique standard et états cohérents du champ
+5 Compression et intrication de faisceaux
+6 Réalisation expérimentale d'une téléportation quantique bipartie
+7 Critère de téléportation quantique
+8 Vers les réseaux de communications quantiques : Téléportation quantique tripartie
+9 Conclusions et perspectives
+10 Notes et références
+10.1 Sources
+11 Voir aussi
+11.1 Articles connexes
+11.2 Liens externes
+Définitions préliminaires[modifier | modifier le code]
+Notion de qubit[modifier | modifier le code]
+Article détaillé : Qubit.
+Système à deux niveaux non dégénérés.
+Toute information numérique est encodée sous forme de mots binaires dont l’entité unique et indivisible est le bit (de l’anglais binary digit). Cette variable binaire ne peut prendre que deux états distincts « 0 » et « 1 » correspondant par exemple à la présence ou à l'absence d’un signal électrique, lumineux ou autre. En physique quantique, cette situation se généralise sans difficulté à l’aide d’un système à deux niveaux : un niveau fondamental
+et un niveau excité
+séparé du premier d’une énergie non nulle , où
+est par exemple la fréquence de Bohr d’une certaine transition atomique que l’on sélectionne à l’aide d’un laser asservi sur cette fréquence. Naturellement, on identifiera l’état binaire « 0 » à l’état fondamental du système à 2 niveaux et l’état binaire « 1 » à l’état excité du système que l’on notera désormais par les kets
+et . Ces deux états constituent alors la base de l’espace de Hilbert du système, et l’état de ce dernier s’écrira de manière générale comme
+où les paramètres complexes
+vérifient la condition de normalisation . On appelle alors qubit (pour quantum binary digit) un tel système à deux niveaux utilisé comme brique élémentaire de la logique quantique. Étant donné l'arbitraire de phase d'un état quantique , on peut représenter l'état d'un qubit par un vecteur parcourant la sphère de Bloch avec :
+Sphère de Bloch d'un qubit : les états binaires classiques sont aux pôles de la sphère.
+À la différence du bit classique, il est impossible de déterminer (de lire) l’état d’un qubit sans projeter ce dernier sur l’un des états binaires classiques. Alors on peut penser qu’il suffit de multiplier un qubit afin d’en déterminer l’état par mesures répétées sur les copies du qubit initial. Cependant, la possibilité d’une telle multiplication des copies du qubit est interdite par la physique quantique, elle fait même l’objet d’un théorème.
+Théorème de non clonage quantique[modifier | modifier le code]
+Article détaillé : Impossibilité du clonage quantique.
+Afin de conserver les probabilités, les opérations d’évolution en mécanique quantique sont généralement unitaires, et on peut exiger d’une opération de clonage
+d’un qubit
+sur un autre qubit
+jouant le rôle de support vierge d’être unitaire. Ainsi, cette opération vérifiera pour un certain qubit  :
+.
+Or, cette opération ne doit pas dépendre de l’état à cloner et est valable pour un autre état a priori différent du premier :
+.
+Le calcul du recouvrement entre ces deux opérations conduit à avoir soit deux états identiques (trivial)
+soit des états orthogonaux . Finalement, on vérifie que l’on ne peut pas cloner une superposition linéaire de deux états incompatibles, ce qui est précisément le cas d’un qubit. On obtiendrait alors un état intriqué de la forme suivante :
+L'hypothèse d'unitarité n'est en fait pas essentielle puisqu'une opération non unitaire impliquerait le même résultat.
+Quelques portes de logiques quantiques[modifier | modifier le code]
+Une dernière étape est nécessaire avant d’aborder le protocole de téléportation quantique. Il s’agit d’introduire les portes de logiques quantiques qui vont nous permettre de réaliser cette téléportation. En effet, la manipulation d’un qubit doit se faire par des opérations unitaires pour les raisons évoquées précédemment. Ainsi, l’opération logique associée à l’application d’une fonction
+de la variable binaire
+notée
+est définie par :
+où x et y désignent respectivement les registres d’entrée et de sortie qui permettent effectivement d’avoir une opération unitaire puisque l’on vérifie facilement que , sachant que
+désigne ici l’addition modulo 2 ("OU exclusif").
+Citons enfin quelques exemples de portes. La porte cNOT (pour Control NOT) définie par
+,
+et la porte d’Hadamard
+dont l’action est la suivante
+.
+Protocole de téléportation quantique[modifier | modifier le code]
+Nous arrivons enfin au vif du sujet à savoir le principe de la téléportation quantique. Il est de tradition d’appeler les protagonistes d’un scénario de communication Alice et Bob. Alice dispose d’un qubit
+qu’elle souhaite transmettre à Bob. Elle dispose pour cela de deux canaux. Un canal classique et un canal quantique dit EPR, en référence au paradoxe Einstein-Podolsky–Rosen [1]. On précisera ultérieurement le sens d’une telle dénomination lorsque l’on présentera la téléportation quantique dans le régime des variables continues. À ce stade, il suffit amplement de dire qu’il s’agit d’un canal composé de deux qubits maximalement intriqués, et dont l’état s’écrit :
+.
+En effet, pour un tel état, il est impossible de factoriser l’état de la paire de qubits sous la forme d’un produit tensoriel. Cette inséparabilité se traduit par de très fortes corrélations sur les résultats de mesure qu’il est impossible d’expliquer par des modèles classiques. On peut regarder à ce propos l’article sur l'expérience d'Aspect.
+Alice qui souhaite communiquer à Bob l’état de son qubit sans être importunée par les indiscrétions d’Eve, applique à son qubit
+et au qubit de la part intriquée l’algorithme quantique suivant :
+A) L’état initial du qubit d’Alice et de la paire intriquée s’écrit
+.
+B) On fait interagir le qubit d’Alice avec le qubit EPR qu’elle détient via une porte cNOT dont le qubit de contrôle est le qubit d’Alice . L’état intermédiaire se met alors sous la forme suivante :
+C) Ensuite, Alice fait subir à son qubit une opération d'Hadamard
+qui donne le résultat final :
+On constate alors que l’état du qubit d’Alice est téléporté sur le qubit de Bob dans 25 % des cas lorsque Alice mesure pour ces deux qubits les états binaires 0. Dans les autres cas, Alice doit transmettre à Bob le résultat de ces mesures, appelées mesures de Bell, afin que ce dernier puisse finaliser la téléportation. La théorie de la relativité restreinte d’Einstein n’est donc pas violée puisque la communication des résultats des mesures de Bell se fait par un canal classique. En effet, on montre sans difficulté que les états de Bob correspondant à chaque possibilité sont identiques à l’état du qubit d’Alice à une opération unitaire près. Par exemple, lorsque Alice projette ces deux qubits sur l’état
+l’état de Bob se retrouve alors dans l’état , où
+désigne une des matrices de Pauli sur laquelle il est possible de décomposer tout opérateur hermitien (c'est-à-dire qu'une observable physique est représentée en physique quantique par un opérateur hermitien garantissant ainsi des valeurs propres réelles qui sont les grandeurs mesurables). Enfin, il faut souligner que le théorème de non-clonage quantique est respecté puisque le qubit d’Alice est complètement réduit lors des opérations et des mesures d’Alice. Ce schéma a été proposé en 1993 par Charles Bennett[2] (alors chez IBM) sous une autre forme plus générale consistant à projeter les EPR et qubits à téléporter sur des états intriqués appelés états de Bell.
+Premières réalisations expérimentales[modifier | modifier le code]
+L’une des premières réalisations expérimentales de la téléportation quantique en variables discrètes a été réalisée par l'équipe de Anton Zeilinger en 1997[3]. Une paire de photons intriqués est créée par conversion paramétrique spontanée et dégénérée en fréquence dans un cristal non linéaire . Il s'agit d'une conversion de type II puisque l’accord de phase est assuré par biréfringence. L’impulsion de pompage est polarisée parallèlement à l’axe extraordinaire. Les photons signal et complémentaire sont alors émis suivant des polarisations orthogonales suivant deux cônes de fluorescence paramétrique. L’intersection de ces deux cônes conduit à des photons intriqués en polarisation qui sont en fait dans un état antisymétrique de Bell :
+,
+où h et v désignent respectivement les états de polarisation horizontale et verticale. Le but de l’expérience est alors de projeter le photon à téléporter et le photon intriqué sur ce même état de Bell antisymétrique par des mesures de coïncidence à l’issue d’une lame séparatrice 50/50. En effet, les deux détecteurs de part et d’autre de la lame cliquent en même temps lorsque les deux photons sont soit simultanément transmis, soit simultanément réfléchis. On montre alors que les photons peuvent être dans un état intriqué de la forme , ce qui suffit à assurer la téléportation puisque :
+.
+Le qubit de Bob se retrouve bien dans l’état du qubit d’Alice
+dans 25 % des cas. On doit le vérifier en plaçant un cube séparateur de polarisation orienté à +/- 45 ° par rapport aux états de polarisations verticales et horizontales. Il y a téléportation pour la triple coïncidence à l’issue de la lame séparatrice d’Alice et sur la voie adéquate du cube de Bob[4].
+Téléportation quantique en variables continues[modifier | modifier le code]
+Aujourd’hui, ce protocole est implémenté en optique quantique dans le régime des variables dites continues par opposition au régime des variables discrètes abordé précédemment qui se caractérise entre autres par le comptage des photons. En effet, dans le régime des variables continues, on ne peut plus distinguer les photons individuellement : ils arrivent par « bouffées » contenant un très grand nombre de photons
+rendant l’approche par comptage complètement inimaginable !
+La première réalisation expérimentale d’une telle téléportation a été réalisée par l’équipe de H. J. Kimble au Caltech aux États-Unis par Akira Furusawa en 1998[5].
+Avant d’aborder le principe de cette expérience qui, aujourd’hui est devenue routinière en optique quantique, il est utile de préciser quelques notions liées aux variables continues.
+Expression d’un champ électrique monomode[modifier | modifier le code]
+Un champ électrique monomode s’écrit de manière classique comme :
+qui est la décomposition usuelle du champ électrique dans le plan de Fresnel.
+La procédure de quantification canonique conduit à associer au champ électrique l’opérateur suivant :
+où les opérateurs
+et
+désignent respectivement les opérateurs d'annihilation et de créations d'une excitation élémentaire d'énergie  : le photon. Ils obéissent à la règle de commutation d’un oscillateur harmonique .
+La constante
+correspond au champ électrique associé à un seul photon dans une cavité cubique dont le volume de quantification est .
+Opérateurs de quadrature[modifier | modifier le code]
+Ces opérateurs sont définis par analogie aux opérateurs de position et d’impulsion d’un oscillateur harmonique régi par les opérateurs de création et d’annihilation introduits précédemment. Ils seront définis de manière générale, en tenant compte d’une éventuelle rotation d’angle
+dans le plan de Fresnel, comme :
+Pour le cas particuliers , ces opérateurs correspondent respectivement aux quadratures d’amplitude et de phase du champ. Ainsi, leurs variances caractérisent respectivement les fluctuations d’amplitude et de phase. De plus, il est facile de vérifier que ces opérateurs ne commutent pas puisque
+.
+On en déduit alors l'inégalité d’Heisenberg suivante :
+,
+qui est très souvent employée sous la forme :
+.
+Autrement dit, lorsque l’on mesure avec précision le nombre de photons d’un faisceau, on brouille complètement la phase de ce dernier, et réciproquement.
+Limite quantique standard et états cohérents du champ[modifier | modifier le code]
+L’opérateur d’annihilation
+a pour vecteur propre :
+où
+désigne un nombre complexe lié à l’amplitude
+et à la phase
+du champ par .
+Or, l’action des opérateurs de création et d’annihilation sur les états de Fock (i.e. état nombre de photons où il y a exactement n photons dans le mode considéré)
+donne :
+.
+On vérifie alors facilement que :
+Il est également utile de remarquer qu’un tel état cohérent du champ peut s’exprimer à partir de l’état vide de photons
+à l’aide d’un opérateur déplacement
+.
+L’état cohérent, ou état quasi-classique de Glauber, s’écrira comme :
+.
+Ainsi, l’état vide de photon est un état cohérent dont la valeur moyenne de photons est nulle. Les fluctuations de cet état en amplitude et en phase définissent la limite quantique standard par rapport à laquelle on repère toute variance de bruit,
+On voit bien qu’un état cohérent est affecté par des fluctuations qui sont identiques à celle du vide, puisqu’un état cohérent brillant n’est rien d’autres que l’état du vide déplacé dans le plan de Fresnel que l’on appelle aussi espace des phases.
+Enfin, si l’on se rappelle l’inégalité d’Heisenberg qui contraint la mesure des quadratures d’amplitude et de phase, on constate qu’elle n’impose rien sur les variances individuelles. Il devient donc possible d’imaginer des faisceaux dont les fluctuations peuvent être « comprimées » selon l’une ou l’autre des quadratures. Il s’agit des états comprimés du rayonnement qui prennent une place importante dans les expériences d’optique quantique.
+Compression et intrication de faisceaux[modifier | modifier le code]
+Dans cette section, nous allons établir le lien très simple existant entre la compression de deux faisceaux et l’intrication de ces derniers. Pour cela, on considère deux faisceaux comprimés en amplitude selon des quadratures orthogonales en incidence sur une lame séparatrice 50/50 (SP). On notera
+et
+ces faisceaux incidents, et
+et
+les faisceaux émergents. La relation d'entrée sortie de la lame séparatrice donne :
+Si les faisceaux incidents sont comprimés de manière adéquate, on trouve en termes des variances :
+Dans le cas d'une compression en amplitude maximale (), on obtient deux faisceaux parfaitement corrélés en amplitude et anti-corrélés en phase. Il s’agit en fait de faisceaux EPR puisqu’une mesure sur l’un des faisceaux permet de déterminer l’état de l’autre même s'il est séparé spatialement du premier.
+Enfin, il existe deux méthodes remarquables pour produire des états comprimés. Il s'agit de l'effet Kerr et de l'amplification paramétrique. Dans le premier cas, l'effet Kerr modifie la forme du disque des fluctuations du vide en une ellipse oblique globalement comprimée en amplitude. Pour l'amplification paramétrique, la configuration la plus efficace est de se placer sous le seuil d'oscillation (i.e. les pertes de la cavité ne sont plus compensées par la pompe) et en dégénerescence de fréquence. On obtient alors du vide comprimé en sortie.
+Réalisation expérimentale d'une téléportation quantique bipartie[modifier | modifier le code]
+Nous allons maintenant aborder le principe de la téléportation quantique en variables continues comme l'illustre la figure.
+Alice reçoit un faisceau d'amplitude complexe
+dont elle souhaite transférer à Bob l'état des quadratures x et p sans ajout de bruit. Pour cela, elle combine le faisceau à téléporter sur une lame séparatrice 50/50 (SP) avec un des faisceaux intriqués (1). Alice mesure les quadratures de phase x et d'amplitude p (à l'aide de détection homodyne) à la sortie de la séparatrice (SP) :
+Ces résultats sont ensuite transmis à Bob par l'intermédiaire de canaux classiques, ici des courants électriques directement proportionnels aux résultats des mesures. Bob effectue alors des modulations de phase (MP) et d'amplitude (MA), à l'aide de modulateurs électro-optiques notamment, sur un faisceau annexe qu'il a en sa disposition au préalable. Il combine ce faisceau modulé à l'autre faisceau intriqué (2) à l'aide d'un miroir de très forte reflectivité (99 %). Bob dispose donc d'un faisceau de sortie dont l'amplitude complexe s'écrira :
+Enfin, si les faisceaux (1) et (2) sont parfaitement intriqués :
+,
+le faisceau de sortie se retrouve exactement dans l'état du faisceau d'entrée :
+On parle alors de téléportation quantique des quadratures du champ.
+Critère de téléportation quantique[modifier | modifier le code]
+Il est nécessaire d'introduire un critère pour juger de la qualité d'une téléportation. Il s'agit de la fidélité
+définie par :
+où
+désigne la matrice densité caractérisant l'état téléporté. On montre[6] que la fidélité de la téléportation est donnée par :
+On constate que si l'on remplace les faisceaux EPR par des états cohérents, la fidélité atteint à peine 1/2 qui fixe la limite entre la téléportation classique utilisant des corrélations classiques et la téléportation quantique où le recours à l'intrication quantique est indispensable. D'autre part, une fidélité supérieure à 2/3 garantit l'unicité de la copie de Bob : aucune autre meilleure copie ne peut exister ! Il s'agit en fait d'une conséquence du théorème de non clonage quantique[7] qui est à la base de la sécurité de ce genre de protocole de communication quantique.
+Enfin, la première tentative de A. Zeilinger ne constitue pas vraiment une téléportation quantique comme l'ont remarqué H. J. Kimble et al dans un commentaire[8] de l'article initial. En effet, le calcul de la fidélité de cette téléportation conduit à une valeur de 1/2, ce qui ne correspond pas à une téléportation quantique. Il existe également une réponse des autrichiens à ce commentaire.
+Vers les réseaux de communications quantiques : Téléportation quantique tripartie[modifier | modifier le code]
+Dans cette configuration, trois protagonistes interviennent : Alice, Bob et Claire. Ils partagent trois faisceaux intriqués 1, 2 et 3 dans un état dit de Greenberger - Horne - Zeilinger (GHZ). Ce canal se caractérise par les valeurs propres suivantes :
+pour les mêmes combinaisons des opérateurs de quadratures.
+On montre de la même manière que précédemment que cet état intriqué permet d'avoir une téléportation quantique entre Alice et Bob sous le contrôle de Claire[9]. Ainsi, lorsque le gain de la transmission entre Bob et Claire est nul, la téléportation est strictement classique et se retrouve même dégradée par rapport à la fidélité limite de 1/2 caractérisant la frontière entre la limite classique et quantique où l'intrication devient indispensable.
+Ce type de téléportation quantique peut être très intéressant en cryptologie quantique puisque Claire contrôle le transfert de l'information quantique entre Alice et Bob.
+Conclusions et perspectives[modifier | modifier le code]
+Actuellement, on s'attache à produire et à téléporter le plus fidèlement possible des états fortement non classiques comme des superpositions d'états cohérents incompatibles : chats de Schrödinger
+ou des états intriqués. Dans ce dernier cas, on parle de entanglement swapping pouvant atteindre des fidélités de l'ordre de 0.75 [10] surpassant ainsi la valeur seuil de 2/3 liée au théorème de non clonage quantique. Enfin, le protocole de téléportation quantique s'inscrit dans une perspective plus ambitieuse consistant à la mise en œuvre de réseaux de communication quantique dans lesquelles on transfere l'état d'un système quantique fragile sur une mémoire quantique plus robuste vis-à-vis de la décohérence[11]. D'intenses recherches se concentrent donc sur la réalisation de ces relais quantiques mais également sur les possibilités d'augmenter ou de distiller l'intrication de canaux EPR qui sont inévitablement soumis à des pertes en lignes. À partir de plusieurs canaux EPR affaiblis que l'on distille, on obtient un plus petit nombre de canaux plus fortement intriqués, rendant la téléportation quantique plus efficace et plus sûre[12],[réf. souhaitée].

@@ -1,0 +1,170 @@
+Théorie des catégories — Wikipédia
+Théorie des catégories
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Catégorie.
+La théorie des catégories étudie les structures mathématiques et les relations qu'elles entretiennent.
+Les catégories sont utilisées dans la plupart des branches mathématiques et dans certains secteurs de l'informatique théorique et en mathématiques de la physique. Elles forment une notion unificatrice. Cette théorie a été mise en place par Samuel Eilenberg et Saunders Mac Lane en 1942-1945, en lien avec la topologie algébrique, et propagée dans les années 1960-1970 en France par Alexandre Grothendieck, qui en fit une étude systématique. À la suite des travaux de William Lawvere, la théorie des catégories est utilisée depuis 1969 pour définir la logique et la théorie des ensembles ; elle peut donc, comme cette dernière, être considérée comme fondement des mathématiques.
+Sommaire
+1 Éléments de base
+1.1 Morphismes
+1.2 Foncteurs
+1.3 Transformations naturelles
+2 Définition
+3 Exemples
+4 Catégorie duale
+5 Monomorphismes, épimorphismes et isomorphismes
+5.1 Définitions
+5.2 Exemples et contre-exemples
+6 Somme et produit d'une famille d'objets en théorie des catégories
+7 Remarques
+8 Notes et références
+9 Voir aussi
+10 Bibliographie
+11 Liens externes
+Éléments de base[modifier | modifier le code]
+Morphismes[modifier | modifier le code]
+L'étude des catégories, très abstraite, fut motivée par l'abondance de caractéristiques communes à diverses classes liées à des structures mathématiques.
+Voici un exemple. La classe Grp des groupes comprend tous les objets ayant une « structure de groupe ». Plus précisément, Grp comprend tous les ensembles G munis d'une opération qui satisfait un certain ensemble d'axiomes (associativité, inversibilité, élément neutre). Des théorèmes peuvent ainsi être prouvés en effectuant des déductions logiques à partir de cet ensemble d'axiomes. Par exemple, ils apportent la preuve directe que l'élément identité d'un groupe est unique.
+Au lieu d'étudier simplement l'objet seul (les groupes) qui possède une structure donnée, comme les théories mathématiques l'ont toujours fait, la théorie des catégories met l'accent sur les morphismes et les processus qui préservent la structure entre deux objets. Il apparaît qu'en étudiant ces morphismes l'on est capable d'en apprendre plus sur la structure des objets.
+Dans notre exemple, les morphismes étudiés sont les homomorphismes de groupes. Un homomorphisme de groupe entre deux groupes préserve la structure de groupe d'une manière très précise ; c'est un processus qui à un groupe en associe un autre, tout en préservant toutes les informations sur la structure du premier groupe au sein du second groupe. Ainsi :
+à chaque élément
+du groupe de départ est associé un élément
+du groupe d'arrivée ;
+à chaque opération
+du groupe de départ est associée une opération
+du groupe d'arrivée.
+Une manière équivalente de décrire cette préservation de structure est de dire que toutes les manières d'aller du couple d'éléments quelconques
+à
+mènent au même résultat :
+on peut d'abord aller de
+à
+par la loi de composition , puis de
+à
+par le morphisme  ;
+ou bien l'on peut aller d'abord de
+à
+par le morphisme , puis de
+à
+par la loi de composition .
+Pour dire que tous ces chemins mènent au même résultat, on peut énoncer que le diagramme qui les représente est commutatif, ou que .
+L'étude des homomorphismes de groupe fournit un outil pour étudier les propriétés générales des groupes et les conséquences des axiomes relatifs aux groupes.
+Il en est de même dans de nombreuses théories mathématiques. Une catégorie est une formulation axiomatique qui relie des structures mathématiques aux fonctions qui les préservent. Une étude systématique des catégories permet de prouver des résultats généraux à partir des axiomes d'une catégorie.
+Foncteurs[modifier | modifier le code]
+Article détaillé : Foncteur.
+Une catégorie est elle-même un type de structure mathématique, pour laquelle il existe des processus préservant sa structure. De tels processus sont appelés foncteurs. Un foncteur associe à chaque objet d'une catégorie un objet d'une autre catégorie, et à chaque morphisme d'une catégorie un morphisme dans l'autre catégorie.
+On définit ainsi une catégorie des catégories et foncteurs : les objets sont des catégories, et les morphismes sont des foncteurs.
+L'étude des catégories et des foncteurs n'est pas seulement celle d'une classe de structures mathématiques et des morphismes qui les relient : elle porte également sur les relations entre diverses classes de structures mathématiques. Cette idée fondamentale apparut d'abord en topologie algébrique : certains problèmes topologiques complexes peuvent être traduits en questions algébriques, qui sont souvent plus faciles à résoudre. Certaines constructions basiques, telles que le groupe fondamental ou le groupoïde fondamental d'un espace topologique, peuvent ainsi être exprimées comme des foncteurs fondamentaux vers la catégorie des groupoïdes, ce qui permet de généraliser le concept dans l'algèbre et dans ses applications.
+Transformations naturelles[modifier | modifier le code]
+Par un nouvel effort d'abstraction, les foncteurs sont souvent « reliés naturellement ». C'est pourquoi l'on définit le concept de transformation naturelle, qui est une manière d'envoyer un foncteur sur un foncteur. Si le foncteur est un morphisme de morphismes, la transformation naturelle est un morphisme de morphismes de morphismes. On peut ainsi étudier de nombreuses constructions mathématiques. La « naturalité » est un principe plus profond qu'il n'en a l'air au premier regard. Saunders MacLane, coinventeur de la théorie des catégories, a ainsi déclaré : « je n'ai pas inventé les catégories pour étudier les foncteurs ; je les ai inventées pour étudier les transformations naturelles ».
+Par exemple, il existe un isomorphisme entre un espace vectoriel de dimension finie et son espace dual, mais cet isomorphisme n'est pas « naturel », dans le sens où sa définition requiert d'avoir choisi une base, dont elle dépend étroitement. En revanche, il existe un isomorphisme naturel entre un espace vectoriel de dimension finie et son espace bidual (le dual de son dual), c'est-à-dire en l'occurrence indépendant de la base choisie. Cet exemple est, historiquement, le premier formulé dans l'article fondateur de Samuel Eilenberg et Saunders MacLane en 1945.
+Autre exemple : il existe plusieurs manières de relier les espaces topologiques à la théorie des groupes : homologie, cohomologie, homotopie... L'étude des transformations naturelles permet d'examiner comment ces connexions sont elles-mêmes reliées l'une à l'autre.
+Définition[modifier | modifier le code]
+Composition des morphismes.
+Associativité de la composition.
+Une catégorie , dans le langage de la théorie des classes, est la donnée de quatre éléments :
+une classe dont les éléments sont appelés objets ;
+une classe dont les éléments sont appelés morphismes et deux « fonctions » (au sens : classes fonctionnelles) appelées source et but, de la classe des morphismes dans celle des objets ; f : A → B signifie que f est un morphisme « de A dans B » (c'est-à-dire de source A et de but B) et la classe de tous ces morphismes f est notée  ;
+un morphisme , pour chaque objet , appelé identité sur  ;
+un morphisme
+pour tout couple de morphismes
+et , appelé composée de
+et , tel que :
+la composition est associative : pour tous morphismes ,
+et ,
+;
+les identités sont des éléments neutres de la composition : pour tout morphisme ,
+.
+Lorsqu'une catégorie est courante, certains lui donnent comme nom l'abréviation du nom de ses objets ; nous suivrons ici cette convention.
+Une catégorie est dite localement petite si les
+sont des ensembles, et petite si de plus la classe de ses objets est un ensemble[1]. La plupart des catégories usuelles — cf. exemples ci-dessous — sont localement petites mais ne sont pas petites.
+Une sous-catégorie de
+est une catégorie dont les objets sont des objets
+et dont les flèches sont des flèches (mais pas nécessairement toutes les flèches) de
+entre deux objets de la sous-catégorie. Lorsqu'une sous-catégorie
+de
+est telle que toutes les flèches de
+entre deux objets de
+sont des flèches de , cette sous-catégorie est dite pleine.
+Exemples[modifier | modifier le code]
+La catégorie Ens ou Set, dont les objets sont les ensembles, et les flèches les applications, avec la composition usuelle des applications.
+La catégorie Top, dont les objets sont les espaces topologiques, et les flèches les applications continues, avec la composition usuelle.
+La catégorie Met, dont les objets sont les espaces métriques, et les flèches les applications uniformément continues, avec la composition usuelle.
+La catégorie Mon, dont les objets sont les monoïdes et les flèches les morphismes, avec la composition usuelle.
+La catégorie Grp, dont les objets sont les groupes et les flèches les morphismes, avec la composition usuelle.
+La catégorie Ab, dont les objets sont les groupes abéliens et les flèches les morphismes, avec la composition usuelle.
+La catégorie ACU, dont les objets sont les anneaux commutatifs unitaires et les flèches les morphismes, avec la composition usuelle.
+La catégorie Ord, dont les objets sont les ensembles ordonnés et les flèches les applications croissantes.
+Les exemples précédents ont une propriété en commun : les objets sont des ensembles munis d'une structure supplémentaire, et les flèches sont toujours des applications entre les ensembles sous-jacents. Ce sont des catégories concrètes (en), c'est-à-dire des catégories munies d'un foncteur fidèle vers la catégorie des ensembles (dans les cas présents, il s'agit du foncteur d'oubli, qui fait abstraction des structures considérées pour ne retenir que leur ensemble de base ; par exemple, appliquer le foncteur d'oubli au groupe (ℤ, +) donne l'ensemble ℤ). Toute petite catégorie est concrète, comme les deux suivantes :
+On se donne un monoïde M, et on définit la catégorie associée ainsi :
+objets : un seul
+flèches : les éléments du monoïde, elles partent toute de l'unique objet pour y revenir ;
+composition : donnée par la loi du monoïde (l'identité est donc la flèche associée au neutre de M).
+On se donne un ensemble E muni d'une relation réflexive et transitive R (autrement dit, R est une relation de préordre) et on définit la catégorie associée ainsi :
+objets : les éléments de l'ensemble ;
+flèches : pour tous objets e et f, il existe une flèche de e vers f si et seulement si eRf (et pas de flèche sinon) ;
+composition : la composée de deux flèches est la seule flèche qui réunit les deux extrémités (la relation est transitive) ; l'identité est la seule flèche qui relie un objet à lui-même (la relation est réflexive).
+Cet exemple est particulièrement intéressant dans le cas suivant : l'ensemble est l'ensemble des ouverts d'un espace topologique, et la relation est l'inclusion ; cela permet de définir les notions de préfaisceau et de faisceau, via les foncteurs.
+Il permet aussi de considérer tout ensemble ordonné comme une catégorie, et tout système inductif (resp. projectif) comme un foncteur covariant (resp. contravariant) sur cette catégorie.
+Un exemple de catégorie non concrète : la catégorie homotopique (en) hTop, dont les objets sont les espaces topologiques et dont les morphismes sont les classes d'homotopie d'applications continues.
+Catégorie duale[modifier | modifier le code]
+Article détaillé : Catégorie opposée (en).
+À partir d'une catégorie C, on peut définir une autre catégorie Cop (ou Co), dite opposée ou duale, en prenant les mêmes objets, mais en inversant le sens des flèches.
+Plus précisément : HomCop(A, B) = HomC(B, A),et la composition de deux flèches opposées est l'opposée de leur composition : fop∘gop = (g∘f)op.
+Il est clair que la catégorie duale de la catégorie duale est la catégorie de départ : (Cop)op = C.
+Cette dualisation permet de symétriser la plupart des énoncés.
+Monomorphismes, épimorphismes et isomorphismes[modifier | modifier le code]
+Définitions[modifier | modifier le code]
+Isomorphisme
+Une flèche
+est dite un monomorphisme lorsqu'elle vérifie la propriété suivante : pour tout couple
+de flèches
+(et donc aussi pour tout ), si , alors .
+Une flèche
+est dite un épimorphisme lorsqu'elle vérifie la propriété suivante : pour tout couple
+de flèches
+(et donc aussi pour tout ), si , alors .
+Les notions de monomorphisme et d'épimorphisme sont duales l'une de l'autre : une flèche est un monomorphisme si et seulement si elle est un épimorphisme dans la catégorie duale.
+Une flèche
+est dite un isomorphisme s'il existe une flèche
+telle que
+et . Cette notion est autoduale.
+Exemples et contre-exemples[modifier | modifier le code]
+Dans la catégorie des ensembles, les monomorphismes sont les injections, les épimorphismes sont les surjections et les isomorphismes sont les bijections.
+Un contre-exemple important en théorie des catégories : un morphisme peut à la fois être un monomorphisme et un épimorphisme, sans être pour autant un isomorphisme ; pour voir ce contre-exemple, il faut se placer dans la catégorie des anneaux commutatifs unitaires, et considérer la flèche (unique)  : elle est un monomorphisme car provient d'une application injective, un épimorphisme par localisation, mais n'est clairement pas un isomorphisme.
+On trouve aussi de tels épimorphisme-monomorphisme non isomorphiques dans la catégorie des espaces topologiques : toute injection y est un monomorphisme, toute surjection est un épimorphisme, les isomorphismes sont les homéomorphismes, mais il y a des fonctions continues à la fois injectives et surjectives qui ne sont pas des homéomorphismes : par exemple l'identité sur un ensemble muni de deux topologies différentes, l'une plus grossière que l'autre.
+Les isomorphismes dans la catégorie des ensembles ordonnés sont les bijections croissantes dont la bijection réciproque est croissante (cette condition sur la bijection réciproque est automatiquement vérifiée dans le cas des ensembles totalement ordonnés, mais pas dans le cas général).
+Somme et produit d'une famille d'objets en théorie des catégories[modifier | modifier le code]
+La somme d'une famille
+est la donnée d'un objet
+de
+et pour tout
+d'une flèche
+vérifiant la propriété universelle :
+quels que soient l'objet
+et les flèches
+de
+il existe une unique flèche
+telle que pour tout
+le diagramme :
+soit commutatif, c'est-à-dire que .
+Le produit d'une famille
+est la donnée d'un objet
+de
+et pour tout
+d'une flèche
+vérifiant la propriété universelle :
+quels que soient l'objet
+et les flèches
+de
+il existe une unique flèche
+telle que pour tout
+le diagramme :
+soit commutatif, c'est-à-dire que .
+S'ils existent, les sommes et les produits sont uniques aux isomorphismes près[2].
+On permute ces définitions en inversant les flèches des diagrammes : une somme (respectivement un produit) dans
+est un produit (respectivement une somme) dans sa duale.
+Remarques[modifier | modifier le code]
+Il arrive parfois que l'on oublie les objets d'une catégorie et que l'on ne s'intéresse plus qu'aux flèches, en substituant la flèche identité à l'objet.
+Il existe la catégorie des petites catégories ainsi que la catégorie des foncteurs d'une petite catégorie à une autre : les morphismes sont les transformations naturelles. On voit ici le rôle joué par la théorie des classes NBG.
+Une catégorie cartésienne est une catégorie munie d'un objet final et du produit binaire. Une catégorie cartésienne fermée est une catégorie cartésienne munie de l'exponentiation.

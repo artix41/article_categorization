@@ -1,0 +1,63 @@
+Radioactivité β — Wikipédia
+Radioactivité β
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La radioactivité bêta ou émission bêta (symbole β) est, à l'origine, un type de désintégration radioactive dans laquelle une particule bêta (un électron ou un positron) est émise. On parle de désintégration bêta moins (β-) ou bêta plus (β+) selon que ce soit un électron (particule chargée négativement) ou un positron (particule chargée positivement) qui est émis. Par exemple, on observe une émission β- pour le tritium (3H+) qui se transforme en hélium 3 (3He2+) :
+Aujourd'hui, la désintégration β se généralise à toutes les réactions nucléaires impliquant les neutrinos ou anti-neutrinos se résumant par la relation suivante :
+Dans cette dernière relation un électron ou un neutrino se transforme en son antiparticule par le passage de part et d'autre de la double flèche. Toutes ces réactions sont régies par la force nucléaire faible et sont possibles si le bilan énergétique le permet.
+Sommaire
+1 Principe
+2 Existence du neutrino
+3 Désintégration β-
+4 Désintégration β+
+5 La capture électronique
+6 Désintégration β liée
+7 Utilisations
+8 Notes et références
+9 Voir aussi
+9.1 Articles connexes
+9.2 Lien externe
+9.3 Bibliographie
+Principe[modifier | modifier le code]
+Diagramme de Feynman de la décroissance β⁻.
+La radioactivité bêta découle de l'échange d'un boson W entre un proton, un neutron (ou plus exactement un de leurs quarks de valence), un électron et un neutrino. Toutes les variations autour de cet échange sont possibles (sous réserves de conditions énergétiques satisfaisantes) à condition que la conservation des nombres quantiques soit satisfaite (en particulier la conservation de la charge électrique et du nombre leptonique).
+Existence du neutrino[modifier | modifier le code]
+Spectre en énergie de la particule bêta.
+La distribution de l'énergie des particules bêta, pour un type de désintégration donné, suit une loi de probabilité (contrairement au rayonnement alpha). L'énergie indiquée dans les tables pour les désintégration bêta est l'énergie maximale (sauf indication contraire). L'énergie moyenne de la particule bêta est à peu près 40 % de cette énergie maximale.
+C'est l'étude de la désintégration bêta qui amena à postuler l'existence du neutrino. En 1931, Wolfgang Pauli proposa que l'énergie « manquante » était emportée par une autre particule, non encore découverte : le neutrino.
+Voici ce que permet d'expliquer la présence du neutrino :
+Le spectre d'énergie d'émission des particules bêta est continu. Ceci s'explique facilement si l'énergie se partage entre trois corps.
+La quantité de mouvement doit être conservée, or du fait d'un système à trois corps, la particule bêta ne part pas de façon opposée au noyau.
+Le neutrino permet de conserver le nombre leptonique : la création d'un lepton s'accompagne de celle d'un anti-lepton (paires électron/anti-neutrino électronique ; positron/neutrino électronique).
+Le problème fut analysé de façon plus détaillée par Enrico Fermi, mais il fallut attendre 1956 pour les premières observations expérimentales de neutrinos.
+Désintégration β-[modifier | modifier le code]
+Un neutron est converti en proton par l'intermédiaire de la force nucléaire faible et une particule β- (un électron) et un anti-neutrino sont émis :
+En fait, le neutron n'est pas une particule élémentaire mais est composé d'un quark up et de deux quarks down (udd). C'est un de ses quarks down qui interagit dans la radioactivité β, en se transformant en quark up, formant alors un proton (uud). Au niveau le plus fondamental, l'interaction faible change la saveur d'un simple quark :
+qui est suivi immédiatement par la désintégration du  :
+Le spectre d’énergie (nombre de particules émises en fonction de leur énergie cinétique) des β- (électrons) est continu en raison du partage de l'énergie entre les trois corps. Il n'y a pas d'énergie minimale.
+La réaction est énergétiquement possible à la seule condition que le noyau atomique fils soit moins lourd que le noyau père.
+Exemple d’une réaction β- pour l’isotope radioactif cobalt 60 (60Co) qui se transforme en nickel 60 (60Ni+) stable :
+On note dans cet exemple que l'ion nickel produit, échappe aux orbitales cristallines habituelles, surtout si le cobalt était sous forme cristalline, où l'atome de nickel va devoir se réarranger en captant des électrons voisins. Comme l'électron bêta émis se déplace dans le cristal en provoquant des ionisations sur son parcours, les orbitales des autres atomes du cristal sont réarrangées le long de son parcours. L'électron bêta peut être finalement capté par le cristal lui-même sans pouvoir s'en échapper, cédant alors toute son énergie cinétique au cristal, sous forme de chaleur.
+Comme le spectre d'énergie d'émission est continu, nombre de désintégrations bêta se produisant au cœur d'un cristal métallique de cobalt 60 ne s’en échappent pas, et on ne détecte éventuellement à l'extérieur du cristal que les neutrinos émis (qui sont très difficiles à capter et à détecter) ou des électrons très ralentis le long de leur parcours. Mais l'ion nickel produit par la désintégration va aussi entrer en collision avec les atomes voisins du cristal et provoquer une onde de choc se propageant dans tout le cristal (le cobalt à la surface du cristal peut se sublimer). Par contre, près de la surface du cristal, on détectera la moitié des émissions d'électrons bêta.
+Par contre, si le neutrino est émis avec une énergie faible, l'électron bêta et l'ion nickel vont être propulsés à haute vitesse dans des directions quasi-opposées, le premier traversant facilement tout le cristal, et l'ion frappant fortement les atomes cristallins voisins : l'électron est émis alors d'un côté du cristal, et on observe une sublimation de cobalt gazeux de l'autre côté du cristal, sublimation amplifiée par la température. Sur une source très enrichie et jeune de cobalt 60, de nombreuses désintégrations ont lieu, et le cristal émet en continu un mélange de cobalt 60 gazeux (encore radioactif), de neutrinos et d'électrons bêta dont certains possèdent des énergies très importantes.
+Désintégration β+[modifier | modifier le code]
+Article détaillé : Émission de positron.
+Un proton est converti en neutron par l'intermédiaire de la force nucléaire faible et une particule β+ (un positron) et un neutrino sont émis :
+En fait le proton (comme le neutron) n'est pas une particule élémentaire mais une particule composite, composé de deux quarks up et d'un quark down (uud). C'est un de ces quarks up qui interagit dans la radioactivité β, en se transformant en un quark down, formant un neutron (udd).
+qui est suivi immédiatement par la désintégration du  :
+Le spectre d'énergie (nombre de particules émises en fonction de leur énergie cinétique) des β+ (positrons) est continu, ce qui est dû au partage de l'énergie entre les trois corps. Nous remarquons cependant une vitesse minimale des positrons. Celle-ci est due à la répulsion coulombienne de ce dernier avec le noyau.
+Cette réaction ne peut avoir lieu que si la masse du noyau fils additionnée de deux fois la masse de l'électron est inférieure à celle du noyau père.
+Exemple d'une réaction β+ pour le fluor qui se transforme en oxygène :
+La capture électronique[modifier | modifier le code]
+Un proton est converti en neutron par la capture d'un électron par le noyau. L'électron peut être lié, il appartient alors aux couches K,L,M... du cortège électronique de l'atome et l'on parle de capture électronique orbitale :
+où
+dénote un électron lié. Cette réaction est une réaction à deux corps avec émission d'un neutrino mono-énergétique. Dans des conditions extrêmes, e.g. lors de la formation d'étoiles à neutrons, des électrons libres peuvent être également capturés par le noyau.
+Désintégration β liée[modifier | modifier le code]
+Pour des questions énergétiques, le nombre d'électrons a une influence sur le taux des désintégrations β. Par exemple des atomes stables peuvent devenir instables lorsqu'ils sont dépouillés de leurs électrons. Certains canaux de désintégrations peuvent s'ouvrir et d'autres se fermer.
+La désintégration β liée, qui est formellement le processus inverse de la capture électronique orbitale, illustre ce phénomène dans lequel un atome hautement ionisé subit une désintégration β-. L'électron issu de la désintégration, au lieu d'être libre, se place directement dans une couche K, L ou M :
+où
+dénote un électron lié.
+Il s'agit là aussi d'une réaction à deux corps, dans lequel l'état final est constitué de l'ion (noyau et électrons liés) et de l'émission d'un antineutrino mono-énergétique. Ce phénomène n'apparaît pas dans les atomes neutres, car le principe d'exclusion de Pauli interdit cette réaction ; les premières couches électroniques étant déjà remplies.
+Utilisations[modifier | modifier le code]
+La Radioactivité β induite par ces particules présente des caractéristique faisant qu'on l'utilise depuis plusieurs décennies en autoradiographie, en expérimentation animale[1] ou chez l'Homme pour le marquage radioactif et traçage radioactif de molécules dans des organismes ou mécanismes biologiques (biologie moléculaire, génie génétique et physiopathologie pour ce qui concerne par exemple les liaison, l'hybridation in situ ou encore l'immunohistochimie)[2].
+L' imagerie β utilise de moins en moins de film ou d'émulsions photographiques au profit de radio-imageurs performants et plus pratiques (ex : phophor-imageur, le β-imageur et le μ-imageur)[2]. Tous les émetteurs (β-,β--γ et β+) sont détectables ainsi que les traceurs γ de médecine nucléaire « grâce aux électrons de faible énergie libérés au cours de l'émission γ. Le phosphor-imageur est bien adapté aux traceurs de forte énergie et aux grandes séries de mesures. Les radio-imageurs temps réels (β-imageur et μ-imageur) sont préférés pour la vérification des conditions d'expérience. Le β-imageur et le μ-imageur sont souvent complémentaires, l'un offrant un grand champ d'analyse avec une résolution moyenne et l'autre une excellente résolution, mais avec une surface d'analyse faible. »[2]

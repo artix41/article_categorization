@@ -1,0 +1,317 @@
+Configuration électronique — Wikipédia
+Configuration électronique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Configuration électronique
+En physique des particules comme en chimie quantique, la configuration électronique est la répartition des électrons (d'un atome, d'une molécule ou de tout autre corps) suivant leur énergie et leur spin.
+Comme les autres particules élémentaires, l'électron est soumis aux lois de la mécanique quantique et peut avoir un comportement décrit suivant les situations comme corpusculaire ou comme ondulatoire. En pratique, l'état quantique d'un électron particulier est décrit par une fonction d'onde traduisant la probabilité pour l'électron en question de se trouver dans un espace donné. On appelle cette fonction d'onde une orbitale.
+La configuration électronique est totalement déterminée par la connaissance des spinorbitales de chaque électron, c'est-à-dire la répartition des électrons dans les différentes orbitales et la connaissance de leurs spins.
+La connaissance de la configuration électronique donne accès à des énergies associées, et permet par exemple une interprétation de l'évolution des propriétés des atomes dans la classification périodique des éléments. À l'échelle moléculaire, le concept est également important pour la description de la liaison chimique, ou pour expliquer les propriétés des lasers et des semi-conducteurs.
+Sommaire
+1 Le modèle quantique de l'atome et de la molécule
+2 Configuration d'un état - fondamental ou excité
+2.1 Fonction d'onde poly-électronique
+2.2 Électron célibataire ou électrons appariés
+2.3 Énergie d'une configuration
+2.4 Multiplicité de spin d'une configuration
+2.5 Symétrie d'espace d'une configuration
+3 Atome : approche par les nombres quantiques
+3.1 Les nombres quantiques
+3.2 Orbitale atomique et case quantique
+3.3 Dénombrement des électrons par couche électronique
+3.4 Répartition électronique dans l'état fondamental
+3.5 Exemple
+3.6 Correspondance avec la structure de la table périodique
+3.7 Notation abrégée pour les atomes
+3.8 Exceptions
+4 Molécules
+5 Cas des solides
+6 Notes et références
+7 Voir aussi
+7.1 Articles connexes
+7.2 Liens externes
+Le modèle quantique de l'atome et de la molécule[modifier | modifier le code]
+Dans le modèle quantique de l'atome (respectivement de la molécule), les électrons ne gravitent pas de façon circulaire (ou elliptique) autour du noyau atomique comme dans le modèle planétaire d'Ernest Rutherford, mais occupent de manière probabiliste des zones de l'espace. Une fonction mathématique appelée orbitale atomique (et par extension du concept aux molécules, orbitale moléculaire) permet de décrire cette probabilité. La configuration électronique d'un atome ou d'une molécule est la répartition des électrons de cet atome ou de cette molécule dans ses différents orbitales, ainsi que son spin (spinorbitales).
+Configuration d'un état - fondamental ou excité[modifier | modifier le code]
+Il y a plusieurs configurations électroniques pour un même atome ou une même molécule. Si l'état correspondant à la configuration électronique est celui de la plus basse énergie, on qualifiera l'état de fondamental. Dans le cas contraire il sera qualifié d'état excité.
+En première approximation l'énergie électronique du système est la somme des énergies associées à chaque électron qui le compose. Ainsi, pour l'état fondamental d'un système la répartition se fait:
+par ordre croissant de l'énergie associée à la spinorbitale considérée.
+en cas d'égalité d'énergie entre spinorbitales, on place les électrons dans les spinorbitales de spin +1/2 avant de peupler les spins -1/2 (Règle de Hund)
+Fonction d'onde poly-électronique[modifier | modifier le code]
+Article détaillé : Spinorbitale.
+Chaque électron d'une configuration est décrit par une unique spinorbitale, produit d'une fonction d'espace (orbitale) par une fonction de spin.
+La fonction d'onde d'un état poly-électronique (à n électrons) peut être considérée comme un produit de spinorbitales (produit de Hartree):
+pour un électron k particulier
+est la fonction de spin (sa valeur propre pour Sz peut valoir ms = +1/2 ou -1/2) ;
+est la partie d'espace, que l'on appelle orbitale.
+À cause du principe d'exclusion de Pauli, une orbitale peut contenir au plus deux électrons, un par valeur possible de ms.
+La façon la plus compacte d'écrire la configuration électronique d'un système est celle où les électrons sont notés en exposant de l'orbitale :
+orbitale vide :  ;
+orbitale monooccupée:  ;
+orbitale bioccupée: .
+Électron célibataire ou électrons appariés[modifier | modifier le code]
+On dit qu'un électron est célibataire s'il est seul dans son orbitale.
+On dit que deux électrons sont appariés s'ils partagent la même orbitale.
+Énergie d'une configuration[modifier | modifier le code]
+L'énergie totale d'un système poly-électronique est la somme des énergies de ses composants et de celle des interactions entre ses composants (répulsion entre électrons par exemple, ou interaction d'échange).
+L'énergie associée à un électron correspond à celle de l'orbitale qui le contient. Cette énergie est calculable par des méthodes approchées qui relèvent de la mécanique quantique.
+L'importance de la configuration électronique pour les propriétés et les difficultés d'obtention des énergies ont conduit à établir des modèles d'évaluation de l'ordre ou de l'énergie des orbitales ainsi que de l'interaction entre électron (par écrantage par exemple).
+Multiplicité de spin d'une configuration[modifier | modifier le code]
+La somme des spins des électrons donne le spin total de la configuration :
+Ce nombre conduit à la multiplicité de spin de la configuration, qui vaut , et représente le nombre de "micro-états" de la configuration électronique. Ces micro-états ont la même énergie mais sont différentiables par certaines spectroscopies.
+Une configuration avec deux électrons appariés conduit à un seul micro-état : un état singulet car il n'y a qu'une façon de mettre deux électrons dans la même orbitale.
+Une configuration avec un électron célibataire conduit à un état doublet car il existe deux micro-états : celui où le spin est vers le haut (ms(i)=+1/2), et celui où le spin est vers le bas (ms(i)=-1/2).
+Une configuration avec deux électrons célibataires correspond à un état singulet si leurs spins sont opposés, et à un état triplet si leurs spins sont parallèles
+Symétrie d'espace d'une configuration[modifier | modifier le code]
+Les termes spectroscopiques rendent compte de la symétrie d'espace d'une configuration électronique. Ces symétries sont particulièrement riches pour les atomes, mais se rencontrent également dans les molécules, en particulier les diatomiques.
+Atome : approche par les nombres quantiques[modifier | modifier le code]
+Les nombres quantiques[modifier | modifier le code]
+Article détaillé : orbitale atomique.
+L'état d'un électron dans un atome peut être déterminé, en première approche, par la donnée de quatre nombres quantiques : n, l, ml et ms. Les trois premiers fournissent les propriétés de l'orbitale atomique dans laquelle se trouve l'électron en question
+Le nombre quantique principal, noté n, est un entier naturel non nul.
+Le nombre quantique secondaire (ou azimutal), noté l, peut prendre n'importe quelle valeur entière dans l'intervalle [0 ; n-1] ; il est lié à la quantification du moment angulaire de l'orbitale.
+Le nombre quantique magnétique, noté ml, ou plus simplement m, peut prendre n'importe quelle valeur entière comprise dans l'intervalle [ – l ; l ] ; il est lié à la quantification de la projection du moment angulaire sur un axe particulier.
+Le nombre quantique de spin, noté ms, ou plus simplement s, ne peut prendre que les valeurs – 1/2 ou 1/2 (états parfois appelés up et down) ; le spin est une propriété intrinsèque de l'électron et est indépendant des autres nombres quantiques.
+Orbitale atomique et case quantique[modifier | modifier le code]
+Une orbitale atomique correspond à un triplet (n, l, m) donné, ce triplet définissant la nature géométrique de l'orbitale. Du point de vue quantique, ce triplet correspond également à une case quantique. L'état d'un électron dans une orbitale est alors défini par son nombre quantique de spin s. En vertu du principe d'exclusion de Pauli, il ne peut y avoir deux électrons dans le même état quantique, ce qui signifie qu'au plus deux électrons de spin opposé peuvent occuper une même case quantique.
+Les valeurs des quatre nombres quantiques définissent complètement l'orbitale et le spin de l'électron, de sorte qu'on parle de spinorbitale associée à ce quadruplet.
+À chaque doublet (n, l) est associée une notation permettant de décrire le type d'orbitale associée :
+l = 0 : l'orbitale est de type s (pour sharp). Elle est notée ns. Elle contient au maximum 2 électrons.
+l = 1 : l'orbitale est de type p (pour principal). Elle est notée np. Elle contient au maximum 6 électrons.
+l = 2 : l'orbitale est de type d (pour diffuse). Elle est notée nd. Elle contient au maximum 10 électrons.
+l = 3 : l'orbitale est de type f (pour fundamental). Elle est notée nf. Elle contient au maximum 14 électrons.
+l = 4 : l'orbitale est de type g. Elle est notée ng. Nous supposons qu'elle pourrait contenir un maximum de 18 électrons.
+Les noms s, p, d et f de ces orbitales proviennent d'un système de catégorisation à partir des raies spectrales fondées sur l'observation de leur structure fine, d'où les qualificatifs sharp, principal, diffuse et fundamental. Quand les quatre premiers types d'orbitales ont été décrits, ils furent associés à ces quatre types de raies spectrales ; la désignation g est simplement la suite de f selon l'ordre alphabétique : les couches avec plus de 4 sous-couches sont théoriquement possibles, mais aucun élément chimique actuellement connu n'a d'électron dans une sous-couche g à l'état fondamental.
+Dénombrement des électrons par couche électronique[modifier | modifier le code]
+Compte tenu de la définition des quatre nombres quantiques n, l, m et s, le nombre d'électrons déduit du nombre de cases quantiques (valeurs de m) par sous-couches (valeurs de l) des cinq premières couches électroniques (valeurs de n) s'élève à :
+n
+l
+Sous-couche électronique
+m
+Électrons
+n = 1
+l = 0
+1s
+m = 0
+2 électrons
+n = 2
+l = 0
+2s
+m = 0
+2 électrons
+l = 1
+2p
+m = – 1
+6 électrons
+m = 0
+m = 1
+n = 3
+l = 0
+3s
+m = 0
+2 électrons
+l = 1
+3p
+m = – 1
+6 électrons
+m = 0
+m = 1
+l = 2
+3d
+m = – 2
+10 électrons
+m = – 1
+m = 0
+m = 1
+m = 2
+n = 4
+l = 0
+4s
+m = 0
+2 électrons
+l = 1
+4p
+m = – 1
+6 électrons
+m = 0
+m = 1
+l = 2
+4d
+m = – 2
+10 électrons
+m = – 1
+m = 0
+m = 1
+m = 2
+l = 3
+4f
+m = – 3
+14 électrons
+m = – 2
+m = – 1
+m = 0
+m = 1
+m = 2
+m = 3
+n = 5
+l = 0
+5s
+m = 0
+2 électrons
+l = 1
+5p
+m = – 1
+6 électrons
+m = 0
+m = 1
+l = 2
+5d
+m = – 2
+10 électrons
+m = – 1
+m = 0
+m = 1
+m = 2
+l = 3
+5f
+m = – 3
+14 électrons
+m = – 2
+m = – 1
+m = 0
+m = 1
+m = 2
+m = 3
+l = 4
+5g
+m = – 4
+18 électrons
+m = – 3
+m = – 2
+m = – 1
+m = 0
+m = 1
+m = 2
+m = 3
+m = 4
+Répartition électronique dans l'état fondamental[modifier | modifier le code]
+Orbitales atomiques (atome hydrogénoïde) et moléculaires (molécules diatomiques)
+Afin de répartir tous les électrons d'un atome dans les différentes orbitales atomiques, celles-ci sont classées par énergie croissante et les électrons sont répartis prioritairement dans les orbitales d'énergie les plus faibles. On obtient alors la répartition électronique pour l'atome dans son état fondamental.
+Si le calcul rigoureux des énergies des différentes orbitales atomiques doit être effectué dans le cadre de la mécanique quantique grâce à la méthode des déterminants de Slater, une approche simple par les nombres quantiques permet de retrouver l'essentiel des résultats dans le cas de l'atome.
+En première approche l'énergie d'une orbitale est déterminée par le doublet (n, l) et est croissante avec la somme (n+l). En cas d'égalité de cette somme pour deux orbitales différentes, l'orbitale de plus faible énergie est celle de n le plus petit.
+Le remplissage des orbitales par énergie croissante est souvent appelé « principe d'Aufbau » (allemand : construction) et la règle de classement des orbitales « règle de Klechkowski ».
+Compte tenu de ces différentes règles, les électrons se répartissent dans les orbitales dans l'ordre suivant :
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+1s
+2s
+2p
+3s
+3p
+4s
+3d
+4p
+5s
+4d
+5p
+6s
+4f
+5d
+6p
+7s
+5f
+6d
+7p
+Exemple[modifier | modifier le code]
+Voici la configuration électronique d'une couche n=5 remplie :
+Couche
+Sous-couches
+Orbitales
+Type d'orbitale
+Nombre maximum d'électrons
+n = 5
+l = 0
+m = 0
+s
+2
+l = 1
+m = -1, 0, +1
+p
+6
+l = 2
+m = -2, -1, 0, +1, +2
+d
+10
+l = 3
+m = -3, -2, -1, 0, +1, +2, +3
+f
+14
+l = 4
+m = -4, -3 -2, -1, 0, +1, +2, +3, +4
+g
+18
+Total : 50 électrons maximum
+Cette information peut être notée ainsi : 5s2 5p6 5d10 5f14 5g18 (voir ci-dessous pour plus de détails sur la notation).
+Correspondance avec la structure de la table périodique[modifier | modifier le code]
+La configuration électronique est intimement liée à la structure de la table périodique. Les propriétés chimiques d'un atome sont largement déterminées par l'arrangement des électrons dans la couche externe (ou couche de valence).
+Notation abrégée pour les atomes[modifier | modifier le code]
+Pour les atomes ayant plusieurs couches électroniques totalement remplies, la notation peut devenir très longue. On peut alors abréger la notation en indiquant que la configuration des électrons de cœur (électrons d'une couche électronique totalement remplie, à l'exception des couches d ou f) ont une configuration identique à celle du gaz rare qui précède l'élément. Le phosphore, par exemple, ne diffère du néon (1s2 2s2 2p6) que par la présence d'une troisième couche. Donc la configuration électronique du néon est retirée, et le phosphore est noté ainsi : [Ne]3s2 3p3.
+Exceptions[modifier | modifier le code]
+Cette approche simple par les nombres quantiques souffre néanmoins d'un certain nombre d'exceptions, en particulier parmi les métaux de transition et les lanthanides ; les règles de remplissage ne sont qu'une approximation de la mécanique quantique qui décrit les atomes.
+Une sous-couche à moitié remplie conduit à une configuration de spin maximal, ce qui lui confère une certaine stabilité en vertu de la règle de Hund. Par exemple, le chrome (numéro atomique 24) a une configuration électronique [Ar] 3d5 4s1, et non [Ar] 3d4 4s2. De la même façon, le cuivre (numéro atomique 29) a une configuration électronique [Ar] 3d10 4s1, et non [Ar] 3d9 4s2, ce qui permet d'avoir la couche 3d pleine et la couche 4s à demi-pleine.
+Ces exceptions sont notées en rose dans le tableau suivant, présentant une partie des éléments de la 4e période :
+Élément
+Z
+Configuration électronique
+Titane
+22
+1s2 2s2 2p6 3s2 3p6 3d2 4s2
+Vanadium
+23
+1s2 2s2 2p6 3s2 3p6 3d3 4s2
+Chrome
+24
+1s2 2s2 2p6 3s2 3p6 3d5 4s1
+Manganèse
+25
+1s2 2s2 2p6 3s2 3p6 3d5 4s2
+Fer
+26
+1s2 2s2 2p6 3s2 3p6 3d6 4s2
+Cobalt
+27
+1s2 2s2 2p6 3s2 3p6 3d7 4s2
+Nickel
+28
+1s2 2s2 2p6 3s2 3p6 3d8 4s2
+Cuivre
+29
+1s2 2s2 2p6 3s2 3p6 3d10 4s1
+Zinc
+30
+1s2 2s2 2p6 3s2 3p6 3d10 4s2
+Gallium
+31
+1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p1
+Molécules[modifier | modifier le code]
+Articles détaillés : orbitale moléculaire et chimie numérique.
+Les molécules sont aussi régies par les lois de la mécanique quantique. Toutefois, l'obtention des énergies des orbitales moléculaires ne répond pas à une règle aussi simple que celle de Madelung (Klechkowski). Chaque molécule a une structure orbitalaire différente. Diverses méthodes existent pour la construction d'orbitales moléculaires (par exemple la combinaison linéaire d'orbitales atomiques). La chimie numérique est une branche de la chimie qui utilise les lois de la chimie théorique exploitées dans des codes informatiques spécifiques afin de calculer structures et propriétés des molécules et d'autres espèces chimiques.
+Cas des solides[modifier | modifier le code]
+Dans un solide, les états électroniques deviennent très nombreux. Ils cessent d'être discrets, et se mélangent ensemble en une étendue continue d'états possibles, comme la bande de valence ou la bande de conduction. La notion de configuration électronique cesse d'être pertinente, et laisse la place à la théorie des bandes.

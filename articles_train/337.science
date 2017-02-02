@@ -1,0 +1,196 @@
+Pression — Wikipédia
+Pression
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Pression (homonymie).
+Pression
+Représentation de la pression en tant que résultat des collisions entre les particules d'un fluide contenu dans un récipient et les parois de celui-ci.
+Données clés
+Unités SI
+Pascal (Pa)
+Dimension
+M.L -1.T -2
+Autres unités
+bar, atmosphère (atm), livre par pouce carré (psi), torr
+Grandeur intensive
+Oui
+Grandeur conservative
+Non
+Nature
+scalaire
+La pression est une notion physique fondamentale. On peut la voir comme une force rapportée à la surface sur laquelle elle s'applique. Son unité dans le SI est le pascal (Pa).
+En tant que paramètre physique, la pression, tout comme la température, joue un rôle extrêmement important dans la plupart des domaines. Du point de vue de la thermodynamique, il s'agit d'une grandeur intensive.
+Sommaire
+1 Histoire de la notion de pression
+2 Mise en évidence
+3 Définitions
+4 Unités et mesures de pression
+4.1 Unités
+4.2 Ordres de grandeurs
+4.3 Mesures de pression
+5 La pression dans différents domaines
+5.1 En plongée sous-marine
+5.2 En hydrostatique
+5.3 Poussée d'Archimède
+5.4 En météorologie
+5.5 En résistance des matériaux et mécanique
+6 Notes et références
+7 Voir aussi
+7.1 Articles connexes
+7.1.1 Vers les basses pressions
+7.1.2 Vers les hautes pressions
+7.1.3 Autres
+7.2 Bibliographie
+7.3 Liens externes
+Histoire de la notion de pression[modifier | modifier le code]
+Les philosophes et mathématiciens de la Grèce antique se posaient des questions sur les états de la matière, et notamment l'air qu'ils respiraient, le vent, etc. Ils sont à l'origine de la notion de particules élémentaires qui serait à l'origine de « tout », les atomes (átomos, « indivisible »), prérequis à la notion de pression.
+Les gaz commencent à être étudiés de manière systématique au xviie siècle. En particulier, Evangelista Torricelli invente en 1643 le baromètre et le vide pompé, Gilles Personne de Roberval étudié en 1647 l'expansion des gaz, Blaise Pascal et Florin Périer travaillent sur la pression atmosphérique en 1648, et l'on établit les relations entre pression et volume — Robert Boyle en 1660, Edmé Mariotte en 1685. On a à cette époque une description empirique de la pression des gaz, et surtout une remise en question, fondamentale, de l'« horreur du vide ».
+René Descartes émet en 1644 une hypothèse élémentaire : les gaz seraient composés de particules. Au xviiie siècle, Jakob Hermann (1716), Leonhard Euler (1729) et Daniel Bernoulli (1733) effectuent des calculs et montrent la relation entre vitesse des particules et pression. Ils établissent ainsi la théorie cinétique des gaz.
+L'étude de la pression devient capitale au xixe siècle avec la Révolution industrielle : l'utilisation de la machine à vapeur impose de maîtriser cette notion.
+Mise en évidence[modifier | modifier le code]
+La notion de pression n'est pas intuitive. En particulier, nous n'avons pas conscience de la pression atmosphérique alors que celle-ci est énorme (équivalent d'un poids de 10 tonnes par mètre carré). La mise en évidence de la pression est donc un élément fondamental de la pédagogie scientifique.
+La mise en évidence de la pression atmosphérique fait en général intervenir des questionnements et expériences simples :
+comment une ventouse peut-elle coller, qu'est-ce qui lui permet de vaincre le poids ?
+notion de vent ;
+écrasement d'un bidon métallique (par exemple une bouteille de sirop ou un bidon d'huile) : on met un fond d'eau dans le bidon (vide), on le fait chauffer pour évaporer l'eau, puis on bouche le bidon et on le passe sous l'eau froide (en faisant attention à ne pas se brûler) ; on constate que le bidon s'écrase « tout seul ».
+On peut aussi mettre en évidence la notion de rapport force sur aire, en abordant la pression de contact entre deux solides :
+pourquoi un clou, une punaise, sont-ils pointus ?
+pourquoi conseille-t-on de mettre une planchette de bois sous le cric lorsque l'on change une roue de voiture sur de l'herbe ?
+pourquoi le terrassier marche-t-il sur une planche lorsqu'il intervient sur une chape de ciment encore fraîche ?
+…
+La poussée d'Archimède est également un moyen d'aborder la pression, mais la relation est indirecte et donc peu intuitive  : la poussée d'Archimède ne provient pas de la pression mais du gradient de pression. On peut toutefois expliquer que c'est la pression de l'eau qui permet à un navire de flotter, et montrer un ludion (physique).
+On peut enfin approcher la quantification de la pression avec le manomètre en U.
+Définitions[modifier | modifier le code]
+La pression, notée p admet, selon les branches de la physique que l'on considère, plusieurs définitions qui coïncident toutes :
+Dans tous les cas, la pression est définie comme une grandeur scalaire (non vectorielle).
+En mécanique, la pression est définie localement à partir de la composante de la force normale à la surface sur laquelle elle s'exerce. Si on considère une surface élémentaire dS de normale , subissant une force , alors la pression p est définie par :
+Dans le cas d'une force perpendiculaire à une surface plane d'aire S, on obtient la définition suivante :
+Par construction, la pression est perpendiculaire à la surface sur laquelle elle s'exerce.
+Le terme obtenu en construisant le rapport de la composante de la force tangentielle à la surface d'exercice s'appelle la contrainte tangentielle. Elle est homogène à une pression et est mise en jeu dans les phénomènes de viscosité notamment.
+En mécanique des milieux continus, la pression est définie comme le tiers de la trace du tenseur des contraintes c'est-à-dire la moyenne des termes diagonaux de ce tenseur. En mécanique des fluides incompressibles, la pression est le multiplicateur de Lagrange permettant de vérifier l'incompressibilité du matériau. On a alors à faire à une définition implicite de la pression.
+En thermodynamique, la pression est définie à partir de l'énergie interne
+par :
+Pour un fluide newtonien, la pression est strictement positive car il faut fournir de l'énergie (ΔU>0) pour diminuer le volume (ΔV<0). Pour les fluides non newtoniens, il est possible d'avoir des pressions négatives. Ces pressions négatives sont dues à des effets de surface et sont reliées à la tension superficielle.
+Unités et mesures de pression[modifier | modifier le code]
+Unités de pression
+pascal
+bar
+atmosphère technique
+atmosphère normale
+torr
+livre par pouce carré
+Pa
+bar
+at
+atm
+Torr
+psi
+1 Pa
+≡ 1 N/m2
+10−5
+1,0197×10−5
+9,8692×10−6
+7,5006×10−3
+1,450377×10−4
+1 bar
+105
+≡ 106 dyn/cm2
+1,0197
+0,98692
+750,06
+14,50377
+1 at
+0.980665 ×105
+0.980665
+≡ 1 kp/cm2
+0,9678411
+735,5592
+14,22334
+1 atm
+1,01325 ×105
+1,01325
+1,0332
+≡ p0
+≡ 760
+14,69595
+1 Torr
+133,3224
+1,333224×10−3
+1,359551×10−3
+1,315789×10−3
+≈ 1 mmHg
+1,933678×10−2
+1 psi
+6,8948×103
+6,8948×10−2
+7,03069×10−2
+6,8046×10−2
+51,71493
+≡ 1 lb/po2
+Unités[modifier | modifier le code]
+Il existe plusieurs unités de pression, dont l'utilisation dépend généralement de la discipline. De par la définition même de la pression, elles sont souvent définies comme le rapport d'une unité de force sur une unité de surface.
+Unité du système international
+Le pascal (symbole Pa) est l'unité du système international. Une pression de 1 pascal correspond à une force de 1 newton exercée sur une surface de 1 m2 : 1 Pa=1 N/m².
+Autres unités
+Le bar :
+1 bar=100 000 Pa.
+L'atmosphère normale (symbole atm) :
+1 atm=101 325 Pa.
+Le pièze est une unité dérivée du système mètre-tonne-seconde (système mts) utilisé dans l'ancienne Union Soviétique entre 1933 et 1955 :
+1 pz=1 000 Pa.
+Le millimètre de mercure (symbole mmHg), encore appelé torr en hommage au physicien italien Evangelista Torricelli :
+1 mmHg=1 torr=133,3 Pa.
+Le pouce (ou inch) de mercure (symbole inHg):
+1 inHg≈33,86 hPa.
+Le millimètre d'eau (mmH2O), ou le centimètre d'eau (cmH2O) :
+1 cmH2O=98,0638 Pa.
+Le barye (symbole ba) est une unité du système CGS. Il est défini comme une dyne par centimètre carré :
+1 ba=1 dyn/cm⁻²=0,1 Pa.
+L'atmosphère technique (symbole at), ou ATA :
+1 at=98 066,5 Pa.
+Le psi, de l'anglais pound per square inch (livre par pouce carré) est une unité anglo-saxonne très utilisée notamment en hydraulique, en oléohydraulique et en hydrostatique :
+1 psi=6 894 Pa.
+Le gramme ou kilogramme par centimètre carré (g/cm², kg/cm² ou encore kgf/cm²), souvent utilisé en physique des particules, par extension, pour désigner une distance parcourue indépendamment du matériau considéré[réf. souhaitée], voire une altitude (le « gramme » ou « kilogramme » auquel il est fait allusion n'est pas l'unité de poids standard, mais le kilogramme-force) :
+1 g/cm²=98,0665 Pa (≅8,33 m d'air≅10 mm d'eau≅0,88 mm de plomb≅0,74 mm de mercure).
+ou aussi :
+1 kg/cm²=0,980665 bar.
+Ordres de grandeurs[modifier | modifier le code]
+Article détaillé : Ordre de grandeur (pression).
+Mesures de pression[modifier | modifier le code]
+La pression, entendue ici comme hydrostatique, est une grandeur qu'on peut faire varier expérimentalement sur plus de vingt ordres de grandeur : depuis 10-10 Pa pour les vides poussés jusqu'à 1011 Pa pour les plus hautes pressions hydrostatiques en cellules à enclumes de diamant. Selon la gamme de pression visée, les appareils de mesure utilisent des principes physiques très différents. Les méthodes de mesure peuvent être classées en méthodes directes et indirectes. Les premières reposent sur la mesure directe d'une force, exercée sur une membrane par exemple, et sont proches de la définition de la pression. Les méthodes indirectes reposent sur la mesure d'une autre grandeur physique (résistivité, température...) qu'on peut relier à la pression par un étalonnage.
+L'appareil de mesure de la pression est le manomètre. Pour la pression atmosphérique, on utilise le baromètre. On peut également utiliser un vacuomètre pour mesurer la pression d'un gaz dans un tube à vide ou encore un hypsomètre, dispositif basé sur la température d'ébullition d'un liquide.
+Sonde de pression
+jauge de Penning
+jauge de Pirani
+Fluorescence du rubis
+La mesure de pression peut être relative, ou absolue. La mesure de pression relative se fait par différence avec la pression atmosphérique, c'est la mesure que font beaucoup de manomètres. La différence entre pression absolue et relative est la pression atmosphérique que l'on peut prendre comme 101325 Pa, ou plus simplement 1 bar. Pour les pressions importantes cela n'a que peu d'importance. le barA est l'unité du bar Absolu.
+Pour les formules thermodynamiques on utilise toujours les pressions absolues. Les pressions absolues sont toujours positives. Les pressions relatives peuvent être négatives jusqu'à des valeurs correspondant à la pression atmosphérique le jour de la mesure.
+La pression dans différents domaines[modifier | modifier le code]
+En plongée sous-marine[modifier | modifier le code]
+Un tube en aluminium (ép 5 mm) déformé sous une pression de 700 bar.
+En plongée sous-marine, la pression qui s'exerce sur les tissus biologiques et sur les gaz inspirés a une grande importance. Sa variation peut être considérable en fonction de la profondeur
+On différencie alors les :
+pression atmosphérique : pression de surface dans des conditions habituelles (normalement aux alentours de 1013 mbar mais usuellement considérée comme équivalent à 1 bar)
+pression hydrostatique : variable en fonction de la profondeur atteinte - cette pression augmente de 1 bar par tranche de 10 m sous l'eau (0,98 bar dans l'eau douce et 1,007 bar dans l'eau de mer)
+pression absolue : c'est la somme des pressions atmosphérique et hydrostatique
+En hydrostatique[modifier | modifier le code]
+En hydrostatique, la différence de pression Δp entre deux points dans un fluide est liée à la différence de hauteur entre ces deux points, par la relation :
+Δp = ρ g h
+Δp la différence de pression en Pa,
+ρ (rho) est la masse volumique du fluide (en kg/m3),
+g est l'accélération de la pesanteur (environ 9,81 m/s² au niveau de la mer),
+h la différence de hauteur en m.
+Par conséquent, connaissant ces deux dernières grandeurs, la différence de pression est directement proportionnelle à la différence de hauteur, et donc à la distance entre les deux points s'ils sont sur le même axe vertical.
+Cette propriété est notamment utilisée pour différents dispositifs de mesure de la pression, ainsi que comme méthode de conversion par les plongeurs (un bar équivaut à dix mètres d'eau), ou encore les physiciens des particules.
+Poussée d'Archimède[modifier | modifier le code]
+La poussée d'Archimède exercée par un fluide au repos sur un corps immergé peut être définie comme étant la résultante des forces de pression s'appliquant sur la surface de cet objet.
+En météorologie[modifier | modifier le code]
+Pression atmosphérique
+Baromètre
+En résistance des matériaux et mécanique[modifier | modifier le code]
+La pression de contact entre deux pièces peut provoquer une déformation irréversible, un effet de métal repoussé. Ce phénomène est appelé matage. Il peut être utilisé :
+pour mettre en forme des pièces de manière très précise : galetage ;
+pour durcir la surface d'une pièce par écrouissage, ou bien pour lui donner un aspect bosselé facilitant l'accroche de la peinture : grenaillage.
+C'est aussi une cause de défaillance de systèmes mécaniques.
+En plomberie et tuyauterie l´unité de la pression est le bar 1daN/cm². La pression dépend de la force exercée et de la surface sur laquelle elle est exercée.
+Article détaillé : Matage (mécanique).

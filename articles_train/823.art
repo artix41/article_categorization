@@ -1,0 +1,166 @@
+Colorisation cinématographique — Wikipédia
+Colorisation cinématographique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La colorisation cinématographique est un procédé qui consiste à ajouter de la couleur aux films en noir et blanc, sépia, ou aux dessins animés. Les premières utilisations de cette technique remontent au début du XXe siècle, mais elle n'est réellement devenue aboutie que depuis le développement du numérique. La colorisation peut être utilisée pour différentes raisons, dont les effets spéciaux ou la restauration de films en couleur.
+Le procédé est parfois critiqué lorsqu'il est utilisé pour la colorisation d'anciens films noirs et blancs, notamment de longs-métrages de fiction. Certains, comme la Writers Guild of America, ont protesté que l'utilisation de ce procédé était une forme « de vandalisme culturel »[1],[2].
+Sommaire
+1 Technique
+2 La colorisation partielle
+3 La restauration
+4 À l'aide d'enregistrements amateurs
+5 À partir des parasites
+6 L'intégration
+7 Colorisation de longs-métrages et de séries
+8 Documentaires colorisés
+9 Critiques de la colorisation
+9.1 Point de vue technique
+9.2 Point de vue des réalisateurs
+9.3 Point de vue des acteurs
+10 Notes et références
+11 Bibliographie
+12 Annexes
+12.1 Articles connexes
+12.2 Liens externes
+Technique[modifier | modifier le code]
+Avec l'arrivée de la télévision couleur, vers 1965 il y avait une demande pour les anciens dessins animés qui permettait de financer la mise en couleur des classiques du noir et blanc. Pour cela, les tracés originaux étaient reproduits sur celluloïd et on ajoutait ensuite la couleur à peu près comme pour un dessin animé couleur normal, c'est-à-dire image après image[3]. Avec l'informatique, les studios peuvent ajouter la couleur aux films en noir et blanc en teintant les films numériquement, les contours sont d'abord colorés puis la colorisation est complétée. Le procédé initial a été inventé par les canadiens Wilson Markle et Brian Hunt[4] et a été utilisé la première fois en 1970 pour ajouter de la couleur à des images monochromes du programme Apollo[5].
+La colorisation commence généralement avec une épreuve monochrome du film ; on réalise une copie neuve tirée du négatif original, dont on tire une copie vidéo de haute qualité. Les techniciens, aidés par un ordinateur, identifient le niveau de gris de chaque objet de chaque image et notent tous les mouvements. Un ordinateur ajoute de la couleur à chaque objet, pendant que le niveau de gris reste le même[5]. Cette technique a été brevetée en 1991[6].
+Les premières techniques de colorisation donnaient une image aux contrastes faibles et aux couleurs pâles, plates et délavées. Depuis les années 1980, la technologie s'est améliorée. Une des principales difficultés avec la colorisation est la quantité de travail demandée. Par exemple, pour colorier une image fixe, l'artiste commence par la diviser en zones, puis affecte ensuite une couleur à chaque zone. Cette approche, appelée « méthode par segmentation », demande un travail long et fastidieux afin d'obtenir des segments corrects.
+Ce problème vient du fait qu'il n'y a jamais eu d'algorithme complètement automatique capable d'identifier précisément les limites des zones complexes ou floues, comme la limite entre le visage et les cheveux d'un personnage. La colorisation d'un mouvement nécessite de suivre le cheminement de ces zones d'une image à l'autre.
+Plusieurs sociétés ont annoncé avoir créé des algorithmes de poursuite automatique de zones :
+Legend Films[7] décrit le cœur de leur technologie comme la reconnaissance de motifs en premier plan et la composition du fond en arrière plan pour en faire des masques entre chaque image. Dans le processus, les fonds sont colorisés séparément dans un cadre composite qui rassemble toutes les données d'une scène, stockant aussi les décalages dus au mouvement de la caméra. Une fois le premier plan colorisé, le masque du fond est appliqué image par image.
+Le procédé de TimeBrush Studios[8], fondé sur la technologie de Neural Net, produit, selon eux, des couleurs saturées et précises, avec des lignes claires et pas de débordements apparents, en étant rentable et convenant à la colorisation à faible budget ainsi qu'aux diffusions télévisées et aux projections au cinéma.
+Une équipe de chercheurs de la Benin School of Computer Science and Engineering, à l'université hébraïque de Jérusalem, a créé une méthode interactive qui ne nécessite pas de détection manuelle précise ni de poursuite ciblée : elle fonctionne selon le principe simple que les pixels proches dans l'espace et le temps, et ayant un niveau de gris similaire, doivent avoir la même couleur[9].*
+La colorisation partielle[modifier | modifier le code]
+La plus ancienne forme de colorisation consistait à apporter des touches de couleur sur des films en noir et blanc par des colorants. Les tout premiers films d’Edison, dont la plus célèbre série Butterfly Dance, sont des exemples des premières colorisations, faites en peignant la pellicule avec de l’aniline. Le premier long métrage colorisé est La Vie et la passion de Jésus-Christ, colorisé au pochoir en 1903 par l'atelier de Segundo de Chomón à Barcelone.
+Aux alentours de 1906, Pathé rationalise la fabrication des pochoirs avec le « Pathécolor », un procédé grâce auquel les pochoirs de chaque couleur étaient découpés grâce à un pantographe dans un film superposé à une copie positive de l'original[10],[11],[12].
+En 1916, le procédé de colorisation Handschiegl (d’après le nom de son inventeur Max Handschiegl) fut inventé pour le film Jeanne d'Arc (Joan the Woman) de Cecil B. DeMille. Un autre exemple ancien d’Handschiegl est le film Le Fantôme de l'Opéra de 1928, dans lequel le personnage de Lon Chaney porte une cape d’un rouge vif alors que le reste de la scène reste monochrome. La scène est en sépia et la cape a été peinte en rouge, soit par pochoir soit par matrice. Puis une solution de sulfure a été appliquée partout sauf sur les parties peintes, transformant le sépia en une couleur bleue.
+La colorisation partielle est aujourd'hui utilisée avec les technologies numériques sur des séquences prises en couleur pour styliser des films publicitaires, des clips musicaux, ou des émissions de télévision et augmenter les possibilités artistiques.
+La restauration[modifier | modifier le code]
+À l'aide d'enregistrements amateurs[modifier | modifier le code]
+Un certain nombre d'émissions de télévision tournées en couleur au début des années 1970 étaient enregistrées sur des cassettes magnétiques qui ont été effacés pour des raisons économiques. Dans certains cas, des enregistrements en noir et blanc étaient produits pour l’exportation vers des pays qui n’avaient pas encore la télévision couleur.
+Un exemple notoire est la série de la BBC en cinq épisodes Doctor Who intitulée Les Démons[13]. Un seul des épisodes a survécu en couleur, les autres n'existaient plus qu'en version noir et blanc. La seule version couleur était l'enregistrement vidéo de mauvaise qualité d'une version abrégée diffusée aux États-Unis. Dans les années 1990, la BBC a combiné son signal couleur au signal noir et blanc de la version Broadcast, obtenant une version couleur de très bonne qualité. Cette restauration a été considérée comme une grande réussite par les fans et les techniciens.
+À partir des parasites[modifier | modifier le code]
+Les systèmes de diffusion analogique de couleurs ont été conçus avec la rétrocompatibilité à l'esprit.
+Ainsi, le signal de la chrominance (couleur) est typiquement dans le même canal que la luminance (luminosité) du signal, modulé sur une fréquence fixe, connue comme la sous-porteuse couleur. Les téléviseurs noir et blanc ne décodent pas ces informations de couleur supplémentaires dans la sous-porteuse, et utilisent uniquement la luminance pour fournir une image monochrome. Toutefois, en raison de la bande passante limitée dans le canal de la vidéo, le signal de chrominance saigne sur le canal de luminance, entraînant des chroma crawl et des chroma points sur les téléviseurs noir et blanc. Ceci est normalement considéré comme une nuisance dans la diffusion analogique.
+Cependant pour les kinescopage réalisés à partir des écrans de télévision noir et blanc les techniciens ne s'embarrassaient pas de filtres pour éliminer ces interférences. Dès lors, ces copies sur films noir et blanc contiennent des parasites permettant de retrouver l’information de couleur d'origine.
+L'idée de récupérer cette information a été initialement proposée par Jacques Insell chercheur à la BBC. En pratique cependant, la récupération de ces informations de couleur est extrêmement complexe pour plusieurs raisons.
+La salve couleur est absente de cette copie. Cette référence doit donc être récupérée depuis la phase des points de chroma qui, représentés par leur position horizontale sur l'écran, déterminent la teinte des couleurs reconstituées. Les distorsions dans la géométrie de la copie en raison de la nature de la physique de l'enregistrement à partir d'un écran plat CRT signifie qu'une transformation doit être appliquée afin d'en déduire la position initiale des points chroma au sein de l'émission.
+Toutefois, ces obstacles techniques ont finalement été surmontés en 2008, et un logiciel écrit par des développeurs de Richard Russell du Groupe de récupération Couleur de travail a été mis à profit. Ils aboutirent finalement à la diffusion d'épisodes de "Army Dad" et de "Doctor Who" ainsi restaurés en couleur.
+L'intégration[modifier | modifier le code]
+La colorisation est parfois utilisée pour intégrer des séquences de films anciens dans des films en couleur. Par exemple, le film américain Treize jours, réalisé par Roger Donaldson et sorti en 2000, utilise des séquences tournées en 1962 lors de la crise des missiles de Cuba, qui ont été colorisées.
+Le long métrage en couleurs Capitaine Sky et le Monde de demain de Kerry Conran, sorti en 2004, qui utilise déjà massivement les effets spéciaux numériques, intègre aussi des scènes des années 1940 de Sir Laurence Olivier colorisées pour l’occasion.
+Dans son long-métrage Aviator, Martin Scorsese a subtilement mélangé des plans de reportage en noir et blanc de la première du film Les Anges de l'enfer (1930) avec des plans de la première mis en scène en 2003 avec les acteurs de son film. La colorisation du noir et blanc a été conçue pour un rendu normal trichrome, puis l'ensemble, montage des images anciennes et de celles tournées pour le film, corrigé pour correspondre à un rendu technicolor bichrome, en rapport avec la technologie de l'époque. Scorsese a aussi utilisé des images colorisées de Jane Russell provenant du film en noir et blanc The Outlaw, ainsi que des scènes de combat aérien du film Les Anges de l'enfer.
+Colorisation de longs-métrages et de séries[modifier | modifier le code]
+Au milieu des années 1980, le procédé a suscité une controverse considérable, après que le film de 1937 Le Couple invisible (Topper) devint en 1985 le premier film en noir et blanc à être redistribué en couleur après colorisation[14].
+Les défenseurs du procédé faisaient remarquer qu'il pourrait permettre aux films en noir et blanc de toucher un nouveau public n’ayant pas l’habitude de ce format. Les détracteurs se plaignaient que le procédé n'était pas au point, et que même s’il était amélioré, il ne pourrait transposer les compositions lumineuses choisies spécifiquement pour un rendu en noir et blanc, lesquelles ne seraient par forcément adaptées à la couleur[1]. Étaient également mentionnés des choix artistiques que le réalisateur de l’époque du tournage pourrait ne pas approuver, comme le clin d’œil visuel sur le personnage de Violette Bick dans La vie est belle, toujours habillée en violet dans la version colorisée.
+Le magnat des médias américain Ted Turner fut autrefois un avocat de la colorisation, faisant travailler la société American Film Technologies de San Diego[15]. Quand il annonça à la presse qu’il envisageait de coloriser Citizen Kane[16], ses propos provoquèrent immédiatement des protestations du public. Orson Welles ayant gardé le contrôle des droits du film, il était néanmoins impossible de manipuler Citizen Kane sans sa permission express ou celle de son agent. Turner affirmera plus tard que c’était une plaisanterie faite pour taquiner les pourfendeurs de la colorisation et qu’il n’avait jamais eu l’intention de coloriser le film. En partie à cause de cette controverse, tous les films diffusés à la télévision ou en vidéo aux États-Unis et dont l'aspect a été modifié de quelque façon que ce soit (y compris le pan and scan) doivent mentionner que le film « a été modifié par rapport à la version originale »[17].
+Vers le milieu des années 1990, cette polémique sur la colorisation avait disparu. À cause du coût élevé du procédé, Turner Entertainment avait cessé de coloriser les films de son catalogue. Avec la venue de la technologie DVD, la colorisation refit surface. Parce que le format DVD est beaucoup plus souple, les studios purent offrir aux spectateurs les deux versions sur un même disque, et donc, l’enregistrement de film colorisé sembla de nouveau rentable. Quelques sociétés ont même ressorti les premières versions colorisées des années 1980, par exemple, l'« intégrale » de Laurel et Hardy en coffret DVD[18].
+Sony Pictures Entertainment fera réaliser de nouvelles versions colorisées de films des Three Stooges par West Wing Studios[19] pour leur distribution en DVD, relançant les controverses sur la colorisation, même si une version noir et blanc figure sur chaque disque[2]. Le studio a eu accès pour cela aux accessoires et décors originaux afin de parfaire les versions colorisées (les détracteurs diront que les couleurs étaient alors choisies pour leur rendu en noir et blanc[2]).
+Un autre studio important de colorisation est Legend Films[7], leur processus automatisé breveté a été utilisé pour coloriser une centaine de films entre 2003 et 2007. Shirley Temple Black, Jane Russell, Terry Moore et Ray Harryhausen ont travaillé avec l’entreprise pour coloriser leurs propres films ou bien leurs films préférés. Deux films notables sur lesquels Legends Films a travaillé sont Reefer Madness, un film sur la consommation de cannabis pour lequel certaines combinaisons des couleurs ont été utilisées dans le but de créer un effet psychédélique chez le spectateur, et Plan 9 from Outer Space (1959), largement connu comme « le plus mauvais film jamais réalisé ». En 2007, Legend Films a colorisé La vie est belle (It's a Wonderful Life) pour Paramount Pictures et L'amour chante et danse (Holiday Inn), en 2008 for Universal Pictures.
+En 2005, Sony Pictures Home Entertainment a sorti la première saison de Ma sorcière bien-aimée (Bewitched) en DVD. Comme cette série avait été tournée en noir et blanc, Sony a mis deux versions dans le coffret : une avec les épisodes originaux et une seconde avec les épisodes en couleurs. Une année plus tard, la deuxième saison de Ma sorcière bien-aimée et la première saison de Jinny de mes rêves (I Dream of Jeannie), une autre série appartenant à Sony, ont été commercialisées sur le même concept. Ces films ont été colorisés par Dynacs Digital, un studio de colorisation de Patna en Inde qui a depuis disparu.
+Documentaires colorisés[modifier | modifier le code]
+La colorisation est parfois utilisée pour les films documentaires. L’émission de télévision The Beatles Anthology colorisa des séquences[20], notamment l’interprétation de All You Need Is Love de l’émission spéciale Our World (1967). Dans ce documentaire, cette scène commence en noir et blanc comme dans l’original avant de se fondre dans des couleurs psychédéliques apparemment réalistes. Dans ce cas, la palette de couleurs était basée sur des photos prises en même temps que le tournage, ainsi, d'une certaine manière, la couleur est effectivement « authentique ».
+Cependant l'addition de couleurs artificielles dans un documentaire peut être aussi considérée comme de la tromperie, voire une fraude, si elle n'est pas signalée au public avant le visionnage.
+La série documentaire World War 1 in Colour[21], diffusée à la télévision en 2003 puis sortie en DVD en 2005 (sorti en France sous le titre 1914-1918 la grande guerre : 6 heures d'archives entièrement colorisées), a utilisé des techniques de colorisation. Cette série avait été précédée par des documentaires en couleurs de la Seconde Guerre mondiale utilisant d’authentiques films couleur, mais comme le film couleur n'existait pas pour le cinéma au moment de la Première Guerre mondiale, la série est faite de séquences colorisées, et de photos. Un film français de Jean-François Delassus sur le même sujet, 14-18 : Le bruit et la fureur[22], lui aussi colorisé, sera diffusé en novembre 2008 sur La Une de la RTBF et sur France 2[23].
+Le tournoi de golf US de 1960, diffusé à l’origine en noir et blanc et enregistré sur kinéscope, a été colorisé pour le documentaire Jim Nantz Remembers. Ce fut la première fois qu’un événement sportif majeur a été rediffusé colorisé.
+Critiques de la colorisation[modifier | modifier le code]
+Point de vue technique[modifier | modifier le code]
+Dans la version colorisée de Casablanca, alors que le costume d'Humphrey Bogart était marron, il est transformé en costume bleu. Franck Sinatra se retrouve avec des yeux bleus et Jeanette MacDonald se retrouve blonde alors qu'elle était rousse. Techniquement il est difficile de rendre les nuances de gris et le soin portés aux éclairages, ombres et lumières, est gommé par le procédé.
+Point de vue des réalisateurs[modifier | modifier le code]
+Woody Allen, avec le soutien de Brooks, Forman, Scorsese et Spielberg est allé protester au Sénat contre la colorisation des films en noir et blanc. Cependant certains réalisateurs n'y sont pas forcément opposés, par exemple Henri Verneuil qui aurait déploré de ne pas avoir pu tourner La Vache et le Prisonnier en couleurs, ou Marcel Carné qui n'était pas opposé à la colorisation des Enfants du paradis[24], alors que la veuve de Jacques Prévert était contre.
+Point de vue des acteurs[modifier | modifier le code]
+Ginger Rogers est allée à Washington dire « ce que ressent une actrice quand elle se voit sur un écran de TV peinturlurée comme un gâteau d'anniversaire », et James Stewart a refusé qu'on peigne sa figure « comme un œuf de Pâques ».
+Notes et références[modifier | modifier le code]
+↑ a et b (en) Essay: Casablanca In Color? I'm Shocked, Shocked! - Time, 12 janvier 1987
+↑ a, b et c (en) Stooges DVD revives colorization debate - AP/MSNBC, 9 août 2004
+↑ (en) Betty Boop - The Colorized Cartoon Database
+↑ (en) The History of the Motion Picture - About.com
+↑ a et b (en) Colorization - The Museum of Broadcast Communications (MBC)
+↑ (fr) Brevet : CA 1291260 - Base de données sur les brevets canadiens, Office de la propriété intellectuelle du Canada (OPIC)
+↑ a et b (en) Site de Legend Films Inc.
+↑ (en) Site de TimeBrush Studios
+↑ (en) Coloring method for colorless scenes - IsraCast , 27 avril 2005
+↑ (en) Paul Read et Mark-Paul Meyer, Restoration of Motion Picture Film, Butterworth-Heinemann,‎ 2000 (ISBN 9780080516196, lire en ligne), p. 181
+↑ (en) M. Ruot et L. Didiée, « The Pathé Kinematograph Colour Process », The Photographic Journal, vol. 65, no 3,‎ mars 1925, p. 121-126 (lire en ligne)
+↑ (en) Bregtje Lameris, « Pathécolor: "Perfect in Their Rendition of the Colours of Nature" », Living Pictures. The Journal of the Popular and Projected Images Before 1914, vol. 2, no 2,‎ 2003, p. 46-58 (lire en ligne)
+↑ (en) Doctor Who : The restoration team - BBC, 1er janvier 2004
+↑ (en) Le Couple invisible (1937) - Trivia - IMDb
+↑ (en) 10-K SEC Filing, filed by American Film Technologies Inc. - EDGAR Online, Inc., 25 janvier 2000
+↑ (en) TURNER, TED - The Museum of Broadcast Communications (MBC)
+↑ (en) Citizen Kane (1941) - Trivia - IMDb
+↑ (en) Laurel & Hardy - The Collection (21-disc Box Set) - DVDBeaver
+↑ (en) Site de West Wing Studios
+↑ (en) Internet Beatles Album - Reference Library : Anthology Home Video
+↑ (en) World War 1 in Colour - IMDb
+↑ 14-18 : Le bruit et la fureur - Isabelle Rabineau, TopoLivres, 5 novembre 2008
+↑ 14-18 : Le bruit et la fureur - France 2
+↑ Dictionnaire de la censure au cinéma, Jean-Luc Douin, Ed. Puf, p. 110-111
+Bibliographie[modifier | modifier le code]
+Anthony Slide, Nitrate Won't Wait: A History of Film Preservation in the United States, 1er août 2000 (ISBN 0-7864-0836-7) p. 9
+Gary R. Edgerton, The Germans Wore Gray, You Wore Blue, pour IEEE Spectrum, hiver 2000
+Annexes[modifier | modifier le code]
+Glossaire du cinéma
+Articles connexes[modifier | modifier le code]
+Cinéma numérique
+Effets spéciaux
+Liens externes[modifier | modifier le code]
+Heidi - Comparaison de la colorisation analogique du film Heidi (1937) faite dans les années 1980 et d'une colorisation moderne réalisée par Legend films [vidéo]
+Cerulean Fx - Un autre studio de colorisation californien
+Portail du cinéma
+Portail des couleurs
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Colorisation_cinématographique&oldid=111728289 ».
+Catégories : Technique cinématographiqueCouleurCatégories cachées : Page utilisant des arguments dupliqués dans les appels de modèlePortail:Cinéma/Articles liésPortail:Couleurs/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+English
+日本語
+Русский
+Türkçe
+Українська
+Modifier les liens
+Dernière modification de cette page le 10 février 2015 à 16:38.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobile

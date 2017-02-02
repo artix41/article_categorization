@@ -1,0 +1,282 @@
+Portail:Analyse — Wikipédia
+Portail:Analyse
+Une page de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Listes de portails : Culture • Société • Histoire • Géographie • Science et technologie
+Portail de
+l’Analyse et des Systèmes dynamiques
+1 050 articles sont actuellement liés au portail.
+Projet
+Arborescence
+Bibliographie
+Le Thé
+Portails associés
+Mathématiques
+Algèbre
+Algorithmique
+Analyse
+Arithmétique et théorie des nombres
+Géométrie
+Informatique théorique
+Logique
+Probabilités et statistiques
+Présentation
+L'analyse est une branche des mathématiques comprenant l’étude des fonctions d’une ou plusieurs variables, mais aussi des suites et séries, de leur limite éventuelle et plus généralement des systèmes dynamiques.
+Trouvant ses origines d'une part dans certaines méthodes de calcul pour des mesures géométriques, d'autre part dans l'approximation et la comparaison de grandeurs numériques, l'analyse prend son essor avec le calcul infinitésimal. Elle est aujourd'hui subdivisée en plusieurs branches et a donné lieu à plusieurs domaines des mathématiques, dont la topologie et la géométrie différentielles ou la théorie analytique des nombres, la théorie du potentiel…
+Image du jour
+Portrait d'Isaac Newton, coinventeur du calcul infinitésimal et auteur d'une méthode d'approximation des zéros d'une fonction.
+galerie
+Sommaire
+histoire de l'analyse
+analyse réelle : fonctions – limite – suites et séries numériques
+fonctions de plusieurs variables – analyse convexe – analyse vectorielle
+suites et séries de fonctions – analyse harmonique
+équations fonctionnelles – équations différentielles – équations aux dérivées partielles – équations intégrales
+systèmes dynamiques • théorie de l'intégration – théorie de la mesure
+analyse complexe
+analyse fonctionnelle : opérateurs – distributions
+analyse non standard
+analyse p-adique
+analyse constructive
+analyse numérique
+géométrie différentielle
+théorie analytique des nombres
+[modifier]
+Panorama
+Histoire de l'analyse[modifier | modifier le code]
+méthode d'exhaustion – Eudoxe de Cnide – Bhāskara II – méthode des indivisibles
+histoire du calcul infinitésimal – calcul opérationnel – notation de Leibniz – histoire des fonctions trigonométriques – Traité de la roulette – histoire de la fonction zêta de Riemann – histoire de l'analyse fonctionnelle – fluxion – Éléments d'analyse
+Newton – Leibniz – Laplace – Lagrange – Riemann – Lebesgue – Fourier – Cauchy – Weierstrass
+Analyse algébrique[modifier | modifier le code]
+arrondi – erreur d'arrondi
+inégalité de Bernoulli
+moyenne arithmétique – géométrique (inégalité arithmético-géométrique) – moyenne harmonique
+Analyse réelle[modifier | modifier le code]
+L'analyse réelle est fondée sur la définition de l'ensemble des nombres réels par Dedekind et Cauchy. La notion de limite s'y exprime en termes d'intervalles et peut faire appel à l'infini avec la droite réelle achevée.
+Approche élémentaire des fonctions[modifier | modifier le code]
+Liste de fonctions numériques
+Glossaire des fonctions
+Vocabulaire élémentaire
+fonction – expression – variable – valeur – ensemble de départ – ensemble d'arrivée – graphe – domaine de définition – image – antécédent – préimage – restriction – composition – réciproque
+Étude de fonction
+domaine de définition – périodicité – parité – continuité – dérivabilité – dérivée (seconde) – variations – extremum – zéros – signe – limites – comparaison asymptotique
+Courbe représentative
+tangentes – asymptotes – branches paraboliques – concavité – points d'inflexion – position relative – quadrant – pente
+Dérivation
+règle du produit – fonctions composées – dérivation itérée (formule de Faà di Bruno) – théorème de Glaeser
+Calcul de limites
+opérations (forme indéterminée) – composition – théorème des gendarmes – théorème de la limite monotone – développement asymptotique (équivalent – négligeable) – règle de L'Hôpital
+Intégration
+primitive – intégrabilité – intégrale – théorème fondamental de l'analyse – intégration par parties – changement de variables (règles de Bioche)
+Corollaires de la propriété de la borne supérieure
+théorème des valeurs intermédiaires – de la bijection – de la moyenne
+théorème des bornes – théorème de Rolle – théorème des accroissements finis – théorème de Darboux – théorème de la moyenne de Cauchy
+Approximation locale
+approximation linéaire – théorème de Taylor – développement limité
+Régularité (par morceaux)
+Lipschitz – condition de Hölder – absolue continuité – continuité uniforme – variation bornée – semi-continuité
+Suites numériques[modifier | modifier le code]
+Vocabulaire élémentaire
+suite – terme – rang – sous-suite – relation de récurrence – raison
+Exemples
+arithmétiques – géométriques – arithmético-géométriques – récurrentes linéaires (Fibonacci – Tribonacci – Perrin – Padovan – Pell – Lucas) – logistiques
+Propriétés
+suites adjacentes (moyenne arithmético-géométrique) – équivalentes (formule de Stirling)
+suite bornée – suite de Cauchy – suite périodique
+Convergence
+limite – limites inférieure et supérieure – lemme de Cesàro – théorème de Stolz-Cesàro – lemme de l'escalier
+valeur d'adhérence – théorème de Bolzano-Weierstrass
+Applications
+développement décimal – fraction continue – produit infini – produit infini de Cantor
+Vitesse de convergence des suites
+convergence linéaire – convergence quadratique
+Séries numériques[modifier | modifier le code]
+Exemples
+séries géométriques – harmonique – série des inverses des nombres premiers – séries de Riemann – Bertrand – Grandi – série alternée des entiers
+série double
+Propriétés
+série alternée (critère de convergence) – série télescopique
+Convergence
+convergence absolue – convergence inconditionnelle
+règle de Cauchy – règle de d'Alembert – règle de Raabe-Duhamel
+Autres résultats
+inégalité de Carleman – théorème de réarrangement de Riemann – lemme de Kronecker
+Méthodes de calcul
+produit de Cauchy – sommation par parties – sommation de Borel
+Applications
+série d'Eisenstein – Engel – Lambert – zêta rationnelle
+Fonctions de plusieurs variables[modifier | modifier le code]
+dérivée partielle – dérivée directionnelle – différentielle – point critique (point col) – matrice hessienne – gradient – ligne de niveau – multiplicateur de Lagrange
+théorème de Sard – Monge – Schwarz – Rademacher – lemme de Hadamard
+théorème d'Euler (fonction homogène)
+laplacien – fonction harmonique (sphérique – ellipsoïdale)
+intégrale curviligne – lemme d'estimation – intégrale multiple – intégrale de surface – théorème de Green
+Analyse vectorielle[modifier | modifier le code]
+divergence – théorème de flux-divergence – rotationnel – théorème du gradient – théorème du rotationnel – inégalité des accroissements finis – Nabla – matrice jacobienne – champ de vecteurs (conservatif – solénoïdal – irrotationnel) – champ scalaire – théorème de Helmholtz-Hodge
+Géométrie différentielle[modifier | modifier le code]
+jet – singularité – théorème de Stokes – théorème du redressement – courant – flot – flot géodésique – théorème d'inversion locale – théorème des fonctions implicites
+difféomorphisme
+forme différentielle – théorème de Poincaré
+Suites de fonctions[modifier | modifier le code]
+convergence simple – convergence uniforme – convergence en moyenne – convergence en moyenne quadratique
+théorème de la limite simple de Baire – équicontinuité – théorèmes de Dini
+Approximation de fonction (théorie de l'approximation)
+théorème d'approximation de Stone-Weierstrass – approximation de Bernstein – théorème de Müntz – théorème de Chudnovsky – théorème de Bernstein
+Séries de fonctions[modifier | modifier le code]
+convergence normale – série de Taylor – série de Fourier
+série trigonométrique – inégalité de Bernstein
+Série entière
+rayon de convergence – fonction analytique – théorème d'Abel – série hypergéométrique – série lacunaire
+Analyse harmonique[modifier | modifier le code]
+série de Fourier – égalité de Parseval – théorème de Fejér – théorème de Dirichlet – noyau de Dirichlet – Fejér – somme de Fejér – polynôme trigonométrique
+phénomène de Gibbs – approximation sigma – densité spectrale
+théorème de Riemann-Lebesgue – théorème de Plancherel – théorème de Riesz-Fischer – théorème de Balian-Low lemme de Calderón-Zygmund – théorème de Balian-Low – formule sommatoire de Poisson
+Démonstration de problèmes[modifier | modifier le code]
+problème de Dirichlet –
+Équations différentielles ordinaires[modifier | modifier le code]
+Types d'équations différentielles ordinaires
+autonome – linéaire (d'ordre 1 – d'ordre 2) – d'ordre 1 à variables séparées
+Exemples
+équation différentielle de Bernoulli – Clairaut – Euler – Lagrange – Liénard – Mathieu – Newton – Riccati – Sturm-Liouville – Verhulst
+Résolution
+condition initiale – problème de Cauchy – théorème de Cauchy-Lipschitz
+méthode d'Euler – variation des constantes – quadrature – transformée de Laplace – wronskien:théorème de Wielandt – théorème de Bohr-Mollerup – théorème de Hölder – théorème d'inversion de Lagrange
+équation aux q-différences
+solution de forme fermée – séparation des variables
+équation différentielle homogène (d'ordre n – d'ordre 1)
+théorème de Hartman-Grobman
+théorème de Poincaré-Bendixson – théorie de Sturm-Liouville
+Équations aux dérivées partielles
+théorème de Cauchy-Kowalevski – lemme de Borel – principe du maximum – théorème de Cauchy-Peano-Arzelà
+équation de Laplace – équation d'Euler-Lagrange – critère de Nagumo – équation biharmonique – équation d'onde – équation de Helmholtz – équation de Korteweg et de Vries – équation de Liénard – équation de Mathieu – équation de Navier – équation de Poisson – équation de Schrödinger semi-linéaire – équation de la chaleur (noyau de la chaleur) – Équations de Cauchy-Riemann – équations de Lagrange – Équations de Lotka-Volterra – Équations de Navier-Stokes
+condition aux limites (initiale – dynamique – mêlée – périodique – de Dirichlet – Neumann – Robin) – problème aux limites – théorème d'unicité de Stokes
+équation intégrale
+Systèmes dynamiques[modifier | modifier le code]
+système dynamique (de Lorenz – mesuré) – cycle limite – attracteur (Hénon – Lorenz) – billard de Sinai – décalage de Bernoulli – fer à cheval de Smale – dynamique holomorphe – effet papillon – oscillateur (de Van der Pol – à un degré de liberté) – pendule cycloïdal – point fixe – portrait de phase – principe du minimum de Pontryagin – problème à N corps – transformation du boulanger – système d'Anosov
+théorème de Sarkovskii – théorèmes de point fixe – point d'accumulation – théorème de Poincaré-Bendixson – théorème de récurrence de Poincaré – théorème de Floquet
+théorie du chaos – théorie ergodique (théorème ergodique)
+Théorie de l'intégration[modifier | modifier le code]
+calcul intégral (calcul numérique d'une intégrale) – famille sommable – fonction localement intégrable – fonction simple
+théorème de convergence dominée – lemme de Fatou – carré sommable – somme de Riemann – intégrale impropre – intégrale de chemin – lemme de Cousin – point de Lebesgue
+intégrale de : Riemann – Lebesgue – Kurzweil-Henstock – Stieltjes
+intégrale impropre – intégrale paramétrique
+produit de convolution – valeur principale de Cauchy
+comparaison série-intégrale
+inégalité de Jensen – théorème d'interversion série-intégrale – inégalité de Wirtinger – inégalité de Tchebychev pour les sommes – inégalité de réarrangement – inégalité de Young – inégalité de Nesbitt – fonction maximale de Hardy-Littlewood – formule d'Euler-Maclaurin – formule de Cauchy pour l'intégration successive – lemme de Grönwall – théorème de Fubini – théorème de convergence dominée – théorème de convergence monotone – théorème de différentiation de Lebesgue
+intégrales de Wallis – intégrale de Gauss – intégrale d'Euler – intégrale de Dirichlet – intégrale de Fresnel
+Théorie de la mesure[modifier | modifier le code]
+tribu – sigma-anneau – mesure – espace mesurable – espace mesuré – partie mesurable – fonction mesurable – support de mesure
+Exemples
+mesure de comptage – mesure de Dirac – mesure de Hausdorff – mesure de Lebesgue
+Propriétés
+mesure finie – mesure sigma-finie – mesure complète – régularité extérieure
+Résultats
+théorème de Lusin – propriété Luzin – lemme de transport – théorème de Radon-Nikodym-Lebesgue – théorème d'Egoroff – théorème d'extension de Carathéodory – théorème de Borel-Cantelli
+Constructions
+complétion d'une mesure – mesure produit – mesure secondaire – mesure signée – mesure spectrale – transformée de Stieltjes
+Théorie géométrique de la mesure – ensemble rectifiable
+Analyse complexe[modifier | modifier le code]
+fonction multivaluée – théorème de Fatou – théorème de Goursat – théorème de Mergelyan – théorème de Morera – formule intégrale de Cauchy – intégrale de Cauchy – théorème intégral de Cauchy – série de Dirichlet – série d'Eisenstein – série entière – série hypergéométrique – série de Laurent – prolongement analytique – pôle – zéro – résidu (à l'infini) – singularité
+formule d'Euler – constantes de Landau
+point de césure
+théorème de Borel – lemme de Borel-Carathéodory – fonction holomorphe – fonction méromorphe – fonction entière – conjecture de Bieberbach – lemme de Goursat – principe de Harnack – principe de l'argument – théorème de Rouché – théorème de Tsuji – théorème de Weierstrass-Casorati – théorème des résidus – théorèmes de Picard – théorème de Liouville – théorème de Mergelyan – théorème de Montel – théorème de relèvement – théorème de l'application ouverte – théorème de Gauss-Lucas – théorème de factorisation de Weierstrass
+inégalité de Hilbert – inégalité de Cauchy
+fonction multiforme – branche principale – monodromie – point de branchement
+forme modulaire – formule d'Euler – formule de Jensen – formule de Riemann-Siegel – lemme de Jordan – lemme de Schwarz – lemme de Hartogs
+hypothèse de Riemann (généralisée) – théorème de la droite critique
+indice – équation différentielle holomorphe
+fonction L (conjecture d'Artin) – série L de Dirichlet
+Analyse fonctionnelle[modifier | modifier le code]
+calcul des variations (lemme fondamental) – analyse fractionnaire – dérivée fonctionnelle – formulation variationnelle – formulation faible fonctionnelle – lemme de Hadamard – théorème de Banach-Steinhaus – théorème de Hahn-Banach – théorème de Lax-Milgram – théorème de Mercer – théorème de Riemann-Lebesgue – formulation faible – problème de l'obstacle – théorème d'Ascoli – théorème de Banach-Mazur – théorème de Mercer – Théorème d'Ascoli – Théorème de Baire – Théorème de Banach-Alaoglu – Théorème de Banach-Schauder – Théorème de Banach-Steinhaus – Théorème du graphe fermé – Théorème de Hahn-Banach – Théorème de Lax-Milgram – théorème de Fréchet-Kolmogorov – théorème de Rellich – théorème de Riesz-Fischer – théorème de Meyers-Serrin H=W – théorèmes de Dini – propriété de Daugavet – théorème de représentation de Riesz – théorème de Borel
+espace fonctionnel – espace de suites lp – espace L1 – espace L2 (carré sommable) – espace Lp – espace L∞ – espace de suites lp – espace d'interpolation – espace de Banach – espace de Hilbert – espace de Schwartz – espace de Sobolev – algèbre de Banach – algèbre de von Neumann – algèbre normée – C*-algèbre – approximant de Padé – calcul des variations inégalité de Minkowski – inégalité de Hölder – inégalité de Korn – inégalité de Poincaré – inégalité de Wirtinger
+dérivée fonctionnelle
+Transformées
+Hilbert – Laplace (bilatérale) – Fourier (discrète – à court terme) – Fourier-Mukai – Mellin – Möbius – Shanks – Stieltjes – Walsh – en W – en Z – en cosinus discrète – en ondelettes continue
+lifting en ondelettes – théorème de Plancherel
+calcul opérationnel
+Théorie des opérateurs[modifier | modifier le code]
+norme d'opérateur – algèbre d'opérateurs – déterminant de Fredholm – fonction propre –
+Exemples
+opérateur laplacien – opérateur laplacien vectoriel – laplacien discret – opérateur bilaplacien – d'alembertien – opérateur de Gauss-Kuzmin-Wirsing – opérateur de différence
+opérateur différentiel – opérateur intégral – opérateur pseudo-différentiel
+Théorie des distributions[modifier | modifier le code]
+distribution de Dirac – fonction de Green – peigne de Dirac – distribution tempérée
+Analyse constructive[modifier | modifier le code]
+suite de Specker – unzerlegbarkeit
+Analyse non standard[modifier | modifier le code]
+ensemble standard – infiniment petit – Abraham Robinson – Edward Nelson – nombre hyperréel – principe d'idéalisation – principe de standardisation
+Analyse numérique[modifier | modifier le code]
+lissage – méthode de la phase stationnaire – méthode du point col – technique de relaxation (dynamique – continue) – delta-2 – méthode de Monte-Carlo – optimisation – optimisation linéaire – optimisation quadratique – méthode des éléments finis – méthode de Galerkin – calcul numérique – critères de Wolfe – descente de gradient – différence finie – différences divisées – séparation et évaluation – extrapolation de Richardson – BFGS – méthode de Newmark – méthode des caractéristiques – intégration de Verlet – problème bien posé – théorème de Lax – théorème de Lax-Wendroff – stabilité d'un schéma numérique – théorème de Sturm – théorème de Laguerre – recherche linéaire – conditions de Kuhn-Tucker
+ondelette – ondelette de Haar
+sous-différentiel
+problème de l'obstacle
+phénomène de Runge
+linéarisation équivalente
+Algorithmes numériques
+calcul de la racine n-ième d'un nombre – méthode de Héron
+résolution numérique des équations différentielles : méthode des volumes finis – méthode des éléments finis – méthode des éléments finis de frontière – méthode des différences finies – méthodes de Runge-Kutta
+recherche des zéros d'une fonction : interpolation quadratique inverse – iteration de Halley – itération de Householder – méthode de Brent – méthode de Laguerre – méthode de Müller – méthode de Newton – méthode de Quasi-Newton – méthode de dichotomie – méthode de la fausse position – méthode de la sécante
+résolution de système linéaire : méthode des moments – méthode du gradient conjugué – méthode du gradient biconjugué
+calcul numérique d'une intégrale : formules de Newton-Cotes – méthode de Romberg – méthode de la phase stationnaire – méthode du point col – méthodes de quadrature de Gauss – méthode du point médian
+Analyse p-adique[modifier | modifier le code]
+théorème de Mahler
+Théorie analytique des nombres[modifier | modifier le code]
+théorème des nombres premiers – théorème de Mertens – problème de Bâle – produit eulérien
+Autres[modifier | modifier le code]
+théorie de Galois différentielle – théorie du potentiel – théorie du transport
+Applications[modifier | modifier le code]
+mécanique hamiltonienne
+Analyse du signal
+domaine fréquentiel
+[modifier]
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Portail:Analyse&oldid=95893823 ».
+Catégories : Portail de mathématiquesAnalyseCatégorie cachée : Portail comptant entre 1 000 et 9 999 articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Portail
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Autres langues
+العربية
+English
+Modifier les liens
+Dernière modification de cette page le 18 août 2013 à 10:26.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

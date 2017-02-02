@@ -1,0 +1,234 @@
+Théorie des nombres — Wikipédia
+Théorie des nombres
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article ne cite pas suffisamment ses sources (mars 2010).
+Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les références utiles à sa vérifiabilité et en les liant à la section « Notes et références » (modifier l'article).
+Traditionnellement, la théorie des nombres est une branche des mathématiques qui s'occupe des propriétés des nombres entiers, qu'ils soient entiers naturels ou entiers relatifs, et contient beaucoup de problèmes ouverts qu'il est facile de comprendre, même par les non-mathématiciens. Plus généralement, le champ d'étude de cette théorie concerne une large classe de problèmes qui proviennent naturellement de l'étude des entiers. La théorie des nombres occupe une place particulière en mathématiques, à la fois par ses connexions avec de nombreux autres domaines, et par la fascination qu'exercent ses énoncés. Ainsi, la citation suivante, de Jürgen Neukirch :
+« La théorie des nombres occupe parmi les disciplines mathématiques une position idéalisée analogue à celle qu'occupent les mathématiques elles-mêmes parmi les autres sciences. »[1]
+Le terme « arithmétique » est aussi utilisé pour faire référence à la théorie des nombres. C'est un terme assez ancien, qui n'est plus aussi populaire que par le passé ; pour éviter des confusions, on désignait aussi parfois, jusqu'au début du vingtième siècle, la théorie des nombres par le terme « arithmétique supérieure ». Néanmoins, l'adjectif arithmétique reste assez répandu, en particulier pour désigner des champs mathématiques (géométrie algébrique arithmétique, arithmétique des courbes et surfaces elliptiques, etc.). Ce sens du terme arithmétique ne doit pas être confondu avec celui utilisé en logique pour l'étude des systèmes formels axiomatisant les entiers, comme il en est dans l'arithmétique de Peano.
+La théorie des nombres peut être divisée en plusieurs champs d'étude en fonction des méthodes utilisées et des questions traitées.
+Article détaillé : liste des matières de la théorie des nombres.
+Sommaire
+1 Les diverses branches de la théorie des nombres
+1.1 La théorie élémentaire des nombres
+1.2 La théorie analytique des nombres
+1.3 La théorie algébrique des nombres
+1.4 La théorie géométrique des nombres
+1.5 La théorie combinatoire des nombres
+1.6 La théorie algorithmique des nombres
+2 Histoire de la théorie des nombres
+2.1 Civilisation védique
+2.2 Civilisation grecque
+2.3 L'époque classique en Inde
+2.4 L'Âge d'or islamique
+2.5 Début de la théorie des nombres en Europe
+3 Citation
+4 Bibliographie
+5 Références
+6 Voir aussi
+6.1 Articles connexes
+6.2 Lien externe
+Les diverses branches de la théorie des nombres[modifier | modifier le code]
+La théorie élémentaire des nombres[modifier | modifier le code]
+Dans ce domaine, les entiers sont étudiés sans utiliser de techniques d'autres domaines des mathématiques. Les questions de divisibilité, l'algorithme d'Euclide pour calculer le plus grand commun diviseur (PGCD), la factorisation des entiers en nombres premiers, la recherche des nombres parfaits et des congruences appartiennent à ce domaine. Les affirmations typiques sont le petit théorème de Fermat et le théorème d'Euler, et par extension le théorème des restes chinois et la loi de réciprocité quadratique. Les propriétés des fonctions multiplicatives comme la fonction de Möbius et la fonction φ d'Euler sont étudiées ; ainsi que les suites d'entiers comme les factorielles et les nombres de Fibonacci.
+Beaucoup de questions en théorie élémentaire des nombres apparaissent simples mais requièrent de très profondes considérations et de nouvelles approches, tels les exemples suivants :
+La conjecture de Goldbach concernant l'expression des nombres pairs comme somme de deux nombres premiers,
+La conjecture des nombres premiers jumeaux à propos de l'infinité des paires de nombres premiers consécutifs, et
+La conjecture de Syracuse concernant une simple itération.
+La théorie des équations diophantiennes a même été montrée comme étant indécidable.
+Article détaillé : problèmes de Hilbert.
+La théorie analytique des nombres[modifier | modifier le code]
+La théorie analytique des nombres fait usage du calcul infinitésimal et de l'analyse complexe pour traiter de questions relatives aux entiers. Le théorème des nombres premiers, et l'hypothèse de Riemann qui lui est liée, en sont des exemples. Le problème de Waring (un nombre donné est-il la somme de carrés, de cubes, etc ?), la conjecture des nombres premiers jumeaux (il y a une infinité de paires de nombres premiers dont la différence est 2) et la conjecture de Goldbach (tous les entiers pairs plus grands que 2 sont sommes de deux nombres premiers) sont attaqués par des méthodes analytiques avec un certain succès. Les preuves de transcendance de certaines constantes mathématiques, comme π ou e, sont aussi classées dans la théorie analytique des nombres. Tandis que les énoncés concernant les nombres transcendants semblent être éloignés de l'étude des entiers, ils caractérisent en réalité les valeurs possibles de polynômes, à coefficients entiers, évalués en un tel nombre; ils sont aussi étroitement liés au domaine de l'approximation diophantienne, qui examine de quelle façon un nombre réel donné peut être approché "au mieux" par un nombre rationnel.
+La théorie algébrique des nombres[modifier | modifier le code]
+Dans la théorie algébrique des nombres, le concept de nombre est étendu aux nombres algébriques qui sont les racines des polynômes avec des coefficients rationnels. Ces domaines contiennent des éléments analogues aux entiers, connus sous le nom entiers algébriques. Avec ces règles, les propriétés familières des entiers (c’est-à-dire la factorisation unique) ne sont plus les mêmes. Les vertus de l'outillage employé – théorie de Galois, cohomologie des groupes, théorie des corps de classes, représentation des groupes et les fonctions L – sont telles qu'elles permettent de retrouver un ordre partiel pour ces nouvelles classes de nombres.
+Beaucoup de questions théoriques sur les nombres sont attaquées avec succès par leur étude modulo p pour tous les nombres premiers p.
+Article détaillé : corps fini.
+Ceci mène à la construction des nombres p-adiques ; ce champ d'étude est appelé analyse locale et résulte de la théorie algébrique des nombres.
+La théorie géométrique des nombres[modifier | modifier le code]
+Traditionnellement appelée géométrie des nombres, la théorie géométrique des nombres incorpore toutes les formes de la géométrie. Elle commence avec le théorème de Minkowski à propos de réseaux de points (treillis) dans les ensembles convexes et de recherches sur les empilements de sphères. La géométrie algébrique, et spécialement la théorie des courbes elliptiques, peuvent aussi être employées. Le célèbre dernier théorème de Fermat fut prouvé avec ces techniques.
+La théorie combinatoire des nombres[modifier | modifier le code]
+La combinatoire arithmétique (en) s'occupe des problèmes de théorie des nombres qui impliquent les idées combinatoires dans leurs formulations ou leurs solutions. Paul Erdős est le principal fondateur de cette branche de la théorie des nombres. Les sujets caractéristiques incluent les systèmes couvrants, les problèmes à somme zéro, diverses sommes d'ensembles restreintes et des progressions arithmétiques dans l'ensemble des entiers. Les méthodes algébriques ou analytiques sont puissantes dans ce champ d'étude.
+La théorie algorithmique des nombres[modifier | modifier le code]
+Article détaillé : Théorie algorithmique des nombres.
+Ce domaine étudie plus particulièrement les algorithmes appropriés pour la théorie des nombres. Les algorithmes déterministes et probabilistes pour les tests de primalité des nombres supposés premiers, et les décompositions en produit de facteurs premiers de nombres à plusieurs centaines de chiffres, ont d'importantes applications en cryptographie et sont, de fait, un sujet très sensible.
+Histoire de la théorie des nombres[modifier | modifier le code]
+Civilisation védique[modifier | modifier le code]
+Les mathématiciens de l'Inde se sont intéressés à la recherche de solutions intégrales d'équations diophantiennes depuis la période védique. L'usage géométrique le plus ancien des équations diophantiennes peut être retracé dans les Sulba Sutras (en), qui ont été écrits entre le VIIIe et le VIe siècle av. J.-C. Baudhayana (en) (env. 800 avant J.-C.) trouva deux ensembles de solutions intégrales positives à un système d'équations diophantiennes, et utilisa aussi les systèmes d'équations diophantiennes à quatre inconnues. Apastamba (en) (env. 600 avant J.-C.) utilisa les systèmes d'équations diophantiennes à cinq inconnues.
+Civilisation grecque[modifier | modifier le code]
+La théorie des nombres fut, à partir du IIIe siècle av. J.-C., une étude favorite parmi les mathématiciens grecs d'Alexandrie, qui eurent conscience du concept d'équation diophantienne dans de nombreux cas particuliers. Le premier mathématicien hellène à étudier ces équations fut Diophante.
+Diophante a également recherché une méthode pour trouver les solution entières pour les équations linéaires indéterminées (en), équations pour lesquelles il manque une information suffisante pour produire un ensemble unique de réponses discrètes. L'équation
+est une telle équation. Diophante a découvert que beaucoup d'équations indéterminées peuvent être ramenées à une forme où une certaine catégorie de solutions est connue alors qu'une solution spécifique ne l'est pas.
+L'époque classique en Inde[modifier | modifier le code]
+Les équations diophantiennes furent étudiées de manière intensive par les mathématiciens indiens de la période médiévale, qui furent les premiers à chercher systématiquement des méthodes pour la détermination de solutions intégrales d'équations diophantiennes. Âryabhata (en 499) donna la première description explicite de la solution intégrale générale de l'équation diophantienne linéaire , qui apparaît dans son texte Aryabhatiya. Cet algorithme kuttaka est considéré comme étant l'une des contributions les plus significatives d'Aryabhata en mathématiques pures, qui trouva les solutions d'équations diophantiennes en termes de fractions continues. La technique fut appliquée par Aryabhata pour donner les solutions intégrales d'un système d'équations diophantiennes linéaires, un problème avec d'importantes applications en astronomie. Il trouva aussi la solution générale de l'équation linéaire indéterminée en utilisant cette méthode.
+Brahmagupta en 628 manipula des équations diophantiennes plus difficiles. Il utilisa une identité remarquable pour résoudre les équations diophantiennes quadratiques, incluant des formes de l'équation de Pell-Fermat, telle que . Son Brahma Sphuta Siddhanta fut traduit en arabe en 773, puis Latin en 1126. L'équation
+fut posée comme un problème en 1657 par le mathématicien français Pierre de Fermat. La solution générale de cette forme particulière d'équation de Pell-Fermat fut trouvée plus de 70 ans plus tard par Leonhard Euler, tandis que la solution générale de l'équation de Pell-Fermat fut trouvée plus de 100 ans plus tard par Joseph Louis Lagrange en 1767. Mais longtemps auparavant, la solution générale de l'équation de Pell-Fermat avait été enregistrée par Bhaskara II en 1150, qui avait utilisé la méthode chakravala. Cette méthode était plus simple que celle utilisée par Lagrange 600 ans plus tard.
+Bhaskara trouva aussi des solutions pour d'autres équations indéterminées quadratiques, cubique, quartique et des équations polynomiales de degré plus élevé. Narayana Pandit (en) perfectionna encore la méthode chakravala et trouva plus de solutions générales pour les autres indéterminées quadratiques ainsi que pour les équations polynomiales de degré plus élevé.
+L'Âge d'or islamique[modifier | modifier le code]
+À partir du IXe siècle, les mathématiciens du monde islamique portèrent un vif intérêt à l'arithmétique. Le premier fut Thābit ibn Qurra, qui découvrit un théorème permettant de trouver des paires de nombres amicaux, c'est-à-dire deux nombres qui sont chacun la somme des diviseurs stricts de l'autre.
+Au Xe siècle, Al-Baghdadi découvrit une légère variante du théorème de Thābit ibn Qurra. Alhazen semble avoir été le premier à tenter de classer tous les nombres parfaits pairs (nombres pairs auto-amicaux) comme ceux de la forme 2k–1(2k – 1) où 2k – 1 est premier. Alhazen est aussi la première personne à avoir énoncé le théorème de Wilson : si p est premier alors 1 + (p – 1)! est divisible par p. On ignore s'il savait comment le démontrer. Ce théorème porte le nom de Wilson en raison d'un commentaire fait par Edward Waring en 1770, selon lequel John Wilson lui avait communiqué cette conjecture ; Waring ne trouve pas non plus de preuve. Leibniz l'avait déjà énoncée sans juger utile d'en publier une démonstration, ce que Lagrange puis Euler firent en 1773.
+Les nombres amicaux ont joué un grand rôle dans les mathématiques arabes. Au XIIIe siècle, le mathématicien perse Al-Farisi donna une nouvelle démonstration du théorème de Thābit ibn Qurra, introduisant de nouvelles idées concernant la décomposition et les méthodes combinatoires. Il donna aussi la paire de nombres amicaux {17 296, 18 416} qui a été attribuée à Euler, mais nous savons que celle-ci était connue plus tôt qu'Al-Farisi, peut-être même par Thābit ibn Qurra lui-même. Au XVIIe siècle, Muhammad Baqir Yazdi (en) donna la paire de nombres amicaux {9 363 584, 9 437 056}, toujours bien avant la contribution d'Euler.
+Début de la théorie des nombres en Europe[modifier | modifier le code]
+La théorie des nombres en Europe commence aux XVIe et XVIIe siècles par les travaux de Viète, Bachet de Méziriac et surtout Fermat. Au XVIIIe siècle, ce sont Euler et Lagrange qui y contribuèrent. Vers la fin du siècle, le sujet commence à prendre une forme scientifique à travers les grands travaux de Legendre (1798) et Gauss (1801). Avec Gauss et son ouvrage, les Disquisitiones arithmeticae (1801), on peut dire que la « théorie moderne des nombres » commence.
+Et c'est ainsi que débute l'arithmétique modulaire. Gauss introduit la notation a ≡ b (mod c) et explore la plus grande partie de ce domaine. Il généralise la théorie à d'autres anneaux de celui des entiers relatifs et découvre le premier ensemble d'entiers algébriques : les entiers de Gauss. En 1847, Tchebychev publia un travail en russe sur le sujet, que Serret popularisa en France.
+À côté du travail résumé précédemment, Legendre établit les premiers cas d'application loi de réciprocité quadratique. Cette loi, découverte par induction et énoncée par Euler, fut d'abord prouvée pour des cas exceptionnels par Legendre (1798) dans sa Théorie des Nombres . Indépendamment d'Euler et Legendre, Gauss découvrit la loi vers 1795, et fut le premier à en donner une preuve générale. Au sujet contribuèrent aussi : Cauchy ; Dirichlet dont le Vorlesungen über Zahlentheorie (en) est un classique ; Jacobi, qui introduisit le symbole de Jacobi ; Liouville, Zeller, Eisenstein, Kummer, et Kronecker. La théorie s'étendit pour inclure la réciprocité biquadratique (en) et cubique (avec Gauss, Jacobi qui fut le premier à prouver la loi de réciprocité cubique, et Kummer).
+On doit aussi à Gauss la représentation des nombres par des formes quadratiques binaires. Cauchy, Poinsot (1845), Lebesgue (en) (1859, 1868) et notablement Hermite ont contribué à ce sujet. Dans la théorie des formes ternaires, Eisenstein a été un chef de file ; on lui doit, ainsi qu'à Henry John Stephen Smith, une avancée remarquable dans la théorie des formes en général. Smith donna une classification complète des formes quadratiques ternaires, et étendit les recherches de Gauss concernant les formes quadratiques réelles vers les formes complexes. Les recherches concernant la représentation des nombres par la somme de 4, 5, 6, 7, 8 carrés furent approfondies par Eisenstein et la théorie fut complétée par Smith.
+Tchebychev (1850) donna des limites très utilisées pour les nombres premiers entre deux nombres donnés. Riemann (1859) émit son hypothèse dans Sur le nombre de nombres premiers inférieurs à une taille donnée et introduisit l'analyse complexe en étudiant sa fonction ζ. Le théorème des nombres premiers fut démontré en 1896 par Hadamard et La Vallée Poussin.
+Dans l'histoire de la théorie des nombres, le dernier théorème de Fermat joue un rôle à part, en raison des efforts considérables, étalés sur plus de trois cents ans, des mathématiciens du monde entier pour en apporter la preuve (ou le réfuter). Ce théorème affirme que pour n > 2, il n'existe pas d'entiers non nuls x, y et z vérifiant xn + yn = zn. Pierre de Fermat lui-même en apporta la preuve dans le cas particulier n = 4. Euler, en 1753, le démontra presque pour n = 3, introduisant dans sa preuve les nombres imaginaires. En 1825, Dirichlet et Legendre démontrent le cas n = 5. Au début du XIXe siècle, Sophie Germain fait une avancée importante (cf. Démonstrations du dernier théorème de Fermat). Lamé résout le cas n = 7 en 1839. Certains de ces cas sont résolus à l'aide de structure d'anneaux euclidiens de la même nature que les entiers de Gauss, comme les anneaux d'entiers d'Eisenstein. Kummer en 1847 prouve le théorème lorsque l'exposant n est un nombre premier régulier, et ouvre la théorie des idéaux. À la fin du XIXe et au début du XXe siècle, les mathématiciens délaissent le grand théorème de Fermat pour se consacrer aux fondements des mathématiques. En 1955, le japonais Taniyama émet l'hypothèse d'un lien profond entre les courbes elliptiques rationnelles et les formes modulaires, deux domaines des mathématiques a priori très éloignés l'un de l'autre. Ribet, prouvant une conjecture de Serre, montre que cette conjecture de Shimura-Taniyama-Weil a pour conséquence le grand théorème de Fermat. C'est Andrew Wiles qui prouvera une portion suffisante de cette conjecture en 1994, avec l'aide de Richard Taylor, et apportera une réponse définitive au célèbre problème.
+Parmi les derniers auteurs français se trouvent Borel, Poincaré (leurs mémoires sont nombreux et de grande valeur), Tannery et Stieltjes. Parmi les plus grands contributeurs en Allemagne se trouvent Kronecker, Kummer, Schering (de), Bachmann et Dedekind. En Autriche, le travail de Stolz Vorlesungen über allgemeine Arithmetik (1885-1886), et en Angleterre la Number Theory (Part I, 1892) de George Ballard Mathews (en) furent deux ouvrages généraux avancés. Genocchi, Sylvester, et Glaisher ont aussi participé à la théorie.
+Citation[modifier | modifier le code]
+La mathématique est la reine des sciences et la théorie des nombres est la reine des mathématiques. Gauss
+Bibliographie[modifier | modifier le code]
+Jean-Pierre Serre, Cours d'arithmétique [détail des éditions]
+Références[modifier | modifier le code]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Number theory » (voir la liste des auteurs).
+↑ Introduction à l'ouvrage Cohomology of Number Fields. « Die Zahlentheorie nimmt unter den mathematishen Disziplinen eine ähnlich idealisierte Stellung ein wie die Mathematik selbst unter den anderen Wissenschaften. »
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Théorie des nombres, sur Wikimedia Commons
+Théorie des nombres, sur Wikiversity
+Articles connexes[modifier | modifier le code]
+Code correcteur
+Libri Carucci
+Théorie probabiliste des nombres (en)
+Lien externe[modifier | modifier le code]
+Initiation à la théorie des nombres
+Portail de l’arithmétique et de la théorie des nombres
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Théorie_des_nombres&oldid=107998803 ».
+Catégorie : Théorie des nombresCatégories cachées : Article manquant de référence depuis mars 2010Article manquant de référence/Liste complèteArticle contenant un appel à traduction en anglaisArticle contenant un appel à traduction en allemandCatégorie Commons avec lien local identique sur WikidataPortail:Arithmétique et théorie des nombres/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesArticle de qualité en latin
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Alemannisch
+Aragonés
+العربية
+Asturianu
+Башҡортса
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+Brezhoneg
+Bosanski
+Català
+کوردی
+Čeština
+Cymraeg
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Võro
+Gaeilge
+贛語
+Galego
+עברית
+हिन्दी
+Fiji Hindi
+Hrvatski
+Magyar
+Հայերեն
+Interlingua
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+Lojban
+Basa Jawa
+ქართული
+Қазақша
+한국어
+Latina
+Lëtzebuergesch
+Lietuvių
+Latviešu
+മലയാളം
+Монгол
+मराठी
+Bahasa Melayu
+Malti
+Plattdüütsch
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Occitan
+Polski
+Piemontèis
+پنجابی
+Português
+Română
+Русский
+Sicilianu
+Scots
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Shqip
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Türkmençe
+Tagalog
+Türkçe
+Українська
+اردو
+Oʻzbekcha
+Tiếng Việt
+Volapük
+Winaray
+ייִדיש
+中文
+粵語
+Modifier les liens
+Dernière modification de cette page le 6 octobre 2014 à 09:10.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

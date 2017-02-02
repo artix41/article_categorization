@@ -1,0 +1,405 @@
+Module d'Young — Wikipédia
+Module d'Young
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Module de Young)
+Aller à :					navigation, 					rechercher
+Diagramme contrainte-déformation d'un matériau ductile.
+Un module élastique peut être déterminé à partir de la géométrie, de la raideur et de l'angle de phase de l'échantillon.
+Le module d'Young ou module d’élasticité (longitudinale) ou encore module de traction est la constante qui relie la contrainte de traction (ou de compression) et le début de la déformation d'un matériau élastique isotrope.
+Le physicien britannique Thomas Young (1773-1829) avait remarqué que le rapport entre la contrainte de traction appliquée à un matériau et la déformation qui en résulte (un allongement relatif) est constant, tant que cette déformation reste petite et que la limite d'élasticité du matériau n'est pas atteinte. La loi d'élasticité est la loi de Hooke, c'est-à-dire , où :
+est la contrainte (en unité de pression) ;
+est le module d'Young (en unité de pression) ;
+est l'allongement relatif, ou déformation (adimensionnel).
+Le module d'Young est la contrainte mécanique qui engendrerait un allongement de 100 % de la longueur initiale d'un matériau (il doublerait donc de longueur), si l'on pouvait l'appliquer réellement : dans les faits, le matériau se déforme de façon permanente, ou se rompt, bien avant que cette valeur ne soit atteinte. Le module d'Young est la pente initiale du diagramme de déformation-contrainte.
+Un matériau dont le module d'Young est très élevé est dit rigide. L'acier, l'iridium, le diamant, sont des matériaux très rigides, l'aluminium et le plomb le sont moins. Les matières plastiques et organiques, les mousses sont généralement peu rigides, on dit qu'elles sont souples, élastiques ou flexibles (pour un effort de flexion).
+N. B. Ne pas confondre :
+rigidité et résistance : la résistance mécanique d'un matériau est caractérisée par sa limite d'élasticité et/ou sa résistance à la traction ;
+rigidité et raideur : la raideur d'une poutre (par exemple) dépend de son module d'Young (de sa rigidité) mais aussi du rapport de sa section à sa longueur[1]. La rigidité caractérise les matériaux, la raideur concerne les produits et les constructions : une pièce mécanique massive en matière plastique peut être beaucoup plus raide qu'un ressort en acier ;
+rigidité et dureté : la dureté d'un matériau définit la résistance relative qu'oppose sa surface à la pénétration d'un corps plus dur.
+Le tenseur des rigidités généralise le module d'Young aux matériaux anisotropes.
+Sommaire
+1 Unités
+2 Expressions théoriques
+3 Relations
+4 Méthodes de mesure du module d'Young
+5 Quelques valeurs numériques de modules d'Young
+6 Utilisations
+7 Articles connexes
+8 Références
+9 Sources
+Unités[modifier | modifier le code]
+D'après l'équation aux dimensions, le module d'Young est homogène à une pression, ou plus précisément une contrainte. L'unité internationale est donc le pascal (Pa). En raison des valeurs élevées que prend ce module, il est en général exprimé en gigapascals (GPa) ou mégapascals (MPa).
+Expressions théoriques[modifier | modifier le code]
+Dans le cas d'un matériau cristallin et certains matériaux amorphes, le module d'Young exprime la « force de rappel » électrostatique qui tend à maintenir les atomes à distance constante. Il peut s'exprimer en fonction de la dérivée seconde du potentiel interatomique.
+Dans le système d'unités « naturelles » atomique, le module d'Young, pour un matériau isotrope, est homogène à[2]
+où
+et où
+est la constante de Planck réduite.
+Cela dit, compte tenu des problèmes où il apparaît (bilaplacien), il paraît assez naturel de le rationaliser :
+soit comme  ;
+soit comme ,
+les ordres de grandeur de
+ou
+sont à comparer aux valeurs tabulées, de l'ordre de 100 GPa, qui apparaissent alors relever de ce corpus théorique.
+Dans le cas des polymères, l'agitation thermique « tortille » la chaîne carbonée qui tend à maintenir la longueur de la chaîne constante. Le module d'Young peut alors s'exprimer en fonction de l'entropie.
+Cette différence de comportement est flagrante lorsque l'on considère l'influence de la température ; si l'on soumet une éprouvette à une charge constante (essai de fluage) :
+lorsque l'on augmente la température, une éprouvette de métal s'allonge (dilatation), donc son module d'Young diminue, tandis que l'éprouvette en polymère se raccourcit (les chaînes s'agitent, s'entortillent) donc son module d'Young augmente[réf. nécessaire] ;
+lorsque l'on diminue la température, on observe le phénomène inverse : l'éprouvette de métal se raccourcit (contraction) donc son module d'Young augmente, tandis que l'éprouvette de polymère s'allonge (les chaînes sont moins agitées et se laissent étirer) donc son module d'Young diminue[réf. nécessaire].
+Relations[modifier | modifier le code]
+La relation entre le module de cisaillement () et le coefficient de Poisson () s'écrit .
+La relation entre
+et , appelés coefficients de Lamé, est
+.
+Méthodes de mesure du module d'Young[modifier | modifier le code]
+Le plus simple reste bien sûr de réaliser un essai de traction. Et, connaissant les dimensions de l'éprouvette, d'en déduire le module d'Young . Cependant, il est difficile de réaliser cette mesure avec une bonne précision.
+C'est pourquoi on préfère, lorsque cela est possible, déduire le module d'Young de la fréquence propre de vibration d'une tige de matériau maintenue à ses extrémités et chargée en son milieu.
+Article connexe : Méthode d'Oberst.
+On peut aussi mesurer la vitesse du son dans le matériau qui nous intéresse, et en déduire le module d'Young sachant qu'on a la relation suivante
+.
+Cependant, cette loi est approchée : la vitesse du son dépend aussi du coefficient de Poisson.
+Le module d'Young augmente avec la vitesse de déformation. Voir aussi Principe d'équivalence temps-température.
+Le module d'Young complexe peut être déterminé par analyse mécanique dynamique.
+Quelques valeurs numériques de modules d'Young[modifier | modifier le code]
+Les caractéristiques mécaniques des matériaux sont variables d'un échantillon à l'autre. D'un point de vue global, selon M. Ashby, on trouve des matériaux dont la valeur est comprise entre 10 kPa (mousses) et 1 000 GPa (céramiques techniques).
+Métaux purs
+Matériaux
+Module (GPa)
+Aluminium (Al)
+69
+Argent (Ag)
+83
+Baryum (Ba)
+13
+‍Béryllium (Be)
+240
+Bismuth (Bi)
+32
+Cadmium (Cd)
+50
+‍Césium (Cs)
+1,7
+Chrome (Cr)
+289
+Cobalt (Co)
+209
+Cuivre (Cu)
+124
+‍Étain (Sn)
+41,5
+Fer (Fe)
+196
+Germanium (Ge)
+89,6
+Indium (In)
+11
+Iridium (Ir)
+528
+Lithium (Li)
+4,9
+Magnésium (Mg)
+45
+Manganèse (Mn)
+198
+Molybdène (Mo)
+329
+Nickel (Ni)
+214
+Niobium (Nb)
+105
+Or (Au)
+78
+Palladium (Pd)
+121
+Platine (Pt)
+168
+Plomb (Pb)
+18
+Plutonium (Pu)
+96
+Rhodium (Rh)
+275
+Rubidium (Rb)
+2,4
+Ruthénium (Ru)
+447
+Scandium (Sc)
+74
+‍Sélénium (Se)
+10
+Sodium (Na)
+10
+Tantale (Ta)
+186
+Titane (Ti)
+114
+Tungstène (W)
+406
+Uranium (U)
+208
+Vanadium (V)
+128
+Zinc (Zn)
+78
+Zirconium (Zr)
+68
+Alliages
+Matériaux
+Module (GPa)
+Acier de construction
+210
+Acier à ressorts
+220
+Acier inoxydable 18-10
+203
+Bronze (cuivre + 9 à 12 % d'étain)
+124
+Bronze au béryllium
+130
+Cuivre laminé U4 (recuit)
+90
+Cuivre laminé U4 (écroui dur)
+150
+Duralumin AU4G
+75
+Fontes
+83 à 170
+Hastelloy B2 (Ni + Mo)
+217
+Hastelloy C 2000 (Ni + Cr + Mo)
+206
+Inconel X-750 (Ni + Cr + Fe)
+212 à 218
+Invar
+140
+Laiton (Cu + Zn)
+100 à 130
+Monel 400 (Ni + Cu)
+173
+Nimonic 90 (Ni + Cr + Co)
+213 à 240
+Nispan (Ni + Cr + Ti)
+165 à 200
+Phynox (Co + Cr + Ni + Mo)
+203
+Verres, céramiques, oxydes, carbures métalliques, minéraux
+Matériaux
+Module (GPa)
+Alumine (oxyde d'aluminium Al2O3)
+390
+Arsenic (As)
+8
+Arséniure de gallium (AsGa)
+85,5
+‍Béton
+20 à 50
+Brique
+14
+Calcaire (carbonate de calcium CaCO3, pierres)
+20 à 70
+Carbure de chrome (Cr3C2)
+373
+Carbure de silicium (SiC)
+450
+Carbure de titane (TiC)
+440
+Carbure de tungstène (WC)
+650
+Carbure de zirconium (ZrC)
+380 à 440
+Diamant (C)
+1 000
+Glace (H2O)
+9,3
+Graphite
+30
+Granite
+60
+Marbre
+26
+Mullite (Al6Si2O13)
+145
+Neige (glace H2O + air)
+0,0002 à 0,015
+Oxyde de béryllium (BeO)
+30
+Oxyde de magnésium (MgO)
+250
+Oxyde de zirconium (ZrO)
+200
+Saphir
+420
+Silice (oxyde de silicium SiO2)
+107
+Titanate d'aluminium (Ti3Al)
+140
+Titanate de baryum (BaTiO3)
+67
+Verre
+69
+Bois
+Matériaux
+Module (GPa)
+Acajou (Afrique)
+12
+Bambou
+20
+Bois de rose (Brésil)
+16
+Bois de rose (Inde)
+12
+Chêne
+12
+Contreplaqué glaw
+12,4
+‍Épicéa
+10 à 13
+‍Érable
+10
+Frêne
+10
+Papier
+3 à 4
+Séquoia
+9,5
+N.B. Ces valeurs sont celles du module d'élasticité dans le sens parallèle au fil (matériau anisotrope). Dans une même essence, celui-ci varie en fonction de l'humidité, de la densité (qui n'est pas constante) et d'autres caractéristiques (longueur des fibres…).
+Polymères, fibres
+Matériaux
+Module (GPa)
+Caoutchouc
+0,001 à 0,1
+Fibre de carbone haut module
+640
+Fibre de carbone haute résistance
+240
+Kevlar
+34,5
+Nanotube de carbone
+1 100
+Nylon
+2 à 5
+Plexiglas (poly(méthacrylate de méthyle))
+2,38
+Polyamide
+3 à 5
+Polycarbonate
+2,3
+‍Polyéthylène
+0,2 à 0,7
+Polystyrène
+3 à 3,4
+Résine époxyde (durcie)
+3,5
+Biomatériaux
+Matériaux
+Module (GPa)
+Bec de poussin
+50
+Cartilage
+0,024
+Cheveu
+10
+Collagène
+0,006
+Laine
+14
+Piquant d'oursin
+15 à 65
+Radius
+18,6
+Soie d'araignée
+25
+Soie du ver à soie
+17
+Vertèbre cervicale
+0,23
+Vertèbre lombaire
+0,16
+Utilisations[modifier | modifier le code]
+En médecine, la mesure des variations du module d'Young dans un organe est une possibilité de l'imagerie médicale qui permet de représenter l'élasticité des tissus même profonds, par exemple pour donner l'étendue de la fibrose d'un foie ou détecter dans un sein un carcinome petit ou profond, peu décelable à la palpation (élastographie de 2e génération).
+Articles connexes[modifier | modifier le code]
+Module élastique
+Facteur de forme
+Module de cisaillement
+Mécanique des milieux continus
+Élinvar
+Références[modifier | modifier le code]
+↑ Sophie Trachte, Matériau, matière d'architecture soutenable : Choix responsable des matériaux de construction..., Presse universitaire de Louvain, coll. « Thèse »,‎ juin 2012, 534 p. (ISBN 2875580817), p. 75
+↑ Charles Kittel (trad. Nathalie Bardou, Évelyne Kolb), Physique de l’état solide [« Solid state physics »],‎ 1998 [détail des éditions], chap. 3.
+Sources[modifier | modifier le code]
+Ch. Kittel , Physique du solide, éd. Dunod, chap. Constantes d'élasticité.
+Michael F. Ashby, David R. H. Jones, Matériaux 1. Propriétés et applications, éd. Dunod, chap. 3 : Les constantes d'élasticité.
+v · d · m
+Modules d'élasticité pour des matériaux homogènes et isotropes
+Module de Young (E) · Module de cisaillement (G) · Module d'élasticité isostatique (K) · Premier coefficient de Lamé (λ) · Coefficient de Poisson (ν) · Module d'onde de compression (M, P-wave modulus)
+Formules de conversion
+Les propriétés élastiques des matériaux homogènes, isotropes et linéaires sont déterminées de manière unique par deux modules quelconques parmi ceux-ci. Ainsi, on peut calculer chacun à partir de deux d'entre eux en utilisant ces formules.
+Portail des sciences des matériaux
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Module_d%27Young&oldid=109980258 ».
+Catégories : Mécanique des milieux continusBiomécaniqueBiomathématiquesCatégories cachées : Article à référence nécessairePortail:Matériaux/Articles liésPortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Čeština
+English
+Español
+Gaeilge
+Հայերեն
+Bahasa Indonesia
+日本語
+Қазақша
+한국어
+Polski
+Русский
+Simple English
+Slovenčina
+தமிழ்
+Türkçe
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 15 décembre 2014 à 16:37.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

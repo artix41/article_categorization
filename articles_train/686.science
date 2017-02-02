@@ -1,0 +1,113 @@
+Ensembl — Wikipédia
+Ensembl
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Ensembl est un système bio-informatique d'annotation automatique de génomes. C'est un projet conjoint de l'European Bioinformatics Institute (EBI) et du Wellcome Trust Sanger Institute dont l'idée centrale est d'organiser de vastes champs d'information biologique autour de séquences génomiques.
+Sommaire
+1 Annotation automatique
+2 Les différentes facettes d'Ensembl
+3 Culture
+4 Liens externes
+4.1 Sites
+4.2 Références
+Annotation automatique[modifier | modifier le code]
+Pour chaque génome analysé, Ensembl tente d'identifier par un processus automatique l'ensemble des gènes qu'il contient. Il s'appuie pour cela sur des données de séquences existantes (ARN, protéines), qu'il "raccroche" sur le génome, pour en déduire la structure des gènes.
+Sur cette première strate d'annotation, celle de la structure des gènes, Ensembl va ajouter d'autres éléments, parmi lesquels :
+Variations communes (polymorphismes)
+Éléments régulateurs des gènes
+Informations sur les protéines codées par les gènes
+Annotations externes, à travers le Distributed Annotation System (DAS)
+Gènes similaires d'autres organismes
+Maladies génétiques et syndromes cliniques
+Les différentes facettes d'Ensembl[modifier | modifier le code]
+Ensembl se présente d'abord comme un navigateur de génomes (Genome Browser) permettant d'explorer et de visualiser à différents niveaux les génomes de nombreux organismes.
+Ensembl est aussi une base de données ouverte dans laquelle on peut librement venir puiser, soit directement, soit à travers une interface de programmation, soit par le système d'interrogation BioMart.
+Enfin, Ensembl est une infrastructure logicielle ouverte qui permet de construire différents systèmes organisant des données liées aux séquences génomiques.
+Culture[modifier | modifier le code]
+Le projet Ensembl est animé par une culture d'ouverture extensive, ce qui se traduit par :
+une pluralité de modes d'accès aux données : par le site Web, par téléchargement, par l'interface de programmation
+par l'intégration de sources de données externes, en particulier par le système DAS
+par l'accès à l'intégralité des programmes sources
+par l'existence d'un HelpDesk et de listes de discussion
+Liens externes[modifier | modifier le code]
+Sites[modifier | modifier le code]
+Ensembl
+Vega, base de données d'annotations manuelles, de haute qualité, de génomes de vertébrés
+Autres navigateurs de génomes: UCSC Genome Browser, NCBI Map Viewer
+Références[modifier | modifier le code]
+Ensembl 2007. Nucleic Acids Res. 2007 Jan;35(Database issue):D610-7.
+Un ensemble d'articles détaillés a été publié en mai 2004 par la revue Genome Research.
+v · d · m
+Bio-informatique
+Bases de données
+Banques de séquences : GenBank, EMBL Nucleotide Sequence Database et DNA Data Bank of Japan (DDBJ)
+Bases de données secondaires : UniProt, base de donnée de séquences protéiques regroupant Swiss-Prot, TrEMBL et Protein Information Resource (PIR)
+Quelques autres bases de données : Protein Data Bank · Ensembl · InterPro
+Bases de données génomiques spécialisées : Saccharomyces Genome Database, FlyBase, WormBase, The Arabidopsis Information Resource, Zebrafish Information Network
+Divers
+Algorithme : BLAST · FASTA · Smith-Waterman · Serveur : ExPASy
+Institutions
+Institut européen de bio-informatique (EBI) · Centre américain pour les informations biotechnologiques (NCBI) · Institut suisse de bioinformatique · Institut japonais de génétique
+Séquençage · Alignement de séquences · Phylogénie moléculaire
+Portail de la biologie
+Portail de l’informatique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Ensembl&oldid=90208914 ».
+Catégories : Bio-informatiqueBiologie moléculaireCatégories cachées : Portail:Biologie/Articles liésPortail:Sciences/Articles liésPortail:Informatique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Deutsch
+English
+Español
+Íslenska
+Italiano
+Bahasa Melayu
+Русский
+Srpskohrvatski / српскохрватски
+Српски / srpski
+中文
+Modifier les liens
+Dernière modification de cette page le 15 mars 2013 à 00:14.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

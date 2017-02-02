@@ -1,0 +1,32 @@
+Liaison nucléaire — Wikipédia
+Liaison nucléaire
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Énergie de liaison nucléaire)
+Aller à :					navigation, 					rechercher
+La liaison nucléaire est le phénomène qui assure la cohésion d'un noyau atomique.
+Le noyau atomique est composé de protons de charge électrique positive, et de neutrons de charge électrique nulle. La répulsion coulombienne tend à séparer les protons. C'est l'interaction forte, portée par les gluons, qui permet d'assurer la stabilité du noyau.
+Sommaire
+1 Énergie de liaison
+1.1 Énergie nucléaire
+1.2 Défaut de masse
+2 Notes et références
+3 Voir aussi
+3.1 Articles connexes
+Énergie de liaison[modifier | modifier le code]
+L'énergie de liaison B d'un noyau atomique est l'énergie qu'il faut fournir au noyau pour le dissocier en ses nucléons, qui s'attirent du fait de l'interaction forte. On définit également une énergie de liaison par nucléon : B/A (A étant le nombre de masse du nucléide).
+Énergie nucléaire[modifier | modifier le code]
+Article détaillé : énergie nucléaire.
+Énergie de liaison par nucléon pour les isotopes les plus courants
+Certaines transformations de noyaux libèrent de l'énergie de liaison : c'est l'origine de l'énergie nucléaire. Ces transformations sont appelées réactions nucléaires. Elles sont de deux types (fusion et fission) :
+Deux éléments légers (hydrogène, hélium...) produisent un dégagement d'énergie en fusionnant. Cette fusion est à l'origine de l'énergie dégagée par le Soleil.
+Les éléments lourds (uranium, plutonium...) ne peuvent dégager de l'énergie que par la fission nucléaire. C'est la réaction de fission qui est mise en œuvre dans les centrales nucléaires.
+Défaut de masse[modifier | modifier le code]
+Le défaut de masse, noté B, est la différence entre la somme des masses de tous les nucléons d'un noyau (masses des Z protons + masse des A-Z neutrons) et la masse de ce même noyau M(A,Z) :
+B(A,Z) = Zmp + (A – Z)mn – M(A,Z).
+Cette énergie apparaît dans le bilan de masse du système : la masse du noyau est inférieure à la somme des masses de chacun de ses nucléons. Ce défaut de masse se retrouve sous forme d'énergie grâce au principe d'équivalence masse-énergie (E = mc2) exprimé par Albert Einstein.
+D'ailleurs, en physique nucléaire et physique des particules, l'utilisation de cette relation est implicite : les masses sont souvent exprimées en électron-volt, laissant le lecteur rajouter les « divisé par c2 » par analyse dimensionnelle.
+La masse M(A,Z) d'un noyau (dans son état fondamental) est alors donnée par l'équation suivante :
+M(A,Z) = Zmp + (A – Z)mn – B(A,Z)/c2,
+où apparaissent les masses mp et mn des protons et des neutrons. En pratique, pour éviter des nombres trop grands, on utilise l'excès de masse par rapport au carbone 12 dont l'excès de masse[1] est nul par définition.
+L'énergie de liaison par nucléon n'est pas la même suivant le nucléide. Elle est comprise entre 2 MeV et 9 MeV. Comme l'énergie de masse propre du proton est de 938 MeV, une énergie de liaison de 9 MeV est moins de 1 % de l'énergie de masse. Faible pour les noyaux légers, elle augmente jusqu'au nickel 62 et décroît ensuite. La forme de cette énergie peut être expliquée à l'aide de la formule de Bethe-Weizsäcker.
+La notion de défaut de masse n'est pas spécifique à la liaison nucléaire. Il est assez rare de travailler sur les noyaux seuls et les défauts de masse apparaissant dans les tables de masses atomiques comportent une partie due à la présence des électrons et de leur interaction électromagnétique avec le noyau. Cependant lors de réactions nucléaires que subissent des atomes ou des ions les ordres de grandeur des énergies libérées, d'origine nucléaire, sont de loin supérieurs à ceux des variations d'énergie dues à la réorganisation du cortège électronique.

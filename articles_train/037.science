@@ -1,0 +1,259 @@
+Gaz parfait — Wikipédia
+Gaz parfait
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cycles de Carnot pour un gaz parfait de Laplace monoatomique dans des diagrammes Volume-Pression (V,P) et Entropie-Température (S,T). Parce que les lignes isothermes et adiabatiques sont équidistantes au sens de la température absolue et de l'entropie, tous les losanges curvilignes élémentaires ont même aire. La mesure de cette aire est égale au travail que fournit le gaz quand son point représentatif parcourt les cycles entourant ces surfaces dans le sens horaire.
+Le gaz parfait est un modèle thermodynamique décrivant le comportement des gaz réels à basse pression.
+Ce modèle a été développé du milieu du XVIIe siècle au milieu du XVIIIe siècle et formalisé au XIXe siècle. Il est fondé sur l'observation expérimentale que tous les gaz tendent vers ce comportement à pression suffisamment basse, quelle que soit la nature chimique du gaz, ce qu'exprime la loi d'Avogadro, énoncée en 1811 : la relation entre la pression, le volume et la température est, dans ces conditions, indépendante de la nature du gaz. Cette propriété s'explique par le fait que lorsque la pression est faible, les molécules de gaz sont suffisamment éloignées les unes des autres pour que l'on puisse négliger les interactions électrostatiques qui dépendent, elles, de la nature du gaz (molécules plus ou moins polaires). De nombreux gaz réels vérifient avec une excellente approximation le modèle du gaz parfait dans les conditions normales. C'est le cas des gaz principaux de l'air, le diazote et le dioxygène.
+Sommaire
+1 Description d'un gaz parfait
+2 Équation d'état : la loi des gaz parfaits
+2.1 Expression
+2.2 Démonstration (mécanique statistique)
+3 Gaz parfait de Laplace
+3.1 Définition
+3.2 Loi de Laplace
+3.2.1 Expérience : détente dans un récipient vide
+3.2.2 Cycle de Carnot d'un gaz parfait de Laplace
+4 Détente de Joule
+5 Propriétés thermodynamiques du gaz parfait
+5.1 Énergie interne
+5.2 Enthalpie
+5.3 Entropie
+5.4 Enthalpie libre
+5.5 Capacités calorifiques, relation de Mayer
+6 Gaz parfait et théorie cinétique des gaz
+7 Mélange de gaz parfaits
+8 Au-delà du gaz parfait
+8.1 Gaz réel
+8.2 Gaz parfait quantique
+8.3 Gaz parfait relativiste
+9 Notes et références
+10 Voir aussi
+10.1 Articles connexes
+10.2 Lien externe
+Description d'un gaz parfait[modifier | modifier le code]
+Sur les plans macroscopiques, on appelle gaz parfait tout gaz vérifiant simultanément :
+loi de Boyle-Mariotte
+à température constante, le produit de la pression p par le volume V : pV est considéré comme constant lorsque la pression est faible ;
+loi d'Avogadro
+tous les gaz parfaits ont le même volume molaire dans les mêmes conditions de pression et de température.
+loi de Gay-Lussac
+à pression constante, le volume est directement proportionnel à la température ;
+loi de Charles
+à volume constant, la pression est proportionnelle à la température ;
+loi de Dalton
+la pression totale exercée par un mélange de gaz est égale à la somme des pressions que chaque gaz exercerait s'il était seul.
+Sur le plan microscopique, la théorie cinétique des gaz permet de retrouver ce comportement de gaz parfait : un gaz parfait est un gaz dont les molécules n'interagissent pas entre elles en dehors des chocs et dont la taille est négligeable par rapport à la distance intermoléculaire moyenne. L'énergie du gaz parfait est donc la somme de l'énergie cinétique du centre de masse des molécules et de l'énergie interne de chaque molécule (rotation, oscillation). Lorsque ces deux énergies sont proportionnelles, on a le Gaz parfait de Laplace.
+Équation d'état : la loi des gaz parfaits[modifier | modifier le code]
+Expression[modifier | modifier le code]
+Comme pour tout gaz, l'état d'équilibre thermodynamique d'un gaz parfait est fixé pour n moles de molécules, par deux paramètres macroscopiques, au choix. Les autres paramètres peuvent se calculer à partir des deux paramètres choisis par l'équation d'état.
+L'équation la plus couramment utilisée est l'équation des gaz parfaits.
+On peut l'écrire différemment, dans une approche plus microscopique où l'on considère le nombre de molécules contenu dans une unité de volume.
+En thermodynamique, une autre version est couramment utilisée :
+Dans ces expressions,
+p est la pression du gaz (en pascal) ;
+V est le volume occupé par le gaz (en mètre cube) ;
+n est la quantité de matière (en mole) ;
+N est le nombre de particules ;
+R est la constante universelle des gaz parfaits :
+R = 8,3144621 J·K-1·mol-1
+on a en fait R = NA·kB où NA est le nombre d'Avogadro (6,022×1023 mol-1) et kB est la constante de Boltzmann (1,38×10-23 J·K-1) ;
+T est la température absolue (en kelvin) ;
+est le volume massique (ou volume spécifique), l'inverse de la masse volumique () (en mètre cube par kilogramme () ;
+est une constante qui dépend du gaz, elle est définie comme suit
+où Mmol est la masse molaire du gaz considéré. Pour l'air, r = 8,314 472 / (28,965 338 ×10-3) ≈ 287 J·kg-1·K-1
+Cette équation dérive d'autres lois trouvées auparavant : la loi de Charles, la loi de Boyle-Mariotte et la loi de Gay-Lussac.
+Application numérique :
+pour une pression d'une atmosphère (p = p0 = 1,013 25×105 Pa)
+et une température de 0 °C (T = T0 = 273,15 K, température de la glace fondante sous p0),
+le volume molaire est
+V0 = 22,413 996(39) L/mol
+On retient en général la valeur approchée 22,4 L/mol.
+Ce qui donne un volume par molécule (volume « libre » autour de la molécule, indépendamment de sa dimension) :
+si l'on assimile ce volume libre à un cube, alors l'arête de ce cube est globalement la distance moyenne séparant les molécules à chaque instant, que l'on appelle « longueur de Loschmidt » d0. Cette valeur est la racine cubique du volume « libre » :
+d0 = 3,338 792 5 nm
+on utilise en général la valeur approchée 3,33 nm.
+Pour une pression valant un millionième de la pression atmosphérique (p0/1 000 000), la distance interparticulaire est 333 nm = 1/3 micromètre et est indépendante de la nature du gaz.
+Démonstration (mécanique statistique)[modifier | modifier le code]
+Articles connexes : Ensemble microcanonique
+et Fonction de partition.
+quelques incohérences
+On considère un gaz parfait constitué de N particules identiques. L'état de chaque particule est caractérisé par sa position
+et sa quantité de mouvement . Chaque particule a une énergie cinétique proportionnelle au carré de sa vitesse , les particules peuvent échanger de l'énergie entre elles de façon conservative.
+Étant donné une énergie totale
+il existe de nombreuses configurations de l'espace des phases
+correspondant à ce niveau d'énergie.
+On définit un volume élémentaire dans l'espace des phases , avec h égale à la constante de Planck pour être cohérent avec la mécanique quantique. Étant donné une plage d'énergie le nombre de configuration microscopique, micro-état, est égal au volume de cette plage d'énergie dans l'espace des phases divisé par le volume élémentaire et le nombre de permutation possible entre les particules , les particules étant indiscernables.
+Le nombre de micro-états correspondants à une énergie comprise entre
+et
+est
+avec
+et
+est un nombre fonction de N.
+Démonstration
+On cherche à calculer le nombre
+de micro-états correspondants à une énergie comprise entre
+et , pour cela on commence par déterminer le nombre
+de micro-états correspondants à une énergie inférieure à .
+Ce nombre
+est égal au volume de l'espace des phases correspondant, divisé par une cellule élémentaire permettant de dénombrer ces micro-états classiques (en accord avec la mécanique quantique, on prend cette cellule égale à
+la constante de Planck.), et divisé par le nombre de permutations de ces N particules, N!, ce qui permet de rendre compte de leur indiscernabilité (ce qui est encore dû à la mécanique quantique) :
+On a d'abord
+d'où
+Par hypothèse, il n'y a pas d'interactions entre les particules du gaz, donc l'énergie
+est égale à l'énergie cinétique totale . E étant majorée par , l'ensemble des impulsions
+décrit une boule de rayon
+et de centre l'origine dans l'espace des impulsions, qui est de dimension 3N. Or le volume d'une boule de rayon R dans un tel espace est de la forme . On a donc :
+D'où :
+Avec
+(énergie du niveau fondamental d'une particule dans une boite cubique)
+La densité de micro-états à l'énergie
+est donc
+On a donc le nombre de micro-états cherché :
+On en déduit l'entropie du gaz en fonction de l'énergie :
+Les grandeurs thermodynamiques se calculent ensuite selon :
+D'où la loi cherchée  :
+Gaz parfait de Laplace[modifier | modifier le code]
+Définition[modifier | modifier le code]
+Si la capacité thermique à pression constante
+d'un gaz parfait ne dépend pas de , il en est de même de la capacité thermique à volume constant
+en raison de la relation de Mayer, ainsi que du quotient . Dans ce cas, le gaz parfait est dit de Laplace. Des valeurs particulières de
+modélisent le comportement de certains gaz.
+Ainsi si on choisit , le gaz parfait de Laplace modélisant est dit « gaz parfait monoatomique » (GPM). Le comportement de l'argon est très proche d'un gaz parfait monoatomique.
+Si on choisit , le gaz parfait de Laplace est dit « gaz parfait diatomique » (GPD). Le comportement du diazote N2 est proche d'un gaz parfait diatomique.
+Pour un gaz parfait de Laplace, on a :
+où U est l'énergie interne du gaz et H son enthalpie, soit, pour un gaz parfait monoatomique :
+et pour un gaz parfait diatomique :
+Loi de Laplace[modifier | modifier le code]
+Article détaillé : Loi de Laplace (thermodynamique).
+Dans une transformation adiabatique réversible élémentaire, . Ceci entraîne, en remplaçant U par sa valeur en fonction de p et V :
+Soit en intégrant, la Loi de Laplace :
+Compte tenu de l'équation des gaz parfaits, cette relation s'écrit également sous la forme :
+Il en résulte, dans une détente adiabatique, un refroidissement considérable, le gaz prenant sur son énergie interne le travail, (-W ), qu'il fournit.
+Application numérique
+Pour un gaz parfait monoatomique pour lequel , on trouve :
+Soit pour une diminution de pression de 90 %, un abaissement de température absolue d'un facteur 0,398. De 300 K la température descend à 120 K soit une chute de 180 K. Ce procédé est utilisé dans l'industrie pour obtenir de basses températures. Malheureusement, la valeur obtenue ne réflète pas réalité, car les gaz réels ne sont pas des gaz parfaits à basse température.
+Pour les ordres de grandeur, on retient R·T ~ 2 500 J/mol à 300 K. Le travail récupéré dans cette détente est 2500·(180/300) = 900 J/mol.
+Expérience : détente dans un récipient vide[modifier | modifier le code]
+Article détaillé : détente adiabatique.
+Une autre loi remarquable est l'échauffement produit quand on laisse pénétrer un gaz parfait de Laplace dans un flacon vide. Le gaz s'engouffre et puis très vite tout redevient chaotique : la température s'uniformise et devient
+= 0
+0 étant la température externe. Pour une température externe de 300 K et un gaz parfait monoatomique, on obtient :
+= 500 K
+soit une élévation de 200 K. Dans la soufflerie de Modane, c'est bien ce que l'on peut observer.
+Ainsi, on a deux cas d'expansion du gaz.
+Cycle de Carnot d'un gaz parfait de Laplace[modifier | modifier le code]
+Un cycle de Carnot moteur d'un gaz parfait a comme le veut le théorème de Carnot, le rendement de Carnot :
+.
+Dans le cas présent, tout peut se calculer aisément. Décrivons le cycle — on pourra le dessiner aisément en coordonnées de Clapeyron logarithmiques (log V, log p) :
+Transformation (A → B) : compression isotherme à température basse, T2, réversible : il faut donc, pour éviter que le gaz ne s'échauffe, libérer une quantité de chaleur -Q2 >0 à la source froide qui maintient la température T2.
+Transformation (B → C) : compression de Laplace : la température monte de T2 à T1.
+Transformation (C → D) : détente isotherme à haute température T1, réversible : pour éviter que le gaz ne se refroidisse, il faut que la source chaude fournisse une quantité de chaleur Q1>0.
+Transformation(C → A) (le point C a été choisi à l'intersection de l'adiabatique réversible passant par A) : la détente adiabatique réversible ramène la température de T1 à T2, et le gaz à son état initial.
+Fin du cycle.
+Puisque le gaz est revenu à son état initial, le premier principe de la thermodynamique nous dit que
+W + Q1 + Q2 = 0
+Le rendement du moteur est le travail récupéré -W (donc égal à Q1 + Q2) divisé par la quantité de chaleur délivrée par la source chaude, soit Q1 :
+On démontre que
+d'où
+.
+Ce qui nous donne la formule annoncée.
+L'égalité de Clausius
+provient du fait que le cycle a été réversible : l'entropie totale est restée constante, celle du gaz est nulle car il est revenu dans l'état A. La source 1 a vu son entropie varier de -Q1/T1, la source 2 de -Q2/T2, d'où l'égalité.
+Application numérique : même en prenant une eau de rivière à 300 K et une source chaude à 600 K, le rendement ne serait que 50 %. Sur un gigawatt électrique fourni par une centrale « reversible », 2GW doivent être consommés (en charbon, pétrole, méthane, ou mox nucléaire) dont 1 GW ira à la rivière (élévation de température) ou dans l'atmosphère (chaleur de fumée, vapeur d'une tour de réfrigération). Si l'on considère que toute la chaleur va dans la rivière et que celle-ci a un débit 100 m3/s : en 1 seconde, 109 J iront chauffer 100×106 g d'eau : soit une élévation de température de 10 (J)/4,18 (J/K) = 2,4 K.
+Six centrales produisant 6 GW donneraient une élévation de 6·2,4 = 14,4 K. En France, il est interdit de dépasser 27 °C dans une rivière (obligation légale, pour la survie de la vie aquatique en zone tempérée) : l'été 2003 fut très chaud, il a fallu arrêter certaines centrales[1]. Cette pollution thermique (Q2 < 0) calculée par la formule de Carnot est la plus basse possible ; il s'agit en fait d'un minimum, la pollution thermique réelle est plus élevée. Encore avons-nous pris un rendement r = 0,5 ; la réalité est proche de 0,42.
+Détente de Joule[modifier | modifier le code]
+Voici un troisième exemple, la détente de Joule et Gay-Lussac[2] : le gaz parfait est contenu dans un flacon de volume V1 et est brutalement mis en contact avec un récipient vide de volume V2, où il s'engouffre partiellement. Quelle est la température finale en admettant que les parois n'absorbent aucune chaleur ?
+Dans un premier temps, dans le second récipient, le gaz doit être plus chaud ; si V2 est très inférieur à V1, on doit retrouver T2 = γ·T0, d'après l'expérience 2.
+Dans le récipient 1, le gaz qui y reste s'est détendu, il doit être plus froid ; c'est ce que l'on constate. Mais après retour à l'équilibre thermique, comme un gaz parfait est un gaz de Joule, la température ne change pas.
+Propriétés thermodynamiques du gaz parfait[modifier | modifier le code]
+Énergie interne[modifier | modifier le code]
+L'énergie interne d'une quantité donnée d'un corps pur dépend de 2 variables indépendantes (on choisit T et V dans ce cas). Donc sa différentielle est égale à:
+Or l'énergie interne est constituée des énergies cinétiques microscopiques correspondant à l'agitation thermique et des énergies d'interactions microscopiques correspondant aux énergies de liaisons et d'interactions diverses. Dans le cas d'un gaz parfait, par définition, ces dernières énergies restent constantes (pas de réaction chimique ou à fortiori nucléaire et pas d'interactions entre particules du gaz parfait). Comme l'agitation thermique ne dépend que de , il s'ensuit que l'énergie interne d'un gaz parfait ne dépend que de .
+Donc, pour un gaz parfait
+Et on obtient
+Or
+(capacité calorifique molaire à volume constant du gaz parfait).
+Il s'ensuit, pour n mol de gaz parfait:
+Enthalpie[modifier | modifier le code]
+De même, pour la même raison, l'enthalpie d'un gaz parfait ne dépend que de T:
+or pour n mol d'un gaz parfait
+Donc
+puisque U ne dépend que de T
+La différentielle de l'enthalpie serait égale dans le système de variables indépendantes (T,p dans ce cas) à:
+avec
+et
+( capacité calorifique molaire à pression constante du gaz parfait).
+Il s'ensuit pour n mol. de gaz parfait:
+Entropie[modifier | modifier le code]
+Par définition, la différentielle de l'entropie s'exprime par la relation:
+Appliquons le premier principe
+( le travail n'est dû qu'aux forces de pression )
+D'où
+Dans le cas d'un gaz parfait l'énergie interne ne dépend que de T.
+et
+il s'ensuit:
+En intégrant entre 2 états
+et
+Il est possible d'établir les relations à partir de l'enthalpie au lieu de l'énergie interne
+d'où
+Pour un gaz parfait l'enthalpie ne dépend que de T
+et
+d'où
+De façon similaire en intégrant entre 2 états
+et
+Pour déterminer la valeur de l'entropie d'un gaz parfait, il suffit alors de connaître une valeur de référence consignée dans les tables thermodynamiques, par exemple (S1).
+Pour un mélange de gaz parfaits, l'entropie se calcule selon le théorème de Gibbs.
+Enthalpie libre[modifier | modifier le code]
+Pour un gaz parfait monoatomique, on préfère retenir la valeur de l'enthalpie libre
+avec
+où
+est la longueur d'onde de Broglie ; elle est donnée par
+où
+est la constante de Planck et
+est la quantité de mouvement :
+On retrouve alors toutes les valeurs données dans les tables (par exemple pour l'argon, le néon…). Les calculs sont à peine plus compliqués pour les gaz diatomiques.
+Capacités calorifiques, relation de Mayer[modifier | modifier le code]
+La capacité calorifique à volume constant d'un gaz parfait vaut
+De même, la capacité calorifique à pression constante d'un gaz parfait vaut :
+La relation de Mayer est la relation qui existe entre les capacités calorifiques molaires Cp,m et CV,m, d'un gaz parfait.
+D'où
+Si l'on applique la formule de Clapeyron donnant la chaleur latente de dilatation l, de transfert latent de chaleur de dilatation (voir Formules de thermodynamique), et on trouve que le coefficient β d'augmentation relative de pression isochore vérifie :
+,
+donc :
+U(V,T) ne dépend pas du volume : un gaz parfait est un gaz de Joule,
+et l'enthalpie vaut :
+ne dépend donc pas de p : un gaz parfait est un gaz de Joule-Thomson (voir Loi de Joule).
+Gaz parfait et théorie cinétique des gaz[modifier | modifier le code]
+Les gaz parfaits font l'objet d'une théorie dite théorie cinétique des gaz expliquant les lois physiques qui les régissent.
+Mélange de gaz parfaits[modifier | modifier le code]
+Pour ce qui est d’un mélange idéal de gaz parfaits, on dispose de la loi de Dalton :
+où
+désigne la pression partielle du gaz i, c'est-à-dire la pression qu’aurait le gaz i s’il occupait seul tout le volume.
+Soit un gaz parfait de molécules A occupant un volume V1, et un gaz parfait de molécules B de volume V2, séparés par une cloison. Ils sont en équilibre (même température T et même pression P0). Il n'est pas du tout évident que pour une même pression et une même température, le mélange obtenu en enlevant la cloison soit un système de même pression, de même température et de volume V1+V2. À titre de comparaison, si l'on mélange 1 L d'eau et 1 L d'alcool, on obtient 1,84 L d'eau alcoolisée ; certes ce ne sont pas des gaz parfaits, mais cela montre que les propriétés ne sont pas toujours additives.
+Considérons que les gaz soient chimiquement neutres, c'est-à-dire que les molécules de A et de B n'interagissent pas : d'après le paragraphe précédent,
+A subit alors une détente de Joule de V1 à V1+V2, puisqu'il ne « voit » pas B (pas d'interaction) ;
+symétriquement, B subit une détente de Joule de V2 à V1+V2.
+Ainsi la température n'a pas changé et la pression sur les parois est due à A et B, soit
+pour la contribution de A, et
+pour la contribution de B.
+La pression totale est  : la pression n'a pas changé, la loi de Mariotte reste donc vraie. En revanche, il y a eu « perte d'information par mixage », il s'agit du paradoxe de Gibbs.
+S'il n'y a pas interaction entre A et B, l'énergie interne est simplement celle de A plus celle de B : la loi de Joule reste vraie. Donc le mélange se comporte comme un gaz parfait.
+Le mélange de deux gaz parfaits de Laplace est un gaz parfait de Laplace, mais dont le facteur γ n'est pas la moyenne pondérée des γ : ce sont
+et
+qui sont les moyennes pondérées.
+L'entropie d'un mélange est la somme des entropies de chacun des gaz pris sous sa pression partielle (cf. paradoxe de Gibbs). Ce point est capital : il sera la clef en chimie de la loi d'action de masses.
+Au-delà du gaz parfait[modifier | modifier le code]
+Gaz réel[modifier | modifier le code]
+Articles détaillés : Gaz réel
+et Gaz de van der Waals.
+À basse pression, tous les gaz peuvent être modélisés par un gaz parfait. Lorsque la pression augmente, on ne peut plus négliger les interactions à courte distance, notamment l'effet de taille des molécules et les interactions de type van der Waals.
+Un gaz réel a un comportement voisin d'un gaz parfait dans le cas où les distances intermoléculaires sont grandes par rapport à la taille des molécules et à la portée des forces d'interaction. On appelle gaz parfait « associé au gaz réel » le gaz parfait dont la capacité calorifique à pression constante est celle du gaz réel à pression nulle . On dresse les tables thermodynamiques d'un gaz réel à partir des corrections apportées à ce gaz parfait associé.
+Gaz parfait quantique[modifier | modifier le code]
+Articles détaillés : Gaz de fermions dégénéré et Condensat de Bose-Einstein.
+Dans la limite des fortes densités, la nature quantique des atomes ou molécules de gaz doit être prise en compte. On peut donner comme critère que le modèle classique n'est valable que si la distance interatomique est très supérieure à la longueur d'onde de Broglie
+.
+Gaz parfait relativiste[modifier | modifier le code]
+Article détaillé : Gaz parfait relativiste.
+Le gaz parfait relativiste est une généralisation du gaz parfait aux cas où les particules de gaz ont des vitesses proches de celles de la lumière. Il faut alors prendre en compte les effets de la relativité dans le calcul des différentes propriétés du gaz. Ainsi, si la loi des gaz parfaits reste valable, l'énergie et la chaleur spécifique sont modifiées par les effets relativistes.

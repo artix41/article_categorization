@@ -1,0 +1,53 @@
+Diffusion des ondes — Wikipédia
+Diffusion des ondes
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Diffusion.
+La forme ou le fond de cet article est à vérifier.
+Améliorez-le ou discutez des points à vérifier. Si vous venez d’apposer le bandeau, merci d’indiquer ici les points à vérifier.
+La diffusion est le phénomène par lequel un rayonnement, comme la lumière, le son ou une particule en mouvement, est dévié dans de multiples directions (on peut parler d'« éparpillement ») par une interaction avec d'autres objets. La polarisation du rayonnement incident est en général modifiée suite à la diffusion. La diffusion peut être également répartie dans toutes les directions (isotrope) ou obéir à un patron de réémission bien particulier selon le milieu traversé (anisotrope). En particulier, la partie de l'onde incidente qui est retournée dans la direction d'où elle a été émise est appelée rétrodiffusion. Ce phénomène arrive lorsque l'onde rencontre un objet de taille inférieure ou égale à sa longueur d'onde.
+La diffusion peut avoir lieu à la rencontre d'une interface entre deux milieux (dioptre), ou à la traversée d'un milieu (cas de la décomposition de la lumière par un prisme ou effet de l'arc-en-ciel).
+Sommaire
+1 Diffusion élastique et inélastique
+2 Différents types de diffusion
+2.1 Ondes électromagnétiques - particules élémentaires
+2.2 Ondes électromagnétiques - matière
+2.3 Particules élémentaires - matière
+3 Différents régimes de diffusion
+4 Effets de la diffusion
+5 Applications
+5.1 Rétrodiffusion
+6 Sources
+7 Notes et références
+Diffusion élastique et inélastique[modifier | modifier le code]
+Articles détaillés : diffusion élastique de rayonnement et diffusion inélastique de rayonnement.
+On parle de diffusion élastique lorsqu'il n'y a pas (ou très peu) de changement d'énergie entre la radiation avant et après diffusion. La diffusion inélastique a donc lieu s'il y a changement de la longueur d'onde entre le faisceau incident et le faisceau émis.
+Différents types de diffusion[modifier | modifier le code]
+De manière générale, les effets de diffusion sont extrêmement rapides, et ont lieu pour de larges bandes spectrales. La fluorescence n'est donc pas apparentée à la diffusion puisqu'il s'agit d'un phénomène qui intervient pour une longueur d'onde très précise (effet de résonance) et dont le temps caractéristique est beaucoup plus long (typiquement de l'ordre de la microseconde).
+Ondes électromagnétiques - particules élémentaires[modifier | modifier le code]
+La diffusion Compton est la diffusion inélastique d'ondes électromagnétiques (à hautes énergies : rayons γ, rayons X) par des électrons libres, ou des électrons contenus dans des atomes légers[1] (de faible numéro atomique Z).
+La diffusion Thomson est la diffusion élastique des ondes électromagnétiques par des électrons libres (diffusion des photons issus de la photosphère par les électrons libres du plasma fortement ionisé).
+Ondes électromagnétiques - matière[modifier | modifier le code]
+Le cas le plus souvent rencontré et le plus étudié est celui de la diffusion des ondes électromagnétiques. La diffusion de la lumière ou encore d'ondes radio (fonctionnement du radar) sont des exemples courants de ce principe.
+La diffusion de Mie est la diffusion élastique des ondes électromagnétiques ; elle a lieu lorsque les diffuseurs sont d'une taille comparable ou supérieure à la longueur d'onde incidente. La diffusion Rayleigh en est un cas limite.
+La diffusion Rayleigh est la diffusion élastique pour des ondes électromagnétiques, dont la longueur d'onde est très supérieure à la taille des éléments diffusant (plus de 10 fois supérieure). Cette diffusion est à l'origine de la couleur bleue du ciel. Lorsque nous dirigeons notre regard vers le soleil ou au voisinage de celui-ci, nous percevons les rayonnements les plus directs. Peu diffusés par l'atmosphère, ils ont une grande longueur d'onde (couleur tendant vers le rouge). Lorsque nous dirigeons notre regard ailleurs dans le ciel, nous percevons des rayonnements dont la trajectoire à partir du soleil est très indirecte. Ces rayonnements résultent de la diffusion de Rayleigh qui est plus prononcée pour de courtes longueurs d'onde (couleur tendant vers le violet).
+La diffusion Raman est la diffusion inélastique d'ondes électromagnétiques sur des atomes, des molécules, ou des solides. La différence d'énergie entre un photon absorbé et un photon réémis est égale à la différence d'énergie entre deux états de rotation ou de vibration de l'objet diffusant. La spectroscopie Raman est une technique de caractérisation de matériaux reprenant ce principe.
+La diffusion Brillouin est la diffusion inélastique d'ondes électromagnétiques sur un solide, elle concerne notamment les interactions avec les phonons acoustiques.
+Le phénomène de diffusion peut également se produire quand une onde radio (radio, TV...) rencontre un obstacle dont la surface n'est pas parfaitement plane et lisse. C'est le cas de couches ionisées, de la surface du sol dans les régions vallonnées (pour les longueurs d'ondes les plus grandes) ou de la surface d'obstacles (falaises, forêts, constructions...) pour les ondes ultra-courtes (au-dessus de quelques centaines de mégahertz). Comme en optique, la diffusion dépend du rapport entre la longueur d'onde et les dimensions des obstacles ou des irrégularités à la surface des obstacles réfléchissants. Ces derniers peuvent être aussi variés que des rideaux de pluie (en hyperfréquences) ou des zones ionisées lors d'aurores polaires.
+Particules élémentaires - matière[modifier | modifier le code]
+Article détaillé : Diffusion des particules.
+Différents régimes de diffusion[modifier | modifier le code]
+Exemples de patrons de diffusion selon la taille des diffuseurs par rapport à la longueur d'onde. L'onde incidente arrive par la gauche. De gauche à droite : diffusion de Rayleigh (régime d'homogénéisation), diffusion de Mie pour de petites particules (régime résonnant) et pour de grosses particules (régime spéculaire).
+On distingue généralement trois régimes de diffusion, selon la taille caractéristique des éléments diffuseurs par rapport à la longueur d'onde considérée :
+le régime spéculaire. Les diffuseurs sont très grands devant la longueur d'onde du rayonnement. C'est le cas par exemple de la surface de la mer diffusant la lumière visible, ou des grains de sable. La physique adaptée à cette échelle est l'optique géométrique. Le mot spéculaire désigne la direction dans laquelle la lumière se réfléchit d'après les lois de Descartes ;
+le régime résonnant. Dans ce cas intermédiaire, la taille des diffuseurs est de l'ordre de grandeur de la longueur d'onde. C'est le cas des réseaux de diffraction par exemple ;
+le régime d'homogénéisation. Les diffuseurs sont beaucoup plus petits que la longueur d'onde. C'est le cas de nombreuses surfaces rugueuses. Dans ce régime, la lumière ne résout pas la rugosité, de telle sorte que l'on peut considérer le milieu comme un milieu effectif, avec un indice de réfraction moyen. Les réflexions sont spéculaires mais atténuées par rapport à un milieu lisse.
+Effets de la diffusion[modifier | modifier le code]
+La diffusion est ainsi, avec l'absorption, la principale cause de l'affaiblissement de la lumière lors de sa propagation. Lors d'une réflexion, la diffusion atténue la réflexion spéculaire de la lumière, tandis qu'elle provoque une ouverture angulaire des faisceaux.
+Applications[modifier | modifier le code]
+La compréhension des phénomènes de diffusion est très importante notamment pour le secteur médical : la majorité des techniques d'imagerie médicale utilise la diffusion. On peut également envisager des applications militaires (détection de tanks dans une jungle humide, etc.). Enfin, plusieurs techniques de spectroscopie (ou « spectrométrie ») utilisent les principes de la diffusion.
+Rétrodiffusion[modifier | modifier le code]
+Le domaine le plus courant d'utilisation de la diffusion est sa composante rétrodiffusée. Le lidar, le radar et le sonar utilisent tous la propriété qu'ont les cibles de renvoyer une partie de l'énergie incidente vers l'émetteur du signal ou un récepteur secondaire. En général, on utilisera la plage de la diffusion de Rayleigh pour obtenir une proportionnalité entre le signal incident et le retour.
+On utilise également la rétrodiffusion dans les guides d'ondes et les fibres optiques afin de détecter des défauts de fabrication. En effet, la diffusion de Rayleigh atténue graduellement le signal dans la direction de propagation et les imperfections vont renvoyer une importante partie de celui-ci vers la source. En mesurant le retour, on peut calculer les pertes dans le guide ou la fibre sans avoir à le couper pour introduire un appareil qui mesure les pertes directement la différence de signal depuis l'émetteur.
+Sources[modifier | modifier le code]
+GREFFET, Jean-Jacques, Diffusion de la lumière, cours de l'École Supérieure d'Optique, 2003

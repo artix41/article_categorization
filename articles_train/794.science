@@ -1,0 +1,95 @@
+Protéine — Wikipédia
+Protéine
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Image tridimensionnelle et conventionnelle, après traitement informatique permettant de représenter les structures des différents niveaux d'organisations des chaînes d'acides aminés d'une protéine, ces chaînes étant enroulées et repliées sur elles-mêmes.
+Ci-dessus une modélisation de la structure 3D de l'hémoglobine[réf. nécessaire] humaine.
+Les protéines sont des éléments essentiels de la vie de la cellule : elles peuvent jouer un rôle structurel (comme l'actine), un rôle dans la mobilité (comme la myosine), un rôle catalytique (les enzymes), un rôle de régulation de la compaction de l'ADN (les histones) ou d'expression des gènes (les facteurs de transcription), etc. En somme, l'immense majorité des fonctions cellulaires est assurée par des protéines.
+Une protéine est une macromolécule biologique composée d’une ou plusieurs chaînes d'acides aminés liés entre eux par des liaisons peptidiques (chaine polypeptidique). En général, on parle de protéine lorsque la chaîne contient au moins 50 acides aminés[1], et de peptide pour des assemblages de plus petite taille.
+La structure des protéines est complexe et influe sur le rôle qu'elles jouent dans la vie de la cellule.
+Sommaire
+1 Étymologie
+2 Synthèse
+2.1 Protéome
+3 Structure
+4 Propriétés
+5 Fonctions
+6 Phénotype
+7 Évolution
+8 Alimentation humaine
+8.1 Quantités recommandées
+8.2 Protéines animales, protéines végétales
+8.3 Compléments alimentaires
+9 Bibliographie
+10 Notes et références
+11 Voir aussi
+11.1 Articles connexes
+11.1.1 Disciplines et méthodologies
+11.1.2 Classes et familles de protéine
+11.2 Liens externes
+Étymologie[modifier | modifier le code]
+Gerardus Johannes Mulder.
+Les protéines furent découvertes à partir de 1835 aux Pays-Bas par le chimiste organicien Gerardus Johannes Mulder[2] (1802-1880), sous le nom de wortelstof. C'est son illustre confrère suédois, Jöns Jacob Berzelius, qui lui suggéra en 1838 le nom de protéine.
+Le terme protéine vient du grec ancien prôtos qui signifie premier, essentiel. Ceci fait probablement référence au fait que les protéines sont indispensables à la vie et qu'elles constituent souvent la part majoritaire (≈ 60 %) du poids sec des cellules. Une autre théorie, voudrait que protéine fasse référence, comme l'adjectif protéiforme, au dieu grec Protée qui pouvait changer de forme à volonté. Les protéines adoptent en effet de multiples formes et assurent de multiples fonctions. Mais ceci ne fut découvert que bien plus tard, au cours du XXe siècle.
+Synthèse[modifier | modifier le code]
+Article détaillé : Synthèse des protéines.
+Les protéines sont assemblées à partir des acides aminés en fonction de l'information présente dans les gènes. Leur synthèse se fait en trois étapes :
+La transcription où la séquence d'ADN codant le gène associé à la protéine est transcrite en ARN pré-messager
+La maturation durant laquelle l'ARN pré-messager subit des modifications, telles que l'ajout d'une coiffe, l'épissage des exons et la suppression des introns
+La traduction où l'ARN messager est traduit en protéine, au niveau du ribosome, en fonction du code génétique
+L'assemblage d'une protéine se fait donc acide aminé par acide aminé de son extrémité N-terminale à son extrémité C-terminale. Après sa synthèse par le ribosome, la protéine peut subir des modifications post-traductionnelles, clivages, maturations. Enfin, chez certains organismes, des processus d'épissage alternatif de l'ARN messager peuvent entraîner la production de plusieurs formes différentes d'une protéine à partir d'un même gène.
+Protéome[modifier | modifier le code]
+Le protéome constitue l'ensemble de toutes les protéines d'un organisme, d'un tissu ou d'une cellule. En effet, toutes les cellules de l'organisme possèdent le même génome (même ADN) mais en fonction de son rôle, chacune d'elles exprimera des protéines différentes (hémoglobine dans les hématies, insuline dans les cellules bêta du pancréas, certaines enzymes pour le foie, etc).
+Début 2012, plus de 3000 génomes d'organismes vivants ont été séquencés et plus de 7000 sont en cours de séquençage.
+Les génomes des organismes modèles principaux tels que la bactérie Escherichia coli, la levure Saccharomyces cerevisiae, la plante Arabidopsis thaliana et de nombreux autres génomes dont celui de l'homme[3] ayant été décryptés, il est admis que la quasi-totalité des gènes a pu être définie.
+Par contre l'inventaire des protéines actives (ou protéome) dans un organisme est encore loin d'être établi. En effet, notamment en raison de la variabilité des processus d'activation et de régulation des protéines, cet inventaire n'est pas le résultat de la simple traduction de chaque gène qui donnerait une protéine active : par exemple certains gènes peuvent donner plusieurs formes différentes d'une protéine, ou encore de nombreuses protéines doivent être modifiées pour être actives.
+Structure[modifier | modifier le code]
+Article détaillé : Structure des protéines.
+Des exemples de la structure des protéines de la PDB
+Les protéines sont des objets moléculaires dont la description précise introduit la notion de structures (de manière plus ou moins hiérarchique).
+Pour la première fois en 1957, John Kendrew et Max Perutz, par cristallographie et diffraction des rayons X, ont pu décrire la structure en trois dimensions de la myoglobine et de l'hémoglobine.
+La fonction des protéines est conférée par leur structure tridimensionnelle[4], c'est-à-dire la manière dont les acides aminés sont agencés les uns par rapport aux autres dans l'espace. C'est la raison pour laquelle les méthodes de détermination des structures tridimensionnelles ainsi que les mesures de la dynamique des protéines sont importantes et constituent depuis un champ de recherche très actif. En plus de ces méthodes expérimentales, de nombreuses études portent sur des méthodes informatiques de prédiction de la structure 3D à partir de la séquence.
+L'ordre dans lequel les acides aminés s'enchaînent est codé par le génome et constitue la structure primaire de la protéine. La protéine se replie sur elle-même pour former des structures secondaires, dont les plus importantes quantitativement sont l'hélice alpha et le feuillet bêta, ce qui permet de créer des liaisons hydrogènes entre les atomes de carbone et d'azote des deux liaisons peptidiques voisines. Puis, les différentes structures secondaires sont agencées les unes par rapport aux autres pour former la structure tertiaire, souvent renforcée par des ponts disulfure. Les forces qui gouvernent ce repliement sont les forces physiques classiques. Dans le cas des protéines formées par l'agencement de plusieurs chaînes, la structure quaternaire décrit la position relative des sous-unités les unes par rapport aux autres.
+Il existe plusieurs protéines chaperonnes qui facilitent, voire sont nécessaires, au repliement des protéines vers l'état actif. Le repliement des protéines fait l'objet de recherches intenses dans le domaine de la biologie structurale, alliant les techniques de la biophysique moléculaire et de la biologie cellulaire principalement.
+Propriétés[modifier | modifier le code]
+Article détaillé : Propriétés physico-chimiques des protéines.
+Fonctions[modifier | modifier le code]
+Article détaillé : Fonction des protéines.
+Les protéines remplissent des fonctions très diverses au sein de la cellule et de l'organisme[5]:
+les protéines de structure, qui permettent à la cellule de maintenir son organisation dans l'espace, et qui sont les constituants du cytosquelette ;
+les protéines de transport, qui assurent le transfert des différentes molécules dans et en dehors des cellules ;
+les protéines régulatrices, qui modulent l'activité d'autres protéines ou qui contrôlent l'expression des gènes ;
+les protéines de signalisation, qui captent les signaux extérieurs, et assurent leur transmission dans la cellule ou l'organisme ; il en existe plusieurs sortes :
+par exemple : les protéines hormonales , qui contribuent à coordonner les activités d'un organisme en agissant comme des signaux entre les cellules ;
+les protéines réceptrices, qui détectent les molécules messagères et les autres signaux pour que la cellule agisse en conséquence :
+les protéines sensorielles détectent les signaux environnementaux (ex. : lumière) et répondent en émettant des signaux dans la cellule ;
+les récepteurs d'hormone détectent les hormones et envoient des signaux à la cellule pour qu'elle agisse en conséquence (ex. : l'insuline est une hormone qui lorsqu'elle va être captée, va signaler à la cellule d'absorber et d'utiliser le sucre) ;
+les protéines motrices, permettant aux cellules ou organismes ou à certains éléments (cils) de se mouvoir ou se déformer(ex. : l'actine et la myosine permettent au muscle de se contracter) ;
+les protéines de défense, qui protègent la cellule contre les virus (ex. : les anticorps) ;
+les protéines de stockage, qui permettent la mise en réserve d'acides aminés pour pouvoir créer d'autres protéines (ex. : l'ovalbumine, la principale protéine du blanc d’œuf sert de stockage pour le développement des embryons de poulet ) ;
+les enzymes , qui modifient la vitesse de presque toutes les réactions chimiques dans la cellule sans être transformées dans la réaction.
+Phénotype[modifier | modifier le code]
+Le plan de fabrication des protéines dépend donc en premier lieu du gène. Or les séquences des gènes ne sont pas strictement identiques d'un individu à l'autre. De plus, dans le cas des êtres vivants diploïdes, il existe deux exemplaires de chaque gène. Et ces deux exemplaires ne sont pas nécessairement identiques. Un gène existe donc en plusieurs versions d'un individu à l'autre et parfois chez un même individu. Ces différentes versions sont appelées allèles. L'ensemble des allèles d'un individu forme le génotype.
+Puisque les gènes existent en plusieurs versions, les protéines vont également exister en différentes versions. Ces différentes versions de protéines vont provoquer des différences d'un individu à l'autre : tel individu aura les yeux bleus mais tel autre aura les yeux noirs, etc. Ces caractéristiques, visibles ou non, propres à chaque individu sont appelées le phénotype. Chez un même individu, un groupe de protéines à séquence similaire et fonction identique est dit isoforme. Les isoformes peuvent être le résultat de l'épissage alternatif d'un même gène, l'expression de plusieurs allèles d'un gène, ou encore la présence de plusieurs gènes homologues dans le génome.
+Évolution[modifier | modifier le code]
+Au cours de l'évolution, les accumulations de mutations ont fait diverger les gènes au sein des espèces et entre espèces. De là provient la diversité des protéines qui leur sont associées. On peut toutefois définir des familles de protéines, elles-mêmes correspondant à des familles de gènes. Ainsi, dans une espèce peuvent coexister des gènes, et par conséquent des protéines, très similaires formant une famille. Deux espèces proches ont de fortes chances d'avoir des représentants de même famille de protéines.
+On parle d'homologie entre protéines lorsque différentes protéines ont une origine commune, un gène ancestral commun.
+La comparaison des séquences de protéines permet de mettre en évidence le degré de « parenté » entre différentes protéines, on parle ici de similarité de séquence. La fonction des protéines peut diverger au fur et à mesure que la similarité diminue, donnant ainsi naissance à des familles de protéines ayant une origine commune mais ayant des fonctions différentes.
+L'analyse des séquences et des structures de protéine a permis de constater que beaucoup s'organisaient en domaines, c'est-à-dire en parties acquérant une structure et remplissant une fonction spécifique. L'existence de protéines à plusieurs domaines peut être le résultat de la recombinaison en un gène unique de plusieurs gènes originellement individuels, et réciproquement des protéines composés d'un unique domaine peuvent être le fruit de la séparation en plusieurs gènes d'un gène originellement codant une protéine à plusieurs domaines.
+Alimentation humaine[modifier | modifier le code]
+Dans l'alimentation, les protéines sont désagrégées durant la digestion à partir de l'estomac. C'est là que les protéines sont hydrolysées par des protéases et coupées en polypeptides pour ensuite fournir des acides aminés pour l'organisme, y compris ceux, dits essentiels, que l'organisme n'est pas capable de synthétiser. Le pepsinogène est converti en pepsine quand il arrive au contact avec l'acide chlorhydrique. La pepsine est la seule enzyme protéolytique qui digère le collagène, la principale protéine du tissu conjonctif. La majeure partie de la digestion des protéines a lieu dans le duodénum.
+Presque toutes les protéines sont absorbées quand elles arrivent dans le jéjunum et seulement 1 % des protéines ingérées se retrouvent dans les fèces. Certains acides aminés restent dans les cellules épithéliales et sont utilisés pour la synthèse de nouvelles protéines, y compris certaines protéines intestinales, constamment digérées, recyclées et absorbées par l'intestin grêle.
+Quantités recommandées[modifier | modifier le code]
+En France, les recommandations nutritionnelles sont données par le PNNS et son site grand public (www.mangerbouger.fr) : « de la viande , du poisson ou des œufs une à deux fois par jour, toujours en quantité inférieure à l'accompagnement, soit de 100 à 150 g de viande maximum sur la journée »[6]. L'AFSSA recommande un apport nutritionnel conseillé (ANC) de 0,83 g.kg-1.j-1 chez l’adulte en bonne santé[7], soit 62 g par jour pour un homme de 75 kg. Il faut noter que les ANC sont supérieurs aux besoins moyens qui sont de 0,66 g.kg-1.j-1 selon ce même rapport, ce qui donnerait 49,5 g par jour pour le cas précédent.
+Les besoins moyens en protéines ont été définis par la FAO qui recommande 49 g de protéines pour les hommes adultes et 41 pour les femmes (47 si enceintes, 58,5 si allaitantes)[8].
+Protéines animales, protéines végétales[modifier | modifier le code]
+Pendant longtemps on a considéré que les protéines d'origine animale étaient supérieures en qualité aux protéines d'origine végétale. Actuellement ce jugement fait l'objet de révisions importantes. Les protéines animales sont invariablement accompagnées de lipides saturés dont la consommation est souvent excessive, ou bien d'additifs alimentaires comme les nitrites (dans les charcuteries) qui sont soupçonnées d'être cancérigènes. La production de viande consomme des ressources et contribue à l'émission de gaz à effet de serre. Les protéines animales, ou des produits associés comme les amines hétérocycliques seraient également un facteur de risque pour certains cancers (côlon, vessie)[9]. La consommation de viandes rouges serait associée à un risque accru de maladies cardio-vasculaires[10]. Parallèlement, des effets positifs sont associés aux végétaux riches en protéines. Les légumineuses à graines apportent un sentiment de satiété. Elles sont riches en fibres et en minéraux. Leur indice glycémique est faible. La consommation de haricots contribue à faire baisser le taux de cholestérol[11],[12] et également à l'abaissement du risque d'accident cardio-vasculaire[13] et de certains cancers (côlon, prostate, pancréas)[9]. On évolue vers une promotion des protéines végétales.
+Ceci dit, une « bonne » protéine contient 9 acides aminés essentiels : l’isoleucine, la leucine, la lysine, la méthionine, la phénylalanine, la thréonine, le tryptophane, la valine et l’histidine.
+Les protéines végétales contiennent relativement peu de certains de ces 9 acides aminés (sauf pour le quinoa) alors que les protéines d’origine animale en contiennent plus, en proportion. Le problème concerne essentiellement la méthionine et la lysine.
+Selon certains, il ne faut donc pas faire l’impasse sur les protéines d’origine animale et il est recommandé de consommer les 2 types de protéines surtout quand on est âgé [14]. Selon Ellen Muehlhoff, experte en nutrition de la FAO favorable à la consommation de protéines d'origine animale: "Contrairement à la croyance populaire, la plupart des protéines que nous obtenons des aliments d'origine animale sont seulement légèrement supérieures à celles d'origine végétale."[15]
+Compléments alimentaires[modifier | modifier le code]
+Les compléments alimentaires peuvent être enrichis en protéines, principalement pour les sportifs souhaitant développer leur volume musculaire, mais aussi pour les personnes qui souffrent de carences en protéines. Les protéines utilisées sont souvent des protéines du lactosérum (sous le nom de "whey"), et des acides aminés ramifiés désignés sous le nom de "BCAA".
+Bibliographie[modifier | modifier le code]
+(fr) Gregory Petsko, Dagmar Ringe (trad. Chrystelle Sanlaville, Dominique Charmot-Bensimon), Structure et fonction des protéines, De Boeck, Bruxelles, 2009. (ISBN 978-2-8041-5888-0).
+(fr) Lubert Stryer, Jeremy Mark Berg, John L. Tymoczko (trad. Serge Weinman), Biochimie, Flammarion, « Médecine-Sciences », Paris, 2008, 6e éd. (ISBN 978-2-257-00003-3).
+(fr) Carl-Ivar Brändén, John Tooze (trad. Bernard Lubochinsky, préf. Joël Janin), Introduction à la structure des protéines, De Boeck Université, Bruxelles, 1996. (ISBN 978-2-8041-2109-9).

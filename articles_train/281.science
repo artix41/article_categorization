@@ -1,0 +1,51 @@
+Supersymétrie — Wikipédia
+Supersymétrie
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Susy.
+Cet article est une ébauche concernant la supersymétrie.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Note : Pour profiter au mieux de cet article, le lecteur devrait avoir de bonnes notions sur le spin, la physique des particules et la symétrie en physique.
+La supersymétrie (abrégé en SuSy) est une symétrie supposée de la physique des particules qui postule une relation profonde entre les particules de spin demi-entier (les fermions) qui constituent la matière et les particules de spin entier (les bosons) véhiculant les interactions. Dans le cadre de la SuSy, chaque fermion est associé à un « superpartenaire » de spin entier, alors que chaque boson est associé à un « superpartenaire» de spin demi-entier.
+Sommaire
+1 Naissance de la supersymétrie
+1.1 Théorème No-Go de Coleman et Mandula
+1.2 Intérêt phénoménologique
+2 Cadre mathématique
+3 Description
+4 Notes et références
+5 Voir aussi
+6 Bibliographie
+Naissance de la supersymétrie[modifier | modifier le code]
+Théorème No-Go de Coleman et Mandula[modifier | modifier le code]
+Le modèle standard de la physique des particules a été presque entièrement construit grâce aux concepts de symétrie et d'invariance.
+L'histoire de la supersymétrie commence dans les années 1960. À cette époque, l'ensemble des symétries considérées appartenaient au groupe de Poincaré. Des physiciens curieux se sont naturellement posé la question de savoir si ce groupe pouvait être étendu. On s'intéressa notamment à l'extension de la symétrie
+de saveur (à ne pas confondre avec
+de couleur) à
+dans un cadre relativiste[1]. Toutes les tentatives échouent, et un théorème no-go brise tous les espoirs.
+Sidney Coleman et Jeffrey Mandula publient leur article en 1967. Ils démontrent que le groupe de Poincaré est le groupe de symétrie le plus général de la matrice S. Leur démonstration se fonde sur les hypothèses suivantes :
+Pour une masse M donnée, il existe un nombre fini de types de particules de masse inférieure à M
+Les amplitudes correspondant à des diffusions élastiques sont des fonctions analytiques des variables s (énergie du centre de masse) et de l'angle de diffusion.
+Soit
+un état à deux particules,
+sauf pour certaines valeurs isolées de s.
+Les opérateurs de symétrie sont définis à travers leurs relations de commutation, ceux-ci forment une algèbre de Lie.
+C'est le dernier point qui va permettre de contourner le théorème no-go afin d'introduire la supersymétrie, dans une super-algèbre de Lie.
+Intérêt phénoménologique[modifier | modifier le code]
+L'un des grands intérêts de la supersymétrie, au niveau phénoménologique, vient de la stabilisation du boson de Higgs, et donc la hiérarchie des masses des particules élémentaires.
+Les corrections radiatives dans le modèle standard sont considérées comme bien maitrisées pour les fermions et pour les bosons de jauge. Pour les fermions, les corrections sont logarithmiques et surtout proportionnelles à la masse de la particule, ce qui assure l'ordre de grandeur. Pour une particule de masse nulle, elles sont nulles, et on retombe sur un modèle avec une symétrie supplémentaire qui protège les fermions : la symétrie chirale. Pour les bosons de jauges, l'invariance de jauge assure le même genre de "protection" aux masses. On constate que pour les deux cas, une "symétrie" empêche les corrections d'atteindre des échelles trop importantes, puisqu'elles doivent être proportionnelles au "degré de brisure" de la symétrie.
+Or il existe dans le modèle standard un autre type de particule, le boson de Higgs, qui est introduit afin d'expliquer pourquoi certains bosons acquièrent des masses et brisent ainsi la symétrie de l'interaction.
+Il s'avère que la masse du Higgs est dangereusement divergente, puisqu'elle dépend quadratiquement de l'échelle d'énergie.
+Mais le vrai souci vient du fait que le modèle standard n'est considéré par la majorité des physiciens que comme un modèle à basse énergie qui doit, à partir d'une certaine échelle, donner la main à un autre modèle qui inclut plus de phénomènes. Ceci implique que les divergences ne peuvent pas être simplement absorbées dans la procédure de renormalisation, puisqu'on se retrouve très rapidement dans des régimes énergétiques qui ne sont pas censés être décrits par le modèle standard (à cause de la dépendance en carré), alors qu'on se place justement à des énergies correspondant au modèle standard.
+La supersymétrie est une des solutions proposées pour atténuer l'effet de ces corrections, en introduisant une symétrie entre bosons et fermions. Cette symétrie assure en effet que pour une particule de spin , on peut avoir une particule de spin
+(suivant le cas), mais surtout que ces particules qui sont liées ainsi auront des contributions opposées, qui finissent donc par s'annuler.
+Cadre mathématique[modifier | modifier le code]
+Description[modifier | modifier le code]
+Si on postule l'invariance de la théorie sous l'algèbre de super Poincaré, qui étend l'algèbre de Poincaré sur laquelle est basée la physique des particules habituelles, alors on peut construire des extensions du modèle standard qui incorporent naturellement la supersymétrie (voir le Minimal Supersymmetric Standard Model (en) (MSSM)).
+Le secteur de Higgs, qui est responsable de la génération des masses non nulles pour la matière dans le modèle standard, est également étendu à au moins 5 bosons de Higgs dans le cadre du MSSM.
+En 2006, cependant, aucun « super-partenaire » des particules connues n'a encore été observé. Si elle existe, la SuSy doit donc être une symétrie brisée : ceci implique en particulier que les « super-partenaires » doivent avoir des masses différentes de celles de leurs partenaires et qu'il est nécessaire de considérer des phénomènes à des échelles d'énergie élevées afin de restaurer et voir réapparaitre cette symétrie. Le LHC, mis en route pendant l'été 2009, devrait permettre de vérifier ou d'invalider l'hypothèse de l'existence de la supersymétrie (en juillet 2012 le LHC a mis en évidence ce qui ressemble à 99,9999 % à un boson de Higgs)
+Bien que le nombre de particules soit doublé, la SuSy possède de nombreux avantages :
+En postulant l'existence de « super-partenaire » de l'ordre du TeV, l'unification de l'interaction forte, faible et électromagnétique devient possible à une échelle d'énergie de l'ordre de 1016 GeV (échelle de grande unification) ;
+Cette théorie permet également d'expliquer naturellement pourquoi la masse du Higgs peut être faible (en dessous du TeV) ;
+Elle offre également la possibilité d'expliquer la matière noire de notre univers par le biais des neutralinos. Le neutralino étant stable (si la R-parity (en) est conservée) et neutre, elle ne peut rayonner électromagnétiquement et se montrer indirectement par les particules résultantes de sa désintégration.
+Dans le cadre de la cosmologie, elle offre la possibilité d'expliquer la faiblesse de la constante cosmologique.

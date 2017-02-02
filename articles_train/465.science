@@ -1,0 +1,443 @@
+Calcul intégral — Wikipédia
+Calcul intégral
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En mathématiques, plus précisément en analyse, le calcul intégral est l'une des deux branches du calcul infinitésimal, l'autre étant le calcul différentiel.
+Le calcul intégral permet la démonstration de la formule de l'aire d'un cercle. Il permet aussi dans un ensemble plus général le calcul d'aire de forme quelconque.
+Sommaire
+1 Primitives
+1.1 Ensemble des primitives d’une fonction sur un intervalle
+2 Intégrale
+2.1 Définition de l’intégrale à partir de la notion de primitive
+2.2 Propriétés de l’intégrale
+2.2.1 Linéarité de l'intégration
+2.2.2 Relation de Chasles
+2.2.3 Positivité de l’intégrale
+2.3 Intégrale et aire
+3 Méthodes de calcul d'une intégrale
+3.1 Calcul direct à l'aide des primitives usuelles
+3.2 Intégration par parties
+3.3 Intégration par la méthode des résidus
+3.4 Intégration des fonctions réciproques
+4 Calcul numérique approché d'une intégrale
+4.1 Méthode des rectangles
+4.2 Méthode des trapèzes
+4.2.1 Méthode de Simpson
+4.3 Méthode de Gauss-Legendre
+4.3.1 Exemple
+5 Voir aussi
+Primitives[modifier | modifier le code]
+Soit
+une fonction définie sur un intervalle . Une fonction
+est une primitive de
+sur l’intervalle
+si
+est dérivable sur
+et si pour tout
+de , .
+De plus, si
+est une fonction continue sur un intervalle , alors il existe au moins une fonction
+dérivable sur
+telle que
+soit la dérivée de
+sur .
+est alors une primitive de
+sur .
+Si
+est une primitive de
+sur , alors pour toute constante , la fonction
+définie sur
+par
+est aussi une primitive de
+sur
+car la dérivée d'une application constante est la fonction nulle. Nous en déduisons que si
+admet une primitive sur
+alors elle en admet une infinité.
+Par exemple, si
+est définie sur
+par , alors la fonction
+définie sur
+par
+admet pour dérivée
+et ce .
+Donc
+est une primitive de
+sur .
+Ensemble des primitives d’une fonction sur un intervalle[modifier | modifier le code]
+Deux primitives différentes d'une même fonction
+ne diffèrent que d'une constante. En effet si
+et
+sont deux primitives de
+alors
+donc .
+étant un intervalle, nous en déduisons qu’il existe
+une constante définie sur
+telle que
+soit
+Soit
+une fonction définie sur un intervalle . Si
+admet une primitive
+sur , alors l'ensemble des primitives de
+sur
+est l'ensemble des fonctions
+de la forme :
+avec
+On remarque que les primitives de la fonction nulle sont les fonctions constantes.
+Soit
+un intervalle,
+un réel de
+et
+un réel quelconque. Il existe une et une seule primitive , d’une fonction
+continue sur , telle que .
+est appelée la primitive de
+sur
+vérifiant la condition initiale : .
+Par exemple pour trouver la primitive de
+vérifiant la condition initiale .
+On calcule d'abord la forme générale de la primitive .
+Puis on résout l'équation
+et on obtient
+et donc la primitive recherchée est .
+Intégrale[modifier | modifier le code]
+Définition de l’intégrale à partir de la notion de primitive[modifier | modifier le code]
+Soit
+une fonction définie sur un intervalle
+et admettant des primitives sur . Soient
+et
+dans . Soit
+une primitive de
+sur . Nous appelons intégrale de
+à
+de , le nombre :
+qui ne dépend pas du choix de la primitive de , parce que les primitives de
+sur l’intervalle
+diffèrent d’une fonction constante. Nous notons ce nombre :
+qui se lit « intégrale de
+à
+de  », et nous pouvons aussi le noter
+qui se lit « . pris entre . et . »
+Dans la notation avec le symbole de intégrale,
+joue le rôle d’une variable muette, et nous avons
+,
+de plus le nombre représenté par cette intégrale ne dépend pas de .
+Remarquons dans le cas où
+est continue sur , que l’application
+définie sur  :
+n’est autre que la primitive de
+qui s’annule en
+et cette fonction
+est donc la seule fonction dérivable sur
+telle
+et .
+Nous avons donc
+Propriétés de l’intégrale[modifier | modifier le code]
+Linéarité de l'intégration[modifier | modifier le code]
+Si
+et
+sont deux fonctions définies sur un intervalle
+et admettant des primitives sur , alors la fonction
+admet aussi des primitives sur
+et pour tout
+et tout
+de , on a :
+De plus, si
+est un réel quelconque alors la fonction
+admet des primitives sur
+et :
+Relation de Chasles[modifier | modifier le code]
+Soient
+et
+deux réels de l’intervalle . Si
+une fonction définie sur
+et admettant des primitives sur , alors pour tous ,
+et
+dans
+(relation de Chasles)
+En effet si
+est une primitive de
+sur
+alors :
+.
+En prenant
+dans la relation de Chasles, nous obtenons :
+en effet
+Positivité de l’intégrale[modifier | modifier le code]
+Soit
+une fonction définie sur l'intervalle
+qui admet des primitives sur , et si
+et
+sont deux réels dans
+tels que .
+Si pour tout réel
+de ,
+alors
+En effet sous cette condition, toute primitive de
+sur l’intervalle
+est croissante.
+Conséquences :
+Croissance de l’intégrale
+Si
+et
+admettent des primitives sur
+et si pour tout
+dans ,
+alors
+(il suffit de poser
+et d'utiliser la positivité et la linéarité de l’intégrale)
+Inégalité de la moyenne
+S’il existe
+et
+des réels tels que pour tout
+dans , , alors
+S’il existe un réel
+tel que pour tout
+dans , , alors
+S’il existe un réel
+tel que pour tout
+dans , , alors pour tout
+et tout
+dans ,
+Forme simple du premier théorème de la moyenne
+Si
+est continue sur , alors pour tout
+et tout
+dans , il existe un réel
+compris entre
+et
+tel que :
+Valeur moyenne d'une fonction
+Si
+admet des primitives sur un intervalle , si
+et
+sont dans
+tels que , nous appelons valeur moyenne de
+sur , le nombre :
+Parité
+Soit
+une fonction qui admet des primitives sur un intervalle
+centré en 0. Si
+est un réel, tel que
+et
+appartiennent à , alors :
+si
+est paire,
+si
+est impaire,
+Intégrale et aire[modifier | modifier le code]
+Un cas particulier :
+Soient
+et
+deux réels tels que . Soit
+une fonction constante sur
+et soit
+tel que
+pour tout réel
+de , =
+Alors l’intégrale de
+à
+de
+est égale à - et représente l’aire algébrique du rectangle de sommets , ,
+et .
+Théorème :
+Soient
+et
+deux réels tels que . Soit
+une fonction continue sur . Soit , , …,
+une suite strictement croissante de points partageant le segment
+en
+intervalles de longueur
+Nous avons alors pour tout
+compris entre
+et ,
+Alors la somme
+tend vers
+lorsque
+tend vers .
+Interprétation graphique :
+Cette somme (appelée somme de Riemann) représente graphiquement la somme algébrique des aires des rectangles de gauche et est une valeur approchée de .
+Si
+est une fonction positive continue sur
+et si
+est la courbe représentative de
+dans le plan rapporté à un repère orthogonal  ; , ,
+est la mesure de l’aire du plan délimité par , l’axe des abscisses
+et les droites d’équations = et =. L’unité d’aire étant l’aire du rectangle
+.
+Méthodes de calcul d'une intégrale[modifier | modifier le code]
+Calcul direct à l'aide des primitives usuelles[modifier | modifier le code]
+Intégration par parties[modifier | modifier le code]
+Article détaillé : Intégration par parties.
+Théorème :
+Soit
+un intervalle. Soient
+et
+deux fonctions dérivables sur
+telles que les fonctions
+et
+soient continues sur . Soit
+un réel dans . Alors, pour tout réel
+dans
+En particulier :
+Théorème :
+Soient
+et
+deux réels tels que . Soient
+et
+deux fonctions dérivables sur
+et telles que les fonctions , ,
+et
+soient continues sur . Alors :
+On peut généraliser cette formule aux fonctions de classe
+Intégration par la méthode des résidus[modifier | modifier le code]
+Article détaillé : Théorème des résidus.
+Intégration des fonctions réciproques[modifier | modifier le code]
+Article détaillé : Intégration des fonctions réciproques.
+Calcul numérique approché d'une intégrale[modifier | modifier le code]
+On considère ici le cas d'une fonction
+définie sur . On définit le « pas » d'approximation
+de la manière suivante : ; où
+détermine la précision de l'approximation. On définit aussi .
+Méthode des rectangles[modifier | modifier le code]
+Article détaillé : Méthode du point médian.
+La méthode des rectangles revient à une approximation de
+par une fonction en escalier, avec
+« marches » de longueur . La valeur approchée
+de l'intégrale vaut alors :
+On peut faire varier la taille des marches. Toujours avec
+marches, en prenant des
+pour
+entre 0 et , avec
+égal à la borne inférieure et
+égal à la borne supérieure, et en calculant la fonction au milieu des rectangles, l'intégrale vaut :
+.
+Méthode des trapèzes[modifier | modifier le code]
+Article détaillé : Méthode des trapèzes.
+On utilise une fonction continue affine par morceaux approchant la fonction à intégrer et égale à celle-ci sur les points de la subdivision en
+sous-intervalles égaux de l'intervalle d'intégration
+pour obtenir une approximation de la valeur de son intégrale sur .
+En remplaçant par des trapèzes les rectangles utilisés précédemment, on obtient :
+.
+On peut déterminer la précision de cette approximation en utilisant la formule suivante :
+où
+est la borne supérieure de la valeur absolue de la dérivée d'ordre 2 de
+sur
+et
+la valeur exacte de l'intégrale.
+Méthode de Simpson[modifier | modifier le code]
+Article détaillé : Méthode de Simpson.
+On utilise maintenant des paraboles que l'on fait passer par trois points consécutifs du découpage en
+segments de l'intervalle d'intégration de .
+On s'appuie sur le résultat exact suivant où
+est une fonction polynomiale de degré deux :
+Si ,
+et
+sont trois réels tels que , alors
+On obtient alors une valeur approchée de
+avec la formule suivante :
+où
+et
+On peut ici aussi déterminer la précision de la méthode, avec la formule suivante :
+où
+est la borne supérieure de la valeur absolue de la dérivée d'ordre 4 de
+sur
+et
+la valeur exacte de l'intégrale.
+Méthode de Gauss-Legendre[modifier | modifier le code]
+Article détaillé : Méthodes de quadrature de Gauss.
+On utilise aussi en analyse numérique une méthode basée sur l'orthogonalité des polynômes de Legendre pour le produit scalaire
+Elle est appelée méthode de Gauss-Legendre, et permet de calculer avec une grande précision les intégrales de fonctions suffisamment régulières sur un segment
+Il suffit de réaliser une application affine de
+sur , et de remarquer que
+où
+sont les racines du polynôme de Legendre de degré
+et où
+sont les poids de ces racines, qui sont tels que l'égalité
+est assurée pour toute fonction polynomiale de degré inférieur ou égal à
+Les premiers polynômes sont
+...
+Une excellente précision est garantie dès que . Des tables permettent d'obtenir les valeurs des points et leurs poids.
+Exemple[modifier | modifier le code]
+Tableau des valeurs pour
+Numéro
+Abscisse
+Poids
+1
+2
+3
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Calcul intégral, sur Wikiversity
+Intégrale
+Table d'intégrales
+Calcul intégral
+Calcul numérique d'une intégrale
+Primitive
+Table de primitives
+Règles de Bioche
+Intégration de Verlet
+Méthode d'Euler - Intégration d'une fonction
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Calcul_intégral&oldid=110426952 ».
+Catégorie : Théorie de l'intégrationCatégories cachées : Article de qualité en macédonienPortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Беларуская
+Čeština
+Dansk
+Deutsch
+Esperanto
+Gaeilge
+Македонски
+Nederlands
+Русский
+Српски / srpski
+Svenska
+Tagalog
+Українська
+Oʻzbekcha
+Modifier les liens
+Dernière modification de cette page le 31 décembre 2014 à 18:23.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

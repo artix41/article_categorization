@@ -1,0 +1,117 @@
+Enregistreur de données — Wikipédia
+Enregistreur de données
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un enregistreur de données est un dispositif électronique en général programmable qui enregistre des valeurs de mesure individuelles et des séries de mesure sur une longue période (pouvant couvrir plusieurs mois). Les grandeurs sont automatiquement mesurées, souvent numérisées et enregistrées sur un support. Elles peuvent être transmises par le biais d'une interface à un afficheur, à un PC muni d'un logiciel (pour visualisation et analyse) ou à une imprimante.
+Les grandeurs mesurées sont par exemple : température, humidité relative (% HR), intensité, tension, vitesse du vent, pression, intensité lumineuse et sonore.
+Sommaire
+1 Description
+2 Applications
+3 Annexes
+3.1 Articles connexes
+Description[modifier | modifier le code]
+Enregistreur portable de température et d'humidité relative (sondes internes) de l'air à mémoire flash ; la programmation de cet enregistreur et l'extraction de ses données sont réalisées par connexion à un PC.
+Les plus courants sont de petite taille, alimentés par pile ou batterie et contrôlent typiquement la température de l'air, parfois en simultané l'humidité relative.
+Ils peuvent être raccordés à des sondes (capteurs) externes (sonde d'immersion, sonde alimentaire de pénétration pour congelés, pour haute température, etc.) et disposer de plusieurs canaux (un canal de mesure par sonde connectée).
+Certains sont autonomes, car équipés d'un affichage et d'un mini clavier.
+La capacité de mémoire interne (par exemple de type flash) doit être suffisante pour stocker dans certains cas des milliers de données. Dans le cas contraire, il peut être nécessaire, lors de la programmation préalable du microprocesseur, de diminuer la cadence à laquelle la mesure doit être réalisée. Cette cadence peut par exemple varier d'une seconde à plusieurs heures. Il faut dans ce dernier cas tenir compte de l'autonomie de l'alimentation électrique, si l'appareil est laissé sans surveillance.
+Une alarme peut retentir si des seuils prédéfinis sont dépassés.
+La connexion de l'interface de l'enregistreur au PC se fait par interface série (RS 232), USB, LAN, Bluetooth, etc.
+Les plus récents peuvent être mis en réseau et servir des pages web.
+Une alimentation par énergie solaire peut être utilisée en complément d'une batterie.
+Comme la plupart des appareils de mesure, un enregistreur de données doit être étalonné au moins une fois par an par un laboratoire accrédité.
+Applications[modifier | modifier le code]
+Voici une liste non limitative de contrôles :
+lors du transport et en stockage de denrées alimentaires, dans les vitrines / linéaires (chaîne du froid) ou de produits pharmaceutiques ;
+en laboratoires, en production (procédés de fabrication) ;
+capteur météorologique ;
+diagnostic médical (holter cardiaque...) ;
+comptage du trafic routier ;
+en logement ;
+dans les musées ;
+sur véhicules (diagnostic, développement (prototypes), compétition (Formule 1...)) ; « boîte noire » pour certaines automobiles ;
+surveillance d'ouvrages (ponts, barrages...), voir Jauge de déformation ;
+recherche sur la faune ;
+surveillance de postes électriques, on parle alors de consignateur d'état.
+Annexes[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Thermocouple
+Thermo-hygromètre | Thermo-hygrographe
+Chambre d'essais
+Boîte noire (aéronautique) | Boîte noire (maritime)
+Chaîne d'acquisition
+Télétransmission
+v · d · m
+Équipement de laboratoire
+Équipement de sécurité en laboratoire
+Boîte à gants · Couverture antifeu · Chaussures de sécurité · Déclencheur d'alarme incendie · Détecteur et avertisseur autonome de fumée · Douche de sécurité · Douche portative de sécurité · EPI · Extincteur · Hotte · Oxymètre
+Équipement de laboratoire
+(hors sécurité)
+Agitateur · Appareil de mesure d'épaisseur de revêtement · Autoclave · Automate · Bain-marie · Bain thermostaté · Balance · Bec Auer · Bec Bunsen · Bec Meker · Boy · Calorimètre · Centrifugeuse · Chambre d'essais · Chauffe-ballon · Chronomètre · Colorimètre · Cryostat · Échangeur d'ions · Enregistreur de données · Étuve · Évaporateur rotatif · Fabricants · Lecteur de plaques · Machine de traction · Manomètre · Marbre · Microscope · Minuterie · Paillasse · Papier essuie-tout · Papier Joseph · Papier lentille · Plaque chauffante · pH-mètre · Pompe à vide · Presse hydraulique · Réfractomètre · Réfractomètre hyperfréquence · Réfrigérateur · Soude sachet · Spatule · Spectromètre · Spectrophotomètre · Tamiseuse · Thermocycleur · Thermo-hygrographe · Thermomètre · Thermostat · Titrateur · Trompe à eau · Viscosimètre
+Verrerie de laboratoire
+Ampoule à brome · Ampoule à décanter · Ballon · Bécher · Boîte de Petri · Burette · Colonne de Vigreux · Colonne desséchante · Creuset · Cristallisoir · Cuvette · Dame-jeanne · Dean Stark · Débitmètre · Dessiccateur · Entonnoir · Entonnoir Büchner · Éprouvette graduée · Erlenmeyer · Eudiomètre · Fiole à vide · Fiole jaugée · Flacon laveur · Hydromètre · Mortier et pilon · Pipette * Pipette automatique * Pipette Pasteur · Pissette · Plaque microtitre · Pycnomètre · Rampe à vide · Réfrigérant · Soxhlet · Tube à essai * Microtube * Tube de 15 ml * Tube de 50 ml * Tube de Nessler · Tube de sûreté (tube Thistle) · Tube de Thiele · Vase Dewar · Verre de montre
+Portail de la physique
+Portail de la chimie
+Portail de l’électricité et de l’électronique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Enregistreur_de_données&oldid=90549031 ».
+Catégories : Instrument scientifiqueInstrument de mesureMesure physiqueConservation alimentaireCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liésPortail:Électricité et électronique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+Čeština
+Deutsch
+English
+Español
+فارسی
+Italiano
+日本語
+Қазақша
+Nederlands
+Polski
+Modifier les liens
+Dernière modification de cette page le 17 mars 2013 à 01:51.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

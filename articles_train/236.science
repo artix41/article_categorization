@@ -1,0 +1,314 @@
+Théorie des perturbations — Wikipédia
+Théorie des perturbations
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+D'un point de vue heuristique, la théorie des perturbations est une méthode mathématique générale qui permet de trouver une solution approchée d'une équation mathématique
+dépendante d'un paramètre
+lorsque la solution de l'équation , correspondant à la valeur , est connue exactement. L'équation mathématique
+peut être une équation algébrique, une équation différentielle, une équation aux valeurs propres, ... La méthode consiste à chercher la solution approchée de l'équation
+sous la forme d'un développement en série des puissances du paramètre , cette solution approchée étant supposée être une approximation d'autant meilleure de la solution exacte, mais inconnue, que la valeur absolue du paramètre
+est plus « petite ».
+Sommaire
+1 Généralités
+1.1 Histoire
+1.2 Convergence de la série perturbative ?
+2 Un premier exemple élémentaire
+2.1 Position du problème
+2.2 Théorie des perturbations au premier ordre
+2.3 Comparaison avec la solution exacte
+3 Un deuxième exemple : l'oscillateur de Duffing
+3.1 Définition et propriétés
+3.1.1 Définition
+3.1.2 Interprétation physique
+3.1.3 Caractère borné du mouvement
+3.1.4 Ordre zéro : l'oscillateur harmonique
+3.2 Théorie de perturbation naïve au premier ordre
+3.3 Apparition d'un terme séculaire
+4 Méthode de Lindstedt
+4.1 Principe de la méthode de Lindstedt
+4.2 Exemple : l'oscillateur de Duffing au premier ordre
+5 Perturbation singulière
+6 Problèmes multi-échelles
+7 Annexes
+7.1 Bibliographie
+7.1.1 Bibliothèque virtuelle
+7.1.2 Ouvrages de référence
+7.1.3 Articles de revue
+7.1.4 Applications à la mécanique céleste
+7.1.4.1 Théorie pré-KAM
+7.1.4.2 Théorie post-KAM
+7.2 Articles connexes
+7.3 Références
+Généralités[modifier | modifier le code]
+Histoire[modifier | modifier le code]
+Dès le début du XVIIIe siècle, la théorie des perturbations a été utilisée par les astronomes pour les besoins de la mécanique céleste : en effet, les équations différentielles décrivant un système de
+corps en interaction gravitationnelle n'a pas de solution exacte générale[1] pour . Cet aspect de la théorie des perturbations a été synthétisé à la fin du XIXe siècle dans les ouvrages classiques de Laplace [2], Tisserand[3] et Poincaré[4], avant de connaître de nouveaux développements dans la seconde moitié du XXe siècle avec l'avènement en 1954 de la « théorie KAM », du nom de ses trois concepteurs  : Kolmogorov, Arnold et Moser.
+La méthode a par ailleurs été abondamment utilisée au XXe siècle pour les besoins de la physique quantique, d'abord en mécanique quantique non relativiste, puis en théorie quantique des champs perturbative.
+Convergence de la série perturbative ?[modifier | modifier le code]
+On a vu qu'on cherchait ici la solution approchée de l'équation
+sous la forme d'un développement en série des puissances du paramètre  ; la question de la convergence de cette série se pose alors. Ce problème a été réglé pour l'astronomie par Poincaré en 1892 : la « série » de perturbation doit être comprise mathématiquement comme un développement asymptotique au voisinage de zéro, et non comme une série ordinaire convergente uniformément. Le chapitre VIII de la Mécanique céleste de Poincaré[5] commence par le commentaire suivant :
+« II y a entre les géomètres et les astronomes une sorte de malentendu au sujet de la signification du mot convergence. Les géomètres préoccupés de la parfaite rigueur et souvent trop indifférents à la longueur de calculs inextricables dont ils conçoivent la possibilité, sans songer à les entreprendre effectivement, disent qu'une série est convergente quand la somme des termes tend vers une limite déterminée, quand même les premiers termes diminueraient très lentement. Les astronomes, au contraire, ont coutume de dire qu'une série converge quand les 20 premiers termes, par exemple, diminuent très rapidement, quand même les termes suivants devraient croître indéfiniment.
+Ainsi, pour prendre un exemple simple, considérons les deux séries qui ont pour terme généra' :
+Les géomètres diront que la première converge, et même qu'elle converge rapidement, parce que le millionième terme est beaucoup plus petit que le 999 999 ème ; mais ils regarderont la seconde comme divergente, parce que le terme général peut croître au delà de toute limite.
+Les astronomes, au contraire, regarderont la première série comme divergente, parce que les 1000 premiers termes vont en croissant ; et la seconde comme convergente, parce que les 1000 premiers termes vont en décroissant et que cette décroissance est d'abord très rapide.
+Les deux règles sont légitimes : la première, dans les recherches théoriques ; la seconde, dans les applications numériques. Toutes deux doivent régner, mais dans deux domaines séparés et dont il importe de bien connaître les frontières. »
+Pour conclure cette discussion qualitative sur la convergence, le mathématicien Jean-Pierre Ramis précise[6] :
+« On peut ainsi parler de séries convergentes « au sens des géomètres » ou « au sens des astronomes ». Notons que pratiquement, dans les applications, on constate que, presque toujours, les séries convergentes au sens des astronomes ont un terme général qui croît très vite après avoir d'abord diminué. Ainsi, ce que Poincaré envisageait comme possibilité est en fait la règle. »
+C'est d'ailleurs ce qui fait l'efficacité pratique de la théorie des perturbations en physique théorique : il suffit le plus souvent de calculer les quelques premiers termes du développement asymptotique - ceux qui semblent commencer par converger - pour obtenir une très bonne approximation du résultat exact inconnu. Ainsi, dans le cadre de l'électrodynamique quantique, Dyson a montré en 1948 que la série perturbative était divergente, alors que la prise en compte des trois ou quatre premiers termes seulement donnent des prédictions théoriques en accord remarquable avec les résultats expérimentaux.
+Notons qu'il existe certaines procédures de « sommation » qui permettent de donner un sens à certaines séries divergentes, comme par exemple la sommation de Borel ou l'approximant de Padé.
+Un premier exemple élémentaire[modifier | modifier le code]
+Position du problème[modifier | modifier le code]
+Considérons à titre d'exemple l'équation différentielle du premier ordre suivante :
+Dans cette équation,
+représente le temps,
+un paramètre fixé homogène à un temps,
+un paramètre fixé homogène à une longueur, et
+le paramètre de perturbation, sans dimensions. On cherche à déterminer la fonction
+inconnue, homogène à une longueur, et vérifiant la condition initiale : à l'instant , on a : .
+Théorie des perturbations au premier ordre[modifier | modifier le code]
+Le problème de départ de la théorie des perturbations est l'équation différentielle
+correspondant à la valeur  :
+dont la solution analytique exacte est bien connue :
+où
+est une constante, pour l'instant inconnue. Illustrons la méthode de perturbations en nous limitant pour simplifier au premier ordre dans le développement en série des puissances du paramètre  ; on cherche donc la solution approchée sous la forme :
+où
+est une fonction inconnue, à déterminer. On injecte cette expression dans l'équation différentielle exacte . En se limitant aux termes du premier ordre inclus et en utilisant le fait que
+est la solution exacte de , on obtient la solution physique approchée au premier ordre :
+Démonstration
+On injecte le développement dans l'équation différentielle exacte . En se limitant au termes du premier ordre inclus et en utilisant le fait que
+est la solution exacte de , on obtient l'équation suivante pour la fonction  :
+On a omis le terme
+de reste de Landau pour simplifier l'écriture. Cette équation se réécrit explicitement :
+Cette équation différentielle admet une solution analytique exacte de la forme :
+où
+est une constante, qu'on détermine en introduisant l'expression de
+dans l'équation différentielle. On obtient explicitement :
+d'où la solution générale de
+approchée au premier ordre.
+Comparaison avec la solution exacte[modifier | modifier le code]
+On peut démontrer ici que l'équation différentielle
+vérifiant la condition initiale :
+admet pour toutes les valeurs du paramètre
+la solution exacte suivante :
+Un développement limité de cette expression au premier ordre en
+donne explicitement la solution approchée déterminée au paragraphe précédent par la théorie des perturbations au premier ordre :
+Pour visualiser l'écart entre la solution approchée et la solution exacte, on trace ci-dessous les graphes des deux fonctions pour une série de valeurs de
+allant de 0.1 à 0.5, en prenant :
+m,
+s.
+en bleu, la solution exacte.
+en rouge, la solution approchée au premier ordre.
+Cliquez sur une vignette pour l’agrandir
+Un deuxième exemple : l'oscillateur de Duffing[modifier | modifier le code]
+Définition et propriétés[modifier | modifier le code]
+Définition[modifier | modifier le code]
+L'oscillateur de Duffing satisfait à l'équation différentielle du second ordre suivante :
+Dans cette équation,
+représente le temps,
+un paramètre fixé homogène à une pulsation, c’est-à-dire l'inverse d'un temps.
+est un paramètre fixé homogène à une longueur, et
+le paramètre de perturbation, sans dimensions. On cherche à déterminer la fonction
+inconnue, homogène à une longueur, et vérifiant les conditions initiales : à l'instant , on a :
+et .
+Interprétation physique[modifier | modifier le code]
+On peut interpréter cette équation différentielle comme la loi de la dynamique de Newton d'une particule de masse
+soumise à une force dérivant d'une énergie potentielle  :
+où le potentiel
+quartique s'écrit :
+Caractère borné du mouvement[modifier | modifier le code]
+Pour toutes les valeurs de
+positives ou nulles,
+représente un puits de potentiel. La conservation de l'énergie mécanique totale
+de la particule :
+entraîne alors que le mouvement est borné dans un intervalle , où les points tournants
+et
+sont les deux solutions réelles de l'équation :
+Ordre zéro : l'oscillateur harmonique[modifier | modifier le code]
+Le problème de départ de la théorie des perturbations est l'équation différentielle
+correspondant à la valeur  :
+Cette équation est par définition un oscillateur harmonique de pulsation , dont la solution analytique exacte est bien connue :
+où
+et
+sont deux constantes, pour l'instant inconnues.
+Théorie de perturbation naïve au premier ordre[modifier | modifier le code]
+On cherche la solution approchée sous la forme :
+où
+est une fonction inconnue, à déterminer. On injecte cette expression dans l'équation différentielle exacte . En se limitant au termes du premier ordre inclus et en utilisant le fait que
+est la solution exacte de , on obtient l'expression au premier ordre de la théorie de perturbation :
+Démonstration
+On injecte le développement dans l'équation différentielle exacte . En se limitant au termes du premier ordre inclus et en utilisant le fait que
+est la solution exacte de , on obtient l'équation suivante pour la fonction  :
+On utilise l'identité trigonométrique suivante :
+d'où l'équation différentielle pour la fonction  :
+On peut démontrer que cette équation différentielle possède la solution générale exacte suivante :
+On a donc pour la fonction inconnue :
+L'application des conditions initiales : à l'instant , on a :
+et
+conduisent au système de deux équations à deux inconnues :
+En utilisant la formule trigonométrique :
+dans l'équation (2), on montre que : , donc que : . On reporte ensuite ce résultat dans l'équation (1), ce qui donne :
+On en déduit l'expression au premier ordre de la théorie de perturbation.
+Apparition d'un terme séculaire[modifier | modifier le code]
+On constate que la perturbation contient un terme proportionnel au temps  :
+Ce terme non borné est appelé terme séculaire, du mot latin saeculum qui signifie siècle. En effet, pour les temps , la perturbation est bien d'ordre , c’est-à-dire petite. En revanche, pour des temps plus longs de l'ordre de , la perturbation devient d'ordre 1 et n'est plus petite ; le problème devient encore pire pour des temps encore plus longs : . Or nous savons que le mouvement réel est borné, donc que
+ne peut pas croître indéfiniment : notre théorie des perturbations « naïve » n'est donc plus valide.
+Dans le cadre de l'astronomie, la présence de ces termes séculaires empêchent d'étudier le futur à long terme des trajectoires planétaires, l'unité de temps caractéristique du problème étant le siècle.
+Méthode de Lindstedt[modifier | modifier le code]
+Lindstedt a proposé en 1882 une méthode qui, pour certaines équations différentielles, permet d'éliminer ces termes séculaires[7],[8]. On l'appelle aussi méthode de Lindstedt-Poincaré, Poincaré ayant démontré que les séries introduites par Lindstedt devaient être interprétées comme des expressions asymptotiques[9],[10],[4].
+L'idée de Lindstedt est la suivante : dans certains cas, les termes séculaires peuvent être dus au fait que l'on développe incorrectement les expressions. Par exemple, supposons que le résultat exact soit :
+Cette expression clairement bornée développée au premier ordre en
+donne :
+et il apparaît un terme séculaire non borné ! On voit que la solution exacte est en fait une fonction de la pulsation :
+qui est légèrement différente de la pulsation initiale
+du problème. Lindstedt va utiliser cette remarque de façon systématique.
+Principe de la méthode de Lindstedt[modifier | modifier le code]
+La méthode de Lindstedt ne s'applique que pour les équations différentielles du type suivant :
+où
+est une fonction paire de
+et impaire de
+qui est de plus soit périodique en , soit indépendante de . La méthode consiste à faire un changement d'échelle de temps en introduisant une nouvelle variable
+sans dimensions définie par le développement en série :
+Dans cette expression, les valeurs numériques des constantes inconnues
+devront être choisies afin de faire disparaître les termes séculaires de la série perturbatrice de la solution approchée à l'ordre désiré.
+Illustrons la méthode dans le paragraphe suivant avec l'oscillateur de Duffing.
+Exemple : l'oscillateur de Duffing au premier ordre[modifier | modifier le code]
+On a vu plus haut que l'équation différentielle de l'oscillateur de Duffing s'écrivait :
+Faisons le changement d'échelle de temps
+et définissons la nouvelle fonction inconnue
+de la variable
+par :
+La règle de Leibniz de dérivation en chaîne donne pour la dérivée première :
+et pour la dérivée seconde :
+Comme on a au premier ordre :
+on obtient pour les dérivées :
+L'équation différentielle de Duffing devient au premier ordre :
+Introduisons maintenant dans cette équation différentielle le développement au premier ordre de la solution :
+Il vient en développant selon les puissances de  :
+On a donc le système de deux équations différentielles :
+La première a pour solution générale :
+où
+et
+sont deux constantes. On reporte alors cette expression dans la seconde équation différentielle, et on obtient pour la première correction  :
+On réutilise la formule trigonométrique :
+d'où l'équation différentielle pour la fonction  :
+Il suffit alors d'annuler le coefficient devant le terme en
+en posant :
+On obtient alors l'équation différentielle finale pour la fonction  :
+Perturbation singulière[modifier | modifier le code]
+Article détaillé : Perturbation singulière.
+Problèmes multi-échelles[modifier | modifier le code]
+Annexes[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Bibliothèque virtuelle[modifier | modifier le code]
+Nils Berglund ; Perturbation theory of dynamical systems (2001). Disponible sur l'ArXiv : math.HO/0111178.
+Ouvrages de référence[modifier | modifier le code]
+Ali H. Nayfeh ; Perturbation Methods, John Wiley & Sons (New York-1973), réédité dans la collection : Wiley Classics Library (2000), ISBN 0-471-39917-5.
+Ali H. Nayfeh ; Introduction to Perturbation Techniques, John Wiley & Sons (New York-1981), ISBN 0-471-31013-1.
+E. John Hinch ; Perturbation Methods, Cambridge Texts in Applied Mathematics, Cambridge University Press (1991), ISBN 0521378974.
+Donald R. Smith ; Singular-Perturbation Theory: An Introduction with Applications, Cambridge University Press (1985), ISBN 0-521-30042-8.
+Articles de revue[modifier | modifier le code]
+Donald R. Smith ; The Multivariable Method in Singular Perturbation Analysis, SIAM Review 17 (2) (1975), 221-273.
+A. B. Vasilieva ; On the Development of Singular Perturbation Theory at Moscow State University and Elsewhere, SIAM Review 36 (3) (1994), 440-452.
+Applications à la mécanique céleste[modifier | modifier le code]
+La mécanique hamiltonienne a connu une avancée spectaculaire en 1954 avec l'avènement de la « théorie KAM ». Les références ci-dessous sont donc classées en fonction de cet évènement.
+Théorie pré-KAM[modifier | modifier le code]
+Pierre-Simon Laplace ; Traité de mécanique céleste, Editions Jacques Gabay (1990). Réédition d'un ouvrage classique de la fin du XIXe siècle, en 4 volumes. Niveau second cycle universitaire. Cet ouvrage est disponible en fac-similé sur Gallica disponible sur Gallica.
+François-Félix Tisserand ; Traité de mécanique céleste, Editions Jacques Gabay (1990). Réédition d'un ouvrage classique de la fin du XIXe siècle, en 4 volumes. Niveau second cycle universitaire. Cet ouvrage est disponible en fac-similé sur Gallica.
+Henri Poincaré ; Leçons de mécanique céleste, 3 tomes, (1905-1910), réédité par Jacques Gabay, Paris (2003). Une somme de référence, par le grand mathématicien qui a tant contribué au sujet. Niveau second cycle universitaire. Cet ouvrage est disponible en fac-similé sur Gallica : Tome I, Tome II, Tome III.
+Anders Lindstedt ; Abh. K. Akad. Wiss. St. Petersburg 31 (1882), 4.
+Anders Lindstedt ; Sur la forme des expressions des distances mutuelles dans le problème des trois corps, Comptes-Rendus de l'Académie des Sciences 97 (1883) 1276 et 1353. Ces deux notes sont disponibles en fac-similé sur Gallica.
+Henri Poincaré ; Sur les séries de M. Lindstedt, Comptes-Rendus de l'Académie des Sciences 108 (1889) 21-24. Cette note est disponible en fac-similé sur Gallica.
+Henri Poincaré ; Sur l'application de la méthode de M. Lindstedt au problème des trois corps, Comptes-Rendus de l'Académie des Sciences 114 (1892) 1305-1309. Cette note est disponible en fac-similé sur Gallica.
+Théorie post-KAM[modifier | modifier le code]
+Florin Diacu & Philip Holmes ; Celestial Encounters - The Origin of Chaos & Stability, Princeton University Press (1996).].
+V.I. Arnold, V.V. Kozlov & A.I. Neishtadt ; Mathematical Aspects of Classical & Celestial Mechanics, Springer-Verlag (2e édition-1997)
+Bibliographie de l'article Mécanique céleste
+Articles connexes[modifier | modifier le code]
+Notations de Landau
+Sommabilité de Borel
+Théorie de la perturbation (mécanique quantique)
+Références[modifier | modifier le code]
+↑ Il existe en fait une solution exacte du problème des trois corps découverte par Sundman (1909). Cette solution exacte, sous la forme d'un développement en série formelle, n'est en pratique pas exploitable, car si la série converge bien « au sens des géomètres », elle le fait si lentement que cela rend son pouvoir prédictif quasi nul. Lire : Malte Henkel ; Sur la solution de Sundman du problème des trois corps, Philosophia Scientiae 5(2) (2001) pp. 161-184. Texte complet disponible sur l'ArXiv : physics/0203001.
+↑ Pierre-Simon Laplace ; Traité de mécanique céleste, Editions Jacques Gabay (1990). Réédition d'un ouvrage classique de la fin du XIXe siècle, en 4 volumes. Niveau second cycle universitaire. Cet ouvrage est disponible en fac-similé sur Gallica.
+↑ François-Félix Tisserand ; Traité de mécanique céleste, Editions Jacques Gabay (1990). Réédition d'un ouvrage classique de la fin du XIXe siècle, en 4 volumes. Niveau second cycle universitaire. Cet ouvrage est disponible en fac-similé sur Gallica.
+↑ a et b Henri Poincaré ; Leçons de mécanique céleste, 3 tomes, (1905-1910), réédité par Jacques Gabay, Paris (2003). Une somme de référence, par le grand mathématicien qui a tant contribué au sujet. Niveau second cycle universitaire. Cet ouvrage est disponible en fac-similé sur Gallica : Tome I, Tome II, Tome III.
+↑ Henri Poincaré ; Les méthodes nouvelles de la mécanique céleste, Gauthier-Villars (1892).
+↑ Jean-Pierre Ramis, Séries divergentes et théories asymptotiques, Journées X-UPS (1991).
+↑ Anders Lindstedt ; Abh. K. Akad. Wiss. St. Petersburg 31 (1882), 4.
+↑ Anders Lindstedt ; Sur la forme des expressions des distances mutuelles dans le problème des trois corps, Comptes-Rendus de l'Académie des Sciences 97 (1883) 1276 et 1353. Ces deux notes sont disponibles en fac-similé sur Gallica.
+↑ Henri Poincaré ; Sur les séries de M. Lindstedt, Comptes-Rendus de l'Académie des Sciences 108 (1889) 21-24. Cette note est disponible en fac-similé sur Gallica.
+↑ Henri Poincaré ; Sur l'application de la méthode de M. Lindstedt au problème des trois corps, Comptes-Rendus de l'Académie des Sciences 114 (1892) 1305-1309. Cette note est disponible en fac-similé sur Gallica.
+Portail de l’astronomie
+Portail de la physique
+Portail des mathématiques
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Théorie_des_perturbations&oldid=106271372 ».
+Catégories : ÉquationMéthode mathématique de la physiqueMécanique célesteMécanique quantiqueCatégories cachées : Portail:Astronomie/Articles liésPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Mathématiques/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Deutsch
+English
+Español
+فارسی
+Gaeilge
+עברית
+Magyar
+Հայերեն
+Italiano
+日本語
+한국어
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Polski
+Português
+Русский
+Svenska
+Türkçe
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 14 août 2014 à 23:25.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

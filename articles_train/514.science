@@ -1,0 +1,546 @@
+Liste des matières de la théorie des nombres — Wikipédia
+Liste des matières de la théorie des nombres
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Article détaillé : cryptologie.
+Sommaire
+1 Facteur (mathématiques)
+2 Fractions
+3 Arithmétique modulaire
+4 Test de primalité et factorisation
+5 Fonction arithmétique
+6 Théorie analytique des nombres : problème additifs
+7 Théorie algébrique des nombres
+8 Formes quadratiques
+9 Fonctions L
+10 Équation diophantienne
+11 Approximation diophantienne
+12 Méthodes du crible
+13 Nombres premiers particuliers
+14 Nombres pseudo-aléatoires
+15 Résumé de textes historiques
+16 Rubriques récréatives
+16.1 Suites de nombres
+16.2 Nombres premiers et suites reliées
+16.3 Carrés magiques, etc.
+Facteur (mathématiques)[modifier | modifier le code]
+Nombres composés
+Nombres hautement composés
+Parité (arithmétique)
+Diviseur
+Plus grand commun diviseur (PGCD)
+Plus petit commun multiple (PPCM)
+Algorithme d'Euclide
+Nombres premiers entre eux
+Lemme d'Euclide
+Théorème de Bachet-Bézout
+Algorithme d'Euclide étendu
+Table des diviseurs
+Nombres premiers
+Facteur premier
+Table des facteurs premiers
+Formule pour les nombres premiers
+Factorisation
+Nombre RSA
+Théorème fondamental de l'arithmétique
+Entier sans facteur carré
+Carré parfait
+Puissance de deux
+Polynôme à valeurs entières
+Fractions[modifier | modifier le code]
+Nombre rationnel
+Fraction unitaire
+Fraction irréductible = en plus petits termes
+Fraction dyadique
+Décimale récurrente
+Nombre cyclique
+Fraction continue
+Suite de Farey
+Cercle de Ford
+Arbre de Stern-Brocot
+Somme de Dedekind
+Fraction égyptienne
+Arithmétique modulaire[modifier | modifier le code]
+Réduction de Montgomery
+Exponentiation modulaire
+Théorème de congruence linéaire
+Théorème des restes chinois
+Système modulaire de représentation : RNS
+Petit théorème de Fermat
+Démonstrations du petit théorème de Fermat
+Fonction φ d'Euler
+Anticoïndicateur
+Anti-indicateur
+Théorème d'Euler
+Théorème de Wilson
+Racine primitive modulo n
+Ordre multiplicatif
+Logarithme discret
+Résidu quadratique
+Critère d'Euler
+Symbole de Legendre
+Lemme de Gauss
+Congruence de carrés
+Formule de Luhn
+Cryptanalyse Mod n
+Test de primalité et factorisation[modifier | modifier le code]
+Articles détaillés : Théorie calculatoire des nombres et Théorie algorithmique des nombres.
+Divisions successives
+Crible de Sundaram
+Crible d'Ératosthène
+Crible d'Atkin
+Test de primalité de Fermat
+Nombre pseudo-premier
+Nombre de Carmichaël
+Nombre pseudo-premier d'Euler
+Nombre pseudo-premier d'Euler-Jacobi
+Nombre pseudo-premier de Fibonacci
+Nombre premier probable
+Test de primalité AKS
+Test de primalité de Miller-Rabin
+Test de primalité de Lucas-Lehmer
+Test de primalité de Lucas-Lehmer pour les nombres de Mersenne
+Test de primalité de Solovay-Strassen
+NewPGen
+Factorisation entière, Algorithme de factorisation en nombre premier
+Algorithme p-1 de Pollard
+Algorithme rho de Pollard
+Factorisation en courbe elliptique de Lenstra
+Factorisation de Dixon
+Crible quadratique
+Crible spécial de corps de nombres (SNFS)
+Crible général de corps de nombres (GNFS)
+Algorithme de Shor
+Algorithme probabiliste
+Compétition de factorisation RSA
+FAFNER
+Fonction arithmétique[modifier | modifier le code]
+Fonction multiplicative
+Fonction additive
+Convolution de Dirichlet
+Fonction de Möbius
+Formule d'inversion de Möbius
+Fonction sigma
+Fonction diviseur
+Fonction de Liouville
+Fonction partage d'un entier
+Fonction partition
+Partition entière
+Nombres de Bell
+Fonction de Landau
+Théorème du nombre pentagonal
+Théorie analytique des nombres : problème additifs[modifier | modifier le code]
+Primorielle
+Nombre premier primoriel
+Constellation de nombres premiers
+Nombres premiers jumeaux
+Conjecture des nombres premiers jumeaux
+Constante de Brun
+Nombres premiers cousins
+Quadruplet de nombres premiers
+Nombres premiers sexy
+Nombre premier de Sophie Germain
+Nombre premier sûr
+Chaîne de Cunningham
+Conjecture de Goldbach
+Conjecture faible de Goldbach
+Seconde conjecture de Hardy-Littlewood
+Hypothèse H de Schinzel
+Conjecture de Bateman-Horn
+Problème de Waring
+Identité de Brahmagupta
+Identité des quatre carrés d'Euler
+Théorème des quatre carrés de Lagrange
+Nombre taxicab
+Nombre taxicab généralisé
+Nombre cabtaxi
+Somme d'ensembles
+Densité de Schnirelmann
+Constante de Landau-Ramanujan
+Nombre de Sierpinski
+Dix-sept ou arrêt
+Théorie algébrique des nombres[modifier | modifier le code]
+Entier de Gauss, Rationnel de Gauss
+Entier d'Eisenstein
+Critère d'Eisenstein
+Nombre premier d'Eisenstein
+Corps quadratique
+Corps de nombres
+Anneau de Dedekind
+Corps global
+Groupe des classes d'idéaux
+Problème du nombre de classes pour les corps quadratiques imaginaires
+Théorème de Stark-Heegner
+Nombre de Heegner
+Congruence d'Ankeny-Artin-Chowla
+Racine de l'unité
+Période de Gauss, Somme de Gauss
+Théorème de Chowla-Mordell
+Corps cyclotomique
+Théorème de Stickelberger
+Conjecture de Vandiver
+Théorème de Kronecker-Weber
+Théorème de Herbrand-Ribet
+Transformation théorique de nombre
+Théorème des unités de Dirichlet
+Discriminant
+Ramification
+Idéal différent
+Séparation des idéaux premiers dans les extensions galoisiennes, Groupe de décomposition, Groupe d'inertie
+Automorphisme de Frobenius
+Théorème de densité de Chebotarev
+Extension abélienne
+Loi de réciprocité quadratique
+Théorie des corps de classes
+Théorie des corps de classes locaux
+Formation de classes
+Théorème d'existence de Takagi
+Théorème de la norme de Hasse
+Multiplication complexe
+Variété abélienne de type CM
+Base normale intégrale
+Théorème de Hilbert-Speiser
+Corps totalement réel
+Formule de Chowla-Selberg
+Nombre p-adique
+Analyse p-adique, Théorème de Mahler
+Analyse locale
+Corps local
+Anneau adélique
+Module de Galois
+Cohomologie galoisienne
+Groupe de Brauer
+Théorie d'Iwasawa
+Système d'Euler
+Formes quadratiques[modifier | modifier le code]
+Forme quadratique binaire
+Réseau unimodulaire (en)
+Théorème des deux carrés de Fermat
+Fonctions L[modifier | modifier le code]
+Fonction zêta de Riemann
+Problème de Mengoli sur ζ(2)
+Nombre de Bernoulli
+Polynôme de Bernoulli
+Théorème de von Staudt-Clausen
+Conjecture d'Agoh-Giuga
+Fonction zêta de Hurwitz
+Série de Dirichlet
+Produit eulérien
+Théorème des nombres premiers
+Fonction de compte des nombres premiers
+Logarithme intégral
+Fonction d'écart logarithmique intégrale
+Constante de Legendre
+Nombre de Skewes
+Postulat de Bertrand
+Série des inverses des nombres premiers
+Conjecture de Cramér
+Hypothèse de Riemann
+Théorème de la droite critique
+Conjecture de Hilbert-Pólya
+Hypothèse de Riemann généralisée
+Théorème de Bombieri-Vinogradov
+Fonction de Mertens, Conjecture de Mertens, Constante de Meissel-Mertens
+Constante de De Bruijn-Newman
+Caractère de Dirichlet
+Série L de Dirichlet
+Zéro de Siegel
+Convolution de Dirichlet
+Série de Lambert
+Théorème de Dirichlet
+Théorème de Linnik
+Conjecture d'Elliott-Halberstam
+Équation fonctionnelle (fonction L)
+Théorème de densité de Chebotarev
+Fonction zêta locale
+Théorème de Hasse sur les courbes elliptiques
+Conjectures de Weil
+Forme modulaire
+Groupe modulaire
+Sous-groupe de congruence
+Opérateur de Hecke (en)
+Forme parabolique
+Série d'Eisenstein
+Courbe modulaire
+Conjecture de Ramanujan-Petersson (en)
+Conjecture de Birch et Swinnerton-Dyer
+Forme automorphe (en)
+Formule des traces de Selberg
+Conjecture d'Artin
+Conjecture de Sato-Tate
+Programme de Langlands
+Théorème de modularité
+Équation diophantienne[modifier | modifier le code]
+Équation de Thue
+Triplet pythagoricien
+Équation de Pell-Fermat
+Courbe elliptique
+Théorème de Nagell-Lutz
+Théorème de Mordell-Weil
+Arithmétique des variétés abéliennes (en)
+Dernier théorème de Fermat
+Conjecture de Mordell
+Conjecture d'Euler
+Conjecture abc
+Conjecture de Catalan
+Conjecture de Pillai
+Principe de Hasse
+Ensemble diophantien
+Théorème de Matiyasevich
+Mille sept cent vingt-neuf
+Approximation diophantienne[modifier | modifier le code]
+Nombre irrationnel
+Racine carrée de deux
+Entier quadratique
+Irrationnel quadratique
+Racine carrée entière
+Nombre algébrique
+Nombre de Pisot-Vijayaraghavan
+Nombre de Salem
+Nombre transcendant
+e (nombre)
+pi
+Quadrature du cercle
+Théorème de Lindemann-Weierstrass
+Septième problème de Hilbert
+Théorème de Gelfond-Schneider
+Constante d'Erdős-Borwein
+Nombre de Liouville
+Fraction continue
+Constantes mathématiques (représentées en fraction continuée)
+Constante de Khinchin
+Constante de Lévy
+Théorème de Lochs
+Opérateur de Gauss-Kuzmin-Wirsing
+Fonction point d'interrogation
+Théorème de Kronecker
+Théorème de Thue-Siegel-Roth
+Constante de Prouhet-Thue-Morse
+Constante de Gelfond-Schneider
+Suite équidistribuée (en)
+Théorème de Beatty
+Conjecture de Littlewood (en)
+Fonction de discrépance (en)
+Suite à discrépance faible
+Constructions de suites à discrépance faible (en)
+Suite de Halton (en)
+Géométrie des nombres
+Théorème de Minkowski
+Théorème de Pick
+Théorème de compacité de Mahler (en)
+Mesure de Mahler (en)
+Résultats effectifs en théorie des nombres
+Théorème de Mahler
+Méthodes du crible[modifier | modifier le code]
+Grand crible (en)
+Nombres premiers particuliers[modifier | modifier le code]
+Nombre premier de Chen
+Nombre premier de Cullen
+Nombre premier de Fermat
+Nombre premier « illégal »
+Nombre premier de Mersenne
+Nouvelle conjecture de Mersenne
+Grande recherche Internet de nombres premiers de Mersenne
+Nombre premier de Newman-Shanks-Williams
+Nombre premier de Sophie Germain
+Nombre premier super-singulier
+Nombre premier de Wagstaff
+Nombre premier de Wall-Sun-Sun
+Nombre premier de Wieferich
+Nombre premier de Wilson
+Nombre premier de Wolstenholme
+Nombre premier de Woodall
+Pages de nombres premiers
+Nombres pseudo-aléatoires[modifier | modifier le code]
+Générateur de nombres pseudo-aléatoires
+Générateur cryptographiquement sûr de nombres pseudo-aléatoires (en)
+Méthode des Middle-square
+Blum Blum Shub
+ISAAC
+Générateur de Fibonacci éloignés
+Générateur congruentiel linéaire
+Mersenne Twister
+Linear feedback shift register
+Générateur par rétrécissement
+Chiffrement de flux
+Résumé de textes historiques[modifier | modifier le code]
+Disquisitiones arithmeticae
+Über die Anzahl der Primzahlen unter einer gegebenen Grösse
+Vorlesungen über Zahlentheorie (en)
+Rubriques récréatives[modifier | modifier le code]
+NB La liste suivante n'est pas péjorative ; beaucoup de matières en théorie des nombres trouvent leur origine dans des problèmes de compétition posés purement pour leur propre intérêt. Voir mathématiques récréatives.
+Nombre de Friedman
+Suite d'entiers
+Suite de Fibonacci
+Base d'or
+Codage de Fibonacci
+Suite de Lucas
+Somme numérique
+Persistance d'un nombre
+Nombre normal
+Nombre de Stoneham
+Constante de Champernowne
+Suites de nombres[modifier | modifier le code]
+Nombre figuré
+Nombre polygonal
+Nombre triangulaire
+Carré parfait
+Nombre carré triangulaire
+Nombre pentagonal
+Nombre hexagonal
+Nombre heptagonal
+Nombre octogonal
+Nombre ennéagonal
+Nombre décagonal
+Nombre centré
+Nombre triangulaire centré
+Nombre carré centré
+Nombre pentagonal centré
+Nombre hexagonal centré
+Nombre heptagonal centré
+Nombre octogonal centré
+Nombre ennéagonal centré
+Nombre décagonal centré
+Nombre tétraédrique
+Nombre cubique
+Nombre cubique centré
+Nombre pyramidal
+Nombre pyramidal triangulaire
+Nombre pyramidal carré
+Nombre pyramidal pentagonal
+Nombre pyramidal hexagonal
+Nombre pyramidal heptagonal
+Nombre octaédrique
+Nombre étoilé
+Nombre parfait
+Nombre quasi parfait
+Nombre presque parfait
+Nombre parfait multiple
+Nombre hyperparfait
+Nombre semi-parfait
+Nombre semi-parfait primitif
+Nombre unitairement parfait
+Nombre étrange
+Nombre amiable
+Nombre sociable
+Nombre abondant
+Nombre déficient
+Suite aliquote
+Supernombres de Poulet
+Nombre chanceux
+Nombre heureux
+Nombre puissant
+Nombre uniforme
+Factorisation des nombres uniformes
+Nombre palindrome
+Nombre automorphe
+Nombre polydivisible
+Nombre en division harmonique
+Nombre sphénique
+Nombre Harshad
+Nombre de Kaprekar
+Nombre de Keith
+Nombre de Leyland
+Nombre de Lychrel
+Nombre de Motzkin
+Nombre de Niven
+Nombre de Smarandache-Wellin
+Nombre de Smith
+Nombre de Zeisel
+Nombre double de Mersenne
+Nombre oblong
+Nombre intouchable
+Auto nombre
+Nombre hautement indicateur
+Nombre pratique
+Nombre vampire
+Nombres premiers et suites reliées[modifier | modifier le code]
+Nombre semi-premier
+Nombre presque premier
+Nombre premier équilibré
+Nombre premier fort (en) ou faible
+Nombre premier unique
+Nombre premier factoriel
+Nombre premier permutable
+Nombre premier palindrome
+Nombre premier cubain
+Nombre premier chanceux
+Carrés magiques, etc.[modifier | modifier le code]
+Spirale d'Ulam
+Étoile magique
+Carré magique
+Forme standard de Frénicle
+Carré magique d'inverses de nombres premiers
+Carré bimagique
+Carré trimagique
+Carré multimagique
+Carré panmagique
+Carré diabolique
+Carré satanique
+Carré magique plus que parfait
+Méthode LUX de Conway pour les carrés magiques
+Cube magique
+Cube magique parfait
+Cube magique semi-parfait
+Cube bimagique
+Cube trimagique
+Cube multimagique
+Hypercube magique
+Constante magique
+Quadrature du carré
+Cubage du cube
+Portail de l’arithmétique et de la théorie des nombres
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Liste_des_matières_de_la_théorie_des_nombres&oldid=110405227 ».
+Catégorie : Théorie des nombresCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Arithmétique et théorie des nombres/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+English
+Slovenčina
+中文
+Modifier les liens
+Dernière modification de cette page le 31 décembre 2014 à 01:18.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

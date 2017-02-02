@@ -1,0 +1,94 @@
+Frittage — Wikipédia
+Frittage
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Ne doit pas être confondu avec frettage.
+Le frittage est un procédé de fabrication de pièces consistant à chauffer une poudre sans la mener jusqu’à la fusion. Sous l'effet de la chaleur, les grains se soudent entre eux, ce qui forme la cohésion de la pièce. Le cas le plus connu est celui de la cuisson des poteries.
+Au XXIe siècle, le frittage est utilisé pour obtenir la densification de matériaux céramiques :
+Il permet de maîtriser la densité de la matière ; comme on part d'une poudre et que celle-ci ne fond pas, on peut maîtriser la taille des grains de poudre (granulométrie) et la densité du matériau, selon le degré de compactage initial des poudres et/ou l'utilisation de dopants, et/ou l'adjonction de liants...
+Il permet d'obtenir des matériaux durs mais fragiles, à porosité contrôlée, inertes chimiquement (faible réactivité chimique et bonne tenue aux corrosions) et thermiquement.
+Il permet de maîtriser les dimensions des pièces produites : comme il n'y a pas de changement d'état, les variations de volume, de dimensions, sont peu importantes par rapport à la fusion (absence de phénomène de retrait).
+Une pièce de métal fritté.
+Sommaire
+1 Définitions techniques
+2 Frittage des céramiques
+3 Métallurgie des poudres
+3.1 Frittage sans liant
+3.2 Frittage avec liant
+3.3 Frittage pour le prototypage rapide
+3.4 Exemples d'applications
+3.5 Matériaux normalisés
+4 Annexes
+4.1 Notes et références
+4.2 Articles connexes
+Définitions techniques[modifier | modifier le code]
+Bien qu'il n'existe pas de définition du frittage faisant l’unanimité, il peut être décrit comme une consolidation d'un matériau (par exemple une poudre), obtenue en minimisant l’énergie du système grâce à un apport d’énergie (thermique, mécanique, avec un laser, ...) mais sans fusion d’au moins l’un des constituants[1].
+Par exemple, la cuisson des poteries est un frittage. Le frittage est une des meilleures méthodes pour obtenir des céramiques et des prototypes de pièces mécaniques.
+Voici deux définitions plus précises du frittage :
+« Le frittage est un processus faisant évoluer par traitement thermique un système constitué de particules individuelles (ou un aggloméré poreux), en l’absence de pression externe exercée ou sous l’effet d’une telle pression, de sorte qu’au moins certaines des propriétés du système (sinon toutes) soient modifiées dans le sens d’une réduction de l’énergie libre globale du système. Parallèlement, cette évolution entraîne une diminution importante (sinon complète) de la porosité initiale. Enfin, le processus suppose qu’au moins une phase solide existe constamment pendant tout le traitement thermique, de façon à conserver une certaine stabilité de forme et de dimension au système considéré. »
+G. Cizeron, Institut de céramique française[2]
+et
+« Le frittage est la consolidation par action de la chaleur d’un agglomérat granulaire plus ou moins compact, avec ou sans fusion d’un ou de plusieurs de ses constituants ».
+définition proposée lors d’une série de conférences prononcées en 1968 à l’Institut de Céramique Française et à l’École Nationale Supérieure de Céramique Industrielle de Sèvres
+À la lecture des différentes définitions, on remarque que deux types de frittages existent:
+le « frittage en phase solide » si tous les constituants restent en phase solide,
+le « frittage en phase liquide » si au moins l’un des constituants est en phase liquide et l’un au moins reste en phase solide.
+plaquette de coupe amovible pour outil d'usinage en céramique frittée.
+Frittage des céramiques[modifier | modifier le code]
+Un matériau céramique est solide à température ambiante et n'est ni métallique, ni organique. Les objets en céramique sont réalisés par solidification à haute température d'une pâte humide plastique (verres minéraux), ou frittage (agglutination par chauffage) d'une poudre sèche préalablement comprimée, sans passer par une phase liquide (céramiques polycristallines) ; par assimilation, on désigne sous le terme « céramique » les objets ainsi fabriqués.
+Métallurgie des poudres[modifier | modifier le code]
+En métallurgie des poudres, le frittage est un procédé qui permet de réaliser des pièces mécaniques ou d'autres objets à partir de poudres plus ou moins fines. Dans un premier temps, ces poudres sont agglomérées par divers procédés pour constituer une préforme, laquelle est ensuite chauffée pour acquérir une certaine cohésion.
+Le frittage peut être réalisé avec ou sans liant, sur des matériaux très divers.
+Frittage sans liant[modifier | modifier le code]
+Il concerne essentiellement les poudres métalliques. Celles-ci sont fortement comprimées et mises en forme dans une matrice, sous l'action d'un ou de plusieurs poinçons. Les pressions atteignent communément plusieurs milliers de bars. Après démoulage, on obtient des préformes plus ou moins fragiles qui sont ensuite chauffées sous vide ou dans une atmosphère contrôlée, à une température inférieure à la température de fusion de l'élément principal. C'est la phase de frittage proprement dite. Sous l'effet de la chaleur, les matériaux diffusent les uns dans les autres et les grains de poudre se lient de façon relativement solide, suffisamment en tous cas pour que l'on puisse obtenir des composants mécaniques utilisables.
+Après le frittage, les dimensions des pièces se trouvent notablement réduites. Les cotes des préformes, et donc des matrices, doivent donc tenir compte de cette contraction. En principe, les pièces frittées sont utilisées telles quelles car elles sont relativement précises. Pour augmenter leur précision, on peut faire suivre le frittage d'un calibrage à froid, suivi dans de rares cas d'un second frittage pour améliorer les qualités mécaniques.
+Le frittage sans liant laisse des pièces poreuses, les vides pouvant atteindre 10 à 45 % du volume total. Leur répartition n'est pas uniforme, à cause entre autres de l'« effet silo » (quand on remplit progressivement de produits en grains ou en poudre un silo cylindrique, la pression qui s'exerce sur le fond croît de moins en moins vite et se stabilise à une valeur limite lorsque la colonne stockée atteint une certaine hauteur, à cause des frottements sur les parois).
+Cette porosité peut être considérée comme un inconvénient, en particulier parce que les gaz emprisonnés peuvent faciliter la corrosion interne. En revanche, on peut la mettre à profit pour imprégner les pièces frittées de produits lubrifiants et fabriquer ainsi des coussinets autolubrifiants ou des plaques de guidage. Voir : Matériaux utilisables pour le frottement. En frittant non plus des poudres fines, mais des petites billes calibrées, on fabrique des filtres ou des silencieux pour l'échappement de l'air des vérins pneumatiques.
+L'outillage requis pour une fabrication par frittage est très onéreux, on ne peut l'amortir que par la production de pièces en très grandes séries et utilisées autant que faire se peut à l'état brut. La précision dimensionnelle est approximativement la même que pour les pièces usinées (dans le sens perpendiculaire à celui de la compression, la précision est souvent meilleure).
+On peut obtenir par frittage des alliages ou pseudo-alliages impossibles à fabriquer autrement. Par exemple, il n'existe aucun alliage fer-zinc pour la bonne raison que la température d'ébullition du zinc est de très loin inférieure à la température de fusion du fer.
+Les formes que l'on peut obtenir sont étroitement liées à la manière dont les poudres peuvent remplir les vides du moule (la matrice) et aux possibilités de démoulage. Les parties directement éjectées par les poinçons ne nécessitent aucune dépouille, sur les autres parties on utilise généralement une dépouille de 7°.
+Frittage avec liant[modifier | modifier le code]
+Dans de nombreux cas, en particulier pour des matériaux minéraux comme l'argile, certaines céramiques, certains oxydes, la compression ne donne pas d'ébauches suffisamment solides pour qu'on puisse les manipuler sans précaution. Il se peut aussi que l'on souhaite obtenir des formes incompatibles avec les procédés de compression usuels.
+Dans le cas des argiles et d'un certain nombre de céramiques, les poudres sont additionnées d'eau de façon à former une pâte ou une barbotine. Les pâtes peuvent être mises en forme à la main (poterie), pressées dans des moules (tuiles, pots à fleurs), extrudées (briques creuses, etc. Les barbotines sont coulées dans des moules absorbants en plâtre. On remplit une empreinte et on la vide rapidement. Au contact du plâtre sec, la barbotine perd une partie de son eau et ne peut plus s'écouler. En vidant l'empreinte, il ne reste qu'une « peau » pâteuse qu'on laisse durcir par séchage. Ce procédé permet de réaliser des pièces de porcelaine (théières, cafetières), des éléments de sanitaires (lavabos, cuvettes de WC), … Le séchage laisse des objets manipulables mais peu solides. Le frittage de ces produits survient lors de la cuisson.
+On utilise parfois des moules souples en silicones pour obtenir des formes complexes que l'on ne pourrait pas démouler si le moule était rigide.
+Les mélanges d'oxydes qui servent à fabriquer les éléments de ferrite utilisés dans les circuits électriques comme noyaux des bobines d'induction sont frittés sous très forte pression, comme les pièces métalliques, mais avec un liant. On utilise à cet effet divers polymères qui sont consumés ou évaporés pendant la cuisson.
+Les carbures de tungstène que l'on trouve dans les plaquettes destinées à la coupe des métaux sont frittés avec un liant métallique qui augmente la solidité et diminue les porosités. En l'occurrence, il s'agit ici de cobalt.
+Frittage pour le prototypage rapide[modifier | modifier le code]
+Frittage ou fusion (sintering or melting) ?
+Le terme frittage est relativement précis pour une petite population de scientifiques, et plus particulièrement dans la langue anglaise qui fait la distinction entre le frittage solide et le frittage avec une phase liquide, mais il semble difficile de donner une définition du frittage faisant l’unanimité. Il est possible de distinguer quatre grandes familles dans ce nouveau procédé :
+Les procédés par fusion laser (SLM Selective Laser Melting):
+Dans cette catégorie, les écrits mentionnent des températures de transition vitreuse et l’honnêteté voudrait qu’il soit utilisé le terme fusion, si tout le volume de matière sollicité par le faisceau laser est à l’état liquide. Certains fabricants utilisent l’abréviation SLM (Selective Laser Melting) et elle devrait être généralisée dans un futur proche.
+L’extrait suivant a été publié récemment par une équipe de chercheurs sur la modélisation à la réalisation de microcomposants métalliques. « Le frittage sélectif de poudres par laser (SLS) consiste à densifier localement un matériau présenté sous forme de poudre, en le faisant fondre sous l’action d’un laser de très forte puissance. » Ces chercheurs mentionnent un peu plus loin « Avec une modélisation intelligente du procédé, prenant en compte les paramètres matériaux et procédé, il sera possible d’obtenir plus de précision, une meilleure qualité de surface et des caractéristiques isotropes pour les pièces réalisées. »
+Remarques : les procédés par fusion ont l’avantage d’utiliser des puissances laser peu maîtrisées, car la chaleur latente de fusion amortit l’augmentation de la température et elle évite de mettre la matière en ébullition. En contre partie, si le liquide est mouillant par rapport à la poudre non fondue, il génère des forces capillaires qui entraînent la phase liquide dans la porosité de la poudre au front de fusion. La définition des surfaces s’en trouve altérée et particulièrement pour les fronts verticaux qui présentent des ondulations. Il devient difficile de réaliser des épaisseurs fines (≈ 100 µm). La réalisation, de pièces métalliques et polymériques, concerne, en majorité, ce procédé par fusion.
+Les procédés laser par collage de grains dans une phase fusible (matériau biphasé)
+Les publications mentionnent également un procédé par frittage laser, mais une lecture attentive permet de comprendre que les auteurs utilisent un mélange de poudre, dont l’un des constituants a un point de fusion très bas par rapport aux autres grains majoritaires. Ces procédés présentent les avantages des procédés précédents, avec une meilleure définition des pièces obtenues, car la phase vitreuse occupe uniquement la porosité entre les grains plus réfractaires et sa proportion volumique peut être inférieure à la porosité, créant des liaisons physiques uniquement par la genèse de ménisques. Les deux poudres doivent être parfaitement mélangées pour éviter une hétérogénéité de microstructure et pour pallier cet inconvénient, il est nécessaire d’utiliser une poudre enrobée par le constituant fusible. Le terme collage se justifie pour ces procédés, car la phase liquide ne diffuse pas dans les grains voisins plus réfractaires et non altérés. Les forces de liaison s’apparentent à celles utilisées pour confectionner des colles. La phase fusible est, généralement, constituée par des polymères thermofusibles ou des verres à bas point de fusion (fritte). L’inconvénient majeur de ces procédés est que l’objet réalisé n’est pas en bonne matière et que les tests fonctionnels ne peuvent pas être effectués dans des conditions d’usage réelles.
+Les procédés par frittage laser avec phase liquide :
+Ces procédés se rapprochent des procédés précédents, mais le terme frittage peut être justifié par la diffusion des espèces générées et ils s’apparentent au frittage avec une phase vitreuse dans les joints de grains. La création de cette phase liquide peut être obtenue par la formation d’eutectique entre les constituants, par la présence d’impuretés extra granulaire (adsorbées en surface) ou intragranulaire en faible quantité, ou par une distribution de l’énergie thermique spatiale localisée aux contacts des grains. La maîtrise de ces procédés est obtenue par des logiciels de fabrication plus sophistiqués et par une très bonne régulation de la puissance laser, car il est nécessaire de piloter le faisceau laser avec des vitesses de balayage variables pour éviter des zones trop frittées ou sous frittées en fonction de la complexité des formes à fabriquer.
+Les procédés par frittage laser sélectif sans phase liquide:
+La seule appellation "SLS Selective Laser Sintering)!
+Ces procédés sont très rares, car les domaines de paramétrage sont très étroits et ils oscillent entre des états frittés avec une cohésion satisfaisante et des états non frittés sans modification du lit de poudre originel. Ils sont adoptés pour des matériaux monophasés et ils nécessitent une cellule de fabrication chauffée à la température proche des premiers pontages entre grains (exemple pour l’alumine vers 900 °C). Ainsi, le faisceau laser apporte une énergie thermique, relativement, faible pour amener les contacts des grains à la température permettant la diffusion à l’état solide. La poudre doit présenter une régularité de grains et le choix de la longueur d’onde du laser devient prépondérante, ainsi que la qualité du logiciel de fabrication. En réalité, ce frittage présente, presque toujours, une phase liquide très minoritaire et située aux joints de grains. Ces procédés permettent de réaliser des pièces avec une précision extrême, mais avec une porosité importante, car la densification n’a pas eu le temps de s’effectuer. En fonction de la microstructure désirée, il est possible de réaliser un frittage complémentaire dans un four avec une grande facilité, car le matériau est à l’état préfritté et de nombreuses applications ne demandent pas une densification élevée pour conserver une porosité résiduelle (filtres, noyaux de fonderie…)
+Exemples d'applications[modifier | modifier le code]
+Pour les applications dans le domaine du frottement et de l'usure, voir aussi l'article détaillé Applications de la tribologie.
+pièces de frottement : bronze, fer, graphite,
+filtres : bronze, titane, acier inoxydable, nickel,
+aimants permanents : associations en proportions variables de fer + cobalt + nickel + titane + aluminium,
+contacts électriques : tungstène + cuivre ou argent,
+noyaux de ferrite : divers oxydes métalliques,
+grains et bagues d'étanchéité : graphite + argile, carbure de tungstène + cobalt, diverses céramiques,
+plaquettes de coupes : carbures métalliques (W, Ti, ...) avec cobalt, céramiques diverses,
+plaquettes de frein : bronze + graphite, fer + graphite,
+balais de moteurs électriques : graphite + argile + éventuellement éléments abrasifs pour éviter l'usure adhésive.
+réalisation de maquettes et de prototypes (utilisation de poudre polyamide chargée en billes de verre, en aluminium, en carbone, etc. ou non chargée),
+outils abrasifs constitués d'une matrice métallique (bronze, cobalt, fer, nickel, tungstène, ...) et de grains de diamant ou de nitrure de bore cubique,
+conception de varistances à base d'oxyde de zinc.
+oxyde d'uranium fritté pour la fabrication de pastilles de combustible nucléaire.
+Ébène reconstitué à partir de copeaux frittés avec un liant résine (Clarinettes et hautbois Green Line Buffet Crampon)
+Céramiques dentaires
+Supraconducteurs à haute température
+Matériaux normalisés[modifier | modifier le code]
+Diverses nuances appropriées aux usages courants sont normalisées au niveau international :
+ISO 5755/1 : matériaux métalliques pour coussinets imprégnés de lubrifiants,
+ISO 5755/2 : fer et acier fritté contenant du carbone et/ou du cuivre,
+ISO 5755/3 : aciers au nickel, nickel-chrome, nickel-cuivre-molybdène, aciers inoxydables.
+D'autres normes françaises ou internationales concernent les aciers infiltrés, les bronzes et laitons frittés, etc.
+Annexes[modifier | modifier le code]

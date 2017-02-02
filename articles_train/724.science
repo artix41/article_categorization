@@ -1,0 +1,79 @@
+Chromatographie chirale — Wikipédia
+Chromatographie chirale
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La chromatographie chirale est une technique de chromatographie qui consiste en la formation de liaisons non covalentes entre les énantiomères du substrat et l'absorbant chromatographique chiral donnant des complexes diastéréoisomères ayant des affinités de liaisons différentes.
+On ne peut parler d’énantiomères sans évoquer la chiralité qui caractérise le monde vivant. Deux molécules sont dites chirales si, tout comme deux mains, elles sont images l’une de l’autre dans un miroir, tout en n’étant pas superposables. Elles ont la même structure chimique mais des activités optiques différentes. Les deux formes, notées R et S, sont dites isomères optiques ou énantiomères. La séparation de celles-ci est possible notamment grâce à la chromatographie chirale.
+Principe[modifier | modifier le code]
+Pour comprendre le fonctionnement de ce type de chromatographie, il faut comprendre les grands principes de la chromatographie.
+La séparation chromatographique est basée sur les différences de distribution de solutés entre deux phases non miscibles (dont l’une est solide), ce qui se traduit, au niveau macroscopique, par une différence de vitesses de migration des différents constituants du mélange. Cette vitesse est déterminée par un coefficient de partage K :
+K = concentration du soluté dans la phase stationnaire / concentration du soluté dans la phase mobile.
+La théorie thermodynamique est une des théories élaborée pour expliquer le mécanisme de la chromatographie. Pour une bonne séparation, il faut une colonne efficace (dépend du nombre de plateaux théoriques), c’est-à-dire capable de donner des pics étroits, et une bonne résolution, c’est-à-dire une bonne séparation des deux pics sur le chromatogramme, correspondant aux solutés que l’on veut séparer.
+Tout cela est valable pour la chromatographie chirale, et cette dernière présente en plus des caractéristiques spécifiques. Dans cette technique, le mélange racémique à séparer est introduit et va interagir avec la phase stationnaire chirale (PSC). L’obtention de la séparation des énantiomères passe par la formation réversible de complexes diastéréoisomères dans la colonne de chromatographie (par liaison de van Der Waals entre les solutés que l’on veut séparer et le sélecteur chiral). L’intérêt est que les complexes diastéréoisomères ainsi formés possèdent des propriétés physiques différentes ; ainsi l’un des isomères sera plus accroché que l’autre et migrera donc plus lentement, permettant leur séparation physique. D’après la règle des trois points, pour une bonne séparation, il doit exister trois points d’attache entre la PSC et un des isomères, avec au moins un des trois dépendant de la stéréochimie. Les cyclodextrines sont des sélecteurs chiraux très utilisés ; leur intérêt provient du caractère hydrophobe de leur cavité permettant l’accueil d’une molécule et donc la formation d’un complexe.
+Deux techniques principales[modifier | modifier le code]
+La séparation de deux molécules chirales peut s’effectuer grâce à deux techniques principales :
+Si l’échantillon à analyser est gazeux ou susceptible d’être vaporisé, on utilise la chromatographie en phase gazeuse (CPG). La phase stationnaire est alors un liquide fixé sur un support. L’appareil utilisé est composé de :
+un injecteur qui permet d’introduire l'échantillon qui sera entraîné par un gaz appelé gaz vecteur, le plus souvent de l’hélium ou de l’azote.
+un four à température programmable et abritant la colonne capillaire. Celle-ci est un tube enroulé sur lui-même et qui contient la phase stationnaire.
+un détecteur qui permet l’émission d’un signal au passage de chaque composant.
+Si l’échantillon est soluble, la méthode appropriée est alors la chromatographie en phase liquide à haute pression (HPLC). La phase mobile liquide est appelée le solvant d’élution. L’appareil comporte lui aussi un injecteur et un détecteur de mêmes fonctions que pour la CPG, mais également :
+des pompes ayant pour rôle d’assurer le débit du solvant d’élution qui doit être constant.
+une colonne le plus souvent en acier mesurant entre 15 et 30 cm de long et de diamètre interne compris entre 5 et 10 mm.
+Le fonctionnement de ces appareils ainsi que la collecte des données sont gérés par système informatique. L’évolution du signal produit par le détecteur est liée à la concentration instantanée du soluté en fonction du temps et est représenté par des pics sur un graphique appelé le chromatogramme. L’analyse de celui-ci permet l’interprétation des séparations réalisées.
+Applications[modifier | modifier le code]
+Ainsi définie, il apparaît logique d’utiliser la chromatographie chirale dans de nombreux domaines au sein desquels « sont manipulées » les molécules.
+Le domaine médical utilise la chromatographie chirale pour séparer deux énantiomères dont les propriétés peuvent être radicalement différentes, notamment lorsque l’une est curative et l’autre dangereuse.
+Certaines agro-industries l’utilisent pour sélectionner un composé naturel associé à une odeur/un arôme, puis le complexent à des cyclodextrines pour améliorer sa tenue.
+La chromatographie chirale peut être aussi utilisée pour détecter des pollutions, comme pour l’extraction et l’analyse des matières organiques des fiouls et pétroles issus de dégazages ; les composés cancérigènes (les aromatiques), et les résines pouvant être analysées et séparées par CPG et HPLC; la date de la pollution et la provenance des fiouls sont déterminables.
+En écologie, cette technique de chromatographie peut servir à discriminer deux espèces par simple détection de molécules présentes ou non dans l’organisme étudié (ex : la différenciation des poissons sauvages et des poissons d’élevage, grâce, entre autres, à l’étude de l’astaxanthine, détectée par HPLC chirale, pigment caroténoïde issu des crustacés et algues ingérés par l’animal in natura).
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Chromatographie_chirale&oldid=85975002 ».
+Catégorie : ChromatographieCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Modifier les liens
+Dernière modification de cette page le 1 décembre 2012 à 09:20.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

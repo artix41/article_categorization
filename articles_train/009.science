@@ -1,0 +1,320 @@
+Dureté (matériau) — Wikipédia
+Dureté (matériau)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La dureté d'un matériau définit la résistance qu'oppose une surface de l'échantillon à la pénétration d'un poinçon, par exemple une bille en acier trempé (dureté Brinell) ou une pyramide en diamant (dureté Vickers). S'il y résiste bien, il est dit dur, sinon il est dit mou. La dureté se mesure sur différentes échelles selon le type de matériau considéré.
+À la différence des minéraux dont la dureté est caractérisée par rayage (voir Échelle de Mohs), on utilise généralement des essais de rebondissement ou de pénétration pour caractériser la dureté des métaux, des matières plastiques et des élastomères. Ces essais ont l'avantage d'être plus simples à réaliser et de donner des résultats reproductibles.
+Il existe une grande variété d'essais de dureté possibles, ils sont très utilisés en contrôle qualité pour comparer ou estimer la résistance ou la rigidité des matériaux.
+L'essai n'est pas homologué et l'énergie de déformation élastique est absorbée par les matériaux. Pour bien comprendre cela il faut observer les courbes de traction d'un élastomère avec cycle de charge et de décharge dans le domaine élastique. On remarque donc que dans le cas des élastomères, la charge et la décharge élastique n'empruntent pas le même chemin comme cela peut être le cas avec un matériau cristallin.
+Dans un plan « contrainte - déformation », la surface sous la courbe a la dimension d'une énergie. L'aire sous la courbe de traction élastique correspond donc à l'énergie élastique absorbée par le matériau. L'aire sous la courbe de décharge correspond à l'énergie restituée par le matériau. La différence des deux surfaces correspond à l'énergie mécanique Un matériau « caoutchouteux » ne rend donc pas toute l'énergie absorbée, c'est d'ailleurs pour cela qu'il est si souvent utilisé pour amortir les vibrations.
+Plus l'élastomère sera dur, plus il se comportera comme un matériau ordinaire de type cristallin. Plus l'élastomère sera mou, plus il absorbera d'énergie élastique[réf. nécessaire]. On remarque donc ici la différence de signification des mots « dur » et « mou » entre polymères et cristallins.
+Il existe aussi une variante de cet essai pour les alliages métalliques. Le mode opératoire reste identique mais l'interprétation est différente. Il s'agit dans ce cas de mesurer l'énergie de déformation plastique absorbée par le matériau. Si le choc est parfaitement élastique (pas de déformation plastique, pièce à tester très dure), la pointe rebondit théoriquement jusqu'à sa hauteur de lâcher (en négligeant les frottements) ; on peut relier la différence de hauteur h à l'énergie cinétique ΔEc absorbée lors du choc  :
+où m est la masse lâchée et g est l'accélération de la gravité. Dans le cas d'un objet extrêmement mou, la pointe s'enfonce et ne rebondit pas. Les appareils sont en principe étalonnés pour obtenir une dureté de 100 pour un acier trempé à 0,9 % de carbone et d'environ 35 pour les aciers doux.
+Notons cependant que les résultats d'un essai effectué au moyen d'un duromètre Shore dépendent beaucoup de l'état de surface de la pièce testée. L'appareil, si possible équipé de larges poignées pour une pression d'application constante, doit être tenu de manière bien verticale pour éviter d'avoir des frottements qui fausseraient la mesure. Enfin, pour garantir des mesures reproductibles, la masse de la pièce à mesurer doit être beaucoup plus importante que la masse du pénétrateur.
+Son unité est le daN/mm²
+Sommaire
+1 Mesures de dureté par pénétration
+1.1 Essai de Dureté Vickers
+1.1.1 Principe
+1.2 Essai de Dureté Brinell
+1.2.1 Principe
+1.2.2 Le matériau à tester
+1.2.3 Mode opératoire
+1.2.4 Normes
+1.2.5 Variante: Essai de dureté Meyer
+1.3 Essai de dureté Rockwell
+1.3.1 Principe
+1.3.2 Les différentes échelles
+1.3.3 Dureté Rockwell superficielle
+1.4 Comparaison entre les méthodes par pénétration
+1.5 Mesure de microdureté
+2 Mesure de dureté par rayage
+2.1 Dureté de Mohs
+3 Voir aussi
+3.1 Articles connexes
+3.2 Liens externes
+Mesures de dureté par pénétration[modifier | modifier le code]
+Il s'agit des essais les plus couramment pratiqués. Le principe est toujours identique : un pénétrateur indéformable laisse une empreinte dans le matériau à tester. On mesure les dimensions de l'empreinte et on en déduit la dureté.
+Dans une première approche, on peut relier de manière assez simple la limite d'élasticité Re avec la surface de l'empreinte : plus l'objet pénétrant s'enfonce, plus la surface S de pression s'agrandit, donc la force F étant constante, plus la contrainte diminue. Lorsque la contrainte n'est plus suffisante pour déformer plastiquement le solide à tester, l'objet pénétrant s'arrête, et on a donc :
+Les valeurs de dureté obtenues grâce aux différents protocoles et dispositifs d'essais indiqués ci-dessous sont cette limite d'élasticité Re mais les résultats ne sont pas identiques car ces calculs simplifiés prennent en compte la surface de la projection de l'empreinte (comme un disque ou un carré) au lieu de prendre en compte la vraie surface de l'empreinte (comme la surface de la calotte sphérique ou des facettes de l'empreinte pyramidale). Un essai Brinell et un essai Vickers sur la même éprouvette ne donnent pas la même valeur en résultat, mais en ramenant par le calcul la valeur de la force à la vraie surface de l'empreinte (respectivement un calotte sphérique ou une pyramide), on tombe dans les deux cas sur la même valeur qui est la valeur « de pression » du matériau solide.
+Elles ne prennent pas en compte l'écrouissage qui est différent pour chaque type d'essai.
+Il existe une grande variété d'essais de dureté possibles :
+Dureté Vickers (HV), qui a l’échelle la plus large ;
+Dureté Brinell (HB) ;
+Dureté Knoop (HK), pour des mesures de petite surface ;
+Dureté Janka, pour le bois ;
+Dureté Rockwell (HR), principalement aux États-Unis d'Amérique ;
+Dureté Shore, surtout pour les polymères ;
+Dureté Barcol, surtout pour les matériaux composites ;
+Dureté Vicat, pour mesurer le temps de prise de matériaux de construction (plâtre, ciment, ...).
+Essai de Dureté Vickers[modifier | modifier le code]
+Article détaillé : Mesure de Dureté Vickers.
+Principe[modifier | modifier le code]
+Principe de la dureté Vickers
+La mesure de dureté Vickers se fait avec une pointe pyramidale normalisée en diamant de base carrée et d'angle au sommet entre faces égal à 136°. L'empreinte a donc la forme d'un carré ; on mesure les deux diagonales d1 et d2 de ce carré à l'aide d'un appareil optique. On obtient la valeur d en effectuant la moyenne de d1 et d2. C'est d qui sera utilisé pour le calcul de la dureté. La force et la durée de l'appui sont également normalisées.
+HV = Dureté Vickers.
+F = Force appliquée [N]
+d = Moyenne des diagonales de l'empreinte [mm]
+g = Accélération terrestre. [m s-2] (9.80665)
+Le degré de dureté, noté Hv, est ensuite lu sur un abaque (une table) ; il y a un abaque par force d'appui.
+Norme Européenne pour la dureté Vickers:
+EN ISO 6507-1 - Essai de dureté Vickers - Méthode d'essai
+EN ISO 6507-2 - Essai de dureté Vickers - Vérification et étalonnage des machines d'essais
+EN ISO 6507-3 - Essai de dureté Vickers - Etalonnage des blocs de référence
+Essai de Dureté Brinell[modifier | modifier le code]
+Principe de la dureté Brinell
+Principe[modifier | modifier le code]
+L'essai consiste à faire pénétrer en appliquant une force F un pénétrateur ayant une forme de bille diamètre D, généralement du carbure poli, dans un métal afin d'en déduire la dureté du matériau.
+HB = Dureté Brinell.
+m = Masse appliquée. [kgf] 1 [kgf] = 9,806 65 [N]
+D = Diamètre de la bille. [mm]
+d = Diamètre de l'empreinte laissée par la bille. [mm]
+Le matériau à tester[modifier | modifier le code]
+La surface doit être plane et nettoyée (sans lubrifiant, oxyde ou calamine). Il est nécessaire d'avoir une épaisseur suffisante afin que la pénétration de la bille ne déforme pas le matériau. Dans le cas contraire, la mesure ne serait pas fiable. Il faut une épaisseur d'au moins huit fois la profondeur h de l'empreinte.
+Mode opératoire[modifier | modifier le code]
+Placer le pénétrateur en contact avec la surface du matériau. Appliquer la force. Maintenir cette charge pendant 10 à 15 secondes.
+Mesurer sur l'empreinte deux diamètres à 90° l'un de l'autre. La mesure est effectuée à l'aide d'un dispositif grossissant et d'une règle graduée tenant compte du facteur de grossissement.
+Normes[modifier | modifier le code]
+Normes européennes (EN) et internationales (ISO) :
+EN ISO 6506-1 : Matériaux métalliques - Essai de dureté Brinell - Partie 1 : Méthode d'essai
+EN ISO 6506-2 : Matériaux métalliques - Essai de dureté Brinell - Partie 2 : Vérification et étalonnage des machines d'essai
+EN ISO 6506-3 : Matériaux métalliques - Essai de dureté Brinell - Partie 3 : Étalonnage des blocs de référence
+Norme américaine (ASTM) :
+ASTM E10 : Standard method for Brinell hardness of metallic materials
+Variante: Essai de dureté Meyer[modifier | modifier le code]
+Le pénétrateur est identique au pénétrateur de la dureté Brinell. D'une manière plus générale, on utilise le même duromètre que celui utilisé pour la dureté Brinell.
+La mesure est effectuée avec les mêmes principes que la dureté Brinell. Les valeurs de dureté Meyer sont calculées avec la formule suivante :
+avec
+Essai de dureté Rockwell[modifier | modifier le code]
+Principe[modifier | modifier le code]
+Principe de la dureté Rockwell (échelle B, bille en acier)
+Les essais de dureté Rockwell sont des essais de pénétration. Il existe en fait plusieurs types de pénétrateurs qui sont constitués d'un cône en diamant ou d'une bille en acier trempé polie. Pour obtenir une valeur de dureté Rockwell, on mesure une pénétration rémanente du pénétrateur sur lequel on applique une faible charge.
+L'essai se déroule en trois phases :
+application sur le pénétrateur d'une charge initiale F0= 98 N (soit 10 kgf). Le pénétrateur s'enfonce d'une profondeur initiale I. Cette profondeur étant l'origine qui sera utilisée pour mesure la dureté Rockwell ;
+application d'une force supplémentaire F1. Le pénétrateur s'enfonce d'une profondeur de P ;
+relâchement de la force F1 et lecture de l'indicateur d'enfoncement.
+La valeur de r étant l'enfoncement rémanent obtenu en appliquant puis en relâchant la force F1.
+La valeur de dureté est alors donnée par la formule suivante :
+Échelle B, E et F
+Échelle C
+Une unité de dureté Rockwell correspondant à une pénétration de 0,002 mm.
+Les différentes échelles[modifier | modifier le code]
+Échelle
+Symbole
+Pénétrateur
+Valeur de la force totale F0 + F1 (N)
+Application
+A
+HRA
+Cône de diamant de section circulaire à pointe arrondie sphérique de 0,2 mm
+588,6
+Carbure, acier et en épaisseur mince
+B
+HRB
+Bille d'acier de 1,588 mm (1/16 de pouce) de diamètre
+981
+Alliage de cuivre, acier doux, alliage d'aluminium
+Matériaux ayant une résistance à la rupture comprise entre 340 et 1 000 MPa
+C
+HRC
+Cône de diamant de section circulaire à pointe arrondie sphérique de 0,2 mm
+1 471,5
+Acier, fonte, titane
+Matériau ayant une dureté résistance à la rupture supérieure à 1 000 MPa
+D
+HRD
+Cône de diamant de section circulaire à pointe arrondie sphérique de 0,2 mm
+981
+E
+HRE
+Bille d'acier de 3,175 mm (1/8 pouce) de diamètre
+981
+Fonte, alliage d'aluminium et de fonte
+F
+HRF
+Bille d'acier de 1,588 mm de diamètre
+588,6
+Alliage de cuivre recuit, fine tôle de métal.
+G
+HRG
+Bille d'acier de 1,588 mm de diamètre
+1 471,5
+Cupro-nickel, alliage cuivre-nickel-zinc
+Les deux échelles les plus utilisées sont les échelles B et C.
+Dureté Rockwell superficielle[modifier | modifier le code]
+Ces échelles sont utilisées pour des produits très minces et pour la mesure de dureté de revêtements.
+Les deux échelles utilisées sont l'échelle N (cône de diamant) et T (bille en acier). Dans les deux cas, la charge initiale (F0) est de 29,4 N. Chaque échelle peut être utilisée en utilisant une charge totale de 147 N, 294 N ou 441 N. On notera qu'il existe également des échelles W (bille de diamètre 3,175 mm), X (bille de diamètre 6,350) et Y (bille de diamètre 12,70 mm).
+Dans ce cas, une unité de dureté Rockwell correspond à un enfoncement de 0,001 mm.
+Pour les échelles N et T, la dureté est donnée par la formule :
+Échelle
+Symbole
+Pénétrateur
+Valeur de la force totale F0 + F1 (N)
+N
+HR15N
+Cône de diamant de section circulaire à pointe arrondie sphérique de 0,2 mm
+15
+N
+HR30N
+Cône de diamant de section circulaire à pointe arrondie sphérique de 0,2 mm
+30
+N
+HR45N
+Cône de diamant de section circulaire à pointe arrondie sphérique de 0,2 mm
+45
+T
+HR15T
+Bille d'acier de 1,588 mm de diamètre
+15
+T
+HR30T
+Bille d'acier de 1,588 mm de diamètre
+30
+T
+HR45T
+Bille d'acier de 1,588 mm de diamètre
+45
+T
+HR15Y
+Bille d'acier de 12,7 mm de diamètre, utilisée principalement pour les revêtements de type abradables
+147
+Comparaison entre les méthodes par pénétration[modifier | modifier le code]
+Type d'essai
+Préparation de la pièce
+Utilisation principale
+Commentaire
+Brinell
+La surface de la pièce ne nécessite pas une préparation extrêmement soignée (tournage ou meulage).
+En atelier
+La méthode ayant la mise en œuvre la plus facile des trois méthodes.
+Rockwell
+Bonne préparation de surface (au papier de verre OO par exemple). La présence de rayures donne des valeurs sous estimées.
+En atelier
+L'essai est simple et rapide.
+Convient bien pour des duretés plus élevées (supérieures à 400 Brinell). Elle est plutôt utilisée pour les petites pièces (il est nécessaire que la pièce soit parfaitement stable).
+La dureté Rockwell présente l'inconvénient d'avoir une dispersion relativement importante.
+Vickers
+État de surface très soigné (on obtient de petites empreintes, la présence d'irrégularité gène la lecture).
+En laboratoire
+C'est un essai assez polyvalent qui convient aux matériaux tendres ou très durs.
+Il est utilisé généralement pour des pièces de petites dimensions.
+Mesure de microdureté[modifier | modifier le code]
+Faits sous très faible charge, les essais de microdureté permettent des mesures très localisées (sur environ 100 µm2). À l'aide d'un microduromètre, on peut par exemple déterminer la dureté d'une phase donnée dans un échantillon polyphasé ou celle d'un échantillon très fragile et mince.
+Mesure de dureté par rayage[modifier | modifier le code]
+Dureté de Mohs[modifier | modifier le code]
+Article détaillé : Échelle de Mohs.
+La mesure de la dureté selon l'échelle de Mohs dépend de la capacité d'un matériau à rayer un matériau de référence ou à être rayé par un matériau de référence. La mesure est basée sur une échelle de 0 à 10, cette dernière valeur correspondant au diamant qui ne peut être rayé que par un autre diamant.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Détermination des minéraux avec la dureté, sur Wikibooks
+Articles connexes[modifier | modifier le code]
+Pénétrabilité à l'aiguille
+Ductilité
+Résistance des matériaux
+Essai mécanique
+Liens externes[modifier | modifier le code]
+Correspondance d'unités entre les échelles de dureté Shore (A, B, C, D, 0 et 00) utilisées pour les matériaux polymères
+(en) Hardness Guide
+Portail des sciences des matériaux
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Dureté_(matériau)&oldid=110051140 ».
+Catégories : Science des matériauxMétallurgieEssai mécaniquePhysique de la matière condenséeCatégories cachées : Article à référence nécessairePortail:Matériaux/Articles liésPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Azərbaycanca
+Български
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Gaeilge
+Galego
+עברית
+हिन्दी
+Hrvatski
+Kreyòl ayisyen
+Magyar
+Ido
+Italiano
+日本語
+Қазақша
+한국어
+Lietuvių
+Latviešu
+Монгол
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Occitan
+Polski
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+ChiShona
+Српски / srpski
+Svenska
+Українська
+Oʻzbekcha
+Vèneto
+ייִדיש
+中文
+Modifier les liens
+Dernière modification de cette page le 18 décembre 2014 à 08:29.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

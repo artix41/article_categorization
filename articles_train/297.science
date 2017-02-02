@@ -1,0 +1,139 @@
+Statistique de Bose-Einstein — Wikipédia
+Statistique de Bose-Einstein
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la physique quantique.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+En mécanique quantique et en physique statistique, la statistique de Bose-Einstein désigne la distribution statistique de bosons indiscernables (tous similaires) sur les états d'énergie d'un système à l'équilibre thermodynamique. La distribution en question résulte d'une particularité des bosons : les particules de spin entier ne sont pas assujetties au principe d'exclusion de Pauli, à savoir que plusieurs bosons peuvent occuper simultanément un même état quantique.
+Sommaire
+1 Distribution de Bose-Einstein
+2 Limite classique et comparaison avec les fermions
+3 Condensat de Bose-Einstein
+4 Voir également
+Distribution de Bose-Einstein[modifier | modifier le code]
+La statistique de Bose-Einstein a été introduite par Satyendranath Bose en 1920 pour les photons et généralisée aux atomes par Albert Einstein en 1924. Statistiquement, à l'équilibre thermodynamique, le nombre ni de particules d'énergie Ei est
+où :
+gi est la dégénérescence du niveau d'énergie Ei, à savoir le nombre d'états possédant cette énergie ;
+μ est le potentiel chimique ;
+kB est la constante de Boltzmann ;
+T est la température.
+Limite classique et comparaison avec les fermions[modifier | modifier le code]
+À haute température, lorsque les effets quantiques ne se font plus sentir, la statistique de Bose-Einstein, comme la statistique de Fermi-Dirac qui régit les fermions, tend vers la statistique de Maxwell-Boltzmann. Aux basses températures, cependant, les deux statistiques diffèrent entre elles. Ainsi, à température nulle :
+avec la statistique de Bose-Einstein, le niveau de plus basse énergie contient tous les bosons;
+avec la statistique de Fermi-Dirac, les niveaux de plus basse énergie contiennent chacun au plus gi fermions.
+Condensat de Bose-Einstein[modifier | modifier le code]
+Comme vu précédemment, la statistique de Bose-Einstein prévoit qu'à température nulle, toutes les particules occupent le même état quantique, celui de plus basse énergie. Ce phénomène est observable à l'échelle macroscopique et constitue un condensat de Bose-Einstein.
+Voir également[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Statistique de Bose-Einstein, sur Wikiversity
+Autres distributions statistiques en mécanique quantique
+en mécanique quantique : statistique de Fermi-Dirac
+en mécanique classique : statistique de Maxwell-Boltzmann
+physique statistique
+physique quantique
+Fonction de Bose
+v · d · m
+Mécanique quantique
+Concepts fondamentaux
+Décohérence · Dualité · Effet tunnel · État quantique · Fonction d'onde · Intrication · Observable · Correspondance · Superposition quantique · Complémentarité · Principe d'incertitude · Mesure · Spin
+Expériences
+Fentes de Young · Expérience de Davisson et Germer · Expérience de Stern et Gerlach · Chat de Schrödinger · Gomme quantique · Paradoxe EPR · Téléportation quantique · Expérience d'Aspect · Expérience d’Afshar
+Formalisme
+Notation bra-ket · Équation de Schrödinger · Matrice densité · Représentation de Schrödinger · Représentation de Heisenberg · Représentation d'interaction · Diagramme de Feynman · Équation de Rarita-Schwinger · Équation de Dirac · Matrice de Dirac · Symbole de Levi-Civita
+Statistiques
+Maxwell-Boltzmann · Échange · Fermi-Dirac · Fermion · Bose-Einstein · Boson
+Théories avancées
+Théorie quantique des champs · Axiomes de Wightman · Électrodynamique quantique · Chromodynamique quantique · Gravité quantique · Trou noir virtuel
+Interprétations
+Problème de la mesure · Copenhague · Ensemble · Variables cachées · Ontologique (Bohm-Hiley) · Transactionnelle · Mondes multiples · Histoires consistantes · Logique quantique
+Physiciens
+Bohr · Bohm · Born · de Broglie · Dirac · Einstein · Everett · Feynman · Heisenberg · Mosharafa · von Neumann · Pauli · Penrose · Planck · Schrödinger
+Postulats de la mécanique quantique · Histoire de la mécanique quantique
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Statistique_de_Bose-Einstein&oldid=100040883 ».
+Catégories : Physique quantiquePhysique statistiqueAlbert EinsteinCatégories cachées : Wikipédia:ébauche physique quantiquePortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+অসমীয়া
+Български
+বাংলা
+Bosanski
+Català
+Čeština
+Deutsch
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Gaeilge
+Galego
+עברית
+हिन्दी
+Hrvatski
+Հայերեն
+Italiano
+日本語
+Қазақша
+한국어
+Nederlands
+Norsk nynorsk
+Polski
+Português
+Русский
+Simple English
+Slovenčina
+Slovenščina
+Svenska
+Татарча/tatarça
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 8 janvier 2014 à 14:33.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

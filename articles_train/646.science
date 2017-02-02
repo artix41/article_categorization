@@ -1,0 +1,137 @@
+Enzyme de restriction — Wikipédia
+Enzyme de restriction
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'enzyme de restriction EcoRV (en vert) avec son substrat : l'ADN [1]
+Une enzyme de restriction est une protéine qui peut couper un fragment d'ADN au niveau d'une séquence de nucléotides caractéristique appelée site de restriction. Chaque enzyme de restriction reconnaît ainsi un site spécifique. Plusieurs centaines d'enzymes de restriction sont actuellement connues, on en retrouve naturellement dans un grand nombre d'espèces de bactéries.
+Ces enzymes, naturellement présentes chez les bactéries, sont devenues des outils important en génie génétique.
+Sommaire
+1 Rôle biologique
+2 Propriétés
+3 Nomenclature
+4 Exemples d'enzymes de type II
+5 Utilisation en génétique
+6 Notes et références
+7 Voir aussi
+7.1 Articles connexes
+7.2 Liens externes
+Rôle biologique[modifier | modifier le code]
+Les enzymes de restriction sont produites par des bactéries et constituent un mécanisme de défense contre les infections par les bactériophages, des virus spécifiques des bactéries. Lorsque le virus injecte son ADN dans le micro-organisme, celui-ci est coupé par l'enzyme de restriction au niveau de ses sites spécifiques. La destruction du génome du virus bloque ainsi l'infection. Le nom d'enzyme de restriction provient de ce mécanisme, en effet la présence de ces enzymes dans les bactéries restreint l'infectiosité des bactériophages.
+Pour éviter que l'enzyme de restriction ne coupe l'ADN de son propre génome, la bactérie fabrique aussi une deuxième enzyme appelée méthylase qui reconnaît également le site de restriction. La méthylase ne coupe pas l'ADN, mais le modifie en lui rajoutant un groupement méthyle sur un ou plusieurs nucléotides du site. Cette méthylation empêche la coupure par l'enzyme de restriction.
+Ce mécanisme de défense, appelé système de restriction/modification, associe systématiquement ces deux enzymes, l'une de coupure et l'autre de protection.
+Propriétés[modifier | modifier le code]
+Les enzymes de restrictions appartiennent à la classe des endonucléases, c'est-à-dire des enzymes capables de cliver les liaisons phosphodiester entre deux nucléotides à l'intérieur de la chaîne d'un acide nucléique, et plus spécifiquement appartiennent à la classe des endodésoxyribonucléases puisque spécifique à l'ADN. Les endonucléases diffèrent des exonucléases, puisqu'elles peuvent cliver les brins d'acide nucléique de manière interne, alors que les exonucléases n'attaquent la molécule d'acide nucléique qu'au niveau de ses extrémités.
+Les enzymes de restriction sont capables de reconnaître spécifiquement et uniquement une courte séquence de l'ADN de 4 à 10 paires de bases, et de cliver les deux brins du duplex d'ADN au site reconnu. Cette propriété a depuis longtemps été utilisée en biologie moléculaire, puisqu'elles permettent de fragmenter l'ADN en segments de taille réduite en coupant à des sites définis.
+Les enzymes de restriction peuvent être utilisées pour établir une carte génétique (appelée « carte de restriction ») d'une molécule d'ADN. La carte de restriction donne l'ordre des sites de restriction le long de cette molécule, et la taille des fragments produits. Cette technique de caractérisation des acides nucléiques, très utilisée voici une vingtaine d'années, est supplantée par le séquençage direct, devenu bien moins coûteux et réalisé de façon routinière.
+Elles peuvent être également utilisées pour faire produire à des cellules hôte (par exemple la bactérie Escherichia coli ) une protéine exogène. Les enzymes de restriction jouent un rôle crucial dans ce processus car elles permettent, en coupant le brin à un endroit précis et de manière asymétrique, l'intégration d'un brin d'ADN spécifique codant pour une protéine précise dans un plasmide dans le but de l'exprimer dans une bactérie. Cette intégration peut être faite, profitant de l'asymétrie créée par l'enzyme de restriction, en jouant sur l'homologie de séquence au site de clivage == site d'intégration.
+Selon la relation spatiale entre la séquence reconnue et le lieu de coupure, il est possible de distinguer trois types d'enzymes de restriction.
+Les enzymes de type I et de type III reconnaissent une séquence d'ADN spécifique et coupent en un endroit aléatoire, d'une distance d'environ 1 000 paires de bases (pb) pour le type I et de 25 pb pour le type III plus loin que le site de restriction. Ces 2 types ont également une activité méthylasique en plus de leur activité endonucléasique, ce qui les différencie du type II.
+Les enzymes de type II, les plus utilisées, reconnaissent une séquence spécifique et coupent en un endroit spécifique de cette séquence. Quelques exemples de ces enzymes figurent ci-dessous.
+De manière générale, les enzymes de restriction sont bloquées par le monoazide d'éthidium.
+Nomenclature[modifier | modifier le code]
+La nomenclature des enzymes de restriction est précise. Leur nom comporte 3 ou 4 lettres correspondant entre autres à la bactérie à partir de laquelle on a extrait cette enzyme[2],[3] :
+La première lettre est en majuscule cela correspond à la première lettre du genre de la bactérie
+La seconde et troisième lettre sont en minuscule et correspondent aux deux premières lettres de l'espèce bactérienne
+La quatrième lettre correspond à la souche bactérienne, elle est écrite en majuscule mais n'est pas présente dans toutes les enzymes de restriction
+Enfin un chiffre romain donne le numéro d'ordre de caractérisation de l'enzyme
+Ainsi on a EcoRI : Enzyme de restriction d'Escherichia (genre) coli (espèce) souche RY317 la première à être caractérisée (I)
+Exemples d'enzymes de type II[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+extrémité cohésive, sur le Wiktionnaire
+extrémité franche, sur le Wiktionnaire
+Enzyme
+Source
+Sequence reconnue
+Coupure
+Extrémités (après coupure)
+Eco RI
+Escherichia coli
+5'GAATTC
+3'CTTAAG
+5'---G AATTC---3'
+3'---CTTAA G---5'
+Cohésives
+BamHI
+Bacillus amyloliquefaciens
+5'GGATCC
+3'CCTAGG
+5'---G GATCC---3'
+3'---CCTAG G---5'
+Cohésives
+HindIII
+Haemophilus influenzae
+5'AAGCTT
+3'TTCGAA
+5'---A AGCTT---3'
+3'---TTCGA A---5'
+Cohésives
+MstII
+Microcoleus species
+5'CCTNAGG
+3'GGAMTCC
+5'---CC TNAGG---3'
+3'---GGAMT CC---5'
+Cohésives
+TaqI
+Thermus aquaticus
+5'TCGA
+3'AGCT
+5'---T CGA---3'
+3'---AGC T---5'
+Cohésives
+NotI
+Nocardia otitidis
+5'GCGGCCGC
+3'CGCCGGCG
+5'--GC GGCCGC--3'
+3'--CGCCGG CG--5'
+Cohésives
+HinfI
+Haemophilus influenzae
+5'GANTC
+3'CTNAG
+AluI
+Arthrobacter luteus
+5'AGCT
+3'TCGA
+5'---AG CT---3'
+3'---TC GA---5'
+Franches
+BgIIII
+Bacillus globigii
+5'AGATCT
+3'TCTAGA
+5'---A GATCT---3'
+3'---TCTAG A---5'
+Cohésives
+HaeIII
+Haemophilus aegyptius
+5'GGCC
+3'CCGG
+5'---GG CC---3'
+3'---CC GG---5'
+Franches
+HhaI
+Haemophilus haemolyticus
+5'GCGC
+3'CGCG
+5'---GCG C---3'
+3'---C GCG---5'
+Cohésives
+PstI
+Providencia stuartii
+5'CTGCAG
+3'GACGTC
+5'---CTGCA G---3'
+3'---G ACGTC---5'
+Cohésives
+SmaI
+Serratia marcescens
+5'CCCGGG
+3'GGGCCC
+5'---CCC GGG---3'
+3'---GGG CCC---5'
+Franches
+Le N et le M dans la séquence de MstII peuvent être remplacés par une des 4 bases et son complément. La séquence de restriction du MstII est un exemple de palindrome imparfait puisqu'il comporte un nombre impair de paires de bases.
+Utilisation en génétique[modifier | modifier le code]
+Les digestions enzymatiques se font généralement dans un microtube mis au bain-marie à température convenablement réglée (généralement 37 °C) sur un portoir flottant.

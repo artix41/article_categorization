@@ -1,0 +1,159 @@
+Calcul stochastique — Wikipédia
+Calcul stochastique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant les probabilités et la statistique.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Le calcul stochastique est l’étude des phénomènes aléatoires dépendant du temps. À ce titre, c'est une extension de la théorie des probabilités.
+Sommaire
+1 Applications
+2 Processus aléatoires
+3 Filtrations
+3.1 Espérance conditionnelle selon une filtration
+4 Processus d'Itō
+4.1 Intégrale d'Itô
+4.2 Définition d'un processus d'Itô
+5 Prescription de Stratonovich
+6 Processus usuels
+7 Martingales exponentielles
+8 Intégrale de Wiener et intégrale stochastique
+8.1 Intégrale de Wiener
+8.2 Intégrale stochastique
+8.3 Lemme d’Itô
+9 Équations différentielles stochastiques
+10 Processus d’Ornstein-Uhlenbeck
+11 Problèmes de contrôle optimal
+12 Méthodes de simulation
+12.1 Méthode de Monte-Carlo
+12.2 Simulation par arbres recombinants
+13 Notes et références
+14 Voir aussi
+14.1 Bibliographie
+14.2 Articles connexes
+Applications[modifier | modifier le code]
+Le domaine d’application du calcul stochastique comprend la mécanique quantique, le traitement du signal, la chimie, les mathématiques financières, la météorologie, et même la musique.
+Processus aléatoires[modifier | modifier le code]
+Un processus aléatoire
+est une famille de variables aléatoires indexée par un sous-ensemble de
+ou , souvent assimilé au temps (voir aussi Processus stochastique). C'est une fonction de deux variables : le temps et l'état de l'univers . L'ensemble des états de l'univers est traditionnellement noté . L'application qui à un
+fixé associe ,
+variable, est appelée trajectoire du processus ; c'est une simple fonction du temps (sans caractère aléatoire) qui représente la réalisation particulière du processus sous l'occurrence .
+Pour un
+donné,
+est une simple variable aléatoire dont la valeur exacte n'est connue qu'en t. Le mouvement brownien est un exemple particulièrement simple de processus aléatoire indexé par . Il peut être défini comme l'unique processus
+à accroissement gaussien tel que la corrélation entre
+et
+soit . On peut également le voir comme la limite d'une marche aléatoire lorsque le pas de temps tend vers 0.
+Filtrations[modifier | modifier le code]
+Une filtration ,
+est une famille de sous-tribus emboîtées de , qui peut s’interpréter comme l’information disponible qui évolue au cours du temps. Ainsi, une filtration est une famille de sigma-algèbres, indexée par le temps
+telle que
+si , ce qui reflète l'augmentation de l'information disponible.
+Espérance conditionnelle selon une filtration[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Processus d'Itō[modifier | modifier le code]
+Article détaillé : Processus d'Itô.
+Le processus d'Itō, d'après le nom de son inventeur Kiyoshi Itō, traite des opérations mathématiques dans un processus stochastique. Le plus important est l'intégrale stochastique d'Itō.
+Intégrale d'Itô[modifier | modifier le code]
+Article détaillé : Intégrale d'Itô.
+Avant le calcul, indiquons que :
+les majuscules telles que
+notent les variables aléatoires ;
+les majuscules avec en indice un
+(par exemple ) notent un processus stochastique qui est une famille de variables aléatoires indexée par  ;
+un petit
+à gauche d'un processus (par exemple ) signifie un changement infinitésimal dans le processus aléatoire qui est une variable aléatoire.
+L'intégrale stochastique d'un processus
+par rapport à un processus
+est décrite par l'intégrale :
+et est définie comme la limite en moyenne quadratique des sommes correspondantes de la forme :
+Un point essentiel lié à cette intégrale est le lemme d'Itô.
+La somme comme le produit de variables aléatoires est définie dans la théorie des probabilités. La somme implique une convolution de la fonction de densité des probabilités, et la multiplication est une addition répétée.
+Définition d'un processus d'Itô[modifier | modifier le code]
+Une fois précisée la définition choisie pour une intégrale stochastique, on définit alors un processus d'Itô comme étant un processus stochastique
+de la forme :
+avec
+et
+deux fonctions aléatoires satisfaisant quelques hypothèses techniques d'adaptation au processus
+et
+est une réalisation dans l'espace de probabilité sous-jacent.
+Dans le formalisme du calcul différentiel avec la prescription d'Itô on note de façon équivalente la relation précédente comme :
+Prescription de Stratonovich[modifier | modifier le code]
+Une autre prescription notable pour définir une intégrale stochastique est la prescription de Stratonovich. L'intégrale de Stratonovich est définie comme la limite des sommes discrètes :
+La différence notable avec la prescription d'Itô est que la quantité
+n'est pas indépendante au sens des probabilités de la variable . Ainsi, contrairement à la prescription d'Itô, dans la prescription de Stratonovich on a :
+ce qui complique, de ce point de vue, certains calculs. Cependant l'utilisation de la prescription de Stratonovich ne choisit pas une direction du temps privilégiée contrairement à celle d'Itô ce qui implique que les processus stochastiques définis par l'intégrale de Stratonovich satisfont des équations différentielles stochastiques invariantes par renversement du temps. Pour cette raison, cette prescription est souvent utilisée en physique statistique.
+Il faut noter cependant qu'il est possible de passer de l'une à l'autre des prescriptions en effectuant des changements de variables simples ce qui les rend équivalentes. Le choix de prescription est donc une question de convenance.
+Processus usuels[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Martingales exponentielles[modifier | modifier le code]
+Article connexe : martingale.
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Intégrale de Wiener et intégrale stochastique[modifier | modifier le code]
+Intégrale de Wiener[modifier | modifier le code]
+Notons le mouvement brownien (MB) par
+et l'intégrale de Wiener par .
+On dit qu'une fonction
+est une fonction en escalier (donc dense dans ) dans s'il existe
+une subdivision de
+et s'il existe
+tels que :
+Alors, on pose :
+Il est clair que
+est une variable aléatoire gaussienne centrée de variance .
+De plus, soit
+et
+une suite de fonctions en escalier de . Alors, la suite
+converge vers une limite dans . De plus, cette limite ne dépend pas de la suite
+et est notée par .
+Intégrale stochastique[modifier | modifier le code]
+Soit
+le mouvement brownien standard défini sur l’espace probabilisé
+et
+un processus adapté à . On suppose par ailleurs que
+vérifie :
+.
+Alors, l’intégrale stochastique de
+par rapport à
+est la variable aléatoire :
+.
+Lemme d’Itô[modifier | modifier le code]
+Article détaillé : Lemme d'Itô.
+Soit
+un processus stochastique tel qu'on ait
+où
+est un processus de Wiener standard.
+Alors d'après le lemme d'Itô, on a pour une fonction
+Équations différentielles stochastiques[modifier | modifier le code]
+Article détaillé : équation différentielle stochastique.
+Une équation différentielle stochastique (EDS) est la donnée d’une équation du type , où
+est un processus aléatoire inconnu, que l’on appelle communément équation de diffusion. Intégrer l’EDS, c’est trouver l’ensemble des processus vérifiant la diffusion entière.
+Processus d’Ornstein-Uhlenbeck[modifier | modifier le code]
+Article détaillé : Processus d'Ornstein-Uhlenbeck.
+Le processus d'Ornstein-Uhlenbeck est un processus stochastique décrivant (entre autres) la vitesse d'une particule dans un fluide, en dimension 1.
+On le définit comme étant la solution
+de l'équation différentielle stochastique suivante :
+,
+où
+est un mouvement brownien standard, et avec
+une variable aléatoire donnée.
+Le terme
+traduit les nombreux chocs aléatoires subis par la particule, alors que le terme
+représente la force de frottement subie par la particule.
+La formule d'Itô appliquée au processus
+nous donne :
+,
+soit, sous forme intégrale :
+Par exemple, si
+vaut presque sûrement , la loi de
+est une loi gaussienne de moyenne
+et de variance , ce qui converge en loi quand
+tend vers l'infini vers la loi gaussienne centrée réduite.
+Problèmes de contrôle optimal[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Méthodes de simulation[modifier | modifier le code]
+Méthode de Monte-Carlo[modifier | modifier le code]
+Les méthodes de Monte-Carlo reposent sur la Loi des grands nombres. En répétant un grand nombre de fois une expérience, de façon (théoriquement) indépendante, on obtient une approximation de plus en plus fiable de la vraie valeur de l'espérance du phénomène observé.
+De telles méthodes sont notamment utilisées en finance pour la valorisation d’options pour lesquelles il n’existe pas de formule fermée, mais uniquement des approximations numériques.
+Simulation par arbres recombinants[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !

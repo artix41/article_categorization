@@ -1,0 +1,265 @@
+Réacteur (chimie) — Wikipédia
+Réacteur (chimie)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Réacteur.
+En chimie, un réacteur est une enceinte ou récipient apte à la réalisation et l'optimisation de réactions chimiques et généralement de procédés de transformation de la matière (génie des procédés). Le but recherché dans un réacteur est l'homogénéité du milieu réactionnel du point de vue de la température et du mélange des réactifs.
+Par exemple :
+cuve : réacteur ouvert à l'atmosphère permettant de faire une transformation chimique ;
+bioréacteur : réacteur permettant de faire une transformation biologique. Dans le cas d'une fermentation, on utilise aussi le terme de fermenteur ;
+grignard : réacteur permettant de travailler sous légère pression ou dépression ;
+autoclave : réacteur permettant de travailler sous forte pression.
+En fonction des limitations imposées par la sécurité, la thermodynamique ou la cinétique, l'ingénieur-chimiste est chargé de dimensionner le réacteur afin d'optimiser la performance du procédé. Comme il n'est pas possible d'obtenir un taux de conversion de 100 %, un bon dimensionnement permet de réduire les coûts de séparation et de réduire la quantité de déchets.
+Sommaire
+1 Généralités
+2 Réacteurs idéaux
+2.1 Réacteur continu
+2.2 Réacteur discontinu
+2.3 Réacteur à écoulement piston
+2.3.1 Réacteur à lit fixe
+2.4 Réacteur semi-continu
+3 Autres réacteurs
+3.1 Réacteur avec recyclage
+3.2 Cascade de réacteurs
+4 Réacteurs non idéaux
+Généralités[modifier | modifier le code]
+Il existe des réacteurs de toutes tailles et de toutes formes. Dans les procédés continus, le réacteur est en général construit sur mesure, en fonction des spécificités de la réaction. Dans les procédés discontinus, on utilise des réacteurs polyvalents normés.
+Les réacteurs sont construits en acier inoxydable (le plus courant), en émail (pour des réactions avec des acides ou autres produits corrosifs), voire en titane ou en hastelloy pour des réactions particulièrement corrosives.
+La structure générale des réacteurs est une cuve avec un système de contrôle de température. Il existe différentes configurations pour le contrôle de température :
+un manteau situé tout autour de la cuve où circule le fluide caloporteur ;
+le demi-tube soudé autour de la cuve où circule de manière forcée le fluide caloporteur ;
+l'échangeur de chaleur interne (serpentin placé dans la cuve) et l'échangeur de chaleur externe (le mélange réactionnel de la cuve est pompé à l'extérieur de la cuve, passe dans un échangeur de chaleur, puis est renvoyé dans la cuve).
+Dimensions générales pour réacteur en inox construit selon normes DIN 28136
+Volume nominal (l)
+Volume de travail max. (l)
+Volume total (l)
+Poids à vide (kg)
+Surface d'échange (double enveloppe) (m2)
+Surface d'échange (demi-coquilles) (m2)
+63
+87,5
+100
+350
+0,63
+-
+100
+126
+138
+400
+0,86
+-
+160
+198
+218
+450
+1,2
+-
+250
+330
+363
+750
+1,48
+1,1
+400
+465
+512
+900
+2,04
+1,63
+630
+800
+900
+1 100
+2,73
+2,05
+1 000
+1 380
+1 550
+1 400
+3,86
+2,93
+2 500
+3 265
+3 665
+2 300
+7,64
+6,0
+10 000
+10 815
+12 160
+6 000
+22,0
+13,5
+16 000
+18 980
+21 120
+8 000
+32,0
+20,0
+Le poids est donné pour un réacteur à double manteau (63-2 500 l) respectivement pour réacteur avec demi-tube (10 000-16 000 l). Le poids à vide concerne les réacteurs avec leur équipement (capteur, agitateur, etc.). Valeurs indicatives selon DIN 28136.
+Réacteurs idéaux[modifier | modifier le code]
+Dans le domaine du génie chimique, on trouve trois grandes classes de réacteurs :
+les réacteurs qui travaillent avec des flux continus :
+les réacteurs continus ou ouverts (en anglais CSTR - Continuous Stirred-Tank Reactor) ;
+les réacteurs à écoulement piston (PFTR - Plug Flow Tubular Reactor) ;
+les réacteurs discontinus ou fermés (batch reactor) ;
+les réacteurs semi-continus ou semi-fermés (fed-batch) qui se situent entre le réacteur fermé et le réacteur ouvert.
+Ces réacteurs sont appelés aussi réacteurs idéaux, car ils servent de modèle de base pour le design de procédés chimiques. Ils sont définis par un certain nombre d'hypothèses qui facilitent la modélisation du procédé.
+Réacteur continu[modifier | modifier le code]
+Réacteur continu
+Les hypothèses liées au modèle du réacteur continu sont les suivantes :
+mélange homogène au niveau moléculaire ;
+température homogène du milieu ;
+volume et densité constants (débit d'entrée = débit de sortie) ;
+concentrations et température du flux de sortie sont les mêmes que celles dans le réacteur.
+Il satisfait au bilan suivant : ENTRÉE + SOURCE + PUITS = SORTIE.
+Un tel bilan est dit stationnaire (propriété du réacteur continu après sa phase de démarrage c'est-à-dire dans sa phase de production), c'est-à-dire que la température ainsi que les concentrations des composants du milieu ne changent pas avec le temps. Mathématiquement il en résulte :
+bilan de matière :  ;
+bilan d'énergie : .
+Avantages :
+Peu de variation dans la qualité d'un produit sur une longue période de temps.
+Haute performance.
+Bon pour des études cinétiques.
+Travaille à des faibles concentrations de réactifs (meilleure sécurité, meilleure conversion pour des ordres de réactions inférieurs à 1 ou en cas d'inhibition par le substrat).
+Désavantages :
+Moins bonne conversion pour des ordres de réactions supérieurs à 1 ou en cas d'inhibition par le produit.
+Nécessite un excellent contrôle des flux (entrée et sortie).
+Ne permet pas des réactions nécessitant des variations des conditions opératoires.
+Réacteur discontinu[modifier | modifier le code]
+Réacteur batch
+Les hypothèses liées au modèle du réacteur discontinu sont les suivantes :
+mélange homogène au niveau moléculaire ;
+température homogène du milieu ;
+volume constant (débit d'entrée = débit de sortie = 0).
+Il satisfait au bilan suivant : SOURCE + PUITS = ACCUMULATION.
+Un tel bilan est dit transitoire, c'est-à-dire que les concentrations des composants du milieu changent avec le temps. La température peut rester constante (réacteur isotherme) ou non. Mathématiquement cela donne :
+bilan de matière :    ;
+bilan d'énergie (trois possibilités) :
+mode polytropique :    ,
+mode isotherme :       ,
+mode adiabatique :     .
+Avantages :
+Installation simple et offrant une très grande polyvalence.
+Permet des réactions nécessitant des variations des conditions opératoires (notamment changement de la température).
+Désavantages :
+Travaille à des concentrations de réactifs élevées au début de la réaction (problème de sécurité, moins bonne conversion en cas d'inhibition par le substrat).
+Nécessite un temps mort entre chaque opération (remplissage, vidange, nettoyage) qui nuit à la performance.
+Réacteur à écoulement piston[modifier | modifier le code]
+Réacteur piston
+Les hypothèses liées au modèle du réacteur piston sont les suivantes :
+le mélange radial est considéré comme parfait ;
+l'écoulement est de type piston ;
+la densité constante ;
+pas de mélange axial.
+Il satisfait au bilan suivant : ENTRÉE + SOURCE + PUITS = SORTIE.
+Le réacteur est considéré à l'état stationnaire, mais possède un profil de température et de concentration en fonction de son axe. On considère non pas le réacteur dans sa totalité, mais on le divise en fine tranche, ce qui permet d'écrire :
+bilan de matière :
+pour une tranche d'épaisseur dL et de volume dV ;
+bilan d'énergie : .
+Avantages :
+Peu de variation dans la qualité d'un produit sur une longue période de temps.
+Haute performance.
+Désavantages :
+Nécessite un excellent contrôle des flux (entrée et sortie).
+Réacteur à lit fixe[modifier | modifier le code]
+Le réacteur à lit fixe est un type de réacteur à écoulement piston. Il est principalement utilisé pour des réactions catalytiques hétérogènes en phase gazeuse: la réaction a lieu à la surface d'un catalyseur solide, les réactifs et les produits étant des gaz. Le catalyseur est déposé à la surface de supports inertes (grilles métalliques ou éléments en silice) qui forment une structure fixe (lit fixe) placé dans le réacteur. Les réactifs circulent dans le réacteur autour des éléments du lit (voire dans les éléments du lit si ce dernier est constitué d'éléments poreux) et réagissent à la surface de ce dernier avec le catalyseur.
+Réacteur semi-continu[modifier | modifier le code]
+Réacteur semi-continu
+Le réacteur semi-continu est très semblable au réacteur discontinu. Le principal changement provient du fait que le volume change durant la réaction. Les principales hypothèses du modèle sont ainsi :
+mélange homogène au niveau moléculaire ;
+température homogène du milieu.
+Il satisfait au bilan suivant : ACCUMULATION = ENTRÉE + SOURCE + PUITS.
+Bilan de matière :      .
+Bilan d'énergie (trois possibilités) :
+mode polytropique :    ;
+mode isotherme :       ;
+mode adiabatique :    .
+Bilan de volume :       .
+Avantages :
+Permet un contrôle de la concentration (meilleure sécurité).
+Permet des réactions nécessitant des variations des conditions opératoires (notamment changement de la concentration des réactifs).
+Meilleure conversion en cas d'inhibition par le substrat.
+Permet d'atteindre de très hautes densités cellulaires en biotechnologie.
+Désavantages :
+Nécessite un excellent contrôle du flux d'entrée (danger d'accumulation des réactifs).
+Nécessite un temps mort entre chaque opération (remplissage, vidange, nettoyage) qui nuit à la performance.
+Autres réacteurs[modifier | modifier le code]
+Réacteur avec recyclage[modifier | modifier le code]
+Il s'agit en général d'un réacteur à écoulement piston dont une partie du flux de sortie est réinjectée dans le réacteur par mélange avec le flux d'entrée. Ce type de réacteur est couramment utilisé lorsque la conversion est faible dans le réacteur.
+Cascade de réacteurs[modifier | modifier le code]
+Ce type de réacteur est caractérisé par une succession de réacteurs (plusieurs réacteurs continus ou un duo réacteur continu-réacteur à écoulement piston. Le flux de sortie du premier réacteur sert de flux d'entrée au second réacteur et ainsi de suite. Cette configuration permet d'atteindre des conversions très élevés.
+Réacteurs non idéaux[modifier | modifier le code]
+Dans la réalité, les hypothèses ne sont pas respectées et ceci d'autant plus si le réacteur est volumineux. Ainsi, dans un réacteur de plusieurs milliers de litres, la température n'est pas uniforme, ce qui engendre des profils de concentrations, car la vitesse de réaction, dépendante de la température, n'est pas uniforme dans la masse réactionnelle.
+Afin de mesurer l'idéalité d'un réacteur, il existe une technique, la distribution de temps de séjour (DTS). Cette technique permet, via la mesure de la concentration d'un traceur à différents endroits du réacteur, de comparer un réacteur avec les modèles ci-dessus et le cas échéant de corriger le modèle pour tenir compte des déviations.
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Réacteur_(chimie)&oldid=107393899 ».
+Catégories : Réaction chimiqueGénie chimiqueCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liésArticle de qualité en persan
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Čeština
+Dansk
+Deutsch
+English
+Español
+Eesti
+فارسی
+Suomi
+עברית
+Bahasa Indonesia
+Italiano
+日本語
+Nederlands
+Polski
+Português
+Română
+Русский
+தமிழ்
+中文
+Modifier les liens
+Dernière modification de cette page le 12 septembre 2014 à 23:47.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

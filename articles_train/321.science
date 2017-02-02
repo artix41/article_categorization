@@ -1,0 +1,68 @@
+Vitesse — Wikipédia
+Vitesse
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir V et Vitesse (homonymie).
+La vitesse est notamment le rapport entre la distance parcourue d'un objet et le temps écoulé.
+En physique, la vitesse est une grandeur qui mesure le rapport d'une évolution au temps. Exemples : vitesse de sédimentation, vitesse d'une réaction chimique, etc. De manière élémentaire, la vitesse s'obtient par la division d'une mesure d'une variation (de longueur, poids, volume, etc) durant un certain temps par une mesure du temps écoulé.
+En particulier, en cinématique, la vitesse est une grandeur qui mesure pour un mouvement, le rapport de la distance parcourue au temps écoulé.
+L'unité internationale de la vitesse cinématique est le mètre par seconde (m.s-1 ou m/s). Pour les véhicules automobiles, on utilise aussi fréquemment le kilomètre par heure (km.h-1 ou km/h), le système anglo-saxon utilise le mille par heure (mile per hour, mph). Dans la marine, on utilise le nœud, qui vaut un mille marin par heure, soit 0,514 4 m.s-1. En aviation, on utilise parfois le mach, mach 1 étant la vitesse du son (qui varie en fonction de la température et de la pression).
+Sommaire
+1 Histoire
+2 Concept
+3 Vecteur-vitesse
+3.1 Coordonnées polaires
+4 Énergie
+5 Notes et références
+6 Voir aussi
+6.1 Bibliographie
+6.2 Articles connexes
+6.3 Liens externes
+Histoire[modifier | modifier le code]
+Une définition formelle a longtemps manqué à la notion de vitesse, car les mathématiciens s'interdisaient de faire le quotient de deux grandeurs non homogènes. Diviser une distance par un temps leur paraissaient donc aussi faux que pourrait actuellement paraître la somme de ces deux valeurs. C'est ainsi que pour savoir si un corps allait plus vite qu'un autre, Galilée (1564-1642) comparait le rapport des distances parcourues par ces corps avec le rapport des temps correspondant. Il appliquait pour cela l'équivalence suivante :
+La notion de vitesse instantanée est définie formellement pour la première fois par Pierre Varignon (1654-1722) le 5 juillet 1698, comme le rapport d'une longueur infiniment petite
+sur le temps infiniment petit
+mis pour parcourir cette longueur. Il utilise pour cela le formalisme du calcul différentiel mis au point quatorze ans plus tôt par Leibniz (1646-1716).
+Concept[modifier | modifier le code]
+Il faut distinguer deux types de vitesse :
+la vitesse moyenne, qui répond très précisément à la définition élémentaire. Elle se calcule en divisant la distance parcourue par le temps de parcours ; elle a un sens sur une période donnée ;
+la vitesse instantanée, qui est obtenue par passage à la limite de la définition de la vitesse. Elle est définie à un instant précis, via la notion de dérivation . Par exemple dans les calculs de cinématique, la vitesse est un vecteur obtenu en dérivant les coordonnées cartésiennes de la position par rapport au temps :
+Vecteur-vitesse[modifier | modifier le code]
+Le vecteur-vitesse instantanée
+d'un objet dont la position au temps
+est donné par
+est défini par la dérivée .
+L'accélération est la dérivée de la vitesse, et la vitesse est la dérivée de la distance, par rapport au temps. L'accélération est le taux de changement de la vitesse d'un objet sur la période. L'accélération moyenne
+d'un objet dont la vitesse change à partir de
+à
+pendant une période
+est donnée par : .
+Le vecteur d'accélération instantanée
+d'un objet dont la position au temps
+est donné par :
+est .
+La vitesse finale
+d'un objet démarrant avec la vitesse
+puis accélérant avec un taux constant
+pendant un temps
+est :
+.
+La vitesse moyenne d'un objet subissant une accélération constante est . Pour trouver le déplacement
+d'un tel objet accélérant pendant la période , substituer cette expression dans la première formule pour obtenir :
+.
+Quand seule la vélocité initiale de l'objet est connue, l'expression
+peut être utilisée. Ces équations de base pour la vélocité finale et déplacement peuvent être combinées pour former une équation qui est indépendante du temps :
+.
+Les équations ci-dessus sont valides pour la mécanique classique mais pas pour la relativité restreinte. En particulier en mécanique classique, tous seront d'accord sur la valeur de
+et les règles de transformation pour la position créent une situation dans laquelle tous les observateurs n'accélérant pas décriraient l'accélération d'un objet avec les mêmes valeurs. Ni l'un ni l'autre ne sont vrais pour la relativité restreinte.
+L'énergie cinétique d'un objet se déplaçant en translation est linéaire avec sa masse et le carré de sa vitesse :
+.
+L'énergie cinétique est une quantité scalaire.
+Coordonnées polaires[modifier | modifier le code]
+En coordonnées polaires, la vitesse dans le plan peut être décomposée en vitesse radiale, , s'éloignant ou allant vers l'origine et la vitesse orthoradiale, dans la direction perpendiculaire (que l'on ne confondra pas avec la composante tangentielle), égale à
+(voir vitesse angulaire).
+Le moment angulaire dans le plan est :
+On reconnaît dans , la vitesse aréolaire.
+Si la force est centrale (voir mouvement à force centrale), alors la vitesse aréolaire est constante (deuxième loi de Kepler).
+Énergie[modifier | modifier le code]
+Plus un objet est lourd, plus il faut consommer d'énergie pour lui faire gagner de la vitesse, et ensuite pour lui faire perdre de la vitesse (énergie cinétique). Ceci a d'importantes implications concernant les transports motorisés, la pollution qu'ils émettent et la gravité des accidents qu'ils induisent. Ainsi quand Rotterdam a - en 2002 - limité (de 120 km.h-1 à 80 km.h-1 sur 3,5 km) et surveillé la vitesse sur la section de l'autoroute A13 traversant le quartier d'Overschie, les taux de NOx ont chuté de 15 à 20 %, les PM10 de 25 à 30 % et le monoxyde de carbone (CO) de 21 %. Les émissions de CO2 ont diminué de 15 %, et le nombre d'accidents de 60 % (- 90 % pour le nombre de morts), avec le bruit divisé par 2[1].

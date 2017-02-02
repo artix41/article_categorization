@@ -1,0 +1,223 @@
+Test (statistique) — Wikipédia
+Test (statistique)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Test.
+En statistiques, un test d'hypothèse est une démarche consistant à rejeter ou à ne pas rejeter (rarement accepter) une hypothèse statistique, appelée hypothèse nulle, en fonction d'un jeu de données (échantillon). Il s’agit de statistique inférentielle : à partir de calculs réalisés sur des données observées, nous émettons des conclusions sur la population, en leur rattachant des risques de se tromper.
+Sommaire
+1 Catégories des tests
+1.1 Les tests selon leur finalité
+1.2 Les tests selon le type et le nombre de variables
+1.3 Tests paramétriques et tests non paramétriques
+1.4 Constitution des échantillons
+2 Liste des tests usuels
+3 Voir aussi
+3.1 Bibliographie
+3.2 Article connexe
+3.3 Liens externes
+3.4 Logiciels
+Catégories des tests[modifier | modifier le code]
+Les tests peuvent être classés selon leur finalité, le type et le nombre des variables d’intérêt, l’existence d’hypothèses a priori sur les distributions des données, le mode de constitution des échantillons.
+Les tests selon leur finalité[modifier | modifier le code]
+La finalité définit l’objectif du test, les hypothèses que l’on veut opposer, l’information que l’on souhaite extraire des données.
+Le test de conformité consiste à confronter un paramètre calculé sur l’échantillon à une valeur pré-établie. On parle alors de test de conformité à un standard. Les plus connus sont certainement les tests portant sur la moyenne ou sur les proportions. Par exemple, dans un jeu de dés à 6 faces, on sait que la face 3 a une probabilité de 1/6 d’apparaître. On demande à un joueur de lancer (sans précautions particulières) 100 fois le dé, on teste alors si la fréquence d’apparition de la face 3 est compatible avec la probabilité 1/6. Si ce n’est pas le cas, on peut se poser des questions sur l’intégrité du dé.
+Le test d’adéquation (ou d'ajustement) consiste à vérifier la compatibilité des données avec une distribution choisie a priori. Le test le plus utilisé dans cette optique est le test d’adéquation à la loi normale. On peut également tester la compatibilité des données avec une famille (paramétrée) de lois.
+Le test d’homogénéité (ou de comparaison) consiste à vérifier que K (K >= 2) échantillons (groupes) proviennent de la même population ou, cela revient à la même chose, que la distribution de la variable d’intérêt est la même dans les K échantillons.
+Le test d’association (ou d’indépendance) consiste à éprouver l’existence d’une liaison entre 2 variables. Les techniques utilisées diffèrent selon que les variables sont qualitatives nominales, ordinales ou quantitatives.
+Les tests selon le type et le nombre de variables[modifier | modifier le code]
+On distingue généralement 3 principaux types de variables. Une variable qualitative nominale prend un nombre restreint de valeurs (modalités), il n’y a pas d’ordre entre ces valeurs, l’exemple le plus connu est le sexe, il y a 2 valeurs possibles Homme et Femme. Une variable qualitative ordinale prend un nombre restreint de valeurs, il y a un ordre entre les valeurs. Un exemple naturel est la préférence ou la satisfaction : peu satisfait, satisfait, très satisfait. Il y a un ordre naturel entre les valeurs, mais nous ne pouvons pas quantifier les écarts. Enfin, une variable quantitative prend théoriquement un nombre infini de valeurs, l’écart entre 2 valeurs a un sens. Un exemple simple serait le poids, la différence de poids entre 2 personnes est quantifiable, on sait l’interpréter.
+Le type de données joue un rôle très important. Il circonscrit le cadre d’application des techniques. Pour un même objectif, selon le type de données, nous serons amenés à mettre en œuvre des tests différents. Par exemple, pour mesurer l’association entre 2 variables : si elles sont quantitatives, nous utiliserons plutôt le coefficient de corrélation de Pearson ; si elles sont qualitatives nominales, le coefficient de corrélation n’a pas de sens, on utilisera plutôt des mesures telles que le V de Cramer ou le t de Tschuprow.
+Principalement concernant les tests de conformité et d’homogénéité, on dit que le test est univarié s’il ne porte que sur une variable d’intérêt (ex. comparer la consommation de véhicules selon le type de carburant utilisé), il est multivarié s’il met en jeu simultanément plusieurs variables (ex. la comparaison porte sur la consommation, la quantité de CO2 émise, la quantité de particules émises, etc.).
+Tests paramétriques et tests non paramétriques[modifier | modifier le code]
+On parle de tests paramétriques lorsque l’on stipule que les données sont issues d’une distribution paramétrée. Dans ce cas, les caractéristiques des données peuvent être résumées à l’aide de paramètres estimés sur l’échantillon, la procédure de test subséquente ne porte alors que sur ces paramètres. L’hypothèse de normalité sous jacente des données est le plus souvent utilisée, la moyenne et la variance suffisent pour caractériser complètement la distribution. Concernant les tests d’homogénéité par exemple, pour éprouver l’égalité des distributions, il suffira de comparer les moyennes et/ou les variances.
+Les tests non paramétriques ne font aucune hypothèse sur la distribution sous-jacente des données. On les qualifie souvent de tests distribution free. L’étape préalable consistant à estimer les paramètres des distributions avant de procéder au test d’hypothèse proprement dit n’est plus nécessaire.
+Lorsque les données sont quantitatives, les tests non paramétriques transforment les valeurs en rangs. L’appellation tests de rangs est souvent rencontrée. Lorsque les données sont qualitatives, seuls les tests non paramétriques sont utilisables.
+La distinction paramétrique – non paramétrique est essentielle. Elle est systématiquement mise en avant dans la littérature. Les tests non paramétriques, en ne faisant aucune hypothèse sur les distributions des données, élargissent le champ d’application des procédures statistiques. En contrepartie, ils sont moins puissants lorsque ces hypothèses sont compatibles avec les données.
+Constitution des échantillons[modifier | modifier le code]
+Ce point est surtout associé aux tests de comparaison. On parle d’échantillons indépendants lorsque les observations sont indépendantes à l’intérieur des groupes et d’un groupe à l’autre. C’est le cas lorsque l’échantillon provient d’un échantillonnage simple dans la population globale.
+Les échantillons appariés en revanche reposent sur un schéma différent. D’un groupe à l’autre, les individus sont liés. C’est le cas lorsque nous procédons à des mesures répétées sur les mêmes sujets. Par exemple, on mesure la fièvre d’un patient avant et après la prise d’un médicament. L’appariement est une procédure complexe qui va au delà des mesures répétées (ex. les blocs aléatoires complets), elle vise à améliorer la puissance des tests en réduisant l’influence des fluctuations d’échantillonnage.
+Liste des tests usuels[modifier | modifier le code]
+À partir des considérations ci-dessus, nous pouvons proposer une classification des principaux tests utilisés en statistique inférentielle. Nous laissons de côté des tests relatifs à des techniques statistiques spécifiques. Ils dépassent largement le cadre de ce sujet, il paraît plus intéressant de les approfondir dans leur cadre naturel (ex. test de nullité de coefficients de la Régression linéaire multiple ; évaluation d’un bloc de coefficients dans la Régression logistique, etc.).
+Type de test
+Tests paramétriques
+Tests non paramétriques
+Problème à 1 échantillon
+Tests de conformité à un standard
+Test de conformité d'une moyenne (test de Student), d'un écart type et d'une proportion
+.
+Tests d'adéquation à une loi
+.
+Test de Kolmogorov-Smirnov
+Test d'adéquation du
+Test de Shapiro-Wilks, test de Lilliefors, test d'Anderson-Darling (en), test de D'Agostino, Test de Jarque Bera
+Tests de symétrie des répartitions
+.
+Test de Wilcoxon (en)
+Test de Van der Waerden
+Comparaison de (K ≥ 2) populations
+Tests omnibus de comparaison de populations, les fonctions de répartition sont les mêmes dans les groupes
+.
+Test de Kolmogorov - Smirnov
+Test de Kuiper
+Test de Cramer - von Mises
+Tests de comparaison de K échantillons indépendants (différenciation selon les caractéristiques de tendance centrale, modèle de localisation)
+Test de comparaison de moyennes (K = 2)
+ANOVA (analyse de variance) à 1 facteur
+Test de la somme des rangs de Wilcoxon (K=2)
+Test de Mann - Whitney (K=2)
+Test de Kruskal - Wallis
+Test des médianes
+Test de Van der Waerden
+Test de Jonckheere - Terpstra (alternatives ordonnées)
+Tests de comparaison de K échantillons indépendants (différenciation selon les caractéristiques de dispersion, modèle d'échelle)
+Test de Fisher (K=2)
+Test de Bartlett
+Test de Cochran
+Test F-max de Hartley
+Test de Levene
+Test de Brown-Forsythe
+Test de Ansari - Bradley
+Test de Klotz
+Test de Mood
+Test de Siegel-Tukey
+Test des différences extrêmes de Moses
+Tests pour K échantillons appariés (mesures répétées ou blocs aléatoires complets)
+Test de Student de comparaison de moyennes pour échantillons appariés (K=2)
+Test de comparaison de variances pour échantillons appariés (K=2)
+ANOVA pour blocs aléatoires complets
+Test des signes (K=2)
+Test des rangs signés de Wilcoxon (K=2)
+Test de Friedman
+Test de Page (alternatives ordonnées)
+Test de McNemar (K=2, variables binaires)
+Test Q de Cochran (variables binaires)
+Tests multivariés pour K échantillons indépendants
+T² de Hotelling, comparaison de K=2 barycentres (vecteur des moyennes)
+MANOVA (analyse de variance mutlivariée), comparaison de K barycentres : Lambda de Wilks, Trace de Pillai, Trace de Hotelling-Lawley, La plus grande valeur propre de Roy
+Test M de Box de comparaison de matrices de variance covariance
+.
+Association entre variables
+Association entre p=2 variables quantitatives
+Coefficient de corrélation de Pearson
+Rho de Spearman
+Tau-a de Kendall
+Association entre p = 2 variables ordinales
+.
+Gamma de Goodman - Kruskal
+Tau-b et Tau-c de Kendall
+d de Sommers
+Test de Mantel - Haenszel (variables binaires)
+Kappa de Cohen, concordance de p=2 jugements
+Association entre p=2 variables nominales
+.
+Test d'indépendance du χ²
+t de Tschuprow et v de Cramer
+Coefficient phi (variables binaires)
+Coefficient Q de Yule (variables binaires)
+Lambda de Goodman - Kruskal
+Tau de Goodman - Kruskal
+U de Theil
+Association entre (p ≥ 2) variables
+.
+Coefficient de concordance de Kendall (variables quantitatives ou ordinales)
+Coefficient Kappa de Fleiss, concordance de p jugements
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Statistique inférentielle, sur Wikiversity
+Bibliographie[modifier | modifier le code]
+P. Dagnelie, Statistique théorique et appliquée, t. 1 : Statistique descriptive et base de l'inférence statistique, Paris et Bruxelles, De Boeck et Larcier,‎ 2007.
+P. Dagnelie, Statistique théorique et appliquée, t. 2 : Inférence statistique à une et à deux dimensions, Paris et Bruxelles, De Boeck et Larcier,‎ 2006.
+J.-J. Droesbecke, Éléments de statistique, Ellipses, Paris, 2001.
+B. Escofier et J. Pages, Initiation aux traitements statistiques : Méthodes, méthodologie, Rennes, Presses universitaires de Rennes, 1997.
+Falissard et Monga, Statistique : concepts et méthodes, Masson, Paris, 1993.
+H. Rouanet, J.-M. Bernard et B. Le Roux, Statistique en sciences humaines : analyse inductive des données, Dunod, Paris, 1990.
+G. Saporta, Probabilité, analyse des données et statistique, Technip, Paris, 1990.
+R. Veysseyre, Statistique et probabilité pour l'ingénieur, Dunod, Paris, 2002.
+Article connexe[modifier | modifier le code]
+Test d'hypothèse
+Liens externes[modifier | modifier le code]
+(en) J.D. Leeper, Choosing the Correct Statistical Test, CHS 627: Multivariate Methods in Health Statistics, The University of Alabama.
+(en) J.H. McDonald, Choosing a statistical test, in Handbook of Biological Statistics
+R. Ramousse, M. Le Berre, L. Le Guelte, Introduction aux statistiques, chapitres 1 à 5 (des mêmes auteurs, voir aussi Une approche pragmatique de l'Analyse des données)
+R. Rakotomalala, Comparaison de populations - Tests paramétriques et Comparaison de populations - Tests non paramétriques
+Tests non paramétriques sous Microsoft Excel
+Statisticien.fr Tests de rangs
+INRIA Rhône-Alpes SMEL - Statistique médicale en ligne, en particulier Tests Statistiques
+D. Mouchiroud, Probabilité - Statistique, voir "Probabilités - Statistiques"
+J. Begin, Analyse quantitative en psychologie, voir "Notes de Cours"
+Logiciels[modifier | modifier le code]
+Liste des logiciels de statistique
+Le logiciel R pour les calculs statistiques. Logiciel libre.
+Tanagra. Un logiciel libre pour l'enseignement et la recherche.
+v · d · m
+Probabilités et statistiques
+Théorie des probabilités
+Axiomes des probabilités · Espace probabilisable · Probabilité · Événement · Tribu · Indépendance
+Probabilités élémentaires
+Moyenne · Espérance · Médiane · Variance · Écart type
+Loi de probabilité
+Variable aléatoire · Loi de Bernoulli · Loi de Poisson · Loi uniforme · Loi normale · Loi de Student · Loi de Fisher · Variables iid
+Convergence de lois
+Théorème central limite · Loi des grands nombres · Théorème de Borel-Cantelli
+Calcul stochastique
+Marche aléatoire · Chaîne de Markov · Processus stochastique · Processus de Markov · Martingale · Mouvement brownien · Équation différentielle stochastique
+Statistique
+Statistique descriptive
+Échantillon · Quantile · Erreur type · Intervalle de confiance · Représentations de données · Histogramme · Diagramme circulaire · Boîte à moustaches · Régression linéaire · Méthode des moindres carrés · Analyse des données
+Statistique mathématique
+Une statistique · Fonction de répartition empirique · Théorème de Glivenko-Cantelli · Inférence bayésienne
+Tests statistiques
+Test d'hypothèse · Hypothèse statistique (Hypothèse nulle) · Estimateur · Signification statistique · Test du χ² · Test de Fisher · Test de Kolmogorov-Smirnov · Test de Student · Valeur p
+Applications
+Économétrie · Mécanique statistique · Jeu de hasard · Biomathématique · Mathématiques financières
+Portail des probabilités et de la statistique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Test_(statistique)&oldid=108417080 ».
+Catégorie : Test statistiqueCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Probabilités et statistiques/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Modifier les liens
+Dernière modification de cette page le 21 octobre 2014 à 22:44.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

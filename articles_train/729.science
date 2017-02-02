@@ -1,0 +1,162 @@
+Dosage colorimétrique — Wikipédia
+Dosage colorimétrique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un dosage colorimétrique est un type de dosage possible lorsqu'une réaction chimique donne des produits colorés et si l'intensité de la coloration est proportionnelle à la concentration de l'élément à doser. Les dosages colorimétriques s'appuient sur la loi de Beer-Lambert.
+Un dosage colorimétrique est également possible en utilisant des indicateurs colorés tels que l'hélianthine, la phénolphtaléine, le vert de bromocrésol qui vont se colorer par exemple à pH différents et de ce fait, vont pouvoir indiquer quand on atteint le point d'équivalence. On parle alors aussi de titrage colorimétrique.
+Sommaire
+1 Loi de Beer-lambert
+2 Protocole général des dosages colorimétriques
+2.1 Conditions générales de réalisation
+2.2 Réalisation d'une gamme d'étalonnage
+2.3 Réalisation d'un tableau colorimétrique
+2.4 Lecture des résultats
+3 Voir aussi
+Loi de Beer-lambert[modifier | modifier le code]
+La forme utilisée est la suivante :
+A : absorbance de la solution sans unité
+ε : coefficient d'extinction molaire en L×mol-1×cm-1 (parfois noté avec un ξ)
+l : longueur de cuve traversée par la lumière en cm
+C : concentration molaire en mol×L-1.
+La mesure de l'absorbance est donnée par un spectrophotomètre qui mesure la densité optique. Plus une solution est colorée, plus la lumière a du mal à traverser, donc plus l'absorbance de la solution augmente.
+Protocole général des dosages colorimétriques[modifier | modifier le code]
+Conditions générales de réalisation[modifier | modifier le code]
+Pour réaliser un dosage colorimétrique, certaines conditions doivent être remplies :
+la réaction doit donner une coloration ou une opacité proportionnelle à la concentration ;
+la coloration ou l'opacité doit être stable le temps de faire les mesures ;
+le composé à analyser doit être en très faible concentration (sinon diluer) ;
+une gamme d'étalonnage doit être réalisée dans les mêmes conditions physico-chimiques que les essais ;
+la longueur d'onde du spectrophotomètre doit être celle qui permet la plus forte absorbance possible.
+Si ces premières conditions sont remplies, un dosage colorimétrique peut être possible.
+Réalisation d'une gamme d'étalonnage[modifier | modifier le code]
+Pour régler le spectrophotomètre, la réalisation d'une gamme d'étalonnage est indispensable (y compris pour certains kits vendus dans le commerce). Cette gamme permet de déterminer une absorbance à une longueur d'onde donnée, pour un tube donné ou une cuve de spectrophotomètre de longueur donnée, pour une concentration en composé recherché. Il faut donc préparer une solution de l'élément à doser de faible concentration. Pour la réalisation de la gamme d'étalonnage et du dosage, le volume final de liquide dans chaque tube doit être identique. Or les volumes de réactifs doivent rester constants pour permettre la réaction, et les quantités (reliées aux concentrations) de composé à doser doivent varier dans chaque tube. Dans certaines méthodes de dosage, on complète avec de l'eau distillée à un même volume (par exemple 100 mL) en ajustant le niveau à un trait de jauge.
+Un tube 0 ou blanc doit impérativement être réalisé pour annuler l'absorbance due aux réactifs eux-mêmes. Ce tube ne contient pas d'échantillon de composé à doser.
+La réalisation d'une gamme d'étalonnage demande beaucoup de précision (utilisation de fioles jaugées, de pipettes...), et doit être, de préférence, réalisée dans les mêmes conditions que les essais et par le même opérateur.
+Réalisation d'un tableau colorimétrique[modifier | modifier le code]
+La réalisation d'un tableau colorimétrique permet d'éviter des erreurs lors de la réalisation de protocoles et de noter les résultats. Voici en exemple le tableau colorimétrique d'un dosage du glucose par le DNS.
+Tableau colorimétrique (résultats expérimentaux)
+N° de tube
+0
+1
+2
+3
+4
+5
+x1
+x2
+Solution étalon de glucose à 0,01 mol/L en mL
+0
+0,3
+0,6
+0,9
+1,2
+1,5
+0
+0
+Prise d'essai en mL
+0
+0
+0
+0
+0
+0
+0,5
+1,0
+Eau distillée en mL
+18,0
+17,7
+17,4
+17,1
+16,8
+16,5
+17,5
+17,0
+DNS (réactif) en mL
+2,0
+2,0
+2,0
+2,0
+2,0
+2,0
+2,0
+2,0
+Absorbance à 350 nm pour un tube/une cuve donné(e)
+0
+0,205
+0,494
+0,748
+1,022
+1,280
+0,668
+1,340
+Quantité de glucose en µmol
+0
+3,0
+6,0
+9,0
+12,0
+15,0
+7,9
+hors gamme
+Lecture des résultats[modifier | modifier le code]
+En bleu, la droite obtenue par une gamme d'étalonnage. En rouge, les absorbances (A) obtenues par deux essais qui, par lecture graphique, donnent la quantité de matière.
+Après l'obtention des valeurs d'absorbance de la gamme d'étalonnage, on trace la courbe d'absorption en fonction des quantités (ou le plus souvent des concentrations) de composé. Une droite doit passer par l'origine du repère et être proche de chaque point d'étalonnage si la gamme a été bien réalisée (coefficient de corrélation supérieur à 99,95 %, par exemple).
+On reporte à cette droite la valeur d'absorbance de l'essai (la solution initiale a été éventuellement microfiltrée) pour déterminer la quantité de composé présent. Pour remonter à la concentration en composé à analyser présent dans le milieu initial, on tient compte du volume de la prise d'essai et de la dilution éventuelle.
+Voir aussi[modifier | modifier le code]
+Dosage du glucose par le DNS
+Dosage du phosphore par la méthode de Briggs (colorimétrique)
+Dosage des protéines par le réactif de Biuret (colorimétrique)
+Dosage des protéines par la méthode de l'acide bicinchonique (BCA) (colorimétrique)
+Tube de Nessler
+Portail de la chimie
+Portail des couleurs
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Dosage_colorimétrique&oldid=79830623 ».
+Catégories : Technique de laboratoireColorimétrieChimie analytiqueCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Couleurs/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Modifier les liens
+Dernière modification de cette page le 16 juin 2012 à 11:14.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,165 @@
+Intégrale de chemin — Wikipédia
+Intégrale de chemin
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Une intégrale de chemin (« path integral » en anglais) est une intégrale fonctionnelle, c'est-à-dire que l'intégrant est une fonctionnelle et que la somme est prise sur des fonctions, et non sur des nombres réels (ou complexes) comme pour les intégrales ordinaires. On a donc ici affaire à une intégrale en dimension infinie. Ainsi, on distinguera soigneusement l'intégrale de chemin (intégrale fonctionnelle) d'une intégrale ordinaire calculée sur un chemin de l'espace physique, que les mathématiciens appellent intégrale curviligne[1].
+C'est Richard Feynman qui a introduit les intégrales de chemin en physique dans sa thèse, soutenue en mai 1942, portant sur la formulation de la mécanique quantique basée sur le lagrangien[2]. En raison de la seconde Guerre mondiale, ces résultats ne seront publiés qu'en 1948[3]. Cet outil mathématique s'est rapidement imposé en physique théorique avec sa généralisation à la théorie quantique des champs, permettant notamment une quantification des théories de jauge non-abéliennes plus simple que la procédure de quantification canonique.
+Par ailleurs, le mathématicien Mark Kac a ensuite développé un concept similaire pour la description théorique du mouvement brownien, s'inspirant de résultats obtenus par Norbert Wiener dans les années 1920. On parle dans ce cas de la formule de Feynman-Kac, qui est une intégrale pour la mesure de Wiener[4].
+Sommaire
+1 Genèse du concept d'intégrale de chemin
+2 Rappels sur le propagateur de l'équation de Schrödinger
+2.1 Définition
+2.2 Équation de Chapman-Kolmogorov
+3 Expression du propagateur en termes d'intégrale de chemin
+3.1 Application de l'équation de Chapman-Kolmogorov
+3.2 Propagateur élémentaire : formule de Feynman-Dirac
+3.3 Intégrale de chemin
+3.4 Interprétation
+4 Limite semi-classique
+5 Bibliographie
+5.1 Textes historiques
+5.2 Ouvrages de références
+5.3 Approche mathématiquement rigoureuse
+6 Notes et références
+Genèse du concept d'intégrale de chemin[modifier | modifier le code]
+Alors qu'il est étudiant de 3e cycle sous la direction de Wheeler à l'université de Princeton, le jeune Feynman cherche une méthode de quantification basée sur le lagrangien pour pouvoir décrire un système ne possédant pas nécessairement d'hamiltonien. Sa motivation première est de quantifier la nouvelle formulation de l'électrodynamique classique basée sur l'action à distance qu'il vient juste de développer avec Wheeler[5].
+Au printemps de 1941, il rencontre Herbert Jehle, alors visiteur à Princeton, qui lui indique lors d'une soirée à la Nassau Tavern l'existence d'un article de Dirac qui discute précisément la quantification à partir du lagrangien[6]. Jehle précise à Feynman que cette formulation permet une approche relativiste covariante bien plus aisée que celle basée sur le hamiltonien. Le lendemain, les deux physiciens se rendent à la bibliothèque pour étudier l'article de Dirac. Ils y lisent notamment la phrase suivante :
+Pour deux instants
+et
+voisins, l'amplitude de transition élémentaire
+est analogue à
+Dans cette formule, la grandeur S[q(t)] est l'action classique :
+Afin de comprendre ce que Dirac veut dire par analogue, Feynman étudie le cas d'une particule non relativiste de masse m pour laquelle le lagrangien s'écrit :
+On sait que :
+Feynman suppose alors une relation de proportionnalité  :
+où A est une constante inconnue. En présence de Jehle, Feynman démontre que cette équation implique que
+obéit à l'équation de Schrödinger :
+à la condition que la constante inconnue A soit égale à :
+À l'automne 1946, lors du bicentenaire de l'université de Princeton, Feynman rencontra Dirac et le bref échange suivant eut lieu :
+Feynman. — « Saviez-vous que ces deux grandeurs étaient proportionnelles ? »
+Dirac. — « Elles le sont ? »
+Feynman. — « Oui. »
+Dirac. — « Oh ! C'est intéressant. »
+Cette réponse laconique mettra un point final à la discussion… Pour plus de détails historiques, on lira avec profit l'article de Schweber[7].
+Rappels sur le propagateur de l'équation de Schrödinger[modifier | modifier le code]
+Pour simplifier les notations, on se restreint ci-dessous au cas d'une seule dimension d'espace. Les résultats s'étendent sans difficulté à un nombre quelconque de dimensions.
+Définition[modifier | modifier le code]
+Considérons une particule de masse m non relativiste, décrite en mécanique quantique par une fonction d'onde. Supposons que l'on se donne la condition initiale
+à un instant initial
+fixé. Alors, la fonction d'onde à un instant ultérieur , solution de l'équation de Schrödinger, est donnée par l'équation intégrale :
+où
+est le propagateur de la particule :
+Ĥ est l'opérateur hamiltonien de la particule.
+Équation de Chapman-Kolmogorov[modifier | modifier le code]
+Rappelons que, si , le propagateur obéit à l'équation de Chapman-Kolmogorov :
+Cette relation va nous permettre de trouver l'expression du propagateur en termes d'une intégrale de chemin.
+Expression du propagateur en termes d'intégrale de chemin[modifier | modifier le code]
+Cherchons l'expression du propagateur
+entre l'instant initial
+et l'instant final .
+Application de l'équation de Chapman-Kolmogorov[modifier | modifier le code]
+On découpe l'intervalle de temps
+en N intervalles de temps élémentaires de durée
+en introduisant les N + 1 instants :
+pour
+avec
+et . Il y a donc N − 1 instants intermédiaires
+entre l'instant initial
+et l'instant final . Pour que les intervalles de temps aient une durée
+élémentaire, la limite
+est sous-entendue.
+L'application de l'équation de Chapman-Kolmogorov une première fois permet d'écrire :
+puis, en l'appliquant une deuxième fois :
+et ainsi de suite. On obtient finalement après N − 1 applications aux N − 1 temps intermédiaires[8] :
+On est ainsi amené à considérer le propagateur élémentaire :
+Propagateur élémentaire : formule de Feynman-Dirac[modifier | modifier le code]
+Pour une particule de masse
+non relativiste à une dimension dans un potentiel, dont l'opérateur Hamiltonien s'écrit :
+et le propagateur élémentaire s'écrit :
+On utilise la formule de Trotter-Kato :
+Cette formule n'est pas triviale, car les opérateurs
+et
+ne commutent en général pas ! On obtient ici :
+On peut sortir l'exponentielle contenant le potentiel qui ne dépend que de la position :
+L'élément de matrice restant est le propagateur de la particule libre, donc on peut finalement écrire l'expression :
+Or l'expression du propagateur libre est connue exactement :
+On remarque que l'argument de l'exponentielle peut se réécrire en termes d'une expression discrètisée de la vitesse :
+comme :
+On en déduit que le propagateur élémentaire s'écrit :
+Les arguments des deux exponentielles étant maintenant des nombres complexes, on peut écrire sans difficultés :
+soit encore :
+Le terme entre parenthèses représente le Lagrangien de la particule :
+d'où la formule de Feynman-Dirac pour le propagateur élémentaire :
+Intégrale de chemin[modifier | modifier le code]
+On injecte l'expression de Feynman-Dirac dans la formule générale :
+Il vient :
+L'argument des exponentielles étant des nombres complexes, on peut écrire :
+On reconnait dans l'argument de l'exponentielle une discrétisation de l'action classique :
+On en déduit avec Feynman l'expression du propagateur comme intégrale fonctionnelle sur tous les chemins continus :
+avec la mesure formelle[9] :
+Interprétation[modifier | modifier le code]
+La formule de Feynman  :
+admet l'interprétation suivante : pour calculer l'amplitude de transition du point initial
+à l'instant
+vers le point final
+à l'instant , il faut considérer tous les chemins continus[10]
+vérifiants les conditions aux limites :
+et . Chaque chemin se voit attribuer un « poids » complexe de module unité : , où
+est l'action classique calculée sur ce chemin. On « somme » alors cette infinité non dénombrable de poids complexes, et on obtient in fine l'amplitude de transition désirée.
+Cette interprétation est l'œuvre de Feynman seul, Dirac n'ayant pas franchi le pas. Elle est implicite dans sa thèse de 1942, et explicite dans la publication de 1948.
+Limite semi-classique[modifier | modifier le code]
+Dans la limite où l'action du système est beaucoup plus grande que , on peut utiliser un développement du type semi classique, où
+est une petite perturbation de la trajectoire classique :
+Considérons un Lagrangien standard:
+On écrit alors l'action sous la forme suivante, en se limitant au deuxième ordre:
+on peut donc approximer le propagateur :
+une intégration par parties de l'exposant ramène à une forme gaussienne :
+Définissons l'opérateur
+les règles de calcul des intégrales gaussiennes fournissent :
+Considérons maintenant la fonction
+définie comme suit :
+avec les conditions de bords:
+On peut alors montrer que :
+ce qui nous donne pour l'approximation du propagateur :
+on détermine la constante A à partir du propagateur de la particule libre :
+dans le cas de la particule libre, la fonction
+qui satisfait les conditions exposées plus haut est , ce qui nous donne immédiatement une expression pour A. On obtient finalement l'approximation dite semi-classique du propagateur :
+cette approximation est puissante, et peut même donner parfois un résultat exact, comme par exemple dans le cas où le potentiel est celui d'un oscillateur harmonique de fréquence . Dans ce cas, la fonction
+doit satisfaire, en plus des conditions de bord :
+et on obtient l'expression exacte du propagateur de l'oscillateur harmonique, par l'approximation semi-classique :
+avec l'action classique de l'oscillateur harmonique :
+à noter une autre formulation équivalente de l'approximation semi-classique, dite de Van Vleck–Pauli–Morette, qui découle directement de la précédente :
+Bibliographie[modifier | modifier le code]
+Textes historiques[modifier | modifier le code]
+Richard P. Feynman ; The principle of least action in quantum mechanics, thèse de l'université de Princeton. Cette thèse vient d'être publiée par Laurie M. Brown (cf. ci-dessous).
+Richard P. Feynman ; Space-time approach to non-relativistic quantum mechanics, Review of Modern Physics 20 (1948) 267. Cet article est reproduit dans : Julian Schwinger (ed) ; Selected papers on quantum electrodynamics, Dover Publications, Inc. (1958) (ISBN 0-486-60444-6).
+PAM Dirac ; The lagrangian in quantum mechanics, Physikalische Zeitschrift der Sowjetunion 3(1) (1932) 64. Cet article est reproduit dans : Julian Schwinger (ed) ; Selected papers on quantum electrodynamics, Dover Publications, Inc. (1958) (ISBN 0-486-60444-6).
+Laurie M. Brown (Editor) ; Feynman's thesis: a new approach to quantum theory, World Scientific (2005),(ISBN 981-256-380-6). Contient la thèse originale de Feynman, ainsi que les deux articles précédents.
+Ouvrages de références[modifier | modifier le code]
+Jean Zinn-Justin ; Intégrale de chemin en mécanique quantique : Introduction, Collection savoirs actuels, E.D.P. Sciences/C.N.R.S. Editions (2003), (ISBN 2-86883-660-7). Excellente introduction au sujet, ce livre est le fruit de nombreuses années d'enseignement au Magistère Interuniversiataire de Physique de l'E.N.S.
+Claude Cohen-Tannoudji ; Compléments de mécanique quantique, (1966). Cours donné en 1966 par le prix Nobel 1997 (Collège de France, Paris). Aborde la formulation Lagrangienne de la mécanique quantique, et l'utilisation des fonctions de Green. Notes de cours rédigées en 1966 par Serge Haroche (Collège de France, Paris).
+Richard P. Feynman and André R. Hibbs, Quantum Mechanics and Path Integrals, New York: McGraw-Hill (1965), (ISBN 0-07-020650-3).
+Larry S. Schulman ; Techniques & Applications of Path Integration, Jonh Wiley & Sons (New York-1981), ISBN . Réédité par Dover Publications, Inc. (2005), (ISBN 0-486-44528-3). Une autre référence, un peu plus moderne que la précédente.
+Christian Grosche & Frank Steiner; Handbook of Feynman Path Integrals, Springer Tracts in Modern Physics 145, Springer-Verlag (1998), (ISBN 3-540-57135-3).
+Philippe A. Martin ; L'intégrale fonctionnelle ; Presses Polytechniques Universitaires Romandes (1996), (ISBN 2-88074-331-1).
+Lundqvist & co ; Path Summation ; World scientific (1988), (ISBN 9971-5-0597-5).
+Martin Veltman ; Diagrammatica, CambridgeLNP
+Lewis H. Ryder ; Quantum Field Theory (Cambridge University Press, 1985), (ISBN 0-521-33859-X).
+R.J. Rivers ; Path Integrals Methods in Quantum Field Theory, Cambridge University Press (1987), (ISBN 0-521-25979-7).
+Hagen Kleinert, Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets, 4th edition, World Scientific (Singapore, 2004), (ISBN 981-238-107-4). (Disponible aussi en ligne au format pdf).
+Christian Grosche  ; An introduction into the Feynman path integral, cours donné au Quantenfeldtheorie und deren Anwendung in der Elementarteilchen- und Festkörperphysik, Universität Leipzig, 16-26 November 1992. Texte complet disponible sur l'ArXiv : hep-th/9302097.
+Sanjeev Seahra ; Path Integrals in Quantum Field Theory, notes du cours Quantum Field Theory donné en 2000 par Eric Poisson à l'University of Waterloo (Canada). Texte complet disponible au format pdf.
+Richard MacKenzie ; Path integral methods and applications, cours donné aux Rencontres du Vietnam: VIth Vietnam School of Physics, Vung Tau, Vietnam, 27 December 1999 - 8 January 2000. Texte complet disponible sur l'ArXiv : quant-ph/0004090.
+Gert Roepstorff ; Path Integral Approach to Quantum Physics, Springer-Verlag (1994), (ISBN 3-540-55213-8).
+Approche mathématiquement rigoureuse[modifier | modifier le code]
+(en) Sergio Albeverio (en) et Raphael Høegh-Krohn (en), Mathematical Theory of Feynman Path Integral, Lecture Notes in Mathematics 523, Springer-Verlag, 1976
+(en) James Glimm (en) et Arthur Jaffe (en), Quantum Physics: a Functional Integral Point of View, New York, Springer-Verlag, 1981 (ISBN 0-387-90562-6)
+(en) Gerald W. Johnson et Michel L. Lapidus, The Feynman Integral and Feynman's Operational Calculus, Oxford Mathematical Monographs, Oxford University Press, 2002 (ISBN 0-19-851572-3)
+(en) Pavel Etingof, Geometry and Quantum Field Theory, M.I.T. OpenCourseWare, 2002
+Ce cours en ligne, conçu pour les mathématiciens, est une introduction rigoureuse à la théorie quantique des champs via les intégrales fonctionnelles.
+(en) Cécile DeWitt-Morette, « Feynman's path integral - Definition without limiting procedure », dans Comm. Math. Phys., vol. 28, n° 1, 1972, p. 47–67. [lire en ligne]
+(en) Pierre Cartier et Cécile DeWitt-Morette, « A new perspective on Functional Integration », dans J. Math. Phys., vol. 36, 1995, p. 2137-2340. Texte en accès libre sur arXiv : funct-an/9602005.
+Pierre Cartier, « L'intégrale de chemins de Feynman : d'une vue intuitive à un cadre rigoureux », dans Leçons de mathématiques d'aujourd'hui, Collection Le sel et le fer, Cassini, 2000 (ISBN 2-84225-007-9), p. 27-59
+(en) Alain Connes et Dirk Kreimer (de), « Renormalization in quantum field theory and the Riemann-Hilbert problem, I », dans Comm. Math. Phys., vol. 210, n° 1, 2000, p. 249-273
+(en) Alain Connes et Dirk Kreimer, « The β-function, diffeomorphisms and the renormalization group », dans Comm. Math. Phys., vol. 216, n° 1, 2001, p. 215-241
+(en) Alain Connes, page personnelle, articles 137, 148, 155, 157, 158, 162, 165, 167

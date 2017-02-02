@@ -1,0 +1,119 @@
+Théorème de Bernoulli — Wikipédia
+Théorème de Bernoulli
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Loi de Bernoulli.
+Le théorème de Bernoulli, qui a été établi en 1738 par Daniel Bernoulli, est la formulation mathématique du principe de Bernoulli qui statue que dans le flux d'un fluide, une accélération se produit simultanément avec la diminution de la pression. Dans un flux de fluide sans viscosité et donc dans lequel une différence de pression est la seule force d'accélération, la vitesse est équivalente à celle donnée par les lois du mouvement de Newton. Il est très commun que l'effet de Bernoulli soit cité pour affirmer qu'un changement de vitesse cause un changement de pression ; cependant le principe de Bernoulli ne fait pas ce rapport et ce n'est pas le cas.
+Il a posé les bases de la dynamique des fluides et, d'une façon plus générale, de la mécanique des fluides. Initialement utilisé pour des fluides en circulation dans une conduite, il a trouvé un important champ d'application en aérodynamique (portance).
+Sommaire
+1 Formulation usuelle
+2 Interprétation
+3 Formulations étendues
+4 Démonstrations
+5 Applications
+6 Approche historique
+7 Voir aussi
+7.1 Articles connexes
+8 Notes et références
+Formulation usuelle[modifier | modifier le code]
+Pour un écoulement[1]
+incompressible (la masse volumique reste constante),
+irrotationnel (le rotationnel de la vitesse du fluide est nul, ce qui implique un écoulement non tourbillonnaire et un champ de vitesse dérivant d'un potentiel),
+d'un fluide parfait (les effets visqueux sont négligeables, tout comme les pertes de charge).
+Alors, en régime permanent, si l'on néglige les transferts de chaleur, on vérifie :
+[2]
+où :
+est la pression en un point (en Pa ou N/m²)
+est la masse volumique en un point (en kg/m³)
+est la vitesse du fluide en un point (en m/s)
+est l'accélération de la pesanteur (en N/kg ou m/s²)
+est l'altitude (en m)
+La constante intervenant dans le second membre de l'équation n'est pas universelle mais propre à l'écoulement, il s'agit d'une constante le long d'une ligne de courant, appelée charge.
+Interprétation[modifier | modifier le code]
+Cette équation traduit en fait le bilan de l'énergie le long d'une ligne de courant :
+est la densité volumique d'énergie cinétique (énergie cinétique par unité de volume, m étant la masse du volume V de fluide) ;
+est la densité volumique d'énergie potentielle de gravité ;
+est la densité volumique d'énergie due au travail des forces de pression.
+La loi de bilan s'écrit donc
+soit
+ce qui amène à l'équation ci-dessus en divisant par ρ.
+Formulations étendues[modifier | modifier le code]
+Il existe d'autres formulations du théorème de Bernoulli applicables dans des contextes plus généraux.
+Pour des fluides compressibles :
+Lorsque les effets de compressibilité dans un fluide ne sont plus négligeables (vitesse des particules de fluide comparable à la vitesse du son dans le fluide), il devient nécessaire d'apporter une correction au terme caractérisant l'énergie potentielle élastique du fluide. Dans le cas idéal d'un gaz parfait et d'un processus adiabatique, on a :
+[3]
+où
+est le rapport des capacités calorifiques du fluide : .
+Formulation thermodynamique :
+[4]
+où
+désigne l'enthalpie spécifique (i.e. par unité de masse). , où
+désigne l'énergie interne spécifique du fluide.
+échange d'énergie :
+Dans le cas d'un écoulement d'un point A vers un point B avec échange d'énergie (présence d'une pompe ou d'une turbine), l'expression devient :
+représente le débit volumique du fluide (en m³/s)
+représente la puissance (en watt) de la machine.
+> 0 dans le cas d'une pompe (la puissance est reçue par le fluide) et
+< 0 dans le cas d'une turbine (la puissance est fournie par le fluide).
+Démonstrations[modifier | modifier le code]
+Équation de Bernoulli pour les fluides incompressibles
+L'équation de Bernoulli pour les fluides incompressibles peut être démontrée par intégration des équations d'Euler du mouvement, qui dans les hypothèses du théorème se ramènent à l'équation de Navier-Stokes.
+On peut également appliquer le principe de conservation de l'énergie le long d'une ligne de courant, en négligeant les effets thermiques, de viscosité, de compressibilité.
+C'est ce second point de vue que l'on suit ici.
+Tube de courant du fluide. On indique les pressions (p), altitudes (h), vitesses (v), longueurs (s) et sections (A).
+Soit le système fermé contenu à l'instant
+entre
+et
+et à
+entre
+et .
+Le fluide est incompressible, la masse
+contenue entre
+et
+doit être identique à la masse contenue entre
+et .
+Ce que l'on peut ramener ici à la conservation du débit massique : .
+Toutes les forces qui s'exercent (forces pressantes et poids) sont conservatives (il n'y a pas d'effet visqueux). On peut donc appliquer le théorème de conservation de l'énergie mécanique au système :
+où
+est la variation d'énergie cinétique du système.
+est la variation d'énergie potentielle de pesanteur du système.
+est le travail des forces de pressions.
+Soit :
+D'où, en divisant par  :
+Et donc :
+On peut remarquer que la démonstration est faite dans le contexte particulier d'un écoulement obéissant à la géométrie de la figure. Cependant, pour un écoulement quelconque en régime permanent, on pourra toujours définir au voisinage d'une ligne de courant une section sur laquelle la vitesse est homogène, et raisonner comme précédemment.
+Équation de Bernoulli pour les fluides compressibles
+La démonstration est identique à celles pour les fluides incompressibles : elle s'appuie sur la conservation du débit et de l'énergie.
+Mais on doit prendre en compte dans la variation d'énergie du système la variation d'énergie interne du fluide entre
+et .
+La conservation de l'énergie appliquée au système devient alors :
+D'où :
+Si on note l'enthalpie spécifique , dans le cas d'un gaz parfait, on vérifie .
+Comme
+, on a
+Donc dans ce cas,
+Applications[modifier | modifier le code]
+À vitesse nulle (v = 0), on retrouve la loi de l'hydrostatique.
+Effet Venturi :
+Supposons maintenant que la vitesse ne soit pas nulle, mais que l'on reste toujours à la même altitude (z constant).
+Si un liquide s'écoule dans une canalisation, alors comme il est incompressible, son débit (volume transitant à travers une surface par unité de temps) est constant. Si la canalisation s'élargit, alors la vitesse diminue (puisque le débit est le produit de la vitesse par la section, les deux varient à l'inverse). Le théorème de Bernoulli nous indique alors que la pression augmente. À l'inverse, si la canalisation se rétrécit, le fluide accélère et sa pression diminue. On qualifie ce dispositif expérimental de tube de Venturi.
+Ce résultat est assez peu intuitif car on s'attendrait à ce que la pression augmente lorsque la section diminue.
+Effet Magnus :
+Si maintenant la conduite reste de section constante mais que l'on met un obstacle à l'intérieur ; l'obstacle diminue la section, on a donc le même effet. Si cet obstacle est un cylindre tournant, d'axe perpendiculaire à l'axe de la canalisation, alors le frottement accélère le fluide d'un côté et le ralentit de l'autre. On a donc une diminution de pression d'un côté et une augmentation de l'autre, le cylindre subit une force : c'est l'effet Magnus (l'on considère souvent l'effet Magnus dans l'air, qui est un fluide compressible, mais le principe général reste le même).
+Si la canalisation a une section constante, et qu'elle ne présente pas d'obstacle, alors la vitesse est constante. Si l'altitude varie, alors l'équation de Bernoulli nous indique que la pression varie à l'opposé de l'altitude.
+On peut évaluer alors la pression dynamique :
+Tube de Pitot  :
+Cet appareil de mesure permet d'évaluer la vitesse d'écoulement d'un fluide en mesurant la différence de pression entre deux points A et B de l'écoulement joint par une ligne de courant. Au point A, le fluide est supposé être à vitesse (quasi) nulle, on cherche la vitesse en B. Les points étant sensiblement à la même altitude, on peut appliquer le théorème de Bernoulli sous sa forme usuelle entre A et B.
+Approche historique[modifier | modifier le code]
+La première formulation du théorème de Bernoulli apparaît dans Hydrodynamica - De viribus et motibus fluidorum commentarii de Daniel Bernoulli (première édition en 1738)[5]. Pour d'Alembert, ce texte est l'œuvre fondatrice de l'hydrodynamique en tant que discipline physique moderne[6].
+Il est alors formulé comme un bilan macroscopique global et une méthode de calcul, dans le cadre de la résolution d'un problème technique : la détermination de la durée de vidange des vases munis d'un orifice.
+La justification réside dans l'égalité de la montée potentielle et de la descente actuelle[7]. Il s'agit d'une transposition aux fluides de la conservation des forces vives, déjà connue en mécanique, et qui est en fait l'ancêtre du principe de conservation de l'énergie dans le domaine de la physique classique.
+C'est seulement en 1755, avec les travaux d'Euler[8], que le théorème apparaît sous la forme d'un bilan local plus proche des formulations contemporaines.
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Théorème de Bernoulli, sur Wikimedia Commons
+Perte de charge
+Formule de Torricelli
+Hydraulique
+Effet Magnus et turbulence dans le football

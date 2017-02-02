@@ -1,0 +1,58 @@
+Principe d'exclusion de Pauli — Wikipédia
+Principe d'exclusion de Pauli
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En 1925[1], Wolfgang Pauli proposa un principe selon lequel les électrons ne peuvent pas se trouver au même endroit dans le même état quantique. Par la suite, ce principe est généralisé à tout fermion ou particule de spin demi-entier). Les fermions comprennent des particules élémentaires, tels que l'électron, le neutrino et les quarks, ainsi que des particules composés tels que les protons, les neutrons et les noyaux 13C.
+Ce principe devint ensuite un théorème de la mécanique quantique relativiste, élaborée par Dirac en 1930 : les particules de spin demi-entiers sont des fermions et ils obéissent à la statistique de Fermi-Dirac, donc au principe d'exclusion de Pauli.
+Sommaire
+1 Énoncé en mécanique quantique
+2 Dérivation des principes de la mécanique quantique
+3 Utilisation en astrophysique
+4 Énoncé relativiste
+5 Particules échappant au principe d'exclusion
+6 Notes et références
+7 Articles connexes
+Énoncé en mécanique quantique[modifier | modifier le code]
+L'état quantique d'une particule est défini par des « nombres quantiques ». Le principe d'exclusion interdit à tout fermion appartenant à un système de fermions d'avoir exactement les mêmes nombres quantiques qu'un autre fermion du système.
+Par exemple, dans l'atome, les électrons sont caractérisés par les nombres correspondant aux lettres n, l, ml et ms : si un électron présente la combinaison (1, 0, 0, ½), il est nécessairement le seul.
+Cela limite donc le nombre d'électrons par couche : dans la première couche caractérisée par n = 1, (l = 0, donc ml = 0), il n'y a que deux possibilités, correspondant aux états ms = ±½. Cette couche ne peut donc accepter que deux électrons.
+De même, dans la seconde couche caractérisée par n = 2, l vaut 0 ou 1 :
+pour l = 0, ml = 0 ;
+pour l = 1, ml = -1, 0 ou 1 ;
+on a alors 4 possibilités et pour chacune, ms = ±½, donc la seconde couche peut accepter huit électrons (deux pour l = 0 et six pour l = 1); et ainsi de suite.
+La n-ième couche accepte 2n2 électrons.
+Dérivation des principes de la mécanique quantique[modifier | modifier le code]
+Lorsque Pauli a proposé le principe d'exclusion (1925), les principes fondamentaux de la mécanique quantique n'étaient pas encore bien établis. En fait, il apparait que le principe d'exclusion n'est pas un principe fondamental et qu'il peut se dériver des principes fondamentaux de la mécanique quantique.
+Voici une dérivation du principe d'exclusion de Pauli[2] :
+Soit un hamiltonien total, représentant l'état de 2 particules (l'extension à N particules est immédiate) : .
+Si
+et
+sont deux particules indiscernables, alors . On dit alors que le hamiltonien est invariant par permutation, et si l'on considère
+qui est l'opérateur de permutation de la particule
+et , alors le commutateur de ces deux opérateurs est nul : .
+Le commutateur étant nul, il est possible de trouver une base dans laquelle ces deux opérateurs sont diagonaux : les solutions de
+sont donc les vecteurs propres de .
+Comme , les valeurs propres de cet opérateur sont +1 ou -1. Il y a donc deux familles de solution possibles du hamiltonien total :
+Les solutions symétriques :  ;
+et
+étant les coordonnées (position ainsi que spin) des particules 1 et 2[3]. C'est le cas pour les bosons ou particules de spin entier.
+Les solutions antisymétriques : . C'est le cas pour les fermions ou particules de spin demi-entier, et donc pour le principe d'exclusion de Pauli.
+Si on décompose la fonction d'onde totale des deux particules
+en intrication des états propres
+et
+de chaque particule, les solutions antisymétriques sont alors de la forme :
+.
+Si les particules 1 et 2 sont dans le même état quantique, alors . La probabilité de trouver deux fermions identiques dans le même état quantique avec le même spin est nulle.
+Ceci est le principe d'exclusion de Pauli : deux fermions identiques ne peuvent être dans le même état quantique avec le même spin.
+Une autre conséquence de cette antisymétrie fait que la probabilité de trouver deux électrons de même spin à une même position instantanée est nulle, même sans supposer qu'ils occupent un même état quantique. Pour voir ceci on remarque que
+tend vers 0 quand
+tend vers .
+Utilisation en astrophysique[modifier | modifier le code]
+En astrophysique, l'effondrement d'étoiles à neutrons, qui demande aux neutrons un même mouvement, donc une même énergie, est limité par le principe d'exclusion qui explique ainsi en partie la cohésion de ces étoiles mortes extrêmement massives, qui, autrement, devraient s'effondrer sous l'effet de la gravitation.
+Cependant, lorsque l'étoile est trop massive, le principe d'exclusion ne suffit plus à empêcher l'effondrement et l'étoile devient alors un trou noir ou une étoile étrange.
+Énoncé relativiste[modifier | modifier le code]
+La version relativiste de la physique quantique prévoit l'existence de niveaux d'énergie négatifs : le principe d'exclusion permet d'expliquer pourquoi toutes les particules ne disparaissent pas dans ces niveaux-là — en effet, toute particule tend à aller vers l'état d'énergie le plus bas possible et donc devrait s'y précipiter. Si l'on considère comme le fit Dirac que tous les états d'énergie sont occupés, alors, ils ne peuvent pas être habités par d'autres fermions identiques.
+Particules échappant au principe d'exclusion[modifier | modifier le code]
+Seuls les fermions sont soumis à ce principe. Les particules indiscernables de spin entier sont des bosons et satisfont à la statistique de Bose-Einstein et ils ne satisfont pas le principe d'exclusion de Pauli. Au contraire, on observera même un comportement « grégaire ».
+Enfin, il existe des situations (particulièrement à deux dimensions), où l'on peut introduire des anyons, qui ne sont ni des fermions, ni des bosons.
+D'autre part, la supersymétrie quantique associe à tout boson son supersymétrique fermion : ainsi au graviton, boson de spin 2, devrait être associé un gravitino de spin 3/2. Aujourd'hui, il n'existe encore aucune trace expérimentale de cette supersymétrie.

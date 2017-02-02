@@ -1,0 +1,216 @@
+Solution (chimie) — Wikipédia
+Solution (chimie)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Solution.
+En chimie, une solution est un mélange homogène (constitué d'une seule phase) résultant de la dissolution d'un ou plusieurs soluté(s) (espèce chimique dissoute) dans un solvant. Les molécules (ou les ions) de soluté sont alors solvatées et dispersées dans le solvant.
+Sommaire
+1 Solution à l'état liquide
+2 Solution solide
+3 Solution dans un gaz
+4 Coexistence de phases
+5 Proportion de phases et concentration
+6 Solution diluée, activité
+7 Solution idéale
+8 Références
+9 Voir aussi
+Solution à l'état liquide[modifier | modifier le code]
+La solution liquide est l'exemple le plus connu. Une solution ayant l'eau comme solvant est appelée solution aqueuse. Il est possible de mettre en solution :
+un liquide dans un autre : limité par la miscibilité des deux liquides.
+un solide dans un liquide : limité par la solubilité du solide dans le solvant, au delà de laquelle le solide n'est plus dissous. On parle alors de solution saturée.
+un gaz dans un liquide.
+Solution solide[modifier | modifier le code]
+Article détaillé : solution solide.
+Une solution solide correspond à un solide homogène constitué par le mélange de plusieurs corps purs.
+Solution dans un gaz[modifier | modifier le code]
+Articles détaillés : gaz et gaz parfait.
+On parle assez rarement de « solution » pour un gaz. Un mélange de gaz est en général homogène après un court instant, en raison de l'agitation thermique (voir les articles Mouvement brownien et Diffusion), mais il peut y avoir une stratification en présence d'un champ de gravité si la hauteur du contenant est importante.
+Coexistence de phases[modifier | modifier le code]
+Une solution peut être
+saturée : à une température et une pression données, une solution saturée est une solution qui ne peut plus dissoudre de soluté ;
+insaturée : une solution insaturée est une solution qui peut dissoudre plus de soluté, aux conditions du système ;
+sursaturée : une solution sursaturée est une solution contenant une plus grande quantité de soluté dissous que celle qui correspond à la limite de saturation.
+Proportion de phases et concentration[modifier | modifier le code]
+Soient i composants. La concentration du composant peut s'exprimer de plusieurs manières dont les fractions et les concentrations :
+Fractions : une fraction est le rapport de deux quantités du même type, la quantité du numérateur s'appliquant à un constituant du système et celle du dénominateur à la somme des quantités de tous les constituants du système. Quand elles sont appliquées aux mélanges, les fractions peuvent être de trois types[1] :
+la fraction molaire Ni (sans unité ou %mol), qui est le rapport entre le nombre ni de moles de i sur le nombre n total de moles
+;
+la fraction massique Mi (sans unité ou %m), qui est le rapport entre la masse mi de i sur la masse totale m
+.
+la fraction volumique Vi (sans unité ou %vol), qui est le rapport entre le volume du composant i sur la somme des volumes de tous les composants utilisés pour fabriquer ce mélange [2].
+.
+Concentrations : une concentration est une quantité caractérisant la composition d'un mélange par rapport à son volume[3] :
+la concentration molaire Ci (mol·L-1), rapport entre le nombre de moles de i et le volume de liquide
+;
+la concentration massique τi, rapport entre la masse de i et le volume de liquide
+;
+la concentration volumique Vi (%vol) : dans le cas d'un mélange de liquides, c'est le volume vi de i divisé par le volume total v
+.
+Dans le cas d'un gaz, on utilise
+la pression partielle pi, qui est la contribution de la phase i à la pression ;
+la fraction volumique (sans unité ou %vol), qui est, dans les conditions de pression et de température fixées, le volume vi que représenterait la phase i toute seule sur le volume total ; dans le cas de gaz parfaits, on montre aisément que le pourcentage volumique est égale à la pression partielle divisée par la pression totale p
+.
+Il existe plusieurs autres façons d'exprimer la composition ou la concentration :
+Molalité ;
+Notation en "partie pour" ;
+CH ou DH : dilution Centésimale ou Décimale, Hahnemanienne, réservée à l'homéopathie).
+Solution diluée, activité[modifier | modifier le code]
+On appelle une solution diluée le cas d'une solution pour laquelle la quantité de solutés est très inférieure à la quantité totale de solution. Si l'on désigne le solvant par l'indice s, on peut donc utiliser les approximations suivantes :
+, ,  ;
+, , .
+Pour les solutions liquides :
+, Cs est l'inverse du volume molaire du solvant ;
+, τs' est la masse volumique du solvant ;
+, ,
+Dans le cas d'une solution diluée, le potentiel chimique est une fonction affine du logarithme de la concentration, pour une température fixée :
+en solution liquide, , Ci étant exprimé en mol·L-1 ;
+en solution gazeuse, , pi étant exprimé en atmosphère.
+Lorsque l'on n'est plus en solution diluée (ou dans le cas de gaz, à haute pression, lorsque l'on ne peut plus faire l'approximation des gaz parfaits), il faut faire intervenir l'activité chimique ai:
+dans le cas d'une solution liquide, ai = γi·Ci où γi est le coefficient d'activité de i ;
+dans le cas d'une solution gazeuse, ai = ƒi·pi où ƒi est la fugacité.
+Ceci est l'approche du point de vue « chimique » : on part de ce que l'on mesure bien (le volume, la masse…). D'un point de vue thermodynamique, on commence plutôt par définir l'activité, puis on établit que dans le cas des solutions diluées,
+pour un liquide, l'activité d'un soluté vaut à peu près sa concentration molaire (liquide) et l'activité du solvant vaut 1 ;
+pour un gaz, l'activité du soluté est pression partielle en atmosphère, un gaz ayant une pression partielle d'une atmosphère a une activité de 1 ;
+pour un solide, l'activité vaut 1.
+Solution idéale[modifier | modifier le code]
+Du point de vue thermodynamique, une solution en phase
+(gaz, liquide ou solide), à P et T, est idéale si chacun de ses constituants répond à la loi de Lewis et Randall (1923) basée sur les fugacités :
+avec :
+pression totale du mélange,
+température du mélange,
+fraction molaire du constituant i,
+fugacité du composant i dans la solution idéale,
+fugacité du composant i pur, à mêmes P, T et phase
+que la solution idéale.
+Références[modifier | modifier le code]
+↑ (en) « fraction », IUPAC, Compendium of Chemical Terminology (« Gold Book »), 2e éd. (1997). Version corrigée en ligne:  (2006-).
+↑ (en) « volume fraction », IUPAC, Compendium of Chemical Terminology (« Gold Book »), 2e éd. (1997). Version corrigée en ligne:  (2006-).
+↑ (en) « Concentration », IUPAC, Compendium of Chemical Terminology (« Gold Book »), 2e éd. (1997). Version corrigée en ligne:  (2006-).
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+solution, sur le Wiktionnaire
+Dissolution
+Précipité
+Solution aqueuse
+Relargage
+solution idéale
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Solution_(chimie)&oldid=108201017 ».
+Catégories : Thermodynamique chimiqueChimie des solutionsCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+Català
+کوردی
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Gaeilge
+Galego
+עברית
+हिन्दी
+Hrvatski
+Kreyòl ayisyen
+Magyar
+Հայերեն
+Bahasa Indonesia
+Ido
+Íslenska
+Italiano
+日本語
+ქართული
+Қазақша
+한국어
+Latina
+Lietuvių
+Latviešu
+Македонски
+മലയാളം
+मराठी
+Nederlands
+Norsk bokmål
+ਪੰਜਾਬੀ
+Polski
+Português
+Runa Simi
+Română
+Русский
+Sicilianu
+Scots
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+ChiShona
+Српски / srpski
+Svenska
+தமிழ்
+తెలుగు
+Тоҷикӣ
+ไทย
+Türkçe
+Українська
+اردو
+Oʻzbekcha
+Vèneto
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 13 octobre 2014 à 19:23.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,261 @@
+Demi-vie — Wikipédia
+Demi-vie
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La demi-vie est le temps mis par une substance (molécule, médicament ou autres) pour perdre la moitié de son activité pharmacologique ou physiologique. Utilisé, par extension, dans le domaine de la radioactivité, le temps de demi-vie correspond à la période radioactive, durée nécessaire pour que la moitié des noyaux radioactifs d'une source se soient désintégrés. Le terme demi-vie est alors souvent mal interprété : deux demi-vies ne correspondent pas à la vie complète du produit.
+La demi-vie est la médiane de la durée de vie d'un produit, c'est-à-dire que c'est la durée en deçà de laquelle on a plus de 50 % de produit restant, et au-delà de laquelle on a moins de 50 % de produit. Elle est parfois notée L50 ou B50 (durée de vie d'espérance 50 %). Elle est différente de la durée de vie moyenne.
+La demi-vie ou période se mesure en secondes ; pour les demi-vies importantes elles sont fréquemment données en années, il s'agit alors sauf mention contraire explicite de l'année julienne (symbole a) = 365,25 j = 31 557 600 s exactement.
+Sommaire
+1 En chimie
+2 En biologie et pharmacologie
+3 Demi-vie selon la loi statistique
+3.1 Cas d'une décroissance exponentielle
+3.2 Cas général
+4 Notes, sources et références
+4.1 Notes
+4.2 Sources
+4.3 Références
+5 Voir aussi
+5.1 Articles connexes
+5.2 Lien externe
+En chimie[modifier | modifier le code]
+Certaines molécules présentant une faible stabilité peuvent se décomposer, généralement en se transformant en d'autres espèces moléculaires. Cette décomposition n'est pas instantanée mais fait décroître la quantité de molécules en fonction du temps, la demi-vie caractérise cette décroissance en indiquant la durée au bout de laquelle la quantité de molécules est diminuée de moitié. Cette demi-vie moléculaire dépend de la température. Elle est aussi appelée « temps de demi-réaction ».
+En biologie et pharmacologie[modifier | modifier le code]
+En pharmacologie, la demi-vie désigne par extension le temps nécessaire pour que la quantité d’une substance contenue dans un système biologique soit diminuée de la moitié de sa valeur initiale (par exemple la concentration d’un médicament dans le plasma sanguin).
+Ce paramètre varie légèrement d'un individu à l'autre, selon le processus d'élimination et le fonctionnement relatif chez l'individu.
+En pratique, on considère qu'un médicament n'a plus d'effet pharmacologique après cinq à sept demi-vies.
+En biologie, la demi-vie d'une enzyme correspond au temps nécessaire pour que l'enzyme perde la moitié de son activité spécifique pour cause de dénaturation et d'inactivation.
+Demi-vie selon la loi statistique[modifier | modifier le code]
+Cas d'une décroissance exponentielle[modifier | modifier le code]
+Demi-vie (médiane) et durée de vie moyenne (espérance) d'une population ayant une décroissance exponentielle.
+La désintégration d'une particule est « totalement aléatoire », c'est-à-dire que sa probabilité de désintégration est uniforme et est notée . Sa probabilité de se désintégrer entre les instants
+et
+vaut donc :
+C'est également la probabilité que la durée de vie
+d'une particule soit égale à
+(puisqu'elle existe à l'instant
+et n'existe plus à ) :
+Ceci décrit également les systèmes présentant un taux de défaillance instantané constant, c'est-à-dire une défaillance sans faiblesse de jeunesse, ni usure, ni effet de mémoire, comme par exemple les composants électroniques.
+À l'échelle d'une population de
+particules (ou systèmes), la loi de désintégration (ou de défaillance) s'écrit donc :
+[Note 1]
+où :
+est la population à l'instant ,
+(lettre grecque lambda) est une constante de vitesse.
+Articles détaillés : Décroissance radioactive#Loi de désintégration radioactive et Période radioactive#Loi de décroissance radioactive.
+La résolution de cette équation différentielle fait apparaître une fonction exponentielle décroissante :
+dans lequel
+est la concentration au temps initial.
+La demi-vie (notée ) est définie comme étant l'instant tel que l'on ait :
+On a donc :
+Démonstration
+soit
+d'où
+Si
+est la durée de vie d'une particule, on a également, par simple application de la définition des probabilités donnée ci-dessus :
+Remarque importante : La durée de vie moyenne de la particule - notée :
+- n'est pas à confondre avec la demi-vie, notée :
+Démonstration
+Le nombre de particules vivantes au temps
+s'écrit :
+Le nombre de particules qui meurent durant l'intervalle de temps
+et
+vaut , compté négativement :
+Ces
+particules ont vécu durant le temps
+donc la durée de vie moyenne des particules est égale à :
+On remarque que :
+d'où :
+Cas général[modifier | modifier le code]
+Tous les systèmes ne suivent pas une loi exponentielle. En particulier, le taux de défaillance instantané n'a aucune raison d'être uniforme :
+il peut décroître, ce qui indique que le système devient plus robuste avec le temps ou bien que les systèmes présentant des défauts de jeunesse sont éliminés dans les premiers temps (voir Mortalité infantile, Mortalité juvénile et Rodage) ;
+il peut croître, ce qui indique un phénomène de vieillissement, d'usure ;
+il peut avoir une courbe « en baignoire », avec trois étapes dans la vie du système : décroissant, puis constant, puis croissant.
+Article détaillé : Loi de fiabilité#Profils typiques.
+Dans tous les cas, la demi-vie t1/2 reste égale à la médiane.
+Durées de vie moyennes et demi-vies pour diverses lois statistiques continues
+Loi
+Fonction de survie
+R(t ) = N(t )/N0[Note 2]
+Durée de vie moyenne
+τ = t
+Durée de demi-vie
+t1/2 = L50 = B50
+Exponentielle
+exp(-λt)
+1/λ
+ln(2)/λ
+Normale
+μ
+μ
+Log-normale
+exp(μ + σ2/2)
+exp(μ)
+Weibull
+λΓ(1 + 1/β)
+λln(2)1/β
+Χ2
+k
+≈ k - 2/3
+Logistique
+μ
+μ
+Log-logistique
+α
+Notes, sources et références[modifier | modifier le code]
+Notes[modifier | modifier le code]
+↑ Dans la relation ,
+représente l'activité exprimée en : (désintégrations par seconde) et généralement notée
+de la population de particules  ; pour
+on trouve
+(désintégrations par seconde). Ceci ne veut pourtant pas dire que la population des particules aura disparu au bout d'une seconde.
+↑ C'est le complémentaire de la fonction de répartition : R(t) = 1 - F(t)
+Sources[modifier | modifier le code]
+Les sources sont celles de l'article "Période"
+Références[modifier | modifier le code]
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+demi-vie, sur le Wiktionnaire
+Articles connexes[modifier | modifier le code]
+Période radioactive, Décroissance radioactive
+Décroissance exponentielle
+Distribution exponentielle
+Temps de doublement, la notion contraire
+Température de demi-vie
+Loi de fiabilité
+Lien externe[modifier | modifier le code]
+(Histoire des sciences) L'article de Rutherford et Soddy (1903) mettant en évidence la demi-vie radioactive, site BibNum.
+v · d · m
+Pharmacologie et toxicologie
+Pharmacocinétique
+Paramètres pharmacocinétiques · Clairance · Volume de distribution · Aire sous la courbe · Bioéquivalence · Biodisponibilité · Demi-vie · Période biologique
+Index thérapeutique · Dose efficace médiane · Dose létale médiane · Dose létale minimale · Dose létale
+Pharmacodynamique
+Toxicité (Neurotoxicité) · Relation dose-effet · Concentration efficace médiane · Concentration inhibitrice médiane
+Autres notions
+Agoniste · Agoniste inverse · Agoniste partiel · Antagoniste des récepteurs · Constante de dissociation · Accoutumance · Résistance aux antibiotiques
+Autres domaines
+Neuropharmacologie · Pharmaco-épidémiologie · Pharmacogénétique · Pharmacogénomique · Pharmacovigilance · Psychopharmacologie
+Toxicologie
+Écotoxicologie · Immunotoxicologie · Mycotoxicologie · Nanotoxicologie · Toxicologie alimentaire · Toxicologie nucléaire
+Effet indésirable (Événement indésirable médicamenteux · Événement indésirable grave) · Dose sans effet observable · Dose sans effet toxique observable · Dose toxique minimale · Dose journalière admissible · Limite maximale de résidus
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Demi-vie&oldid=109797771 ».
+Catégories : Réaction chimiqueCinétique chimiqueRadiochimiePhysique nucléairePesticideCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+Aragonés
+العربية
+Asturianu
+Беларуская
+Български
+Bosanski
+Català
+کوردی
+Čeština
+Чӑвашла
+Cymraeg
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Nordfriisk
+Gaeilge
+Galego
+עברית
+हिन्दी
+Hrvatski
+Kreyòl ayisyen
+Magyar
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+ქართული
+Қазақша
+ಕನ್ನಡ
+한국어
+Lietuvių
+Latviešu
+Македонски
+മലയാളം
+Bahasa Melayu
+Plattdüütsch
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+پنجابی
+Português
+Runa Simi
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Türkçe
+Українська
+اردو
+Oʻzbekcha
+Tiếng Việt
+中文
+粵語
+Modifier les liens
+Dernière modification de cette page le 9 décembre 2014 à 07:37.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

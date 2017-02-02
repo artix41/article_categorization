@@ -1,0 +1,87 @@
+Théorie des quanta — Wikipédia
+Théorie des quanta
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La théorie des quanta est le nom donné à une théorie physique qui tente de modéliser le comportement de l'énergie à très petite échelle à l'aide des quanta (pluriel du terme latin quantum), quantités discontinues. Son introduction a bousculé plusieurs idées reçues en physique de l'époque, au début du XXe siècle. Elle a servi de pont entre la physique classique et la physique quantique, dont la pierre angulaire, la mécanique quantique, est née en 1925.
+Elle a été initiée par Max Planck en 1900, puis développée essentiellement par Albert Einstein, Niels Bohr, Arnold Sommerfeld, Hendrik Anthony Kramers, Werner Heisenberg, Wolfgang Pauli et Louis de Broglie entre 1905 et 1924.
+Sommaire
+1 Historique
+1.1 Problèmes expérimentaux de la fin du XIXe siècle
+1.1.1 Le rayonnement du corps noir
+1.1.2 La relation de Planck-Einstein (1900-1905)
+1.1.3 L'effet photoélectrique (1905)
+1.1.4 La stabilité des atomes
+2 Le modèle de Bohr et Sommerfeld
+2.1 Le modèle de Bohr (1913)
+2.2 Les améliorations de Sommerfeld (1916)
+3 Les relations de Broglie (1923)
+4 L'effet Compton (1923-1925)
+5 Notes et références
+6 Bibliographie
+6.1 Références historiques
+6.2 Synthèses modernes
+7 Articles connexes
+Historique[modifier | modifier le code]
+La physique classique en vigueur à la fin du XIXe siècle comprenait les théories suivantes :
+la mécanique newtonienne, publiée par Isaac Newton en 1687 et perfectionnée par des générations ultérieures de physiciens pour les besoins de la mécanique céleste.
+la théorie de l'électromagnétisme, développée par James Clerk Maxwell en 1865 et reformulée par Hendrik Lorentz en 1895. Cette théorie inclut l'optique ondulatoire comme cas particulier.
+la thermodynamique, formalisée dans les années 1850 par Rudolf Clausius, et une première version de la physique statistique : la théorie cinétique des gaz, développée par Maxwell et Ludwig Boltzmann.
+Problèmes expérimentaux de la fin du XIXe siècle[modifier | modifier le code]
+Un certain nombre de faits expérimentaux connus à la fin du XIXe siècle étaient inexplicables dans le cadre de la théorie classique. Ces faits expérimentaux discordants ont conduit progressivement les physiciens à proposer une nouvelle vision du monde, la physique quantique. Les étapes majeures de cette révolution conceptuelle se sont déroulées entre 1900 et 1925.
+Le rayonnement du corps noir[modifier | modifier le code]
+Le rayonnement du corps noir est le rayonnement électromagnétique produit par un corps totalement absorbant en équilibre thermodynamique avec son milieu.
+Imaginez une enceinte fermée maintenue à une température  : un « four », et percée d'un trou minuscule. Les parois du four étant supposées totalement absorbantes, tout rayonnement initialement à l'extérieur du four qui pénètre par l'intermédiaire du trou vers l'intérieur de l'enceinte subit de multiples réflexions, émissions et absorptions par les parois du four jusqu'à atteindre une thermalisation complète : l'enceinte et son contenu de rayonnement sont en équilibre thermique. Réciproquement, une partie infime du rayonnement thermique à l'intérieur du four peut s'échapper définitivement de celui-ci, permettant d'ailleurs son étude expérimentale, notamment sa répartition énergétique spectrale, c'est-à-dire la densité d'énergie volumique présente par intervalle élémentaire de fréquence. La thermodynamique permet de montrer que les caractéristiques de ce rayonnement ne dépendent pas de la nature du matériau dont sont constituées les parois du four, mais uniquement de sa température. Ce rayonnement est appelé rayonnement du corps noir.
+À la fin du XIXe siècle, la théorie classique était incapable d'expliquer les caractéristiques expérimentales du rayonnement du corps noir : le calcul de l'énergie émise tendait théoriquement vers l'infini, ce qui était évidemment en contradiction avec l'expérience. Ce désaccord fut appelé catastrophe ultraviolette, et constitue l'un[1] des « deux petits nuages dans le ciel serein de la physique théorique », formule célèbre prononcée par Thomson - alias Lord Kelvin - le 27 avril 1900 lors d'une conférence[2]. Dans la suite de son discours, Thomson prédisait une rapide explication des résultats expérimentaux dans le cadre de la théorie classique. L'histoire lui a donné tort : quelques mois seulement après la conférence de Thomson, Planck proposa une hypothèse audacieuse qui entraînera un bouleversement radical du paysage de la physique théorique.
+La relation de Planck-Einstein (1900-1905)[modifier | modifier le code]
+Max Planck, auteur de la théorie des quanta.
+Article détaillé : Loi de Planck.
+En désespoir de cause, Planck fit l'hypothèse que les échanges d'énergie entre le rayonnement électromagnétique du corps noir et la matière constituant les parois du four étaient quantifiés, c'est-à-dire que l'énergie est transmise par paquets. Plus précisément, pour un rayonnement monochromatique de fréquence , les échanges d'énergie ne pouvaient avoir lieu que par multiples entiers d'une quantité minimale, un quantum[3] d'énergie :
+où
+est un nombre entier positif, et
+une nouvelle constante universelle[4], aujourd'hui appelée constante de Planck ou quantum d'action. Cette constante vaut :
+joule.s
+La loi de Planck pour le rayonnement du corps noir s'écrit :
+étant la longueur d'onde, T la température en kelvin, h la constante de Planck, et c la vitesse de la lumière dans le vide.
+L'hypothèse des quanta de Max Planck fut reprise et complétée par Albert Einstein en 1905 pour interpréter l'effet photoélectrique.
+L'effet photoélectrique (1905)[modifier | modifier le code]
+Article détaillé : effet photoélectrique.
+À la fin du XIXe siècle, les physiciens remarquent que lorsque l'on éclaire un métal avec une lumière, celui-ci peut émettre des électrons.
+Leur énergie cinétique dépend de la fréquence de la lumière incidente, et leur nombre dépend de l'intensité lumineuse, ce qui est difficilement compréhensible au sein du modèle ondulatoire de la lumière. En particulier, si la lumière incidente a une fréquence en dessous d'un certain seuil, rien ne se passe, même si l'on attend très longtemps. Ce résultat est incompréhensible classiquement, car la théorie de Maxwell associe aux ondes électromagnétiques une densité d'énergie proportionnelle à l'intensité lumineuse, donc il est classiquement possible d'accumuler autant d'énergie que l'on veut dans le métal en l'éclairant suffisamment longtemps et ce quelle que soit la fréquence du rayonnement incident considéré. Il ne devrait pas y avoir de seuil !
+Inspiré par Planck, Einstein proposa en 1905 une hypothèse simple expliquant le phénomène : le rayonnement électromagnétique est lui-même quantifié, chaque « grain de lumière » - qui sera baptisé photon ultérieurement - étant porteur d'un quantum d'énergie . Les électrons absorbant les photons acquièrent cette énergie ; si elle est supérieure à une énergie de seuil fixe (qui dépend uniquement de la nature du métal), les électrons peuvent sortir du métal. Les électrons émis possèdent alors l'énergie cinétique :
+.
+Cet article valut à Einstein le titre de docteur en physique théorique en 1905, et le prix Nobel de physique en 1921.
+La stabilité des atomes[modifier | modifier le code]
+Deux graves problèmes se posaient dès la fin du XIXe siècle concernant les atomes, constitués d'un certain nombre d'électrons ponctuels[5] chargés négativement, et d'un noyau quasi-ponctuel[6], chargé positivement  :
+La stabilité d'un atome est incompréhensible dans le cadre de la théorie classique. En effet, la théorie de Maxwell affirme que toute charge accélérée rayonne de l'énergie sous forme d'onde électromagnétique. Dans un modèle planétaire classique, les électrons sont accélérés sur leur orbites au sein de l'atome, et leur énergie doit diminuer : les électrons tombent alors sur le noyau. Un calcul de la durée caractéristique de ce phénomène est de l'ordre de 10 ns, donc les atomes classiques sont instables, ce que l'expérience contredit manifestement !
+De plus, la théorie classique prédit que le rayonnement émis par l'électron accéléré possède une fréquence égale à la fréquence angulaire du mouvement. L'électron tombant continuement sur le noyau, sa fréquence angulaire augmente continuement, et on devrait observer un spectre continu. Or la lumière émise par une lampe spectrale à vapeur atomique présente un spectre de raies discret !
+C'est le Danois Niels Bohr qui va proposer le premier un modèle semi-classique permettant de contourner ces difficultés.
+Le modèle de Bohr et Sommerfeld[modifier | modifier le code]
+Le modèle de Bohr (1913)[modifier | modifier le code]
+Article détaillé : modèle de Bohr.
+Le modèle de Bohr de l'atome d'hydrogène est un modèle qui utilise deux ingrédients très différents :
+une description de mécanique classique non relativiste : l'électron tourne autour du proton sur une orbite circulaire.
+deux ingrédients quantiques ad-hoc :
+Seules certaines orbites circulaires sont permises (quantification). De plus, l'électron sur son orbite circulaire ne rayonne pas, contrairement à ce que prédit la théorie de Maxwell.
+l'électron peut parfois passer d'une orbite circulaire permise à une autre orbite circulaire permise, à condition d'émettre de la lumière d'une fréquence bien précise, liée à la différence des énergies entre les deux orbites circulaires conformément à la relation de Planck-Einstein.
+Le mélange exotique de ces ingrédients produit des résultats spectaculaires : l'accord avec l'expérience est en effet excellent.
+Les améliorations de Sommerfeld (1916)[modifier | modifier le code]
+Sommerfeld va perfectionner le modèle de Bohr en deux étapes :
+généralisation aux orbites elliptiques.
+traitement relativiste du modèle à orbites elliptiques.
+L'inclusion des effets relativistes ne fera que rendre encore meilleure la comparaison avec les résultats expérimentaux.
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Les relations de Broglie (1923)[modifier | modifier le code]
+Alors qu'il était clair que la lumière présentait une dualité onde-particule, Louis de Broglie proposa de généraliser hardiment cette dualité à toutes les particules connues.
+Dans sa thèse de 1923, de Broglie associe à chaque particule matérielle d'énergie
+une fréquence
+selon la relation de Planck-Einstein déjà mentionnée, et, fait nouveau, il propose d'associer à l'impulsion
+d'une particule massive non relativiste une longueur d'onde , selon la loi :
+Ceci constituait un nouveau pas révolutionnaire. Paul Langevin fit aussitôt lire la thèse de de Broglie à Einstein, qui déclara : « Il [de Broglie] a soulevé un coin du grand voile. » Le caractère ondulatoire de l'électron recevra une confirmation expérimentale directe avec l'expérience de diffraction des électrons par un cristal réalisée par Davisson et Germer en 1927.
+Les relations de de Broglie peuvent s'écrire également :
+en termes de la pulsation :
+et du vecteur d'onde , dont la norme vaut : .
+L'effet Compton (1923-1925)[modifier | modifier le code]
+Articles détaillés : Diffusion Compton et Effet Compton.
+Les électrons, particules chargées, interagissent avec la lumière, classiquement décrite par un champ électromagnétique. Cependant, la physique classique ne permet pas d'expliquer la variation observée de la longueur d'onde du rayonnement en fonction de la direction de diffusion. L'interprétation correcte de ce fait expérimental sera donnée par Compton et ses collaborateurs à l'issue d'expériences réalisées entre 1925 et 1927.
+Cet effet, baptisé en son honneur effet Compton, est bien décrit en considérant le choc photon-électron, comme un choc entre les deux particules, le photon étant porteur d'un quantum d'énergie
+et d'un quantum d'impulsion . Les photons sont diffusés suivant des directions variables, et présentent une variation de longueur d'onde qui dépend de la direction de diffusion.

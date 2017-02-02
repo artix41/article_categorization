@@ -1,0 +1,182 @@
+Algèbre tensorielle — Wikipédia
+Algèbre tensorielle
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir « Algèbre (homonymie) » et notamment l'algèbre tensorielle au sens de théorie des tenseurs.
+Écriture générique d'un tenseur comme un mot
+dont les lettres représentent des vecteurs.
+Les lettres sont séparées par le symbole « ⊗ »
+du produit tensoriel.
+En mathématiques, une algèbre tensorielle est une algèbre sur un corps dont les éléments (appelés tenseurs) sont représentés par des combinaisons linéaires de « mots » formés avec des vecteurs d'un espace vectoriel donné. Les seules relations de dépendance linéaire entre ces mots sont induites par les combinaisons linéaires entre les vecteurs.
+Si l'espace vectoriel sous-jacent est muni d'une base, son algèbre tensorielle s'identifie avec l'algèbre associative unitaire libre engendrée par cette base. Si cette base est finie, les tenseurs s'identifient avec des tableaux de coordonnées.
+L'algèbre tensorielle permet d'étendre en morphismes d'algèbre toutes les applications linéaires d'un espace vectoriel vers les algèbres associatives unitaires. À ce titre, la construction de l'algèbre tensorielle sur un espace vectoriel est adjointe à gauche à l'oubli de la structure multiplicative.
+Divers quotients de l'algèbre tensorielle constituent l'algèbre symétrique (en), l'algèbre extérieure…
+Sommaire
+1 Construction mathématique
+1.1 Définition par l'algèbre libre
+1.2 Construction par produit tensoriel
+1.3 Exemples
+1.4 Propriétés
+2 Applications
+3 Généralisation
+4 Note
+Construction mathématique[modifier | modifier le code]
+Définition par l'algèbre libre[modifier | modifier le code]
+Les sept mots de deux lettres ou moins
+sur l'ensemble {}.
+Le mot vide est noté « 1 ».
+Un mot sur un ensemble est une suite finie d'éléments de cet ensemble, souvent notée sans séparateurs ni parenthèses. L'algèbre libre sur un ensemble
+est l'espace vectoriel des familles presque nulles indexées par les mots sur , muni de la multiplication induite par la concaténation. Chaque mot
+est identifié avec la suite qui vaut 1 en
+et 0 partout ailleurs.
+La non-commutativité des lettres d'un mot empêche certaines simplifications usuelles comme dans l'égalité suivante :
+.
+Il n'y a pas d'annulation de (−) par (+), a contrario de l'identité remarquable valable pour les nombres réels ou complexes.
+Exemple de relation linéaire entre deux éléments de l'algèbre tensorielle,
+où
+est un scalaire et ,
+et
+sont des vecteurs.
+Pour définir l'algèbre tensorielle sur un espace vectoriel , il suffit de considérer l'algèbre libre engendrée par tous les éléments de
+puis de la quotienter par l'idéal bilatère engendré par les relations linéaires sur . L'algèbre quotient est notée . Dans ce cadre, les vecteurs servant de lettres dans chaque mot sont souvent séparées par le symbole du produit tensoriel, semblable à la croix de multiplication inscrite dans un cercle.
+Construction par produit tensoriel[modifier | modifier le code]
+On fixe un espace vectoriel
+sur un corps . Pour tout entier , on considère la puissance tensorielle
+(qui est le produit tensoriel sur
+de
+copies de ). Par convention, . Soit
+l'espace vectoriel . On peut munir
+d'une structure de -algèbre de la façon suivante :
+1. Soient . L'application -linéaire canonique
+induit par propriété universelle du produit tensoriel une application bilinéaire . On notera l'image de
+par . Concrètement, si [1] et , alors
+.
+2. On définit alors le produit
+de
+et
+(avec ) par :
+On vérifie que cela définit bien une structure de -algèbre, et on appelle
+l'algèbre tensorielle de .
+Exemples[modifier | modifier le code]
+Algèbre des polynômes non commutatifs à deux indéterminées
+et
+sur un corps .
+Si
+est un espace vectoriel de dimension 1 engendré par un élément , l'algèbre tensorielle
+s'identifie avec l'algèbre des polynômes à une indéterminée.
+Si
+est de dimension quelconque, tout choix d'une base sur
+identifie son algèbre tensorielle avec l'algèbre des polynômes non commutatifs à indéterminées dans la base de . Dans ce cas, les coefficients de ces polynômes constituent les valeurs de tableaux de coordonnées pour représenter chaque tenseur.
+Propriétés[modifier | modifier le code]
+Propriété universelle d'extension
+L'algèbre tensorielle
+est une -algèbre unitaire, non-commutative en général.
+L'algèbre tensorielle est graduée par la longueur des mots. Chaque tenseur se décompose de façon unique en une somme de tenseurs homogènes, c'est-à-dire qui sont combinaisons linéaires de mots de même longueur. Ceci est une traduction de l'écriture de
+comme somme directe des , . Les tenseurs homogènes de degré
+sont exactement les éléments de . Les vecteurs de
+sont donc les tenseurs homogènes de degré 1.
+(Propriété universelle) Pour toute application linéaire
+d'un espace vectoriel
+vers une algèbre associative unitaire , il existe un unique morphisme d'algèbre qui étende l'application
+à l'algèbre tensorielle . Concrètement, le morphisme envoie
+sur . Cette propriété caractérise l'algèbre tensorielle à isomorphisme unique près.
+Applications[modifier | modifier le code]
+L'algèbre symétrique sur un espace vectoriel
+est le quotient de son algèbre tensorielle par l'idéal engendré par les commutateurs de la forme :
+.
+Tout choix d'une base pour
+identifie son algèbre symétrique avec l'algèbre des polynômes à indéterminées dans la base.
+L'algèbre extérieure sur
+est le quotient de son algèbre tensorielle par l'idéal engendré par les éléments de la forme :
+.
+Généralisation[modifier | modifier le code]
+Pour tout module
+sur un anneau commutatif unitaire , on construit de la même façon une -algèbre unitaire graduée . On a encore la propriété universelle qui caractérise l'algèbre tensorielle.
+On définit encore l'algèbre symétrique
+et l'algèbre extérieure
+comme dans le cas des espaces vectoriels. L'image de
+dans
+(resp. ) est la -ième puissance symétrique
+(resp. -ième puissance extérieure ) de .
+Lorsque
+est libre,
+(resp. ) est isomorphe à l'anneau des polynômes non-commutatif (resp. commutatif) à coefficients dans
+à indéterminées indexées par les éléments d'une base.
+Pour tout module
+de type fini,
+est une algèbre de type fini sur . Si
+est engendré par
+éléments, alors
+pour tout . Si de plus
+est libre de rang , alors
+est libre pour tout ,
+est libre de rang 1 et est appelé le déterminant de .
+Soit
+un homomorphisme d'anneaux commutatifs unitaires et notons
+qui est un -module par la multiplication à droite, alors
+est canoniquement isomorphe à la -algèbre . Ceci est très utile pour appréhender la structure de
+lorsque
+n'est pas libre. Cette compatibilité avec l'extension de scalaires reste valable pour les algèbres et puissances symétriques et extérieures.
+Note[modifier | modifier le code]
+↑ On prendra garde que les éléments de
+ne sont pas tous de cette forme en général. Ils sont des sommes finies de tels vecteurs.
+Portail de l’algèbre
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Algèbre_tensorielle&oldid=97996943 ».
+Catégories : Structure externeAlgèbreCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Algèbre/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Deutsch
+English
+Español
+Nederlands
+Português
+Русский
+Svenska
+中文
+Modifier les liens
+Dernière modification de cette page le 3 novembre 2013 à 18:50.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

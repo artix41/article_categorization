@@ -1,0 +1,175 @@
+Mécanique statique — Wikipédia
+Mécanique statique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Mécanique et Statique.
+La statique, ou mécanique statique, est la branche de la physique qui étudie les systèmes mécaniques au repos dans un repère galiléen.
+Sommaire
+1 Principe fondamental de la statique
+1.1 Énoncé
+1.2 Système
+1.3 Référentiel galiléen
+1.4 Efforts extérieurs
+1.5 Équation
+2 Modèles d'étude
+3 Étude quasi statique
+4 Frontière d'isolement
+5 Condition sur l'énergie potentielle
+6 Voir aussi
+6.1 Articles connexes
+Principe fondamental de la statique[modifier | modifier le code]
+Énoncé[modifier | modifier le code]
+Des lois du mouvement de Newton, on peut déduire, de manière générale, l'énoncé suivant :
+Théorème — Si un système mécanique est en équilibre dans un référentiel galiléen, l'effet des efforts extérieurs qui s'appliquent sur lui est nul (somme des forces extérieures nulle et somme des moments extérieurs nulle).
+La réciproque n'est pas vraie, un système mécanique soumis à un ensemble d'efforts extérieurs d'effet global nul n'est pas forcément en équilibre.
+Système[modifier | modifier le code]
+Un système mécanique est un ensemble matériel (objet de l'étude) qui peut être, un point matériel, un solide, un ensemble de solides, une partie d'un solide, un échantillon de fluide, ou tout autre association de corps physiques souvent affectés d'une masse.
+Référentiel galiléen[modifier | modifier le code]
+Le référentiel galiléen est un cas de référentiel particulier dans lequel le principe énoncé est applicable ; suivant l'étude envisagée, le référentiel à considérer peut différer. C'est souvent parce que le résultat d'une étude statique est satisfaisant qu'on qualifie de galiléen le référentiel choisi... l'œuf et la poule!
+Efforts extérieurs[modifier | modifier le code]
+Les efforts extérieurs sont les actions mécaniques (forces et moments de forces) appliquées sur le système étudié par des éléments extérieurs au système étudié. La définition précise de la frontière du système est primordiale.
+Équation[modifier | modifier le code]
+La somme nulle des efforts extérieurs fournit une équation mathématique (scalaire, vectorielle ou matricielle), de laquelle on peut déduire une relation entre les actions connues et les actions inconnues. Cela implique l'utilisation de modèles représentant ces efforts et permettant d'en établir la somme. Ces modèles sont adaptés à chaque cas.
+Dans une étude d'équilibre statique, l'ensemble matériel isolé fournit donc le système d'équations à résoudre dans lequel les inconnues sont les efforts appliqués à ce système et/ou, dans certains cas où l'on recherche la ou les positions d'équilibre, des paramètres géométriques permettant de définir la position du système.
+Voici les deux équations utilisées dans les calculs du Principe Fondamental de la Statique:
+La somme des efforts extérieures à un objet est égale au vecteur nul
+La somme des moments en un point, ici le point A, est égale au vecteur nul
+Modèles d'étude[modifier | modifier le code]
+Le choix d'un modèle dépend étroitement du résultat recherché. L'état de l'art permet aujourd'hui, grâce à l'outil informatique, des études d'une grande complexité. Toutefois des modèles très simples bien adaptés et mis en œuvre au coin d'une feuille peuvent aboutir à des résultats tout aussi réalistes.
+Ces modèles d'étude se distinguent en partie par le type de système étudié :
+le point matériel : dans ce cas les actions mécaniques extérieures sont des forces toutes appliquées au point considéré. Il est tout à fait satisfaisant lorsque le système n'est soumis qu'à des actions à distance comme en astronomie, pour l'étude du mouvement des planètes.
+le solide indéformable : les actions mécaniques sont réparties sur la frontière du solide (action de contact) ou dans la masse (actions à distance). du fait de la multiplication des points d'application, l'étude nécessite de plus la considération des moments de force.
+les mécanismes : les actions transmissibles dans les liaisons mécaniques présentent des particularités exploitables a priori dès le début de l'étude. Les inconnues statiques de liaisons sont alors dans un espace vectoriel admissible.
+le solide déformable : le système étudié est une partie isolé d'un solide : on fait ainsi apparaître comme action extérieure l'effort de cohésion à travers la section fictive du solide. C'est le modèle retenu en résistance des matériaux.
+les fluides : l'équilibre des gaz et des liquides introduit, de plus, la notion de pression.
+le milieu continu : c'est l'extension de la mécanique des fluides appliquée aux solides. L'étude d'un élément de matière conduit à la détermination des contraintes dans la matière.
+Mécanique du point
+Mécanique du solide
+Modèle pour l'étude statique d'un mécanisme
+Elément de milieu continu
+Étude quasi statique[modifier | modifier le code]
+Dans sa formulation donnée ci-dessus le principe fondamental de la statique est un cas particulier du principe fondamental de la dynamique. Cela peut en partie se recouper en opérant un changement de référentiel galiléen. Cependant, en particulier pour l'étude des mécanismes, où toutes les pièces ne sont pas nécessairement animées d'un mouvement uniforme, on pose souvent l'hypothèse d'inerties négligeables. Cela revient à étudier chaque position du mécanisme comme une position d'équilibre (absence de mouvement); ce qui semble paradoxal. C'est une démarche proposée par de nombreux logiciels de calcul en mécanique. Lorsque la considération des masses est inévitable le problème doit être traîté dans le cadre plus complexe de la dynamique.
+Frontière d'isolement[modifier | modifier le code]
+Le système considéré est en équilibre sous l'effet d'actions extérieures. Cette notion est donc tributaire d'une frontière qu'il convient de bien définir, et qui constitue une surface fermée autour du système. À travers cette frontière les actions émanant d'éléments matériels situés à l'extérieur sont de deux natures:
+les actions de contact, dans ce cas le point d'application est un élément de la frontière. C'est le cas commun des liaisons mécaniques.
+les actions à distance appliquées sur une partie ou l'ensemble des points à l'intérieur de la frontière. C'est le cas des forces d'attraction ou forces électromagnétiques.
+Si cette frontière est évidente quand on étudie un point matériel ou un solide, sa définition est plus subtile lorsqu'on s'intéresse à un élément de milieu continu ou une partie seulement d'un solide. À la frontière virtuelle de ces systèmes apparaissent alors des actions mécaniques bien réelles qui requiert souvent des modélisations plus complexes que celle du vecteur force.
+Condition sur l'énergie potentielle[modifier | modifier le code]
+Dans le cas où le système est soumis à un ensemble de forces conservatives, une position d'équilibre est obtenue quand l'énergie potentielle est stationnaire, c'est-à-dire quand :
+Lorsque l'énergie potentielle est à un niveau minimal local strict et que le système a un nombre fini de degrés de liberté, le théorème de Lejeune-Dirichlet montre que l'équilibre est stable, ce qui signifie que si on écarte très peu le système de ce point d'équilibre (position et vitesse), le système ne s'écartera que très peu de sa position d'équilibre (sa position restera proche de la position d'équilibre et sa vitesse restera petite). Le pendule pesant est au repos dans une position d'équilibre stable (énergie potentielle minimale) quand il se situe à la verticale de son point d'articulation.
+Dans tous les autres cas, (lorsque l'énergie potentielle n'atteint par un minimum strict), l'équilibre est instable. Exemples :
+Si on retourne le pendule (rigide) pesant au-dessus de son axe, on peut espérer le placer dans une situation d'équilibre, évidemment précaire. Ce sont ces cas, qui sont les plus spectaculaires, que recherchent les équilibristes.
+Si on place une bille au fond d'une cuvette dont le fond est plat et horizontal (cas d'un minimum non strict de l'énergie potentielle), un petit coup donné à la bille écarte "beaucoup" cette bille.
+Cas d'une valeur stationnaire de l'énergie potentielle: un grimpeur debout sur une corniche au-dessus du vide.
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Mécanique du point et statique du point
+Mécanique du solide et statique du solide
+Torseur
+Diagramme de forces
+Lois du mouvement de Newton
+Portail de la physique
+Portail du génie mécanique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Mécanique_statique&oldid=109395387 ».
+Catégorie : StatiqueCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Génie mécanique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Alemannisch
+العربية
+Asturianu
+Беларуская
+Български
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+עברית
+हिन्दी
+Hrvatski
+Kreyòl ayisyen
+Magyar
+Հայերեն
+Ido
+Íslenska
+Italiano
+日本語
+Қазақша
+ភាសាខ្មែរ
+한국어
+Lietuvių
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Piemontèis
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+සිංහල
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Türkçe
+Українська
+اردو
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 24 novembre 2014 à 17:43.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

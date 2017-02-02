@@ -1,0 +1,212 @@
+Diagramme de phase — Wikipédia
+Diagramme de phase
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article ne cite pas suffisamment ses sources (février 2008).
+Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les références utiles à sa vérifiabilité et en les liant à la section « Notes et références » (modifier l'article).
+Un diagramme de phase est une représentation graphique utilisée en thermodynamique (voir Phase), généralement à deux ou trois dimensions, représentant les domaines de l'état physique (ou phase[note 1]) d'un système (corps pur ou mélange de corps purs), en fonction de variables, choisies pour faciliter la compréhension des phénomènes étudiés.
+Les diagrammes les plus simples concernent un corps pur avec pour variables la température et la pression ; les autres variables souvent utilisées sont l'enthalpie, l'entropie, le volume massique, ainsi que la concentration en masse ou en volume d'un des corps purs constituant un mélange.
+Lorsque le système étudié est un mélange de n corps purs, son état physique est défini par les (n-1) proportions indépendantes de ses composants, ainsi que par la température et la pression. Ainsi, un diagramme à deux variables ne peut donc être établi qu'en fixant (n-1) variables du système.
+C'est un diagramme associé à un équilibre qui ne permet pas de décrire un système dans un état métastable comme l'eau liquide à une température inférieure à 0 °C sous la pression atmosphérique normale (surfusion). Début 2009, tous les diagrammes de phases des éléments simples légers étaient établis sauf celui du bore, qui devrait être rapidement disponible suite à la synthèse réussie d'une nouvelle forme de bore dite « bore gamma » (partiellement ionique, mais forme la plus dure et dense du bore)[1]
+Sommaire
+1 Diagramme d'un corps pur
+2 Diagramme (P, V, T)
+3 Diagramme binaire et ternaire
+3.1 Diagramme à solution solide unique
+3.2 Composés définis
+4 Comment établit-on un diagramme de phases ?
+5 Références
+6 Notes
+7 Articles connexes
+Diagramme d'un corps pur[modifier | modifier le code]
+Le corps pur se présente sous une ou plusieurs de ses phases solides, liquide et gazeuse[note 2], en fonction des conditions de pression et de température. Généralement, un corps pur existe sous une seule phase pour une pression et une température données, sauf :
+au point triple, où les 3 phases coexistent à une température et une pression données ;
+pour un couple (pression, température) correspondant à un changement d'état (ou transition de phase) soit :
+entre 2 phases solides : transformation entre 2 variétés allotropiques ;
+entre une phase solide et une phase liquide : fusion - solidification ;
+entre une phase solide et une phase vapeur (gaz) : sublimation - condensation ;
+entre une phase liquide et une phase vapeur : vaporisation - liquéfaction ; la courbe de changement d'état liquide-vapeur s'interrompt en un point appelé point critique, au-delà[note 3] duquel le corps ne présente plus qu'une seule phase fluide, plutôt proche (du point de vue de ses propriétés physiques) d'un gaz[note 4] aux pressions inférieures à la pression critique, plutôt proche d'un liquide aux pressions supérieures à la pression critique.
+Lorsque toutes les phases représentées correspondent à des états physiques différents, on parle parfois de diagramme de changement d'état.
+En règle générale, les courbes de changement d'état sont croissantes dans le diagramme . Une exception notable est celle de l'eau, pour laquelle la courbe de fusion - solidification est décroissante (ceci implique que la glace flotte sur l'eau liquide).
+La pente de cette courbe est donnée par la Formule de Clapeyron.
+: Chaleur latente égale à ΔH ( variation d'enthalpie) de changement d'état effectué à pression constante.
+: variation du volume molaire au cours du changement de phase.
+Exemples de diagrammes
+Exemple d'un diagramme de phase de corps pur.
+Diagramme de phase de l'eau.
+Remarques
+Un corps pur placé au contact de l'atmosphère n'est pas un système constitué d'un seul corps pur car il faut prendre en compte les gaz de l'air. Cela explique, par exemple, que l'eau coexiste habituellement à l'état liquide et à l'état de vapeur à la température ambiante, très éloignée de sa température d'ébullition (100 °C à la pression atmosphérique normale). En effet la pression partielle de vapeur d'eau est alors très inférieure à la pression atmosphérique. La pression de vapeur d'eau, appelée pression de vapeur saturante, de l'ordre de 0,006 atm à 0 °C, augmente progressivement jusqu'à 100 °C où elle atteint 1 atm. À ce stade la pression atmosphérique de l'air ne joue plus son rôle de couvercle et les molécules d'eau s'échappent brutalement du milieu: c'est le phénomène d'ébullition. Si l'on abaisse la pression de l'air par une pompe à vide, l'ébullition de l'eau peut même se produire à une température plus basse que la température ambiante.
+À l'état solide, un corps peut parfois prendre plusieurs formes de cristallisation, selon le domaine de pression et de température. Chaque forme de cristallisation constitue ainsi une phase différente, ce qui permet de tracer un diagramme de phase.
+Exemple d'un diagramme de phase pour plusieurs formes de cristallisation : la glace. Par rapport au diagramme précédent, les axes sont inversés, et l'échelle des pressions est logarithmique
+Diagramme (P, V, T)[modifier | modifier le code]
+Dans le cas des changements d'état (gaz-liquide-solide) d'un corps pur, les résultats sont parfois présentés sous la forme d'un diagramme en trois dimensions, les axes étant la pression P, le volume V occupé par le système et la température T.
+Diagramme (P, V, T) pour un corps pur classique
+Diagramme (P, V, T) pour l'eau
+Ce diagramme tridimensionnel est construit à partir de trois types de diagrammes utilisés en thermodynamique : les diagrammes de changement d'état, les diagrammes isothermes de Clapeyron et les diagrammes isobares.
+La figure ci-dessous montre un diagramme thermodynamique comme une « coupe » ou une « projection » du diagramme (P, V, T). La flèche indique la direction de projection.
+Diagramme (P, V, T) et diagramme (T, P) de changement d'état d'un corps pur. La figure de gauche est obtenue par projection de la figure de droite sur le plan (T,P).
+Diagramme binaire et ternaire[modifier | modifier le code]
+Lorsque l'on a un système composé de deux corps purs, le système peut être sous plusieurs formes :
+entièrement solide, chaque corps cristallisant séparément ;
+entièrement solide, les deux corps étant parfaitement mélangés sous la forme d'une solution solide ou d'un composé défini, appelé eutectique, eutectoïde, péritectique ou péritectoïde selon la manière dont il se décompose en chauffant ;
+mélange solide-liquide ;
+entièrement liquide, sous la forme de deux liquides non miscibles (émulsion), ou d'un seul liquide parfaitement homogène (une seule phase, solution) ;
+mélange liquide-gaz (aérosol, ou bien gaz au-dessus d'un liquide) ;
+gaz (un gaz est toujours homogène pour de faibles variations d'altitude).
+Les états ci-dessus sont composés soit d'une phase unique (par exemple liquides miscibles ou gaz), soit de plusieurs phases hétérogènes. On peut tracer de même l'état d'un système en fonction de la pression, de la température et de la composition.
+Avec n corps purs, nous avons n concentrations, mais seulement n+1 paramètres indépendants avec la pression et la température ; en effet, la somme des concentrations vaut 100 %, et l'une des concentrations peut se déduire des autres et ne constitue donc pas un paramètre indépendant.
+Il faudrait donc un diagramme à n+1 dimensions pour représenter ces n+1 paramètres indépendants (3 dimensions pour deux corps purs, 4 dimensions pour trois corps purs). Pour simplifier la représentation, un nombre suffisant de paramètres sont fixés afin de tracer un diagramme à deux dimensions ; on considère souvent les diagrammes suivants :
+pour une composition donnée, le diagramme de phase pression-température (P, T), similaire à ce qui a un diagramme de corps pur ;
+pour une pression donnée et deux corps purs, le diagramme binaire composition-température (c, T) ;
+Exemple de diagramme binaire : le diagramme eau-sel sous une atmosphère
+Exemple de diagramme binaire : le diagramme fer-carbone sous une atmosphère
+pour une pression et une température données et trois corps purs, le diagramme ternaire (c1, c2), c'est-à-dire la phase en fonction de la composition ; par habitude, et bien que l'on ait c3 = 1-c1-c2, on trace ce diagramme dans un triangle équilatéral (c1, c2, c3)
+Diagramme à solution solide unique[modifier | modifier le code]
+Dans certains cas, comme par exemple pour les alliages argent-or, il n'y a pas de composé défini. Dans ces cas-là, le diagramme binaire est comme illustré ci-dessous :
+Diagramme binaire d'une solution solide unique
+On a
+TA la température de fusion du corps pur A ;
+TB la température de fusion du corps pur B.
+On définit :
+le liquidus : au-dessus de cette courbe, le produit est entièrement liquide ; le liquidus définit la composition du liquide qui est à l'équilibre avec un solide à une température donnée.
+le solidus : en dessous de cette courbe, tout le produit est solide ; le solidus définit la composition d'un solide qui est en équilibre avec un liquide à une température donnée.
+Entre le liquidus et le solidus, il y a un mélange solide-liquide. Ce diagramme permet de prédire la manière dont va se passer une solidification.
+Composés définis[modifier | modifier le code]
+Les composés définis sont des composés dont le changement de phase se fait à température constante.
+L'existence d'une verticale sur le diagramme binaire indique la présence d'un composé défini.
+On peut citer comme exemple MgZn2
+De plus, le cuivre (Cu) et l'étain (Sn) forment aussi des composés définis.
+Diagramme binaire du mélange Etain-Cuivre
+On distingue :
+les eutectiques : un eutectique fond à température constante, il se comporte comme un corps pur ;
+les eutectoïdes : les eutectoïdes subissent une transformation de phase solide-solide à température constante ; la seule différence avec les eutectiques est que la phase au-delà de la température limite n'est pas liquide ;
+les péritectiques : il y a une transformation solide A → solide B + liquide à température constante ;
+les péritectoïdes : il y a une transformation solide A → solide B + solide C à température constante.
+Comment établit-on un diagramme de phases ?[modifier | modifier le code]
+Le diagramme de phase s'établit expérimentalement : on fait varier les conditions et l'on observe les changements de phase.
+Les changements de phase peuvent s'observer de plusieurs manières :
+certains produisent de la chaleur (par exemple la condensation ou une réaction chimique exothermique) ou en absorbent (par exemple la fusion ou des réactions chimiques endothermiques), donc en mesurant les flux de chaleur, on sait si un changement de phase a lieu ; c'est l'analyse thermodifférentielle (ATD) ;
+certains induisent un changement de volume, une contraction (comme la condensation ou le réarrangement des atomes d'un solide dans une configuration plus compacte) ou une expansion (comme la vaporisation ou le réarrangement des atomes d'un solide dans une configuration moins compacte), il suffit alors de mesurer les changements de volume, par exemple avec un piston mobile, la force étant imposée par le poids d'une masse ou bien par un système hydraulique ;
+on peut à l'inverse observer les variations de pression, avec un manomètre, en imposant le volume avec un piston mobile actionné par une vis sans fin ;
+observer à l'œil nu l'état du système (par exemple la fusion des cristaux) ;
+pour les différentes phases solides, on peut reconnaître les différentes phases cristallines par diffraction de rayons X ; on peut faire l'analyse sur l'échantillon chaud, ou bien tremper l'échantillon, c'est-à-dire lui faire subir un refroidissement rapide afin qu'il conserve sa structure d'équilibre à chaud même lorsqu'il est froid (il n'est donc pas à l'équilibre).
+Dispositif expérimental permettant de mesurer les variations de volume en imposant la pression
+La courbe de solidification, utilisée pour déterminer la température de changement d'état, est de l'analyse thermodifférentielle simplifiée ; elle consiste à laisser refroidir un liquide et à mesurer sa température. La vitesse de perte de chaleur est proportionnelle à la différence de température entre le système et l'extérieur, on a donc une courbe exponentielle. Lorsque l'on observe un plateau, cela signifie que l'échantillon libère de la chaleur, ce qui est caractéristique de la solidification. Lors d'un changement de phase (changement de structure cristalline) dans le solide on peut observer un plateau de la même manière.
+Courbe de solidification, isobare, refroidissement passif, cas d'un corps pur ou d'un alliage eutectique.
+Références[modifier | modifier le code]
+↑ A. Oganov et al. Nature, doi:10;1038/nature07736 (http://www.nature.com/nature/journal/v457/n7231/full/457800a.html Voir)
+Notes[modifier | modifier le code]
+↑ En physique, on appelle phase un corps pur ou un mélange homogène de corps purs qui est dans un état (gazeux, liquide, solide amorphe, solide cristallisé selon telle ou telle forme) donné.
+↑ À de hautes températures, un corps pur se présente sous la forme d'un plasma, considéré comme un état de la matière.
+↑ Température supérieure à la température critique ou pression supérieure à la pression critique.
+↑ Un gaz dont la température est supérieure à sa température critique est qualifié de supercritique ; il est impossible de le liquéfier par seule compression.
+Articles connexes[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Diagramme de phase, sur Wikimedia Commons
+Thermodynamique des mélanges, sur Wikiversity
+État de la matière
+Thermodynamique
+Diagramme TTT
+Diagramme TRC
+v · d · m
+État de la matière
+États « courants »
+État solide · État liquide · État gazeux · État plasma · Fluide
+États à basse température
+Condensat de Bose-Einstein · Gaz de fermions dégénéré · Superfluide · Supersolide
+États à haute énergie
+Matière dégénérée · Plasma quark-gluon · Fluide supercritique
+Autres états
+Colloïde · État polyphasique · Mésophase · Cristal liquide · Trou noir
+Concepts
+Changement d'état · Diagramme de phase · Transition de phase · Transition vitreuse · Point de fusion · Point d’ébullition · Point triple · Point critique · Équation d’état · Polymorphisme · Polyamorphisme · Polysomatisme · Surfusion
+Portail des sciences des matériaux
+Portail de la chimie
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Diagramme_de_phase&oldid=109664387 ».
+Catégories : DiagrammeScience des matériauxTransition de phaseCatégories cachées : Article manquant de référence depuis février 2008Article manquant de référence/Liste complètePortail:Matériaux/Articles liésPortail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Physique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Bosanski
+Català
+Čeština
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Galego
+Hrvatski
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+Қазақша
+한국어
+Latviešu
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Русский
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+Türkçe
+Українська
+中文
+粵語
+Modifier les liens
+Dernière modification de cette page le 4 décembre 2014 à 09:23.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

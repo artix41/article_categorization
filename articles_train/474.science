@@ -1,0 +1,894 @@
+Calcul des variations — Wikipédia
+Calcul des variations
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En mathématiques, et plus précisément en analyse fonctionnelle, le calcul des variations (ou calcul variationnel) est un ensemble de méthodes permettant de minimiser une fonctionnelle. Celle-ci, qui est à valeurs réelles, dépend d'une fonction qui est l'inconnue du problème. Il s'agit donc d'un problème de minimisation dans un espace fonctionnel, de dimension infinie. Le calcul des variations s'est développé depuis le milieu du dix-huitième siècle jusqu'aujourd'hui ; son dernier avatar est la théorie de la commande optimale, datant de la fin des années 1950. Le calcul des variations a des applications dans de nombreux domaines :
+L'inconnue étant une courbe paramétrée, on recherche une courbe de longueur minimale (ou extrémale), autrement dit une géodésique ; c'est une question fondamentale en géométrie différentielle.
+L'inconnue étant une surface, on recherche, pour un périmètre donné, la surface d'aire maximale (problème d'isométrie).
+En physique, le principe de moindre action affirme que les mouvements d'un système matériel se produisent de manière, sinon à minimiser l'action, du moins à rendre celle-ci stationnaire. Ces mouvements peuvent donc être déterminés en minimisant ou en rendant stationnaire cette fonctionnelle, ce qui fait du calcul des variations un outil fondamental pour les physiciens (formulation variationnelle des équations de la physique).
+Une condition nécessaire d'extremum (ou plus généralement de stationnarité) de la fonctionnelle est l'équation d'Euler-Lagrange. Or il arrive que le but qu'on se propose soit précisément la résolution d'une équation différentielle qu'on montre (en résolvant le « problème inverse du calcul des variations ») être l'équation d'Euler-Lagrange d'un problème variationnel ; la résolution de celui-ci (effectuée, par exemple, en passant au formalisme hamiltonien) fournit la solution de celle-là.
+Les principaux résultats du calcul des variations « classique », qui fait l'objet de cet article sont :
+L'équation d'Euler-Lagrange (condition nécessaire du premier ordre) ;
+Les conditions de transversalité (dans le cas de problèmes à extrémités variables) ;
+Les conditions du second ordre de minimum faible de Legendre et de Jacobi ;
+Les conditions du second ordre de minimum fort de Weierstrass ;
+La relation entre formalisme lagrangien et le formalisme hamiltonien (transformation de Legendre) ;
+L'équation de Hamilton-Jacobi et le théorème de Jacobi ;
+Enfin, pour ses applications à la Physique, le théorème de Noether est fondamental.
+Sommaire
+1 Historique
+2 Problèmes fondamentaux du calcul des variations
+2.1 Problème à extrémités fixes
+2.2 Problème à extrémités variables
+2.3 Minimum faible et minimum fort
+2.3.1 Remarque sur la notion de minimum fort
+2.4 Problèmes isopérimétriques
+2.5 Problèmes à intégrale multiple
+3 Formalisme Lagrangien
+3.1 Condition du premier ordre
+3.1.1 Première variation
+3.1.2 Différentielle de Gâteaux et condition d'Euler
+3.1.3 Équation d'Euler-Lagrange
+3.1.4 Remarques sur l'équation d'Euler-Lagrange
+3.1.5 Cas des problèmes isopérimétriques
+3.1.5.1 Remarque sur les multiplicateurs de Lagrange
+3.1.6 Cas des problèmes à intégrale multiple
+3.2 Conditions du second ordre de minimum faible
+3.2.1 Seconde variation
+3.2.2 Condition de Legendre
+3.2.2.1 Remarque : cas du calcul des variations à intégrale multiple
+3.2.3 Condition de Jacobi
+3.2.3.1 Remarque : cas d'un intégrande ne dépendant pas de l'inconnue
+3.2.3.2 Remarque : cas convexe
+3.2.3.3 Remarque : cas convexe avec intégrale multiple
+3.3 Conditions de minimum fort
+3.3.1 Fonction de Weierstrass
+3.3.2 Remarque sur la condition suffisante de minimum fort
+4 Formalisme hamiltonien
+4.1 Pseudo-hamiltonien et principe du maximum ; conditions de transversalité
+4.1.1 Cas particuliers des conditions de transversalité
+4.1.2 Équation d'Euler-Lagrange, conditions de Legendre et de Weierstrass
+4.1.3 Conditions d'arrondissement des angles de Weierstrass-Erdmann
+4.1.4 Différentiabilité des extrémales
+4.2 Formalisme hamiltonien classique
+4.3 Condition suffisante d'optimalité (Bellman)
+4.3.1 Principe d'optimalité du calcul des variations
+4.3.2 Formulation de Carathéodory
+4.4 Théorie de Jacobi
+4.4.1 Équation de Hamilton-Jacobi
+4.4.2 Théorème de Jacobi
+4.4.3 Remarque : pente d'une extrémale
+4.4.4 Démonstration de la condition de transversalité
+4.5 Théorie de Weierstrass (formule intégrale)
+4.5.1 Champ d'extrémales
+4.5.2 Forme de Poincaré-Cartan
+4.5.3 Intégrale invariante de Hilbert
+4.5.4 Formule intégrale de Weierstrass
+4.6 Théorème de Noether
+4.6.1 Exemple 1 : conservation de l'énergie totale
+4.6.2 Exemple 2 : conservation de la quantité de mouvement
+4.6.3 Exemple 3 : conservation du moment cinétique
+4.7 Calcul des variations sur une variété
+5 Applications
+5.1 Principe d'action stationnaire de Hamilton
+5.2 Géodésiques d'une variété riemannienne
+5.2.1 Cas d'une variété pseudo-riemannienne
+5.2.2 Cas d'une variété riemannienne
+5.2.2.1 Cas de la sphère
+5.2.2.2 Cas du cylindre
+5.3 Problème de Dirichlet
+5.4 Problème de Didon
+6 Notes et références
+6.1 Notes
+6.2 Bibliographie commentée
+6.3 Liens externes
+6.4 Articles connexes
+Historique[modifier | modifier le code]
+Sans aller jusqu'au légendaire problème de la reine Didon, on peut faire remonter les principes variationnels à Pierre de Fermat (1657) et Christian Huygens (1690) pour l'étude de la propagation de la lumière (principe de Fermat et principe de Huygens-Fresnel). Néanmoins, le calcul des variations est né en 1696, avec le problème de la courbe brachistochrone, posé par Jean Bernoulli (à la suite de Galilée dans son Dialogue sur les deux grands systèmes du monde paru en 1632)[1] ; il s’agit d’un problème de temps minimal (comme l’indique la racine grecque : « βραχιστος (brachistos) », « le plus court » ; « χρονος (chronos) », « temps »). Ce problème fut résolu par Jean et Jacques Bernoulli, Gottfried Wilhelm Leibniz, Isaac Newton, Guillaume François Antoine de l'Hospital et Ehrenfried Walther von Tschirnhaus. La solution de Jacques Bernoulli se fondait sur le principe d'Huygens et l'idée du front d'onde ; elle préfigurait l'équation de Hamilton-Jacobi. Celle de Jean Bernoulli était fondée sur une analogie avec la propagation de la lumière et le principe de Fermat, ainsi que la loi de Descartes. Celle de Leibniz, enfin, était fondée sur l'approximation de la courbe par des lignes brisées et était le premier pas vers l'équation d'Euler-Lagrange[2].
+Jean Bernoulli (1667-1748)
+Le second pas a été accompli par Euler, élève de Jean Bernoulli : Euler a ébauché à partir de considérations géométriques la méthode des « petites variations » en 1744. Joseph-Louis Lagrange a introduit le vocable « Calcul des variations » vers 1760[1] et a donné sa forme actuelle à la solution d'Euler. Adrien-Marie Legendre a complété en 1786 l'équation d'Euler-Lagrange, qui est une condition du premier ordre, par la condition du second ordre qui porte son nom. Ces résultats ont été rassemblés par Lagrange dans sa Théorie des fonctions analytiques, parue en 1797 ; Lagrange a également introduit les variables canoniques en 1811 dans sa Mécanique analytique (bien quelles aient été attribuées à William Rowan Hamilton par Charles Gustave Jacob Jacobi)[1]. L'équation d'Euler-Lagrange a été étendue au cas du Calcul des variations à intégrales multiples en 1834 par Mikhaïl Ostrogradski[3] (généralisant un résultat obtenu en 1831 par Siméon Denis Poisson sur le même sujet). L'équation d'Hamilton-Jacobi a été introduite en premier lieu par Hamilton dans son Second Essay on a General Method in Dynamics en 1835 à l'occasion d'un problème de mécanique. Jacobi a complété la condition du second ordre de Legendre en 1837, avec la théorie des « points conjugués »[4] et a reformulé la contribution de Hamilton, cette fois dans un contexte général, dans ses Vorlesungen über Dynamik (1842). Alfred Clebsch a généralisé en 1858 les résultats de Legendre et de Jacobi[5]. Eduard Heine a établi le lemme fondamental du calcul des variations en 1870[6]. Il revenait à Karl Weierstrass, dans ses cours professés à l'Université de Berlin, notamment celui de 1879, de définir la notion d'extremum fort, et d'établir la condition qui porte son nom, ainsi que la « condition d'arrondissement des angles » (également obtenue, indépendamment, par G. Erdmann en 1877[7]). Paul David Gustave Du Bois-Reymond[8],[9] a établi son fameux lemme en 1879 : cette extension du lemme fondamental du calcul des variations permet d'établir de manière plus satisfaisante l'équation d'Euler-Lagrange. Enfin, David Hilbert a établi le théorème de l'intégrale invariante (qui clarifie la théorie de Weierstrass) et résolu le problème de Dirichlet[10] (le problème de calcul de variations à intégrales multiples le plus célèbre) en 1900. Les principaux résultats du calcul des variations classique avaient dès lors été obtenus.
+Néanmoins, des compléments substantiels ont été apportés au tournant du vingtième siècle par Hermann Amandus Schwarz (généralisation du théorème de Weierstrass entre 1898 et 1899) et Adolf Kneser[11] (condition de transversalité, 1900). Oskar Bolza (en)[12] et Harris Hancock[13] ont réalisé indépendamment en 1904 deux synthèses de tous les travaux précédents ; leur lecture est encore très instructive et facilement accessible, . Christian Gustav Adolph Mayer (en) a introduit en 1905 les « champs de Mayer » qui généralisent les champs d'extrémales de Weierstrass ; il a également réalisé une étude fine des « arcs anormaux ». William Fogg Osgood (en)[14] et Jacques Hadamard[15],[16] ont continué d'étudier entre 1900 et 1906 le Calcul des variations avec intégrale multiple. On peut encore citer les contributions de la première moitié du vingtième siècle dues à Emmy Noether (théorème de Noether[17] : obtenu en 1918, il est la formulation mathématique des lois de conservation en physique - de l'énergie, de l'impulsion, du moment cinétique, etc.) ; à Alfréd Haar (le lemme de Haar, datant des années 1926-1932, peut être vu comme une extension du lemme de Du Bois-Reymond au cas d'intégrales multiples)[18],[19]; et à Constantin Carathéodory[20] (Hermann Boerner (de) appelait en 1953 « der Königsweg der Variationsrechnung », autrement dit « la route royale du calcul des variations » l'approche de Carathéodory). Gilbert Ames Bliss (en) et ses élèves, dont Magnus Hestenes, ont réalisé pendant plus de vingt ans une étude détaillée du problème de Bolza, étude dont les résultats ont été rassemblés dans la vaste synthèse que sont les Lectures on the Calculus of Variations[1] de Bliss. Mentionnons encore George David Birkhoff et son élève Marston Morse[21] (théorie de Morse). La théorie de Morse a été généralisée par Richard Palais (en) et Stephen Smale en 1964 (condition de compacité de Palais-Smale (en))[22],[23].
+Le calcul des variations a connu un profond renouveau dans les années 1950 avec le développement de la théorie de la commande optimale, sous l'impulsion de Lev Pontriaguine[24] et Richard Bellman[25],[26]. Le formalisme de Pontryagin et de Bellman est une extension et une amélioration du formalisme hamiltonien classique, et clarifie la formulation de Carathéodory[27].
+On peut encore mentionner les contributions, postérieures à 1960, de Jacques-Louis Lions, Ivar Ekeland et Jean-Pierre Aubin. Le calcul des variations « non lisse » développé vers la fin des années 1980 par Frank H. Clarke, est un apport significatif[28],[29]. Le calcul des variations reste en mathématiques un domaine fort actif. Les mathématiciens qui ont contribué à son développement sont extrêmement nombreux (ils comprennent la plupart des grands noms du dix-neuvième siècle et du début du vingtième, et même le célèbre philosophe Edmund Husserl, élève des mathématiciens Leo Königsberger, Leopold Kronecker et Karl Weierstrass ; Husserl a soutenu en 1883 sa thèse Beiträge zur Variationsrechnung). N'ont été mentionnés plus haut que certains parmi les plus notables de ces mathématiciens.
+Un domaine d'application important du calcul des variations est l'étude des géodésiques sur une variété munie d'une connexion affine, et plus particulièrement des géodésiques minimales dans un espace de Riemann[30]. L'étude locale des géodésiques minimales sur une surface a été réalisée, à la suite de Carl Friedrich Gauss, par Jacobi (théorie des points conjugués) et Pierre-Ossian Bonnet (qui a démontré le résultat que Jacobi avait énoncé sans démonstration)[31]. Ces travaux ont été complétés par Kneser, Tullio Levi-Civita et Elie Cartan (ce dernier ayant donné de l'équation géodésique sa forme intrinsèque[32]). Le problème global n'a cessé d'être à l'ordre du jour et a donné naissance à la théorie de Morse, déjà évoquée.
+Problèmes fondamentaux du calcul des variations[modifier | modifier le code]
+Problème à extrémités fixes[modifier | modifier le code]
+C'est le problème le plus simple, parfois appelé problème de Lagrange. Soit
+un intervalle de la droite réelle et ,
+des ouverts non vides dans un espace vectoriel normé
+qu'on peut supposer de dimension finie. Soit d'autre part
+une fonction appelée lagrangien, supposée continûment différentiable (en abrégé : de classe
+ainsi que sa différentielle partielle . Le problème de Lagrange consiste à déterminer (si elle existe) une fonction suffisamment régulière
+telle que
+et , où
+et
+sont des points fixés de , avec , et minimisant la fonctionnelle,
+.
+Problème à extrémités variables[modifier | modifier le code]
+Nous considérons maintenant un problème plus général où ni les bornes d'intégration
+et , ni les points
+et , ne sont fixés. La fonctionnelle à minimiser est
+avec les contraintes , , où
+et
+sont des sous-variétés de ,
+désignant un intervalle compact de la droite réelle. La fonction
+vérifie les mêmes hypothèses que ci-dessus et la fonction K est continûment différentiable.
+La fonctionnelle ci-dessus est mixte (du fait de la présence du terme ) et le problème correspondant est appelé le problème de Bolza. On se ramène au cas d'une fonctionnelle intégrale (problème de Lagrange avec extrémités variables) en définissant une inconnue supplémentaire y définie à une constante près par , puisque alors
+où
+.
+On peut aussi se ramener au cas d'un problème de la forme
+(problème de Mayer) en posant , ,
+et
+.
+Minimum faible et minimum fort[modifier | modifier le code]
+Si, dans ce qui précède, on recherche des minima globaux, le problème est en général sans solution. On est donc conduit à rechercher des minima locaux. Par définition,
+minimise localement
+si
+pour toute fonction suffisamment régulière x dans un voisinage suffisamment petit de . Encore faut-il préciser quel type de régularité on impose à
+et, puisqu'on a ici affaire à un problème en dimension infinie, par quelle norme on définit les voisinages de 0.
+Une première possibilité consiste à imposer à
+d'être de classe , c'est-à-dire continûment dérivable, donc d'appartenir à l'espace
+des fonctions continûment dérivables de
+dans . On peut munir cet espace de la norme
+qui en fait un espace de Banach qu'on notera .
+Une autre possibilité consiste à imposer seulement à
+d'être continûment dérivable par morceaux, c'est-à-dire continue, et ayant une dérivée continue sauf en un nombre fini de points, et ayant en ces points une dérivée à gauche et une dérivée à droite. Soit
+l'espace des fonctions continûment dérivables par morceaux par morceaux de
+dans . On peut munir cet espace de la norme
+qui en fait un espace vectoriel normé, non complet, qu'on notera .
+Définition — Un minimum local de J sur
+(resp. ) est appelé un minimum local faible (resp. fort).
+On montre que, sous les hypothèses qui ont été précisées, la fonction
+est différentiable sur , mais non sur . Il s'ensuit que la minimisation faible relève du calcul différentiel classique dans un espace de Banach, ce qui n'est pas le cas de la minimisation forte.
+Remarque sur la notion de minimum fort[modifier | modifier le code]
+Pour la formulation de la notion de minimum fort, d'autres espaces fonctionnels que
+sont possibles : on peut notamment le remplacer par , l'espace des fonctions absolument continues de
+dans
+(on a ) ; dans certains cas,
+admet un minimum sur
+mais non sur
+comme l'a montré Leonida Tonelli (en) en 1915[33]. Néanmoins, nous nous limiterons dans ce qui suit à la définition donnée plus haut qui permet d'éviter quelques difficultés.
+Notons qu'une fonction continûment dérivable qui fournit un minimum local fort fournit nécessairement un minimum local faible. Par suite, pour une fonction continûment dérivable, une condition nécessaire de minimum local faible (voir, ci-dessous, la partie (A) du théorème de Jacobi-Weierstrass) est également une condition nécessaire de minimum local fort. Au contraire, une condition suffisante de minimum local fort (voir, ci-dessous, la condition suffisante de minimum fort de Weierstrass) est également une condition suffisante de minimum local faible, compte tenu du schéma logique, valide pour une fonction de classe  :
+condition suffisante de minimum fort
+minimum fort
+minimum faible
+condition nécessaire de minimum faible
+Problèmes isopérimétriques[modifier | modifier le code]
+Ces problèmes consistent à minimiser une fonctionnelle
+sous les contraintes
+avec
+,
+toutes les fonctions
+vérifiant les mêmes hypothèses que la fonction
+ci-dessus.
+Problèmes à intégrale multiple[modifier | modifier le code]
+Soit D variété de dimension n, éventuellement à bord, et
+,
+x étant la variable (plus haut notée t),
+la fonction inconnue (plus haut notée x), où
+est un espace vectoriel normé,
+sa différentielle, et
+la mesure de Lebesgue. On suppose
+de classe . Le problème considéré ici consiste à déterminer, si elle existe, une fonction
+de classe
+qui minimise [34].
+Formalisme Lagrangien[modifier | modifier le code]
+Condition du premier ordre[modifier | modifier le code]
+Première variation[modifier | modifier le code]
+Considérons le problème de Lagrange à extrémités fixes (le problème à extrémités variables conduit à ajouter les conditions de transversalité : voir, infra, le § Pseudo-hamiltonien et principe du maximum). Soit
+un accroissement de x, où h est une fonction continûment dérivable telle que
+(on notera ci-dessous
+l'espace vectoriel formé des h vérifiant ces conditions) et
+est un nombre réel. Il en résulte un accroissement
+de , en négligeant les termes du second ordre en
+pour
+tendant vers 0. En effet, un développement limité au premier ordre donne
+où
+est la « première variation » de J.
+Leonhard Euler (1707-1783)
+Différentielle de Gâteaux et condition d'Euler[modifier | modifier le code]
+Toute fonction J, définie dans un voisinage de x, et pour laquelle un tel développement limité existe, est dite « différentiable au sens de Gâteaux », et par définition
+est la « différentielle de Gâteaux » de J au point x. Cette application
+est homogène (i.e.
+pour tout réel ) mais n'est pas linéaire en général.
+Condition d'Euler — Soit
+un ouvert d'un espace vectoriel normé (ou, plus généralement, d'un espace vectoriel topologique) et J une fonction différentiable au sens de Gâteaux dans . Pour que
+minimise
+dans , il est nécessaire que soit vérifiée la condition d'Euler (condition du premier ordre, ou de stationnarité de J) .
+Démonstration
+Supposons . Cela signifie qu'il existe , où
+est l'ensemble des , tel que . Supposons sans perte de généralité (quitte à changer h en ) que . Il existe une fonction , définie dans un intervalle ouvert contenant 0, telle que
+pour , et telle que
+.
+Prenons
+suffisamment petit pour que . Alors , donc
+ne minimise pas .
+Équation d'Euler-Lagrange[modifier | modifier le code]
+On a d'autre part
+et on en déduit le théorème suivant :
+Équation d'Euler-Lagrange — Soit
+une fonction de classe . La condition de stationnarité
+est satisfaite si, et seulement si
+est une extrémale, c'est-à-dire est solution de l'équation d'Euler-Lagrange
+(EL)
+.
+Il s'agit donc d'une condition nécessaire pour que
+soit un minimum (ou maximum) local faible de J.
+Démonstration
+Il suffit d'écrire la condition d'Euler, puis d'appliquer le Lemme de Du Bois-Reymond.
+Si l'on veut appliquer le lemme fondamental du calcul des variations, on peut procéder comme suit : le second terme de l'intégrale s'exprime, grâce à une intégration par parties, sous la forme
+le crochet étant nul puisque . On obtient donc
+.
+Il reste maintenant à faire appel au Lemme fondamental du calcul des variations.
+Application : voir #Géodésiques d'une variété riemannienne.
+Joseph-Louis Lagrange (1736-1813)
+Remarques sur l'équation d'Euler-Lagrange[modifier | modifier le code]
+(1) L'intégration par parties effectuée dans la démonstration qui précède quand on utilise le Lemme fondamental du calcul des variations n'est licite que si la fonction
+est de classe , ce qui n'est vérifié que si
+est de classe
+puisque
+soit être de classe . C'est pourquoi l'utilisation du Lemme de du Bois-Reymond, pour lequel il suffit de supposer
+de classe , est préférable.
+(2) Pour que la fonction
+fournisse un minimum local fort, il est encore nécessaire, comme on le verra plus loin (#Pseudo-hamiltonien et principe du maximum ; conditions de transversalité), qu'elle soit solution de l'équation d'Euler-Lagrange dans chaque intervalle dans lequel elle est continûment dérivable. Si
+est seulement supposée absolument continue, l'équation d'Euler-Lagrange doit être vérifiée presque partout.
+Cas des problèmes isopérimétriques[modifier | modifier le code]
+On introduit des multiplicateurs de Lagrange
+où , et on forme la quantité (appelée Lagrangien, mais dans un sens qui n'est pas à confondre avec le précédent, d'où la majuscule employée)
+avec
+.
+Une condition nécessaire pour que
+soit solution du problème isométrique est qu'il existe des multiplicateurs de Lagrange comme ci-dessus, non tous nuls, tels que
+rende stationnaire [35]. Cette stationnarité équivaut à la satisfaction de la même équation d'Euler-Lagrange que plus haut.
+Application : voir #Problème de Didon.
+Remarque sur les multiplicateurs de Lagrange[modifier | modifier le code]
+Si les différentielles
+sont linéairement indépendantes, on a nécessairement  : c'est alors la formulation classique du théorème des multiplicateurs de Lagrange.
+Cas des problèmes à intégrale multiple[modifier | modifier le code]
+Avec les notations introduites lors de la position du problème (§ Problèmes à intégrale multiple), une condition nécessaire de stationnarité, si l'on se restreint aux extrémales de classe
+(pour les extrémales de classe , on utilisera le lemme de Haar) est donnée par l'équation d'Ostrogradski (généralisation de l'équation d'Euler-Lagrange) :
+Mikhaïl Ostrogradski (1801-1862)
+où
+désigne la différentielle de u ; on peut également noter cette différentielle , où
+est l'espace des applications linéaires de
+dans . Lorsque , l'équation d'ostrogradski peut s'expliciter comme suit :
+Les fonctions u vérifiant ces conditions sont de nouveau appelées extrémales.
+Démonstration
+Soit
+et . On a
+.
+On a
+et par conséquent
+.
+D'après le théorème de la divergence (ou d'Ostrodradski), dans sa version à n variables[36], la seconde intégrale est égale à l'intégrale de surface
+où
+est le vecteur unitaire sortant de D de la normale à
+et
+est la mesure superficielle. Cette seconde intégrale est nulle si l'on prend h s'annulant sur , et il reste alors
+.
+La condition de stationnarité entraîne que
+pour toute fonction
+s'annulant sur , et le théorème énoncé est maintenant une conséquence du lemme fondamental du calcul des variations.
+Application : voir le § Problème de Dirichlet.
+Conditions du second ordre de minimum faible[modifier | modifier le code]
+Désormais nous considérons le problème de Lagrange et nous supposons
+de classe , ainsi que ses différentielles partielles
+et , et
+de dimension finie. On recherche dans ce paragraphe une des conditions du second ordre de minimum local faible.
+Carl Gustav Jakob Jacobi (1804-1851)
+Seconde variation[modifier | modifier le code]
+Soit
+une extrémale, pour laquelle on a donc, par définition, , et faisons un développement limité au second ordre de . Sous l'hypothèse ci-dessus, la différentielle seconde
+de J existe au point
+(où
+est l'espace des formes bilinéaires continues sur ) et
+où . La quantité
+est appelée la seconde variation de J au point . Il vient
+où pour abréger on a écrit
+pour , etc. En intégrant les second terme par parties on obtient
+, soit donc
+avec
+,
+.
+Condition de Legendre[modifier | modifier le code]
+La quantité
+doit être non négative pour tout accroissement h de classe
+tel que . On montre[37] qu'une condition nécessaire pour qu'il en soit ainsi est que la forme bilinéaire symétrique
+(définissant le premier terme de l'intégrale ci-dessus) soit semi-définie positive, ce qu'on écrira sous la forme  : c'est la condition faible de Legendre (ou de Legendre-Clebsch). En effet, dans l'intégrale , le terme
+« prédomine », dans le sens où l'on peut construire des fonctions réelles, définies dans , nulles en
+et , de petite amplitude et dont la dérivée est de grande amplitude (alors qu'une fonction nulle en
+et , dont la dérivée est de petite amplitude sur , est nécessairement de petite amplitude).
+Remarque : cas du calcul des variations à intégrale multiple[modifier | modifier le code]
+(Voir les §§ Problèmes à intégrale multiple et Cas des problèmes à intégrale multiple). La condition faible de Legendre, qui porte alors le nom de condition de Legendre-Hadamard, s'écrit
+où
+, avec .
+Condition de Jacobi[modifier | modifier le code]
+Reste que les deux termes de l'intégrale
+doivent être considérés simultanément. Si h est la fonction nulle, il est clair que . Par conséquent, cette fonction nulle doit minimiser , avec les conditions aux limites , dans un voisinage de 0 dans
+(« problème de minimisation secondaire »). Ceci conduit à étudier l'équation d'Euler-Lagrange (EL) associée à ce problème secondaire. Il s'agit de l'équation de Jacobi
+(J):: .
+Définition — Un point
+est dit conjugué à
+(ou :
+est dit conjugué à ) si l'équation de Jacobi (J) admet une solution
+telle que
+et .
+Dans le cas usuel (et seulement envisagé par Jacobi), où , cette dernière condition équivaut à .
+S'il existe un point conjugué à
+dans l'intervalle , il existe une solution non nulle
+rendant stationnaire . Alors pour tout ,
+rend stationnaire .
+On montre le résultat suivant dans le cas où la condition forte de Legendre
+est vérifiée :
+L'accroissement nul
+donne un minimum local faible strict pour
+parmi les accroissements h de classe
+tels que , si et seulement si la condition forte de Jacobi est satisfaite : il n'existe pas de point conjugué à
+dans l'intervalle .
+Weierstrass a obtenu en 1877 le théorème suivant[38] :
+Théorème de Jacobi-Weierstrass —  (A) Une condition nécessaire pour que
+donne un minimum local faible pour le problème de Lagrange à extrémités fixes est que
+(I) L'équation d'Euler-Lagrange (EL) soit vérifiée, ainsi que les conditions aux limites ,  ;
+(II) La condition faible de Legendre
+soit vérifiée ;
+(III) La condition faible de Jacobi soit satisfaite : « Il n'y a pas de point conjugué à
+dans l'intervalle  ».
+(B) Une condition suffisante pour que
+donne un minimum local faible strict pour le problème de Lagrange à extrémités fixes est que
+(I') : condition identique à (I) ;
+(II') La condition forte de Legendre
+(où
+signifie que la forme bilinéaire symétrique
+est définie positive) soit vérifiée ;
+(III') La condition forte de Jacobi soit satisfaite : « Il n'y a pas de point conjugué à
+dans l'intervalle  ».
+Application : voir #Principe d'action stationnaire de Hamilton.
+Remarque : cas d'un intégrande ne dépendant pas de l'inconnue[modifier | modifier le code]
+Supposons que . La condition forte de Jacobi devient alors triviale si la condition forte de Legendre est vérifiée. Par suite, une condition suffisante pour que
+donne un minimum local faible strict est que la condition d'Euler-Lagrange et la condition forte de Legendre soient toutes deux satisfaites.
+Ce résultat est encore valable dans le cas des problèmes à intégrale multiple (§§ Problèmes à intégrale multiple et Cas des problèmes à intégrale multiple) lorsque [39]. Comme application, voir le § Problème de Dirichlet.
+Remarque : cas convexe[modifier | modifier le code]
+Supposons que la condition forte de Legendre soit satisfaite () et que de plus , ceci pour tout . Alors il est clair que
+pour tout
+de classe
+tel que . Par suite, il n'y a pas de point conjugué à
+dans l'intervalle , et un minimum local faible strict de J est atteint au point . Ceci généralise la remarque précédente.
+Remarque : cas convexe avec intégrale multiple[modifier | modifier le code]
+Dans le cas d'un problème à intégrale multiple, considérons la forme bilinéaire symétrique
+avec les notations déjà introduites dans ce cas (i.e. ). Supposons cette forme définie positive pour tout . Alors la variation seconde de J est
+pour tout accroissement non nul et suffisamment petit h de
+dans , s'annulant sur la frontière de D, et par conséquent un minimum local faible strict est obtenu pour [40].
+Conditions de minimum fort[modifier | modifier le code]
+Fonction de Weierstrass[modifier | modifier le code]
+Karl Weierstrass (1815-1897)
+Considérons de nouveau le problème de Lagrange à extrémités fixes, en supposant
+de classe , mais cherchons cette fois un minimum local fort. Définissons en fonction du lagrangien
+la fonction de Weierstrass ou « excessus »
+.
+La condition nécessaire de Weierstrass peut s'obtenir soit directement, grâce aux « variations en aiguille » introduites par Weierstrass[41], soit, comme on va le voir plus loin, comme une conséquence du principe du maximum de la commande optimale.
+Condition nécessaire de minimum fort —  Pour que
+fournisse un minimum local fort, il faut que les conditions nécessaires (I), (II), (III) de minimum faible du théorème de Jacobi soient satisfaites, ainsi que la condition faible de Weierstrass (IV) : pour tout ,
+.
+La condition suffisante de Weierstrass est une conséquence directe sa formule intégrale, explicitée et démontrée plus bas en utilisant les apports de Hilbert, de Poincaré et de E. Cartan. Cette relation fondamentale conduit au résultat suivant :
+Condition suffisante de minimum fort (Weierstrass, 1879) —  Soit
+une courbe admissible, , et V un voisinage de
+dans . Pour que
+fournisse un minimum local fort, il suffit que les conditions suffisantes (I), (II'), (III') de minimum faible du théorème de Jacobi-Weierstrass soient satisfaite, ainsi que la condition forte de Weierstrass (IV') :
+Si de plus
+pour , ce minimum est strict.
+Remarque sur la condition suffisante de minimum fort[modifier | modifier le code]
+La formule de Taylor d'ordre 2 avec reste de Lagrange s'écrit
+où .
+En prenant , on voit donc que la condition forte de Weierstrass est satisfaite si
+(condition suffisante de minimum fort). De plus,
+si
+(condition suffisante de minimum fort strict).
+Formalisme hamiltonien[modifier | modifier le code]
+On considère à présent le problème à extrémités variables. Il suffit, comme on l'a vu, de considérer le problème de Lagrange, puisque celui de Bolza s'y ramène (cela simplifie les conditions de transversalité ci-dessous). Les fonctions
+et
+sont supposées continûment différentiables et
+est supposé de dimension finie.
+Pseudo-hamiltonien et principe du maximum ; conditions de transversalité[modifier | modifier le code]
+On appelle pseudo-hamiltonien la fonction
+(où
+est le dual de ) définie par
+.
+(où
+est le crochet de dualité).
+Le dual de
+est identifié avec . Soit les deux équations canoniques de Hamilton
+,
+.
+Notons
+l'espace tangent à la variété
+au point
+et
+l'orthogonal de
+dans , c'est-à-dire l'ensemble des formes linéaires continues
+telles que . On définit de même
+et
+On appelle conditions de transversalité les relations
+,
+,
+La première d'entre elles est justifiée plus loin. Le résultat suivant est une conséquence du principe du maximum de la commande optimale[42] :
+Principe du maximum du calcul des variations — Pour que
+(supposée continument dérivable par morceaux) fournisse un minimum local fort, il est nécessaire qu'il existe un vecteur adjoint
+pour lequel les deux équations canoniques et les conditions de transversalité soient satisfaites, que la fonction
+soit continue, et que le principe du maximum
+soit vérifié en tout point
+auquel
+est continûment dérivable[43]. On a en tout point où
+et
+sont continues (donc sauf en un nombre fini de points) l'égalité (E) :
+et en particulier, si le pseudo-hamiltonien
+ne dépend pas explicitement du temps,
+.
+Cas particuliers des conditions de transversalité[modifier | modifier le code]
+Nous supposons maintenant que la variété
+soit de la forme
+où
+et
+sont des sous-variétés de
+et de , respectivement. L'équation de transversalité s'écrit donc
+(a) ,
+(b) .
+Dans le cas d'un instant final libre, on a , par conséquent
+et (a) devient
+(a')
+alors que dans le cas d'un instant final fixé,
+et , donc (a) est trivialement vérifiée. Dans les deux cas on a une équation: (a') dans le premier,
+dans le second.
+Dans le cas d'un état final libre, on a , par conséquent
+et (b) devient
+(b') .
+Dans le cas d'un état final fixé,
+et , donc (b) est trivialement vérifiée. Dans les deux cas on a n équations, si
+est de dimension n : (b') dans le premier,
+dans le second.
+Le même raisonnement s'applique évidemment pour la condition initiale.
+Équation d'Euler-Lagrange, conditions de Legendre et de Weierstrass[modifier | modifier le code]
+Montrons que les conditions nécessaires de minimum local fort données plus haut, à l'exception de la condition de Jacobi, sont des conséquences du principe du maximum du calcul des variations, et ceci bien qu'on se place ici dans le contexte plus général d'extrémités éventuellement variables (la condition de Jacobi classique n'est valide que dans le cas d'extrémités fixes envisagé plus haut ; néanmoins une condition analogue, faisant intervenir la notion de point focal, due à Kneser, a été obtenue dans le cas d'une extrémité finale libre[12],[44]).
+Les équations canoniques s'écrivent encore
+,
+.
+Le principe du maximum implique au premier ordre l'équation d'Euler (ou de stationnarité)
+,
+autrement dit, en utilisant la première équation canonique,
+.
+La seconde équation canonique implique donc maintenant l'équation d'Euler-Lagrange (EL) en chaque point auquel
+est continûment dérivable. D'autre part, on a
+.
+Par conséquent, en utilisant l'expression de
+qui vient d'être obtenue, on voit que le principe du maximum implique la condition faible de Weierstrass. Celle-ci à son tour implique la condition faible de Legendre.
+Conditions d'arrondissement des angles de Weierstrass-Erdmann[modifier | modifier le code]
+Le principe du maximum implique que les fonctions
+,
+sont continues. Ce sont les deux conditions d'arrondissement des angles de Weierstrass–Erdmann (en).
+On dit que le lagrangien est régulier (au sens de Hilbert) si
+.
+Corollaire — Supposons
+et le lagrangien régulier. Alors toute fonction
+(supposée continûment dérivable par morceaux) donnant un minimum fort est continûment derivable.
+Démonstration
+Supposons qu'en un point ,
+admette une limite à gauche
+différente de sa limite à droite . Pour fixer les idées, supposons . Soit . Cette fonction admet une dérivée . La première condition d'arrondissement des angles implique , par conséquent il existe
+telle que , ce qui est impossible. Par conséquent, .
+Différentiabilité des extrémales[modifier | modifier le code]
+Hilbert a montré le résultat suivant en utilisant le théorème des fonctions implicites : si
+de classe
+et le lagrangien est régulier, alors une extrémale
+de classe
+sur un intervalle est de classe
+sur cet intervalle[1]. Par conséquent, dans les conditions du corollaire ci-dessus,
+est de classe .
+Formalisme hamiltonien classique[modifier | modifier le code]
+Supposons de nouveau le lagrangien régulier. La maximisation du pseudo-hamiltonien implique la condition d'Euler
+.
+On peut écrire cette équation sous la forme
+avec
+et .
+Puisque le lagrangien est régulier, le théorème des fonctions implicites implique que u est (localement) une fonction de classe
+de z, qu'on peut écrire .
+William Rowan Hamilton (1805-1865)
+Soit alors l'hamiltonien
+.
+Les deux équations canoniques s'écrivent maintenant
+où l'on a défini le vecteur adjoint par la relation .
+Le passage des variables
+aux « variables canoniques »
+est la transformation de Legendre.
+Puisque , l'égalité (E) du principe du maximum implique, en tout point auquel
+et
+sont continûment dérivables (donc sauf en un nombre fini de points)
+.
+Condition suffisante d'optimalité (Bellman)[modifier | modifier le code]
+Considérons de nouveau le problème de Lagrange, mais à condition initiale fixée : . Le lagrangien est supposé régulier.
+Principe d'optimalité du calcul des variations[modifier | modifier le code]
+D'après le principe général de la programmation dynamique de Bellman, généralisation du principe d'Huyghens-Fresnel, une fonction
+minimise , si, et seulement si pour tout ,
+minimise le critère
+avec
+.
+Désignons par
+la valeur optimale de ce critère et considérons de nouveau le pseudo-hamiltonien . L'équation de Hamilton-Jacobi-Bellman du calcul des variations[45] est l'équation aux dérivées partielles
+(HJB)::
+avec pour condition aux limites
+(CL):: .
+Introduisons comme plus haut la fonction , découlant de la maximisation du pseudo-hamiltonien (dans (HJB)) et du théorème des fonctions implicites et posons, pour alléger les écritures, . On a le résultat suivant :
+Théorème de Bellman —  Pour que , vérifiant les conditions initiale et finale, minimise , il est suffisant qu'il existe une solution continûment différentiable
+à l'équation de Hamilton-Jacobi-Bellman (HJB), avec la condition aux limites (CL), et (ii) . La valeur minimale du critère est alors .
+Démonstration
+Obtention de l'équation de Hamilton-Jacobi-Bellman et de la condition aux limites :
+Soit
+tel que . On a
+avec . Par conséquent, en ajoutant
+aux deux membres, en divisant par
+et en faisant tendre
+vers 0, on obtient
+,
+ce qui équivaut à l'équation de Hamilton-Jacobi-Bellman. La condition aux limites et la valeur optimale du critère découlent de la définition de .
+Démonstration de la condition suffisante d'optimalité :
+Supposons que
+minimise par rapport à
+la quantité
+ci-dessous :
+.
+Soit
+la fonction déterminée par l'équation différentielle
+et la condition initiale . On a alors
+et en conséquence
+compte tenu de la condition aux limites. Puisque
+et
+sont fixés,
+l'est aussi, et
+est minimal pour .
+Formulation de Carathéodory[modifier | modifier le code]
+Constantin Carathéodory (1873-1950)
+La formulation de Carathéodory[46] est équivalente au théorème de Bellman dans le contexte du Calcul des variations. Elle peut s'exprimer sous la forme suivante : supposons qu'il existe une fonction continûment différentiable
+telle que, en posant, comme on l'a déjà fait plus haut,
+(à supposer que le maximum existe et soit strict),
+soit solution de l'équation aux dérivées partielles « de Carathéodory »
+.
+Alors la fonction optimale
+est solution de l'équation différentielle
+.
+Théorie de Jacobi[modifier | modifier le code]
+Équation de Hamilton-Jacobi[modifier | modifier le code]
+En récrivant l'équation de Carathéodory à l'aide de l'hamiltonien , on obtient l'équation d'Hamilton-Jacobi
+.
+Théorème de Jacobi[modifier | modifier le code]
+Soit , de sorte que, par identification,
+et que ses éléments sont représentés par des vecteurs colonne. La fonction S dépend d'un vecteur
+de n paramètres. Supposons donc que l'équation de Hamilton-Jacobi admette une solution , de classe . Posons
+(Dp)::
+et considérons l'équation
+(Dx1)::
+où
+est une ligne de n éléments. En supposant que
+(C) ::,
+d'après le théorème des fonctions implicites, cette équation détermine (localement) x en fonction de t,
+et  :
+(Dx2)::
+de sorte que l'on a
+(E1)::
+Dérivons part rapport à t l'équation (E1). Il vient
+.
+D'autre part, en différenciant l'équation de Hamilton-Jacobi par rapport à , il vient
+(En effet, on a l'égalité
+qu'on peut vérifier en développant les deux membres dans la base canonique de
+et sa base duale. La raison de ceci est donnée au § Justification du théorème de Pontryagin-Boltyanskii de l'article Commande optimale.)
+En soustrayant ces deux équations avec
+on obtient, en posant
+qui donne en multipliant à gauche par l'inverse de
+la première équation canonique
+.
+En différenciant l'équation de Hamilton-Jacobi par rapport à x,
+ce qui donne la seconde équation canonique
+.
+On a donc obtenu le résultat suivant :
+Théorème de Jacobi —  Soit , de classe , une intégrale complète de l'équation de Hamilton-Jacobi pour laquelle la condition (C) est vérifiée. Alors les fonctions
+de (Dx2) déterminées par (Dx1), ainsi que les fonctions
+de (Dp), constituent une solution générale des deux équations canoniques. Ces dernières forment un système caractéristique de l'équation de Hamilton-Jacobi.
+Remarque : pente d'une extrémale[modifier | modifier le code]
+On notera que puisque
+est indépendant de , il en va de même de
+d'après la première équation canonique ; on peut donc supprimer
+de ses arguments et écrire
+.
+où .
+Il s'ensuit que les composantes
+du vecteur ligne (ou covecteur)
+sont des constantes d'intégration de la variable x telle que . Par suite, en notant
+le vecteur colonne de composantes , on peut écrire
+.
+On appelle
+la pente de l'extrémale .
+Démonstration de la condition de transversalité[modifier | modifier le code]
+L'équation de Hamilton-Jacobi s'intègre avec la condition
+pour . Pour tout accroissement admissible infiniment petit
+on a donc nécessairement
+.
+Or, d'après l'équation de Hamilton-Jacobi, , et d'après (Dp), , d'où la condition de transversalité sur la variété .
+Théorie de Weierstrass (formule intégrale)[modifier | modifier le code]
+Revenons au problème de Lagrange à instants initial et final fixés. Le théorème de Jacobi a permis d'obtenir la solution générale des équations canoniques (donc toutes les extrémales , de pente ) à partir de la fonction .
+Champ d'extrémales[modifier | modifier le code]
+Réciproquement, soit
+une extrémale. Soit
+et
+.
+Alors
+est appelé un champ d'extrémales autour de
+si par tout point
+passe une extrémale et une seule ,
+étant fixé, pour laquelle . Cette notion est due à Weierstrass. Si un tel champ existe, on peut résoudre en
+l'équation , et on obtient donc une fonction . En conséquence, la pente
+de l'extrémale
+s'exprime elle aussi comme une fonction
+qu'on supposera de classe .
+On montre que si les conditions (II') et (III') sont satisfaites, l'extrémale , où
+est fixé, peut être entourée d'un champ d'extrémales ayant une fonction de pente
+de classe [47],[1].
+Forme de Poincaré-Cartan[modifier | modifier le code]
+Supposons que l'extrémale
+soit entourée d'un champ d'éxtrémales de pente
+et posons
+.
+La « variable adjointe » est définie par
+.
+En dérivant
+par rapport à x, on obtient
+.
+Mais puisque
+est la pente d'une extrémale, on a l'équation d'Euler-Lagrange
+et par suite
+vérifie la seconde équation canonique
+,
+La forme différentielle, dite forme de Poincaré-Cartan[48],[49]
+est donc une différentielle exacte
+avec
+et
+(équation de Hamilton-Jacobi).
+Intégrale invariante de Hilbert[modifier | modifier le code]
+Soit maintenant
+une courbe admissible quelconque (ne vérifiant donc pas a priori la première équation canonique) et
+une extrémale admissible (qui, sous certaines conditions, sera unique). On a d'après ce qui précède
+.
+David Hilbert (1862-1943)
+Cette quantité est appelée l'intégrale de Hilbert[50] ; elle est invariante, c'est-à-dire indépendante de la courbe admissible considérée . On peut mette l'intégrale de gauche sous la forme
+.
+Si , on a , donc
+.
+Par conséquent, par l'invariance de l'intégrale de Hilbert,
+Formule intégrale de Weierstrass[modifier | modifier le code]
+On a par définition,
+et par conséqnent
+.
+La fonction de Weierstrass permet d'écrire ce résultat sous la forme suivante :
+Formule intégrale de Weierstrass (1879) — Supposons que l'extrémale
+puisse être entourée d'un champ d'extrémales (ce qui est le cas si les conditions (II'), (III') sont satisfaites). Alors la variation totale de l'intégrale
+est donnée par la formule de Weierstrass
+.
+où
+est la pente du champ d'extrémales.
+Théorème de Noether[modifier | modifier le code]
+Emmy Noether (1882-1935)
+Article détaillé : Théorème de Noether (mathématiques).
+Article détaillé : Théorème de Noether (physique).
+Considérons une famille d'applications ,
+où
+et
+sont de classe ,
+et plus précisément pour
+,
+.
+Soit . L'image du graphe de cette fonction par
+est le graphe d'une fonction
+.
+Considérons maintenant le problème de Lagrange et écrivons
+où
+et
+sont continues dans
+(avec les notations déjà considérées).
+Définition — La fonctionnelle intégrale J est dite invariante relativement à la famille de transformations
+si pour toute fonction , de classe
+et telle que ,
+dès que
+est suffisamment petit.
+L'ensemble des familles de transformation laissant invariante J forme un groupe de Lie , le groupe des symétries de J. Chaque
+forme un sous-groupe de Lie à un paramètre de , dont le champ de vecteurs
+est un générateur infinitésimal, donc un élément de l'algèbre de Lie
+de .
+Considérons la forme de Poincaré-Cartan
+et formons la quantité
+.
+Théorème de Noether — Si J est invariante relativement à la famille de transformations , alors
+sur chaque solution des équations canoniques.
+Exemple 1 : conservation de l'énergie totale[modifier | modifier le code]
+Supposons que
+ne dépende pas explicitement de t. Alors J est invariante par la famille de transformations , , d'où , . Par suite,
+et le théorème de Noether se traduit par
+.
+En Mécanique, J est l'action, dont le lagrangien est
+où
+(la « masse généralisée »
+est une matrice symétrique réelle définie positive) est l'énergie cinétique et
+est l'énergie potentielle. La « variable adjointe », à savoir le covecteur
+s'identifie dans l'espace euclidien au transposé du vecteur colonne
+qui est la quantité de mouvement. Alors
+est l'énergie totale. Le théorème de Noether fournit donc le théorème usuel de conservation de l'énergie totale.
+Exemple 2 : conservation de la quantité de mouvement[modifier | modifier le code]
+Supposons que le lagrangien de dépende pas explicitement de la variable . Alors J est invariante par la famille de transformations , ,
+donc , , , et par suite .
+On a vu que dans le cadre de la Mécanique,
+s'interprète comme la quantité de mouvement suivant la direction
+(s'il y a m particules,
+se conserve).
+Exemple 3 : conservation du moment cinétique[modifier | modifier le code]
+Supposons le lagrangien invariant par rotation de x autour, par exemple, de l'axe
+dans l'espace usuel à 3 dimensions. Alors J est invariant relativement à la famille de transformations
+,
+,
+.
+On a
+, , ,
+par conséquent
+.
+Dans le cadre de la Mécanique, cette quantité s'interprète comme le moment cinétique (s'il y a m particules,
+se conserve).
+Calcul des variations sur une variété[modifier | modifier le code]
+Soit X une variété différentielle. Une courbe
+de classe
+tracée sur X (où I est un intervalle de ) a pour dérivée au point
+le vecteur tangent , et
+où
+est le fibré tangent de X. Soit alors
+une fonction de classe
+(on suppose ici, pour simplifier, que ce lagrangien ne dépend pas explicitement du temps ; sinon on devra remplacer X par ). La fonctionnelle considérée dans le problème de Lagrange est de nouveau
+.
+La variable adjointe , ou plus exactement le couple , appartient au fibré cotangent . La transformation de Legendre est
+en supposant qu'il s'agisse d'un difféomorphisme, dont l'application inverse est . L'hamiltonien est
+.
+L'équation d'Euler-Lagrange est inchangée, et
+est solution de cette équation si, et seulement si
+et
+sont solutions des deux équations canoniques de Hamilton.
+Applications[modifier | modifier le code]
+On a rapidement évoqué plus haut quelques applications du théorème de Noether à la Mécanique. Voyons maintenant d'autres applications.
+Principe d'action stationnaire de Hamilton[modifier | modifier le code]
+Soit un système conservatif (c'est-à-dire soumis à des forces qui dérivent toutes d'un potentiel) à n degrés de libertés et
+le vecteur de ses coordonnées généralisées (noté x dans ce qui précède). L'action entre les instants
+et
+est la quantité
+où le lagrangien
+est défini par l'expression ,
+étant l'énergie cinétique et
+l'énergie potentielle.
+Le principe de moindre action, tel qu'énoncé par Pierre Louis Moreau de Maupertuis, postule que le mouvement entre les instants
+et
+s'effectue de manière à rendre cette action minimale.
+Considérons le cas très simple d'un point matériel se déplaçant sur l'axe des x et soumis à une force de rappel , . Cette force dérive du potentiel . Le lagrangien est donc
+avec . L'équation d'Euler-Lagrange donne l'équation de Newton habituelle du mouvement de l'extrémité d'un ressort à laquelle est accrochée une masse m, l'autre extrémité étant fixe (et le ressort lui-même étant supposé de masse négligeable) :
+.
+On a , et la condition forte de Legendre est donc vérifiée. Un calcul élémentaire montre que l'équation de Jacobi est également
+dont les solutions sont de la forme
+où . La condition faible de Jacobi n'est donc pas vérifiée sur un intervalle d'amplitude plus grande que , et par suite l'action sur un tel intervalle intervalle n'est pas minimisée.
+Le mouvement d'un ressort vibrant dont les extrémités sont fixes peut être approché par celui d'une infinité de points matériels tels que ci-dessus, ayant des pulsations
+multiples d'une pulsation fondamentale. Il n'existe alors aucun intervalle de temps, aussi petit soit-il, sur laquelle l'action correspondante puisse être minimale[51].
+Le principe de moindre action de Maupertuis doit donc être corrigé, et l'énoncé correct est principe d'action stationnaire de Hamilton : le mouvement s'effectue non pas, en général, de manière à minimiser l'action, mais la rendre stationnaire, c'est-à-dire à annuler sa première variation, ce qu'on écrit traditionnellement sous la forme .
+Géodésiques d'une variété riemannienne[modifier | modifier le code]
+Cas d'une variété pseudo-riemannienne[modifier | modifier le code]
+La métrique d'une variété pseudo-riemannienne de dimension n munie de sa connexion de Levi-Civita est donnée par la forme différentielle
+définie par
+Tullio Levi-Civita (1873-1941)
+où les
+sont des fonctions continûment différentiables des coordonnées  ; les indices i et j varient entre 1 et n. La forme quadratique ci-dessus est supposée non dégénérée, autrement dit, si G désigne la matrice dont les éléments sont les , cette matrice est symétrique réelle inversible (le cas d'un espace de Riemann correspond à celui où toutes ces valeurs propres restent strictement positives). La longueur d'une courbe paramétrée de classe , , d'extrémités fixes
+et , est donc
+.
+Définition — Une courbe paramétrée
+comme ci-dessus est appelée une géodésique si elle est parcourue à vitesse constante et est une extrémale pour  ; une telle géodésique est dite minimale si elle minimise .
+La recherche des géodésiques est donc un problème de Lagrange à extrémités fixes. Posons
+. L'équation d'Euler-Lagrange s'écrit
+.
+Puisque la géodésique est parcourue à vitesse constante (i.e. ), le paramétrage est affine () en fonction de l'abscisse curviligne s. On a donc
+et l'équation d'Euler-Lagrange s'explicite comme suit :
+.
+Il s'agit également de l'équation d'Euler-Lagrange pour les courbes rendant stationnaire l'« énergie »
+sans hypothèse cette fois sur la nature du paramétrage. On a donc le résultat suivant :
+Théorème — Les géodésiques sont les extrémales de .
+En introduisant les symboles de Christoffel de première espèce , cette expression se met sous la forme
+.
+Soit maintenant
+les éléments de la matrice
+et soit les symboles de Christoffel de deuxième espèce  ; on obtient finalement l'équation géodésique
+Corollaire — Une courbe paramétrée x est une géodésique si, et seulement si elle satisfait l'équation des géodésiques.
+Soit . La dérivée covariante du champ de vecteurs u le long de la courbe x est donnée par
+,
+par conséquent les géodésiques sont les courbes de classe ,
+telles que, avec ,
+.
+Autrement dit, on a le
+Corollaire — Les géodésiques sont les courbes auxquelles le « vecteur vitesse » u reste constamment parallèle.
+C'est également de cette façon qu'on définit une courbe géodésique sur une variété munie d'une connexion affine quelconque[52]. Une géodésique reste telle par reparamétrage si, et seulement si celui-ci est affine.
+Cas d'une variété riemannienne[modifier | modifier le code]
+La condition faible de Legendre n'est satisfaite que dans le cas riemannien (et dans ce cas la condition forte de Legendre est satisfaite). C'est donc dans ce cas seulement qu'on peut avoir des géodésiques minimales.
+On a au sens de la métrique riemannienne
+et l'inégalité de Cauchy-Schwarz implique
+(en considérant le produit scalaire dans
+de la fonction
+avec ) avec égalité si, et seulement si , c'est-à-dire si t dépend de manière affine de l'abscisse curviligne.
+On se ramène sans perte de généralité au cas où
+et .
+Lemme — Soit
+deux points d'une variété riemannienne M, éloignés d'une distance d. Soit
+l'ensemble des arcs x de classe
+tracés sur M tels que
+et
+et supposons qu'il existe une géodésique minimale
+(ce qui est le cas si la variété M est complète d'après le théorème de Hopf-Rinow). Alors l'énergie
+est minimale sur , et vaut alors , si et seulement si
+est une géodésique minimale.
+Démonstration
+Si
+est une géodésique minimale, on a d'après ce qui précède
+et
+est minimal sur
+pour . On a .
+Réciproquement, soit . On a
+,
+par conséquent si
+minimise , on a .
+L'étude des géodésiques minimales peut s'effectuer grâce au théorème de Jacobi-Weierstrass et on obtient ce qui suit[53] :
+Considérons une famille de courbes
+où la fonction
+est de classe , I est un intervalle ouvert contenant l'intervalle
+et J est un intervalle ouvert contenant 0. On suppose de plus que pour tout , , , et
+n'est pas identiquement nul dans . Supposons que
+soit une géodésique
+(ce qui implique que la variable t dépend de l'abscisse curviligne de
+de manière affine). On a alors le résultat suivant :
+Théorème —  (1) L'absence de point conjugué au point
+dans l'intervalle
+pour
+est une condition suffisante pour que la longueur de l'arc
+sur l'intervalle
+soit minimale parmi les arcs « voisins » , c'est-à-dire ceux pour lesquels
+est suffisamment petit.
+(2) Réciproquement, si
+est le premier point conjugué à
+pour la courbe
+dans l'intervalle , alors pour tout
+il existe une courbe , de classe
+dans , d'extrémités
+et , dont la distance à
+(pour la topologie de la convergence uniforme induite par la métrique riemannienne) est , et dont la longueur est strictement inférieure à celle de la restriction de
+à .
+Cas de la sphère[modifier | modifier le code]
+La notion de point conjugué se laisse bien appréhender dans le cas de la sphère, qui est une variété riemannienne particulière. Les géodésiques de la sphère sont les grands cercles. Soit A un point d'une sphère de centre O ; son point conjugué est son antipode B. Soit C un point d'un grand cercle passant par A, orienté dans le sens trigonométrique. La distance entre A et C est minimale (resp. strictement minimale) à la surface de la sphère si, et seulement si l'angle
+est inférieur ou égal (resp. strictement inférieur) à 180°. Ceci illustre la partie (2) du théorème énoncé plus haut.
+Cas du cylindre[modifier | modifier le code]
+Considérons un cylindre à base circulaire, d'axe vertical. Il s'agit de nouveau d'une variété riemannienne qui est paramétrée par
+où
+Soit une courbe
+à la surface de ce cylindre. Un calcul très simple montre que cette courbe est une géodésique si, et seulement si elle est un cercle (situé dans un plan horizontal) ou une droite verticale ou une hélice circulaire. Soit alors A un point du cylindre et H une hélice circulaire passant par A. Un calcul de nouveau très simple montre que A n'a pas de point conjugué sur H. Mais il existe une infinité d'hélices circulaires passant par deux points A et B du cylindre. De plus, si B est un point situé au-dessus de A, le chemin le plus court reliant A et B n'est pas une hélice circulaire, mais la droite verticale passant par A et B. Ceci illustre bien le caractère « local » de la partie (1) du théorème énoncé plus haut.
+Problème de Dirichlet[modifier | modifier le code]
+Soit D un domaine ouvert du plan
+et considérons l'intégrale de Dirichlet[54]
+.
+D'après l'équation d'Ostrogradski (§ Cas des problèmes à intégrale multiple) et la remarque sur le cas d'un intégrande ne dépendant pas de l'inconnue, les fonctions de classe
+minimisant cette fonctionnelle sont les solutions de l'équation de Laplace
+,
+autrement dit ce sont les fonctions harmoniques. Le Principe de Dirichlet (établi de manière rigoureuse par Hilbert et Henri Lebesgue peu avant 1900, puis réexaminé par Hadamard en 1906) énonce qu'il existe une unique fonction de classe
+sur D, minimisant l'intégrale de Dirichlet, continue sur l'adhérence de D et prenant des valeurs fixées sur sa frontière, et cette fonction est harmonique sur D.
+Problème de Didon[modifier | modifier le code]
+Le problème de la reine Didon consiste à déterminer, parmi toutes les courbes de classe
+et de longueur l, celle qui délimite avec un segment AB l'aire maximale. Il peut donc se formaliser de la manière suivante : minimiser
+avec , sous la contrainte
+.
+Introduisons les multiplicateurs de Lagrange
+et . D'après la remarque faite à propos des problèmes isopérimétriques, on a nécessairement . Il vient donc, avec ,
+.
+L'équation d'Euler-Lagrange s'écrit
+d'où en intégrant , ce qui équivaut à , soit encore
+.
+Les courbes extrémales sont donc des arcs de cercle. Pour qu'une telle courbe soit solution du problème, il faut bien entendu que la longueur l soit supérieure ou égale à la longueur de AB.

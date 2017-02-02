@@ -1,0 +1,323 @@
+Statistique descriptive — Wikipédia
+Statistique descriptive
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Statistique (homonymie).
+Cet article ne cite pas suffisamment ses sources (août 2011).
+Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les références utiles à sa vérifiabilité et en les liant à la section « Notes et références » (modifier l'article).
+La statistique descriptive est la branche des statistiques qui regroupe les nombreuses techniques utilisées pour décrire un ensemble relativement important de données.
+Sommaire
+1 Description statistique
+1.1 Les données disponibles
+1.2 La description
+1.3 Point de vue statistique
+2 Exemples
+2.1 Grandeurs physiques
+2.2 Grandeurs comportementales ou biologiques
+2.3 Formalisation des cas pratiques
+3 Étude d'une seule variable
+3.1 Description d'un phénomène mono varié
+3.2 Exemple simple
+3.3 Éléments méthodologiques
+3.4 Description intrinsèque d'une distribution d'observations
+3.4.1 Moyenne
+3.4.2 Médiane
+3.4.3 Mode
+3.4.4 Variance
+3.4.5 Écart-type
+3.4.6 Minimum et maximum
+3.4.7 Intervalle de confiance
+3.4.8 Quantiles
+3.5 Histogramme
+3.5.1 Distribution empirique
+3.5.2 Construction d'un histogramme
+3.6 Description par comparaison d'une distribution d'observations
+4 Étude de plusieurs variables
+4.1 Disjonction des données
+5 Voir aussi
+Description statistique[modifier | modifier le code]
+L'objectif de la statistique descriptive est de décrire, c'est-à-dire de résumer ou représenter, par des statistiques, les données disponibles quand elles sont nombreuses.
+Les données disponibles[modifier | modifier le code]
+Toute description d'un phénomène nécessite d'observer ou de connaître certaines choses sur ce phénomène.
+Les observations disponibles sont toujours constituées d'ensemble d'observations synchrones. Par exemple : une température, une pression et une mesure de densité à un instant donné dans une cuve précise. Ces trois variables synchrones peuvent être observées plusieurs fois (à plusieurs dates) en plusieurs lieux (dans plusieurs cuves).
+Les connaissances disponibles sont quant à elles constituées de formules qui relient certaines variables. Par exemple, la loi des gaz parfaits .
+La description[modifier | modifier le code]
+Il est assez compliqué de définir la meilleure description possible d'un phénomène. Dans le cadre des statistiques, il s'agira de fournir toute l'information disponible sur le phénomène en moins de chiffres et de mots possibles.
+Typiquement, la loi des gaz parfaits est une très bonne description du phénomène constitué du comportement d'un gaz en état d'équilibre dont on n'observe que la pression, la température et le volume. La valeur de la constante
+peut alors être vue comme une statistique associée à cette description.
+La question de la description visuelle se pose aussi, mais nous la mettrons provisoirement de côté. L'article Visualisation des données y répond plus directement.
+Point de vue statistique[modifier | modifier le code]
+Le point de vue statistique sur la description d'un phénomène provient de ce que l'on considère que les observations disponibles sont différentes manifestations du même phénomène abstrait. Pour rester sur l'exemple de la température, la pression et la densité mesurées en plusieurs instants, on va considérer qu'à chaque fois que l'on prend ces trois mesures, on observe le même phénomène. Les mesures ne seront pas exactement les mêmes ; c'est la répartition de ces mesures que nous allons décrire statistiquement.
+Exemples[modifier | modifier le code]
+Grandeurs physiques[modifier | modifier le code]
+Diagramme de phase de l'eau.
+Si on mesure de temps à autre la pression, la température et la densité d'un gaz présent dans une cuve, on obtient une collection de triplets de données, indexés par l'instant de mesure.
+Grandeurs comportementales ou biologiques[modifier | modifier le code]
+Dans le domaine médical, on peut par exemple mesurer le poids avant et après la prise d'un médicament pour plusieurs personnes. On obtient alors une collection de couples de données (poids avant et après) indexés par le nom de la personne.
+En sociologie ou en marketing on peut mesurer le nombre de livres lus par an pour de nombreuses personnes, dont on connait par ailleurs l'âge et le niveau d'étude. Ici aussi on obtient une collection de triplets de données, indexés par le nom du lecteur.
+Formalisation des cas pratiques[modifier | modifier le code]
+Les différentes grandeurs mesurées sont appelées des variables.
+L'étude statistique nécessite que l'on prenne comme hypothèse qu'il existe un phénomène abstrait plus ou moins caché qui met en œuvre ces variables (et peut-être d'autres).
+Chaque valeur l'index (qui peut être une date, ou un numéro identifiant un individu), identifie alors une photographie partielle du phénomène. On appelle les valeurs des variables pour un indice donné des observations ou une réalisation du phénomène.
+D'un point de vue formel, on pose le principe que le phénomène abstrait peut comporter des éléments déterministes comme des éléments aléatoires (on dit aussi stochastiques). L'ensemble des variables observées sont alors juxtaposées sous la forme d'un vecteur de données. Il n'y a plus alors qu'une seule variable (mais qui est multi variée).
+Les observations sont alors bien des réalisations (au sens des statistiques mathématiques) de cette variable aléatoire multi variée.
+Étude d'une seule variable[modifier | modifier le code]
+Description d'un phénomène mono varié[modifier | modifier le code]
+Commençons par la situation la plus simple: celle de l'observation d'une seule variable (par exemple la pression dans une cuve, ou bien le nombre de livres lus par an pour une personne). Comme nous l'avons vu plus haut, nous prenons comme hypothèse qu'il existe un phénomène dont cette variable fait partie, que ce phénomène est peut être en partie aléatoire. Cette partie aléatoire implique que la variable observée est issue d'une variable abstraite soumise en partie à un aléa inconnu.
+Les observations dont nous disposons sont alors des réalisations de cette variable aléatoire abstraite.
+L'objectif des statistiques descriptives dans ce cadre est de résumer au mieux cette collection de valeurs en prenant éventuellement appui sur notre hypothèse (l'existence d'une loi aléatoire abstraite derrière tout cela).
+Exemple simple[modifier | modifier le code]
+Si nos observations sont le succès ou l'échec de 23 sportifs à une épreuve de saut en hauteur. Il s'agira d'une série de "succès" (S), "échec" (E) indexé par le nom du sportif. Voici les données:
+S, S, E, E, E, S, E, S, S, S, E, E, S, E, S, E, S, S, S, S, E, E, S
+Une sauteuse en 1928.
+Sans réfléchir et en utilisant des critères statistiques, nous pouvons décider de décrire ce phénomène comme suit:
+En attribuant un point à chacun des 23 sportifs lorsqu'il réussit son saut, et aucun lorsqu'il le rate, le nombre moyen de point gagné est 0,5652 et l'écart type des points gagné est 0,5069.
+Il s'agit d'une description plutôt obscure, et on notera qu'elle comprend un peu moins de 200 caractères, alors que la liste des succès et échecs en compte moins de 50. Nous préfèrerons sans doute celle-ci:
+23 sportifs ont sauté, 13 d'entre eux ont réussi.
+Cette description est simple, claire et courte (moins de 50 caractères).
+Il est aussi tout à fait possible d'en faire une description qui détruit de l'information, par exemple celle-ci:
+En attribuant un point à chaque sportif lorsqu'il réussit son saut, et aucun lorsqu'il le rate, le nombre moyen de point gagné est 0,5652
+En effet, il manque au moins le nombre de sauteurs, qui est un élément descriptif important.
+Bien entendu, si on cherche à décrire un phénomène particulier, comme celui-ci si j'avais parié sur un des 23 sauteurs, quelles chances avais-je de gagner?, la réponse aurait été différente:
+57 %
+beaucoup plus courte, et ne détruisant aucune information au vu de la question. Il ne s'agissait plus alors de décrire les réalisations du phénomène sans point de vue particulier, mais avec un angle bien précis. On décrit en réalité un autre phénomène (celui des paris).
+Il est donc très important de bien répondre à la question posée, et de ne pas appliquer des formules toutes faites sans réfléchir.
+Intéressons-nous en dernier lieu à une autre question : Si je devais parier lors d'une prochaine épreuve de saut, quelles seraient mes chance de gain?
+Nous pourrions répondre 57 %, comme pour la question précédente, mais après tout, nous n'avons observé que 23 sauteurs; est-ce suffisant pour en tirer une conclusion sur les performances d'autres sauteurs?
+Afin d'apporter tout de même une réponse, précisons la principale hypothèse que nous allons utiliser:
+Hypothèse : la nature des performances des sauteurs sera la même que celle observée.
+Cela veut dire que si cette compétition était nationale, la seconde le sera aussi: on ne va pas utiliser des observations issues d'un phénomène de niveau national avec le même phénomène, mais de niveau olympique par exemple.
+Et même dans ce cadre, si par exemple nous n'avions observé que 2 sauteurs, qui avaient tous deux réussi, cela voudrait-il dire que tous les sauteurs de niveau national réussissent toujours (c'est-à-dire que j'ai une chance de gain de 100 %) ? Bien sûr que non.
+Nous devons alors recourir à la notion d'intervalle de confiance : le but est de rendre compte de la taille de notre échantillon de sportifs, conjugué à certaines hypothèses probabilistes.
+En l'occurrence, les statistiques mathématiques nous disent qu'un estimateur de proportion calculé à partir de
+observations suit une loi normale de variance
+autour de la proportion théorique . Dans notre cas :
+et . Ceci nous apprend que sous notre hypothèse, il y a une probabilité de 95 % que notre chance de gain soit entre
+et . La réponse est donc finalement :
+Il y a 95 % de chances que la probabilité de gagner notre pari lors d'une rencontre similaire soit comprise entre 36 et 77 %
+Éléments méthodologiques[modifier | modifier le code]
+Il existe finalement toute une collection de statistiques que l'on peut utiliser à des fins descriptives. Il s'agit de critères qui quantifient différentes caractéristiques de la distribution des observations:
+sont-elles centrées autour d'une valeur ?
+sont-elles groupées autour de certaines valeurs ?
+parcourent-elles de larges plages de valeurs possibles ?
+suivent-elles des lois statistiques connues?
+etc.
+Sans a priori sur la question qui nous est posée, nous pouvons passer en revue ces différents indicateurs descriptifs.
+Description intrinsèque d'une distribution d'observations[modifier | modifier le code]
+Sans aucun a priori sur la question que l'on se pose, quelques statistiques simples permettent de la décrire :
+la moyenne ;
+la médiane ;
+le mode ;
+le maximum ;
+le minimum ;
+l'écart type (et la variance) ;
+les quartiles.
+Les deux premiers sont souvent nommés critères de position, et les autres entrent plutôt dans la catégorie des critères de dispersion.
+Moyenne[modifier | modifier le code]
+Article détaillé : moyenne.
+La moyenne arithmétique est la somme des valeurs de la variable divisée par le nombre d'individus :
+Médiane[modifier | modifier le code]
+Article détaillé : Médiane (centre).
+La médiane est la valeur centrale qui partage l'échantillon en 2 groupes de même effectif : 50 % au-dessus et 50 % en dessous. La médiane peut avoir une valeur différente de la moyenne. En France, le salaire médian est inférieur au salaire moyen : il y a beaucoup de smicards et peu de gros salaires. Cependant, les gros salaires tirent la moyenne vers le haut.
+En général, une médiane est, dans une série ordonnée, une valeur M telle qu'il y ait autant de valeurs supérieures ou égales à M que de valeur inférieures ou égales à M. exemple : 1 3 5 7 9 la médiane est 5
+5 5 6 6 8 8 la médiane est égale à (6+6)/2=6
+Mode[modifier | modifier le code]
+Article détaillé : Mode (statistique).
+Le mode correspond à la réalisation la plus fréquente.
+Le mode d'une série, ou dominante d'une distribution, est la valeur de la variable (ou de l’unité statistique) qui revient le plus fréquemment dans la série. C'est la valeur centrale de la classe qui a le plus grand effectif.
+Ex : Soit la série {8,4,4,3,4,3,8,2,5} La valeur la plus fréquente de cette série est 4. Le mode est donc égal à 4. L'effectif associé à ce mode est 3.
+Il est l'indice le plus simple à déterminer puisqu'il suffit de lire un graphique ou de regarder le tableau des effectifs.
+Variance[modifier | modifier le code]
+Article détaillé : Variance (statistiques et probabilités).
+La variance empirique corrigée
+pour le carré de l'écart type (ou variance) :
+Attention : la variance (notion de statistique descriptive) égale est la simple moyenne arithmétique des carrés des écarts à la moyenne arithmétique observée, mais la variance sans biais (notion de statistique mathématique, qui signifie qu'en moyenne la valeur empirique est égale à la valeur théorique) est
+fois la variance observée. La variance sans biais est donc supérieure à la variance observée.
+Écart-type[modifier | modifier le code]
+Article détaillé : Écart type.
+: c'est la racine carrée de la variance
+Coefficient de variation :
+Minimum et maximum[modifier | modifier le code]
+Étendue : c'est l'intervalle entre la plus petite et la plus grande valeur. On dit d'un phénomène qu'il présente une « forte dynamique » lorsque l'étendue (ou la dispersion) est grande.
+Intervalle de confiance[modifier | modifier le code]
+La Loi des grands nombres garantit que la moyenne estimée
+est à une distance plus petite que
+de la moyenne théorique
+avec une probabilité , où
+suit une distribution gaussienne. Cela veut aussi dire que ( est le quantile correspondant à
+pour une gaussienne):
+Par conséquent, lorsque la taille de l'échantillon
+augmente linéairement, la précision de l'estimateur de la moyenne augmente en .
+Quand l'ensemble de
+points ne constitue pas un échantillon de la population, mais la population totale, la variance sans biais n'a pas à être utilisée, puisque l'on n'est plus dans un contexte d'estimation mais de mesure.
+Quantiles[modifier | modifier le code]
+Les quantiles est une généralisation de la notion de médiane qui divise la distribution en deux parties égales. On définit notamment les quartiles, déciles et centiles (ou percentiles) sur la population, ordonnée dans l'ordre croissant, que l'on divise en 4, 10 ou 100 parties de même effectif.
+On parlera ainsi du « centile 90 » pour indiquer la valeur séparant les premiers 90 % de la population des 10 % restants. Ainsi, dans une population de jeunes enfants, un enfant dont la taille est au-delà du centile 90, ou en deçà du centile 10, peut être l'objet d'un suivi particulier.
+Histogramme[modifier | modifier le code]
+Article détaillé : Histogramme.
+Même s'il est considéré souvent comme une représentation graphique, et qu'il a donc plus sa place dans une description des méthodes de Visualisation des données, l'histogramme est un hybride d'une représentation exhaustive des données et d'une description par recours à des lois statistiques.
+Distribution empirique[modifier | modifier le code]
+histogramme de l'exemple des sportifs.
+La densité empirique d'une variable à valeurs discrètes est simplement constituée de la proportion des observations prenant chaque valeur.
+Dans l'exemple des sportifs, la densité empirique de notre population est 57 % de succès et 43 % d'échecs. L'histogramme associé est très simple (cf image à gauche).
+On appelle fonction de répartition empirique associée une série d'observations à valeur réelles ayant les valeurs
+la fonction suivante:
+Elle est une estimation de la probabilité que la valeur d'un événement du phénomène observé ait une valeur supérieure ou égale à .
+Si on voulait en déduire la densité empirique associée aux observations, il faudrait dériver . Étant donné que la dérivée d'une indicatrice () est une distribution de Dirac, le résultat ne serait pas très utilisable.
+Plusieurs alternatives sont possibles :
+utiliser un estimateur par noyaux, il s'agit d'implémenter la densité suivante:
+où
+est une fonction noyau (de masse égale à un).
+approximer la densité par une fonction en escalier.
+Un histogramme est la meilleure estimation par une fonction en escalier de la densité empirique. C'est-à-dire que l'intégrale de l'histogramme doit être la plus proche possible de . Remarquons que l'intégrale de l'histogramme est une fonction continue affine par morceaux. D'un certain point de vue :
+trouver la fonction continue affine par morceaux qui approxime le mieux la fonction de répartition empirique revient à caractériser totalement l'histogramme.
+Dans ce cadre, le nombre de morceaux (de classes ou de barres) est un paramètre très important. Il faut recourir à un critère supplémentaire si on veut trouver sa meilleure valeur possible. On prend par exemple un critère d'information d'Akaike ou le critère d'information bayésien; il est aussi possible de recourir à un critère d'information ou d'entropie.
+Par construction, les barres de l'histogramme ne sont donc pas nécessairement toutes de la même largeur.
+(A) Un tirage aléatoire de points
+(B) Un histogramme associé
+Construction d'un histogramme[modifier | modifier le code]
+L'histogramme est une des nombreuses représentations graphiques de données statistiques possibles. Comme les quantiles, l'histogramme découpe la population en classes mais le point de vue est différent.
+Avec les quantiles, le but est de localiser les frontières entre classes de même effectif. Ils sont souvent utilisés, par exemple en matière de revenus, pour comparer les deux classes extrêmes.
+Pour les histogrammes, les largeurs de classes sont choisies afin de rendre le mieux possible compte de la distribution réelle des observations. Il s'agit d'une tâche difficile.
+Pour plus de simplicité, les classes des histogrammes sont parfois pris de même largeur et de hauteur variable : on appelle de tels histogrammes des diagrammes en barres. Ce ne sont pas de véritables histogrammes.
+La fonction de répartition empirique (noir) et la fonction continue affine par morceaux associées à un histogramme
+Il est possible de comparer la distance entre ces deux courbes.
+par exemple en utilisant le Test de Kolmogorov-Smirnov
+où en remarquant que la distance entre ces deux courbes (définie par la surface entre elles) suit une loi du .
+En allant plus loin, ce genre de méthode de comparaison de fonctions de distribution (ici entre celles issues de l'histogramme et la distribution empirique) peut être utilisé pour comparer la répartition empirique de nos observations à celle d'une loi connue (c'est par exemple le principe de la Droite de Henry). Cela permet de répondre à la question ma répartition ressemble-t-elle à une distribution connue ?.
+Description par comparaison d'une distribution d'observations[modifier | modifier le code]
+Il s'agit de comparer la distribution d'observations à une loi statistique connue.
+Si on identifie une loi connue (par exemple une gaussienne) dont la répartition est statistiquement indiscernable de notre distribution empirique, nous avons un très bon moyen de résumer l'information : qu'y a-t-il de plus descriptif qu'une phrase du genre mes observations sont réparties comme une loi normale de moyenne 0 et d'écart type 0.2 ?
+Étude de plusieurs variables[modifier | modifier le code]
+Le principe est le même que pour une seule variable, sauf que toutes les caractéristiques (moyenne, mode, écart type, etc) sont bi variées (des vecteurs).
+Article détaillé : Matrice de corrélation.
+Il y a d'autre part une caractéristique supplémentaire: la corrélation. Elle est une mesure linéaire de la dépendance entre les différentes composantes de la variable multi variée.
+Il existe d'autres mesures de dépendance entre deux variables, comme l'information mutuelle (ou l'entropie conditionnelle).
+Au delà des mesures, on peut aussi explorer les dépendances à l'aides d'outils graphiques ou de tableaux.
+Disjonction des données[modifier | modifier le code]
+Le plus simple des tableaux possible est une disjonction. Lorsque nous avons deux variables
+et , observées par exemple en plusieurs instants
+(notons
+l'observation des deux variables à l'instant ), il est toujours possible de choisir un seuil
+sur la deuxième variable et de transformer notre échantillon
+en . Nous formons alors deux groupes d'instants :
+ceux pour lesquels la seconde variable est plus grande que ;
+ceux pour lesquels la seconde variable est plus petite ou égale à .
+Plus ces deux ensembles seront différents (du point de vue des critères mono-variés : moyenne, écart type, comparaison à une distribution connue, etc), et plus l'événement
+a un impact sur la distribution des valeurs de . Lorsque c'est le cas, nous avons identifié une dépendance entre
+et l'événement .
+Il est possible de poursuivre cela en découpant notre échantillon en plusieurs morceaux, en recourant à plusieurs seuils .
+On se retrouve alors avec une population de
+échantillons à une seule variable (), qui peuvent être étudiés séparément. Si on s'aperçoit que les distributions sur les échantillons sont très différentes, c'est qu'il y a une dépendance entre les deux variables.
+Une population aléatoire (la deuxième variable n'est pas affichée).
+Après seuillage de la deuxième variable: trois groupes sont formés. On voit nettement que les trois distributions sont très différentes; il y a donc bien une dépendance entre les deux variables.
+Voir aussi[modifier | modifier le code]
+Représentation graphique de données statistiques
+Incertitude
+Calcul d'incertitude
+Intervalle de confiance
+Biais (statistique)
+distributions
+Histogramme
+Centile
+Décile
+Quantile
+Quartile
+Loi de probabilité
+Droite de Henry
+Statistique d'ordre
+Observations
+Variable aléatoire
+Variable dépendante
+Variable indépendante
+Échantillon (statistiques)
+Individu
+Caractéristiques
+Médiane (centre)
+catégorie:Moyenne
+Mode (statistique)
+Écart type
+Variance (statistiques)
+Portail des probabilités et de la statistique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Statistique_descriptive&oldid=109280806 ».
+Catégorie : Statistique descriptiveCatégories cachées : Article manquant de référence depuis août 2011Article manquant de référence/Liste complètePortail:Probabilités et statistiques/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Català
+Deutsch
+English
+Español
+Euskara
+فارسی
+Galego
+עברית
+Bahasa Indonesia
+Italiano
+日本語
+Basa Jawa
+한국어
+Lëtzebuergesch
+Latviešu
+Македонски
+Norsk bokmål
+Polski
+Português
+Русский
+Simple English
+Српски / srpski
+Basa Sunda
+ไทย
+Tagalog
+Türkçe
+Українська
+Tiếng Việt
+ייִדיש
+中文
+Modifier les liens
+Dernière modification de cette page le 20 novembre 2014 à 13:14.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,108 @@
+Géologie isotopique — Wikipédia
+Géologie isotopique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La géologie isotopique est une branche de la géologie, apparentée à la géochimie, qui exploite l'étude des isotopes stables et radioactifs présents sur Terre pour en étudier la composition et les variations au cours des temps géologiques.
+À l'origine, la géologie isotopique a consisté à utiliser les connaissances concernant la radioactivité afin de dater des roches et des minéraux. Cette discipline, au carrefour de la géologie et de la physique nucléaire, s'est surtout illustrée par ses méthodes de datation absolue. Elle a ensuite aidé à mieux comprendre la paléoclimatologie, les structures et la dynamique interne du globe. Avec les progrès techniques s'est développée l'étude des isotopes stables, qui a donné accès à l'étude fine des grands processus géologiques, avec à la clé la reconstitution de paléoenvironnements.
+Sommaire
+1 Géochimie des isotopes instables
+2 Géochimie des isotopes stables
+3 Articles connexes
+4 Sources et bibliographie
+Géochimie des isotopes instables[modifier | modifier le code]
+L'outillage de base de la géologie isotopique est le spectromètre de masse et comme son nom l'indique cette technique géologique repose sur la mesure, grâce à cet outil, des différents isotopes des éléments chimiques présents dans les roches et dans les minéraux.
+Chaque élément chimique est défini par son nombre de protons Z appelé Numéro atomique ; c'est ce nombre qui détermine la case que cet élément occupe dans le tableau périodique de Mendeleïev. Dans cette case, il peut exister plusieurs isotopes du même élément qui différent alors par leur nombre de neutrons.
+Certains isotopes sont stables, d'autres ne le sont pas et donnent, après une émission radioactive, naissance à un autre élément qui peut être lui-même sous la forme d'un isotope instable ou radioactif. Lorsque nous reportons sur un repère graphique, repère dont l'axe des abscisses représente le nombre de neutrons (N) et l'axe des ordonnées le nombre des protons (Z) de tous les isotopes connus, nous nous apercevons que tous les isotopes stables sont regroupés autour d'une courbe nommée "vallée de stabilité" située en dessous de la droite Z = N.
+Toutes les radioactivités corpusculaires tendent à faire revenir vers cette vallée les éléments qui les émettent, vallée qui correspond au minimum des énergies d'assemblage nucléaire.
+Autre principe de base, l'équation qui régit l'évolution de tout isotope radioactif dite loi de Curie-Rutherford-Soddy.
+Lorsqu'un isotope radioactif se désintègre, la variation de cet isotope suit une fonction du temps N(t) qui obéit à la loi N'(t) = - λ N(t). Cette équation différentielle a pour solution les fonctions du type N(t) = N0 exp -λ t. λ est appelée "constante de désintégration".
+Elle est liée à une autre constante caractéristique de cette désintégration, T, appelée "période de demi-vie", temps au bout duquel il ne reste plus que la moitié de l'isotope présent au départ. Nous avons donc : N0 / 2 = N0 exp -λ T d'où λ = ln(2) / T.
+La connaissance de cette constante λ permet d'utiliser cette équation pour mesurer un temps. C'est ce qu'on appelle la "chronologie par le père". Deux problèmes se posent : il faut connaître la quantité de l'élément de départ, nommé ici "élément père" et être sûr que la roche utilisée est bien un milieu fermé, c'est-à-dire que la quantité d'élément père ne varie pas au cours du temps (par apport ou au contraire par disparition non radioactive).
+Il est possible d'améliorer le processus de chronologie en utilisant le couple "élément radioactif, élément radiogénique" autrement dit le couple "père, fils".
+Géochimie des isotopes stables[modifier | modifier le code]
+La recherche s’appuie sur la géochimie des isotopes stables des éléments légers les plus importants (carbone, oxygène, azote, chlore, hydrogène, soufre) : en suivant les variations fines de leurs rapports isotopiques on déchiffre les processus physico-chimiques (fusion, cristallisation, dégazage, interaction eau-roche, etc.) responsables de leurs répartitions dans les différents réservoirs (noyau, manteau, croûte, sédiments, atmosphère, etc.) de la Terre, l’évolution de ces répartitions depuis la naissance de la Terre et on apporte des contraintes sur les matériaux à partir desquels notre planète s’est formée.
+Pour mesurer ces fines variations de rapports isotopiques, quelques dixièmes de pour cent en général, on utilise des procédures délicates d’extractions et de purifications de ces éléments, souvent peu concentrés dans les objets géologiques, puis on les analyse au moyen de spectromètre de masse à source gazeuse (molécules CO2, H2, O2, CH3Cl, N2, SO2, SF6). Par exemple pour l’azote, il est possible de mesurer le rapport 15N/14N sur moins d’une nanomole d’Azote. Pour le chlore, une technique d’extraction permet de détecter du chlore contenus dans des matrices silicatés à des concentrations inférieures à 100 ppm en vue de la mesure du rapport 37Cl/35Cl.
+Articles connexes[modifier | modifier le code]
+Disciplines :
+Géologie
+Géochimie
+Radiochronologie
+Concepts :
+Isotope
+Méthodes de datation :
+Datation par le carbone 14
+Datation au potassium-argon
+Datation par le couple Rubidium-Strontium
+Datation au samarium-néodyme
+Datation à l'uranium-thorium
+Datation à l'uranium-plomb
+Datation par isotopes cosmogéniques
+Datation par les couples isotopiques à courte période de désintégration
+Sources et bibliographie[modifier | modifier le code]
+Claude Allègre, Géologie isotopique, Belin, 2005, ISBN 2-7011-3493-5
+Philippe Vidal, Géochimie, Dunod
+http://www.ipgp.fr/pages/021503.php
+Portail de la physique
+Portail de la chimie
+Portail de la géologie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Géologie_isotopique&oldid=96566777 ».
+Catégories : Datation radiométriqueGéochimieDatation géologiqueHistoire du nucléaireCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liésPortail:Géologie/Articles liésPortail:Sciences de la Terre et de l'Univers/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Čeština
+Deutsch
+English
+Español
+Eesti
+Bahasa Indonesia
+Italiano
+Norsk nynorsk
+Norsk bokmål
+Tiếng Việt
+Modifier les liens
+Dernière modification de cette page le 11 septembre 2013 à 07:46.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

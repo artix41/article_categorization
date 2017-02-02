@@ -1,0 +1,92 @@
+Couche limite — Wikipédia
+Couche limite
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Couches limites laminaires et turbulentes d'un écoulement sur une plaque plane (avec profil des vitesses moyennes)
+La couche limite est la zone d'interface entre un corps et le fluide environnant lors d'un mouvement relatif entre les deux, conséquence de sa viscosité. Elle est un élément important en mécanique des fluides, (aérodynamique, hydrodynamique), en météorologie, en océanographie, etc.
+Sommaire
+1 Description
+2 Théorie
+3 Équations de la couche limite
+4 Couche limite turbulente
+5 Paramètres caractéristiques de la couche limite
+6 Domaines d'application
+6.1 Anatomie
+6.2 Aéronautique
+6.2.1 Aérodynamique
+6.2.2 Effets indésirables
+6.3 Météorologie
+7 Notes et références
+8 Bibliographie
+9 Voir aussi
+9.1 Articles connexes
+9.2 Liens externes
+Description[modifier | modifier le code]
+Profil de vitesses dans une couche limite.
+Lorsqu'un fluide réel s'écoule le long d'une paroi supposée fixe, les vitesses sur la paroi sont nulles alors qu'à l'infini (c'est-à-dire loin de l'obstacle) elles sont égales à la vitesse de l'écoulement non perturbé. Sur une normale à la paroi, la vitesse doit donc dans tous les cas varier entre 0 et un maximum. La loi de variation dépend de la viscosité du fluide qui induit un frottement entre les couches voisines : la couche la plus lente tend à freiner la couche la plus rapide qui, en retour, tend à l'accélérer.
+Dans ces conditions, une forte viscosité égalise au maximum les vitesses. Au contraire, si le fluide est peu visqueux, les différentes couches sont beaucoup plus indépendantes : la vitesse à l'infini se maintient jusqu'à une courte distance de l'obstacle et il y a une variation plus forte des vitesses dans la petite épaisseur de la couche limite.
+Dans le premier cas, il faut utiliser les équations générales du fluide visqueux. Dans le second, on peut utiliser dans la couche limite des équations simplifiées complétées par des résultats expérimentaux. Les équations, également plus simples, du fluide parfait appliquées au-delà de la paroi « engraissée » par la couche limite fournissent les conditions aux limites pour le calcul.
+En fait, ce n'est pas la viscosité elle-même qui intervient. Comme toujours en mécanique des fluides, c'est un nombre sans dimension qui caractérise le phénomène : le nombre de Reynolds. Celui-ci décrit le rapport des forces liées à la vitesse aux forces de frottement. Ainsi, au lieu d'augmenter la viscosité, on peut obtenir un phénomène semblable en diminuant la vitesse ou les dimensions de l'obstacle.
+Théorie[modifier | modifier le code]
+Profil de vitesse au travers d’une couche limite au-dessus d’une plaque
+La définition même de la couche limite réside dans le fait qu'elle représente la région de l'écoulement où les effets visqueux sont au moins aussi importants que les effets inertiels (en termes d'ordre de grandeur). Ce n'est en effet pas le cas loin de la paroi, où l'écoulement est alors dit « d'Euler », et où les effets visqueux ne se font pratiquement pas ressentir. Un fluide parfait est par définition non conducteur et a ses coefficients de Lamé nuls (c'est-à-dire pas de viscosité).
+On définit en général l'épaisseur de la couche limite telle que :
+avec :
+, la vitesse uniforme de l'écoulement sans obstacle
+, l'épaisseur de la couche limite en fonction de x.
+Le profil de vitesse au sein de la couche limite dépend de sa nature laminaire ou turbulente. L'endroit où se produit la transition entre l'écoulement laminaire et l'écoulement turbulent dépend du nombre de Reynolds (Re) et de la géométrie de l'écoulement (profil). Dans une couche où Re est suffisamment élevé, la couche est turbulente. Si Re << 1, l’équation est linéaire car les phénomènes de diffusion dominent et l'écoulement est laminaire.
+Équations de la couche limite[modifier | modifier le code]
+La compréhension et la modélisation des équations de la couche limite sont peut-être une des plus importantes avancées de la dynamique des fluides. En utilisant l'analyse d'échelle, les équations de Navier-Stokes peuvent être écrites sous forme simplifiée. En effet, les équations de Navier-Stokes originales sont elliptiques alors que les équations simplifiées sont paraboliques. Cela simplifie grandement la résolution des équations. La simplification repose sur la division en deux de l'espace dans lequel s'écoule le fluide : la couche limite et le reste de l'espace (le reste étant facile à résoudre par de nombreuses méthodes). La couche limite est alors gouvernée par des équations différentielles partielles faciles à résoudre. Les équations de Navier-Stokes et de continuité, pour un écoulement bidimensionnel incompressible en coordonnées cartésiennes, sont :
+où u et v sont les composantes de la vitesse,
+est la masse volumique, p la pression, et
+est la viscosité cinématique du fluide en un point.
+Un écoulement qui a un nombre de Reynolds élevé peut être simplifié. La simplification consiste à diviser l'espace en deux régions. La première est la région où l'écoulement du fluide n'est pas affecté par la viscosité — la majorité de l'espace — , l'autre région — proche des surfaces du domaine — est la région où la viscosité joue un rôle important (couche limite). Alors
+et
+sont respectivement la vitesse sur la ligne de courant et la vitesse normale à la ligne de courant à l'intérieur de la couche limite. En utilisant l'analyse d'échelle, les équations de mouvement pour la couche limite se simplifient et deviennent :
+et si le fluide est incompressible, ce qui est le cas d'un liquide dans les conditions standards :
+Une analyse asymptotique montre que , la vitesse normale, est petite comparée à , la vitesse sur une ligne de courant, et que les propriétés de ses variations dans la direction de la ligne de courant sont généralement moins importantes que dans la direction normale.
+La pression statique
+est indépendante de , alors la pression au bord de la couche limite est la pression de la ligne de courant. La pression externe peut être calculée en appliquant le théorème de Bernoulli. Alors
+est la vitesse du fluide en dehors de la couche limite, où
+et
+sont parallèles. En remplaçant , les équations deviennent :
+avec les conditions limites
+Pour un fluide dans lequel la pression statique
+ne dépend pas de la direction d'écoulement du fluide :
+donc
+reste constant.
+Les équations de mouvement simplifiées sont :
+On utilise ces approximations dans un grand nombre de problèmes scientifiques et d'ingénierie. L'analyse précédente concerne toute couche limite (laminaire ou turbulente), mais les équations sont principalement utilisées pour étudier la couche limite laminaire. En effet, la moyenne de la vitesse correspond à la vitesse instantanée, car les fluctuations de vitesses sont absentes.
+Couche limite turbulente[modifier | modifier le code]
+Le traitement de la couche limite turbulente est rendu difficile par la dépendance du fluide à la variable temps. Une des techniques les plus courantes, quand le fluide est considéré comme turbulent, est d'appliquer la décomposition de Reynolds. Dans ce cas, les propriétés instantanées du fluide sont décomposées entre la moyenne et les fluctuations à la moyenne. En appliquant cette technique, les équations de la couche limite donnent une couche limite pleinement turbulente :
+En utilisant la même technique de calcul pour l'équation instantanée, les équations deviennent dans sa forme classique :
+Le terme additionnel
+dans la couche limite turbulente est connu sous le nom de « contrainte partagée de Reynolds ». La solution aux équations de la couche limite turbulente nécessite l'utilisation de modèles de turbulences, dont le but est d'exprimer la contrainte de Reynolds partagée dans des termes connus de variables du fluide et ses dérivés. Le manque de précision et la non généralisation de ces modèles constituent l'obstacle majeur dans le succès des prédictions des propriétés des écoulements turbulents, dans la science de la dynamique des fluides.
+Paramètres caractéristiques de la couche limite[modifier | modifier le code]
+Paramètres caractéristiques de la couche limites.
+Épaisseur de déplacement
+Les lignes de courant en écoulement visqueux sont déplacées par rapport à leurs position en fluide non-visqueux, ce déplacement est exploité pour définir une épaisseur telle que les aires A et A' soient égales.
+d’où :
+Épaisseur de la quantité de mouvement
+De la même manière, on définit l'épaisseur de la quantité de mouvement  :
+Épaisseur en énergie
+Similairement, on définit l'épaisseur en énergie  :
+Domaines d'application[modifier | modifier le code]
+Anatomie[modifier | modifier le code]
+Article détaillé : Chair de poule.
+Aéronautique[modifier | modifier le code]
+Aérodynamique[modifier | modifier le code]
+Générateurs de tourbillon installées au centre de la dérive d'un Panavia Tornado. Les six petites lames provoquent l'apparition de petites couches limites turbulentes.
+La couche limite joue un rôle majeur dans les performances d'une surface portante : par exemple, le décollement de la couche limite sur une aile d'avion provoque une chute de la portance et une augmentation de la traînée de l'aile, ce qui correspond à une baisse notable des performances aérodynamiques de l'avion. Le décollement de la couche limite survient lorsque l'angle d'incidence de l'aile devient trop important, ce qui correspond pratiquement à une assiette cabrée de l'avion (à l'atterrissage par exemple). Si cet angle est trop important, il se produit le phénomène de décrochage : la couche limite est fortement décollée et la portance peut chuter de façon très importante, plus ou moins brutalement. Ce phénomène est à l'origine de nombreux accidents aériens, la perte de portance pouvant entraîner la perte de contrôle de l'appareil.
+Sur certains avions on trouve de petites lames, placées soit sur les ailes soit à l'arrière du fuselage, qui permettent de produire une couche limite turbulente qui résiste au décollement. Ces lames sont appelées « générateurs de tourbillons » (vortex generator en anglais).
+Effets indésirables[modifier | modifier le code]
+Entrée d'air d'un SAAB 37 Viggen
+La couche limite peut sérieusement perturber le fonctionnement d'un moteur à réaction, d'une part à cause des turbulences dans le flux d'air ingéré par le moteur, et d'autre part en réduisant son efficacité à cause de la faible vitesse de l'air au niveau de la couche. Ce problème ne se pose pas lorsque l'entrée d'air est frontale (dans le nez de l'avion) ou que le réacteur est contenu dans une nacelle fixée sous les ailes (cas de la grande majorité des avions civils)[réf. nécessaire].
+Par contre, lorsque l'entrée d'air est située le long du fuselage (cas des avions militaires surtout), elle est le plus souvent légèrement écartée de celui-ci pour être placée hors de la couche limite. Une plaque métallique est parfois ajoutée juste avant l'entrée d'air pour maintenir la couche limite contre le fuselage : on parle alors de « piège à couche limite ».
+Météorologie[modifier | modifier le code]
+Représentation de la couche limite atmosphérique.
+En météorologie, on appelle couche limite planétaire la zone de l'atmosphère entre la surface (terre ou mer), où le frottement ralentit le déplacement de l'air, et l'atmosphère libre où cette dernière devient négligeable. Elle varie entre 0,5 et 3 km d'épaisseur selon la stabilité de l'air et la rugosité de la surface, la moyenne étant de 1 500 mètres[1]. L'étude théorique de cette tranche d'atmosphère divise en fait la couche limite planétaire comme la superposition de deux couches dont les épaisseurs sont très inégales[2] :
+La couche d'Ekman (d'après le nom du physicien suédois Vagn Walfrid Ekman) dans laquelle le vent est causé par un équilibre entre le gradient de pression, la force de Coriolis, due à la rotation quotidienne de la Terre, et une portion de la friction diminuant graduellement jusqu'à l'atmosphère libre. La vitesse et la direction au sommet de cette couche est approximativement celle du vent géostrophique alors qu'elle diminue graduellement et tourne vers la plus basse pression à mesure qu'on descend vers le sol
+La couche de surface ou couche limite de turbulence atmosphérique immédiatement au contact du sol et dont l'épaisseur ne dépasse pas le dixième de celle de l'ensemble de la couche limite. La vitesse de l'air y est causée par la convection due aux différences de températures et par les effets dynamiques du relief. Le flux y est turbulent.
+On parle également d'une sous-couche rugueuse tout près de la surface, qui varie de quelques centimètres à quelques dizaines de mètres selon les aspérités du relief. La vitesse y tend vers zéro. Une conséquence pratique de cette couche est que la mesure des vents par un anémomètre se fait à 10 mètres du sol pour éviter autant que possible son effet de friction[2]. La mesure représente ainsi la vitesse moyenne du vent dans la couche de surface.
+Les échanges de matière, d'énergie et de mouvement se produisant au sein de la couche limite planétaire sont primordiaux en météorologique. On y retrouve la plupart des éléments à méso-échelle qui mène au déclenchement de la convection profonde et une bonne partie des éléments qui mènent aux systèmes à l'échelle synoptique. La paramétrisation de la couche limite est donc primordiale dans la mise au point des modèles de prévision numérique du temps. Le rotor des éoliennes sont également placés le plus haut possible au-dessus du sol pour profiter du vent maximal, leur puissance étant environ proportionnelle au cube de la vitesse du vent[2].

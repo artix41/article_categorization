@@ -1,0 +1,84 @@
+Paramètre d'ordre — Wikipédia
+Paramètre d'ordre
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un paramètre d'ordre est une quantité qui caractérise l'état d'un système physique au cours d'une transition de phase.
+Dans la théorie de Landau des transitions de phase, la phase désordonnée est invariante par un groupe de transformation , tandis que la phase ordonnée est seulement invariante sous l'action d'un sous-groupe
+du groupe . Le paramètre d'ordre est une quantité invariante sous l'action du sous groupe
+mais pas du groupe
+tout entier. La phase désordonnée étant invariante sous l'action du groupe
+tout entier, le paramètre d'ordre doit nécessairement avoir une valeur nulle dans cette phase.
+Lors d'une transition de phase (par exemple la transition liquide-solide), cette quantité passe d'une valeur nulle dans la phase désordonnée (ex: liquide) à une valeur non nulle dans la phase dite ordonnée (ex: solide). Dans l'exemple de la transition liquide solide, la phase liquide est invariante sous l'action du groupe des isométries de l'espace euclidien, alors que la phase solide n'est invariante que sous l'action d'un des 230 groupes d'espace. Une propriété importante des transitions avec paramètre d'ordre, dans la théorie de Landau, est que comme la symétrie est soit présente soit absente il n'est pas possible de passer continument de la phase désordonnée à la phase ordonnée. En particulier, une ligne de transition solide-liquide ne peut pas se terminer par un point critique.
+Dans le cas d'une transition liquide-gaz, au contraire, la phase de haute température (le gaz) et la phase de basse température (le liquide) possèdent toutes les deux l'invariance par le groupe des isométries. Strictement parlant, il n'existe donc pas de paramètre d'ordre pour la transition liquide-gaz. Du fait de l'absence de brisure de symétrie dans la transition liquide-gaz, il est possible de passer continument de l'un de ces états de la matière à l'autre. C'est pourquoi la ligne de transition liquide gaz se termine par un point critique. Il est possible de passer continument de l'état liquide à l'état gazeux par un chemin thermodynamique qui contourne ce point critique. On considère donc l'état gazeux et l'état liquide du point de vue de la symétrie comme un meme état de la matière, l'état fluide.
+Toutefois, la transition liquide-gaz étant à suffisamment basse pression une transition du premier ordre, la masse volumique du fluide varie de façon discontinue à travers le point de transition. On peut donc, mathématiquement parlant, associer à cette transition de phase un paramètre d'ordre égal à la différence entre la masse volumique du fluide et celle du gaz. Ce paramètre d'ordre est par définition nul dans le gaz, non-nul dans le liquide. Il est alors possible de développer une théorie de la transition liquide gaz qui mathématiquement parlant est analogue à la théorie de la transition entre l'état ferromagnétique et l'état paramagnétique dans un système uniaxe sous champ. C'est l'analogie bien connue entre le modèle du gaz sur réseau et le modèle d'Ising. Pour le système magnétique, l'absence de différence de symétrie entre la phase ferromagnétique et la phase paramagnétique vient de la présence d'un champ magnétique qui crée une aimantation non-nulle dans la phase paramagnétique.
+Dans le cas de la supraconductivité ou de la superfluidité, les paramètres d'ordre correspondent à des brisures de symétries internes (au lieu de symétries d'espace) telles que l'invariance de jauge .
+Plus récemment, dans le cadre de la théorie de l'effet Hall Quantique Fractionnaire ou du gap de Haldane, les physiciens ont été amenés à étendre la définition du paramètre d'ordre pour prendre en compte la brisure de symétries non-locales.
+Exemples de paramètres d’ordre[modifier | modifier le code]
+Transition gaz/liquide : la masse volumique.
+Transition nématique (d’un cristal liquide) / liquide isomorphe : le directeur (ou le tenseur diélectrique) dont dépend l’ordre d’orientation.
+Transition cholestérique/colonnaire (d’un cristal liquide lyotrope) : la concentration dans le solvant dont dépend l'ordre de position (avec un ordre d'orientation invariant).
+Transition nématique/smectique (d’un cristal liquide thermotrope) : la température dont dépend l'ordre de position (avec un ordre d'orientation invariant).
+Transition ordre/désordre (par exemple dans un alliage solide) : la probabilité de présence sur un type de site cristallographique donné.
+Transition ferromagnétique/paramagnétique : l’aimantation.
+Transition conducteur/isolant (dans un semi-conducteur) : la charge électrique.
+Transition ferroélectrique/paraélectrique : le moment dipolaire.
+Références[modifier | modifier le code]
+N. Boccara Symétries Brisées (Herrmann)
+C. Itzykson et J. M. Drouffe Théorie Statistique des Champs t1 (CNRS-Editions)
+L. P. Lévy Magnétisme et Supraconductivité (Editions de Physique)
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Paramètre_d%27ordre&oldid=89882313 ».
+Catégorie : ThermodynamiqueCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Deutsch
+English
+Русский
+Українська
+Modifier les liens
+Dernière modification de cette page le 12 mars 2013 à 23:36.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,183 @@
+Topologie — Wikipédia
+Topologie
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Topologie (homonymie).
+un ruban de Möbius est une surface fermée dont le bord se réduit à un cercle. De tels objets sont des sujets étudiés par la topologie.
+La topologie est une branche des mathématiques concernant l'étude des déformations spatiales par des transformations continues (sans arrachages ni recollement des structures). La topologie s’intéresse plus précisément aux espaces topologiques et aux applications qui les lient, dites « continues ». Elle permet de classer ces espaces, notamment les nœuds, entre autres par leur dimension (qui peut être aussi bien nulle qu’infinie). Elle s’intéresse aussi à leurs déformations.
+En analyse, grâce aux informations qu’elle fournit sur l’espace considéré, elle permet d’obtenir un certain nombre de résultats (existence ou unicité de solutions d’équations différentielles, notamment).
+Les espaces métriques ainsi que les espaces vectoriels normés sont des exemples d’espaces topologiques.
+Sommaire
+1 Étymologie
+2 Histoire
+3 Principes fondateurs
+4 Branches de la topologie
+5 Voir aussi
+5.1 Articles connexes
+5.2 Bibliographie
+Étymologie[modifier | modifier le code]
+Le mot « topologie » vient de la contraction des noms grecs topos et logos qui signifient respectivement « lieu » et « étude ». Littéralement, la topologie signifie l'« étude du lieu ». Elle s’intéresse donc à définir ce qu’est un lieu (appelé aussi « espace ») et quelles peuvent en être les propriétés. Une ancienne dénomination fut analysis situs, c'est-à-dire « l'étude du lieu ».
+Histoire[modifier | modifier le code]
+Leonhard Euler, en 1736, étudia le problème des sept ponts de Königsberg. Ce fut le point de départ de la topologie moderne.
+L’origine de la topologie est l’étude de la géométrie dans les cultures antiques. Le travail de Leonhard Euler datant de 1736 sur le problème des sept ponts de Königsberg est considéré comme l’un des premiers résultats de géométrie qui ne dépend d’aucune mesure, c’est-à-dire l’un des premiers résultats topologiques.
+Henri Poincaré publia Analysis Situs en 1895, introduisant les concepts d'homotopie et d'homologie.
+Maurice Fréchet, unifiant les travaux sur les espaces de fonctions de Cantor, Volterra, Arzelà, Hadamard, Ascoli et d’autres, introduit le concept d'espace métrique en 1906.
+En 1914, Felix Hausdorff, en généralisant la notion d’espace métrique, inventa le terme d'« espace topologique » et définit ce qui s'appelle aujourd'hui l'espace séparé ou espace de Hausdorff.
+Finalement, une autre légère généralisation en 1922, par Kuratowski, donna le concept actuel d'espace topologique.
+Le terme « topologie », fut introduit en allemand en 1847 par Johann Benedict Listing dans Vorstudien zur Topologie.
+Principes fondateurs[modifier | modifier le code]
+Le concept central en topologie est la notion de limite. Prenons l'exemple d'une surface fermée, un disque par exemple. D'un strict point de vue ensembliste, il y a les points qui sont dans le disque et ceux qui ne sont pas dedans. Pourtant, ce point de vue n'est pas satisfaisant géométriquement. Les points qui sont sur le cercle délimitant le disque ont un statut particulier, ils sont à la limite. D'ailleurs, dans la définition d'un disque, on a un choix à faire : considère-t-on l'ensemble des points dont la distance au centre est inférieure ou égale au rayon ou considère-t-on l'ensemble des points dont la distance au centre est strictement inférieure au rayon ? Dans le premier cas, on dit que le disque est fermé, dans le second cas, on dira que le disque est ouvert. Plus généralement, on dira qu'une surface est fermée lorsqu'elle contient tous ses points limites. On dira qu'une surface est ouverte si pour chacun de ses points il existe un disque centré en ce point qui est inclus dans cette surface.
+Cette idée de limite est très visuelle. La topologie cherche à formaliser cette notion. Il y a plusieurs moyens d'y parvenir. La façon la plus simple est de définir une distance. Dans notre exemple, on utilise simplement la distance euclidienne. Les points limites sont ceux qui sont proches (c'est-à-dire à une distance aussi faible que désirée) à la fois de points dans notre surface et de points qui ne sont pas dedans. Définir une distance sur un ensemble lui confère une structure d'espace métrique. Cette façon de voir est suffisante pour résoudre de nombreux problèmes. Cependant, utiliser une distance passe par l'intermédiaire des nombres réels et introduit donc une contrainte qu'il a fallu dépasser. Pour cela, on a été amené à définir le concept de proximité de façon plus abstraite, sans faire appel à un argument numérique, c'est le concept de voisinage. Pour des raisons techniques, il est équivalent et plus simple de définir directement les ouverts avant les voisinages, c'est donc ainsi que l'on définit usuellement une topologie : en décidant quelles sont les parties ouvertes.
+La notion de limite n'est pas seulement statique mais aussi dynamique. La topologie permet d'appréhender les limites de fonctions ou de suites. Regardons la suite des inverses des nombres entiers à partir de 1 : 1/1, 1/2, 1/3, 1/4, … , 1/n, … À la limite, cette suite va tendre vers 0. Cela rejoint plus ou moins le fait que 0 est un point limite de l'ensemble des 1/n.
+Il est important de noter que la plupart des notions de topologie, notamment la continuité sont des conséquences de la notion de limite. C'est le cas notamment de la notion de dérivée qui se conçoit comme limite du taux d’accroissement, de la tangente qui est la limite des cordes.
+La topologie est donc une théorie unificatrice : elle explique avec peu d'axiomes initiaux un grand nombre de phénomènes.
+Branches de la topologie[modifier | modifier le code]
+La topologie générale fournit un vocabulaire et un cadre général pour traiter des notions de limite, de continuité, et de voisinage.
+L'idée de la topologie algébrique consiste à associer à différents espaces des invariants de manière à pouvoir les classifier. Les premiers invariants découverts étaient numériques. Aujourd'hui ces invariants sont des structures algébriques, groupes, anneaux, le plus souvent. Les correspondances entre espaces et objets sont des foncteurs et la théorie des catégories simplifie parfois la compréhension de celles-ci. Citons entre autres, le groupe fondamental et l'homologie singulière.
+La topologie différentielle étudie les propriétés topologiques des variétés différentielles ainsi que leurs plongements et leurs immersions dans des espaces euclidiens.
+La topologie géométrique est l'étude des variétés et des applications entre elles, en particulier les plongements d'une variété dans une autre. Une branche particulière active est la topologie en basses dimensions qui concerne les variétés de dimension inférieure ou égale à quatre, et qui inclut la théorie des nœuds.
+Depuis les années 50 et avec l'influence du séminaire de géométrie algébrique du Bois Marie d'Alexandre Grothendieck, la topologie est aujourd'hui définie plus largement comme l'étude des topos.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Topologie, sur Wikimedia Commons
+Topologie, sur Wikiversity
+Topologie, sur Wikibooks
+Articles connexes[modifier | modifier le code]
+Voir l’article annexe : Glossaire de topologie.
+Bibliographie[modifier | modifier le code]
+Jean-Pierre Petit, Le Topologicon, Éditions Belin, coll. « Les aventures d'Anselme Lanturlu »,‎ 1999, 72 p. (ISBN 978-2701104669, lire en ligne), une vulgarisation de la topologie en bande dessinée.
+(en) Ioan James, History of Topology, Elsevier,‎ 1999, 1056 p. (ISBN 978-0-08053407-7, lire en ligne)
+(en) Jean Dieudonné, A History of Algebraic and Differential Topology 1900-1960, Birkhäuser,‎ 1989, 648 p. (ISBN 3-7643-3388-X, lire en ligne)
+v · d · m
+Domaines des mathématiques
+Algèbre • Algèbre commutative • Algèbre homologique • Algèbre linéaire • Analyse • Analyse réelle • Analyse complexe • Analyse fonctionnelle • Analyse numérique • Calcul quantique • Combinatoire • Géométrie • Géométrie algébrique • Géométrie différentielle • Géométrie non commutative • Optimisation • Physique mathématique • Probabilités • Statistiques • Systèmes dynamiques • Théorie des nombres • Théorie de Galois • Théorie des groupes • Topologie • Topologie algébrique
+Portail des mathématiques
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Topologie&oldid=109014315 ».
+Catégorie : TopologieCatégories cachées : Catégorie Commons avec lien local identique sur WikidataPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesBon article en polonaisBon article en espagnol
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Aragonés
+العربية
+Asturianu
+Azərbaycanca
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+བོད་ཡིག
+Bosanski
+Català
+کوردی
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Euskara
+فارسی
+Suomi
+Furlan
+Gaeilge
+贛語
+Galego
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Հայերեն
+Bahasa Indonesia
+Ido
+Íslenska
+Italiano
+日本語
+ქართული
+Qaraqalpaqsha
+Қазақша
+한국어
+Лезги
+Lietuvių
+Latviešu
+Олык марий
+Македонски
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Novial
+Occitan
+Polski
+Piemontèis
+Português
+Română
+Русский
+Sicilianu
+Srpskohrvatski / српскохрватски
+සිංහල
+Simple English
+Slovenčina
+Slovenščina
+Shqip
+Српски / srpski
+Svenska
+தமிழ்
+Тоҷикӣ
+ไทย
+Türkmençe
+Türkçe
+Українська
+اردو
+Oʻzbekcha
+Tiếng Việt
+Winaray
+Хальмг
+ייִדיש
+中文
+文言
+Modifier les liens
+Dernière modification de cette page le 10 novembre 2014 à 20:00.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

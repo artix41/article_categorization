@@ -1,0 +1,145 @@
+Écoulement laminaire — Wikipédia
+Écoulement laminaire
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article ou cette section doit être recyclé.
+Une réorganisation et une clarification du contenu paraissent nécessaires. Discutez des points à améliorer en page de discussion.
+Pour les articles homonymes, voir écoulement.
+Exemple d'un écoulement laminaire entraîné par un petit nombre de Reynolds : le glacier d'Aletsch.
+Dans un écoulement laminaire deux particules fluides voisines à un instant donné restent voisines aux instants suivants. Ceci permet de décrire le champ de vitesses en utilisant les techniques classiques d'analyse mathématique et, plus souvent, d'analyse numérique. En d'autres circonstances l'écoulement devient turbulent, sans organisation apparente, ce qui nécessite l'utilisation de techniques différentes (voir Modélisation des turbulences).
+Sommaire
+1 Description
+2 Cas des conduites d'eau à section circulaire
+3 Cas des corps profilés dans l'air
+4 Cas des corps non profilés
+5 Transition laminaire-turbulent
+5.1 Effet d'un forçage stationnaire
+5.2 Dissipation de l’énergie cinétique
+5.3 Turbulence et dissipation
+6 Voir aussi
+Description[modifier | modifier le code]
+Ces notions de régime laminaire ou turbulent sont liées à la viscosité du fluide. Dans une conduite ou autour d'un obstacle, au voisinage d'une paroi sur laquelle la vitesse relative du fluide est nulle, apparaissent de fortes variations de vitesse qui impliquent donc la viscosité.
+Plus précisément un écoulement visqueux est caractérisé par un nombre sans dimension, le nombre de Reynolds qui mesure l'importance relative des forces inertielles liées à la vitesse et des forces de frottement liées à la viscosité. Si ces dernières sont prépondérantes le frottement entre deux couches fluides maintient leur cohésion et l'on obtient un écoulement laminaire. Lorsque le nombre de Reynolds augmente au-delà d'une certaine limite l'écoulement est déstabilisé, ce qui peut conduire à la turbulence après une phase de transition plus ou moins importante.
+Cas des conduites d'eau à section circulaire[modifier | modifier le code]
+Un écoulement stable est laminaire pour des nombres de Reynolds inférieurs à la valeur de transition qui est de l'ordre de 2000. Le profil des vitesses a alors une forme parabolique qui se transforme en une forme plus anguleuse lorsque la turbulence apparaît.
+Cas des corps profilés dans l'air[modifier | modifier le code]
+La viscosité de l'air étant beaucoup plus faible que celle de l'eau, son effet est également plus faible et se limite à une zone proche de la paroi, dans laquelle la vitesse varie fortement, appelée couche limite. À une distance suffisante de la paroi ces variations deviennent assez faibles pour que la viscosité puisse être négligée : il est alors possible de considérer le fluide comme parfait autour de l'obstacle augmenté de sa couche limite.
+De plus, au bord d'attaque d'une aile, la vitesse relative est nulle, donc la viscosité est sans effet. À partir de là, la couche limite se développe, ce qui conduit à la décrire en fonction d'un Reynolds local dans lequel la longueur caractéristique n'est pas une dimension de l'obstacle mais la distance du point au bord d'attaque. La couche limite est d'abord laminaire avant de se transformer en couche limite turbulente. La partie de cette dernière proche de la paroi constitue néanmoins un film laminaire.
+Cas des corps non profilés[modifier | modifier le code]
+Dans les cas considérés précédemment, l'écoulement passe directement du laminaire au turbulent. À l'aval d'un corps non profilé la formation d'un sillage turbulent est précédée par une phase de transition tourbillonnaire.
+Transition laminaire-turbulent[modifier | modifier le code]
+Effet d'un forçage stationnaire[modifier | modifier le code]
+(a) Écoulement laminaire, (b) écoulement turbulent.
+L’étude du passage d’un écoulement laminaire à un écoulement turbulent lorsque le nombre de Reynolds augmente, a pu être faite dans certains cas en se basant sur la théorie des systèmes dynamiques (bifurcations). Les instabilités sont directement associées au terme non linéaire inertiel de transport par convection de l’équation de Navier-Stokes. La réponse non stationnaire à une excitation stationnaire témoigne du caractère non linéaire de la dynamique des fluides.
+Si Re < 1, l’équation est linéaire car les phénomènes de diffusion dominent. L'équation de Navier-Stokes se simplifie et devient l’équation de Stokes ;
+Si Re > 2000, l’équation est non linéaire car les phénomènes convectifs dominent. Les non linéarités produiront : des effets non stationnaires pour un forçage stationnaire, des brisures de symétries par rapport aux conditions aux limites initiales, en autres termes, la turbulence. Ce changement brutal qui s’opère correspond au passage du mode de transport de diffusion dominant au mode de transport convectif dominant.
+Dissipation de l’énergie cinétique[modifier | modifier le code]
+Le tenseur des gradients de vitesse s’écrit comme la somme d’un tenseur symétrique et d’un tenseur antisymétrique : le tenseur des taux de déformation est directement lié à la dissipation d’énergie cinétique sous forme de chaleur alors que le tenseur des taux de rotation est relié aux tourbillons. Dans un écoulement quelconque, on a une distribution de déformation (qui dissipe l’énergie) et une contribution de rotation (qui ne la dissipe pas).
+La turbulence permet de dissiper l’énergie cinétique plus efficacement qu’un écoulement laminaire.
+En régime turbulent, l’énergie cinétique fournie à l’écoulement à grande échelle (typiquement la taille de l’écoulement) est transmise vers les petites échelles par le mécanisme de cascade d’énergie : des mouvements tourbillonnants à l’échelle de l’écoulement moyen sont générateurs de tourbillons à des échelles un peu plus petites qui eux-mêmes génèrent des mouvements à des échelles plus petites etc. Ce processus de cascade d’énergie se termine finalement lorsque les mouvements excités de très petite taille sont dissipés en chaleur sous l’effet de la viscosité moléculaire. On peut ainsi dire, d’une certaine manière, que la dissipation a lieu par transfert d’énergie vers les petites échelles dans un écoulement turbulent. Ce n’est pas le cas en régime laminaire où la dissipation opère directement à grande échelle.
+Turbulence et dissipation[modifier | modifier le code]
+Un écoulement moyen forme de petites structures par le mécanisme d’étirement du tourbillon. Ces petites structures correspondent au champ fluctuant de la décomposition de Reynolds. L’énergie est donc passée de l’écoulement moyen vers ces tubes qui ont de forts gradients, tournent vite et sont petits, donc ils dissipent efficacement l’énergie.
+Voir aussi[modifier | modifier le code]
+Profil laminaire
+Turbulence
+Écoulement de Stokes
+Nombre de Reynolds
+Rideau d'air
+v · d · m
+Mécanique des fluides
+Fluides
+Fluide caloporteur • Fluide de Stokes • Fluide hydraulique • Fluide incompressible • Fluide parfait • Fluide électrorhéologique
+Écoulements
+Écoulement complexe • Écoulement de Couette • Écoulement de Poiseuille • Écoulement incompressible • Écoulement laminaire • Écoulements torrentiel et fluvial • Écoulement polyphasique
+Équations
+Équations de Navier-Stokes • Théorème de Bernoulli • Équation de Darcy-Weisbach • Équation de Prony • Équation de Rankine-Hugoniot • Équation de Schlichting • Écoulement de Stokes • Équations d'Euler • Équation de continuité • Équations primitives atmosphériques
+Principaux
+nombres sans dimension
+Nombre d'Archimède • Nombre capillaire • Nombre d'Ekman • Nombre d'Ellis • Nombre de Bond • Nombre de Bulygin • Nombre de Cameron • Nombre de Fedorov • Nombre de Froude • Nombre de Galilée • Nombre de Grashof • Nombre de Goucher • Nombre de Hartmann • Nombre de Hedström • Nombre de Hersey • Nombre de Karlovitz • Nombre de Kutateladze • Nombre de Lewis • Nombre de Mach • Nombre d'Ohnesorge • Nombre de Prandtl • Nombre de Rayleigh • Nombre de Reech • Nombre de Reynolds • Nombre de Rossby • Nombre de Rouse • Nombre de Schmidt • Nombre de Stewart • Nombre de Strouhal • Nombre de Taylor • Nombre de Weber
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Écoulement_laminaire&oldid=109738934 ».
+Catégories : Mécanique des fluidesDynamique des fluidesCatégories cachées : Article à recycler (physique)Portail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Bosanski
+Català
+Čeština
+Deutsch
+English
+Español
+Eesti
+فارسی
+Suomi
+עברית
+Hrvatski
+Magyar
+Հայերեն
+Italiano
+日本語
+ქართული
+Қазақша
+한국어
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Polski
+Português
+Română
+Русский
+Simple English
+Slovenčina
+Slovenščina
+Svenska
+தமிழ்
+Українська
+Oʻzbekcha
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 7 décembre 2014 à 02:08.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

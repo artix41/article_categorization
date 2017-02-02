@@ -1,0 +1,116 @@
+Équation intégrale — Wikipédia
+Équation intégrale
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Une équation intégrale est une équation dont l'une des indéterminées est une intégrale. Elles sont importantes dans plusieurs domaines physiques. Les équations de Maxwell sont probablement leurs plus célèbres représentants. Elles apparaissent dans des problèmes des transferts d'énergie radiative et des problèmes d'oscillations d'une corde, d'une membrane ou d'un axe. Les problèmes d'oscillation peuvent aussi être résolus à l'aide d'équations différentielles.
+Sommaire
+1 Exemples
+2 Caractéristiques
+3 Références
+4 Liens externes
+Exemples[modifier | modifier le code]
+Équation de Fredholm du premier type
+L'une des équations intégrales les plus simples est l'équation intégrale de Fredholm du premier type :
+La notation est celle d'Arfken et Weber. Ici
+est la fonction inconnue, f est une fonction connue et K une autre fonction connue à deux variables, souvent appelée la fonction opérateur intégral du noyau. Les limites d'intégration sont constantes. C'est la caractéristique principale d'une équation de Fredholm.
+Équation de Fredholm du second type
+Si la fonction inconnue apparaît à la fois à l'intérieur et à l'extérieur de l'intégrale, alors il s'agit de l'équation intégrale de Fredholm du second type :
+Le paramètre λ est un facteur inconnu, qui joue le même rôle que la valeur propre en algèbre linéaire.
+Équation de Volterra du premier et du second type
+Si l'une des limites d'intégration est variable, il s'agit d'une équation intégrale de Volterra. Des équations du premier et du second type de Volterra pourraient être :
+Caractéristiques[modifier | modifier le code]
+Si la fonction connue f est identiquement zéro, l'équation intégrale est alors appelée « équation intégrale homogène ». Si elle est différente de zéro, elle est appelée « équation intégrale non-homogène ».
+Ces équations sont classées selon trois dichotomies :
+Limites d'intégration
+les deux fixées : équation de Fredholm
+l'une variable : équation de Volterra
+Place de la fonction inconnue
+seulement à l'intérieur de l'intégrale : premier type
+à l'intérieur et à l'extérieur de l'intégrale : second type
+Nature de la fonction connue f
+identiquement zéro : homogène
+différente de zéro : non-homogène
+Références[modifier | modifier le code]
+George Arfken et Hans Weber, Mathematical Methods for Physicists, Harcourt/Academic Press, 2000.
+Andrei D. Polyanin et Alexander V. Manzhirov, Handbook of Integral Equations, CRC Press, Boca Raton, 1998. (ISBN 0-8493-2876-4).
+E. T. Whittaker et G. N. Watson, A Course of Modern Analysis, Cambridge Mathematical Library (ISBN 0-521-58807-3).
+Liens externes[modifier | modifier le code]
+(en) Integral Equations : Exact Solutions à EqWorld: The World of Mathematical Equations.
+(en) Integral Equations : Index à EqWorld : The World of Mathematical Equations.
+(en) Integral equations à exampleproblems.com
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Équation_intégrale&oldid=109653619 ».
+Catégories : Analyse fonctionnelleÉquationCatégories cachées : Portail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Български
+Català
+Čeština
+Deutsch
+English
+Español
+Suomi
+עברית
+Italiano
+日本語
+Қазақша
+한국어
+Napulitano
+Nederlands
+Norsk nynorsk
+Polski
+Português
+Română
+Русский
+Slovenčina
+Српски / srpski
+Svenska
+தமிழ்
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 3 décembre 2014 à 19:55.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

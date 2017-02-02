@@ -1,0 +1,192 @@
+Physique quantique — Wikipédia
+Physique quantique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Max Planck est considéré comme le père de la physique quantique. La constante de Planck, , y joue un rôle central.
+La physique quantique est l'appellation générale d'un ensemble de théories physiques nées au XXe siècle qui, comme la théorie de la relativité, marquent une rupture avec ce que l'on appelle maintenant la physique classique, l'ensemble des théories et principes physiques admis au XIXe siècle. Les théories dites « quantiques » décrivent le comportement des atomes et des particules — ce que la physique classique, notamment la mécanique newtonienne et la théorie électromagnétique de Maxwell, n'avaient pu faire — et permettent d'élucider certaines propriétés du rayonnement électromagnétique.
+Sommaire
+1 Panorama général
+2 Le quantique et le vivant
+3 Liste des expériences
+3.1 Fentes de Young
+3.2 Effet Aharonov-Bohm (Ehrenberg et Siday)
+3.3 Expérience de Stern et Gerlach
+3.4 Expérience d'Aspect
+3.5 Expérience de la gomme quantique à choix retardé
+4 Interprétations
+5 Genèse de la physique quantique
+5.1 Corps noir et catastrophe ultraviolette
+5.2 Introduction des quanta en physique
+5.3 Quantification du rayonnement et des atomes
+5.4 Effet photoélectrique
+5.5 Limites de la théorie électromagnétique classique
+5.6 L’hypothèse quantique
+6 Références
+6.1 Ouvrages et sites de vulgarisation
+7 Manuels universitaires
+7.1 Développement historique des concepts
+7.2 Comparaisons des différentes approches théoriques de la physique quantique
+7.3 Divers
+8 Notes et références
+Panorama général[modifier | modifier le code]
+La physique quantique a apporté une révolution conceptuelle ayant des répercussions jusqu'en philosophie (remise en cause du déterminisme) et en littérature (science-fiction). Elle a permis nombre d'applications technologiques : énergie nucléaire, imagerie médicale par résonance magnétique nucléaire, diode, transistor, microscope électronique et laser. Un siècle après sa conception, elle est abondamment utilisée dans la recherche en chimie théorique (chimie quantique), en physique (mécanique quantique, théorie quantique des champs, physique de la matière condensée, physique nucléaire, physique des particules, physique statistique quantique, astrophysique, gravité quantique), en mathématiques (formalisation de la théorie des champs) et, récemment, en informatique (ordinateur quantique, cryptographie quantique). Elle est considérée avec la relativité générale d'Einstein comme l'une des deux théories majeures du XXe siècle.
+La physique quantique est connue pour être contre-intuitive, choquer le « sens commun » et nécessiter un formalisme mathématique ardu. Feynman, l'un des plus grands théoriciens spécialistes de la physique quantique de la seconde moitié du XXe siècle, a ainsi écrit :
+« Je crois pouvoir affirmer que personne ne comprend vraiment la physique quantique. »[1]
+La raison principale de ces difficultés est que le monde de l'infiniment petit se comporte très différemment de l'environnement macroscopique auquel nous sommes habitués. Quelques différences fondamentales qui séparent ces deux mondes sont par exemple :
+la quantification : Un certain nombre d'observables, par exemple l'énergie émise par un atome lors d'une transition entre états excités, sont quantifiés, c'est-à-dire qu'ils ne peuvent prendre leur valeur que dans un ensemble discret de résultats. A contrario, la mécanique classique prédit le plus souvent que ces observables peuvent prendre continûment n'importe quelle valeur.
+la dualité onde-particule : La notion d'onde et de particule qui sont séparées en mécanique classique deviennent deux facettes d'un même phénomène, décrit de manière mathématique par sa fonction d'onde. En particulier, l'expérience prouve que la lumière peut se comporter comme des particules (photons, mis en évidence par l'effet photoélectrique) ou comme une onde (rayonnement produisant des interférences) selon le contexte expérimental, les électrons et autres particules pouvant également se comporter de manière ondulatoire.
+le principe d'indétermination de Heisenberg : Une indétermination fondamentale empêche la mesure exacte simultanée de deux grandeurs conjuguées. Il est notamment impossible d'obtenir une grande précision sur la mesure de la vitesse d'une particule sans obtenir une précision médiocre sur sa position, et vice versa. Cette incertitude est structurelle et ne dépend pas du soin que l'expérimentateur prend à ne pas « déranger » le système ; elle constitue une limite à la précision de tout instrument de mesure.
+le principe d'une nature qui joue aux dés : Si l'évolution d'un système est bel et bien déterministe (par exemple, la fonction d'onde régie par l'équation de Schrödinger), la mesure d'une observable d'un système dans un état donné connu peut donner aléatoirement une valeur prise dans un ensemble de résultats possibles.
+l'observation influe sur le système observé : Au cours de la mesure d'une observable, un système quantique voit son état modifié. Ce phénomène, appelé réduction du paquet d'onde, est inhérent à la mesure et ne dépend pas du soin que l'expérimentateur prend à ne pas « déranger » le système.
+la non-localité ou intrication : Des systèmes peuvent être intriqués de sorte qu'une interaction en un endroit du système a une répercussion immédiate en d'autres endroits. Ce phénomène contredit en apparence la relativité restreinte pour laquelle il existe une vitesse limite à la propagation de toute information, la vitesse de la lumière ; toutefois, la non-localité ne permet pas de transférer de l'information.
+la contrafactualité : Des évènements qui auraient pu se produire, mais qui ne se sont pas produits, influent sur les résultats de l'expérience.
+Le quantique et le vivant[modifier | modifier le code]
+Existe-t-il dans le monde du vivant des phénomènes obéissant à ces règles de l'infiniment petit ? Depuis quelques années, des études dans divers domaines de la biologie indiquent que c'est le cas. Ces résultats vont à contre-courant de l'idée généralement admise que le monde macroscopique est trop chaotique pour permettre des effets de cohérence quantique. En fait, le vivant serait capable de tirer parti de cette agitation désordonnée des particules, du moins en ce qui concerne la photosynthèse[2]. Les récepteurs de l'odorat semblent dépendre de l'effet tunnel, pour acheminer des électrons à l'intérieur même des molécules odorantes, ce qui permet de les distinguer d'autres molécules structurellement analogues[2]. Certaines structures protéiques bactériennes se comportent comme des ordinateurs quantiques primitifs, « calculant » le meilleur canal de transport des électrons parmi tous les chemins possibles[3].
+Les réactions physicochimiques présidant à la photosynthèse sont bien comprises mais l'efficacité du processus en biologie était demeurée une énigme, jusqu'à la découverte d'une coordination supramoléculaire de ces opérations par la cohérence quantique, qui est une « influence à distance ».
+Les setæ du gecko adhèrent au verre par un processus inexplicable en physique classique.
+De récents travaux sur la photosynthèse ont révélé que l'intrication des photons joue un rôle essentiel à cette opération fondamentale du règne végétal[4], phénomène que l'on tente actuellement d'imiter pour optimiser la production d'énergie solaire.
+L'adhérence aux surfaces des setæ des geckos fonctionne grâce aux forces de van der Waals, des interactions de nature quantique qui font intervenir des particules virtuelles sans aucune interaction moléculaire classique[5]. Ce phénomène est également à l'étude en vue d'applications militaires et civiles.
+Liste des expériences[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Des physiciens américains sont parvenus à observer la trace des premiers instants du Big Bang, atteignant un des « objectifs les plus importants de la cosmologie aujourd'hui » selon les termes de John Kovac, professeur à Harvard et responsable de l'équipe à l'origine de cette découverte en mars 2014. La survenue du Big Bang marquant la naissance de l'Univers il y a 13,8 milliards d'années, s'est accompagnée de l'émission d'ondes gravitationnelles primordiales. L'observation et l'empreinte que ces ondes ont laissée sur le rayonnement fossile ont été détecté par les scientifiques via le télescope Bicep 2.
+Ces données confirment « la relation profonde entre la mécanique quantique et la théorie de la relativité générale ». Pour Tom LeCompte, physicien au CERN, cette découverte « est la plus grande annonce en physique depuis des années », et « peut etre couronné d'un prix Nobel » pour leurs auteurs[6],[7].
+Fentes de Young[modifier | modifier le code]
+Densité de probabilité d'un seul électron au passage des deux fentes
+L'expérience originelle de Thomas Young avait mis en évidence le comportement ondulatoire de la lumière en montrant que deux faisceaux lumineux pouvaient entrer en interférence. L'expérience des fentes de Young, effectuée avec une seule particule (en faisant en sorte que la source d'émission n'émette qu'un quantum à la fois), montrera qu'un seul électron « interfère avec lui-même » et produit des franges d'interférences au sortir des deux fentes, comme s'il s'agissait de deux flux de particules interférant l'un avec l'autre.
+Effet Aharonov-Bohm (Ehrenberg et Siday)[modifier | modifier le code]
+La figure d'interférence entre deux faisceaux d'électrons peut être modifiée par la présence d'un champ magnétique en dehors des trajectoires classiques des électrons.
+Dans la mécanique classique, la trajectoire d'une particule chargée ne peut pas être affectée par la présence d'un champ magnétique si elle se trouve hors de ce champ. L'effet Aharonov-Bohm est un phénomène quantique décrit en 1949 par Ehrenberg et Siday et redécouvert en 1959 par David Bohm et Yakir Aharonov. Il décrit le paradoxe suivant :
+Un champ magnétique (le cercle bleu B, ci-contre) peut affecter une région de l'espace à distance, le potentiel vecteur n'ayant par contre pas disparu.
+L'effet Aharonov-Bohm démontre donc que ce sont les potentiels électromagnétiques, et non les champs électriques et magnétiques, qui fondent la mécanique quantique. En physique quantique, une entité mathématique utile, le potentiel vecteur magnétique, peut avoir de véritables effets.
+Expérience de Stern et Gerlach[modifier | modifier le code]
+L'Expérience de Stern et Gerlach fut l'une des premières à mettre en évidence la nature purement quantique du monde microscopique et plus particulièrement du spin. Construite en 1921-1922 pour tester l'hypothèse de quantification spatiale, elle ne put obtenir une description théorique satisfaisante que 5 ans plus tard grâce au développement de la mécanique quantique.
+Expérience d'Aspect[modifier | modifier le code]
+L'expérience d'Aspect est, historiquement, la première expérience qui a réfuté de manière satisfaisante les inégalités de Bell dans le cadre de la physique quantique, validant ainsi le phénomène d'intrication quantique, et apportant une réponse expérimentale au paradoxe EPR.
+Concrètement, elle consiste à produire deux photons dans un état intriqué
+puis à les séparer pour réaliser enfin la mesure de leur polarisation. La mesure du premier photon a alors 50 % de chance de donner
+et autant de donner
+tandis que le second photon est immédiatement projeté dans ce même état. Le paradoxe provient du fait que les deux photons semblent s’échanger cette information à une vitesse supérieure à celle de la lumière. Ce point n'est cependant pas pertinent puisqu'aucune information ne peut être transmise par ce moyen.
+L'intrication quantique permet cependant d'échanger une clé de chiffrement de manière sûre, ce qu'exploite la cryptographie quantique.
+Expérience de la gomme quantique à choix retardé[modifier | modifier le code]
+L’expérience de la gomme quantique à choix retardé[8] constitue une extension de celle d'Alain Aspect et des fentes d'Young, mais y introduit ce qui semble être une rétroaction implicite dans le temps : un effet du présent sur le passé.
+Interprétations[modifier | modifier le code]
+Article détaillé : Problème de la mesure quantique.
+Les paradoxes liés à la mesure amènent à se poser la question : la physique quantique décrit-elle la réalité?
+Arbre des solutions du problème de la mesure
+Théorie quantique
+N'est pas censée représenter la réalité
+Ne représente pas totalement la réalité
+Représente totalement la réalité
+Positivisme
+Lois quantiques modifiées
+Influence de la conscience
+Refonte totale
+Décohérence quantique
+Univers multiples
+Stephen Hawking
+Niels Bohr
+Roger Penrose
+Eugene Wigner
+Théorie de De Broglie-Bohm
+Roland Omnès
+Murray Gell-Mann
+James Hartle
+Hugh Everett
+Giancarlo Ghirardi
+Alberto Rimini
+Wilhelm Eduard Weber
+John von Neumann
+Fritz London & Edmond Bauer
+Hans-Dieter Zeh
+Wojciech Zurek
+Bernard d'Espagnat
+Olivier Costa de Beauregard
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Décohérence quantique
+École de Copenhague
+Interprétation transactionnelle
+Théorie d'Everett des mondes multiples
+Théories « à variables cachées »
+Théorie de De Broglie-Bohm et Théorie de l'onde pilote de De Broglie
+Genèse de la physique quantique[modifier | modifier le code]
+Corps noir et catastrophe ultraviolette[modifier | modifier le code]
+D’après les théories classiques de la physique, un corps noir à l'équilibre thermodynamique est censé rayonner un flux infini. Plus précisément, l'énergie rayonnée par bande de longueur d'onde doit tendre vers l'infini quand la longueur d'onde tend vers zéro, dans l'ultraviolet pour les physiciens de l'époque, puisque ni les rayons X ni les rayons gamma n'étaient alors connus. C’est la catastrophe ultraviolette.
+Introduction des quanta en physique[modifier | modifier le code]
+Elle remonte aux travaux effectués en 1900 par Max Planck sur le rayonnement du corps noir à l’équilibre thermique. Une cavité chauffée émet un rayonnement électromagnétique (lumière) aussitôt absorbé par les parois. Pour rendre compte du spectre lumineux par le calcul théorique des échanges d’énergie d’émission et d’absorption (), Planck dut faire l’hypothèse que ces échanges sont discontinus et proportionnels aux fréquences () du rayonnement lumineux : .
+est un nombre entier
+est le quantum d’action qui apparut bientôt comme l’une des constantes fondamentales de la nature (constante de Planck)
+est la fréquence de la lumière
+Quantification du rayonnement et des atomes[modifier | modifier le code]
+En 1905, à la suite d’un raisonnement thermodynamique dans lequel il donnait aux probabilités un sens physique (celui de fréquences d’états pour un système), Einstein fut amené à considérer que ce ne sont pas seulement les échanges d’énergie qui sont discontinus, mais l’énergie du rayonnement lumineux elle-même. Il montra que cette énergie est proportionnelle à la fréquence de l’onde lumineuse : E=hν. Cela donnait immédiatement l’explication de l’effet photoélectrique observé 20 ans auparavant par Hertz.
+Effet photoélectrique[modifier | modifier le code]
+Article détaillé : Effet photoélectrique.
+L’énergie
+apportée par le quantum de lumière à l’électron lié dans un atome permet à celui-ci de se libérer si cette énergie est supérieure ou égale à l’énergie de liaison de l’électron, nommée également travail de sortie , en vertu de la relation :
+où
+est l'énergie cinétique acquise par ce dernier. Cet effet de seuil était inexplicable dans la conception continue de l’énergie lumineuse de la théorie électromagnétique classique.
+Limites de la théorie électromagnétique classique[modifier | modifier le code]
+Einstein s’aperçut alors que cette propriété du rayonnement était en opposition de manière irréductible avec la théorie électromagnétique classique (élaborée par Maxwell). Dès 1906, il annonça que cette théorie devrait être modifiée dans le domaine atomique. La manière dont cette modification devrait être obtenue n’était pas évidente puisque la physique théorique reposait sur l’utilisation d’équations différentielles, dites équations de Maxwell, correspondant à des grandeurs à variation continue.
+L’hypothèse quantique[modifier | modifier le code]
+Malgré la puissance de la théorie des quanta, peu de physiciens étaient enclins à imaginer que la théorie électromagnétique classique puisse être invalidée. Einstein s’efforça alors de mettre en évidence d’autres aspects des phénomènes atomiques et du rayonnement qui rompaient avec la description classique. Il étendit ainsi l’hypothèse quantique, par-delà les propriétés du rayonnement, à l’énergie des atomes, par ses travaux sur les chaleurs spécifiques aux basses températures. Il retrouvait l’annulation des chaleurs spécifiques des corps au zéro absolu, phénomène observé mais inexplicable par la théorie classique. D’autres physiciens (P. Ehrenfest, W. Nernst, H.-A. Lorentz, H. Poincaré) le rejoignirent peu à peu pour conclure au caractère inéluctable de l’hypothèse quantique que Planck lui-même hésitait à admettre. Elle n’était cependant encore acceptée généralement que pour les échanges d’énergie.[réf. souhaitée]
+Références[modifier | modifier le code]
+↑ Richard Feynman, in The Character of Physical Law (1965)
+↑ a et b Ball P.Physics of life: The dawn of quantum biology. Nature. 2011 Jun 15;474(7351):272-4.
+↑ (en) Mark Anderson, « Discovermagazine.com », Discovermagazine.com,‎ 2009-01-13 (consulté le 2010-10-23)
+↑ (en) « Quantum mechanics boosts photosynthesis », physicsworld.com (consulté le 2010-10-23)
+↑ « Evidence for van der Waals adhesion in gecko setae » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-03-26 (en) – article scientifique sur les propriétés des setæ
+↑ http://www.lemonde.fr/sciences/article/2014/03/17/des-physiciens-observent-les-premiers-instants-de-l-univers_4384658_1650684.html
+↑ http://www.lemonde.fr/planete/article/2013/03/21/l-enfance-de-l-univers-devoilee_1851505_3244.html
+↑ A Delayed Choice Quantum Eraser
+Ouvrages et sites de vulgarisation[modifier | modifier le code]
+Alain Connes, Danye Chéreau, Jacques Dixmier, “ Le théâtre quantique ”, Odile Jacob 2013 Paris
+A. Mouchet "L'étrange subtilité quantique", Edition Dunod, Paris, 2010
+P.T. Matthews "Introduction à la mécanique quantique", Edition Dunod, Paris, 1966
+Sciences et avenir n°662
+Sven Ortoli et Jean-Pierre Pharabod, Le Cantique des quantiques, Collection Essais, Editions La Découverte (2004). (ISBN 2-7071-4356-1)
+Bruce Colin, Les Lapins de M. Schrödinger ou comment se multiplient les univers quantiques Édition Le Pommier
+Serge Haroche, Physique quantique, Leçon inaugurale au Collège de France, coédition Collège de France/Fayard (2004).
+Étienne Klein, Petit Voyage dans le monde des quanta, Collection Champs 557, Flammarion (2004). (ISBN 2-08-080063-9)
+Banesh Hoffman et Michel Paty, L'Étrange histoire des quanta, Collection Points-Sciences 26, Le Seuil (1981). (ISBN 2-02-005417-5)
+Stéphane Deligeorges (ed), Le Monde quantique, Collection Point-Science 46, Le Seuil (1984). (ISBN 2-02-008908-4)
+Émile Noël (ed), La Matière aujourd'hui, Collection Points-Sciences 24, Le Seuil (1981). (ISBN 2-02-005739-5)
+Bernard d'Espagnat (ed) "À la Recherche du Réel", Fayard, 1979
+La physique quantique. Cycle de 3 conférences d'Étienne Klein « à la Cité des sciences et de l'industrie, France » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-03-26.
+« Comment la physique quantique est-elle née ? » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-03-26
+« Pourquoi les quanta sont-ils si troublants ? » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-03-26
+« Comment « interpréter » la physique quantique ? » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-03-26
+Manuels universitaires[modifier | modifier le code]
+Eyvind H. Wichmann (Author), Quantum Physics (Berkeley Physics Course, Volume 4). Traduction française Physique quantique - Berkeley, Cours de physique, volume 4, ed. Armand Colin.
+Michel Le Bellac, Physique quantique, CNRS édition.
+Développement historique des concepts[modifier | modifier le code]
+Jagdish Mehra & Helmut Rechenberg, The Historical Development of Quantum Theory, Springer-Verlag (1982-2002), (ISBN 0-387-95262-4). Coffret de 6 volumes, 9 livres, 5889 pages (!) Livres disponibles séparément :
+Vol. 1 : The Quantum Theory of Planck, Einstein, Bohr & Sommerfeld: It's Foundations & the Rise of Its Difficulties (1900-1925), Part 1 : (ISBN 978-0-387-95174-4).
+Vol. 1 : The Quantum Theory of Planck, Einstein, Bohr & Sommerfeld: It's Foundations & the Rise of Its Difficulties (1900-1925), Part 2 : (ISBN 0-387-95175-X).
+Vol. 2 : The Discovery of Quantum Mechanics, 1925, (ISBN 0-387-95176-8).
+Vol. 3 : The Formulation of Matrix Mechanics & It's Modifications. 1925-1926, (ISBN 0-387-95177-6).
+Vol. 4, Part 1 : The Fundamentals Equations of Quantum Mechanics (1925-1926) et Part 2 : The Reception of the New Quantum Mechanics, (ISBN 0-387-95178-4).
+Vol. 5 : Erwin Schrödinger and the Rise of Wave Mechanics, Part 1  : Schrödinger in Vienna and Zurich (1887-1925), ISBN ??
+Vol. 5 : Erwin Schrödinger & the Rise of Wave Mechanics, Part 2 : The Creation of Wave Mechanics: Early Reponses & Applications (1925-1926), (ISBN 0-387-95180-6).
+Vol. 6 : The Completion of Quantum Mechanics (1926-1941), Part 1 : The Probability Interpretation & the Statistical Transformation Theory, the Physical Interpretation and the Empirical & Mathematical Foundations of Quantum Mechanics (1926-1932), (ISBN 0-387-95181-4)
+Vol. 6 : The Completion of Quantum Mechanics (1926-1941), Part 2 : The Conceptuel Completion & the Extensions of Quantum Mechanics (1932-1941) - Epilogue : Aspects of the Further Development of Quantum Theory (1942-1999), (ISBN 0-387-95182-2).
+John von Neumann Fondements mathématiques de la mécanique quantique « The Mathematical Foundations of Quantum Mechanics », éd. Jacques Gabay, 1992, (ISBN 978-2-87647-047-7)
+Comparaisons des différentes approches théoriques de la physique quantique[modifier | modifier le code]
+Daniel F. Styer, Miranda S. Balkin, Kathryn M. Becker, Matthew R. Burns, Christopher E. Dudley, Scott T. Forth, Jeremy S. Gaumer, Mark A. Kramer, David C. Oertel, Leonard H. Park, Marie T. Rinkoski, Clait T. Smith, et Timothy D. Wotherspoon, Nine Formulations of Quantum Mechanics. American Journal of Physics. 70 (3), Mars 2002, 288–297.
+Divers[modifier | modifier le code]
+Émile Meyerson, Réel et déterminisme dans la physique quantique
+R. Gilmore, Alice au pays des quanta, Le Pommier-Fayard (2000).
+Sven Ortoli et J.-M. Pelhate, Aventure quantique, Belin, 1993
+Martin Gardner, L'Univers ambidextre, Seuil, 1995
+Brian Greene, L'Univers élégant (supercordes et théorie M), Robert Laffont, 2000
+P. Davies, La nouvelle physique, Sciences Flammarion, 1993
+Murray Gell-Mann, Le Quark et le jaguar. Voyage au cœur du simple et du complexe, Albin Michel Sciences, 1995
+J.-P. Pharabod et B. Pire, Le rêve des physiciens, Odile Jacob, 1993
+B. d'Espagnat, Le Réel voilé, analyse des concepts quantiques, Fayard, 1994
+R. Forward et J. Davis, Les Mystères de l'antimatière, Ed.du Rocher, 1991
+M. Duquesne, Matière et antimatière, PUF, coll. Que sais-je ?, 767, 2000
+Physique des particules, Forum mégascience de l'OCDE, OCDE, 1995
+B. d'Espagnat/ E.Klein, Regards sur la matière, Fayard, 1993
+Carlos Calle et al., Supercordes et autres ficelles : Voyage au cœur de la physique, Dunod, 2004
+Gordon Kane, Supersymétrie, Le Pommier, 2003
+J. Briggs et D. Peat, Un miroir turbulent, InterEditions, 1990
+T. Lombry, Un siècle de physique : 1 - La Physique quantique, Aegeus, 2005
+Françoise Balibar, Alain Laverne, Jean-Marc Lévy-Lebond, Dominique Mouhanna, Quantique : éléments, CEL,‎ 2007 (lire en ligne)

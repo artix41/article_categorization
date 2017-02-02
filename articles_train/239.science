@@ -1,0 +1,453 @@
+Physique des particules — Wikipédia
+Physique des particules
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Particule.
+Chambre à bulles exposée à l'extérieur d'un bâtiment
+La physique des particules ou la physique subatomique est la branche de la physique qui étudie les constituants élémentaires de la matière et les rayonnements, ainsi que leurs interactions. On l'appelle aussi parfois physique des hautes énergies car de nombreuses particules élémentaires, instables, n'existent pas à l'état naturel et peuvent seulement être détectées lors de collisions à hautes énergies entre particules stables dans les accélérateurs de particules.
+Sommaire
+1 Historique
+1.1 Les grandes dates
+2 Classement des particules subatomiques
+2.1 Leptons, hadrons et quarks
+2.1.1 Leptons
+2.1.2 Hadrons
+2.1.3 Quarks
+2.1.4 Gluons
+2.2 Existence de trois familles
+2.3 Bosons et fermions
+2.4 Particules et antiparticules
+2.5 Interactions et champs
+2.5.1 Interaction électromagnétique
+2.5.2 Interaction faible
+2.5.3 Interaction électrofaible
+2.5.4 Interaction forte
+2.5.5 Interaction gravitationnelle
+2.6 Tableau récapitulatif
+3 Modèle standard
+4 Principales interactions avec la matière
+4.1 Particules chargées
+4.1.1 Particules légères  : électrons, positrons
+4.1.2 Particules lourdes : muons, protons, alpha, pions
+4.2 Particules non chargées
+4.2.1 Photons
+4.2.2 Neutrons
+4.2.3 Neutrinos
+5 Production et détection des particules
+6 Notes et références
+7 Voir aussi
+7.1 Articles connexes
+7.2 Bibliographie récente
+7.3 Liens externes
+Historique[modifier | modifier le code]
+L'idée que la matière se compose de particules élémentaires date au moins du VIe siècle av. J.-C.. À l'époque, elle reposait au fond sur l'incapacité à maîtriser la notion de continu : voir les paradoxes de Zénon d'Élée. (Cette phrase manque de clarté et précision)
+La doctrine philosophique de l'atomisme a été étudiée par les philosophes grecs, tels que Leucippe, Démocrite et Épicure. Bien qu'au XVIIe siècle, Isaac Newton ait pensé que la matière soit composée de particules, c'est John Dalton qui, en 1802, énonça formellement que tout est constitué d'atomes minuscules. Cette hypothèse ne devint réellement scientifique qu'à partir du moment où l'on sut estimer la taille des atomes (1865, Loschmidt ; 1870, Lord Kelvin)
+En 1869, le premier tableau périodique de Mendeleïev permit d'affermir le point de vue prévalant durant tout le XIXe siècle que la matière était faite d'atomes. Les travaux de Thomson établirent que les atomes sont composés d'électrons légers et de protons massifs. Rutherford établit que les protons sont concentrés dans un noyau compact. Initialement, on pensait que le noyau était seulement constitué de protons et d'électrons confinés (afin d'expliquer la différence entre la charge et le nombre de masse), mais ultérieurement il s'avéra qu'il était constitué de protons et de neutrons.
+Au XXe siècle, les progrès de la physique nucléaire et de la physique quantique, avec les preuves spectaculaires de la fission nucléaire et de la fusion nucléaire, donnèrent naissance à une industrie capable de produire un atome à partir d'un autre, rendant même possible (mais non rentable économiquement) la transmutation de plomb en or.
+Tout au long des années 1950 et des années 1960, une variété ahurissante de particules a été trouvée lors d'expériences de collision : un « zoo de particules ». (Citer des exemples). Cette expression perdit de son intérêt après la formulation du modèle standard dans les années 1970, car le grand nombre de ces particules put être conçu comme résultant de combinaisons d'un relativement petit nombre de particules fondamentales, encore que le calcul des propriétés des particules composées en soit encore à ses balbutiements, et que les nombreux paramètres du modèle standard n'aient pas trouvé d'explication satisfaisante pour leurs valeurs.
+Les grandes dates[modifier | modifier le code]
+1873 : Maxwell réalise d'importantes recherches dans quatre domaines : la vision de la couleur, la théorie moléculaire, l'électricité et le magnétisme. Il arrive à unifier les deux derniers par une théorie unique, l'électromagnétisme. Cette théorie de Maxwell permet de décrire la propagation des ondes lumineuses dans le vide et d'en prédire un spectre de fréquences théoriquement illimité.
+1874 : George Stoney développe la théorie de l'électron et estime sa masse.
+1895 : Röntgen découvre les rayons X.
+1896 : Becquerel découvre la radioactivité de l'uranium.
+1897 : Thomson découvre l'électron et crée un modèle où l'atome est décrit comme une entité de charge neutre (contenant un noyau positif avec de petits électrons négatifs).
+1898 : Marie et Pierre Curie séparent les éléments radioactifs.
+1900 : Planck, afin d'interpréter les variations de couleur d'un corps incandescent en fonction de la température, et de résoudre certains problèmes mathématiques liés à ce problème, suggère un artifice : le rayonnement est quantifié (pour chaque fréquence, il est émis par paquets d'énergie, de valeur, ou quantum, dépendant de la fréquence).
+1905 : Einstein propose qu'un quantum de lumière, qui sera nommé en 1926 « photon », se comporte comme une particule. Les autres théories d'Einstein expliquent l'équivalence de la masse et de l'énergie, la dualité onde-particule des photons, le principe d'équivalence et la relativité restreinte.
+1909 : Hans Geiger et Ernest Marsden, sous la responsabilité de Rutherford, envoient des particules alpha sur une mince feuille d'or et observent parfois de grands angles de diffusion, ce qui suggère l'existence d'un noyau positivement chargé, petit et dense (la collision est rare) à l'intérieur de l'atome.
+1911 : Rutherford conclut à l'existence du noyau comme résultat de l'expérience de diffusion alpha réalisée par Geiger et Marsden.
+1913 : Bohr construit la théorie de la structure atomique basée sur des hypothèses quantiques.
+1919 : Rutherford prouve l'existence du proton.
+1921 : Chadwick et E.S. Bieler concluent qu'une force de grande intensité maintient le noyau uni, malgré la répulsion électrostatique coulombienne entre protons.
+1923  : Compton découvre la nature quantique (particulaire) des rayons X, confirmant que les photons sont des particules.
+1924  : de Broglie propose des propriétés ondulatoires pour les particules formant la matière.
+1925  : Pauli formule le principe d'exclusion pour les électrons à l'intérieur d'un atome. W. Bothe et Geiger démontrent que l'énergie et la masse sont conservées dans les processus atomiques.
+1926  : Schrödinger développe la mécanique ondulatoire, qui décrit le comportement des systèmes quantiques pour les bosons. Born donne une interprétation probabiliste de la mécanique quantique. Lewis propose le nom de photon pour le quantum de lumière.
+1927  : Découverte de la désintégration β.
+1928  : Dirac propose son équation d’onde relativiste pour l’électron.
+1930  : Pauli suggère l’existence d'un neutrino invisible, afin d'interpréter l'apparente disparition de l'énergie dans la désintégration β.
+1930  : Particules élémentaires, incluant l'électron, le proton, le neutron (dans le noyau), le neutrino dans la désintégration β, le photon, quantum de champ électromagnétique.
+1931  : Découverte du positron
+(Anderson). Dirac réalise que le positron est aussi décrit par son équation.
+1932  : James Chadwick découvre le neutron .
+1933/34  : Fermi formule sa théorie sur la désintégration β (interaction faible) : ex. .
+1935  : Yukawa formule son hypothèse sur les mésons  : La force nucléaire est due à l’échange de particules massives, les mésons.
+1937  : Découverte du lepton µ. Bien qu'ayant à peu près la masse prévue pour le méson de Yukawa, il n'a pas d'interactions assez fortes avec la matière pour jouer ce rôle.
+1938  : Énoncé de la loi de conservation du nombre baryonique.
+1946/1947  : Découverte du méson chargé , le pion (Powell), prédit en 1935. Le
+est produit par la désintégration β : .
+1946/1950  : Théorie quantique de l’électromagnétisme (QED) (Feynman, Schwinger et Tomonaga).
+1948  : Production artificielle du
+.
+1949  : Découverte du .
+1950  : Découverte du pion neutre, .
+1951  : Découverte d'événements en « V » : désintégration de particules
+et
+ayant une vie moyenne « étrangement » longue. Ceci est interprété en termes d'un nouveau nombre quantique, l'« étrangeté », conservé par les interactions fortes et électromagnétiques.
+1952  : Découverte du Δ (état excité du nucléon).
+1954  : Yang et Mills proposent les théories de jauge non-abéliennes.
+1955  : Découverte de l'antiproton
+(Chamberlain et Segrè).
+1956  : Lee et Yang suggèrent que la force faible peut engendrer une violation de la parité.
+1956  : Découverte de la violation de la parité dans les atomes de 60Co par Chien-Shiung Wu et Amber.
+1960/1970 : Découverte de centaines de particules « élémentaires » :
+1961  : Murray Gell-Mann propose la « voie octuple » SU(3)pour classer toutes ces particules.
+1962  : Découverte des deux neutrinos
+et .
+1964  : Existence des quarks
+et
+(postulée par Gell-Mann et Zweig), constituants qui pourraient être à la base du classement par SU(3).
+1964  : Un nouveau quark, , est suggéré.
+1964  : Découverte de la violation de CP dans les systèmes
+par Cronin, Fitch, Christenson et Turlay.
+1965  : Le nombre quantique de la couleur est proposé  : toutes les particules observées sont de couleur neutre. C'est pourquoi on ne peut observer les quarks colorés.
+1967  : Glashow, Salam et Weinberg proposent un schéma d’unification des forces électromagnétiques et faibles. Prédiction de l’existence du boson de Higgs et des bosons lourds
+et , des dizaines de fois plus massifs que les particules élémentaires connues à ce jour.
+1968-1969  : SLAC détecte une structure ponctuelle du nucléon.
+1973  : Énoncé de la théorie des interactions fortes entre particules colorées (QCD). Prédiction de l’existence des gluons.
+1973  : Liberté asymptotique postulée.
+1974  : Découverte du
+et de particules contenant un quark charmé , à l'Université Stanford et à Brookhaven.
+1976  : Découverte d’un troisième lepton chargé, le .
+1976  : Découverte du méson charmé
+et confirmation de l’existence du quark .
+1978  : Découverte d’un cinquième quark, le bottom , au Fermilab.
+1979  : Mise en évidence d’un gluon à DESY.
+1983  : Découverte du
+et du
+au CERN.
+1990  : L'étude de la désintégration du
+au LEP (CERN) montre que le nombre de neutrinos « légers » ( GeV) est limité à 3.
+1995  : Découverte d’un sixième quark, le top , au Fermilab.
+1998  : Preuve de l'existence de neutrinos de masse non-nulle au Super-Kamiokande.
+2012 : Les expériences ATLAS et CMS sur le LHC du CERN découvrent un boson qui s'apparente au boson de Higgs avec une masse de 126 GeV/c² à une unité près.
+Classement des particules subatomiques[modifier | modifier le code]
+Article détaillé : Particule élémentaire.
+Les particules élémentaires peuvent être classées en différentes sous-catégories en fonction de leur propriétés.
+Leptons, hadrons et quarks[modifier | modifier le code]
+Leptons[modifier | modifier le code]
+Les leptons (du Grec leptos, léger, ainsi nommés parce que leurs masses sont relativement petites) sont caractérisés par les propriétés suivantes :
+Absence d'interaction forte (ils ne portent pas de couleur).
+Charges électriques entières (multiples de la charge de l’électron).
+Charge « faible » les regroupant en paires appelées doublets d’interaction faible.
+Obéissance à la statistique de Fermi-Dirac (ce sont des fermions).
+Les trois paires, familles ou générations de leptons connues sont :
+(l'électron et son neutrino)
+(le mu et son neutrino)
+(le tau et son neutrino)
+Hadrons[modifier | modifier le code]
+Les hadrons (du grec hadros, « gros, épais ») sont caractérisés par les propriétés suivantes  :
+Présence d’interaction forte (appelée « résiduelle » pour la distinguer de l'interaction forte de couleur liant les quarks et les gluons entre eux).
+Charges électriques entières (multiples de la charge de l’électron).
+Interactions faibles.
+Constitution à partir de quarks.
+Les hadrons ne sont donc pas des particules fondamentales, mais plutôt des états liés de quarks. On en observe plus de 200. Ils peuvent être classés en deux groupes : les baryons, (du grec barus, lourd) auxquels on associe un nombre quantique spécial (le nombre baryonique) essentiellement constitués de trois quarks, et les mésons, (du grec mesos, « moyen ») responsables des interactions fortes « résiduelle » entre hadrons, et auxquels on donne le nombre baryonique 0, car ils sont composés d'un quark et d'un antiquark.
+Voici les hadrons les plus fréquemment observés (baryons de spin 1/2, mésons de spin 0 et baryons de spin 3/2) – sur ces figures, l'axe vertical, orienté vers le bas, donne l'étrangeté S , l'axe horizontal I3 la composante d'isospin, et l'axe oblique Q la charge électrique ; les particules sont représentées par les cercles roses, et leur(s) symbole(s) figure à côté ; les cercles divisés en deux représentent les deux particules indiquées en regard, qui diffèrent par diverses propriétés, notamment leur masse, non représentées sur ces diagrammes. Enfin, le contenu principal en quarks est indiqué à l'intérieur de chaque cercle :
+Premier nonet de baryons
+Nonet de baryons (spin 1/2)
+Octet
+Nucléons : S = 0
+neutron et proton
+Étrangeté 1
+3 Sigma
+Étrangeté 2
+2 Xi
+Singulet
+Étrangeté 1
+1 Lambda
+Ce « nonet » de 9 baryons assez semblables se divise en un « octet » de 8 et une seule particule formant un « singulet » . Ceci correspond à des propriétés de symétrie entre les quarks composants, se reflétant notamment sur la différence de masse entre les deux éléments centraux Λ0 et Σ0.
+Premier nonet de mésons
+Nonet de mésons (spin 0)
+Octet
+Étrangeté -1
+2 kaons
+Étrangeté 0
+3 pions
+Étrangeté +1
+2 anti-kaons
+Singulet
+Étrangeté 0
+1 êta
+À nouveau, ce « nonet » de 9 mésons assez semblables se divise en un « octet » de 8 et un « singulet ».
+Premier décuplet de baryons
+Décuplet de baryons (spin 3/2)
+Étrangeté 0
+4 Delta
+Étrangeté 1
+3 Sigma excités
+Étrangeté 2
+2 Xi excités
+Étrangeté 3
+1 Omega
+Ici, la symétrie entre les membres du décuplet est plus frappante : l'axe de la charge électrique Q correspond bien, à une constante près, au nombre de quarks u, celui de l'étrangeté S au nombre de quarks s, et le troisième axe, non tracé, bissecteur entre les deux précédents, au nombre de quarks d.
+Quarks[modifier | modifier le code]
+Les quarks sont les particules fondamentales qui forment les particules observées.
+Ils interagissent fortement (soumis à l’interaction forte)
+Ils portent des charges électriques fractionnaires.
+Ils possèdent une charge faible et forment des doublets d’interaction faible.
+On leur associe aussi une charge de couleur (3 couleurs possibles, ce sont des triplets) par laquelle ils subissent l’interaction forte.
+Ils obéissent à la statistique de Fermi-Dirac (ce sont des fermions).
+On compte six types ou saveurs de quarks : up, down, strange, charm, top et bottom (ou truth et beauty pour des raisons historiques). Comme les leptons, ils peuvent être regroupés en doublets qui sont des copies conformes, sauf pour ce qui est de leurs masses.
+Classement des quarks
+Quarks
+Antiquarks
+Q = 2/3
+Q = −1/3
+Q = -2/3
+Q = 1/3
+(up)
+(down)
+(anti-up)
+(anti-down)
+(charm)
+(strange)
+(anti-charm)
+(anti-strange)
+(top)
+(bottom)
+(anti-top)
+(anti-bottom)
+De façon générale, on soupçonne que les familles de quarks et leptons sont reliées; il en existe trois de chaque. En 2007, il semble que seuls des arguments de symétrie viennent appuyer cette assertion.
+Gluons[modifier | modifier le code]
+Les gluons sont les particules fondamentales qui assurent la cohésion des hadrons en liant les quarks entre eux.
+Ils interagissent fortement (porteurs de l’interaction forte)
+Ils sont électriquement neutres.
+Ils ne possèdent pas d’interaction faible.
+On leur associe aussi une charge de couleur (8 couleurs possibles, c'est un octet) et ils subissent donc l'interaction forte.
+Ils obéissent à la statistique de Bose-Einstein (ce sont des bosons).
+On ne compte que huit gluons, qui interagissent avec tous les types ou saveurs de quarks, mais également entre eux, puisqu'ils sont eux-mêmes colorés. Ceci rend les calculs mathématiquement très compliqués, d'où le fait que les progrès sur l'architecture des particules soient très lents, bien que la théorie soit formellement connue.
+En raison de l'intensité de l'interaction forte, les quarks et gluons, étant colorés, subissent le confinement de couleur, qui fait que l'on ne peut pas les observer isolément. Seules des combinaisons où toutes les couleurs se compensent (combinaisons blanches) peuvent constituer des hadrons libres.
+Existence de trois familles[modifier | modifier le code]
+L'ensemble des particules élémentaires semble pouvoir se décomposer en trois familles (ce nombre de trois est un paramètre fondamental du modèle standard, à ne pas confondre avec le nombre de couleurs portées par les quarks, autre paramètre fondamental) :
+Bosons et fermions[modifier | modifier le code]
+Articles détaillés : Boson et Fermion.
+La mécanique quantique introduit la notion de moment cinétique intrinsèque d'une particule, le spin. Il peut prendre des valeurs qui sont des multiples de . Il détermine également le type de statistique auquel est soumise la particule.
+Bosons  : Ce sont des particules de spin entier (), qui obéissent à la statistique de Bose-Einstein, c'est-à-dire qu'un système de deux bosons identiques, désignés par les indices 1 et 2 est décrit par une fonction d'onde qui est symétrique sous l'échange des particules : .
+Fermions  : Ce sont des particules de spin demi-entier () qui obéissent à la statistique de Fermi-Dirac, c'est-à-dire qu'un système de deux fermions identiques, désignés par les indices 1 et 2 est décrit par une fonction d'onde qui est antisymétrique sous l'échange des particules  : . En particulier, deux fermions ne peuvent pas se trouver dans le même état, sinon cette relation montre que leur fonction d'onde serait nulle, ce qui est absurde (principe d'exclusion de Pauli).
+Particules et antiparticules[modifier | modifier le code]
+Article détaillé : Antiparticule.
+La notion d'antiparticule fut proposée par Paul Dirac en 1928. Certaines solutions de l'équation qui porte son nom apparaissent comme portant une énergie négative. Dirac interpréta ces solutions ainsi : en fait l'espace vide est l'ensemble de toutes ces solutions. Si l'on apporte suffisamment d'énergie à une partie du vide représentée par une de ces solutions, elle devient une solution d'énergie positive, et laisse sa place vacante. Le trou laissé vacant par cette solution d'énergie positive apparaît comme une particule d'énergie négative, et dont toutes les propriétés (charge électrique, par exemple) sont opposées à celles des solutions normales. C'est ce qu'on appelle une antiparticule.
+Une antiparticule se caractérise donc par :
+une charge et des nombres quantiques opposés à ceux de la particule associée ;
+une masse et une durée de vie identiques à celles de la particule correspondante.
+Par convention, l'antiparticule est désignée par une barre supérieure, ce qui n'est utile que si on ne peut pas la distinguer par sa charge. Par exemple, on pourrait écrire :
+Interactions et champs[modifier | modifier le code]
+La mécanique classique et la théorie quantique des champs ont des approches différentes lorsqu'il s'agit d'écrire les interactions.
+En mécanique classique, lorsqu'il y a un champ produit par une particule 1 à la position de la particule 2, cette dernière interagit avec la valeur de ce champ.
+En théorie quantique des champs, l'interaction est interprétée comme un échange de quanta. Il obéit aux lois de conservation des nombres quantiques et de la quadri-impulsion. Celle-ci obéit à l'équation d'onde dans les limites du principe d'incertitude de Heisenberg :
+et
+Les états transitoires sont appelés « virtuels », par exemple, un photon virtuel peut avoir une quadri-impulsion telle que  : si
+est limité, alors l'énergie n'est conservée qu'à des écarts
+près.
+Interaction électromagnétique[modifier | modifier le code]
+Article détaillé : Interaction électromagnétique.
+L'interaction électromagnétique se caractérise par les propriétés suivantes  :
+mise en jeu de particules électriquement chargées ;
+couplage  ;
+temps d’interaction et/ou vies moyennes typiques de ≈ 10−20 s ;
+sections efficaces typiques de ≈ 10−33 m² ;
+échange de photons () ;
+, donc portée (conséquence du principe d'incertitude).
+Interaction faible[modifier | modifier le code]
+Article détaillé : Interaction faible.
+Les manifestations typiques de l'interaction faible sont :
+La désintégration β du neutron, ex.  ;
+La capture d’antineutrinos, ex.  ;
+Les désintégrations hadroniques peuvent passer par les interactions faible, électromagnétique, ou forte, mais leur caractéristiques diffèrent suivant le mode de désintégration :
+Modes de désintégration des hadrons
+Interactions
+faibles
+()
+électromagnétiques
+()
+fortes
+()
+Réaction
+1
+0
+0
+1/2
+1
+0
+10−10 s
+10−19 s
+5 . 10−24 s
+où
+est le changement du nombre quantique d’étrangeté,
+celui de spin isotopique, et
+est la vie moyenne ou durée des interactions. L'interaction forte doit conserver S et I, l'électromagnétique S, mais pas I, et la faible, aucune des deux. D'où la possibilité pour l'une ou pour l'autre de dominer le processus.
+Les interactions faibles sont alors caractérisées par les propriétés suivantes :
+mise en jeu de neutrinos, ou de quarks qui changent de saveur, c’est-à-dire des particules ayant une « charge faible » ;
+couplage faible (à l'échelle des protons) :  ;
+temps d’interaction et/ou vie moyenne typique de ≈ 10−8 s ;
+section efficace de ≈ 10−44 m² ;
+échange de bosons W± (courants chargés) et Z0 (courant neutre);
+mW = 80 GeV, donc portée R = 10−18 m (toujours le principe d'incertitude).
+Les interactions électromagnétique et faible (électrofaibles) sont unifiées dans le modèle de Glashow-Weinberg-Salam (1967). Mais à basse énergie, la symétrie est brisée et les deux forces apparaissent bien distinctes. Les interactions faibles mettent en jeu un couplage faible gW et l’échange des bosons de jauge W± et Z0. Les réactions faibles sont caractérisées par une amplitude de probabilité de la forme :
+Amplitude ≈ g²W/(q² − M²W,Z)
+où q² est le carré de la quadri-impulsion transférée par l’échange du quantum.
+Dans la limite q² → 0, la théorie de Glashow-Weinberg-Salam se ramène à la théorie des interactions faibles de Fermi (1935), où les interactions impliquant quatre particules sont ponctuelles et de force GF, la constante de Fermi :
+.
+Le modèle de Glashow-Weinberg-Salam a l’avantage sur la théorie de Fermi d’être renormalisable, c'est-à-dire d'avoir un comportement calculable à haute énergie (aux masses des W et Z et au-dessus).
+C’est aussi un exemple d’unification de forces (faible et e. m.).
+Interaction électrofaible[modifier | modifier le code]
+L'interaction électrofaible est l'interaction qui unifie l'électromagnétisme et l'interaction faible.
+Interaction forte[modifier | modifier le code]
+Article détaillé : Interaction forte.
+L'interaction forte est fréquente dans les collisions de hadrons à haute énergie. Elle implique, au niveau fondamental, les interactions entre quarks et gluons. On les retrouve par exemple dans la collision
+dont la durée est d’environ τ = 10−23 s. Les interactions fortes sont caractérisées par les propriétés suivantes  :
+échange de particules portant une charge de couleur (quarks et/ou gluons) ;
+couplage très fort : αs ≈ 1 ;
+temps d’interaction et/ou vie moyenne typique de ≈ 10−23 s ;
+section efficace typique de ≈ 10−30 m² ;
+confinement des quarks et gluons ;
+liberté asymptotique ;
+portée effective de R = 10−15 m en raison du confinement.
+Interaction gravitationnelle[modifier | modifier le code]
+Article détaillé : Interaction gravitationnelle.
+Il n’existe pas actuellement une théorie de la gravité quantique satisfaisante du point de vue de la phénoménologie, bien que la théorie des supercordes soit un bon candidat (la gravitation quantique à boucles cependant ne propose pas d'unifier la gravitation avec les autres interactions du modèle standard). Par contre, une théorie quantique gravitationnelle devrait posséder les caractéristiques suivantes :
+impliquer tout ce qui possède une énergie-masse et qui donc modifie la métrique de l'espace-temps (tenseur énergie-impulsion) ;
+avoir un couplage très faible au niveau subatomique: le couplage typique entre deux protons est αG = GNm²p /4π = 4.6 × 10−40 ;
+le graviton, boson d’interaction de spin 2 correspond à une fluctuation quantique de la métrique ;
+masse nulle du graviton, la gravitation ayant une portée infinie.
+Tableau récapitulatif[modifier | modifier le code]
+particules
+élémentaires
+fermions
+leptons
+Chargés
+électron :
+muon :
+tauon :
+Neutrinos
+électronique :
+muonique :
+tauonique :
+quarks
+Charge +2/3
+up :
+charm :
+top :
+Charge -1/3
+down :
+strange :
+bottom/beauty :
+bosons
+bosons de jauge
+Électromagnétisme
+photon :
+Interaction faible
+Boson Z :
+Boson W- :
+Boson W+ :
+Interaction forte
+gluon
+bosons
+hypothétiques
+Gravitation
+graviton
+Int. él.-faible
+boson de Higgs
+particules
+composées
+(hadrons)
+baryons
+(fermions)
+« légers »
+nucléons
+neutron :
+proton :
+Autres
+Delta :
+…
+hypérons
+S = 1
+Lambda :
+Sigma :
+S = 2
+Xi :
+S= 3
+Omega :
+baryons
+charmés C=1
+S=0
+Lambda-C :
+Sigma-C :
+S = 1
+Xi-C :
+S = 2
+Omega-C :
+Baryons
+bottom
+B=1
+Lambda-B :
+mésons
+(bosons)
+« Légers »
+S = 0
+pion :
+êta :
+rho :
+phi :
+S = 1
+kaon :
+Charmés
+« Apparent »
+Méson D :
+« Caché »
+Méson J/ψ :
+Bottom
+« Apparent »
+Méson B :
+« Caché »
+Méson upsilon :
+et bien d'autres …
+Modèle standard[modifier | modifier le code]
+L'état actuel de la classification des particules élémentaires s'appelle le « modèle standard ».
+Il décrit les forces fondamentales  : fortes, faibles, et électromagnétiques en utilisant des bosons médiateurs connus sous le nom de boson de jauge. Les bosons de jauge sont respectivement les gluons, les bosons W± et Z et le photon.
+Le modèle contient également 12 particules fondamentales qui sont les constituants de la matière  : les quarks et les leptons, et leurs antiparticules. Il prévoit aussi l'existence d'un type de boson connu sous le nom de boson de Higgs.
+Principales interactions avec la matière[modifier | modifier le code]
+Selon leur nature et leur énergie, les particules interagiront différemment avec la matière. Ces interactions sont les suivantes :
+Particules chargées[modifier | modifier le code]
+Particules légères  : électrons, positrons[modifier | modifier le code]
+Bremsstrahlung (rayonnement de freinage), dominant au-delà de 10 MeV.
+Diffusion inélastique avec les atomes (cortège électronique).
+Diffusion élastique avec les noyaux.
+Rayonnement Tcherenkov.
+Réactions nucléaires (faible contribution).
+Particules lourdes : muons, protons, alpha, pions[modifier | modifier le code]
+Diffusion inélastique avec les atomes (type d'interaction dominant).
+Diffusion élastique avec les noyaux : peu d’énergie transférée, car les particules sont plus légères que le noyau.
+Diffusion dite para-statique par agrégation du rayonnement des noyaux en état élastique et l'interaction dominante de type Tcherenkov.
+Rayonnement Tcherenkov.
+Réactions nucléaires.
+Bremsstrahlung.
+Particules non chargées[modifier | modifier le code]
+Photons[modifier | modifier le code]
+Contrairement aux particules chargées qui déposent leur énergie de manière continue le long de leur trajectoire, les interactions des photons sont localisées. Lorsqu'ils traversent un milieu, les photons traversent une certaine distance sans être affectés puis déposent brutalement de l'énergie par les interactions suivantes  :
+Effet photoélectrique.
+Diffusion Compton.
+Création de paires .
+Réactions nucléaires (faible contribution).
+La probabilité de produire une interaction est constante le long de la trajectoire, et par suite le nombre de photons survivants décroît en série géométrique (exponentielle) le long de la distance parcourue.
+La fraction des photons qui subsistent après avoir traversé une distance x est e-µx où µ est le coefficient d'absorption, exprimé en cm−1. C'est la somme des coefficients d'absorption des différentes interactions pour les divers composants du matériau.
+L'absorption peut être paramétrée plus commodément par le coefficient d'atténuation massique µ/ρ exprimé en cm²/g, sensiblement indépendant de la densité ρ du matériau absorbant, et ne dépendant plus que de sa composition.
+Neutrons[modifier | modifier le code]
+Diffusion élastique ;
+Diffusion inélastique ;
+Capture nucléaire ;
+Réactions nucléaires  : (n, 2n), (n, α), (n, xn), (n,p) ;
+Fission nucléaire.
+Neutrinos[modifier | modifier le code]
+interactions électrofaibles (création de leptons). Très faibles à basse énergie, elles croissent vite en fonction de l'énergie.
+Production et détection des particules[modifier | modifier le code]
+Les études sur les particules ont débuté par l'étude des rayonnements émis par les substances radioactives, et avec des détecteurs de particules portatifs ou de table permettant de détecter plusieurs particules élémentaires à TPN. Pour détecter d'autres particules, il faut modifier le niveau d'énergie.
+On a eu tout d'abord recours à l'observation des rayons cosmiques, en altitude pour diminuer la dégradation causée par la traversée de l'atmosphère. Ceci a permis d'améliorer substantiellement les détecteurs, car il fallait augmenter leur surface, compte tenu du faible nombre de rayons cosmiques intéressants. On s'est alors tourné vers la construction des accélérateurs de particules, fournissant un faisceau homogène et bien calibré de particules dont on a progressivement su augmenter le niveau d'énergie. Parallèlement, les détecteurs ont progressé, afin d'étudier les interactions des particules ainsi produites.
+Actuellement, les expériences de physique des particules sont menées par des équipes en collaborations internationales, qui se chargent de la construction des détecteurs spécifiques au genre d'expérimentation souhaité, et les installent auprès d'accélérateurs construits également par des collaborations internationales puissantes.
+Les principaux sites d'accélérateurs internationaux sont :
+le CERN (Organisation Européenne de Recherche Nucléaire), situé sur la frontière franco-suisse, près de Genève. Ses équipements principaux sont le Super Proton Synchrotron, un accélérateur circulaire desservant le LHC ainsi que plusieurs expériences, le LEP, un grand collisionneur d'électrons et de positrons aujourd'hui démantelé, ainsi que le LHC, un grand collisionneur de protons, mis en service en septembre 2008 dans l'ancien tunnel du LEP.
+le DESY (Deutsche Elektronen Synchrotron), situé à Hambourg, en Allemagne. Son installation principale est HERA, où l'on provoque des collisions entre des électrons ou des positrons et des protons.
+le SLAC (Stanford Linear Accelerator Center), situé près de Palo Alto, aux États-Unis. Son installation principale est PEP-II (collisions d'électrons et de positrons).
+le Fermilab ou FNAL (Fermi National Accelerator Laboratory), situé près de Chicago, aux États-Unis. Son installation principale est le Tevatron (collisions de protons et d'antiprotons).
+Le Laboratoire national de Brookhaven, ou BNL, situé à Long Island, aux États-Unis. Son installation principale est le Relativistic Heavy Ion Collider, où l'on étudie des collisions entre des ions lourds tels que des ions d'or et des protons.
+De nombreux autres accélérateurs de particules existent.

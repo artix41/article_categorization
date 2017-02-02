@@ -1,0 +1,241 @@
+Synthèse des protéines — Wikipédia
+Synthèse des protéines
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la biologie.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Procédé général
+La synthèse des protéines est l'acte par lequel une cellule assemble une chaîne protéique en combinant des acides aminés isolés présents dans son cytoplasme, guidé par l'information contenue dans l'ADN. Elle se déroule en deux étapes au moins : la transcription de l'ADN en ARN messager et la traduction de l'ARN messager en une protéine.
+Chez les eucaryotes, il existe une étape intermédiaire, la maturation de l'ARN pré-messager, qui se passe dans le noyau. L'ARN pré-messager subit l'ajout d'une coiffe de 7-méthylguanosine triphosphate à l'extrémité 5' et d'une queue poly(A) (50 à 250 nucléotides d'adénine) à l'extrémité 3'. Par la suite, l'ARN pré-messager subit une excision de ses introns (les parties du gène qui ne codent pas un polypeptide) et l'épissage(il peut aussi etre alternatif d'ou le nom d'epissage alternatf) de ses exons (les brins codant). L'ARN pré-messager est maintenant à maturité et prend le nom d'ARN messager. La transcription se déroule dans le noyau, la traduction, dans le réticulum endoplasmique. Une dernière étape de glycosylation (liaison covalente d'oses aux protéines) a lieu dans l'appareil de Golgi. Chez les procaryotes, les deux étapes ont lieu dans le cytoplasme et peuvent être simultanées, la traduction débutant alors que la transcription n'est pas encore achevée. Cette simultanéité donne lieu à un important type de régulation de la traduction.
+Sommaire
+1 Première approche : mécanisme global
+1.1 Mise en évidence du mécanisme global de synthèse (pulse-chase)
+1.2 Complémentarité des bases azotées
+2 Transcription de l'ADN en ARN
+2.1 Modification post-transcriptionnelle
+3 Traduction de l'ARNm
+3.1 Activation de l'acide aminé
+3.2 Initiation
+3.3 Elongation
+3.4 Terminaison
+3.5 Reprenons notre exemple
+3.6 Liste des acides aminés en fonction de l'anti-codon
+4 Sources
+5 Voir aussi
+5.1 Articles connexes
+5.2 Liens externes
+Première approche : mécanisme global[modifier | modifier le code]
+Mise en évidence du mécanisme global de synthèse (pulse-chase)[modifier | modifier le code]
+Il est légitime de se demander comment les biologistes ont découvert la succession d'étapes qui mène à l'achèvement des protéines. La technique principale est celle du pulse-chase ou pulse-chasse, qui se déroule en quatre étapes principales.
+On prélève à intervalles réguliers des cellules de ce nouveau milieu ; on dispose alors de deux techniques d'exploitation de cette expérience. La première est l'autoradiographie ; la seconde passe par une ultracentrifugation et donne une meilleure précision dans les résultats. On prépare une coupe de la cellule, par fixation puis découpage au microtome. Sur la plaquette obtenue, on dépose un film photographique contenant des grains d'argent, et on laisse le tout reposer quelques semaines à l'obscurité. Les électrons issus de la désintégration des noyaux radioactifs assimilés par la cellule réduisent les ions Ag+ en grains noirs d'argent, donnant ainsi une « photographie » de la localisation de la radioactivité cellulaire. On peut ainsi retracer, par observation de lames minces à temps de « chasse » différents, le trajet cellulaire des protéines lors de leur synthèse. Cependant les électrons de la lame mince peuvent marquer la plaque photographique assez loin de leur zone d'émission (précision de l'ordre du demi-micromètre). Ainsi, on ne peut pas savoir par exemple, si la radioactivité dans un organite est à l'intérieur ou éventuellement juste à l'extérieur de ses parois. On centrifuge à haute vitesse chaque prélèvement de cellules du second milieu. On obtient ainsi, après plusieurs centrifugations successives à des accélérations croissantes, différentes fractions de cellule, classées suivant leur masse. On connaît la correspondance entre les divers organites (réticulum endoplasmique, appareil de Golgi, noyau) et les fractions après centrifugations. Ainsi, si on mesure la radioactivité de chaque fraction, on peut savoir dans quel organite les acides aminés marqués se trouvaient au moment du prélèvement. On en déduit des courbes de répartition de radioactivité en fonction du temps pour chaque compartiment cellulaire, ce qui permet de retrouver le trajet des acides aminés nouvellement assemblés en protéines.
+Complémentarité des bases azotées[modifier | modifier le code]
+Il est important de savoir, avant de procéder, qu'il existe une complémentarité entre les bases azotées de l'ADN et de l'ARN. C'est cette complémentarité, due à des liaisons hydrogène, qui permet la réplication, la transcription et la traduction des acides nucléiques.
+Il existe 5 bases azotées :
+Adénine (A)
+Guanine (G)
+Thymine (T) qu'on ne trouve que dans l'ADN
+Cytosine (C)
+Uracile (U) qu'on ne trouve que dans l'ARN
+A et G sont des purines (2 cycles)
+T, C et U sont des pyrimidines (1 cycle)
+A et T sont complémentaires
+G et C sont complémentaires
+A et U sont complémentaires
+La transcription et la traduction utilisent cette complémentarité lors de la création d'ARN et de l'approche de l'ARNt.
+Transcription de l'ADN en ARN[modifier | modifier le code]
+Article détaillé : transcription (biologie).
+Processus de transcription de l'ADN
+La première étape de la synthèse des protéines est la transcription d'un gène de l'ADN en une molécule d'ARN messager (ARNm ou acide ribonucléique messager). L'étape se déroule à l'intérieur même du noyau d'une cellule eucaryote et dans le hyaloplasme des procaryotes. Cette différence va avoir des conséquences importantes sur le traitement de l'ARN synthétisé. L'ADN est une molécule constituée d'une succession de nucléotides. Aucune particularité physique ne différencie un gène d'une portion non codante de l'organisme. Le repérage des gènes le long de la molécule d'ADN (et d'une manière générale toute information de régulation le long de la chaîne d'ADN) va se faire de la même façon que celui du repérage des fichiers sur une bande magnétique : des marquages consistant en une séquence particulière de nucléotides vont indiquer le début du gène. Ces marques spéciales sont appelées séquences consensus, il ne s'agit en effet pas de séquences exactes mais de séquences approchées d'une séquence moyenne mais différant seulement par quelques paires de bases. Les deux utilisées pour repérer le début d'un gène sont les boîtes CAAT et TATA, du nom des nucléotides formant le cœur de la séquence moyenne et situées dans une zone précédant le gène appelée promoteur car elle initie la transcription du gène.
+La transcription consiste à faire une «copie de travail» de l'ADN. L'ADN est une molécule unique dans la cellule. Outre le fait que la synthèse d'un ARN intermédiaire permet de limiter les dommages de l'ADN par suite de trop de manipulations, cela permet de multiplier les copies disponibles pour la phase de traduction et donc de synthétiser la protéine beaucoup plus rapidement.
+La synthèse de l'ARN fait intervenir un ensemble protéique très complexe, l'ARN polymérase. La première étape de la transcription est la reconnaissance du gène à transcrire. Cette étape fait intervenir des mécanismes variés qui dépendent de la protéine à transcrire, mais qui reposent tous sur le principe d'une protéine spécifique du ou des gènes à transcrire, qui se fixe en un endroit précis de l'ADN, situé dans le promoteur. Cette protéine va servir de point d'ancrage au système ARN polymérase, cette phase n'ayant lieu naturellement que si les deux boîtes CAAT et TATA sont présentes. Ce complexe va parcourir la molécule d'ADN pour la lire. Elle va tout d'abord dérouler la molécule d'ADN, puis séparer les deux brins, puis assembler les bases azotées en se servant du brin complémentaire comme matrice pour aboutir à la molécule d'ARN. Derrière elle, les deux brins se réassemblent et l'ADN se réenroule. Quand l'ARN polymérase rencontre le site de terminaison de gène, elle se sépare de l'ADN, et l'ARN est libéré de la chaîne d'ADN.
+Modification post-transcriptionnelle[modifier | modifier le code]
+Article détaillé : Modification post-transcriptionnelle.
+L'ARN transcrit n'est pas toujours directement utilisable, il est d'ailleurs souvent appelé ARN pré-messager, il peut nécessiter différentes modifications avant de pouvoir être traduit. Les modifications les plus connues sont l'épissage, et chez les eucaryotes, l'ajout d'une coiffe et d'une queue poly (A).
+L'ARNm va maintenant pouvoir passer par la phase suivante de la synthèse protéique : la traduction
+Traduction de l'ARNm[modifier | modifier le code]
+Article détaillé : Traduction génétique .
+Processus de traduction de l'ARN en protéine
+Activation de l'acide aminé[modifier | modifier le code]
+L’acide aminé va être fixé par une liaison anhydride (élimination d’une molécule d’eau) sur un AMP. Cette activation se fait par une Amino acyle-ARNt synthétase. Puis l’acide aminé activé va être transféré à l’extrémité 3’ de l’ARNt (fixation par une liaison ester). C’est la même enzyme qui reconnait, active et transfert l’acide aminé.
+Initiation[modifier | modifier le code]
+Une fois que le brin d'ARNm a atteint le cytoplasme, où a lieu la traduction, il se fixe à un ribosome, composé d'une petite sous-unité (40s) et d'une grande sous-unité (60s), qui va assembler une séquence d'acides aminés, selon les "instructions" du code génétique : chaque codon (groupe de 3 nucléotides de l'ARNm) correspond à un acide aminé, sauf 3 codons, appelés codons-stop, qui provoquent l'arrêt de la traduction. Le codon AUG, appelé codon-initiateur, va permettre de commencer la traduction, comme son nom l'indique, en formant l'acide aminé méthionine, qui se détachera plus tard de la chaîne polypeptidique.
+Elongation[modifier | modifier le code]
+Le ribosome va parcourir le brin d'ARNm codon par codon (translocation) et va par l'intermédiaire d'un ARN de transfert (ARNt) ajouter un acide aminé à la protéine en cours de fabrication selon le codon lu. La protéine sera formée en commençant par l'extrémité N-terminale et en terminant par l'extrémité C-terminale.
+Terminaison[modifier | modifier le code]
+Une fois le codon-stop atteint (UAA, UGA, UAG), la protéine est complète: le ribosome se détache de la protéine et du brin d'ARNm, et la protéine est libérée dans l'organisme. Le ribosome va se disloquer en ses deux sous-unités (60s et 40s) et pourra faire une autre synthèse sur un autre ARNm. S'entame alors le transport des protéines, qui les mène hors de la cellule et dans le système sanguin ou encore à l'intérieur même de la cellule l'ayant synthétisé.
+Le même filament d'ARNm peut servir à la fabrication simultanée de plusieurs molécules de protéines, lorsque plusieurs ribosomes s'en chargent. Avant d'être détruite, cette molécule participe en effet à la synthèse de 10 à 20 protéines.
+Reprenons notre exemple[modifier | modifier le code]
+Le brin d'ARN messager est
+A U G G C G U U C A G A A C U G A U A C G U A A
+Les différents codons sont donc
+AUG - GCG - UUC - AGA - ACU - GAU - ACG - UAA
+Les ARN de transfert se fixent
+UAC
+CGC
+AAG
+UCU
+UGA
+CUA
+UGC
+AUU
+par complémentarité et apportent
+|
+|
+|
+|
+|
+|
+|
+|
+les acides aminés appropriés
+Met
+Ala
+Phe
+Arg
+Thr
+Asp
+Thr
+X (stop)
+Liste des acides aminés en fonction de l'anti-codon[modifier | modifier le code]
+Article détaillé : Code génétique.
+Chaque anti-codon code pour un acide aminé ou un codon stop. La liste suivante peut être utilisée comme référence :
+GCA, GCC, GCG, GCU : code pour la formation de l'acide aminé alanine (A, Ala)
+AGA, AGG, CGA, CGC, CGG, CGU : code pour la formation de l'acide aminé arginine (R, Arg)
+AAC, AAU : code pour la formation de l'acide aminé asparagine (N, Asn)
+GAC, GAU : code pour la formation de l'acide aminé acide aspartique (D, Asp)
+UGC, UGU : code pour la formation de l'acide aminé cystéine (C, Cys)
+CAA, CAG : code pour la formation de l'acide aminé glutamine (Q, Gln)
+GAA, GAG : code pour la formation de l'acide aminé acide glutamique (E, Glu)
+GGA, GGC, GGG, GGU : code pour la formation de l'acide aminé glycine (G, Gly)
+CAC, CAU : code pour la formation de l'acide aminé histidine (H, His)
+AUA, AUC, AUU : code pour la formation de l'acide aminé isoleucine (I, Ile)
+CUA, CUC, CUG, CUU, UUA, UUG : code pour la formation de l'acide aminé leucine (L, Leu)
+AAA, AAG : code pour la formation de l'acide aminé lysine (K, Lys)
+AUG : code pour la formation de l'acide aminé méthionine (M, Met)
+UUC, UUU : code pour la formation de l'acide aminé phénylalanine (F, Phe)
+CCC, CCA, CCG, CCU : code pour la formation de l'acide aminé proline (P, Pro)
+UCA, UCC, UCG, UCU : code pour la formation de l'acide aminé sérine (S, Ser)
+ACA, ACC, ACG, ACU : code pour la formation de l'acide aminé thréonine (T, Thr)
+UGG : code pour la formation de l'acide aminé tryptophane (W, Trp)
+UAC, UAU : code pour la formation de l'acide aminé tyrosine (Y, Tyr)
+GUA, GUC, GUG, GUU : code pour la formation de l'acide aminé valine (V, Val)
+UAA, UAG, UGA : ces codons sont des codons stop (qui ne codent donc aucun acide aminé). La chaine polypeptidique se détache du ribosome et la traduction est terminée.
+Sources[modifier | modifier le code]
+Neil A. Campbell et Jane B. Reece, Biologie, traduit par Richard Mathieu, Éd. Éditions du Renouveau Pédagogique Inc., Saint-Laurent (Québec), 3 mars 2004, 1400 pages, ISBN 2-7613-1379-8.
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Cellule
+Protéine
+Génétique > ADN > Gène > ARN > Synthèse des protéines
+Transcription
+Traduction
+Liens externes[modifier | modifier le code]
+Baptiste Deleplace (2003), La traduction (une approche ludique de la traduction de l'ARN m en chaine polypeptidique).
+Voir la vidéo en 3D de la synthèse des protéines dans l'encyclopédie vulgaris-medical.com
+v · d · m
+Protéines
+Synthèse des protéines · Structure des protéines · Modification des protéines · Protéasome · Protéome · Protéine fibreuse · Protéine globulaire · Protéine membranaire
+v · d · m
+Expression des gènes
+Introduction à la génétique
+Théorie fondamentale de la biologie moléculaire · ADN · ARN · Protéine · Code génétique · Synthèse des protéines
+Transcription
+Régulation de la transcription
+Facteurs de transcription · ARN Polymérase · Promoteur · Amplificateur · Site d'initiation de la transcription
+Régulation post-transcriptionnelle
+Modifications post-transcriptionnelles · Édition · Épissage · Épissage alternatif · Polyadénylation · Dégradation des ARNm non-sens · Interférence par ARN
+Traduction
+Régulation de la traduction
+Facteurs d'initiation · Ribosome · ARNt · IRES · Coiffe
+Régulation post-traductionnelle
+Modifications post-traductionnelles (ajout de groupe fonctionnels, peptidiques, modifications structurelles ou chimiques ; par exemple : phosphorylation) · Protéolyse
+Contrôle épigénétique
+Extinction de gène · Méthylation de l'ADN · Code des Histones · Gène Hox · Gène soumis à empreinte
+Portail de la biologie cellulaire et moléculaire
+Portail de la biochimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Synthèse_des_protéines&oldid=109083378 ».
+Catégories : Synthèse chimiqueExpression génétiqueGénétiquePhysiologie cellulaireProtéomiqueCatégories cachées : Wikipédia:ébauche biologiePortail:Biologie cellulaire et moléculaire/Articles liésPortail:Biologie/Articles liésPortail:Biochimie/Articles liésPortail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Català
+کوردی
+Čeština
+Dansk
+Deutsch
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Magyar
+Հայերեն
+Bahasa Indonesia
+Italiano
+日本語
+ქართული
+Македонски
+Nederlands
+Norsk bokmål
+Occitan
+Polski
+Português
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Српски / srpski
+Svenska
+ไทย
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 13 novembre 2014 à 12:45.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

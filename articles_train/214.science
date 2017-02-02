@@ -1,0 +1,130 @@
+Fréquence fondamentale — Wikipédia
+Fréquence fondamentale
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Fréquence fondamentale et 6 harmoniques
+En acoustique, la fréquence fondamentale ou son fondamental est l'harmonique de premier rang d'un son.
+Sommaire
+1 Acoustique
+2 Acoustique musicale
+2.1 L'affaire de la fondamentale absente
+3 Voir aussi
+3.1 Articles connexes
+3.2 Notes
+3.3 Références
+Acoustique[modifier | modifier le code]
+Un son est une vibration de l'air. Cette vibration peut souvent s'assimiler à un phénomène périodique ; c'est le cas notamment des sons de voyelles émis par la voix humaine et de tous les instruments capables de produire une note de musique.
+Un phénomène périodique se caractérise par sa période, qui est la durée qui se reproduit identiquement, lorsqu'on se décale dans le temps de cette même durée.
+La fréquence dite fondamentale est l'inverse de la période d'un son périodique.
+Seuls les sons périodiques ont une fréquence fondamentale.
+L'analyse spectrale montre que tous les phénomènes périodiques peuvent se décomposer en une série d'oscillations sinusoïdales de fréquence multiple de la fréquence fondamentale, dont on peut déterminer l'amplitude et la phase[n 1]. Sans formalisme mathématique :
+où f est la fréquence fondamentale, an et φn respectivement l'amplitude et la phase de la n.ième composante.
+Dans le domaine de l'acoustique, on peut se limiter aux fréquences harmoniques n.f qui se trouvent dans le spectre audible, c'est-à-dire jusqu'à au plus 20 kHz.
+Sons purs
+Les sons qui ne comportent qu'une seule fréquence sont appelés sons purs.
+Sons complexes
+Tous les sons qui ne sont pas des sons purs sont des sons complexes.
+Sons complexes périodiques
+Les sons complexes périodiques ont une fréquence fondamentale.
+Son musical
+les sons musicaux sont une catégorie de sons complexes périodiques, difficiles à définir rigoureusement[1], dont la fréquence fondamentale détermine la note sur une échelle musicale logarithmique, le plus souvent cyclique sur une octave.
+Acoustique musicale[modifier | modifier le code]
+En acoustique musicale, on suppose en général que cette fréquence fondamentale se trouve dans le domaine audible, c'est-à-dire au-dessus de 16 hertz. Quand la fréquence fondamentale est en dessous de cette fréquence, on perçoit une variation du son, qui peut être, un trémolo, un vibrato, ou toute combinaison des deux. À partir de 50 Hz, on distingue très précisément la hauteur des sons. Au delà de 4 200 Hz environ, c'est-à-dire à la limite aigüe du piano, la discrimination des hauteurs s'effondre[2].
+Le son musical s'édifie sur la base de la fréquence fondamentale : ses partiels, résultant de l'analyse spectrale, sont des harmoniques, c'est-à-dire que leurs fréquences sont des multiples entiers de cette première harmonique audible.
+Si les harmoniques ne sont pas des multiples entiers de la fondamentale, le son est dit inharmonique.
+La fréquence fondamentale détermine la hauteur du son. Pour un son de basse fréquence, un son grave, la répartition des harmoniques dans l'ensemble du spectre harmonique est prise en compte par l'audition pour déterminer la hauteur.
+L'affaire de la fondamentale absente[modifier | modifier le code]
+Désolé, soit votre navigateur a JavaScript désactivé, soit il ne dispose d’aucun lecteur pris en charge.
+Vous pouvez télécharger le clip ou télécharger un lecteur pour lire le clip dans votre navigateur.
+Somme des harmoniques 10 à 23 à égalité de la note la 110 Hz), avec un peu de bruit. Bien que la fréquence fondamentale n'apporte aucune puissance au son, si l'auditeur fredonne la note qu'il entend, il fredonne un la, avec parfois une erreur d'octave.
+Quand on supprime la fréquence fondamentale, le son continue à évoquer pour l'auditeur une note de musique, bien que la fréquence fondamentale correspondant à cette note n'apporte aucune énergie.
+Cette perception, démontrée par Thomas Johann Seebeck en 1841 a suscité des hypothèses, démenties par des expériences ultérieures, de la part de Helmholtz. Aucun modèle ne semble parfaitement satisfaisant jusqu'à maintenant[3]. Les uns pensent que le cerveau analyse les intervalles entre chaque harmonique, les autres proposent un modèle où la transmission nerveuse implique une analyse temporelle, par des retards différents dans plusieurs fibres nerveuses, et de la sorte permet une plus grande discrimination fréquentielle, où cependant des fréquences dans un rapport harmonique puissent produire la même image. Elle est fondamentale dans la décomposition de la perception des hauteurs en perception de la hauteur spectrale, qui s'applique à tous les sons, périodiques ou non, et les place approximativement sur une échelle de grave à aigu, et celle de la hauteur fondamentale, beaucoup plus précise puisqu'elle peut atteindre un seuil de discrimination de un à deux pour mille en fréquence, qui ne s'exerce que pour les sons complexes périodiques (harmoniques).
+Cependant, tous les auditeurs ne sont pas capables de détecter la fondamentale absente, et certains sons complexes périodiques sont particulièrement difficiles, par exemple, un son composé uniquement d'harmoniques d'ordre 3n à égalité, une suite d'intervalles d'une octave plus une quinte, dont on peut difficilement dire qu'elle a une note.
+Les facteurs d'orgue utilisent un procédé qui tire partie de la fondamentale absente pour créer des basses avec deux tuyaux de longueur inférieure à celle qui aurait été nécessaire pour obtenir directement le son désiré. L'interférence entre les deux tuyaux crée un battement à la fréquence fondamentale qui déclenche la perception de la note[réf. souhaitée].
+Contrebasson (à droite)
+Le cas du contrebasson vient montrer les difficultés de cette recherche. La première note de cet instrument a pour fondamentale si♭. La fréquence fondamentale correspondant à cette note est 29 Hz. Un auditeur non prévenu qui écoute les premières notes d'une gamme ascendante jouée par cet instrument entend généralement une mélodie sans rapport avec le son de la gamme. C'est que les notes fondamentales se trouvent dans une zone où la discrimination en fréquence de l'oreille est mauvaise, et que l'instrument produit pour chaque note des partiels harmonique dont certains, particulièrement intenses sont appelés formants et se déplacent d'une note à l'autre[4].
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Acoustique musicale
+Harmonique (musique)
+Partiel (acoustique)
+Notes[modifier | modifier le code]
+↑ Voir à ce sujet Série de Fourier.
+Références[modifier | modifier le code]
+↑ Michèle Castellengo, « La perception auditive des sons musicaux », dans Arlette Zenatti, Psychologie de la musique, Paris, Presse Universitaire de France, coll. « Psychologie d'aujourd'hui »,‎ 1994, p. 56.
+↑ Castellengo 1994, p. 68-70.
+↑ Laurent Demany, « Perception de la hauteur tonale », dans Botte & alii, Psychoacoustique et perception auditive, Paris, Tec & Doc,‎ 1999, p. 56-58.
+↑ Castellengo 1994, p. 71-72.
+Portail de la musique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Fréquence_fondamentale&oldid=107577357 ».
+Catégories : Acoustique musicaleAnalyse harmoniqueCatégories cachées : Article à référence souhaitéePortail:Musique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Català
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+हिन्दी
+Bahasa Indonesia
+Italiano
+日本語
+Nederlands
+Norsk nynorsk
+Polski
+Português
+Svenska
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 19 septembre 2014 à 14:38.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

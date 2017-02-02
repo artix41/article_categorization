@@ -1,0 +1,575 @@
+Algèbre universelle — Wikipédia
+Algèbre universelle
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Algèbre (homonymie).
+L'algèbre universelle est la branche de l'algèbre qui a pour but de traiter de manière générale et simultanée les différentes structures algébriques : groupes, monoïdes, anneaux, espaces vectoriels, etc. Elle permet de définir de manière uniforme les morphismes, les sous-structures (sous-groupes, sous-monoïdes, sous-anneaux, sous-espaces vectoriels, etc.), les quotients, les produits et les objets libres pour ces structures.
+En mathématiques, un grand nombre de types de structures algébriques vérifient différents axiomes (groupes, anneaux, espaces vectoriels, treillis, algèbres de Boole, algèbres de Lie). Pour ces différents types de structures, on définit une notion de morphisme et des constructions de structures qui sont analogues ou qui ont des propriétés analogues (sous-structures, quotients, produits, coproduits, objets libres, limites projectives et inductives, etc.). Ces morphismes et ces constructions ont un grand nombre de propriétés qui sont semblables (l'intersection de sous-groupes, de sous-anneaux, etc., en est un, l'image d'un sous-groupe, d'un sous-anneau, etc., par un morphisme en est un aussi). On a alors défini de manière générale et abstraite les structures algébriques pour pouvoir traiter de manière uniforme ces constructions et leurs propriétés, et on a pu, par la suite, se concentrer sur les propriétés propres à chacune de ces structures.
+Plus qu'une généralisation des structures algébriques usuelles qui ne servirait qu'en algèbre, l'algèbre universelle a aussi des applications en logique et en informatique. Une généralisation plus vaste encore de ces notions est fournie par la théorie des catégories.
+Sommaire
+1 Algèbres
+1.1 Exemple préliminaire
+1.2 Algèbres
+1.3 Exemples d'algèbres
+1.4 Homomorphismes
+2 Sous-algèbres
+2.1 Définition des sous-algèbres
+2.2 Propriétés des sous-algèbres
+2.3 Sous-algèbres engendrées
+3 Produits d'algèbres
+3.1 Produits d'algèbres
+3.2 Algèbre des applications
+4 Quotients et congruences
+4.1 Définition et propriétés élémentaires
+4.2 Passage au quotient et théorèmes d'isomorphie
+4.3 Algèbres simples
+5 Algèbre des termes et variétés d'algèbres
+5.1 Algèbres des termes
+5.2 Identités
+5.3 Variétés d'algèbres
+5.4 Exemples de variétés d'algèbres
+5.5 Propriétés des variétés d'algèbres
+6 Algèbres libres
+6.1 Algèbres libres
+6.2 Algèbres initiales
+6.3 Algèbres libres sur un ensemble à un élément
+6.4 Substitution
+6.5 Dépendance et bases
+6.6 Présentations
+7 Limites et colimites
+8 Existence d'adjoints
+9 Histoire
+10 Bibliographie (en anglais)
+11 Articles connexes
+Algèbres[modifier | modifier le code]
+Exemple préliminaire[modifier | modifier le code]
+Il peut être utile d'examiner un exemple pour dégager une notion unificatrice de structure algébrique. Parfois, dans la définition de structure algébrique on se limite à la donnée de lois de composition interne et externe sur un ensemble, mais la donnée de ces lois ne permet pas toujours de définir les homomorphismes comme les applications qui préservent ces lois et les sous-structures (sous-groupes, sous-anneaux, etc.) comme des parties stables pour des lois. En voici un exemple :
+Soit
+un groupe, φ sa loi de composition,
+son élément neutre, γ l'application qui à un élément de
+associe son inverse. Soit
+une partie de . Il ne suffit pas que
+contienne le composé de deux éléments quelconques de
+pour que
+soit un sous-groupe de , comme le montre le cas de l'ensemble
+des entiers naturels dans le groupe
+des entiers relatifs (appelés aussi entiers rationnels mais à ne pas confondre avec le corps
+nombres rationnels). En fait, pour que
+soit un sous-groupe de , il faut et il suffit aussi qu'il contienne l'élément neutre et qu'il contienne l'inverse de chacun de ses éléments. Autrement dit,
+est un sous-groupe de
+si et seulement si, φ(S × S) ⊆ S, γ(S) ⊆ S et e ∈ S. Ainsi, la structure de groupe de
+n'est pas complète sans γ et . On a des résultats analogues pour les monoïdes, les anneaux, les espaces vectoriels, les algèbres de Boole, etc.
+Si l'on veut que la structure algébrique détermine les sous-structures (parties stables par les différentes lois), on doit enrichir les structures usuelles (groupes, anneaux, etc.) de lois supplémentaires.
+Algèbres[modifier | modifier le code]
+Les structures usuelles ne sont pas seulement déterminées par des lois, mais par des axiomes (associativité, commutativité, distributivité, élément neutre, etc.) qui régissent les lois : les identités. La définition générale des identités sera présentée dans la suite. Si des structures algébriques vérifient toutes certaines identités communes, alors la plupart des constructions usuelles (sous-structures, quotients, produits) déduites de ces structures les vérifient. On se concentre d'abord sur les constructions de structures définies par des lois qui ne vérifient aucune identité particulière. La stabilité des identités par ces constructions fera en sorte que les résultats ainsi obtenus s'appliqueront mot pour mot[Quoi ?] aux structures définies par la donnée de lois vérifiant certaines identités.
+Une algèbre est un ensemble muni d'une structure algébrique, dont on donnera une définition précise. Parmi les algèbres, on retrouve les groupes, les monoïdes, les modules sur un anneau donné (en particulier les espaces vectoriels sur un corps donné), les treillis et les algèbres de Boole.
+Définition. Soient E un ensemble et n un entier naturel (nul ou non). On appelle opération n-aire sur E toute application de
+dans E.
+Si n = 2, alors il s'agit d'une loi de composition interne sur E.
+Si n = 1, alors il s'agit d'une application de E dans E, appelée opération unaire dans E.
+Si n = 0, on parle alors d'opération nullaire sur E. Les opérations nullaires sur E s'identifient aux éléments de E, puisque
+et que les applications de {0} dans E s'identifient à l'unique élément de leur image.
+On appelle opération finitaire sur E une application qui est une opération p-aire sur E pour un entier naturel p.
+Définition. Soit A un ensemble. Alors une loi de composition externe ou une loi externe de A sur E est, par définition, une application de A × E (ou, ce qui est équivalent, de E × A ) dans E. Une loi de composition externe de A sur E s'identifie à une application de A dans l'ensemble
+des applications de E dans E, donc des opérations unaires de E : à un élément a de A est associée l'application partielle définie par a de cette loi externe. Ainsi l'ensemble des lois de composition externe de A sur E s'identifie à l'ensemble des applications de A dans , et donc à l'ensemble des familles d'opérations unaires de E indexées par A.
+Définition. Une algèbre universelle ou plus simplement une algèbre (ne pas confondre avec les algèbres sur un anneau commutatif, que l'on rencontre en algèbre linéaire) est un ensemble A muni d'une famille (vide ou non) d'opérations finitaires sur A. On dit que l'ensemble A est sous-jacent à l'algèbre en question.
+Pour permettre de traiter simultanément plusieurs algèbres, il peut être utile de déterminer si elles sont de même signature, c'est-à-dire si elles sont toutes des anneaux ou toutes des treillis, par exemple. Pour cela, on doit paramétriser les opérations finitaires des algèbres par certains ensembles, les opérations n-aires de même paramètre se correspondant. Par exemple, usuellement, dans la donnée des lois d'un anneau, l'addition vient avant la multiplication, et ainsi on sait que l'addition d'un anneau correspond à l'addition d'un autre anneau, et non à sa multiplication.
+Définition. On appelle signature ou un type d'algèbre ou un domaine d'opérateurs tout ensemble Ω muni d'une application σ de Ω dans l'ensemble N des entiers naturels, et alors, pour tout entier naturel n, on note Ωn l'image réciproque de n par σ. Une algèbre ou une algèbre universelle de signature Ω est un ensemble A muni, pour tout entier naturel n et pour tout élément ω de
+d'une opération n-aire sur A, que l'on notera , ou ω si aucune confusion n'en résulte. On dit alors que la donnée de ces opérations finitaires définit sur l'ensemble une structure algébrique de signature Ω.
+Certains auteurs supposent que toute algèbre est non vide (s'il n'y a pas d'opération nullaire), mais considérer les algèbres vides est utile du point de vue de la théorie des catégories.
+Convention. Dans ce qui suit, on se donne une fois pour toutes une signature d'algèbre Ω = (Ωn)n∈N, et toutes les algèbres sont supposées être de cette signature, sauf mention contraire.
+Si A est un algèbre, on appelle constante ou élément distingué de A les éléments de A auxquels s'identifient les opérations nullaires définies par les éléments de .
+Exemples d'algèbres[modifier | modifier le code]
+Donnons quelques exemples d'algèbres.
+Un ensemble est une algèbre munie d'aucune opération finitaire (on n'exclut pas que la signature d'algèbre soit vide).
+Un ensemble pointé est un ensemble E muni d'un élément de E, c'est-à-dire d'une opération nullaire.
+Un magma est un ensemble muni d'une loi de composition, c'est-à-dire d'une opération binaire.
+Un monoïde est un magma associatif muni d'un élément neutre. Il est donc muni d'une opération binaire et d'une opération nullaire.
+Un groupe est un monoïde tel que tout élément admet un inverse et il est donc muni de l'opération unaire qui à un élément associe son inverse. Ainsi il est muni d'une opération binaire, d'une opération nullaire et d'une opération unaire.
+Si M est un monoïde (par exemple un groupe), un ensemble E muni d'action de M sur E est une algèbre, en considérant E muni, pour tout élément a de M, de l'opération unaire x → ax de E dans E.
+Un anneau (unitaire) est à la fois un groupe pour l'addition et un monoïde pour la multiplication. Il est donc muni de deux opérations binaires, de deux opérations nullaires (0 et 1) et d'une opération unaire.
+Un module sur un anneau A est un groupe commutatif muni d'une loi externe de A vérifiant certaines propriétés. Il est donc muni d'une opération binaire (l'addition), une opération nullaire (0), d'une opération unaire (qui à x associe -x) et, pour tout élément de A d'une opération unaire (l'homothétie correspondante).
+Une algèbre sur un anneau commutatif donné A est un module E sur A muni d'une multiplication sur E qui est bilinéaire. Il peut y avoir confusion avec l'emploi du terme « algèbre ». Souvent, on suppose implicitement que E est une algèbre associative, c'est-à-dire que la multiplication est associative, mais il existe des algèbres non associatives (les algèbres de Lie, par exemple).
+Une algèbre unitaire sur un anneau commutatif donné A est une algèbre sur A dont la multiplication admet un élément unité.
+Un treillis est un ensemble muni de deux lois de compositions vérifiant certaines propriétés (borne supérieure et borne inférieure).
+Une algèbre de Boole est un treillis et est munie de son plus petit élément, de son plus grand élément et de l'application qui à un élément associe son complémentaire. Donc elle est munie de deux opérations binaires, de deux opérations nullaires (0 et 1) et d'une opération unaire.
+Soit X un espace affine sur un corps K. Alors, pour tout entier naturel non nul n et pour toute suite finie de n éléments de K dont la somme est égale à 1, on a opération n-aire qui à une suite de n-points associe le barycentre de ces points affecté de ces éléments de K. On définit donc une structure algébrique sur X. Ainsi, tout espace affine sur K peut être considéré comme étant muni d'une structure algébrique. Pour éviter les exceptions, l'ensemble vide est considéré comme un espace affine attaché à un espace vectoriel réduit à 0.
+Comme le montrent ces exemples, pour décrire la plupart des structures algébriques usuelles, on pourrait se limiter aux algèbres qui n'ont que des opérations binaires, des opérations nullaires et des opérations unaires. Mais, même pour ces structures, il peut être utile de considérer les opérations finitaires quelconques, puisque, avec une loi de composition associative, on peut, pour tout entier naturel non nul n, définir une opération n-aire qui à n éléments associe leur produit (ou leur somme).
+Dans les définitions usuelles de ces structures, l'ensemble n'est pas muni de toutes ces opérations finitaires, mais que de certaines d'entre-elles, et les axiomes de ces structures impliquent l'existence de ces autres.
+Ces exemples permettent de déterminer toute la structure qui est nécessaire pour définir correctement les homomorphismes et les sous-structures (sous-groupes, sous-anneaux, etc.).
+Les corps commutatifs sont les anneaux non réduits à un élément dont tout élément non nul est inversible. Dans un corps, l'application qui à un élément non nul associe son inverse n'est pas partout définie (0 n'est inversible), et donc n'est pas une opération unaire sur le corps tout entier, mais seulement sur le groupe de ses éléments inversibles. Pour pallier cet inconvénient, on doit élaborer la théorie des algèbres partielles, où les opérations finitaires ne sont pas partout définies.
+Voici deux exemples triviaux, qui ont leur importance.
+Pour tout ensemble E qui est un singleton, il existe une unique structure algébrique de signature Ω sur E. Une algèbre dont l'ensemble sous-jacent est un singleton est dite triviale.
+Il existe sur l'ensemble vide au plus une structure algébrique de signature Ω, et pour qu'il en existe une, il faut et il suffit que l'ensemble
+des paramètres des opérations nullaires soit vide, c'est-à-dire qu'il n'y ait aucune opération nullaire. Par exemple, il n'existe pas de groupe vide, mais il existe un unique magma vide et il existe un unique treillis vide.
+La définition d'algèbre fait en sorte que l'on admet les anneaux triviaux et les algèbres de Boole triviales, c'est-à-dire réduits à un élément. Certains auteurs excluent ces anneaux et ces algèbres de Boole.
+Homomorphismes[modifier | modifier le code]
+On donne ici une définition générale des homomorphismes qui inclut les homomorphismes de groupes, d'anneaux, de modules (applications linéaires), etc.
+Définition. Soient A et B des algèbres de même signature Ω. Un homomorphisme ou morphisme (ou Ω-homomorphisme ou un Ω-morphisme s'il faut préciser) de A dans B est une application de A dans B qui préserve les opérations finitaires correspondant aux mêmes éléments de Ω. De manière plus précise, une application f de A dans B est un homomorphisme si et seulement si, pour tout entier naturel n et pour tout élément ω de , (f(), ..., f()) = f((, ..., )), quels que soient les éléments , ...,
+de A. Pour n = 0, cela signifie que f() =
+(par exemple, si A et B sont des espaces vectoriels sur un corps K, on a f(0) = 0).
+On appelle endomorphisme d'une algèbre A tout homomorphisme de A dans A.
+On voit ici que les homomorphismes tels que définis ici correspondent aux homomorphismes des différentes structures algébriques que l'on rencontre en algèbre générale (monoïdes, groupes, anneaux, modules sur un anneau donné, ensembles ordonnés, etc.).
+Il se peut que, pour certaines algèbres A et B, il n'existe pas d'homomorphisme de A dans B, même si A et B sont non vides. Par exemple, il n'existe pas d'homomorphisme d'anneaux du corps
+des nombres rationnels dans l'anneau
+des entiers relatifs.
+Exemple. Soient K un corps, X et Y des espaces affines sur K. X et Y sont des algèbres en considérant, pour tout entier naturel non nul n et pour toute suite finie de n éléments de K dont la somme est égale à 1, l'opération n-aire qui à une suite de n-points associe le barycentre de ces points affectés de ces éléments de K. Alors les homomorphisme X dans Y pour les structures algébriques ainsi définies ne sont autres que les applications affines de X dans Y. Autrement dit, les applications affines de X dans Y ne sont autres que les applications de X dans Y qui préservent les barycentres.
+Proposition. Soient A, B et C des algèbres. La composée d'un homomorphisme de A dans B et d'un homomorphisme de B dans C est un homomorphisme de A dans C. L'application identité d'une algèbre A est un endomorphisme de A. En termes de théorie des catégories, la classe des algèbres de signature Ω avec les homomorphismes forment une catégorie pour la composition des homomorphismes (en tant qu'applications).
+Définition. Soient A et B des algèbres de même signature. On appelle isomorphisme de A sur B ou, si A = B, automorphisme de A, tout homomorphisme de A dans B qui est bijectif. Pour tout isomorphisme f de A sur B, la bijection réciproque de f est un isomorphisme de B sur A. Cela coïncide avec la notion d'isomorphisme en théorie des catégories.
+Proposition. L'ensemble des endomorphismes de A est un monoïde pour la composition des homomorphismes, que l'on note End(A). L'ensemble des automorphismes de A est un groupe pour la composition des homomorphismes, que l'on note Aut(A). Il est le groupe des éléments inversibles du monoïde End(A).
+Si elles existent, alors les algèbres vides sont les seuls objets initiaux de la catégorie des algèbres de signature Ω, c'est-à-dire, pour toute algèbre A, il existe un homomorphisme de l'ensemble vide dans A. S'il n'existe pas d'algèbre vide, il y a aussi des objets initiaux, qui ne sont pas vides. Les algèbres triviales sont les seuls objets finaux de cette catégorie, c'est-à-dire, pour toute algèbre A, il existe un unique homomorphisme de A dans une algèbre triviale.
+Sous-algèbres[modifier | modifier le code]
+Définition des sous-algèbres[modifier | modifier le code]
+On définit ici la notions de sous-algèbre, qui généralise les notions usuelles de structures induites (ou sous-structures) des structures algébriques usuelles, par exemple les sous-groupes, les sous-anneaux, les sous-modules (ou sous-espaces vectoriels), etc.
+On se donne une fois pour toutes une algèbre A de signature Ω.
+Définition. Une sous-algèbre de A (ou sous-Ω-algèbre de A si on tient à préciser) est une partie de A qui est stable pour chacune des opérations finitaires de A. De manière plus précise, une partie S de A est une sous-algèbre de A si et seulement si, pour tout entier naturel n, pour tout élément ω de
+et quels que soient les éléments , ...,
+de S, (, ..., ) appartient à S. Si n = 0, cela signifie que l'élément
+de A appartient à S.
+Si S est une sous-algèbre de A, alors par restriction à S des opérations de A, on obtient une structure algébrique de signature Ω sur l'ensemble S, dite induite par celle de A, et donc S est donc canoniquement une algèbre de signature Ω. Lorsque l'on considère S comme une algèbre, c'est pour cette structure algébrique sur S.
+On peut vérifier que les sous-algèbres correspondent bien aux structures induites pour les structures algébriques usuelles : sous-ensembles pointés, sous-magmas, sous-monoïdes, sous-groupes, sous-anneaux, sous-modules (ou sous-espaces vectoriels), sous-algèbres d'une algèbre sur un anneau commutatif, sous-algèbres unitaires d'une algèbre unitaire sur un anneau commutatif, sous-treillis, sous-algèbres de Boole, etc. Toutefois, les sous-algèbres des corps sont ses sous-anneaux, et non pas nécessairement tous ses sous-corps (l'inversion n'est pas une opération unaire).
+Exemple. Soient K un corps et X un espace affine sur K. X est une algèbre en considérant, pour tout entier naturel non nul n et pour toute suite finie de n éléments de K dont la somme est égale à 1, l'opération n-aire qui à une suite de n-points associe le barycentre de ces points affectés de ces éléments de K. Alors les sous-algèbre de X muni de cette structure algébrique sur X ne sont autres que les sous-espaces affines de X. Autrement dit, les sous-espaces affines de X ne sont autres que les parties de X qui sont stables pour les barycentres. L'ensemble vide est une sous-espace affine de X, et donc une sous-algèbre de X.
+Propriétés des sous-algèbres[modifier | modifier le code]
+Voici les propriétés élémentaires des sous-algèbres. Le lecteur sera peut être familier avec les énoncés analogues dans les cas des groupes, des anneaux ou des modules. On désigne par A une algèbre.
+A est une sous-algèbre de A. Si
+est vide (donc s'il n'y pas d'éléments distingués de A), alors l'ensemble vide est une sous-algèbre de A.
+Pour toute sous-algèbre B de A, l'injection canonique de B dans A est un homomorphisme.
+L'intersection d'un ensemble non vide de sous-algèbres de A est une sous-algèbre de A.
+Toute sous-algèbre d'une sous-algèbre de A est une sous-algèbre de A (hérédité des sous-algèbres).
+Soient B une algèbre, f un homomorphisme de A dans B. Alors l'image par f d'une sous-algèbre de A est une sous-algèbre de B et l'image réciproque par f d'une sous-algèbre de B est une sous-algèbre de A. En particulier, l'image de f est une sous-algèbre de B.
+Soient B une algèbre, f un homomorphisme de A dans B, C et D des sous-algèbres de A et B respectivement. Si f(C) est inclus dans D, alors l'application de C dans D qui coïncide avec f est un homomorphisme. En particulier, la restriction de f à C est un homomorphisme de C dans B.
+L'ensemble des points fixes d'un endomorphisme de A est une sous-algèbre de A.
+Soient B une algèbre, f et g des homomorphismes de A dans B. Alors l'ensemble des éléments x de A tels que f(x) = g(x) est une sous-algèbre de A.
+La réunion d'un ensemble E de sous-algèbres de A qui est filtrant pour la relation d'inclusion (c'est-à-dire, si A et B appartiennent à E, alors il existe un élément de E qui contient A et B) est une sous-algèbre de A, appelée, réunion filtrante de ces sous-algèbres. En particulier, la réunion d'un ensemble totalement ordonné de sous-algèbres de A est une sous-algèbre de A.
+La réunion de sous-algèbres n'est pas toujours une sous-algèbre. Par exemple, la réunion de deux droites vectorielles distinctes d'un espace vectoriel E sur un corps n'est pas un sous-espace vectoriel de E.
+Les auteurs qui excluent les algèbres vides, excluent généralement les sous-algèbres vides, et alors l'intersection de sous-algèbres n'est pas nécessairement une sous-algèbre, sauf si elle est non vide.
+Sous-algèbres engendrées[modifier | modifier le code]
+Définition. Soit X une partie d'une algèbre A. L'intersection de l'ensemble des sous-algèbres de A qui contiennent X est une sous-algèbre G de A, qui est dite engendrée par X. (Cela généralise les sous-groupes engendrés, les sous-anneaux engendrés, les sous-modules engendrés, etc.) Si G = A, alors on dit que X est une partie génératrice de A et que X engendre A. On définit de manière analogue les familles génératrices et les familles qui engendrent.
+Définition. S'il existe une partie génératrice finie d'une algèbre A, on dit que A est de type fini. S'il existe un élément de A qui engendre A, alors on dit que A est monogène. Cela généralise les notions analogues que l'on rencontre en théorie des groupes, des anneaux, des modules, etc.
+Proposition. Pour la relation d'inclusion, l'ensemble des sous-algèbres d'une algèbre A est un treillis complet, c'est-à-dire, tout ensemble de sous-algèbres admet une borne inférieure et une borne supérieure pour la relation d'inclusion. La borne inférieure d'une famille de sous-algèbres est son intersection et la borne supérieure est la sous-algèbre engendrée par sa réunion.
+Voici quelques propriétés des sous-algèbres engendrées.
+Soit A une algèbre. L'application qui à toute partie X de A associe la sous-algèbre de A engendrée par X est croissante, pour la relation d'inclusion, c'est-à-dire, si X est une partie d'une partie Y de A, la sous-algèbre de A engendrée par X est incluse dans celle engendrée par Y.
+Soient A et B des algèbres, X une partie génératrice de A, f et g des homomorphismes de A dans B. Si les restrictions de f et g à X sont égales, alors f et g sont égaux. Donc, un homomorphismes entre deux algèbres est déterminée par sa restriction à une partie génératrice.
+Soient A et B des algèbres, f un homomorphisme de A dans B et X une partie de A. Alors l'image par f de la sous-algèbre de A engendrée par X est la sous-algèbre de B engendrée par f(X).
+Exemples
+Si K est un corps, les espace vectoriel sur K qui sont de type fini sont ceux qui sont de dimensions finies, et ceux qui sont monogènes sont ceux qui sont nuls et ceux qui sont de dimension 1.
+Soient G un groupe et E un G-ensemble, c'est-à-dire un ensemble E muni d'une action de G sur E. Pour que E soit monogène, il faut et il suffit que E soit non vide et que l'action de G sur E soit transitive.
+Produits d'algèbres[modifier | modifier le code]
+Produits d'algèbres[modifier | modifier le code]
+Les notions de produit direct de groupes, d'anneaux et de modules se généralisent, dans le cadre général de l'algèbre universelle, comme un cas particulier du produit en théorie des catégories.
+Soit
+une famille d'algèbres de signature Ω indexée par un ensemble (fini ou non) et P le produit cartésien des ensembles sous-jacents à ces algèbres.
+Définition. Il existe une unique structure algébrique de signature Ω sur P telle que, tout entier naturel n et pour tout élément ω de , (, ..., ) =
+pour tout élément
+=
+de P, avec k = 1, ..., n. On dit que l'algèbre qu'est P muni de cette structure algébrique est le produit direct ou le produit ou l'algèbre produit. de cette famille d'algèbres. On la note . Si I = {1, ..., n}, la note aussi
+× ... × .
+Exemple. Prenons le cas de deux algèbres A et B. Alors, la structure d'algèbre de A × B est définie de la manière suivante : pour tout entier naturel n, pour tout élément ω de , quels que soient les éléments
+de
+et
+de , avec i = 1, ..., n, on a ((, ), ..., (, )) = ((, ..., ), ((, ..., ).
+Voici quelques propriétés élémentaires des produits d'algèbres.
+Les projecteurs canoniques de . (qui à un élément associent sa composante d'indice donné) sont des homomorphismes surjectifs.
+La structure algébrique de
+est l'unique structure algébrique sur l'ensemble
+pour laquelle les projecteurs canoniques sont des homomorphismes.
+Soit, pour tout i dans I,
+un homomorphisme d'une algèbre
+dans une algèbre . Alors l'application
+de
+dans
+qui à
+associe
+est un homomorphisme.
+Soit, pour tout i dans I,
+une sous-algèbre de . Alors
+est une sous-algèbre de .
+Le produit d'algèbres est associatif et commutatif, en un sens à préciser que le lecteur pourra déterminer (de manière analogue au produit cartésien d'ensembles).
+Le graphe d'un homomorphisme entre deux algèbres A et B est une sous-algèbre de A × B.
+Voici la propriété fondamentale des produits d'algèbres.
+Théorème. Soient, pour tout i dans I,
+le projecteur canonique du produit
+(à un élément on associe sa composante d'indice i) et soit B une algèbre. Quels que soient les homomorphismes
+de B dans
+(pour tout i dans I), il existe un unique homomorphisme g de B dans
+tel que, pour tout i dans I,
+(c'est l'homomorphisme dont les composantes sont les ).
+Algèbre des applications[modifier | modifier le code]
+Soient A une algèbre et X un ensemble. L'ensemble des applications de X dans A s'identifie au produit
+d'algèbres toutes égales à A. Il s'ensuit donc qu'il existe une structure algébrique canonique sur l'ensemble des applications de X dans A. Plusieurs exemples d'algèbres sont des sous-algèbres de des algèbres des applications d'un ensemble dans une algèbre.
+Exemple. Soit E un espace topologique (un intervalle du corps R des nombres réels, par exemple). L'ensemble des fonctions de E dans R, ou dans le corps C des nombres complexes, est un anneau, et l'ensemble des fonctions continues de E dans R, ou C, est un sous-anneau de cet anneau. Si on note V un espace vectoriel réel ou complexe de dimension finie, l'ensemble des applications de E dans V est un espace vectoriel réel ou complexe et l'ensemble des applications continues de E dans V est un sous-espace vectoriel de cet espace vectoriel. On retrouve d'algèbres de ce type en analyse (anneaux ou espaces vectoriels d'applications continues, différentiables, analytiques, espace vectoriel d'applications intégrables, etc.).
+Voici quelques propriétés de l'algèbre des applications.
+L'application diagonale de A dans
+(qui à un élément de A associe l'application constante correspondante) est un homomorphisme.
+Pour tout élément x de X, l'évaluation en x, qui à une application de X dans A associe sa valeur x, est un homomorphisme de
+dans A (c'est projecteur du produit).
+Pour toute partie Y de X, l'application de
+dans
+qui à une application de X dans A associe sa restriction à Y est un homomorphisme.
+Soient A et B des algèbres. L'ensemble des homomorphismes de A dans B n'est pas nécessairement une sous-algèbre de l'algèbre des applications de A dans B. Toutefois, c'est le cas pour les monoïdes commutatifs, les groupes commutatifs, les modules sur un anneau commutatif, mais pas pour les anneaux.
+Quotients et congruences[modifier | modifier le code]
+Définition et propriétés élémentaires[modifier | modifier le code]
+Il est courant de définir le groupe quotient d'un groupe par un sous-groupe distingué, l'anneau quotient d'un anneau par un idéal bilatère ou le module quotient d'un module par un sous-module. Mais la généralisation de ces notions dans le cadre de l'algèbre universelle est moins immédiate. Ces quotients sont en fait des quotients par rapport à des relations d'équivalence particulières et dans ces exemples, les classes d'équivalence d'élément neutre (e, 1 et 0 respectivement) sont les sous-groupes distingués, les idéaux bilatères et les sous-modules.
+Soit A une algèbre de signature Ω. On appelle congruence (en) (ou Ω-congruence si on tient à préciser) de A toute relation d'équivalence R dans A telle que, pour tout entier naturel n, pour tout élément ω de
+quels que soient les éléments , ..., , , ...,
+de A, si, pour i = 1, ..., n,
+et
+sont équivalents pour R, alors (, ..., ) et (, ..., ) sont équivalents pour R.
+Soit R une congruence de A. Alors chacune des opérations de A passe au quotient suivant R, c'est-à-dire produit une opération « bien définie » dans l'ensemble quotient A/R : le composé des classe d'équivalence d'éléments de A pour R est la classe d'équivalence du composé de ces éléments de A pour R. On définit ainsi une structure algébrique sur A/R, et l'algèbre ainsi obtenue est appelée algèbre quotient (en) ou, plus simplement, quotient de A par R. Lorsque l'on considère l'ensemble A/R comme une algèbre de signature Ω, c'est pour cette structure algébrique.
+La surjection canonique de A sur A/R est un homomorphisme. En fait, la structure algébrique de A/R est l'unique structure algébrique sur l'ensemble A/R pour laquelle cette surjection est un homomorphisme.
+Revenons sur le cas des groupes. Soit G un groupe. Alors, pour tout sous-groupe distingué H de G, la relation d'équivalence dans G définie par H (x et y sont équivalents si et seulement si
+appartient à H) est une congruence de G. Réciproquement, pour toute congruence R de G, la classe d'équivalence de l'élément neutre de G est un sous-groupe distingué de G. On obtient ainsi une bijection entre les congruences de G et les sous-groupes distingués de G. On obtient des résultats analogues pour les anneaux et les modules en remplaçant les sous-groupes distingués par les idéaux bilatères et les sous-modules, respectivement.
+Les congruences de A ne sont autres que les sous-algèbres de l'algèbre produit A × A qui sont des relations d'équivalence.
+Voici quelques propriétés des congruences.
+L'identité de l'ensemble A et l'ensemble A × A sont des congruences de A.
+L'intersection d'un ensemble de congruences de A est une congruence de A.
+Soit B une sous-algèbre de A. Pour toute congruence R de A, la relation d'équivalence dans B induite par R (son intersection R ∩ (B × B) avec B × B) est une congruence dans B, qui est dite induite sur B par R.
+Pour toute relation binaire R dans A, il existe une plus petite congruence de A qui la contienne, et c'est l'intersection de l'ensemble des congruences de A qui la contiennent, et elle est dite engendrée par R.
+L'ensemble des congruences de A est un treillis complet pour la relation d'inclusion, c'est-à-dire toute ensemble de congruences de A admet, pour la relation d'inclusion, une borne inférieure et une borne supérieure. Dans ce treillis, la borne inférieure d'une famille de congruences est son intersection et la borne supérieur est la congruence engendrée par sa réunion.
+Exemple de géométrie affine. Soient K un corps et E un espace affine sur K attaché à un espace vectoriel V sur K. On considère E comme un algèbre pour une signature convenable (voir plus haut). Pour tout sous-espace vectoriel W de V, l'ensemble des couple (x, y) de points de E tels que x - y appartient à V est une congruence de cette algèbre, et on obtient ainsi une bijection entre le treillis des congruences de E est celui des sous-espaces vectoriels de V.
+Passage au quotient et théorèmes d'isomorphie[modifier | modifier le code]
+Comme dans le cas des groupes, des anneaux et des modules, il y a une notion de passage au quotient d'homomorphismes et il y a des théorèmes d'isomorphie.
+Premier théorème d'isomorphie. Soient A et B des algèbres, f un homomorphisme de A dans B. Alors la relation d'équivalence U dans A associée à f (x est équivalent à y pour U si et seulement si f(x) = f(y)) est une congruence dans A, dite associée à f et est notée , et l'application g de A/ dans B déduite de f par passage au quotient est un homomorphisme injectif, et un donc g définit un isomorphisme de A/ sur f(B). Si f est une surjection, alors g est un isomorphisme de A/ sur B.
+Plus généralement, si R et S sont des congruences de A et B respectivement et si, quels que soient les éléments x et y de A qui sont équivalents pour R, f(x) et f(y) sont équivalents pour S (on dit alors que f est compatible avec R et S), alors, par passage au quotient, on définit une application de A/R dans B/S, et cette application est un homomorphisme.
+Proposition. Soit R une relation d'équivalence dans une algèbre A. Pour que R soit une congruence de A, il faut et il suffit qu'il existe un homomorphisme f de A dans une algèbre B tel que R est la congruence de A associée à f.
+Définition. On dit qu'une algèbre B est image homomorphe d'une algèbre A s'il existe un homomorphisme surjectif f de A sur B, et alors B est isomorphe à l'algèbre A/R, où R est la congruence de A associée à f.
+Voici la propriété fondamentale des algèbres quotients.
+Théorème. Soient A et B des algèbres, R une congruence de A et p la surjection canonique de A sur A/R. Pour tout homomorphisme f de A/R dans B, alors f o p est un homomorphisme de A dans B qui est compatible avec R. L'application f
+f o p de l'ensemble des homomorphismes de A/R dans B dans l'ensemble des homomorphismes de A dans B qui sont compatibles avec R est une bijection. En termes de théorie des catégories, cela peut s'interpréter en disant que le couple (A/R, p) est un représentant du foncteur, de la catégorie des algèbres de signature Ω dans la catégorie des ensembles, qui à toute algèbre X de signature Ω associe l'ensemble des homomorphismes de A dans X qui sont compatibles avec R.
+Définition. Soient A une algèbre, B une sous-algèbre de A et R une congruence de A. On dit que B est saturée pour R si la classe d'équivalence pour R de tout élément de B est incluse dans B, c'est-à-dire si B est la réunion de classes d'équivalence de R. La réunion de l'ensemble des classes d'équivalence pour R des éléments de B est une sous-algèbre de A qui est saturée pour R, et on l'appelle saturée de B pour R. Elle est égale à l'image R(B) de B par la relation R.
+Proposition. Soient A et B des algèbres telles qu'il existe un homomorphisme f de A sur B et soit R la congruence de A associée à f. Alors l'application de l'ensemble des sous-algèbres de A qui sont saturée pour R dans l'ensemble des sous-algèbres de f(B) qui à une telle sous-algèbre C de A associe f(C) est une bijection.
+Deuxième théorème d'isomorphie. Soient A une algèbre, B une sous-algèbre de A, R une congruence de A et C la saturé de B pour R. Alors l'injection canonique de B dans C est compatible avec les relations d'équivalence S et T induites sur B et C par R, et donc, on a par passage au quotient, un homomorphisme g de B/S dans C/T. Si de plus A = C, alors g est un isomorphisme de B/S sur A/R = C/T.
+Troisième théorème d'isomorphie. Soient A une algèbre, R et S des congruences de A telles que R est incluse dans S. Alors l'identité de A est compatible avec R et S et alors la relation d'équivalence associée à l'application h de A/R sur A/S déduite de l'identité de A par passage au quotient est notée S/R et appelée quotient de S par R. L'application de (A/R)/(S/R) dans A/S déduite de h par passage au quotient est un isomorphisme (les R se simplifient).
+Proposition. Soient A une algèbre et R une congruence de A. Alors l'application de l'ensemble des congruences de A qui contiennent R dans l'ensemble des congruences de A/R qui à toute congruence S de A qui contient R associe S/R est une bijection.
+Proposition. Soit
+une famille d'algèbre et, pour tout élément i de I,
+une congruence dans . Alors la relation binaire R dans
+définie par
+R
+si et seulement si
+R
+est une congruence dans . Elle est la relation d'équivalence associée à l'homomorphisme g de
+dans
+qui à
+associe la famille
+des classes d'équivalence des
+suivant des . D'après le premier théorème d'isomorphie, on déduit de g par passage au quotient suivant R un isomorphisme de
+sur .
+Algèbres simples[modifier | modifier le code]
+Définition. On dit qu'un algèbre A est simple (en) si l'ensemble de ses congruences est un ensemble à deux éléments, c'est-à-dire si A n'est ni vide ni triviale et s'il n'existe pas de congruence autre que l'identité de A et la congruence A × A.
+Cette définition généralise la notion de groupes simples, de modules simples sur un anneau donné. La définition des anneaux simples et des algèbres (sur un anneau) simples variant d'un auteur à l'autre, cette définition la généralise parfois. Dans le cas des algèbres de Lie sur un corps commutatif donné, on exige en plus que les algèbres de Lie simples (en) soient non commutatives et de dimension finie[réf. souhaitée].
+Algèbre des termes et variétés d'algèbres[modifier | modifier le code]
+Algèbres des termes[modifier | modifier le code]
+L'algèbre des termes de signature Ω sur un ensemble est une algèbre qui va permettre de définir la notion d'identité dans une algèbre, par exemple l'associativité, la commutativité et la distributivité. Intuitivement, elle est formée de toutes les combinaisons formelles d'éléments de cet ensemble à partir d'éléments de Ω, interprétés comme des opérateurs. On peut penser à cette algèbre comme une sorte d'algèbre de polynômes en des indéterminées (en nombre fini ou infini).
+Définition. Soit I un ensemble. Il existe un plus petit ensemble T tel que I et
+sont inclus dans T (on suppose ces deux ensembles disjoints) et tel que, pour tout entier naturel non nul n, pour tout élément ω de
+et quels que soient les n éléments , ...,
+de T, la suite (ω,, ..., ) appartient à T. Il existe alors une unique structure algébrique de signature Ω sur T telle que
+est l'ensemble des constantes de T et telle que, pour tout entier naturel non nul n, pour tout élément ω de
+et quels que soient les n éléments , ...,
+de T, (, ..., ) = (ω,, ..., ), ce qui permet de désigner par ω(, ..., ) l'élément (ω,, ..., ) de T. On appelle algèbre des termes (en) de signature Ω construite sur I et on note (I) ou T(I) l'algèbre ainsi obtenue. On l'appelle aussi algèbres des mots ou algèbre absolument libre. On appelle termes ou mots les éléments de T.
+L'élément i de T est noté
+et les
+sont appelées indéterminées de T.
+Ainsi, les termes sont expressions formelles en faisant opérer les éléments de Ω sur les indéterminées (les , éléments de I) et les constantes (les éléments de ), et en faisant opérer les éléments de Ω sur les expressions ainsi obtenues et réitérant le précédé, un nombre fini de fois.
+Théorème. L'algèbre T = (I) a une propriété universelle : pour toute algèbre A et pour toute application f de l'ensemble I dans A, il existe un unique homomorphisme d'algèbres de T dans A qui prolonge f, et on obtient ainsi une bijection entre l'ensemble des applications de I dans A et l'ensemble des homomorphismes de T sur dans A.
+Soit A une algèbre. En identifiant l'ensemble des applications de I dans A à l'ensemble des familles d'éléments de A indexées par I, on a, d'après ce qui précède, une bijection canonique φ entre l'ensemble des familles d'éléments de A indexées par I et l'ensemble des homomorphismes de T dans A. Pour toute famille
+d'éléments de A indexée par I et pour tout élément t de T, on note note
+la valeur en t de l'homomorphisme φ() de T dans A : on dit alors que cet élément de A est obtenu en substitutant les
+aux . De manière intuitive, on remplace chaque occurrence de l'indéterminée
+dans le terme t par l'élément
+de A et on calcule l'expression obtenue dans A. Cela s'interprète de la même manière que la substitution aux indéterminées d'un polynôme d'élément d'une algèbre associative unifère et commutative sur un anneau commutatif.
+Pour toute algèbre A, il existe un homomorphisme surjectif à valeurs dans A définie sur l'algèbre des termes construits sur A.
+Identités[modifier | modifier le code]
+Définition. On appelle identité de signature Ω construite sur X tout couple d'éléments de T = (X). Étant donné un identité (u, v), on dit qu'une algèbre A satisfait l'identité u = v si, pour toute famille x =
+d'éléments de A indexée par I, on a u(x) = v(x), autrement dit, en substituant, pour tout élément i de I, un même élément de A à l'indéterminée
+dans u et v, les éléments de A ainsi obtenus sont égaux.
+Exemples. On considère un magma M, c'est-à-dire un ensemble muni d'une seule loi de composition.
+On suppose que I = {1, 2, 3} et on considère T = T({1, 2, 3}) et l'identité() = (). Dire que M satisfait cette identité, c'est dire que M est associatif.
+On suppose que I = {1, 2} et on considère T = T({1, 2}) et l'identité
+= . Dire que M satisfait cette identité, c'est dire que M est commutatif. Cet exemple s'applique aussi aux monoïdes, aux groupes et aux anneaux.
+Exemples. Voici quelques exemples d'identités :
+associativité d'une loi de composition ;
+commutativité d'une loi de composition ;
+idempotence d'une loi de composition (le carré de tout élément x est égal à x), par exemple les lois d'un treillis ;
+distributivité d'une loi de composition sur une autre (la multiplication par rapport à l'addition d'un anneau) ;
+distributivité d'une loi de composition externe sur une loi de composition (un des axiomes par exemple d'espace vectoriel ;
+l'« associativité » d'une loi externe (par exemple l'identité (ab)x = a(bx), dans un espace vectoriel sur un corps, où a et b sont des scalaires et x est un vecteur);
+le fait qu'un élément soit un élément neutre pour une loi de composition (quand l'élément neutre fait partie de la signature);
+le fait qu'un élément soit « neutre » pour une loi externe, (par exemple, l'identité 1.x = x dans un espace vectoriel sur un corps, où 1 est l'élément unité du corps des scalaires);
+le fait qu'une application donnée associe à tout élément d'un groupe son inverse (quand la fonction inverse fait partie de la signature).
+Variétés d'algèbres[modifier | modifier le code]
+Définition. Une variété d'algèbres (en) de signature Ω est une classe V d'algèbres de signature Ω telle qu'il existe un ensemble I et une partie S de (I)× (I) telle que V est la classe de toutes les algèbres de signature Ω qui satisfont chacune des identités de S. En fait, on pourrait, pour définir les variétés d'algèbres en général, se limiter à considérer l'algèbre des termes d'un ensemble infini dénombrable fixé une fois pour toutes (l'ensemble des entiers naturels, par exemple).
+Par exemple, les monoïdes, les groupes, les anneaux, les modules sur un anneau donné (ou espaces vectoriels sur un corps donné) forment des variétés d'algèbres.
+Les variétés d'algèbres de signature donnée forment des catégories pour les homomorphismes et la composition des homomorphismes, et ces catégories ont la plupart des propriétés communes usuelles des catégories des groupes, des monoïdes, des anneaux, des espaces vectoriels sur un corps, etc. : construction des structures induites et des quotients, existence et construction des produits, existence d'objets libres, existence des limites et des colimites quelconques, construction des limites quelconques et des colimites filtrantes. En un sens, on peut dire que les variétés d'algèbres sont de « bonnes » catégories d'algèbres.
+La classe de toutes les algèbres qui sont vides ou triviales forment une variété d'algèbres.
+Certaines opérations de structures algébriques qui font que l'on a à faire à une variété d'algèbres ne sont pas données dans la définition usuelle. Par exemple, un groupe un ensemble muni d'une loi de composition vérifiant certaines propriétés, mais seules l'existence de l'élément neutre et l'existence de l'inverse de tout élément font partie de la définition usuelle, mais le groupe n'est pas, dans la définition usuelle, muni d'un élément neutre et d'une inversion. Pour déterminer les opérations qui dont que l'on a à faire à une variété d'algèbres, on peut examiner les axiomes des sous-structures (sous-groupes, sous-anneaux, etc.).
+Soit V une variété d'algèbres. On a un foncteur, dit d' oubli, de la catégorie V dans la catégorie des ensembles en associant à toute algèbre A de V son ensemble sous-jacent.
+Exemples de variétés d'algèbres[modifier | modifier le code]
+On trouvera ici la liste des principales variétés d'algèbres que l'on rencontre en mathématiques. Pour chacune des types de structure algébrique suivantes, la classe de toutes les algèbres qui sont de ce type forment une variété d'algèbres :
+Les ensembles (avec aucune opération finitaire).
+Les ensembles pointés, c'est-à-dire les ensembles munis d'un élément.
+Les magmas, c'est-à-dire les ensembles munis d'une loi de composition.
+Les magmas associatifs, c'est-à-dire les magmas dont loi est associative.
+Les magmas commutatifs, c'est-à-dire les magmas dont la loi est commutative.
+Les magmas unitaires, c'est-à-dire les magmas ayant un élément unité.
+Les monoïdes, c'est-à-dire les magmas unitaires dont la loi est associative.
+Les monoïdes commutatifs.
+Les groupes.
+Les groupes commutatifs.
+Les algèbres unaires à opérateurs dans un ensemble donné S, c'est-à-dire les ensembles E muni d'un loi externe de S sur E (donc un opérateur unaire sur E pour chacun des éléments de S).
+Les M-ensembles, où M est un monoïde donné (un groupe par exemple), c'est-à-dire les ensembles E munis d'une action de G sur E.
+Les groupes à opérateurs dans un ensemble donné S, c'est-à-dire les groupes G muni de loi externe de S sur G qui définit, pour chacun des éléments de S un endomorphisme de groupes de G.
+Les groupes commutatifs à opérateurs dans un ensemble donné S.
+Les quasigroupes.
+Les boucles. Les boucles associatives ne sont autres que les groupes.
+Les semi-anneaux.
+Les anneaux.
+Les anneaux commutatifs.
+Les modules sur un anneau donné A (en particulier, les espaces vectoriels sur un corps donné K).
+Les bimodules sur deux anneaux donnés A et B (une opération unaire pour chacun des éléments de A et de B).
+Les algèbres sur un anneau commutatif donné A (sans hypothèses sur la multiplication autre que la bilinéarité).
+Les algèbres associatives sur un anneau commutatif donné A.
+Les algèbres associatives unitaires sur un anneau commutatif donné A.
+Les algèbres associatives unitaires commutatives un anneau commutatif donné A.
+Les algèbres alternatives sur un anneau commutatif donné A, c'est-à-dire une algèbre sur A dont la multiplication est telle que (xx)y = x(xy) et y(xx) = (yx)x quels que soient les éléments x et y de A (par exemple, l'algèbre réelle des octonions de Cayley).
+Les algèbres alternatives unitaires sur un anneau commutatif donné A.
+Les anneaux involutifs, c'est-à-dire les anneaux A muni d'un antiautomorphisme d'anneau de A (un isomorphisme de A sur l'anneau opposé à A). Exemples : le corps des nombres complexes muni de la conjugaison des nombres complexes ou le corps des quaternions muni de la conjugaison des quaternions. Ils servent dans la théorie des formes sesquilinéaires sur un anneau.
+Les algèbres involutives sur un anneau commutatif donné A, c'est-à-dire les algèbres unitaires associatives E sur A munies d'une involution de A, c'est-à-dire d'un automorphisme de A-module x → x* de E tel que (x*)* et (xy)* = y*x* quels que soient x et y dans E. Ils généralisent les anneaux involutifs(en prenant pour A l'anneau
+des entiers relatifs). On rencontre les algèbres involutives en analyse fonctionnelle (C*-algèbres).
+Les modules différentiels sur un anneau commutatif donné A, c'est-à-dire les A-modules M muni d'un endomorphisme D de M tel que D(D(x)) = 0 pour tout élément x dans M. On rencontre les modules involutifs en algèbre homologique (un complexes de chaînes peut être considéré comme un module différentiel).
+Les anneaux différentiels, c'est-à-dire les anneaux A muni d'un endomorphisme de groupe D de A tel que, quels que soient les éléments x et y dans A, on ait D(xy) = D(x).y + x.D(y). Exemple : l'anneau des polynômes à une indéterminé à coefficients dans un anneau muni de la dérivation des polynômes, ou encore l'anneau des fonctions réelles indéfiniment différentiables définies sur R muni de la dérivation de ses fonctions.
+Les algèbres de Lie sur un anneau commutatif donné A.
+Les algèbres de Jordan sur un corps commutatif K de caractéristique différente de 2.
+Les semi-treillis (en) ou demi-treillis, c'est-à-dire les magmas associatifs commutatifs T tels que, pour tout élément x de T, x² = x.
+Les treillis.
+Les treillis bornés, c'est-à-dire les treillis ayant un plus petit élément et un plus grand élément, ces éléments ayant considéré comme des opérations nullaires.
+Les treillis distributifs.
+Les treillis modulaires (en).
+Les algèbres de Boole.
+Les anneaux booléens, c'est-à-dire les anneaux A tel que, pour tout élément x de A, x² = x. Il est équivalent de se donner une structure d'algèbre de Boole sur un ensemble et une structure d'anneau booléen sur cet ensemble.
+Voici des structures algébriques qui ne forment pas des variétés d'algèbres : les semi-groupes, c'est-à-dire les monoïdes dont tout élément est simplifiable, les corps commutatifs, les anneaux principaux, les anneaux factoriels, les modules libres sur un anneau donné non trivial A qui n'est pas un corps, les treillis complets.
+Soit K un corps (commutatif ou non). Soit X un espace affine sur un corps K, en considérant l'ensemble vide comme un espace affine attaché à un espace vectoriel nul. Alors, pour tout entier naturel non nul n et pour toute suite finie de n éléments de K dont la somme est égale à 1, on a opération n-aire qui à une suite de n-points associe le barycentre de ces points affecté de ces éléments de K. On définit donc une structure algébrique sur X. En fait, on peut montrer, que, en associant à chaque espace affine sur K l'algèbre ainsi définie, on a un foncteur de la catégorie des espaces affines sur K (les morphismes sont les applications affines) dans une variété d'algèbres qui est en fait une équivalence de catégories. Ceci montre que les propriétés catégorielles des variétés d'algèbres s'appliquent à la catégorie des espaces affine sur K.
+Propriétés des variétés d'algèbres[modifier | modifier le code]
+Les variétés d'algèbres sont stables pour la plupart des constructions usuelles en algèbre. Soit V une variété d'algèbres. On a les propriétés suivantes.
+Tout sous-algèbre d'une algèbre de V est une algèbre de V.
+Pour toute congruence R d'une algèbre A de V, l'algèbre quotient de A par R est une algèbre de V.
+Quelles que soient les algèbres A et B, s'il existe un homomorphisme surjectif de A sur B et si A est une algèbre de V, alors B est une algèbre de V.
+Toute algèbre qui est isomorphe à une algèbre de V est une algèbre de V.
+L'algèbre produit d'une famille d'algèbres de V est une algèbre de V.
+L'algèbre vide (s'il en existe) est une algèbre de V et toute algèbre triviale (c'est-à-dire qui est un singleton) est une algèbre de V.
+En fait, on a la caractérisation suivante des variétés d'algèbres.
+Théorème de Birkhoff. Pour qu'une classe V d'algèbres de signature Ω soit une variété d'algèbres, il faut et il suffit qu'elle vérifie les propriétés suivantes :
+toute sous-algèbre d'une algèbre de V est une algèbre de V;
+quelles que soient les algèbres A et B, si A est une algèbre de V et s'il existe un homomorphisme surjectif de A sur B, alors B est une algèbre de V;
+le produit d'une famille d'algèbres de V est une algèbre de V.
+Proposition. Soit V une variété d'algèbres. Alors, au sens de la théorie des catégories, les isomorphismes de la catégorie V ne sont autres que les homomorphismes de V qui sont des bijections et les monomorphismes de V ne sont autres que les homomorphismes de V qui sont des injections. Tout homomorphisme surjectif de V est un épimorphisme de la catégorie V, mais la réciproque peut être fausse, comme le montre la catégorie des anneaux (ou des monoïdes) : on peut montrer qu'il existe, dans la catégorie des anneaux, l'injection canonique de l'anneau
+des entiers rationnels dans le corps
+des nombres rationnels est un épimorphisme.
+Dans les variétés d'algèbres, certains auteurs appellent épimorphismes les homomorphismes surjectifs, ce qui peut créer une confusion avec les épimorphisme de la théorie des catégories.
+Proposition. Le produits directs d'algèbres de V ne sont autres que les produits au sens de la théorie des catégories.
+Toutes les propriétés générales des variétés d'algèbres s'appliquent à toutes les structures algébriques qui forment des variétés d'algèbres énumérées précédemment, et à bien d'autres. On peut donc définir pour ses structures des homomorphismes, des sous-algèbres et les congruences, et on peut construites les produits directs et les quotients, et ce, de manière uniforme. De plus, comme on le verra, on peut construire les limites quelconques et les colimites filtrantes de foncteurs (en particulier des limites projectives et inductives de systèmes projectifs et inductifs indexés par des ensembles ordonnés filtrants) de la même manière qu'en théorie des ensembles. En particulier on a des égalisateurs, des coégalisateurs et des produits fibrés, construits comme en théorie des ensembles. On peut aussi montrer que ces structures admettent des colimites quelconques, et en particulier des coproduits (ou sommes) et des coproduits fibrés (ou sommes amalgamées ou fibrées), mais chaque variété d'algèbres à sa construction, qui peut différer de la construction que l'on retrouve en théorie des ensembles. On peut construire les algèbres libres engendrées par des ensembles.
+Algèbres libres[modifier | modifier le code]
+Algèbres libres[modifier | modifier le code]
+On retrouve en algèbre différents objets libres sur un ensemble : les monoïdes libres, les groupes libres, les modules libres sur un anneau donné, les algèbres de polynômes à coefficients dans un anneau commutatif. Tous ces exemples sont assez bien connus (au niveau universitaire). Toutes ces constructions ont des propriétés communes, qui en fait relève de la théorie des catégories, et se généralisent dans les variétés d'algèbres.
+Soit V une variété d'algèbre de signature Ω, et on suppose qu'il existe des algèbres non triviales dans V, c'est-à-dire qui ont plus d'un élément. Alors on a le théorème suivant :
+Théorème. Pour tout ensemble I, il existe une algèbre L de V qui contient I comme sous-ensemble telle que, pour toute algèbre A de V et pour toute application f de I dans A, il existe un unique homomorphisme de L dans A qui prolonge f. On dit qu'une telle algèbre L est une algèbre libre construite sur I dans V. La partie I de L est alors une partie génératrice de L.
+Si V est la variété de toutes les algèbres de signature Ω, alors l'algèbre de termes (I) est une algèbre libre construite sur I.
+Proposition. Quelles que soient les algèbres libres L et M construites sur I dans V, il existe un unique isomorphisme de L sur M qui prolonge l'application identité de l'ensemble I. Ainsi, l'algèbre libre construite sur I dans V est unique à un isomorphisme unique près.
+Les algèbres libres construites sur I dans V sont donc uniques à un isomorphisme unique près. On peut donc en choisir une fois pour toutes. Mais il y a une construction canonique, qui est une algèbre quotient de l'algèbre des termes construits sur I. Cette construction est valable dans chacune des variétés d'algèbres, mais en pratique, dans les variétés d'algèbres les plus importantes, il y a une construit explicite plus simple, qui dépend réellement de la variété d'algèbres considérée. La construction explicite n'a pas vraiment d'importance, mais on en construit une pour pouvoir parler de l' algèbre libre et non pas d'une algèbre libre construite sur I. Voici sa construction.
+Soit S l'ensemble des couples d'éléments de
+( est l'ensemble des entiers naturels) qui sont des identités satisfaites par toute algèbre de V et soit R la congruence de
+engendrée par l'ensemble des (f(s), f(t)) tels que f est un homomorphisme de
+dans
+et (s, t) est un élément de S. Alors la composée de l'injection canonique de I dans
+et de la surjection canonique de
+sur L = /R est une injection et, en identifiant I à l'image de cette injection, L est une algèbre libre construite sur I dans V, que l'on l'appelle l' algèbre libre construite sur I dans V et on la note (I).
+Exemples. Voici des variétés d'algèbres où la construction explicite des algèbres libres construites une ensemble I est bien connue, avec une indication de la construction explicite :
+les magmas : c'est en fait l'algèbre des termes ;
+les monoïdes : le monoïde des mots construits sur I, c'est-à-dire l'ensemble des suites finies d'éléments de I, avec pour produit la juxtaposition (et avec le mot vide comme élément neutre) ;
+les groupes : le groupe libre construit sur I ;
+les monoïdes commutatifs : l'ensemble des familles à support fini d'éléments de
+indexée par l'ensemble I ;
+les modules sur un anneau donné A : l'ensemble des familles à support fini d'éléments de A indexée par l'ensemble I ;
+les algèbres associatives unifères sur un anneau commutatif donné A : l'algèbre tensorielle sur le A-module libre construit sur I ;
+les algèbres associatives unifères et commutatives sur un anneau commutatif donné A : l'algèbre des polynômes à coefficients dans A avec une indéterminée par chacun des éléments de I, qui est isomorphe à l'algèbre symétrique (en) du A-module libre construit sur I.
+Proposition. Quels que soient les ensembles I et J et l'application f de I dans J, il existe un unique homomorphisme de (I) dans (J) qui prolonge f, et on le note (f). Cet homomorphisme est injectif, surjectif ou un isomorphisme suivant que f est injective, surjectif et bijective. En termes de la théorie des catégories, on définit ainsi un foncteur F de la catégorie des ensembles dans V, qui est en fait un adjoint à gauche du foncteur d'oubli de V dans la catégorie des ensembles.
+Définition. On dit qu'une algèbre de V est libre en tant qu'algèbre de V (sans référence à un ensemble d'indéterminées) si elle est isomorphe à une algèbre libre construite sur un ensemble dans V. Cela dépend de la variété V et non pas seulement de Ω. Cela généralise la notion de module libre ou de groupe libre.
+Pour toute algèbre A, il existe un homomorphisme surjectif à valeurs dans A définie sur une algèbre libre construite sur l'ensemble sous-jacent à A.
+Algèbres initiales[modifier | modifier le code]
+Au sens de la théorie des catégories, toute variété d'algèbres A admet des objets initiaux, c'est-à-dire une algèbre U telle que, pour toute algèbre de A de V, il existe un unique homomorphisme de U dans A. Les objets initiaux dans la variété V ne sont autres que objets libres construits sur l'ensemble vide, et ils sont uniques à un isomorphisme unique près.
+Dans la catégorie des ensembles, l'ensemble vide est l'unique objet initial, mais dans une variété d'algèbres, les objets initiaux n'ont pas comme ensemble sous-jacent l'ensemble vide, sauf s'il n'y a aucune opération nullaire dans la signature (alors que les objets finaux ont comme ensemble sous-jacent les singletons, objets finaux de la catégorie des ensembles).
+Voici quelques exemples d'objets initiaux dans des variétés d'algèbres :
+pour les magmas ou les magmas associatifs, le magma vide est l'unique objet initial ;
+pour les ensembles pointés, les monoïdes, les groupes et les modules sur un anneau donné, les objets initiaux sont les algèbres triviales ;
+pour les anneaux, l'anneau
+des entiers rationnels en est un objet initial ;
+pour tout anneau commutatif K, K est un objet initial de la variété des algèbres unifères associatives sur K ;
+le treillis vide est l'unique objet initial de la variété des treillis ;
+l'algèbre de Boole {0, 1} est un objet initial de la variété des algèbres de Boole.
+Algèbres libres sur un ensemble à un élément[modifier | modifier le code]
+Le foncteur d'oubli de la variété d'algèbres V dans la catégorie des ensembles est représentable. Autrement dit, il existe un couple (U, c) formé d'une algèbre U de V et d'un élément c de V tel que, pour toute algèbre A de V, l'application f → f(c) de Hom(U, A) dans l'ensemble sous-jacent à A est bijection. Les représentants de foncteur s'identifient aux algèbres libres construites sur un ensemble à un élément (le c en question) dans V. Dans la catégorie des ensembles, le couple ({0}, 0) est un représentant du foncteur identité de la catégorie des ensembles.
+Voici quelques exemples dans des variétés d'algèbres:
+pour la catégorie des monoïdes (et des monoïdes commutatifs) : , où
+est monoïde additif des entiers naturels (incluant 0) ;
+pour les magmas associatifs (et des magmas associatifs commutatifs): , en considérant l'addition ;
+pour les groupes (et groupes commutatifs) :  ;
+pour les A-modules, où A est un anneau : (A, 1) ;
+pour les M-ensembles, où M est un monoïde (c'est les ensembles E munis d'un action de M sur E) : (M, 1) ;
+pour les A-algèbres associatives unifères (et commutatives), le couple (A[X], X), désigne la A-algèbre des polynômes à une indéterminée X ;
+pour les ensembles pointés : (({0, 1}, 0), 1).
+Soit G un groupe. Pour qu'une action de G sur un ensemble non vide E soit simplement transitive, il faut et il suffit que le G-ensemble qu'est l'ensemble E muni de cette action soit un G-ensemble libre construite sur un élément de E.
+Substitution[modifier | modifier le code]
+Soit I un ensemble. Pour tout élément i de I, on peut alors noter
+l'élément de (I) auquel s'identifie i, et on dit que les
+sont des indéterminées de (I). En interprétant ainsi les éléments de I, on a le résultat qui suit.
+Soit A une algèbre de V. En identifiant l'ensemble des applications de I dans A à l'ensemble des familles d'éléments de A indexées par I, on a, d'après la définition des algèbres libres, une bijection canonique φ entre l'ensemble des familles d'éléments de A indexées par I et l'ensemble des homomorphismes de L = (I) dans A. Pour toute famille
+d'éléments de A indexée par I et pour tout élément t de L, on note
+la valeur en t de φ(): on dit alors que cet élément de A est obtenu en substituant les
+aux . Cela s'interprète de la même manière que la substitution aux indéterminées d'un polynôme d'élément d'une algèbre associative unitaire et commutative sur un anneau commutatif.
+Soit A une algèbre de V, t un élément de L = (I). En associant de cette manière à tout élément de
+un élément d'élément de A, obtenue par substitution dans t, on obtient une application de
+dans A qui s'interprète, dans la cas de la variété des algèbres associatives unifères et commutatives sur un anneau commutatif K, comme l'application polynomiale associée à t.
+Dépendance et bases[modifier | modifier le code]
+Soient A une algèbre de V,
+une famille d'éléments de A indexée par un ensemble I et φ l'homomorphisme correspondant de (I) dans A.
+Pour que cette famille soit une famille génératrice de A, il faut et il suffit que φ soit une surjection, ce qui ne dépend que de la signature d'algèbres, et non pas de la variété d'algèbres.
+On dit que cette famille est libre ou que ses éléments sont indépendants dans A si φ est une injection, et sinon on dit que la famille est liée ou que ses éléments dépendants. Cela généralise la notion de dépendance linéaire que l'on rencontre en algèbre linéaire et de dépendance algébrique que l'on rencontre dans les algèbres associatives unifères et commutatives sur un anneau commutatif (algèbre des polynômes).
+On dit qu'une famille d'éléments de A est une base de A si elle est une famille génératrice et une famille libre, c'est-à-dire si φ est un isomorphisme. Cela généralise les bases des modules ou des espaces vectoriels.
+L'algèbre A est libre dans V si et seulement si elle admet une base relativement à V.
+Les notions de famille libre, d'éléments indépendants et de base dépendent de la variété d'algèbres et non seulement de la signature d'algèbres, contrairement au cas des familles génératrices.
+Présentations[modifier | modifier le code]
+On retrouve en algèbre les présentations de groupes. Cette notion se généralise au cas des variétés d'algèbres.
+Définition. Soit A une algèbre de la variété d'algèbre V. On appelle présentation de A (relativement à V) tout couple (X, S) formé d'une partie génératrice X de A et d'un ensemble S de couples d'éléments l'algèbre libre L construite sur X telle que la congruence R d'algèbre de L engendrée par S est la relation d'équivalence associée à l'unique homomorphisme de L sur A qui prolonge l'injection canonique de X dans A. Les éléments de X sont alors appelés générateurs de la présentation et les éléments de S les relations de la présentation.
+Cette notion de présentations dans une variété d'algèbres généralise bien celle des groupes. Dans le cas des groupes, on se donne une partie génératrice X d'un groupe G (les générateurs) et un partie K du groupe libre L construit sur X (les relateurs) telle que le sous-groupe distingué de L engendré par K est le noyau de l'unique homomorphisme de L dans G qui prolonge l'injection canonique de X dans G. Le passage de la partie K à l'ensemble S de couples de L se fait ainsi : au lieu de considéré un élément x de L (un relateur de la présentation), on considère le couple (x, e) formé de x et de l'élément neutre e de L (une relation de al présentation).
+Toute algèbre A d'une variété d'algèbre V admet une présentation.
+La notion de présentation d'algèbres permet parfois de faire plus simplement certains calculs, en particulier lorsque l'on considère toutes la variété de toutes les algèbres d'une signature donnée ou encore lorsque l'on peut construite explicitement les algèbres libres dans la variété en question (par exemple la catégorie des groupes).
+On dit qu'une algèbre A de V est de présentation finie s'il existe une présentation (X, S) de A telle que les ensembles X et S sont finis.
+Si une algèbre A de V est de présentation finie, alors elle est de type fini.
+Limites et colimites[modifier | modifier le code]
+Soit V une variété d'algèbres de signature Ω. On peut montrer que la catégorie V admet des limites projectives et des limites inductives et même, plus généralement, des limites et des colimites. On peut aussi montrer que le foncteur d'oubli de V dans la catégorie des ensembles crée les limites quelconques et crée les colimites filtrantes (les limites inductives filtrantes).
+Théorème. Soient I une petite catégorie (resp. un ensemble ordonné filtrant) et F un foncteur de I dans V et considérons L la limite (resp. la colimite) de F considéré comme foncteur dans la catégorie des ensembles, au moyen du foncteur d'oubli. Alors il existe une unique structure algébrique de signature Ω sur L pour laquelle, pour tout élément i de I, l'application canonique de L dans
+(resp. de L dans ) est un homomorphisme. Alors, pour cette structure algébrique sur L, L est, pour les applications canoniques, une limite (resp. une colimite) du foncteur F dans la catégorie V. On peut montrer que cette construction est fonctorielle.
+En particulier, on peut remplacer I par un ensemble ordonné (resp. un ensemble ordonné filtrant) et F par un système projectif (resp. un système inductif) d'algèbres de V : on obtient les limites projectives (resp. les limites inductives).
+Exemples (tous construits comme dans la catégorie des ensembles)
+Les produit d'algèbres de V.
+L'égalisateur et le coégalisateur de deux homomorphismes entre deux algèbres A et B.
+Le produits fibré d'algèbres de A et B de V relativement à des homomorphismes u et v d'une algèbre S à valeurs dans A et B respectivement.
+La catégorie V admet des limites et des colimites quelconques, et donc la catégorie est complète et cocomplète. Cela tomberait en défaut si on n'admettait les algèbres (s'il en existait du moins).
+Coproduits et coproduits fibrés. Cela a pour conséquence que les variétés d'algèbres admettent des coproduits (ou sommes directes). Voici des exemples de coproduits :
+pour les familles de groupes (ou les monoïdes), les coproduits sont les produits libres ;
+pour les familles de modules sur un même anneau (ou les groupes commutatifs), les coproduits sont les sommes directes ;
+pour les familles finies d'algèbres associatives unifères et commutatives sur un même anneau commutatif, les coproduits sont les produits tensoriels (de même pour les anneaux commutatifs).
+Comme on le voit, les coproduits sont rarement construits comme dans le cas des ensembles (c'est alors la réunion disjointe).
+Les variétés d'algèbres admettent aussi des coproduits fibrés (ou sommes amalgamées).
+Existence d'adjoints[modifier | modifier le code]
+Le résultat suivant en est un qui donne l'existence de l'adjoint de certains foncteurs entre des variétés d'algèbres, et on obtient ainsi les cas les plus courants des solutions à des problèmes universels.
+On note Ω et Θ des signatures d'algèbres et V et W des variétés d'algèbres de type Ω et Θ respectivement.
+Théorème. On suppose qu'il existe un foncteur F de la catégorie V dans la catégorie W qui commute aux foncteurs d'oubli dans la catégorie des ensembles, c'est-à-dire tel que, pour toute algèbre A de V, les ensembles sous-jacents à A et F(A) sont égaux et, quels que soient les algèbres A et B de V et l'homomorphisme f de A dans B, les application f et F(f) sont égales. Alors il existe un adjoint à gauche G de F. En particulier, pour toute algèbre A de V et pour toute algèbre C de W, on a une bijection canonique naturelle entre les ensembles d'homomorphismes Hom(F(A), C) et Hom(A, G(C)).
+Exemples particuliers. Les cas les plus importants de foncteurs entre V et de W sont cas des foncteurs d'inclusion (avec Ω = Θ), des foncteurs d'oubli (avec Θ inclus dans Ω) ou des foncteur de modification de structures. Voici les exemples les plus courants.
+W est la catégorie des ensembles (Θ est vide) et F est le foncteur d'oubli de V dans la catégorie des ensembles. Un adjoint de F le foncteur d'algèbre libre de la catégorie des ensembles dans V.
+Un adjoint du foncteur d'oubli de la catégorie des groupes commutatifs dans la catégorie des monoïdes commutatifs est le foncteur qui à tout monoïde commutatif M associe le groupe des fractions de M (ce foncteur associé au monoïde additif
+des entier naturels le groupe
+des entiers rationnels).
+Un adjoint du foncteur d'inclusion de la catégorie des groupes commutatifs dans la catégorie des groupes est le foncteur qui à tout groupe G associé son abélianisé, c'est-à-dire le quotient de G par le groupe dérivé de G.
+Si A est un anneau commutatif, un adjoint du foncteur d'oubli de la catégorie des A-algèbres associatives unifères (resp. des A-algèbres associatives unifères et commutatives) dans la catégorie des A-modules est le foncteur qui à tout A-module associe son algèbre tensorielle (resp. son algèbre symétrique (en)).
+Un adjoint du foncteur d'oubli de la catégorie des monoïdes dans la catégorie des magma associatifs est le foncteur qui à tout magma associatif S associe le monoïde déduit de S par adjonction d'un élément neutre (on ajoute un élément a à S qui n'appartient pas à S et on prolonge la multiplication de S de manière unique en déclarant que a est un élément neutre de S ∪ {a}).
+Si A est un anneau commutatif unitaire, un adjoint du foncteur d'oubli de la catégorie des A-algèbres associatives unitaires dans la catégorie des A-algèbres associatives est le foncteur qui à toute A-algèbre associative E associe la A-algèbre déduite de E par adjonction d'un élément unité (la A-algèbre dont le A-module sous-jacent est A × E dont la multiplication est donnée par (a, x)(b, y) = (ab, ay + bx + xy), quels que soient a et b dans A et x et y dans E).
+Si K et L sont deux anneaux tels que K est un sous-anneau de L, un adjoint du foncteur qui à tout L-module N associe le K-module sous-jacent M est le foncteur d'extension des scalaires. Par exemple, si K est le corps R des nombres réels et L est le corps C des nombres complexes, alors un adjoint de ce foncteur est le foncteur de complexification. Si K et L sont commutatifs, alors on peut remplacer les modules par des algèbres associatives unifères ou par des algèbres de Lie, et on obtient un foncteur d'extension des scalaires entre les catégories correspondantes.
+Si K est un corps (ou un anneau) commutatif, un adjoint du foncteur qui à toute K-algèbre associative unitaire associe son algèbre de Lie (le crochet de Lie étant [x, y] = xy - yx) est le foncteur qui à toute K-algèbre de Lie associe sont algèbre enveloppante.
+Exemples généraux
+Si Θ = Ω et si V est inclus dans W le foncteur d'inclusion de V dans W admet un adjoint.
+Si Θ est inclus dans Ω (c'est-à-dire si
+est inclus dans
+pour tout n) et si, pour toute algèbre A de V, la Θ-algèbre sous-jacente à A est une algèbre de W, alors le foncteur d'oubli de V dans W admet un adjoint.
+Sauf dans le cas de l'algèbre enveloppente des algèbres de Lie, les exemples précédents sont de ces deux types (inclusion et oubli). Dans ce dernier cas, on obtient un adjoint d'un foncteur de « modification de structure ».
+Exemple de géométrie affine. Soit K un corps (commutatif ou non). Il existe une équivalence de catégories entre la catégorie des espaces affines sur K avec applications affines et une variété d'algèbres (voir plus haut). Tout espace vectoriel V sur K peut être considéré comme un espace affine sur K, et on obtient alors un foncteur concret de la catégorie des espaces vectoriels sur K dans la catégorie des espaces affines sur K. Il découle alors du théorème précédant que ce foncteur d'oubli admet un adjoint, qui à tout espace affine E sur K associe son espace vectoriel enveloppant Ê: il est caractérisé, à isomorphisme près, par le fait que E est un hyperplan affine de Ê qui ne passe pas par 0. C'est une sorte de version vectorielle du complété projectif (en) de E (l'espace projectif P(Ê) est un complété projectif de E).
+Histoire[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Bibliographie (en anglais)[modifier | modifier le code]
+George M. Bergman, An Invitation to General Algebra and Universal Constructions, Henry Helson, 1998 (ISBN 978-0-9655211-4-7)
+Stanley N. Burris et H. P. Sankappanavar, A Course in Universal Algebra, Springer-Verlag, 1981 (ISBN 978-3-540-90578-3)
+Paul Cohn, Universal Algebra, Dordrecht, Netherlands, D.Reidel Publishing, 1981 (ISBN 978-9-02771213-4)
+Pierre Grillet, Algebra, Wiley-Interscience Publication, 1999 (ISBN 978-0-471-25243-6)
+Nathan Jacobson, Basic Algebra II, W.H. Freeman, 1989 (ISBN 978-0-7167-1933-5)
+Articles connexes[modifier | modifier le code]
+Algèbre
+Algèbre générale
+Structure (mathématiques)
+Théorie des catégories
+Algebra Universalis (en) — un journal dédié à l'algèbre universelle
+v · d · m
+Domaines des mathématiques
+Algèbre • Algèbre commutative • Algèbre homologique • Algèbre linéaire • Analyse • Analyse réelle • Analyse complexe • Analyse fonctionnelle • Analyse numérique • Calcul quantique • Combinatoire • Géométrie • Géométrie algébrique • Géométrie différentielle • Géométrie non commutative • Optimisation • Physique mathématique • Probabilités • Statistiques • Systèmes dynamiques • Théorie des nombres • Théorie de Galois • Théorie des groupes • Topologie • Topologie algébrique
+Portail de l’algèbre
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Algèbre_universelle&oldid=109545711 ».
+Catégories : Algèbre généraleStructure algébriqueCatégories cachées : Article contenant un appel à traduction en anglaisArticle à référence souhaitéePortail:Algèbre/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Català
+Čeština
+Deutsch
+English
+Español
+Eesti
+עברית
+Italiano
+日本語
+ქართული
+Nederlands
+Polski
+Português
+Română
+Русский
+Türkçe
+Українська
+Winaray
+中文
+Modifier les liens
+Dernière modification de cette page le 29 novembre 2014 à 22:44.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

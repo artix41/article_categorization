@@ -1,0 +1,212 @@
+Mécanique hamiltonienne — Wikipédia
+Mécanique hamiltonienne
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Hamilton.
+La mécanique hamiltonienne, inventée par Hamilton en 1833, est une reformulation de la mécanique classique. Son formalisme a facilité l'élaboration théorique de la mécanique quantique.
+Sommaire
+1 Équations canoniques de Hamilton
+1.1 Rappels de mécanique lagrangienne
+1.2 Moment conjugué
+1.3 Hamiltonien
+1.4 Équations canoniques de Hamilton
+1.5 Exemple élémentaire : la particule non relativiste sur un axe
+2 Espace des phases
+2.1 Dynamique dans l'espace euclidien
+2.2 Dynamique sur une variété différentielle
+3 Flot hamiltonien
+3.1 Théorème de Liouville
+3.2 Hypersurface d'énergie constante
+3.3 Système intégrable
+4 Articles connexes
+5 Bibliographie
+Équations canoniques de Hamilton[modifier | modifier le code]
+Rappels de mécanique lagrangienne[modifier | modifier le code]
+En mécanique lagrangienne, les équations du mouvement d'un système à N degrés de liberté dépendent des coordonnées généralisées
+et des vitesses correspondantes , où .
+Le lagrangien peut donc s'écrire formellement comme une fonction : , les variables indexées représentant les
+variables de ce type.
+Moment conjugué[modifier | modifier le code]
+En mécanique hamiltonienne, chaque vitesse généralisée est remplacée par la quantité de mouvement associée, aussi appelée moment conjugué ou encore impulsion généralisée :
+En coordonnées cartésiennes, les quantités de mouvement sont équivalentes aux moments linéaires, alors qu'en coordonnées polaires elles correspondent aux moments angulaires. Lorsque les coordonnées généralisées sont choisies arbitrairement, il n'est plus possible de donner une interprétation intuitive aux moments conjugués.
+Hamiltonien[modifier | modifier le code]
+L'hamiltonien
+est la transformée de Legendre du lagrangien :
+Dans le membre de droite de cette formule, les vitesses sont supposées être exprimées en fonction des moments conjugués.
+Si les équations qui définissent les coordonnées généralisées sont indépendantes du temps t, on peut montrer que
+est égal à l'énergie totale E, elle-même étant égale à la somme de l'énergie cinétique T et de l'énergie potentielle V ().
+Équations canoniques de Hamilton[modifier | modifier le code]
+Sous forme différentielle, les deux membres de la définition de
+deviennent :
+En utilisant la définition des moments conjugués donnée précédemment et les équations d'Euler Lagrange traduisant le principe de l'action minimale du lagrangien, on obtient les équations du mouvement de Hamilton, dites équations canoniques de Hamilton :
+Note: l'égalité
+se démontre comme suit:
+Où on a utilisé pour la dernière égalité la définition des moments conjugués et les équations d'Euler Lagrange.
+Les équations de Hamilton sont des équations différentielles du premier ordre et donc plus faciles à résoudre que les équations de Lagrange qui sont du second ordre. Néanmoins, les étapes qui conduisent à ces équations sont plus complexes que celles de la mécanique lagrangienne : à partir des coordonnées généralisées et du lagrangien, il faut calculer l'hamiltonien, exprimer les vitesses généralisées en fonction des moments conjugués et remplacer celles-ci dans la définition de l'hamiltonien.
+La méthode de Lagrange est moins lourde en termes de manipulations mathématiques. L'avantage principal de l'approche hamiltonienne est de fournir, grâce à la simplicité de son formalisme, un fondement théorique en mécanique. Par exemple, la mécanique quantique utilise un formalisme basé sur celui de la mécanique hamiltonienne.
+On pourra aussi noter une certaine similitude entre les équations canoniques de Hamilton et les équations de Maxwell.
+Exemple élémentaire : la particule non relativiste sur un axe[modifier | modifier le code]
+Soit une particule non relativiste de masse m se déplaçant sur un axe. On repère la position de cette particule par une coordonnée q. Supposons de plus que la particule est soumise à une force qui dérive de l'énergie potentielle V(q). Le lagrangien s'écrit alors :
+Le moment conjugué vaut alors :
+il s'identifie à la quantité de mouvement habituelle. Cette formule peut être inversée :
+On obtient alors le hamiltonien par transformée de Legendre :
+Les équations canoniques conduisent alors à :
+et à l'équation de la dynamique de Newton :
+Espace des phases[modifier | modifier le code]
+Dynamique dans l'espace euclidien[modifier | modifier le code]
+Considérons un système à
+degrés de liberté décrits à l'instant
+par :
+les
+coordonnées généralisées , . On peut voir ces coordonnées comme les composantes d'un vecteur de .
+les
+moments conjugués , . On peut également voir ces coordonnées comme les composantes d'un autre vecteur de .
+À chaque instant, les
+coordonnées
+définissent un point
+dans l'espace des phases
+à 2N dimensions.
+Dynamique sur une variété différentielle[modifier | modifier le code]
+Considérons un système à
+degrés de liberté dont les
+coordonnées généralisées
+précisent la position d'un point
+sur une variété différentielle
+à N dimensions.. Le moment conjugué
+est alors un élément de l'espace cotangent
+dans la direction j.
+À chaque instant, les
+coordonnées
+définissent dans ce cas un point
+dans l'espace des phases
+qui s'identifie à l'espace fibré cotangent à 2N dimensions. Cet espace des phases est naturellement muni de la forme symplectique
+définie par :
+Flot hamiltonien[modifier | modifier le code]
+L'évolution dynamique du système selon les équations canoniques de Hamilton à partir d'une condition initiale
+engendre le flot hamiltonien , c’est-à-dire le groupe continu à un paramètre tel que :
+La succession des positions
+dans l'espace des phases se traduit par une courbe continue, appelée orbite.
+Théorème de Liouville[modifier | modifier le code]
+Le flot hamiltonien préserve la mesure de Liouville sur l'espace des phases. Lorsque celui-ci est euclidien, cette mesure invariante sous le flot est simplement la mesure de Lebesgue sur  :
+La démonstration de ce théorème repose sur le fait que la divergence de la « vitesse » dans l'espace des phases est nulle :
+où on a utilisé les équations canoniques pour conclure. Autrement dit, le « fluide hamiltonien » dans l'espace des phases est incompressible.
+Hypersurface d'énergie constante[modifier | modifier le code]
+Un système hamiltonien invariant par translation dans le temps satisfait toujours à la conservation de l'énergie :
+de telle sorte que sa dynamique est en fait toujours restreinte à une hypersurface
+à
+dimensions. Dans ce cas, la mesure de Liouville invariante sous le flot dans l'espace des phases induit une mesure invariante sous le flot sur l'hypersurface d'énergie constante, définie par :
+où
+est la mesure sur l'hypersurface S induite par la métrique sur l'espace des phases.
+Système intégrable[modifier | modifier le code]
+Il peut exister d'autres constantes du mouvement indépendantes de l'énergie en plus de celle-ci. Lorsqu'un système invariant par translation défini sur dans le temps possède N constantes du mouvement indépendantes, on dit qu'il est intégrable. Sa dynamique est alors particulièrement simple.
+Articles connexes[modifier | modifier le code]
+Mécanique classique
+Crochet de Poisson
+Transformation canonique
+Équations de Hamilton-Jacobi
+Géométrie symplectique
+Théorème de Noether (physique)
+Système intégrable
+Théorie des perturbations
+Mécanique céleste
+Problème à N corps
+Hypothèse ergodique
+Théorème KAM
+Théorie du chaos
+Physique statistique
+Bibliographie[modifier | modifier le code]
+Lev Landau et Evgueni Lifchits, Physique théorique, tome 1 : Mécanique, éd. MIR, Moscou [détail des éditions]
+(en) Thomas Kibble et F. H. Berkshire, Classical Mechanics, Prentice Hall (4e édition, 1997) (ISBN 0-582-25972-X).
+Un remarquable cours d'introduction à la mécanique, des fondements newtoniens jusqu'au formalismes plus avancés de Lagrange et de Hamilton. Kibble est professeur émérite de physique théorique de l'Imperial College de Londres. Pour cette 4e édition (avec un coauteur), deux chapitres d'introduction aux idées de la théorie du chaos ont été inclus. Niveau : à partir du premier cycle universitaire. (Il a existé une traduction française de l'édition précédente, publiée par Dunod.)
+(en) Herbert Goldstein (en), Charles P. Poole et John L. Safko, Classical mechanics (en), Addison-Wesley (3e édition, 2001).
+Cet ouvrage est une référence concernant les aspects théoriques modernes de la mécanique - formulations lagrangienne et hamiltonienne. Cette troisième édition, réalisée en collaboration, est complétée par un chapitre sur les développements récents de la théorie du chaos. Le chapitre 3, consacré au problème à trois corps, a été également partiellement remanié. Niveau second cycle universitaire. (Il a existé autrefois une traduction française d'une édition précédente.)
+(en) Vladimir Arnold, Mathematical methods of classical mechanics, Springer Verlag (2e édition, 1989).
+Les aspects mathématiques (principalement géométriques) de la théorie, dans ses formulations modernes - lagrangienne et hamiltonienne -, par un mathématicien russe de premier plan, qui enseigne au XXIe siècle à l'université Paris-Dauphine. Niveau : second cycle universitaire.
+(en) Ralph Abraham et Jerrold Marsden (de), Foundations of mechanics, the Benjamin/Cummings Publishing Company (2e édition, 1978).
+Un livre qui présente un exposé axiomatique rigoureux de la mécanique « à la Bourbaki ». Niveau second cycle universitaire minimum.
+(en) Walter Thirring (en), Classical mathematical physics - Dynamical systems & Field theory, Springer-Verlag (3e édition, 1997).
+La première moitié de ce livre est une présentation rigoureuse de la mécanique, par un physicien mathématicien de l'université de Vienne. Niveau : second cycle universitaire.
+Portail de la physique
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Mécanique_hamiltonienne&oldid=99521800 ».
+Catégories : Mécanique hamiltonienneMéthode mathématique de la physiqueGéométrie symplectiqueCatégories cachées : Article contenant un appel à traduction en anglaisArticle contenant un appel à traduction en allemandPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Български
+Català
+Čeština
+Dansk
+Deutsch
+English
+Esperanto
+Español
+فارسی
+Suomi
+Galego
+हिन्दी
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+മലയാളം
+Nederlands
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Shqip
+ไทย
+Татарча/tatarça
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 24 décembre 2013 à 08:06.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

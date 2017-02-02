@@ -1,0 +1,140 @@
+Thermomètre — Wikipédia
+Thermomètre
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Thermomètre affichant les échelles de Fahrenheit, encore en usage aux États-Unis, et de Celsius, comprise dans le système SI
+Un thermomètre (du grec θερμός (thermos) signifiant « chaud » et de μέτρον, « mesure ») est un appareil qui sert à mesurer et à afficher la valeur de la température. C’est le domaine d'étude de la thermométrie. Développé durant les XVIe et XVIIe siècles, le thermomètre est utilisé dans différents domaines[1]. Les applications des thermomètres sont multiples, en météorologie, en médecine, en cuisine, pour la régulation, dans les procédés industriels, etc.
+Sommaire
+1 Histoire
+1.1 Invention
+1.2 XVIIIe siècle
+2 Principes généraux
+2.1 Étalonnage
+2.2 Limites
+3 Types
+3.1 Thermomètre à gaz
+3.2 Thermomètre à cadran et aiguille
+3.3 Thermomètre à cristaux liquides
+3.4 Thermomètre à liquide
+3.4.1 Thermomètre à alcool
+3.4.1.1 Réparation
+3.4.2 Thermomètre à mercure
+3.4.3 Thermomètre de Galilée
+3.5 Thermomètre électronique
+3.6 Thermomètre magnétique
+4 Usages
+4.1 Alimentaire
+4.1.1 Thermomètre de confiseur
+4.1.2 Thermomètre pour l'agroalimentaire
+4.2 Médical
+4.3 Professionnel
+4.4 Scientifique
+4.4.1 Météorologie
+4.4.2 En cryogénie
+5 Notes et références
+6 Voir aussi
+Histoire[modifier | modifier le code]
+Invention[modifier | modifier le code]
+Le terme « thermomètre » a été inventé en 1624 par le jésuite Jean Leurechon dans son ouvrage Récréation mathématique. Le principe qu'il décrit (un changement de température faisant monter le niveau de l'eau dans une canule) fut expérimenté par un médecin vénitien Sanctorius, ami de Galilée à qui la paternité de l'invention est souvent attribuée.
+En 1654, le grand-duc de Toscane à Florence, Ferdinand II de Médicis, perfectionna l'instrument de Sanctorius et créa le premier véritable thermomètre en emprisonnant de l'alcool dans un tube de verre hermétique[2]. Il portait 50 graduations. En hiver, il descendait jusqu'à 7 degrés et montait, en été, à 40 degrés. Dans la glace qui fond, il montrait 13 degrés.
+XVIIIe siècle[modifier | modifier le code]
+C'est dans le courant du XVIIIe siècle que les inventions de différents types de thermomètre prenaient leur essor dans plusieurs pays d'Europe.
+En 1702, l'astronome Ole Christensen Rømer fabriqua, au Danemark, un thermomètre à alcool marquant l'eau bouillante à 60 ° et la glace pilée à 7,5 °. En 1717, le savant allemand Daniel Gabriel Fahrenheit remplaça l'alcool par du mercure et donna au thermomètre sa forme définitive. Il proposa également la première échelle de températures à être adoptée assez largement, fixant à 32 °F la température de la glace fondante et à 96 °F la température normale du sang : 32 °F est alors le point de fusion de la glace et 212 °F est le point d'ébullition de l'eau sous pression atmosphérique normale.
+En 1730, René-Antoine Ferchault de Réaumur, physicien et naturaliste français, construisit un thermomètre à « esprit de vin » (ancienne dénomination de l'éthanol), pour lequel il utilisait l'échelle 0-80, le zéro étant le point de congélation de l'eau, et le 80 est le point d'ébullition de l'alcool (esprit de vin), que Réaumur tendait à confondre avec le point d'ébullition de l'eau[3].
+Le physicien suédois Anders Celsius fit construire en 1741 un thermomètre à mercure, gradué de sorte que 0 correspondait au point congélation de l'eau, et 100 au point de d'ébullition de l'eau, qui fut utilisé de 1742 à 1750 à l’observatoire d’Upsal.
+À la même époque, le secrétaire perpétuel de l’académie des Beaux-Arts de Lyon, Jean-Pierre Christin (1683-1755), fit construire par l’artisan lyonnais Pierre Casati un thermomètre à mercure à échelle centésimale ascendante, qu’il présenta le 19 mars 1743 à l’assemblée publique de cette académie.
+L'échelle de Celsius était donc graduée en sens inverse de l'échelle centigrade que nous connaissons actuellement. Ce n'est qu'après la mort de Celsius, survenue en 1744, que ses collègues — il est pensé que l'initiative en revient surtout au célèbre naturaliste suédois Carl von Linné— inversèrent l'échelle de Celsius pour lui donner sa forme actuelle, à savoir 0 pour la température de congélation de l'eau, et 100 pour sa température d'ébullition. De fait, en 1745, Linné présenta à l'académie suédoise un thermomètre à mercure qui marquait 0 ° pour la glace fondante et 100 ° pour l'eau bouillante.
+Le thermomètre suédois de Celsius et le thermomètre lyonnais de Casati n’auraient eu qu’une utilisation restreinte si la Révolution française n’avait donné au monde moderne le système métrique, et si la Commission des poids et mesures, créée par la Convention, n’avait décidé en 1794 que « le degré thermométrique sera[it] la centième partie de la distance entre le terme de la glace et celui de l’eau bouillante ».
+Principes généraux[modifier | modifier le code]
+La mesure de la température peut être fondée sur la dilatation et la pression des corps (solides, liquides ou gazeux), ou toute autre propriété physique (variations électriques dans le cas du thermocouple, couleur d'émission de lumière pour les hautes températures, ...) qui varie en fonction de la température. Ce principe général est mis en application de façons très diverses selon les besoins (plages de températures à mesurer, nature des matériaux à étudier, ...). Les thermomètres à liquide usuels sont les thermomètres à mercure et les thermomètres à alcool, mais il est également possible de trouver des thermomètres à l'huile de colza.
+Étalonnage[modifier | modifier le code]
+En métrologie, un thermomètre est étalonné soit en le comparant avec un autre, soit en notant son comportement par rapport à un phénomène physique dont la température est connue. Dans le second cas, le plus souvent ce sont la température du point de fusion et celle d'ébullition à une pression connue de l'eau qui servent de repères. La méthode classique se passe en trois étapes[4],[5] :
+Immerger le réservoir du thermomètre ou la partie sensible de la sonde de température dans un mélange de glace concassée et d'eau pure à une atmosphère (1 013,25 hPa). Noter l'endroit sur le tube du thermomètre classique ou la valeur du courant de sortie de la sonde, une fois que l'équilibre thermique est atteint ;
+Refaire de même avec de l'eau bouillante en équilibre avec sa vapeur à une atmosphère standard ;
+Diviser l’intervalle entre ces deux données selon l'échelle utilisée (100 pour les degrés Celsius).
+Cette méthode est encore utilisée pour les appareils de consommation courante comme les thermomètres médicaux. Pour un thermomètre ou une sonde de précision, l’étalonnage est maintenant réalisé en utilisant plusieurs points de référence de l'échelle internationale de température de 1990 fondés sur les états d’équilibre thermodynamique de treize éléments chimiques purs et d’une substance composée, l’eau. Il peut être réalisé au moyen de certains bains cryothermostatiques équipés d'une cuve à débordement (homogénéité meilleure que 0,01 °C)[6].
+Limites[modifier | modifier le code]
+La plupart des thermomètres mesurent leur propre température (celle de sa partie qui sert à faire la mesure). Cette température n'est celle du milieu ambiant que s'il y a équilibre thermique entre le thermomètre et le milieu ambiant. Cela signifie par exemple, que si un thermomètre est exposé au soleil, il sera plus chaud que l'air, et que cet écart de température dépendra entièrement de sa couleur et de sa ventilation, et donc qu'une température mesurée dans ces conditions sera totalement fantaisiste par rapport à la température de l'air. (C'est pour cela que les météorologues mesurent la température sous abri ventilé.)
+Types[modifier | modifier le code]
+Thermomètre à gaz[modifier | modifier le code]
+Deux variantes du thermomètre à gaz : à volume variable (droite) et à volume constant (gauche)
+Graphique de la pression en fonction de la température pour 3 gaz différents et leur extrapolation vers le zéro absolu
+Le thermomètre à gaz est basé sur les variations de pression ou de volume d'un gaz en fonction de la température[7]. Ce type de thermomètre utilise la loi d'Avogadro :
+où :
+V est le volume du gaz ;
+P est la pression ;
+T est la température ;
+R est la constante des gaz parfaits, de valeur R = 8,3144621 J⋅K−1⋅mol−1
+n est le nombre de moles (mol)
+La première variante utilise un réservoir rempli de gaz et un tube ouvert dans lequel se trouve un bouchon mobile séparant le gaz du réservoir de l'air ambiant. Si la pression ambiante reste constante, une variation de température du réservoir va causer une variation du volume du gaz qui va se refléter dans la position du bouchon. La variation de V est proportionnelle à celle de T et on peut donc en obtenir le changement de température.
+La seconde variante de ce thermomètre garde le volume constant. Un réservoir contenant un gaz est connecté par un tube capillaire à un manomètre. Lors d'une variation de température, le volume reste constant mais la pression varie inversement au changement de température. La température peut donc être calculée avec l'équation. Ce type de thermomètre est à l'origine de la découverte du zéro absolu bien avant que la cryogénie ne soit développée. En effet, en étudiant le comportement de la pression de plusieurs gaz avec la température avant leur condensation, les chercheurs ont pu extrapoler vers une température convergente selon le graphique[8].
+Thermomètre à cadran et aiguille[modifier | modifier le code]
+Thermomètre bilame
+Le thermomètre bilame est constitué de deux lames de métaux ou d'alliages différents, souples, soudées ou collées l'une contre l'autre, dans le sens de la longueur. Ces deux plaques de métal soudées par laminage à froid, sont très souvent de l'invar et du nickel ayant un coefficient de dilatation différent[9]. Leur dilatation étant différente, l'objet se déforme avec les variations de température.
+La lame ainsi produite est enroulée, une de ses extrémités est fixée au centre d'un cadran et l'autre, en forme de pointe, est libre. Un cadran gradué est placé derrière la lame. Lors d'un variation de la température, la dilatation fera changer la position de la pointe et qui bougera par rapport à la graduation.
+Thermomètre à cristaux liquides[modifier | modifier le code]
+Thermomètre à cristaux liquides
+Les thermomètres à cristaux liquides utilisent des cristaux liquides qui changent de couleur selon la température.
+Souvent, les cristaux liquides dessinent la valeur de la température. Sur d'autres modèles, ils dessinent simplement une échelle juxtaposée à des valeurs chiffrées.
+Ces thermomètres sont souvent utilisés pour les aquariums (modèles autocollants) ou dans le secteur médical (thermomètres frontaux), mais la mesure peut être inexacte.
+Thermomètre à liquide[modifier | modifier le code]
+Thermomètre à alcool[modifier | modifier le code]
+Thermomètre à alcool
+Le thermomètre à alcool est une alternative à celui au mercure apparu dès le XIXe siècle pour des raisons de prix de revient et de santé publique (lors d'un bris du réservoir, l'alcool s'évapore rapidement avec peu d'effets toxiques). Le liquide organique du réservoir peut être de l'éthanol, du toluène, du kérosène ou de l'acétate de 3-méthylbutyle[10].
+Le liquide est coloré en rouge ou en bleu pour une meilleure lecture et peut se déplacer du réservoir vers un tube capillaire fermé hermétiquement et rempli d'azote. Un ménisque se forme à l'interface alcool-azote afin de pouvoir suivre l'expansion/contraction du liquide avec la variation de la température et ainsi pointer sur une échelle graduée la température.
+Ce type de thermomètre a une plage d'utilisation différente de celui à mercure car le point de fusion de l'alcool est plus bas. Dans un tel appareil, elle va de −130 °C à 78 °C[11]. Sa précision est cependant moindre que celle du thermomètre à mercure car l'expansion/contraction du liquide est moins linéaire[12]. Il est très bien adapté pour la mesure de la température corporelle et de celle de l'air, surtout pour les températures sous le point de congélation (en particulier dans le thermomètre à minimum).
+D'autres substituts au mercure ou à l'alcool sont trouvables commercialement, dont des thermomètres à l'huile de colza ou bien au gallium.
+Réparation[modifier | modifier le code]
+Pour réparer une colonne fractionnée, c'est-à-dire avec un vide interstitiel, il suffit de mettre le thermomètre dans un verre d'eau chaude, celui-ci étant chauffé petit à petit dans un micro-onde. Il faut que le liquide aille jusqu'en haut de la colonne mais faire attention qu'il y ait une réserve en haut de la colonne où l'alcool peut aller en cas de surchauffe, sinon il y aura un risque de faire éclater le tube de verre.
+Thermomètre à mercure[modifier | modifier le code]
+Thermomètre médical, ancien modèle à mercure
+Le thermomètre à mercure a été inventé par Daniel Gabriel Fahrenheit en 1724[13]. Son fonctionnement repose sur du mercure contenu dans un tube de verre. Le volume du mercure, donc la longueur de la colonne dans le tube, est fonction de sa température. On peut lire cette dernière grâce à des marques inscrites le long du tube. Pour augmenter la sensibilité du thermomètre, une ampoule plus large que le tube est formée à l'une de ses extrémités et est remplie de mercure ; les petites variations de volume du mercure se traduisent alors par de grands déplacements de l'extrémité de la colonne. L'autre extrémité du tube est remplie d'azote, à une pression plus faible que la pression atmosphérique.
+Thermomètre de Galilée[modifier | modifier le code]
+Thermomètre de Galilée
+Le thermomètre de Galilée est composé de flotteurs d'une densité moyenne proche du liquide dans lequel ils sont immergés. Lorsque le liquide du tube se dilate avec la température, il devient moins porteur, ce qui fait couler certains flotteurs. Plusieurs flotteurs lestés différemment peuvent montrer les températures différentes.
+La température est généralement gravée sur un disque de métal suspendu sous chaque ampoule. En règle générale, un espace tend à séparer un groupe d'ampoules du haut d'un groupe du bas : la température doit être lue sur le disque situé à la base du groupe du haut ; si une ampoule flotte entre les deux groupes, on en déduit une température intermédiaire, un peu inférieure. Pour atteindre cet objectif, la fabrication d'un tel thermomètre doit avoir des tolérances de poids des ampoules de l'ordre du milligramme[14].
+Thermomètre électronique[modifier | modifier le code]
+Les thermomètres électroniques sont très précis et performants. Ils permettent les mesures de température de l’air, des liquides, des matériaux, etc. Ils ont également la possibilité de mémoriser des valeurs avec une alarme et la lecture est facilitée grâce à un écran. Les données peuvent également être imprimées pour faire une sauvegarde. On peut lui ajouter différents capteurs en fonction du type de mesure à effectuer, voire des sondes sans fil (radio).
+Les types de sondes de température sont :
+le thermocouple ;
+le capteur à résistance de platine (exemple : type Pt100, résistance de 100 Ω à 0 °C) ;
+la thermistance.
+Il existe aussi des thermomètres infrarouges pour des mesures à distance ou sans contact. Ces derniers auraient été inventés par Charles R. Darling qui aurait expliqué leur fonctionnement dans son livre Pyrometry[15].
+Thermomètre magnétique[modifier | modifier le code]
+Un thermomètre magnétique utilise la loi de Curie qui dit que la susceptibilité magnétique des dipôles paramagnétiques est inversement proportionnelle à la température absolue[16] :
+Susceptibilité magnétique = , où C est la constante de Curie et T la température.
+Ces appareils sont utilisés pour les températures sous 1 kelvin. Un circuit électrique avec pont à inductance mutuelle est soumis à un courant alternatif de basse fréquence. L'inductance est formé par deux bobines identiques dont les tensions de sortie sont comparées et rendues aussi près de zéro que possible. Ensuite, un matériau paramagnétique est introduit dans le pont ce qui donne une différence de tension qui dépend de la température. La différence de tension est proportionnelle au moment magnétique et avec la loi de Curie, la température peut être extraite[16].
+À quelques millikelvins, le matériau paramagnétique non conducteur est un sel hydrique de terre rare. À plus hautes températures, un ion cristallin avec un moment magnétique important est choisi[16].
+Usages[modifier | modifier le code]
+Alimentaire[modifier | modifier le code]
+Thermomètre pour la laiterie
+Thermomètre à chocolat
+Des thermomètres de cuisson permettent de vérifier et surveiller la température des aliments « à cœur », en cours de chauffe ou de cuisson. On les trouve notamment en pâtisserie, particulièrement pour le chocolat (Sonde pour chocolat) dont le contrôle de température est particulièrement important et précis, mais aussi par exemple pour la cuisson des viandes.
+Thermomètre de confiseur[modifier | modifier le code]
+Ce modèle, à mercure, sert à mesurer de manière précise la température des sirops de sucre. Il est protégé par une cage métallique et gradué de 100 à 200 °C. Il convient également pour mesurer la température des huiles de friture.
+Thermomètre pour l'agroalimentaire[modifier | modifier le code]
+Il existe différents types de thermomètres. Les thermomètres utilisés lors de procès-verbaux en contrôles sanitaires doivent être conformes à l'arrêté de juillet 1997. Ces thermomètres disposent de sondes comportant des capteurs à variation de résistance (CTN = résistance à coefficient de température négative) ou de type Pt100. Ce dernier type garantit, par le biais de normes, des incertitudes plus étroites et donc une meilleure précision de mesure.
+Les étendues de mesure de ce type de matériel (généralement entre -200 et +600 °C pour le type Pt100 et -50 à +150 °C pour le type CTN) permettent de couvrir l'ensemble des applications traditionnelles en agroalimentaire.
+Les mesures exactes se font impérativement à cœur, elles sont donc intrusives et destructrices.
+Il existe également des moyens de contrôle comme des thermomètres fonctionnant par réception de rayonnement infrarouge, permettant de contrôler très rapidement une homogénéité de température. La précision d'un tel thermomètre étant limitée (surtout aux basses températures), son utilisation nécessite dès lors une formation et une prise de conscience de l'interprétation des résultats. L'infrarouge mesure la température du film ou de l'emballage et non du cœur du produit.
+Médical[modifier | modifier le code]
+Les thermomètres médicaux sont utilisés pour la mesure de la température corporelle (rectale, sous l'aisselle — axillaire, dans l'oreille, ou buccale). Pendant longtemps la température corporelle n'a fait l'objet d'aucune mesure : la main du praticien seule donnait une appréciation de l'importance de la fièvre, au demeurant perçue, non comme un symptôme, mais comme une maladie en elle-même. C'est Sanctorius, de Padoue, qui a employé pour la première fois un appareil pour mesurer la fièvre : il utilisa le thermoscope développé par Galilée en plaçant le globe dans la bouche du patient.
+La compréhension des différents états de la température corporelle, initiée véritablement par les travaux d'Hermann Boerhaave et ses élèves, puis par ceux de John Linning et de Benjamin Franklin, aura dû toutefois attendre le XIXe siècle. Du fait de la faible corrélation entre la fièvre et les symptômes, les praticiens auront recouru longtemps à la prise de pouls pour apprécier la fièvre[17]. En 1835 d'abord, Antoine Becquerel et Gilbert Breschet démontrèrent, à l'aide d'un thermocouple de fer et de cuivre[17], que la température d'un corps humain sain est constante à 37 °C. Cette découverte suscita l'intérêt pour l'utilisation médicale du thermomètre[18]. Mais c'est surtout Carl Wunderlich qui, suite à ses très nombreuses observations, permit le développement de la thermométrie clinique : d'une part il révolutionna la compréhension de la fièvre en tant que telle, vue désormais comme un symptôme et non plus comme une maladie stricto sensu ; en outre, il démontre l'intérêt des courbes de température.
+Si l'usage du thermomètre auprès du corps médical, puis de la population en général, se développa rapidement aux États-unis[19],[18] sous l'impulsion notamment d'Édouard Séguin, il ne se répandit en France qu'au cours de la Première Guerre mondiale[20].
+Les thermomètres à mercure, longtemps en usage, ont été progressivement retirés de la vente à cause de la toxicité de ce métal. Le thermomètre médical numérique a remplacé le thermomètre à mercure. Il contient des oxydes métalliques à résistance variable en fonction de la température (thermistor). Ce principe permet une mesure précise sur une gamme de température étroite, bien adaptée à l'usage médical.
+Professionnel[modifier | modifier le code]
+Les thermomètres pour l’usage professionnel sont de très grande précision. Ils ont une très grande étendue de mesure et une grande rapidité d’acquisition. Ils peuvent afficher deux températures avec un calcul de
+T. En fonction des besoins, différents capteurs sont utilisés. Le choix de la sonde adéquate dépend de différents critères : l'étendue de mesure, sa précision, le temps de réponse, la robustesse du montage et sa forme. Il existe des sondes d’ambiance, des sondes pinces pour une mesure sur un conduit ou une plaque, des sondes pour air/gaz/liquide, des sondes de contact, des sondes d'immersion/pénétration, des sondes de mesure pour température de surface, etc.
+Ces thermomètres peuvent être utilisés avec un étui de protection contre les chocs, la poussière et l’humidité. Les thermomètres à usage professionnel existent aussi en infrarouge pour des mesures sans contact ou à distance. Ceux-ci sont utiles pour la mesure de la température : de l'air ambiant pour la climatisation, des liquides et solides, des étuves et fours, des pièces ou conduits, etc.
+Scientifique[modifier | modifier le code]
+Technicien militaire vérifiant un appareil comprenant au sommet un thermomètre sec électronique (droite) et un thermomètre à globe (gauche)
+Météorologie[modifier | modifier le code]
+Plusieurs thermomètres sont utilisés en météorologie. Il peut s'agir de thermomètres à liquide ou électroniques qui remplissent les fonctions suivantes :
+thermomètre sec : dont le réservoir est exposé à l'air, et bien ventilé, pour mesurer la température de l'air[21] ;
+thermomètre mouillé : dont le réservoir est recouvert d'une mèche de mousseline humide ou d'une pellicule de glace pure, le tout étant ventilé, pour mesurer la température du point de rosée[22] (température du thermomètre mouillé) ;
+thermomètre à globe noir ou à boule noire[23] : thermomètre dont l'organe sensible est en verre noir ou recouvert de noir de fumée de façon à fonctionner approximativement comme un corps noir. Placé dans une enceinte transparente ou noire dans laquelle on a fait le vide, il est parfois utilisé pour mesurer le rayonnement solaire incident, en particulier dans la température au thermomètre-globe mouillé ;
+thermomètre à globe mouillé[24] : noirci et recouvert d'une mèche de mousseline humide ;
+thermomètre à minimum et maximum : permettant de mesurer les températures maximales et minimales atteintes pendant un intervalle de temps donné ;
+thermomètre enregistreur ou thermographe : est un thermomètre muni d'un dispositif qui enregistre continuellement la température[25].
+En cryogénie[modifier | modifier le code]
+Les thermomètres magnétiques appliquent la loi de Curie pour mesurer les très basses températures. Ils sont très répandus aujourd'hui même si on ne s'en rend pas compte.

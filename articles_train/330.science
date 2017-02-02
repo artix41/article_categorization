@@ -1,0 +1,56 @@
+Effet Venturi — Wikipédia
+Effet Venturi
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Venturi.
+Schématisation de l'effet Venturi. La pression au point 1 est plus grande qu'au point 2. Et la vitesse du fluide au point 2 est plus grande qu'au point 1.
+Écoulement dans un tube Venturi
+L'effet Venturi, du nom du physicien italien Giovanni Battista Venturi, est le nom donné à un phénomène de la dynamique des fluides où il y a formation d'une dépression dans une zone où les particules de fluides sont accélérées.
+Sommaire
+1 Théorie
+2 Dépression
+3 En zone montagneuse
+4 Applications
+5 Voir aussi
+5.1 Notes et références
+5.2 Articles Connexes
+5.3 Liens externes
+Théorie[modifier | modifier le code]
+Le théorème de Bernoulli permet de comprendre ce phénomène : si le débit de fluide est constant et que le diamètre diminue, la vitesse augmente nécessairement ; du fait de la conservation de l'énergie, l'augmentation d'énergie cinétique se traduit par une diminution d'énergie élastique, c'est-à-dire une dépression.
+Venturi a donc prolongé le travail de Bernoulli en transformant le modèle vertical de Bernoulli (faisant intervenir une variation de l'énergie potentielle due à la hauteur) en un système linéaire. Il reprend l'équation de Bernoulli en annulant le terme d'énergie potentielle (puisqu'il n'y a plus de variation de hauteur).
+L'effet Venturi ne concerne que les vitesses d'écoulement subsoniques (< Mach 1).
+Dépression[modifier | modifier le code]
+D'après la conservation du débit,
+(ou
+représente la section et
+la vitesse) ou encore
+(1)
+D'après le théorème de Bernoulli,
+où
+D'après (1),
+sera donc positive ce qui correspond à une dépression. Cette dépression peut créer un effet de cavitation qui peut être dangereux pour la canalisation.
+En zone montagneuse[modifier | modifier le code]
+Dans les zones montagneuses, l'effet Venturi est tout le temps présent. Si les particules d'air rencontrent une montagne (ou tout terrain surélevé), elles se retrouvent obligées pour la franchir de passer par-dessus (si elles ne peuvent passer sur les côtés). La zone de circulation étant moindre, les particules se retrouvent accélérées, de manière à conserver le même débit qu'avant. C'est pour cette raison que le vent au sommet des montagnes est toujours plus rapide que celui à sa base. De façon similaire, une constriction horizontale du relief, comme un col de montagne, va créer une accélération des vents en aval de cette ouverture dans les montagnes.
+En aéronautique, il est donc très important pour les pilotes d'analyser le terrain les entourant s'ils veulent atterrir en zone montagneuse en sécurité ou même simplement franchir une zone surélevée.
+Applications[modifier | modifier le code]
+L'effet Venturi peut être utilisé pour créer une dépression et ainsi réaliser une aspiration. Ceci est utilisé par exemple :
+dans les carburateurs des moteurs à combustion interne ;
+pour diminuer la force de portance et améliorer l'appui aérodynamique pour une voiture de Formule 1 ;
+Sur certains casques haut de gamme, les fabricants utilisent l'effet venturi pour accélérer la circulation de l'air à l'intérieur du casque et son extraction. Cela permet de rafraîchir plus efficacement le pilote et de désembuer la visière.
+dans certains détendeurs de plongée sous-marine. Le flux d'air moyenne pression injecté dans le deuxième étage de ces détendeurs est orienté de telle manière qu'il participe à l'aspiration de la membrane. Cette membrane appuyant sur le levier qui provoque l'injection d'air, l'effet Venturi réduit alors l'effort inspiratoire ;
+sur certaines cheminées, pour améliorer le tirage ;
+pour mélanger des liquides (un liquide mis en dépression aspire l'autre liquide et permet le mélange), par exemple le mélangeur d'émulseur et d'eau des lances à mousse des sapeurs-pompiers ;
+un venturi (convergent + divergent) permet de limiter le débit à un seuil déterminé et ce quelle que soit la pression amont sur une canalisation ;
+pour réaliser des pompes à vide de faible puissance, comme les trompes à eau montées sur les robinet des paillasses de chimie, ou bien les aspirateurs de mucosité branchés sur les détendeurs des bouteilles de dioxygène médical ;
+comme appareil de mesure de débit, basé sur la chute de pression au niveau du venturi ;
+dans les pistolets à peintures, alimentés par le biais d'une turbine basse pression ou d'un compresseur ;
+pour administrer dans les alvéoles pulmonaires des médicaments au travers d'aérosols liquides (principe de l'aérosolthérapie ; Venturi pneumatique) ;
+certains pommeaux de douche à économie d'eau (50 %) , mitigeurs sur robinetterie;
+pour la pré-admission d'entrée d'air nécessaire au fonctionnement d'une turbine à gaz dans la propulsion notamment des rames à turbine à gaz.
+pour la gazéification de liquide (jus de pomme, eau, cidre...)
+pour l'injection d'ozone gazeux dans de l'eau
+en sonorisation (chambres de compression)
+pour vider l'eau à travers une trappe (« vide-vite ») située dans le fond d'embarcations légères (dériveurs, bateaux pneumatiques...)
+dans le traitement des rhumes ou rhinopharyngites, l'aspirateur nasal ou Nezpirateur pour dégager les cavités nasales de l'enfant...)
+dans certaines éoliennes de toit horizontales[1]
+Voir aussi[modifier | modifier le code]

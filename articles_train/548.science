@@ -1,0 +1,284 @@
+Représentations d'un groupe fini — Wikipédia
+Représentations d'un groupe fini
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Vous lisez un « bon article ».
+Ne doit pas être confondu avec présentation d'un groupe.
+En mathématiques, un groupe est une structure algébrique qui consiste en un ensemble muni d'une unique loi de composition interne. Cette loi vérifie alors certaines propriétés : elle est associative, elle possède un élément neutre et tout élément admet un inverse. Un groupe fini est un groupe dont le nombre d'éléments est fini. La simplicité de la définition cache une structure dont la complexité peut devenir redoutable si l'ordre, c'est-à-dire le nombre d'éléments, du groupe grandit. Une représentation d'un groupe fini est une méthode pour étudier une telle structure. Elle revient à étudier le groupe comme un ensemble de symétries d'un espace euclidien. Par exemple, le groupe des permutations d'un ensemble à trois éléments se représente comme le groupe des applications linéaires du plan laissant globalement invariant un triangle équilatéral dont le centre est l'origine.
+Une représentation se décompose en éléments simples, appelés représentations irréductibles et qui sont en nombre fini. Elles représentent les briques élémentaires qui permettent de construire toutes les représentations. La géométrie euclidienne joue un rôle dans cet univers. Une représentation quelconque se décompose en représentations irréductibles qui agissent sur des plus petits espaces tous orthogonaux les uns par rapport aux autres. Une manière d'étudier une représentation donnée est de considérer l'application qui, à un élément du groupe, associe la somme des coefficients diagonaux d'une matrice représentant l'application linéaire image. Cette application porte un nom, on parle du caractère de la représentation. Elle fait aussi partie d'un espace euclidien appelé l'espace des fonctions centrales. Une base orthonormée de cet espace est composée des caractères des représentations irréductibles et le calcul des coordonnées d'un caractère quelconque dans cette base permet d'obtenir la décomposition en éléments simples. Comme souvent en algèbre, l'étude est plus simple si l'espace vectoriel utilise comme nombres les imaginaires. Le produit scalaire dont il est question ici est alors défini sur les nombres complexes, on parle parfois de produit hermitien et de géométrie hermitienne.
+Historiquement, cette théorie est apparue pour répondre à une question provenant de la théorie de Galois. L'étude des solutions d'une équation polynomiale amène à l'étude d'une représentation d'un groupe, dit de Galois. Dedekind, un mathématicien allemand de la deuxième moitié du XIXe siècle cherchait à factoriser le groupe de Galois d'une équation du quatrième degré, c'est-à-dire trouver un ensemble de ses sous-groupes normaux pouvant successivement le quotienter jusqu'à obtenir un groupe quotient n'ayant aucun sous-groupe normal (donc un groupe simple, par définition). Ces ensembles de sous-groupes normaux peuvent à leur tour être factorisés de la même façon, de telle sorte que l'on obtient un ensemble composé de sous-groupes normaux et simples, appelé liste des facteurs simples du groupe, qui est unique à chaque groupe, donc commun à toutes les factorisations d'au moins un groupe (mais il ne faut pas oublier que plusieurs groupes peuvent avoir les mêmes facteurs simples!). La tâche n'est pas si simple, car un tel groupe est représenté par 24 matrices de chacune 24^2=576 coefficients. N'y parvenant pas, il écrivit à Frobenius, qui comprend rapidement pourquoi les caractères sont la réponse à cette délicate question et comment résoudre la difficulté. Frobenius pressent qu'il dispose là d'une approche fructueuse, ouvrant la voie à une vaste théorie, source de progrès en théorie des groupes.
+Cette théorie offre de fait des outils puissants pour élucider la théorie des groupes finis, permettant par exemple de déterminer le caractère résoluble d'un groupe en fonction de son ordre. De manière moins anecdotique, la représentation des groupes finis est l'outil de base de la classification. L'apport algébrique ne s'arrête pas là. Les applications linéaires s'additionnent, ce qui permet de définir un anneau, si l'on considère l'espace vectoriel engendré par les images du groupe. Les outils de la représentation d'un groupe fini interviennent dans l'étude de la structure d'un anneau, comme l'illustre le théorème d'Artin-Wedderburn. Enfin, la théorie de Galois, à l'origine des travaux de Frobenius, n'est pas en reste. À travers la théorie des corps de classes ou celle, moins aboutie, du programme de Langlands, la représentation des groupes est au cœur de la recherche mathématique actuelle.
+Le savoir purement mathématique associé à cette théorie est traité dans l'article théorie des représentations d'un groupe fini.
+Sommaire
+1 Histoire
+1.1 Avant les représentations
+1.1.1 Théorie des groupes finis
+1.1.2 Caractère et groupe d'automorphismes
+1.2 Naissance de la théorie (1896)
+1.3 Essor (1897-1917)
+1.3.1 Frobenius
+1.3.2 Université de Chicago
+1.3.3 Issai Schur
+1.3.4 William Burnside
+2 Introduction par l'exemple
+2.1 Groupe symétrique d'indice trois
+2.2 Groupe symétrique d'indice quatre
+3 Représentations, caractères et algèbre de groupe
+3.1 Représentations d'un groupe
+3.2 Caractères du groupe
+3.3 Algèbre du groupe
+4 Usages
+4.1 Théorie de Galois
+4.2 Théorie algébrique des nombres
+4.3 Algèbre non commutative
+4.4 Réseau
+4.5 Classification des groupes finis
+5 Annexes
+5.1 Notes
+5.2 Liens externes
+5.3 Références
+Histoire[modifier | modifier le code]
+Avant les représentations[modifier | modifier le code]
+Théorie des groupes finis[modifier | modifier le code]
+Évariste Galois 1811-1832
+Carl Friedrich Gauss
+La théorie des groupes trouve son origine dans l'étude du groupe des bijections d'un ensemble fini. Cette notion, appelée permutation date au moins du XVIIe siècle. Le japonais[1] Kowa Seki (1642-1708) et l'allemand[2] Leibniz (1646-1716) utilisent les permutations et la notion de signature pour définir un déterminant dans des espaces de dimension trois et quatre. Une utilisation plus systématique est l'œuvre de Lagrange[3] (1736-1813) et Vandermonde[4] (1735-1796) dans le cadre de l'équation polynomiale. En revanche, l'ensemble des permutations n'est, dans aucun des cas cités, considéré comme une structure disposant d'une loi interne.
+L'aube du XIXe siècle voit un apport de première importance pour ce qui deviendra la théorie des groupes finis. En 1801, Carl Friedrich Gauss utilise[5] les groupes cycliques pour fonder l'arithmétique modulaire et résoudre l'équation cyclotomique d'indice un nombre premier de Fermat. Un ensemble fini muni d'une opération interne conférant une structure de groupe est enfin utilisée. La connaissance d'une telle structure devient indispensable pour tout mathématicien étudiant l'arithmétique. Cependant, tout au long de sa vie, Gauss ne verra pas l'intérêt d'une formalisation.
+Évariste Galois (1811-1832), à la suite des travaux[6] du mathématicien norvégien Niels Abel (1802-1829) permet la réalisation d'un bond fondateur de l'algèbre moderne. À travers la problématique de l'équation algébrique, il découvre[7] non seulement la portée du champ applicatif de la structure, mais de plus, évoque un nouveau formalisme avec la notion de groupe abstrait. Ce n'est que quinze ans plus tard que la dimension de ses travaux est perçue par la communauté. La redécouverte[8] par Joseph Liouville des écrits de Galois en 1846 place la théorie des groupes finis comme un sujet de premier plan. Augustin Cauchy (1789-1857) publie vingt-cinq articles sur la question dont un sur son célèbre théorème[9]. Arthur Cayley (1821-1895) donne une première définition abstraite d'un groupe[10]. Le domaine d'application s'étend, en 1877, Felix Klein remarque[11] que le groupe des isométries laissant invariant l'icosaèdre est isomorphe au groupe de Galois d'une équation quintique, la géométrie algébrique naît et les groupes finis y jouent un rôle clé. La connaissance du sujet s'accroît, Ludwig Sylow énonce ses célèbres théorèmes[12] en 1872 et Heinrich Weber donne la définition[13] moderne d'un groupe en 1895.
+Caractère et groupe d'automorphismes[modifier | modifier le code]
+Richard Dedekind, fondateur de la théorie des déterminants de groupe, ancêtre des représentations
+Un outil essentiel aux représentations des groupes est celui du caractère. Il correspond, avec notre regard moderne, à la trace des différents automorphismes correspondant au groupe représenté. Une fois encore, le sujet n'est pas vierge au moment de la naissance de la théorie des représentations.
+On peut citer le symbole de Legendre du siècle précédent pour l'explicitation de la loi de réciprocité quadratique, comme premier exemple de caractère avant la lettre. Gustav Dirichlet (1805-1859) utilise pour la première fois le terme de caractère[14] pour une fonction multiplicative, proche du symbole précédent.
+Richard Dedekind (1831-1916) transporte les idées associées aux groupes finis. Il définit formellement la notion de caractère comme un morphisme d'un groupe abélien à valeur dans le corps des nombres complexes non nulle. Les caractères sont parfaitement connus ainsi que leurs relations d'orthogonalité, mais uniquement dans le contexte commutatif.
+Enfin, l'idée de groupe fini d'automorphismes n'est pas non plus inconnue. Camille Jordan, en 1870, étudie les groupes de Galois[15] comme un groupe de matrices qu'il appelle le groupe linéaire. Il étudie le cas sur les corps finis premiers, c’est-à-dire de cardinal un nombre premier et traite le cas de la factorisation d'un unique automorphisme. Felix Klein, depuis son célèbre programme d'Erlangen est aussi un familier du concept. Leopold Kronecker (1823-1891) et Richard Dedekind développent les prémisses de la théorie des anneaux et des corps[16]. Le groupe de Galois n'est défini qu'à partir d'automorphismes et non plus comme un groupe de permutations de racines.
+Si l'idée d'une incarnation d'un groupe fini comme une famille d'automorphismes est parfaitement comprise à la fin du siècle, elle se heurte à une difficulté réelle. Par exemple, pour une équation du quatrième degré, le groupe comprend déjà 24 éléments correspondant chacun à une matrice 24x24. Dedekind développe la méthode des déterminants de groupes[17]. S'il réussit à factoriser[précision nécessaire] le groupe symétrique d'indice trois, il est dans une impasse pour le cas général.
+En 1896, la théorie des groupes finis, ainsi que les outils nécessaires à l'élaboration de la théorie des représentations sont largement développés. Cependant, la taille ainsi que la complexité calculatoire représentent une barrière que Dedekind ne voit pas comment franchir. Il envoie deux lettres à ce sujet[18] adressées à Ferdinand Georg Frobenius les 25 mars et 6 avril 1896. Le destinataire n'est pas un novice. Il a, par exemple, démontré les théorèmes de Sylow dans le cas des groupes abstraits[19] et déterminé la structure des groupes abéliens de type fini[20].
+Naissance de la théorie (1896)[modifier | modifier le code]
+Lettre de Frobenius à Dedekind du 12 avril 1896
+Peu de théories possèdent une date de naissance précise. Les groupes apparaissent par exemple petit à petit, depuis Lagrange jusqu’à la définition exacte de Weber, l'évolution est lente et continue. La théorie des représentations est une exception, les historiens associent systématiquement sa naissance au mois d'avril[21] 1896.
+Frobenius répond à Dedekind par trois missives[22] datées des 12, 17 et 26 du mois. Il parvient à factoriser les groupes symétriques d'indice 4 et 5[précision nécessaire] ainsi que leurs sous-groupes alternés et le groupe simple d'ordre 168. Il comprend que son approche est à la base d'une vaste théorie et rédige rapidement les traités fondateurs.
+Le 16 juillet, il publie un premier article[23]. On peut y lire « je développerai ici le concept (de caractère pour un groupe fini quelconque) avec la croyance que, à travers cette introduction, la théorie des groupes sera substantiellement enrichie ». Les caractères ne se limitent plus au cas abélien, voilà la première clé de son succès.
+Cette généralisation permet une factorisation de déterminant de groupe, ce qui amène une deuxième publication[24]. Enfin il existe un produit hermitien naturel pour lequel les caractères irréductibles forment une base orthonormale est le sujet d'un troisième article[25]. Tous ces résultats sont publiés la même année.
+À la fin de l'année 1896, beaucoup reste à faire. La notion de représentation n'est pas apparente, l'objet d'étude reste le déterminant de groupe. La notion d'irréductibilité n'est pas là, aucune technique d'extension ne permet d'analyser un groupe à partir de ses sous-groupes, le rapport entre la représentation et l'arithmétique n'est pas établi et seul le cas des nombres complexes est étudié. Cependant, la généralisation des caractères a permis un saut important et laisse présager de la naissance d'une théorie aux conséquences riches.
+Essor (1897-1917)[modifier | modifier le code]
+Frobenius[modifier | modifier le code]
+L'idée fondatrice est fertile, les différentes questions associées à la théorie trouvent des réponses rapides et Frobenius reste un acteur majeur. Il publie jusqu'à la fin de sa vie vingt articles sur la théorie des groupes finis[26], essentiellement sur le sujet des représentations. En 1897, les notions de représentation et d'irréductibilité apparaissent[27] même si de nombreuses évolutions seront encore nécessaire pour que les caractères prennent notre définition moderne, à savoir la trace d'une représentation. L'enrichissement de la structure, à travers l'ancêtre de notion d'algèbre de groupe est aussi présente dans cet article, dans le cas des nombres complexes ou hyper-complexes. Frobenius l'emprunte aux travaux du mathématicien Theodor Molien (de) (1861-1941) qui a, de manière totalement indépendante[28],[29] travaillé sur le caractère semi-simple de l'algèbre associée. Si Frobenius reconnaît l'importance de ses travaux, Molien reste essentiellement dans l'obscurité. L'année suivante, Frobenius découvre une première méthode d'extension[30] correspondant à notre représentation induite, il établit la remarquable formule de réciprocité qui porte maintenant son nom. En 1899, il établit[31] les formules du produit tensoriel de caractères alors que la notion de produit tensoriel n'est pas encore formalisée, il parle de composition. En 1900, le mathématicien détermine[32] les caractères des groupes symétriques et l'année suivante ceux des groupes alternés[33].
+Au début de XXe siècle, les travaux de Frobenius assurent à la théorie une base solide, les caractères sont généralisés aux groupes non abéliens, les théorèmes d'orthogonalité sont présents, et les techniques d'extension soit par produit tensoriel soit par induction sont comprises. Un regard rétrospectif y voit néanmoins encore trois lacunes. La théorie garde les traces de son origine, les déterminants de groupes forment toujours la structure fondamentale. L'aspect lourd et calculatoire reste inévitable. Les seuls corps véritablement étudiés sont de caractéristique nulle, évacuant ainsi un pan qui apparaît maintenant comme essentiel. Enfin, la dimension arithmétique est quasiment absente. Si le troisième point est juste esquissé et doit attendre les années 1920 avec les travaux d'Emil Artin pour prendre son essor, les deux autres sont largement traités dans la période de temps du paragraphe. Cependant, les contributions majeures sur ces domaines sont le fruit d'autres mathématiciens.
+Université de Chicago[modifier | modifier le code]
+Université de Chicago en automne
+Une jeune école mathématique, l'école américaine, influence la théorie naissante. Durant cette époque, l'Université de Chicago est à la pointe de la recherche sur le nouveau continent. R. C. Archibald écrit : « Durant la période 1892-1908 l'Université de Chicago est insurpassable aux États-Unis comme institution pour l'étude des mathématiques avancées[34]. » La théorie est étudiée à partir d'un autre angle, Leonard Eugene Dickson écrit en 1896 sa thèse de doctorat à l'université de Chicago à propos des groupes linéaires sur des corps finis quelconques, généralisant les résultats de Jordan. Il démontre que tout corps fini commutatif est une extension de Galois d'un corps premier. Elle est publiée[35] en Europe en 1901. Heinrich Maschke, un élève de Klein, rejoint l'Université de Chicago en 1892, il démontre son théorème[36] qui stipule que toute représentation est somme directe de représentations irréductibles. En suivant l'esprit de l'école de Chicago, la démonstration est aussi donnée pour les corps finis (avec une inévitable condition sur l'ordre du groupe). Le mathématicien allemand Alfred Loewy (de) avait, sans preuve, publié ce résultat deux ans auparavant en 1896. Enfin, Joseph Wedderburn rejoint l'université de Chicago durant les années 1904-1905 et travaille avec Dickson sur les structures d'algèbres semi-simples dont un exemple important est donné par les algèbres de groupes finis. C'est cependant en 1907 à Édimbourg qu'il publie son article[37] peut-être le plus célèbre, classifiant toutes les algèbres semi-simples et finalisant les travaux de Molien et Frobenius. L'apport de Chicago peut se résumer en deux points essentiels pour la théorie des représentations : l'approche par les déterminants de groupes tombe en désuétude au profit de la notion de représentation, simplifiant les calculs et la théorie est étudiée sur les corps de caractéristiques quelconques.
+Issai Schur[modifier | modifier le code]
+Une autre figure de la théorie de la représentation est essentielle pour la simplification des démonstrations et l'enrichissement de la théorie. Issai Schur est un élève de Frobenius. En 1901, il soutient sa thèse[38] sur les représentations rationnelles d'un groupe fini sur un espace vectoriel complexe.
+Il travaille sur le sujet entre les années 1904 et 1907 et utilise le lemme à son nom. Si quelques lignes suffisent à sa démonstration, il simplifie considérablement bon nombre de preuves, particulièrement sur les caractères et leur orthogonalité.
+La thèse de Schur apporte, durant cette période une autre contribution majeure. L'analyse de l'aspect rationnel des représentations permet l'introduction des outils de l'arithmétique dans la théorie. Cet enrichissement est à l'origine de nombreuses démonstrations, on peut citer par exemple le fait que toute représentation irréductible possède un degré qui divise l'ordre du groupe (cf Algèbre d'un groupe fini).
+William Burnside[modifier | modifier le code]
+William Burnside
+William Burnside, après Frobenius, est généralement considéré comme le deuxième fondateur[39] de la théorie des représentations. Son intérêt pour les groupes finis est antérieur aux travaux de Frobenius. Il est l'auteur d'un article[40] de 1895 démontrant que tout groupe fini possédant un 2-groupe maximal cyclique n'est pas simple.
+Il comprend immédiatement l'apport de la théorie des représentations. Sa démarche est néanmoins différente de celle de Frobenius ou de Schur. Sur la cinquantaine[41] d'articles publiés sur la théorie des groupes, l'essentiel de son travail consiste à utiliser les résultats de la théorie pour établir les fondements d'une classification des groupes finis.
+Il ouvre des conjectures comme le problème de Burnside de 1902 sur les groupes de type fini et d'exposant fini[42] et utilise les représentations pour défricher cette question[43]. Cette conjecture, malgré de nombreux travaux, comme ceux[44] d'Efim Zelmanov qui lui apporte une médaille Fields en 1994, reste encore essentiellement ouverte en 2006.
+Ses travaux[45] de 1905 l'amènent à étudier le cardinal d'un groupe résoluble. Il utilise, pour la démonstration d'un de ses théorèmes, l'un des théorèmes de Sylow et de nombreuses facettes de la théorie des représentations, comme les caractères de Frobenius ou l'arithmétique de Schur. Une fois encore, il donne un début de réponse à une grande question, largement étudiée au XXe siècle. Elle est finalement tranchée par John Thompson qui reçoit en 1970 une médaille Fields pour son article[46] écrit en commun avec Walter Feit et qui démontre que tout groupe d'ordre impair est résoluble.
+Burnside écrit un livre de référence[45] sur la théorie des groupes. La seconde édition, datant de 1911 est toujours d'actualité.
+Introduction par l'exemple[modifier | modifier le code]
+Groupe symétrique d'indice trois[modifier | modifier le code]
+Article détaillé : Les trois représentations irréductibles de S3.
+Représentation de S3 comme groupe des isométries du triangle
+La première question associée à la théorie est la recherche d'un ensemble d'applications linéaires inversibles, que l'on associe aux éléments d'un groupe fini G. Dans cet exemple G est le groupe des permutations d'un ensemble à trois éléments noté S3. L'association φ entre les éléments du groupe et les applications linéaires doit respecter la loi du groupe. Si g et h sont deux éléments du groupe, l'application linéaire associée à g.h doit être la composition des applications associées à g et à h :
+On parle d'un morphisme de groupes. L'exemple le plus simple est l'application qui, à n'importe quel élément, associe l'application linéaire identité. Cette association est manifestement une représentation, mais elle n'apporte que peu d'intérêt, on parle de représentation triviale. Un deuxième cas associe à un élément de S3, 1 si la permutation est une transposition et –1 sinon, cette représentation porte le nom de signature. L'espace vectoriel est encore de dimension 1.
+Le troisième cas est illustré sur la figure de droite. L'espace vectoriel est de dimension 2 et équipé d'un produit scalaire. On considère trois vecteurs i, j et k, de norme 1, et faisant chacun un angle de 2π/3 avec les deux autres. Le groupe S3 opère sur ces trois vecteurs, c'est-à-dire qu'une permutation g du groupe peut s'appliquer à l'ensemble de ces trois vecteurs, ce qui définit une application de l'ensemble {i, j, k} dans lui-même. Il existe une unique manière de prolonger ces applications en applications linéaires de E et toutes ses applications linéaires sont inversibles. On a ainsi défini une troisième représentation. À la différence des deux autres, celle-ci est fidèle, c'est-à-dire qu'à deux éléments de G distincts on associe deux applications linéaires différentes. En un sens, le groupe formé par les applications linéaires est une copie de S3, on parle alors d'isomorphisme de groupes.
+On remarque que chacune des représentations étudiées concerne uniquement des isométries, ou encore des applications linéaires qui conservent les distances et les angles. La théorie indique qu'il est toujours possible de munir l'espace vectoriel sur lequel agissent les applications linéaires d'un produit scalaire tel que ce soit le cas.
+Une quatrième représentation est importante car la technique utilisée est applicable à tous les groupes finis et à n'importe quel corps. On note {ai} pour i variant de 1 à 6, les différents éléments de S3 et l'on considère ces éléments comme une base d'un espace vectoriel de dimension 6. On définit φ(ai) comme l'application linéaire qui à la base (a1, ..., a6) associe la base (ai.a1, ...,ai.a6). L'image d'une base par φ(ai) étant une base, cette application linéaire est donc un automorphisme de l'espace vectoriel. Cette représentation est la représentation régulière du groupe. Elle est un peu plus complexe, l'espace vectoriel est ici de dimension 6, il faut donc des matrices 6 × 6 pour la représenter. Il est utile de la factoriser, c'est-à-dire de trouver des sous-espaces vectoriels stables par toutes les applications linéaires de la représentation et dont la somme directe soit égale à l'espace entier. Sur chacun des sous-espaces, la représentation est plus petite, donc plus simple. Lorsque le corps de base est ℂ, on trouve de fait une décomposition en quatre sous-espaces, deux de dimension 1 et deux de dimension 2. Sur ceux de dimension 1, on trouve une fois la représentation triviale et une fois la signature. Sur ceux de dimension 2, on trouve chaque fois, à un isomorphisme près, la représentation de dimension 2 déjà évoquée dans ce paragraphe.
+Ce cas particulier est relativement simple, il fut résolu avant l'apparition de la théorie des représentations par une approche calculatoire. Des démonstrations modernes et non calculatoires sont présentes dans l'article associé.
+Groupe symétrique d'indice quatre[modifier | modifier le code]
+Article détaillé : Représentations du groupe symétrique.
+Représentation de S4 comme groupe des rotations du cube.
+L'origine des représentations provient de la théorie de Galois. Un objet caractéristique de cette théorie est un polynôme, qui, pour rester simple, est choisi ici à coefficients dans les nombres rationnels, par exemple P(X) = X4 + X + 1. L'axe d'analyse de la théorie de Galois est celui de l'étude du plus petit corps K contenant toutes les racines de P(X), il est appelé corps de décomposition et peut être considéré comme un sous-corps de C, l'ensemble des nombres complexes. Connaître la structure de ce corps revient à connaître celle de son groupe des automorphismes, encore appelé groupe de Galois. Il correspond à l'ensemble des bijections de K, qui respectent à la fois les additions et les multiplications. C'est toujours un groupe fini.
+Ces résultats ne terminent pas la question, la détermination du groupe de Galois est une question souvent difficile. Une manière de l'appréhender est de considérer K comme un espace vectoriel sur le corps des nombres rationnels, chaque élément du groupe apparaît alors comme un ensemble de matrices et ce groupe de matrices est une copie du groupe de Galois. Cette direction de recherche débouche immédiatement sur une complexité calculatoire nécessitant des outils théoriques pour aboutir à des théorèmes. Cette difficulté est illustrée par l'exemple du polynôme P(X). Le groupe de Galois est représenté par 24 matrices 24x24, ce qui fait beaucoup de coefficients à manipuler pour un groupe qui s'avère être S4, le groupe des permutations d'un ensemble à quatre éléments.
+La bonne technique consiste encore en une factorisation, c'est-à-dire la recherche d'une décomposition de l'espace de dimension 24 en une somme directe de plus petits sous-espaces vectoriels qui soient stables par chaque application linéaire du groupe. Dans un premier temps, on cherche les représentations non factorisables, c'est-à-dire qui ne contiennent aucun sous-espace vectoriel stable par toutes les applications linéaires du groupe, on les appelle des représentations irréductibles. Elles sont des facteurs potentiels dans la décomposition de la grosse représentation de dimension 24, on démontre que chaque facteur irréductible est représenté autant de fois que la dimension de son espace vectoriel, dans la grosse représentation.
+Il existe 5 représentations irréductibles, finalement pas si difficiles à expliciter. Les deux premières sont la représentation triviale et la signature, chacune de dimension 1. Pour trouver la troisième, il suffit de remarquer que S4 possède un sous-groupe distingué copie du groupe de Klein. Le quotient des deux groupes est égal à S3. Il existe une représentation de dimension 2, qui à chaque élément de S4, associe la représentation de sa classe si cet élément est quotienté par le groupe de Klein. Cette représentation correspond à celle de S3 déterminée au paragraphe précédent.
+La quatrième s'obtient en considérant un espace de dimension 4 ayant une base orthonormale (ei) pour i variant de 1 à 4. On associe à g, un élément de S4, l'application qui à la base associe la même base, mais cette fois permutée par g. Cette application se prolonge en une isométrie. Ce n'est pas encore la bonne représentation car elle contient une copie de la représentation triviale, mais l'orthogonal du sous-espace vectoriel de la représentation triviale est celle recherchée. Elle correspond au groupe des rotations du cube, illustré à droite. La dernière est simplement le produit de cette représentation et de la signature.
+Représentations, caractères et algèbre de groupe[modifier | modifier le code]
+Représentations d'un groupe[modifier | modifier le code]
+Article détaillé : Théorie des représentations d'un groupe fini.
+Heinrich Maschke, auteur du théorème portant son nom
+Une représentation d'un groupe G d'ordre fini est la donnée (V, ρ) d'un espace vectoriel de dimension finie et d'un morphisme ρ de G dans l'ensemble GL(V) des automorphismes de V. On obtient les propriétés suivantes :
+Comme le montrent les exemples précédents, une représentation peut apparaître de manière complexe. Le premier objectif est de la réduire par la recherche de sous-représentations. Une sous-représentation est la donnée d'un sous-espace vectoriel de V stable par chaque image de ρ. Si un tel sous-espace n'existe pas (à part l'espace vectoriel nul et l'espace entier V) on parle de représentation irréductible.
+Il existe un résultat important, appelé théorème de Maschke, annonçant que si la caractéristique du corps ne divise pas l'ordre du groupe G, alors l'espace V est somme directe de sous-espaces irréductibles. La situation décrite dans les deux exemples n'est pas une exception.
+Cette situation est différente, par exemple, de celle de la réduction d'endomorphisme. En dimension 2, un endomorphisme nilpotent d'ordre deux possède un noyau, qui comme tout noyau est stable par l'endomorphisme. Cependant il n'existe pas de supplémentaire stable, car tout supplémentaire est envoyé par l'endomorphisme sur le noyau.
+Il n'existe qu'un nombre fini de représentations irréductibles pour un groupe fini donné, à un isomorphisme près. Les représentations isomorphes sont en général identifiées dans la théorie. Un isomorphisme τ entre deux représentations (V, ρ) et (V' , ρ') est un isomorphisme d'espace vectoriel de V dans V' tel que :
+La logique suivie dans les exemples est celle de la théorie. Dans un premier temps, les représentations irréductibles sont déterminées. Une méthode simple permet de connaître le nombre de représentations irréductibles distinctes pour un groupe donné. Ensuite, pour une représentation donnée, une analyse permet de savoir quelles représentations irréductibles la contiennent.
+Caractères du groupe[modifier | modifier le code]
+Article détaillé : Caractère d'une représentation d'un groupe fini.
+Caractères du groupe symétrique d'indice trois.
+Un des deux piliers de la théorie est celui des caractères des représentations. Le caractère d'une représentation (V, ρ) est la fonction qui à un élément s associe la trace de ρs. Un caractère irréductible est le caractère d'une représentation irréductible. Si le corps de l'espace V est de caractéristique première avec g l'ordre du groupe et si le polynôme Xg - 1 est scindé dans le corps, alors les caractères possèdent des propriétés remarquables.
+Ce sont des fonctions centrales c’est-à-dire qu'elles sont constantes sur les classes de conjugaison du groupe. De plus, le lemme de Schur permet de démontrer que les caractères irréductibles forment une base orthonormale de l'espace des fonctions centrales.
+Ces propriétés permettent simplement de factoriser l'exemple donné sur S3. L'espace des fonctions centrales est de dimension trois car il existe trois classes de conjugaison différentes. Si φ et ψ sont deux fonctions centrales, c la classe des cycles d'ordre trois et t la classe des transpositions, alors si
+désigne le conjugué du complexe a, le produit hermitien (l'équivalent du produit scalaire pour les espaces vectoriels complexes) est donné par la formule :
+La norme de chacune des trois représentations t, σ et θ est bien égale à un et ils sont orthogonaux deux à deux, ce qui montre qu'ils forment la base des représentations et sont bien les trois représentations irréductibles. Il suffit de calculer le produit hermitien de la représentation de Galois pour déterminer sa factorisation.
+La figure de droite illustre le groupe S3. Les caractères représentés par des boules orange sont les trois irréductibles, la boule bleue représente le caractère de la représentation de Galois. Elle est combinaison linaire des trois caractères irréductibles avec les coefficient un pour la triviale, un pour la signature et deux pour celle des isométries du triangle.
+Algèbre du groupe[modifier | modifier le code]
+Article détaillé : Algèbre d'un groupe fini.
+Joseph Wedderburn
+Le deuxième pilier est constitué par l'algèbre du groupe, en général notée K[G]. Le groupe est linéarisé, c’est-à-dire qu'il est identifié à une base d'un K espace vectoriel. Le prolongement de la représentation à la structure forme une algèbre sur un corps :
+La structure est doublée d'une autre, celle de G-module sur l'anneau K[G]. Elle correspond au prolongement d'une représentation à l'algèbre K[G].
+Cette algèbre possède une propriété importante, elle est semi-simple. En conséquence, une théorie algébrique entière, riche en théorèmes permet d'élucider d'autres aspects de la structure. Le plus important est probablement celui d'Artin-Wedderburn. Il indique, dans ce contexte, que l'algèbre est isomorphe à un produit direct d'algèbres connues : les endomorphismes d'un espace vectoriel de dimension finie sur K.
+Un exemple est celui du centre de K[G]. Sous l'angle de l'algèbre du groupe, c'est un anneau semi-simple correspondant à un produit de la forme Kh où h est l'entier égal au nombre de sous-algèbres simples. Le centre s'avère être isomorphe aux fonctions centrales du paragraphe précédent. L'isomorphisme est suffisamment naturel pour que les deux structures soit souvent identifiées. Les propriétés d'orthonormalité s'expriment de manières différentes, sources de nombreux théorèmes comme la loi de réciprocité de Frobenius.
+Un tel centre ouvre des perspectives nouvelles, c'est un anneau commutatif sur un corps K, il est donc possible d'utiliser les outils de l'arithmétique. Une démarche de cette nature permet par exemple de démontrer que le degré de toute représentation irréductible divise l'ordre du groupe.
+Cette algèbre apporte enfin des outils essentiels dans le cas où l'ordre du groupe est un multiple de la caractéristique du corps. La théorie des anneaux, et plus particulièrement celle des idéaux, permet d'élucider la structure.
+Usages[modifier | modifier le code]
+Théorie de Galois[modifier | modifier le code]
+Article détaillé : Théorie de Galois.
+La théorie de Galois, peut se voir comme l'étude des relations algébriques qui lient les différents éléments d'un corps commutatif, c'est-à-dire un ensemble muni d'une addition et d'une multiplication tel que tout élément non nul est inversible et tel que les deux opérations soient commutatives. La théorie dite classique s'intéresse aux corps pas trop gros, qui se représentent comme un espace vectoriel de dimension finie sur un corps initial. Un exemple simple est donnée par les nombres de la forme a + bi, où a et b sont deux rationnels et i l'unité imaginaire. On parle d'extension quadratique, l'exemple précédent est celui des rationnels de Gauss. L'un des succès originaux de la théorie est d'indiquer quand une équation polynomiale est résoluble par radicaux, c'est-à-dire quand il est possible d'exprimer la racine d'un polynôme à l'aide des quatre opérations et de l'opération racine.
+Un résultat clé de la théorie stipule que la structure d'un corps L est décrite par la correspondance de Galois. Elle porte sur un groupe particulier, dit de Galois, celui des bijections de K dans K qui respectent les deux opérations du corps. Le groupe de Galois des rationnels de Gauss comporte deux éléments, l'identité et l'application conjuguée. Si les rationnels de Gauss sont vus comme un espace vectoriel de dimension 2, de base (1, i), le groupe de Galois peut être vu comme une représentation d'un groupe à deux éléments. Pour plus de simplicité, on peut incarner le groupe de Galois par des matrices, puis considérer ces matrices à coefficients dans les rationnels, comme celles d'applications linéaires sur un espace vectoriel complexe, ce qui est beaucoup plus simple à étudier.
+Disposer d'une théorie comme celle de la représentation d'un groupe fini pour étudier le groupe de Galois s'avère rapidement indispensable. On peut citer comme exemple celui du théorème d'Abel sur la possibilité de résoudre une équation polynomiale par radical. Sous sa forme galoisienne, ce résultat s'exprime par le fait que l'équation est résoluble si et seulement si le groupe de Galois possède une propriété particulière. On dit alors que le groupe est résoluble. Le théorème de Burnside sur cette question, décrit dans paragraphe précédent est ainsi typiquement galoisien.
+Théorie algébrique des nombres[modifier | modifier le code]
+Article détaillé : Théorie algébrique des nombres.
+L'usage des représentations et des caractères des groupes abéliens finis, fait son apparition en arithmétique bien avant les travaux de Frobenius. Un important théorème, dit de la progression arithmétique, démontré[47] par Dirichlet utilise des caractères de cette nature[48].
+Le cas non abélien, au cœur de la théorie présentée dans cet article, n'est pas en reste. La structure étudiée par la théorie algébrique des nombres est très liée à la théorie de Galois. Une manière simple de voir cette structure est de ne considérer que les entiers algébriques d'un corps de la même nature que ceux du paragraphe précédent. Un entier algébrique est un élément de ce corps racine d'un polynôme unitaire (c'est-à-dire dont le coefficient du monôme de plus haut degré est égal à 1) et à coefficients dans les entiers relatifs. Les entiers algébriques des nombres rationnels sont les entiers relatifs, ceux des rationnels de Gauss sont les nombres de la forme a + ib, où cette fois a et b sont des entiers relatifs.
+Une fois encore le groupe des bijections respectant l'addition et la multiplication, on parle d'automorphisme d'anneau, s'avère essentiel. On parle toujours de groupe de Galois. Une démarche de la même nature que celle du paragraphe précédent permet d'associer à ce groupe, une représentation naturelle. Cette représentation est importante pour comprendre les idéaux d'un anneau d'entiers algébriques. Les idéaux sont un être mathématique découvert par Ernst Kummer pour résoudre le dernier théorème de Fermat dans de nombreux cas. Si les anneaux d'entiers algébriques ressemblent, à beaucoup d'égards, aux entiers relatifs, le théorème fondamental de l'arithmétique stipulant l'existence et une forme d'unicité d'une décomposition en facteurs premiers ne s'applique plus. Ce que Kummer appelait des « nombres idéaux (en) » est une manière[49] de pallier cette lacune, les idéaux premiers remplaçant les nombres premiers (cf l'article Idéal fractionnaire).
+Bien comprendre la manière dont se structurent les idéaux est un facteur déterminant pour résoudre des problèmes d'arithmétique. Le groupe de Galois est important car l'image d'un idéal par un élément du groupe est encore un idéal. D'une certaine manière, la structure du groupe se reporte sur des classes d'idéaux. Un exemple d'usage est l'équation de Pell-Fermat. Si elle semble simple, sa résolution s'avère redoutable. Elle correspond à l'équation diophantienne suivante :
+Une équation diophantienne est une équation à coefficients dans les nombres entiers où les solutions recherchées sont entières. Ici n est un entier non carré parfait et m un entier différent de zéro. Dans le cas général, cette équation est résolue[50] par David Hilbert à l'aide d'une première ébauche de la théorie des corps de classes. La connaissance du groupe de Galois, souvent obtenue par l'étude de la représentation naturelle, est le nœud de la démonstration. La recherche arithmétique actuelle fait toujours grand usage des représentations d'un groupe fini. Un exemple archétypal est un prolongement de la théorie des corps de classes dans le cas non commutatif. Il porte le nom de programme de Langlands. Une fois encore les représentations sont indispensables[51].
+Algèbre non commutative[modifier | modifier le code]
+Article détaillé : Théorème d'Artin-Wedderburn.
+La théorie de Galois, à travers les corps de solutions d'une équation algébrique ou son anneau des entiers algébriques, est capable de fournir de nombreux exemples d'ensembles munis d'une addition et d'une multiplication. Ces structures ont toutes un élément commun, la multiplication est commutative.
+Les mathématiques, comme les sciences de la nature, mettent en évidence des cas où la multiplication n'est pas commutative. Beaucoup d'ensembles de matrices, sont naturellement munis de ces deux opérations et disposent d'une multiplication qui ne l'est pas. William Hamilton passe dix ans de sa vie[52] pour trouver un ensemble de cette nature capable de formaliser plus simplement la mécanique newtonienne. Il découvre à cette occasion le premier corps gauche, c'est-à-dire un ensemble tel que tous les éléments non nuls sont inversibles, mais qui n'est pas commutatif appelé quaternion.
+L'exemple des corps est significatif de l'apport de la représentation des groupes finis dans cette branche des mathématiques. On peut remarquer dans un premier temps que le plus petit sous-corps d'un corps gauche L est nécessairement commutatif. L apparaît alors comme un espace vectoriel sur K. Le plus petit sous-corps n'est pas l'unique candidat, par exemple le corps des quaternions est un espace vectoriel de dimension 4 sur les nombres réels. Si L est un espace vectoriel de dimension finie sur K, il est possible d'isoler dans L un petit groupe multiplicatif G fini suffisamment vaste pour que l'espace vectoriel sur K engendré par le groupe soit le corps L. Cette méthode permet de voir L comme une conséquence d'une représentation de G. Une approche analogue est utilisée pour construire les quaternions dans l'article représentations du groupe des quaternions.
+D'une manière plus générale, considérer une représentation comme une algèbre d'un groupe fini est une méthode puissante pour étudier une famille d'anneaux dits semi-simples et contenant de nombreux représentant non commutatifs. Le théorème central de cette théorie porte le nom d'Artin-Wedderburn[53].
+Réseau[modifier | modifier le code]
+Article détaillé : Réseau (géométrie).
+La structure d'un cristal s'analyse à travers la représentation d'un groupe fini. Il correspond au groupe orthogonal du réseau associé. Celui-ci est un cristal de dravite.
+Un réseau est un groupe discret de Rn, générateur de l'espace vectoriel. Une question qui se pose est celle du groupe orthogonal, c'est-à-dire l'ensemble des isométries linéaires, d'une telle structure. On montre assez simplement qu'un tel groupe est fini et dans le cas de la dimension 2, les outils élémentaires de la théorie des groupes et de l'algèbre linéaire permet d'élucider cette question. En revanche, quand la dimension augmente les outils associés à la représentation d'un groupe fini, particulièrement les caractères, s'avèrent indispensables.
+Le cas de la dimension 3 intéresse particulièrement les cristallographes. Un cristal se modélise par un réseau, auquel cette science donne le nom de Bravais[54]. Cette géométrie est à l'origine de propriétés mécaniques, optiques ou encore électriques. À travers les tables de caractères, il est possible de déterminer le groupe orthogonal, qui, dans ce contexte, prend le nom de groupe de symétrie ou groupe ponctuel.
+Une question analogue, aussi en dimension 3, se traite aisément avec les outils des représentations d'un groupe fini, celui des solides de Platon. Ils correspondent aux polyèdres réguliers convexes d'un espace de dimension 3. L'analyse de groupes admettant une représentation irréductible de dimension 3 permet d'établir l'existence et les caractéristiques des différents solides de Platon. Les exemples du tétraèdre, du dodécaèdre et de l'icosaèdre sont traités dans l'article groupe alterné.
+Les dimensions plus élevées sont l'objet d'études de la part des cryptologues. Si la dimension augmente, la recherche du plus petit vecteur non nul est un problème conjecturé comme difficile. Difficile prend ici un sens très précis. Il ne signifie pas que personne ne sait le résoudre, mais que les seules méthodes accessibles, avec la vitesse actuelle (2008) des ordinateurs, demande beaucoup de temps, typiquement un temps supérieur à l'âge de l'univers[55]. Un des codes assurant une des meilleures sécurité[56] est fondé sur la géométrie d'un réseau de cette nature, il porte le nom de NTRU.
+Classification des groupes finis[modifier | modifier le code]
+Articles détaillés : Groupe fini et Classification des groupes simples finis.
+La théorie des représentations est l'un des outils essentiels pour la classification des groupes. Pour les groupes d'ordre petit, les théorèmes de Sylow suffisent en général. En revanche, cette approche est trop limitée pour une étude générale. Les théorèmes de Burnside, sur le cardinal d'un groupe résoluble ou sur les groupes d'exposant fini et de type fini sont des exemples caractéristiques. On trouve des cas d'utilisations un peu élémentaires de la théorie, par exemple pour établir le caractère simple d'un groupe d'ordre 168.
+Une des techniques, pour élucider la structure d'un groupe fini un peu complexe est de considérer sa représentation en tant que groupe orthogonal d'un réseau. Un exemple est le réseau de Leech, de dimension 24, son groupe orthogonal permet de mettre en évidence les groupes de Conway, dont le plus grand, généralement noté CO1, comporte 4 157 776 806 543 360 000 éléments. C'est un groupe sporadique obtenu par quotient du groupe orthogonal par son centre[57].
+Le plus célèbre cas est probablement le groupe Monstre, le plus gros des 26 groupes sporadiques simples. Son existence était annoncée depuis une dizaine d'années avant sa construction[58]. Elle devait découler d'une représentation de dimension 196 883, conjecturé et explicité sans l'aide d'ordinateur. Elle devrait clore la classification des groupes simples finis.
+Annexes[modifier | modifier le code]
+Notes[modifier | modifier le code]
+↑ (en) T. Hamada, Y. Michiwaki et M. Oyama, On the influence of the 'Seki's School versus the Saijo School controversy' in the provinces (Japanese), Sugakushi Kenkyu 64, 1975
+↑ L. Couturat, La logique de Leibniz (Hildesheim, 1961)
+↑ J.-L. Lagrange, Réflexions sur la résolution algébrique des équations, 1770
+↑ A.-T. Vandermonde, Mémoire sur la résolution des équations, 1771
+↑ (la) C. F. Gauss, Disquisitiones arithmeticae, 1801
+↑ N. H. Abel, Mémoire sur les équations algébriques, où l'on démontre l'impossibilité de la résolution de l'équation générale du cinquième degré, 1824
+↑ E. Galois, Sur les conditions de résolubilité des équations algébriques, Journal de mathématiques pures et appliquées, 1846
+↑ J. Liouville, Œuvres Mathématiques d'Évariste Galois Suivie d'un avertissement de Liouville, Journal de mathématiques pures et appliquées, vol. X, 1846
+↑ A. L. Cauchy, Sur le nombre de valeurs égale ou inégales que peut acquérir une fonction de n variables indépendantes, quand on permute ces variables entre elles d'une manière quelconque, 1845
+↑ (en) A. Cayley, « On the theory of groups, as depending on the symbolic equation θn=1 », Philos. Mag., vol. 7, no 4,‎ 1854, p. 40–47
+↑ F. Klein, Conférences sur l'icosaèdre et les solutions de l'équation du cinquième degré, 1877
+↑ M. L. Sylow, « Théorème sur les groupes de substitutions », Mathematische Annalen, vol. V,‎ 1872, p. 584-594
+↑ (de) H. Weber, Lehrbuch der Algebra, Braunschweig, 1924
+↑ (de) G. Dirichlet, Vorlesungen über Zahlentheorie, 3e édition, Vieweg, Braunschweig, 1879
+↑ C. Jordan, Traité des substitutions et des équations algébriques, 1870]
+↑ R. Dedekind, Sur la théorie des nombres entiers algébriques, Bulletin des sciences mathématiques et astronomiques, 2e série, tome 1, no 1, 1871
+↑ (en) K. W. Johnson, The Dedekind-Frobenius group determinant, new life in an old method, Groups St Andrews 97 in Bath, II, London Math. Soc. Lecture Note Series 261, 1999, p. 417-428
+↑ Lam, Part I, p. 365
+↑ (de) G. Frobenius, Neuer Beweis des Sylowschen Satzes, Berlin Journal für die reine und angewandte Mathematik. 100, 1887, p. 179-181
+↑ (de) F. G. Frobenius, Über Gruppen von vertauschbaren Elementen, 1879
+↑ (en) C. W. Curtis, Representation theory of finite groups, from Frobenius to Brauer, Math. Intelligencer, 1992, p. 48-57
+↑ (en) T. Hawkins (de), « The origins of the theory of group characters », Arch. Hist. Exact Sci. (en), vol. 7, 1971, p. 142-170
+↑ (de) F. G. Frobenius, Über Gruppencharaktere, Sitzungsber. Preuss. Akad. Wiss. Berlin, 1896
+↑ (de) F. G. Frobenius, Über die Primfactoren der Gruppendeterminante, Sitzungsber. Preuss Akad. Wiss Berlin, 1896
+↑ (de) F. G. Frobenius, Zur Theorie der Scharen bilinearer Formen, Zürich, 1896
+↑ Lam, Part I, p. 370
+↑ (de) F. G. Frobenius, Über die Darstellung der endlichen Gruppen durch lineare Substitutionen, Sitzungsber. Preuss. Akad. Wiss. Berlin, 1897
+↑ (de) T. Molien, Über Systeme höherer complexer Zahlen, 1893
+↑ (de) T. Molien, Über die Invarianten der linearen Substitutionsgruppen, 1897
+↑ (de) F. G. Frobenius, Über Relationen zwischen den Charakteren einer Gruppe und denen ihrer Untergruppen, Sitzungsber. Preuss Akad. Wiss Berlin, 1898
+↑ (de) F. G. Frobenius, Über die Composition der Charaktere einer Gruppe, Sitzungsber. Preuss Akad. Wiss Berlin, 1899
+↑ (de) F. G. Frobenius, Über die Charaktere der symmetrischen Gruppen, Sitzungsber. Preuss Akad. Wiss Berlin, 1900
+↑ (de) F. G. Frobenius, Über die Charaktere der alternirenden Gruppen, Sitzungsber. Preuss Akad. Wiss Berlin, 1901
+↑ (en) R. C. Archibald, A semicentennial history of the American Mathematical Society 1888-1938, New York, 1980, p. 144-150
+↑ (en) L. E. Dickson, Linear Groups - With an Exposition of the Galois Field Theory, Courier Dover Publications, 2003
+↑ (de) H. Maschke, « Beweis des Satzes, dass diejenigen endlichen linearen Substitutionsgruppen… », Mathematische Annalen, vol. 52,‎ 1899, p. 363-368 (lire en ligne)
+↑ (en) J. Wedderburn, « On hypercomplex numbers », Proc. London Math. Soc., 1907
+↑ (de) I. Schur, Uber eine Klasse von Matrizen, die sich einer gegebenen Matrix zuordnen lassen, Université de Göttingen, 1901
+↑ (en) C. W. Curtis, Pioneers of representation theory : Frobenius, Burnside, Schur, and Brauer, Providence, RI, 1999
+↑ (en) W. Burnside, « Notes on the theory of groups of finite order », Proc. London Math. Soc., vol. 26, 1895, p. 191-214
+↑ (en) A. Wagner, « A bibliography of William Burnside (1852-1927) », Historia Mathematica, vol. 5, no 3,‎ 1978, p. 307-312
+↑ (en) William Burnside, « On an unsettled question in the theory of discontinuous groups », Quart. J. Math., vol. 33,‎ 1902, p. 230-238
+↑ (en) William Burnside, « On criteria for the finiteness of the order of a group of linear substitutions », Proc. London Math. Soc., vol. 2, no 3,‎ 1905, p. 435-440
+↑ (en) E. Zelmanov, Solution of the restricted Burnside problem for groups of odd exponent, Math. USSR Izvestiya 36 (1), 1991, p. 41-60
+↑ a et b (en) W. Burnside, Theory of Groups of Finite Order, Dover Publications, 2004
+↑ (en) J. Thompson et W. Feit, Chapter I, from Solvability of groups of odd order Math, vol. 13, no. 3, 1963
+↑ (de) Dirichlet, Beweis eines Satzes über die arithmetische Progression, Bericht über die Verhandlungen der König. Preuss. Akad. Wiss. Jahrg. 1837, 8, p. 108-110
+↑ Cet exemple est cité comme ancêtre de la théorie dans un cours de l'Ecole Polytechnique Représentation des groupes finis, théorie des caractères
+↑ (en) H. M. Edwards, The background of Kummer's proof of Fermat's Last Theorem for regular primes, Arch. History Exact Sci. 14(1975)
+↑ Voir par exemple : D. A. Cox, Primes of the Form x2+ny2, Wiley-Interscience, 1989 (ISBN 0471506540)
+↑ Une présentation vulgarisée de cette théorie est proposée par : L. Lafforgue La théorie de Galois et l'arithmétique 2004
+↑ (en) T. L. Hankins, Sir William Rowan Hamilton, Johns Hopkins University Press, Baltimore, 1980
+↑ Pour plus de détail voir l'article détaillé ou : P. Cartier, Théorie des algèbres semi-simples, Séminaire Sophus Lie
+↑ (en) M. I. A. U. Müller et H. Wondratschek, Historical introduction, International Tables for Crystallography (2006), vol. A1, ch. 1.1, p. 2-5
+↑ (en) Christos Papadimitriou, Computational Complexity, Addison-Wesley,‎ 1993 (ISBN 978-0-201-53082-7)
+↑ (en) J. Hoffstein, J Pipher et J. Silverman, A ring based Public Key Cryptosystem, Algorithmic Number Theory (ANTS III), Portland, OR, June 1998
+↑ (en) J. H. Conway, « A perfect group of order 8,315,553,613,086,720,000 and the sporadic simple groups », PNAS, vol. 61, 1968, p. 398-400
+↑ Représentations des groupes finis, théorie des caractères Enseignement de l'Ecole Polytechnique page 5
+Liens externes[modifier | modifier le code]
+Cours de représentation des groupes finis par Michel Broué de l'université de Paris VII
+Eléments d'analyse et d'algèbre par Pierre Colmez
+(en) Anthony W. Knapp (de), Group representation and Harmonic analysis: From Euler to Langlands, Part II, Notices of the American Mathematical Society, vol. 43, n° 5, mai 1996
+(en) Peter Webb, Finite Group Representations for the Pure Mathematician
+Références[modifier | modifier le code]
+Pierre Colmez, Eléments d'analyse et d'algèbre (et de théorie des nombres), Éditions de l'École polytechnique
+(en) C. W. Curtis, Pioneers of Representation Theory, History of mathematics, vol. 15, 2000 (ISBN 0821826778)
+(en) Tsit Yuen Lam, « Representation of finite groups: A Hundred years, Part I », Notices AMS, vol. 45,‎ 1998 pdf, ps
+ibid, Part II, ps
+Jean-Pierre Serre, Représentations linéaires des groupes finis [détail des éditions]
+Portail des mathématiques
+Cet article est reconnu comme « bon article » depuis sa version du 18 août 2008 (comparer avec la version actuelle).
+Pour toute information complémentaire, consulter sa page de discussion et le vote l'ayant promu.
+La version du 18 août 2008 de cet article a été reconnue comme « bon article », c'est-à-dire qu'elle répond à des critères de qualité concernant le style, la clarté, la pertinence, la citation des sources et l'illustration.
+v · d · m
+Représentations d'un groupe fini
+Théorie des représentations d'un groupe fini et de leurs caractères · Algèbre d'un groupe fini · Fonction centrale · Produit tensoriel · Représentation de groupe · Représentation induite · Représentations du groupe symétrique · Représentations du groupe des quaternions · Représentation irréductible · Représentation régulière · Théorème de Burnside (groupe résoluble) · Théorème de Burnside (problème de 1902) · Réciprocité de Frobenius · Critère d'irréductibilité de Mackey · Théorème de Maschke · Lemme de Schur · Tableau de Young · Théorie des représentations modulaires (en)
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Représentations_d%27un_groupe_fini&oldid=109632585 ».
+Catégorie : Théorie des représentationsCatégories cachées : Article contenant un appel à traduction en allemandArticle contenant un appel à traduction en anglaisArticle à précision nécessairePortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesBon article
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Citer cette page
+Autres langues
+中文
+Dernière modification de cette page le 3 décembre 2014 à 00:51.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

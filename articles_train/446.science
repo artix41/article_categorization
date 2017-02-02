@@ -1,0 +1,228 @@
+Notation (mathématiques) — Wikipédia
+Notation (mathématiques)
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Notation mathématique)
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Notation.
+On utilise en mathématiques un ensemble de notations pour condenser et formaliser les énoncés et les démonstrations. Ces notations se sont dégagées peu à peu au fil de l'histoire des mathématiques et de l’émergence des concepts associés à ces notations. Elles ne sont pas totalement standardisées.
+Cet article présente les concepts les plus courants des mathématiques du XXIe siècle dans leurs notations les plus usuelles.
+Quand deux traductions d'une notation sont données, l'une est la traduction mot-à-mot et l'autre est la traduction naturelle.
+Le présent article traite des notations mathématiques latines. Il existe d'autres notations mathématiques non latines telles que la notation mathématique arabe moderne (en).
+Il existe également des notations mathématiques destinées aux non voyants.
+Sommaire
+1 Introduction
+2 Opérateurs logiques
+3 Ensembles
+3.1 Ensembles usuels
+3.2 Relations sur les ensembles
+3.3 Modes de définition d'un ensemble
+4 Quantificateurs
+4.1 Pour tout
+4.1.1 Notation
+4.1.2 Exemples
+4.2 Il existe
+4.2.1 Notation
+4.2.2 Exemples
+4.3 Exemples généraux
+4.4 Il existe un unique
+5 Symboles arithmétiques
+5.1 Somme
+5.2 Produit
+5.3 Factorielle
+6 Note et référence
+7 Voir aussi
+7.1 Articles connexes
+7.2 Lien externe
+Introduction[modifier | modifier le code]
+Comme tout langage formel, une notation mathématique a pour but de retirer l'ambiguïté (notamment linguistique) d'une proposition en la décomposant en un ensemble limité de symboles dont l'agencement ne peut avoir qu'un unique sens.
+Par exemple, pour dire que
+vaut un, on utilisera :
+Ce langage scientifique permet aussi, dans une moindre mesure, de faciliter la communication entre des mathématiciens ne parlant pas la même langue. S'il ne remplace pas complètement le langage naturel, il permet d'exprimer les concepts mathématiques les plus complexes sous une forme qui est quasi-identique suivant de nombreuses langues et cultures, évitant ainsi les quiproquos sur les concepts mathématiques, par des gens ne maîtrisant pas toutes les subtilités grammaticales et syntaxiques de la langue de communication employée.
+Au sein même de la famille culturelle utilisant la notation mathématique latine, certains concepts du langage formel restent cependant spécifiques à un bassin linguistique donné. Ainsi, dans la littérature mathématique francophone, l'assertion
+signifie « l'ensemble A est un sous-ensemble ou est égal à B » alors que dans la littérature mathématique anglophone, il signifiera plutôt « l'ensemble A est un sous-ensemble strict de B ».
+La liste de symboles qui suit n'est pas exhaustive. Cependant, l'ensemble des symboles présentés ici sont utilisés de façon universelle dans la littérature mathématique francophone.
+Opérateurs logiques[modifier | modifier le code]
+Articles détaillés : Algèbre de Boole (logique) et Calcul des propositions.
+, non.
+, et.
+, ou.
+, implique.
+, équivaut à.
+Ensembles[modifier | modifier le code]
+Article détaillé : Ensemble.
+Un ensemble représente une collection d'objets. Les objets de la collection sont les éléments de l'ensemble.
+Ensembles usuels[modifier | modifier le code]
+ou N[1], ensemble des entiers naturels.
+ou Z, ensemble des entiers relatifs.
+ou D, ensemble des nombres décimaux.
+ou Q, ensemble des rationnels.
+ou R, ensemble des nombres réels.
+, ensemble des nombres réels positifs ou nuls.
+, ensemble des nombres réels négatifs ou nuls.
+ou C, ensemble des nombres complexes.
+, les mêmes ensembles privés de zéro. Peut aussi désigner les éléments inversibles de ces mêmes ensembles.
+devient alors {1} tandis que
+devient {-1,1}. Ces deux significations sont équivalentes dans les six autres exemples.
+Relations sur les ensembles[modifier | modifier le code]
+, appartenance.
+n appartient à l'ensemble des entiers naturels.
+n est un entier naturel.
+L'appartenance est une relation qui lie un élément et un ensemble.
+, inclusion.
+est inclus dans .
+Les entiers relatifs sont des rationnels.
+Un ensemble est inclus dans un autre si et seulement si tous ses éléments sont éléments de l'autre.
+Modes de définition d'un ensemble[modifier | modifier le code]
+Un ensemble peut être défini :
+en compréhension, c'est-à-dire par une propriété caractéristique parmi les éléments d'un ensemble donné. Par exemple ;
+comme image directe. Par exemple, l'ensemble ci-dessus s'écrit aussi
+Quantificateurs[modifier | modifier le code]
+Article détaillé : Quantificateur (logique).
+Voir calcul des prédicats pour un point de vue plus théorique sur ces notations.
+Pour tout[modifier | modifier le code]
+Notation[modifier | modifier le code]
+, pour tout, quel que soit.
+Exemples[modifier | modifier le code]
+Quel que soit n entier naturel, n est supérieur ou égal à zéro.
+est minoré par zéro.
+Forme condensée.
+Pour tout réel a, si a est inférieur ou égal à zéro, et si a est supérieur ou égal à zéro, alors a est nul.
+Tout réel, à la fois supérieur ou égal à zéro et inférieur ou égal à zéro, est nul.
+Il existe[modifier | modifier le code]
+Notation[modifier | modifier le code]
+, il existe (au moins un).
+Exemples[modifier | modifier le code]
+Il existe un élément dans .
+est non vide.
+Il existe un réel x tel que x soit plus grand ou égal à un.
+n'est pas majoré par 1.
+Forme condensée.
+Exemples généraux[modifier | modifier le code]
+Pour tout entier naturel n, il existe un autre entier naturel m tel que m soit supérieur ou égal à n.
+Tout entier naturel est inférieur ou égal à au moins un autre entier naturel.
+Il existe un entier naturel m tel que quel que soit l'entier naturel n, m soit plus grand que n.
+est majoré.
+On notera donc que l'ordre des quantificateurs est important : la première proposition est vraie, l'autre est fausse.
+Pour tout réels a et l, il existe une application f de
+dans
+telle que f tend vers l en a.
+Il existe un unique[modifier | modifier le code]
+La notation
+qui signifie il existe un unique.... Ce quantificateur se définit à partir des quantificateurs précédents et de l'égalité. Pour P(x) une propriété de x :
+∃! x P(x) équivaut par définition à ∃ x [P(x) ∧ ∀ y (P(y) ⇒ y = x)]
+ou de façon équivalente :
+∃! x P(x) équivaut à ∃ x P(x) ∧ ∀ x ∀ y [(P(x) ∧ P(y)) ⇒ y = x] .
+Exemple.  : pour tout x réel non nul, il existe un unique réel y non nul tel que le produit xy soit égal à 1. En d'autres termes, x admet un unique inverse pour la multiplication.
+Symboles arithmétiques[modifier | modifier le code]
+Ces symboles sont utilisés pour simplifier l'écriture de longues séries (par exemple en évitant d'utiliser des pointillés). On utilise dans chacun de ces cas une variable dite variable muette qui va prendre des valeurs dans un ensemble précis. Cette variable muette va alors permettre la description d'un terme générique placé après le symbole.
+Somme[modifier | modifier le code]
+(Lettre grecque : Sigma majuscule)
+Exemples
+Si
+est un entier strictement positif :
+Ici
+est la variable muette, elle prend ses valeurs dans l'ensemble
+(ensemble d'entiers). Le terme général de cette somme est .
+étant l'ensemble des entiers pairs positifs
+Ici
+appartient à un ensemble défini par deux conditions : ses éléments sont des entiers positifs pairs et ils sont strictement plus petits que 50
+Exemple de somme infinie :
+On aurait pu écrire de manière moins condensée :
+Par convention, une somme indexée par l'ensemble vide est nulle.
+Produit[modifier | modifier le code]
+(Lettre grecque : Pi majuscule)
+Ce symbole s'utilise de manière analogue au symbole somme.
+Exemple
+On aurait pu écrire de manière moins condensée :
+Par convention, un produit indexé par l'ensemble vide vaut 1.
+Factorielle[modifier | modifier le code]
+(point d'exclamation)
+C'est un cas particulier de produit :
+(où n et k sont implicitement supposés entiers).
+Autrement dit,
+si l'entier n est strictement positif :
+s'il est négatif ou nul, n ! = 1.
+Note et référence[modifier | modifier le code]
+↑ Composition des textes scientifiques - Texte présenté par l'Éducation nationale (France) pour normaliser les sujets d'examen, p. 3.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Apprendre à lire les expressions mathématiques, sur Wikiversity
+Articles connexes[modifier | modifier le code]
+Table des symboles mathématiques
+Liste d'abréviations en mathématiques
+Logique mathématique
+Lien externe[modifier | modifier le code]
+Règles françaises de typographie mathématique : comment rédiger en français un document mathématique qui soit typographiquement correct
+Portail des mathématiques
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Notation_(mathématiques)&oldid=109772183 ».
+Catégories : Vocabulaire des mathématiquesLogique mathématiqueAlgèbre généraleLangage formelCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+বাংলা
+Català
+Deutsch
+English
+Esperanto
+Español
+Suomi
+עברית
+हिन्दी
+Italiano
+मराठी
+Bahasa Melayu
+Português
+Русский
+Simple English
+தமிழ்
+ไทย
+Tagalog
+Türkçe
+中文
+Modifier les liens
+Dernière modification de cette page le 8 décembre 2014 à 11:10.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,132 @@
+Peinture numérique — Wikipédia
+Peinture numérique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La peinture numérique est une forme d'art numérique apparue dans les années 1990 dans laquelle les techniques traditionnelles de la peinture, telles que l'aquarelle, les huiles, l'impasto, sont appliquées à l'aide d'outils numériques grâce à un ordinateur, une tablette graphique, un stylet et un logiciel. La peinture numérique diffère des autres formes d'art numérique, en particulier art généré par ordinateur, parce qu'elle n'implique pas que l'ordinateur s'appuie sur un modèle. L'artiste emploie des techniques de peinture pour créer la peinture numérique directement sur l'ordinateur.
+Comme en peinture traditionnelle, il existe divers mouvements de peinture numérique[réf. nécessaire] :
+Pixel art
+Pop art (David Hockney par exemple).
+Sommaire
+1 Histoire de la peinture numérique
+2 Technique
+3 Domaines d'utilisation
+3.1 Industrie du divertissement
+3.2 Art
+4 Voir aussi
+4.1 Articles connexes
+5 Notes
+Histoire de la peinture numérique[modifier | modifier le code]
+Le pixel art est sans doute une des premières techniques de peinture numérique, arrivé avec les premiers ordinateurs, elle consistait à créer des images numériques point par point à la façon de la tapisserie ou de la broderie. Les couleurs y sont aussi limitées et dépendent de contraintes techniques forte (notamment la proximité pour les changements de couleur, liée au balayage vidéo et aux limites de vitesse des processeurs). Ce terme n'est toutefois apparu que lorsque les ordinateurs ont eu la capacité de faire des images en 16 millions de couleurs (24 ou 32 bits) avec des résolutions suffisamment élevées pour que l'on ne distingue plus à l'œil nu les pixels.
+Dans les années 1970 apparaissent les palettes graphiques, machines outils de dessinateurs dédiées à la vidéo, permettant à l'aide d'un stylet de peintre sur des écrans vidéos avec quelques couleurs. La sortie vidéo peut également entrer dans une chaîne de diffusion et peut également être projetée sur les chaines de télévision. Cette technique était, par exemple, utilisée par des caricaturistes (Siné, Plantu, Wiaz, Georges Wolinski ou Cabu), dans l'émission française de débat Droit de réponse (émission de télévision) (1981 – 1987), animée par Michel Polac, pour donner une pointe d'humour aux débats parfois houleux. Ou dans une optique plus artistique par le groupe The Residents, pionnier de la vidéo numérique. Ces outils étaient très souples, mais aussi très onéreux, ne pouvant être exploités que par des budgets de chaines de télévision nationales.
+Le crayon optique, livré sur les micro-ordinateurs 8 bits de la marque française Thomson ; TO7 (1982 – 1984) puis MO5 (1984-?), permettaient dans les années 1980 de dessiner, grâce au logiciel Pictor, directement sur l'écran, de façon vectorielle, puis de rejouer sous forme d'animation le processus créatif. À cette époque où les écrans de télévisions utilisaient des tubes cathodiques étaient relativement bombés, cela posaient parfois des problèmes de précision pour le crayon optique et des traits apparaissent parfois en diagonale pour rejoindre les angles de l'écran.
+En 1983, Apple, sort le Lisa, ordinateur personnel réutilisant le système de souris et d'environnement graphique inventé par Xerox. Son succès sera limité. C'est avec son second système, baptisé Macintosh, comportant un écran en noir et blanc est livré avec un logiciel de dessin, que sera diffusé à une échelle internationale un système graphique comportant un périphérique d'entrée facilitant le dessin. La souris reste moins précise que le crayon optique mais évite les erreurs parfois aléatoire de cet outil. La souris est également moins précise que la tablette graphique utilisée dans la palette graphique, mais son coût de fabrication bien moins élevé. Le Macintosh contient également un microprocesseur 16/32 bits Motorola 68000, marquant un bon en avant dans la puissance par rapport aux microprocesseurs 8 bits des autres ordinateurs grand public. Il est tout de même vendu à un prix élevé, le réservant un publique de professionnels. Cet ensemble souris et environnement graphique de Xerox se diffusera peu à peu sur la majorité des micro-ordinateurs.
+L'Amiga (1985 – 1994) de Commodore apparaît en 1985, permettant pour la première fois d'afficher des milliers de couleurs sur un micro-ordinateur. Comme le Macintosh, il est équipé d'un microprocesseur 68000, mais sera également épaulé par un processeur graphique et un processeur vidéo puissants pour l'époque permettant d'afficher 4096 couleurs à l'écran sur une palette de 16 millions et de faire différentes modifications de l'écran pendant le balayage de la lecture vidéo, ses capacités vidéo en font un outil apprécié dans le domaine de la vidéo. Le programme d'Electronic Arts nommé Deluxe Paint sort la même année sur Amiga, c'est un logiciel de dessin et retouche d'image capable d'utiliser les capacités de l'Amiga, permettant enfin de faire un travail poussé en pixel art ou dessin à main levée en utilisant les possibilités étendues des couleurs de l'Amiga, les contraintes de la palette de 16 ou 32 couleurs (parmi des millions) reste tout de même une contrainte forte.
+En 1987 sort Photon Paint sur Amiga, permettant de peindre en mode HAM (4096 couleur simultanées), permettant pour la première fois de peindre en milliers de couleurs sur un ordinateur.
+En 1990, Mark Zimmer, qui écrira par la suite Painter, fini son premier algorithme de « peinture naturelle »[1]
+En 1991 sort sur Amiga le logiciel TVPaint reproduisant tous les outils de la palette graphique en y alliant la puissance du système graphique de l'Amiga, il est conçu pour fonctionner avec des tablettes graphiques, des cartes graphiques plus puissantes permettant d'afficher 16 millions de couleurs simultanément et des systèmes d'incrustation vidéo de l'Amiga Genlock). C'est la première fois qu'on peut utiliser une tablette graphique avec un un ordinateur grand public.
+Painter sur Macintosh [Quand ?], est créé par Mark Zimmer et la compagnie Fractal Design Corporation, puis est racheté plus tard par Corel ; il permet de simuler des effets proches de la peinture naturelle.
+En 1996, Wacom sort l'Artpad, tablette graphique à 1000 FF (environ 150 euros), compatible avec l'Amiga, permettant un accès plus populaire à cet outil[2],[3].
+L'oekaki, apparu au début des années 2000 avec OekakiBBS est une technique de peinture numérique en ligne, utilisant dans sa première version, un logiciel en java chargée sur le poste client via le protocole HTTP. Ces outils enregistrent en général le processus créatif sur le serveur web et permettent de le visualiser ensuite sous forme animation, reprenant le principe du logiciel Pictor de Thomson. Le logiciel sera décliné en plusieurs versions, en Java, Javascript, flash, et autres langages de scripts.
+Le logiciel openCanvas sort en 2000 et est diffusé gratuitement, il est rapidement adopté avec une grande popularité dans le domaine de la peinture numérique. Il est léger, rapide et permet à des étudiants en art de s'exprimer. Il deviendra plus tard payant.
+En 2005, sort MyPaint un logiciel libre de peinture numérique, tentant de reproduire des brosses naturelles ou créative et basé sur une conception géométrique et paramétrique, par l'utilisateur des brosses.
+En 2007, Wacom sort la tablette graphique Cintiq, dans deux formats, 12 pouces et 20 pouces, intégrant un écran LCD. La partie écran comme la partie tablette graphique de la tablette sont reliés à l'ordinateur sur lequel fonctionne le logiciel. Cela permet de dessiner directement sur l'écran.
+Des logiciels généraliste de traitement d'image, tel que Photoshop (en 2008 avec la version 11) sur Macintosh ou Gimp sur Linux, permettent également de faire de la peinture numérique avancée.
+En 2011 sort le Samsung Galaxy Note permettant de faire de la peinture numérique sur une phablette (petite tablette téléphonique) avec un stylet de technologie Wacom gérant la pression. La même année, l'artiste Rémy Ryan Richards explore ce support afin d'exprimer sa vision entre la peinture et la musique par le biais de sa peinture numérique prénommée Porté(e).
+Technique[modifier | modifier le code]
+La différence principale entre la peinture numérique et la peinture traditionnelle est le processus de création non linéaire. Un artiste peut peindre sur plusieurs calques (à l'instar des techniques du dessin animé traditionnel), qui peuvent être édités indépendamment. En outre, la possibilité de défaire et refaire la peinture libère l'artiste des contraintes d'un processus linéaire et comme dans les techniques de peinture traditionnelle occidentale, permet le repentir.
+La peinture numérique est limitée par la manière dont elle utilise les techniques de la peinture traditionnelle en raison de l'absence de support physique ; à cause du gamut réduit des écrans, elle ne permet pas de produire certaines teintes disponibles dans la nature, elle ne permet pas non plus d'utiliser des matières réflectives, diffractives ou fluorescentes. Il est en revanche plus facile de nos jours, avec le coût bas de la mémoire, et les outils de gestion de grandes images sur disque, de travailler sur des grands formats et la possibilité de corriger plus facilement et rapidement avec à la fois une grande précision et simultanément une grande surface. Les possibilités de visualisation ou d'impression sont malheureusement toujours très limités tant par leur qualité que par leur définitions (les grands formats ont une résolution très basse).
+On retrouve des gommes à effacer, des crayons, des brosses, des peignes et une variété d'outils originaux permettant de réaliser des peintures en deux ou en trois dimensions. La tablette graphique permet à l'artiste de travailler avec des mouvements relativement précis de la main et de transmettre selon différents modèles, pression, inclinaison, vitesse, etc.
+Il existe de nombreux logiciels de peinture numérique comme Corel Painter, Artrage, MyPaint, Open Canvas et d'autres moins spécialisés qui conviennent assez bien à cette tâche Adobe Photoshop, Corel Paint Shop Pro, GIMP ou Krita, qui donnent aux artistes un environnement proche de celui d'un peintre classique : une toile, de nombreux outils de peinture, des palettes de mélange et une multitude d'options de couleurs et de matières.
+Domaines d'utilisation[modifier | modifier le code]
+Industrie du divertissement[modifier | modifier le code]
+La peinture numérique prospère et est couramment employée dans l'industrie du divertissement ; le cinéma, la télévision et les jeux vidéo (matte painting), magazines spécialisés dans le fantastique. On le retrouve également dans le domaine de l'art, souvent mélangé à des techniques traditionnels.
+Art[modifier | modifier le code]
+Porté(e), peinture numérique de Rémy Ryan Richards, réalisée en 2011.
+Sur le plan purement artistique, également très plébiscitée dans l'art contemporain de la fin du XXe siècle et du début du XXIe siècle, la peinture numérique est intégrée pour ses techniques de génération procédurale, assisté par ordinateur pour créer des motifs statiques complexes ou temporels dans des installations vidéos. L'artiste à alors différentes taches, l'esthétique de l'œuvre finale mais également la procédure pouvant permettre d'exprimer de façon plus complexe l'idée conceptuelle de l'œuvre. Les outils Pure Data ou Processing sont deux logiciels libres très populaires dans ce domaine.
+Dans les performances ou spectacles vivants, on peut utiliser les patches ou croquis servant à projeter sur des écrans ou des bâtiments des images modifiées par des artistes performeurs le tout pouvant être agrémenté de musiques. Les images diffusées peuvent alors être influencé par la musique par des algorithmes d'interprétation.
+Il est possible d'exposer les œuvres numériques sous différentes formes :
+Impression (tirage photo, impression numérique, impression chromogénique (c-print).
+Installations vidéos de toutes sortes
+Diffusion par internet, soit via hébergement sur le site des artistes soit en passant par des plateformes de diffusion vidéo (YouTube, Dailymotion, Vimeo…)
+Des sites comme Café salé en France sont spécialisés dans la diffusion d'œuvres statiques de peinture numérique. D'autres comme Deviant Art aux États-Unis et Poobbs en Chine regroupent différentes formes d'art numérique dont une grosse part concerne la peinture numérique.
+Des artistes en vue comme David Hockney exposent des œuvres de peinture numérique sur des tablettes tactiles où elles ont été peintes (iPad et iPhone).
+L'artiste Rémy Ryan Richards, exprime la relation entre la musique et la peinture par le biais de peintures numériques telles que Porté(e), réalisée en 2011.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Peinture numérique, sur Wikimedia Commons
+Articles connexes[modifier | modifier le code]
+Art numérique
+Speedpainting
+Matte painting
+Infographie
+Photographie numérique
+Image vectorielle
+Nam June Paik
+Digigraphie
+Notes[modifier | modifier le code]
+↑ (de) (en) Mark Zimmer - Computer Software Pioneer / Pionier der Softwareindustrie - 1996 Interview
+↑ Magazine AmigaNews - février 1996
+↑ (fr) Matériel : ArtPad (Article écrit par Jean-Luc Faubert et extrait d'Amiga News - février 1996) avec capture d'écran de TVpaint utilisé à la Wacom
+Portail de la peinture
+Portail de l’imagerie numérique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Peinture_numérique&oldid=109145436 ».
+Catégories : Peinture par courantTechnique picturaleImagerie numériquePeinture numériqueCatégories cachées : Article à référence nécessaireCatégorie Commons avec lien local identique sur WikidataPortail:Peinture/Articles liésPortail:Arts/Articles liésPortail:Imagerie numérique/Articles liésPortail:Informatique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Deutsch
+English
+Español
+فارسی
+Suomi
+Italiano
+日本語
+Bahasa Melayu
+Português
+Русский
+Українська
+Modifier les liens
+Dernière modification de cette page le 15 novembre 2014 à 15:08.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobile

@@ -1,0 +1,348 @@
+Schéma fonctionnel — Wikipédia
+Schéma fonctionnel
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Le schéma fonctionnel, appelé aussi schéma-bloc, schéma de principe ou en anglais block diagram, est la représentation graphique simplifiée d'un procédé relativement complexe impliquant plusieurs unités ou étapes. Il est composé de blocs connectés par des lignes d'action. Il est utilisé principalement en automatique, en traitement du signal, en génie chimique et en fiabilité.
+Sommaire
+1 En commande de procédé
+2 En génie chimique
+3 En fiabilité
+3.1 Association en série
+3.2 Association en parallèle
+3.3 Systèmes série et parallèle
+3.4 Systèmes quelconques (non-série et parallèle)
+4 Références
+5 Annexes
+5.1 Bibliographie
+5.2 Articles connexes
+5.3 Liens externes
+En commande de procédé[modifier | modifier le code]
+Bloc
+Le bloc, ou élément, est représenté par un rectangle avec l'action de l'élément (par ex. , , …). Il est parfois accompagné d'une description (par ex. dérivateur, intégrateur…) et du symbole du signal d'entrée (ou variable de commande en automatique) et du signal de sortie (ou variable commandée).
+Ligne d'action
+La ligne d'action représente le cheminement d'un signal. Elle est parfois accompagnée du symbole (par ex. , …) ou de la description (par ex. tension, position…) du signal.
+Comparateur
+Le comparateur, ou addition, est souvent représenté avec le signe + (addition) ou - (soustraction).
+) est représenté avec un point à l'endroit du branchement.
+En génie chimique[modifier | modifier le code]
+Un schéma bloc décrit un procédé ou une unité de fabrication en utilisant des cadres rectangulaires incluant des données clefs et en indiquant les relations ou les flux reliant les différents cadres.
+Exemple de schéma-bloc avec la configuration minimale
+Un cadre peut représenter différents types d'installation ou d'étapes:
+Exemple de schéma-bloc avec informations additionnelles
+procédés
+étape d'un procédé
+opération unitaire
+unité de fabrication
+section d'usine
+équipement
+Les lignes reliant les cadres peuvent représenter des flux massiques ou énergétiques.
+Les informations minimales pour un schéma-bloc sont les suivantes:
+dénomination des cadres
+dénomination des flux entrant et sortant des limites du système représenté
+direction des flux entre les différents cadres
+D'autres informations peuvent être ajoutées:
+dénomination des flux entre les cadres
+débit massique des flux
+débit énergétique des flux
+caractéristiques opératoires
+Le schéma-bloc est d'ordinaire utilisé pour donner un aperçu d'un procédé complexe ou pour effectuer des bilans massiques simples fournissant des indications générales sur la consommation ou la production de produits et d'énergies. Un schéma plus détaillé sera classé dans la catégorie des schémas de procédés.
+En fiabilité[modifier | modifier le code]
+En fiabilité, le schéma fonctionnel permet de représenter les systèmes complexes, c'est-à-dire ayant plusieurs possibilités de défaillance. Dans ce domaine, on utilise souvent le synonyme « bloc-diagramme de fiabilité », y compris dans le texte des normes françaises[1].
+Les blocs peuvent être des fonctions, sous-systèmes ou composants, selon le niveau de détail souhaité ; par simplicité, nous utilisons ici le terme « composant ». Des blocs en parallèles représentent des redondances. C'est donc un outil très utilisé pour l'analyse des systèmes robustes. Le système est considéré comme fonctionnel s'il existe un cheminement du point d'entrée E vers le point de sortie S passant par des blocs en fonctionnement. Si les pannes des composants empêchent le cheminement, alors le système est défaillant.
+On peut utiliser les schémas fonctionnels de deux manières :
+analyse qualitative, ou booléenne, qui permet simplement de savoir si le système fonctionne lorsqu'un ou plusieurs composant sont défaillants, et de déterminer la « chaîne critique » (nombre minimal de défaillances mettant tout le système en panne) ;
+analyse quantitative : si l'on connaît les lois de fiabilité de chaque composant, on peut déterminer la loi de fiabilité globale du système.
+Hypothèse
+Nous supposons que les composants sont indépendants : la défaillance d'un composant n'a pas d'influence sur les autres.
+Il s'agit bien sûr d'une hypothèse simplificatrice : dans un circuit électronique, la défaillance d'un composant peut créer une surtension qui en endommagerait d'autres, et en mécanique, le mauvais fonctionnement d'une pièce peut fausser tout le mécanisme.
+Association en série[modifier | modifier le code]
+Schéma fonctionnel de fiabilité, blocs en série (haut). Exemple de circuit électrique d'éclairage (milieu) et de mécanisme de mise en mouvement en translation (bas).
+Considérons un système formé de deux composants. Si les blocs sont en série, cela signifie que la défaillance de seulement un des composants suffit à provoquer la défaillance du système entier.
+Les composant peuvent être effectivement en série ; par exemple, dans un circuit électrique formé d'une pile (générateur) et d'une ampoule, les éléments sont en série, et les blocs également (il suffit que le générateur ou la lampe soit défaillant pour que le système ne produise pas de lumière).
+Mais les composants peuvent aussi être géométriquement en parallèle. Par exemple, un circuit RLC bouchon est en parallèle, mais la défaillance d'un seul composant modifie son fonctionnement, il ne peut donc plus remplir son rôle.
+Ou encore, considérons un système mécanique faisant faire un mouvement d'aller-retour en ligne droite. La fonction « effectuer un aller-retour » est décomposé en :
+une fonction « guidage linéaire », réalisé par une glissière ;
+une fonction « actionneur linéaire », réalisé par un vérin ;
+les deux pièces peuvent être mises en parallèle, pour autant, la défaillance d'un des deux composants suffit à mettre le système en panne, les blocs sont donc en série.
+D'un point de vue qualitatif, l'association en série correspond au et logique. On peut dresser une « table de fonctionnement » (similaire à une table de vérité), un « 1 » indiquant le fonctionnement et un « 0 » une défaillance :
+Table de fonctionnement série
+État de 1
+État de 2
+État de s
+0
+0
+0
+0
+1
+0
+1
+0
+0
+1
+1
+1
+D'un point de vue quantitatif, si le premier composant a une loi de survie R1(t) et le second une loi R2(t), alors la loi de survie globale du système est :
+Rs(t) = R1(t)×R2(t).
+Démonstration
+L'événement « le composant i fonctionne à l'instant t » peut être noté (i, t). La fonction Ri(t) est la probabilité de cet événement
+Ri(t) = P(i, t)
+Comme on est en association série, on a donc, selon le principe d'indépendance :
+P(s, t) = P((1, t)∩(2, t)) = P(1, t)×P(2, t)
+cqfd.
+Si la fiabilité des composants suit une loi exponentielle (cas typique des composants électroniques) de paramètre respectif λ1 et λ2, alors le système suit une loi exponentielle de paramètre
+λs = λ1 + λ2.
+Le temps moyen de fonctionnement avant panne (MTTF) vaut :
+Démonstration
+On a
+Rs(t) = R1(t)×R2(t) = e-λ1t×e-λ2t = e-(λ1 + λ2) t.
+Association en parallèle[modifier | modifier le code]
+Schéma fonctionnel de fiabilité : blocs en parallèle.
+Dans le cas d'une association parallèle, il faut que les deux composants soient défaillants pour provoquer la défaillance du système. Cela correspond à une redondance des matériels ; ceci est très utilisé dans l'aéronautique (doublement ou multiplication des circuits hydrauliques ou électriques), dans les systèmes d'alarme, dans la sûreté informatique (par exemple redondance des disques durs).
+D'un point de vue qualitatif, l'association en parallèle correspond à un ou logique.
+Table de fonctionnement parallèle
+État de 1
+État de 2
+État de s
+0
+0
+0
+0
+1
+1
+1
+0
+1
+1
+1
+1
+D'un point de vue quantitatif, si le premier composant a une loi de défaillance F1(t) et le second une loi F2(t), alors la loi de survie globale du système est :
+Fs(t) = F1(t)×F2(t)
+soit, avec les lois de survie :
+1 - Rs(t) = (1 - R1(t))×(1 - R2(t))
+ou encore
+Rs(t) = 1 - (1 - R1(t))×(1 - R2(t)).
+Démonstration
+Rappelons que la probabilité de défaillance F est le complémentaire de la probabilité de survie R (un système est soit en fonctionnement, soit en panne) :
+F + R = 1
+Avec les même notations que précédemment, Fi(t) est la probabilité de non-(i, t), soit
+d'après les lois de Morgan. Et donc :
+cqfd.
+Si l'on suppose que les systèmes redondants sont identiques, c'est-à-dire qu'ils ont la même probabilité de défaillance, alors F1 = F2 = F, R1 = R2 = R et
+Fs = F2
+Rs = 1 - (1 - R)2
+Si l'on a n systèmes redondants en parallèle, alors
+Fs = Fn
+Rs = 1 - (1 - R)n
+Systèmes série et parallèle[modifier | modifier le code]
+Schéma fonctionnel de fiabilité : système série et parallèle.
+On peut avoir des systèmes ayant des composants en série et d'autres en parallèle. Par exemple, on a un moteur (repère 1) qui actionne deux pompes (rep. 2 et 3) :
+si le moteur est défaillant, le système s'arrête ;
+si une seule pompe est défaillante, le système peut continuer à fonctionner.
+Dans l'exemple ci-contre, la table de fonctionnement est :
+Table de fonctionnement
+État de 1
+État de 2
+État de 3
+État de s
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+1
+1
+0
+1
+0
+0
+0
+1
+0
+1
+1
+1
+1
+0
+1
+1
+1
+1
+1
+Pour un calcul quantitatif, la partie en parallèle peut être remplacée par un composant global 2' dont la fiabilité est déterminée comme ci-dessus :
+R2' = 1 - (1 - R2)×(1 - R3)
+et donc
+Rs = R1×R2' = R1×(1 - (1 - R2)×(1 - R3)).
+Systèmes quelconques (non-série et parallèle)[modifier | modifier le code]
+Schéma fonctionnel de fiabilité pour un système non-série et parallèle, technique de conditionnement sur l'état du composant 3 :
+schéma global (haut) ;
+on suppose que le composant 3 fonctionne (milieu) ;
+on suppose que le composant 3 est défaillant (bas).
+De nombreux systèmes sont plus complexes, et donnent lieu à des diagrammes non-série et parallèle. Considérons par exemple le cas d'une alarme d'incendie, composée de :
+deux capteurs de fumée, repère 1 et 2, situés à deux extrémités d'un couloir traversant un bâtiment ;
+deux avertisseurs, rep. 4 et 5, également aux extrémités ;
+une centrale d'alerte, rep. 3.
+En fonctionnement normal, les capteurs envoient le signal à la centrale qui active les deux avertisseurs : un seul détecteur déclenche les deux avertisseurs. Mais en cas de défaillance de la centrale, on prévoit aussi qu'un capteur active directement l'avertisseur le plus proche ; ainsi, la fumée étant mobile, on a au pire un retard dans le déclenchement d'un signal d'alerte. Le système est considéré comme défaillant si aucun avertisseur ne s'active en présence de fumée.
+Finalement, le système est défaillant si :
+les deux détecteurs sont défaillants, ou
+les deux avertisseurs sont défaillants,
+dans tous les autres cas, il existe un cheminement de l'entrée E à la sortie S.
+La table de fonctionnement est fastidieuse à construire (25 = 32 cas).
+Table de fonctionnement
+État de
+1
+État de
+2
+État de
+3
+État de
+4
+État de
+5
+État de
+s
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+…
+0
+1
+1
+1
+1
+1
+1
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+1
+0
+0
+1
+0
+1
+…
+1
+1
+1
+1
+1
+1
+Pour faciliter l'analyse quantitative du système, on utilise la technique du conditionnement sur l'état d'un composant :
+cas 1 : on suppose que le composant 3 fonctionne, situation ayant une probabilité de survenir P(3) : la probabilité de fonctionnement du système est la probabilité conditionnelle P(s|3) ;
+cas 2 : on suppose que le composant 3 est défaillant, situation ayant une probabilité de survenir P(3) = 1 - P(3) : la probabilité de fonctionnement du système est la probabilité conditionnelle P(s|3) ;
+on a alors
+P(s) = P(3)×P(s|3) + (1 - P(3))×P(s|3).
+Dans le cas 1, on a deux circuits en parallèle 1' = {1 ; 2} et 2' = {3 ; 4} qui sont en série, soit
+P(1') = P(1∪2) = 1 - (1 - P(1))×(1 - P(2))
+P(2') = P(4∪5) = 1 - (1 - P(4))×(1 - P(5))
+P(s|3) = P(1')×P(2')
+Dans le cas deux, on a deux circuits série 1" = {1 ; 4} et 2" = {2 ; 5} qui sont en parallèle, soit
+P(1") = P(1∩4) = P(1)×P(4)
+P(2") = P(2∩5) = P(2)×P(5)
+P(s|3) = 1 - (1 - P(1"))×(1 - P(5"))
+Références[modifier | modifier le code]
+↑ NF EN 61078 (Août 2006), Techniques d'analyse de sûreté de fonctionnement - Bloc-diagramme de fiabilité et méthodes booléennes
+Annexes[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Norme ISO 10628:1997 Schémas de procédé pour les unités de fabrication/de production — Règles générales ;
+Norme ISO 10628-2:2012 Schémas de procédé pour l'industrie chimique et pétrochimique — Partie 2: Symboles graphiques
+Articles connexes[modifier | modifier le code]
+Algèbre des schémas
+Bond Graph
+Schéma de procédé
+Schéma tuyauterie et instrumentation
+Boîtes fonctionnelles
+Contre-réaction
+Liens externes[modifier | modifier le code]
+Fiches pédagogiques de l'Institut de Maîtrise des Risques : Fiche Bloc diagramme de fiabilité (http://www.imdr.eu/upload/client/Fiches_methodes_FR2014.pdf)
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Schéma_fonctionnel&oldid=109674504 ».
+Catégories : RégulationGénie chimiqueCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Català
+Deutsch
+English
+Español
+فارسی
+Suomi
+हिन्दी
+Italiano
+日本語
+한국어
+Lietuvių
+Nederlands
+Português
+Русский
+Українська
+Modifier les liens
+Dernière modification de cette page le 4 décembre 2014 à 16:41.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

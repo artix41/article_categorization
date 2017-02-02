@@ -1,0 +1,198 @@
+Axiomes des probabilités — Wikipédia
+Axiomes des probabilités
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Dans la théorie des probabilités, une mesure de probabilité (ou plus brièvement probabilité)
+est une application qui à un événement A quelconque associe un nombre réel (noté ). Une mesure de probabilité doit satisfaire les axiomes des probabilités ou axiomes de Kolmogorov, du nom d'Andreï Nikolaievitch Kolmogorov, mathématicien russe qui les a développés.
+Une mesure de probabilité
+est toujours définie sur un espace probabilisable
+c'est-à-dire sur un couple constitué d'un ensemble d'éventualités, l'univers Ω, et d'une tribu
+de parties de l'univers Ω. Les éléments de la tribu
+sont appelés les événements. Ainsi la mesure de probabilité
+est une application de
+dans
+Sommaire
+1 Premier axiome
+2 Deuxième axiome
+3 Troisième axiome
+4 Conséquences
+5 Limites croissantes et décroissantes ou Propriété de la continuité monotone
+6 Formulation à partir de la théorie de la mesure
+Premier axiome[modifier | modifier le code]
+Pour tout événement  :
+C'est-à-dire que la probabilité d'un événement est représentée par un nombre réel compris entre 0 et 1.
+Deuxième axiome[modifier | modifier le code]
+désignant l'univers associé à l'expérience aléatoire considérée,
+,
+C'est-à-dire que la probabilité de l'événement certain, ou d'obtenir un quelconque résultat de l'univers, est égale à 1. Autrement dit, la probabilité de réaliser l'un ou l'autre des événements élémentaires est égale à 1.
+Troisième axiome[modifier | modifier le code]
+Toute famille dénombrable d'événements deux à deux disjoints (on dit aussi : deux à deux incompatibles),
+satisfait :
+.
+C'est-à-dire que la probabilité d'un événement qui est la réunion (dénombrable) disjointe d'événements est égale à la somme des probabilités de ces événements. Ceci s'appelle la σ-additivité, ou additivité dénombrable (si les événements ne sont pas deux à deux disjoints, cette relation n'est plus vraie en général).
+Conséquences[modifier | modifier le code]
+À partir des axiomes, se démontrent un certain nombre de propriétés utiles pour le calcul des probabilités, par exemple :
+Démonstration
+Utilisons le 3ème axiome avec
+pour tout
+On obtient
+relation qui n'est pas satisfaite si
+puisqu'alors le terme de droite vaut
+Donc il ne reste que
+qui d'ailleurs convient.
+Si ,
+sont deux événements incompatibles (ou disjoints), alors
+Plus généralement, si
+est une famille d'événements 2 à 2 incompatibles, alors
+Démonstration
+Utilisons le 3ème axiome avec
+pour tout
+On obtient bien une suite d'événements incompatibles 2 à 2 tels que
+donc
+mais en vertu du troisième axiome
+et finalement, puisque pour tout
+on obtient le résultat désiré.
+;
+Cette relation signifie que la probabilité que B se réalise, mais pas A, est égale à la différence . Cette relation découle de ce que B est réunion disjointe de
+et de
+En particulier, si , alors
+C'est la propriété de croissance de la probabilité. En effet, dans le cas particulier où , la propriété précédente s'écrit
+où le premier terme est clairement positif ou nul.
+Dans le cas particulier où
+cela donne que, pour tout événement ,
+Ceci signifie que la probabilité pour qu'un événement ne se produise pas est égale à 1 moins la probabilité pour qu'il se réalise ; cette propriété s'utilise lorsqu'il est plus simple de déterminer la probabilité de l'événement contraire que celle de l'événement lui-même.
+Pour tous événements , ,
+Ceci signifie que la probabilité pour que l'un au moins des événements
+ou
+se réalise est égale à la somme des probabilités pour que
+se réalise, et pour que
+se réalise, moins la probabilité pour que
+et
+se réalisent simultanément. De même,
+Ces deux dernières formules sont des cas particuliers (n=2,3) du Principe d'inclusion-exclusion qui porte parfois le nom de "formule du crible de Poincaré":
+qui donne la probabilité de la réunion de n ensembles non nécessairement disjoints.
+Par récurrence, l'inégalité obtenue pour n=2 se généralise :
+Limites croissantes et décroissantes ou Propriété de la continuité monotone[modifier | modifier le code]
+Toute suite croissante d'événements
+satisfait :
+C'est-à-dire que la probabilité de la limite d'une suite croissante d'événements (qui est dans ce cas la réunion - dénombrable - de tous les événements de cette suite) est égale à la limite de la suite numérique des probabilités de ces événements.
+Démonstration
+On pose
+Alors les
+sont disjoints et vérifient
+Les propriétés de σ-additivité et d'additivité, respectivement, entrainent alors que
+Alors
+n'est autre que la définition de la somme d'une série comme limite de ses sommes partielles.
+Toute suite décroissante d'événements
+satisfait :
+C'est-à-dire que la probabilité de la limite d'une suite décroissante d'événements (qui est dans ce cas l'intersection - dénombrable - de tous les événements de cette suite) est égale à la limite de la suite numérique des probabilités de ces événements.
+Inégalité de Boole. Toute suite d'événements
+satisfait :
+Démonstration
+On pose
+Alors les
+forment une suite croissante et
+Par ailleurs, on a vu plus haut que
+donc
+Signalons deux conséquences importantes de l'inégalité de Boole :
+Une réunion finie ou dénombrable d'ensembles négligeables est elle-même négligeable ;
+Une intersection finie ou dénombrable d'ensembles presque sûrs est elle-même presque sûre.
+Formulation à partir de la théorie de la mesure[modifier | modifier le code]
+Article détaillé : Théorie de la mesure.
+De manière équivalente, on définit plus simplement le triplet
+représentant un espace probabilisé, comme un espace mesuré dont la mesure, , a la particularité d'avoir une masse totale égale à 1:
+En théorie de la mesure, les événements sont appelés « ensembles mesurables ». Ce mini-lexique permet de traduire les résultats de la théorie de la mesure et de l'intégration de Lebesgue en termes probabilistes.
+v · d · m
+Probabilités et statistiques
+Théorie des probabilités
+Axiomes des probabilités · Espace probabilisable · Probabilité · Événement · Tribu · Indépendance
+Probabilités élémentaires
+Moyenne · Espérance · Médiane · Variance · Écart type
+Loi de probabilité
+Variable aléatoire · Loi de Bernoulli · Loi de Poisson · Loi uniforme · Loi normale · Loi de Student · Loi de Fisher · Variables iid
+Convergence de lois
+Théorème central limite · Loi des grands nombres · Théorème de Borel-Cantelli
+Calcul stochastique
+Marche aléatoire · Chaîne de Markov · Processus stochastique · Processus de Markov · Martingale · Mouvement brownien · Équation différentielle stochastique
+Statistique
+Statistique descriptive
+Échantillon · Quantile · Erreur type · Intervalle de confiance · Représentations de données · Histogramme · Diagramme circulaire · Boîte à moustaches · Régression linéaire · Méthode des moindres carrés · Analyse des données
+Statistique mathématique
+Une statistique · Fonction de répartition empirique · Théorème de Glivenko-Cantelli · Inférence bayésienne
+Tests statistiques
+Test d'hypothèse · Hypothèse statistique (Hypothèse nulle) · Estimateur · Signification statistique · Test du χ² · Test de Fisher · Test de Kolmogorov-Smirnov · Test de Student · Valeur p
+Applications
+Économétrie · Mécanique statistique · Jeu de hasard · Biomathématique · Mathématiques financières
+Portail des probabilités et de la statistique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Axiomes_des_probabilités&oldid=104575648 ».
+Catégories : ProbabilitésAxiomeCatégories cachées : Portail:Probabilités et statistiques/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+Čeština
+Deutsch
+English
+Español
+فارسی
+Suomi
+Galego
+עברית
+Íslenska
+ქართული
+Nederlands
+Polski
+Română
+Русский
+Slovenščina
+Српски / srpski
+Svenska
+ไทย
+Türkçe
+中文
+Modifier les liens
+Dernière modification de cette page le 11 juin 2014 à 17:17.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

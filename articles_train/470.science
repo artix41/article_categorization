@@ -1,0 +1,130 @@
+Analyse harmonique (mathématiques) — Wikipédia
+Analyse harmonique (mathématiques)
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Analyse de Fourier)
+Aller à :					navigation, 					rechercher
+« Analyse harmonique » redirige ici. Pour la discipline musicale, voir Analyse harmonique (musique).
+Des informations de cet article ou section devraient être mieux reliées aux sources mentionnées dans la bibliographie ou en liens externes.
+Améliorez sa vérifiabilité en les associant par des références.
+Analyseur harmonique mécanique de Lord Kelvin datant de 1878
+L'analyse harmonique, est la branche des mathématiques qui étudie la représentation des fonctions ou des signaux comme superposition d'ondes de base. Elle approfondit et généralise les notions de série de Fourier et de transformée de Fourier. Les ondes de base s'appellent les harmoniques, d'où le nom de la discipline. Durant ces deux derniers siècles, elle a eu de nombreuses applications en physiques sous le nom d'analyse spectrale, et connaît des applications récentes notamment en traitement des signaux, mécanique quantique, neurosciences, stratigraphie… Des analyseurs harmoniques mécaniques ont vu le jour vers 1920 et permettaient d'obtenir graphiquement jusqu'au 150e coefficient d'un développement de Fourier[réf. nécessaire].
+L'analyse harmonique, historiquement liée au développement de la théorie des séries de Fourier, a reçu un ensemble de généralisations modernes, notamment grâce aux travaux de l'école russe de Gelfand, qui la situe dans un contexte très général et abstrait : par exemple l'analyse harmonique sur les groupes de Lie.
+Sommaire
+1 Séries et transformées de Fourier
+2 Analyse harmonique abstraite
+3 Annexes
+3.1 Articles connexes
+3.2 Liens externes
+3.3 Bibliographie
+Séries et transformées de Fourier[modifier | modifier le code]
+Les séries de Fourier visent à décomposer une fonction périodique en une « somme infinie de fonctions trigonométriques » de fréquences dont chacune est un multiple d'une fréquence fondamentale. Dans un premier temps, on procède à l'analyse du « contenu en fréquences », appelé spectre de la fonction. Puis, selon les hypothèses caractérisant la fonction et le cadre d'analyse choisi, divers théorèmes permettent de la recomposer.
+Les espaces de Hilbert sont un bon cadre d'étude pour les séries de Fourier qui fournit un lien entre analyse harmonique et analyse fonctionnelle.
+La transformation de Fourier généralise la théorie des séries de Fourier aux fonctions non périodiques et permet également de leur associer un spectre en fréquences. Ce dernier concerne alors toutes les fréquences. Ainsi, la sommation des composantes périodiques se présentera sous forme d'intégrale.
+La transformée de Fourier classique sur
+reste actuellement un domaine de recherche active, en particulier la transformation de Fourier sur des objets plus généraux comme les distributions tempérées. Par exemple, en imposant des contraintes à une distribution, elles peuvent se traduire directement sur sa transformée de Fourier. Le théorème de Paley-Wiener en est un exemple. Ce théorème a pour conséquence immédiate que la transformée de Fourier d'une distribution non nulle à support compact n'est jamais à support compact. C'est une forme élémentaire des relations d'incertitudes de Heisenberg.
+Analyse harmonique abstraite[modifier | modifier le code]
+Articles détaillés : Analyse harmonique sur un groupe abélien fini et Analyse harmonique sur un espace vectoriel fini.
+L'une des branches les plus modernes de l'analyse harmonique, initiée au milieu du XXe siècle, est l'analyse sur les groupes topologiques. L'idée est que la transformation de Fourier peut être généralisée en une transformation des fonctions définies sur des groupes localement compacts.
+La théorie pour les groupes abéliens localement compacts est la dualité de Pontryagin. L'analyse harmonique étudie les propriétés de cette dualité et essaie de les étendre à d'autres structures, par exemple les groupes de Lie non-abéliens. En général, pour les groupes non-abélien localement compacts, l'analyse harmonique est liée à la théorie des représentations des groupes unitaires. Pour les groupes compacts, le théorème de Peter-Weyl explique comment obtenir les harmoniques en choisissant une représentation irréductible dans chaque classe d'équivalence. Ce choix des harmoniques permet de profiter de certaines propriétés utiles de la transformation de Fourier qui transforme le produit de convolution en produit usuel et révèle la structure de groupe sous-jacente.
+Si le groupe n'est ni abélien ni compact, aucune théorie satisfaisante, c'est-à-dire équivalent au moins au théorème de Plancherel, n'est à présent connue. Mais certains cas particuliers ont été étudiés, comme le groupe spécial linéaire SLn. Dans ce cas, les représentations de dimension infinie jouent un rôle crucial.
+Annexes[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Analyse harmonique non commutative
+Analyse spectrale pour trouver le pendant en physique
+Traitement du signal
+Modèles de régression multiple postulés et non postulés
+Liens externes[modifier | modifier le code]
+(en) Eric W. Weisstein, « Harmonic Analysis », MathWorld
+(es) Análisis de Fourier sur le site de l'université du Pays basque
+Bibliographie[modifier | modifier le code]
+Claude Gasquet et Patrick Witomski, Analyse de Fourier et applications : filtrage, calcul numérique et ondelettes, Masson,‎ 1990 (ISBN 978-2-22582018-2)
+Claude Gasquet et Patrick Witomski, Analyse de Fourier et applications : exercices corrigés, Dunod,‎ 2000 (ISBN 978-2-10005017-8)
+(en) Elias Menachem Stein, Harmonic Analysis, Princeton University Press,‎ 1993 (ISBN 0-691-03216-5)
+(en) Tomas Wolff (direction Izabella Aba et Carol Shubin), Lectures on Harmonic Analysis, American Mathematical Society,‎ 2003 (ISBN 978-0-821-83449-7)
+(en) Yitzhak Katznelson, An introduction to harmonic analysis, Cambridge University Press,‎ 2004 (ISBN 0-521-83829-0)
+v · d · m
+Automatique · Électricité · Électrochimie · Électromagnétisme · Électronique · Électrotechnique · Robotique · Traitement du signal
+Théorie
+Analyse harmonique • Bruit de fond • Échantillonnage • Quantification • Ligne de transmission
+Techniques
+Amplificateur • Filtre • Numérisation • Détection synchrone
+Domaines d'applications
+Radar • Télécommunications • Traitement : images, parole, son et vidéo
+Signaux
+Carré • Dents de scie • Sinusoïdal • Triangulaire
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Analyse_harmonique_(mathématiques)&oldid=98208105 ».
+Catégorie : Analyse harmoniqueCatégories cachées : Article à référence nécessairePortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Català
+Deutsch
+English
+Esperanto
+Español
+हिन्दी
+Հայերեն
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Bahasa Melayu
+Malti
+Nederlands
+Norsk nynorsk
+Polski
+Português
+Română
+Русский
+Simple English
+Shqip
+Türkçe
+Українська
+Modifier les liens
+Dernière modification de cette page le 10 novembre 2013 à 01:00.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

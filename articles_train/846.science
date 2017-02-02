@@ -1,0 +1,160 @@
+Couche mince — Wikipédia
+Couche mince
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la physique des matériaux.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Une couche mince (thin film) est un revêtement dont l’épaisseur peut varier de quelques couches atomiques à une dizaine de micromètres. Ces revêtements modifient les propriétés du substrat sur lesquels ils sont déposés. Ils sont principalement utilisés :
+dans la fabrication de composants électroniques telles des cellules photovoltaïque en raison de leurs propriétés isolantes ou conductrices ;
+pour la protection d'objets afin d'améliorer les propriétés mécaniques, de résistance à l’usure, à la corrosion ou en servant de barrière thermique. Il s'agit, par exemple, du chromage.
+pour modifier les propriétés optiques d'objets. En particulier, citons les revêtements décoratifs (exemple de la dorure) ou modifiant le pouvoir réflecteur de surfaces (verres anti-reflets ou miroirs).
+Les couches minces étant des nano-objets dans une direction de l'espace, les propriétés physiques et chimiques des couches minces peuvent différer de celles des objets macroscopiques selon toutes leurs dimensions. Par exemple, un matériau isolant lorsqu'il est de dimensions macroscopiques peut devenir conducteur électrique sous forme de couche mince du fait de l'effet tunnel.
+Sommaire
+1 Fabrication d'une couche mince
+2 Caractérisation de la couche mince
+2.1 Épaisseur
+2.2 Texture
+3 Dans le domaine photovoltaïque[1]
+4 Annexes
+4.1 Articles connexes
+4.2 Liens externes
+4.3 Bibliographie
+4.4 Références
+Fabrication d'une couche mince[modifier | modifier le code]
+Revêtements galvaniques :
+Historiquement, les premières couches minces ont été réalisées par voie humide grâce à une réaction chimique menant à la précipitation de précurseurs en solution sur un substrat. On peut citer dans ce cas la formation du miroir d'argent par la réduction d'ions Ag+ (par exemple solution de nitrate d'argent AgNO3) par des sucres.
+Dépôt par le procédé sol-gel.
+Par enduction centrifuge (ou spin-coating) :
+Les couches minces sont formées par l'évaporation d'un solvant sur le substrat tournant à grande vitesse.
+Dépôt sous vide :
+Revêtements PVD (dépôt physique en phase vapeur) :
+Les couches sont formées par la condensation de matière préalablement évaporée. L’évaporation de la matière source peut être d’origine thermique, dû à un bombardement d’électrons. Grâce à cette méthode, on peut déposer des métaux, des alliages ou des céramiques.
+Revêtements CVD (dépôts chimique en phase vapeur) :
+Les couches sont formées par la condensation de gaz qui réagissent ou se décomposent à la surface du substrat.
+Caractérisation de la couche mince[modifier | modifier le code]
+Épaisseur[modifier | modifier le code]
+L'épaisseur d'une couche mince est un paramètre essentiel déterminant ses propriétés. Dans le cas de couches minces transparentes à la lumière visible, on peut utiliser des méthodes interférométriques (franges d'interférence entre les rayons réfléchis sur la surface de la couche et ceux réfléchis à l'interface couche mince-substrat).
+Article détaillé : Interférence par une couche mince.
+Lorsque cela s'y prête, on peut utiliser les rayons X :
+par diffractométrie de rayons X :
+méthode dite de « réflectométrie », similaire aux interférences des ondes lumineuses ; on voit des oscillations du signal lorsque l'on déplace le détecteur ;
+méthode par incidence rasante : on fait balayer le détecteur autour d'un pic caractéristique du substrat (si celui-ci est cristallisé), pour une incidence des rayons X donnée ; on augmente l'incidence, et lorsque l'on voit apparaître le pic, la loi de Beer-Lambert permet d'estimer l'épaisseur de la couche ;
+par spectrométrie de fluorescence X : soit on mesure l'absorption d'une raie émise par le substrat, soit on mesure l'intensité d'une raie émise par la couche mince ; cette méthode peut aussi permettre de déterminer la composition chimique de la couche.
+Texture[modifier | modifier le code]
+Pour avoir des informations sur la texture de la couche mince en surface, comme la présence d'agglomérats, il est possible d'utiliser
+la microscopie électronique à balayage
+la microscopie à effet tunnel.
+Dans le domaine photovoltaïque[1][modifier | modifier le code]
+La couche (isolante et/ou conductrice) peut varier de quelques atomes d'épaisseur à une dizaine de micromètres.
+Elle modifie les propriétés du substrat sur lequel elle est déposée. Les couches minces offrent des rendements plus faibles que les cellules à base de silicium cristallin, elles sont plus difficiles à produire, mais diminuent fortement les coûts de fabrication (moindre consommation de métaux et d'énergie). En 2010, les couches minces dominant le marché étaient :
+le silicium (mono ou multi-cristallin et amorphe) ;
+le tellurure de cadmium (CdTe) ;
+le di-séléniure de cuivre-indium (CIS).
+En France, ce sont l'INES, Solsia, Alliance Concept et quelques autres entreprises qui semblent porter les actions de recherche et développement sur ces thèmes.
+Annexes[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Couche mince, sur Wikimedia Commons
+Articles connexes[modifier | modifier le code]
+Énergie propre
+Énergie solaire photovoltaïque
+Solaire thermique
+World Solar Challenge
+Stockage d'énergie
+Panneau solaire
+Commissariat à l'énergie solaire
+Institut national de l'énergie solaire
+Tenerrdis
+Solar Impulse
+Agence Internationale de l'Energie Renouvelable
+Solar decathlon
+Scratch Test
+VINF, Institut européen dont le but est de rassembler les recherches sur la couche mince
+Appareil de mesure d'épaisseur de revêtement
+Liens externes[modifier | modifier le code]
+(en) Power from the Sun par William B. Stine et Michael Geyer, 2001
+Fabrication de couches minces
+Bibliographie[modifier | modifier le code]
+(en) Anders, Andre (editor), Handbook of Plasma Immersion Ion Implantation and Deposition (2000) Wiley-Interscience ISBN 0-4712-4698-0
+(en) Bach, Hans and Dieter Krause (editors), Thin Films on Glass (2003) Springer-Verlag ISBN 3-540-58597-4
+(en) Birkholz, M., with contributions by Fewster, P. F. and Genzel, C., Thin Film Analysis by X-ray Scattering (2006) Wiley-VCH, Weinheim ISBN 3-527-31052-5
+(en) Bunshah, Roitan F. (editor), Handbook of Deposition Technologies for Films and Coatings, second edition (1994)
+(en) Glaser, Hans Joachim, Large Area Glass Coating (2000) Von Ardenne Anlagentechnik GmbH ISBN 3-00-004953-3
+(en) Glocker and I. Shah (editors), Handbook of Thin Film Process Technology, Vol.1&2 (2002) Institute of Physics ISBN 0 7503 0833 8 (2 vol. set)
+(en) Mahan, John E., Physical Vapor Deposition of Thin Films (2000) John Wiley & Sons ISBN 0-471-33001-9
+(en) Mattox, Donald M., Handbook of Physical Vapor Deposition (PVD) Processing (1998) Noyes Publications ISBN 0-8155-1422-0
+(en) Mattox, Donald M., The Foundations of Vacuum Coating Technology (2003) Noyes Publications ISBN 0-8155-1495-6
+(en) Mattox, Donald M. and Vivivenne Harwood Mattox (editors), 50 Years of Vacuum Coating Technology and the Growth of the Society of Vacuum Coaters (2007), Society of Vacuum Coaters ISBN 978-1-878068-27-9
+(en) Westwood, William D., Sputter Deposition, AVS Education Committee Book Series, Vol. 2 (2003) AVS ISBN 0-7354-0105-5
+(en) Willey, Ronald R., Practical Monitoring and Control of Optical Thin Films (2006) Willey Optical, Consultants (ISBN 978-06151-3760-5)
+(en) Willey, Ronald R., Practical Equipment, Materials, and Processes for Optical Thin Films (2007) Willey Optical, Consultants (ISBN 978-06151-4397-2)
+(en) Ohring, Milton, Materials Science of Thin Films: Deposition and Structure 2nd edition (2002) Elsevier, Inc. ISBN 978-0-12-524975-1
+Références[modifier | modifier le code]
+↑ Rapport d’information sur l'énergie photovoltaïque déposé par la Commission des affaires économiques (Juin 2009)
+Portail de la physique
+Portail des sciences des matériaux
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Couche_mince&oldid=102736052 ».
+Catégorie : Science des matériauxCatégories cachées : Wikipédia:ébauche physique des matériauxPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Matériaux/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Deutsch
+English
+Español
+Gaeilge
+עברית
+Italiano
+日本語
+한국어
+Português
+Русский
+தமிழ்
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 8 avril 2014 à 12:05.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

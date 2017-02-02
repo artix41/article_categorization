@@ -1,0 +1,110 @@
+Théorie des corps de classes — Wikipédia
+Théorie des corps de classes
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Les racines cinquièmes de l'unité dans le plan complexe. Ajouter ces racines aux nombres rationnels génère une extension abélienne.
+En mathématiques, la théorie des corps de classes est une branche majeure de la théorie algébrique des nombres qui a pour objet la classification des extensions abéliennes, c'est-à-dire galoisiennes et de groupe de Galois commutatif, d'un corps commutatif donné. Plus précisément, il s'agit de décrire et de construire ces extensions en termes de propriétés arithmétiques du corps de base lui-même.
+La plupart des résultats centraux ont été démontrés dans la période s'étendant entre 1900 et 1950. La théorie a été nommée ainsi en rapport avec les idées, conjectures et résultats de ses débuts, tel que le corps de classes de Hilbert, et s'organisa vers 1930.
+De nos jours, le terme est généralement utilisé comme synonyme de l'étude de toutes les extensions abéliennes des corps de nombres algébriques (et plus généralement des corps globaux), mais aussi des corps de nombres p-adiques (et plus généralement des corps locaux).
+Une autre ligne importante est la recherche de générateurs explicites pour les corps de classes de corps de nombres algébriques, c'est-à-dire de générateurs donnés par les valeurs de fonctions transcendantes. C'est le Kronecker Jugendtraum (rêve de jeunesse de Kronecker). Il n'est encore réalisé que pour de rares cas, notamment celui du corps des rationnels (théorème de Kronecker-Weber, où les générateurs sont des racines de l'unité, c'est-à-dire des valeurs de la fonction exponentielle), et des corps quadratiques imaginaires (cas des corps à multiplication complexe, où les générateurs sont des valeurs de fonctions elliptiques).
+Sommaire
+1 Formulation en langage contemporain
+1.1 Théorie du corps de classes local
+1.2 Corps de classes global
+2 Historique
+3 Références
+4 Voir aussi
+4.1 Article connexe
+4.2 Liens externes
+Formulation en langage contemporain[modifier | modifier le code]
+En langage moderne, il existe une extension abélienne maximale A de K, qui sera de degré infini sur K; et associée à A, un groupe de Galois G qui sera un groupe profini, donc un groupe topologique compact, et aussi abélien. Nous nous intéressons à la description de G en termes de K.
+Le résultat fondamental de la théorie des corps de classes établit que le groupe G est naturellement isomorphe à la complétion profinie du groupe des classes d'idèles (en) de K. Par exemple, lorsque K est le corps des nombres rationnels, le groupe de Galois G est (naturellement isomorphe à) un produit infini du groupe des unités des entiers p-adique pris sur tous les nombres premiers p, et l'extension abélienne maximale correspondante des rationnels est le corps engendré par toutes les racines de l'unité. Ceci était connu comme le théorème de Kronecker-Weber, originellement énoncé par Kronecker.
+Pour une description du cas général, voir l'article détaillé : formation de classes.
+En pratique, le programme prend la forme suivante. Étant donné un corps K et fixée une clôture séparable Ksep de K, on cherche à associer à toute extension finie abélienne L de K incluse dans Ksep un groupe topologique C(L) et un homomorphisme continu de groupes NL/K de C(L) dans C(K) de manière que :
+L'application qui à L associe NL/K(C(L)) est une bijection entre extensions finies abéliennes de K incluse dans Ksep et sous-groupes ouverts d'indice fini de C(K).
+Pour chaque extension finie abélienne L/K incluse dans Ksep, on a un isomorphisme de groupes rL/K de Gal(L/K) dans C(K)/NL/K(C(L)), appelé application de réciprocité.
+La théorie du corps de classes a été décrite pour une famille variée de corps, parmi lesquels les corps de nombres algébriques et les corps de nombres p-adiques.
+L'exemple le plus simple est celui des corps finis. Si K est un corps fini de cardinal q, on pose C(L) = ℤ et NL/K est égal à la multiplication par le degré [L/K] de L/K, pour toute extension finie L de K incluse dans Ksep. On a un morphisme de groupes de ℤ dans Gal(Ksep/K) injectif et d'image dense, qui envoie 1 sur le Frobenius de K, c'est-à-dire sur l'automorphisme φK : x ↦ xq. Si σ est un élément de Gal(L/K), il existe un unique n dans ℤ/[L:K]ℤ tel que φKn prolonge σ. L'application de réciprocité est définie par σ ↦ n.
+Théorie du corps de classes local[modifier | modifier le code]
+Il s'agit de la partie de la théorie concernant les corps locaux. Dans ce qui suit, on se restreint aux corps locaux dont le corps résiduel est fini.
+Si K est un corps local de corps résiduel fini, il existe un homomorphisme de groupes topologiques, injectif et d'image dense, du groupe multiplicatif de K sur le groupe de Galois de l'extension abélienne maximale de K. Cet homomorphisme, appelé le symbole d'Artin (en), est défini de la façon suivante : à chaque élément premier de K est associé un automorphisme qui, restreint à toute sous-extension abélienne non ramifiée, est l'automorphisme de Frobenius de cette extension, et le symbole d'Artin se factorise à travers les groupes de normes associées aux sous-extensions finies. Il y a alors une correspondance de Galois des sous-extensions de l'extension abélienne maximale de K avec les sous-groupes (fermés pour la topologie de Krull) du groupe de Galois de cette extension, et donc, via le symbole d'Artin, avec les sous-groupes du groupe multiplicatif de K.
+Le cas particulier le plus frappant est celui du groupe des unités : il est associé à l'extension non ramifiée maximale de K.
+Corps de classes global[modifier | modifier le code]
+Pour K un corps de nombres, la correspondance du corps de classes s'énonce comme la collection des correspondances locales en toutes les places non archimédiennes de K, à l'aide des idèles (en).
+Historique[modifier | modifier le code]
+La généralisation prit place dans un projet historique à long terme impliquant les formes quadratiques, les lois de réciprocité, les travaux de Kummer et de Kronecker/Hensel sur les idéaux et ses achèvements, la théorie de la cyclotomie, les extensions de Kummer, les conjectures de Hilbert et les démonstrations par de nombreux mathématiciens (Teiji Takagi, Helmut Hasse, Emil Artin, Philipp Furtwängler, et d'autres). Le théorème d'existence de Takagi crucial était connu en 1920 et tous les autres résultats principaux vers 1930. La propriété de principalisation est une des dernières conjectures classiques à avoir été démontrée.
+Dans les années 1930 et ultérieurement, l'usage des extensions infinies et de la théorie de Krull sur leurs groupes de Galois a été considérée comme de plus en plus utile. Elle se mélange avec la dualité de Pontryagin pour donner une formulation plus claire mais plus abstraite du résultat central, la loi de réciprocité d'Artin (en). Elle est aussi basée sur la théorie d'Iwasawa.
+Après que les résultats furent reformulés en termes de cohomologie galoisienne, avec la notion de formation de classes, ce domaine subit une relative stagnation. Le programme de Langlands lui donna une impulsion nouvelle, dans sa forme de « théorie non abélienne des corps de classes (en) », bien que cette description puisse être à présent considérée comme restrictive si elle est confinée à la question de savoir comment les idéaux premiers se décomposent dans les extensions galoisiennes générales.
+Références[modifier | modifier le code]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Class field theory » (voir la liste des auteurs).
+(en) Georges Gras, Class Field Theory. From Theory to Practice [détail de l’édition]
+(en) Jürgen Neukirch, Algebraic number theory [détail des éditions]
+(en) Jürgen Neukirch, Alexander Schmidt (de) et Kay Wingberg (de), Cohomology of number fields [détail de l’édition]
+Jean-Pierre Serre, Corps locaux [détail des éditions]
+Voir aussi[modifier | modifier le code]
+Article connexe[modifier | modifier le code]
+Théorie du corps de classe local
+Liens externes[modifier | modifier le code]
+(en) Page de J. S. Milne, professeur émérite à l'université du Michigan
+Un texte sur cette théorie sur le site de Maurice Mischler à Epalinges
+Portail des mathématiques
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Théorie_des_corps_de_classes&oldid=106048092 ».
+Catégories : Théorie des corps de classesThéorie de GaloisCatégories cachées : Article contenant un appel à traduction en anglaisArticle contenant un appel à traduction en allemandPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Deutsch
+English
+Español
+日本語
+한국어
+Nederlands
+Português
+Русский
+中文
+Modifier les liens
+Dernière modification de cette page le 6 août 2014 à 18:59.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

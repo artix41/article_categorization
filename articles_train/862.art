@@ -1,0 +1,96 @@
+Temps réel — Wikipédia
+Temps réel
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cette page d’homonymie répertorie les différents sujets et articles partageant un même nom.
+Sur les autres projets Wikimedia :
+temps réel, sur le Wiktionnaire
+Le terme temps réel a plusieurs significations suivant le contexte, bien que, en dehors de l'informatique l'expression n'ait aucun sens.
+En médiologie, c'est un échange d'information ou un échange quelconque sans attente, immédiat. Internet, les satellites etc. permettent des échanges « en temps réel ». On dira plutôt « immédiatement » ou « sans délai ».
+Sommaire
+1 Cinéma
+2 Finance
+3 Informatique
+4 Images de synthèse
+5 En biologie moléculaire
+6 Dans le domaine des jeux vidéo
+7 Noms
+Cinéma[modifier | modifier le code]
+Au cinéma ou à la télévision, une fiction en temps réel est celle qui donne l'impression que l'action se déroule en même temps que celui du spectateur. Des séries comme 24 heures chrono et le film Timecode de Mike Figgis utilisent ce principe. Il serait plus correct de dire « en temps actuel ».
+Temps réel est un épisode de Valérian et Laureline .
+Finance[modifier | modifier le code]
+En finance, le temps réel ou données en temps réel sont des cotations transmises sans délai après leur génération. Par opposition, les données en différé sont transmises après un laps de temps déterminé.
+Informatique[modifier | modifier le code]
+Articles connexes : Horloge temps réel et Système de traitement transactionnel.
+En informatique, un système temps réel est une application ou plus généralement un système pour lequel le respect des contraintes temporelles dans l'exécution des traitements est aussi important que le résultat de ces traitements. Ces systèmes sont utilisés pour contrôler des processus physiques en suivant leur évolution au rythme de leur déroulement.
+Selon John A. Stankovic, « la correction du système ne dépend pas seulement des résultats logiques des traitements, mais dépend en plus de la date à laquelle ces résultats sont produits » (Misconceptions about real-time computing. IEEE Computer, 21(10):10--19, 1988).
+Images de synthèse[modifier | modifier le code]
+En infographie 3D, l'expression temps réel est utilisée en opposition au terme précalculé qui s'applique, par exemple, à une série d'images en jpeg, ou bien à un fichier vidéo (.avi, .mov ) dont chaque image a demandé plus d'un quinzième de seconde à être rendue. Ce temps peut varier jusqu'à plusieurs heures de calcul, même sur une machine puissante à plusieurs cœurs, en fonction du nombre de polygones (éléments de surface), du nombre de sources lumineuses, du poids de ses textures associées (bitmaps) et du type de rendu (radiosité, lancer de rayons, occlusion, etc.) du fichier modèle 3D.
+L'animation devient 3D interactive lorsque les images sont calculées en temps réel et que l'intégralité des paramètres physiques ou logiques qui constitue la scène le sont également. Il est alors possible à l'utilisateur de modifier dynamiquement le contenu visuel, par déplacement et rotation de la caméra virtuelle ou par le déclenchement d'évènements via l'interface de contrôle de l'application (souris, joystick, pad, kinect) préprogrammées dans le moteur (game engine).
+La norme concernant la vitesse d’affichage en 3D temps réel ou 3D interactive est au minimum de 15 images par seconde, bien que 30 ou 60 soient nécessaires à l'obtention d'une sensation de réactivité agréable (voir gameplay). Elle est obtenue non par le processeur central de l'ordinateur (CPU) mais grâce au travail de la carte graphique, additive ou intégrée sur la carte-mère, qui contient un processeur graphique appelé GPU. Ces nouvelles générations de circuits sont capables de calculer des matrices de transformations ou des opérations géométriques, optiques ou physiques, câblées en parallèle selon les normes OpenGL (ouvert), DirectX ou PhysX (propriétaires).
+En biologie moléculaire[modifier | modifier le code]
+PCR en temps réel
+Séquençage en temps réel
+Dans le domaine des jeux vidéo[modifier | modifier le code]
+Certains jeux vidéos de stratégie sont en temps réel, par opposition aux jeux de stratégie au tour par tour.
+Noms[modifier | modifier le code]
+Temps réel, une section du Parti socialiste fondée par d'ex-militants de l'Alliance marxiste révolutionnaire ;
+Temps réel, une société de production.
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Temps_réel&oldid=110911524 ».
+Catégorie : Homonymie
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Deutsch
+English
+Euskara
+فارسی
+日本語
+한국어
+Slovenčina
+中文
+Modifier les liens
+Dernière modification de cette page le 14 janvier 2015 à 13:56.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobile

@@ -1,0 +1,289 @@
+Manomètre — Wikipédia
+Manomètre
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Manomètre 0-600 bar. Cet appareil est ici un manomètre à tube de Bourdon.
+Manomètre manuel d’une station de gonflage.
+Un manomètre est un instrument servant à mesurer une pression. On a développé depuis les débuts de l'époque moderne de nombreux appareils pour mesurer les pressions et le degré de vide : ces instruments de mesure sont appelés tantôt capteurs de pression, tantôt sondes (pour le degré de vide). Le manomètre est un instrument de mesure de pression, destiné en principe à mesurer des pressions voisines de la pression atmosphérique. Le terme de manomètre renvoie plutôt dans son acception courante à des instruments de mesure à colonne de liquide.
+Une sonde sert à mesurer la pression dans le vide ; on y distingue deux catégories : vide et « vide poussé » (et parfois on parle d'ultravide). Les domaines d'application des différents appareils de mesure des pressions se recouvrent en partie ; ainsi, en combinant plusieurs instruments, il est possible de mesurer les pressions sur un spectre continu allant de 10 mbar à 10−11 mbar.
+Sommaire
+1 Remarques d'ensemble
+1.1 Le problème de la pression de référence
+1.2 Le choix d'une unité de mesure
+1.3 Pression statique, pression dynamique
+2 Les manomètres de référence
+2.1 Les manomètres hydrostatiques
+2.1.1 Les manomètres à valve
+2.1.2 Les manomètres à colonne de liquide
+2.1.3 Aux très faibles pressions : la sonde de McLeod
+2.2 Les manomètres anéroïdes
+2.2.1 L'appareil de Bourdon
+2.2.1.1 Principe
+2.2.1.2 Mécanisme du manomètre de Bourdon
+2.2.2 Les capsules manométriques
+2.2.3 Manomètres à soufflet
+3 Des manomètres indirects : les capteurs
+3.1 Conversion de la conductibilité thermique en pression
+3.2 Manomètre à ionisation
+3.2.1 Jauge à cathode chaude
+3.2.2 Jauges à cathode froide
+4 Étalonnage
+5 Effets transitoires
+6 Application : la mécanique automobile
+7 Normes
+8 Notes
+9 Voir aussi
+9.1 Articles connexes
+9.2 Liens externes
+Remarques d'ensemble[modifier | modifier le code]
+Le problème de la pression de référence[modifier | modifier le code]
+Les mesures de pression comme la pression des pneus se font, dans la vie courante, par rapport à la pression de l'air ambiant. Les mesures industrielles ou scientifiques, en revanche, se font par rapport à un vide relatif ou une pression de référence pertinente. Pour distinguer ces zéros de pression servant de référence, on parle ainsi de :
+pression absolue lorsque la pression est exprimée par rapport au vide.
+pression relative lorsque la pression est exprimée par rapport à la pression de l'air ambiant ; une pression exprimée ainsi est donc égale à la pression absolue diminuée de la pression atmosphérique. On évite généralement de noter le signe des pressions négatives.
+La pression différentielle est l'écart de pression entre deux points.
+Le zéro de pression se déduit généralement du contexte, et on ne le précise que dans les cas ambigus. La pression pneumatique et la pression sanguine sont conventionnellement des pressions relatives, alors que la pression atmosphérique, la pression dans une enceinte à vide poussé, et la pression altimétrique doivent être données comme pressions absolues. Les pressions différentielles interviennent fréquemment en contrôle-commande. Les manomètres à pression différentielle comportent deux valves d'entrée, qui sont connectées à chacune des deux enceintes dont on veut comparer la pression. Cet appareil se comporte exactement comme un soustracteur analogique, et épargne au technicien l’examen des deux valeurs et l’opération mentale de comparaison. Pour ce qui est des manomètres utilisés dans les enceintes où l’on doit réaliser un vide relatif, la nature de la pression marquée par l'appareil est ambiguë : selon les cas ou le degré de sophistication de l'appareil, on lira une pression absolue, ou une pression indiquée (qui est une dépression par rapport à la pression atmosphérique, eu égard à la nature de l'opération) sans que l’on précise le signe « - ». Ainsi un vide de 66 cm Hg (pression indiquée) équivaut à une pression absolue de 10 cm Hg = (pression atmosphérique) − 66 cm Hg.
+La pression atmosphérique est en moyenne de 100 kPa au niveau de la mer. Elle dépend en effet de l’altitude et de la météorologie. Si la pression absolue d’un fluide demeure constante, la pression indiquée pour ce même fluide va, par définition, dépendre de la pression atmosphérique. Par exemple, lorsqu’une voiture roule vers le sommet d’une montagne, la pression de l’air atmosphérique décroît et la pression des pneus augmente. On donne 101,325 kPa ou 100 kPa comme valeur standard de la pression atmosphérique, et certains appareils prennent systématiquement ces valeurs fixes comme zéro de référence au lieu de la pression atmosphérique instantanée (qui est variable). Ce choix affecte la précision de la mesure, particulièrement lorsque l’on opère à des altitudes différentes ou sur des plages de temps longues.
+Le choix de la pression atmosphérique comme pression de référence se marque généralement par la précision « (g) » après l’unité de pression : par ex. l'indication « 30 kPa (g) » signifie que la pression mesurée est la pression totale diminuée de la pression atmosphérique. Il y a deux spécifications de pressions indiquées : « avec une cellule manométrique ouverte » (angl. vented gauge, mention vg), « avec une cellule manométrique fermée » (angl. sealed gauge, sg).
+Un manomètre ouvert laisse agir la pression de l’air ambiant sur la membrane (ou diaphragme) fermant la cellule de mesure. L’air est mis en communication par l’intermédiaire d’un flexible ou d’une soupape sur le côté de l’appareil, de sorte que l’on mesure toujours la pression par rapport à la pression barométrique. Ainsi avec un manomètre ouvert il faut toujours commencer par faire le zéro une fois qu'on a mis la cellule en communication avec l’air ambiant.
+Dans un manomètre fermé, un volume d’air réputé une fois pour toutes « à la pression atmosphérique » est scellé dans une capsule fermée par un diaphragme ; ce diaphragme (lame flexible ou membrane) est d'autre part en communication avec l’enceinte de mesure. On adopte plutôt ce système pour la mesure des pressions élevées comme en hydraulique où les variations de la pression atmosphérique n’ont qu’un effet négligeable sur la précision du résultat. Pour de tels dispositifs, certains fabricants prévoient une seconde enceinte de confinement à la pression de référence, au cas où la pression de claquage du diaphragme aurait été dépassée.
+Un manomètre fermé mis à la pression de référence ne marquera jamais exactement l’indication zéro car la pression atmosphérique est variable et la pression de référence correspond à l'indication au cadran de 1 bar.
+Une mesure de pression absolue donne la pression en référence au vide absolu. Le meilleur exemple d’une telle valeur est celui de la pression atmosphérique. Les manomètres permettant d’effectuer ce genre de mesure comportent une capsule où l’on a pratiqué un vide poussé d’un côté du diaphragme. Si par exemple on remplit la cellule d’air ambiant, l’appareil indiquera la valeur absolue de la pression barométrique.
+Le choix d'une unité de mesure[modifier | modifier le code]
+Article détaillé : Pression#Unités et mesures de pression.
+L’unité de pression SI est le pascal (Pa), égal à 1 N/m2. Le nom de cette unité a été adopté par la Commission Internationale des Poids et Mesures en 1971 ; auparavant, l’unité SI de pression était notée N·m−2. Le zéro de pression, lorsqu’il est spécifié, est donné entre parenthèses à la suite de l’unité ; par exemple, on peut trouver : 101 kPa (abs).
+Comme très longtemps les appareils à colonne de liquide ont été les seuls manomètres connus, les pressions continuent d'être données en hauteur équivalente de liquide : il s’agit le plus souvent du mercure (Hg) et de l’eau ; l’eau n’est pas toxique et elle est disponible en abondance ; quant au mercure, sa densité élevée permet de réaliser des appareils de taille raisonnable, même pour des pressions importantes.
+La densité du fluide et l’intensité de la gravité locale peuvent varier d’une expérience de mesure à l’autre selon l’ambiance : aussi la hauteur d’une colonne de liquide ne mesure-t-elle pas fidèlement la pression. Lorsqu’une pression est donnée en « millimètre de mercure », cela ne signifie pas que la mesure a été réellement faite avec un instrument à colonne de mercure, mais il faut comprendre que la valeur résulte d’une conversion précise en termes d’unités SI. Notez que les pressions données en charge hydraulique équivalente (« mètre d'eau ») s’appuient sur l’ancienne définition du kilogramme, comme la masse de 1 l d’eau à 4 °C.
+Quoique méprisées des métrologues, ces unités manométriques demeurent d’usage courant dans de multiples domaines d'activités. La pression sanguine se mesure en millimètres de mercure (voyez torr) dans la plupart des pays du monde, et pour l’air des poumons le centimètre d’eau est toujours d’un usage courant. La pression du gaz naturel (charge hydraulique) des gazoducs est mesurée en bars en France, mais elle est exprimée en pouce d'eau (inch WC) dans les pays anglo-saxons. Les adeptes de la plongée adoptent souvent la règle de l’art suivante : tous les 10 m de profondeur, la pression s'accroît de 1 atm. Dans les systèmes à faire le vide, les unités les plus fréquentes sont le torr et le micromètre de mercure (micron). Le torricelli et le micron sont des mesures de pression absolue.
+On donne généralement les pressions atmosphériques en kilopascals (kPa), ou atmosphères (atm)[1]. Dans le vieux système cgs, l’unité de pression était la barye (ba), égale à 1 dyn·cm−2. Dans le système mts, c'était le pièze, égal à 1 st/m2.
+On trouve encore bien d’autres unités hybrides comme le mmHg/cm² ou le g×force/cm² (parfois kg/cm² ou , g/mol2 sans que l'on spécifie clairement la conversion de « masse » en « force »). Du reste l’emploi des termes de « kilogramme » et « gramme » comme unités de force, aussi bien que l’emploi des termes de « kilogramme-force », « gramme-force » et leurs symboles est proscrit par le Système métrique International : la seule unité de force en SI est le newton (N).
+Pression statique, pression dynamique[modifier | modifier le code]
+La pression statique, qui est la pression mesurée dans un fluide au repos, est uniforme dans toutes les directions ; aussi, les mesures de pression sont indépendantes de la direction dans laquelle elles sont effectuées. Dans un écoulement, au contraire, il faut qu'il existe une différence de pression entre les deux sections perpendiculaires à la direction d'écoulement, les différences de pression dans les plans parallèles à cette direction étant insensibles. Cette composante directionnelle de la <différence de> pression dans un fluide en mouvement est appelée pression dynamique.
+Pour un jet fluide pesant de vitesse homogène v, la pression dynamique est donnée par
+avec q : pression dynamique du fluide en Pa
+avec ρ (rho) : masse volumique du fluide en kg/m3
+avec V : vitesse de déplacement relative au fluide en m/s
+Un piézomètre interposé dans l'axe de l'écoulement mesure la somme de la pression statique et de la pression dynamique, appelée pression totale ou pression d'arrêt. Comme la pression dynamique est généralement mesurée en référence à la pression statique, ce n'est ni une pression indiquée, ni bien sûr une pression absolue, mais bien une pression différentielle.
+Si la mesure de pression statique est essentielle pour estimer la contrainte dans les enceintes pressurisées, les conduites en charge et les réacteurs chimiques, la pression dynamique est reliée au débit de fluide et à sa vitesse. La pression dynamique s'obtient par une mesure de pression différentielle entre deux orifices de prise, l'un parallèle et l'autre perpendiculaire à l'écoulement (tube de Pitot, sonde de Prandtl). Les avions sont systématiquement équipés de ce genre d'appareils, qui donne leur vitesse relative par rapport aux masses d'airs environnantes. Il ne faut pas se cacher que la présence des buses de prise altère irrémédiablement l'écoulement ; il est donc capital d'optimiser leur « aérodynamique » ; malgré cela, du fait de la turbulence, les courbes d'étalonnage sont fréquemment non-linéaires.
+Les manomètres de référence[modifier | modifier le code]
+On a inventé depuis le XVIe siècle de multiples appareils pour mesurer les pressions, chacun avec leurs avantages et leurs inconvénients. Portée, sensibilité, temps de réaction et prix varient de plusieurs ordres de grandeur d'un instrument à l'autre. Le plus vieux manomètre à colonne de liquide (la cuve de mercure) a été inventée par Evangelista Torricelli en 1643. Le tube en U est dû à Christian Huygens en 1661. Ces manomètres, parce qu'ils mesurent directement la pression d'enceinte par un équilibre mécanique, demeurent malgré leur temps de réaction important et leur portée plus réduite indispensables à l'étalonnage de tous les autres capteurs de pression.
+Les manomètres hydrostatiques[modifier | modifier le code]
+Les manomètres hydrostatiques (comme l'appareil à colonne de mercure) comparent la pression à la poussée hydrostatique par unité de surface exercée à la base d'une colonne de fluide. Les mesures hydrostatiques sont indépendantes du type de gaz dont on mesure la pression, et on peut concevoir les manomètres à colonne de telle façon que leur courbe caractéristique d'étalonnage soit pratiquement linéaire. Ils sont en revanche à réponse lente.
+Les manomètres à valve[modifier | modifier le code]
+Dans ces manomètres, la pression du fluide comprime un ressort ou fait équilibre à un contrepoids via une valve de section déterminée : c'est ainsi que sont fabriqués les manomètres manuels (de précision très variable) des stations de gonflage. Les balances d'étalonnage des manomètres sont des manomètres à contrepoids : le contrepoids n'est autre qu'une masse-étalon.
+Les manomètres à colonne de liquide[modifier | modifier le code]
+La différence de niveau dans un manomètre à colonne liquide colonne est proportionnelle à la différence de pression :
+Les manomètres à colonne de liquide consistent en une colonne verticale de liquide piégée dans un tube dont les extrémités sont soumises à deux pressions différentes. Selon la différence de pression appliquée, la colonne va monter ou descendre jusqu’à ce que son poids soit équilibré. Une version simple est le tube en U rempli à moitié de liquide, et dont une extrémité est raccordée à l’enceinte à tester tandis que l’autre extrémité est soumise à une pression de référence (à savoir la pression atmosphérique ou le vide). La différence de niveau du liquide marque la pression appliquée par l’enceinte par rapport à la pression de référence. En effet, la pression exercée par une colonne de liquide de hauteur h et de densité ρ est donnée par la formule du nivellement barométrique P = ρgh. C’est pourquoi l’écart entre la pression appliquée Pa et la pression de référence P0 dans un manomètre à tube en U s’obtient avec la relation Pa − P0 = ρgh. En d’autres termes, la pression à chaque extrémité de la colonne liquide (en bleu à droite sur la figure) doit être équilibrée (puisque le liquide est au repos) et par conséquent Pa = P0 + ρgh. Si le fluide dont on veut mesurer la pression est suffisamment dense, il faut introduire des corrections hydrostatiques sur la hauteur lue en fonction du point où le manomètre mesure la pression, à moins que l’on ne mesure la pression différentielle d’un fluide (par exemple au niveau d’un ajutage ou d’un canal de venturi) : dans ce dernier cas, il faudra retrancher de la densité ρ du liquide manométrique la densité du fluide dont on mesure la pression interne[2].
+Bien que tout fluide pesant quasi-incompressible puisse faire l’affaire, on continue de préférer le mercure pour sa densité élevée (13,534 g/cm3) et sa faible pression de vapeur. Pour détecter de faibles différences de pression dans un domaine très supérieur à la pression de vapeur, on emploie ordinairement l’eau (et c'est pourquoi l'expression « mètre d'eau » est encore d'usage courant). Les manomètres à colonne de liquide sont indifférents au type de gaz à tester, et ils présentent une courbe de réponse linéaire sur une plage de pression très étendue. En revanche ils sont lents et donc peu réactifs aux variations brutales du mesurande. Pour les faibles pressions, le liquide barométrique tend à s'évaporer et à contaminer l'enceinte à tester dès qu'on arrive au voisinage de la pression de vapeur. Lorsque l'on mesure la pression dans un liquide, on peut empêcher son mélange avec le liquide de la colonne à l'aide d'un siphon rempli de gaz ou d'un troisième liquide moins dense que les deux autres ; toutefois, cette précaution n'est pas toujours utile, comme lorsque l'on utilise une colonne de mercure pour mesurer la pression différentielle entre deux réservoirs d'eau. Les manomètres hydrostatiques à colonne peuvent permettre de mesurer des pressions allant de quelques Torr (quelques 100 Pa) à plusieurs atmosphères (environ 1 000 000 Pa).
+Une sonde de McLeod, remplie de mercure
+Le manomètre à bulbe est un capillaire de liquide gradué muni à sa base d'un réservoir (le « bulbe »). On peut incliner l'appareil pour gagner en sensibilité.
+Aux très faibles pressions : la sonde de McLeod[modifier | modifier le code]
+Dans la sonde de McLeod, un échantillon de gaz est isolé dans une cellule et se trouve comprimé dans un manomètre à mercure modifié jusqu'à ce que sa pression soit de quelques mmHg. Le gaz doit rester physiquement stable au cours du processus de compression (il ne faut pas qu'il se condense). Cette technique lente est peu adaptée à l'enregistrement en continu, mais sa précision est excellente.
+Portée utile: de 10-4 torr[3] (environ 0,01 Pa) à 10-6 Torr (0,1 mPa),
+La pression de 0,1 mPa est actuellement la plus faible pression détectable en laboratoire. Il existe bien d'autres sondes pouvant descendre à des pressions inférieures, mais elles ne donnent qu'une mesure indirecte (cf. § suivant), fondée sur la baro-dépendance d'autres propriétés physiques des gaz. Ces mesures indirectes doivent à leur tour être étalonnées en unités SI par raccordement à un manomètre direct, et pour cela on recourt le plus souvent à une sonde de McLeod[4].
+Les manomètres anéroïdes[modifier | modifier le code]
+Un manomètre à membrane
+Les manomètres anéroïdes utilisent l’élasticité d'une pièce métallique : sa déformation (déflection d'un diaphragme, variation de courbure d'un tube enroulé, etc.) mesure de manière fidèle la différence de pression appliquée. L'adjectif « anéroïde », qui signifie « sans <le truchement d’un> fluide », voulait distinguer à l’origine ces manomètres « secs » des manomètres à colonne de liquide. Toutefois, ces manomètres anéroïdes peuvent parfaitement mesurer la pression interne d'un liquide, et ce ne sont pas les seuls capteurs de pression exempts de fluide interne. Pour cette raison, on les qualifie aujourd'hui souvent de manomètres mécaniques. Les manomètres anéroïdes, contrairement aux capteurs à effet thermo-ioniques et aux chambres d'ionisation, sont indifférents à la nature du gaz dont on recherche la pression et, contrairement aux manomètres à colonne de liquide, ne risquent pas de contaminer le mesurande. La cellule élastique peut prendre la forme d'un tube de Bourdon, d'un diaphragme, d'une capsule manométrique comme la capsule de Vidie, ou d'un manomètre à soufflet. Elle se déforme en réponse à la pression du fluide testé. La déformation de cette cellule est soit lue sur un cadran à aiguille par un mécanisme, soit convertie grâce à des jauges de déformation. Les capteurs de pression les plus courants dans les sondes pour la technologie du vide sont fondés sur la variation de capacité électrique liée à l'expansion de l'intervalle diélectrique sous l'effet d'une dépression extérieure. Les manomètres exploitant la variation de la capacité électrique d'un condensateur sont appelés « baratrons ».
+L'appareil de Bourdon[modifier | modifier le code]
+Principe[modifier | modifier le code]
+Mécanisme d’une sonde à tube de Bourdon. Les différentes pièces sont en bronze.
+L’appareil de Bourdon est fondé sur le principe qu'un tube cylindrique pincé tend à se rectifier et à reprendre une section circulaire lorsqu'il est soumis à une pression interne. Quoique ce changement soit à peine perceptible à l’œil, et ne développe donc que des contraintes élastiques même dans les métaux très ductiles, il est possible d'amplifier les déformations du tube en le cintrant « en C » ou même en hélice, de telle façon que sous l'effet de la pression de gaz, il tende à s'ouvrir (pour un appareil en C) ou à élargir ses spires de manière réversible, élastique. Eugène Bourdon breveta cet appareil en 1849, et très vite la sensibilité, la linéarité et la précision de l'instrument firent son succès : Edward Ashcroft racheta les droits d'exclusivité de Bourdon pour les États-Unis en 1852 et devint le premier fabricant de manomètre du continent nord-américain. En 1849, Bernard Schaeffer breveta à Magdebourg un manomètre à diaphragme (cf. infra), qui complétait heureusement la portée de l'appareil de Bourdon : dans la seconde moitié du XIXe siècle, ces deux manomètres révolutionnèrent la métrologie des pressions dans le monde de l'industrie[5]. Mais dès 1875, le brevet de Bourdon expirait, et c’est désormais la compagnie allemande Schaeffer and Budenberg Co. qui fabriqua, pendant quelques décennies, l'essentiel des manomètres à tube de Bourdon.
+En pratique, on raccorde un tube pincé et obturé à ses extrémités à l'extrémité d'un flexible de prise en dérivation sur l'enceinte dont on veut mesurer la pression. Lorsque la pression croît, la courbure du tube diminue et son extrémité décrit un arc : elle repousse par l'intermédiaire d'une bielle un segment de roue dentée (généralement interchangeable via un sélecteur de calibre, qui fait embrayage). Un pignon denté de petit diamètre est en prise avec l'aiguille, ce qui permet de démultiplier l'amplitude de lecture d'un facteur constant. L’étalonnage se fait simplement soit en tournant légèrement le cadran, soit en déplaçant la position zéro de l'aiguille, soit en jouant sur la longueur de transfert. On peut mesurer une pression différentielle avec deux tubes de Bourdon couplés par des joints.
+Les tubes de Bourdon mesurent une pression relative par rapport à la pression atmosphérique ambiante, et non la pression absolue ; Les dépressions se détectent à un mouvement rétrograde de l'aiguille. Certains baromètres anéroïdes emploient des tubes de Bourdon obturés à leurs extrémités (mais la plupart intègrent plutôt des capsules, cf. infra). Lorsque la pression oscille rapidement, comme à proximité d'un moteur à piston, on prévoit souvent de ménager une valve de surpression dans le flexible de prise pour éviter une usure prématurée des mécanismes et pour lisser le signal de pression ; lorsque tout le manomètre est mis en vibration, on peut remplir tout l'appareil (y compris le cadran et l'aiguille) d'un fluide amortisseur : on parle alors de manomètre à bain de silicone ou de glycérine. Il est déconseillé de tapoter sur le cadran du manomètre pour le dégripper car cela fausse généralement la mesure. Le tube de Bourdon n'est pas en contact avec le corps du manomètre et sa déformation n'affecte donc pas le cadran. Les manomètres modernes de ce type offrent une précision de ±2 % de la portée, mais un appareil haut-de-gamme peut descendre jusqu'à 0,1 % de toute l’étendue de mesure[6].
+Les schémas ci-contre montrent le cadran et le mécanisme d'un manomètre utilisable également comme sonde. Cette combinaison particulière de sonde et de manomètre de Bourdon est employée pour le diagnostic des moteurs :
+cadran et aiguille.
+Le tube de Bourdon et son mécanisme de conversion vers l'aiguille indicatrice.
+La moitié gauche du cadran, utilisée pour mesurer la dépression du collecteur, est graduée en centimètres de mercure (échelle intérieure) et pouces de mercure (échelle périphérique).
+La moitié droite du cadran, utilisée pour mesurer la pression de la pompe à injection, est graduée par fractions de 1 kgf/cm² (échelle intérieure) et en psi (échelle périphérique).
+Mécanisme du manomètre de Bourdon[modifier | modifier le code]
+Appareil de Bourdon : détails du mécanisme
+Pièces fixes :
+A: Enceinte réceptrice. Elle assure la jonction entre le flexible de prise et l'admission dans le tube de Bourdon (1) et participe à la rigidité de la plaque du châssis (B) avec deux vis de fixation.
+B: Plaque du châssis. Elle reçoit le cadran gradué. Deux alésages sont prévus pour l'aiguille et les pivots du mécanisme de réduction/amplification.
+C: Plaque secondaire du châssis : reçoit l'autre extrémité des pivots des roues dentées et du balancier.
+D: entretoise permettant de rigidifier les deux plaques du châssis et l'espace intermédiaire, logement du mécanisme.
+Pièces mobiles :
+Extrémité fixe du tube de Bourdon. C'est par cette extrémité que le fluide en pression est admis dans la cellule.
+Extrémité mobile du tube de Bourdon. Cette extrémité est scellée hermétiquement.
+Pivot et son appui.
+Bielle de transmission au crochet (5) avec un axe pour permettre la rotation commune.
+Balancier entraînant le secteur denté (7).
+Pivot du secteur denté.
+Secteur denté.
+pivot de l'aiguille indicatrice du cadran. Il engrène sur le secteur denté (7) et traverse la plaque du châssis pour entraîner l'aiguille de lecture. Compte tenu du très faible bras de levier entre l'axe du balancier et du taux de réduction du pignon d'engrenages, les moindres déformations du tube de Bourdon sont fort amplifiés et se traduisent par un mouvement bien détectable de l'aiguille.
+Ressort spiral pour le rappel du pignon denté : il élimine les rebonds et évite l’hysteresis.
+Les capsules manométriques[modifier | modifier le code]
+Empilement en série de capsules manométriques dans un barographe anéroïde.
+Un autre type de manomètre anéroïde repose sur la mesure de la déflection d'une membrane flexible séparant deux enceintes à des pressions différentes. À une différence de pression donnée correspond une déflection précise, de sorte qu'un étalonnage permet de mesurer les différences de pression. La déformation d'un diaphragme, ou paroi mince, dépend de la différence de pression entre ses deux faces. La membrane peut être exposée à une pression de référence ou avec l’atmosphère (on mesure alors une pression indiquée), à une enceinte pressurisée (on mesure une pression différentielle) ; enfin elle peut être scellée sur une capsule où l'on a fait le vide, pour mesurer la pression absolue. La déflection de la membrane se mesure par toutes sortes de comparateurs : mécaniques, optiques, capacitifs. Pour mesurer la pression absolue, on utilise des capsules faites de deux diaphragmes soudés à leur périphérie. Les diaphragmes sont métalliques ou céramiques.
+portée utile[7] : à partir de 10-2 Torr (env. 1 Pa)
+forme:
+plat
+tôle ondulée
+tube pincé
+capsule
+Manomètres à soufflet[modifier | modifier le code]
+Dans les manomètres destinés à mesurer les pressions absolues, les faibles pressions ou les faibles différences de pression, le pignon de réduction et l'aiguille peuvent être mus par une série de capsules manométriques empilées dans une enceinte étanche déformable, dite « à soufflet », appelé un anéroïde : ce modèle à soufflet est en effet souvent employé dans les manomètres anéroïdes (manomètres à cadran à aiguille), dans les altimètres, les barographes d'enregistrement de l'altitude, et les instruments de télémétrie embarqués dans les ballon-sondes. Dans ces instruments, le gaz prisonnier du soufflet donne une pression de référence et la pression extérieure agit sur l'empilement des capsules manométriques. Plusieurs instruments instruments embarqués dans les avions : le tachymètre et l'accéléromètre ascensionnel (variomètre), fonctionnent par connexion à une chambre anéroïde et à une enceinte pressurisée externe.
+Des manomètres indirects : les capteurs[modifier | modifier le code]
+Article détaillé : Sonde de pression.
+Jauges piézoresistives
+Ces jauges collées piézorésistives voient leur résistance varier proportionnellement aux déformations provoquées par la pression appliquées au support.
+Sondes capacitives.
+L’enceinte pressurisée forme avec le diaphragme un condensateur variable. Sa capacité dépend de la déformation du diaphragme, qui est elle-même un effet de la pression.
+Sondes électromagnétiques
+Il s'agit ici de mesurer la déflexion du diaphragme par mesure du courant induit dans une bobine, capteur LVDT, par Effet Hall, ou par les courants de Foucault.
+Capteurs piézo-électriques
+Un quartz piézo-électrique déformé par la pression appliquée produit un courant électrique dépendant de sa déformation.
+Jauges optiques
+La déformation d'une fibre optique sous l'effet de la pression d'enceinte altère les caractéristiques de la lumière traversant la fibre. Un analyseur à réseau permet de convertir le signal en pression.
+Potentiomètre
+La pression entraîne la translation du palpeur le long d'un rhéostat, et se traduit par une chute de tension électrique.
+capteur à résonance
+La pression appliquée sur une cellule élastique modifie sa fréquence de résonance. Ce décalage spectral mesure la pression de l'enceinte.
+Conversion de la conductibilité thermique en pression[modifier | modifier le code]
+Généralement, lorsqu'un gaz réel se condense (ce qui peut être l'indice d'un accroissement de la pression), sa conductivité thermique augmente. On peut exploiter cette propriété avec un filament que l'on fait chauffer en le branchant sur un circuit électrique (par effet ohm). La température du filament pourra être mesurée par un thermocouple ou une Thermistance (RDT). Cette température dépend aussi du taux de dissipation thermique de la chaleur émanant du fil dans le gaz de l'enceinte, et donc de la conductivité thermique du gaz. On doit à Marcello Pirani une variante de cette idée : elle consiste à utiliser un filament de platine qui sert à la fois de source de chaleur et de capteur de température. De tels capteurs de pression sont précis entre 10 Torr et 10-3 Torr, mais ils dépendent de la composition chimique des gaz testés.
+Le manomètre de Pirani, ou jauge de Pirani, est utilisé dans le domaine des basses pressions. Il s'agit d'un filament métallique plongé dans le gaz dont on veut mesurer la pression. Ce filament est chauffé par effet Joule et le gaz de l'enceinte absorbe le flux thermique qu'il émet. Plus la pression du gaz est faible, plus l'absorption de chaleur est faible, et plus la température d’équilibre thermique du filament sera élevée. La résistance du fil est fonction de sa température : la mesure de la tension électrique aux bornes du filament et du courant qui le traverse permet de calculer sa résistance et d'en déduire la pression du gaz de l'enceinte. Le problème vient du fait que la mesure dépend de la nature du gaz, on doit donc utiliser un facteur de correction suivant les gaz restants.
+Les capteurs de pression à thermocouple et à thermistances fonctionnent sur le même principe, à ceci près qu'on utilise, comme le nom l'indique, un conducteur ohmique particulier pour mesurer la température du filament.
+Portée utile: de 10-3 à 10 Torr[8] (environ 0,1 Pa à 1 000 Pa).
+Manomètre à ionisation[modifier | modifier le code]
+Les sondes à ionisation sont les plus sensibles pour les très faibles pressions : dans un vide poussé, le nombre de molécules est si faible qu'on peut évaluer la pression en estimant la densité des molécules. Les sondes à ionisation mesurent indirectement cette densité de la façon suivante : chaque fois qu'un électron émis par sa cathode heurte une molécule, il en résulte la formation d'ions dont une fraction atteint l'anode en créant un très faible courant électrique. Plus le courant est faible, moins il y a d'ions et plus la pression est faible. L'étalonnage d'une jauge à ionisation doit être fréquent car le tarage dépend de la nature des gaz dans lesquels on mesure la pression, nature qui n'est pas toujours déterminée à l'avance. On peut raccorder ces appareils au plan métrologique à l'aide d'une sonde McLeod, plus stable et indépendante des propriétés chimiques du gaz ambiant.
+Un convertisseur thermoïonique émet des électrons qui entrent en collision avec des atomes de gaz d'où résulte un flux d’ions positifs. Les ions sont attirés vers une électrode polarisée, le « collecteur ». Le courant électrique au collecteur est proportionnel au taux d'ionisation du gaz, lui-même révélateur de la pression d'enceinte. Ainsi, la mesure du courant du collecteur mesue la pression du gaz. Il existe plusieurs types de jauges d’ionisation.
+Portée utile: de 10-10 à 10-3 torr (environ 10-8 à 0,1 Pa)
+Jauge à cathode chaude[modifier | modifier le code]
+Jauge à filament Bayard-Alpert. Cette sonde à cathode chaude permet de mesurer de très faibles pressions.
+Une jauge à ionisation à cathode chaude comporte pour l'essentiel trois électrodes, formant une triode dont la cathode est un filament incandescent. Les trois électrodes consistent en un collecteur ou platine, un filament et une grille. Le courant de collecteur se mesure en picoampères à l'aide d’un électromètre. La tension du filament par rapport à la terre est couramment de 30 V, alors que la tension de grille est de 180–210 V CC, à moins qu'en chauffant cette grille on ne la bombarde par des électrons, ce qui crée une tension encore supérieure, d'environ 565 V.
+La jauge à ionisation la plus répandue est la jauge à filament Bayard-Alpert, munie d'un collecteur d'ions à l'intérieur de la grille. On peut enfermer les électrodes dans une ampoule de verre où l'on a fait le vide, mais le plus souvent on place les électrodes nues directement dans une chambre à vide, les contacts traversant les parois de l'enceinte par un bouchon en céramique. Une jauge à cathode chaude peut être détruite ou subir un décalage de zéro si on l’expose à la pression atmosphérique ou même à des basses pressions alors qu'elle est encore incandescente. Les mesures fournies par une jauge à cathode chaude sont toujours logarithmiques.
+Les électrons émis par le filament oscillent autour de la grille et finissent par s'y accumuler. Au cours de ces oscillations, quelques électrons entrent en collision avec une molécule gazeuse pour former une paire ion + électron (Ionisation#Impact électronique). Le nombre de ces ions est proportionnel à la densité de molécules gazeuses multiplié par le courant d'électrons émis par le filament, et ces ions s'accumulent sur le collecteur pour former un courant ionique. Ce courant est proportionnel à la densité de molécules gazeuses, donc à la pression.
+La sensibilité des jauge à ionisation aux faibles pressions est limitée par l’effet photoélectrique. Les électrons qui heurtent la grille produisent des rayons X, à l'origine de parasites photoélectriques au niveau du collecteur. Cela limite la portée des jauges à cathode chaude plus anciennes à 10−8 Torr et celle des jauges Bayard-Alpert à environ 10−10 Torr. On peut combattre ces parasites en interposant des filaments de cathode entre le collecteur d'ions et la grille. Dans le modèle de jauge à extraction, les ions ne sont pas créés autour d'un filament, mais d’un tronc de cône. Les ions se concentrent autour de l'axe du cône et forment ainsi un rayon ionique qui peut être intercepté et dont le courant peut être mesuré indifféremment par :
+une cavité de Faraday
+une galette de microcanaux à cavité de Faraday
+un analyseur quadripolaire à cavité de Faraday
+un analyseur quadripolaire + galette de microcanaux + cavité de Faraday
+une lentille magnétique avec tension accélératrice et polarisation vers une cible : tel est le principe du canon magnétron à pulvérisation. Dans ce cas, une soupape permet de contrôler le flux d'ions collecté sur la grille.
+Jauges à cathode froide[modifier | modifier le code]
+Il existe deux catégories de jauges d'ionisation à cathode froide : la jauge de Penning et le magnétron inverse, aussi appelé « jauge Redhead » ; dépourvues de filament, elles utilisent le courant continu haute tension (env. 4 kV) et se différencient par la position relative de l’anode et de la cathode. Les magnétrons inverses peuvent détecter des pressions aussi faibles que 1x10−12 Torr.
+Les jauges à cathode froide peuvent présenter un retard aux très basses pressions, car la quasi-absence de gaz rend la formation d'un courant d'électrode très lente (en particulier dans les jauges de Penning, où l'on guide les ions sur plusieurs mètres au moyen d'un champ magnétique axial). Dans l’air ambiant, on trouve toujours des paires d'ions susceptibles, du fait du rayonnement cosmique ; dans une jauge de Penning, on a recours à certaines dispositions pour faciliter la création d'un courant de décharge : par exemple, l’électrode d'une jauge de Penning est en général légèrement bombée pour stimuler l'émission d’électrons.
+Le cycle de maintenance d'une jauge à cathode froide s'étale en général sur plusieurs années, selon le type de gaz et les pressions auxquelles on opère. Les gaz comportant des radicaux carbonés ou hydrocarbures, comme les émanations d’essence de voiture, sont susceptibles de créer des piqûres ou de fins dépôts de carbone à l'intérieur de la jauge susceptibles à terme de court-circuiter les électrodes ou d'empêcher la création du courant de décharge.
+Étalonnage[modifier | modifier le code]
+Les manomètres se répartissent en manomètres directs et manomètres indirects. Les capteurs de pression hydrostatiques et élastiques, mesurent directement les force exercées sur une cellule de référence par les particules incidentes du fluide ambiant : ils sont de type direct. Les capteurs à effet thermique et à chambre d'ionisation exploitent, eux, les variations de propriétés barotropes d'un gaz et sont de type indirect : les mesures qu'ils donnent sont entachées d'incertitudes plus grandes que les mesures directes. Il faut les raccorder aux appareils à mesure directe sur les plages de pression qui le permettent.
+Effets transitoires[modifier | modifier le code]
+Lorsqu'un fluide est le siège de courants internes, la pression peut localement être sensiblement différente de la pression moyenne. En particulier, une surpression locale se comporte comme la source d'ondes de pression qui se propagent dans le fluide : ce phénomène n'est autre que la propagation du son. La pression sonore est la variation instantanée de pression relative dans le fluide. Cet effet peut se mesurer à l'aide d'un microphone dans l’air et d’un hydrophone dans l’eau. La surpression sonore efficace est une moyenne quadratique mesurée sur un intervalle de temps donné ; elle est ordinairement faible et s'exprime en microbars.
+Application : la mécanique automobile[modifier | modifier le code]
+Il existe des manomètres pour pneus qui permettent de contrôler la pression du pneu, possédant un bouton pour faire baisser la pression. Certains, plus perfectionnés, que l'on trouve dans les stations-services ou les garages permettent non seulement d'enlever de la pression mais aussi d'en rajouter. À savoir un pneu surgonflé peut éclater et offre une adhérence réduite, d'où danger, il s'usera au centre de la bande de roulement, sera dur et moins confortable, un pneu sous-gonflé s'use plus vite sur les bords de la bande de roulement, est plus mou et confortable mais influe aussi sur le controle du véhicule qui répond moins bien à la direction, danger.
+À noter, en été la pression des pneus se vérifie pneus chauds, après avoir roulé quelques dizaines de km, pour tenir compte de la dilatation de l'air due à l'échauffement et ne pas se retrouver avec une pression réelle plus importante que l'on croit.
+Il existe aussi des manomètres qui peuvent se rajouter, qui mesurent la pression de l'huile du moteur ou du turbo.
+Normes[modifier | modifier le code]
+Normes européennes (CEN)
+EN 472 : Manomètre - Vocabulaire
+EN 837-1 : Manomètre - Partie 1 : manomètre à tube de Bourdon. Dimension, métrologie, prescription et essais.
+EN 837-2 : Manomètre - Partie 2 : recommandations sur le choix et l'installation des manomètres.
+EN 837-3 : Manomètre - Partie 3 : manomètres à membrane et manomètres à capsule. Dimensions, métrologie, prescription et essais.
+Notes[modifier | modifier le code]
+↑ Les météorologues américains continuent en revanche d'utiliser l’hectopascal (hPa) et le millibar (mbar). Les ingénieurs américains et canadiens expriment les contraintes en kip.
+↑ Methods for the Measurement of Fluid Flow in Pipes,‎ British Standards Institute, 1. Orifice Plates, Nozzles and Venturi Tubes, p. 36
+↑ Techniques of high vacuum
+↑ (en) Thomas G. Beckwith, Roy D. Marangoni et John H. Lienhard V, Mechanical Measurements, Reading, MA, Addison-Wesley,‎ 1993, 5e éd. (ISBN 0-201-56947-7), « Measurement of Low Pressures », p. 591–595
+↑ The Engine Indicator Canadian Museum of Making
+↑ Walt Boyes, Instrumentation Reference Book,, Butterworth-Heinemann,‎ 2008 (réimpr. 4e), p. 1312
+↑ Brochure promotionnelle de Schoonover Inc.
+↑ VG Scienta
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+les manomètres, sur Wikimedia Commons
+Altimètre
+Baromètre
+capteur de pression absolue d'admission
+tube de Pitot
+Sphygmomanomètre
+Piézomètre
+Technique du vide
+Étalonnage
+dynamomètre
+Liens externes[modifier | modifier le code]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Pressure measurement » (voir la liste des auteurs).
+Les mesures de pression par Pascal Deremaux
+Les manomètres sur le site Jautomatise
+Les manomètres sur le site de Danfoss
+Portail de la physique
+Portail du froid et de la climatisation
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Manomètre&oldid=105135995 ».
+Catégories : Matériel de plongéeHydromécaniqueMécanique des fluidesHydrauliqueInstrument de mesureÉquipement médicalCatégories cachées : Page utilisant des arguments dupliqués dans les appels de modèleCatégorie Commons avec lien local différent sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Froid et climatisation/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Bosanski
+Català
+کوردی
+Čeština
+Dansk
+Deutsch
+Español
+فارسی
+Suomi
+עברית
+Hrvatski
+Magyar
+Հայերեն
+Ido
+Italiano
+Lietuvių
+Latviešu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 2 juillet 2014 à 18:14.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

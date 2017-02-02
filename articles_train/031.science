@@ -1,0 +1,48 @@
+Calorimétrie — Wikipédia
+Calorimétrie
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La calorimétrie est la partie de la thermodynamique qui a pour objet la mesure des quantités de chaleur. On utilise pour cela un calorimètre. Celui-ci peut fonctionner soit à pression constante et dans ce cas les chaleurs mises en jeu au sein du calorimètre sont égales à une variation d'enthalpie ΔH = QP, soit à volume constant dans une bombe calorimétrique et dans ce cas les chaleurs mises en jeu sont égales à une variation de l'énergie interne ΔU = QV.
+La chaleur n'étant pas une fonction d'état, la quantité de chaleur mise en jeu au cours d'une transformation dépend de la façon de procéder (transformation réversible ou irréversible). C'est pourquoi il est nécessaire que la quantité de chaleur soit égale à la variation d'une fonction d'état, ce qui est le cas à pression constante ou à volume constant.
+Sommaire
+1 Principe de base
+2 Détermination d'une chaleur de changement d'état: mélange eau, glace à pression constante
+3 Détermination d'une chaleur de combustion à volume constant
+4 Notes et références
+5 Voir aussi
+5.1 Articles connexes
+5.2 Liens externes
+5.3 Bibliographie
+Principe de base[modifier | modifier le code]
+Le calorimètre est un système thermodynamique isolé qui n'échange aucune énergie avec le milieu extérieur (ni travail, ni chaleur). Sa paroi est indéformable et adiabatique. Donc W = 0 et Q = 0.
+Cependant il y a des transferts de chaleur entre les différentes parties du calorimètre: constituants étudiés, accessoires, paroi…. Comme il n'y a aucun échange de chaleur avec l'extérieur, cela implique que la somme des chaleurs échangées Qi au sein du calorimètre est nulle: ∑ Qi = 0.
+Exemple de compréhension: détermination de la température d'équilibre d'un mélange de constituants introduits à différentes températures
+Considérons un système calorimétrique constitué de i corps définis par leur masse mi, leur capacité calorifique Ci et leur température initiale avant mélange ti. La chaleur mise en jeu par chaque corps pour atteindre l'équilibre de température te, s'il n'y a pas de changement d'état ni de réaction chimique, est donnée par la relation:
+Appliquons la relation de calorimétrie ∑ Qi = 0.
+On obtient:
+et donc :
+Remarque: dans cet exemple on n'a pas tenu compte de la capacité calorifique du calorimètre.
+Détermination d'une chaleur de changement d'état: mélange eau, glace à pression constante[modifier | modifier le code]
+Dans le cas où se produit un changement d'état, on peut déterminer par calorimétrie la chaleur latente de changement d'état L.
+On introduit un morceau de glace de masse m1, de capacité calorifique C1 à la température t1 < 0 (en °C) dans un calorimètre contenant une masse m2 d'eau liquide de capacité C2 et à la température t2 > 0. La température finale d'équilibre est te > 0.
+Quelles sont les chaleurs mises en jeu dans le calorimètre ?
+Chaleur pour élever la température de la glace de t1 à 0 °C : Q1 = m1C1( 0 - t1) .
+Chaleur de fusion de la glace à 0 °C: Q2 = m1Lf.
+Chaleur pour élever la température de l'eau provenant de la fusion de la glace de 0 à te°C: Q3 = m1C2( te - 0 ).
+Chaleur perdue par l'eau à t2°C: Q4 = m2C2( te - t2 ).
+Appliquons alors la relation de calorimétrie:∑ Qi = 0.
+Q1 + Q2 + Q3 + Q4 = 0 .
+On en déduit l'équation:
+La mesure de te, permet de déterminer la chaleur Latente de fusion de la glace L(fus).
+Approximations: On a négligé ici la capacité calorifique du calorimètre et on a considéré que les capacités calorifiques de l'eau et de la glace étaient constantes alors qu'en réalité elles dépendent de T. Précisons en outre que les capacités calorifiques sont déterminées ici à pression constante: CP.
+Détermination d'une chaleur de combustion à volume constant[modifier | modifier le code]
+La détermination des chaleurs de combustion est très importante dans l'industrie des combustibles car elle permet la mesure de leur pouvoir calorifique. On procède dans une bombe calorimétrique. On introduit m1g de combustible dans la bombe remplie avec suffisamment d'oxygène sous pression pour que la combustion soit complète. La bombe est immergée dans un calorimètre contenant une grande quantité d'eau Mg de capacité calorifique C(eau); la capacité calorifique de l'ensemble calorimétrique (bombe + calorimètre) est C(cal). Soit ti la température initiale. On déclenche la réaction par un système de mise à feu. La température du calorimètre augmente et se stabilise à te.
+Appelons Q(comb) la chaleur dégagée par la réaction. Cette chaleur est absorbée par l'ensemble calorimétrique et les produits de la réaction présents dans la bombe. On néglige l'influence de ces produits devant la masse élevée du calorimètre et de l'eau qu'il contient.
+La relation de calorimétrie permet d'écrire: ∑ Qi = 0.
+Les capacités calorifiques sont déterminées ici à volume constant: CV.
+La résolution de cette équation permet de déterminer Q(comb) pour m1g de produit. Cette chaleur est mise en jeu à volume constant Qv et correspond à une variation de l'énergie interne du système réactionnel. Elle permet ensuite de calculer la chaleur à pression constante Qp correspondant à une variation d'enthalpie, grâce à la relation approchée:
+Qp ≈ Qv + Δn(gaz)RT
+Δn(gaz) est la variation du nombre de moles de gaz au cours de la réaction de combustion.
+R est la constante du gaz parfait.
+T est la température exprimée en kelvins.
+En général un combustible est utilisé à la pression atmosphérique constante. Il est donc utile de connaître la chaleur de combustion Qp qu'il est possible de déterminer grâce à la bombe calorimétrique.

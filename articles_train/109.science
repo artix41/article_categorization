@@ -1,0 +1,68 @@
+Dynamomètre — Wikipédia
+Dynamomètre
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un dynamomètre est un appareil de mesure d'une force ou d'un couple. Il utilise un ressort (cas d'un modèle simple) dont on connaît la raideur définie par le module d'élasticité, ou une cellule à jauge de déformation. Le peson est son nom d'origine.
+L'unité de force est le newton (symbole N) du nom du découvreur de la théorie de la gravitation universelle, Isaac Newton. Les multiples les plus usités sont le décanewton (daN, unité voisine en valeur du kilogramme-force) et le kilonewton (kN). La dyne (symbole dyn) est une ancienne unité de force.
+Aujourd'hui la plupart des dynamomètres sont numériques et tendent à remplacer les modèles mécaniques, que ce soit en recherche-développement ou en contrôle qualité.
+Sommaire
+1 Dynamomètre mécanique
+2 Dynamomètre numérique
+2.1 Extensométrie
+2.2 Mesure par effet magnétostatique
+2.3 Mesure par effet piézoélectrique
+2.4 Mesure par compensation électromagnétique
+2.5 Mesure par corde vibrante
+2.6 Mesures de nanoforces
+3 Applications
+3.1 Machines d'essais universelles
+4 Notes et références
+5 Voir aussi
+5.1 Articles connexes
+Dynamomètre mécanique[modifier | modifier le code]
+Schéma de principe d'un dynamomètre à ressort.
+Les dynamomètres mécaniques utilisent directement le principe de la loi de Hooke. En effet, puisqu'un ressort idéal suit une relation de type force = raideur x allongement, on peut en déduire la valeur d'une force par mesure de l'allongement d'un ressort étalonné (c'est-à-dire dont on connaît la raideur). Parmi les dynamomètres mécaniques les plus connus, on peut mentionner les pesons, et le dynamomètre de Poncelet (utilisé au XIXe siècle pour la police du roulage).
+Dynamomètre numérique[modifier | modifier le code]
+Un dynamomètre numérique est un instrument (portable ou fixe) composé d'un capteur de force, d'un dispositif électronique et d'un afficheur.
+Le capteur de force est le cœur du système. Il peut être assimilé à un ressort qui se déforme en fonction de la force appliquée. Lorsque ce capteur se déforme, les jauges de déformation mesurent les contraintes appliquées et émettent une tension électrique proportionnelle à la force. L'électronique du dynamomètre interprète alors cette tension pour l'afficher en unités de force.
+Extensométrie[modifier | modifier le code]
+Article détaillé : Extensométrie.
+Les jauges de déformation sont des résistances dont l'augmentation de résistance électrique varie avec l'allongement dans une direction donnée. On les fixe directement sur le ressort et l'on mesure leur résistance grâce à un pont de Wheatstone. Les mesures sont aujourd'hui possibles jusqu'à une fréquence de 8 MHz, mais il faut une compensation en température, et le comportement à long terme laisse à désirer par suite du fluage. On distingue généralement :
+les jauges à conducteur : l'allongement et la striction augmentent la résistance électrique ;
+les jauges à semi-conducteur : la résistance électrique spécifique augmente avec l'allongement par développement d'efforts internes (effet piézoresistif). De telles jauges sont plus sensibles que les jauges traditionnelles.
+Mesure par effet magnétostatique[modifier | modifier le code]
+L'état de contrainte dans un métal modifie de façon déterminée sa perméabilité magnétique µ (magnétostriction inverse). En pratique, on détecte cette variation par celle du champ magnétique créé entre les bobines primaire et secondaire d'un transformateur.
+Ce capteur supporte des charges importantes. Cette technique, brevetée en 1954, est utilisée dans des capteurs commercialisés par ABB sous le nom de Pressductor[1].
+Mesure par effet piézoélectrique[modifier | modifier le code]
+Article détaillé : Piézoélectricité.
+Dans un insert piézo-céramique, l'application d'une force F engendre une charge électrique Q proportionnelle à la force.
+On peut fabriquer des capteurs piézoélectriques très durs, et mesurer grâce à eux des variations à très haute fréquence (au-delà de 100 kHz). Dans les essais statiques ou quasi statiques, il faut veiller à la stabilité du point d'application des forces. On peut enregistrer les tensions planes en utilisant un tri-couches de céramiques avec une orientation précise de chaque couche.
+Mesure par compensation électromagnétique[modifier | modifier le code]
+Le principe est ici celui du haut-parleur : une bobine mobile est immergée dans un champ magnétique. Un asservissement avec un capteur de déplacement maintient la bobine en position, et le courant induit dans la bobine est proportionnel à la force s'exerçant sur elle. Par l'expression générale de la force de Lorentz, on a ainsi :
+avec : B intensité du champ magnétique, i courant électrique induit, l longueur effective du conducteur.
+Ces capteurs ne permettent cependant de mesurer que de petites forces (maximum 20-30 N) et sont pour cette raison plutôt utilisés dans les balances de précision.
+Mesure par corde vibrante[modifier | modifier le code]
+Article détaillé : Corde vibrante.
+La période de vibration d'une corde tendue dépend de sa tension T selon la formule de D'Alembert :
+avec : mb masse linéique de la corde en kg/m, l longueur libre de vibration, f fréquence propre.
+On peut mesurer la tension d'une courroie en déterminant sa fréquence de vibration avec un fréquencemètre optique[2].
+Mesures de nanoforces[modifier | modifier le code]
+Microscope à force atomique et guide d'onde
+Cette méthode permet de mesurer les forces en biologie. On insère un guide d'onde à résonance dans un multicouche élastique. Si, par la force d'adhérence d'une cellule, la fibre supérieure du capteur est déformée localement, on peut estimer la force correspondante en mesurant le déplacement du pic de résonance. La résolution est de 20 nN[3].
+Applications[modifier | modifier le code]
+Les dynamomètres sont de nos jours utilisés dans de nombreux domaines.
+Machines d'essais universelles[modifier | modifier le code]
+Ces machines d'essais en traction ou en compression (presse) sont équipées d'une cellule dynamométrique à jauge de déformation. Très répandues, elles sont conçues pour fournir au laboratoire industriel ou scientifique l'analyse des propriétés mécaniques « quasi instantanées »[4] des matériaux en fonction de multiples paramètres de l'essai (déformation, vitesse de déformation, température, histoire thermique, etc.).
+Les capteurs de force sont munis d'un câble électrique terminé par un connecteur et sont rapidement interchangeables (sauf pour les gros modèles). La fréquence de leur étalonnage est souvent annuelle.
+Les premières machines étaient reliées à un enregistreur graphique. Les plus récentes sont connectées via un boîtier-interface à un PC muni d'un logiciel. Ce système permet le pilotage, l'acquisition, la visualisation, l'analyse numérique et graphique, l'exportation de fichiers ASCII vers un tableur, la sauvegarde et l'impression des données du test.
+La traverse supérieure est fixe. La traverse mobile est entraînée par deux vis latérales, actionnées par un moto-réducteur à courant continu. La liaison entre les vis et le réducteur s'effectue par poulies et courroie synchrone en élastomère armé.
+La vitesse de déformation (ou de sollicitation) v est faible (v peut varier de 0,1 à 500 mm/min ; en pratique v est souvent comprise entre 1 et 50 mm/min).
+Des modèles renforcés (avec notamment bâti mécanique, moteur, transmission et capteur de force adaptés) peuvent réaliser des tests mécaniques mettant en jeu des forces élevées[5]. Leur capteur de force peut mesurer plusieurs centaines de kN (en traction, compression, flexion, etc.).
+Remarque : un bouton d'arrêt d'urgence doit être présent.
+L'application la plus courante est la mesure de la force à la rupture (force maximale, Fm, obtenue avant d'atteindre la rupture) en traction afin de savoir si un produit et/ou un montage est conforme ou non. Les résistances à la rupture en traction (Rm ou σm) ou au cisaillement (τm) ont la dimension d'une contrainte et sont déduites de la force à la rupture ; ces deux résistances sont souvent exprimées en MPa[6].
+Par exemple, on peut déterminer la force nécessaire pour séparer un connecteur d'un câble, la force de fermeture d'une porte, une force d'emboîtage élastique ou évaluer la qualité d'un ressort d'amortisseur.
+Remarque : une machine de traction peut être couplée à un extensomètre (de type optique, par exemple) permettant l'enregistrement des courbes contrainte σ = f(déformation ε) des éprouvettes soumises à une sollicitation en traction. Ainsi, il est possible de caractériser la souplesse du matériau utilisé par la valeur de l'allongement à la rupture A%[7].
+Évaluation de la résistance à la rupture en TC d'un joint de colle[8].
+Attaches auto-serrantes[9].
+Exploitation de l'essai de TC pris pour exemple[10].
+Test de compression[11].

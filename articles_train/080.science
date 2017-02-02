@@ -1,0 +1,117 @@
+Réaction nucléaire — Wikipédia
+Réaction nucléaire
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Une réaction nucléaire est une transformation d'un ou plusieurs noyaux atomiques. Elle se distingue d'une réaction chimique, qui ne concerne que les électrons ou les liaisons entre les atomes.
+Il existe deux types de réactions nucléaires : la fission et la fusion. En pratique, deux noyaux atomiques entrent en collision, ce qui génère des produits différents des particules originelles. En principe, plus de deux particules pourraient entrer en collision, mais cela est beaucoup moins probable.
+La fission est la rupture du noyau de l'atome (séparant les protons et les neutrons les uns des autres) sous l'effet d'une collision par une particule mouvante (alors que dans le cas de la radioactivité, la fission du noyau est spontanée). Noter que si, après une collision, les particules se séparent sans être transformées, il n'y a pas de réaction nucléaire : c'est une simple collision élastique.
+Dans les réacteurs de centrales nucléaires on parle improprement de combustion et de combustible nucléaire.
+La fusion est au contraire l'association, la réunion de deux noyaux (en pratique deux protons = noyaux d'hydrogène)pour former un nouveau noyau unique. La propriété remarquable de cette réaction est le fait que la masse du noyau produit est légèrement inférieure à la somme des masses des noyaux initiaux. En raison de l'équivalence entre masse et énergie, cette perte de masse correspond à une libération d'énergie.
+Rappelons que selon la théorie de la relativité formulée par Einstein, la masse peut se transformer en énergie et réciproquement, selon la formule
+qui énonce que l'énergie potentielle totale de la matière est égale au produit de la masse de matière par le carré de la célérité de la lumière dans le vide. Toute perte de matière libère donc de l'énergie.
+Les premières bombes nucléaires utilisaient le principe de la fission de noyaux lourds atomes d'uranium ou de plutonium, instables (radioactifs), dont la réaction de fission se produit en chaine, explosivement, au-delà d'une certaine masse critique de matière. Puis les bombes nucléaires ont utilisé le principe de fusion de noyaux isotopes lourds de l'hydrogène (deutérium et tritium) : ce sont les bombes « à hydrogène » ou bombes H, beaucoup plus puissantes et destructrices.
+Dans l'exemple de réaction montré à droite, 6Li et deutérium réagissent en formant un noyau atomique intermédiaire, très excité, de 8Be qui se désintégre très vite en produisant deux particules alpha. Les protons sont représentés par des sphères rouges, et les neutrons, par des sphères bleues.
+Sommaire
+1 Représentation
+1.1 Représentation simplifiée
+2 Conservation de l'énergie
+2.1 "Q-value"
+2.2 Taux de réaction
+3 Comparaison entre neutrons et ions
+4 Le Soleil
+5 Voir aussi
+5.1 Articles connexes
+5.2 Bibliographie
+5.3 Liens externes
+5.4 Notes et références
+Représentation[modifier | modifier le code]
+Une réaction nucléaire peut être représentée par une équation semblable à celle représentant une réaction chimique. Des désintégrations nucléaires peuvent être représentées d'une manière semblable, mais avec seulement un noyau à gauche.
+Chaque particule est écrite avec son symbole chimique, avec son numéro atomique à gauche en bas, et son nombre de masse en haut. Pour le neutron, le symbole est n. Le proton peut être écrit "H" (noyau d'hydrogène) ou "p".
+Pour vérifier l'équation, on doit contrôler que les sommes des nombres atomiques soient égales à gauche et à droite (à cause de la loi de conservation de la charge électrique), et que les sommes des nombres de masse soient aussi égales à gauche et à droite (à cause de la loi de conservation du nombre baryonique).
+Par exemple :
+36Li + 12H → 24He + 24He
+Évidemment, l'équation est correcte.
+Elle pourrait aussi être écrite :
+36Li + 12H → 2 24He
+Représentation simplifiée[modifier | modifier le code]
+Si quelques particules paraissent très souvent, on utilise des abréviations. Par exemple, le noyau 4He (qui s'appelle aussi particule alpha, dans un type de radioactivité) est abrégé avec la lettre grecque "α". Les deutérions (hydrogène lourd, 2H) sont dénotés simplement "D". Aussi, comme les nombres atomiques sont donnés implicitement par les symboles chimiques, ils peuvent être supprimés quand l'équation a été vérifiée. Finalement, dans beaucoup de réactions, un noyau relativement lourd est frappé par une particule légère d'un petit groupe de particules communes, émettant une autre particule commune, et produisant un autre noyau. Pour ces réactions, la notation peut être beaucoup simplifiée de la manière suivante :
+<noyau cible> (particule d'entrée, particule de sortie) <noyau produit>
+Par conséquent, on pourrait périphraser l'exemple précédent en introduisant des symboles :
+36Li + D → α + α
+puis, supprimant les nombres atomiques :
+6Li + D → α + α
+et finalement, utilisant la forme condensée :
+6Li(D,α)α
+Conservation de l'énergie[modifier | modifier le code]
+Il est possible que de l'énergie cinétique soit libérée pendant une réaction (réaction exothermique), ou que de l'énergie cinétique doit être ajoutée pour rendre possible la réaction (réaction endothermique). Pour décider cette question, il faut une table de masse des particules très exacte[1].
+D'après cette table, le noyau 36Li a une masse atomique de 6,015 unités de masse atomique (abrégé u), le deutéron a 2,014 u, et le noyau 24He a 4,0026 u. Par conséquent :
+Masse de repos totale à gauche = 6,015 + 2,014 = 8,029 u
+Masse de repos totale à droite = 2 × 4,0026 = 8,0052 u
+Perte de masse = 8,029 - 8,0052 = 0,0238 unités de masse atomique.
+Dans une réaction nucléaire, l'énergie relativiste totale est conservée. Par conséquent, la masse perdue doit apparaitre comme énergie cinétique. Utilisant la formule d'Einstein E = mc2, on peut déterminer la quantité d'énergie libérée.
+Mais d'abord, il faut calculer l'énergie équivalente à une unité de masse atomique :
+1 u c2 = (1,66054 × 10-27 kg) × (2,99792 × 108 m/s)2
+= 1,49242 × 10-10 kg (m/s)2 = 1,49242 × 10-10 J (joule)
+× (1 MeV / 1,60218 × 10-13 J)
+= 931,5 MeV,
+Par conséquent, 1 u .c2 = 931,5 MeV.
+Alors, la quantité d'énergie cinétique produite est 0,0238 × 931 MeV = 22,4 MeV.
+Ou, exprimé d'une manière différente : la masse (au repos) est réduite par 0,3 %.
+C'est une grande quantité d'énergie pour une réaction nucléaire ; la quantité est si grande parce que l'énergie de liaison par nucléon du nucléide 4He est exceptionnellement large (relativement aux réactifs), parce que le noyau de 4He est doublement magique. Par conséquent, les particules alpha paraissent souvent au côté droit de l'équation (dans les produits).
+L'énergie libérée dans une réaction nucléaire peut apparaitre en trois manières différentes :
+énergie cinétique des particules produites ;
+émission des photons de très grande énergie, appelés rayons gamma ;
+une partie de l'énergie peut rester dans le noyau, comme niveau métastable.
+Si le noyau produit est métastable, cela est indiqué par un astérisque ("*") près de son nombre atomique. Éventuellement, cette énergie est libérée par transmutation nucléaire.
+En général, le noyau produit a un numéro atomique différent, et par conséquent, la configuration de ses couches électroniques n'est pas juste. Alors les électrons, en s'arrangeant, émettent aussi des rayons X.
+"Q-value"[modifier | modifier le code]
+En écrivant l'équation pour la réaction nucléaire (d'une manière analogue à une équation pour une réaction chimique) on peut ajouter l'énergie de réaction à droite :
+Noyau cible + projectile → Noyau produit + éjectile + Q.
+Pour le cas spécial discuté en haut, nous avons déjà calculé l'énergie de réaction: Q = 22,4 MeV.
+Alors :
+36Li + 12H → 24He + 24He + 22,4 MeV
+L'énergie de réaction ("Q-value" en anglais) est positive pour les réactions exothermiques et négative pour les réactions endothermiques. D'une part, elle est la différence entre les sommes des énergies cinétiques à droite et à gauche. Mais d'autre part, elle est aussi la différence entre les masses de repos nucléaires à gauche et à droite (et de cette manière, nous avons calculé la valeur en haut).
+Taux de réaction[modifier | modifier le code]
+Le nombre
+de réactions par unité de temps dans un volume
+est donné par :
+Où:
+: flux (différentiel) de particules incidentes en
+compris entre les énergies
+et
+: section efficace macroscopique de la cible en
+pour une particule incidente d'énergie
+Dans le cas où le flux et la section efficace macroscopique sont uniformes dans le volume V, il est alors possible de simplifier l'équation ci-dessus de la façon suivante:
+Comparaison entre neutrons et ions[modifier | modifier le code]
+Dans la collision initiale, les particules doivent s'approcher si près pour que la force nucléaire forte (d'un rayon d'action très réduit) puisse entrer en jeu. Comme les particules nucléaires ont normalement des charges positives, ils doivent surmonter une répulsion électrostatique considérable. Même si le nucléide cible fait partie d'un atome neutre, l'autre particule doit s'approcher du noyau de charge positive. Par conséquent, il faut d'abord accélérer les projectiles à haute énergie, par exemple, par :
+accélérateur de particules ;
+une température très élevée, quelques millions de degrés, produisant des réactions thermonucléaires, comme au centre du soleil (voir plus bas) ;
+rayons cosmiques.
+Les neutrons, d'autre part, n'ont pas de charge électrique, et ils peuvent effectuer une réaction nucléaire à des énergies très petites. Fréquemment, la section efficace croît même si l'énergie décroît.
+Le Soleil[modifier | modifier le code]
+Cette section n’est pas rédigée dans un style encyclopédique.
+Améliorez sa rédaction (?)
+Le Soleil est un énorme réacteur thermonucléaire auto-entretenu. Pour l'instant, aucune dérive n'est à craindre, cette réaction explosive est contenue par la force gravitationnelle.
+Dans une étoile comme le Soleil, du fait des très hautes températures qui y règnent, les particules sont très agitées et ont énormément d'énergie cinétique (vitesse). Cette agitation est telle que les électrons ne peuvent plus « graviter » autour du noyau, et qu'ils ont "arrachés" : les particules constitutives des atomes sont séparées, on parle d'état plasmatique.
+A basse température, deux noyaux, ayant la même charge positive, ne s'entrechoquent pas même s'ils se dirigent l'un vers l'autre, car, en-dessous d'une certaine distance, la force électromagnétique les font se repousser. Avec la température croissante, les noyaux gagnent de la vitesse et lors des chocs, ils se rapprochent toujours plus. Lorsque les noyaux entrent alors en contact, la force nucléaire forte des milliers de fois plus puissante que la force électromagnétique, prédomine, et les noyaux se lient entre eux pour former un seul noyau : c'est la fusion nucléaire.
+La propriété de cette réaction de fusion réside dans le fait que la masse du noyau produit est légèrement inférieure à la somme des masses initiales : elle s'accompagne donc d'une libération d'énergie qui augmente encore la température. (Einstein a montré par la théorie de la relativité que la masse peut se transformer en énergie et que l'énergie peut se transformer en masse selon la célèbre formule
+qui énonce que l'énergie est égale au produit de la masse par le carré de la célérité de la lumière (dans le vide). La perte de masse de la réaction citée plus haut correspond à une libération d'énergie).
+C'est ainsi qu'en transformant une fraction de sa masse, le Soleil entretien sa production d'énergie, qui lui permettra de briller pendant plus de 10 milliards d'années.
+Ce sont les réactions nucléaires de fusion successives au cœur des étoiles qui forment progressivement tous les autres éléments chimiques plus lourds jusqu'au fer (les éléments encore plus lourds étant formés par d'autres mécanismes, principalement au cours de l'explosion des supernovas).
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Proton
+Noyau atomique
+Neutron
+Combustible nucléaire
+Masse critique (réaction nucléaire)
+accident de criticité
+physique nucléaire
+Formule des quatre facteurs
+Radioactivité
+Bombe atomique
+Bibliographie[modifier | modifier le code]
+{...}
+Liens externes[modifier | modifier le code]
+Applied Reactor Physics. Alain Hébert, Presses internationales Polytechnique, 2009.
+{...}

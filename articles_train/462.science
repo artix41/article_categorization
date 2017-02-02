@@ -1,0 +1,139 @@
+Analyse fonctionnelle (mathématiques) — Wikipédia
+Analyse fonctionnelle (mathématiques)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Analyse fonctionnelle.
+L'analyse fonctionnelle est la branche des mathématiques et plus particulièrement de l'analyse qui étudie les espaces de fonctions. Elle prend ses racines historiques dans l'étude des transformations telles que la transformation de Fourier et dans l'étude des équations différentielles ou intégro-différentielles.
+Le terme fonctionnelle trouve son origine dans le cadre du calcul des variations, pour désigner des fonctions dont les arguments sont des fonctions. Son emploi a été généralisé à de nouveaux domaines par le mathématicien et physicien italien Vito Volterra. Le mathématicien polonais Stefan Banach est souvent considéré comme le fondateur de l'analyse fonctionnelle moderne.
+Les espaces de l'analyse fonctionnelle[modifier | modifier le code]
+Les espaces de base de l'analyse fonctionnelle sont les espaces vectoriels normés complets sur le corps des nombres réels ou des nombres complexes. De tels espaces sont appelés les espaces de Banach. Les espaces de Hilbert, constituent un cas particulier important, où la norme est issue d'un produit scalaire. Ces derniers jouent par exemple un rôle important dans la formulation mathématique de la mécanique quantique. L'analyse fonctionnelle peut aussi être effectuée dans un cadre plus général, celui des espaces vectoriels topologiques, tels que les espaces de Fréchet.
+Des objets d'étude importants en analyse fonctionnelle sont les opérateurs linéaires continus définis sur les espaces de Banach et de Hilbert. Ceux-ci mènent naturellement à la définition des C*-algèbres.
+Les espaces de Hilbert peuvent être complètement classifiés : il existe un espace de Hilbert unique à un isomorphisme près pour chaque cardinal de la base hilbertienne. Les espaces de Hilbert de dimension finie sont entièrement connus en algèbre linéaire, et les espaces de Hilbert séparables sont isomorphes à l'espace de suites ℓ2. La séparabilité étant importante pour les applications, l'analyse fonctionnelle des espaces de Hilbert traite surtout de cet espace et de ses morphismes. Un des problèmes ouverts en analyse fonctionnelle est de prouver que tout opérateur borné sur un espace de Hilbert séparable possède un sous-espace stable fermé non trivial. Ce problème du sous-espace invariant (en) a déjà été résolu dans beaucoup de cas particuliers.
+Les espaces de Banach sont beaucoup plus compliqués à étudier que les espaces de Hilbert. Il n'y a pas de définition unique de ce qui pourrait constituer une base, par exemple.
+Pour tout nombre réel p ≥ 1, un exemple d'espace de Banach est donné par l'ensemble de toutes les fonctions mesurables au sens de Lebesgue dont la puissance p-ième de la valeur absolue a une intégrale finie (voir les espaces Lp).
+Dans les espaces de Banach, une grande partie de l'étude implique le dual topologique : l'espace de toutes les formes linéaires continues. Comme en algèbre linéaire, le bidual (le dual du dual) n'est pas toujours isomorphe à l'espace original, mais il y a toujours un morphisme injectif naturel d'un espace dans son bidual.
+La notion de dérivée est étendue aux fonctions arbitraires entre espaces de Banach via le concept de différentielle ; la différentielle de Fréchet d'une fonction en un certain point est, lorsqu'elle existe, une certaine application linéaire continue.
+Quelques résultats importants d'analyse fonctionnelle[modifier | modifier le code]
+Le principe de la borne uniforme est un résultat sur des ensembles d'opérateurs bornés.
+Le théorème spectral donne une formule intégrale pour les opérateurs normaux sur un espace de Hilbert. Il est d'une importance centrale dans la formulation mathématique de la mécanique quantique.
+Le théorème de Hahn-Banach permet de prolonger des formes linéaires définies sur un sous-espace à l'espace tout entier, tout en conservant la norme.
+L'un des triomphes de l'analyse fonctionnelle fut de montrer que l'atome d'hydrogène était stable.
+Voir aussi[modifier | modifier le code]
+Espace de Hilbert
+Espace de Banach
+Algèbre de Banach
+Espace fonctionnel
+Espace Lp
+Espace de Sobolev
+Théorème de Radon-Nikodym
+Histoire de l'analyse fonctionnelle
+v · d · m
+Analyse fonctionnelle
+Théorèmes
+Ascoli · Baire · Banach-Alaoglu · Banach-Mazur · Banach-Schauder · Banach-Steinhaus · Fréchet-Kolmogorov · Graphe fermé · Hahn-Banach · Lax-Milgram
+Divers
+Fonctionnelle · Équation d'Euler-Lagrange · Multiplicateur de Lagrange · Calcul des variations · Dérivée fonctionnelle · Espace de Banach · Algèbre de Banach · C*-algèbre · Espace de Hilbert · Espace de Fréchet · Espace nucléaire · Espace de Schwartz · Variété banachique · Espace fonctionnel · Noyau reproduisant · Série de Fourier · Transformée de Fourier · Transformée de Laplace · Distribution · Hyperfonction · Dual d'un espace vectoriel topologique · Application linéaire continue · Topologie faible
+v · d · m
+Algèbre linéaire générale
+Vecteur · Scalaire · Combinaison linéaire · Espace vectoriel · Matrice
+Famille de vecteurs
+Famille génératrice · Famille libre (indépendance linéaire) · Base · Théorème de la base incomplète · Rang · Colinéarité
+Sous-espace
+Sous-espace vectoriel · Somme de Minkowski · Somme directe · Sous-espace supplémentaire · Dimension · Codimension · Droite · Plan · Hyperplan
+Morphisme et
+notions relatives
+Application linéaire · Noyau · Conoyau · Lemme des noyaux · Pseudo-inverse · Théorème de factorisation · Théorème du rang · Équation linéaire · Système d'équations linéaires · Élimination de Gauss-Jordan · Forme linéaire · Espace dual · Orthogonalité · Base duale · Endomorphisme linéaire · Valeur propre, vecteur propre et espace propre · Spectre · Projecteur · Symétrie · Matrice diagonalisable · Diagonalisation · Endomorphisme nilpotent
+Dimension finie
+Espace vectoriel de dimension finie · Trace · Déterminant · Polynôme caractéristique · Polynôme d'endomorphisme · Théorème de Cayley-Hamilton · Polynôme minimal d'un endomorphisme · Invariants de similitude · Réduction d'endomorphisme · Réduction de Jordan · Décomposition de Dunford · Décomposition de Frobenius
+Enrichissements
+de structure
+Norme · Produit scalaire · Forme quadratique · Espace vectoriel topologique · Orientation · Algèbre sur un corps · Algèbre de Lie · Complexe différentiel
+Développements
+Théorie des matrices · Représentation de groupe · Analyse fonctionnelle · Algèbre multilinéaire · Module sur un anneau
+v · d · m
+Domaines des mathématiques
+Algèbre • Algèbre commutative • Algèbre homologique • Algèbre linéaire • Analyse • Analyse réelle • Analyse complexe • Analyse fonctionnelle • Analyse numérique • Calcul quantique • Combinatoire • Géométrie • Géométrie algébrique • Géométrie différentielle • Géométrie non commutative • Optimisation • Physique mathématique • Probabilités • Statistiques • Systèmes dynamiques • Théorie des nombres • Théorie de Galois • Théorie des groupes • Topologie • Topologie algébrique
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Analyse_fonctionnelle_(mathématiques)&oldid=103902396 ».
+Catégorie : Analyse fonctionnelleCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Български
+Català
+Čeština
+Dansk
+Deutsch
+English
+Español
+Eesti
+فارسی
+Suomi
+Galego
+עברית
+Magyar
+Italiano
+日本語
+ქართული
+Қазақша
+한국어
+Nederlands
+Norsk nynorsk
+Polski
+Piemontèis
+Português
+Русский
+Slovenčina
+Shqip
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 18 mai 2014 à 07:29.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

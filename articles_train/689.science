@@ -1,0 +1,481 @@
+Python (langage) — Wikipédia
+Python (langage)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Python.
+Python
+Apparu en
+1990
+Auteur
+Guido van Rossum
+Développeurs
+Python Software Foundation
+Dernière version
+3.3.6 (12 octobre 2014)
+3.4.2 (13 octobre 2014) 2.7.9 (10 décembre 2014) [+/−]
+Version en développement
+[+/−]
+Paradigmes
+Objet, impératif
+Typage
+Fort, dynamique
+Influencé par
+ABC, C, Eiffel, ICON, Modula-3, Java[1], Perl, Smalltalk, Tcl
+A influencé
+Ruby, Groovy, Boo
+Implémentations
+CPython, Jython, IronPython, PyPy
+Système d'exploitation
+Multiplateforme
+Licence
+Licence libre :
+Python Software Foundation License
+Site web
+Python.org
+modifier
+Python est un langage de programmation objet, multi-paradigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet. Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire par ramasse-miettes et d'un système de gestion d'exceptions ; il est ainsi similaire à Perl, Ruby, Scheme, Smalltalk et Tcl.
+Le langage Python est placé sous une licence libre proche de la licence BSD[2] et fonctionne sur la plupart des plates-formes informatiques, des supercalculateurs aux ordinateurs centraux, de Windows à Unix en passant par GNU/Linux, Mac OS, ou encore Android, iOS, et aussi avec Java ou encore .NET. Il est conçu pour optimiser la productivité des programmeurs en offrant des outils de haut niveau et une syntaxe simple à utiliser.
+Il est également apprécié par les pédagogues qui y trouvent un langage où la syntaxe, clairement séparée des mécanismes de bas niveau, permet une initiation aisée aux concepts de base de la programmation[3].
+Sommaire
+1 Utilisations
+2 Historique
+2.1 Au CWI
+2.2 Au CNRI
+2.3 À BeOpen
+2.4 La Python Software Foundation
+3 Caractéristiques
+3.1 Syntaxe
+3.1.1 Mots-clés du langage
+3.1.2 Types de base
+3.1.3 Programmation fonctionnelle
+3.1.4 Programmation objet
+3.1.5 Méthodes spéciales et définition des opérateurs
+3.1.6 Générateurs
+3.2 Réflexivité
+3.3 Typage
+3.3.1 Compilation
+3.4 Modèle objet
+3.4.1 Méthodes
+3.4.2 Visibilité
+3.4.3 Héritage
+4 Bibliothèque standard
+5 Conventions de style
+6 Interfaces graphiques
+7 La communauté Python
+7.1 Adoption de Python
+8 Implémentations du langage
+9 Les distributions
+9.1 Historique des versions
+10 Développement
+10.1 Les PEP
+10.2 Python 3000
+10.3 Philosophie
+10.4 Planning et compatibilité
+10.5 Python pour smartphones
+11 Notes et références
+12 Voir aussi
+12.1 Liste de frameworks principaux
+12.2 Articles connexes
+12.3 Liens externes
+Utilisations[modifier | modifier le code]
+Python est un langage qui peut s'utiliser dans de nombreux contextes et s'adapter à tout type d'utilisation grâce à des bibliothèques spécialisées. Il est cependant particulièrement utilisé comme langage de script pour automatiser des tâches simples mais fastidieuses comme un script qui récupérerait la météo sur Internet ou qui s'intégrerait dans un logiciel de conception assistée par ordinateur afin d'automatiser certains enchaînements d'actions répétitives. On l'utilise également comme langage de développement de prototype lorsqu'on a besoin d'une application fonctionnelle avant de l'optimiser avec un langage de plus bas niveau. Il est particulièrement répandu dans le monde scientifique, et possède de nombreuses extensions destinées aux applications numériques.
+Depuis 2013, il est enseigné à tous les étudiants de classes préparatoires scientifiques dans le cadre du tronc commun (informatique pour tous).
+Historique[modifier | modifier le code]
+Au CWI[modifier | modifier le code]
+Guido van Rossum, créateur de Python, à la OSCON 2006.
+À la fin des années 1980, le programmeur Guido van Rossum participe au développement du langage de programmation ABC au Centrum voor Wiskunde en Informatica (CWI) d'Amsterdam, aux Pays-Bas. Il travaillait alors dans l’équipe du système d’exploitation Amoeba dont les appels systèmes étaient difficilement interfaçables avec le bourne shell utilisé comme interface utilisateur. Il estime alors qu’un langage de script inspiré d’ABC pourrait être intéressant comme interpréteur de commandes pour Amoeba[4].
+En 1989, profitant d’une semaine de vacances durant les fêtes de Noël, il utilise son ordinateur personnel[5] pour écrire la première version du langage. Fan de la série télévisée des Monty Python, il décide de baptiser ce projet Python. Il s’est principalement inspiré d’ABC, par exemple pour l’indentation comme syntaxe ou les types de haut niveau mais aussi de Modula-3 pour la gestion des exceptions, du langage C et des outils UNIX[6].
+Durant l’année suivante, le langage commence à être adopté par l’équipe du projet Amoeba, Guido poursuivant son développement principalement pendant son temps libre. En février 1991, la première version publique, numérotée 0.9.0[7], est postée sur le forum Usenet alt.sources. La dernière version sortie au CWI fut Python 1.2
+Au CNRI[modifier | modifier le code]
+En 1995, Van Rossum continua son travail sur Python au CNRI (en) à Reston, aux États-Unis, où il sortit plusieurs versions du logiciel.
+À partir d'août 1995, l'équipe Python travaille au CNRI sur Grail[8] un navigateur web utilisant Tk. Il est l'équivalent pour Python du navigateur HotJava, permettant d'exécuter des applets dans un environnement sécurisé. La première version publique, disponible en novembre, est la 0.2[9]. Il a entraîné le développement de modules pour la bibliothèque standard comme rexec[10], htmllib ou urllib[11]. La version 0.6 sera la dernière de Grail; elle est publiée en avril 1999[12].
+En 1999, le projet Computer Programming for Everybody (CP4E) est lancé avec collaboration entre le CNRI et la DARPA. Il s'agit d'utiliser Python comme langage d'enseignement de la programmation. Cette initiative conduira à la création de l'environnement de développement IDLE. Cependant, du fait du manque de financement du projet par la DARPA, et du départ de nombreux développeurs Python du CNRI (dont Guido van Rossum), le projet s’éteint en 2000[13]. Python 1.6 fut la dernière version sortie au CNRI.
+À BeOpen[modifier | modifier le code]
+En 2000, l'équipe principale de développement de Python déménagea à BeOpen.com pour former l'équipe PythonLabs de BeOpen. Python 2.0 fut la seule version sortie à BeOpen.com. Après cette version, Guido Van Rossum et les autres développeurs de PythonLabs rejoignirent Digital Creations (à présent connue sous le nom de Zope Corporation)[14].
+Andrew M. Kuchling a publié en décembre 1999[15] un texte nommé python warts[16] qui synthétise les griefs les plus fréquents exprimés à l'encontre du langage. Ce document aura une influence certaine sur les développements futurs du langage[17].
+La Python Software Foundation[modifier | modifier le code]
+Python 2.1 fut une version dérivée de Python 1.6.1, ainsi que de Python 2.0. Sa licence fut renommée Python Software Foundation License. Tout code, documentation et spécification ajouté, depuis la sortie de Python 2.1 alpha, est détenu par la Python Software Foundation (PSF), une association sans but lucratif fondée en 2001, modelée d'après l'Apache Software Foundation.
+Afin de réparer certains défauts du langage (ex: orientation objet avec deux types de classes), et pour nettoyer la bibliothèque standard de ses éléments obsolètes et redondants, Python a choisi de casser la compatibilité ascendante dans la nouvelle version majeure : Python 3.0, publié en décembre 2008. Cette version a été suivie rapidement par une version 3.1 qui corrige les erreurs de jeunesse de la version 3.0 en la rendant directement obsolète.
+Caractéristiques[modifier | modifier le code]
+Syntaxe[modifier | modifier le code]
+Python a été conçu pour être un langage lisible. Il vise à être visuellement épuré. Par exemple, il possède moins de constructions syntaxiques que de nombreux langages structurés tels que C, Perl, ou Pascal. Les commentaires sont indiqués par le caractère croisillon (#).
+Les blocs sont identifiés par l'indentation, au lieu d'accolades comme en C ou C++ ; ou de begin ... end comme en Pascal. Une augmentation de l'indentation marque le début d'un bloc, et une réduction de l'indentation marque la fin du bloc courant.
+Fonction factorielle en C
+Fonction factorielle en Python
+/* Fonction factorielle en C */
+int factorielle(int x) {
+if (x < 2) {
+return 1;
+} else {
+return x * factorielle(x-1);
+}
+}
+# Fonction factorielle en Python
+def factorielle(x):
+if x < 2:
+return 1
+else:
+return x * factorielle(x-1)
+NB : des accolades pourraient être retirées de la version en C mais, des erreurs pouvant être aisément commises en cas d'imbrication de plusieurs blocs, cela ne correspondrait pas aux normes de codages habituellement recommandées.
+Mots-clés du langage[modifier | modifier le code]
+Les mots-clés sont fournis dans la liste keyword.kwlist du module keyword[18]. Les mots-clés de Python 2.7.5 sont les suivants : and, as, assert, break, class, continue, def, del, elif, else, except, exec, finally, for, from, global, if, import, in, is, lambda, not, or, pass, print, raise, return, try, while, with, yield.
+À partir de Python 3.0, print et exec ne sont plus des mots-clés du langage, mais des fonctions du module builtins[19]. Sont ajoutés aux mots-clés : True, False, None et nonlocal. Les trois premiers étaient déjà présents dans les versions précédentes, mais ils ne sont plus modifiables (auparavant, l'affectation True = 1 était possible)[20]. nonlocal a été introduit par le PEP 3104[21], et permet, dans une fonction définie à l'intérieur d'une autre fonction, de modifier une variable d'un niveau supérieur de portée. Avant cela, seules les variables locales à la fonction, et globales (niveau module) étaient modifiables.
+Types de base[modifier | modifier le code]
+Les types de base en Python sont relativement complets et puissants, il y a entre autres :
+Les objets numériques
+int est un entier illimité. Avant la version 3.0, ce type était dénommé long, et le type int correspondait à un entier 32 ou 64 bits. Néanmoins, une conversion automatique évitait tout débordement.
+float est un flottant équivalent au type double du C, soit un nombre entre -1,7×10308 et 1,7×10308 sur les plateformes en conformité avec l'IEEE 754.
+complex est une approximation d'un nombre complexe (typiquement deux floats).
+Les objets « itérables »
+Les objets tuple (ou n-uplet) sont des listes immuables d'objets hétérogènes.
+Les objets list sont des tableaux dynamiques (ils étendent automatiquement leur taille lorsque nécessaire) et acceptent des types de données hétérogènes.
+Les objets set sont des ensembles non ordonnés d'objets.
+Les objets frozenset forment une variante immuable des set.
+Les objets dict sont des tableaux associatifs (ou dictionnaires) permettant d'associer un objet (une clef) à un autre.
+Les objets str sont des chaînes de caractères. À partir de la version 3.0, les caractères sont en Unicode sur 16 ou 32 bits ; les chaines d'octets ASCII sont des objets bytes. Dans les versions précédentes, ces objets étaient respectivement de type unicode et str.
+Les objets itérables sont parcourus à l'aide d'une boucle for de la manière suivante :
+for element in objet_iterable:
+traiter(element)
+Pour une chaîne de caractères, l'itération procède caractère par caractère.
+Il est possible de dériver les classes des types de base pour créer ses propres types. On peut également fabriquer ses propres types d'objets itérables sans hériter des itérables de base en utilisant le protocole d'itération du langage.
+Programmation fonctionnelle[modifier | modifier le code]
+Python permet de programmer dans un style fonctionnel. Les compréhensions de listes sont disponibles. Par exemple, pour construire la liste des carrés des entiers naturels plus petits que 10, on peut utiliser l'expression :
+liste = [x**2 for x in range(10)]
+# liste = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+la liste des nombres pairs :
+liste = [entier for entier in range(10) if entier % 2 == 0]
+# liste = [0, 2, 4, 6, 8]
+Une forme limitée de fonctions lambda, ou fonctions anonymes, est disponible :
+lambda x: x + 2
+Les fonctions lambda peuvent être définies en ligne et utilisées comme arguments dans des expressions fonctionnelles :
+filter(lambda x: x < 5, une_liste)
+retournera une liste constituée des éléments de une_liste inférieurs à 5. Le même résultat peut être obtenu avec
+[x for x in une_liste if x < 5]
+Les lambdas de Python n'admettent que des expressions et ne peuvent être utilisées comme fonctions anonymes généralisées ; mais en Python, toutes les fonctions sont des objets, elles peuvent donc être passées en arguments à d'autres fonctions, et appelées lorsque nécessaire. En effet, les fonctions définies avec def sont équivalentes à celles définies avec lambda, il est d'ailleurs possible de définir une fonction à l'intérieur d'une autre fonction et ainsi obtenir une définition de fonction dans une variable locale, exemple :
+def filtre_inferieur_a_5(une_liste):
+def mon_filtre(x): # variable locale mon_filtre
+return x < 5
+return filter(mon_filtre, une_liste)
+Programmation objet[modifier | modifier le code]
+La programmation objet est très bien gérée par Python : tous les types de base, les fonctions, les instances de classes (les objets « classiques » des langages C++ et Java) et les classes elles-mêmes (qui sont des instances de méta-classes) sont des objets.
+Une classe se définit avec le mot class. Les classes Python supportent l'héritage multiple ; il n'y a pas de surcharge statique comme en C++, ou de restrictions sur l'héritage comme c'est le cas en java (une classe implémente plusieurs interfaces et hérite d'une seule classe) mais le mécanisme des arguments optionnels et par mot-clef est plus général et plus flexible. En Python, l'attribut d'un objet peut référencer une variable d'instance ou de classe (le plus souvent une méthode). Il est possible de lire ou de modifier un attribut dynamiquement avec les fonctions :
+getattr(objet, 'nom_attribut')
+setattr(objet, 'nom_attribut', nouvel_attribut)
+Exemple de deux classes simples :
+class Personne:
+def __init__(self, nom, prenom):
+self.nom = nom
+self.prenom = prenom
+def presenter(self) :
+return self.nom + " " + self.prenom
+class Etudiant(Personne):
+def __init__(self, niveau, nom, prenom):
+Personne.__init__(self, nom, prenom)
+self.niveau = niveau
+def presenter(self):
+return self.niveau + " " + Personne.presenter(self)
+e = Etudiant("Licence INFO", "Dupontel", "Albert")
+assert e.nom == "Dupontel"
+Méthodes spéciales et définition des opérateurs[modifier | modifier le code]
+Python fournit un mécanisme élégant et orienté objet pour définir un ensemble pré-défini d'opérateurs : tout objet Python peut se voir doté de méthodes dites spéciales.
+Ces méthodes, commençant et finissant par deux tirets de soulignement (underscores), sont appelées lors de l'utilisation d'un opérateur sur l'objet : + (méthode __add__), += (méthode __iadd__), [] (méthode __getitem__), () (méthode __call__), … Des méthodes comme __repr__ et __str__, permettent de définir la représentation d'un objet dans l'interpréteur interactif et son rendu avec le mot clé print.
+Les possibilités sont nombreuses et sont décrites dans la documentation du langage[22].
+Par exemple on peut définir l'addition de deux vecteurs à 2 dimensions avec la classe suivante :
+class Vector2D:
+def __init__(self, x, y):
+# On utilise un tuple pour stocker les coordonnées
+self.coords = (x, y)
+def __add__(self, other):
+# L'instruction a+b sera résolue comme a.__add__(b)
+# On construit un objet Vector2D à partir des coordonnées propres à l'objet, et à l'autre opérande
+return Vector2D(self.coords[0]+other.coords[0], self.coords[1]+other.coords[1])
+def __repr__(self):
+# L'affichage de l'objet dans l'interpréteur
+return "Vector2D(%s, %s)" %self.coords
+a = Vector2D(1, 2)
+b = Vector2D(3, 4)
+print(a + b) # Vector2D(4, 6)
+Générateurs[modifier | modifier le code]
+Le mot-clef yield utilisé dans une fonction permet de faire de cette fonction un générateur. L'appel de cette fonction renvoie un objet de type generator, qui peut être utilisé dans une boucle for, par exemple.
+À chaque appel, le générateur effectue son traitement jusqu'à rencontrer le mot-clé yield, renvoie la valeur de l'expression yield, et à l'appel suivant, reprend son déroulement juste après le yield. Par exemple pour calculer la suite de Fibonacci, on peut faire :
+def gen_fibonacci():
+"""Générateur de la suite de Fibonacci"""
+a, b = 0, 1
+while True:
+yield a
+# Renvoi de la valeur de "a", résultat de l'itération en cours
+a, b = b, a + b
+fi = gen_fibonacci()
+for i in range(20):
+print(next(fi))
+L'exécution de
+renverra
+def gen_nombres_pairs():
+"""Générateur de nombres pairs"""
+a = 0
+while True:
+print("Génère le nombre", a)
+yield a
+a += 2
+pi = gen_nombres_pairs()
+for i in range(4):
+print(next(pi))
+Génère le nombre 0
+0
+Génère le nombre 2
+2
+Génère le nombre 4
+4
+Génère le nombre 6
+6
+Depuis Python 3.3, il est possible de produire une générateur à partir d'une fonction récursive, grâce à la syntaxe yield from, apparue dans le PEP 380[23] et qui « délègue » le calcul à un sous-générateur. L'exemple suivant calcule les permutations des dames correspondant aux solutions du problème des huit dames étendu à un échiquier de taille n × n.
+def queens(n):
+a = list(range(n))
+up = [True]*(2*n - 1)
+down = [True]*(2*n - 1)
+def sub(i):
+nonlocal a, up, down
+for k in range(i, n):
+j = a[k]
+p = i + j
+q = i - j + n - 1
+if up[p] and down[q]:
+if i == n - 1:
+yield tuple(a)
+else:
+up[p] = down[q] = False
+a[i], a[k] = a[k], a[i]
+yield from sub(i + 1)
+up[p] = down[q] = True
+a[i], a[k] = a[k], a[i]
+yield from sub(0)
+Un générateur peut sembler identique à une fonction qui retourne une liste, mais contrairement à une liste qui contient tous ses éléments un générateur calcule ses éléments un par un.
+Réflexivité[modifier | modifier le code]
+Grâce à un usage intensif des dictionnaires (conteneur associatif développé avec des tables de hachage), Python permet d'explorer les divers objets du langage (introspection) et dans certains cas de les modifier (intercession).
+Typage[modifier | modifier le code]
+Le typage n'est pas vérifié à la compilation. De ce fait, des opérations sur un objet peuvent échouer, signifiant que l'objet en question n'est pas du bon type. Malgré l'absence de typage statique, Python est fortement typé, interdisant des opérations ayant peu de sens (comme, par exemple, additionner un nombre à une chaîne de caractères) au lieu de tenter silencieusement de la convertir en une forme qui a du sens. Python propose des fonctions permettant de transformer les variables dans un autre type :
+points = 3.2 # points est du type float
+print("Tu as " + points + " points !") # Génère une erreur de typage
+points = int(points) # points est maintenant du type int (entier), sa valeur est arrondie à l'unité inférieure (ici 3)
+print("Tu as " + points + " points !") # Génère une erreur de typage
+points = str(points) # points est maintenant du type str (chaîne de caractères)
+print("Tu as " + points + " points !") # Plus d'erreur de typage, affiche 'Tu as 3 points !'
+De même, chaque variable devra être déclarée avant d'être utilisée.
+Python propose aussi un mécanisme de typage fort grâce à l'API trait ou au patron de conception decorators.
+Compilation[modifier | modifier le code]
+Il est possible d'effectuer une analyse statique des modules Python avec des outils comme Pylint [24] ou PyChecker. Sans nécessiter une exécution, ces outils repèrent des fautes ou des constructions déconseillées. Par exemple, une classe qui hérite d'une classe abstraite et qui ne redéfinit pas les méthodes abstraites, ou bien des variables utilisées avant d'être déclarées, ou encore des attributs d'instance déclarés en dehors de la méthode __init__.
+Il est aussi possible de générer un code intermédiaire (bytecode) Python.
+Des outils comme PyInstaller[25] ou d'autres plus spécifiques comme cx_Freeze sous Unix, Windows et Mac OS X, py2app[26] sous Mac OS X et py2exe sous Windows permettent de « compiler » un programme Python sous forme d'un exécutable comprenant le programme et un interpréteur Python.
+Le programme ne tourne pas plus rapidement (il n'est pas compilé sous forme de code machine) mais cela simplifie largement sa distribution, notamment sur des machines où l'interpréteur Python n'est pas installé.
+Modèle objet[modifier | modifier le code]
+En Python, tout est objet, dans le sens qu'une variable peut contenir une référence vers tous les éléments manipulés par le langage : nombres, méthodes, modules, etc.[27]. Néanmoins, avant la version 2.2, les classes et les instances de classes étaient un type d'objet particulier, ce qui signifiait qu'il était par exemple impossible de dériver sa propre sous-classe de l'objet list.
+Méthodes[modifier | modifier le code]
+Le modèle objet de Python est inspiré de celui de Modula-3[28]. Parmi ces emprunts se trouve l'obligation de déclarer l'instance de l'objet courant, conventionnellement nommée self, comme premier argument des méthodes, et à chaque fois que l'on souhaite accéder à une donnée de cette instance dans le corps de cette méthode. Cette pratique n'est pas naturelle pour des programmeurs venant par exemple de C++ ou Java, la profusion des self étant souvent critiquée comme étant une pollution visuelle qui gène la lecture du code. Les promoteurs du self explicite estiment au contraire qu'il évite le recours à des conventions de nommage pour les données membres et qu'il simplifie des tâches comme l'appel à une méthode de la superclasse ou la résolution d'homonymie entre données membres[29].
+Python reconnaît trois types de méthodes :
+les méthodes d'instances, qui sont celles définies par défaut. Elles reçoivent comme premier argument une instance de la classe où elles ont été définies.
+les méthodes de classes, qui reçoivent comme premier argument la classe où elles ont été définies. Elles peuvent être appelées depuis une instance ou directement depuis la classe. Elles permettent de définir des constructeurs alternatifs comme la méthode fromkeys() de l'objet dict.
+les méthodes statiques, qui ne reçoivent pas de premier argument implicite. Elles sont similaires aux méthodes statiques que l'on trouve en Java ou C++.
+Visibilité[modifier | modifier le code]
+Le langage a un support très limité de l'encapsulation. Il n'y a pas, comme en java par exemple, de contrôle de l'accessibilité par des mots clefs comme protected ou private.
+La philosophie de Python est de différencier conceptuellement l'encapsulation du masquage d'information. Le masquage d'information vise à prévenir les utilisations frauduleuses, c'est une préoccupation de sécurité informatique. Le module bastion de la bibliothèque standard, qui n'est plus maintenu dans les dernières versions du langage, permettait ainsi de contrôler l'accès aux attributs d'un objet dans le cadre d'un environnement d'exécution restreint.
+L'encapsulation est une problématique de développement logiciel. Le slogan des développeurs Python est we're all consenting adults here[30] (nous sommes entre adultes consentants). Ils estiment en effet qu'il suffit d'indiquer, par des conventions d'écriture, les parties publiques des interfaces et que c'est aux utilisateurs des objets de se conformer à ces conventions ou de prendre leurs responsabilités. L'usage est de préfixer par un underscore les membres privés. Le langage permet par ailleurs d'utiliser un double underscore pour éviter les collisions de noms, en préfixant automatiquement le nom de la donnée par celui de la classe où elle est définie.
+L'utilisation de la fonction property() permet de définir des propriétés qui ont pour but d'intercepter, à l'aide de méthodes, les accès à une donnée membre. Cela rend inutile la définition systématique d'accesseurs et le masquage des données comme il est courant de le faire en C++ par exemple.
+Héritage[modifier | modifier le code]
+Python supporte l'héritage multiple. Depuis la version 2.3, il utilise l'algorithme C3 (en), issu du langage Dylan[31], pour résoudre l'ordre de résolution de méthode (MRO). Les versions précédentes utilisaient un algorithme de parcours en profondeur qui posait des problèmes dans le cas d'un héritage en diamant[32].
+Bibliothèque standard[modifier | modifier le code]
+Python est fourni « piles incluses ».
+Python possède une grande bibliothèque standard, fournissant des outils convenant à de nombreuses tâches diverses. Le nombre de modules de la bibliothèque standard peut être augmenté avec des modules spécifiques écrits en C ou en Python.
+La bibliothèque standard est particulièrement bien conçue pour écrire des applications utilisant Internet, avec un grand nombre de formats et de protocoles standards gérés (tels que MIME et HTTP). Des modules pour créer des interfaces graphiques et manipuler des expressions rationnelles sont également fournis. Python inclut également un framework de tests unitaires (unittest, anciennement PyUnit avant version 2.1) pour créer des suites de tests exhaustives.
+Conventions de style[modifier | modifier le code]
+Bien que chaque programmeur puisse adopter ses propres conventions pour l'écriture de code Python, Guido van Rossum a mis un guide à disposition, référencé comme « PEP 8 »[33]. Publié en 2001, il est toujours maintenu en 2013, pour l'adapter aux évolutions du langage. Google propose également un guide[34].
+Interfaces graphiques[modifier | modifier le code]
+Python possède plusieurs modules disponibles pour la création de logiciels avec une interface graphique. Le plus répandu est Tkinter. Ce module convient à beaucoup d'applications et peut être considéré comme suffisant dans la plupart des cas. Néanmoins, d'autres modules ont été créés pour pouvoir lier Python à d'autres bibliothèques logicielles (« toolkit »), pour davantage de fonctionnalités, pour une meilleure intégration avec le système d'exploitation utilisé, ou simplement pour pouvoir utiliser Python avec sa bibliothèque préférée. En effet, certains programmeurs trouvent l'utilisation de Tkinter plus pénible que d'autres bibliothèques. Ces autres modules ne font pas partie de la bibliothèque standard et doivent donc être obtenus séparément.
+Les principaux modules donnant accès aux bibliothèques d'interface graphique sont Tkinter et Pmw (Python megawidgets)[35] pour Tk, wxPython pour wxWidgets, PyGTK pour GTK+, PyQt et PySide pour Qt, et enfin FxPy pour le FOX Toolkit. Il existe aussi une adaptation de la bibliothèque SDL : Pygame, un binding de la SFML : PySFML, ainsi qu'une bibliothèque écrite spécialement pour Python : Pyglet (en).
+Il est aussi possible de créer des applications Silverlight en Python sur la plateforme IronPython.
+La communauté Python[modifier | modifier le code]
+Van Rossum est le principal auteur de Python, et son rôle de décideur central permanent de Python est reconnu avec humour par le titre de « Dictateur bienveillant à vie » (Benevolent Dictator for Life, BDFL).
+Il est assisté d'une équipe de core developers qui ont un accès en écriture au dépôt de CPython et qui se coordonnent sur la liste de diffusion python-dev. Ils travaillent principalement sur le langage et la bibliothèque de base. Ils reçoivent ponctuellement les contributions d'autres développeurs Python via la plateforme de gestion de bug Roundup, qui a remplacé SourceForge.
+Les utilisateurs ou développeurs de bibliothèques tierces utilisent diverses autres ressources. Le principal média généraliste autour de Python est le forum Usenet anglais comp.lang.python.
+Les allusions aux Monty Python sont assez fréquentes. Les didacticiels consacrés à Python utilisent souvent les mots spam et eggs comme variable métasyntaxique. Il s'agit d'une référence au sketch Spam des Monty Python, où deux clients tentent de commander un repas à l'aide d'une carte qui contient du jambon en conserve de marque SPAM dans pratiquement tous les plats. Ce sketch a été aussi pris pour référence pour désigner un courriel non sollicité.
+Adoption de Python[modifier | modifier le code]
+Plusieurs entreprises mentionnent sur leur site officiel[36] qu'elles utilisent Python :
+Google (Guido van Rossum a travaillé au sein de cette entreprise entre 2005 et 2012[37]) ;
+Industrial Light & Magic ;
+la NASA ;
+et CCP Games, les créateurs du jeu vidéo EVE Online.
+Python est aussi le langage de commande d'un grand nombre de logiciels libres :
+FreeCAD, logiciel de CAO 3D
+Blender, logiciel de modélisation 3D
+Inkscape, logiciel de dessin vectoriel
+OpenOffice et LibreOffice, les deux branches de développement d'une suite bureautique issue de StarOffice
+Portage, le gestionnaire de paquets du système d'exploitation Gentoo
+ParaView, logiciel de visualisation de données numériques
+XBMC, un lecteur multimédia
+...et commerciaux :
+Corel Paint Shop Pro, logiciel de traitement d’image et d'édition graphique
+capella, logiciel de notation musicale
+Python est utilisé comme langage de programmation dans l'enseignement élémentaire et supérieur [38],[39]
+Implémentations du langage[modifier | modifier le code]
+Outre la version de référence, nommée CPython (car écrite en langage C), il existe d'autres systèmes mettant en œuvre le langage Python :
+Stackless Python, une version de CPython n'utilisant pas la pile d'appel du langage C ;
+Jython, un interprète Python pour machine virtuelle Java. Il a accès aux bibliothèques fournies avec l'environnement de développement Java ;
+IronPython, un interprète / compilateur (expérimental) pour plateforme .Net / Mono ;
+PyPy un interprète Python écrit dans un sous-ensemble de Python compilable vers le C ou LLVM ;
+un compilateur (expérimental) pour Parrot, la machine virtuelle de Perl 6 ;
+Shed Skin (en)[40], un compilateur d'un sous-ensemble de Python produisant du code en C++ ;
+Unladen Swallow (en)[41], une version de CPython optimisée et basée sur LLVM, maintenant abandonnée (la dernière version remonte à octobre 2009) ;
+Ces autres versions ne bénéficient pas forcément de la totalité de la bibliothèque de fonctions écrites en C pour la version de référence.
+Les distributions[modifier | modifier le code]
+Différentes distributions sont disponibles, qui incluent parfois beaucoup de packages dédiés à un domaine donné :
+ActivePython[42]
+Python(x,y)[43] : une distribution Python à l'usage des scientifiques basée sur Qt et Eclipse
+Enthought Canopy[44] : un autre distribution à usage scientifique
+Anaconda[45] : une troisième distribution à usage scientifique
+Pyzo[46] : « Python to the people », destinée à être facile d'utilisation
+Historique des versions[modifier | modifier le code]
+Version
+Date de sortie
+Nouveautés[47]
+1.5(.2)
+13 avril 1999
+Ajout du mot clé assert
+Possibilité d'importer une hiérarchie de modules (import spam.ham.eggs)
+Nouveau module re qui remplace regex
+Les exceptions sont maintenant des classes
+Ajout de l'option -O qui supprime les assertions et informations de ligne de fichier
+1.6
+5 septembre 2000
+La méthode append() des listes n'accepte plus qu'un seul argument
+Le résultat des fonctions str() et repr() est maintenant beaucoup plus souvent différent, exemple : str(1L)=='1' et repr(1L)=='1L'
+Les chaînes de caractères ont maintenant des méthodes (" abc ".strip())
+Le module re est compatible avec l'ancien moteur, est plus rapide, et accepte les chaînes Unicode
+Ajout du module distutils
+Nouveau prototype « def f(*args, **kw) » pour les fonctions, avant il fallait utiliser apply()
+int() et long() acceptent maintenant une base en second argument
+L'opérateur in peut être surchagé avec une méthode __contains__()
+2.0
+16 octobre 2000
+Changement majeur : support d'Unicode
+Ajout des compréhensions de liste (List Comprehensions)
+Ajout des opérateurs avec assignement (a+=b, a*=b, etc.)
+Les chaînes str ont maintenant des méthodes
+Nouveau ramasse-miettes à cycles
+Nouveau prototype « def f(*args, **kw) » pour les fonctions, avant il fallait utiliser apply()
+Ajout des modules distutils, xml.dom.minidom module et xml.sax
+2.1
+17 avril 2001
+Création du module __future__ pour rendre les transitions plus douces
+Comparaisons riches (méthodes __lt__, __le__, ..., __ne__)
+Framework d'avertissement
+Ajout des modules inspect, pydoc, doctest, pyunit
+Ajout des références faibles (weak references)
+Les fonctions peuvent avoir des attributs
+Nested Scopes
+La version 2.0.1 (juin 2001) sera la première version compatible GPL
+2.2
+21 décembre 2001
+Unification de Type et de Class: on peut maintenant hériter des types de base
+Ajout des itérateurs et générateurs
+Nouvel opérateur a // b pour la division entière
+2.3
+29 juillet 2003
+Ajout des fonctions enumerate() et sum()
+Le type bool est maintenant vraiment distinct d'un entier
+Beaucoup d'améliorations du support Unicode
+2.4
+30 novembre 2004
+Ajout des décorateurs de fonction/méthode (@decorateur)
+Conversion automatique d'un entier court en entier long si le résultat d'une opération est trop grand
+Expressions de générateur retournant les résultats l'un après l'autre et non pas sous forme d'une liste, exemple : sum( x for x in xrange(10000) )
+Ajout des fonctions reversed() et sorted()
+La fonction sort() accepte les mots clés cmp, key et reverse
+Création du module decimal et du routeur
+2.5
+19 septembre 2006
+Ajout de l'opérateur with
+Ajout des méthodes send(), throw() et close() aux générateurs
+Expression conditionnelle (a if test else b)
+Les imports de module peuvent être relatifs
+Ajout des méthodes partition() et rpartition() aux chaînes str et unicode
+Ajout des fonctions any() et all()
+Intégration des bibliothèques ctypes, ElementTree, hashlib, sqlite3 et wsgiref
+2.6
+1er octobre 2008
+Nouvelle syntaxe de formatage de chaînes de caractères
+Classes de bases abstraites
+Décorateurs de classes
+Modules JSON, multiprocessing, contextmanager et fractions
+Amélioration de la compatibilité avec Python 3
+2.7
+3 juillet 2010
+Syntaxe pour les ensembles littéraux : {1, 2, 3} au lieu de set((1, 2, 3))
+Compréhension de dictionnaire et d'ensemble, exemples : {i: i*2 for i in range(3)} (dictionnaire) et {i*2 for i in range(3)} (ensemble)
+Possibilité de spécifier plusieurs gestionnaires de contexte avec une seule déclaration with
+Réimplementation de la bibliothèque io (entrées/sorties) en C pour offrir de meilleures performances. Cette bibliothèque est notamment utile pour accéder à un fichier texte en Unicode.
+Dictionnaires ordonnés comme décrits dans la PEP 372 : from collections import OrderedDict
+La méthode format gère la numérotation automatique : '{} {}!'.format('Hello', 'World') donne 'Hello World'!
+Le formatage des nombres gère les séparateurs de milliers, exemple : '{:,}'.format(10800) donne '10,800'
+Amélioration de précision lors des conversions chaîne vers flottant et flottant vers chaîne. Pour un flottant, float(repr(x)) donnera toujours x.
+Nouveau module argparse pour parser la ligne de commande : version améliorée du module optparse
+Configuration basée sur des dictionnaires pour le module logging
+Objets memoryview : vue en lecture seule ou lecture-écriture d'un objet binaire (API similaire à celle du type bytes)
+Type PyCapsule pour l'API C (pour les modules d'extension)
+Les types int et long gagnent une méthode bit_length() : nombre de bits nécessaires pour représenter la valeur absolue du nombre
+3.0
+3 décembre 2008[48]
+Fusion des types 'int' et 'long'
+Les chaînes sont en Unicode par défaut, 'bytes' remplace l'ancien type 'str'
+Utilise des itérateurs plutôt que des listes là où c'est approprié (ex : dict.keys())
+a/b est la vraie division par défaut
+exec et print deviennent des fonctions
+None et as deviennent des mots clé
+Le fichier __init__.py n'est plus nécessaire pour les modules Python
+`x` et l'opérateur <> disparaissent
+De nombreuses fonctions disparaissent : apply(), buffer(), callable(), ...
+reduce() disparaît au profit des boucles explicites
+Voir la PEP 3100 pour les détails
+3.1
+27 juin 2009[49]
+Ajout d'un type de dictionnaire ordonné,
+Optimisations diverses apportées au type 'int',
+Nouvelles fonctionnalités du module 'unittest',
+Module d'entrées/sorties 'io' rendu plus rapide,
+Intégration de l'instruction « import » en pur Python
+Nouvelle syntaxe pour les instructions 'with' imbriquées.
+3.2
+20 février 2011[50]
+Ajout du module argparse pour le parsing des arguments passés à un programme
+Modification de la gestion des fichiers compilés .pyc
+Ajout des certificats ( protocole HTTPS )
+Amélioration du module pickle
+3.3
+29 septembre 2012[51]
+Ajout de la syntaxe "yield from" pour utiliser des sous-générateurs[51]
+La syntaxe u'unicode' est de nouveau acceptée[52]
+Ajout du module faulthandler pour aider à débugger les problèmes de bas niveau
+Support pour la compression LZMA
+Ajout d'un module pour les Mock dans unittest
+Incorporation des fonctionnalités du module virtualenv avec le module venv
+Refonte de la hiérarchie des erreurs système (I/O).
+3.4
+16 mars 2014[53]
+Développement[modifier | modifier le code]
+Les PEP[modifier | modifier le code]
+Les propositions d'amélioration de Python (ou « PEP » : Python Enhancement Proposal) sont des documents textuels qui ont pour objet d'être la voie d'amélioration de Python et de précéder à toutes ses modifications ultérieures. Un pep est une proposition d'orientation pour le développement (process PEP), une proposition technique (Standard Track PEP) ou une simple recommandation (Informational PEP, la plus célèbre étant certainement celle de Tim Peters : http://www.python.org/dev/peps/pep-0020/).
+À leur sortie, les PEP sont relus et commentés par le BDFL[54].
+Python 3000[modifier | modifier le code]
+Une nouvelle version de Python, appelée Python 3.0 (le projet était appelé « Python 3000 » ou « Py3K ») abolit la compatibilité descendante avec la série des versions 2.x, dans le but d'éliminer les faiblesses du langage. La ligne de conduite du projet était de « réduire la redondance dans le fonctionnement de Python par la suppression des méthodes obsolètes ». Python 3.0a1, la première version alpha, a été publiée le 31 août 2007[55], et il existe un PEP[56] qui détaille les changements prévus, ainsi qu'une page pour orienter les programmeurs dans leur choix de Python 2 ou 3[57].
+Philosophie[modifier | modifier le code]
+Python 3.0 a été développé avec la même philosophie que dans ses versions antérieures, donc toute référence à la philosophie de Python s'appliquera aussi bien à la version 3.0. Comme toujours, Python a accumulé beaucoup de nouvelles méthodes qui font en fait acte de redondance avec d'autres préexistantes. Python 3.0, en recherchant la suppression du code redondant et des modules semblables, suit la grande directive philosophique de Python « Il ne devrait subsister qu'une seule méthode, qui soit à la fois optimale et naturelle pour chaque chose ».
+En dépit de cela, Python 3.0 restera un langage multi-paradigme. Les programmeurs auront encore le choix entre l'orientation objet, la programmation structurée, la programmation fonctionnelle et d'autres paradigmes ; en dépit du choix existant, Python 3.0 a cependant pour but d'être utilisé de manière plus naturelle que dans les versions 2.x.
+Planning et compatibilité[modifier | modifier le code]
+Python 3.0a1, la première version alpha de Python 3.0, a été publiée le 31 août 2007. Les versions 2.x et 3.x de Python seront publiées en parallèle pendant plusieurs cycles de développement, pendant lesquels la série des 2.x subsistera principalement pour la compatibilité, en incluant quelques caractéristiques importées depuis Python 3.x. Le PEP 3000[58] contient plus d'informations à propos du processus de publication d'une version.
+Comme Perl 6, Python 3.0 rompt la compatibilité descendante (rétro-compatibilité). L'utilisation de code écrit pour les séries 2.x n'est pas garantie avec Python 3.0. Ce dernier apporte des changements fondamentaux, comme le passage généralisé à l'Unicode pour les chaînes de caractères et une distinction forte entre les chaînes de caractère et les objets « bytes ». Le typage dynamique associé à certaines méthodes sur les objets de type dictionnaire font qu'une transition parfaite de Python 2.x vers Python 3.0 est très difficile. Comme toujours, un outil nommé « 2to3 » réalise la plus grande part du travail de traduction des versions 2.x vers les versions 3.x, en indiquant les zones de codes sujettes à caution par des commentaires spéciaux et des mises en garde. De plus, dans sa pré-version, 2to3 semble réussir franchement à réaliser une traduction correcte[59]. Dans le cadre d'une migration de Python 2.x vers Python 3.x, le PEP 3000 recommande de conserver le code original comme base des modifications et de le traduire pour la plateforme 3.x en utilisant 2to3.
+Python 2.6 devra fournir des caractéristiques de compatibilité ascendante, aussi bien qu'un mode « mise en garde » qui devrait faire prendre conscience des problèmes potentiels de transition pour le passage à Python 3.0[60].
+Python pour smartphones[modifier | modifier le code]
+Il existe des versions de python adaptées pour Android et iPhone en version 2.6 ou 2.5. Disponible en Jailbreak d'iOS sur iOS grâce à "setup tools", et sur Android grâce à SL4A qui donne même une possibilité de faire des petites interfaces graphiques grâce au module "android" et qui permet d'envoyer des SMS, d'allumer la caméra[61], ou encore de faire vibrer le téléphone. Les quelques lignes suivantes montrent comment faire ça :
+droid = android.Android() # client lié au serveur local lancé par l'application SL4A
+# pour contrôler un téléphone distant à l'adresse 192.168.0.5, avec SL4A lancé sur le port 9887
+# il suffit de faire : android.Android('192.168.0.5', 9887)
+droid.vibrate(2.5) # fait vibrer le téléphone (local ou distant) pendant 2.5 secondes
+Un portage de Python sur les terminaux Blackberry est sorti en juin 2012, pour le système BlackBerry OS 10[62]. Une version allégée est sortie en septembre 2012, appelée « BlackBerry-Tart »[63],[64], en raison d'un jeu de mots en anglais : « a "tart" is lighter-weight than a "pie" ». Elle est basée sur Python 3.2.2.

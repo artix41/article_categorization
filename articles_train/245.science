@@ -1,0 +1,279 @@
+Fermion — Wikipédia
+Fermion
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Le modèle standard classe les particules élémentaires en deux grandes familles : les fermions et les bosons. Formellement, les fermions obéissent à la statistique de Fermi-Dirac et les bosons obéissent à celle de Bose-Einstein. Les fermions sont les particules à spin demi-entier (c'est-à-dire 1/2, 3/2, 5/2, ...) : l'électron, le muon, les différents neutrinos, les quarks et les tauon sont des fermions.
+Les fermions se regroupent en deux familles :
+les leptons, qui ne sont pas soumis à l'interaction forte ;
+les quarks, qui sont soumis à toutes les interactions de la nature.
+Les autres fermions sont tous composés.
+Sommaire
+1 Les leptons
+2 Les quarks
+3 Le principe d'exclusion de Pauli
+4 Propriétés des fermions
+5 Propriétés
+6 Fermions élémentaires
+7 Fermions composés
+8 Skyrmions
+9 Articles connexes
+Les leptons[modifier | modifier le code]
+Article détaillé : Lepton.
+Dans la famille des leptons, on connaît :
+l'électron : cette particule stable est de masse 1836 fois moindre que celle du proton, et de charge négative -e ;
+le muon : cette particule instable a la même charge que l'électron et est 210 fois plus massive que ce dernier. Laissé à lui-même, le muon se désintègre en 2,197×10-6 s par le biais de l'interaction faible, laissant à sa place un électron, un neutrino μ et un antineutrino ;
+le tauon : cette particule très instable est de même charge que l'électron, tandis que sa masse lui est de 3500 fois supérieure. Il se désintègre en 2,8×10-13 s, laissant à sa place un neutrino τ et un antineutrino ;
+le neutrino : le plus léger des fermions. Il n'a pas de charge électrique (alors que l'électron possède aussi une charge électrique). Il n'a presque aucune interaction avec la matière. Il existe trois types de neutrinos :
+le neutrino μ (émis lors de la désintégration d'un muon) ;
+le neutrino électronique e (émis lors de la désintégration β -transformation d'un neutron en proton) ;
+le neutrino τ (émis lors de la désintégration du tauon).
+En raison de leur faible masse (les neutrinos μ et τ ont une masse bien inférieure à celle de l'électron), ces trois types de neutrinos sont stables. Les neutrinos sont probablement les particules les plus abondantes de l'Univers.
+Les quarks[modifier | modifier le code]
+Article détaillé : Quark.
+On compte six représentants de la famille des quarks : le quark down (d), le quark up (u), le quark strange (s) et trois autres, produits en laboratoire. Les quarks s'associent par triplets pour former protons (u, u et d) et neutrons (d, d et u). Leur masse varie, mais est dans tous les cas bien supérieure à celle de l'électron. Ils possèdent une charge de couleur qui les soumet à l'interaction forte, la plus importante des interactions à courte distance.
+Le principe d'exclusion de Pauli[modifier | modifier le code]
+Le principe d'exclusion de Pauli formulé en 1925 par Wolfgang Pauli interdit à deux fermions identiques de se trouver au même endroit dans le même état quantique. Ainsi dans l'atome, tous les électrons ont des nombres quantiques différents ; c'est également le cas dans tous les autres systèmes de fermions.
+Propriétés des fermions[modifier | modifier le code]
+À l'échelle quantique, les fermions présentent une nature duale, c'est-à-dire qu'ils peuvent se comporter comme des particules mais aussi comme des ondes.
+À l'échelle macroscopique, les fermions apparaissent tous comme des particules : c'est le cas de l'électron, du muon et de tous les autres fermions.
+L'électron a une charge électrique et les quarks ont à la fois une charge électrique et une charge de couleur.
+Enfin, si les bosons peuvent être vecteurs d'interactions, ce n'est jamais le cas pour les fermions.
+Tableau récapitulatif :
+Fermions élémentaires
+Fermions composés
+Quarks
+Leptons
+Nucléons
+Hypérons
+Charge
+- 1/3
++ 2/3
+- 1
+0
++ 1
+0
+- 1
+0
++ 1
+stable
+down
+up
+électron
+neutrino électronique
+proton
+neutron
+instable
+strange
+bottom
+charm
+top
+muon
+tauon
+neutrino muonique
+neutrino taunique
+Sigma -
+Ksi -
+Oméga -
+Sigma 0
+Ksi 0
+Lambda 0
+Sigma +
+Lambda +
+Propriétés[modifier | modifier le code]
+Par définition, les fermions sont les particules qui obéissent à la loi statistique Fermi-Dirac : quand on échange deux fermions, la fonction d'onde change de signe.
+Cette fonction d'onde antisymétrique implique le fait que les fermions sont soumis au principe d'exclusion de Pauli, c'est-à-dire que deux fermions ne peuvent occuper le même état quantique en même temps. Cela aboutit à la rigidité des états qui incluent des fermions (des noyaux atomiques, des atomes, des molécules, etc.), ce pourquoi certains disent parfois des fermions qu'ils sont les constituants de la matière, tandis que l'on dit que les bosons sont les particules qui transmettent des interactions (c'est-à-dire forcent des transporteurs) ou les constituants de radiation électromagnétique.
+Les champs quantiques de fermions sont des champs fermionique, obéissant aux relations d'anticommutation canoniques (en).
+Le principe d'exclusion de Pauli pour les fermions et la rigidité associée de la matière est responsable de la stabilité des nuages électroniques des atomes (ainsi que de la stabilité de la matière atomique) et de la complexité de l'atome (en empêchant deux électrons atomiques d'occuper le même niveau d'énergie), et rend ainsi la chimie complexe possible. Il est aussi responsable de la pression dans la matière dégénérée, qui gouverne en grande partie l'état d'équilibre des naines blanches et des étoiles à neutrons. À une échelle plus quotidienne, le principe d'exclusion de Pauli est un élément majeur du module de Young des matériaux et de leur déformation élastique.
+Les fermions sont des particules avec un spin demi-entier: si un observateur tourne autour d'un fermion (ou fait tourner le fermion de 360 ° de son axe) la fonction d'onde du fermion change de signe. Dans la structure de la mécanique quantique non-relativiste, ceci est une observation purement empirique. Cependant, dans la théorie quantique relativiste des champs, le théorème de statistique du spin montre que les particules de spin demi-entier ne peuvent pas être des bosons et les particules de spin entier ne peuvent pas être des fermions.
+Dans de grands systèmes, la différence entre la statistique bosonique et la statistique fermionique n'apparaît qu'à grande densité, quand leur fonction d'onde se chevauche. À basse densité, les deux types de statistique sont bien approchés par la statistique de Maxwell-Boltzmann, qui est décrite par la mécanique classique.
+Une autre propriété spécifique des fermions, en plus du principe d'exclusion de Pauli, est que tout fermion connu a des nombres quantiques leptoniques ou des nombres quantiques baryoniques. Jusqu'ici aucun boson élémentaire avec des leptons ou baryons apparents parmi ses nombres quantiques n'a été observé.
+Le Modèle Standard distingue deux types de fermions élémentaires : quarks et leptons. Au total, 24 fermions différents sont connus, 6 quarks et 6 leptons, chacun avec une antiparticule correspondante :
+12 quarks - 6 particules (u • d • s • c • b • t) avec 6 antiparticules correspondantes (u • d • s • c • b • t); 12 leptons - 6 particules (e-• µ- • t-• Ve .V µ. Vt) avec 6 antiparticules correspondantes (e + • µ + • t + • Ve- . Vµ- . Vt-)
+Fermions élémentaires[modifier | modifier le code]
+Toutes les particules élémentaires observées sont des fermions ou des bosons. Les fermions élémentaires connus sont répartis en deux groupes : quarks et leptons.
+Les quarks forment les protons, les neutrons et d'autres baryons, qui sont des fermions composés; ils constituent aussi les mésons, qui sont des bosons composés.
+Les leptons incluent l'électron et - semblables mais plus lourds - le muon et le tau; ils incluent aussi les neutrinos.
+Tous les fermions avec une hélicité à gauche subissent l'interaction faible, tandis que tous les fermions droitiers connus n'y sont pas soumis. Autrement dit, seuls les fermions gauchers et les anti-fermions droitiers interagissent avec le boson W.
+Fermions composés[modifier | modifier le code]
+Les particules composées (comme des hadrons, des noyaux et des atomes) peuvent être des bosons ou des fermions selon leurs constituants. Plus précisément, à cause de la relation entre le spin et la statistique, une particule contenant un nombre impair de fermions est un fermion : elle aura un spin demi-entier.
+Un baryon, comme le proton ou le neutron, contient trois quarks fermioniques et est donc un fermion ;
+Le noyau d'un atome de carbone 13 contient 6 protons et 7 neutrons et est donc un fermion ;
+L'atome d'hélium 3 (3He) est fait de 2 protons, un neutron et 2 électrons et est donc un fermion.
+Le nombre de bosons dans une particule composée de particules simples liées par un potentiel n'a aucun effet sur le fait que ce soit un boson ou un fermion.
+Le comportement bosonique ou fermionique d'une particule composée se voit seulement à grande distance (par rapport à la taille du système). À proximité, où la structure spatiale commence à être importante, une particule composée se comporte selon son coloris constitutif.
+Les fermions peuvent montrer un comportement bosonique quand ils sont faiblement liés par paires de manière. Ceci est l'origine de la supraconductivité et la superfluidité de l'hélium 3 : dans la matière supraconductrice, les électrons interagissent par échange de phonons, formant des paires de Cooper, tandis que dans l'hélium 3, les paires de Cooper se constituent via des fluctuations du spin.
+Les quasi-particules de l’effet Hall quantique fractionnaire sont des fermions composés, qui sont des électrons avec un nombre pair de tourbillons quantiques liés à eux.
+Skyrmions[modifier | modifier le code]
+La théorie quantique des champs permet de construire des configurations des champs de bosons topologiquement courbes ("gauchies"). Celles-ci sont des états cohérents (ou solitons) qui se comportent comme des particules, et elles peuvent être fermioniques même si toutes les particules constitutives sont des bosons. Tony Skyrme a découvert ceci au début des années 1960, c'est pourquoi les fermions faits de bosons sont nommés skyrmions.
+L'exemple original de Skyrme utilisait des champs prenant des valeurs sur une sphère tridimensionnelle, le modèle sigma non-linéaire original, qui décrit le comportement à grande distance des pions. Dans le modèle de Skyrme, reproduit dans la théorie du grand N ou l'approximation des cordes au quantum chromodynamique quantique (QCD), le proton et le neutron sont des solitons topologiquement fermioniques du champ pion.
+Tandis que l'exemple de Skyrme utilise la physique des pions, il y a un exemple beaucoup plus familier dans l'électrodynamique quantique avec un monopôle magnétique. Un monopôle bosonique avec la charge magnétique la plus petite possible et une version bosonique de l'électron formera un dyon (en) fermionique.
+L'analogie entre le champ de Skyrme et le champ de Higgs dans le domaine des interactions faibles a été utilisée pour postuler que tout fermion est un skyrmion. Ceci pourrait expliquer pourquoi tous les fermions ont des nombres quantiques leptoniques ou baryoniques, et fournir un mécanisme physique pour le principe d'exclusion de Pauli.
+Articles connexes[modifier | modifier le code]
+Boson
+Gaz de fermions dégénéré
+v · d · m
+Particules en physique
+Particules élémentaires
+Avérées
+Bosons
+De jauge
+Photon (γ) · Gluon (g) · Bosons W+, W-, de Higgs (Ȟ) et Z0
+Fermions
+Quarks
+Down (d) · Up (u) · Strange (s) · Charm (c) · Bottom (b) · Top (t)
+Leptons
+Électron (e-) · Positron (e+) · Muons (μ-, μ+) · Tauons (τ-, τ+) · Neutrinos (νe, ν̅e, νμ, ν̅μ, ντ, ν̅τ)
+Hypothétiques
+Bosons
+Bosons Wʹ et Zʹ (en) · Bosons X et Y (en) · Graviton (G) · Axion (A0) · Majoron (J) (en)
+Fermions
+Neutrino stérile
+Superpartenaires
+de bosons
+Photino · Neutralinos : Wino, Bino, Higgsino · Jauginos : Gluino (en), Zino, Gravitino, Axino (en) Charginos
+de fermions
+Squarks · Sleptons
+Autres
+Leptoquarks (en) · Dilaton · Tachyon · Corde · Préon
+Particules composites
+Hadrons
+Mésons (bosons)
+Quarkoniums : Charmoniums (J/ψ, ηc) · Bottomoniums (ϒ, ηb) · Méson thêta (θ) · Méson phi (φ) · Pions (π-, π+, π0, π̅0) · Kaons (K-, K+, K0, K̅0) · Mésons rho (ρ), oméga (ω), D, êta (η), êta prime (ηʹ), B (B0-B̅0, Bs0-B̅s0, B-, B+, Bc-, Bc+), T
+Baryons (fermions)
+Nucléons : Proton (p), Antiproton (p̅), Neutron (n), Antineutron (n̄) ·
+Baryons Delta (Δ++, Δ+, Δ0, Δ−) ·
+Hypérons : Λ, Σ, Ξ, Ω
+Autres
+Atomes exotiques : Oniums leptoniques (en) (positronium, muonium) · Oniums mésoniques (en) (pioniums) ·
+Noyau atomique · Atome · Molécule
+Hypothétiques
+Mésons
+Boule de glu · Tétraquark
+Baryons
+Pentaquark · Dibaryon (en)
+Autres
+Molécule mésonique · Poméron (en) · Oddéron (en)
+Quasi-particules
+Exciton · Fluxon · Magnon · Phonon · Plasmon · Polariton · Polaron · Soliton · Ghost (en) · Roton · Monopôle magnétique · Instanton
+Liste de particules
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Fermion&oldid=108299129 ».
+Catégorie : FermionCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+অসমীয়া
+Беларуская
+Български
+বাংলা
+Bosanski
+Català
+Čeština
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Frysk
+Gaeilge
+Galego
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Հայերեն
+Bahasa Indonesia
+Ido
+Íslenska
+Italiano
+日本語
+ქართული
+Қазақша
+ಕನ್ನಡ
+한국어
+Latina
+Lietuvių
+Latviešu
+Олык марий
+Македонски
+മലയാളം
+Монгол
+Bahasa Melayu
+Plattdüütsch
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Occitan
+Polski
+پنجابی
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Српски / srpski
+Basa Sunda
+Svenska
+ไทย
+Tagalog
+Türkçe
+Татарча/tatarça
+Українська
+اردو
+Oʻzbekcha
+Tiếng Việt
+Winaray
+中文
+Modifier les liens
+Dernière modification de cette page le 17 octobre 2014 à 15:28.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

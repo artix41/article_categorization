@@ -1,0 +1,66 @@
+Boson — Wikipédia
+Boson
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Boson (homonymie).
+Photons émis dans le faisceau cohérent d'un laser.
+Les bosons représentent une classe de particule ou de corpuscule qui possèdent des propriétés de symétrie particulières lors de l'échange de particules : un système de particules identiques se comportant comme des bosons est toujours dans un état totalement symétrique par rapport à l'échange de particules. Toutes les particules élémentaires découvertes à ce jour sont soit des bosons, soit des fermions, ces derniers ne pouvant être que dans un état totalement antisymétrique par rapport à l'échange de particules. Le théorème spin-statistique indique que les particules de spin entier sont des bosons, alors que les particules de spin demi-entier sont des fermions.
+Le fait qu'une particule soit un boson ou un fermion a d'importantes conséquences sur les propriétés statistiques observables en présence d'un grand nombre de particules : les fermions sont des particules qui obéissent à la statistique de Fermi-Dirac alors que les bosons obéissent à la statistique de Bose-Einstein. Dans le cas des bosons, cette statistique implique une transition de phase à basse température, responsable notamment de la superfluidité de l'hélium ou de la supraconductivité de certains matériaux. Plus généralement, les bosons montrent une tendance à s'agréger lors des processus d'interaction entre les particules, comme lors de l'émission stimulée de lumière qui donne lieu au laser.
+Sommaire
+1 Historique
+2 Particules élémentaires se comportant comme des bosons
+3 Bosons composites
+4 Autres dénominations de bosons
+4.1 Boson vecteur
+4.2 Boson scalaire
+5 Phénomènes montrant le comportement bosonique
+6 Notes et références
+7 Bibliographie
+8 Voir aussi
+8.1 Articles connexes
+8.2 Liens externes
+Historique[modifier | modifier le code]
+Le terme de boson provient du nom du physicien indien Satyendranath Bose et aurait été utilisé pour la première fois par Paul Dirac[1]. Bose se rendit compte le premier que pour expliquer la loi de Planck décrivant le rayonnement du corps noir à partir des photons précédemment découverts par Einstein, il fallait supposer que les photons ne suivent pas la statistique de Maxwell-Boltzmann, mais plutôt une statistique désormais appelée statistique de Bose-Einstein. Bose écrit un court article, Planck's Law and the Hypothesis of Light Quanta, qu'il envoie à Albert Einstein, après un rejet par le Philosophical Magazine. Einstein est favorablement impressionné et le recommande pour publication dans Zeitschrift für Physik, et il en fait lui-même la traduction de l'anglais vers l'allemand. Einstein va également étendre la notion de boson à d'autres particules telles que les atomes (?) et contribuer à la popularité du concept de boson. indistinguables l'une de l'autre, et n'ont pas d'individualité propre. Il s'ensuit qu'une mesure complète sur chacune des particules ne peut suffire à caractériser complètement l'état du système, ce phénomène étant dénommé dégénérescence d'échange.
+Pour illustrer ce que l'on entend par dégénérescence d'échange, supposons donné un ensemble complet d'observables qui commutent (ECOC) pour une particule et notons
+la base de vecteurs propres communs à toutes les observables de cet ECOC. Si le système est composé d'une seule particule, et que l'on mesure toutes les observables de l'ECOC, d'après les postulats de la mécanique quantique, on va projeter l'état du système sur l'un des vecteurs ∣up⟩, de sorte que l'état du système après la mesure sera complètement connu. Supposons maintenant que le système soit composé de deux particules et que l'on effectue une mesure complète de chacune des particules. Le résultat que l'on obtient sera : une particule est dans l'état ∣up⟩ et l'autre est dans l'état ∣up'⟩, mais puisqu'on ne peut pas identifier les particules, on ne sait pas laquelle est dans ∣up⟩ et laquelle est dans ∣up'⟩. En conséquence, le vecteur mathématique décrivant l'état du système est indéterminé. Ce peut être :
+,
+, en échangeant le rôle des particules par rapport à ci-dessus,
+ou n'importe quel vecteur de l'espace
+engendré par ces deux vecteurs.
+Pour lever la dégénérescence d'échange[2], on construit deux opérateurs S et A qui projettent l'espace
+sur un ket unique soit complètement symétrique lors de l'échange de deux particules (dans le cas de S), soit complètement antisymétrique (dans le cas de A). On postule ensuite que le vecteur représentant correctement l'état du système est ce ket unique. Les particules ayant un vecteur d'état complètement symétrique sont les bosons, tandis que celles ayant un vecteur d'état complètement antisymétrique sont les fermions. Cette approche n'est pas limitée au cas de deux particules et peut être généralisée à un nombre quelconque de particules. Des travaux récents de physique théorique ont découvert d'autres moyens de résoudre ce problème qui conduisent à des comportements différents, tels que les anyons ou les plektons en théorie des cordes. Toutefois, toutes les particules élémentaires décrites par le modèle standard sont soit des bosons lorsque leur spin est entier, soit des fermions lorsque leur spin est demi-entier.
+Particules élémentaires se comportant comme des bosons[modifier | modifier le code]
+Parmi les particules élémentaires découvertes à ce jour, les bosons sont tous des bosons de jauge, c’est-à-dire qu'ils agissent comme des intermédiaires des interactions fondamentales :
+le photon est le vecteur de l'interaction électromagnétique
+les huit gluons de l'interaction forte
+les bosons Z0, W- et W+ de l'interaction faible
+Le modèle standard de la physique des particules prédit l'existence d'une particule supplémentaire, le boson de Higgs, objet de nombreuses recherches. L'annonce de résultats préliminaires a été faite le 4 juillet 2012 au Centre européen de recherche nucléaire (CERN). Les expériences du CERN ont permis d'observer une particule dont les caractéristiques sont compatibles à 99,9999% avec celles du boson de Higgs tant attendu [3]. L'expérience a été menée près de Genève, grâce à l'accélérateur de particules LHC et ses deux principaux détecteurs . Le graviton, boson de jauge hypothétiquement responsable de l'interaction gravitationnelle, n'entre pas dans le cadre du modèle standard et toutes les tentatives de le lier à ce dernier ont pour l'instant échoué.
+L'existence possible d'autres bosons en dehors du modèle standard est actuellement recherchée, comme dans le cas de l'axion qui serait un boson très léger.
+Bosons composites[modifier | modifier le code]
+Les particules composées de particules plus élémentaires, comme les atomes ou le proton, peuvent être des fermions ou des bosons, selon leur spin total (entier pour les bosons, demi-entier pour les fermions).
+Exemples de bosons composites :
+atome d'hélium 4
+état de deux électrons formant une paire de Cooper dans les matériaux supraconducteurs
+exciton
+polariton
+Autres dénominations de bosons[modifier | modifier le code]
+Selon leur spin, les bosons peuvent être amenés à être décrits sous d'autres dénominations.
+Boson vecteur[modifier | modifier le code]
+Article détaillé : Boson vecteur.
+Le boson vecteur est un boson de spin 1. Les bosons vecteurs élémentaires sont les bosons de jauge. Il existe aussi des bosons composés vecteurs : les mésons vecteurs.
+Boson scalaire[modifier | modifier le code]
+Articles détaillés : Boson scalaire et Champ scalaire.
+Le boson scalaire est un boson de spin 0. Le seul boson scalaire élémentaire est le boson de Higgs, bien que certaines théories en évoquent d'autres comme l'inflaton. Parmi les différents mésons scalaires (en) on peut citer le pion.
+Phénomènes montrant le comportement bosonique[modifier | modifier le code]
+Articles détaillés : statistique de Bose-Einstein et condensat de Bose-Einstein.
+Condensation de bosons – des atomes de rubidium – dans un état quantique unique lorsque l'on baisse la température.
+Alors que les fermions obéissent au principe d'exclusion de Pauli : « Un état quantique donné ne peut être occupé que par au plus un seul fermion », ce n'est pas le cas des bosons. Un état quantique bosonique peut être occupé par un nombre quelconque de bosons. C'est même l'inverse qui se produit et les bosons tendent à se rassembler dans un état quantique donné.
+En conséquence, comme les photons ainsi que de nombreux atomes sont des bosons, dans certains cas ils peuvent s'accumuler dans le même niveau. Ceci permet d'expliquer :
+le rayonnement du corps noir, qui s'explique par la statistique des photons ;
+la population macroscopique d'un mode unique de photon dans un laser ;
+le groupement des photons lors de leur détection (expérience de Hanbury-Brown et Twiss)
+la transition de phase vers un état cohérent à basse température, c'est-à-dire dans lequel deux parties du système puissent interférer. Une telle transition de phase est observée dans différents systèmes :
+dans les gaz atomiques dilués, qui sont l'exemple le plus proche de la condensation de Bose-Einstein d'un gaz parfait de bosons envisagée initialement par Bose et Einstein,
+dans l'Hélium 4 qui devient superfluide à basse température,
+dans certains métaux qui deviennent supraconducteurs à basse température
+Dans ces deux derniers cas, les interactions entre particules sont fortes et l'état fondamental dans lequel se développe le condensat est très différent de l'état fondamental du système en l'absence de condensat. En particulier, il existe de fortes corrélations entre les atomes.

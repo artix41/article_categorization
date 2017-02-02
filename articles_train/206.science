@@ -1,0 +1,142 @@
+Onde électromagnétique — Wikipédia
+Onde électromagnétique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'onde électromagnétique est un modèle utilisé pour représenter les rayonnements électromagnétiques.
+Il convient de bien distinguer :
+le rayonnement électromagnétique, qui est le phénomène étudié, et
+l'onde électromagnétique, qui est une des représentations du phénomène. Une autre représentation prend en compte l'existence du photon.
+Une onde lumineuse est une onde électromagnétique dont la longueur d'onde correspond au spectre visible, soit entre les longueurs d'onde 380 et 780 nm, ce qui correspond aux énergies de photon de 1.5 à 3 eV.
+Sommaire
+1 Description
+2 Propriétés
+2.1 Polarisation
+2.2 Comportement ondulatoire
+2.3 Dualité onde-corpuscule
+3 Historique
+4 Notes
+5 Voir aussi
+Description[modifier | modifier le code]
+Comme toutes les ondes, une onde électromagnétique peut s'analyser en utilisant l'analyse spectrale ; on peut décomposer l'onde en ondes dites « monochromatiques » (voir aussi Spectre d'ondes planes).
+Onde électromagnétique : oscillation couplée du champ électrique et du champ magnétique, modèle du dipôle vibrant (le trièdre
+doit être direct)
+Une onde électromagnétique monochromatique peut se modéliser par un dipôle électrostatique vibrant, ce modèle reflétant convenablement, par exemple, les oscillations du nuage électronique d'un atome intervenant dans la diffusion Rayleigh (modèle de l'électron élastiquement lié).
+Les variations des champs électriques et magnétiques sont liées par les équations de Maxwell, on peut donc représenter l'onde par un seul de ces champs, en général le champ électrique. On peut alors écrire l'équation générale d'une onde plane monochromatique :
+où
+est la pulsation et vaut
+est le vecteur position du point considéré,
+est le vecteur d'onde dont la norme vaut
+[1],
+étant la longueur d'onde ;
+est la phase à l'origine.
+On utilise aussi fréquemment la forme complexe :
+On obtiendra alors les grandeurs physiques, réelles, en prenant la partie réelle de cette forme complexe.
+Propriétés[modifier | modifier le code]
+Polarisation[modifier | modifier le code]
+La polarisation correspond à la direction et à l'amplitude du champ électrique . Pour une onde non polarisée, ou naturelle,
+tourne autour de son axe de façon aléatoire et imprévisible au cours du temps. Polariser une onde correspond à donner une trajectoire définie au champ électrique. Il y a plusieurs sortes de polarisation:
+La polarisation linéaire quand
+reste toujours dans le même plan.
+La polarisation circulaire, le champ électrique tourne autour de son axe en formant un cercle.
+La polarisation elliptique, le champ électrique tourne autour de son axe et change d'amplitude pour former une ellipse.
+Comportement ondulatoire[modifier | modifier le code]
+Propagation
+Dans un milieu homogène et isotrope, l'onde électromagnétique se propage en ligne droite. Lors de la rencontre avec un obstacle, il y a diffraction ; lors d'un changement de milieu, il y a réflexion et réfraction, il y a aussi réfraction si les propriétés du milieu changent selon l'endroit (hétérogénéité). Voir aussi Principe de Huygens-Fresnel.
+Réflexion
+Lors d'un changement de milieu de propagation, une partie de l'onde électromagnétique repart vers le milieu d'origine, c'est la réflexion.
+Le cas le plus connu de la réflexion est le miroir, mais celle-ci concerne également les rayons X (miroir à rayons X) et les ondes radio : réflexion sur la ionosphère des ondes mégahertz, antenne parabolique, réflexion sur la Lune…
+Réfraction
+Lors d'un changement de milieu de propagation, si le second milieu est transparent pour l'onde, celle-ci se propage au travers mais avec une direction différente. Cela concerne la lumière (lentille optique, mirage), mais aussi les ondes radio (réfraction des ondes décamétriques dans la ionosphère).
+Diffusion
+Lorsqu'une onde rencontre un atome, elle se diffuse sur celui-ci, elle change de direction. On distingue la diffusion Rayleigh, dite « diffusion électronique », au cours de laquelle l'onde ne change pas de longueur d'onde, la diffusion Raman qui est une diffusion électronique avec diminution ou augmentation de longueur d'onde, et la diffusion Compton, dans le cas des rayons X diffusant sur des atomes légers, au cours de laquelle la longueur d'onde augmente.
+Interférences
+Comme toutes les ondes, les ondes électromagnétiques peuvent interférer. Dans le cas des radiocommunications, cela provoque un parasitage du signal (voir aussi Rapport signal sur bruit).
+Diffraction
+L'interférence d'ondes diffusées porte le nom de diffraction :
+théorie de la diffraction ;
+diffraction par une fente ;
+fentes de Young ;
+réseau de diffraction ;
+diffraction de rayons X ;
+espace réciproque.
+Flux d'énergie
+Le flux d'énergie à travers une surface est donné par le flux du vecteur de Poynting.
+Dualité onde-corpuscule[modifier | modifier le code]
+La notion d'onde électromagnétique est complémentaire de celle de photon. En fait, l'onde fournit une description plus pertinente de la radiation pour les faibles fréquences (c'est-à-dire les grandes longueurs d'onde) comme les ondes radio.
+En fait, l'onde électromagnétique représente deux choses :
+la variation macroscopique du champ électrique et du champ magnétique ;
+la fonction d'onde du photon, c'est-à-dire que la norme au carré de l'onde est la probabilité de présence d'un photon.
+Lorsque le flux d'énergie est grand devant l'énergie des photons, on peut considérer que l'on a un flux quasi-continu de photons, et les deux notions se recouvrent. Ceci n'est plus vrai lorsque le flux d'énergie est faible (on envoie les photons un par un), la notion de « variation macroscopique » (moyenne) n'a alors plus de sens.
+Le flux d'énergie est donné par le vecteur de Poynting. Chaque photon « emporte » une quantité d'énergie déterminée, valant E = h·ν, h étant la constante de Planck et ν la fréquence. On peut ainsi calculer le flux de photons à travers une surface.
+Historique[modifier | modifier le code]
+La théorie ondulatoire de la lumière a été principalement développée par Christiaan Huygens dans les années 1670, et par Augustin Fresnel. Elle s'opposait à l'époque à la théorie corpusculaire, défendue principalement par René Descartes. Huygens travaillait principalement sur les lois de réflexion et de réfraction, Fresnel développa notamment les notions d'interférence et de longueur d'onde. Les approches ondulatoires et corpusculaires furent réunies par Albert Einstein lorsque celui-ci établit le modèle du photon en 1905, dans ses travaux sur l'effet photo-électrique.
+La grande avancée théorique fut la synthèse des lois de l'électromagnétisme par James Clerk Maxwell. Les équations de Maxwell prédisaient la vitesse des ondes électromagnétiques, et la mesure de la vitesse de la lumière attesta que la lumière était de nature électromagnétique.
+Les ondes radio, à basse fréquence et grande longueur d'onde, furent découvertes à la fin du XIXe siècle avec les travaux notamment d'Alexandre Popov, Heinrich Hertz, Édouard Branly et de Nikola Tesla. Les rayons X, à haute fréquence et faible longueur d'onde, furent découverts par Wilhelm Röntgen en 1895.
+Notes[modifier | modifier le code]
+↑ ce vecteur est parfois défini par 1/λ, l'équation de l'onde est alors
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Onde électromagnétique, sur Wikiversity
+Spectre électromagnétique
+Sensibilité électromagnétique
+Propagation des ondes radio
+Risques sanitaires des télécommunications
+Portail de la physique
+Portail de l’optique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Onde_électromagnétique&oldid=110158166 ».
+Catégories : ÉlectromagnétismeOptique ondulatoireCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Optique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Hrvatski
+Magyar
+Português
+Română
+Srpskohrvatski / српскохрватски
+Српски / srpski
+Türkçe
+Modifier les liens
+Dernière modification de cette page le 22 décembre 2014 à 12:39.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

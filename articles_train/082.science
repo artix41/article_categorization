@@ -1,0 +1,500 @@
+Fusion nucléaire — Wikipédia
+Fusion nucléaire
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Ne doit pas être confondu avec Fusion du cœur d'un réacteur nucléaire.
+Le Soleil, siège de nombreuses réactions de fusion nucléaire.
+La fusion nucléaire, dite parfois fusion thermonucléaire, est un processus où deux noyaux atomiques légers s’assemblent pour former un noyau plus lourd. Cette réaction est à l’œuvre de manière naturelle dans le Soleil et la plupart des étoiles de l'univers.
+La fusion de noyaux légers dégage d’énormes quantités d’énergie provenant de l’attraction entre les nucléons due à l’interaction forte (voir énergie de liaison nucléaire). Elle est, avec la fission nucléaire, l’un des deux principaux types de réactions nucléaires appliquées.
+La masse du nouvel atome obtenu par la fusion est inférieure à la somme des masses des deux atomes légers. Dans le processus de fusion, une partie de la masse est transformée en énergie sous sa forme la plus simple : la chaleur. Cette perte de masse répond à la célèbre formule d'Albert Einstein E=mc2 .
+Note : Dans la fusion deutérium-tritium, la masse perdue est celle du neutron éjecté pour former un atome d'hélium. C'est le fait que ce neutron est rendu libre, qu'il se transforme en chaleur en se désintégrant en un peu moins de 15 minutes.
+Un de ses intérêts est de pouvoir produire théoriquement beaucoup plus d’énergie (de 3 à 4 fois plus), à masse de « combustible » égale, que la fission. De plus, les océans contiennent naturellement suffisamment de deutérium, 33 grammes par mètre cube[1],[2], pour permettre d’alimenter en énergie la planète pendant 100 millions d'années[3], (1 m3 d'eau peut potentiellement fournir autant d'énergie que la combustion de 700 tonnes de pétrole)[2].
+En dépit de travaux de recherche réalisés dans le monde entier depuis les années 1950, aucune application industrielle de la fusion à la production d’énergie n’a encore abouti, en dehors des armes nucléaires avec la bombe H, étant donné que cette application ne vise aucunement à contenir et maîtriser la réaction produite. Il en existe cependant quelques autres usages moins médiatisés, comme les générateurs de neutrons. Actuellement, le Centre d'études scientifiques et techniques d'Aquitaine utilise le principe de fusion au sein du Laser Mégajoule, destiné à assurer la pérennité de la dissuasion nucléaire de la France.
+Contrairement à la fission nucléaire, les produits de la fusion eux-mêmes (principalement de l’hélium 4) ne sont pas radioactifs, mais lorsque la réaction utilisée émet des neutrons rapides, ces derniers peuvent transformer les noyaux qui les capturent en isotopes pouvant l’être.
+Il ne faut pas confondre la fusion nucléaire avec la fusion du cœur d’un réacteur nucléaire, qui est un accident nucléaire particulièrement redoutable[4].
+Sommaire
+1 Mécanisme de la fusion
+1.1 Répulsion électrique
+1.2 Température très élevée
+1.3 Émission de particules
+1.4 Bilan d'énergie
+1.5 Des noyaux légers et stables
+2 La fusion contrôlée
+2.1 Procédés
+2.1.1 Fusion par confinement magnétique
+2.1.1.1 Les configurations fermées
+2.1.1.2 Les configurations ouvertes
+2.1.1.3 Le chauffage dans la fusion par confinement magnétique
+2.1.2 Fusion par confinement inertiel
+2.1.3 Etat d'avancement des projets
+2.2 Plasmas de fusion
+2.3 Analyse de la réaction deutérium + tritium
+2.3.1 Difficultés en ce qui concerne la production de « carburant »
+2.4 Applications
+3 Les réactions de fusion importantes
+3.1 Chaines de réactions en astrophysique
+3.2 Critères et candidats pour les réactions terrestres
+3.3 Neutronicité, exigences en confinement et densité de puissance
+3.4 Pertes par Bremsstrahlung dans les plasmas quasi-neutres isotropes
+4 Sécurité
+5 Formations universitaires
+6 Notes et références
+7 Source
+8 Voir aussi
+8.1 Articles connexes
+8.2 Bibliographie
+8.3 Liens externes
+Mécanisme de la fusion[modifier | modifier le code]
+Fusion nucléaire : un noyau de deutérium et un noyau de tritium fusionnent en un noyau d'hélium.
+Répulsion électrique[modifier | modifier le code]
+Une réaction de fusion nucléaire nécessite que deux noyaux atomiques s’interpénètrent. Il faut pour cela que les noyaux surmontent l'intense répulsion due à leurs charges électriques toutes deux positives (phénomène dit de « barrière coulombienne »). Si l’on appliquait uniquement les lois de la mécanique classique, la probabilité d’obtenir la fusion des noyaux serait très faible, en raison de l’énergie cinétique (correspondant à l’agitation thermique) extrêmement élevée nécessaire au franchissement de la barrière. Cependant, la mécanique quantique prévoit, ce qui se vérifie en pratique, que la barrière coulombienne peut également être franchie par effet tunnel, à des énergies plus faibles.
+Température très élevée[modifier | modifier le code]
+Les énergies nécessaires à la fusion restent très élevées, correspondant à des températures de plusieurs dizaines ou même centaines de millions de degrés Celsius selon la nature des noyaux (voir plus bas : plasmas de fusion). Au sein du Soleil par exemple, la fusion de l’hydrogène, qui aboutit, par étapes, à produire de l’hélium s’effectue à des températures de l’ordre de 15 millions de kelvins, mais suivant des schémas de réaction différents de ceux étudiés pour la production d’énergie de fusion sur Terre. Dans certaines étoiles plus massives, des températures plus élevées permettent la fusion de noyaux plus lourds.
+Émission de particules[modifier | modifier le code]
+Lorsque deux petits noyaux fusionnent, le noyau résultant se retrouve dans un état instable et doit revenir à un état stable d’énergie plus faible, en éjectant une ou plusieurs particules (photon, neutron, proton, noyau d’hélium, selon le type de réaction), l’énergie excédentaire se répartit entre le noyau et les particules émises, sous forme d’énergie cinétique.
+Bilan d'énergie[modifier | modifier le code]
+Pour que la fusion puisse être énergétiquement rentable, il serait nécessaire que l’énergie produite soit supérieure à l’énergie consommée pour l’entretien des réactions et par pertes thermiques vers le milieu extérieur. Dans les réacteurs à fusion, il faut ainsi éviter tout contact entre le milieu de réaction et les matériaux de l’environnement, ce que l’on réalise par un confinement immatériel (magnétique ou inertiel).
+Des noyaux légers et stables[modifier | modifier le code]
+Dans les cas où aucun état à peu près stable n’existe, il peut être impossible de provoquer la fusion de deux noyaux (exemple : 4He + 4He).
+Les réactions de fusion qui dégagent le plus d’énergie sont celles qui impliquent les noyaux les plus légers. Ainsi les noyaux de deutérium (un proton et un neutron) et de tritium (un proton et deux neutrons) sont impliqués dans les réactions suivantes :
+deutérium + deutérium → (hélium 3 + 0,82 MeV(1,31×10-13 joules)) + (neutron + 2,45 MeV(3,93×10-13 joules))
+deutérium + deutérium → (tritium + 1,01 MeV(1,62×10-13 joules)) + (proton + 3,03 MeV(4,85×10-13 joules))
+deutérium + tritium → (hélium 4 + 3,52 MeV(5,64×10-13 joules)) + (neutron + 14,1 MeV(2,25×10-12 joules))
+deutérium + hélium 3 → (hélium 4 + 3,67 MeV(5,88×10-13 joules)) + (proton + 14,7 MeV(2,35×10-12 joules))
+La fusion contrôlée[modifier | modifier le code]
+Si la fission est contrôlée depuis longtemps pour la production d'électricité, ce n'est pas le cas de la fusion.
+Cette réaction est difficile à réaliser car il faut rapprocher deux noyaux qui ont tendance naturellement à se repousser. Maîtriser sur Terre la fusion de noyaux légers, tels que le deutérium et le tritium, ouvrirait la voie à des ressources en énergie quasiment illimitées. Cet enjeu considérable a mené les communautés scientifiques nationales et internationales à lancer plusieurs projets d'envergure.
+Procédés[modifier | modifier le code]
+Il existe différents procédés concevables permettant d’arriver à confiner le milieu de réaction pour produire des réactions de fusion nucléaire, notamment la fusion par confinement magnétique et la fusion par confinement inertiel. Aucun d’entre eux n’a encore abouti à des résultats industriels pour la production d’énergie électrique.
+Fusion par confinement magnétique[modifier | modifier le code]
+Les configurations fermées[modifier | modifier le code]
+Dans ces configurations, les lignes de champ magnétique confinent efficacement les particules.
+les tokamaks, où l’on confine un mélange gazeux d’isotopes d’hydrogène grâce à un champ magnétique produit par des bobines et un courant induit circulant dans le plasma (exemples : Tore Supra, ITER) ;
+les stellarators, où le confinement est entièrement assuré par les bobines (exemple : Wendelstein 7-X) ;
+les sphéromaks de forme sphérique ;
+Les configurations ouvertes[modifier | modifier le code]
+les machines à piège à miroirs magnétiques, qui pourraient aussi être utilisées pour la propulsion spatiale.
+Le chauffage dans la fusion par confinement magnétique[modifier | modifier le code]
+Divers moyens sont à la disposition des physiciens de la fusion pour chauffer le plasma de deutérium et de tritium.
+Un premier moyen est constitué par un système permettant d’engendrer un intense courant électrique au sein du plasma. Dans la mesure où des électrodes pollueraient le plasma, les chercheurs induisent ce courant grâce à un champ magnétique variable, soit croissant, soit décroissant. Ainsi, le courant induit possède des limites.
+Il est aussi possible de chauffer le plasma au moyen d’un faisceau d’atomes neutres. Ces derniers sont, dans un dispositif distinct, ionisés pour pouvoir être accélérés par un champ électrique. Par la suite et avant d’être injectés dans le plasma, ils sont neutralisés. Des atomes neutres sont nécessaires puisque des ions seraient déviées par le champ de confinement et ne seraient pas en mesure d’accéder au centre du plasma. Une fois au centre de ce dernier, les atomes neutres s’ionisent et, du fait de leur excédent d’énergie par rapport à l’énergie cinétique moyenne du tritium et du deutérium, cèdent une partie de leur énergie cinétique au milieu par des collisions. Ces atomes neutres ne sont autres que des atomes de tritium et de deutérium. Ils assurent donc aussi l’approvisionnement en combustible.
+Fusion par confinement inertiel[modifier | modifier le code]
+Dans cette voie, l'énergie est apportée par un faisceau de lumière laser ou bien par un faisceau de particules chargées (électrons ou ions) à une bille de combustible de quelques millimètres de diamètre. L'ionisation et le chauffage rapide de la paroi externe de la cible conduit à une expansion du plasma, à une vitesse égale à environ c/1000, (c désignant la célérité de la lumière dans le vide, soit environ 3×108 m/s). Il s'ensuit l'apparition d'une onde de choc centripète, qui va concentrer le combustible deutérium-tritium au centre de la cible, dans un diamètre environ 10 fois plus faible que le diamètre initial. On parle d'effet fusée pour qualifier cette convergence de la masse de la cible opposée à l'expansion du plasma périphérique (principe des actions réciproques de la troisième loi de Newton). Cette compression conduit à la fois à densifier le milieu combustible (~1000× ; soit : 10×10×10), pour donner une densité nulle part accessible sur Terre, à savoir 1026 cm-3, et une température de ~10 millions de degrés. Ces conditions conduisent à un nombre très important de réactions de fusion, pendant environ 10 picosecondes.
+les machines à confinement inertiel par laser, où une microbille de deutérium-tritium enfermée dans une coquille de plastique est éclairée par de puissants lasers dont la puissance dépasse 1 pétawatt (exemple : laser Mégajoule, National Ignition Facility) ; un gain de 10 entre l'énergie de fusion et l'énergie apportée par laser (environ 1,8 MJ) est attendu dans les expériences qui commenceront dans les années 2010. En 2014 les chercheurs du NIF sont parvenus à dégager le premier rendement positif (de l'ordre de 1,7 soit de 170%) pour ce type de dispositif[5],[6].
+les machines à striction axiale (ou Z-pinch), où une pastille d’isotopes est comprimée par des impulsions de rayons X (exemple : Z machine (plus de 2 milliards de degrés atteints !) des Laboratoires Sandia). Les conditions de fusion ont été obtenues en mars 2006 dans une Z machine à confinement axial[7]. Les travaux ont commencé sur la conception d’un réacteur expérimental à impulsion utilisant ce principe.
+Etat d'avancement des projets[modifier | modifier le code]
+Etat d'avancement des principaux projets de fusion nucléaire contrôlée (Octobre 2014)
+Catégorie
+Projet
+Date de mise en service
+Résultats
+Difficultés rencontrées
+Commentaires
+Tokamak
+ITER
+2020-2021
+N/A
+N/A
+Construction en cours - Projet actuellement le plus avancé (1ère fusion D-T en Tokamak en 1991, Qmax = 0.65) - Objectif atteindre Q=10 (10x plus d'énergie produite que consommée)
+Stellarator
+Wendelstein 7-X
+2015
+N/A
+N/A
+Pourra bénéficier des résultats d'ITER (points communs)
+Striction axiale
+Z Machine
+2010
+Fusion réalisée en 2014[8]. Température 3x inférieure à celle d'ITER.
+Taux de réaction 10000 fois trop faible pour obtenir un rendement Q>1
+Programme privé américain développé par Lockheed Martin dans les laboratoires de sa filiale Sandia (soucis de confidentialité). C'est un simulateur dont les expériences de fusion ne représentent qu'une partie de son utilité.
+Piège magnétique
+CFR
+N/A
+Avancées théoriques. Compacité potentielle du système.
+Avancées floues, pas de prototype fonctionnel
+Programme privé américain. Lockheed Martin cherche à mettre au point un prototype à court terme.
+Confinement laser
+Laser Mégajoule
+2014
+N/A
+N/A
+L'objectif premier est d'être un simulateur permettant de remplacer les essais nucléaires conventionnels. Produire de l'énergie n'est qu'un axe secondaire de recherche.
+Plasmas de fusion[modifier | modifier le code]
+À la température à laquelle la fusion est susceptible de se produire, la matière est à l’état de plasma.
+Il s’agit d’un état particulier de la matière première dans lequel les atomes ou les molécules forment un gaz ionisé.
+Un ou plusieurs électrons du nuage électronique qui entoure chaque noyau ont été arrachés, laissant des ions chargés positivement et des électrons libres, l’ensemble étant électriquement neutre.
+Dans un plasma thermique, la grande agitation des ions et des électrons produit de nombreuses collisions entre les particules. Pour que ces collisions soient suffisamment violentes et entrainent une fusion, trois grandeurs interviennent :
+la température T ;
+la densité N ;
+le temps de confinement τ.
+Le critère de Lawson établit que le facteur Nτ doit atteindre un certain seuil pour obtenir le breakeven où l’énergie libérée par la fusion est égale à l’énergie dépensée. L’ignition se produit ensuite à un stade beaucoup plus élevé de production d’énergie (impossible à créer dans les réacteurs actuels). Il s’agit du seuil à partir duquel la réaction est capable de s’auto-entretenir. Pour la réaction deutérium + tritium, ce seuil est de 1014 s/cm3.
+Analyse de la réaction deutérium + tritium[modifier | modifier le code]
+Fusion du deutérium et du tritium.
+L’énergie de liaison des constituants provient de la force d’interaction nucléaire forte, l’une des quatre forces d’interaction fondamentales de l’Univers.
+Or l’investissement énergétique à fournir pour obtenir cette liaison est proportionnel au produit des charges électriques des deux noyaux en présence. C’est pourquoi le choix pour la fusion s’est porté sur le deutérium et le tritium, deux isotopes lourds de l’hydrogène, pour lesquels ce produit vaut 1.
+L’énergie minimale à fournir pour obtenir une fusion est de 4 keV (équivalent à une température de 40 millions de kelvin) ; l’énergie libérée est alors de 17,6 MeV répartie pour 80 % dans le neutron émis et pour 20 % dans l’hélium 4 produit.
+Mais l’énergie nécessaire pour atteindre le critère de Lawson et un rendement suffisamment positif se situe vers 10 keV soit 100 millions de degrés Celsius.
+La réaction « deutérium + tritium » se traduit par une émission de neutrons rapides. Ces neutrons sont impossibles à confiner électromagnétiquement car ils ont une charge électrique nulle. Ils sont donc susceptibles d’être capturés par les noyaux d’atomes de la paroi de l’enceinte, qu’ils transmutent parfois en isotopes radioactifs (phénomène d’activation). L’activation peut s’accompagner de production de noyaux d’hélium, susceptibles de fragiliser les matériaux de structure. Elle pourrait compliquer l’usage industriel de la fusion, et fait l’objet d’études avec différentes propositions de solutions (par exemple parois en composites, ou encore alliages spécifiques de fer), mais elles nécessitent des études expérimentales difficiles à réaliser à court terme. Les réactions générant des neutrons ne sont donc pas totalement « propres », mais sont toutefois nettement moins génératrices de déchets que les réactions de fission nucléaire, et la durée de vie de ces déchets est bien inférieure à celle des produits radioactifs créés dans les centrales à fission nucléaire.
+Difficultés en ce qui concerne la production de « carburant »[modifier | modifier le code]
+Si le deutérium est théoriquement disponible naturellement en grandes quantités dans les océans, il nécessite la mise en place de méthodes très complexes et aujourd'hui coûteuses pour en être extrait et stocké.
+Le tritium est très rare dans la nature. Il doit donc être préparé artificiellement et assez rapidement utilisé, car sa nature d’isotope radioactif à courte durée de demi-vie fait que la moitié du tritium naturel ou artificiel produit disparait en 12,3 ans. De plus, il est difficile à confiner (C'est un atome si petit qu'il percole dans l'acier et peut le traverser).
+Un des problèmes posés par cette réaction de fusion deutérium-tritium - si elle devait devenir une source courante d'énergie thermique ou électrique - est que le tritium actuellement produit par les centrales nucléaires (filières CANDU majoritairement) pourrait en outre rapidement manquer (en quelques décennies dès les phases d'expérimentation et premières application)[9].
+Applications[modifier | modifier le code]
+Si la fusion a pu être utilisée dans le domaine militaire avec les bombes H, il n’existe pas encore d’application civile de la fusion pour la production d’électricité. Seuls des prototypes d’étude ont pu être construits, comme par exemple le réacteur JET.
+Mais, un projet international est actuellement en cours : ITER ( International Thermonuclear Experimental Reactor) . Cette future centrale a pour objectif de produire 10 fois plus qu'elle ne consomme, ce qui permettra de faire de la fusion nucléaire une source d'énergie fiable[réf. nécessaire].
+Les réactions de fusion importantes[modifier | modifier le code]
+Chaines de réactions en astrophysique[modifier | modifier le code]
+La chaîne proton-proton prédomine dans les étoiles d’une taille similaire ou inférieure à celle du Soleil.
+Le cycle carbone-azote-oxygène prédomine dans les étoiles de masse supérieure à celle du Soleil.
+Le processus de fusion le plus important dans la nature est celui qui alimente les étoiles. Le résultat net est la fusion de quatre protons en une particule alpha (noyau d’hélium 4), accompagnée de la libération de deux positrons, de deux neutrinos (qui transforment deux des protons en neutrons) et d’énergie, mais diverses réactions individuelles sont impliquées selon la masse de l’étoile. Dans les étoiles de taille similaire ou inférieure à celle du Soleil, la chaîne proton-proton prédomine. Dans les étoiles plus lourdes, le cycle carbone-azote-oxygène (CNO) est le plus important. Les deux types de processus sont à l’origine de la création de nouveaux éléments dans le cadre de la nucléosynthèse stellaire.
+Aux températures et densités du cœur des étoiles, le taux de réaction de fusion est notoirement peu élevé. Par exemple, à la température (T ≈ 15 MK) et à la densité (160 g/cm3) du cœur du Soleil, le taux de libération d’énergie est seulement de 276 μW/cm3 - environ le quart du débit de chaleur par unité de volume d’un homme au repos[10]. Ainsi, la reproduction en laboratoire des conditions du cœur des étoiles à des fins de production d’énergie de fusion est totalement impossible à mettre en pratique. Les taux de réaction dépendant fortement de la température (exp(−E/kT)), il est nécessaire, pour atteindre des taux raisonnables de production d’énergie dans des réacteurs à fusion nucléaire, de travailler à des températures 10 à 100 fois plus élevées que celles du cœur des étoiles, soit T ≈ 0,1 — 1 GK (de l’ordre de 100 millions à un milliard de kelvins).
+Critères et candidats pour les réactions terrestres[modifier | modifier le code]
+Dans la fusion mise en œuvre par l’homme, rien n’impose que le combustible utilisé soit constitué de protons, et il est possible d’employer des températures plus élevées pour accéder à des réactions de plus grande section efficace. Cela implique une valeur plus faible du critère de Lawson, et donc moins d’efforts à produire pour le démarrage des réactions. La production de neutrons, qui constitue un sujet de préoccupation car elle entraine une activation radiologique de la structure du réacteur, possède en contrepartie l’avantage d’autoriser l’extraction de l’énergie de fusion ainsi que la production de tritium. Les réactions qui ne produisent pas de neutrons sont dites aneutroniques.
+Pour être utilisable comme source d’énergie, une réaction de fusion doit satisfaire à plusieurs critères. Elle doit :
+être exothermique : Cette condition semble évidente, mais elle limite les réactifs à la partie de la courbe des énergies de liaison correspondant aux faibles numéros atomiques Z (nombre de protons). Elle fait également de l’hélium 4He le produit le plus fréquent en raison de ses liaisons extrêmement étroites, bien que l’on rencontre également 3He et 3H ;
+impliquer des noyaux à Z faible : La répulsion électrostatique doit être vaincue pour que les noyaux puissent se rapprocher suffisamment pour fusionner ;
+avoir deux réactifs : À toutes les densités inférieures à celles des étoiles, la collision simultanée de trois particules est trop improbable. Dans le cas du confinement inertiel, on dépasse à la fois les densités et les températures stellaires, ce qui permet de compenser la faiblesse du troisième paramètre du critère de Lawson, la très brève durée de confinement ;
+avoir deux produits ou plus : Ceci permet la conservation simultanée de l’énergie et de l’impulsion ;
+conserver à la fois les protons et les neutrons : Les sections efficaces pour l’interaction faible sont trop petites.
+Peu de réactions satisfont tous ces critères. Les suivantes sont celles dont les sections efficaces sont les plus grandes[réf. nécessaire] :
+(1)
+2D
++
+3T
+→
+4He
+(
+3,5 MeV
+)
++
+n0
+(
+14,1 MeV
+)
+(2i)
+2D
++
+2D
+→
+3T
+(
+1,01 MeV
+)
++
+p+
+(
+3,02 MeV
+)
+50 %
+(2ii)
+→
+3He
+(
+0,82 MeV
+)
++
+n0
+(
+2,45 MeV
+)
+50 %
+(3)
+2D
++
+3He
+→
+4He
+(
+3,6 MeV
+)
++
+p+
+(
+14,7 MeV
+)
+(4)
+3T
++
+3T
+→
+4He
++
+2 n0
++
+11,3 MeV
+(5)
+3He
++
+3He
+→
+4He
++
+2 p+
++
+12,9 MeV
+(6i)
+3He
++
+3T
+→
+4He
++
+p+
++
+n0
++
+12,1 MeV
+51 %
+(6ii)
+→
+4He
+(
+4,8 MeV
+)
++
+2D
+(
+9,5 MeV
+)
+43 %
+(6iii)
+→
+4He
+(
+0,5 MeV
+)
++
+n0
+(
+1,9 MeV
+)
++
+p+
+(
+11,9 MeV
+)
+6 %
+(7i)
+2D
++
+6Li
+→
+2 4He
++
+22,4 MeV
+(7ii)
+→
+3He
++
+4He
++
+n0
++
+2,56 MeV
+(7iii)
+→
+7Li
++
+p+
++
+5,0 MeV
+(7iv)
+→
+7Be
++
+n0
++
+3,4 MeV
+(8)
+p+
++
+6Li
+→
+4He
+(
+1,7 MeV
+)
++
+3He
+(
+2,3 MeV
+)
+(9)
+3He
++
+6Li
+→
+2 4He
++
+p+
++
+16,9 MeV
+(10)
+p+
++
+11B
+→
+3 4He
++
+8,7 MeV
+Pour les réactions avec deux produits, l’énergie est répartie entre eux en proportion inverse de leurs masses, comme indiqué. Dans la plupart des réactions avec trois produits, la distribution des énergies est variable. Pour les réactions qui peuvent donner naissance à plus d’un ensemble de produits, les proportions sont indiquées. Certaines réactions candidates peuvent être éliminées immédiatement[11]. La réaction D-6Li ne présente aucun avantage par rapport à p-11B car, si elle est pratiquement aussi difficile à déclencher, elle produit considérablement plus de neutrons à travers des réactions 2D-2D annexes. Il existe également une réaction p-7Li, cependant sa section efficace est bien trop faible, sauf peut-être quand Ti > 1 MeV, mais à de telles températures une réaction endothermique, produisant directement des neutrons, devient très significative. Il existe enfin une réaction p-9Be, qui non seulement est difficile à déclencher, mais dans laquelle 9Be peut être aisément amené à se scinder en deux alphas et un neutron.
+Outre les réactions de fusion, les réactions suivantes impliquant des neutrons sont importantes pour la production de tritium dans les bombes à fusion « sèches » et certains réacteurs en projet :
+n0
++
+6Li
+→
+3T
++
+4He
+n0
++
+7Li
+→
+3T
++
+4He
++
+n0
+Pour évaluer l’utilité de ces réactions, outre les réactifs, les produits, et l’énergie libérée, on doit aussi disposer d’informations sur la section efficace. Tout dispositif de fusion possède une pression maximale qu’il est capable de maintenir, et un dispositif économique devra toujours travailler à proximité de ce maximum. Cette pression étant donnée, l’énergie de fusion maximale est obtenue en choisissant une température telle que <σv>/T2 soit maximal. C’est aussi la température à laquelle la valeur du triple produit nTτ requise pour l’ignition est minimale, cette dernière étant inversement proportionnelle à <σv>/T2 (voir critère de Lawson). Cette température optimale ainsi que la valeur de <σv>/T2 à cette température sont données pour quelques-unes de ces réactions dans la table suivante.
+Combustible
+T [keV]
+<σv>/T2 [m3/s/keV2]
+2D-3T
+13,6
+1,24×10-24
+2D-2D
+15
+1,28×10-26
+2D-3He
+58
+2,24×10-26
+p+-6Li
+66
+1,46×10-27
+p+-11B
+123
+3,01×10-27
+Nombre de ces réactions forment des chaines. Par exemple, un réacteur alimenté en 3T et 3He crée un peu de 2D, qu’il est alors possible d’utiliser dans la réaction 2D + 3He si les énergies sont « correctes ». Une idée élégante consiste à combiner les réactions (8) et (9). 3He produit par la réaction (8) est susceptible de réagir avec 6Li produit par la réaction (9), avant sa thermalisation complète. On produit ainsi un proton qui à son tour peut subir la réaction (8) avant thermalisation. Une analyse détaillée montre que cette idée ne fonctionnera en fait pas très bien, mais c’est un bon exemple d’un cas où l’hypothèse habituelle d’un plasma maxwellien n’est pas appropriée.
+Neutronicité, exigences en confinement et densité de puissance[modifier | modifier le code]
+Les seules réactions de fusion produites jusqu’à présent par l’homme qui aient atteint l’ignition sont celles qui ont été créées dans les bombes à hydrogène ; on voit ici l’explosion d’Ivy Mike, premier essai d’une telle bombe.
+N’importe laquelle des réactions ci-dessus peut en principe être à la base de la production d’énergie de fusion. Outre la température et la section efficace abordées plus haut, il est nécessaire d'examiner l’énergie totale des produits de fusion Efus, l’énergie des produits de fusion électriquement chargés Ech, et le numéro atomique Z des réactifs autres que les isotopes de l’hydrogène.
+Cependant, la spécification de la réaction 2D-2D entraine certaines difficultés. Tout d’abord, il faut effectuer une moyenne sur les deux branches (2i) et (2ii). Il faut ensuite, ce qui est plus difficile, décider comment traiter les produits 3T et 3He. 3T « brule » si bien dans un plasma de deutérium qu’il est pratiquement impossible de l’en extraire. La réaction 2D-3He est optimale à une température bien plus élevée, et la combustion à la température optimale pour 2D-2D peut être faible ; il semble donc raisonnable de supposer que 3T va brûler, mais pas 3He, et que l’énergie ainsi libérée va s’ajouter à celle de la réaction. L’énergie de fusion 2D-2D sera donc Efus = (4,03+17,6+3,27)/2 = 12,5 MeV, et celle des particules chargées Ech = (4,03+3,5+0,82)/2 = 4,2 MeV.
+Un autre aspect spécifique de la réaction 2D-2D tient à la présence d’un seul réactif, ce que l’on doit prendre en compte lors du calcul du taux de réaction.
+En se basant sur ces choix, les paramètres de quatre des réactions les plus importantes sont présentés dans la table suivante :
+Combustible
+Z
+Efus [MeV]
+Ech [MeV]
+Neutronicité
+2D-3T
+1
+17,6
+3,5
+0,80
+2D-2D
+1
+12,5
+4,2
+0,66
+2D-3He
+2
+18,3
+18,3
+~0,05
+p+-11B
+5
+8,7
+8,7
+~0,001
+La dernière colonne correspond à la neutronicité de la réaction, définie comme la fraction de l’énergie de fusion libérée sous forme de neutrons. C’est un indicateur important de l’ampleur des problèmes associés aux neutrons, tels que les dommages provoqués par les radiations, la protection biologique, la télémanipulation et la sécurité. Pour les deux premières réactions, elle est donnée par (Efus-Ech)/Efus. Pour les deux dernières, où cette formule donnerait un résultat égal à 0, les valeurs indiquées sont des estimations grossières basées sur des réactions annexes qui produisent des neutrons dans un plasma en équilibre thermique.
+Bien entendu, il est nécessaire de mélanger les réactifs dans les proportions optimales. C’est le cas lorsque chaque ion de réactif et ses électrons associés participent pour moitié à la pression. En supposant que la pression totale est fixée, cela signifie que la densité des ions non hydrogène est plus faible que celle des ions hydrogène d’un facteur 2/(Z+1). En conséquence le taux de ces réactions est réduit du même facteur, ce qui constitue la différence la plus importante dans les valeurs de <σv>/T2. D’autre part, comme la réaction 2D-2D n’a qu’un seul réactif, le taux est deux fois plus élevé que si le combustible était constitué de deux isotopes d’hydrogène.
+Il existe donc une « pénalité » de (2/(Z+1)) pour les combustibles autres que l’hydrogène, provenant du fait qu’ils ont besoin de plus d’électrons, ce qui absorbe de la pression sans participer à la réaction de fusion. Il est généralement correct de supposer que la température électronique et la température ionique sont pratiquement égales. Certains auteurs envisagent que les électrons puissent être maintenus à une température nettement inférieure à celle des ions. Dans de telles situations, connues sous le nom de « modes à ions chauds », la « pénalité » ne s'appliquerait pas. Il existe de la même façon un « bonus » d’un facteur 2 pour la réaction 2D-2D dû au fait que chaque ion peut réagir avec n’importe lequel des autres ions, et pas seulement avec une fraction d’entre eux.
+La table suivante permet de comparer ces réactions.
+Combustible
+<σv>/T2
+Pénalité/bonus
+Réactivité
+Critère de Lawson
+Densité de puissance (W/m3/kPa2)
+Rapport de densité de puissance
+2D-3T
+1,24×10-24
+1
+1
+1
+34
+1
+2D-2D
+1,28×10-26
+2
+48
+30
+0,5
+68
+2D-3He
+2,24×10-26
+2/3
+83
+16
+0,43
+80
+p+-6Li
+1,46×10-27
+1/2
+1700
+0,005
+6800
+p+-11B
+3,01×10-27
+1/3
+1240
+500
+0,014
+2500
+La valeur maximale de <σv>/T2 est reprise d’une table précédente. Le facteur « pénalité/bonus » est celui lié, soit à un réactif non hydrogène, soit à une réaction sur une espèce unique. Les valeurs de la colonne « réactivité » sont obtenues en divisant 1,24×10-24 par le produit des deuxième et troisième colonnes ; chaque valeur indique le facteur de ralentissement des réactions par rapport à la réaction 2D-3T dans des conditions comparables. La colonne « critère de Lawson » pondère ces résultats par Ech et donne une indication de la difficulté d’atteindre l’ignition avec ces réactions, par rapport à la réaction 2D-3T. La dernière colonne, étiquetée « densité de puissance », pondère la réactivité pratique par Efus ; elle donne le facteur de réduction de la densité de puissance de fusion pour une réaction particulière par rapport à la réaction 2D-3T, et peut être considérée comme une mesure du potentiel économique.
+Pertes par Bremsstrahlung dans les plasmas quasi-neutres isotropes[modifier | modifier le code]
+Les ions subissant la fusion ne le font quasiment jamais de façon isolée, mais sont mélangés à des électrons qui neutralisent la charge électrique des ions en formant un plasma. Les électrons ayant généralement une température comparable ou supérieure à celle des ions, ils entrent en collision avec ceux-ci et émettent des rayons X dont l'énergie est de l'ordre de 10 à 30 keV (Bremsstrahlung ou rayonnement de freinage). Le Soleil et les étoiles sont opaques aux rayons X, mais la plupart des réacteurs de fusion terrestre ont une épaisseur optique faible pour les X de cette gamme d'énergie. La réflexion des rayons X est difficile à obtenir, mais ils sont absorbés (et convertis en chaleur) par une épaisseur de moins d'un mm d'acier inoxydable (qui fait partie du blindage d'un réacteur). Le rapport entre la puissance de fusion produite et ces pertes est un critère de qualité important de la réaction. La valeur maximale de ce rapport est généralement obtenue à une température bien plus élevée que celle qui rend la densité de puissance maximale (voir le sous-chapitre précédent). La table suivante montre la température optimale approximative ainsi que le rapport de puissance à cette température pour plusieurs réactions.
+Combustible
+Ti (keV)
+Pfusion/PBremsstrahlung
+2D-3T
+50
+140
+2D-2D
+500
+2,9
+2D-3He
+100
+5,3
+3He-3He
+1000
+0,72
+p+-6Li
+800
+0,21
+p+-11B
+300
+0,57
+Il est probable que les véritables rapports entre puissance de fusion et puissance de Bremsstrahlung sont notablement plus faibles, et ce pour diverses raisons. En premier lieu, les calculs supposent que l’énergie des produits de fusion est entièrement transmise aux ions du combustible, qui la perdent ensuite par collision au profit des électrons, qui à leur tour perdent de l’énergie par Bremsstrahlung. Cependant, comme les produits de fusion ont une vitesse bien plus grande que les ions du combustible, ils abandonnent une partie significative de leur énergie directement aux électrons. En deuxième lieu, le plasma est supposé ne comporter que des ions de combustible. En pratique, il existe une proportion significative d’ions d’impuretés, qui vont faire diminuer le rapport. En particulier, les produits de fusion eux-mêmes doivent demeurer dans le plasma jusqu’à ce qu’ils aient abandonné leur énergie, et y resteront encore quelque temps, quel que soit le procédé de confinement envisagé. En dernier lieu, tous les canaux de perte d’énergie autres que le Bremsstrahlung ont été considérés comme négligeables. Les deux derniers facteurs sont apparentés. Sur les plans théorique et expérimental, le confinement des particules et le confinement de l’énergie semblent étroitement apparentés. Dans un procédé de confinement qui retient efficacement l’énergie, les produits de fusion vont s’accroître. Si les produits de fusion sont expulsés efficacement, alors le confinement énergétique sera médiocre.
+Les températures pour lesquelles le rapport entre puissances de fusion et de Bremsstrahlung est maximal sont dans tous les cas plus élevées que celles pour lesquelles la densité de puissance est maximale et le triple produit de fusion minimal. Cela ne change pas beaucoup le point de fonctionnement optimal pour 2D-3T car la part de Bremsstrahlung est faible, mais cela pousse les autres combustibles vers des régimes où la densité de puissance relativement à 2D-3T est encore plus faible, et le confinement requis encore plus difficile à obtenir. Pour 2D-2D et 2D-3He, les pertes par Bremsstrahlung constituent un problème sérieux, peut-être même bloquant. Pour 3He-3He, p+-6Li et p+-11B, les pertes par Bremsstrahlung paraissent rendre impossible la réalisation d’un réacteur à fusion utilisant ces combustibles avec un plasma quasi-neutre isotrope[12]. Cette limitation ne s'applique ni aux plasmas non neutres, ni aux plasmas anisotropes[réf. nécessaire], qui ont cependant leurs propres défis à relever.
+Sécurité[modifier | modifier le code]
+De nombreuses difficultés sont à relever en ce qui concerne la fiabilité et la sécurité pour un fonctionnement sur le long terme. Elles varient selon le type de réacteur.
+Elles concernent notamment
+le confinement magnétique qui doit être constant ;
+la gestion de températures et pression très élevées ;
+la gestion du tritium dans les filières en produisant et consommant ;
+les risques combinés de corrosion et radiolyse pour les solutions fonctionnant à température et/ou pression élevée[13]. De nouvelles modalités de test d'effort et de résistance des matériaux doivent être inventées pour simuler les conditions régnant à l'intérieur de ce type de réacteurs[14].
+Le risque sismique et de tsunami.
+Formations universitaires[modifier | modifier le code]
+Après la décision prise en 2006 de réaliser le projet ITER en France, plusieurs institutions françaises d'enseignement supérieur se sont jointes de façon à ouvrir une spécialité de master « sciences de la fusion »[15]. Cette formation vise à préparer des scientifiques et des ingénieurs de très haut niveau, français ou étrangers, aptes à s'investir dans les programmes concernant les recherches sur les plasmas, la fusion et l'énergie. En particulier dans l'exploitation scientifique et technique de grands équipements associés. La spécialité de master couvre donc tous les domaines scientifiques et technologiques concernant les milieux ionisés par les approches théoriques, de simulation et d'expérimentation et propose un enseignement multidisciplinaire sur les plasmas, dans toute leur variété, les matériaux sous irradiation, la cryotechnologie et la supraconductivité, les chauffages de très haute puissance par microondes ou lasers et l'instrumentation en milieu extrême. La formation se fait au travers de trois parcours : deux portent essentiellement sur la physique : Fusion par confinement magnétique et plasmas magnétisés, Fusion par confinement inertiel et plasmas denses ; un troisième parcours est à contenu plus technologique et embrasse la physique et les technologies des plasmas et de la fusion.
+Avec la fusion de certaines universités, huit établissements, répartis sur quatre sites du territoire français, sont cohabilités pour délivrer ce diplôme, avec des enseignements qui ont lieu en parallèle dans ces sites et lors de regroupement des étudiants à Cadarache et Bordeaux :
+Aix-Marseille Université, École centrale Marseille en région PACA,
+Université Bordeaux 1 en Aquitaine,
+Université de Lorraine, Faculté des sciences à Nancy,
+Université Pierre-et-Marie-Curie (Paris 6), Université Paris-Sud (Paris 11), École polytechnique (ParisTech), INSTN pour l'Île de France.
+Quatre écoles d'ingénieur sont également associées :
+École centrale Paris,
+Supélec,
+SupOptique (ParisTech),
+ENSAM (ParisTech).

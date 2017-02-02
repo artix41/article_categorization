@@ -1,0 +1,670 @@
+Équilibre chimique — Wikipédia
+Équilibre chimique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Équilibre chimique
+Enthalpie libre de réaction
+Définition
+Développement
+Constante d'équilibre
+Quotient de réaction
+La réaction progresse
+,
+La réaction régresse
+,
+Condition d'équilibre
+Loi d'action de masse
+Déplacement de l'équilibre
+Augmentation de la température
+Déplacement dans le sens endothermique
+Augmentation de la pression
+Déplacement dans le sens d'une diminution de la quantité totale de constituants, du volume
+Ajout d'un réactif ou d'un produit
+Pas de règle générale, le principe de modération est souvent observé mais pas systématique
+Ajout d'un inerte
+À P et T constantes, déplacement dans le sens d'une augmentation de la quantité totale de constituants, du volume
+À V et T constants, absence de conséquence
+Emploi d'un catalyseur
+Absence de conséquence
+Portail de la physique
+Portail de la chimie
+Une réaction chimique ne se traduit pas toujours par la disparition complète du réactif minoritaire ; de nombreuses réactions sont partielles et aboutissent à un équilibre entre les réactifs de départ et les produits de la réaction.
+Sommaire
+1 Introduction
+2 Notions de base
+2.1 Principe de Berthelot, principe de Matignon
+2.2 Réaction directe et réaction inverse, cinétique des réactions
+2.3 Avancement de réaction
+2.4 Convention stœchiométrique
+2.5 Conditions d'équilibre
+3 Enthalpie libre de réaction
+3.1 Définition
+3.2 Enthalpie libre de réaction et déplacement d'équilibre
+3.3 Affinité chimique
+3.4 Enthalpie libre standard de réaction, activités et quotient de réaction
+3.5 Constante d'équilibre
+3.6 Loi d'action de masse
+3.7 Loi d'Arrhenius
+3.8 Résumé
+4 Déplacement d'un équilibre chimique
+4.1 Principe de modération de Le Chatelier
+4.2 Déplacement par modification de la température, relation de Van't Hoff
+4.3 Déplacement par modification de la pression
+4.3.1 Cas général
+4.3.2 Cas des gaz parfaits
+4.3.3 Cas des liquides et des solides
+4.4 Déplacement par modification de la composition
+4.4.1 Cas général
+4.4.2 Cas d'une solution idéale
+4.4.3 Déplacement par ajout ou extraction d'un réactif ou d'un produit
+4.4.4 Déplacement par ajout ou extraction d'un inerte
+4.5 Emploi d'un catalyseur
+5 Références
+6 Voir aussi
+6.1 Articles connexes
+6.2 Bibliographie
+Introduction[modifier | modifier le code]
+Dans une réaction de combustion, comme celle du propane avec l'oxygène, la réaction s'arrête lorsque l'un des deux réactifs est totalement épuisé ; ce type de réaction est qualifié de réaction totale, complète ou irréversible. Une réaction chimique ne se traduit pas toujours par la disparition complète du réactif minoritaire ; de nombreuses réactions sont partielles et aboutissent à un équilibre entre les réactifs de départ et les produits de la réaction ; ce type de réaction est qualifié de réaction réversible, incomplète ou inversible[1].
+Guldberg et Waage (1865), en s'inspirant de propositions de Berthelot, ont montré empiriquement qu'il existait une relation entre les concentrations des espèces présentes à l'équilibre en solution. La constante d'équilibre , relative aux concentrations, a été appelée constante de Guldberg et Waage ou constante de la loi d'action de masse.
+Le principe de Le Chatelier établi empiriquement en 1884 indique également l'évolution d'un équilibre lors d'une modification des conditions de la réaction. Ce principe dit « de modération » stipule qu'un équilibre s'oppose aux changements extérieurs qui tentent de le modifier. Il existe cependant des cas dans lesquels ce principe n'est pas vérifié.
+Le développement ultérieur de la thermodynamique par Willard Gibbs, Théophile De Donder et Gilbert Lewis, et l'application de la fonction enthalpie libre
+aux réactions chimiques effectuées à température et pression constantes, ont permis de démontrer les relations formulées empiriquement par Guldberg et Waage, et Le Chatelier.
+Pour cela, il est nécessaire de définir précisément des grandeurs de réaction indispensables à la compréhension des phénomènes : avancement de réaction , enthalpie libre de réaction , enthalpie libre standard de réaction , quotient de réaction
+et constante d'équilibre . Ces outils permettent de prévoir le sens d'une réaction, le positionnement de l'équilibre et la composition du système.
+Notions de base[modifier | modifier le code]
+Principe de Berthelot, principe de Matignon[modifier | modifier le code]
+Une réaction chimique est favorisée ou défavorisée par divers facteurs tels que la pression, la température, l'énergie apportée au mélange réactionnel. L'étude des réactions chimiques et des équilibres a conduit à l'énoncé des deux principes empiriques suivants :
+« Principe de Berthelot - Facteur énergétique
+Un système laissé à lui-même tend à évoluer de manière à libérer le plus de chaleur. Autrement dit, une réaction est favorisée si elle est exothermique. Elle est défavorisée si elle est endothermique. »
+Les réactions exothermiques ayant une très forte chaleur de réaction (enthalpie standard de réaction ), comme les réactions de combustion, sont souvent totales.
+« Principe de Matignon - Facteur désordre
+Une transformation est favorisée si elle s'accompagne d'une augmentation du désordre du système. En effet, l'évolution normale des choses est vers un plus grand désordre. »
+Ceci est en accord avec le deuxième principe de la thermodynamique, les réactions dont l'entropie standard de réaction
+est positive sont favorisées. Par exemple, les réactions produisant un gaz à partir d'un solide sont favorisées, car l'entropie d'un gaz est plus élevée que celle d'un solide. Les réactions augmentant la quantité de matière dans le mélange réactionnel sont favorisées : la réaction de combustion d'un alcane avec l'oxygène est favorisée, car le nombre de moles de produits est supérieur à celui des réactifs ; en outre elle est exothermique, elle est donc doublement favorisée ce qui la rend totale.
+Lorsque ces deux principes entrent en concurrence au sein d'une même réaction, il apparaît un équilibre, comme résumé dans le tableau suivant.
+Classement des réactions chimiques
+Facteurs influant
+sur la réaction
+Principe de Matignon
+Augmentation du désordre
+favorable
+Diminution du désordre
+défavorable
+Principe
+de Berthelot
+Réaction exothermique
+favorable
+Réaction
+totale
+Équilibre
+exothermique
+Réaction endothermique
+défavorable
+Équilibre
+endothermique
+Réaction
+impossible
+Exemple - Équilibre du dioxyde et du trioxyde de soufre :
+La réaction de synthèse du trioxyde de soufre à partir du dioxyde de soufre s'écrit :
+La chaleur de réaction est de
+= –197,78 kJ/mol : la réaction est exothermique, elle est donc favorisée selon le principe de Berthelot. Cependant le nombre de constituants décroît selon cette réaction : pour 3 moles de réactifs il ne reste que 2 moles de produit, le principe de Matignon stipule donc que cette réaction n'est pas favorisée.
+Si l'on écrit la réaction dans le sens inverse, les facteurs sont inversés :
+Cette réaction est endothermique et donc n'est pas favorisée selon le principe de Berthelot, mais elle accroît le désordre et est donc favorisée selon le principe de Matignon.
+Il s'ensuit un équilibre noté :
+Réaction directe et réaction inverse, cinétique des réactions[modifier | modifier le code]
+Un équilibre chimique implique deux réactions :
+une réaction dans le sens réactifs → produits appelée réaction directe, il s'agit généralement de la réaction intéressante pour la production d'une espèce chimique donnée ;
+une réaction dans le sens produits → réactifs appelée réaction inverse, qui s'oppose à la réaction directe.
+Dans un équilibre, l'une des deux réactions obéit au principe de Berthelot et l'autre au principe de Matignon : si l'une est exothermique, l'autre augmente le désordre du système réactionnel ; en conséquence, puisque les deux réactions ont des effets inverses, la première enfreint le principe de Matignon en diminuant le désordre, et la deuxième enfreint le principe de Berthelot en étant endothermique.
+Lorsqu'une réaction est équilibrée, cela signifie que la vitesse de la réaction directe est égale à la vitesse de la réaction inverse. L'état d'équilibre obtenu dans ce cas peut être qualifié de dynamique ou stationnaire : les réactions ont toujours lieu, mais globalement leurs effets s'annulent ; par exemple l'une absorbe totalement la chaleur dégagée par l'autre, d'où un bilan énergétique globalement nul.
+Dans le cas d'un équilibre impliquant deux réactifs
+et deux produits , on note l'équilibre sous la forme :
+où
+sont des espèces chimiques,
+les coefficients stœchiométriques.
+Dans le cas de réactions élémentaires, c'est-à-dire s'effectuant en une seule étape, les vitesses de réaction dépendent des concentrations
+des espèces en présence et de
+les constantes respectives des vitesses des réactions directe et inverse (qui suivent la loi d'Arrhenius) selon les expressions :
+, vitesse de la réaction directe ;
+, vitesse de la réaction inverse.
+À l'équilibre, l'égalité des vitesses des réactions opposées
+entraîne la relation suivante, appelée loi d'action de masse :
+Cette relation lie les constantes des vitesses des deux réactions aux concentrations des réactifs et des produits à l'équilibre. Le rapport ainsi obtenu est appelé constante d'équilibre. Cette relation a été établie empiriquement par Guldberg et Waage. Nous verrons par la suite comment établir rigoureusement cette relation selon les principes de la thermodynamique.
+Avancement de réaction[modifier | modifier le code]
+Considérons un équilibre chimique réalisé à température et pression constantes dont l'équation bilan est la suivante :
+(1)
+Les constituants
+du membre de gauche sont les réactifs, au nombre de  ; les constituants
+du membre de droite sont les produits, au nombre de  :
+réactif ;
+produit.
+Considérons une petite progression caractérisée par une variation élémentaire de l'état d'avancement de la réaction , et appelons
+les variations élémentaires du nombre de moles de chaque constituant, à ce stade de la réaction.
+La réaction progresse en respectant la stœchiométrie de l'équation bilan ce qui implique que tous les rapports
+sont égaux au signe près :
+La variable
+peut donc être définie sur l'un quelconque des constituants et il existe une relation entre
+et chaque constituant.
+La connaissance de
+permet donc de connaître la composition du système. C'est donc une variable de composition. Au début de la réaction, au moment de l'introduction des composants dans le réacteur, par définition l'avancement est nul : . Puis la valeur de l'avancement évolue selon le sens de déplacement de la réaction.
+Lorsque la réaction progresse :
+les réactifs i disparaissent :  ;
+les produits j apparaissent :  ;
+l'état d'avancement augmente :  ;
+la réaction directe l'emporte sur la réaction inverse ;
+l'équilibre se déplace de la gauche vers la droite.
+À l'inverse, lorsque la réaction régresse :
+les réactifs i apparaissent :  ;
+les produits j disparaissent :  ;
+l'état d'avancement diminue :  ;
+la réaction directe est dominée par la réaction inverse ;
+l'équilibre se déplace de la droite vers la gauche.
+L'avancement de réaction peut donc indifféremment augmenter ou diminuer. Puisque l'avancement est nul au début de la réaction, il peut donc prendre aussi bien une valeur positive
+qu'une valeur négative .
+La vitesse de déplacement de l'équilibre, égale à la différence entre la vitesse de la réaction directe et la vitesse de la réaction inverse, est égale à la dérivée de l'avancement de la réaction par rapport au temps :
+Convention stœchiométrique[modifier | modifier le code]
+La convention stœchiométrique communément admise afin de simplifier les expressions dans les démonstrations qui suivent est de représenter l'équilibre sous la forme :
+(2)
+Cette équation (2) implique les mêmes constituants
+et
+que l'expression de l'équilibre (1), mais ils sont cette fois notés , au nombre de , en attribuant une valeur négative aux coefficients stœchiométriques des réactifs, et positive à ceux des produits :
+pour un réactif ;
+pour un produit.
+Ceci permet d'écrire indifféremment pour un réactif ou un produit :
+pour tout
+Exemple - La réaction de synthèse de l'urée :
+sera réécrite :
+Conditions d'équilibre[modifier | modifier le code]
+Un système fermé est à l'équilibre lorsque les variables intensives qui le décrivent (température, pression et potentiels chimiques des réactifs et des produits) sont homogènes dans tout le système et restent constantes au cours du temps.
+Le deuxième principe de la thermodynamique implique que pour une réaction chimique effectuée à P et T constantes la fonction enthalpie libre
+ne peut que décroître. Donc sa variation doit être négative :
+Critère d'évolution de tout système chimique à P et T constantes :
+Lorsque
+ne varie plus,
+est nulle[2], la fonction
+est minimale. Cela signifie que le système réactionnel est à l'équilibre :
+À l'équilibre :
+Le deuxième principe de la thermodynamique implique que pour une réaction chimique effectuée à V et T constants la fonction énergie libre
+ne peut que décroître. Donc sa variation doit être négative :
+Critère d'évolution de tout système chimique à V et T constants :
+Lorsque
+ne varie plus,
+est nulle, la fonction
+est minimale. Cela signifie que le système réactionnel est à l'équilibre :
+À l'équilibre :
+Les deux relations sont équivalentes, puisque
+et qu'à l'équilibre la pression et le volume sont constants dans le temps. Dès lors à l'équilibre les deux grandeurs
+et
+ne varient plus. On étudiera cependant les variations de la première pour les réactions ayant lieu à P et T constantes, et de la seconde pour les réactions ayant lieu à V et T constants.
+Enthalpie libre de réaction[modifier | modifier le code]
+Les démonstrations qui suivent sont valables pour une réaction ayant lieu à P et T constantes, en se basant sur l'enthalpie libre . Il est à noter que des démonstrations similaires peuvent être effectuées pour des réactions ayant lieu à V et T constants en se basant sur l'énergie libre .
+Définition[modifier | modifier le code]
+Démonstration
+Soient
+les quantités respectives des
+constituants de la réaction pour l'état
+et
+les enthalpies libres molaires partielles de chaque constituant à T et P données. L'enthalpie libre molaire partielle du constituant k, qui est également son potentiel chimique, est définie par :
+.
+La différentielle de l'enthalpie libre est égale à :
+En conséquence, la variation d'enthalpie libre à P et T constantes devient :
+Les relations liant l'évolution de l'avancement à l'évolution de chacun des constituants permettent d'écrire pour chaque constituant k :
+On peut donc réécrire :
+L'enthalpie libre de réaction est définie par :
+Avec, à P et T constantes :
+Cette grandeur est également notée avec l'opérateur de Lewis :
+Pour résumer :
+Enthalpie libre de réaction :
+Enthalpie libre de réaction et déplacement d'équilibre[modifier | modifier le code]
+Diagramme représentant l'enthalpie libre à pression et température constantes en fonction de l'avancement de réaction.
+Étant donné que
+et
+à P et T constantes, alors
+et
+ne peuvent être que de signes contraires :
+et , la réaction progresse :
+l'équilibre se déplace de la gauche vers la droite,
+des réactifs sont consommés et des produits apparaissent,
+et , la réaction régresse :
+l'équilibre se déplace de la droite vers la gauche,
+des produits sont consommés et des réactifs apparaissent.
+À l'équilibre [2], d'où deux cas possibles :
+et , la réaction pourrait avoir lieu car le potentiel de réaction est non nul, mais l'avancement de réaction ne varie pas ; les causes de ce défaut de réaction peuvent être une cinétique extrêmement lente (l'équilibre est dit instable) ou l'absence d'un facteur déclenchant (l'équilibre est dit métastable)[3] ;
+et , la réaction a eu lieu, le potentiel de réaction est désormais nul ; l'équilibre est dit stable ou labile (termes équivalents) ; nous ne nous intéresserons par la suite qu'à ce cas de figure.
+Dans un équilibre labile :
+Il est à noter que l'enthalpie libre de réaction étant liée aux enthalpie et entropie de réaction par la relation , l'état d'équilibre labile correspond à l'égalité , soit l'équilibre entre le facteur énergie et le facteur désordre.
+Affinité chimique[modifier | modifier le code]
+L'affinité chimique, notée , est définie par l'opposé de l'enthalpie libre de réaction :
+Elle permet une compréhension plus intuitive de l'évolution de la réaction :
+une progression est associée à un signe positif : , donc , la réaction progresse ;
+une régression est associée à un signe négatif : , donc , la réaction régresse.
+Enthalpie libre standard de réaction, activités et quotient de réaction[modifier | modifier le code]
+Le potentiel chimique de chaque constituant k peut être exprimé en fonction d'un état de référence repéré par l'exposant 0, et l'activité du produit dans le mélange, notée , selon la relation :
+L'expression de l'enthalpie libre de réaction est développée selon :
+Les termes standards
+sont regroupés dans une grandeur appelée enthalpie libre standard de réaction :
+Enthalpie libre standard de réaction :
+Les termes correspondant aux activités sont regroupés dans le quotient de réaction :
+Quotient de réaction :
+Pour résumer :
+Constante d'équilibre[modifier | modifier le code]
+L'enthalpie libre standard de réaction est liée à l'enthalpie de réaction et à l'entropie de réaction par la relation :
+Sur des plages de température réduites, l'enthalpie standard de réaction et l'entropie standard de réaction peuvent être considérées comme des constantes, selon l'approximation d'Ellingham. Aussi, en introduisant deux constantes
+et
+telles que :
+, enthalpie standard de réaction ;
+, entropie standard de réaction,
+on obtient :
+Les constantes du membre de droite sont tabulées pour de nombreux équilibres en introduisant la constante d'équilibre notée  :
+Constante d'équilibre :
+Nous avons la relation :
+Lorsque
+et
+sont de même signe,
+peut être négative (progression de la réaction favorisée ) ou positive (régression favorisée ) : dans tous les cas la réaction produit un équilibre d'autant plus déplacé vers la droite que
+décroît et
+augmente.
+Nous retrouvons ici les principes de Berthelot et Matignon selon lesquels la réaction est favorisée si
+et  : si tel est le cas,
+et , la réaction est totale.
+A contrario, la réaction est impossible si
+et , auquel cas
+et .
+La constante d'équilibre peut être calculée à l'aide des relations de Kirchhoff : il est important de noter que la constante d'équilibre peut être calculée à partir des seules propriétés des réactifs et produits à l'état standard[4],[5]. La constante d'équilibre peut bien sûr être également déterminée expérimentalement ou trouvée dans la littérature pour de nombreux équilibres.
+Loi d'action de masse[modifier | modifier le code]
+Comme vu plus haut, le deuxième principe de la thermodynamique implique que pour une réaction chimique effectuée à T et P constantes, la fonction enthalpie libre
+ne peut que décroître. Lorsque
+est nulle, la fonction
+est minimale. Cela signifie que le système réactionnel est à l'équilibre : . Dans ces conditions :
+soit, à l'équilibre :
+En notant
+l'activité du constituant k à l'équilibre, le quotient de réaction à l'équilibre valant :
+nous obtenons la loi d'action de masse :
+Loi d'action de masse :
+Pour résumer :
+À l'équilibre :
+Loi d'Arrhenius[modifier | modifier le code]
+La constante d'équilibre
+est liée aux paramètres de la loi d'Arrhenius par la relation :
+avec :
+, constante de l'expression de la vitesse de la réaction directe ;
+, constante de l'expression de la vitesse de la réaction inverse ;
+et
+étant les énergies d'activation respectives.
+Nous avons donc les relations :
+soit :
+Enthalpie standard de réaction :
+Entropie standard de réaction :
+Résumé[modifier | modifier le code]
+De façon générale, à l'équilibre et hors équilibre :
+à P et T constantes, l'évolution de la réaction est dictée par le second principe de la thermodynamique :
+enthalpie libre de réaction :
+enthalpie libre standard de réaction et constante d'équilibre :
+quotient de réaction et activités :
+Avec les relations :
+hors équilibre nous avons :
+si , alors
+et  : la réaction progresse ;
+si , alors
+et  : la réaction régresse.
+À l'équilibre :
+et
+La constante d'équilibre
+peut être :
+calculée à partir des propriétés des réactifs et des produits dans leur état standard ;
+calculée à l'aide des paramètres de la loi d'Arrhenius des constantes dans l'expression des vitesses des réactions directe et inverse ;
+déterminée expérimentalement ;
+trouvée dans la littérature pour de nombreux équilibres.
+Déplacement d'un équilibre chimique[modifier | modifier le code]
+Article détaillé : Déplacement d'équilibre réactionnel.
+Principe de modération de Le Chatelier[modifier | modifier le code]
+« Principe de modération de Le Chatelier
+Lorsque les modifications extérieures apportées à un système physico-chimique en équilibre provoquent une évolution vers un nouvel état d'équilibre, l'évolution s'oppose aux perturbations qui l'ont engendrée et en modère l'effet. »
+Pour des systèmes fermés ce principe est toujours vrai et sera démontré dans les deux cas suivants :
+déplacement de l'équilibre par modification de la température ;
+déplacement de l'équilibre par modification de la pression.
+Le principe de modération de Le Chatelier est souvent observé dans le déplacement de l'équilibre par modification de la composition (ajout ou extraction d'un réactif, d'un produit ou d'un inerte), néanmoins il existe des cas dans lesquels il n'est pas respecté, ce qui sera démontré pour une solution idéale.
+Déplacement par modification de la température, relation de Van't Hoff[modifier | modifier le code]
+L'enthalpie libre standard de réaction s'exprime en fonction de l'enthalpie standard de réaction et de l'entropie standard de réaction selon :
+La relation de Gibbs-Helmholtz permettant d'écrire, à pression constante :
+on obtient la relation de Van't Hoff qui définit l'évolution de la constante d'équilibre
+d'un équilibre chimique (supposée ne dépendre que de T), en fonction de la température :
+Relation de Van't Hoff :
+En intégrant cette relation, en supposant que l'enthalpie standard de réaction ne varie pas avec la température, on obtient :
+Si l'on connait la valeur de la constante d'équilibre, , à la température , il est possible de déterminer la nouvelle valeur de la constante d'équilibre
+à la température T.
+Supposons un équilibre à P et T1. La température est modifiée à T2, l'équilibre se déplace et se stabilise T2, la pression P restant constante. La constante d'équilibre change, passant de
+à .
+Démonstration
+La relation de Gibbs-Helmholtz permet d'écrire, à pression et composition constantes :
+En intégrant de
+à , à pression
+et composition de l'équilibre initial constantes et en considérant que l'enthalpie standard de réaction est constante sur l'intervalle de température, nous obtenons :
+Or à l'équilibre initial :
+d'où :
+Avant déplacement de l'équilibre :
+Il vient cinq cas de figure :
+, l'enthalpie de réaction est nulle, la réaction est insensible à la température,
+, la réaction est exothermique, l'équilibre dégage de la chaleur en se déplaçant de la gauche vers la droite :
+on augmente la température  : , d'où , en augmentant la température d'une réaction exothermique la réaction régresse,
+on diminue la température  : , d'où , en diminuant la température d'une réaction exothermique, la réaction progresse,
+, la réaction est endothermique l'équilibre absorbe de la chaleur en se déplaçant de la gauche vers la droite :
+on augmente la température  : , d'où , en augmentant la température d'une réaction endothermique, la réaction progresse,
+on diminue la température  : , d'où , en diminuant la température d'une réaction endothermique, la réaction régresse.
+Pour résumer :
+Une augmentation de température à pression constante déplace l'équilibre dans le sens qui s'oppose à cette augmentation, le sens endothermique.
+Inversement, une diminution de température à pression constante déplace l'équilibre dans le sens qui s'oppose à cette diminution, le sens exothermique.
+Exemple - Équilibre monomère-dimère du dioxyde d'azote
+Le monomère dioxyde d'azote NO2 et son dimère le peroxyde d'azote N2O4 sont en équilibre permanent selon la réaction :
+La chaleur de réaction est de (298,15 K) = –57,23 kJ/mol, la réaction est donc exothermique. À basse température, le dimère est l'espèce prépondérante, à haute température c'est le monomère.
+Nous vérifions d'autre part que la progression de la réaction est favorisée selon le principe de Berthelot (réaction exothermique), et que la régression de la réaction est favorisée selon le principe de Matignon (augmentation de la quantité de constituants). Les deux réactions sont donc antagonistes d'où l'existence de l'équilibre.
+Déplacement par modification de la pression[modifier | modifier le code]
+Cas général[modifier | modifier le code]
+Supposons un équilibre à T et P1. La pression est modifiée à P2, l'équilibre se déplace et se stabilise à P2, la température T restant constante. La constante d'équilibre
+ne change pas, puisqu'elle ne dépend que de la température. Ce sont les activités des réactifs et produits dans le quotient de réaction
+qui sont modifiées par le changement de pression.
+Démonstration
+La variation isotherme du potentiel chimique en fonction de la pression est donnée par :
+avec le volume molaire partiel du composant k :
+En pondérant par les coefficients stœchiométriques, et en sommant sur l'ensemble des réactifs et produits, nous obtenons :
+En notant avec l'opérateur de Lewis le volume de réaction :
+nous obtenons :
+L'intégration par rapport à P, en considérant T et la composition constantes, donne :
+or à P1 et T, à la composition de l'équilibre initial :
+donc avant le déplacement de l'équilibre par changement de la pression :
+Avant déplacement de l'équilibre :
+Cas des gaz parfaits[modifier | modifier le code]
+Démonstration
+Pour les gaz parfaits, le volume molaire partiel de chacun des constituants vaut :
+D'où :
+Pour les gaz parfaits, avant déplacement de l'équilibre :
+Il vient cinq cas de figure :
+, si la somme des coefficients stœchiométriques est nulle, la réaction est insensible à un changement de pression,
+, la quantité totale de constituants (réactifs et produits) diminue lorsque l'équilibre se déplace de la gauche vers la droite :
+on augmente la pression  : , d'où , en augmentant la pression la réaction progresse,
+on diminue la pression  : , d'où , en diminuant la pression la réaction régresse,
+, la quantité totale de constituants (réactifs et produits) augmente lorsque l'équilibre se déplace de la gauche vers la droite :
+on augmente la pression  : , d'où , en augmentant la pression la réaction régresse,
+on diminue la pression  : , d'où , en diminuant la pression la réaction progresse.
+Pour résumer :
+Une augmentation de pression à température constante déplace l'équilibre dans le sens qui s'oppose à cette augmentation, celui qui diminue la quantité totale de constituants (réactifs et produits) dans le mélange.
+Inversement, une diminution de pression à température constante déplace l'équilibre dans le sens qui s'oppose à cette diminution, celui qui augmente la quantité totale de constituants (réactifs et produits) dans le mélange.
+Exemple 1 - Synthèse de l'iodure d'hydrogène
+La réaction de synthèse de l'iodure d'hydrogène à partir d'hydrogène et d'iode s'écrit :
+La somme des coefficients stœchiométriques est donc de –1–1+2 = 0. Cette réaction est insensible aux changements de pression.
+Exemple 2 - Synthèse de l'ammoniac
+Dans le procédé Haber-Bosch, la synthèse de l'ammoniac est effectuée selon la réaction :
+La somme des coefficients stœchiométriques est donc de –1–3+2 = –2. La synthèse de l'ammoniac est donc effectuée à haute pression entre 150 et 250 bar.
+Cas des liquides et des solides[modifier | modifier le code]
+Démonstration
+Pour les liquides ou les solides, le volume molaire partiel
+peut être considéré comme indépendant de la pression. En conséquence :
+Pour les liquides et les solides, avant déplacement de l'équilibre :
+Il vient cinq cas de figure :
+, si le volume de réaction est nul, la réaction est insensible à un changement de pression,
+, le volume se contracte lorsque l'équilibre se déplace de la gauche vers la droite :
+on augmente la pression  : , d'où , en augmentant la pression la réaction progresse,
+on diminue la pression  : , d'où , en diminuant la pression la réaction régresse,
+, le volume se dilate lorsque l'équilibre se déplace de la gauche vers la droite :
+on augmente la pression  : , d'où , en augmentant la pression la réaction régresse,
+on diminue la pression  : , d'où , en diminuant la pression la réaction progresse.
+Pour résumer :
+Une augmentation de pression à température constante déplace l'équilibre dans le sens dans lequel le volume se contracte.
+Inversement, une diminution de pression à température constante déplace l'équilibre dans le sens dans lequel le volume se dilate.
+Exemple - Synthèse du diamant
+Le graphite et le diamant sont deux formes allotropiques du carbone en équilibre selon :
+Le volume molaire du diamant est de 3,4166 cm3/mol. Le volume molaire du graphite est de 5,2982 cm3/mol[6].
+Le volume de réaction est donc de
+= –5,2982 + 3,4166 = –1,8816 cm3/mol, la synthèse du diamant est effectuée à haute pression : 58 000 atm. Revenu à basse pression, le diamant tend à redevenir graphite, mais la réaction est extrêmement lente, aussi parle-t-on d'équilibre instable.
+Déplacement par modification de la composition[modifier | modifier le code]
+À pression et température constantes, le principe de Le Chatelier n'est pas toujours observé dans les déplacements d'équilibre par ajout ou extraction de l'un des constituants du mélange réactionnel[7].
+Le principe de modération voudrait que d'une façon générale l'ajout d'un réactif (ou l'extraction d'un produit) déplace l'équilibre dans le sens de la consommation du réactif (respectivement de l'apparition du produit), donc que la réaction progresse. A contrario, l'extraction d'un réactif ou l'ajout d'un produit devrait avoir pour conséquence une régression de la réaction.
+Il n'en va pas toujours ainsi. Nous allons le démontrer dans le cas d'une solution idéale.
+Il est à noter que, dans le cas présent, le principe de modération n'est pas respecté parce que l'une des conditions de l'équilibre n'est pas respectée : pour étudier un équilibre le système réactionnel doit être fermé, or l'ajout ou l'extraction d'un composant suppose un système ouvert.
+Cas général[modifier | modifier le code]
+Supposons un équilibre à T et P. La quantité du constituant i (réactif, produit ou inerte) initialement de
+moles est modifiée à
+moles, l'équilibre se déplace et se stabilise, P et T restant constantes. La constante d'équilibre
+ne change pas, puisqu'elle ne dépend que de la température. Ce sont les activités des réactifs et produits dans le quotient de réaction
+qui sont modifiées par le changement de composition.
+Démonstration
+Dérivons l'enthalpie de réaction par rapport à
+à pression, température et quantités des constituants autres que i constantes :
+Le potentiel chimique de tout corps k dans la solution réelle s'exprime à partir du potentiel chimique de ce corps dans son état standard selon :
+Pour une solution réelle, la modification de composition induit une modification de l'enthalpie libre de réaction telle que :
+Cette expression ne peut pas être étudiée pour une solution réelle, car l'évolution des activités des solutions réelles est extrêmement complexe. Cette étude est cependant réalisable pour une solution idéale.
+Cas d'une solution idéale[modifier | modifier le code]
+Démonstration
+Dérivons l'enthalpie de réaction par rapport à
+à pression, température et quantités des constituants autres que i constantes :
+Selon la définition d'une solution idéale, le potentiel chimique de tout corps k dans la solution idéale s'exprime à partir du potentiel chimique de ce corps pur selon :
+avec :
+, la quantité de matière du constituant k (réactif, produit ou inerte) ;
+, la quantité de matière totale du mélange réactionnel (réactifs, produits et inertes) ;
+, fraction molaire du constituant k,  ;
+, potentiel chimique du constituant k dans la solution idéale ;
+, potentiel chimique du constituant k pur, à mêmes P, T et phase que la solution idéale,
+d'où la dérivée partielle du potentiel chimique dans le cas de la solution idéale :
+Avec :
+nous pouvons écrire pour la solution idéale :
+En intégrant entre
+et
+à P et T constantes, nous obtenons :
+Pour une variation
+infiniment petite de , nous pouvons écrire approximativement (par développement limité de la fonction logarithme naturel) :
+d'où :
+Or à l'équilibre initial :
+d'où :
+Pour une solution idéale, avant déplacement de l'équilibre :
+Déplacement par ajout ou extraction d'un réactif ou d'un produit[modifier | modifier le code]
+Il vient quatre cas de figure :
+si  :
+si l'on ajoute le constituant i,
+et , en ajoutant le constituant i la réaction progresse,
+si l'on extrait le constituant i,
+et , en extrayant le constituant i la réaction régresse,
+si  :
+si l'on ajoute le constituant i,
+et , en ajoutant le constituant i la réaction régresse,
+si l'on extrait le constituant i,
+et , en extrayant le constituant i la réaction progresse.
+Si
+le principe de Le Chatelier est toujours respecté.
+Si
+l'expression de l'enthalpie libre de réaction avant déplacement de l'équilibre dépend de la composition du mélange, alors :
+le signe de l'enthalpie libre de réaction dépend du positionnement de
+par rapport à .
+En conséquence, selon la composition du mélange dans l'équilibre initial, l'ajout d'un constituant pourra déplacer l'équilibre dans un sens ou dans l'autre et le principe de Le Chatelier pourra ne pas être respecté. Par exemple, l'ajout d'un réactif pourra déplacer l'équilibre dans le sens de la régression de la réaction, et non de sa progression comme le voudrait le principe de modération.
+Exemple 1 - Synthèse de l'ammoniac
+Cet exemple donne un cas de violation du principe de modération.
+Reprenons la réaction de synthèse de l'ammoniac dans le procédé Haber-Bosch :
+La somme des coefficients stœchiométriques vaut : .
+Pour l'ammoniac, produit dont le coefficient stœchiométrique vaut : , quelle que soit la valeur de la fraction molaire initiale d'ammoniac , nous avons , d'où :
+en ajoutant de l'ammoniac, la réaction régresse,
+en extrayant de l'ammoniac, la réaction progresse,
+le principe de Le Chatelier est respecté.
+Pour l'hydrogène, réactif dont le coefficient stœchiométrique vaut : , quelle que soit la valeur de la fraction molaire initiale d'hydrogène , nous avons , d'où :
+en ajoutant de l'hydrogène, la réaction progresse,
+en extrayant de l'hydrogène, la réaction régresse,
+le principe de Le Chatelier est respecté.
+Pour l'azote, réactif dont le coefficient stœchiométrique vaut : , nous avons  :
+si la fraction molaire initiale d'azote est , alors  :
+en ajoutant de l'azote, la réaction progresse,
+en extrayant de l'azote, la réaction régresse,
+le principe de Le Chatelier est respecté.
+si la fraction molaire initiale d'azote est , alors  :
+en ajoutant de l'azote, la réaction régresse,
+en extrayant de l'azote, la réaction progresse,
+le principe de Le Chatelier n'est pas respecté !
+Exemple 2 - Effet d'ion commun
+L'effet d'ion commun est un exemple d'application du principe de modération.
+La dissolution du chlorure de sodium (NaCl), ou sel de table, est donnée par la réaction :
+La solubilité du chlorure de sodium est donnée par le produit de solubilité :
+Si l'on ajoute un autre sel contenant un ion commun avec le chlorure de sodium, par exemple le sulfate de sodium, qui lui-même se dissout selon la réaction :
+on augmente la concentration des ions Na+. En conséquence, l'équilibre du chlorure de sodium se déplace dans le sens de la consommation de ce cation, c'est-à-dire de la précipitation du NaCl, de droite à gauche.
+De même, la dissolution de chlorure d'hydrogène HCl produit des ions Cl−, et donc augmente la concentration de cet anion : l'équilibre du chlorure de sodium se déplace dans le sens de la consommation de cet anion, de droite à gauche.
+Au contraire, si l'on ajoute de l'acide sulfurique H2SO4 à la solution saline, celui-ci se dissout en formant des ions SO42− qui font précipiter le sulfate de sodium Na2SO4 selon la réaction vue plus haut. La concentration en ion Na+ diminue, en conséquence l'équilibre du chlorure de sodium se déplace dans le sens de la production du cation, celui de la dissolution du sel, de gauche à droite.
+Exemple 3 - Équilibre du calcaire et de la chaux
+Cet exemple montre qu'une réaction en équilibre peut devenir totale en application du principe de modération lorsque les conditions de l'équilibre ne sont pas respectées.
+Le calcaire CaCO3 et la chaux CaO sont en équilibre selon la réaction :
+Cet équilibre dépend de la pression du dioxyde de carbone. Si l'on supprime la condition de l'équilibre qui veut que la réaction se passe dans un milieu fermé, par exemple en ouvrant le réacteur à l'atmosphère, alors le CO2 s'échappe du milieu réactionnel au fur et à mesure de la réaction et ne peut jamais atteindre la pression d'équilibre. La réaction va alors se déplacer dans le sens de la production du CO2 jusqu'à épuisement du calcaire : la réaction est totale, on dit alors qu'il y a rupture d'équilibre. Ceci est mis à profit dans les fours à chaux.
+La réaction inverse est utilisée dans les absorbeurs de CO2.
+Dans un four à chaux la réaction se produit en brûlant simultanément du coke ou du charbon, elle est donc endothermique. Nous vérifions ainsi que la régression de la réaction est favorisée selon le principe de Berthelot (réaction exothermique), et que la progression de la réaction est favorisée selon le principe de Matignon (augmentation de la quantité de constituants, création d'un gaz à partir d'un solide). Les deux réactions sont donc antagonistes d'où l'existence de l'équilibre.
+Déplacement par ajout ou extraction d'un inerte[modifier | modifier le code]
+Dans le cas de l'ajout d'un composant inerte, c'est-à-dire d'un constituant qui n'intervient pas dans la réaction, , à pression et température constantes :
+Il vient cinq cas de figure :
+, si la somme des coefficients stœchiométriques est nulle, la réaction est insensible à l'ajout d'un inerte à P et T constantes,
+, le nombre total de constituants (réactifs et produits, hors inertes) diminue lorsque l'équilibre se déplace de la gauche vers la droite :
+on ajoute de l'inerte i,  : , en ajoutant un inerte la réaction régresse,
+on extrait de l'inerte i,  : , en extrayant un inerte la réaction progresse,
+, le nombre total de constituants (réactifs et produits, hors inertes) augmente lorsque l'équilibre se déplace de la gauche vers la droite :
+on ajoute de l'inerte i,  : , en ajoutant un inerte, la réaction progresse,
+on extrait de l'inerte i,  : , en extrayant un inerte, la réaction régresse.
+L'ajout d'un inerte à pression et température constantes déplace l'équilibre dans le sens qui augmente la quantité totale de constituants (réactifs et produits) dans le mélange.
+Inversement, l'extraction d'un inerte à pression et température constantes déplace l'équilibre dans le sens qui diminue la quantité totale de constituants (réactifs et produits) dans le mélange.
+Ce résultat peut sembler paradoxal, on pourrait en effet s'attendre à ce que l'ajout d'un inerte déplace l'équilibre dans le sens d'une diminution de la quantité globale de réactifs et de produits, et non à une augmentation. Toutefois cette tendance est cohérente avec le principe de déplacement de l'équilibre par modification de la pression vu plus haut.
+En effet, en supposant que le mélange réactionnel soit un mélange de gaz parfaits sans inertes, alors dans l'équilibre initial :
+relation dans laquelle
+est la somme des quantités des réactifs et des produits. Si l'on ajoute à cet équilibre un inerte en conservant P et T constantes, cela suppose que le volume augmente, passant de
+à . Avant déplacement de l'équilibre nous avons une nouvelle relation :
+La pression due aux seuls réactifs et produits impliqués dans la réaction est donc passée de
+à la pression partielle :
+Puisque , alors , autrement dit pour les réactifs et les produits la pression a diminué, et en application du principe de modération l'équilibre va se déplacer dans le sens d'une augmentation de la quantité globale de réactifs et de produits.
+Par contre, si l'ajout d'inerte se fait à volume et température constants, alors après ajout de l'inerte la pression globale vaut :
+La pression globale augmente donc, mais la pression partielle de l'équilibre reste inchangée :
+L'équilibre ne va donc pas se déplacer. Il en va de même pour l'extraction d'un inerte.
+L'ajout ou l'extraction d'un inerte à volume et température constants n'a aucun effet sur l'équilibre.
+Exemple - Synthèse de l'ammoniac
+Reprenons la réaction de synthèse de l'ammoniac dans le procédé Haber-Bosch :
+La somme des coefficients stœchiométriques vaut : . Puisque cette somme est négative, l'ajout d'un inerte (par ex. de l'Argon) à pression et température constantes déplace l'équilibre dans le sens de la production d'ammoniac et d'hydrogène. Pour un bon rendement de la réaction, il vaut mieux éviter l'introduction d'inertes dans le mélange réactionnel.
+Emploi d'un catalyseur[modifier | modifier le code]
+Un catalyseur augmente la vitesse des réactions en abaissant leur énergie d'activation ; il permet donc d'atteindre plus vite l'équilibre.
+Un catalyseur agit cependant de façon identique sur la réaction directe et la réaction inverse. Autrement dit, si l'énergie d'activation
+de la réaction directe varie de
+par l'effet du catalyseur, devenant , alors l'énergie d'activation
+de la réaction inverse devient .
+L'enthalpie standard de réaction
+est par conséquence inchangée (voir le paragraphe Loi d'Arrhenius), ainsi donc que l'enthalpie libre standard de réaction
+et la constante d'équilibre .
+Un catalyseur permet d'atteindre plus rapidement l'équilibre, mais il ne permet pas de le déplacer.
+Références[modifier | modifier le code]
+↑ Le terme de réaction réversible peut porter à confusion, il ne s'agit pas en effet d'une transformation réversible, ne créant pas d'entropie. De même, le terme de réaction incomplète peut s'appliquer à une réaction totale dont les réactifs n'ont pas été introduits en stœchiométrie, par exemple une combustion en défaut d'air. Il est donc préférable d'employer le terme de réaction inversible, cf. portail Dunod de la chimie organique.
+↑ a et b Jacques Schwarzentruber (EMAC), « Caractérisation de l'équilibre chimique », ENS des mines d'Albi-Carmaux
+↑ En toute rigueur, les termes d'équilibre instable et d'équilibre métastable ne sont pas interchangeables. Un équilibre instable est défini par des vitesses de réaction extrêmement faibles, conduisant à une variation de l'avancement de réaction quasi nulle, non mesurable, comme pour la transformation du diamant en graphite. Un équilibre métastable est un équilibre dans lequel les réactions n'ont pas lieu faute d'un facteur déclenchant ; par exemple un mélange d'hydrogène et d'oxygène est métastable, il peut être conservé dans le temps sans variation de composition, mais une simple étincelle déclenche une réaction violente produisant de l'eau. Ce terme s'emploie également dans l'état de surfusion de l'eau.
+↑ Jacques Schwarzentruber (EMAC), « Énoncé de la loi d'action de masse », ENS des mines d'Albi-Carmaux
+↑ Université en ligne, « Calcul de l'enthalpie libre standard de réaction »
+↑ P. Infelta et M. Graetzel, « Thermodynamique », BrownWalker Press, 2006
+↑ Jacques Schwarzentruber (EMAC), « Effet de la composition globale du système sur le déplacement de la réaction », ENS des mines d'Albi-Carmaux
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Réaction chimique
+Deuxième principe de la thermodynamique
+Enthalpie libre
+Constante d'équilibre
+Grandeur de réaction
+Relations de Kirchhoff
+Détermination des constantes d'équilibre
+Bibliographie[modifier | modifier le code]
+Paul Arnaud, « Cours de chimie physique », Dunod, 1990
+(en) P.W. Atkins, « Physical Chemistry », 3e éd., Oxford University Press, 1985, p. 212–216
+Jean-Pierre Corriou, « Thermodynamique chimique - Équilibres thermodynamiques », traité : « Les techniques de l'ingénieur », t. Génie chimique, Éditions techniques de l'ingénieur, J.1028, 1-11, 1985
+Jean Vidal, « Thermodynamique », coll. Publications de l'Institut français du pétrole, Éditions Technip, 1974 (ISBN 978-2-7108-0244-0)
+Inaki de Aguirre, Marie-Anne Van de Wiel, « Introduction à la chimie générale », tome 2 chimie minérale, 1re éd., 11etirage, De Boeck Université, 2000 (ISBN 2-8041-0720-5)
+Paul Depovere, « Chimie générale », 3e éd., 2etirage, De Boeck Université, 2006 (ISBN 2-8041-5029-1)
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Équilibre_chimique&oldid=110402671 ».
+Catégories : ThermodynamiqueThermodynamique chimiqueChimie des équilibresCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Български
+বাংলা
+Bosanski
+Català
+کوردی
+Čeština
+Dansk
+Deutsch
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Galego
+עברית
+हिन्दी
+Kreyòl ayisyen
+Magyar
+Հայերեն
+Ido
+Italiano
+日本語
+한국어
+Македонски
+Nederlands
+Norsk bokmål
+Polski
+Português
+Runa Simi
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Slovenčina
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Tagalog
+Türkçe
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 30 décembre 2014 à 23:46.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

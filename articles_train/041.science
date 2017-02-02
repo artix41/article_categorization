@@ -1,0 +1,184 @@
+Physique statistique — Wikipédia
+Physique statistique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La physique statistique a pour but d'expliquer le comportement et l'évolution de systèmes physiques comportant un grand nombre de particules (on parle de systèmes macroscopiques), à partir des caractéristiques de leurs constituants microscopiques (les particules). Ces constituants peuvent être des atomes, des molécules, des ions, des électrons, des photons, des neutrinos, ou des particules élémentaires. Ces constituants et les interactions qu'ils peuvent avoir entre eux sont en général décrits par la mécanique quantique, mais la description macroscopique d'un ensemble de tels constituants ne fait, elle, pas directement appel (ou en tout cas pas toujours) à la mécanique quantique. De fait, cette description macroscopique, en particulier la thermodynamique, a été obtenue pour partie avant le développement de la mécanique quantique en tant que théorie physique, essentiellement dans la seconde moitié du XIXe siècle.
+On distingue la physique statistique d'équilibre (au sens d'équilibre thermodynamique), auquel cet article est consacré, de la physique statistique hors d'équilibre.
+Sommaire
+1 Historique
+2 Introduction et généralités
+2.1 Postulat fondamental
+2.1.1 Énoncé
+2.1.2 Origine : l'hypothèse ergodique
+2.1.3 Équiprobabilité et information
+2.2 Généralisations aux problèmes analogues
+3 Outils et procédés
+3.1 Ensemble microcanonique
+3.1.1 Entropie microcanonique
+3.1.2 Extensivité de l'entropie
+3.2 Ensemble canonique
+3.2.1 Fonction de partition canonique
+3.2.2 Observables macroscopiques
+3.2.3 Tableau récapitulatif
+3.3 Ensemble grand-canonique
+4 Notes et références
+5 Voir aussi
+5.1 Bibliographie
+5.1.1 Bibliothèque virtuelle
+5.1.2 Vulgarisation
+5.1.3 Ouvrages de référence
+5.1.4 Initiation à la physique statistique
+5.1.5 Niveau second cycle universitaire
+5.1.6 Aspects historiques
+5.2 Article connexes
+5.2.1 Physique statistique d'équilibre
+5.2.2 Physique statistique hors d'équilibre
+Historique[modifier | modifier le code]
+Mouvement brownien d'une particule.
+La physique statistique (appelé aussi « thermodynamique statistique ») fut introduite initialement sous la forme de la théorie cinétique des gaz à partir du milieu du XIXe siècle, principalement par Kelvin, Maxwell et Boltzmann. Cette première approche visait à proposer un modèle simple de la matière à l'échelle atomique, et en particulier des collisions entre atomes ou molécules, pour reproduire le comportement de certaines quantités macroscopiques. C'est à cette époque que l'interprétation de la pression comme mesure de la quantité de mouvement des constituants d'un gaz a été formalisée.
+La mécanique statistique fut formalisée en 1902 par Gibbs[1], son formalisme permettant de généraliser et de justifier a posteriori les principes de la thermodynamique d'équilibre.
+Les premières extensions de la physique statistique, par rapport à la mécanique statistique, ont été l'introduction des propriétés électriques et magnétiques de la matière au sein des modèles, permettant la description des transitions de phase dans les matériaux magnétiques ou diélectriques, comme la transition ferromagnétique.
+Une autre étape importante fut la modification des formules statistiques, entre les années 1920 et 1930, pour tenir compte des effets de l'indiscernabilité au niveau quantique des particules (principe d'exclusion de Pauli). Cette modification fut effectuée par Bose et Einstein pour les systèmes de particules de spin entier (bosons) et par Fermi et Dirac pour les systèmes de particules de spin demi-entier (fermions).
+Introduction et généralités[modifier | modifier le code]
+Typiquement, à notre échelle, un système matériel à l'équilibre thermodynamique est décrit à l'aide d'un nombre restreint de paramètres dits macroscopiques caractérisant les valeurs de certaines grandeurs physiques macroscopiques ; par exemple, un volume de gaz à l'équilibre est caractérisé par sa densité μ, sa pression P, sa température T, et son volume V. La physique statistique établit des liens statistiques entre ces grandeurs physiques macroscopiques et d'autres grandeurs microscopiques caractérisant les constituants élémentaires (atomes ou molécules) du système matériel.
+Cette procédure est utile, car il est en pratique impossible de suivre l'évolution des constituants individuels du gaz. Par exemple, un litre d'air contient environ 3×1022 molécules (un nombre de l'ordre du nombre d'Avogadro). Même s'il était possible de suivre l'évolution individuelle de chacune d'elles, cela ne donnerait pas d'information pertinente sur le système. Le but de la physique statistique est de définir les quantités macroscopiques pertinentes qui permettent de décrire un tel système composé d'un très grand nombre de particules, et les relations entre ces différentes quantités. Elle doit aussi relier ces quantités macroscopiques à des quantités d'origine microscopiques qui décrivent les constituants du système. Par exemple, la température d'un gaz parfait est une mesure de l'énergie cinétique totale des particules qui le composent.
+Une des raisons qui permet un passage du microscopique au macroscopique est en fait le nombre gigantesque des constituants du système. Pour cette raison, on parle de l'énergie cinétique E totale des molécules d'un gaz, car les fluctuations statistiques ΔE d'une telle quantité (il est possible que l'énergie cinétique totale des molécules du gaz soit, dans une petite région, légèrement différente de la valeur moyenne attendue) sont limitées par la relation (issue de la loi de Poisson)
+,
+où N est le nombre de molécules du volume de gaz considéré. Même pour des petits volumes, par exemple de l'ordre de 1 mm3 pour un gaz à TPN, soit environ 3×1016 particules, les fluctuations de l'énergie cinétique totale sont inférieures à 10-8 et en pratique presque toujours négligeables.
+Postulat fondamental[modifier | modifier le code]
+Énoncé[modifier | modifier le code]
+Le postulat fondamental de la physique statistique d'équilibre (aussi connu comme le postulat des probabilités a priori égales) est:
+Étant donné un système isolé en équilibre, il se trouve avec probabilités égales dans chacun de ses micro-états accessibles.
+Ce postulat est une hypothèse fondamentale en physique statistique : il signifie qu'un système n'a pas de préférence pour n'importe quel de ses microétats accessibles. Étant donnés Ω microétats à énergie donnée, la probabilité que le système se trouve à un microétat particulier est p = 1/Ω. Ce postulat, nécessaire, permet de conclure que pour un système à l'équilibre, l'état thermodynamique (le macroétat) qui peut résulter du plus grand nombre de microétats est aussi le macroétat le plus probable du système.
+Par rapport aux postulats sous-tendant la théorie cinétique des gaz, il s'agit d'un saut dans l'abstraction qui permet toutes les généralisations. Cet énoncé remplace avantageusement les modèles microscopiques à la fois simplistes et pourtant lourdement calculatoires par des incertitudes statistiques. Le modèle s'applique a priori à tout système possédant un mécanisme de redistribution statistique de l'énergie au niveau microscopique.
+Origine : l'hypothèse ergodique[modifier | modifier le code]
+Dans le cadre naissant de la théorie cinétique des gaz, Boltzmann a formulé en 1871 une hypothèse, connue aujourd'hui sous le nom d'hypothèse ergodique : « Le point représentatif d'un système hamiltonien invariant par translation dans le temps passe au cours du temps par chaque point de l'hypersurface d'énergie constante. »
+Il a été prouvé en 1910 que cette hypothèse était fausse, mais on a depuis démontré que certains systèmes physiques vérifient l'hypothèse quasi-ergodique :
+Le point représentatif d'un système hamiltonien invariant par translation dans le temps passe au cours du temps aussi près que l'on veut de chaque point de l'hypersurface d'énergie constante.
+Cependant, en dépit de progrès très important réalisés en théorie ergodique et en théorie du chaos, l'utilisation de l'hypothèse quasi-ergodique pour justifier le postulat fondamental de la physique statistique reste à ce jour controversée[2].
+Équiprobabilité et information[modifier | modifier le code]
+En théorie de l'information, l'information est l'opposée du logarithme de la probabilité : .
+Dans ce contexte, l'entropie est définie comme la moyenne de l'information contenue dans le système :
+C'est une fonction continue de plusieurs variables, dont on peut montrer qu'elle admet un maximum global lorsque tous les
+sont égaux. Ceci signifie qu'avec l'hypothèse d'équiprobabilité, S est maximale. On interprète cela en disant qu'on a alors un minimum d'information, ou encore un maximum d'incertitude, sur le système.
+Par contre, quand l'un des évènements est certain, sa probabilité vaut 1 tandis que tous les autres
+sont nuls. On connait alors exactement la configuration du système et l'incertitude est nulle. Dans ce cas l'entropie admet sa valeur minimale, en l'occurrence 0.
+Généralisations aux problèmes analogues[modifier | modifier le code]
+Les méthodes de description mathématique développées dans le cadre de la physique statistique ont trouvé des applications dans pratiquement tous les domaines de la physique moderne ou de la chimie, mais aussi en économie, dans les sciences humaines, etc.
+Outils et procédés[modifier | modifier le code]
+La formulation moderne de cette théorie se fonde sur la description des systèmes physiques étudiés par le biais d'ensembles statistiques. De tels ensembles représentent la totalité des configurations possibles du système associées à leur probabilités de réalisation. À chaque ensemble est associée une fonction de partition qui, par manipulations mathématiques, permet d'extraire les grandeurs thermodynamiques du système. Selon les relations du système avec le reste de l'univers, on distingue généralement trois types d'ensemble, du plus simple au plus complexe :
+l'ensemble microcanonique
+l'ensemble canonique
+l'ensemble grand canonique
+v · d · m
+Ensembles en physique statistique
+Microcanonique
+Canonique
+Grand-canonique
+T-p
+Variables indépendantes
+E, N, V ou B
+T, N, V ou B
+T, μ, V ou B
+T, μ, p ou B
+Fonction microscopique
+nombre des micro-états
+Fonction de partition canonique
+Fonction de partition grand-canonique
+Fonction de partition T-p
+avec
+Potentiel thermodynamique
+Entropie
+Energie libre
+Grand potentiel
+Enthalpie libre
+Ensemble microcanonique[modifier | modifier le code]
+Article détaillé : Ensemble microcanonique.
+Cet ensemble décrit le cas idéal d'un système complètement isolé d'énergie
+constante, et n'échangeant donc ni particule, ni énergie, ni volume avec le reste de l'univers. L'intérêt de ce modèle est qu'il permet de définir l'entropie sous sa forme la plus simple.
+Entropie microcanonique[modifier | modifier le code]
+Le système étant à l'équilibre macroscopique, mais libre d'évoluer à l'échelle microscopique entre
+micro-états différents, son entropie est donnée par la formule de Boltzmann (1877) :
+où
+est la constante de Boltzmann. Cette définition correspond à l'entropie de Shannon :
+d'une configuration de
+micro-états équiprobables :
+Extensivité de l'entropie[modifier | modifier le code]
+Article détaillé : Extensivité - intensivité.
+L'énergie macroscopique totale
+du système isolé étudié est toujours supérieure ou égale à une certaine valeur
+minimale, appelée énergie de l'état fondamental du système. De plus, le comptage du nombre
+de micro-états du système fermé d'énergie totale
+nécessite[3] en général l'introduction d'une certaine incertitude
+d'ordre mésoscopique.
+On peut montrer que, pour un système « ordinaire »[4], le nombre
+de micro-états est une fonction rapidement croissante de l'énergie de la forme :
+où N le nombre de degrés de liberté total du système, supposé très grand. Il est alors possible de montrer[5] que lorsque l'énergie totale E n'est pas trop proche de sa valeur minimale, l'entropie S(E,N) calculée par la formule de Boltzmann est :
+de l'ordre de N, donc l'entropie microcanonique est bien extensive à la limite thermodynamique.
+indépendante de la valeur exacte de l'incertitude .
+Ensemble canonique[modifier | modifier le code]
+Article détaillé : Ensemble canonique.
+L'ensemble canonique décrit un système fermé en équilibre thermique avec un thermostat extérieur. Ce système fermé peut donc échanger de l'énergie sous forme de transfert thermique avec l'extérieur, à l'exclusion de toute autre quantité.
+Fonction de partition canonique[modifier | modifier le code]
+Dans les conditions citées ci-dessus, on démontre que la probabilité
+pour que le système fermé réalise un état
+d'énergie
+est donnée par la formule de Boltzmann :
+où le facteur , parfois appelé « température inverse », traduit la thermalisation du système avec le thermostat extérieur à la température . Le facteur de normalisation Z se calcule en écrivant la condition des probabilités totales :
+Z est appelé la fonction de partition canonique du système fermé, et s'écrit explicitement :
+Cette fonction de partition permet de déduire toutes les grandeurs macroscopiques du système fermé comme moyennes des grandeurs microscopiques associées.
+Observables macroscopiques[modifier | modifier le code]
+L'énergie interne U est la moyenne macroscopique de l'ensemble des énergies microscopiques  :
+De même, pour toute grandeur A prenant des valeurs
+définies sur les micro-états i associés aux énergies , on peut définir la valeur moyenne :
+Appliquons en particulier cette formule à l'entropie, en posant que les micro-états
+définissent des systèmes représentables comme des ensembles microcanoniques, nous avons défini pour chaque micro-état i une entropie microcanonique :
+L'entropie totale du système prend alors la forme :
+Remplaçons la probabilité par son expression dans le logarithme :
+D'après la définition de la température inverse, on a : , d'où :
+On reconnaît dans le premier terme la valeur moyenne de l'énergie. Par ailleurs, le logarithme de Z est indépendant de l'indice i. On obtient alors en utilisant la condition de normalisation des probabilités :
+En rapprochant cette formule de celle donnant l'énergie libre F en thermodynamique : F = U - T S, il vient naturellement :
+ou encore :
+Tableau récapitulatif[modifier | modifier le code]
+Les expressions de F, de U et de S sont suffisantes pour en déduire toutes les autres grandeurs thermodynamiques :
+Nom
+Formule
+énergie libre de Helmholz
+énergie interne
+pression
+entropie
+enthalpie libre de Gibbs
+enthalpie
+chaleur spécifique à volume constant
+chaleur spécifique à pression constante
+potentiel chimique
+Pour la dernière entrée, il ne s'agit pas de l'ensemble grand-canonique. Il est souvent utile de considérer que l'énergie d'une molécule donnée est distribuée entre plusieurs modes. Par exemple, l'énergie de translation est la partie de l'énergie relative au mouvement du centre de masse de la molécule. L'énergie de configuration se rapporte à la portion de l'énergie associée aux diverses forces attractives et répulsives entre les molécules du système. Les autres modes sont tous considérés comme internes aux molécules. Ils incluent les modes rotationnels, vibrationnels, électroniques et nucléaires. Si nous supposons que chaque mode est indépendant, l'énergie totale peut être exprimée comme la somme de la contribution de chaque composant :
+où les indices t, c, n, e, r et v correspondent aux énergies des modes de translation, de configuration, nucléaires, électroniques, rotationnels, et vibrationnels respectivement.
+En substituant cette équation dans la toute première équation, nous obtenons :
+Grâce à l'indépendance des modes, on peut permuter la somme et le produit :
+Ainsi, pour chaque mode, on peut définir une fonction de partition associée, et on obtient la fonction de partition totale comme produit de ces fonctions de partition de modes :
+Des expressions simples en sont dérivées pour chacun des modes relatifs à des propriétés moléculaires, telles que les fréquences rotationnelles et vibrationnelles. Les expressions des diverses fonctions de partitions sont données dans la table suivante :
+Type
+Formule
+nucléaire
+électronique
+vibrationnel
+rotationnel(linéaire)
+rotationnel (non linéaire)
+translation
+configuration (gaz parfait)
+Ces équations peuvent être combinées avec celles de la première table pour déterminer la contribution d'un mode énergétique spécifique aux propriétés thermodynamiques. Par exemple, la « pression de rotation » peut être déterminée de cette manière. La pression totale peut être trouvée en sommant les contributions de pression de tous les modes individuels :
+Ensemble grand-canonique[modifier | modifier le code]
+Article détaillé : Ensemble grand-canonique.
+Si le système est ouvert (c'est-à-dire s'il permet l'échange de particules avec l'extérieur), nous devons introduire les potentiels chimiques et remplacer la fonction de partition canonique par la fonction de partition grand-canonique :
+où
+est le nombre de particules de la j-ème espèce dans la i-ème configuration. Il peut arriver aussi que nous ayons d'autres variables à ajouter à la fonction de partition, une variable par quantité conservée. La plupart d'entre elles, cependant, peuvent sans problème être interprétées comme des potentiels chimiques. Dans la plupart des problèmes de matière condensée, les effets sont non relativistes et la masse est conservée. La masse est inversement reliée à la densité, qui est la variable conjuguée de la pression.
+Dans le reste de l'article, nous ignorerons cette difficulté et supposerons que les potentiels chimiques ne changent rien. Examinons l'ensemble grand canonique.
+Recalculons toutes les expressions en utilisant l'ensemble grand-canonique. Le volume est fixé et ne figure pas dans ce traitement. Comme précédemment, j est l'indice des particules de la j-ème espèce et i est l'indice du i-ème micro-état :
+Nom
+Formule
+Grand potentiel
+énergie interne
+nombre de particules
+entropie
+énergie libre de Helmholtz

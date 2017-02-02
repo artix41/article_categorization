@@ -1,0 +1,111 @@
+Espace topologique — Wikipédia
+Espace topologique
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Topologie générale)
+Aller à :					navigation, 					rechercher
+La topologie générale est une branche des mathématiques qui fournit un vocabulaire et un cadre général pour traiter des notions de limite, de continuité, et de voisinage.
+Les espaces topologiques forment le socle conceptuel permettant de définir ces notions. Elles sont suffisamment générales pour s'appliquer à un grand nombre de situations différentes : ensembles finis, ensembles discrets, espaces de la géométrie euclidienne, espaces numériques à n dimensions, espaces fonctionnels plus complexes, mais aussi en géométrie algébrique. Ces concepts apparaissent dans presque toutes les branches des mathématiques ; ils sont donc centraux dans la vision moderne des mathématiques.
+La topologie générale ne tente pas d'élucider la question très complexe de la « composition du continu »  : elle part d'une approche axiomatique, en utilisant le vocabulaire de la théorie des ensembles ; autrement dit, elle suit une approche fondée sur la notion de structure (en l'occurrence, ici, une structure topologique), en faisant usage d'une axiomatique ensembliste. Les axiomes sont minimaux, et en ce sens, c'est la structure la plus générale pour étudier les concepts cités. Ils ont été formalisés par Kolmogorov au début du XXe siècle.
+La topologie générale définit le vocabulaire fondamental, mais permet aussi la démonstration de résultats non triviaux et puissants, tels que le théorème de Baire. Elle possède deux prolongements importants, permettant une analyse plus approfondie encore de la notion générale de « forme » : la topologie différentielle, généralisant les outils de l'analyse classique (dérivée, champs de vecteurs, etc.), et la topologie algébrique, introduisant des invariants calculables tels que les groupes d'homologie.
+Cet article est technique ; une vision générale et historique est ébauchée dans l'article « Topologie ».
+Sommaire
+1 Définitions
+1.1 Définition par les ouverts
+1.2 Définition par les fermés
+1.3 Définition par les adhérences
+1.4 Définition par les voisinages
+2 Exemples
+3 Concepts associés
+3.1 Topologie engendrée par une famille de parties
+3.2 Applications continues
+3.2.1 Définitions
+3.2.2 Topologie engendrée par une famille de fonctions
+3.3 Limites
+4 Propriétés
+5 Notes et références
+6 Voir aussi
+Définitions[modifier | modifier le code]
+Deux définitions équivalentes sont souvent données : la définition par les ouverts, et la définition par les voisinages d'un point. La première est plus ramassée, la seconde souvent plus intuitive. Le passage d'une définition à l'autre est direct.
+Définition par les ouverts[modifier | modifier le code]
+Un espace topologique est un couple (E, T), où E est un ensemble et T une topologie sur E, à savoir un ensemble de parties de E — que l'on appelle les ouverts de (E, T) — vérifiant les propriétés suivantes :
+l'ensemble vide et E appartiennent à T[1] ;
+toute réunion quelconque d'ouverts est un ouvert, c'est-à-dire que si (Oi)i∈I est une famille d'éléments de T, indexée par un ensemble I quelconque (pas nécessairement fini, ni même dénombrable) alors
+;
+toute intersection finie d'ouverts est un ouvert, c'est-à-dire que si O1, … , On sont des éléments de T alors
+Un fermé d'une topologie est défini comme le complémentaire d'un ouvert.
+L'adhérence X d'une partie X de E est le plus petit fermé qui contient X.
+Pour un point a de E, on appelle alors voisinage de a pour cette topologie n'importe quelle partie de E qui inclut un ouvert qui contient a.
+Définition par les fermés[modifier | modifier le code]
+Il résulte de la théorie élémentaire des ensembles qu'une topologie sur E peut aussi être définie par l'ensemble de ses fermés, cet ensemble de parties de E devant vérifier :
+les ensembles E et vide sont des fermés ;
+toute intersection quelconque de fermés est un fermé ;
+toute réunion finie de fermés est un fermé.
+Définition par les adhérences[modifier | modifier le code]
+Dans un espace topologique, les adhérences vérifient les propriétés :
+Inversement, étant donné un ensemble E, toute application — : P(E) → P(E) qui vérifie ces quatre propriétés (appelées axiomes de fermeture de Kuratowski) permet de définir sur E une topologie dont — est l'application adhérence[2], en décrétant que les fermés de cette topologie sont les X tels que X = X.
+En effet, les axiomes 1 et 3 sont alors trivialement satisfaits, et l'axiome 2 l'est aussi car l'application — est un opérateur de préclôture donc croissant, ce qui permet de montrer que l'intersection X de toute famille de fermés Xi est fermée : pour tout i, de X ⊂ Xi on déduit X ⊂ Xi = Xi, d'où l'inclusion de X dans X et donc l'égalité. Ainsi, on a défini une topologie, dont — est bien l'application adhérence (d'après la croissance et le deuxième axiome de Kuratowski).
+Définition par les voisinages[modifier | modifier le code]
+Article détaillé : Topologie définie à partir des voisinages.
+Un espace topologique est un couple , où E est un ensemble et
+une application de E vers l'ensemble P(P(E)) obéissant aux cinq conditions ci-après[3], dans lesquelles les éléments de , pour a ∈ E, sont appelés « voisinages de a », la justification de cette appellation venant juste après cette liste.
+Pour tout point a de E :
+tout sur-ensemble d'un voisinage de a est lui-même voisinage de a ;
+l'intersection de deux voisinages de a est elle-même un voisinage de a ;
+E est un voisinage de a ;
+tout voisinage de a contient a ;
+pour tout voisinage V de a, il existe un voisinage W de a tel que V soit voisinage de chacun des points de W[4].
+Il existe alors une et une seule topologie sur E (au sens de la définition ci-dessus par les ouverts) telle que pour tout point a de E,
+soit égal à l'ensemble des voisinages de a pour cette topologie, c'est-à-dire à l'ensemble des parties de E incluant un ouvert qui contient a.
+Les ouverts de cette topologie sont les parties O de E telles que pour tout point a de O, O appartienne à
+La plupart des notions de topologie, comme la continuité ou la limite, peuvent se définir de manière équivalente et aussi élégante par les ouverts, par les fermés ou par les voisinages.
+Exemples[modifier | modifier le code]
+Le premier exemple historique d'espace topologique est l'ensemble des nombres réels muni de sa topologie usuelle. Cet exemple est celui qui est à la base de la théorie des espaces topologiques.
+La topologie induite sur une partie F d'un espace topologique E est la topologie sur F dont les ouverts sont les intersections des ouverts de E avec F. Cette définition permet par exemple de définir la topologie induite par celle de ℝ sur un intervalle, et ainsi de pouvoir définir les propriétés de continuité et de limite à des fonctions définies sur un intervalle de ℝ. L'ensemble de Cantor, source de nombreux exemples et contre-exemples, est un sous-ensemble particulier de ℝ, muni de la topologie induite.
+Il existe une topologie associée à tout espace métrique : ses ouverts sont les réunions de boules ouvertes.
+Ainsi la topologie sur ℝ est naturellement issue de la distance issue de la valeur absolue. Un ouvert est alors une union d'intervalles ouverts.
+Plus généralement, les espaces vectoriels normés sont des espaces métriques donc topologiques.
+Tout ensemble totalement ordonné peut être muni de topologies liées à l'ordre. La plus commune s'appelle la topologie de l'ordre. Sur ℝ, elle coïncide avec la topologie usuelle.
+D'autres exemples de topologies plus sophistiquées sont donnés dans le § « Exemples » de l'article sur les voisinages.
+La donnée d'un espace topologique fini (en) équivaut à celle d'un ensemble fini E et d'un sous-treillis de P(E) contenant ∅ et E.
+La topologie discrète sur un ensemble X est celle pour laquelle T = P(X), l'ensemble des parties de X. Autrement dit : toutes les parties sont ouvertes, ou encore : tous les points sont isolés. C'est la topologie la plus fine sur X.
+La topologie grossière sur X est la moins fine. C'est celle dont les seuls ouverts sont la partie vide et X lui-même.
+La topologie cofinie sur X est celle dont les ouverts sont la partie vide et les complémentaires d'ensembles finis. De même, la topologie codénombrable sur X a pour ouverts la partie vide et les complémentaires d'ensembles au plus dénombrables.
+La topologie produit est une topologie définie sur un produit cartésien d'espaces topologiques. Lorsque tous ces espaces sont identiques, on obtient la topologie de la convergence simple. La topologie d'un espace vectoriel réel de dimension finie, vu comme produit fini, coïncide avec celle issue d'une norme. Un exemple de produit infini est le cube de Hilbert [0, 1]ℕ, généralisation du cube en dimension infinie.
+En géométrie algébrique on définit la topologie de Zariski sur divers espaces. Par exemple :
+Si k est un corps, la topologie de Zariski sur l'espace affine kn est celle dont les fermés sont tous les ensembles algébriques affines de kn. Pour n = 1, ces fermés sont simplement k et ses parties finies, donc la topologie de Zariski sur la droite affine est la topologie cofinie.
+Si A est un anneau commutatif unitaire, son spectre premier, constitué de ses idéaux premiers, est lui aussi muni d'une topologie de Zariski, qui n'est presque jamais séparée.
+Dans la théorie des schémas, on adopte une définition plus abstraite : les ouverts d'une topologie de Grothendieck (en) (par exemple la topologie étale) sont définis comme des morphismes de certaines catégories.
+Certaines structures algébriques sont munies d'une topologie « compatible » : espaces vectoriels topologiques (souvent localement convexes, comme les espaces de Fréchet), groupes topologiques, anneaux topologiques, etc.
+Concepts associés[modifier | modifier le code]
+Topologie engendrée par une famille de parties[modifier | modifier le code]
+Article détaillé : Prébase.
+Applications continues[modifier | modifier le code]
+Article détaillé : Continuité.
+Définitions[modifier | modifier le code]
+Un des premiers intérêts de la notion d'espace topologique est de pouvoir définir la continuité des applications. Il existe deux approches, l'approche locale qui définit la continuité en un point, et l'approche globale qui définit la continuité en tout point. Soit f : E → F une application entre deux espaces topologiques.
+Définition locale. Soit a un élément de E. L'application f est dite continue au point a si l'image réciproque de tout voisinage de f(a) est un voisinage de a.
+Définition globale. L'application f est dite continue si l'image réciproque f−1(U) de tout ouvert U de F est un ouvert de E.
+(Il existe des définitions équivalentes, en termes de fermés ou d'adhérences.)
+Équivalence de la continuité en tout point et de la continuité globale : l'application f est continue si et seulement si elle est continue en tout point de E.
+Les applications continues sont les morphismes de la catégorie des espaces topologiques. Les isomorphismes de cette catégorie sont appelés les homéomorphismes. Ce sont les bijections continues dont la réciproque est continue.
+Topologie engendrée par une famille de fonctions[modifier | modifier le code]
+Articles détaillés : Comparaison de topologies, Topologie initiale et Topologie finale.
+Soient X un ensemble et Y un espace topologique. La donnée supplémentaire d'une application permet de définir une topologie sur X :
+pour toute application f de X dans Y, on peut définir la topologie initiale liée à f. C'est la topologie sur X la plus grossière rendant f continue.
+de même, pour toute application f de Y dans X, on définit la topologie finale liée à f. C'est la topologie sur X la plus fine rendant f continue. Un exemple est la topologie quotient, lorsque X est le quotient de Y par une relation d'équivalence et f la projection canonique.
+On peut généraliser ces deux définitions en remplaçant l'espace Y par une famille d'espaces (Yi)i∈I, et l'application f par une famille d'applications (fi)i∈I.
+Limites[modifier | modifier le code]
+Articles détaillés : Limite (mathématiques) et Limite (mathématiques élémentaires).
+La notion de limite en un point, si elle existe, décrit le comportement qu'une fonction « devrait avoir » si elle était définie en ce point. L'exemple le plus simple est le cas d'une fonction définie sur un intervalle ouvert de ℝ ; la limite est le concept qui permet de déterminer le comportement de la fonction aux bornes de cet intervalle.
+Soient E et F deux espaces topologiques, A une partie de E, f une application de A dans F, a un point de E adhérent à A et ℓ un point de F. On dit que ℓ est une limite de f au point a si pour tout voisinage V de ℓ, il existe un voisinage W de a tel que pour tout point x de W∩A, l'image f(x) appartient à V.
+(Il suffit pour cela que cette propriété soit vérifiée pour tout V d'une base de voisinages de ℓ, par exemple pour tout V ouvert contenant ℓ.)
+Remarques
+Si F est séparé alors f possède au plus une limite au point a.
+Si le point a est élément de la partie A, alors f est continue en a si et seulement si f(a) est une limite de f au point a.
+Des généralisations de cette notion, permettant par exemple de parler de limites « à l'infini » ou de dire qu'une intégrale est une limite de sommes de Riemann ont été définies ; les plus puissantes utilisent la notion de filtre.
+Propriétés[modifier | modifier le code]
+On dit qu'un espace topologique est séparé ou de Hausdorff ou T2 lorsque deux points distincts quelconques admettent des voisinages disjoints. C'est le plus courant des axiomes de séparation.
+On dit qu'un espace vérifie la propriété de Borel-Lebesgue lorsqu'on peut extraire un sous-recouvrement fini de tout recouvrement ouvert. On parle aussi d'espace quasi-compact.
+Un espace quasi-compact et séparé est dit compact.
+Il existe beaucoup d'autres propriétés topologiques (en) (métrisabilité, connexité, connexité par arcs, connexité simple, propriété de Baire, paracompacité…) et chacune d'entre elles a une version locale.
+D'autres propriétés (précompacité, complétude…) sont liées à une structure uniforme, plus riche qu'une simple topologie, ou même (espace borné…) à une distance.

@@ -1,0 +1,166 @@
+Nombre quantique — Wikipédia
+Nombre quantique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la physique quantique.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Consultez la liste des tâches à accomplir en page de discussion.
+Un nombre quantique est, en mécanique quantique, un élément d'un jeu de nombres permettant de définir l'état quantique complet d'un système. Chaque nombre quantique définit la valeur d'une quantité conservée dans la dynamique d'un système quantique.
+En physique des particules, les nombres quantiques dits « intrinsèques » sont des caractéristiques de chaque type de particule élémentaire.
+Un nombre quantique est aussi le nombre de couches dans le cortège électronique des électrons d'un atome ou d'un ion. (Voir Nombre quantique principal).
+Sommaire
+1 Nombres quantiques en mécanique quantique
+1.1 Exemples
+1.2 Nombre quantique principal, n
+1.3 Nombre quantique secondaire (ou azimutal ou orbital), l
+1.4 Nombre quantique tertiaire ou magnétique, m
+1.5 Nombre quantique de spin, s
+2 Voir aussi
+2.1 Articles connexes
+2.2 Liens externes
+Nombres quantiques en mécanique quantique[modifier | modifier le code]
+La dynamique d'un système quantique est décrite par un opérateur hamiltonien H. Il existe un nombre quantique de ce système correspondant à son énergie (les valeurs propres de H). Il existe un nombre quantique pour tout opérateur O qui commute avec H.
+Ces nombres quantiques sont les seuls possibles d'un système donné.
+Les nombres quantiques caractérisant les électrons dans un atome sont donnés par la résolution de l'équation de Schrödinger en coordonnées sphériques:
+Par la méthode de séparation des variables, on obtient:
+Les nombres quantiques principal, orbital et magnétique sont obtenus respectivement par la résolution de ,
+et .
+Exemples[modifier | modifier le code]
+Dans le modèle de l'atome de Bohr, l'électron peut être entièrement défini par un jeu de quatre nombres quantiques, nommé case quantique.
+Nombre quantique principal, n[modifier | modifier le code]
+Article détaillé : nombre quantique principal.
+Entier : n = 1, 2, 3...
+Définit l'énergie de l'électron
+Définit un niveau d'énergie, une couche électronique
+Nombre quantique secondaire (ou azimutal ou orbital), l[modifier | modifier le code]
+Article détaillé : nombre quantique secondaire.
+noté
+Entier entre 0 et n-1
+Définit des sous-couche électroniques :
+s (de sharp) pour
+= 0
+p (de principal) pour
+= 1
+d (de diffuse) pour
+= 2
+f (de fundamental) pour
+= 3
+puis (pour les états excités) g, h, i... pour
+= 4,5,6...
+Nombre quantique tertiaire ou magnétique, m[modifier | modifier le code]
+Article détaillé : nombre quantique magnétique.
+Entier entre - et +
+Définit l'orientation de l'orbitale atomique
+Pour l = 0, m = 0, 1 seule orientation, 1 orbitale s, 1 case quantique.
+Pour l = 1, m = -1 ; 0 ; 1, 3 orientations correspondant aux trois axes d'un système tridimensionnel, 3 orbitales p de même énergie (, , ) 3 cases quantiques
+Pour l = 2, m = -2 ; -1 ; 0 ; 1 ; 2, 5 orientations
+donc : chaque couche électronique n possède n-1 orbitales elles mêmes possédant 2+1 nombres m différents eux mêmes pouvant accueillir 2 électrons chacun.
+en notant Zmax(n) (notation non normalisée) le nombre d'électrons maximal qu'une couche n peut contenir on peut écrire :
+où n² représente le nombre total d'orientation magnétiques différentes (donc de cases quantiques) différentes sur une couche n
+Nombre quantique de spin, s[modifier | modifier le code]
+Permet de quantifier le moment cinétique intrinsèque de l'électron. Il définit l'orientation de l'électron dans un champ magnétique
+Exemple : le nombre quantique de spin d'un électron vaut 1/2.
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Atome de Bohr
+Case quantique
+État quantique
+Mécanique quantique
+Nombre quantique principal
+Liens externes[modifier | modifier le code]
+(en) Quantum Numbers and Electron Configurations
+(en) Quantum numbers for the hydrogen atom
+(en) Lecture notes on quantum numbers
+(en) The particle data group
+Portail de la chimie
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Nombre_quantique&oldid=109468074 ».
+Catégories : Chimie quantiqueMécanique quantiqueCatégories cachées : Wikipédia:ébauche physique quantiquePortail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Physique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Български
+বাংলা
+Bosanski
+Català
+Čeština
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Gaeilge
+Hrvatski
+Magyar
+Italiano
+日本語
+한국어
+മലയാളം
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+پنجابی
+Português
+Română
+Русский
+Scots
+Srpskohrvatski / српскохрватски
+Slovenčina
+Slovenščina
+Svenska
+தமிழ்
+తెలుగు
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 26 novembre 2014 à 23:36.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

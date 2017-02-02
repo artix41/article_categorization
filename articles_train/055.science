@@ -1,0 +1,59 @@
+Règle de Klechkowski — Wikipédia
+Règle de Klechkowski
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La règle de Klechkowski, également appelée règle de Madelung (notamment chez les Anglo-saxons), est une méthode empirique qui décrit l'ordre de remplissage des électrons dans les sous-couches d'un atome. Avec la règle de Hund et le principe d'exclusion de Pauli, elle constitue l'un des outils de base permettant de prévoir le remplissage des orbitales atomiques dans le modèle de Bohr. Cette règle porte le nom du chimiste russe Vsevolod Kletchkovski.
+Un autre nom employé est le principe d'Aufbau, d'après le mot allemand Aufbau qui signifie « construction », parce que cette règle est employée pour construire la configuration électronique d'un atome.
+Sommaire
+1 Énoncé de la règle
+1.1 Diagramme de Klechkowski
+2 Représentation de la configuration électronique
+2.1 Exemples
+3 Exceptions
+4 Histoire
+5 Notes et références
+6 Voir aussi
+6.1 Articles connexes
+Énoncé de la règle[modifier | modifier le code]
+La règle de Klechkowski énonce que :
+« Les sous-couches sont remplies de sorte que n + l soit croissant ; »
+où n est le nombre quantique principal et l le nombre quantique secondaire.
+C'est-à-dire que les sous-couches sont remplies de façon à ce que n + l soit strictement croissant, selon l'ordination usuelle des nombres entiers. D'abord 1, puis 2, puis 3 etc.
+De plus,
+« En cas d'égalité, la sous-couche ayant le plus petit n est remplie en premier. »
+Il existe cependant de nombreuses exceptions, liées aux stabilités particulières des sous-couches saturées, qui préfèreront ainsi se compléter, au détriment éventuel d'autres sous-couches déjà remplies. Ces exceptions se trouvent aux séries des métaux de transition, des lanthanides et des actinides. Pour ces atomes, et souvent pour des atomes proches susceptibles de former des ions isoélectroniques de ces atomes, on préfère écrire les configurations électroniques dans l'ordre réel des niveaux d'énergie, ce qui revient souvent à inverser les orbitales ns et (n-1)d de valence.
+Diagramme de Klechkowski[modifier | modifier le code]
+Schéma illustrant l'ordre de remplissage des couches suivant le sens des flèches. Chaque colonne correspond à une valeur de n + l. Après 7p l'ordre est inexact parce qu'il manque 5g, 6h et les orbitales de n > 7.
+Autre façon de représenter le diagramme : ici chaque flèche rouge diagonale correspond à une valeur de n+l.
+Le diagramme de Klechkowski est un moyen mnémotechnique permettant de retrouver cette règle. On accède ainsi à l'ordre de remplissage des sous-couches électroniques d'un élément chimique.
+Rappel: pour chaque valeur de n (qui au demeurant définit la couche en fonction de la valeur du nombre entier qu'on lui affecte), l peut prendre les valeurs comprises entre 0 et n-1. A titre d'exemple, pour n=1, l=forcément 0. C'est pourquoi il n'y a qu'une sous-couche 1s et pas de sous-couche 1p. En effet la valeur que prend l définit la sous-couche. Pour l=0: sous-couche s, l=1: sous-couche p, etc.
+Sa construction est relativement simple :
+toutes les sous-couches s sont mises en diagonale ;
+puis on ajoute les sous-couches suivantes (p, d, f, etc.) sur la ligne.
+La lecture se fait ensuite le long des colonnes. On trouve donc l'ordre de remplissage suivant :
+1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p (suivi par 8s, 5g, 6f, 7d, 8p, et 9s).
+Ici les orbitales entre parenthèses sont encore vides à l'état fondamental du plus lourd atome actuellement connu (Ununoctium, Z = 118).
+Au diagramme équivalent (et plus courant) indiqué au-dessous, les sous-couches s sont mises à la première colonne et la lecture se fait suivant les diagonales.
+Représentation de la configuration électronique[modifier | modifier le code]
+Les sous-couches sont représentées par leur nombre principal, n, et par une lettre représentant leur nombre secondaire l. Éventuellement, on note les orbitales dégénérées en indice. Enfin, le nombre d'électrons sur la sous-couche est noté en exposant. On utilise :
+« s » pour l = 0 (de l'anglais : sharp) ;
+« p » pour l = 1 (principal) ;
+« d » pour l = 2 (diffuse) ;
+« f » pour l = 3 (fundamental) ;
+« g », « h »… (suite de l'alphabet)
+Par exemple, la sous-couche n = 5, l = 3 contenant 14 électrons est notée : 5f14. On peut écrire successivement toutes les sous-couche d'un atome en partant de la première 1s1, mais on préfère généralement partir de la configuration d'un gaz rare. Pour le fer, on écrira indifféremment l'une des trois formules suivantes :
+[Fe] = 1s2 2s2 2p6 3s2 3p6 4s2 3d6 (forme complète),
+[Fe] = [Ar] 4s2 3d6 (forme abrégée rapportée à l'argon),
+[Fe] = [Ar] 3d6 4s2 (forme abrégée classée par énergie).
+Exemples[modifier | modifier le code]
+Pour l'atome d'oxygène (Z = 8, soit 8 électrons à placer) : 1s2 2s2 2p4 ;
+Pour l'atome de cobalt (Z = 27, soit 27 électrons à placer) : 1s2 2s2 2p6 3s2 3p6 4s2 3d7.
+Certains auteurs préfèrent réarranger l'ordre de sous-couches afin qu'elles correspondent aux n croissants. Ainsi, la configuration du cobalt pourra aussi être décrite sous la forme :
+1s2 2s2 2p6 3s2 3p6 3d7 4s2.
+Exceptions[modifier | modifier le code]
+La règle de Klechkowski ne s'applique qu'aux atomes neutres à leurs états fondamentaux, et même dans ce cas, plusieurs éléments possèdent des configurations qui ne respectent pas la règle. Pour ces atomes, faisant partie des métaux de transition, on observe souvent une sous-couche d demi-remplie ou remplie, et une sous-couche s dégarnie, alors qu'elle devrait être complètement remplie. Un gain de stabilité des sous-couches remplies et semi-remplies en est la cause.
+L'atome le plus léger qui fait exception à la règle est le chrome. Selon la règle, l'orbitale 4s (n+l = 4+0 = 4) serait remplie avant l'orbitale 3d (n+l = 3+2 = 5). La règle prédit alors que la configuration du 24Cr serait 1s22s22p63s23p64s23d4, abrégé [Ar]4s23d4 où [Ar] indique la configuration de Ar (le gaz noble précédent). Cependant la configuration électronique expérimentale du chrome est plutôt [Ar]4s13d5. La sous-couche demi-remplie 3d5 possède une stabilité additionnelle, et les six électrons non-appariés (3d54s1) peuvent tous être alignés en parallèle. (Règle de Hund généralisée au cas de deux niveaux d'énergie presqu'égales.)
+D'autres métaux de transition font aussi exception à la règle. Pour le cuivre (29Cu), la règle prédirait [Ar]4s23d9 mais la vraie configuration est [Ar]4s13d10, stabilisée par la sous-couche 3d remplie. De même au prochain rang du tableau périodique la sous-couche 5s n'est pas toujours remplie en présence d'électrons 4d, par exemple au molybdène 42Mo avec configuration [Kr]5s14d5 et au palladium 46Pd avec configuration [Kr]5s04d10. L'argent (z=47) et l'or (z=79) auront quant à eux une configuration de type ns1 (n-1)d10.
+La série des lanthanides comporte aussi plusieurs exceptions à la règle de Klechkowski : lanthane 57La, cérium 58Ce, gadolinium 64Gd. Ces atomes possèdent chacun un électron 5d à l'état fondamental bien que la sous-couche 4f ne soit pas remplie. Par exemple, la configuration cérium est [Xe]6s25d14f1, et non 6s24f2 comme veut la règle. Le tableau ci-après montre que la règle de Klechkowski ne souffre pas d'exception, du moins si on ne tient pas compte des électrons mais uniquement des harmoniques sphériques issus de l'équation de Schrödinger de l'atome d'hydrogène. Ce graphique montre la table de Janet avec les n + l : Table de Janet avec les harmoniques sphériques et les n + l
+Histoire[modifier | modifier le code]
+Un tableau périodique auquel chaque rang correspond à une valeur de n + l est suggéré par Charles Janet en 1927. En 1936, le physicien allemand Erwin Madelung explicite les règles pour l'ordre de remplissage des sous-couches, sur la base empirique des états fondamentaux déterminés par l'analyse des spectres atomiques. En conséquence les sources anglophones citent normalement la règle de Madelung. Cependant Madelung ne propose aucune explication de l'importance de la somme n + l. En 1962, l'agrochimiste soviétique Vsevolod Mavrikievich Klechkowski (1900–1972) de Moscou présente la première justification théorique, en se basant sur le modèle de Thomas et Fermi[1], ce qui justifie le nom règle de Klechkowski en français.

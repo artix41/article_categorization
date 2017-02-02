@@ -1,0 +1,66 @@
+Mécanique du point — Wikipédia
+Mécanique du point
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La mécanique du point est l'étude du mouvement des points matériels. Alors que la cinématique permet d'étudier les relations entre les paramètres du mouvement (position, vitesse, accélération, etc.), la mécanique du point permet de prédire l'évolution de ces paramètres en connaissant les causes du mouvement. Celles-ci peuvent être les interactions de contact comme le frottement et la poussée, ou à distance comme l'attraction gravitationnelle et les interactions électromagnétiques. Toutes ces interactions sont modélisées par un objet physique unique : la force. Ainsi, en connaissant la force subie par le point matériel à tout moment, il est possible de prédire le mouvement.
+Pour cela il est nécessaire de définir un référentiel, c'est-à-dire un repère de l'espace et une référence pour le temps (une horloge). Un point matériel est alors la donnée de quatre nombres : trois coordonnées (x,y,z) permettant de le repérer dans l'espace, et une masse m. En pratique, cet objet représente soit un objet de petite taille (particule, petite bille, etc.), soit un objet de grande taille pour lequel on néglige les effets dus à cette taille, comme la rotation sur lui-même. Dans tous les cas, on appelle cet objet le mobile. On s'intéresse alors uniquement au mouvement du centre d'inertie ou barycentre de ce mobile.
+Il est intéressant d'étudier un tel mouvement dans les cas statique et dynamique[1]. D'une part, un point matériel est immobile dans un référentiel R si sa vitesse est nulle dans R. Ceci est étudié plus précisément dans l'article statique du point. D'autre part, si la somme des forces qui s'exercent sur le mobile est nulle, celui-ci a un mouvement rectiligne uniforme. Si ce n'est pas le cas, il existe une accélération qui entraîne une modification de la vitesse. Ceci est étudié en détail dans l'article dynamique du point. Dans ces deux cas, on peut résumer les principales caractéristiques du comportement de tels mobiles par les lois du mouvement de Newton. Celles-ci montrent par exemple que dans le vide, tous les objets en chute libre présentent le même mouvement (ceci devient faux lorsqu'intervient le frottement de l'air).
+La mécanique du point, malgré son apparente simplicité, permet d'établir des comportements généraux importants comme le mouvement à force centrale, qui seront ensuite détaillés par des théories plus complexes comme la mécanique du solide, la mécanique des fluides et la mécanique des milieux continus.
+Références[modifier | modifier le code]
+↑ Principes de base de la mécanique du point
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Mécanique du point, sur Wikiversity
+Mécanique du point, sur Wikibooks
+Portail de la physique
+Portail du génie mécanique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Mécanique_du_point&oldid=109925817 ».
+Catégorie : Mécanique du pointCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Génie mécanique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Modifier les liens
+Dernière modification de cette page le 13 décembre 2014 à 20:05.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

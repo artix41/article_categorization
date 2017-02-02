@@ -1,0 +1,125 @@
+Inférence statistique — Wikipédia
+Inférence statistique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant les probabilités et la statistique.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Pour les articles homonymes, voir Statistique (homonymie).
+L'inférence statistique consiste à induire les caractéristiques inconnues d'une population à partir d'un échantillon issu de cette population. Les caractéristiques de l'échantillon, une fois connues, reflètent avec une certaine marge d'erreur possible celles de la population.
+Strictement, l'inférence s'applique à l'ensemble des membres (pris comme un tout) de la population représentée par l'échantillon, et non pas à tel ou tel membre particulier de cette population. Par exemple, les intentions de vote indiquées par l'échantillon, ne peuvent révéler l'intention de vote qu'a tel ou tel membre particulier de la population des électeurs de la circonscription électorale.
+L'inférence statistique est donc un ensemble de méthodes permettant de tirer des conclusions fiables à partir de données d'échantillons statistiques. L'interprétation de données statistiques est, pour une large part, le point clé de l'inférence statistique. Elle est guidée par plusieurs principes et axiomes.
+Sommaire
+1 Histoire
+2 Principes et axiomes
+3 Bibliographie
+4 Voir aussi
+4.1 Articles connexes
+Histoire[modifier | modifier le code]
+Les méthodes d'inférence statistiques ont connu deux grandes phases de développement. La première commence à la fin du XIXe siècle, avec les travaux de R. Fisher, K. Pearson, Jerzy Neyman, Egon Pearson et Abraham Wald qui dégagent les notions fondamentales de vraisemblance, de puissance des test d'hypothèse et d’intervalle de confiance.
+La seconde période, qui perdure aujourd'hui, a été rendue possible grâce à la puissance de calcul des ordinateurs et à la banalisation de l'outil informatique à partir de la fin des années 1940. Ces calculateurs ont permis de dépasser les hypothèses traditionnelles d'indépendance et de normalité, commodes du point de vue mathématique mais souvent simplistes, pour donner toute leur fécondité à des concepts même anciens comme l’hypothèse bayésienne. L'informatique a permis aussi l'explosion des techniques de simulation par application des techniques de rééchantillonnage : méthode de Monte Carlo, bootstrap, jackknife etc. imaginées par John von Neumann, Stanislas Ulam, Bradley Efron, Richard von Mises.
+Principes et axiomes[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+(en) George Casella et Roger Berger, Statistical Inference, Brooks/Cole,‎ 2001, 2e éd.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Statistique inférentielle, sur Wikiversity
+Articles connexes[modifier | modifier le code]
+Hypothèse statistique
+Estimateur (statistique) - estimation de paramètres, estimation ponctuelle ou par intervalles (fourchettes d'estimation)
+Tests d'hypothèses
+Statistique mathématique
+Sondage
+Variable indépendante et identiquement distribuée
+Journalisme de données
+Statistique
+v · d · m
+Probabilités et statistiques
+Théorie des probabilités
+Axiomes des probabilités · Espace probabilisable · Probabilité · Événement · Tribu · Indépendance
+Probabilités élémentaires
+Moyenne · Espérance · Médiane · Variance · Écart type
+Loi de probabilité
+Variable aléatoire · Loi de Bernoulli · Loi de Poisson · Loi uniforme · Loi normale · Loi de Student · Loi de Fisher · Variables iid
+Convergence de lois
+Théorème central limite · Loi des grands nombres · Théorème de Borel-Cantelli
+Calcul stochastique
+Marche aléatoire · Chaîne de Markov · Processus stochastique · Processus de Markov · Martingale · Mouvement brownien · Équation différentielle stochastique
+Statistique
+Statistique descriptive
+Échantillon · Quantile · Erreur type · Intervalle de confiance · Représentations de données · Histogramme · Diagramme circulaire · Boîte à moustaches · Régression linéaire · Méthode des moindres carrés · Analyse des données
+Statistique mathématique
+Une statistique · Fonction de répartition empirique · Théorème de Glivenko-Cantelli · Inférence bayésienne
+Tests statistiques
+Test d'hypothèse · Hypothèse statistique (Hypothèse nulle) · Estimateur · Signification statistique · Test du χ² · Test de Fisher · Test de Kolmogorov-Smirnov · Test de Student · Valeur p
+Applications
+Économétrie · Mécanique statistique · Jeu de hasard · Biomathématique · Mathématiques financières
+Portail des probabilités et de la statistique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Inférence_statistique&oldid=100524784 ».
+Catégorie : Estimation (statistique)Catégories cachées : Wikipédia:ébauche probabilités et statistiquesPortail:Probabilités et statistiques/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+English
+Español
+Euskara
+فارسی
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Nederlands
+Norsk bokmål
+Polski
+Português
+Русский
+Simple English
+Basa Sunda
+తెలుగు
+中文
+Modifier les liens
+Dernière modification de cette page le 23 janvier 2014 à 13:44.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

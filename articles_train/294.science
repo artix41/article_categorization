@@ -1,0 +1,74 @@
+Groupe de renormalisation — Wikipédia
+Groupe de renormalisation
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Des informations de cet article ou section devraient être mieux reliées aux sources mentionnées dans la bibliographie ou en liens externes.
+Améliorez sa vérifiabilité en les associant par des références.
+En mécanique statistique, le groupe de renormalisation (qui est plutôt un semi-groupe, les transformations n'étant pas inversibles) est un ensemble de transformations qui permettent de transformer un hamiltonien en un autre hamiltonien par élimination de degrés de liberté tout en laissant la fonction de partition invariante.
+Le groupe de renormalisation permet de calculer les exposants critiques d'une transition de phase. Il permet aussi de prédire la transition Berezinsky-Kosterlitz-Thouless. En physique de la matière condensée, il permet de traiter l'Effet Kondo, et le Liquide de Luttinger. Il a également des applications dans la théorie des systèmes désordonnés.
+Sommaire
+1 Historique
+2 Définition
+3 Points fixes
+4 Champs essentiels et inessentiels
+5 Méthodes de renormalisation
+6 Notes et références
+7 Annexes
+7.1 Bibliographie
+7.2 Articles connexes
+Historique[modifier | modifier le code]
+En mécanique statistique, le groupe de renormalisation a été introduit par Kenneth G. Wilson au début des années 1970. Auparavant, en théorie quantique des champs, le groupe de renormalisation avait été étudié comme une invariance de la théorie des champs renormalisée sous l'effet d'une variation des paramètres nus pour un point de soustraction fixé par E. Stueckelberg et A.Petermann (1953), ainsi que par Murray Gell-Mann et F. Low (1954).
+Le groupe de renormalisation dans le cadre de la théorie quantique des champs est discuté dans le livre de Bogoliubov et Shirkov. Cependant, les techniques de renormalisation issues de la théorie des champs n'ont été appliquées aux phénomènes critiques qu'après les travaux de Wilson.
+Pour l'effet Kondo, le travail de P. W. Anderson, D. R. Hamman et A. Yuval (1970) utilise des techniques analogues au groupe de renormalisation, bien que ce travail soit antérieur à celui de Wilson sur les phénomènes critiques. M. Fowler et A. Zawadowski ont ensuite développé une approche de renormalisation multiplicative issue de la théorie des champs (1974). La solution de l'effet Kondo par un groupe de renormalisation numérique est due à Wilson (1975).
+Dans le cas du liquide de Luttinger, la solution par le groupe de renormalisation est encore due à J. Solyom et A. Zawadowski (1974). En ce qui concerne la transition de Berezinskii-Kosterlitz-Thouless, sa prédiction par le groupe de renormalisation remonte à 1973.
+Définition[modifier | modifier le code]
+Considérons un ensemble de degrés de libertés noté
+(par exemple
+peut représenter la densité d'aimantation dans un système magnétique ou bien des spins dans un modèle d'Ising), et séparons des degrés de liberté,
+et . Dans le cas d'un modèle continu,
+correspondra à la partie du champ
+dont les composantes de Fourier correspondent à de courtes longueurs d'onde. Pour un modèle discret comme le modèle d'Ising
+représente un sous ensemble de l'ensemble des spins qui va etre éliminé par une transformation de décimation.
+Appelons Z la fonction de partition du modèle et
+le hamiltonien. La fonction de partition s'écrit:
+et la transformation de renormalisation
+est :
+qu'on note
+La transformation donne une expression de la fonction de partition :
+Un exemple très simple de renormalisation est donné par le modèle d'Ising en une dimension. Si on choisit comme
+les spins
+et comme
+les spins
+on vérifie facilement que la transformation de renormalisation change le hamiltonien du modèle d'Ising en une dimension avec interaction
+en le hamiltonien d'un modèle d'Ising en une dimension avec une interaction . En général, le nouveau hamiltonien produit par la transformation de renormalisation est plus compliqué que le hamiltonien initial, et il est nécessaire de faire certaines approximations.
+Dans le cas des modèles continus, comme le choix de la limite imposée aux composantes de Fourier n'est pas imposé par la transformation, les transformations du groupe de renormalisation sont des transformations continues. On note l'application successive de transformations
+et
+sous la forme .
+Points fixes[modifier | modifier le code]
+En itérant les transformations du groupe de renormalisation pour des valeurs particulières des paramètres initiaux, il est possible d'atteindre un point fixe, c’est-à-dire un hamiltonien
+tel que . Dans la théorie des phénomènes critiques, les transformations de renormalisation étant liées à des changements d'échelles un système décrit par un hamiltonien de point fixe présente la meme apparence quelle que soit l'échelle à laquelle il est considéré. Cela veut dire que les fonctions de corrélations doivent être de la forme :
+c'est-à-dire que le système est au point critique et qu'il présente une longueur de corrélation .
+Champs essentiels et inessentiels[modifier | modifier le code]
+Si on suppose maintenant qu'on change les paramètres du hamiltonien , de sorte que ce hamiltonien s'écrive
+où les
+sont appelés les « opérateurs » et les
+sont appelés les « champs ». On peut étudier comment le hamiltonien évolue sous l'action des transformations de renormalisation successives. Pour fixer les idées, imaginons que le groupe de transformations est un groupe continu. Les champs
+obéissent alors à des équations d'évolution :
+Si on veut étudier la stabilité, il suffit de linéariser les fonctions . Après une éventuelle transformation linéaire, les équations d'évolution des champs ont pour solutions :
+.
+Pour , le champ
+croit sous l'action des transformations de renormalisation. On dit que
+est un « champ essentiel » (terminologie de C. Itzykson et J. M. Drouffe) ou « pertinent » (terminologie de N. Boccara). En anglais on parle de « relevant field ».
+Pour , le champ
+decroît sous l'action des transformations de renormalisation. On dit que
+est un « champ inessentiel » (terminologie de C. Itzykson et J. M. Drouffe) ou « non pertinent » (terminologie de N. Boccara). En anglais on parle de « irrelevant field ».
+Pour , le champ
+ne varie pas à l'ordre linéaire. On parle alors de « champ marginal ». Pour connaitre la stabilité du point fixe il faut aller au-delà de l'ordre linéaire. Pour un champ croissant à l'ordre non linéaire on parlera d'un champ « marginalement essentiel » ou « marginalement pertinent » ( « marginally relevant » en anglais).
+Dans la théorie des phénomènes critiques, la température et le champ magnétique sont les seuls champs pertinents au voisinage du point critique. La solution des équations de renormalisation permet de montrer qu'au voisinage du point critique l'énergie libre est de la forme :
+et satisfait donc l'hypothèse d'homogénéité de Widom. Plus généralement, le groupe de renormalisation permet de prédire l'ensemble des exposants critiques du système en étudiant comment son hamiltonien s'éloigne du hamiltonien de point fixe sous l'action du groupe de renormalisation.
+Méthodes de renormalisation[modifier | modifier le code]
+« There is no cookbook for the renormalization group »
+— K.G.Wilson
+Il existe une énorme variété de façons d'implémenter le groupe de renormalisation. En premier lieu, on peut utiliser une approche numérique où on utilise un ordinateur pour garder toutes les constantes de couplage générées par la décimation.
+En second lieu, on peut utiliser une approche analytique, perturbative autour d'un point fixe. Parmi les approches perturbatives, on peut mentionner l'approche originale de Wilson d'intégration sur les modes de courte longueur d'onde, les méthodes diagrammatiques issues de la théorie quantique des champs (Brézin, Zinn-Justin, Le Guillou), la renormalisation mutiplicative (Solyom, Fowler, Zawadowski, Di Castro, Jona-Lasinio), les méthodes de gaz de Coulomb (Kosterlitz, Halperin, Nelson, Young), les méthodes de développement de produits d'opérateurs (Cardy).
+Enfin, des approches analytiques non-perturbatives ont été développées par A. Houghton et indépendamment par J. Polchinsky. Elles ont trouvé des applications dans la théorie des systèmes désordonnés.

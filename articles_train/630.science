@@ -1,0 +1,145 @@
+Puce à ADN — Wikipédia
+Puce à ADN
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Biopuce)
+Aller à :					navigation, 					rechercher
+Cet article ou cette section doit être recyclé.
+Une réorganisation et une clarification du contenu paraissent nécessaires. Discutez des points à améliorer en page de discussion.
+Principe d'utilisation de la puce à ADN.
+Une biopuce, puce à ADN, ou micromatrice d'ADN, est un ensemble de molécules d'ADN fixées en rangées ordonnées sur une petite surface qui peut être du verre, du silicium ou du plastique. Cette biotechnologie récente permet d'analyser le niveau d'expression des gènes (transcrits) dans une cellule, un tissu, un organe, un organisme ou encore un mélange complexe, à un moment donné et dans un état donné par rapport à un échantillon de référence.
+Les puces à ADN sont aussi appelées puces à gènes, biopuces, ou par les termes anglais « DNA chip, DNA-microarray, biochip ». Les termes français microréseau d'ADN et micromatrice d'ADN sont aussi des termes proposés par l'Office québécois de la langue française[1].
+Le principe de la puce à ADN repose sur la propriété que possède l'ADN dénaturé de reformer spontanément sa double hélice lorsqu'il est porté face à un brin complémentaire (réaction d'hybridation). Les quatre bases azotées de l'ADN (A, G, C, T) ont en effet la particularité de s'unir deux à deux par des liaisons hydrogènes (A = T et T = A ; G ≡ C et C ≡ G). Si un patient est porteur d'une maladie, les brins extraits de l'ARN d'un patient (et rétrotranscrits en ADN), vont s'hybrider avec les brins d'ADN synthétiques représentatifs de la maladie.
+Sommaire
+1 Principe
+2 Utilisation
+2.1 Biologie médicale
+3 Fabrication
+3.1 Image d'une hybridation sur une puce à ADN
+4 Références
+5 Voir aussi
+5.1 Liens externes
+5.2 Articles connexes
+Principe[modifier | modifier le code]
+Concrètement, les ARN totaux sont extraits de cellules, dont on veut comparer l'expression des gènes avec un étalon, et subissent une amplification qui va permettre d'obtenir une quantité de matériel génétique suffisante pour l'expérience. Ensuite ces ARNm sont transformés en ADN complémentaires (ADNc) par la technique de rétrotranscription et marqués par un colorant (soit la Cyanine 3 (fluorochrome vert) soit la Cyanine 5 (fluorochrome rouge)). On met ensuite les ADNc obtenus dans une puce contenant des fragments d'ADN, en même temps que l'ADNc étalon. Chaque point (ou spot) de la puce va être analysé individuellement par un scanner à très haute résolution, et ce à la longueur d'onde d'excitation de la Cyanine 3 puis de la Cyanine 5. L'image scannée va être traduite en niveaux de gris. On va ensuite comparer l'intensité du signal entre le vert et le rouge. En fonction de l'intensité du signal il y aura plus ou moins de pixels pour chaque point de la puce. À chaque point (ou spot) est attribué une valeur d'intensité normalisée par rapport à l'ADN "étalon" : on parle de spike. Chacune des valeurs peut être analysée par des techniques de bio-informatique, ce qui permet d'estimer avec plus ou moins de précision l'intensité d'expression d'un gène. Selon les techniques de biologie moléculaire, un marquage à la biotine des ADNc est possible mais dans ce cas pour comparer deux populations ou deux tissus, il faudra hybrider pour chaque condition une puce (et non pas les deux marquages sur la même puce en compétition.)
+Par exemple on peut marquer l'ADN complémentaire du malade en vert et du traité en rouge, ou bien, du témoin en rouge et du traité en vert. Ce marquage se fait habituellement grâce à une enzyme : la polymérase T7 qui amplifie l'ARNm et incorpore les cyanines pour un marquage optimal. Une fois marqués ces ADN complémentaires sont déposés sur la lame de verre qui, elle-même, possède fixée à sa surface, des fragments de génome humain recouvrant tous les gènes présents dans une cellule.
+Les molécules d'ADN fixées sur la lame sont appelées des sondes même si la nomenclature peut varier. Des dizaines de milliers de sondes peuvent être fixées sur une même puce. Cela permet de tester différentes cultures cellulaires sur une même lame voire de faire des réplicats (ce qui est vivement recommandé pour l'analyse biostatistique en aval). Cette technologie provient d'une adaptation du Northern Blot où de l'ADN fragmenté est fixé à un support puis hybridé avec un ADNc. La mesure de l'expression de gènes par puce à ADN s'applique à de nombreux domaines de la biologie et de la médecine comme l'étude de traitements, de maladies ou bien encore de stades développementaux.
+Utilisation[modifier | modifier le code]
+La comparaison de deux expériences de puce à ADN (par exemple deux cellules du même type l'une saine et l'autre malade) peut permettre de découvrir des gènes exprimés différemment selon les conditions (par exemple uniquement dans la cellule malade), de fait, en une seule expérience, il est possible d'identifier les gènes dont l'expression est modifiée. Pour être validée, l'expérience doit être réalisée sur plusieurs réplicats techniques et biologiques et doit être soumise à une analyse statistique qui comprend une normalisation des signaux à l'aide d'algorithmes informatiques et une mise en évidence des gènes sur- ou sous-exprimés. Une fois ces gènes identifiés, d'autres analyses in silico sont nécessaires, telles que des analyses de clustering pour regrouper les gènes présentant le même profil d'expression. Enfin, les résultats seront souvent confirmés gène par gène par des méthodes telles que la PCR quantitative ou le Northern Blot. Les puces apportent principalement des données qualitatives (variation d'expression d'un gène) mais il est difficile de quantifier avec précision l'expression d'un gène avec la technologie des puces à ADN.
+Généralement, après une étude de puce à ADN, la bio-informatique extrait une liste de gènes intéressants (en fonction de ce que l'on cherche). Pour confirmer ces gènes on fait appel à la technique de qPCR encore appelée PCR quantitative ou encore appelée RT-PCR pour Real-Time PCR (PCR en temps réel).
+Biologie médicale[modifier | modifier le code]
+L'utilisation des puces à ADN connaît un essor croissant notamment dans le domaine de la cancérologie pour le typage tumoral d'après leur profil génétique. L'utilisation des puces à ADN comme outil de diagnostic présente l'avantage de faire appel à de nombreux marqueurs : plusieurs milliers de gènes peuvent être criblés simultanément pour fournir une signature du type cellulaire étudié. Si l'on considère que chaque type de tumeur présente une signature génétique unique, ce système permet virtuellement de distinguer et classer tous les types de tumeurs.
+Les puces à ADN permettent donc de comparer l'expression des gènes de deux types cellulaires différents, de faire de l'étude des gènes exprimés sur un grand nombre de patients pour observer l'effet d'un médicament (anti-cancéreux par exemple), de regarder l'effet d'un traitement sur l'expression des gènes, de comparer tissus sains contre tissus malades, traités contre non-traités etc...
+L'approche Puce à ADN permet en une seule expérience qui dure environ 2 jours d'avoir une estimation sur l'expression de plus de 30000 gènes.
+Fabrication[modifier | modifier le code]
+Image 3D Sarfus d'une biopuce à ADN
+La puce est une plaque de petite taille environ 6 cm x 3 cm sur laquelle sont fixés des brins monocaténaires (un seul brin au lieu des deux habituels) d'ADN, chacun correspondant au brin complémentaire d'un ARN messager (ARNm). Il peut être fixé sur une puce plusieurs dizaines de milliers de fragments d'ADN (donc autant de gènes dont on peut étudier l'expression).
+Chez la société Agilent, le dépôt des sondes sur la lame se fait de manière similaire à celle de l'impression à jet d'encre. De cette manière, des robots spotteurs, avec leurs multiples pointes, déposent par rangées d'infimes gouttelettes d'une solution d'ADN (d'où le terme anglais microarray, « microtableau ») à des positions spécifiques de la puce (adresses). L'ADN est ensuite séché et traité de manière à ce qu'il se fixe sur la puce.
+Les ARNm (provenant des gènes exprimés) sont extraits de la cellule à analyser et des fluorochromes sont fixés sur les bases. Puis le mélange témoin marqué et traité est versé sur la puce : chaque brin d'ADNc va s'hybrider au brin monocaténaire d'ADN qui lui est complémentaire pour former un double brin. La plaque est ensuite lavée par des bains spécifiques pour éliminer les brins d'ADNc ne s'étant pas hybridés car non complémentaires de ceux fixés sur la lame.
+Elle est ensuite scannée au laser et une image de la puce est créée : chaque fois qu'il y a eu hybridation, le fluorochrome fixé sur l'ARNm a émis dans la longueur d'onde du laser et cela est visible par un point de couleur (rouge pour des fluorochromes émettant dans le rouge...) Les puces à ADN peuvent être fabriquées par des techniques diverses qui incluent l'impression sur des plaques de verre à l'aide de pointes, la photolithographie à l'aide de caches, de micro-miroirs, d'impression par jet d'encre, d'électrochimie sur des puces micro-électroniques.
+Lire le média
+Création d'une Puce à ADN par un robot à l'Université du Delaware (États-Unis)
+Les puces à ADN peuvent être utilisées pour détecter les ARN qui seront ou pas traduits en protéines. Les scientifiques parlent d'analyse d'expression ou de profil d'expression. Puisque des dizaines de milliers de sondes sont fixées sur une puce, chaque hybridation sur une puce renseigne autant qu'un nombre équivalent de tests de génétique quantitative. Les puces à ADN constituent ainsi une approche massive et ont contribué à la révolution de la génomique[2]. Le premier profil d'expression par puce à ADN a été publié en 1995 dans le magazine américain Science. Le premier génome eucaryote fixé sur une puce fut celui de la levure (Saccharomyces cerevisiae) ; ce profil d'expression a été publié en 1997 dans la revue Science.
+Image d'une hybridation sur une puce à ADN[modifier | modifier le code]
+Rappel : la puce à ADN contient les sondes ADN (oligonucléotides ou ADNc) fixées sur le support.
+Marquage des ADNc
+Grâce à des fluorochromes, marqueurs d'ADN qui fluorescent sous un laser, on peut marquer des ADNc provenant de la rétrotranscription d'ARNm. En pratique, deux lots d'ADNc correspondant à deux traitements différents (par exemple, lot 1 en vert : ADNc de plantes témoins non traitées; lot 2 en rouge : ADNc de plantes inoculées avec un agent pathogène) sont colorés par deux fluorochromes différents. Ces deux lots sont ensuite mélangés puis hybridés sur la puce à ADN. L'hybridation dure entre 15 et 20 heures selon l'organisme que l'on étudie (bactérie, plante, tissu humain...)
+Spécificité de l'hybridation
+Suivant la stringence de la solution destinée à laver la puce, l'hybridation entre les lots d'ADNc et les sondes sera plus ou moins spécifique.
+Comment les analyse-t-on ?
+Une image haute résolution est obtenue grâce à des scanners très haute résolution (2 microns actuellement). Des logiciels interprètent l'intensité des pixels de chaque point de la puce contenant une séquence d'un gène différent et en déduisent une mesure numérique de l'expression de chaque gène proportionnelle à la présence du gène dans les cellules au moment de l'extraction d'ARN. Une puce peut contenir jusqu'à 1 million de "spots" c'est-à-dire un million de gènes ou parties d'un gène ! Si le lot d'ADNc no 1 (plantes non traitées) est marquée en vert et que le lot d'ADNc no 2 (plantes traitées) est marquée en rouge alors :
+Les gènes dont l'expression est augmentée suite au traitement apparaissent alors plus rouge que vert sous un laser.
+Les gènes dont l'expression est diminuée suite au traitement apparaissent alors plus vert que rouge sous un laser.
+Les gènes peu affectés par le traitement (expression stable) apparaissent alors autant vert que rouge sous un laser.
+Les gènes peu exprimés n'apparaissent pas.
+Et aussi...
+Il existe deux grandes familles de puces à ADN, l'une ne pouvant recevoir qu'un échantillon de cellule par plaque (mais pouvant contenir beaucoup plus de gènes fixés sur la plaque) et l'autre pouvant recevoir deux échantillons différents, chacun labellisé avec un fluorochrome de couleur différente : sur l'image, un point vert sera donc un gène exprimé dans la cellule saine tandis qu'un point rouge sera un gène exprimé dans la cellule malade. Un point jaune est exprimé dans les deux cellules et un point noir dans aucune...
+Il existe aussi de très récentes puces à protéines qui permettent d'étudier le protéome d'une cellule donnée. Ce sont cette fois-ci des antigènes qui sont fixés sur la plaque.
+Références[modifier | modifier le code]
+↑ Office québécois de la langue française, « puce à ADN »,‎ novembre (consulté le 18 novembre 2009)
+↑ Pavel A. Pevzner, Bio-informatique moléculaire : Une approche algorithmique, Londres, Springer,‎ 2007 (ISBN 978-2-287-33908-0)
+Voir aussi[modifier | modifier le code]
+Liens externes[modifier | modifier le code]
+[PDF] Julien Tap Mise au point d’une puce à ADN pour le typage et l’étude de la bio-diversité de Listéria(2005)
+[PDF] Alain Baccini et Philippe Besse Analyse statistique de données transcriptomique
+Stéphane LE CROM et Philippe MARC http://transcriptome.ens.fr/sgdb/presentation/principle.php.fr
+Articles connexes[modifier | modifier le code]
+Chip on chip
+Transcriptome
+Portail de la biologie cellulaire et moléculaire
+Portail des micro et nanotechnologies
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Puce_à_ADN&oldid=109771305 ».
+Catégorie : Biologie moléculaireCatégories cachées : Article à recyclerPortail:Biologie cellulaire et moléculaire/Articles liésPortail:Biologie/Articles liésPortail:Micro et nanotechnologie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Español
+فارسی
+Suomi
+עברית
+Bahasa Indonesia
+Italiano
+日本語
+Nederlands
+Norsk bokmål
+Polski
+Português
+Русский
+Srpskohrvatski / српскохрватски
+Српски / srpski
+Svenska
+Türkçe
+اردو
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 8 décembre 2014 à 10:30.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,49 @@
+Référentiel (physique) — Wikipédia
+Référentiel (physique)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Référentiel.
+En physique classique, un référentiel est un système de coordonnées de l'espace de trois dimensions dont l'origine est un corps ponctuel réel ou imaginaire. Il permet à un observateur de quantifier les positions et déplacements. Souvent, on utilise un repère cartésien et on privilégie les référentiels inertiels.
+En relativité restreinte, et générale, un référentiel est un système de coordonnées de l'espace-temps, toujours avec un corps ponctuel réel ou imaginaire comme origine, où l'observateur considère les événements. La relativité restreinte se limite à l'utilisation de référentiels inertiels (d'où son nom restreinte).
+Un changement de référentiel est soumis au principe de relativité, et des forces d'inertie peuvent apparaitre ou disparaitre lors d'un changement de référentiel.
+Sommaire
+1 Nécessité de la définition d'un référentiel
+2 Définition
+3 Référentiels usuels
+3.1 Référentiel galiléen
+3.2 Référentiel terrestre
+3.3 Référentiel géocentrique
+3.4 Référentiel de Kepler (ou héliocentrique)
+3.5 Référentiel de Copernic
+3.6 Référentiel barycentrique
+4 Notes et références
+5 Articles connexes
+Nécessité de la définition d'un référentiel[modifier | modifier le code]
+Prenons deux personnes assises de chaque côté d'une route et qui se font face. Un homme court sur la route ; un des observateurs dira qu'il va à gauche, l'autre qu'il va à droite. On voit immédiatement que le mouvement observé est relatif à l'observateur et tout dépend du solide de référence.
+Pour décrire le même événement de la même manière, les observateurs devront se mettre d'accord : soit l'un adopte la vision de l'autre, soit ils choisissent un objet neutre comme point de repère, par exemple les points cardinaux.
+La direction étant décrite de manière non ambiguë, les observateurs donnent maintenant la vitesse. Le premier, d'origine française, indique que la personne court à 21 kilomètres par heure ; le second, d'origine anglaise, indique qu'il court à 13 miles par heure. Donc, pour s'accorder sur la valeur, les observateurs doivent aussi choisir une même unité de mesure pour la longueur et le temps. Cela revient à choisir une graduation commune pour l'axe de référence de la direction, et une horloge commune.
+Enfin, pour désigner l'événement, il faut faire référence au lieu et à l'heure à laquelle il s'est passé. Il faut donc choisir un point de référence commun sur l'axe (l'origine), et synchroniser les horloges.
+Définition[modifier | modifier le code]
+En physique, un référentiel est un système de coordonnées de l'espace-temps lié à un observateur (réel ou imaginaire), c'est-à-dire immobile par rapport à lui, composé de trois coordonnées d'espace et d'une coordonnée de temps, utilisé pour définir les notions de position, de vitesse et d'accélération. Une définition semblable est : c'est un système de coordonnées de l'espace de dimension 3 dont l'origine est un corps ponctuel réel ou imaginaire (en y ajoutant une mesure du temps, considéré comme universel en physique classique)[1],[2],[3].
+Habituellement on ne considère que les référentiels pouvant être donnés naturellement par des systèmes physiques, en particulier, en mécanique classique, les référentiels galiléens. Ce cas particulier de référentiel peut se donner sous forme d'une base orthogonale (au sens de la géométrie de l'espace-temps) de trois vecteurs orthonormés d'espace (repère cartésien, repère orthonormé), et d'un vecteur temps. Ainsi, les données physiques du mouvement d'un objet sont données en fonction de ce référentiel.
+En physique, l'espace existe dans la mesure où des corps y sont présents : une dimension vide de toute présence est inutile en physique, et on peut considérer -sans dommage- qu'elle n'existe pas. Ainsi un référentiel réel doit être matérialisé : une origine identifiable, des axes ou système de coordonnées définis par des corps ou du moins par des notions expérimentables. Une hypothèse, jamais encore démentie, est que l'espace peut être considéré comme euclidien, au moins localement (sur de courtes distances)[3].
+Référentiels usuels[modifier | modifier le code]
+Référentiel galiléen[modifier | modifier le code]
+Article détaillé : Référentiel galiléen.
+Un référentiel galiléen est un référentiel où un corps isolé (i.e. soumis à aucune force) est en translation rectiligne uniforme. La première loi de Newton suppose l'existence d'une telle catégorie de référentiels. Il est à noter que la plupart des référentiels usuels ne sont pas parfaitement galiléens, mais que, sur les durées considérées dans les expériences, les phénomènes liés à leur caractère non galiléen restent négligeables devant les autres phénomènes.
+Référentiel terrestre[modifier | modifier le code]
+Le référentiel terrestre est le référentiel le plus utilisé : il est centré en un point de la Terre, et ses axes sont liés à la rotation terrestre : un homme "immobile" est donc fixe dans le référentiel terrestre. Par exemple, le référentiel terrestre peut se définir sur un terrain de foot comme un référentiel centré au point de corner, donc les axes sont la ligne de touche, la ligne de but et le poteau de corner.
+Le référentiel terrestre peut être considéré comme galiléen dans les expériences usuelles. Il faut une chute libre commençant à une hauteur considérable pour mettre en évidence la déviation vers l'est, due à la rotation terrestre.
+On peut utiliser le référentiel terrestre dans une première approximation lorsque la durée de l'expérience est négligeable devant la période de rotation de la Terre, ou lorsqu'il est évident que l'effet de cette rotation est négligeable devant d'autres erreurs.
+Référentiel géocentrique[modifier | modifier le code]
+Le référentiel géocentrique a pour origine le centre de masse de la Terre et ses axes sont définis par rapport à trois étoiles suffisamment lointaines pour sembler immobiles. Deux de ces étoiles sont l'étoile polaire et Beta du Centaure. Ainsi, il n'est pas solidaire de la Terre dans son mouvement de rotation autour de l'axe de ses pôles.
+Ce référentiel peut être considéré comme galiléen sur des expériences "peu longues" (dont la durée est très brève devant une année, car la révolution de la Terre autour du Soleil n'est alors pas prise en compte).
+Référentiel de Kepler (ou héliocentrique)[modifier | modifier le code]
+Le référentiel de Kepler (ou référentiel héliocentrique) est le référentiel centré sur le centre de masse du Soleil et dont les axes sont parallèles à ceux du référentiel de Copernic. Les expériences prouvent que l'on peut le considérer comme galiléen avec une très bonne précision.
+Référentiel de Copernic[modifier | modifier le code]
+Le référentiel de Copernic est le référentiel centré sur le centre de masse du système solaire et dont les axes pointent vers trois étoiles éloignées. Le référentiel de Copernic est postulé galiléen et est adapté à l'étude du système solaire.
+Référentiel barycentrique[modifier | modifier le code]
+Le référentiel barycentrique, aussi appelé référentiel du centre de masse, est le référentiel en translation par rapport à un référentiel de référence R (choisi généralement galiléen) et dans lequel le centre de masse est immobile.
+On lui associe souvent un système de coordonnées ayant pour origine le centre de masse du système considéré et un système d'axes colinéaires à ceux du référentiel de référence R. Mais ces choix de centre et d'axes ne sont pas obligatoires.
+Ce référentiel est particulièrement utilisé dans le cadre des théorèmes de König.
+Remarque : Ce référentiel n'est pas nécessairement galiléen.

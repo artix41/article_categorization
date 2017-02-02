@@ -1,0 +1,283 @@
+Atome d'hydrogène — Wikipédia
+Atome d'hydrogène
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour un article plus général, voir atome.
+Cet article concerne la théorie quantique de l'atome d'hydrogène. Pour l'élément atomique hydrogène, voir Hydrogène.
+L'atome d'hydrogène est le plus simple de tous les atomes du tableau périodique, étant composé d'un proton et d'un électron[1]. Il correspond au premier élément de la classification périodique.
+La compréhension des interactions au sein de cet atome au moyen de la théorie quantique fut une étape importante qui a notamment permis de développer la théorie des atomes à N électrons. C'est pour comprendre la nature de son spectre d'émission, discret, alors que la théorie classique prévoyait un spectre continu, que Niels Bohr a introduit en 1913 un premier modèle quantique de l'atome (cf. atome de Bohr). L'approfondissement de son étude a permis de valider les théories de la physique quantique au fur et à mesure des progrès accomplis : d'abord l'ancienne théorie des quanta[2], ensuite la mécanique quantique non relativiste de Schrödinger, la mécanique quantique relativiste de Dirac, et enfin la théorie quantique des champs.
+Dans le cadre de la mécanique quantique, l'atome d'hydrogène est un problème à deux corps analytiquement soluble, du moins dans le cas d'un modèle non-relativiste d'un hamiltonien où est seule prise en compte l'interaction coulombienne entre le proton et l'électron, considérés comme ponctuels. Il est ainsi possible d'en déduire les niveaux d'énergie, et de les comparer aux mesures des raies spectrales. L'étude théorique de l'atome d'hydrogène a une importance considérable en physique atomique et moléculaire: en effet elle permet non seulement de comprendre directement les spectres des ions dit hydrogénoïdes, c'est-à-dire qui ont perdu tous leurs électrons sauf un (par exemple He+, Li2+) mais aussi de façon générale les niveaux d'énergie et les spectres des atomes à plusieurs électrons, qui peuvent être compris dans le cas de modèles à électrons indépendants (approche de champ moyen), en utilisant les concepts dégagés par l'étude théorique.
+Sommaire
+1 Données expérimentales et position du problème en mécanique quantique
+1.1 Aspects expérimentaux et historique
+1.2 Description générale de l'atome d'hydrogène
+1.3 Position du problème
+2 Détermination des états propres électroniques
+2.1 Équation de Schrödinger - Séparation radiale - angulaire
+2.2 Résolution de l'équation radiale
+2.2.1 Passage à une équation sans dimension
+2.2.2 Comportement asymptotique des solutions de l'équation radiale
+2.2.3 Comportement à l'origine des solutions de l'équation radiale
+2.2.4 Détermination des états propres
+3 Propriétés des états propres électroniques - orbitales atomiques
+3.1 État fondamental de l'atome d'hydrogène
+3.2 Vérification
+3.3 Densité de probabilité de présence
+3.4 Orbitale 1s
+3.5 Note : espace des impulsions
+3.6 Conclusion
+4 Orbitales
+4.1 Résonance acoustique
+4.2 Résonance de l'atome
+4.3 Couche K
+4.3.1 1 orbitale sphérique (1s)
+4.4 Couche L
+4.4.1 1 orbitale sphérique (2s)
+4.4.2 3 orbitales (2p)
+4.5 Couche M
+4.5.1 1 orbitale (3s) sphérique
+4.5.2 3 orbitales (3p)
+4.5.3 5 orbitales (3d)
+4.6 Récapitulatif des couches K, L, M
+5 Notes et références
+6 Voir aussi
+6.1 Articles connexes
+6.2 Bibliographie
+Données expérimentales et position du problème en mécanique quantique[modifier | modifier le code]
+Aspects expérimentaux et historique[modifier | modifier le code]
+Au cours du XIXème l'amélioration des techniques de l'optique (notamment avec l'usage des réseaux plans) permet le développement de la spectroscopie. Dès 1859 Kirchhoff et Bunsen découvrent que les raies spectrales des éléments chimiques sont caractéristiques de ceux-ci. Cette technique permettra la découverte de nombreux nouveaux éléments parmi lesquels le césium (en 1860), le rubidium (en 1861) et surtout l'hélium en 1868 par Janssen et Lockyer.
+En 1885 Balmer découvre que les longueurs d'onde des 4 raies d'émission dans le visible de l'hydrogène, identifiées peu avant par Angström comme étant situées respectivement à 656,3 nm, 486,1 nm, 434,0 nm et 410,2 nm, sont données par la formule empirique suivante, dite de Balmer:
+avec ,
+avec
+(valeur moderne), dite constante de Rydberg de l'atome d'hydrogène. Cette formule, dite de Balmer, est rapidement généralisée par Rydberg et Ritz à la suite de la découverte de nouvelles « séries » de raies dans d'autres domaines du spectre, sous la forme suivante, dite de Rydberg-Ritz:
+avec .
+Dans cette formule, dite de Rydberg-Ritz, p est l'indice de la série, et n l'indice de la raie. La formule de Balmer correspond à la série p=2 (cette série est ainsi nommée "série de Balmer"). Différentes séries convergentes de raies seront progressivement mises en évidence dans le spectre de l'atome d'hydrogène:
+: série de Lyman, dans l'ultraviolet;
+: série de Paschen, dans l'infrarouge proche;
+et , séries de Brackett et de Pfund dans l'infrarouge lointain.
+Parallèlement, la formule de Rydberg-Ritz est généralisée à d'autres éléments que l'hydrogène, notamment les ions dit hydrogénoïdes et certains alcalins, au prix d'une modification de la constante de Rydberg, et l'utilisation de nombres non-entiers pour l'indice de raies ("correction de Rydberg[3]").
+Dans le même temps, l'existence même de spectres de raies plutôt que de spectres continus n'est pas alors expliquée par la théorie classique, et posera un problème dès le début de l'essor des théories sur la structure de l'atome. En effet, l'expérience de Rutherford montre en 1911 que l'atome est constitué d'un noyau positivement chargé, concentrant l'essentiel de la masse dans un rayon environ 100000 fois plus petit que l'atome lui-même, et d'électrons négativement chargés "en orbite" autour de ce noyau sous l'action de l'interaction électrostatique. Si l'origine de l'émission ou l'absorption de radiations électromagnétiques par les électrons peuvent facilement se comprendre dans le cadre de la théorie classique de l'électromagnétisme, une difficulté de taille apparaît. En effet, la théorie prévoit naturellement que les spectres doivent être continus et non pas de raies. Elle est bien sûr par suite impuissante à expliquer les régularités dans certains spectres mis en évidence par les formules (1) et (2).
+Au demeurant, l'existence même de l'atome ne peut être expliquée par la théorie classique: l'électron étant accéléré dans le champ du noyau, les équations de Maxwell prédisent qu'il doit rayonner de l'énergie et finir par "s'écraser" sur le noyau.
+En 1913, Niels Bohr propose un modèle empirique permettant de rendre compte de la stabilité de l'atome d'hydrogène et de l'existence des raies de son spectre. Dans ce modèle (cf. atome de Bohr pour plus de détails), l'électron est en interaction électrostatique avec le noyau, supposé infiniment lourd, et se dépace sur des orbites circulaires de rayon r similaires à celles des planètes autour du Soleil (cf. problème à deux corps). Toutefois Bohr, s'inspirant de la théorie naissante dites des quanta, postule que les seules orbites permises sont celles pour lesquelles le moment cinétique de l'électron sont quantifiées, avec la condition suivante:
+(me étant la masse de l'électron) avec n entier strictement positif. Sur de telles orbites il est postulé que l'électron ne rayonne pas d'énergie. Les différentes orbites admissibles ont donc des rayons quantifiées donnés par
+avec
+et
+rayon de Bohr de l'atome d'hydrogène, de valeur environ 53 pm.
+Cette condition implique une quantification de l'énergie de l'électron qui s'écrit alors sous la forme
+avec
+énergie d'ionisation de l'atome (e est la charge élémentaire). Dans ce contexte l'émission ou l'absorption de lumière est expliquée par Bohr comme le passage d'une orbite d'énergie supérieure (resp. inférieure) Ep à une autre d'énergie inférieure En avec n>p(resp. supérieure), la longueur d'onde de la lumière émise étant alors donnée par la formule d'Einstein comme liée à la différence d'énergie entre les deux orbites:
+, d'où pour le nombre d'onde de la transition .
+On retrouve ainsi la formule de Rydberg-Ritz (2), en identifiant
+et , ce qui est vérifié par le calcul qui donne en effet
+avec la formule précédente et bien sûr .
+Si la théorie de Bohr permet d'expliquer la formule de Rydberg-Ritz, et l'existence de spectres de raies pour les atomes, elle le fait au prix d'une hypothèse ad hoc difficilement conciliable avec la théorie classique. Si l'expérience de Franck et Hertz apporte dès 1914 une confirmation expérimentale du modèle de Bohr, et malgré l'amélioration de celui-ci par Sommerfeld pour tenir compte d'orbites elliptiques, et expliquer en partie l'existence de la structure fine du spectre de l'atome d'hydrogène mise en évidence expérimentalement, les difficultés conceptuelles demeurent et ne seront résolues qu'avec le développement de la mécanique quantique dans les années qui suivront. L'atome d'hydrogène est aujourd'hui celui pour lequel la théorie quantique arrive à décrire le spectre avec la plus grande précision, en plein accord avec l’expérience. Son étude est indispensable pour aborder la théorie des atomes à plusieurs électrons ainsi que celles des molécules, en permettant d'introduire de nombreux concepts fondamentaux en physique atomique et en chimie (cf atomistique), en particulier la notion centrale d'orbitale atomique.
+Description générale de l'atome d'hydrogène[modifier | modifier le code]
+L'atome d'hydrogène est constitué d'un noyau comprenant un seul proton de masse
+= 1,672 65.10-27 kg et de charge , et d'un électron de masse
+= 9,109 53.10-31 kg et de charge ,
+étant la charge élémentaire:
+= 1,602 189.10-19 C. Le proton comme l'électron sont des fermions de spins respectifs notés
+(spin nucléaire) et
+(spin électronique), de même valeur .
+Position du problème[modifier | modifier le code]
+Selon la première approximation, considérée par Schrödinger, l'atome d'hydrogène est étudié dans le cadre d'un modèle quantique exactement soluble, dans lequel le proton et l'électron, considérés comme ponctuels, interagissent uniquement par l'intermédiaire de l'interaction électrostatique de Coulomb, l'énergie potentielle du système étant : , avec , où
+et
+désignent les positions respectives du noyau et de l'électron par rapport à un repère d'origine O arbitraire[4].
+Dans un tel modèle les effets relativistes de tout ordre, ainsi que l'influence du spin tant électronique que nucléaire, et les diverses corrections prenant en compte la singularité de la distribution de charge de l'électron comme du noyau, ne sont pas pris en compte. En toute rigueur, tenir compte des effets relativistes nécessiterait d'utiliser l'équation de Dirac pour l'électron dans un champ extérieur[5]. Toutefois, l'atome d’hydrogène étant un système où les effets relativistes demeurent faibles, tout comme ceux liés aux interactions entre les spins nucléaire et électronique, il est possible de considérer les différents effets, très faibles devant l'interaction électrostatique largement dominante, comme des termes de perturbations[6]. Ils sont néanmoins très importants pour expliquer les structures dites fine et hyperfine des raies spectrales. Négliger ces différents termes présente l'avantage de pouvoir considérer une situation dans laquelle l'équation de Schrödinger peut être résolue exactement, tout en reproduisant avec une bonne précision les différents résultats expérimentaux sur le spectre de l'atome d'hydrogène notamment.
+À cette approximation, l'étude de l'atome d'hydrogène, qui conduit à la détermination de ses états électroniques, est celle du mouvement d'un électron dans un champ central (cf. l'article mouvement dans un champ central symétrique), et correspond en fait à un "problème à deux corps quantique". Il est alors possible d'utiliser les résultats généraux de ce type de mouvement (cf. article principal): dans le référentiel du centre de masse du système l'étude du mouvement se ramène à celui d'une particule fictive de masse
+dont la position est donnée par , se déplaçant avec une énergie potentielle électrique , le hamiltonien du système se réduisant à:
+[7],[8].
+En pratique, comme mp >> me, le centre de masse est pratiquement confondu avec le centre du noyau, et il est fréquent d'effectuer l'approximation du noyau infiniment lourd, pour laquelle
+dans les formules: la "particule fictive" se confond alors avec l'électron. Dans la suite, aucune distinction ne sera faite entre l'électron et la particule fictive.
+Détermination des états propres électroniques[modifier | modifier le code]
+La fonction d'onde des états propres électroniques s'écrit sous la forme générale (en représentation position): , où
+est la fonction d'onde spatiale et
+la fonction d'onde de spin (s est la "variable de spin" indiquant la valeur de la projection du spin sur un axe donné). Ceci étant, le hamiltonien
+n'agit pas sur la variable de spin de l'électron, et donc les états électroniques sont uniquement déterminés par la donnée de , la prise en compte du spin s de l'électron résulte uniquement en une dégénérescence double de chaque état propre électronique puisque s=1/2 et donc il existe deux valeurs possibles de la projection du spin de l'électron [9].
+Équation de Schrödinger - Séparation radiale - angulaire[modifier | modifier le code]
+Le hamiltonien étant indépendant du temps, l'étude quantique de l'atome d'hydrogène implique de résoudre l'équation de Schrödinger stationnaire suivante pour la fonction d'onde , en représentation position:
+soit .
+Dans la théorie du mouvement dans un champ central symétrique il apparaît qu'en utilisant les coordonnées sphériques (r,θ,ϕ) comme l'implique la symétrie du hamiltonien, la fonction d'onde correspond aux états propres communs de
+et des opérateurs liés au moment cinétique orbital de l'électron
+et . Elle se décompose donc en un terme radial et un terme angulaire, ce dernier correspondant aux harmoniques sphériques (k est le "nombre quantique" associé à l'énergie, a priori réel et continu):
+,
+la fonction
+étant solution de l'équation de Schrödinger radiale obtenue à par substitution de l'expression précédente de la fonction d'onde dans l'équation de Schrödinger:
+[10].
+Du point de vue physique, les solutions acceptables de l'équation (6) sont celles qui ont un comportement régulier sur le domaine , et normalisées selon la condition:
+.
+Ceci montre que physiquement
+est la fonction d'onde correspondant à un problème unidimensionnel, celui d'une particule astreinte à évoluer dans le potentiel dit effectif , et infini pour .
+Remarque: pour les états continus la condition de normalisation précédente devra être prise "au sens des distributions": , k et k’ étant réels.
+Résolution de l'équation radiale[modifier | modifier le code]
+La résolution mathématique de l'équation radiale nécessite de suivre plusieurs étapes. En premier lieu, il convient de mettre l'équation radiale précédente sous une forme adimensionnelle, puis de rechercher des solutions à l'équation ainsi obtenue qui soient régulières à l'origine et tendent vers 0 à l'infini (sinon elle ne serait pas de carré sommable). Un changement de fonction est alors nécessaire pour achever la résolution.
+Tous calculs faits, les résultats sont les suivants:
+les états liés ont des des valeurs propres de l'énergie quantifiées et données par ,
+avec , et , qui correspond à l'énergie d'ionisation de l'atome d'hydrogène et est identique à celle obtenue dans le modèle de Bohr.
+les fonctions d'onde normalisées correspondantes ont pour expressions:,
+avec , qui correspond dans le cas où l'on assimile masse réduite et masse de l'électron au rayon de Bohr de l'atome d’hydrogène,
+polynômes généralisés de Laguerre, et .
+Démonstration
+Passage à une équation sans dimension
+L'équation radiale se met aisément sous la forme:
+.
+L'analyse dimensionnelle montre sans difficulté que la quantité
+a la dimension de l'inverse d'une longueur. Cela donne l'échelle "naturelle" du problème et il est possible de poser [11].
+Il est dès lors possible d'introduire naturellement une variable sans dimension , l'équation précédente peut alors être mise sous une forme adimensionnelle:
+.
+Sans perte de généralité, il est possible de poser:
+,
+étant réel, le signe (-) étant pour le cas où E<0. Avec cette notation l'équation à résoudre est de la forme:
+.
+Comportement asymptotique des solutions de l'équation radiale
+Si
+l'équation adimensionnelle précédente devient:
+,
+équation dont les solutions générales dépendent du signe de E:
+E>0: dans ce cas
+quand
+(A et B étant deux constantes d'intégration). Une telle solution correspond à une particule libre, soit un état non-lié, continu: il s'agit là de l'atome ionisé.
+E<0: en tenant compte de la nécessité d'avoir
+bornée le comportement asymptotique est de la forme . Dans ce cas il est clair que la probabilité de présence de l'électron à grande distance du noyau tend vers 0, par suite cela correspond à un état lié, ce qui était attendu physiquement.
+Dans la suite il est uniquement utile de considérer le cas E<0, et donc de rechercher les solutions de:
+, ,
+ayant pour comportement asymptotique .
+Comportement à l'origine des solutions de l'équation radiale
+De façon générale pour un mouvement dans un champ central symétrique les solutions régulières de l'équation radiale sont de la forme
+au voisinage de l'origine (cf. article détaillé), par suite .
+Détermination des états propres
+Du fait des comportements asymptotique et au voisinage de l'origine des solutions physiquement acceptable de l'équation pour les fonctions d'onde radiales des états liés de l'atome d'hydrogène, il est utile de d'introduire la fonction auxiliaire
+telle que:
+,
+avec pour nouvelle variable . Avec ce changement de fonction et de variable, l'équation radiale adimensionnelle précédente devient:
+.
+Cette équation différentielle a pour solution la fonction hypergéométrique confluente . Or cette fonction n'a de comportement régulier à l'infini que si
+est un entier positif ou nul, donc puisque
+est un entier . La nécessité de régularité à l'infini des solutions physiquement acceptables de l'équation (17) implique que les états liés soient quantifiés, les valeurs de
+admissibles étant telles que :, (17bis).
+Dans ce cas, la fonction
+se réduit alors (par troncation de la série hypergéométrique) aux polynômes généralisés de Laguerre .
+L'état propre de fonction d'onde
+a pour énergie propre:
+.
+La quantité
+correspond à l'énergie d'ionisation de l'atome d'hydrogène et est identique à celle obtenue dans le modèle de Bohr.
+Finalement les fonctions d'onde radiales solutions de l'équation de Schrödinger radiale sont de la forme :
+,
+A étant une constante de normalisation.
+Regroupant l'ensemble des résultats précédents les fonctions d'onde normalisées pour un état propre
+ont pour expression:
+,
+avec .
+L'énergie de l'électron dans un état propre
+ne dépend donc pas du nombre quantique . À un même état propre de nombre quantique n correspondent alors:
+n valeurs distinctes de , de 0 à n - 1;
+pour chaque valeur de ,
+de m liées à l'existence de la dégénérescence dite essentielle[12] des niveaux d'énergie par rapport à ce nombre quantique;
+les deux valeurs possibles
+de la projection du spin de l'électron selon (Oz);
+finalement chaque état de nombre quantique n est donc-fois dégénéré.
+La dégénérescence par rapport au nombre quantique
+(dit aussi nombre quantique azimutal) est un cas de dégénérescence accidentelle, lié en fait à l'existence d'une symétrie additionnelle pour le champ Coulombien (cf. article vecteur de Runge-Lenz),[13].
+Propriétés des états propres électroniques - orbitales atomiques[modifier | modifier le code]
+L'étude des propriétés des états propres électroniques, c'est-à-dire des fonctions d'onde radiale
+et angulaire
+permet de déterminer la répartition spatiale des densités de probabilités de présence de l’électron et partant, de distinguer diverses "catégories" d'états d'énergie selon la valeur du nombre quantique (dit parfois secondaire) . Il est ainsi possible d'introduire la notion d'orbitale atomique de l'atome d'hydrogène, qui est fondamentale pour comprendre la structures des atomes plus complexes.
+Il convient dans un premier temps de s'intéresser au cas le plus simple, celui de l'état fondamental de l'atome d'hydrogène, qui correspond à n=1 et donc à .
+État fondamental de l'atome d'hydrogène[modifier | modifier le code]
+En fait, dans le cas de l'atome d'hydrogène, on peut trouver la solution de l'état fondamental (c'est-à-dire de plus basse énergie) rigoureusement, en s'aidant uniquement du principe d'incertitude d'Heisenberg. C'est une façon très élégante de procéder, sans beaucoup de mathématiques.
+En effet, très vite, (en 1929), Werner Heisenberg fait comprendre un des points-clefs de la mécanique quantique : Les grandeurs physiques ne sont plus des fonctions
+de l'espace de la position et de la vitesse (appelé en mécanique classique hamiltonienne, l'espace des phases) : cet espace n'est pas pertinent en mécanique quantique. Les grandeurs physiques
+doivent être remplacées par des opérateurs linéaires observables sur un espace vectoriel (de Hilbert) et les valeurs propres, réelles, de ces matrices seront les valeurs expérimentalement mesurées. Comme l'opérateur position
+et l'opérateur impulsion
+ne commutent pas, il en résulte le théorème d'inégalité de Heisenberg) :
+.
+Alors, dans le cas d'égalité stricte - on dit que l'inégalité a été saturée à sa limite - la saturation des inégalités d'Heisenberg donne un moyen rigoureux de calculer la fonction d'onde,, de l'état fondamental de l'atome d'hydrogène.
+Ce problème de valeur propre et de vecteur propre est donc résolu, dans l'article Saturation des inégalités d'Heisenberg, pour la plus basse énergie (cf. atome de Bohr) ; et cela donne:
+N' étant la constante, réelle, dite de normalisation de la probabilité.
+Vérification[modifier | modifier le code]
+On va se contenter, ici, de vérifier que ceci est vrai en insérant directement cette solution dans l'équation de Schrödinger.
+Premièrement, dans cette équation, la variable temps se sépare immédiatement :
+dans ce cas dit stationnaire, cela amène à trouver les valeurs propres de l'opérateur linéaire H dans l'espace L2 des fonctions des trois variables ƒ(x, y, z) à valeur complexe, de carré sommable :
+.
+Or, dans ce cas, cette fonction uniquement de r a pour Laplacien, la valeur usuelle .
+De plus, on se sert évidemment des unités atomiques, qui a été introduit à cet usage. Cela revient à faire
+dans les calculs ; Landau (p142) appelle ce système d'unités coulombiennes :
+ƒ = ƒ, ƒ' = - ƒ ;
+donc il s'agit de vérifier si :
+-1/2·(ƒ + 2/r·(-ƒ)) + 1/r·ƒ = -1/2·ƒ
+qui est vrai.
+Densité de probabilité de présence[modifier | modifier le code]
+On en déduit aussitôt la probabilité dp de trouver l'électron à une distance du noyau comprise entre r et r+dr : elle est donnée par dp = P(r)·dr :
+.
+Sur le graphique de la densité de probabilité, la distance au noyau est donnée en multiple du premier rayon de Bohr, on voit immédiatement que la probabilité est maximale au premier rayon de Bohr :
+Orbitale 1s[modifier | modifier le code]
+Cette solution s'appelle en chimie l'orbitale 1s.
+On pourra vérifier le théorème du viriel :
+moyenne de 1/r = 1/a0
+et le théorème d'Ehrenfest :
+moyenne de 1/r² = 2/a²
+La moyenne de r n'est pas a, mais (3/2)·a ; [de manière générale, l'inverse de la moyenne n'est pas la moyenne de l'inverse ].
+Et la moyenne de r² vaut  : 3a², donc la variance de r vaut (3-9/4)·a² = 0,75·a² ; soit un écart-type = 0,866·a, ce qui est très grand.
+L'électronde est dite délocalisée dans un espace, qui malgré tout reste de volume fini, au sens physique : au bout de 3a, la probabilité de détecter l'électronde est très faible (on parle d'orbitale sphérique), typiquement en chimie quantique, on convient formellement de tracer la méridienne de la surface qui englobe en gros 98 % de chance d'y trouver l'électron :
+ici r = 3/2 + 1,732 ~ 3,2·a. Ceci est très conventionnel.
+Note : espace des impulsions[modifier | modifier le code]
+L'opérateur impulsion a évidemment une moyenne nulle (symétrie sphérique), mais l'opérateur P² vaut 2m·Ec, dont la valeur moyenne est par le théorème du viriel
+<P²> = -2m·Ec, soit en unités atomiques +2·1/2 = 1.
+Donc la variance de P vaut .
+On retrouve bien (heureusement!) ce dont on était parti dans l'article Saturation des inégalités d'Heisenberg.
+Mais, on peut aller un peu plus loin [ ne jamais perdre de vue que l'espace des impulsions joue un rôle égal à celui des positions, bien qu'il soit moins étudié en chimie] :
+Remarque : représentation dite des impulsions
+La transformée de Fourier de
+est , avec la même règle de Born bien sûr :
+donne la densité de probabilité dans l'espace des impulsions. Le calcul de la transformée de Fourier de exp-r donne 1/(1+p²)² et donc on peut calculer de même la distribution des impulsions et retrouver la variance de p, et la valeur moyenne de l'énergie cinétique : il est très important de faire ces calculs pour bien comprendre que l'électronde, bien que dans un état stationnaire, ne cesse de « bouger » : il est aussi délocalisé en impulsion.
+En fait, ce n'est pas une particule, ce n'est pas une onde, c'est une entité nouvelle, la « particlonde », qui ne satisfait plus les équations de la mécanique classique (dans la version dite d'Hamilton), ni l'équation des ondes de l'optique, ni l'équation de la diffusion, mais cette drôle d'équation, l'équation de Schrödinger qui ne se laisse appréhender concrètement que dans la vision lagrangienne de Dirac et Feynman(on parle d'intégrale de chemins ( et parfois l'équation de Schrödinger est appelée équation de cheminement)). Si bien que l'énergie cinétique n'est pas du tout négligeable, puisqu'égale à 50 % de l'énergie potentielle en module.
+Remarque : Kleinert, élève de Feynman, a réussi à donner l'interprétation du « cheminement » dans le cas de l'atome d'hydrogène, mais cela reste une prouesse. En ce sens, pour les chimistes, le seul vrai progrès notable depuis Hartree-Fock et Clementi a été (pour l'atome à N électrons), la notion de densité fonctionnelle de Kohn (Nobel de chimie 1998).
+Conclusion[modifier | modifier le code]
+Il faut garder en mémoire toujours ces deux aspects, le couple [], pour bien comprendre l'aspect non statique, mais stationnaire de cette délocalisation de l'électron. Beaucoup de livres proposent comme règle empirique : si l'électron est localisé dans une région de l'ordre de r = a, lui donner une énergie cinétique de l'ordre de . Dans le cas présent, cela, donne une énergie totale
+dont le minimum est bien , où a est le rayon de Bohr :
+.
+C'est une façon simple et élégante d'introduire les OdG (ordre de grandeur) de l'atome, souvent reprise dans les bons ouvrages.
+Orbitales[modifier | modifier le code]
+Résonance acoustique[modifier | modifier le code]
+Nous allons obtenir la structure de l'atome d'hydrogène en dénombrant les modes de vibration de la sphère. Le mode de vibration fondamental, dont la fréquence est la plus élevée, est toujours sphérique. Lorsque la vitesse des ondes est constante, il correspond à une longueur d'onde égale à deux fois le diamètre, comme pour une corde vibrante où le fondamental a une longueur d'onde double de la longueur de la corde lorsqu'elle est encastrée ou libre à chacune de ses extrémités.
+Dans un cube, les résonances apparaissent lorsque les demi-longueurs d'onde sont des fractions entières du côté du cube avec un ventre au centre du cube. Le premier harmonique du cube présente un nœud au milieu, comme pour la corde vibrante. Son nombre quantique principal est n=2. Il y a trois façons de le placer, selon les trois directions de l'espace, ce qui donne trois modes de vibration de même énergie, autrement dit dégénérés. Il peut aussi y avoir un nœud au centre du cube. Il y a donc 4 possibilités.
+Résonance de l'atome[modifier | modifier le code]
+Il en est de même pour la sphère qui aura un nœud au centre soit un nombre quantique secondaire l=1. Comme pour le cube, il y a trois façons de le placer, selon les trois directions de l'espace, ce qui donne trois modes de vibration de même énergie, autrement dit dégénérés. Il peut aussi y avoir un nœud de symétrie sphérique, en son centre. Il y a donc 4 possibilités comme pour le cube.
+Lorsqu'on augmente la fréquence de vibration, c'est-à-dire l'énergie de vibration, le nombre de nœuds augmente d'une unité à chaque fois. On obtient ainsi les harmoniques successifs qui ne sont généralement pas des harmoniques au sens musical du terme. Les harmoniques, au sens mathématique, du tambour, par exemple, ne sont pas des harmoniques au sens musical car ils ne sont pas des multiples entiers du fondamental. Il en est de même dans l'atome.
+Dans l'atome d'hydrogène où la vitesse des ondes de de Broglie est fonction du potentiel électrostatique du noyau, le mode fondamental correspond au nombre quantique principal n=1. La théorie de Schrödinger fait apparaître deux nombres quantiques supplémentaires, le nombre quantique secondaire l et le nombre quantique magnétique m, nuls pour le mode fondamental n=1.
+On n'utilise pas les coordonnées cartésiennes pour la sphère, mais la colatitude
+et la longitude . On peut se passer de la variable r grâce à Bohr car la théorie de Schrödinger prévoit les mêmes niveaux d'énergie. L'axe principal est vertical, celui pour lequel . Pour le premier harmonique, n = 2, on a trois orientations possibles pour le nœud, un nœud selon l'équateur, les deux autres des méridiens. On pourrait prendre des méridiens perpendiculaires, mais il revient au même de n'en prendre qu'un seul et de le faire tourner dans un sens ou dans l'autre, ce qui correspond au nombre quantique magnétique m = ± 1. On fait donc varier m entre - 1 et + 1.
+En résumé, le nombre quantique principal n donne le nombre de nœuds. Le nombre quantique secondaire l < n donne le nombre de configurations possibles pour les nœuds et m les numérote de - (l - 1) à l - 1.
+Les orbitales sont d'abord représentées de façon simplifiée avec les nœuds des harmoniques sphériques sans les ventres (les « larmes »). La représentation est polaire, comme la Terre, en coordonnées sphériques. On donne ensuite une représentation sous forme de « larmes » puis un tableau récapitulatif. Il y a deux fois plus d'états quantiques que de modes de vibration en vertu du principe d'exclusion de Pauli.
+Couche K[modifier | modifier le code]
+1 orbitale sphérique (1s)[modifier | modifier le code]
+C'est l'état fondamental, de symétrie sphérique 1s, un nœud de vibration sphérique, qu'on peut placer soit sur la périphérie, à l'infini, soit sur le noyau. Les nombres quantiques correspondants sont :
+Il n'y a qu'un mode de vibration car les valeurs m = + 0 = m = - 0. En vertu du principe d'exclusion de Pauli, la couche K n'a qu'une seule orbitale et ne peut contenir que deux électrons au maximum. Avec un électron, on a l'hydrogène. Avec deux, on a l'hélium.
+Couche L[modifier | modifier le code]
+1 orbitale sphérique (2s)[modifier | modifier le code]
+Elle comprend une orbitale sphérique 2s, soit un nœud de vibration sphérique et deux états quantiques, donc deux éléments (Li et Be) :
+3 orbitales (2p)[modifier | modifier le code]
+Une orbitale de symétrie de révolution et deux autres avec un méridien, de symétrie axiale. Le méridien pouvant tourner dans un sens ou dans l'autre, il y a deux valeurs du nombre quantique magnétique m :
+En additionnant les orbitales des couches K et L, on a 5 orbitales soit, en vertu du principe de Pauli, 10 électrons et un numéro atomique N=10 correspondant au néon. Cela permet non seulement de comprendre l'atome d'hydrogène mais aussi de construire la table de Mendeleiev.
+Couche M[modifier | modifier le code]
+1 orbitale (3s) sphérique[modifier | modifier le code]
+3 orbitales (3p)[modifier | modifier le code]
+Comme pour la couche L sauf qu'il y a un nœud sphérique en plus.
+5 orbitales (3d)[modifier | modifier le code]
+Les orbitales m ? 0 sont doubles.
+(
+symétrie de révolution)
+(trèfle à quatre lobes
+et )
+(trèfle à quatre lobes
+et )
+On peut aussi représenter les orbitales d de la couche M, en larmes d'eau  :
+Pour plus de détails voir harmoniques sphériques. On remarquera l'anneau sur l'orbitale
+de révolution qu'on retrouve sur les atomes hydrogénoïdes ou atome de Rydberg.
+Récapitulatif des couches K, L, M[modifier | modifier le code]
+Cette figure résume les modes de vibration qu'on rencontre dans les trois couches K, L, M. Chaque couche reprend la couche précédente avec un nœud de plus.
+Les orbitales de gauche, sphériques, sont simples. Les orbitales p sont triples avec un nœud plan et les orbitales d quintuples avec deux nœuds plans.
+Chaque couche contient les couches inférieures, par exemple en dessous de la sous-couche 3p, on a les sous-couches 1s, 2s, 2p et 3s. D'après le principe d'exclusion de Pauli, le nombre maximal d'électrons dans une sous-couche doit être pair. Considérons le cas du sodium Na. Toutes les couches seront remplies jusqu'à la sous-couche 3s avec un électron célibataire. Sa structure électronique s'écrit
+ou , ce qui fait un total de Z = 11 électrons, numéro atomique du sodium Na qui suit immédiatement Ne. On marie l'électron célibataire du sodium pour obtenir le magnésium. On remplit la couche 3p avec six électrons pour obtenir l'argon Ar. Tous les gaz rares ont une sous-couche externe de type p sauf l'hélium avec une sous-couche s.
+Au-delà de l'argon, il y a une anomalie due à la répulsion électrostatique entre les électrons : le mode 4s se met à la place de 3d. Le modèle de l'atome d'hydrogène ne s'applique donc que jusqu'à l'argon. Au-delà, l'ordre des sous-couches diffère de celui prévu par le modèle de la cavité sphérique comme de celui de Schrödinger. Pour prévoir l'ordre réel on a des règles empiriques (Aufbau, Hund, Klechkowski ou Madelung). Connaissant ces anomalies, on peut construire la Table périodique des éléments ou bernardschaeffer.canalblog.com

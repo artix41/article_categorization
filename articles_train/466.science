@@ -1,0 +1,126 @@
+Intégration (mathématiques) — Wikipédia
+Intégration (mathématiques)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir intégration.
+interprétée comme l’aire du domaine délimité par la courbe représentative de la fonction f, l'axe des abscisses et les droites d'abscisses a et b
+L'intégration est un concept fondamental en mathématiques, issu du calcul des aires et de l'analyse, et utilisé dans de nombreuses branches des mathématiques. L'intégration permet, entre autres, de calculer la surface de l'espace délimité par la représentation graphique d'une fonction.
+Les opérations de mesure de grandeurs (longueur d'une courbe, aire, volume, flux...) et de calcul de probabilités étant souvent soumises à des calculs d'intégrales, l'intégration est un outil scientifique fondamental[1]. C'est la raison pour laquelle l'intégration est souvent abordée dès l'enseignement secondaire.
+Le symbole mathématique représentant l'intégration, , est appelé signe somme, signe d'intégration, signe intégral ou intégrateur ; il a été introduit par Leibniz.
+Sommaire
+1 Définition du cas réel à partir de l'aire sous la courbe
+2 Historique
+3 Lien avec les primitives
+4 La nuance entre l'intégration au sens de Riemann et au sens de Lebesgue
+4.1 Construction
+5 Généralisation à un intervalle quelconque
+6 Moyenne
+7 Propriétés des intégrales
+8 Intégration par parties
+9 Intégration par changement de variable
+10 Méthodes numériques
+11 Méthode graphique
+12 Méthodes analogiques
+13 Notes et références
+14 Voir aussi
+14.1 Articles connexes
+14.2 Liens externes
+Définition du cas réel à partir de l'aire sous la courbe[modifier | modifier le code]
+#intégrande
+Représentation graphique d'un intégrande f positif et de son intégrale.
+Représentation graphique d'un intégrande f réel et de son intégrale (avec signe)
+Si f est une fonction réelle positive continue prenant ses valeurs dans un segment I = [0,a], alors l'intégrale de f sur I, notée
+est l'aire d'une surface délimitée par la représentation graphique de f et par les trois droites d'équation x = 0, x = a, y = 0, surface notée Sf. (Voir schéma ci-contre.)
+On donne un signe positif à l'aire des surfaces comme Sf situées au-dessus de l'axe des abscisses. Pour pouvoir traiter aussi les fonctions négatives, on donne un signe négatif aux portions situées sous cet axe.
+Ainsi, pour définir l'intégrale d'une fonction continue dans le cas général (positive ou négative), il suffit de définir f + et f – comme suit :
+puis de définir l'intégrale de f à partir de f + et f –, fonctions continues et positives :
+Plus précisément, définir l'aire de cette surface consiste, dans la définition de la théorie de Riemann, à approcher f par une suite de fonctions gn dont on connait l'intégrale (en général : des rectangles qu'on définit d'aire ± longueur × largeur) et telle que la différence entre f et gn tende vers 0 quand n tend vers l'infini.
+Il se trouve qu'avec cette méthode, il est possible de définir l'aire d'une fonction continue présentant un ensemble dénombrable de points de discontinuité.
+On appelle f un intégrande[2], et on note ∫ (un s allongé, mis pour somme) l'opérateur mathématique, appelé intégrateur, qui est associé à l'intégration. Ce symbole est un ancien s long : en effet, Leibniz s'est servi de l'initiale du mot latin summa, « somme », lequel était le plus souvent écrit ſumma. À la différence du s long, ∫, en typographie, garde toujours une hampe descendant au-dessous de la ligne de base, en romaine comme en italique. Voir l'article Notation de Leibniz pour une justification de la notation complète, et en particulier du symbole dx.
+Historique[modifier | modifier le code]
+L'histoire des mathématiques doit beaucoup à la théorie de l'intégration, et de tout temps, sa place prédominante a façonné l'analyse en offrant à qui une solution, à qui un problème. Le lustre des « méthodes intégrales » en Grèce antique l'atteste (voir méthode d'exhaustion), et bien qu'il faille attendre le calcul infinitésimal pour une première formalisation, elles nous avaient déjà offert de profonds et beaux résultats : les Athéniens évaluèrent les grandeurs de l'espace puis en démontrèrent implicitement l'existence et l'unicité ; au XVIIe siècle naissent des méthodes générales de « calcul de l'infini » (rectification de courbes, quadratures, etc.) C'est alors que la méthode des indivisibles de Cavalieri voit le jour.
+C'est Leibniz qui opère le fondement de la théorie de l'intégration (Geometria recondita, 1686), perpétué jusqu'aujourd'hui, d'une part par un symbolisme inégalé reliant intégration et dérivation, d'autre part par la mise en place des principaux théorèmes.
+La formalisation de cette théorie a revêtu diverses formes. Elle aboutit tardivement, à cause de la complexité des problèmes soulevés :
+que sont les fonctions ? les réels ? (ces questions ne furent pleinement élucidées que grâce au développement de l'analyse au XIXe siècle).
+quelles fonctions peuvent s'intégrer ? (c'est la question de l'intégrabilité ; elle est liée, entre autres, à des problèmes de convergence).
+L'intégrale de Riemann (Bernhard Riemann, 1854, publication posthume en 1867) puis l'intégrale de Lebesgue (Henri Lebesgue, 1902) ont marqué les esprits par leur formalisation aboutie. L'intégration est encore un sujet pour la recherche contemporaine ; en témoigne des extensions telles que l'intégrale d'Itō, l'intégrale de Kurzweil-Henstock, ou la récente construction de Bongiorno (1996)[3].
+Lien avec les primitives[modifier | modifier le code]
+Le but du calcul intégral est de développer des méthodes permettant de calculer les intégrales. La principale méthode pour calculer une intégrale passe par la notion de primitive d'une fonction. La « primitivation » est l'opération qui, à partir d'une fonction f, donne une fonction F dérivable et dont la dérivée est égale à f : F′(x)=f(x).
+On montre que toute fonction continue sur un segment [a,b] admet des primitives, et que l'intégrale de a à b est égale à F(b)–F(a), indépendamment de la primitive choisie. Le théorème fondamental de l'analyse affirme que les deux approches de l'intégrale (« aire sous une courbe » et « primitivation »), sont sous certaines conditions les mêmes. Ces conditions peuvent varier selon le type d'intégrale considéré. Ainsi, les fonctions qui admettent des primitives sont aussi intégrables au sens de Kurzweil-Henstock, mais pas nécessairement au sens de Riemann ou au sens de Lebesgue.
+La nuance entre l'intégration au sens de Riemann et au sens de Lebesgue[modifier | modifier le code]
+Le schéma général utilisé pour construire une intégrale et qui cherche à mesurer l'aire du domaine sous la courbe, est le même pour les trois approches de l'intégration :
+au sens de Riemann, voir Intégrale de Riemann
+au sens de Lebesgue, voir Intégrale de Lebesgue
+ou au sens de Kurzweil-Henstock, voir Intégrale de Kurzweil-Henstock.
+D'abord, on considère une famille de fonctions élémentaires, pour lesquelles nous avons un moyen évident de mesurer l'aire sous la courbe. Dans le cas de l'intégrale de Riemann ou de Kurzweil-Henstock, ce sont les fonctions en escalier dont l'aire sous la courbe est égale à la somme des aires des rectangles ; les fonctions en escalier étant constantes sur des intervalles, le domaine sous la courbe d'une telle fonction peut alors être vu comme une réunion de rectangles. Pour l'intégrale de Lebesgue, les fonctions élémentaires sont les fonctions étagées, constantes, non plus sur des intervalles, mais sur des parties mesurables (approche plus souple et plus générale).
+L'intégrale de Riemann permet d'intégrer entre autres les fonctions croissantes ou décroissantes, et les fonctions continues, donc aussi les fonctions continues par morceaux, ainsi que les fonctions monotones par morceaux. Toute limite uniforme de fonction intégrable au sens de Riemann est intégrable au sens de Riemann. Cependant une limite simple (c'est-à-dire que f(x) = lim fn(x) pour tout x de l'intervalle [a,b] sans condition d'uniformité en x) de fonctions Riemann intégrables n'est pas nécessairement Riemann intégrable. Il est possible de caractériser les fonctions intégrables au sens de Riemann  : ce sont les fonctions bornées dont l'ensemble des points de discontinuité est de mesure nulle (critère de Lebesgue).
+L'intégration au sens de Lebesgue permet d'intégrer plus de fonctions (dont des fonctions qui ne sont même pas localement bornées), et elle donne la même valeur à l'intégrale lorsque la fonction est déjà intégrable au sens de Riemann. Elle a l'avantage de munir l'espace vectoriel des fonctions intégrables (modulo l'égalité presque partout) d'une structure d'espace normé complet. Ceci est essentiel pour beaucoup d'applications. Cependant, on perd la notion de sommes de Riemann, et il existe des contextes (étude des suites uniformément distribuées par exemple) où les fonctions intégrables au sens de Riemann surviennent naturellement ; pour une généralisation de cette dernière permettant néanmoins d'intégrer également toutes les fonctions mesurables (au sens de Lebesgue), voir l'intégrale de Kurzweil-Henstock.
+Construction[modifier | modifier le code]
+Si sur le segment [a,b], 0 ≤ f ≤ g (ainsi Sf est inclus dans Sg), alors nous aurons ∫ f ≤ ∫ g.
+Si l'on suppose par exemple la fonction f monotone sur [a,b], il est possible d'approcher son aire en utilisant soigneusement une fonction élémentaire s (dans le cas de l'intégration de Riemann ou de Kurzweil-Henstock, une fonction en escalier, et dans le cas de l'intégration de Lebesgue, une fonction étagée). Nous choisissons s telle que s ≤ f mais en supposant s très proche de f, au sens où, ayant préalablement fixé un ε>0 arbitrairement petit, les valeurs prises par f s'éloignent de celles prises par s d'au plus ε, ce qui se note .
+L'aire sous s, facilement calculable comme somme d'aires de rectangles, est majorée par l'intégrale de f, et est appelée somme inférieure.
+Dans le cas de l'intégrale de Riemann ou de Kurzweil-Henstock, nous fabriquons aussi des sommes supérieures de la même façon : nous choisissons une fonction en escalier, disons σ, telle que σ ≥ f en supposant σ de la même manière très proche de f, et nous considérons une somme supérieure comme un majorant de l'aire du domaine sous f. Dans le cas de l'intégrale de Riemann, les rectangles utilisés ont des bases de longueur majorée par une constante, dans le cas de l'intégrale de Kurzweil-Henstock, les rectangles ont des bases de longueur variable. La théorie de Lebesgue n'utilise pas de sommes supérieures.
+On montre que l'ensemble des aires sous les fonctions s que l'on peut choisir (respectivement sous les fonctions σ dans la théorie de Riemann ou de Kurzweil-Henstock), admet une borne supérieure (resp. inférieure, et c'est la même). Cette valeur est alors appelée intégrale de f sur [a,b].
+Les fonctions que nous pouvons intégrer sont appelées fonctions intégrables.
+Cependant, les différences commencent ici ; la théorie de Riemann est de loin la plus simple, mais de cette simplicité résulte que l'ensemble des fonctions intégrables est plus restreint que celui de la théorie de Lebesgue ou de Kurzweil-Henstock. En plus, l'interaction entre les limites et l'intégrale sont plus difficiles à décrire dans la théorie de Riemann.
+Généralisation à un intervalle quelconque[modifier | modifier le code]
+La généralisation de l'intégrale à un intervalle quelconque se fait en se basant sur la notion d'intégrale définie sur un segment.
+Soit f une fonction à valeurs réelles positives, continue définie sur un intervalle I quelconque, noté (a,b), où a est réel ou égal à –∞ et b est réel ou égal à +∞), et les parenthèses signifiant [ ou ] (exclusion si valeur infinie).
+On dit que f est intégrable sur l'intervalle I lorsque l'ensemble
+est majoré. Partie non vide et majorée de ℝ, il admet une borne supérieure : on la note alors
+et on l'appelle intégrale de f sur I.
+Avec ces mêmes données, on a l'équivalence logique : f intégrable sur (a,b) si et seulement si toute primitive de f sur (a,b) admet une limite finie en a et en b.
+Dans le cas où une fonction f est intégrable sur un intervalle (a,b), on a
+Enfin, pour une fonction continue définie sur un intervalle I quelconque et à valeurs dans ℂ, on pose par définition : f intégrable sur I si |f| intégrable sur I en tant que fonction à valeurs réelles positives.
+De même pour f continue définie sur I et à valeurs dans un espace vectoriel normé (E,║.║), f est intégrable sur I si et seulement si ║f║ est intégrable sur I en tant que fonction à valeurs réelles positives.
+Remarque : il se peut très bien que « l'aire sous la courbe » d'une fonction définie et continue sur I et à valeurs réelles (changeant de signe) ait une limite en faisant tendre les extrémités d'une suite de segments inclus dans I vers les bornes de I, sans toutefois que la fonction en jeu soit intégrable sur I au sens de la définition. On parle alors d'intégrale semi-convergente, la valeur de l'aire trouvée est appelée Intégrale impropre. C'est le cas avec l'exemple classique de la fonction de ]0,+∞[ dans ℝ qui à tout t > 0 associe (sin t)/t : elle peut être prolongée continûment par 1 en zéro mais le problème de l'intégrabilité se pose au voisinage de +∞. On peut calculer son intégrale impropre (puisqu'elle n'est que semi-convergente) : on trouve .
+Moyenne[modifier | modifier le code]
+Pour toute fonction continue (ou même seulement continue par morceaux) sur un segment [a,b] tel que a < b, la valeur moyenne de f sur [a,b] est le réel m défini par :
+Cette notion généralise celle de moyenne d'un nombre fini de réels en l'appliquant à un nombre infini de valeurs prises par une fonction intégrable. Elle sert par exemple dans la décomposition en série de Fourier d'une fonction périodique : c'est la composante constante. En traitement du signal, pour les signaux périodiques, il s'agit de la composante continue (offset).
+On peut aussi, par analogie avec les moyennes pondérées d'un nombre fini de réels, affecter « à chacune des valeurs prises par la fonction » un coefficient strictement positif. On utilise alors ce que l'on appelle une fonction poids w : ℝ→ℝ+* (w pour l'initiale de weight, poids en anglais) :
+Ce procédé peut aussi s'utiliser sur un intervalle ouvert ou semi-ouvert mais borné (c.-à-d. aucune de ses bornes n'est infinie) où la fonction f.w est intégrable. On peut citer l'exemple classique servant à montrer l'orthogonalité de la famille des polynômes de Tchebychev :
+où la fonction Tn×Tp est continue sur le fermé [0,1] et où la fonction poids est
+Cette intégrale est bien définie et vaut π/2.
+Propriétés des intégrales[modifier | modifier le code]
+Soient f et g deux fonctions continues sur I et a, b et c trois réels de I.
+(relation de Chasles)
+(linéarité de la fonction intégrale)
+Si f(x) ≤ g(x) sur [a,b], alors
+Inégalité de la moyenne. Si f est continue sur [a,b], avec a ≤ b et si pour tout x de cet intervalle, on a :
+alors
+Article connexe : Théorème de la moyenne.
+Intégration par parties[modifier | modifier le code]
+Article détaillé : Intégration par parties.
+Soient u et v deux fonctions C1 (ie dérivables de dérivées continues sur le segment [a,b]) :
+Intégration par changement de variable[modifier | modifier le code]
+Article détaillé : Intégration par changement de variable.
+Soit f une fonction numérique continue, et φ une fonction de classe C1 sur [a,b] dont l'image est contenue dans le domaine de définition de f. Alors :
+Méthodes numériques[modifier | modifier le code]
+Intégration numérique par la méthode des rectangles
+Intégration numérique par la méthode des trapèzes
+On ne connaît pas toujours une formule pour décrire une fonction, par exemple dans le cas d'une courbe expérimentale. Dans d'autres cas, on ne connaît pas de méthode analytique pour exprimer la primitive, ou bien on n'a pas besoin de l'expression analytique et seule la valeur numérique suffit. On a recours dans ces cas-là à une méthode numérique.
+Les méthodes numériques consistent à prendre une suite de valeurs (xi, f(xi )), les valeurs des xi étant si possible équidistantes : xi+1 – xi = p. On peut ensuite appliquer différentes méthodes, dont les deux principales consistent à faire la somme d'aires S<i :
+méthode des rectangles : S<i est l'aire d'un rectangle de hauteur f(xi ) et de largeur p, on prend donc pour approximation
+méthode des trapèzes : S<i est l'aire d'un trapèze de bases f(xi ) et f(xi+1 ), et de hauteur p  (graphiquement, c'est plutôt sa "largeur"), on prend donc pour approximation
+Les méthodes numériques sont automatisables sur les ordinateurs et calculatrices programmables.
+D'autres méthodes sont possibles.
+Article détaillé : Calcul numérique d'une intégrale.
+Méthode graphique[modifier | modifier le code]
+Intégration graphique d'une fonction : les vecteurs à droite correspondent aux ordonnées de la courbe de gauche
+Détermination graphique d'une intégrale double : les vecteurs à droite correspondent aux abscisses de la courbe du haut à un facteur près ; la position du pôle détermine l'inclinaison de la courbe
+On peut utiliser des méthodes graphiques utilisant le fait que la valeur de la fonction en un point est la pente de la primitive.
+Considérant le même découpage que précédemment, on découpe l'intervalle d'intégration en bandes verticales de largeur p centrées sur les valeurs xi. Sur un graphique voisin, le graphique polaire, on place des vecteurs
+à l'origine O et l'on considère un point P sur l'axe des x, distant de O ; P est appelé le pôle. Si l'on relie P aux extrémités des vecteurs, on obtient des droites di dites polaires, dont les coefficients directeurs ai sont proportionnels aux valeurs de f(xi ) :
+On reporte ensuite les directions de ces droites polaires pour former un polygone funiculaire. L'axe des ordonnées est à une échelle 1/OP. L'ordonnée de départ du funiculaire correspond à la constante d'intégration.
+Si, au lieu de placer l'origine des vecteurs en O, on les met bout à bout, on effectue alors une double intégration, puisque les valeurs sont cumulées. Le pôle n'est plus nécessairement sur l'axe des x ; cela incline différemment la courbe obtenue, et correspond à la constante d'intégration de la première intégrale. Ceci est par exemple appliqué pour déterminer le diagramme des moments fléchissants d'une poutre en flexion à partir des charges, ou bien la forme de cette poutre à partir du diagramme des moments fléchissants.
+Méthodes analogiques[modifier | modifier le code]
+Il est possible d'estimer la valeur d'une intégrale par des mesures physiques. Par exemple, on trace la courbe sur une feuille de papier, on découpe la feuille suivant le tracé puis on pèse le résultat. En effet, si la masse surfacique est uniforme, alors le poids mesuré est proportionnel à l'aire. Ce principe était notamment utilisé pour déterminer l'aire d'un pic dans des mesures, comme par exemple pour faire de l'analyse quantitative par diffractométrie X.
+On peut utiliser d'autre phénomènes physiques « intégrateurs », comme par exemple le chauffage d'un corps :
+la fonction à intégrer est représentée par un courant d'intensité variable qui passe dans un résisteur chauffant ;
+l'intégrale est représentée par la température du corps chauffé, par exemple une quantité donnée d'huile ;
+puisque la variation de température dT est reliée à la chaleur reçue δQ par l'équation :
+δQ = m⋅Cp⋅dT
+où m est la masse d'huile et Cp sa chaleur massique. Cette variation dT est donc proportionnelle à l'intensité i par la loi d'Ohm :
+R⋅i2⋅dt = m⋅Cp⋅dT
+où dt est la durée de chauffage, soit
+Article détaillé : Calculateur analogique.

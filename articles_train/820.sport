@@ -1,0 +1,174 @@
+Wikipédia:Bons articles/Propositions — Wikipédia
+Wikipédia:Bons articles/Propositions
+Une page de Wikipédia, l'encyclopédie libre.
+< Wikipédia:Bons articles
+Aller à :					navigation, 					rechercher
+Bons articles
+Propositions
+Règles et procédures
+Articles promus
+Articles rejetés
+Propositions au label bon article[modifier | modifier le code]
+Rappel : Comment proposer un article ? – Qu'est-ce qu'un bon article ?
+Rajoutez au début de cette liste votre proposition de bon article.
+Semaine du 29 décembre 2014 au 4 janvier 2015
+31 : page de vote pour Natalia Kills (d · h · j · ↵ · BA) (auteure-compositrice-interprète)
+Semaine du 22 au 28 décembre 2014
+27 : page de vote pour Ustaritz (d · h · j · ↵ · BA) (commune de France) (actuellement au moins 5 pour, sans opposition)
+26 : page de vote pour Équitation aux Jeux olympiques (d · h · j · ↵ · BA) (compétition sportive)
+(actuellement au moins 5 pour, sans opposition)
+25 : page de vote pour Saison 2001-2002 du Racing Club de Lens (d · h · j · ↵ · BA) (saison de club de football) (actuellement au moins 5 pour, sans opposition)
+24 : page de vote pour Séries éliminatoires de la Coupe Stanley 2014 (d · h · j · ↵ · BA) (séries de hockey sur glace) (actuellement au moins 5 pour, sans opposition)
+23 : page de vote pour La Reine des Neiges (bande originale) (d · h · j · ↵ · BA) (album des musiques du film La Reine des Neiges) (actuellement au moins 5 pour, sans opposition)
+Semaine du 15 au 21 décembre 2014
+18 : page de vote pour Barrage de Chambonchard (d · h · j · ↵ · BA) (ancien projet de barrage du Limousin) (actuellement moins de 5 pour, sans opposition)
+17 : page de vote pour Place du Coderc (d · h · j · ↵ · BA) (urbanisme de Périgueux) (actuellement au moins 5 pour, sans opposition)
+Derniers articles traités
+15 : page de vote pour Sean O'Haire (d · h · j · ↵ · BA · Ls) (catcheur et pratiquant de combat libre) Contenu reconnu bon le 30 décembre 2014
+12 : page de vote pour Jeux olympiques d'hiver de 1980 (d · h · j · ↵ · BA · Ls) (compétition sportive)
+Contenu reconnu bon le 27 décembre 2014
+11 : page de vote pour Alain Colas (d · h · j · ↵ · BA · Ls) (navigateur)
+Contenu reconnu bon le 26 décembre 2014
+11 : page de vote pour Sublaines (d · h · j · ↵ · BA · Ls) (commune de France) Contenu reconnu bon le 26 décembre 2014
+Nous sommes le mercredi 31 décembre 2014.
+Maintenance  : les articles proposés le 16 décembre 2014 ou avant cette date doivent être traités (retrait ou passage en BA).
+Procédure technique à suivre une fois le vote terminé
+Faire le décompte des votes et comparer aux critères ci-dessus.
+S'il y a au moins 5 votes  Bon article et strictement plus de 66 % de  Bon article alors l'article est promu BA :
+dans l'article, repérer l'argument oldid=XXXXXXXXX dans l'url donnée par le lien « Adresse de cette version » (situé dans le menu Boîte à outil à gauche)
+dans l'article, remplacer {{Article potentiellement bon}} par
+{{Bon article|vote=BA|oldid=XXXXXXXXX|date={{subst:#time:j F Y}}}}
+ajouter {{Entête label|BA}} en haut de l'article
+dans la page de discussion de l'article, réévaluer éventuellement le critère d'avancement du ou des évaluations des projets éventuellement présents
+dans la page des votes, remplacer {{Instructions pBA}} par le code plus bas
+dans Wikipédia:Bons articles/Justification de leur promotion, insérer
+* {{a|Nom de l'article}}
+mettre à jour la liste des Nouveaux bons articles
+modifier Wikipédia:Bons contenus en rajoutant le lien vers l'article dans la ou les section(s) appropriée(s)
+modifier les nouveaux bons articles
+ajouter ou demander l'ajout (à un administrateur) de l'article en fin de liste et créer le LumièreSur correspondant (en ne mettant pas d'images en fair use)
+protéger ou demander la protection (à un administrateur) du LumièreSur jusqu'au terme de sa date de parution
+sur la page Wikidata correspondant à l'article, cliquer sur « modifier » en face du lien en français, puis « ajouter des badges » sur l'icône devant le titre, choisir l'insigne « bon article » puis cliquer sur « définir le lien de site ».
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers articles traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|bon article|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer une promotion comme BA :
+{{Article promu en BA}}
+<div style="background: #d8e8ff; border: 1px solid #1144AA; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Article accepté comme « bon »'''.
+* Bilan : ?? ''bon article'', ?? ''attendre/contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : au moins 5 votes {{pourBA}} et (bon article) / (bon article + attendre) = ?? % > 66 %
+~~~~
+</div>
+Autrement, rejet de l'article :
+dans l'article, retirer le bandeau {{Article potentiellement bon}}
+dans la page des votes, remplacer {{Instructions pBA}} par le code plus bas
+dans la page Wikipédia:Bons articles/Justification de leur rejet ajouter en début de liste
+* {{a|nom de l'article}}
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers articles traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|rejeté|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer un refus :
+{{Article rejeté en BA}}
+<div style="background: #ffdab9; border: 1px solid #9d4031; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Article rejeté'''.
+* Bilan : ?? ''bon article'', ?? ''attendre/contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : moins de 5 votes {{pourBA}} et/ou (bon article) / (bon article + attendre) = ?? % ≤ 66 %
+~~~~
+</div>
+Dans tous les cas, retirer éventuellement les liens vers les pages des votes pour les articles traités depuis plus d'une semaine (délai donné à titre indicatif).
+Par ailleurs, si l'article a un ou plusieurs portails associés contenant des rubriques « bons articles », « articles promus », « annonces », « navigation », etc..., il est sympathique de les tenir à jour, y compris la date des mises en « Lumière sur » ({{Annonce à surveiller}}).
+Voir aussi[modifier | modifier le code]
+Wikipédia:Bons contenus/Propositions et contestations
+Wikipédia:Articles de qualité/Propositions et contestations
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Wikipédia:Bons_articles/Propositions&oldid=110419955 ».
+Catégorie : Maintenance des bons articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Page
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Autres langues
+Ænglisc
+العربية
+Azərbaycanca
+Башҡортса
+Беларуская
+Беларуская (тарашкевіца)‎
+বাংলা
+Bosanski
+Нохчийн
+Dansk
+Deutsch
+English
+Esperanto
+Español
+فارسی
+Suomi
+Hrvatski
+Magyar
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+Қазақша
+한국어
+Lietuvių
+Latviešu
+Norsk nynorsk
+Occitan
+Polski
+Română
+Русский
+Scots
+Srpskohrvatski / српскохрватски
+Simple English
+Soomaaliga
+Shqip
+Српски / srpski
+Türkçe
+Татарча/tatarça
+Українська
+اردو
+Oʻzbekcha
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 31 décembre 2014 à 15:05.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

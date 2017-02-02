@@ -1,0 +1,287 @@
+Wikipédia:Bons contenus/Propositions — Wikipédia
+Wikipédia:Bons contenus/Propositions
+Une page de Wikipédia, l'encyclopédie libre.
+< Wikipédia:Bons contenus(Redirigé depuis Wikipédia:Proposition bons articles)
+Aller à :					navigation, 					rechercher
+Bons contenus
+Propositions
+Règles et procédures
+Contenus promus
+Contenus rejetés
+Raccourci [+]
+WP:PBA
+Cette page dresse une liste des votes pour les articles et portails proposés à l'un des labels « bon contenu » ainsi que pour ceux dont ce label est contesté.
+Ces 2 233 bons articles, ces 51 bons portails et ces 24 bons thèmes sont ceux que les contributeurs sont particulièrement fiers de présenter en modèle aux lecteurs, à des intervenants extérieurs ou à de nouveaux contributeurs potentiels.
+Sommaire
+1 Propositions au label bon article
+2 Propositions au label bon portail
+3 Propositions au label bon thème
+4 Contestations des bons labels
+Aux proposants
+Pour proposer un article ou un portail sur cette page, il faut au préalable que l'article ou le portail semble répondre à certains critères relatifs aux articles ou aux portails pour ensuite suivre une procédure détaillée dans la page Wikipédia:Bons contenus/Règles.
+Aux votants
+Soyez sûrs de lire avec attention les articles ou portails proposés et de bien prendre connaissance des critères d'un bon article, d'un bon portail ou d'un bon thème. Si vous hésitez sur votre vote, préférez expliciter vos remarques dans la section Discussion des propositions !
+Astuce
+Lien pour suivre les votes
+Voir aussi
+Propositions de contenus de qualité
+Propositions au label bon article[modifier | modifier le code]
+Rappel : Comment proposer un article ? – Qu'est-ce qu'un bon article ?
+Rajoutez au début de cette liste votre proposition de bon article.
+Semaine du 23 février au 1er mars 2015
+Semaine du 16 au 22 février 2015
+21 : page de vote pour La Légende de la forêt (d · h · j · ↵ · BA) (animation)
+19 : page de vote pour Unreal Tournament (d · h · j · ↵ · BA) (jeu vidéo) (actuellement au moins 5 pour, sans opposition)
+18 : page de vote pour Maquis de l'Ain et du Haut-Jura (d · h · j · ↵ · BA) (maquis) (actuellement au moins 5 pour, sans opposition)
+17 : page de vote pour Mother's Milk (d · h · j · ↵ · BA) (musique) (actuellement au moins 5 pour, sans opposition)
+Semaine du 9 au 15 février 2015
+14 : page de vote pour Cinéma comique français (d · h · j · ↵ · AdQ · BA) (cinéma/comédie française)
+13 : page de vote pour Bataille de Maclodio (d · h · j · ↵ · BA) (conflit militaire lors des guerres de Lombardie)
+Derniers articles traités
+7 : page de vote pour Cheval noir (légende) (d · h · j · ↵ · BA · Ls) (légende québécoise) Contenu reconnu bon le 21 février 2015
+7 : page de vote pour François-Pierre Blin (d · h · j · ↵ · BA · Ls) (médecin, député aux États généraux) Contenu reconnu bon le 21 février 2015
+7 : page de vote pour Thérèse d'Avila (d · h · j · ↵ · BA · Ls) (religieuse, réformatrice du Carmel) Contenu reconnu bon le 21 février 2015
+6 : page de vote pour Gateway Arch (d · h · j · ↵ · BA · Ls) (monument architectural)
+Contenu reconnu bon le 20 février 2015
+6 : page de vote pour Draft NBA 1984 (d · h · j · ↵ · BA · Ls) (basket-ball)
+Contenu reconnu bon le 20 février 2015
+Nous sommes le lundi 23 février 2015.
+Maintenance  : les articles proposés le 8 février 2015 ou avant cette date doivent être traités (retrait ou passage en BA).
+Procédure technique à suivre une fois le vote terminé
+Faire le décompte des votes et comparer aux critères ci-dessus.
+S'il y a au moins 5 votes  Bon article et strictement plus de 66 % de  Bon article alors l'article est promu BA :
+dans l'article, repérer l'argument oldid=XXXXXXXXX dans l'url donnée par le lien « Adresse de cette version » (situé dans le menu Boîte à outil à gauche)
+dans l'article, remplacer {{Article potentiellement bon}} par
+{{Bon article|vote=BA|oldid=XXXXXXXXX|date={{subst:#time:j F Y}}}}
+ajouter {{Entête label|BA}} en haut de l'article
+dans la page de discussion de l'article, réévaluer éventuellement le critère d'avancement du ou des évaluations des projets éventuellement présents
+dans la page des votes, remplacer {{Instructions pBA}} par le code plus bas
+dans Wikipédia:Bons articles/Justification de leur promotion, insérer
+* {{a|Nom de l'article}}
+mettre à jour la liste des Nouveaux bons articles
+modifier Wikipédia:Bons contenus en rajoutant le lien vers l'article dans la ou les section(s) appropriée(s)
+modifier les nouveaux bons articles
+ajouter ou demander l'ajout (à un administrateur) de l'article en fin de liste et créer le LumièreSur correspondant (en ne mettant pas d'images en fair use)
+protéger ou demander la protection (à un administrateur) du LumièreSur jusqu'au terme de sa date de parution
+sur la page Wikidata correspondant à l'article, cliquer sur « modifier » en face du lien en français, puis « ajouter des badges » sur l'icône devant le titre, choisir l'insigne « bon article » puis cliquer sur « définir le lien de site ».
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers articles traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|bon article|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer une promotion comme BA :
+{{Article promu en BA}}
+<div style="background: #d8e8ff; border: 1px solid #1144AA; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Article accepté comme « bon »'''.
+* Bilan : ?? ''bon article'', ?? ''attendre/contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : au moins 5 votes {{pourBA}} et (bon article) / (bon article + attendre) = ?? % > 66 %
+~~~~
+</div>
+Autrement, rejet de l'article :
+dans l'article, retirer le bandeau {{Article potentiellement bon}}
+dans la page des votes, remplacer {{Instructions pBA}} par le code plus bas
+dans la page Wikipédia:Bons articles/Justification de leur rejet ajouter en début de liste
+* {{a|nom de l'article}}
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers articles traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|rejeté|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer un refus :
+{{Article rejeté en BA}}
+<div style="background: #ffdab9; border: 1px solid #9d4031; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Article rejeté'''.
+* Bilan : ?? ''bon article'', ?? ''attendre/contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : moins de 5 votes {{pourBA}} et/ou (bon article) / (bon article + attendre) = ?? % ≤ 66 %
+~~~~
+</div>
+Dans tous les cas, retirer éventuellement les liens vers les pages des votes pour les articles traités depuis plus d'une semaine (délai donné à titre indicatif).
+Par ailleurs, si l'article a un ou plusieurs portails associés contenant des rubriques « bons articles », « articles promus », « annonces », « navigation », etc..., il est sympathique de les tenir à jour, y compris la date des mises en « Lumière sur » ({{Annonce à surveiller}}).
+Propositions au label bon portail[modifier | modifier le code]
+Rappel : Comment proposer un portail ? – Qu'est-ce qu'un bon portail ?
+Rajoutez au début de cette liste votre proposition de bon portail.
+Derniers portails traités
+13 : page de vote pour Portail:Star Wars (d · h · j · ↵ · BA) (cinéma et science-fiction) Portail reconnu bon le 28 août 2014
+Nous sommes le lundi 23 février 2015.
+Maintenance : les portails proposés le 8 février 2015 ou avant cette date doivent être traités (retrait ou passage en BP).
+Procédure technique à suivre une fois le vote terminé
+Faire le décompte des votes et comparer aux critères ci-dessus.
+S'il y a au moins 5 votes  Bon portail et strictement plus de 66 % de  Bon portail alors le portail est promu BP :
+dans le portail, repérer l'argument oldid=XXXXXXXXX dans l'url donnée par le lien « Adresse de cette version » (situé dans le menu Boîte à outil à gauche)
+dans le portail, remplacer {{Portail potentiellement bon}} par
+{{Bon portail|vote=BA|oldid=XXXXXXXXX|date={{subst:#time:j F Y}}}}
+dans la page des votes, remplacer {{Instructions pBA}} par le code plus bas
+dans Wikipédia:Bons portails/Justification de leur promotion, insérer
+* {{a|Nom du portail}}
+modifier Wikipédia:Bons contenus en rajoutant le lien vers le portail dans la ou les section(s) appropriée(s)
+dans Wikipédia:Bons Portails, rajouter le lien vers le portail et incrémenter le nombre de bons portails
+mettre à jour la liste des Nouveaux bons articles
+sur la page Wikidata correspondant au portail, cliquer sur « modifier » en face du lien en français, puis « ajouter des badges » sur l'icône devant le titre, choisir l'insigne « bon article » puis cliquer sur « définir le lien de site ».
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers portails traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|bon portail|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer une promotion comme BA :
+{{Article promu en BA}}
+<div style="background: #d8e8ff; border: 1px solid #1144AA; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Portail accepté comme « bon »'''.
+* Bilan : ?? ''bon portail'', ?? ''attendre/contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : au moins 5 votes {{pourBP}} et (bon portail) / (bon portail + attendre) = ?? % > 66 %
+~~~~
+</div>
+Autrement, rejet du portail :
+dans le portail, retirer le bandeau {{Portail potentiellement bon}}
+dans la page des votes, remplacer {{Instructions pBA}} par le code plus bas
+dans la page Wikipédia:Bons portails/Justification de leur rejet ajouter en début de liste
+* {{a|nom du portail}}
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers portails traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|rejeté|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer un refus :
+{{Article rejeté en BA}}
+<div style="background: #ffdab9; border: 1px solid #9d4031; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Portail rejeté'''.
+* Bilan : ?? ''bon portail'', ?? ''attendre/contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : moins de 5 votes {{pourBP}} et/ou (bon portail) / (bon portail + attendre) = ?? % ≤ 66 %
+~~~~
+</div>
+Dans tous les cas, retirer éventuellement les liens vers les pages des votes pour les portails traités depuis plus d'une semaine (délai donné à titre indicatif).
+Propositions au label bon thème[modifier | modifier le code]
+Rappel : Comment proposer un thème ? – Qu'est-ce qu'un bon thème ?
+Ajoutez votre proposition de bon thème au début de cette liste.
+Derniers thèmes traités
+10 : page de vote pour Cavalerie de la Garde impériale (Premier Empire) Contenu reconnu bon le 25 octobre 2014
+Nous sommes le lundi 23 février 2015.
+Maintenance  : les thèmes proposés le 8 février 2015 ou avant cette date doivent être traités (retrait ou passage en BT).
+Procédure technique à suivre une fois le vote terminé
+Faire le décompte des votes et comparer aux critères ci-dessus.
+S'il y a au moins 5 votes  Bon thème et strictement plus de 66 % de  Bon thème alors le thème est promu BT :
+dans l'article chapeau, remplacer {{Thème potentiellement bon}} par
+{{Wikipédia:Bons thèmes/Propositions/Nom du thème}} et ajouter celui-ci dans chacun des articles rattachés au thème
+ajouter {{Entête label|BT}} en haut des articles rattachés au thème (si le modèle {{Entête label}} est déjà présent, y ajouter le paramètre |BT)
+dans la page des votes, remplacer {{Instructions pBT}} par le code plus bas
+dans le modèle, mettre à jour le paramètre label ainsi que les jalons
+dans Wikipédia:Bons thèmes/Justification de leur promotion, ajouter le lien vers la page de vote
+mettre à jour la liste des Nouveaux bons thèmes
+modifier Wikipédia:Bons contenus en rajoutant le lien vers le thème dans la ou les section(s) appropriée(s)
+si le thème avait déjà été présenté en TdQ, renommer [[Wikipédia:Thèmes de qualité/Propositions/Nom du thème]] en [[Wikipédia:Bons thème/Propositions/Nom du thème]] (uniquement la page principale, pas la page de discussion qui sert de proposition)
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers thèmes traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|bon article|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer une promotion comme BT :
+{{Thème promu en BT}}
+<div style="background: #d8e8ff; border: 1px solid #1144AA; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Thème accepté comme « bon »'''.
+* Bilan : ?? ''bon thème'', ?? ''attendre/contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : au moins 5 votes {{pourBT}} et (bon thème) / (bon thème + attendre) = ?? % > 66 %
+~~~~
+</div>
+Autrement, rejet du thème :
+dans l'article chapeau, retirer le bandeau {{Thème potentiellement bon}}
+dans la page des votes, remplacer {{Instructions pBT}} par le code plus bas
+mettre à jour les jalons dans le modèle
+dans la page Wikipédia:Bons thèmes/Justification de leur rejet, ajouter le lien vers la page de vote
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers thèmes traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|rejeté|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer un refus :
+{{Thème rejeté en BT}}
+<div style="background: #ffdab9; border: 1px solid #9d4031; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Thème rejeté'''.
+* Bilan : ?? ''bon thème'', ?? ''attendre/contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : moins de 5 votes {{pourBT}} et/ou (bon article) / (bon thème + attendre) = ?? % ≤ 66 %
+~~~~
+</div>
+Dans tous les cas, retirer éventuellement les liens vers les pages des votes pour les thèmes traités depuis plus d'une semaine (délai donné à titre indicatif).
+Contestations des bons labels[modifier | modifier le code]
+Rappel : Comment contester un article ou un portail ? – Qu'est-ce qu'un bon article ? – Qu'est-ce qu'un bon portail ?
+Rajoutez au début de cette liste votre contestation de bon article.
+Derniers contenus traités
+19 : page de vote pour Les Dents de la mer (d · h · j · ↵ · AdQ · BA · Ls) - contesté le 19 janvier 2015 à 23:21 (CET) par Soboky [me répondre] Contenu déchu le 3 février 2015
+Nous sommes le lundi 23 février 2015.
+Maintenance pour les contestations : les contenus contestés le 8 février 2015 ou avant cette date doivent être traités (retrait ou maintien du label).
+Procédure technique à suivre une fois le vote terminé
+Faire le décompte des votes et comparer aux critères ci-dessus.
+S'il y a au moins 5 votes  Bon article/ Bon portail et strictement plus de 66 % de  Bon article/ Bon portail (dans le cas d'un contenu promu il y a plus d'un an) ou s'il y a strictement plus de 50 % de votes  Bon article que de votes exprimés sans limite de nombre de votes (dans le cas d'un article promu il y a moins d'un an), alors le contenu conserve son label :
+remplacer le modèle {{Bon article contesté}}/{{Bon portail contesté}} par {{Bon article}}/{{Bon portail}} en conservant les mêmes arguments
+dans la page de votes, remplacez {{Contestation qualité BA}} par le code ci-dessous
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers contenus traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|conservé|date={{subst:#time:j F Y}}}}
+Code à copier/coller en haut de la page de vote pour indiquer une conservation du BA :
+{{Article conservé en BA}}
+<div style="background: #d8e8ff; border: 1px solid #1144AA; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Label conservé'''.
+* Bilan : ?? ''bon article'', ?? ''contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : au moins 5 votes {{pourBA}} et (bon article) / (bon article + contre) = ?? % ≥ 66 %
+~~~~
+</div>
+Autrement, le label BA/BP est retiré au contenu :
+enlever de l'article le modèle {{Bon article}}/{{Bon portail}}
+{{Bon article|vote=BA|oldid=XXXXXXXXX|date={{subst:#time:j F Y}}}}
+retirer {{Entête label|BA}} en haut de l'article
+dans la page de discussion de l'article, dévaluer éventuellement le critère d'avancement du ou des évaluations des projets éventuellement présents
+dans la page de votes, remplacez {{Contestation qualité BA}} par le code ci-dessous
+modifier Wikipédia:Bons contenus/Classement en enlevant le(s) lien(s) vers le contenu qui s'y trouve(nt)
+dans la section « Label retiré après contestation » du mois en cours de Wikipédia:Bons contenus/Justification de leur rejet, insérer
+* {{a|Nom du contenu}}
+dans la page Wikipédia:Bons contenus/Justification de leur promotion, rajouter à la suite du vote la mention
+<small>déchu le {{subst:#time:j F Y}}</small>
+mettre à jour Wikipédia:Bons articles/Justification de leur promotion/Comptage
+mettre à jour le LumièreSur
+sur la page Wikidata correspondant au contenu, cliquer sur « modifier » en face du lien en français, puis « bon article » sur l'icône devant le titre, décocher l'insigne « bon article » puis cliquer sur « définir le lien de site »
+dans cette page, déplacer le lien vers la page des votes dans la section « Derniers articles traités », l'encadrer avec <s></s> et mettre à la suite
+{{Résultat PAdQ|déchu|date={{subst:#time:j F Y}}}}
+Code à copier/coller pour indiquer un refus :
+{{Article déchu en BA}}
+<div style="background: #ffdab9; border: 1px solid #9d4031; margin: 0 0 0.3em 0; padding: 0.3em 0.7em; text-align: left;">
+'''Article déchu'''.
+* Bilan : ?? ''bon article'', ?? ''contre'', ?? ''autre(s) vote(s)''.
+* Commentaire : moins de 5 votes {{pourBA}} et/ou (bon article) / (bon article + contre) = ?? % < 66 %
+~~~~
+</div>
+Dans tous les cas, retirer éventuellement les liens vers les pages des votes pour les contenus traités depuis plus d'une semaine (délai donné à titre indicatif).
+Par ailleurs, si l'article a un portail associé contenant une rubrique Bons articles, il est sympathique de la tenir à jour.
+voir
+Donnez votre avis
+Consultation
+Prise de décision · Sondage · Candidature administrateur · Candidature bureaucrate · Candidature arbitre
+Propositions
+Contenus de qualité · Bons contenus · Images à supprimer · Pages à supprimer · Pages à fusionner
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Wikipédia:Bons_contenus/Propositions&oldid=94001351 ».
+Catégorie : Maintenance des bons contenus
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Page
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Autres langues
+Azərbaycanca
+Eesti
+Dernière modification de cette page le 12 juin 2013 à 12:38.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

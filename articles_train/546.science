@@ -1,0 +1,285 @@
+Corps fini — Wikipédia
+Corps fini
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Vous lisez un « bon article ».
+Les défauts de gravure, l'usure, la poussière que l'on observe à la surface d'un disque compact nécessitent un codage redondant de l'information, qui permet de corriger les erreurs de lecture. Ce code correcteur d'erreur utilise des codes de Reed-Solomon sur le corps fini à 256 éléments[1].
+En mathématiques et plus précisément en algèbre, un corps fini est un corps commutatif qui est par ailleurs fini. À isomorphisme près, un corps fini est entièrement déterminé par son cardinal, qui est toujours une puissance d'un nombre premier, ce nombre premier étant sa caractéristique. Pour tout nombre premier p et tout entier non nul n, il existe un corps de cardinal pn, qui se présente comme l'unique extension de degré n du corps premier Z/p Z.
+Les corps finis sont utilisés en théorie algébrique des nombres, où ils apparaissent comme une structure essentielle à la géométrie arithmétique. Cette branche a permis, entre autres, de démontrer le dernier théorème de Fermat.
+Les corps finis ont trouvé de nouvelles applications avec le développement de l'informatique. En théorie des codes, ils permettent par exemple de déterminer des codes correcteurs efficaces. Ils interviennent également en cryptographie, dans la conception des chiffrements à clé secrète comme le standard AES, ainsi que dans celle des chiffrement à clé publique, à travers, entre autres, le problème du logarithme discret.
+Remarque sur la terminologie : une convention courante en français est de considérer qu'un corps n'est pas nécessairement commutatif. Dans le cas des corps finis, la convention est en fait de peu d'importance car, d'après le théorème de Wedderburn, tout corps fini est commutatif, et, dans cet article les corps seront supposés d'emblée commutatifs.
+Les corps finis sont (ou ont été) appelés également corps de Galois, ou plus rarement champs de Galois[2]. Ils ont été en effet étudiés par Évariste Galois dans un article publié en 1830 qui est à l'origine de la théorie. En fait, Carl Friedrich Gauss avait déjà découvert les résultats de Galois à la fin du XVIIIe siècle mais n'en fit pas état ; ses travaux ne furent connus qu'après sa mort et n'eurent pas l'influence de ceux de Galois.
+Le corps fini de cardinal q (nécessairement puissance d'un nombre premier) est noté Fq (de l'anglais field qui signifie corps commutatif) ou GF(q) (Galois field).
+Sommaire
+1 Construction de corps finis
+1.1 Le plus petit corps
+1.2 Corps premiers finis
+1.3 Quotient par un polynôme irréductible
+1.4 Exemple : les corps à p2 éléments
+2 Structure des corps finis
+2.1 Caractéristique et cardinal
+2.2 Automorphisme de Frobenius
+2.3 Existence et unicité d'un corps fini de cardinal pn
+2.4 Groupe multiplicatif et conséquences
+2.5 Théorie de Galois
+2.6 Clôture algébrique
+3 Polynômes irréductibles
+3.1 Un critère d'irréductibilité
+3.2 Polynôme minimal
+3.3 Polynômes primitifs et polynômes cyclotomiques
+3.4 Exemples
+3.4.1 Caractéristique deux
+3.4.2 Caractéristique trois
+4 Histoire
+4.1 Congruences et imaginaires de Galois
+4.2 Théorie des corps
+4.3 Applications théoriques
+4.4 Applications pratiques
+5 Applications
+5.1 Équation diophantienne
+5.2 Code correcteur
+5.3 Géométrie arithmétique
+6 Notes et références
+7 Bibliographie
+7.1 Mathématiques
+7.2 Histoire des mathématiques
+8 Voir aussi
+8.1 Articles connexes
+8.2 Liens externes
+Construction de corps finis[modifier | modifier le code]
+L'outil qui permet la construction des corps finis est la relation de congruence, congruence sur les entiers pour les corps finis premiers, congruence sur les polynômes à coefficients dans un corps fini premier pour le cas général.
+Le plus petit corps[modifier | modifier le code]
+Le plus petit corps fini est noté F2. Il est composé de deux éléments distincts, 0 qui est l'élément neutre pour l'addition, et 1 qui est élément neutre pour la multiplication. Ceci détermine les tables de ces deux opérations en dehors de 1+1 qui ne peut alors être que 0, car 1 doit avoir un opposé. On vérifie alors qu'elles définissent bien un corps commutatif.
++
+0
+1
+0
+0
+1
+1
+1
+0
+.
+0
+1
+0
+0
+0
+1
+0
+1
+Le corps F2 peut s'interpréter diversement. C'est l'anneau Z/2Z, les entiers pris modulo 2, c'est-à-dire que 0 représente les entiers pairs, 1 les entiers impairs (c'est leur reste par la division par 2), et les opérations se déduisent de celles sur Z.
+C'est aussi l'ensemble des valeurs de vérité classiques, 0 pour le faux, et 1 pour le vrai. L'addition est le « ou exclusif » (xor), la multiplication le « et »[3].
+Les fonctions de F2n dans F2 sont appelées fonctions booléennes[4]. La disjonction (inclusive) et la négation se définissent ainsi :
+x ou y = x + y + xy ; non x = 1 + x.
+Plus généralement on déduit du théorème d'interpolation de Lagrange que toutes les fonctions booléennes sont polynomiales (c'est une propriété qui passe à n'importe quel corps fini).
+Article détaillé : fonction booléenne.
+Corps premiers finis[modifier | modifier le code]
+Une généralisation naturelle de F2=Z/2Z est, pour p premier, le corps Z/pZ à p éléments, noté aussi Fp :
+Proposition. — L’anneau Z/nZ est un corps si et seulement si n est un nombre premier.
+En effet, p est premier équivaut à ce que 0 ne soit pas produit de deux entiers non nuls modulo p, par le lemme d'Euclide. Il faut donc que p soit premier pour que Z/p Z soit un corps. De plus, ceci assure que si p est premier Z/pZ est intègre, et partant, comme il est fini, un corps. L'identité de Bézout assure directement l'existence d'un inverse, et un calcul efficace de celui-ci par l'algorithme d'Euclide étendu.
+Le groupe multiplicatif de Z/pZ (p premier) est d'ordre p - 1 ce qui conduit au petit théorème de Fermat par le théorème de Lagrange. On montre que ce groupe est cyclique (la démonstration est la même que dans le cas général, traité au paragraphe Groupe multiplicatif et conséquences)[5].
+On verra que pour tout nombre premier p, Z/p Z est à isomorphisme près le seul corps de cardinal p, et qu'il ne contient pas d'autre sous-corps que lui-même. Un tel corps est appelé corps premier, et les Z/pZ, p premier, sont les seuls corps premiers finis.
+Articles détaillés : congruence sur les entiers et anneau Z/nZ.
+Quotient par un polynôme irréductible[modifier | modifier le code]
+Pour construire de nouveaux corps finis, on utilise la structure d'anneau euclidien de Fp[X] de la même façon que l'on a utilisé celle de Z pour construire les corps premiers. Les polynômes irréductibles jouent le rôle des nombres premiers. Deux polynômes sont équivalents modulo le polynôme P s'ils ont même reste par division par celui-ci. Le quotient par la relation d'équivalence obtenue est noté Fp[X]/(P), la structure induite par quotient est encore celle d'un anneau[6].
+On a de façon strictement analogue au cas des entiers :
+Proposition. — L’anneau Fp[X]/(P) est un corps si et seulement si P est un polynôme irréductible.
+Soit n le degré de P. La propriété d'unicité du reste de la division polynomiale se traduit par le fait que chaque élément de Fp[X]/(P) est représenté par un unique polynôme de degré < n. Le cardinal de Fp[X]/(P) est donc pn. Pour construire un corps fini de cardinal pn, il suffit donc de trouver un polynôme irréductible de degré n dans Fp[X].
+Si P est irréductible, le quotient K = Fp[X]/(P) est alors un corps de rupture du polynôme P, car la classe de X est une racine de P dans K.
+Pour ces constructions il est indispensable que les polynômes soient des polynômes formels, et non des fonctions polynômes. Il existe en effet des polynômes non-nuls dont les fonctions polynômes associées sont identiquement nulles sur Fp (par exemple X + X2 sur F2). Une autre manière de se rendre compte de la différence est qu'il ne peut exister qu'un nombre fini de fonctions de Fp dans Fp et donc de fonctions polynômes, alors qu'il existe un nombre infini de polynômes formels.
+Exemple : les corps à p2 éléments[modifier | modifier le code]
+On peut donc construire les corps à p2 éléments, en montrant qu'il existe un polynôme irréductible P de degré 2 dans Fp[X]. Le corps Fp[X]/(P), possède p2 éléments, et c'est une extension quadratique de Fp. On verra plus loin que le corps à p2 éléments est unique (à isomorphisme près) et on le notera Fp2. En particulier, le corps que nous allons construire est en fait indépendant du choix du polynôme irréductible P de degré 2 utilisé pour le quotient. Cette extension quadratique de Fp est l'analogue de l'(unique) extension quadratique du corps des nombres réels, qui donne le corps des nombres complexes.
+Pour p=2, le polynôme 1+X+X2 est irréductible dans F2 [X] (c'est d'ailleurs le seul polynôme irréductible de degré 2 sur F2). L'extension correspondante est un corps noté F4. Ce corps a exactement 4 éléments qui sont 0, 1, et les deux racines x et x+1 de 1+X+X2. Ses lois sont alors :
++
+0
+1
+x
+x+1
+0
+0
+1
+x
+x+1
+1
+1
+0
+x+1
+x
+x
+x
+x+1
+0
+1
+x+1
+x+1
+x
+1
+0
+.
+0
+1
+x
+x+1
+0
+0
+0
+0
+0
+1
+0
+1
+x
+x+1
+x
+0
+x
+x+1
+1
+x+1
+0
+x+1
+1
+x
+Le groupe multiplicatif des inversibles de F4* est engendré par les puissances de la classe de x : x2=x+1, x3=1. La table de multiplication est facile à écrire en termes de ce groupe cyclique, mais c'est alors l'addition qui est moins commode.
+Quand p est premier impair, un polynôme de la forme X2-a est irréductible si et seulement si a n'est pas un carré. Or pour p différent de 2, il existe dans Fp des éléments non carrés. En effet, les carrés des p-1 éléments non nuls de Fp sont au nombre de (p-1)/2 (chaque carré non nul est le carré d'exactement deux éléments, opposés l'un de l'autre), donc il reste (p-1)/2 éléments non carrés, parmi lesquels on peut choisir a. Pour p congru à 3 modulo 4, on peut même choisir simplement a = -1 (voir l'article Théorème des deux carrés de Fermat ou l'article Loi de réciprocité quadratique), si bien que Fp2 est isomorphe à Z [ i ] / (p).
+Structure des corps finis[modifier | modifier le code]
+On détaille principalement dans cette section comment arriver aux propriétés essentielles sur la structure des corps finis, à savoir[7] :
+tout corps est de cardinal la puissance d'un nombre premier, et il existe à isomorphisme près un unique corps fini d'un tel cardinal donné ;
+le groupe multiplicatif d'un corps fini est cyclique ;
+un sous-corps d'un corps de cardinal pn (p premier) a pour cardinal pd où d divise n, et pour tout diviseur d de n le corps de cardinal pn contient un unique sous-corps de cardinal pd.
+Caractéristique et cardinal[modifier | modifier le code]
+Soit K un corps fini, 0K et 1K les éléments neutres additif et multiplicatif. On note n.1K le résultat de l'addition de 1K itérée n fois. L'application correspondante est compatible avec l'addition et la multiplication (c'est l'unique morphisme d'anneaux (unitaires) de Z dans K). La caractéristique du corps K est le plus petit entier non nul p tel que p.1K = 0K (un tel nombre existe car sinon, le groupe additif engendré par 1K serait infini). De plus, p est un nombre premier. En effet, si a et b sont des entiers tels que a.b = p, alors (a.1K).(b.1K) = (a.b).1K = 0K. Comme K est un corps, a.1K ou b.1K est nul, et donc par définition de p, a ou b vaut p. On vérifie alors que l'homomorphisme de Z dans K qui à n associe n.1K induit une injection de Z/p Z dans K, son image est un sous-corps de K isomorphe à Z/p Z. Il est contenu dans tout sous corps de K (qui doit contenir 0K et 1K). C'est donc le plus petit sous-corps de K et on le nomme sous-corps premier de K[8]. Pour la même raison c'est le seul sous-corps de K isomorphe à Z/p Z, et on peut l'identifier à Z/p Z (= Fp).
+Si L est un sous-corps de K, dit autrement si K est une extension de L, K possède naturellement une structure d'espace vectoriel sur L, l'addition et la multiplication externe étant celles de K. Dans le cas des corps finis, sa dimension est nécessairement finie. Le cardinal de K est alors pn, où n est la dimension de K comme espace vectoriel sur son sous-corps premier Fp. De façon générale le cardinal d'un sous-corps L de K est de la forme pd, et comme K est aussi un espace vectoriel sur L, d est un diviseur de n. On a donc :
+Proposition. — Le cardinal d'un corps fini K est une puissance d'un nombre premier p qui en est sa caractéristique. De plus, si ce corps est de cardinal pn, tout sous-corps de K est de cardinal pd où d divise n[9].
+Automorphisme de Frobenius[modifier | modifier le code]
+Soit K un corps fini de caractéristique p, de cardinal q = pn. Comme p est premier, p divise les coefficients binomiaux
+pour 0 < i < p. On a donc :
+On en déduit (l'image de 1K est 1K, la compatibilité avec la multiplication est immédiate) que l'application qui, à x, associe xp de K dans lui-même est un endomorphisme de corps, donc injectif, qui laisse stable le sous-corps premier (c'est le petit théorème de Fermat). Il est appelé endomorphisme de Frobenius. Le corps étant fini l'endomorphisme est bijectif.
+Il est simple de vérifier que l'ensemble des points invariants par un automorphisme dans un corps est un sous-corps, et dans le cas de l'automorphisme de Frobenius, ce sous-corps est par définition l'ensemble des racines du polynôme Xp - X, de cardinal au plus p, donc c'est le sous-corps premier de K[10].
+On verra plus loin que les automorphismes d'un corps fini sont tous des itérés de l'automorphisme de Frobenius.
+Existence et unicité d'un corps fini de cardinal pn[modifier | modifier le code]
+Soit K un corps fini de cardinal q = pn. Alors, K*, le groupe multiplicatif de ce corps est de cardinal q - 1. On déduit du théorème de Lagrange que tout élément de K* est racine du polynôme Xq - 1 - 1, et donc tout corps de cardinal q est un corps de décomposition du polynôme Xq - X sur Fp. Par conséquent (propriété des corps de décomposition), deux corps de cardinal q sont isomorphes.
+Soit maintenant n un entier strictement positif, q l'entier égal à pn et K le corps de décomposition du polynôme P(X) = Xq - X sur le corps Fp. L'ensemble des racines de Xq - X dans K est l'ensemble des éléments invariants par l'automorphisme de Frobenius itéré n fois (q=pn). Il forme donc un sous-corps de K, et c'est K par définition d'un corps de décomposition. Or le polynôme dérivé de P(X)= Xq - X est P’(X) = q Xq-1 - 1 = -1 qui est constant non nul ; Xq - X n'a donc pas de racine multiple (si Q2 divise P, Q divise P’) : il possède q racines distinctes. Le corps K a donc pour cardinal q = pn. En résumé[10] :
+Proposition. — Il existe un corps de cardinal q = pn, et un seul à isomorphisme près, noté Fq. Une clôture algébrique de Fp contient un seul corps de cardinal q qui est le corps de décomposition de Xq - X.
+Le corps de décomposition du polynôme P se construit dans le cas le plus général en itérant la construction d'un corps de rupture sur un facteur de P irréductible de degré au moins deux dans le corps déjà obtenu. Pour des raisons de cardinalité, il suffit de trouver un facteur irréductible de degré n de Xpn - X pour obtenir en un pas son corps de décomposition. La suite montre qu'il existe de tels facteurs. On peut d'ailleurs déduire l'existence et l'unicité à isomorphisme près d'un corps fini de cardinal pn simplement de l'existence et l'unicité à isomorphisme près d'un corps de rupture, si on a une preuve directe de l'existence d'un polynôme irréductible de degré n sur Fp[11].
+Soit maintenant d un diviseur de n. Supposons qu'il existe un sous-corps de Fq (q = pn) à pd éléments. Alors, pour les mêmes raisons que ci-dessus, ce corps est le corps de décomposition dans Fq du polynôme Xpd - X, et donc il existe au plus un sous-corps de cardinal pd. Un tel corps de décomposition existe dans Fq, car le polynôme Xpd - X, qui divise Xpn - X, est scindé sur Fq. En résumé :
+Proposition. — Soit Fq un corps fini de caractéristique p, de cardinal q = pn. Alors pour tout diviseur d de n il existe un unique sous-corps de Fq de cardinal pd, et ce sont les seuls sous-corps de Fq.
+Groupe multiplicatif et conséquences[modifier | modifier le code]
+On a déjà utilisé une propriété élémentaire du groupe multiplicatif d'un corps fini au paragraphe précédent. On peut préciser sa structure. Le groupe multiplicatif de Fq est de cardinal q - 1 ; soit e son exposant, c'est un diviseur de q - 1. Il vient alors que le polynôme Xe - 1 à coefficients dans K, possède q - 1 racines distinctes et est de degré e, ce qui implique que e est supérieur à q - 1, puis l'égalité. L'exposant du groupe multiplicatif étant égal à son ordre, et comme dans un groupe fini commutatif l'exposant est toujours l'ordre d'un élément du groupe, on trouve[12] :
+Proposition. — Le groupe multiplicatif d'un corps fini est cyclique.
+On appelle élément primitif de Fq un générateur de son groupe multiplicatif (c'est une racine primitive de l'unité d'ordre q -1)[13]. On en déduit que tout corps fini Fq est l'extension de son sous-corps premier (ou de n'importe quel de ses sous-corps) définie par adjonction d'un élément primitif α.
+Proposition. — Dans tout corps fini Fq de caractéristique p, il existe un élément α tel que Fq = Fp[α].
+On appelle aussi élément primitif sur Fp un élément α vérifiant cette propriété[14]. Mais il peut exister des éléments primitifs en ce sens qui ne le sont pas au sens précédent (voir ci-dessous). C'est la première définition qui est utilisée dans la suite de l'article.
+En prenant q = pn, et α un élément primitif de Fq, on déduit de la proposition qu'il existe en effet un polynôme P irréductible de degré n qui annule α et Fq est un corps de rupture de P (voir l'article lié). En particulier, pour tout entier n, il existe polynôme irréductible de degré n sur tout corps fini premier (et d'ailleurs sur tout corps fini en suivant le même raisonnement).
+Un tel polynôme unitaire irréductible P qui annule α est appelé polynôme minimal de α (ils sont étudiés dans une section suivante). Quand α est un élément primitif de Fq, on vérifie que les n racines de P sont les images par l'automorphisme de Frobenius itéré de 0 à n - 1, soient α, αp, αp 2..., αp n - 1, et sont distinctes car une égalité entre deux de celles-ci contredirait que α est primitif ; Fq est donc un corps de rupture, mais aussi un corps de décomposition de P.
+Un automorphisme de corps de Fq laisse nécessairement invariant les éléments du sous-corps premier. L'image de α par un tel automorphisme est encore une racine de P, donc de la forme αp i. Cette image détermine l'automorphisme, α étant primitif, qui est donc un itéré de l'automorphisme de Frobenius.
+Proposition. — Le groupe des automorphismes d'un corps fini Fpn de caractéristique p est le groupe cyclique d'ordre n engendré par l'automorphisme de Frobenius qui à x associe xp.
+Théorie de Galois[modifier | modifier le code]
+Les propriétés précédentes peuvent être revues à la lumière de la théorie des corps commutatifs et de la théorie de Galois.
+Un corps fini est parfait, c'est-à-dire que ses extensions algébriques sont séparables. C'est une conséquence du fait que l'endomorphisme de Frobenius est bijectif (voir l'article lié, ou, toute extension algébrique finie étant un corps fini, l'étude des polynômes irréductibles faite plus loin).
+Le corps Fpn est, d'après le paragraphe précédent, isomorphe au corps de décomposition d'un polynôme de degré n séparable sur Fp. C'est donc une extension galoisienne de Fp.
+Le groupe des automorphismes d'un corps fini est son groupe de Galois sur son sous-corps premier. On a vu qu'il était cyclique, ses sous-groupes sont les groupes cycliques d'ordre un diviseur de n. Les sous-corps ont été déterminés comme les sous-ensembles invariants par les générateurs de ces sous-groupes. C'est dans ce cas particulier le théorème fondamental de la théorie de Galois.
+Clôture algébrique[modifier | modifier le code]
+On connaît par ce qui précède toutes les extensions finies, et donc, par réunion, toutes les extensions algébriques des corps finis. Toute clôture algébrique
+de
+peut être vue comme le compositum des .
+Du point de vue de la théorie de Galois, la famille des groupes , pour n variant, forme donc ce qu'on appelle un système projectif, c'est-à-dire que le groupe de Galois absolu
+est la limite projective des groupes  ; c'est donc le complété profini
+de , qui est ainsi un groupe procyclique : un générateur naturel est à nouveau l'endomorphisme de Frobenius, qui peut être vu comme la donnée de la famille compatible des endomorphismes de Frobenius des extensions finies.
+Cette description complète des extensions algébriques des corps finis est un élément important qui intervient dans la théorie des corps de classes pour les corps de nombres et les corps de nombres p-adiques, car leurs corps résiduels sont des corps finis.
+Polynômes irréductibles[modifier | modifier le code]
+Un critère d'irréductibilité[modifier | modifier le code]
+Si deux polynômes P et Q de K[X] possèdent une racine commune dans une extension L de K, et si P est irréductible, alors P divise Q. En effet, sinon ces polynômes seraient premiers entre eux ce qui passerait à L par l'identité de Bézout[15]. Ce résultat préliminaire est utile pour établir :
+Proposition. — Soient Fq un corps fini à q éléments et n un entier strictement positif. Dans Fq[X], le polynôme X qn – X est égal au produit de tous les polynômes unitaires irréductibles de degré divisant n.
+Démonstration[16]
+Le polynôme X qn – X est de dérivé –1 et n'a donc pas de facteur multiple. Pour démontrer la proposition, il suffit d'établir que les diviseurs irréductibles de ce polynôme sont exactement les polynômes irréductibles de degré divisant n.
+Si P est irréductible de degré d, le résultat préliminaire appliqué au corps Fq[X]/(P), dans lequel la classe de X est racine de P et de X qd – X (généralisation à ce corps du petit théorème de Fermat), donne que P divise X qd – X. Donc si d divise n, P divise X qn – X. Réciproquement, supposons que P divise X qn – X. L'application x ↦ xqn est un automorphisme du corps Fq[X]/(P) (comme itéré du morphisme de Frobenius, puisque q est une puissance de la caractéristique) donc l'ensemble de ses points fixes est un sous-corps. Or il contient la classe de X ; c'est donc le corps tout entier. Alors, un générateur α du groupe multiplicatif de ce corps vérifie (comme tout élément de ce groupe) α qn – 1 = 1. Ainsi, l'ordre qd – 1 de α divise qn – 1 et donc d divise n.
+En notant md(q) le nombre de polynômes unitaires irréductibles de degré d sur Fq, l'égalité des degrés, dans l'égalité polynomiale de la proposition, donne :
+Cette proposition permet donc de montrer l'existence de polynômes irréductibles de degré n quelconque dans Fq[X] via l'encadrement suivant[16] :
+Elle a été établie sans supposer l'existence d'un corps fini de cardinal qn et la minoration (appliquée à q premier) fournit donc une autre démonstration de ce résultat[16].
+Une évaluation plus précise est possible, en inversant par la fonction de Möbius (notée μ)[17] :
+La proposition fournit également une caractérisation des polynômes irréductibles qui peut être exploitée algorithmiquement[16] :
+Un polynôme P de degré n > 0 sur Fq est irréductible si et seulement si
+P divise X qn – X
+P est premier avec les X qr – X, où r = n/d, d diviseur premier de n.
+Le nombre d'éléments de Fqn n'appartenant à aucun de ses sous-corps stricts maximaux (les Fqr pour de tels r) est donc nmn(q).
+Polynôme minimal[modifier | modifier le code]
+Dans un corps fini Fq, tout élément α est algébrique sur son sous-corps premier Fp (sur n'importe quel sous-corps en fait), c'est-à-dire qu'il existe un polynôme à coefficients dans Fp qui annule α (les puissance successives de α ne peuvent être indépendantes). Le polynôme unitaire à coefficients dans Fp de plus petit degré qui annule α est appelé polynôme minimal de α sur Fp[18]. Il est nécessairement irréductible et engendre l'idéal des polynômes annulateurs de α. Les coefficients du polynôme étant invariants par l'automorphisme de Frobenius et ses itérés, les αp i sont également des racines de ce polynôme. On montre qu'il n'y en a pas d'autre.
+Proposition. — Soit P polynôme minimal de degré r sur Fp de α élément d'un corps Fq de caractéristique p. Alors toutes les racines de P sont simples et ce sont exactement :
+α, αp, αp 2..., αp r - 1
+Il suffit de montrer que ces r racines sont distinctes. Soient 0 < i ≤ j < r et αp i = αp j, alors, en élévant à la puissance idoine, αp r - j + i = α, donc P divise Xp r - j + i - X (résultat préliminaire du paragraphe précédent), donc (proposition précédente) r divise r - j + i, donc i = j[19].
+Tout polynôme unitaire irréductible sur Fp étant le polynôme minimal de la classe de X dans Fp[X]/(P), ceci a pour conséquence que Fq est une extension normale de Fp.
+Les α, αp, αp 2..., αp r - 1, les éléments ayant même polynôme minimal sur Fp que α, sont appelés conjugués de α par rapport à Fp[20]. Ce sont aussi les images de α par les n automorphismes de Fq. Quand α est un élément primitif (au sens racine primitive de l'unité), ces images sont toutes distinctes.
+Le polynôme minimal d'un élément primitif de Fq est appelé polynôme primitif (en)[21], c'est nécessairement un polynôme irréductible de degré n dont les racines sont les n conjugués d'une racine particulière α, soit α, αp, αp 2..., αp n - 1. Les polynômes primitifs sur Fp sont aussi les facteurs irréductibles du polynôme cyclotomique d'indice pn - 1 sur ce même corps, voir section suivante.
+Polynômes primitifs et polynômes cyclotomiques[modifier | modifier le code]
+Illustration graphique du groupe multiplicatif de F4
+Soit p un nombre premier, n un entier strictement positif et q = pn. On a déduit du théorème de Lagrange que tout élément non nul de Fq est racine de l'unité, et donc racine du polynôme Xq-1 - 1. Cette propriété est illustrée sur la figure de droite, les trois éléments non nuls de F4 sont les trois racines de l'unité.
+Les polynômes cyclotomiques étant à coefficients entiers, ils s'interprètent aussi dans les corps finis[22], mais alors qu'ils sont irréductibles dans Q, ils ne le sont plus forcément dans un sous-corps premier Fp[23] (voir la section Exemples). Dans Z[X], Xq-1 - 1 est le produit des polynômes cyclotomiques dont l'indice divise q -1, et ceci passe à Fp. Par ailleurs un polynôme irréductible (P) de degré strictement supérieur à 1 est tel que Fp[X]/(P) est un corps fini, et P, polynôme minimal d'un élément de ce corps, divise Xq-1 - 1, donc[24] :
+Tout polynôme irréductible de Fp[X] autre que X divise un polynôme cyclotomique.
+Si φ désigne la fonction indicatrice d'Euler il existe exactement φ(q - 1) éléments primitifs dans Fq. Comme par définition ces éléments ne sont pas racines de Xd - 1, donc de Φd pour d < q -1, ce sont les racines du polynôme cyclotomique Φq - 1. Les polynômes primitifs, qui sont les polynôme minimaux (sur Fp) de ces éléments primitifs, divisent donc Φq - 1.
+La relation « avoir même polynôme minimal sur Fp » est une relation d'équivalence, dont chaque classe possède pour cardinal le degré du polynôme irréductible associé (voir la section #Polynôme minimal, ou plus simplement dans le cas particulier des polynômes primitifs la section #Groupe multiplicatif et conséquences). On a donc :
+le polynôme cyclotomique d'indice pn - 1 est le produit des polynômes primitifs de degré n sur Fp.
+Il existe exactement φ(q - 1) éléments primitifs dans Fq, correspondant à φ(q - 1)/n polynômes primitifs sur son corps premier Fp.
+On déduit en particulier de l'existence d'un corps fini de cardinal pn pour tout entier n, que le polynôme cyclotomique d'indice pn - 1 est toujours le produit de polynômes irréductibles de même degré n sur Fp. Ce résultat peut se démontrer directement, en utilisant seulement l'existence du corps de rupture d'un polynôme, et alors on a une autre preuve d'existence d'un corps fini de cardinal pn (qui suppose connus les résultats de base sur les polynômes cyclotomiques usuels)[25]. En fait tout polynôme cyclotomique se décompose sur Fp en facteurs irréductibles de même degré[26].
+Il peut y avoir d'autres polynômes irréductibles de degré n que les polynômes primitifs. Par exemple dans F9, on a
+X8 - 1 = (X - 1)(X + 1)(X2 + 1)(X2 + X +2)(X2 + 2X + 2),
+et X2 + 1, bien qu'irréductible, n'est le polynôme minimal d'aucun des 4 éléments primitifs (voir aussi ci-dessous l'exemple de F16).
+Remarque : on peut définir directement le polynôme cyclotomique d'indice r sur un corps fini K de caractéristique p pour r qui n'est pas un multiple de p, à partir des racines r-ième de l'unité dans une extension de K où Xr - 1 est scindé. Leur étude se mène alors de la même façon que celle des polynômes cyclotomiques usuels sur Q[27].
+Article détaillé : Polynôme cyclotomique.
+Exemples[modifier | modifier le code]
+Caractéristique deux[modifier | modifier le code]
+Il existe sur F2 exactement deux polynômes de degré 1, dont l'un — le polynôme cyclotomique d'indice un sur F2 — est primitif :
+Les racines du (ou des) polynôme(s) de degré 2 irréductibles sur F2 sont les éléments de F22=F4 qui n'appartiennent pas à F2. Ce sont donc les 2 générateurs du groupe multiplicatif F4* à trois éléments. Par conséquent, il existe en fait un unique polynôme irréductible de degré 2 sur F2, il est primitif, et c'est le polynôme cyclotomique d'indice trois :
+Les racines des polynômes de degré 3 irréductibles sur F2 sont les éléments de F23=F8 qui n'appartiennent pas à son unique sous-corps F2. Ce sont donc les 6 générateurs du groupe multiplicatif F8* à sept éléments. Par conséquent, il existe exactement 6/3=2 polynômes irréductibles de degré 3 sur F2, ils sont primitifs, et leur produit est le polynôme cyclotomique d'indice sept. Ce sont donc les deux facteurs de :
+Les racines des polynômes de degré 4 irréductibles sur F2 sont les éléments de F24=F16 qui n'appartiennent pas au sous-corps intermédiaire F4. Ce sont donc, dans le groupe multiplicatif F16* à quinze éléments, les 12 dont le cube n'est pas 1. Par conséquent, il existe exactement 12/4=3 polynômes irréductibles de degré 4 sur F2. Parmi leurs 12 racines, 8 sont d'ordre quinze (i.e. sont des générateurs du groupe) car φ(15) = 8, donc parmi ces trois polynômes, deux seulement sont primitifs et leur produit est le polynôme cyclotomique d'indice quinze. Ce sont donc les deux facteurs de :
+Les 4 racines restantes sont d'ordre cinq, donc le polynôme irréductible de degré 4 non primitif est le polynôme cyclotomique d'indice cinq :
+Caractéristique trois[modifier | modifier le code]
+Il existe sur F3 trois polynômes unitaires de degré un, dont deux sont les polynômes cyclotomiques d'indices un et deux :
+L'extension d'ordre neuf contient six éléments hors du corps premier ; elle est de dimension deux, il existe donc exactement trois polynômes irréductibles. Le groupe multiplicatif est d'ordre huit et contient quatre éléments générateurs. Deux des polynômes irréductibles sont primitifs, le dernier est le polynôme cyclotomique d'ordre quatre.
+L'extension d'ordre vingt-sept contient un unique sous-corps : le corps premier. Il existe donc 24 éléments hors de tout sous-corps et 24/3=8 polynômes irréductibles de degré 3. Le groupe multiplicatif contient vingt-six éléments dont 12 générateurs. Par conséquent, parmi les huit polynômes irréductibles de degré 3, 12/3=4 sont primitifs et ce sont les quatre facteurs de :
+Les quatre polynômes irréductibles de degré 3 non primitifs sont polynômes minimaux des 12 éléments d'ordre treize du groupe multiplicatif. Ce sont donc les 12/3=4 facteurs de :
+Histoire[modifier | modifier le code]
+Évariste Galois publie en 1830 l'article fondateur de la théorie des corps finis.
+La théorie des corps finis se développe dans un premier temps, comme l'étude des congruences, sur des entiers et sur des polynômes, puis à partir de la toute fin du XIXe siècle, dans le cadre d'une théorie générale des corps commutatifs.
+Congruences et imaginaires de Galois[modifier | modifier le code]
+L'étude des corps finis premiers est traité systématiquement, sous forme de congruences, par Gauss dans ses Disquisitiones arithmeticae parues en 1801, mais beaucoup de ces propriétés avaient déjà été établies par entre autres Fermat, Euler, Lagrange et Legendre[7].
+En 1830, Évariste Galois publie[28] ce qui est considéré comme l'article fondateur de la théorie générale des corps finis[7]. Galois, qui déclare s'inspirer des travaux de Gauss sur les congruences entières, traite de congruences polynomiales, pour un polynôme irréductible à coefficients pris eux-mêmes modulo un nombre premier p. Plus précisément Galois introduit une racine imaginaire d'une congruence P(x) = 0 modulo un nombre premier p, où P est un polynôme irréductible modulo p. Il note i cette racine et travaille sur les expressions :
+a + a 1 i + a 2 i 2+... + a n-1 i n-1 où n est le degré de P.
+Retraduit en termes modernes, Galois montre que ces expressions forment un corps de cardinalité pn, et que le groupe multiplicatif est cyclique (Kleiner 2007, p. 70). Il remarque également qu'un polynôme irréductible qui a une racine dans ce corps, a toutes ses racines dans celui-ci, c'est-à-dire qu'il s'agit d'une extension normale de son sous-corps premier (Lidl&Niederreiter, p. 75). Il utilise l'identité donné par ce qui a été appelé depuis l'automorphisme de Frobenius (Van der Waerden 1985, p. 111). En 1846 Liouville, en même temps qu'il fait publier le fameux mémoire de Galois sur la résolution des équations polynomiales, fait republier cet article dans son journal de mathématiques pures et appliquées.
+Il s'avère qu'en fait Gauss a mené des travaux au moins aussi complets sur le même sujet trente ans auparavant, quand il préparait ses Disquisitiones arithmeticae (cf Frei 2007). Plutôt que d'introduire une racine imaginaire comme Galois, il travaille directement sur des polynômes, avec une double congruence, modulo p premier pour les coefficients, et modulo un polynôme irréductible (mais il mentionne que l'introduction de racines simplifierait la présentation). Il prépare un chapitre sur le sujet, qu'il met en attente pour une seconde partie qui ne paraîtra jamais de son vivant. Ce travail restera inconnu jusqu'à la parution posthume de l'édition de ses œuvres en 1863[29]. C'est donc l'article de Galois qui est à l'origine des développements du XIXe siècle sur les corps finis. Ainsi Serret[30] donne une démonstration de l'existence d'un polynôme irréductible pour tout degré n et modulo tout nombre premier p, en termes modernes l'existence d'un corps fini de cardinal pn (à cause de l'utilisation des imaginaires de Galois, la rigueur de celle-ci sera contestée par Dickson – cf Dickson, p. 240). Il faut cependant mentionner également deux articles sur le sujet de Theodor Schönemann en 1845 et 1846, moins aboutis que ceux de Gauss et Galois, mais qui purent influencer Kronecker (Frei 2007, p. 72).
+Théorie des corps[modifier | modifier le code]
+E. H. Moore montre en 1893 qu'un corps commutatif fini peut toujours se définir à la façon de Galois, en termes modernes, comme le corps de rupture d'un polynôme irréductible.
+En 1893, le mathématicien américain E. H. Moore démontre qu'un corps (commutatif) fini est caractérisé par son cardinal[7],[31] ; un corps fini est un ensemble de symboles, de cardinal fini s, muni des quatre opérations « sujettes aux identités ordinaires de l'algèbre abstraite »[32], sans plus de précision. Moore montre qu'un tel corps est « la forme abstraite » d'un « champ de Galois » (en anglais : Galois field) de cardinal s = pn défini à la façon de l'article de Galois, et du livre de Serret cités ci-dessus. La première présentation moderne de la théorie des corps finis est due à son ancien étudiant L. E. Dickson en 1901[33],[7]. Joseph Wedderburn, qui séjourne à l'université de Chicago en 1904-1905, y travaille en étroite collaboration avec Dickson[34]. Il démontre en 1905 qu'il n'existe pas de corps fini non commutatif. La structure des corps finis est entièrement élucidée.
+Parallèlement Heinrich Weber donne une première approche vraiment axiomatique de la théorie des corps (commutatifs) dans un article de 1893[35]. Il souhaite ainsi unifier des notions apparues précédemment dans différents champs mathématiques, dont ce que nous appelons maintenant les corps finis (Kleiner 2007, p. 72-73). Le terme de corps (en allemand : Körper) est lui-même repris de Richard Dedekind[36], qui l'avait introduit pour les sous-corps des réels ou des complexes, définis comme des sous-ensembles stables par les quatre opérations usuelles[37]. Le traitement moderne de la théorie des corps commutatifs (avec les corps finis comme cas particuliers), fondé sur la définition axiomatique actuelle, est développé par Ernst Steinitz en 1910 dans un mémoire célèbre[38].
+Applications théoriques[modifier | modifier le code]
+Les corps finis sont, en particulier, utilisés en arithmétique, au fondement par exemple de l'arithmétique modulaire, laquelle a permis à Gauss de démontrer[39] la loi de réciprocité quadratique. La structure de corps intervient notamment dans le résolution d'équations diophantiennes (voir section #Applications). Le petit théorème de Fermat est un exemple archétypal.
+Artin utilise le fait qu'un contexte naturel des lois de réciprocité est celui des corps finis. C'est l'un des outils qui lui permettent de résoudre le neuvième problème de Hilbert. Il initie l'analyse de l'équivalent de la fonction zêta de Riemann sur les corps finis. La géométrie arithmétique se généralise sur des structures finies. Cette approche est particulièrement active durant la seconde moitié du XXe siècle. André Weil généralise la démarche aux courbes algébriques et Pierre Deligne aux variétés algébriques. Les conjectures de Weil sur les variétés sur des corps finis, énoncées en 1940 par André Weil, font partie des problèmes importants de cette époque. Démontrées en 1974, elles ouvrent la voie au théorème de Taniyama-Shimura démontré par Andrew Wiles et ayant pour conséquence le dernier théorème de Fermat, souvent cité dans les articles de vulgarisation.
+Applications pratiques[modifier | modifier le code]
+Voyager 2 utilise le code Reed-Solomon fondé sur la théorie des corps finis pour communiquer.
+Après la Seconde Guerre mondiale et pour les besoins des laboratoires Bell, Claude Shannon formalise la théorie de l'information comme une branche des mathématiques[40], posant les problématiques de la sécurité[41] et de la fiabilité des transmissions.
+La cryptologie s'appuie sur la possibilité de générer rapidement de grands nombres premiers. La confidentialité d'un message est assurée par l'insurmontable difficulté technique actuelle de casser des entiers, c'est-à-dire d'effectuer un algorithme permettant de décomposer un nombre en facteurs premiers en un temps raisonnable. Une recherche active cherche à créer de nouveaux algorithmes allant en ce sens. Ainsi, Michael Rabin publie[42] un test de primalité se fondant sur les propriétés du groupe multiplicatif des corps premiers.
+La fiabilité traite de la capacité à transmettre sans erreur un message malgré des altérations dans la communication, elle est traitée par la théorie des codes correcteurs. En 1950, Richard Hamming travaille pour les laboratoires Bell avec Shannon sur ce sujet. Il utilise[43] des espaces vectoriels de dimension finie sur des corps finis pour formaliser un cadre opérationnel à la théorie et trouver les premiers exemples de codes correcteurs optimaux. Cette approche donne naissance à la théorie des codes linéaires.
+En 1960, Raj Chandra Bose (en) et Dwijendra Kumar Ray-Chaudhuri (en) montrent[44] que des idéaux de l'anneau des polynômes sur les corps finis de caractéristique deux sont particulièrement adaptés. La théorie est généralisée[45] par Alexis Hocquenghem (en) et donne naissance à la famille de codes BCH. Deux autres fondateurs de la théorie, Irving Reed et Gustave Solomon, enrichissent la méthode[46] et créent des codes à même de résister à de grosses altérations, les codes de Reed-Solomon. Les applications les plus connues sont probablement le système de communication de certaines sondes de la NASA comme Voyager ou les disques compacts. Durant les années 1970, les résultats d'arithmétique avancés sur les courbes elliptiques des corps finis trouvent leur application[47] avec, par exemple, les codes de Goppa.
+Applications[modifier | modifier le code]
+Équation diophantienne[modifier | modifier le code]
+Article détaillé : Théorème des deux carrés de Fermat.
+Richard Dedekind
+Une équation diophantienne est une équation à coefficients entiers où des solutions entières sont recherchées. Pierre de Fermat s'est longuement penché sur des équations de cette nature.
+Le petit théorème de Fermat stipule que, si p est premier, alors tout entier à la puissance p est congru modulo p à cet entier. Dans le contexte des corps finis, cela revient à indiquer que les points fixes de l'automorphisme de Frobenius sont les éléments du corps premier, ou que le groupe multiplicatif de ce dernier est cyclique d'ordre p - 1.
+Fermat remarque que les seuls nombres premiers, somme de deux carrés, sont ceux dont la division par quatre donne un pour reste. Il remarque en effet que:
+Il propose l'équation suivante a 2 + b 2 = p avec p premier dans une lettre écrite à Marin Mersenne, datée du 25 décembre 1640.
+Dedekind propose une démonstration[48] dont la première partie consiste à étudier l'équation sur le corps Fp. Il utilise les propriétés du groupe multiplicatif et celles des polynômes à coefficients dans un corps. L'équation devient a 2 + b 2 = 0. Si b est égal à 0 alors a l'est aussi et la solution est triviale. Dans le cas contraire. Il est possible de diviser par b car la structure sous-jacente est celle d'un corps, l'équation devient alors X 2 + 1 = 0. En multipliant le polynôme précédent par X 2 - 1, il obtient l'équation suivante : X 4 - 1 = 0. Les propriétés du groupe multiplicatif donne une condition nécessaire et suffisante sur p, il doit être congru à un modulo quatre. La fin de la démonstration n'utilise pas les corps finis, elle est donnée dans l'article associé.
+Cette méthode, consistant à réduire l'équation dans le corps premier est fréquente. Le corps dispose d'une structure plus forte et de nombreux théorèmes pour conclure.
+Code correcteur[modifier | modifier le code]
+Articles détaillés : Code correcteur, Code linéaire et Code cyclique.
+Les codes correcteurs ont leur source dans un problème très concret lié à la transmission de données : dans certains cas, une transmission de données se fait en utilisant une voie de communication qui n'est pas entièrement fiable ; autrement dit, les données, lorsqu'elles circulent sur cette voie, sont susceptibles d'être altérées. L'objectif d'un code correcteur est l'apport d'une redondance de l'information de telle manière que l'erreur puisse être détectée et même corrigée.
+Un message est une suite finie de lettres, qui dans le cas d'un code linéaire sont considérées comme des éléments d'un corps fini. Un message m apparaît comme un élément d'un espace vectoriel E sur un corps fini de dimension k. L'apport de la redondance est le résultat d'une application linéaire injective φ de E dans un espace F appelé code et de dimension n supérieure à k. Le mot du code transmis est l'élément φ(m). L'intérêt de transmettre φ(m) à la place de m est illustré par la figure suivante :
+Illustration d'un code non correcteur et d'un code correcteur
+Si le message m est transmis, et si la transmission l'altère, alors le message reçu est erroné (comme illustré sur la figure de gauche) et le récepteur ne dispose d'aucun moyen pour repérer ou corriger l'erreur. Si l'application φ est astucieusement choisie, chaque point du code diffère des autres points du code par au moins d coordonnées. Cette situation est illustrée sur la figure de droite. Les points du code sont figurés en vert, la modification d'une coordonnée est symbolisée par un segment du quadrillage. On remarque sur la figure que les points du code diffèrent tous par au moins d = 3 coordonnées. Si, par exemple, l'altération porte sur une unique coordonnée, la transmission correspond à un point rouge. Le récepteur peut alors corriger l'erreur, car il n'existe qu'un seul point du code (en vert) à une distance égale à 1 du message reçu.
+Illustration d'un code parfait
+L'application qui, à deux points de F, associe le nombre de coordonnées distinctes est une distance au sens mathématique, appelée distance de Hamming. Si la distance de Hamming minimale entre deux points du code est égale à d, alors le code est à même de corriger t altérations où t est le plus grand entier strictement plus petit que d/2. Sur la figure ci-dessus, on remarque des points noirs. Ils correspondent à des redondances inutiles. Ils sont en effet à une distance égale à 2 des points du code, or une telle distance n'est pas traitable dans le cas de la figure.
+L'ensemble des points corrigeables est donné par la réunion de toutes les boules de centre un point du code et de rayon t. La configuration idéale est celle où ces boules forment une partition de F. Il n'existe alors aucune redondance inutile. Cette situation est illustrée par la figure de droite. Les points du code sont illustrés en vert, la distance minimale d est égale à 5. Les boules de centre les points du code et de rayon 2 forment une partition de F. Les points à distance 1 du code sont illustrés en bleu, ceux à distance 2 en rouge. Tout message contenant au plus deux altérations peut être corrigé. Un tel code est dit parfait.
+La théorie des corps finis permet de construire des codes parfaits. L'espace F est muni de la structure d'anneau Fd[X]/P(X) où P(X) = Xn - 1 avec n = d a - 1 et a est un entier strictement positif. F correspond à l'ensemble des polynômes prenant des valeurs distinctes sur le corps Fn+1. Si φ(E) est l'idéal engendré par le polynôme G(X) à coefficients dans Fd ayant pour racines α, α2, ..., αd-1, alors le code est de distance minimale d. G(X) est le produit de polynômes cyclotomiques. Le code BCH ou le code de Reed-Solomon utilise cette technique pour construire des codes parfaits. Si k est l'entier tel que n - k est égal au degré de G(X), alors l'application φ associe au message M(X) le polynôme M(X).Xk - R(X) où R(X) est le reste de la division euclidienne de M(X).Xk par G(X). Les détails et démonstrations sont donnés dans l'article code cyclique.
+Géométrie arithmétique[modifier | modifier le code]
+Article détaillé : Géométrie arithmétique.

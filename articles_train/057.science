@@ -1,0 +1,99 @@
+Orbitales frontières — Wikipédia
+Orbitales frontières
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Les orbitales frontières sont deux types d'orbitales moléculaires (OM) particulières: l'orbitale HOMO (acronyme de highest occupied molecular orbital), en français HO (pour Haute Occupée) qui est l'orbitale moléculaire la plus haute en énergie occupée par au moins un électron, et l'orbitale LUMO (acronyme de lowest unoccupied molecular orbital), en français BV (pour Basse Vacante) qui est l'orbitale la plus basse en énergie non occupée par un électron.
+Ces deux orbitales jouent un rôle particulier dans les mécanismes réactionnels. L'un des exemples les plus courants pour illustrer l'importance des interactions entre ces orbitales est la réaction de Diels-Alder. Le premier à mettre en évidence le rôle de ces orbitales dans les mécanismes réactionnels en chimie fut le chimiste japonais Ken'ichi Fukui.
+Sommaire
+1 Interactions frontalières
+1.1 Interactions envisageables
+1.2 Approximation des orbitales frontières : Théorème de Fukui
+2 Excitation
+3 Lien avec la théorie des bandes
+4 Voir aussi
+5 Bibliographie
+Interactions frontalières[modifier | modifier le code]
+Interactions envisageables[modifier | modifier le code]
+On considère 2 molécules, A et B, qui se rapprochent pour réagir et donner un composé C. Plusieurs types d'interactions peuvent avoir lieu entre les différentes OM de A et de B ; en supposant que chaque OM occupée l'est par une paire d'électrons, 3 types d'interactions peuvent être envisagées :
+Interaction entre deux orbitales occupées (donc interaction à 4 électrons). Ces interactions sont de natures déstabilisantes.
+Interaction entre une orbitale occupée et une orbitale vacante (donc interaction à 2 électrons). Ces interactions sont de natures stabilisantes.
+Interaction entre deux orbitales vacantes (donc interaction à 0 électron).
+Approximation des orbitales frontières : Théorème de Fukui[modifier | modifier le code]
+Cette approximation consiste à ne prendre en compte que les interactions stabilisantes (donc entre une orbitale occupée et une orbitale vacante) des orbitales frontières, c'est-à-dire les interactions entre LUMO et HOMO.
+Théorème des orbitales frontières de Fukui
+Soient 2 molécules, A et B, dont les orbitales moléculaires peuvent être en interaction. Les interactions les plus importantes à considérer en priorité sont celles qui se développent entre l'orbitale la plus haute occupée (HO ou HOMO) de A, et l'orbitale la plus basse vacante (BV ou LUMO) de B, et réciproquement entre la HO de B et la BV de A, c'est-à-dire entre les orbitales frontières de A et B.
+Excitation[modifier | modifier le code]
+La différence de niveaux d'énergie entre les deux (HOMO-LUMO) peut servir de mesure d'excitabilité de la molécule : plus la différence d'énergie est petite, plus la molécule peut être facilement excitée.
+Dans le cas des composés organiques aromatiques qui contiennent des liaisons π conjuguées, le niveau HOMO contient les électrons π (électrons mobiles partagés par les atomes de la molécule, par opposition aux électrons σ, qui forment des liens rigides), tandis que le niveau LUMO contient les électrons π*, c'est-à-dire les électrons π excités. Chez d'autres types de molécules, cela peut être d'autre électrons (σ, par exemple) qui forment les niveaux HOMO et LUMO.
+Lien avec la théorie des bandes[modifier | modifier le code]
+Ceux qui sont déjà familiers avec les semi-conducteurs inorganiques verront que le niveau HOMO est aux semi-conducteurs organiques ce que la bande de valence est aux semi-conducteurs inorganiques. La même analogie existe entre le niveau LUMO et la bande de conduction. De même, la différence d'énergie entre les niveaux HOMO et LUMO est considérée comme une énergie de bande interdite.
+Lorsque la molécule forme un dimère physique ou un agrégat, la proximité des orbitales des différentes molécules fait en sorte qu'il se produit un phénomène de division des niveaux HOMO et LUMO (et des autres niveaux d'énergie également). Cette division produit des sous-niveaux vibrationnels qui ont chacun leur propre énergie, légèrement différentes les unes des autres. On compte autant de sous-niveaux vibrationnels par niveau d'énergie qu'il y a de molécules qui interagissent ensemble. Lorsqu'il y a un nombre appréciable de molécules qui s'influencent (par exemple, dans un agrégat), il y a tellement de sous-niveaux qu'on ne perçoit plus la nature discrète de ces derniers : ils se fondent alors dans un continuum. On ne parle donc plus de niveaux d'énergie, mais bien de bandes d'énergie.
+Voir aussi[modifier | modifier le code]
+Théorie de l'orbitale moléculaire
+Orbitale moléculaire
+Semi-conducteur organique
+Polymère
+Réaction de Diels-Alder
+Configuration électronique
+Théorème de Koopmans
+Bibliographie[modifier | modifier le code]
+Martin Pope et Charles E. Swenberg, Electronic Processes in Organic Crystals and Polymers, 2nd ed., Oxford Science Publications, Oxford University Press, New York, 1999
+Portail de la chimie
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Orbitales_frontières&oldid=103533678 ».
+Catégorie : Chimie quantiqueCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Physique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+English
+Italiano
+日本語
+Polski
+Русский
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 5 mai 2014 à 14:24.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

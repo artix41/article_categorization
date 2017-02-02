@@ -1,0 +1,40 @@
+Électrodynamique quantique — Wikipédia
+Électrodynamique quantique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la physique.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+L'électrodynamique quantique relativiste (Quantum electrodynamics en anglais : QED) est une théorie physique ayant pour but de concilier l'électromagnétisme avec la mécanique quantique en utilisant un formalisme lagrangien relativiste. Selon cette théorie, les charges électriques interagissent par échange de photons.
+Sommaire
+1 Histoire
+2 Description
+3 La renormalisation
+4 Le lagrangien de l'interaction
+5 Notes et références
+6 Voir aussi
+6.1 Bibliographie
+6.1.1 Ouvrages de vulgarisation
+6.1.2 Ouvrages de référence
+6.2 Articles connexes
+Histoire[modifier | modifier le code]
+La première formulation quantique de l'interaction des radiations et de la matière remonte aux travaux du physicien britannique Paul Dirac qui, pendant les années 1920, est le premier à établir le coefficient de l'émission spontanée d'un atome[1]. Dirac modélisa le champ électromagnétique en utilisant un ensemble d'oscillateurs harmoniques discrets (quantification) et en associant des opérateurs d'échelle aux particules. Par la suite, grâce aux travaux de Wolfgang Pauli, Eugene Wigner, Pascual Jordan, Werner Heisenberg et Enrico Fermi — qui introduisit une formulation élégante de l'électrodynamique quantique[2] —, les physiciens sont amenés à penser que, en théorie, il est possible de calculer tout processus qui met en jeu des photons et des particules chargées. Cependant, des études plus poussées, dues à Félix Bloch, Arnold Nordsieck[3] et Victor Weisskopf[4] en 1937 et 1939, ont révélé que de tels calculs sont seulement exacts au premier ordre dans la théorie de la perturbation, un problème déjà connu grâce aux travaux de Robert Oppenheimer[5].
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Description[modifier | modifier le code]
+L'électrodynamique quantique est une théorie quantique des champs de l'électromagnétisme. Elle décrit l'interaction électromagnétique des particules chargées et a été appelée le « bijou de la physique »[6] pour ses prédictions extraordinairement précises dans la détermination théorique de quantités (mesurées par ailleurs) telles que l'anomalie de moment magnétique des leptons, ou encore le décalage de Lamb des niveaux d'énergie de l'hydrogène.
+Mathématiquement, cette théorie a la structure d'un groupe abélien avec un groupe de jauge U(1). Le champ de jauge qui intervient dans l'interaction entre deux charges représentées par des champs de spin 1/2 est le champ électromagnétique. Physiquement, cela se traduit en disant que les particules chargées interagissent par l'échange de photons.
+L'électrodynamique quantique fut la première théorie quantique des champs dans laquelle les difficultés pour élaborer un formalisme purement quantique permettant la création et l'annihilation de particules ont été résolus de façon satisfaisante.
+Tomonaga, Schwinger et Feynman ont reçu en 1965 le prix Nobel de physique pour leur contribution à cette théorie, en particulier par la mise au point du calcul des quantités observables en utilisant la covariance et l'invariance de jauge.
+La renormalisation[modifier | modifier le code]
+La procédure de renormalisation pour s'affranchir de quantités infinies indésirables rencontrées en théorie quantique des champs a trouvé en l'électrodynamique quantique sa première réussite.
+Le lagrangien de l'interaction[modifier | modifier le code]
+Le lagrangien relativiste de l'interaction entre électrons et positrons par l'échange de photons est :
+et
+sont les champs représentant des particules chargées électriquement, les électrons et positrons sont représentés par des champs de Dirac.
+sont les matrices de Dirac, qui se construisent avec des matrices de Pauli .
+est la dérivée covariante de jauge,
+avec
+la constante de couplage (égale à la charge élémentaire),
+est le quadrivecteur potentiel de l'électromagnétisme.
+Et
+est le tenseur électromagnétique apparaissant en relativité restreinte.
+Cette part du lagrangien décrit la propagation libre du champ électromagnétique, tandis que la partie ressemblant à l'équation de Dirac décrit l'évolution de l'électron et du positron dans leur interaction par l'intermédiaire du quadrivecteur potentiel.

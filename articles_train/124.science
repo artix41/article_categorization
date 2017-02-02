@@ -1,0 +1,69 @@
+Spectrophotomètre — Wikipédia
+Spectrophotomètre
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un spectrophotomètre est un appareil qui permet de mesurer l'absorbance d'une solution à une longueur d'onde donnée ou sur une région donnée du spectre. Selon la loi de Beer-Lambert, l'absorbance d'une solution est proportionnelle à la concentration des substances en solution, à condition de se placer à la longueur d'onde à laquelle la substance absorbe les rayons lumineux. C'est pourquoi la longueur d'onde est réglée en fonction de la substance dont on veut connaître la concentration.
+D'après la loi de Beer-Lambert, l'absorbance
+est fonction de la concentration C de la solution, du coefficient d'absorption molaire
+et de la longueur de solution à traverser L[1].
+où
+est la transmittance de la solution.
+On remarque que
+et
+sont fonction de la longueur d'onde de travail, elle est choisie en fonction des spectres d'absorbance.
+Spectre d'absorbance de NAD+ et de NADH,H+ (wavelength=longueur d'onde)
+Ici les deux spectres sont superposés, pour les réaliser indépendamment on a mesuré l'absorbance d'une solution de NAD+ (respectivement de NADH,H+) à différentes longueurs d'ondes (toutes choses égales par ailleurs).
+La longueur d'onde d'absorbance maximale est ici max=260 nm pour les deux molécules. Il sera donc préférable de travailler à cette longueur d'onde. En revanche, si on veut doser NADH,H+ lors d'une réaction enzymatique où le NAD+ est réduit en NADH,H+ par exemple, il est plus judicieux de travailler à =340 nm car ici on ne mesure que NADH,H+ car l'absorbance de NAD+ est nulle même s'il est présent dans le mélange.
+Les spectrophotomètres Infrarouge (IR) sont essentiellement utilisés pour l’identification. On peut dire que, pratiquement, les spectrophotomètres UV-visible sont utilisés pour des analyses quantitatives alors que les spectrophotomètres IR sont des instruments qualitatifs. Tous deux utilisent les principes optiques semblables, mais le spectrophotomètre IR balaye en fréquence l’échantillon.
+Galerie :
+Spectrophotomètre de laboratoire (capot ouvert).
+Spectrophotomètre de laboratoire (fermé).
+Autre modèle.
+Spectrophotomètre portable pour mesurer la couleur (souvent exprimée dans le système L*a*b*) d'une surface.
+Le spectrophotomètre UV-visible (UV : ultraviolet) comprend :
+une source ou des sources de lumière : lumière blanche pour la mesure dans le spectre visible (lumière polychromatique) et/ou lumière UV.
+La lampe UV est généralement de type deutérium (domaine de 195 à 380 nm, durée de vie de la lampe de 1 000 h, par exemple).
+La lampe visible est généralement de type halogène (domaine de 320 à 1 000 nm, durée de vie de 500 h, par exemple).
+Il existe également des spectrophotomètres à lampe xénon ; (domaine de 190 à 1 100 nm)
+un monochromateur formé d'un réseau diffractant la lumière de la source. Il permet de sélectionner la longueur d'onde de la lumière qui traversera la solution à doser ;
+une fente de largeur fixe ou variable pour régler la bande passante ;
+un porte-cuvette pouvant permettre le maintien à température souhaitée de la solution à analyser, cette température est maintenue par un circuit d'eau ou un effet Peltier. Ce maintien à température fixée est très utile dans les mesures de cinétique enzymatique, en effet, la vitesse de réaction dépend de la température ;
+une cuvette transparente dans laquelle on place la solution à étudier. Suivant la qualité et la quantité d'échantillon, il existe différentes cuvettes, généralement en plastique (spectre visible, UV proche) ou en quartz (UV, mais cuvettes très chères).
+Le solvant et le(s) réactif(s) utilisés n'étant pas toujours transparents, il est obligatoire de réaliser un « blanc » ou témoin de compensation, c'est-à-dire une mise à zéro du dispositif (tarer), en ne plaçant que le solvant et le(s) réactif(s) utilisés dans la cuvette, avant la mesure de la cuvette contenant l'échantillon, et ce pour chaque longueur d'onde étudiée.
+Les modèles de recherche sont généralement à double faisceau et utilisent deux cuvettes, la cuvette de référence contenant le solvant et le(s) réactif(s), et la cuvette contenant l'échantillon (avec solvant et réactif(s)). Le liquide de la cuvette de référence est alors soustrait automatiquement (fonction auto-zéro) ;
+une cellule photoélectrique, restituant un courant proportionnel au nombre de photons reçus. Sur des modèles récents, le détecteur unique de type photodiode est parfois remplacé par une barrette CCD, ou une barrette de diode (chaque cellule sensible reçoit une couleur fixe). Les modèles les plus sensibles utilisent un détecteur de type photomultiplicateur ou PMT ;
+un détecteur électronique dont la réponse est proportionnelle à ce courant électrique et permet une mesure relative de l'intensité lumineuse.
+La spectrophotométrie est utilisée principalement pour connaître la concentration d'une solution colorée (procédé appelé dosage colorimétrique).
+Sommaire
+1 Domaines d'application
+1.1 En biologie
+1.2 En médecine
+1.3 En physique
+1.4 En chimie
+1.5 Dans les industries graphiques
+2 Voir aussi
+3 Notes et références
+Domaines d'application[modifier | modifier le code]
+Schéma de principe.
+En biologie[modifier | modifier le code]
+Le spectrophotomètre est utilisé lors de la réalisation du test MTT.
+En biologie moléculaire, il est utilisé lors de l'extraction d'ADN, pour quantifier l'ADN et déterminer sa pureté. On utilise la longueur d'onde 260 nm qui est la zone d'absorbance maximale des acides nucléiques. Une seconde mesure à 280 nm permet de contrôler la pureté de l'extraction, à savoir la présence de protéines résiduelles dans la solution d'ADN.
+Pour une solution d'ADN purifiée, le rapport R. doit être compris entre 1,8 et 2. Si R est nettement inférieur à 1,8 alors des protéines contaminent probablement la solution. Supérieur à 2, ce rapport indique une probable contamination par des ARN.
+R = (A260 - A320)/(A280 - A320)
+R est simplifié lorsque (cas fréquent) A320 = 0.
+La concentration d'ADN peut être calculée à partir de la mesure à 260 nm en utilisant un facteur de corrélation :
+ADN double-brin : 1 Abs = 50 ng/µl
+ADN simple-brin : 33 ng/µl (comme l'ARN simple brin)
+ARN : 1 Abs = 40 ng/µl.
+En biochimie, il est utilisé lors de la purification de protéines, pour les quantifier (longueur d'onde 280 nm) et déterminer leur niveau de pureté (longueur d'onde 260 nm).
+En médecine[modifier | modifier le code]
+L'analyse cinétique de différentes enzymes sanguines, dosage de la phosphatase alcaline : cholestase, lactate déshydrogénase : infarctus du myocarde, hémolyse.
+En physique[modifier | modifier le code]
+L'analyse de la lumière permet de déterminer les composants chimiques à l'origine de l'émission lumineuse : par exemple la présence de composés chimiques des étoiles.
+En chimie[modifier | modifier le code]
+L'analyse de l'absorption des solutions à une longueur d'onde donnée permet le dosage de ces solutions selon la loi de Beer-Lambert (la concentration est proportionnelle au logarithme de l'absorption lumineuse). Il y a donc relation directe entre la quantité de lumière absorbée et la concentration en composé chimique de la solution. Le suivi dans le temps de l'absorption est une méthode de caractérisation de la vitesse de réactions chimiques (cinétique).
+Un balayage en fréquence permet de caractériser l'espèce présente en solution en remontant à la nature de la transition énergétique considérée.
+Dans les industries graphiques[modifier | modifier le code]
+Il permet de mesurer les couleurs afin de calibrer des périphériques de sortie tels que les traceurs.
+Voir aussi[modifier | modifier le code]
+Spectrophotométrie

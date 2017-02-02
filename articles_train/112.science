@@ -1,0 +1,132 @@
+Microscope optique — Wikipédia
+Microscope optique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Microscope et Microscopie.
+Un microscope optique de base.
+Le microscope optique est un instrument d'optique muni d'un objectif et d'un oculaire qui permet de grossir l'image d'un objet de petites dimensions (ce qui caractérise son grossissement) et de séparer les détails de cette image (et son pouvoir de résolution) afin qu'il soit observable par l'œil humain. Il est utilisé en biologie, pour observer les cellules, les tissus, en pétrographie pour reconnaître les roches, en métallurgie et en métallographie pour examiner la structure d'un métal ou d'un alliage.
+Il ne faut pas le confondre avec la loupe binoculaire qui n'exige pas des échantillons plats de faible épaisseur, ou réfléchissants, et permet d'observer des pièces naturelles sans préparation en grossissant l'image d'un facteur peu élevé, mais en gardant une vision stéréoscopique propice à l'examen macroscopique révélateur de grains, de criques, de fissures, etc.
+Microscope.
+Sommaire
+1 Histoire
+2 Première approche
+2.1 Principe du microscope optique de base
+2.2 Constitution du microscope
+2.3 Limites du microscope optique
+2.3.1 Amélioration de la résolution en microscopie optique
+3 Utilisations et perfectionnement
+3.1 Microscopie en réflexion
+3.2 Éclairage épiscopique
+3.3 Microscopie en champ clair
+3.4 Microscopie en champ sombre
+3.5 Illumination oblique
+3.6 Microscopie en lumière polarisée
+3.7 Microscopie en fluorescence
+3.8 Microscope à contraste de phase
+3.9 Microscope à contraste interférentiel
+3.10 Microscope confocal
+3.11 Microscope à statif inversé
+4 Préparation des échantillons
+5 Notes et références
+6 Voir aussi
+6.1 Articles connexes
+6.2 Liens externes
+Histoire[modifier | modifier le code]
+Il est difficile de dire qui a inventé le microscope composé. On dit souvent que l'opticien hollandais Hans Janssen et son fils Zacharias Janssen fabriquèrent le premier microscope en 1590, mais ceci provient d'une déclaration de Zacharias Janssen lui-même au milieu du XVIIe siècle. La date annoncée est assez improbable étant donné qu'il a été montré que Zacharias Janssen est né vers 1590.
+Un autre favori au titre d'inventeur du microscope est Galilée. Il a développé un occhiolino, un microscope composé d'une lentille convexe et d'une autre concave en 1609.
+Un dessin par Francesco Stelluti de trois abeilles figure sur le sceau du pape Urbain VIII (1623-1644) et passe pour la première image de microscopie publiée[1]. Christian Huygens, un autre Hollandais, a développé à la fin du XVIIe siècle un oculaire simple à deux lentilles corrigé des aberrations chromatiques, ce qui fut un grand pas en avant dans le développement du microscope. L'oculaire de Huygens est toujours fabriqué aujourd'hui, mais souffre d'un champ assez réduit et d'autres problèmes mineurs.
+On attribue en général à Antoni van Leeuwenhoek (1632-1723) le fait d'avoir attiré l'attention des biologistes sur les utilisations du microscope, même si des loupes ordinaires étaient déjà fabriquées et utilisées au XVIe siècle. Les microscopes artisanaux de Van Leeuwenhoek étaient des instruments simples et de taille réduite comprenant une lentille unique mais forte. En comparaison, les systèmes à plusieurs lentilles restaient difficiles à mettre au point et il fallut pas moins de 150 ans de développement des optiques avant que le microscope composé puisse livrer une qualité d'image équivalente à celle des microscopes simples de Van Leeuwenhoek. Néanmoins, et malgré de nombreuses revendications, on ne peut pas considérer Van Leeuwenhoek comme l'inventeur du microscope composé.
+Microscope optique (1751).
+Microscope de Cuff (1760).
+Microscope Zeiss, Jena (1879).
+Modèle Voigt et Hochgesang (1890).
+Première approche[modifier | modifier le code]
+Principe du microscope optique de base[modifier | modifier le code]
+Principe d'un microscope simplifié.
+Le microscope optique est un système optique à lentilles dans le but d'obtenir une image agrandie de l'échantillon à observer.
+L'objet à observer est placé devant le premier groupe optique appelé « objectif ». Si l'objet est au-delà de la distance focale, cela forme une image réelle renversée et de taille différente ; l'image est plus grande que l'objet si celui-ci est situé à une distance inférieure au double de la distance focale de l'objectif.
+Le deuxième groupe optique du côté de l'observateur est l'oculaire : il est positionné de sorte que l'image soit dans son plan focal. Ainsi, l'œil observe une image « à l'infini » (pour un observateur standard) , donc en relâchant les muscles chargés de l'accommodation, ce qui représente un meilleur confort visuel.
+Il s'agit d'un système centré dioptrique, composé en partie de doublets pour en corriger certaines des aberrations optiques.
+A contrario d'autres systèmes optiques qui sont définis par leur grossissement optique (télescope) ou leur grandissement (appareil photographique), le terme approprié, pour le microscope, est sa puissance, rapport de l'angle, sous lequel est vu l'objet à travers l'instrument, à la longueur de cet objet.
+La technique d'illumination la plus utilisée en microscopie à champ large classique est l'illumination de Köhler, qui garantit une qualité d'image optimale.
+Constitution du microscope[modifier | modifier le code]
+Schéma d'un microscope optique.
+De bas en haut :
+miroir : sert à réfléchir la lumière ambiante pour éclairer l'échantillon par en dessous, dans le cas d'un échantillon transparent (par exemple une lame mince en biologie ou en géologie, ou un liquide) ;
+source de lumière artificielle de meilleure température de couleur et de stabilité et par l'usage d'un condenseur qui permet à cette lumière de remplir d'une façon homogène et régulière le champ observé, et surtout de ne pas faire voir, par son réglage adéquat, les détails mécaniques de la source de lumière (spires du filament de l'ampoule). La source d'éclairage peut être plus élaborée et comporter un boîtier indépendant, éventuellement en lumière polarisée ou ultraviolet, pour faire ressortir certaines propriétés chimiques de la matière, ou éclairer l'échantillon par-dessus (notamment en métallurgie)
+diaphragme : ouverture de diamètre variable permettant de restreindre la quantité de lumière qui éclaire l'échantillon. Comme pour un appareil photo, le diaphragme permet principalement de faire varier la profondeur de champ (ouvert à fond pour des coupes histologiques et plus fermé pour des recherches d'œufs de parasites digestifs) ;
+platine porte-échantillon : où l'on pose l'échantillon ; les « valets » servent à tenir l'échantillon lorsque celui-ci est mince (par exemple une lame). La platine peut être mobile (gauche-droite et avant-arrière), ce qui permet de balayer l'échantillon et de sélectionner la partie observée ;
+objectifs : lentille ou ensemble de lentilles réalisant le grossissement. Il y a en général plusieurs objectifs, correspondant à plusieurs grossissements, montés sur un barillet. Certains objectifs sont dits à immersion car leur puissance ne peut être atteinte qu'en éliminant la lame d'air entre l'échantillon couvert par la lamelle et la frontale de l'objectif. On utilise pour cela de l'huile de cèdre ou des huiles de synthèse dont l'indice de réfraction est proche de celui du verre.
+mise au point rapide et micrométrique ; pour que l'image soit nette, il faut que l'objet soit dans le plan focal de l'objectif ; ces molettes font monter et descendre l'ensemble objectif-oculaire avec un système de crémaillère, afin d'amener le plan focal sur la zone de l'échantillon à observer ;
+oculaire : lentille ou ensemble de lentilles formant l'image d'une manière reposante pour l'œil ; les rayons arrivent parallèles, comme s'ils venaient de très loin, ce qui permet un relâchement des muscles contrôlant le cristallin ; deux oculaires placés sur une tête dite binoculaire rend plus confortable l'observation (même si elle n'apporte pas de vision stéréoscopique).
+L'oculaire peut être remplacé par un appareil photographique, ou - dans le cas de la vidéomicroscopie - par une caméra vidéo ou une caméra CCD pour faire une acquisition numérique. Ceci permet de faire l'observation sur un moniteur vidéo (écran de type télévision) et de faciliter l'utilisation et le traitement des images (impression, traitement informatique, télémédecine, etc.).
+Limites du microscope optique[modifier | modifier le code]
+La résolution d'un microscope désigne sa capacité à séparer des détails très voisins. Indépendamment du capteur utilisé et des aberrations ou imperfections des lentilles, la résolution du microscope optique est fondamentalement limitée par la diffraction de la lumière. En effet, du fait de la diffraction, l'image d'un point n'est pas un point, mais une tache (la tache d'Airy ou plus généralement la fonction d'étalement du point - PSF). Ainsi, deux points distincts mais voisins auront pour images deux taches dont le recouvrement peut empêcher de distinguer les deux points images : les détails ne sont alors plus résolus.
+Selon la théorie d'Abbe, la limite de résolution (transverse)
+d'un microscope, c'est-à-dire la plus petite distance en dessous de laquelle deux points voisins ne seront plus distingués, peut être exprimée simplement à l'aide de la longueur d'onde d'illumination , de l'indice de réfraction
+en sortie d'objectif, et du demi angle du cône de lumière maximum accessible .
+où NA désigne le produit
+ou ouverture numérique de l'objectif. On peut donc augmenter la résolution de deux manières :
+en augmentant l'indice de réfraction. Ceci peut être réalisé en utilisant un objectif à immersion : on immerge la frontale de l'objectif dans un liquide dont l'indice de réfraction est proche du maximum de 1,5 - celui du verre ;
+en diminuant la longueur d'onde. Toutefois, si on reste dans la lumière visible, il n'est pas possible de descendre en dessous de 400 nm.
+La limite de résolution d'un microscope photonique classique est d'environ 0,2 μm. Le microscope électronique en transmission atteindra, lui, une limite 1000 fois plus petite.
+Amélioration de la résolution en microscopie optique[modifier | modifier le code]
+De nombreuses techniques de microscopie photonique permettent d'augmenter la résolution. Lorsqu'elles dépassent la limite d'Abbe, elles sont dites « super résolution » ou nanoscopies. Citons entre autres :
+les techniques d'illumination structurée linéaires (par exemple, le microscope SIM) et les techniques tomographiques qui cherchent à récupérer les hautes fréquences spatiales coupées dans un microscope classique. Ces techniques permettent d'augmenter la résolution, sans toutefois dépasser la limite d'Abbe.
+les techniques utilisant les ondes évanescentes (SNOM) ;
+les techniques utilisant une mise en forme de la réponse impulsionnelle optique (PSF) : microscopie confocale, la microscopie STED (super-résolue) ;
+les techniques utilisant la localisation successive de molécules individuellement photoactivées, la « microscopie de localisation par photoactivation » (PALM, Betzig et al., 2006) et la microscopie « par reconstruction stochastique optique » (STORM, Rust et al., 2006). Ces deux microscopies sont identiques dans le principe, mais n'utilisent pas le même type de fluorophore.
+Utilisations et perfectionnement[modifier | modifier le code]
+Microscopie en réflexion[modifier | modifier le code]
+Quand on utilise un microscope classique, on l'utilise en transmission, c'est-à-dire que la lumière traverse l'échantillon observé. Il est également possible de travailler « en réflexion ». Dans ce cas, l'échantillon est illuminé du même côté que l'observateur, soit par le dessus pour un microscope droit et par le dessous dans le cas des microscopes inversés utilisés en métallographie ou en cristallographie. La lumière produite par la source passe une première fois par l'objectif, arrive sur l'échantillon, est réfléchie et repasse par l'objectif pour observation ce qui nécessite plusieurs jeux de miroirs ou prismes.
+La microscopie en réflexion permet d'examiner des objets opaques, ou trop épais pour la transmission. En contrepartie bien entendu, elle ne peut donner que des informations sur la surface de l'échantillon dans le cas de l'observation en lumière blanche ; en lumière polarisée, elle permet de révéler les orientations de grains des constituants des minéraux ou métaux.
+Un cas classique est la métallographie où l'on réalise des observations de pièces de métal appelées micrographies de cette manière. Comme dit plus haut le microscope est souvent inversé, la pièce à observer placée posée sur la plaque support (en général percée d'un trou circulaire).
+Éclairage épiscopique[modifier | modifier le code]
+A contrario des éclairage diascopiques (dia - à travers), l'éclairage épiscopique (épi - sur) permet d'observer des objets opaques en couleur et en leur donnant un rendu plus « naturel ».
+L'idée d'un tel éclairage est ancienne, puisqu'en 1740, Descartes a inspiré Lieberkühm qui a créé pour ses observations au microscope un miroir en argent entourant l'objectif, le foyer de ce miroir ciblant la préparation.
+Microscopie en champ clair[modifier | modifier le code]
+La microscopie optique en champ clair (ou « à fond clair ») est la plus simple et la plus ancienne des techniques de microscopie. Les longueurs d'onde utilisées (spectre visible) limitent le pouvoir séparateur de ce microscope à 0,2 µm pour ceux d'entre eux qui ont les meilleures optiques.
+L'illumination se fait par transmission de lumière blanche, c'est-à-dire que l'échantillon est illuminé par dessous et observé par dessus. Les limitations de cette technique sont principalement un faible contraste de la plupart des échantillons biologiques et une résolution faible due au flou créé par la matière hors du plan focal. En contrepartie, la technique est simple et l'échantillon ne nécessite qu'une préparation minime.
+Si l'échantillon est éclairé par dessus, le microscope est dit « microscope inversé » ; L'objectif est alors situé en dessous de la préparation, et le tube porte oculaire redresse les faisceaux de lumière pour que les oculaires soient "normalement" positionnés pour l'utilisateur.
+Microscopie en champ sombre[modifier | modifier le code]
+Article détaillé : Microscopie en champ sombre.
+Le microscope à fond noir qui utilise le principe de la « microscopie en champ sombre » permet d'améliorer le contraste d'échantillons transparents mais non teintés[2].
+L'illumination de champ sombre utilise une source de lumière alignée avec soin afin de minimiser la quantité de lumière directement transmise et de ne collecter que la lumière diffusée par l'échantillon. Elle permet d'augmenter considérablement le contraste, particulièrement pour les échantillons transparents, tout en ne nécessitant que peu d'équipement et une préparation d'échantillon simple. Toutefois, cette technique souffre d'une faible intensité lumineuse collectée et est toujours affectée par la limite de résolution.
+L'illumination de Rheinberg est une variante de l'illumination en champ sombre dans laquelle des filtres transparents de couleur sont insérés juste avant le condenseur, de sorte que les rayons lumineux plus ou moins obliques soient colorés différemment (le fond de l'image peut être bleu tandis que l'échantillon apparaît jaune brillant). La limite de résolution est la même que celle en champ sombre. D'autres combinaisons de couleurs sont possibles, mais leur efficacité est assez variable[3].
+La microscopie à fond noir est particulièrement adaptée aux échantillons frais et autorise la microcinématographie (par exemple de bactéries en déplacement). Elle n'a pas d'intérêt pour les objets colorés (frottis ou coupes colorés). Elle est notamment utile pour :
+observer des êtres ou objets plats à structure régulière et transparents tels que diatomées, radiolaires…
+observer des formations filiformes (ex : flagelles, fibres, bactéries, certains cristaux…)
+observer des objets punctiformes ou linéaires très fins, dont la taille serait limite pour la séparation du microscope à fond clair. Ces objets donneront une image de points ou traits très lumineux, (Exemple : Treponema pallidum, agent de la syphilis) et aux contours nets si l'objet est suffisamment épais, ou pour les bactéries les plus grandes (Exemple: Borrelia, agent de la maladie de Lyme).
+Illumination oblique[modifier | modifier le code]
+L'utilisation d'une illumination oblique (par le côté) donne une image d'apparence tridimensionnelle et peut mettre en valeur des aspects invisibles autrement. C'est le principal avantage. Les limitations sont les mêmes que celles de la microscopie en champ clair.
+Microscopie en lumière polarisée[modifier | modifier le code]
+Article détaillé : Microscopie en lumière polarisée.
+En microscopie en lumière polarisée, on place l'échantillon entre un polariseur et un analyseur afin de détecter les variations de polarisation de la lumière après la traversée de l'échantillon. Cette technique est très utile pour l'observation des milieux biréfringents, notamment en minéralogie.
+Microscopie en fluorescence[modifier | modifier le code]
+Article détaillé : Microscopie à fluorescence.
+Quand certains composés sont illuminés par une source de lumière de haute énergie, ils émettent alors de la lumière à une énergie plus basse. C'est le phénomène de fluorescence. La microscopie à fluorescence consiste à former une image en collectant cette lumière émise.
+Cette méthode est aujourd'hui de première importance dans les sciences de la vie. Elle peut être très sensible, autorisant même la détection de molécules isolées. On utilise plusieurs teintures fluorescentes afin de marquer différentes structures ou composés chimiques. Ceci permet de détecter simultanément des composés différents, tout en les différenciant par leur couleur de fluorescence.
+Microscope à contraste de phase[modifier | modifier le code]
+Article détaillé : Microscope à contraste de phase.
+Le contraste de phase est une technique largement utilisée qui permet de mettre en valeur les différences d'indices de réfraction comme différence de contraste. Elle a été développée par le physicien hollandais Frederik Zernike dans les années 1930 (il reçut pour cela le prix Nobel en 1953). Le noyau d'une cellule par exemple apparaîtra sombre dans le cytoplasme environnant. Le contraste est excellent, néanmoins cette technique ne peut être utilisée avec les objets épais. Bien souvent, un halo se forme autour des petits objets qui peut noyer des détails.
+Le système consiste en un anneau circulaire dans le condenseur qui produit un cône de lumière. Ce cône est superposé à un anneau de taille similaire dans l'objectif. Chaque objectif a un anneau de taille différente, aussi il est nécessaire d'adapter le condenseur à chaque changement d'objectif. L'anneau dans l'objectif a des propriétés optiques spéciales : il réduit l'intensité de la lumière directe et, ce qui est plus important, il crée une différence de phase artificielle d'un quart de longueur d'onde qui crée des interférences avec la lumière diffusée, et qui crée le contraste de l'image.
+Microscope à contraste interférentiel[modifier | modifier le code]
+Article détaillé : Microscope à contraste interférentiel.
+Le contraste interférentiel (CI, IC pour les anglophones) est une technique qui permet de visualiser des objets transparents par une augmentation de leur contraste. C'est actuellement le CI selon Nomarski, inventé dans les années 1950 qui est le plus répandu. Cette technique apporte un plus important par rapport au contraste de phase en supprimant le phénomène de halo propre à ce dernier. Elle s'est imposée en microscopie dans de nombreux domaines actuellement.
+Microscope confocal[modifier | modifier le code]
+Article détaillé : Microscope confocal.
+Le microscope confocal génère une image d'une manière totalement différente de la microscopie normale en champ clair. La résolution est légèrement meilleure, mais le point le plus important est qu'il permet de former une image de coupes transversales sans être perturbé par la lumière hors du plan focal. Il donne donc une image très nette des objets en trois dimensions. Le microscope confocal est souvent utilisé en conjonction avec la microscopie à fluorescence.
+Microscope à statif inversé[modifier | modifier le code]
+Article détaillé : Microscope à statif inversé.
+Préparation des échantillons[modifier | modifier le code]
+L'échantillon observé doit remplir certaines conditions :
+de planéité, pour que l'objectif en donne une image entière nette, faute de quoi on ne peut en observer qu'une portion restreinte
+en transmission, il doit être de faible épaisseur pour que la lumière le traverse et ne rende visible que quelques éléments (cellules) dans le cas de la biologie ;
+en réflexion, la surface doit être en général polie afin que les rayures ne masquent pas ce que l'on veut observer ;
+les parties à observer doivent pouvoir se différencier :
+différenciation de couleurs par la coloration chimique de solutions standardisées, pour la biologie ;
+attaque chimiques par des acides pour révéler des défauts en métallurgie ;
+d'autres différenciations par l'éclairage en lumière polarisée, en ultra-violet (fluorescence), ou par principe interférentiel, révélant d'autres aspect, invisibles à l'œil nu.
+En biologie, il est nécessaire, au préalable, de placer la coupe de tissu (ou le liquide contenant des organismes vivants) entre une lame et une lamelle. L'objectif doit s'approcher de la lame pour la mise au point sans, par maladresse, détruire la préparation devenue très fragile.
+Du fait de la préparation, la microscopie optique nécessite une importante quantité d'appareils complémentaires pour la seule destination de l'observation microscopique.
+Prenons le cas de la biopsie en médecine et biologie (anatomopathologie) : le diagnostic par microscopie, de pièces biologiques prélévées par biopsie pendant une opération, impose des délais courts. Pour préparer la lame, on utilise un appareil appelé cryotome, une sorte de « trancheuse à jambon », placée dans un cryostat (congélateur), qui permet de découper des tranches très fines du corps qui sera à observer en le refroidissant rapidement, puis en le découpant à l'aide de la lame d'un rasoir spécial, affûté sur une autre machine à plaque de verre à l'aide de pâtes diamantées. Si l'on veut travailler à température ambiante, les délais sont plus longs et imposent des déshydratations et remplacement des eaux supprimées par de la paraffine (24 heures) pour que l'échantillon garde sa rigidité ; ensuite, il est coloré par plusieurs substances d'actions alternées de durée très longues, elles aussi.

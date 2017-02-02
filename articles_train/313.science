@@ -1,0 +1,184 @@
+Torseur — Wikipédia
+Torseur
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Ne doit pas être confondu avec tenseur.
+Un torseur est un outil mathématique utilisé principalement en mécanique du solide indéformable, pour décrire les mouvements des solides et les actions mécaniques qu'ils subissent de la part d'un environnement extérieur.
+Sommaire
+1 Approche par la mécanique
+2 Définition
+3 Propriétés
+3.1 Endomorphisme antisymétrique
+3.2 Équiprojectivité
+3.3 Résultante et réduction
+3.4 Axe d'un torseur
+3.5 Vecteurs vrais et pseudovecteurs
+4 Torseurs particuliers
+5 Opérations sur les torseurs
+6 Torseurs couramment utilisés en mécanique
+6.1 Torseur statique
+6.2 Torseur cinématique
+6.3 Torseur cinétique
+6.4 Torseur dynamique
+7 Exemple d'utilisation
+7.1 Puissance générale
+8 Autre acception
+9 Notes et références
+10 Voir aussi
+10.1 Bibliographie
+10.2 Liens externes
+Approche par la mécanique[modifier | modifier le code]
+Un certain nombre de vecteurs utilisés en mécanique sont des moments : moment d'une force, moment cinétique, moment dynamique. Ces champs vectoriels possèdent donc des propriétés communes, et peuvent donc être modélisés par un même objet mathématique appelé « torseur ».
+Si l'on s'intéresse au modèle du solide indéformable, le fait que la distance entre deux points ne varie pas fait que le champ des vitesses d'un tel solide est également un torseur.
+Parmi ces propriétés communes, les torseurs peuvent être décrits par seulement trois paramètres, un point et deux vecteurs, appelés « éléments de réduction ». Cela permet de « résumer » tout un champ vectoriel par trois paramètres vectoriels, ou, si l'on considère les trois composantes des vecteurs, par neuf paramètres scalaires.
+D'un point de vue pratique, le torseur peut donc être vu comme un formalisme, une manière de décrire un champ vectoriel. Ce formalisme fournit des outils simplifiant la résolution de problèmes, en particulier si l'on utilise le modèle des liaisons cinématiques parfaites.
+Définition[modifier | modifier le code]
+Définition
+Un torseur
+est un champ de vecteurs équiprojectif défini sur un espace affine euclidien ℰ de dimension 3.
+Rappelons qu'un espace affine ℰ est un ensemble non vide construit sur un espace vectoriel E, qui est lui aussi de dimension 3. En mécanique, l'espace affine ℰ est l'espace réel.
+Vocabulaire
+Soit un point P de ℰ. La valeur
+que prend le champ en ce point est appelée « moment du torseur
+au point P ».
+Notation
+En mécanique, on note en général .
+Applications
+En mécanique, ℰ est l'espace réel. Le torseur
+peut être le champ des moments d'une force, des moments cinétiques ou dynamiques d'un solide quelconque, ou bien le champ des vecteurs vitesse d'un solide indéformable
+Propriétés[modifier | modifier le code]
+Endomorphisme antisymétrique[modifier | modifier le code]
+Le torseur
+est donc une application de ℰ dans E.
+est une application affine dont la partie linéaire est un endomorphisme antisymétrique de E[1].
+Équiprojectivité[modifier | modifier le code]
+Par définition, un torseur est un champ équiprojectif. Il possède donc évidemment la propriété d'équiprojectivité :
+où ⋅ désigne le produit scalaire. En utilisant la notation de mécanique, cela donne :
+L'équiprojectivité du champ des vitesses d'un solide indéformable est la propriété fondamentale décrivant le comportement cinématique de ces corps.
+Cette relation est appelée aussi loi de transfert des moments puisqu'on obtient le moment du torseur au point P en utilisant celui en O tant que O et P appartiennent au même solide indéformable.
+Résultante et réduction[modifier | modifier le code]
+Relation de Varignon (règle de transport des moments) (Ram 1987, p. 280) — Soit
+un torseur sur ℰ. Il existe un unique vecteur
+vérifiant :
+On dit que
+est la « résultante » (ou « le vecteur ») de .
+Réciproque : si
+est une application de ℰ dans E et qu'il existe un point A ∈ ℰ et un vecteur
+vérifiant :
+alors
+est un torseur sur ℰ et
+en est la résultante.
+Un moyen mnémotechnique de la retenir est la dénomination « formule de BABAR » :
+.
+Un torseur est donc déterminé par deux vecteurs, constituant sa « réduction » en un point quelconque P de l'espace, à savoir :
+La résultante  ; ce vecteur est unique et indépendant du point de réduction ;
+le moment en P du torseur, .
+La résultante est un vecteur caractéristique du champ qui permet, à partir du moment en un point particulier, de retrouver les autres moments. De ce fait, les torseurs forment parmi les champs de vecteurs un sous-espace de dimension 6[1].
+On écrit alors :
+ou, en projetant la résultante et le moment sur une base orthonormée  :
+où X, Y, Z sont les coordonnées de la résultante et L, M, N les coordonnées du moment. Ces coordonnées sont appelées « coordonnées plückeriennes », du mathématicien allemand Julius Plücker.
+Axe d'un torseur[modifier | modifier le code]
+Considérons un torseur de résultante
+non nulle. Alors on montre que les points P tels que
+soit colinéaire à
+forment une droite appelée axe central d'un torseur. Cet axe central existe et est unique pour tout torseur, sauf dans le cas particulier du couple et du torseur nul, où la résultante est nulle. Dans le cas d'un glisseur, les moments sur l'axe central sont nuls.
+Pour le torseur cinématique d'un solide (dont les moments sont les vitesses des points du solide), la résultante est le vecteur instantané de rotation. Le mouvement du solide est en général la superposition d'un mouvement de rotation et d'un mouvement de translation parallèlement à l'axe de rotation instantané (vissage). Les points du solide en translation sont précisément les points de l'axe central du torseur cinématique.
+Vecteurs vrais et pseudovecteurs[modifier | modifier le code]
+Article détaillé : Pseudovecteur.
+Le champ vectoriel (le champ des moments) et la résultante sont liés par un produit vectoriel. Les vecteurs de déplacement — de type
+avec (A, B) ∈ ℰ2 — étant toujours des vecteurs vrais, alors :
+si les moments sont des vecteurs vrais, la résultante est un pseudovecteur, et vice versa (cas du torseur cinématique) ;
+si les moments sont des pseudovecteurs, la résultante est un vecteur vrai, et vice versa (cas des torseurs statique, cinétique et dynamique).
+Torseurs particuliers[modifier | modifier le code]
+Le champ de vecteurs nuls s'appelle le torseur nul. Il est noté {0} (à ne pas confondre avec le singleton zéro).
+Un couple est un champ vectoriel uniforme, donc représenté par un torseur dont la résultante est nulle.
+Un glisseur est un torseur dont le champ des moments s'annule en au moins un point.
+.
+Dans ce cas, en un autre point quelconque O il vient, du fait de la relation de transport des moments:
+,
+aussi le point A apparaît comme le "point d'application" de la résultante: ce concept est couramment utilisé pour les forces en physique (e.g. le poids). Il est cependant évident que si
+est colinéaire à , , donc pour un glisseur tous les points situés sur la droite portant la résultante ont un moment nul. Il est possible de faire "glisser" le point d'application de , d'où le nom.
+Exemple: si le champ de pesanteur est supposé uniforme le torseur des actions lié au poids d'un corps est un glisseur. En effet dans ce cas la résultante s'écrit: , la sommation portant sur l'ensemble des points
+du corps. Il est alors facile de voir que le moment du poids en un point O quelconque s'écrit , m étant la masse totale du corps et G le centre de masse de celui-ci. Il est évident que le moment est nul en G, qui est donc le point d'application du poids, et il sera nul en tout point de la droite d'action du poids: le torseur correspondant se réduira donc à un glisseur. En revanche si le champ de pesanteur
+ne peut plus être considéré comme uniforme, par exemple si les dimensions du corps considérés sont assez grandes, il n'y a aucune raison que le moment ne s'annule en un point et que le torseur correspondant se réduise à un glisseur.
+Opérations sur les torseurs[modifier | modifier le code]
+Un torseur étant un champ de vecteurs, on peut définir toutes les opérations sur les champs de vecteurs. La seule opération véritablement utilisée est la somme de deux torseurs.
+Notons que la réduction d'une somme de torseurs en un point est la somme des réductions des torseurs en ce point :
+soient un torseur
+de résultante
+dont le moment au point A est , et un torseur
+de résultante
+dont le moment au point A est .
+Alors,
+est le torseur de résultante
+dont le moment en A est .
+Démonstration
+Concernant le moment, cela vient tout simplement de la notion de somme de champs vectoriels : cela consiste à additionner les vecteurs au même point de ℰ :
+soit, avec la notation des moments :
+Concernant la résultante, cela vient de la distributivité du produit vectoriel sur l'addition :
+donc
+est bien la résultante de .
+Torseurs couramment utilisés en mécanique[modifier | modifier le code]
+Torseur statique[modifier | modifier le code]
+Article détaillé : Torseur statique.
+Le champ des moments d'une force par rapport à un point est un torseur, dit torseur des actions mécaniques ou torseur statique. La résultante du torseur est la force.
+On peut par exemple formuler la principe d'Archimède avec les torseurs : « Le torseur des forces de pression est égal et opposé au torseur des forces de gravité dans le fluide considéré. »
+Torseur cinématique[modifier | modifier le code]
+Article détaillé : Torseur cinématique.
+Le champ des vitesses d'un solide indéformable en un instant donné est un torseur, appelé torseur cinématique du solide. La résultante est le vecteur instantané de rotation.
+Torseur cinétique[modifier | modifier le code]
+Article détaillé : Torseur cinétique.
+Soit A un point affecté d'une masse m et d'une vitesse
+par rapport à un référentiel donné. Si l'on choisit un point P quelconque, on peut définir le moment cinétique de A par rapport à P par :
+.
+Ce champ de vecteurs est un torseur appelé torseur cinétique de A. Sa résultante est la quantité de mouvement de A, ou impulsion, .
+Torseur dynamique[modifier | modifier le code]
+Article détaillé : Torseur dynamique.
+On définit de même le champ de moment dynamique
+où
+est l'accélération de A. Ce champ est un torseur appelé torseur dynamique. Sa résultante est le vecteur quantité d'accélération .
+La notion de moment dynamique permet de généraliser le principe fondamental de la dynamique (PFD) à la mécanique du solide, en prenant en compte la rotation propre du solide. Avec les torseurs, le PFD s'énonce ainsi :
+« il existe un repère galiléen tel qu’à tout instant, le torseur dynamique du solide dans son mouvement par rapport à ce repère est égal au torseur des forces extérieures agissant sur le solide. »
+Exemple d'utilisation[modifier | modifier le code]
+Soit une barre en équilibre, en appui sur l'un de ses points, de poids négligeable, et sollicitée par deux forces
+(en un point A1 de la barre) et
+(en un point A2). Soit O son point d'appui et soit R la force de réaction au point O.
+D'après les lois de Newton, il faut pour que la barre soit en équilibre que la somme des forces et la somme des moments soient nulles. Donc,
+(torseur nul), ce qui équivaut à :
+et à (puisque )
+.
+De façon équivalente, au point A1,
+.
+Puissance générale[modifier | modifier le code]
+De manière générale, tout solide en mouvement et subissant des efforts extérieurs peut être modélisé par 2 torseurs:
+Le torseur cinématique décrivant le mouvement du solide :
+Le torseur des efforts extérieurs ou torseur statique (S: le solide, E: l'extérieur) :
+Puissance extérieure ()
+Soit un ensemble de solides (notés
+avec i un indice) qui constitue ce que l'on appelle un système (noté ). La puissance extérieure est la puissance de tous les efforts extérieurs qui s'appliquent sur le système. On se place par rapport au référentiel
+qui est le référentiel de base c'est-à-dire le référentiel du laboratoire, considéré comme galiléen.
+Pour calculer la puissance extérieure instantanée du système en mouvement subissant des efforts extérieurs, on calcule le comoment () des 2 torseurs :
+Ce qui donne en fait la formule suivante :
+Puissance intérieure ()
+Les puissances intérieures () d'un système sont les puissances entre les divers solides. Il faut utiliser la même méthode de calcul c'est-à-dire effectuer un comoment des 2 torseurs. Seulement il faut faire très attention aux torseurs à utiliser. En effet, ce comoment s'effectue entre le torseur des efforts d'un solide sur un autre et le torseur distributeur des vitesses du solide en question par rapport à l'autre solide ! .
+Ce qui donne :
+Remarques :
+C'est la formule générale. Si on considère un solide en translation ou si on considère un solide en rotation subissant un couple, on retombe sur les formules déjà précédemment énoncées.
+La puissance instantanée calculée de cette manière ne dépend pas du point A du solide mais le comoment doit être calculé avec les 2 torseurs exprimés au même point
+L'expression de ces 2 types de puissances nous amène au théorème de l'énergie cinétique :
+Démontrons que la puissance ne dépend pas du point du solide :
+Formules de changement de point (la vitesse et le moment sont des vecteurs qui s'expriment en un point) :
+La puissance exprimée au point A est :
+On utilise la formule de changement de point :
+Puis on développe :
+Or on sait que :
+(permutation circulaire).
+Donc le terme :
+est en fait nul.
+Finalement on tombe donc sur :
+Autrement dit, pour tout point A et B du solide, on a l'égalité vectorielle suivante :
+Conclusion : on a donc bien démontré que la puissance ne dépend pas du point choisi.
+Autre acception[modifier | modifier le code]
+Soit G un groupe. Un G-torseur (traduction littérale de l'anglais G-torsor) désigne un ensemble sur lequel G agit de façon transitive (une seule orbite) et sans fixer aucun point. Cela équivaut à « oublier lequel des éléments de G est l'unité ». Un G-torseur et le groupe G associé sont donc le même ensemble, mais muni de structures différentes.
+L'espace affine en est un exemple pour le groupe des translations spatiales: additionner deux points n'a aucun sens, leur différence par contre est un élément du groupe additif des translations, c'est-à-dire un vecteur. De même, les notes de la gamme dodécaphonique (avec identification des octaves) forment un G-torseur pour le groupe additif Z_12 des entiers mod. 12, les jours de la semaine pour le groupe Z_7, etc. La droite réelle et le groupe additif des réels sont un autre exemple: l'énergie d'un système physique n'est définie que modulo une constante arbitraire, mais les variations d'énergie sont des éléments du groupe R.
+La fibre d'un fibré principal est un G-torseur.

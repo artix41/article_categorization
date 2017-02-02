@@ -1,0 +1,261 @@
+Matériau composite — Wikipédia
+Matériau composite
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Composite.
+Exemple de matériau composite.
+Un matériau composite est un assemblage d'au moins deux composants non miscibles (mais ayant une forte capacité de pénétration) dont les propriétés se complètent. Le nouveau matériau ainsi constitué, hétérogène, possède des propriétés que les composants seuls ne possèdent pas.
+Ce phénomène, qui permet d'améliorer la qualité de la matière face à une certaine utilisation (légèreté, rigidité à un effort, etc.) explique l'utilisation croissante des matériaux composites dans différents secteurs industriels. Néanmoins, la description fine des composites reste complexe du point de vue mécanique de par la non-homogénéité du matériau.
+Un matériau composite se compose comme suit : matrice + renfort + optionnellement : charge et/ou additif. Exemples : le béton armé = composite béton + armature en acier, ou le composite fibre de verre + résine polyester.
+Sommaire
+1 Approche industrielle
+1.1 Préhistoire
+1.2 Principaux composites
+1.3 Renforts
+1.4 Matrices
+1.5 Mise en forme
+1.6 Environnement
+2 Description mécanique
+2.1 Formalisation
+2.2 Résolution
+3 Références
+4 Voir aussi
+4.1 Bibliographie
+4.2 Articles connexes
+4.3 Liens externes
+Approche industrielle[modifier | modifier le code]
+Un matériau composite est constitué d'une ossature appelée renfort (qui est généralement des fibres) qui assure la tenue mécanique et d'un liant appelé matrice qui est la plupart du temps une matière plastique (résine thermoplastique ou thermodurcissable) et qui assure la cohésion de la structure et la transmission des efforts vers le renfort. Il existe aujourd'hui un grand nombre de matériaux composites que l'on classe généralement en trois familles en fonction de la nature de la matrice :
+les composites à matrices organiques (CMO) qui constituent, de loin, les volumes les plus importants aujourd'hui à l'échelle industrielle ;
+les composites à matrices céramiques (CMC) réservés aux applications de très haute technicité et travaillant à haute température comme le spatial, le nucléaire et le militaire, ainsi que le freinage (freins céramique) ;
+les composites à matrices métalliques (CMM) pour quelques applications spécialisées.
+Les composites trouvent leurs principales applications dans les transports aérien (civil et militaire), maritime et ferroviaire, le bâtiment, l'aérospatial ainsi que les sports et loisirs, notamment grâce à leur bonne tenue mécanique, comparable aux matériaux homogènes comme l'acier, et à leur faible masse volumique.
+Préhistoire[modifier | modifier le code]
+Le bois fut le premier matériau composite naturel utilisé. Plus tard, le torchis a été utilisé en construction pour ses propriétés d'isolation et son faible coût. Parmi les premiers composites fabriqués par l'Homme, on trouve également les arcs mongols (2 000 ans av. J.-C.) ; leur âme en bois était contrecollée de tendon au dos et de corne sur sa face interne.
+1823 : Charles Macintosh crée l'imperméable avec du caoutchouc sur des tissus comme le coton.
+1892 : François Hennebique dépose le brevet du béton armé (le composite utilisé en construction) avec le béton qui forme la matrice et l'acier qui forme le renfort.
+Principaux composites[modifier | modifier le code]
+Quelques exemples de matériaux composites :
+les composites naturels :
+le bois est un composite à base d'une matrice en lignine et de renforts en fibre de cellulose,
+l'os est un composite à base d'une matrice en collagène et de renforts en apatite,
+la dent ;
+les composites artificiels :
+les matériaux rigides communément appelés « fibre de verre » et « fibre de carbone » sont des composites respectivement de fibres de verre et fibres de carbone et de diverses résines rigides (notamment époxyde),
+le Micarta est un composite de fibres (initialement coton ou papier) imprégnées à haute pression avec des résines phénoliques durcissantes telles que la Bakélite,
+les panneaux de bois agglomérés comme le contreplaqué utilisé en menuiserie, construction, ébénisterie,
+les cloisons de plaques de plâtre, très utilisées dans le bâtiment hors intempéries,
+le béton armé en génie civil est un composite de béton et d'acier,
+le GLARE, composé principalement d'aluminium et de fibre de verre, est utilisé en aéronautique,
+l'acier damassé était un composé de plusieurs feuilles d'acier de nuances différentes ;
+le composite dentaire ;
+l'amalgare composite pouvant remplacer une dent.
+Renforts[modifier | modifier le code]
+Fibre de carbone tissée.
+Le renfort est l'armature reprenant l'essentiel des efforts mécaniques. Les renforts peuvent être classés selon :
+leur composition : métal, verre, polymère, etc. ;
+leur forme :
+fibres : courtes (0,1 - 1 mm), longues (1 - 50 mm) ou continues (> 50 mm). Les fibres continues peuvent être disposées :
+parallèlement les unes par rapport aux autres : renforcement unidirectionnel,
+selon un angle prédéfini (45° par exemple les unes par rapport aux autres) : renforcement multidirectionnel,
+d'une façon aléatoire ;
+charges renforçantes : gravier (additionné au ciment pour fabriquer le béton), sable, billes de verre, etc. ;
+leur disposition : mat ou tissé.
+Le renfort peut être seul au sein d'une matrice (composite homogène) ou associé à un renfort de nature différente (composite hybride).
+Les fibres possèdent généralement une bonne résistance à la traction mais une résistance faible à la compression.
+Parmi les fibres les plus employées on peut citer :
+les fibres de verre qui sont utilisées dans le bâtiment, le nautisme et diverses applications structurelles peu chargées. Le coût de production de ces fibres est peu élevé ce qui en fait l'une des fibres les plus utilisées à l'heure actuelle ;
+les fibres de carbone utilisées pour des applications structurelles visant à obtenir une plus grande légèreté et une meilleure rigidité qu'avec la fibre de verre . Elles sont obtenues par la pyrolyse d'un précurseur organique ou non sous atmosphère contrôlée. Le plus utilisé de ces précurseurs est le polyacrylonitrile (PAN). Le prix de ces fibres reste relativement élevé mais il n'a cessé de diminuer avec l'augmentation des volumes de production. On les retrouve dans de nombreuses applications dans l'aéronautique, le spatial ainsi que les sports et loisirs de compétitions (Formule 1, mâts de bateaux) ;
+les fibres d'aramide (ou Kevlar qui est une dénomination commerciale) utilisées dans les protections balistiques comme les gilets pare-balles ainsi que dans les réservoirs souples de carburant en Formule 1 ;
+les fibres de carbure de silicium sont une bonne réponse à l'oxydation du carbone dès 500 °C. Elles sont utilisées dans des applications très spécifiques travaillant à haute température et sous atmosphère oxydante (spatial et nucléaire). Leur coût de production est très élevé ce qui limite donc leur utilisation ;
+pour les composites d'entrée de gamme, un intérêt croissant est porté aux fibres végétales, comme le chanvre ou le lin (lin textile). Ces fibres ont de bonnes propriétés mécaniques pour un prix modeste, et sont particulièrement écologiques. On rencontre aussi des fibres de polyester, telles que le Textilène.
+Matrices[modifier | modifier le code]
+La matrice a pour principal but de transmettre les efforts mécaniques au renfort. Elle assure aussi la protection du renfort vis-à-vis des diverses conditions environnementales. Elle permet en outre de donner la forme voulue au produit réalisé.
+Dans le cas des CMO (composites à matrices organiques) les principales matrices utilisées sont :
+thermodurcissables :
+les résines polyesters insaturés (UP) peu onéreuses qui sont généralement utilisées avec les fibres de verre et que l'on retrouve dans de nombreuses applications de la vie courante,
+les résines époxyde (EP) qui possèdent de bonnes caractéristiques mécaniques. Elles sont généralement utilisées avec les fibres de carbone pour la réalisation de pièces de structure performantes (véhicules et voiliers de compétition, aéronautique),
+les résines vinylester sont surtout utilisées pour des applications où les résines polyester ne sont pas suffisantes. Elles sont issues d'une modification d'une résine époxyde et excellentes pour des applications de résistance chimique,
+les résines phénoliques (PF) utilisées dans les applications nécessitant des propriétés de tenue aux feux et flammes imposées par les normes dans les transports civils,
+les résines polyimides thermodurcissables (PIRP) pour des applications à haute température (~300 °C) et polybismaléimides (BMI) pour des applications à température intermédiaire (~225 °C) ;
+thermoplastiques, comme le polypropylène, le polyamide, le polyétherimide (PEI), le poly(sulfure de phénylène) (PPS) et la poly(éther-éther-cétone de phénylène) (PEEK) pour la réalisation de pièces de structure et d'aéronautique.
+Dans le cas des CMC (composites à matrices céramiques), la matrice peut être constituée de carbone ou de carbure de silicium. Ces matrices sont déposées soit par dépôt chimique en phase vapeur (CVD) par densification d'une préforme fibreuse, soit à partir de résines cokéifiables comme les résines phénoliques (dans le cas des matrices de carbone).
+Dans le cas des CMM (composites à matrice métallique) le matériau composite est constitué :
+d'une matrice métallique (ex. : aluminium, magnésium, zinc, nickel) ;
+d'un renfort métallique ou céramique (ex. : fils d'acier, particules de SiC, carbone, alumine, poudre de diamant).
+Des charges (minérales, organiques ou métalliques) et additifs sont presque toujours incorporés à la matrice.
+Mise en forme[modifier | modifier le code]
+La mise en forme des matériaux composites peut avoir lieu par des procédés manuels ou mécanisés. Dans l'ensemble, les outils nécessaires aux procédés mécanisés s'amortissent en produisant en moyenne et grande série ; c'est pourquoi les procédés manuels sont plus adaptés à la petite série du point de vue économique.
+Parmi les procédés manuels, on distingue :
+la projection simultanée à l'aide d'un pistolet qui dose la proportion fibre/matrice ;
+le drapage de préimprégnés (catalyse à haute température, souvent sous vide) ;
+le moulage au contact ;
+le moulage sous vide ;
+l'infusion.
+Les procédés mécanisés sont :
+compression des préimprégnés :
+SMC (Sheet Molding Compound),
+BMC (Bulk Molding Compound) ;
+injection :
+des thermoplastiques renforcés : moulage par injection,
+des thermodurcissables renforcés :
+RTM (Resin transfer Molding) (voir aussi RTM light),
+R.RIM (Reinforced Reaction Injection Molding) : l'équivalent de la RIM (Reaction Injection Molding) pour les matériaux composites ;
+imprégnation en continu ;
+pultrusion : l'équivalent de l'extrusion pour les matériaux composites ;
+pull-winding ;
+estampage des TRE (Thermoplastiques renforcés estampables) ;
+enroulement filamentaire.
+Environnement[modifier | modifier le code]
+La plupart des composites sont à base de polymères thermodurcissables, ce qui les rend difficilement recyclables. Cette contrainte va donc à l'encontre du développement durable. On peut aussi voir de nouvelles recherches axées sur les biocomposites notamment avec des fibres issues de plantes. Les biocomposites sont des matériaux formés par une matrice (résine) et un renfort de fibres naturelles provenant usuellement des plantes ou de la cellulose (fibre de bois, chanvre, etc.). De plus, ils contribuent au respect de l'environnement car ils sont biodégradables, utilisés dans l'ingénierie des tissus, des applications cosmétiques et de l'orthodontie. Ces biocomposites ne sont pas encore prêts à être mis sur le marché pour des secteurs de pointe. L'industrie française s'intéresse grandement à ce type de matériau[1].
+Un composite n'est entièrement biodégradable que si la matrice utilisée, en plus de fibres naturelles, l'est elle-même (ex. : PLA, acide polylactique). Dans le cas où on emploie une résine de type « classique » (polyester, époxyde, etc.), l'intérêt d'utiliser des fibres naturelles comme renfort sera le caractère renouvelable de celles-ci, mais on ne pourra pas parler de composite biodégradable. Les matériaux composites ont un impact sur l'environnement.
+Description mécanique[modifier | modifier le code]
+Formalisation[modifier | modifier le code]
+Le comportement d'un matériau composite se décrit de la façon suivante, en utilisant le formalisme euclidien de la mécanique des milieux continus :
+on a
+matériaux différents qui forment le composite (on parle de « phases », caractérisées par leur fraction volumique et leur géométrie) ;
+à l'intérieur de chaque phase, le matériau peut se déformer et subir des contraintes. La déformation se fait selon la loi de comportement du matériau en question (que l'on connaît) :
+pour le cas élastique linéaire ;
+il y a équilibre des forces volumiques, soit, dans chaque matériau i :
+si l'on néglige la force de pesanteur devant les forces appliquées au matériau (pression, traction, cisaillement) ;
+enfin, l'agrégation des comportements de chaque matériau simple, pour aboutir au comportement du composite, nécessite de décrire l'équilibre des forces entre deux matériaux « collés », en chaque point de leur surface de contact. Cette condition est que la force exercée par le matériau 1 sur le matériau 2 à la surface de contact ( si
+désigne le vecteur unitaire perpendiculaire à la surface) doit être opposée à celle exercée par le matériau 2 sur le matériau 1. Ceci implique une certaine continuité du champ de contraintes  : on doit avoir (en chaque point des surfaces de contacts des matériaux mélangés dans le composite) . C'est par cette condition qu'intervient la microgéométrie du mélange dans la détermination du comportement du composite. Ainsi, en mélangeant des matériaux isotropes selon une géométrie non isotrope (fibres, feuilles, etc.), on obtient un composite non isotrope mais dont les propriétés mécaniques sont issues des celles des matériaux initiaux ;
+ainsi, le matériau composite est décrit en chacun de ses points. La loi de comportement du composite qui en résulte doit pouvoir faire le lien entre les déformations macroscopiques et les contraintes macroscopiques (c'est-à-dire leurs valeurs moyennes, car par exemple si l'on mélange un matériau mou et un dur, les déformations microscopiques seront très variables selon le matériau, et c'est la déformation globale que l'on observera à l'échelle du composite). Cette loi de comportement du composite est dite « effective » : on note
+dans le cas linéaire.
+Résolution[modifier | modifier le code]
+Le problème précédent ne se résout pas simplement, sauf dans le cas de géométries très simples (inclusions sphériques, fibres, feuilles empilées, ou de manière générale dans le cas d'inclusions de forme ellipsoïdale).
+Des recherches visent à décrire le comportement du composite sans forcément en connaître la géométrie exacte, en essayant de borner l'énergie de déformation du composite (l'énergie de déformation d'un matériau est ). On peut ainsi citer les bornes de :
+Voigt et Reuss : .
+Les cas extrêmes de ces inégalités sont atteignables par des géométries de couches empilées. D'ailleurs, on retrouve ici un résultat constant de la physique : la résistance électrique d'un assemblage de résistances est la somme des résistances lorsqu'elles sont en série, ou est l'inverse de la somme des inverses quand elles sont en parallèle (résultat similaire également avec un assemblage de ressorts). La différence est qu'ici la loi de comportement n'est pas décrite par un scalaire (comme c'est le cas pour une résistance électrique ou une raideur de ressort), mais par une grandeur multidimensionnelle (le tenseur
+d'ordre 4).
+N. B. : ici
+désigne la moyenne de
+sur tout le volume du composite ; et l'inégalité entre tenseurs
+s'entend au sens où pour tout tenseur
+on a  ;
+Hashin et Shtrikman : bornes plus précises, dans le cas isotrope.
+La mécanique des composites est encore un domaine de recherche théorique active : comportement mécanique ou électrique, linéaire, non linéaire, viscoélastique, avec fissures ou plasticité, flambage, etc.
+Une limite de cette modélisation est que l'on ne peut pas connaître de manière précise la microgéométrie d'un composite réel : il y a toujours des défauts ; mais la modélisation permet de décrire de manière assez précise la loi de comportement.
+Un autre intérêt de cette recherche théorique entre la géométrie d'un composite et sa loi de comportement est le mode de réalisation d'un matériau dont les caractéristiques mécaniques ont été obtenues par une optimisation informatique.
+Références[modifier | modifier le code]
+↑ Dossier Matériau composite sur les archives du site de la Direction générale de la compétitivité, de l'industrie et des services (Dgcis)
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Matériau composite, sur Wikimedia Commons
+Bibliographie[modifier | modifier le code]
+Ashby et Jones, Matériaux, t. 2, Microstructure et mise en œuvre, chap. 25, Dunod, 1991
+Traité des Matériaux, PPUR
+vol. 1 : Introduction à la Science des Matériaux, 3e éd., chap. 16 (ISBN 2-88074-402-4)
+vol. 15 : Matériaux Composites à Matrices Organiques (ISBN 2-88074-528-4)
+Dorlot, Baïlon, Masounave, Des Matériaux, chap. 14, Éd. de l'École Polytechnique de Montréal, 1986
+G. Aliprandi, Matériaux réfractaires et céramiques techniques, chap. 25, Éd. Septima, 1989
+Maurice Reyne, Technologie des composites, Hermes, 1995 (ISBN 2-86601-455-3)
+Daniel Gay, Matériaux composites, 5e éd., Hermes Science Publications, 2005 (ISBN 978-2746210981)
+Articles connexes[modifier | modifier le code]
+Composite à matrice céramique
+Matériau
+Matière plastique
+Mousse syntactique
+Plastique à renfort fibre de carbone
+Délaminage
+JEC
+Liens externes[modifier | modifier le code]
+Généralités sur les matériaux composites
+Syndicat de la Plasturgie et des Composites Plastalliance
+Portail de la physique
+Portail de la chimie
+Portail des sciences des matériaux
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Matériau_composite&oldid=109681549 ».
+Catégories : Science des matériauxPolymèreMatériau compositeCatégories cachées : Catégorie Commons avec lien local identique sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liésPortail:Matériaux/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Català
+Čeština
+Cymraeg
+Dansk
+Deutsch
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+עברית
+हिन्दी
+Kreyòl ayisyen
+Magyar
+Bahasa Indonesia
+Italiano
+日本語
+ქართული
+한국어
+Latviešu
+Македонски
+Bahasa Melayu
+Nederlands
+Norsk bokmål
+Polski
+Piemontèis
+Português
+Română
+Русский
+Scots
+සිංහල
+Simple English
+Slovenščina
+Svenska
+தமிழ்
+తెలుగు
+ไทย
+Türkçe
+ئۇيغۇرچە / Uyghurche
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 4 décembre 2014 à 21:28.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

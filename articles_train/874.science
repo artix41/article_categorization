@@ -1,0 +1,49 @@
+Rotaxane — Wikipédia
+Rotaxane
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Representation graphique d'un rotaxane.
+Structure cristaline d'un rotaxane avec un cyclobis(paraquat-p-phénylène) macrocycle[1].
+Un rotaxane est une molécule constituée d'un macrocycle lié mécaniquement à un fragment moléculaire linéaire qui le traverse de part en part. Le nom est dérivé du latin rota signifiant roue et du mot axe. Les deux constituants d'un rotaxane sont cinétiquement piégés par des "bouchons" aux extrémités de l'axe, plus gros que le diamètre interne du cycle. Ainsi les deux composants du rotaxane ne peuvent se dissocier sans rupture d'une liaison covalente, car cette dissociation nécessiterait de trop grandes distorsions des liaisons du cycle.
+Une grande partie de la recherche concernant les rotaxanes et d'autres architectures moléculaires mécaniquement imbriquées, comme les caténanes, s'est concentrée sur l'efficacité de leur synthèse et leurs utilisations comme composants de machines moléculaires complexes.
+Des molécules bioactives naturelles dotées d'une architecture de type rotaxane ont été découvertes, comme l'ATP synthase[2], les peptides à nœud de cystine, les cyclotides et les peptides-lasso.
+Sommaire
+1 Synthèse
+1.1 End-capping
+1.2 Clipage (clipping)
+1.3 Enfilement (slipping)
+1.4 Méthode de la reconnaissance active (active template)
+2 Utilisations potentielles
+2.1 Machines moléculaires
+2.2 Colorants ultrastables
+2.3 Nanoenregistrement
+3 Nomenclature
+4 Notes et références
+5 Voir aussi
+5.1 Articles connexes
+5.2 Liens externes
+Synthèse[modifier | modifier le code]
+La première synthèse publiée d'un rotaxane en 1967 reposait sur la très faible probabilité statistique pour une molécule linéaire de se trouver à travers un macrocycle pour lequel il n'a aucune affinité, cette supramolécule pouvant être piégée par formation de liaisons covalentes avec des molécules à fort encombrement stérique[3]. Pour obtenir une quantité raisonnable de rotaxane, le macrocycle est lié à un support solide de façon à pouvoir répéter la réaction 70 fois, puis séparé du support avec un rendement de 6 %. La synthèse des rotaxanes a cependant bien avancé depuis lors et des rendements excellents peuvent être obtenus en préorganisant les composants à l'aide de liaisons hydrogène, de métaux de coordination, d'effet hydrophobique, de liaisons covalentes ou d'interaction coulombienne. Les trois stratégies les plus classiques sont le « end-capping », le « cliping  » et l'« enfilement à chaud »[4], bien que d'autres existent[5],[6]. Une quatrième méthode en émergence permettant de synthétiser des molécules à architectures mécaniquement imbriquées met en jeu un métal de transition complexé à un macrocycle et qui peut catalyser une réaction à travers la cavité de ce dernier[7].
+End-capping[modifier | modifier le code]
+La synthèse d'un rotaxane peut être effectuée par un mécanisme d'encapage (end-capping), de clipage (clipping), d'enfilement (slipping) ou de reconnaissance active (active template)
+La synthèse par la méthode d'encapage repose fortement sur un effet de reconnaissance thermodynamique : c'est-à-dire que la partie linéaire de l'haltère est maintenue à travers le macrocycle par des interactions non-covalentes. Ce complexe dynamique, également appelé pseudorotaxane, est ensuite converti en rotaxane par réaction entre les bouts de la partie linéaire avec de larges groupements qui empêcheront la dissociation.
+Clipage (clipping)[modifier | modifier le code]
+La méthode de clipage est similaire à la réaction d'encapage, sauf que la partie haltère est déjà complète et reliée à un macrocycle incomplet par des interactions non-covalentes. Le macrocycle subit alors une réaction de cyclisation autour de l'haltère pour former un rotaxane.
+Enfilement (slipping)[modifier | modifier le code]
+La méthode de l'enfilement exploite la stabilité cinétique d'un rotaxane. Si les bouts de l'haltère ont la taille appropriée, il est possible de l'enfiler à travers le macrocycle de manière réversible à haute température. En refroidissant le complexe dynamique, celui-ci devient cinétiquement piégé comme rotaxane à basse température.
+Méthode de la reconnaissance active (active template)[modifier | modifier le code]
+Leigh et al ont récemment commencé à explorer une stratégie dans laquelle les ions servant à préorganiser les composants peut également jouer un rôle actif dans la formation de la dernière liaison covalente qui produit la structure imbriquée.
+Utilisations potentielles[modifier | modifier le code]
+Machines moléculaires[modifier | modifier le code]
+Les machines moléculaires basées sur des rotaxanes ont dès le départ reçu de l'intérêt pour leur utilisation comme composants électroniques moléculaires comme interrupteurs moléculaires et comme navettes moléculaires[8],[9]. Le fonctionnement de ces machines moléculaires est généralement basé sur le mouvement du macrocycle le long de l'haltère. Le macrocycle peut tourner autour de l'axe de l'haltère comme un volant ou il peut glisser sur son axe d'un site à un autre. Le contrôle de la position du macrocycle permet au rotaxane de fonctionner comme un interrupteur moléculaire. Chaque position possible du macrocycle correspond à un état différent de l'interrupteur. Ces machines de rotaxane peuvent être manipulées à la fois par action chimique[10] ou photochimique[11]. Il a également été démontré que des systèmes comportant un rotaxane pouvaient fonctionner comme muscles moléculaires[12],[13]. Enfin, il a été récemment décrit une machine moléculaire de large amplitude du type Glycorotaxane, dans laquelle une des extrémités de la chaîne encapsulée est un mannopyranose. Dans ce cas, il a été observé un effet domino depuis une extrémité de la molécule jusqu'à l'autre. En effet, la déprotonation d'une extrémité anilinium de la molécule entraîne le déplacement du macrocycle autour de l'autre extrémité (station pyridinium liée au motif glucidique) du rotaxane, et entraîne le basculement de la conformation chaise initiale 1C4 du mannopyranose vers la conformation 4C1[14]. Il a également été synthétisé une machine moléculaire glucidique à base de dibenzo-24-couronne-8 contenant trois stations différentes (anilinium, triazolium et pyridinium amide mono- ou disubstituée) : dans ce cas, des états bistables ou d'oscillation continue contrôlée du macrocycle peuvent être obtenus par modification du pH ou de la température. Les paramètres cinétiques et thermodynamiques correspondant au passage du macrocycle d'une station à l'autre ont été déterminés[15]. Une extension à des muscles moléculaires glucidiques analogues a pu mener à des états coconformationnels très différents (depuis un état très contracté avec basculement conformationnel des unités mannose par effet domino, à un état contracté, semi-contracté, étendu et oscillant). Dans ces muscles, en plus des stimuli de type pH et température utilisés pour le contrôle de l'anneau dans les rotaxanes précédemment étudiés, l'état d'oscillation continue de la molécule depuis une coconformation semi-contractée vers une coconformation contractée peut être aussi modifié par la nature du solvant[16]. Enfin, des structures mono-lasso (Chem. Eur. J. 2013)[17] ou double-lasso uniques ont été rapportées en 2012 et 2013 dans les journaux Chemical Science et Organic Letters: ces structures rotamacrocycles en forme de double-lasso peuvent se contracter ou se desserrer en fonction d'un stimulus pH. Un mouvement de "corde à sauter", contrôlable en fonction du pH ou du solvant, a également été observé dans ces molécules[18],[19].
+Lire le média
+Colorants ultrastables[modifier | modifier le code]
+L'utilisation potentielle comme colorant à longue durée de vie utilise la stabilité accrue de la partie intérieure de la molécule en forme d'haltère[20],[21]. Des études avec des rotaxanes comportant une fonction azo et protégés par une cyclodextrine ont permis de vérifier ces caractéristiques. Des colorants plus réactifs (en:squaraine dyes) ont également montré une stabilité accrue en empêchant les attaques nucléophiles de la partie intérieure de la molécule (fonction squaraine)[22]. L'amélioration de la stabilité des colorants de rotaxane est attribuée à l'effet isolant du macrocycle qui est capable de bloquer les interactions avec d'autres molécules.
+Nanoenregistrement[modifier | modifier le code]
+Pour une utilisation comme nanoenregistrement[23], un rotaxane est déposé comme wk:film de Langmuir-Blodgett sur du verre recouvert d'oxyde d'indium-étain. Lorsqu'une tension positive est appliquée à la pointe de la sonde d'un microscope à effet tunnel, les cycles du rotaxane dans la zone de la pointe, se reportent vers une partie différente de l'haltère et la nouvelle conformation obtenue fait ressortir les molécules de la surface de 0,3 nm. Cette différence de hauteur se révèle suffisante pour un pixel de mémoire. Il n'est cependant pas possible pour l'instant d'effacer un tel film de nanoenregistrement.
+Nomenclature[modifier | modifier le code]
+La nomenclature acceptée consiste à désigner le nombre de composants du rotaxane entre crochets comme préfixe[24]. Ainsi, les rotaxanes représentés ci-dessus sont appelés [2]rotaxanes, car ils sont constitués d'un unique haltère et d'un unique macrocycle.
+Les pseudorotaxanes dont l'axe enfilé dans un macrocycle ne comporte pas de groupements "bouchon", répondent à la même nomenclature : on parle de [2]pseudorotaxane pour le système supramoléculaire constitué d'un axe inclus dans un macrocycle.
+[4]rotaxane constitué de 2 haltères et 2 macrocycles éther-couronnes
+[2]pseudorotaxane constitué d'un axe xylylène et d'un macrocycle cucurbiturile
+Cliquez sur une vignette pour l’agrandir

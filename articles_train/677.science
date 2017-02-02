@@ -1,0 +1,129 @@
+Clustered Regularly Interspaced Short Palindromic Repeats — Wikipédia
+Clustered Regularly Interspaced Short Palindromic Repeats
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis CRISPR)
+Aller à :					navigation, 					rechercher
+Diagramme du mécanisme de CRISPR.
+L'acronyme CRISPR ou Clustered Regularly Interspaced Short Palindromic Repeats désigne en génétique une famille de séquence répétées. Cette famille se caractérise par des séries de répétitions directes, courtes (de 21 à 37 paires de bases) et régulièrement espacées par des séquences, généralement uniques, de 20 à 40 paires de bases.
+Sommaire
+1 Première observation et redécouvertes successives
+2 Répartition dans le monde vivant
+3 Structure
+4 Rôles
+5 Gènes cas
+6 L'hypothèse « immunitaire »
+7 Annexes
+7.1 Articles connexes
+7.2 Liens externes
+8 Références
+Première observation et redécouvertes successives[modifier | modifier le code]
+Cette structure répétée a été observée pour la première fois par Yoshizumi Ishino[1] en 1987 chez Escherichia coli. Elle a ensuite été redécrite plusieurs fois sous différents noms :
+LCTR pour Long Clusters of Tandem Repeats. Deux de ces régions sont associées à des LCTR (typique des Archaea) ce qui supporte l’idée que ces LCTR soient impliqués dans le transfert de gènes. (Nelson, 1999).
+SPIDR pour Spacer Interspaced Direct Repeats. (Jansen 2002 OMICS)[2]
+TREP pour Tandem REPeats (Mojica, 1995)
+DVR pour Direct Variable Repeats (Aranaz, 2004)
+SRSR pour Short Regularly Spaced Repeats[3]
+À la suite de l'article de Mojiica de 2000, démontrant que toutes les descriptions précédentes n'étaient que des facettes d'une seule et même entité, Jansen[4] décide en 2002, avec l'accord du groupe de Mojica de clarifier la nomenclature en créant l'acronyme CRISPR. Si la séquence répétée est bien conservée au sein d'un organisme, le nombre d'unités au sein d'un train, le nombre de trains et même la présence de trains sont des quantités hautement variables d'une lignée à une autre (van Embden et al., 2000). De fait, les CRISPR ont été utilisés pour typer des souches bactériennes, une technique appelée spoligotypage (Kamerbeek et al., 1997; Hoe et al., 1999).
+Répartition dans le monde vivant[modifier | modifier le code]
+Ces répétitions se rencontrent dans les lignées archaea et bactéries mais n'ont pour l'instant été observées ni chez les eucaryotes, ni chez les virus. Malgré cette absence, les CRISPR pourraient être la famille de répétition la plus largement répandue dans le monde vivant[3], avec un peu moins de la moitié des organismes séquencés porteurs de ce type de répétitions (Plus de 200 génomes testés, et découverte de CRISPR dans près de 50 % d'entre eux en fin 2005[5]) (Haft, 2005). Cette répartition est différente suivant que l'on regarde les archées (plus de 99 % des organismes testés) ou les bactéries (50 % environ, répartis aussi bien chez les gram+ que les gram-)[6] Certains plasmides d'archées sont porteurs de CRISPR homologues de ceux portés par l'organisme hôte. C'est le cas par exemple de Sulfolobus et du plasmide pNOB8[7]. Certains auteurs ont signalé la présence de CRISPR dans l'ADN mitochondrial (Flamand, 1992), mais ces résultats n'ont pas pu être reproduits.
+Structure[modifier | modifier le code]
+Les premiers éléments sur la façon dont la structure CRISPR elle-même (i.e. la portion constituée de la succession de "direct repeats" et de "spacer") évolue ont été fournis par le travail de Pourcel et al. 2005[8]. Ce travail portant sur les locus CRISPR de Yersinia pestis a montré que l'acquisition de nouveaux spacers était polarisée, alors que la perte d'un ou plusieurs spacers pouvait survenir tout au long du CRISPR. L'acquisition survient de façon adjacente au "leader". Le leader est conservé dans la lignée mais pas entre les lignées (Jansen, 2002, OMICS)[2].
+Rôles[modifier | modifier le code]
+Si la ou les fonctions des CRISPR n'ont pas encore été clairement identifiées, un certain nombre d'hypothèses ont été avancées.
+Implication dans la répartition des copies de génomes au cours de la division (expériences menées sur Haloferax mediterranei) (Mojica et al., 1995). Des similitudes avec certains mécanismes de partition de plasmides suggèrent que les CRISPR sont des analogues des séquences de partitionnement bactériennes. Sans être vital pour la cellule puisque certaines lignées en sont dépourvues[3].
+Rôle de perturbateur chromosomique en permettant des recombinaisons et en parallèle rôle dans le système de restauration chromosomique à la suite d'un réarrangement[3] : il a été montré qu'il y a une relation forte entre les CRISPR et les réarrangements (DeBoy, 2006). Le motif répété faciliterait les recombinaisons.
+Deux de ces régions sont associées à des LCTR (typique des Archaea) ce qui supporte l’idée que ces LCTR soient impliqués dans le transfert de gènes. (Nelson, 1999). Nelson a proposé que les CRISPR soient associés à l'origine de réplication et jouent un rôle dans le processus de réplication du chromosome (il a placé le nucléotide 1 comme étant le premier d'un CRISPR).
+Site de fixation pour la formation de nucléosomes (enroulement de l’ADN autour de protéines similaires a des histones) permettant de protéger l’ADN ou de réguler l’expression génique[9].
+Ces séquences forment des structures secondaires (épingles, Z-DNA et H-DNA) ayant des fonctions de régulation ou de protection[9].
+Gènes cas[modifier | modifier le code]
+Existence de gènes liés (Jansen, 2002) : les gènes cas (cluster associated) sont strictement associés à la présence de CRISPR. Toujours situés à proximité des champs (à moins de 1000 paires de bases, espace souvent occupé par le leader) et rencontrés uniquement dans les génomes porteurs de CRISPR. À ce jour, plus de 45 familles de gènes de ce type ont été décrites. Les 4 premières étant strictement associées. (Haft, 2005). Le plus important de ces gènes est Cas1, présent dans presque tous les complexes Cas/CRISPR. La distribution sporadique des sous-types Cas/CRISPR suggère plusieurs évènements de transferts horizontaux au cours de l'évolution microbienne. Les systèmes CRISPR/Cas peuvent être très étendus (jusqu'à 20 gènes différents) et semblent présenter des schémas différents d'une lignée à l'autre, qui ne se retrouvent que dans un nombre très limité d'espèces. Les gènes Cas repérés chez des organismes hyperthermophiles ont d'abord été vu comme jouant un rôle de réparation de l'ADN (Makarova, 2002).
+L'hypothèse « immunitaire »[modifier | modifier le code]
+Le système CRISPR-Cas (CASS) serait un mécanisme de défense contre les phages et plasmides, fonctionnant d'une manière analogue à celle du système ARNi des eucaryotes. En intégrant des fragments de gènes étrangers au sein de chromosomes archéens ou bactériens, il confère une résistance aux phages et plasmides.
+Il s'agirait donc d'une forme de système immunitaire héritable par transmission aux cellules filles, permettant aux archées et aux bactéries de faire face au changement rapide des phages et des plasmides (Jansen, 2002 ; Mojica, 2005 ; Pourcel, 2005[8]).
+Attention, les systèmes CRISPR-Cas observés chez les bactéries et les archées et le système ARNi observé chez les eucaryotes ne semblent pas dériver d'un ancêtre commun, ils ne sont donc pas homologues.
+Le mécanisme serait le suivant :
+Les CRISPR ne codent pas pour une protéine mais sont transcrits en ARN (XXX).
+Ces ARN sont découpés en ARN plus petits, les unités répétées servant de site de reconnaissance pour la coupure.
+Certains intervalles sont complémentaires d'ORF viraux ou plasmidiques et fonctionnent donc comme des petits ARN interférents.
+En s'hybridant avec leur cible, les petits ARN déclenchent la dégradation ou un arrêt de la traduction des ARNm du génome étranger.
+Ce blocage réduit ou annule le pouvoir infectieux des phages ou des plasmides.
+Les séquences des intervalles (le contenu des CRISPR) ne présentent quasiment pas de similarité d'une lignée à l'autre, même entre taxons proches. Cela suggère un renouvellement rapide à l'échelle évolutive comme observé par Pourcel et al., 2005[8]. Corrélativement, cela suggère que même entre taxons proches, les phages ou les plasmides les plus courants sont différents et/ou que les phages ou les plasmides dominant se renouvèlent très rapidement.
+En mars 2007, l'équipe de Philippe Horvath a montré que l'exposition de cellules porteuses de CRISPR à des phages entraîne l'apparition de nouveaux intervalles, que ces intervalles dérivent du matériel génomique des phages, et que le retrait ou l'ajout de ces intervalles modifie la résistance des bactéries face aux phages[10].
+Annexes[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Transcription activator-like effector nuclease
+Cas9
+Nucléase à doigt de zinc
+Liens externes[modifier | modifier le code]
+http://crispr.u-psud.fr/Server/CRISPRfinder.php/
+CRISPI : base de données interactive listant les CRISPR découverts à ce jour
+Références[modifier | modifier le code]
+↑ Yoshizumi Ishino, Hideo Shinagawa, Kozo Makino, Mitsuko Amemura, and Atsuo Nakata, Nucleotide sequence of the iap gene, responsible for alkaline phosphatase isozyme conversion in Escherichia coli, and identification of the gene product, Journal of Bacteriology, 1987; 169(12): 5429–5433.
+↑ a et b Ruud Jansen, Jan D. A. van Embden, Wim Gaastra and Leo M. Schouls, Identification of a novel family of sequence repeats among prokaryotes, OMICS, 2002; 6(1):23-33.
+↑ a, b, c et d Francisco Mojica, Cesar Diez-Villaseñor, Elena Soria, Guadalupe Juez, Biological significance of a family of regularly spaced repeats in the genomes of Archaea, Bacteria and mitochondria, Molecular Microbiology, 2000; 36(1): 244–246.
+↑ Ruud Jansen, Jan D. A. van Embden, Wim Gaastra and Leo M. Schouls, Identification of genes that are associated with DNA repeats in prokaryotes, Molecular Microbiology, 2002; 43(6): 1565–1575.
+↑ Daniel H. Haft, Jeremy Selengut, Emmanuel F. Mongodin, Karen E. Nelson, A Guild of 45 CRISPR-Associated (Cas) Protein Families and Multiple CRISPR/Cas Subtypes Exist in Prokaryotic Genomes, PLoS Computational Biology, 2005; 1(6): 1-10.
+↑ Reidun K. LilletØl, Peter Redder, Roger A. Garrett and Kim Brüger, A putative viral defense mechanism in archaeal cells, Archaea, 2006; 2 : 59-72
+↑ Xu Peng, Kim Brügger, Biao Shen, Lanming Chen, Qunxin She, and Roger A. Garrett, Genus-Specific Protein Binding to the Large Clusters of DNA Repeats (Short regularly Spaced Repeats) Present in Sulfolobus Genomes, Journal of Bacteriology, 2003; 185(8): 2410-2417.
+Makarova KS, Aravind L, Grishin NV, Rogozin IB, Koonin EV: A DNA repair system specific for thermophilic archaea and bacteria predicted by genomic context analysis. Nucleic Acids Res 2002, 30:482-496.
+↑ a, b et c Pourcel C, Salvignol G, Vergnaud G: CRISPR elements in Yersinia pestis acquire new repeats by preferential uptake of bacteriophage DNA, and provide additional tools for evolutionary studies. Microbiology 2005, 151:653-663
+↑ a et b Ahmed Fadiel, Stuart Lithwick, Gopi Ganji and Stephen W. Scherer, Remarkable sequence signatures in archaeal genomes, Archaea, 2003; 1(3):185–190.
+↑ Rodolphe Barrangou, Christophe Fremaux, Hélène Deveau, Melissa Richards, Patrick Boyaval, Sylvain Moineau, Dennis A. Romero, Philippe Horvath, CRISPR provides acquired resistance against viruses in prokaryotes, Science, 2007; 315(5819): 1709-1712.
+Portail de la biologie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Clustered_Regularly_Interspaced_Short_Palindromic_Repeats&oldid=110330504 ».
+Catégories : GénétiqueSéquence d'ADN répétéeCatégories cachées : Portail:Biologie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Deutsch
+English
+日本語
+Polski
+Русский
+中文
+Modifier les liens
+Dernière modification de cette page le 28 décembre 2014 à 22:41.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

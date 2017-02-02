@@ -1,0 +1,290 @@
+Équations de Maxwell — Wikipédia
+Équations de Maxwell
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Ne doit pas être confondu avec Relations de Maxwell.
+Les équations de Maxwell, aussi appelées équations de Maxwell-Lorentz, sont des lois fondamentales de la physique. Elles constituent les postulats de base de l'électromagnétisme, avec l'expression de la force électromagnétique de Lorentz.
+Ces équations traduisent sous forme locale différents théorèmes (Gauss, Ampère, Faraday) qui régissaient l'électromagnétisme avant que Maxwell ne les réunisse sous forme d'équations intégrales. Elles donnent ainsi un cadre mathématique précis au concept fondamental de champ introduit en physique par Faraday dans les années 1830.
+Ces équations montrent notamment qu'en régime stationnaire, les champs électrique et magnétique sont indépendants l'un de l'autre, alors qu'ils ne le sont pas en régime variable. Dans le cas le plus général, il faut donc parler du champ électromagnétique, la dichotomie électrique/magnétique étant une vue de l'esprit. Cet aspect trouve sa formulation définitive dans le formalisme covariant présenté dans la seconde partie de cet article : le champ électromagnétique y est représenté par un être mathématique unique : le tenseur électromagnétique, dont certaines composantes s'identifient à celles du champ électrique et d'autres à celles du champ magnétique.
+Sommaire
+1 Principe général
+2 Aspects historiques
+2.1 L'apport de Maxwell
+2.2 Les héritiers de Maxwell
+3 Théorie de Maxwell-Lorentz dans le vide
+3.1 Équation de Maxwell-Gauss
+3.1.1 L'équation locale de Maxwell
+3.1.2 Le théorème de Gauss
+3.2 Équation de Maxwell-Thomson
+3.2.1 L'équation locale de Maxwell
+3.2.2 Introduction du potentiel-vecteur
+3.3 Équation de Maxwell-Faraday
+3.3.1 L'équation locale
+3.3.2 Introduction du potentiel électrique
+3.4 Équation de Maxwell-Ampère
+3.4.1 L'équation locale de Maxwell
+3.4.2 Introduction du courant de déplacement
+3.5 Équation de conservation de la charge
+3.6 Caractère ondulatoire des champ électriques
+4 Invariance de jauge de la théorie
+4.1 Condition de jauge de Lorenz
+5 Solutions des équations du champ électromagnétique
+5.1 Résolution à partir des charges ponctuelles
+5.2 Solutions mathématiques des équations de Maxwell dans le vide.
+5.3 Introduction des charges électriques
+5.4 Quantification en électrodynamique classique
+5.5 Quelques erreurs habituelles
+6 Formulation covariante
+6.1 Géométrie de l'espace-temps de Minkowski
+6.2 Quadri-gradient
+6.3 Quadri-potentiel
+6.4 Quadri-courant
+6.5 Tenseur de Maxwell
+6.6 Équations de Maxwell sous forme covariante
+6.7 Équation de propagation pour le quadri-potentiel en jauge de Lorenz
+6.8 Exemple : les potentiels retardés
+7 Dans les milieux matériels
+8 Articles connexes
+9 Bibliothèque virtuelle
+10 Bibliographie
+10.1 Cours
+10.1.1 Ouvrages d'introduction
+10.1.2 Ouvrages de références
+10.2 Aspects historiques
+11 Notes et références
+Principe général[modifier | modifier le code]
+Les équations sont les suivantes :
+L'équation de Maxwell-Gauss décrit comment un champ électrique est généré par des charges électriques : le champ électrique est orienté des charges positives vers les charges négatives. Plus précisément, cette loi relie le flux électrique à travers n'importe quelle surface de Gauss fermée avec la charge électrique contenue dans le volume délimité par cette surface.
+L'équation de Maxwell-Thomson énonce qu'il n'existe aucune "charge magnétique" (ou monopôle magnétique) analogue à une charge électrique. Au contraire, le champ magnétique est engendré par une configuration nommée dipôle, qui n'a pas de charge magnétique mais regroupe une charge positive et une charge négative reliées entre elles et inséparables. À titre d'exemple, cela permet de montrer que le flux magnétique total à travers n'importe quelle surface de Gauss est nul, ou que le champ magnétique est un champ solénoïdal.
+L'équation de Maxwell-Faraday décrit comment la variation d'un champ magnétique peut créer (induire) un champ électrique. Ce courant induit est utilisé dans de nombreux générateurs électriques: un aimant en rotation crée un champ magnétique en mouvement qui génère un champ électrique dans un fil à proximité[1].
+L'équation de Maxwell-Ampère énonce que les champs magnétiques peuvent être générés de deux manières : par les courants électriques (c'est le théorème d'Ampère) et par la variation d'un champ électrique (c'est l'apport de Maxwell sur cette loi).
+Cette « correction » de Maxwell du théorème d'Ampère est particulièrement importante : elle signifie que la variation d'un champ magnétique crée un champ électrique et que la variation d'un champ électrique crée un champ magnétique. Par conséquent, ces équations permettent la circulation d'ondes électromagnétiques auto-entretenues, ou « rayonnement électromagnétique ».
+La vitesse de propagation calculée pour les ondes électromagnétiques, qui pourrait être prédite par des expériences sur les charges et les courants[2], est exactement la vitesse de la lumière. En effet, la lumière est une forme de rayonnement électromagnétique (tout comme les rayons X, les ondes radio, etc). Maxwell avait compris la relation entre le rayonnement électromagnétique et la lumière en 1864, unifiant ainsi deux domaines jusqu'ici disjoints : celui de l'électromagnétisme et celui de l'optique.
+Aspects historiques[modifier | modifier le code]
+L'apport de Maxwell[modifier | modifier le code]
+Vers 1865, Maxwell a réalisé une synthèse harmonieuse des diverses lois expérimentales découvertes par ses prédécesseurs (lois de l'électrostatique, du magnétisme, de l'induction…). Mais cette synthèse n'a été possible que parce que Maxwell a su dépasser les travaux de ses devanciers, en introduisant dans une équation un « chaînon manquant », appelé le courant de déplacement, dont la présence assure la cohérence de l'édifice unifié.
+Maxwell a d'abord publié en 1865 sa théorie sous la forme de 20 équations à 20 inconnues, écrit à l'aide de quaternions. En 1873, dans l'ouvrage Electricity and Magnetism, Maxwell a déjà réécrit sa théorie sous la forme de 8 équations. Ce n'est que plus tard qu'Heaviside réécrivit ces équations sous la forme des 4 équations vectorielles aux dérivées partielles que l'on connait maintenant[3].
+Les héritiers de Maxwell[modifier | modifier le code]
+La synthèse de Maxwell a permis ultérieurement les deux plus grandes avancées de la physique moderne :
+la théorie de la relativité restreinte (via le problème du référentiel de l'hypothétique éther). En effet, les équations de Maxwell permettent de prédire l'existence d'une onde électromagnétique, c'est-à-dire que la modification d'un des paramètres (densité de charge, intensité du courant…) a des répercussions à distance avec un certain retard. Or, la vitesse de ces ondes, c, calculée avec les équations de Maxwell, est égale à la vitesse de la lumière mesurée expérimentalement. Cela a permis de conclure que la lumière était une onde électromagnétique. Le fait que c soit la même dans toutes les directions et indépendante du référentiel, conclusion que l'on tire de ces équations, est un des fondements de la théorie de la relativité restreinte. Si l'on change de référentiel, le changement de coordonnées classique ne s'applique pas aux équations de Maxwell, il faut utiliser une autre transformation : la transformation de Lorentz. Einstein a tenté d'appliquer les transformations de Lorentz à la mécanique classique, ce qui l'a conduit à la théorie de la relativité restreinte.
+la physique quantique. L'étude de la lumière et des ondes électromagnétiques, avec notamment les travaux de Max Planck sur le corps noir et d'Heinrich Hertz sur l'effet photoélectrique, donna naissance à la théorie quantique en 1900.
+Théorie de Maxwell-Lorentz dans le vide[modifier | modifier le code]
+On présente ci-dessous la théorie microscopique fondamentale qui donne les équations de Maxwell-Lorentz dans le vide en présence de sources, qui peuvent être des charges ponctuelles et/ou leurs courants électriques microscopiques associés si ces charges sont en mouvement dans le référentiel d'étude.
+La théorie macroscopique nécessitant l'introduction des champs D et H (et les équations de Maxwell associées) est discutée en détail dans Électrodynamique des milieux continus.
+On note :
+la densité volumique de charge électrique au point
+à l'instant .
+le vecteur densité de courant.
+le vecteur champ électrique.
+le pseudo-vecteur induction magnétique.
+la permittivité diélectrique du vide.
+la perméabilité magnétique du vide.
+Équation de Maxwell-Gauss[modifier | modifier le code]
+L'équation locale de Maxwell[modifier | modifier le code]
+Cette équation utilise l'opérateur .
+Cette équation locale donne la divergence du champ électrique en fonction de la densité de la charge électrique :
+Cette équation correspond à un « terme de source » : la densité de charge électrique est une source du champ électrique. Par exemple, pour une charge ponctuelle
+fixée à l'origine , la loi de Coulomb donnant le champ électrostatique en un point
+de l'espace, point repéré par le vecteur position
+où
+est le vecteur unitaire radial, s'écrit :
+Ce champ électrostatique vérifie l'équation de Maxwell-Gauss pour la source statique :
+où
+est la distribution de Dirac dans l'espace à trois dimensions.
+Le théorème de Gauss[modifier | modifier le code]
+L'équation de Maxwell-Gauss est héritée du théorème de Gauss, qui permet de lier le flux du champ électrique à travers une surface fermée à la charge intérieure à cette surface :
+où
+est une surface fermée arbitraire, appelée surface de Gauss, et
+la charge électrique totale intérieure à cette surface
+[4].
+On remarquera que l'équation de Maxwell-Gauss se retrouve facilement en appliquant le théorème d'Ostrogradski au théorème de Gauss et en prenant un volume infinitésimal.
+Équation de Maxwell-Thomson[modifier | modifier le code]
+Le flux du champ magnétique à travers une surface
+fermée est toujours nul :
+L'équation locale de Maxwell[modifier | modifier le code]
+Cette équation locale est au champ magnétique ce que l'équation de Maxwell-Gauss est au champ électrique, à savoir une équation avec « terme de source », ici identiquement nul :
+Elle traduit le fait expérimental suivant : il n'existe pas de monopôle magnétique. Un monopôle magnétique serait une source ponctuelle de champ magnétique, analogue de la charge électrique ponctuelle pour le champ électrique. Or, l'objet de base source d'un champ magnétique est l'aimant, qui se comporte comme un dipôle magnétique : un aimant possède en effet un pôle nord et un pôle sud. L'expérience fondamentale consistant à tenter de couper un aimant en deux donne naissance à deux aimants, et non un pôle nord et un pôle sud séparément[5].
+Introduction du potentiel-vecteur[modifier | modifier le code]
+L'analyse vectorielle montre que la divergence d'un rotationnel est toujours identiquement nulle pour tout champ quelconque  :
+Réciproquement, tout champ de vecteurs dont la divergence est identiquement nulle peut localement[6] être exprimé sous la forme d'un rotationnel.
+L'équation locale de conservation du flux magnétique permet donc de définir au moins localement un potentiel-vecteur
+tel que :
+Le problème important de l'unicité du potentiel-vecteur est discuté dans l'article Invariance de jauge de la théorie.
+Équation de Maxwell-Faraday[modifier | modifier le code]
+Cette équation locale traduit le phénomène fondamental d'induction électromagnétique découvert par Faraday.
+L'équation locale[modifier | modifier le code]
+Elle donne le rotationnel du champ électrique en fonction de la dérivée temporelle du champ magnétique :
+Cela correspond à un « terme variationnel » : la variation du champ magnétique crée un champ électrique. Sa forme intégrale est donnée par:
+et la loi de Faraday, respectivement:
+où , est la force électromotrice d'induction dans un circuit électrique et
+le flux magnétique à travers ce circuit.
+Introduction du potentiel électrique[modifier | modifier le code]
+L'analyse vectorielle montre que le rotationnel d'un gradient est toujours identiquement nul. Pour un champ quelconque  :
+L'équation de Maxwell-Faraday couplée à l'existence locale d'un potentiel-vecteur
+permettent de définir (au moins localement) le potentiel électrique
+(scalaire) tel que :
+Le problème important de l'unicité du potentiel électrique est discuté dans Invariance de jauge de la théorie.
+Équation de Maxwell-Ampère[modifier | modifier le code]
+L'équation locale de Maxwell[modifier | modifier le code]
+Cette équation est héritée du théorème d'Ampère. Sous forme locale, elle s'écrit en termes du vecteur densité de courant  :
+Introduction du courant de déplacement[modifier | modifier le code]
+L'équation précédente peut se réécrire :
+en introduisant le courant de déplacement de Maxwell :
+La forme intégrale lie la circulation du champ magnétique sur un contour
+fermé, et les courants qui traversent une surface
+s'appuyant sur ce contour. C'est une conséquence directe du théorème de Green :
+Équation de conservation de la charge[modifier | modifier le code]
+Prenons la divergence de l'équation de Maxwell-Ampère :
+On peut écrire en permutant les dérivées spatiales et temporelles, puis en utilisant l'équation de Maxwell-Gauss :
+On obtient finalement l'équation locale de conservation de la charge électrique :
+La présence du terme de courant de déplacement, introduit par Maxwell, est essentielle à l'obtention de cette équation.
+Caractère ondulatoire des champ électriques[modifier | modifier le code]
+Prenons le rotationnnel de l'équation de Maxwell-Faraday, compte tenu de Maxwell-Gauss et de Maxwell-Ampère :
+soit, en utilisant le fait que les dérivées spatiales et temporelle sont indépendantes
+ou, en réorganisant :
+Ceci montre que le champ électrique suit l'équation des ondes.
+En prenant le rotationnnel de l'équation de Maxwell-Ampère, compte tenu de Maxwell-Thomson et de Maxwell-Faraday, on retrouve le résultat équivalent :
+Ceci montre que le champ magnétique suit également l'équation d'ondes.
+La vitesse de propagation de l'onde électro-magnétique
+est donnée par :
+Invariance de jauge de la théorie[modifier | modifier le code]
+L'analyse vectorielle montre que la divergence d'un rotationnel est toujours identiquement nulle :
+L'équation locale de conservation du flux magnétique permet donc de définir au moins localement[7] un potentiel-vecteur
+tel que :
+L'analyse vectorielle nous dit également que
+Alors le potentiel-vecteur n'est pas défini de manière unique puisque la transformation suivante, avec
+une fonction quelconque
+ne modifie pas la valeur du champ . Ceci est un exemple de transformation de jauge. Il faut donc imposer des conditions supplémentaires pour définir
+de façon non-ambiguë. On appelle cela des conditions de jauge, par exemple la jauge de Coulomb ou encore la jauge de Lorenz.
+Le lecteur notera qu'en physique classique, le potentiel-vecteur semble n'être qu'un outil mathématique commode pour analyser les solutions des équations de Maxwell, mais ne semble pas être une grandeur physique directement mesurable. En 1959, dans le cadre de la physique quantique, Aharonov et Bohm ont démontré[8] que le potentiel-vecteur avait un effet observable en mécanique quantique : c'est l'effet Aharonov-Bohm.
+L'analyse vectorielle montre que le rotationnel d'un gradient est toujours identiquement nul :
+L'équation de Maxwell-Faraday couplée à l'existence locale d'un potentiel-vecteur
+permettent de définir (au moins localement) le potentiel électrique
+(scalaire) tel que :
+Le potentiel
+lui non plus n'est pas défini de façon unique mais la transformation de jauge associée et liée à celle de
+est la suivante (on rappelle celle de
+par souci de clarté) et on a
+Ces deux équations donnent l'invariance de jauge complète des équations de Maxwell.
+Condition de jauge de Lorenz[modifier | modifier le code]
+On pose la condition de jauge de Lorenz (qui couple les 2 potentiels) :
+Prenons l'équation de Maxwell-Ampère, compte tenu de la condition de jauge de Lorenz et de l'expression de
+en fonction des potentiels
+et  :
+On obtient l'équation de Poisson du potentiel vecteur :
+Idem pour le potentiel scalaire :
+soit
+Solutions des équations du champ électromagnétique[modifier | modifier le code]
+Pour simplifier, nous abrégeons « équations de Maxwell » en EM.
+Résolution à partir des charges ponctuelles[modifier | modifier le code]
+Les expressions des champs électriques et magnétiques peuvent être obtenues en intégrant sur tout l'espace les équation de Liénard-Wichert ou celles de Heaviside-Feynman.
+Solutions mathématiques des équations de Maxwell dans le vide.[modifier | modifier le code]
+Résolvons les équations de Maxwell dans l'espace éventuellement limité par des conditions qui gardent la linéarité[précision nécessaire].
+Représentons des solutions par des lettres Q, R,… (ensembles des 6-vecteurs formés des six composantes du champ en tout point de coordonnées x, y, z, t). Comme dans le vide les équations sont linéaires, aQ + ßR +…, où a, ß,… sont des constantes réelles, est aussi une solution. En conséquence, l'ensemble des solutions des équations de Maxwell est un espace vectoriel réel.
+Conformément à la définition introduite en acoustique, un mode est une direction de cet espace. Un système complet de solutions constitue une base dans cet espace nommé tantôt espace des solutions, tantôt espace des modes. Une solution particulière dans un mode est obtenue en multipliant un champ de ce mode posé comme champ d'amplitude unité, par une constante réelle, l'amplitude.
+Avec un système d'unités convenable, l'énergie (à un moment donné) W(Q) d'une solution Q est l'intégrale étendue à tout l'espace, du carré de la norme du vecteur Q par rapport au produit scalaire usuel. Il faut faire attention au fait que l'énergie ne dépend pas linéairement de Q. L'énergie de la somme de plusieurs solutions n'est donc pas, a priori, la somme des énergies des différentes solutions prises séparément. Néanmoins, le procédé de Gram-Schmidt permet d'obtenir, à partir d'un système complet de solutions, un système complet de solutions orthogonales, ou encore système complet de modes orthogonaux. Dans de tels systèmes, les énergies sont indépendantes, c'est-à-dire que l'énergie d'une solution est égale à la somme des énergies de ses différentes composantes dans le système.
+Planck a posé que l'énergie dans un mode monochromatique de fréquence ν se propageant dans un corps noir à la température T est w= hν/(exp(hν/kT)-1)+K. La valeur erronée de K donnée par Planck a été corrigée par Nernst en 1916 ; la valeur K= hν/2 est facilement retrouvée car la thermodynamique impose que w tende vers kT lorsque T tend vers l'infini. Cette formule définit la température d'un mode. Cependant l'interprétation de cette formule est physiquement délicate car la définition d'une fréquence pure suppose une expérience de durée infinie.
+Introduction des charges électriques[modifier | modifier le code]
+On sait calculer les champs émis par des charges, par exemple le champ émis par un dipôle électrostatique oscillant. Pour se ramener au problème précédent, on utilise l'« astuce de Schwarzschild et Fokker ». Le champ émis par une source est nommé « champ retardé » QR. Dépouillé de la source, ce champ n'est pas solution des EM. Pour obtenir une solution identique dans le futur, il faut lui ajouter un « champ avancé » QA. Par cette définition, QA + QR est solution des EM. Ainsi, en substituant le champ avancé à la source, on est ramené au problème linéaire d'un champ dans le vide et on peut définir des modes.
+Quantification en électrodynamique classique[modifier | modifier le code]
+Un système physique possède, en général, des minimums d'énergie relatifs. En régime non évolutif (stationnaire), le système, excité par un champ électromagnétique de l'ordre de h/2 dans chaque mode qu'il est susceptible d'émettre (donc d'absorber), reste au voisinage d'un minimum d'énergie ; pour chaque mode monochromatique, son excitation l'amène à rayonner un champ en quadrature avec le champ incident, ce qui ne produit aucun échange d'énergie permanent, mais introduit un retard, la réfraction. Pour un champ plus intense, en particulier en raison d'une fluctuation favorable du champ, le système peut franchir un col de son diagramme d'énergie et absorber une énergie h cette absorption peut conduire à un niveau peu stable d'où le système peut évoluer rapidement vers d'autres niveaux, en une cascade plus ou moins radiative qui l'amène à un état stationnaire, stable.
+Dans une théorie classique, aucun paradoxe ne peut être admis, en particulier le paradoxe d'Einstein, Podolsky et Rosen n'existe pas : supposons qu'un atome perde une énergie de résonance h, par exemple par le rayonnement d'un dipôle. Le mode d'émission de ce dipôle n'est pas orthogonal aux modes d'émission (donc d'absorption) d'autres atomes dont l'amplitude peut être accrue ; 0, 1, 2, … atomes peuvent alors absorber h, même si, en moyenne, un seul atome est excité ; les champs résiduels jouent le rôle d'un bain thermodynamique.
+Quelques erreurs habituelles[modifier | modifier le code]
+Il a été écrit que l'électron d'un atome d'hydrogène suivant une orbite de Bohr émet un champ, donc rayonne de l'énergie et devrait tomber sur le noyau. L'électron émet bien un champ, mais d'énergie très faible en raison de l'interférence du champ émis avec le champ résiduel ; cette énergie tombe à zéro si l'orbite est légèrement corrigée, de sorte que l'énergie de l'état stationnaire subit le décalage de Lamb.
+L'étude de l'amorçage d'un laser semble indiquer que le champ du point zéro induit une émission deux fois plus intense qu'un champ d'intensité plus grande. Pour tenir compte de ce résultat, on peut introduire une « radiation de réaction », ad hoc. La véritable explication est très simple : un atome est excité par un champ dans le mode qu'il peut émettre, dit sphérique ; au démarrage du laser, il existe dans ce mode une amplitude correspondant à h/2 ; le laser fonctionne sur un mode d'onde plane dont il faut prendre la composante sphérique pour exciter l'atome, ce qui divise l'énergie par deux.
+Il n'existe pas de système électromagnétique isolé ; oublier que le champ minimum est le champ du point zéro conduit à des erreurs lorsqu'on détecte des champs faibles.
+Formulation covariante[modifier | modifier le code]
+NB Cette partie suit les conventions de signe classiques de MTW [9]
+Cette partie adopte également la convention de sommation d'Einstein.
+Géométrie de l'espace-temps de Minkowski[modifier | modifier le code]
+Article détaillé : Espace de Minkowski.
+L'espace-temps de Minkowski (1908) est une variété différentielle M plate munie d'une métrique lorentzienne.
+Soit un système de coordonnées quelconque
+autour d'un évènement (point)
+de l'espace-temps, et soient
+une base locale de , espace tangent à la variété au point . Un vecteur tangent
+s'écrit alors comme la combinaison linéaire :
+Les
+sont appelée les composantes contravariantes du vecteur w. Le tenseur métrique
+est la forme bilinéaire symétrique[10] :
+Dans une base orthonormée d'un référentiel inertiel, ses composantes covariantes
+sont :
+Ses composantes contravariantes
+vérifient :
+On obtient explicitement :
+On utilisera ci-dessous les conventions usuelles suivantes :
+un indice grec varie de 0 à 3. Il est associé à une grandeur dans l'espace-temps.
+un indice latin varie de 1 à 3. Il est associé aux composantes spatiales d'une grandeur dans l'espace-temps.
+Par exemple, les composantes contravariantes du 4-vecteur position s'écrivent dans un système de coordonnées orthonormales :
+Le tenseur métrique définit pour chaque point
+de l'espace-temps un pseudo-produit scalaire (pseudo au sens où l'hypothèse de positivité est retirée) dans l'espace
+euclidien tangent à M au point . Si
+et
+sont deux vecteurs de , leur produit scalaire s'écrit :
+En particulier, en prenant deux vecteurs de base, on obtient les composantes :
+désignant les composantes contravariantes du vecteur w, on peut définir de même ses composantes covariantes par :
+Par exemple, les composantes covariantes du 4-vecteur position s'écrivent dans un système de coordonnées orthonormales :
+Quadri-gradient[modifier | modifier le code]
+On introduit l'opérateur différentiel quadri-gradient par ses composantes covariantes :
+Ses composantes contravariantes s'écrivent :
+L'opérateur invariant d'Alembertien s'écrit par exemple :
+Quadri-potentiel[modifier | modifier le code]
+On introduit le quadri-potentiel électromagnétique par ses composantes contravariantes :
+où
+est le scalaire potentiel électrique, et
+le potentiel-vecteur magnétique. Ses composantes covariantes s'écrivent :
+Les lois de transformation de jauge écrite précédemment sont donc résumées dans cette notation sous la forme
+La condition de jauge de Lorenz s'écrit par exemple de façon covariante :
+Quadri-courant[modifier | modifier le code]
+On introduit le quadri-courant électromagnétique par ses composantes contravariantes :
+où
+est le scalaire densité électrique de charge, et
+le vecteur densité de courant. Ses composantes covariantes s'écrivent :
+Tenseur de Maxwell[modifier | modifier le code]
+Le tenseur électromagnétique est le tenseur anti-symétrique de rang deux défini à partir du quadri-potentiel par :
+Ses composantes covariantes s'écrivent explicitement :
+On obtient ses composantes contravariantes en écrivant :
+La métrique étant diagonale dans un référentiel inertiel, on obtient alors les formules suivantes, sans sommation sur les indices répétés :
+soit explicitement :
+Équations de Maxwell sous forme covariante[modifier | modifier le code]
+Les équations de Maxwell se mettent sous forme relativiste covariante.
+Les deux équations de Maxwell sans termes de sources s'écrivent :
+Les deux équations de Maxwell avec termes de sources s'écrivent :
+Puisque le tenseur de Maxwell est anti-symétrique, cette dernière relation entraîne en particulier que le quadri-courant est conservé :
+Équation de propagation pour le quadri-potentiel en jauge de Lorenz[modifier | modifier le code]
+En écrivant explicitement le tenseur de Maxwell en termes du quadri-potentiel dans l'équation covariante avec terme de sources, on obtient pour le membre de gauche :
+Dans la jauge de Lorenz , le second terme disparaît, et l'équation de Maxwell avec terme de sources se réduit à une équation de propagation pour le quadri-potentiel :
+La solution de cette équation s'écrit de façon simple si l'on connaît une fonction de Green de l'équation de propagation, c'est-à-dire une fonction G(x) solution[11] de l'équation aux dérivées partielles :
+où
+est la distribution de Dirac. On obtient alors le quadri-potentiel sous la forme d'un produit de convolution :
+Exemple : les potentiels retardés[modifier | modifier le code]
+En électrodynamique classique, on utilise le plus souvent la fonction de Green retardée qui satisfait à l'hypothèse de causalité :
+Dans les milieux matériels[modifier | modifier le code]
+Article détaillé : Électrodynamique des milieux continus.
+Articles connexes[modifier | modifier le code]
+Vecteur de Poynting
+Établissement de l'équation de propagation à partir des équations de Maxwell
+Électrodynamique des milieux continus
+Invariance de Lorentz
+Champ de Maxwell
+Bibliothèque virtuelle[modifier | modifier le code]
+Ruth Durrer ; Électrodynamique II (PostScript) : cours approfondi donné par l'auteur (Département de Physique Théorique, Université de Genève, Suisse) aux étudiants de deuxième année de premier cycle (123 pages).
+Jean-Michel Raimond ; [PDF]Électromagnétisme & relativité restreinte : cours approfondi (mécanique analytique, relativité & électromagnétisme) donné par l'auteur (laboratoire Kastler-Brossel, ENS Ulm, Paris) aux étudiants de première année du Magistère Interuniversitaire de Physique.
+Bibliographie[modifier | modifier le code]
+Cours[modifier | modifier le code]
+Ouvrages d'introduction[modifier | modifier le code]
+Accessible au niveau du premier cycle universitaire.
+Richard P. Feynman, Robert B. Leighton (en) et Matthew Sands (en), Le cours de physique de Feynman [détail de l’édition], InterEditions (1979). Le grand théoricien de l'électrodynamique quantique, prix Nobel de physique 1965, nous donne ici un superbe cours d'introduction à l'électromagnétisme classique. Publié en deux volumes :
+Électromagnétisme I (ISBN 2-7296-0028-0). Rééd. Dunod (ISBN 2-10-004861-9)
+Électromagnétisme II (ISBN 2-7296-0029-9). Rééd. Dunod (ISBN 2-10-004316-1)
+Ouvrages de références[modifier | modifier le code]
+John D. Jackson ; Électrodynamique classique - Cours et exercices d'électromagnétisme, Dunod (2001), ISBN 2-10-004411-7. Traduction française de la 3e édition du grand classique américain.
+Lev Landau & Evguéni Lifchitz ; Cours de physique théorique - Tome 2 : Théorie des champs, Mir (4e édition-1989), ISBN 5-03-000641-9.
+Wolfgang K. H. Panofsky et Melba Phillips ; Classical electricity and magnetism, Addison-Wesley (2e édition-1962). Réédité par : Dover Publications, Inc. (2005), ISBN 0-486-43924-0. L'ouvrage de référence en électrodynamique classique avant la parution du Jackson
+Aspects historiques[modifier | modifier le code]
+James Clerk Maxwell ; Traité d'Électricité et de Magnétisme, Gauthier-Villars, tome I (1885) et tome II (1887). Réédité par Jacques Gabay (1989), ISBN 2-87647-045-4.
+Hendrik-Antoon Lorentz ; The Theory of Electrons and its Applications to the Phenomena of Light and Radiant Heat - A Course of Lectures delivered in Columbia University, in March and April 1906, B.G. Teubner (Leipzig - 2e édition : 1916). Réédité par Jacques Gabay (1992), ISBN 2-87647-130-2.
+Olivier Darrigol ; Les équations de Maxwell - de MacCullagh à Lorentz, Belin (2005), ISBN 2-7011-3073-5. Historien des sciences, Olivier Darrigol est chercheur au CNRS. Les équations de Maxwell, véritable monument scientifique, fournissent une description précise de l’ensemble des phénomènes électromagnétiques. Bien que James Clerk Maxwell ait joué le rôle le plus éminent dans leur introduction, elles sont apparues dans des contextes divers sous la plume de plusieurs auteurs (MacCullagh, Maxwell et Lorenz) et n’ont acquis leur interprétation moderne que grâce aux efforts d’héritiers de Maxwell (Heaviside, Hertz et Lorentz). C’est ce que montre l’auteur, à travers l’étude détaillée de textes fondateurs écrits dans les deux derniers tiers du XIXe siècle.
+Edmund T. Whittaker (Sir) ; A History of the Theories of Aether and Electricity, Springer Verlag/A.I.P. Press (1986) ISBN 0-88318-523-7, réédité par Dover (1990) ISBN 0-48626-126-3. Le premier volume (Part I : the classical theories, from the age of Descartes to the close of the nineteenth century) de cette histoire érudite a été publié à Dublin en 1910. Le second volume complémentaire (Part II : the modern theories 1900-1926) est quant à lui paru en 1953. Ce livre essentiel est aujourd'hui épuisé. Whittaker, mathématicien appliqué, est également coauteur (avec G.N. Watson) du renommé et indémodable cours d'analyse : A Course of Modern Analysis (Cambridge University Press) paru initialement en 1902.
+Olivier Darrigol ; Electrodynamics from Ampère to Einstein, Oxford University Press (2000) ISBN 0-19-850593-0. Volta invente la pile électrique en 1800. Cette découverte capitale va initier un nouveau champ de recherche : l'électrodynamique, initialement science des courants circulants dans les fils, par opposition aux phénomènes électrostatique des charges fixes connus depuis l'Antiquité. La première loi fondamentale de cette électrodynamique est établie par Ampère en 1820 : il s'agit de la loi de force qui s'exerce entre deux fils parcourus chacun par un courant. Cette histoire de l'électrodynamique détaille le chemin parcouru entre cette loi d'Ampère de 1820 et le triomphe de la théorie des champs de Maxwell-Lorentz-Faraday avec son interprétation par Einstein en 1905 dans le cadre de la théorie de la relativité restreinte. Historien des sciences, Olivier Darrigol est chercheur au CNRS.
+John D. Jackson & L.B. Okun ; Historical roots of gauge invariance, Review of Modern Physics 73 (2001) 663-680. Texte complet disponible sur l'ArXiv : hep-ph/0012061.

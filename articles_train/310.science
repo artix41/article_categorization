@@ -1,0 +1,103 @@
+Action mécanique — Wikipédia
+Action mécanique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'action mécanique est un concept utilisé en mécanique appliquée pour décrire tous les phénomènes provoquant un mouvement ou une déformation. Ce concept regroupe les notions de force et de moment utilisées en mécanique générale.
+Pour représenter les actions mécaniques, on utilise souvent un torseur d'action.
+Sommaire
+1 Classification des actions mécaniques
+2 Exemples d'actions de contact
+3 Action mécanique statiquement équivalente
+4 Résultante d'actions mécaniques
+5 Action de contact des liaisons parfaites
+Classification des actions mécaniques[modifier | modifier le code]
+À l'instar des forces, on peut classer les actions mécaniques en deux grandes familles :
+les actions à distance : le poids et les forces électromagnétiques ;
+les actions de contact, résultant de contact entre deux objets, qui peuvent être :
+ponctuelles : on peut considérer que l'action s'effectue en un point,
+réparties de manière uniforme (pression uniforme, charge uniformément répartie),
+réparties de manière non uniforme (charge linéairement répartie ou plus complexe).
+Exemples d'actions de contact[modifier | modifier le code]
+Une action de contact peut correspondre à une force, c'est le cas par exemple d'une pression ou d'une traction : un objet 1 est posé sur un objet 2, à leur point de contact A, 1 exerce sur 2 une force d'appui égale à son poids. En mécanique appliquée, cette force est notée
+.
+Graphiquement, on représente cette force par une flèche dont l'extrémité est sur le point de contact entre 1 et 2, le point d'application de l'action mécanique (à l'inverse de la mécanique générale où c'est l'origine du vecteur force qui est placée au point d'application).
+D'après les principe des actions réciproques, la pièce 2 exerce également une pression sur 1 qui est égale et opposée à l'action de 1 sur 2 :
+.
+Une action de contact peut aussi correspondre à un couple, c'est le cas par exemple d'un arbre moteur 1 entraînant un dispositif 2 en rotation. On modélise cela par un vecteur moment
+qui se représente graphiquement par une flèche double ⇒. De la même manière, le dispositif 2 exerce un couple résistant sur l'arbre moteur 1, et
+.
+Dans le cas d'un problème plan, le vecteur moment est toujours perpendiculaire au plan considéré et l'on résume le moment à un nombre algébrique. Graphiquement, il est alors représenté comme une flèche courbe ↺.
+Une action de contact peut enfin correspondre à une force et un moment simultanés : par exemple, un tournevis va exercer une force sur la vis, dans son axe, ainsi qu'un moment, qui va la faire tourner.
+Action mécanique statiquement équivalente[modifier | modifier le code]
+Considérons un point B quelconque. Toute action mécanique, quelle que soit sa nature (force et/ou moment) et son point d'application, peut se remplacer d'un point de vue statique par une action mécanique s'exerçant en B. On parle d'action statiquement équivalente.
+Équivalence statique entre une force seule (haut) et la combinaison d'une force et d'un couple (bas)
+Une force seule
+s'appliquant en A peut se remplacer en B par une force identique associée à un couple égal au moment de la force en B
+(également noté ). Par exemple, lorsque l'on utilise une clef pour serrer un boulon (clef anglaise, clef à molette, clef à pipe, clef Allen, …), on exerce une force à l'extrémité A du bras ; sur l'axe B du boulon, cela se traduit par une force, qui est compensée par l'action de l'axe fileté, et un couple qui réalise le serrage du boulon.
+Un couple seul
+s'exerçant en A peut se remplacer par un couple seul identique en B.
+Si l'on a une combinaison d'une force et d'un couple, l'action statiquement équivalente en B est simplement la somme de l'action équivalente à la force seule et de l'action équivalente au couple seul.
+Le torseur d'action est l'outil privilégié pour traiter cette notion d'action mécanique statiquement équivalente. En effet, le torseur
+représente l'action de la pièce 1 sur la pièce 2, et consiste à écrire en tout point B les coordonnées du vecteur force et du vecteur moment de l'action statiquement équivalente ; en parle de « réduction du torseur au point B ».
+Résultante d'actions mécaniques[modifier | modifier le code]
+Note
+Cette notion est différente de la résultante d'un torseur.
+Si une pièce est soumise à plusieurs actions mécaniques extérieures, on peut remplacer ces actions par une action mécanique unique, appelée résultante. D'un point de vue analytique, on choisit un point de l'objet, et on y applique la somme des forces ainsi que la somme des moments (couples et moments des forces en ce point). Cela revient à faire la somme des torseurs.
+Si la somme des forces est nulle, alors la résultante est un couple. Sinon, on peut trouver un point tel que la résultante est une force seule s'appliquant en ce point, cette force étant la somme des forces considérées. On peut obtenir ce point graphiquement :
+si les forces sont concourantes, c'est le point de concours des droites d'action ;
+sinon, on peut construire ce point par la méthode du dynamique et du funiculaire.
+Action de contact des liaisons parfaites[modifier | modifier le code]
+Les liaisons mécaniques entre les pièces sont souvent modélisées par la notion de « liaison parfaite » (géométrie de contact simple, pièces indéformables, absence de frottement, ajustement sans jeu). On dénombre ainsi onze liaisons élémentaires.
+La nature de la liaison entre une pièce 1 et une pièce 2 détermine le type d'action mécanique qu'elles peuvent exercer l'une sur l'autre ; ce sont les actions mécaniques transmissibles (AMT). Par exemple, si le contact se résume en un point, par exemple la pièce 1 est une sphère et la pièce 2 est un plan, on ne peut exercer qu'une force perpendiculaire au point d'appui.
+Article détaillé : Liaison (mécanique).
+Portail du génie mécanique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Action_mécanique&oldid=96993730 ».
+Catégorie : Mécanique classiqueCatégorie cachée : Portail:Génie mécanique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Modifier les liens
+Dernière modification de cette page le 25 septembre 2013 à 11:11.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

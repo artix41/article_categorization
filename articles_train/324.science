@@ -1,0 +1,193 @@
+Mécanique des fluides — Wikipédia
+Mécanique des fluides
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La mécanique des fluides est l’étude du comportement des fluides (liquides et gaz) et des forces internes associées. C’est une branche de la mécanique des milieux continus qui modélise la matière à l’aide de particules assez petites pour relever de l’analyse mathématique mais assez grandes par rapport aux molécules pour être décrites par des fonctions continues.
+Elle se divise en deux parties :
+la statique des fluides est l’étude des fluides au repos, qui se réduit pour l’essentiel à l’hydrostatique ;
+la dynamique des fluides, l’étude des fluides en mouvement.
+L’étude de la mécanique des fluides remonte au moins à l’époque de la Grèce antique avec Archimède qui fut à l’origine de la statique des fluides.
+Aujourd’hui, la dynamique des fluides est un domaine actif de la recherche avec de nombreux problèmes non résolus ou partiellement résolus. Elle utilise systématiquement des méthodes numériques appelées « mécanique des fluides numérique » (MFN), ou en anglais computational fluid dynamics (CFD).
+Dans certains problèmes particuliers, faute de modélisation numérique correcte des phénomènes, des modèles réduits sont utilisés. Pour cette raison, et aussi pour présenter des lois empiriques, la mécanique des fluides utilise systématiquement des nombres sans dimension.
+Sommaire
+1 Position des fluides dans la mécanique des milieux continus
+2 Problèmes classiques de la mécanique des fluides
+3 Description des écoulements
+4 Domaines d’application
+5 Voir aussi
+5.1 Bibliographie
+5.2 Articles connexes
+5.3 Liens externes
+Position des fluides dans la mécanique des milieux continus[modifier | modifier le code]
+Les différents domaines de la mécanique des milieux continus peuvent être situés sommairement à l'aide du tableau suivant.
+Mécanique des milieux continus
+Déformation élastique ou Résistance des matériaux
+Élasticité
+Plasticité
+Rhéologie
+Mécanique des fluides
+Fluides non-newtoniens
+Fluides newtoniens
+Les fluides non-newtoniens (comme le sang, les gels, boues, pâtes, suspensions, émulsions, etc.) peuvent avoir des comportements très variés. Ils sont généralement inclus dans la rhéologie avec les solides plastiques et des corps aux comportements plus complexes.
+En général on parle donc de mécanique des fluides à propos des fluides newtoniens. Ils sont caractérisés par un coefficient de viscosité qui dépend de la température et de la pression. Cette mécanique des fluides réduite concerne essentiellement l’eau (hydraulique dans les conduites ou les canaux, hydrodynamique autour d’obstacles) et l’air (aéraulique dans les conduites, aérodynamique autour des obstacles).
+Problèmes classiques de la mécanique des fluides[modifier | modifier le code]
+Tous les fluides sont visqueux, c'est-à-dire que le mouvement d'une couche fluide par rapport à une autre est freiné par un phénomène de frottement qui entraîne une perte d'énergie mécanique transformée en chaleur. Dans un fluide newtonien, la force tangentielle est proportionnelle au taux de variation de la vitesse, ce qui conduit aux équations de Navier-Stokes. L'importance relative de la viscosité est mesurée par le nombre de Reynolds.
+Si l'écoulement est uniforme, la viscosité n'a aucun effet puisque toutes les particules se déplacent à la même vitesse. Ce sont les parois, sur lesquelles la vitesse d'un fluide visqueux s'annule, qui créent une variation de vitesse entre 0 et la vitesse de l'écoulement non perturbé.
+Lorsque la viscosité est très importante (nombre de Reynolds inférieur à 1), l'écoulement est laminaire, c'est l'écoulement de Stokes.
+En toutes circonstances, il suffit de s'éloigner suffisamment des parois pour trouver des vitesses quasi-constantes qui permettent de négliger la viscosité. Plus la valeur du nombre de Reynolds est élevée, plus cette zone, dans laquelle on peut considérer que l'on a affaire à un fluide parfait, est importante. Elle est alors soumise aux équations d'Euler, beaucoup plus simples que celles de Navier-Stokes. Les effets de la viscosité se concentrent alors dans la couche limite assez mince pour permettre de simplifier les équations visqueuses.
+Dans une première gamme de Reynolds, l'écoulement reste généralement irrotationnel, dépourvu de tourbillons. Pour de plus fortes valeurs, la couche limite engendre un sillage tourbillonnaire à l'aval de l'obstacle (voir par exemple Allée de tourbillons de Karman).
+Lorsque le nombre de Reynolds atteint des valeurs encore plus élevées, la couche limite, laminaire à l'amont, devient turbulente à l'aval, cette turbulence se transmettant au sillage, ce qui complique considérablement le problème.
+D'autre part, tous les fluides sont plus ou moins compressibles, l'effet de la compressibilité étant mesuré par le nombre de Mach. Là encore, il est souvent possible de simplifier les équations en négligeant la compressibilité pour les faibles nombres de Mach. C'est le cas général en hydrodynamique et, en aérodynamique, pour les vitesses relativement faibles.
+Description des écoulements[modifier | modifier le code]
+On peut observer différents types de régimes dans l'écoulement d'un fluide. Mathématiquement on distingue deux écoulements simples :
+Régime permanent (ou stationnaire) : les grandeurs ne dépendent pas du temps ;
+Régime uniforme : la vitesse ne dépend pas du point considéré.
+Physiquement on distingue :
+Régime laminaire : les couches de fluide glissent les unes par rapport aux autres, les vitesses sont continues ;
+Régime turbulent : les vitesses sont discontinues, les couches de fluide s'interpénètrent de façon aléatoire ;
+Régime tourbillonnaire qui apparaît fréquemment dans la transition laminaire-turbulent.
+Domaines d’application[modifier | modifier le code]
+La mécanique des fluides au sens strict a de nombreuses applications dans divers domaines comme l'ingénierie navale, l'aéronautique, l'étude de l'écoulement du sang (hémodynamique), la météorologie, la climatologie ou encore l'océanographie.
+Il existe également un grand nombre de domaines plus spécialisés qui peuvent s’écarter de la définition restrictive comme l’électro-fluidodynamique, la microfluidique ou l’étude des écoulements polyphasiques. Elle est actuellement étendue à des écoulements tels que ceux des glaciers ou du manteau terrestre.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Mécanique des fluides, sur Wikimedia Commons
+Mécanique des fluides, sur Wikiversity
+Bibliographie[modifier | modifier le code]
+P. H. Communay, La mécanique des fluides. Dynamique de vie, Groupe de Recherche et d'Édition, Toulouse, 2000, 16x24 cm (ISBN 2-84139-033-0).
+É. Guyon, J.-P. Hulin et L. Petit, Ce que disent les fluides, Belin, 2005 (ISBN 978-2-7011-3557-1).
+E. Saatdjian, Les bases de la mécanique des fluides et des transferts de chaleur et de masse pour l'ingénieur, Sapientia Éditions, 2009 (ISBN 978-2-911761-85-0).
+Articles connexes[modifier | modifier le code]
+Formules de mécanique des fluides
+Application à un fluide en rotation : Équations primitives atmosphériques
+Hydrostatique
+Dynamique des fluides
+Théorème de Kutta-Jukowski
+Oléohydraulique
+Réseaux hydrauliques
+Thermohydraulique
+Bélier hydraulique
+Centres d'études en mécanique des fluides
+Office national d'études et de recherches aérospatiales
+Liens externes[modifier | modifier le code]
+Mécanique des fluides - RNChimie [PDF]
+Calculs en mécanique des fluides - Euro Simulation Engineering
+v · d · m
+Mécanique des fluides
+Fluides
+Fluide caloporteur • Fluide de Stokes • Fluide hydraulique • Fluide incompressible • Fluide parfait • Fluide électrorhéologique
+Écoulements
+Écoulement complexe • Écoulement de Couette • Écoulement de Poiseuille • Écoulement incompressible • Écoulement laminaire • Écoulements torrentiel et fluvial • Écoulement polyphasique
+Équations
+Équations de Navier-Stokes • Théorème de Bernoulli • Équation de Darcy-Weisbach • Équation de Prony • Équation de Rankine-Hugoniot • Équation de Schlichting • Écoulement de Stokes • Équations d'Euler • Équation de continuité • Équations primitives atmosphériques
+Principaux
+nombres sans dimension
+Nombre d'Archimède • Nombre capillaire • Nombre d'Ekman • Nombre d'Ellis • Nombre de Bond • Nombre de Bulygin • Nombre de Cameron • Nombre de Fedorov • Nombre de Froude • Nombre de Galilée • Nombre de Grashof • Nombre de Goucher • Nombre de Hartmann • Nombre de Hedström • Nombre de Hersey • Nombre de Karlovitz • Nombre de Kutateladze • Nombre de Lewis • Nombre de Mach • Nombre d'Ohnesorge • Nombre de Prandtl • Nombre de Rayleigh • Nombre de Reech • Nombre de Reynolds • Nombre de Rossby • Nombre de Rouse • Nombre de Schmidt • Nombre de Stewart • Nombre de Strouhal • Nombre de Taylor • Nombre de Weber
+v · d · m
+Grandeurs sans dimension en mécanique des fluides
+Par ordre alphabétique
+absorption · accélération · Alfven · Archimède · Atwood · Bagnold · Bansen · Bejan · Blake · Bodenstein · Boltzmann · Bond · Boussinesq · Brinkman · Bulygin · Cameron · capillaire · capillarité · Cauchy · cavitation · Clausius · condensation · Cowling · Crocco · Damköhler · Dean · Deborah · Eckert · Ekman · Ellis · Elsasser · Eötvös · Euler · Fedorov · Froude · Galilée · Goucher · Graetz · Grashof · Gukhman · Hatta · Hagen · Hartmann · Hedström · Hersey · Jeffreys · Joule · Karlovitz · Kirpichev · Kirpitcheff · Knudsen · Kutateladze · Laplace · Lewis · Lundquist · Mach · Mach critique · Marangoni · Morton · Newton · Nusselt · Ohnesorge · Péclet · Prandtl · puissance · Rayleigh · Reech · Reynolds (magnétique) · Richardson · Rossby · Rouse · Schiller · Schmidt · Sherwood · Stanton · Stewart · Stokes · Strouhal · Taylor · Thring · Weber · Womersley
+-- Catégorie:Nombre adimensionnel utilisé en mécanique des fluides --
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Mécanique_des_fluides&oldid=109791538 ».
+Catégorie : Mécanique des fluidesCatégories cachées : Catégorie Commons avec lien local identique sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Euskara
+فارسی
+Suomi
+Gaeilge
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Հայերեն
+Bahasa Indonesia
+Ido
+Italiano
+日本語
+Basa Jawa
+Қазақша
+한국어
+മലയാളം
+मराठी
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Oromoo
+Polski
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Türkçe
+Українська
+اردو
+Oʻzbekcha
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 8 décembre 2014 à 22:35.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

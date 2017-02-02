@@ -1,0 +1,175 @@
+Équation d'état — Wikipédia
+Équation d'état
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En physique, et plus particulièrement en thermodynamique, une équation d'état d'un système à l'équilibre thermodynamique est une relation entre différents paramètres physiques (appelés variables d'état) qui déterminent son état. Il peut s'agir par exemple d'une relation entre sa température, sa pression et son volume. À partir de l'équation d'état caractéristique d'un système physique, il est possible de déterminer la totalité des quantités thermodynamiques décrivant ce système et par suite de prédire ses propriétés.
+Les équations d'état sont généralement restreintes à un type de comportement ou de phénomènes physiques donnés. Un même corps peut donc avoir plusieurs équations d'état, concernant par exemple son état magnétique ou son état thermodynamique.
+Pour qu'un corps puisse être caractérisé par une équation d'état à un instant donné, il faut que l'état de ce corps dépende uniquement des valeurs prises par les paramètres à cet instant. Les corps présentant un phénomène d'hystérésis ne peuvent donc pas être caractérisés par une équation d'état.
+Sommaire
+1 Exemple d'un fluide
+2 Quelques exemples d'équations d'état
+2.1 Gaz parfait à l'équilibre thermodynamique global (ETG)
+2.2 Gaz parfait à l'équilibre thermodynamique local (ETL)
+2.3 Polytrope
+2.4 Équation d'état de van der Waals
+2.5 Équation d'état du viriel
+2.6 Gaz de photons
+2.7 Équation d'état du paramagnétisme
+2.8 Autres
+3 Articles connexes
+Exemple d'un fluide[modifier | modifier le code]
+Comme exemple le plus simple, considérons un fluide (gaz ou liquide) en équilibre thermodynamique. On utilise couramment quatre variables d'état :
+sa pression P,
+sa température T,
+son volume V ,
+le nombre de particules N.
+Une telle relation est insuffisante pour caractériser un fluide. Il faut de plus une indication d'ordre énergétique.
+La thermodynamique indique que la variable caractéristique est l'énergie interne U fonction de l'entropie S, du volume V et du nombre de particules N. Une fois la relation entre ces quatre variables connue, il est toujours possible de calculer les dérivées partielles de l'énergie interne par rapport à l'entropie et au volume pour en déduire la température et la pression, ce qui permet de retrouver, au moins localement, l'équation d'état en termes de P, V, T et N. Via la méthode de changement des variables due à Legendre, on peut montrer que le jeu de 4 variables caractéristiques le plus commode est : l'enthalpie libre G ( :=U+PV-TS) fonction de P et T aisément mesurables : G = N.f(P,T). Alors comme la différentielle dG vaut dG = V.dP -S.dT ( +f.dN), il apparaît que l'on obtient directement
+pour équation d'état : raison pour laquelle les tables thermodynamiques donnent souvent G(P,T)/N.
+À la limite des grands N (V/N fini), qui est le cadre de la thermodynamique, on obtient donc une relation entre les trois quantités V/N , P et T appelée ordinairement équation d'état.
+Quelques exemples d'équations d'état[modifier | modifier le code]
+Gaz parfait à l'équilibre thermodynamique global (ETG)[modifier | modifier le code]
+L'équation d'état d'un gaz parfait à l'E.T.G s'écrit :
+,
+kB étant la constante de Boltzmann. L'équation peut bien sûr être exprimée en termes de la densité particulaire n  : .
+On trouve également dans la littérature l'expression :
+.
+Cette fois ci n correspond au nombre de moles du gaz considéré. La constante R est la constante universelle des gaz parfaits et vaut 8,314472 m2.kg.s-2.K-1.mol-1. La relation entre R et
+est simplement .
+Gaz parfait à l'équilibre thermodynamique local (ETL)[modifier | modifier le code]
+En pratique rien n'assure que la matière considérée a une pression, une température et une densité uniformes dans tout le volume du gaz ; on parle alors d'état d'équilibre thermodynamique local (s'il a eu le temps de se réaliser, sinon on dit que le phénomène est hors ETL). Il est donc souvent pertinent d'écrire l'équation d'état en un point x donné de l'espace :
+.
+Polytrope[modifier | modifier le code]
+Un polytrope est défini par le fait que son équation d'état ne dépend pas explicitement de sa température, souvent par relation adiabatique. L'équation d'état d'un polytrope s'écrit
+,
+κ étant une constante, ainsi que γ, qui est appelé indice adiabatique.
+Équation d'état de van der Waals[modifier | modifier le code]
+Article détaillé : équation d'état de van der Waals.
+L'équation d'état des gaz parfaits ne permet pas de rendre compte de certaines propriétés cruciales, en particulier le fait qu'un fluide puisse exister à l'état liquide et à l'état gazeux. Des équations d'états plus sophistiquées permettent de rendre compte de cette possibilité d'exister dans plusieurs états. La plus simple équation d'état le permettant est appelée équation d'état de van der Waals. Elle s'écrit :
+.
+Cette équation permet d'expliquer l'existence de deux états différents pour le fluide, ainsi que le fait qu'au-delà d'une certaine température et d'une certaine pression, il n'est plus possible de distinguer un liquide d'un gaz.
+Le terme homogène à un volume
+correspond au volume intrinsèque occupé par les N molécules du fluide considéré (au sens large). Le volume moléculaire propre b ou covolume dépend donc de la nature du fluide considéré.
+Le terme
+correspond à une pression. Ce terme de pression dit de cohésion peut-être vu comme la résultante des forces d'interaction par unité de surface entre les molécules du fluide (Il peut s'agir par exemple d'interaction dipolaires). Tout comme le paramètre « b », « a » dépend de la nature du fluide considéré. Ces deux paramètres peuvent, dans le cas général, être des fonctions plus ou moins compliquées des autres grandeurs thermodynamiques.
+Équation d'état du viriel[modifier | modifier le code]
+Article détaillé : Équation du viriel.
+L'équation du viriel est une équation d'état pour les gaz réels qui comporte un développement en série de puissances de  :
+L’équation proposée est purement empirique, les valeurs des coefficients A, B, C, . . . étant choisis de façon à ce que l’équation cadre avec les données expérimentales.
+Gaz de photons[modifier | modifier le code]
+Si l'on considère un gaz de photons à l'équilibre thermodynamique, ceux-ci obéissent à une équation d'état très simple, à savoir :
+,
+la densité de photons étant elle-même fixée par la relation
+,
+où
+est la constante de Planck réduite, c la vitesse de la lumière et ζ la fonction zêta de Riemann (ζ(3) valant approximativement 1,202).
+Équation d'état du paramagnétisme[modifier | modifier le code]
+Dans un domaine complètement différent, celui du paramagnétisme, il est possible de décrire les variables d'état d'un cristal paramagnétique soumis à un champ magnétique extérieur. Cette fois, les variables d'état sont : outre le nombre de particules N, la température T, et le volume V, on a l'aimantation moyenne M, et l'intensité du champ magnétique. On montre que l'équation d'état s'écrit
+,
+où les quantités g et μB sont le facteur de Landé et le magnéton de Bohr.
+Cette équation permet de comprendre le refroidissement par coupure de champ adiabatique (très utilisée par Giauque, Nobel chimie 1949).
+Autres[modifier | modifier le code]
+Dans le domaine de la physique des trous noirs, l'ensemble des paramètres macroscopiques qui décrivent un trou noir (masse, charge électrique, moment cinétique) permettent de déterminer sa surface (plus précisément la surface de son horizon). Cette relation présente des similarités extrêmement frappantes avec une équation d'état en thermodynamique, pourvu que l'on assimile la masse à l'énergie interne et la surface à l'entropie. Cette analogie a donné naissance à la thermodynamique des trous noirs.
+Dans le domaine des hautes pressions en science de la terre ou en physique du solide, on utilise les équations d'état de Murnaghan, de Birch-Murnaghan, ou de Vinet.
+Dans le domaine des polymères, on utilise l'équation d'état pvT.
+Articles connexes[modifier | modifier le code]
+Thermodynamique
+Fonction d'état
+Transition de phase
+Gaz de van der Waals
+Gaz de Dieterici
+Thermodynamique des trous noirs
+v · d · m
+État de la matière
+États « courants »
+État solide · État liquide · État gazeux · État plasma · Fluide
+États à basse température
+Condensat de Bose-Einstein · Gaz de fermions dégénéré · Superfluide · Supersolide
+États à haute énergie
+Matière dégénérée · Plasma quark-gluon · Fluide supercritique
+Autres états
+Colloïde · État polyphasique · Mésophase · Cristal liquide · Trou noir
+Concepts
+Changement d'état · Diagramme de phase · Transition de phase · Transition vitreuse · Point de fusion · Point d’ébullition · Point triple · Point critique · Équation d’état · Polymorphisme · Polyamorphisme · Polysomatisme · Surfusion
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Équation_d%27état&oldid=109397615 ».
+Catégories : Équation et formule en thermodynamiqueChimie généraleThermodynamique chimiqueMatière exotiqueCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Català
+Čeština
+Deutsch
+English
+Esperanto
+Español
+Eesti
+فارسی
+עברית
+हिन्दी
+Bahasa Indonesia
+Italiano
+日本語
+Қазақша
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Piemontèis
+Português
+Русский
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+Türkçe
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 24 novembre 2014 à 19:01.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

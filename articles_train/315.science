@@ -1,0 +1,115 @@
+Masse — Wikipédia
+Masse
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Masse (homonymie).
+Ne doit pas être confondu avec Poids.
+La masse est la grandeur positive intrinsèque du corps intervenant directement dans le principe fondamental de la dynamique : c'est donc une notion présente dans de nombreuses relations de la physique classique et dans les calculs qui en découlent. Son unité est le kilogramme dans le système international d'unités (S.I.). Elle est souvent confondue, à tort, avec le poids, dont la valeur dépend de la pesanteur et dont l'unité est le newton (Symbole N).
+Le terme masse est utilisé pour désigner deux grandeurs attachées à un corps :
+La masse inerte du corps qui caractérise son inertie.
+la masse grave du corps qui détermine la force de gravitation.
+Ces deux grandeurs sont a priori distinctes, mais leur égalité est expérimentalement vérifiée à 10-12 près (c'est en fait leur proportionnalité indépendante de la nature du corps qui est vérifiée, d'où leur égalité par un choix judicieux d'unités de mesure) ; on se permet dès lors de parler de la masse d'un corps. Nonobstant toutes sortes de transformations physiques et chimiques, la conservation de la masse a longtemps été expérimentalement observée, puis admise comme une grandeur fondamentale et confondue avec « la quantité de matière » (Isaac Newton l'a définie comme telle dans ses Principia Mathematica)[1].
+La relativité restreinte montre que la masse (inertielle) constitue une forme d'énergie du corps qui, dès lors, n'est pas strictement invariante : par exemple, la dissipation d'énergie sous forme lumineuse se traduit par une perte de masse qui n'est pas envisagée par la physique classique. La connaissance de la constitution de la matière offre d'autres exemples de pertes de masse par l'utilisation de l'énergie sous forme de liaisons atomiques.
+La relativité générale dérive entre autres du principe d'équivalence qu'Einstein présente comme une « interprétation » de l'égalité de la masse inerte et de la masse grave en termes de relativité du mouvement accéléré.
+La physique quantique utilise l'équivalence masse-énergie pour caractériser les particules virtuelles, responsables des interactions entre particules. En particulier, le boson de Higgs, qui semble avoir été découvert[2] le 4 juillet 2012 par l'expérience CMS et ATLAS au CERN, est, dans la théorie du modèle standard, considéré comme responsable de l'acquisition de masse par les particules.
+L'unité SI de masse est le kilogramme (kg) et non pas[3] le gramme (g). On utilise également la tonne (t), égale à 1 000 kg, et l'unité de masse atomique. Du fait de l'équivalence masse-énergie révélée par la fameuse formule E=mc2, les physiciens spécialistes des particules utilisent la même unité de mesure pour la masse et l'énergie, en général un multiple d'électron-volt/c², ce qui est rendu indispensable par l'observation quotidienne, dans les accélérateurs de particules, de la transformation de l'énergie en ses différentes formes : masse, énergie cinétique, énergie de liaison, lumière.
+Sommaire
+1 Masse inerte
+1.1 Définition
+2 Masse grave
+2.1 Définition
+2.2 Masse et poids
+3 Égalité entre masse inerte et masse grave
+4 Masse et quantité de matière
+4.1 Exemple de distinction
+5 Masse, énergie et relativité
+5.1 En relativité restreinte
+5.1.1 Invariant relativiste
+5.1.2 Masse au repos et masse relativiste
+5.2 En relativité générale
+6 En physique quantique
+6.1 Masses des particules
+6.2 Boson de Higgs
+7 Mesure de la masse
+7.1 À l'échelle humaine
+7.2 Pour les corps célestes
+7.3 Pour les particules
+8 Notes et références
+9 Voir aussi
+9.1 Articles connexes
+9.2 Bibliographie
+Masse inerte[modifier | modifier le code]
+Définition[modifier | modifier le code]
+La masse inerte (inertielle) d'un corps est la grandeur physique utilisée pour calculer la force nécessaire pour qu'un corps acquière une accélération, en fonction de celle-ci. C'est la quantification de la résistance du corps aux accélérations. Cette masse inerte a été considérée comme une mesure de la quantité de matière du corps depuis Isaac Newton jusqu'à l'avènement de la relativité restreinte.
+Mathématiquement, cela s'exprime par l'égalité
+où
+est l'accélération acquise et
+est la force nécessaire à l'obtention de cette accélération.
+Isaac Newton a défini la masse inerte comme une mesure de la quantité de matière et a considéré que pour imprimer à une quantité de matière doublée une même accélération, il fallait le double de force. En physique classique, la masse inerte est ainsi supposée extensive : en mêlant deux corps, on obtient un troisième corps dont la masse est la somme des masses des deux corps initiaux.
+Au quotidien, la masse inerte se perçoit quand on manipule un chariot vide, et donc facile à manœuvrer, sur un sol plat, puis que l'on manœuvre ce même chariot rempli : il est alors plus difficile à ébranler (mais on pourrait mettre cela sur le compte du poids et des frottements accrus qui en résultent au niveau des roues), il est aussi plus difficile de lui faire prendre un virage et de l'arrêter (ce que l'on ne peut pas mettre sur le compte de frottements accrus du fait du poids).
+Masse grave[modifier | modifier le code]
+Définition[modifier | modifier le code]
+La masse grave (gravifique, gravitationnelle) est la grandeur physique intervenant dans le calcul de la force de gravitation créée ou subie par un corps. Du moins, c'est ainsi qu'Isaac Newton l'a introduite dans la loi universelle de la gravitation et qu'elle a été utilisée jusqu'à la relativité générale.
+Concrètement, la gravitation étant supposée « universelle », tous les corps s'attirent les uns les autres, et si un corps A a deux fois plus de la même matière qu'un corps B, alors A engendre une force de gravitation comme s'il y avait deux corps B à sa place : la force de gravitation est donc proportionnelle à la quantité de matière. En physique classique, la masse grave est aussi supposée extensive.
+Masse et poids[modifier | modifier le code]
+Article détaillé : Poids.
+Il ne faut pas confondre la masse (grave) et le poids. Le poids d'un corps est une force, due principalement[4] à l'action qu'exerce sur lui le champ gravitationnel.
+Considérons par exemple un objet de masse m suspendu à un dynamomètre. La Terre exerce sur cet objet une force F, appelée poids de l'objet, qui est donnée par la loi universelle de la gravitation : en supposant la terre parfaitement sphérique, le poids de l'objet est proportionnel à sa masse et inversement proportionnel au carré de sa distance au centre de la terre. Donc, suivant l'altitude son poids est variable. Par exemple, à Paris, où g = 9,81 N/kg, une masse de 10 kg pèse donc 98 N (même si l'on dit couramment, dans la vie quotidienne, qu'un objet pèse 10 kg) ; et au sommet de l'Everest son poids est légèrement plus petit.
+La masse grave est un coefficient intervenant dans la force gravitationnelle qu'exerce, et subit, le corps. Sa masse ne change pas en fonction du lieu où il se situe.
+Égalité entre masse inerte et masse grave[modifier | modifier le code]
+Article détaillé : Principe d'équivalence.
+Il existe donc deux masses pour chaque corps :
+La masse inerte est une propriété de la matière qui se manifeste par l'inertie des corps. Concrètement, une masse de 20 kg résiste deux fois plus à l'accélération qu'une masse de 10 kg.
+La masse grave (du latin gravis, lourd) est une propriété de la matière qui se manifeste par l'attraction universelle des corps. Concrètement, une masse de 20 kg crée autour d'elle un champ de gravité deux fois plus intense qu'une masse de 10 kg ; par ailleurs, en présence d'un même champ de gravité extérieur (celui de la Terre par exemple), la masse de 20 kg subira une force (le poids) deux fois plus grande que la masse de 10 kg.
+À part le fait d'être toutes les deux proportionnelles à la quantité de matière (proportionnalité approximative comme cela a été montré à partir du début du XXe siècle), la masse grave et la masse inerte semblent a priori n'avoir aucun lien entre elles et constituer deux propriétés de la matière tout à fait indépendantes l'une de l'autre[5] : on pourrait imaginer deux corps de natures différentes, ayant la même masse inerte et des masses graves différentes.
+Cependant tous les résultats expérimentaux indiquent qu'elles sont toujours directement proportionnelles entre elles, avec un même coefficient de proportionnalité pour toutes les matières expérimentées. Ce fait d'expérience constitue le principe d'équivalence entre masse inerte et masse grave. Albert Einstein l'admit tel quel et en donna une interprétation en termes de relativité du mouvement, et ce fut une avancée fondamentale vers la formulation des lois de la relativité générale.
+À notre échelle, cette équivalence semble évidente, et l'égalité
+est démontrée expérimentalement à 10-12 près : en choisissant la même unité de mesure pour les deux masses, leur universelle proportionnalité (expérimentale) se traduit par leur égalité. Pourtant, certaines théories scientifiques comme la théorie des cordes prédisent qu'elle pourrait cesser d'être vérifiée à des échelles beaucoup plus fines.
+Masse et quantité de matière[modifier | modifier le code]
+Le Système international d'unités, continuellement amélioré depuis le XXe siècle, établit une distinction fondamentale entre la quantité de matière, mesurée en mole, et la masse, mesurée en kilogramme.
+La masse d'un corps est définie, par Newton, comme une mesure de la quantité de matière de ce corps. Vers 1785, Antoine Lavoisier mit en évidence la loi de conservation de la masse d'un système fermé « quelles que soient les transformations physicochimiques dont il peut être le siège ». Cette loi, qui se révéla approximative, confirmait la définition de la masse et permit de s'en servir comme constante dans les transformations chimiques (d'où la classification des éléments chimiques en fonction de leur masse atomique dans le tableau de Mendeleiev) et fut un élément de mesure permettant, entre autres, de mettre en évidence l'existence des atomes[1].
+La relativité restreinte et la physique atomique révèlent que masse et quantité de matière sont deux quantités qui ne sont pas exactement proportionnelles (donc que la masse n'est pas extensive) ; bien que pour une substance inerte[6] donnée (le carbone par exemple), la masse est directement proportionnelle à la quantité de matière : dix grammes de carbone contiennent bel et bien dix fois plus de matière qu'un seul gramme de carbone.
+Exemple de distinction[modifier | modifier le code]
+Une mole d'atomes de carbone 12 et trois moles d'atomes d'hélium 4 contiennent le même nombre de protons, de neutrons et d'électrons, soit 6 moles de protons, 6 moles de neutrons et 6 moles d'électrons. Or il se trouve que la masse d'une mole de carbone 12 vaut exactement 12 grammes (par définition même du nombre d'Avogadro) alors que la masse de trois moles d'hélium 4 vaut 3 x 4,0026[7] = 12,0078 grammes. Cela revient à dire qu'à l'échelle atomique, un atome de carbone 12 a une masse légèrement inférieure à celle de trois atomes d'Hélium 4, bien que l'on ait affaire dans un cas comme dans l'autre à 6 protons, 6 neutrons et 6 électrons. Puisque des quantités parfaitement identiques de protons, de neutrons et d'électrons peuvent avoir des masses différentes selon le type d'atome auquel ils appartiennent, il s'ensuit qu'on ne peut pas assimiler tout simplement la masse à la quantité de matière.
+Dans cet exemple, la différence de masse observée s'explique par la différence entre les énergies de liaison nucléaire de l'hélium et du carbone : si la masse est comprise comme une forme de l'énergie contenue dans la matière, on conçoit que des liaisons atomiques différentes utilisent des quantités différentes d'énergie et en laissent plus ou moins sous la forme de masse. Que la masse soit considérée comme une forme de l'énergie contenue dans la matière vient de la fameuse formule .
+Masse, énergie et relativité[modifier | modifier le code]
+En relativité restreinte[modifier | modifier le code]
+La relativité restreinte utilise la masse inerte
+par le biais de la quantité de mouvement et permet d'identifier l'énergie E du corps au repos à
+(où c est la vitesse de la lumière)[8]. Dès lors, on peut considérer la masse comme une forme d'énergie, appelée énergie de masse, et il apparaît que la notion véritablement invariante au cours des transformations physiques n'est pas la masse mais l'énergie qui se manifeste successivement sous différentes formes : sous forme de masse, d'énergie cinétique, d'énergie de liaison entre particules.
+Ce lien entre énergie et masse permet d'utiliser la même unité de mesure pour la masse et l'énergie : une unité de mesure de l'énergie, par exemple l'électron-volt est souvent utilisé pour exprimer la masse des particules élémentaires.
+L'énergie nucléaire, qu'elle provienne de la fusion ou de la fission, résulte de la transformation d'une certaine quantité de masse en énergie.
+Quand un noyau de deutérium et un noyau de tritium fusionnent ensemble pour former un noyau d'hélium 4 (avec éjection d'un neutron), la masse finale est inférieure à la masse initiale et la différence, ou défaut de masse, apparait sous forme d'énergie cinétique.
+Il arrive parfois que de la matière s'annihile au cours d'une transformation de masse en énergie. C'est le cas par exemple lorsqu'un électron entre en collision avec un positron : les deux particules disparaissent complètement et toute leur masse se transforme en rayonnement électromagnétique, sous forme de deux photons gamma hautement énergétiques (511 keV). Le phénomène inverse, la matérialisation de l'énergie par création de paires, est également possible.
+Invariant relativiste[modifier | modifier le code]
+La masse au carré est l'invariant relativiste (la pseudo-norme) du quadrivecteur impulsion ou quadri-moment, , ce qui permet d'écrire la relation[9] , où m est la masse, E l'énergie totale du corps (énergie de masse + énergie cinétique) et p sa quantité de mouvement.
+Masse au repos et masse relativiste[modifier | modifier le code]
+La relation relativiste
+amène certains auteurs à parler de la « masse au repos »
+et de la « masse en mouvement » ou « masse relativiste » , ce qui n'a pas de sens dans le cas où la masse est nulle car alors la particule (par exemple un photon) ne peut être au repos et ne peut avoir comme vitesse que celle de la lumière. D'autres considèrent que l'appellation de « masse » doit être réservée à la masse au repos, et que l'égalité
+ne permet que de parler d’énergie au repos et d’énergie à la vitesse v, « trouvant souhaitable que le mot masse s'applique à une propriété intrinsèque » du corps et sans lien avec sa vitesse, qui est relative au référentiel de l'observateur[10]. Aussi, dans cette optique, il n'y a qu'une seule masse, la masse invariante, liée au quadri-vecteur énergie-impulsion. On ne parle alors plus de masse au repos et de masse en mouvement.
+Dans le cadre de l'appellation de « masse au repos » et « masse en mouvement », on considère que les accélérateurs de particules permettent de transformer de l'énergie en masse. Cela permet de voir plus facilement dans quel régime d'énergie on se trouve et de savoir si l'on peut s'attendre à l'apparition de nouvelles particules. Ainsi par exemple, quand on accélère un électron jusqu'à 99.999 % de la vitesse de la lumière, on peut considérer que sa masse devient environ 224 fois plus grande qu'au repos. C'est ainsi que l'on peut affirmer que lors d'une collision d'un électron et d'un positron accélérés à 99.999% de la vitesse de la lumière, on peut produire des muons, qui sont effectivement 206 fois plus massifs que des électrons.
+En relativité générale[modifier | modifier le code]
+La masse grave n'a pas sa place en relativité restreinte car la gravitation n'a pu y être incluse en respectant à la fois les principes relativistes et les observations. Toutefois, pour l'élaboration d'une gravitation relativiste, Einstein est parti du constat de l'égalité entre masse grave et masse inerte pour en tirer une « interprétation » sous la forme d'un nouveau principe : son « principe d'équivalence ». Ensuite, dans la théorie de la relativité générale, le rôle de la masse grave est tenu par l'énergie du corps, exprimée sous la forme du tenseur énergie-impulsion, prolongeant ainsi l'identité liant la masse inerte et l'énergie établie en relativité restreinte.
+En physique quantique[modifier | modifier le code]
+Masses des particules[modifier | modifier le code]
+La masse des particules élémentaires (leptons et quarks) est une propriété intrinsèque de ces particules (qu'elle soit due ou non au boson de Higgs[réf. nécessaire]). Autrement dit, les particules élémentaires ont chacune une masse bien définie. La masse, dans le cadre de la physique des hautes énergies, n'est pas une quantité extensive (additive). La masse de trois quarks pris individuellement, n'est pas égale à la masse d'un baryon contenant ces mêmes types de quarks : la masse du baryon résultant est égale à la somme des masses des trois quarks qui le constituent moins l'équivalent masse de l'énergie de liaison par la relation d'Einstein. C'est ainsi que les protons et les neutrons, ont une masse (env. 940 MeV) bien différente de la somme des masses des quarks qui les composent (quark up et quark down) (d'env. 10 MeV). Dans cet exemple, la grande différence de masse indique que la force nucléaire entre les quarks est très grande : c'est l'interaction nucléaire forte.
+Dans la vie de tous les jours, à notre échelle et lors de processus de basse énergie, on considère volontiers que la masse est une grandeur additive : si l'on prend deux paquets de sucre de 1 kg, on obtient 2 kg de sucre.
+Boson de Higgs[modifier | modifier le code]
+Article détaillé : Boson de Higgs.
+Au niveau des particules élémentaires, la masse des bosons de jauge de l'interaction faible (boson W et boson Z) , serait due au boson de Higgs, leur donnant ainsi des propriétés différentes de celles du boson de l'électromagnétisme, le photon. La découverte de ce boson serait une confirmation du modèle standard qui le prédit et dont la cohérence dépend de son existence. Dans le modèle standard, un couplage des particules élémentaires au boson de Higgs permettrait d'expliquer la provenance de la masse de ces particules, qui auraient alors, au niveau fondamental, une masse nulle. Du coup, le, ou les, boson(s) de Higgs serai(en)t responsable de la masse de toutes les particules élémentaires ainsi que de celle de certains bosons d'échange des interactions.
+Mesure de la masse[modifier | modifier le code]
+À l'échelle humaine[modifier | modifier le code]
+La mesure de la masse s'appelle le pesage, bien que ce terme provienne du mot « poids ».
+La seule manière de mesurer directement une masse consiste à la comparer à une autre masse ; c'est le principe des balances (de type Roberval). Par cette méthode, on mesure des masses relatives : l'utilisation d'une masse unitaire (ainsi que ses multiples et sous-multiples) permet une mesure de l'autre masse. Cette méthode donne le même résultat sur la Terre et sur la Lune.
+On peut aussi estimer la masse à partir du poids, c'est-à-dire que l'on mesure la force qu'exerce l'objet à peser ; le dispositif est en fait un dynamomètre. C'est le cas le plus courant des pèse-personne et des balances électroniques. Cette méthode ne donne pas le même résultat sur la Terre et sur la Lune car le dynamomètre fait intervenir une force indépendante de la gravitation (celle du ressort), alors que la force de gravitation s'exerçant sur un corps donné sera différente sur Terre et sur la Lune : pour mesurer la masse d'un corps, il faut donc avoir étalonné le dynamomètre avec une masse de référence.
+On peut aussi estimer une masse par la perturbation du champ de gravité qu'elle induit. Cette mesure par gravimétrie n'est utilisable que pour les objets extrêmement lourds et est utilisée en géologie pour estimer la taille d'une formation rocheuse, ainsi qu'en archéologie.
+Remarques
+Il faut se rappeler que la livre, en France, n'avait pas la même valeur sur tout le territoire : la provençale, la parisienne ou encore la bretonne n'avaient pas tout à fait la même valeur et aujourd'hui encore, la livre tout comme le gallon n'ont pas la même valeur aux États-Unis et au Royaume-Uni
+Beaucoup de marchandises se vendaient au volume, par boisseaux ou encore par barils, soit 18 boisseaux (235 litres) — différent du baril pétrolier qui ne fait que 158,98 litres.
+Dans l'Union européenne, de nombreuses masses (et volumes) sur les produits de consommation sont indiquées en quantité estimée. Ils sont marqués comme tel, d'un « e » minuscule.
+Le kilogramme est l'unité de masse et non de poids.
+Pour les corps célestes[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Pour les particules[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !

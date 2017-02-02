@@ -1,0 +1,115 @@
+Ferroélectricité — Wikipédia
+Ferroélectricité
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+On appelle ferroélectricité la propriété selon laquelle un matériau possède une polarisation électrique à l'état spontané, polarisation qui peut être renversée par l'application d'un champ électrique extérieur. La signature d'un matériau ferroélectrique est le cycle d'hystérésis de la polarisation en fonction du champ électrique appliqué. Le préfixe ferro- fut emprunté au ferromagnétisme par analogie.
+L'étude des matériaux ferroélectriques est relativement récente ; il fallut attendre le début des années 1950 et la découverte d'oxydes ferroélectriques simples de structure pérovskite pour pouvoir progresser dans la compréhension de cette propriété.
+Aujourd'hui, les matériaux ferroélectriques sont très largement exploités en microélectronique en raison de leurs propriétés diélectriques qui peuvent être ajustées avec la composition chimique ou encore la mise en forme du matériau. Ils sont utilisés pour la réalisation de divers composants : filtres, condensateurs etc.
+On peut expliquer cela simplement en évoquant le décalage des barycentres des charges positives et négatives.
+Sommaire
+1 Historique
+2 Cycle d'hystérésis ferroélectrique
+3 Ferroélectricité et symétrie
+4 Transitions de phases ferroélectriques
+5 Domaines ferroélectriques
+5.1 Observation des structures en domaines
+5.2 Symétrie locale vs. symétrie macroscopique
+5.3 Contrôle de la structure en domaines
+5.4 Comparaison avec le magnétisme
+5.5 Influence sur les propriétés macroscopiques
+6 Théories de la ferroélectricité
+6.1 Théorie du « mode mou »
+6.2 Théorie de Landau
+6.3 Théorie quantique
+6.4 Calculs semi-empiriques, dynamique moléculaire
+7 Ferroélectricité impropre
+8 Utilisations des matériaux ferroélectriques
+9 Antiferro- et ferriélectricité
+10 Notes et références
+11 Bibliographie
+11.1 Ouvrages
+11.2 Articles de revues
+Historique[modifier | modifier le code]
+La ferroélectricité a été mise en évidence pour la première fois en 1921 dans le sel de Seignette, un sel de composition chimique et de structure cristallographique complexe[1]. Pendant 25 ans environ, la ferroélectricité ne fut connue que dans ce composé. Sa complexité a freiné les recherches et laissé penser que la ferroélectricité était une propriété tout à fait exotique nécessitant des conditions bien particulières (liaisons hydrogène notamment). De plus, cette propriété ne trouvait alors aucun intérêt pratique.
+Un saut majeur dans l'étude des ferroélectriques a été la découverte au début des années 1950 des oxydes ferroélectriques de structure pérovskite : BaTiO3, PbTiO3, etc. Ces matériaux plus simples ont ainsi permis le développement des théories de la ferroélectricité, et ont ouvert la voie à l'utilisation industrielle des matériaux ferroélectriques dont les propriétés diélectriques et piézoélectriques sont aujourd'hui mises à profit dans une grande variété de contextes, depuis les matériaux céramiques jusqu'aux circuits électroniques, sous forme miniaturisée et intégrée.
+Il fallut attendre les années 1990 pour voir émerger une théorie quantique de la ferroélectricité. Ces développements conduisirent à redéfinir de manière cohérente la notion centrale de polarisation.
+Cycle d'hystérésis ferroélectrique[modifier | modifier le code]
+Schéma d'un cycle d'hystérésis
+Un matériau ferroélectrique est caractérisé par un cycle d'hystérésis décrit par la polarisation en fonction du champ électrique appliqué. De même que pour les matériaux ferromagnétiques, on parlera de ferroélectrique « dur » ou « mou » selon la forme de la courbe. Le cycle est caractérisé principalement par une polarisation rémanente, une polarisation de saturation et un champ électrique coercitif.
+Un cycle d'hystérésis est habituellement mesuré avec un montage dit de Sawyer-Tower.
+Les pertes diélectriques, toujours présentes dans le matériau peuvent déformer significativement le cycle d'hystérésis et rendent parfois l'interprétation des mesures hasardeuses.
+La polarisation est toujours liée à une déformation de la maille cristalline. Il existe donc également une hystérésis de la déformation en fonction du champ électrique appliqué. Dans une approche simplifiée, la déformation est simplement proportionnelle au carré de la polarisation. La forme du cycle de déformation décrit alors une courbe parfois appelée « courbe papillon ».
+Ferroélectricité et symétrie[modifier | modifier le code]
+L'existence d'une polarisation au sein d'un matériau n'est possible que pour certaines propriétés de symétrie de la structure cristalline. En particulier, un cristal ne peut pas être ferroélectrique si sa structure possède un centre de symétrie (structure dite centrosymétrique).
+De manière générale, on classe les cristaux suivant leurs symétries en 230 groupes d'espace regroupés en 32 classes cristallines. Il existe 21 classes non centrosymétriques, dont 20 sont piézoélectriques. Parmi ces classes piézoélectriques, 10 possèdent une polarisation électrique spontanée et sont dites polaires. Leur polarisation spontanée varie avec la température, ces cristaux sont donc pyroélectriques. Parmi les cristaux pyroélectriques enfin, certains seulement sont ferroélectriques.
+32 classes cristallines
+20 classes piézoélectriques
+non piézoélectriques
+10 classes polaires pyroélectriques
+non pyroélectriques
+ferroélectriques
+non ferroélectriques
+ex : BaTiO3, PbTiO3
+ex : Tourmaline
+ex : Quartz
+L'absence de centre de symétrie dans une structure s'explique parfois de manière naturelle par la géométrie. Dans les polymères PVDF, la symétrie est naturellement rompue par la substitution de deux atomes d'hydrogène par deux atomes de fluor, beaucoup plus électronégatifs, qui attirent à eux les charges électroniques négatives.
+Dans d'autres cas, la brisure de symétrie met en jeu des phénomènes plus complexes. C'est notamment le cas des ferroélectriques modèles qui possèdent à hautes températures une structure cristalline centrosymétrique, non ferroélectrique. À basses températures, la structure de haute symétrie devient instable et le cristal bascule dans une phase de plus basse symétrie. L'énergie d'interaction entre dipôles devient prépondérante et favorise le décalage des ions en dehors de leur position de haute symétrie, et l'apparition d'un ordre ferroélectrique à longue portée. La compréhension des raisons de cette transition, et le calcul quantitatif de la polarisation d'un matériau fait l'objet des différentes théories de la ferroélectricité.
+Transitions de phases ferroélectriques[modifier | modifier le code]
+Polarisation spontanée en fonction de la température dans les matériaux ferroélectriques.
+La compréhension des propriétés ferroélectriques d'un matériau passe par celle des transitions de phases qu'il présente.
+Un composé dit ferroélectrique ne l'est en général que dans un domaine de température et de pression donné. La plupart des ferroélectriques présentent à suffisamment haute température une phase paraélectrique. La température de transition paraélectrique-ferroélectrique est appelée température de Curie Tc.
+Une transition de phase ferroélectrique peut être étudiée expérimentalement par des mesures de constante diélectrique ou de polarisation. Habituellement on observe des anomalies des propriétés diélectriques à la température de Curie Tc. La forme de l'évolution de la polarisation, de la constante diélectrique, ou de toute autre grandeur physique reliée dépend des détails de la nature de la transition. Par exemple, une évolution continue de la polarisation de 0 dans la phase paraélectrique à une valeur finie dans la phase ferroélectrique est la signature d'une transition du second ordre selon la théorie de Landau. Dans une transition de premier ordre en revanche, elle peut présenter une discontinuité à la température de transition.
+On distingue généralement deux sortes de transitions ferroélectriques :
+La transition ordre-désordre : dans la phase paraélectrique, le composé présente une polarisation à l'échelle de la maille du cristal. Toutefois, ces dipôles permanents ne sont pas corrélés d'une maille à l'autre ; la polarisation macroscopique est donc nulle. Au contraire dans la phase ferroélectrique, les moments dipolaires des différentes mailles s'ordonnent. Il y a alors apparition d'une polarisation macroscopique.
+La transition displacive (de l’anglais displace qui veut dire déplacer) : le moment dipolaire est inexistant dans la phase paraélectrique, même au point de vue microscopique, généralement pour des raisons de symétrie cristalline (le matériau est alors dans sa phase cubique). Il apparaît au moment de la transition car le déplacement des atomes crée des dipôles orientés selon l’axe de déplacement.
+Ces deux modèles de transitions sont des modèles idéalisés. Dans un système réel, on peut trouver des transitions de phases qui présente des caractéristiques mixtes. On a longtemps considéré que le titanate de plomb était l'exemple type d'une transition displacive, toutefois des aspects caractéristiques d'une transition ordre-désordre ont également été mis en évidence[2].
+Domaines ferroélectriques[modifier | modifier le code]
+Lors d'une transition de phase depuis une phase paraélectrique vers une phase ferroélectrique, la polarisation permanente peut se développer dans plusieurs directions équivalentes. Dans le cas le plus général, rien ne favorise une direction plutôt qu'une autre et il se forme dans le cristal plusieurs régions de directions de polarisations différentes. Une région du cristal où la polarisation est homogène est appelée domaine ferroélectrique, et l'interface qui sépare deux domaines est appelée paroi (ou mur) de domaine. La présence de ces domaines et de ces parois a une influence considérable sur les propriétés électromécaniques macroscopiques du matériau.
+Les domaines ferroélectriques peut-être visualisés par de multiples méthodes[3]. La microscopie optique en lumière polarisée est une des méthodes les plus faciles à mettre en œuvre ; elle tire parti de la biréfringence des domaines ferroélectriques.
+Observation des structures en domaines[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Symétrie locale vs. symétrie macroscopique[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Contrôle de la structure en domaines[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Comparaison avec le magnétisme[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Influence sur les propriétés macroscopiques[modifier | modifier le code]
+La présence d'une structure en domaines dans un cristal ferroélectrique conduit, pour l'étude de ses propriétés, à distinguer deux contributions distinctes : la contribution dite « intrinsèque » due au matériau massif et la contribution « extrinsèque » due à tous les effets d'interface.
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Théories de la ferroélectricité[modifier | modifier le code]
+Théorie du « mode mou »[modifier | modifier le code]
+La théorie dite « du mode mou » est un modèle théorique de transition de phase ferroélectrique dans lequel un mode de vibration du réseau cristallin (ou phonon) joue un rôle prédominant. Le cas le plus couramment étudié et exposé est celui d'une transition de phase en fonction de la température, mais la théorie n'y est pas limitée. Par ailleurs, elle peut aussi s'appliquer aux transitions de phases ferroélastiques.
+On considère un cristal présentant à hautes températures une structure paraélectrique de haute symétrie et en dessous de sa température de Curie
+une structure ferroélectrique de symétrie plus basse. Le mode de vibration d'intérêt est un mode de phonon dit « polaire », c'est-à-dire qui s'accompagne d'une oscillation de la polarisation électrique. Dans la phase paraélectrique, à hautes températures, la polarisation oscille autour de 0 mais reste nulle en moyenne. A mesure que l'on baisse la température, la fréquence du phonon polaire baisse, et la vibration ralentit. On parle d'« amollissement » du mode. A la température critique, la fréquence tombe à 0, ce qui signifie que la structure paraélectrique devient instable. Le cristal bascule alors dans la phase ferroélectrique.
+La théorie du mode mou permet d'expliquer le pic de la constante diélectrique caractéristique d'une transition de phase ferroélectrique. En effet, la fréquence du mode mou est liée à la permittivité diélectrique via la relation de Lyddane-Sachs-Teller.
+Théorie de Landau[modifier | modifier le code]
+L'application de la théorie de Landau des transitions de phases aux ferroélectriques est souvent appelée théorie de Landau-Devonshire, en référence aux travaux fondateurs de A. F. Devonshire publiés en 1954[4],[5]. Comme toute application de la théorie de Landau, il s'agit d'une théorie phénoménologique issue d'une approche thermodynamique qui permet de rendre compte de manière quantitative de l'évolution des propriétés physique d'un ferroélectrique au cours de ses transitions de phase : polarisation, constante diélectrique, déformation etc.
+Dans cette approche, on développe le potentiel de Landau comme un polynôme en fonction de la polarisation qui joue le rôle de paramètre d'ordre primaire. La version la plus simple de la théorie consiste à se limiter à une seule composante de la polarisation (et non 3 comme dans un système réel). Dans ce système simplifié, seuls des coefficients d'exposants pairs interviennent dans le potentiel pour des raisons de symétrie. Limiter le développement au terme d'ordre 6 permet de couvrir les cas les plus usuels. De plus, on fait l'approximation que le premier coefficient dépend linéairement de la température autour de la température de Curie . Ceci conduit à écrire :
+L'analyse des ferroélectriques existants montre que les coefficients
+et
+sont positifs[5]. Le signe du coefficient
+détermine l'ordre de la transition :
+correspond à une transition du premier ordre,
+à une transition du second ordre. Le cas intermédiaire
+correspond à une transition dite « tricritique ».
+Théorie quantique[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Calculs semi-empiriques, dynamique moléculaire[modifier | modifier le code]
+Des modèles semi-empiriques ont été utilisés pour modéliser le comportement d'oxydes ferroélectriques. Ceux-ci sont basés sur des potentiels interatomiques entre les différentes espèces chimiques en présence, et rendent possibles des calculs de dynamique moléculaire. Ces calculs, malgré leur caractère empirique, sont bien moins coûteux en temps de calcul, nécessitent moins d'hypothèses sur l'importance des différents degrés de libertés en jeu et permettent une prise en compte plus facile des effets de la température. Les caractéristiques principales des diagrammes de phases de ferroélectriques modèles ont ainsi pu être reproduites[6].
+Ferroélectricité impropre[modifier | modifier le code]
+On distingue les ferroélectriques propres et impropres. Dans un ferroélectrique propre, la polarisation diélectrique est le paramètre d'ordre primaire, au sens de la théorie de Landau. Dans un ferroélectrique impropre au contraire, la ferroélectricité n'apparaît que comme la conséquence d'un autre phénomène physique. Les deux types de matériaux présentent des comportements différents : la constante diélectrique est globalement plus faible, sa dépendance en température n'obéit pas à la loi de Curie-Weiss, ses anomalies sont moins marquées lors des transitions etc[7].
+Utilisations des matériaux ferroélectriques[modifier | modifier le code]
+De leur découverte en 1920 jusqu'au milieu des années 1940, les ferroélectriques ont constitué une classe de matériaux peu nombreux, fragiles et difficiles à exploiter. Ceci a radicalement changé avec la découverte des oxydes simples ferroélectriques, au premier rang duquel BaTiO3. La synthèse de ces nouveaux matériaux a marqué le début de l'exploitation des ferroélectriques, principalement sous forme de céramiques. L'industrie des « électrocéramiques » produit aujourd'hui chaque année plusieurs milliards de condensateurs à base de BaTiO3[8].
+Les applications des ferroélectriques peuvent tirer parti de plusieurs propriétés remarquables :
+leur constante diélectrique, en général élevée, qui les rend bien adaptés à la réalisation de condensateurs, et la commandabilité de cette constante diélectrique par un champ électrique statique ;
+leurs propriétés pyroélectriques ;
+leurs propriétés piézoélectriques ;
+leur hystérésis de la polarisation qui permet le stockage de l'information, une propriété utilisée dans les Ferroelectric Random Access Memory (FRAM).
+Les matériaux ferroélectriques tel que le BST font l'objet de nombreuses études pour la réalisation de fonctions agiles aux fréquences micro-ondes. Ces matériaux ont des propriétés diélectriques, notamment une constante diélectrique, qui peuvent être modifiées sous l’action d’un champ électrique dont la commande est facilement intégrable sur les dispositifs planaires.
+Antiferro- et ferriélectricité[modifier | modifier le code]
+Par analogie avec les matériaux magnétiques, on parle d'antiferroélectricité et de ferriélectricité pour désigner différents ordres des moments dipolaires dans un matériau.
+Les matériaux antiferroélectriques sont caractérisés à l'échelle microscopique par la présence de dipôles électriques alignés en sens opposés, et macroscopiquement par une double courbe d'hystérésis de la polarisation en fonction du champ électrique. Relativement peu d'antiferroélectriques ont été identifiés et étudiés. On peut citer[9] :
+des oxydes de structure pérovskites : PbZrO3, PbHfO3, NaNbO3, AgNbO3, WO3 ;
+des cristaux des familles de NH4H2PO4 et (NH4)2H3IO6 ;
+diverses familles de cristaux liquides[10].

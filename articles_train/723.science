@@ -1,0 +1,118 @@
+Chromatographie en phase liquide — Wikipédia
+Chromatographie en phase liquide
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir CPL et LC.
+La chromatographie en phase liquide (CPL) ou liquid chromatography (LC) est une technique d'analyse quantitative, qualitative et séparative principalement utilisée dans le domaine de la chimie analytique comme outil scientifique majeur mais aussi dans des domaines variés tels que la chimie organique et la biochimie. Elle recouvre la chromatographie sur couche mince (CCM), la chromatographie sur papier, la chromatographie en phase liquide en colonne ouverte ou à basse pression, et la chromatographie en phase liquide à haute performance (HPLC).
+Ce type de chromatographie repose sur la séparation de composés entraînés par un liquide (phase mobile) à travers un solide divisé (phase stationnaire) qui est soit placé dans un tube (colonne chromatographique) , soit fixé sur une surface inerte.
+La séparation s'opère suivant les interactions chimiques ou physiques des analytes avec la phase mobile ainsi qu'avec la phase stationnaire.
+Sommaire
+1 Les différents types de chromatographie en phase liquide
+1.1 La chromatographie d'adsorption
+1.2 La chromatographie de partage
+1.3 La chromatographie d'affinité
+1.4 La chromatographie par échange d'ions
+1.5 La chromatographie d'exclusion stérique
+1.6 La chromatographie de paires d'ions
+1.7 La chromatographie d'échange de ligands
+2 Matériel
+3 En pratique
+4 Voir aussi
+5 Liens externes
+Les différents types de chromatographie en phase liquide[modifier | modifier le code]
+Ils sont classés ici selon les interactions des analytes avec la phase stationnaire.
+La chromatographie d'adsorption[modifier | modifier le code]
+Article détaillé : Chromatographie d'adsorption.
+Dans cette chromatographie, la phase stationnaire consiste en une matière solide à grand pouvoir d'adsorption, tel que l'oxyde d'aluminium, les silicates de magnésium, les gels de silice. Les composants sont simplement plus ou moins retenus à la surface de la phase stationnaire par adsorption physique. C'est une technique qui prend en compte la polarité des composants.
+La chromatographie de partage[modifier | modifier le code]
+Article détaillé : Chromatographie de partage.
+Dans cette chromatographie les analytes sont séparés en fonction de leur affinité avec les phases stationnaire et mobile. L'affinité dépend de la polarité des analytes et des phases. En mode normal la phase stationnaire est polaire, en mode inverse elle est apolaire. Il y a deux types de chromatographie de partage :
+liquide - liquide : la phase stationnaire consiste en une très fine couche de liquide répartie par adsorption physique à la surface du matériau support le plus inerte possible. Les composants sont séparés comme dans une extraction liquide-liquide, sauf que la répartition des composants se fait lors du passage dans la phase liquide et non par agitation.
+liquide - solide ou liquide - phase greffée : la phase stationnaire consiste en une espèce organique liée par des liaisons chimiques à la surface des particules du matériau support.
+La chromatographie d'affinité[modifier | modifier le code]
+Article détaillé : Chromatographie d'affinité.
+La chromatographie par échange d'ions[modifier | modifier le code]
+Article détaillé : Chromatographie à échange d'ions.
+La phase solide est une résine insoluble munie de groupes fonctionnels capable de dissocier. Ce sont, habituellement, des groupes "acide sulfonique" (SO3H) pour les échangeurs de cations et "ammonium quaternaire" (N(R)3) pour les échangeurs d'anions.
+La chromatographie d'exclusion stérique[modifier | modifier le code]
+Article détaillé : Chromatographie d'exclusion stérique.
+Appelée aussi chromatographie à perméation de gel, cette technique consiste en séparer les composants selon leur dimension moléculaire. La phase stationnaire est composée d'un matériau poreux (petites particules de silice ou de polymères), les molécules dont le diamètre est supérieur à celui des pores ne peuvent pénétrer et ne sont pas retenues. La durée de séjour dans la colonne augmente lorsque la taille des analytes diminue.
+La chromatographie de paires d'ions[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+La chromatographie d'échange de ligands[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Matériel[modifier | modifier le code]
+Dans le cas de la CLHP, une (élution isocratique) ou plusieurs (élution par gradient) pompes sont utilisées pour la circulation de la phase dite "mobile", c'est-à-dire le liquide circulant dans le système chromatographique. Des tubes en acier inoxydable, en Teflon, en PEEK ou en silice fondue permettent de relier la ou les pompes à l'injecteur chromatographique.
+La phase mobile est souvent composée de plusieurs solvants (méthanol, acétonitrile, eau...) et de sels (tampons, réactif ionique...). Ces solvants doivent être dégazés (par barbotage de gaz neutre dans les réservoirs de phase mobile ou par dégazeurs en ligne) afin d'en retirer l'air dissous qui pourrait former des bulles. Celles-ci peuvent gêner la progression du liquide dans les tubes (mauvais débits) et créer des faux pics ou artéfacts au niveau du détecteur. Dans une élution avec deux pompes, un mélangeur est aussi nécessaire afin d'obtenir une phase mobile homogène.
+Après l'injecteur, est placée une colonne chromatographique (cylindre rempli par la phase stationnaire) qui permet la séparation. La colonne est suivie d'un détecteur chromatographique (spectroscopie UV-visible, barrette de diode, fluorimètre, réfractomètre, chimique, ...). Un ordinateur complète le plus souvent ce dispositif, pour la commande du système chromatographique, ainsi que l'acquisition et le traitement des données.
+En pratique[modifier | modifier le code]
+L'analyse LC met en œuvre plusieurs étapes :
+préparation de l'échantillon par l'opérateur
+injection
+séparation chromatographique
+détection
+En CLHP, l'opérateur ayant une solution à analyser, la prépare dans un mélange similaire à celui circulant dans le système. Il introduit une faible quantité de ce mélange dans une boucle d'injection afin d'éviter les phénomènes de Band broadening, puis commence l'acquisition. La boucle est alors reliée dans l'injecteur au reste du système, provoquant le passage des molécules jusqu'en tête de colonne chromatographique. Cette colonne, choisie parmi la très large gamme commerciale, est remplie d'une phase stationnaire, qui permettra de séparer les molécules chimiques en fonction de certaines de leurs propriétés respectives (taille, polarité, hydrophilie, affinité, contenu en métaux...). Les molécules sortiront ainsi de la colonne à différents temps appelés temps de rétention, suivant leurs interactions avec la phase stationnaire et la phase mobile, et seront détectées, par le détecteur, là aussi, en fonction de certaines de leurs propriétés.
+De nos jours, ces techniques simples sont utilisées en relation avec des appareils de détection et de reconnaissance des molécules plus puissants (MS (spectrométrie de masse), RMN (Résonance magnétique nucléaire) entre autres).
+Voir aussi[modifier | modifier le code]
+Chromatographie
+Chromatographie en phase liquide à haute performance
+Liens externes[modifier | modifier le code]
+Chromatographie sur le site lachimie.fr
+Portail de la chimie
+Portail de la biochimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Chromatographie_en_phase_liquide&oldid=109674800 ».
+Catégorie : ChromatographieCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Biochimie/Articles liésPortail:Biologie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Deutsch
+Eesti
+Suomi
+Nederlands
+Polski
+Slovenčina
+Modifier les liens
+Dernière modification de cette page le 4 décembre 2014 à 16:49.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,63 @@
+Écoulement de Poiseuille — Wikipédia
+Écoulement de Poiseuille
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article a une forme trop académique.
+La forme ressemble trop à un extrait de cours et nécessite une réécriture afin de correspondre aux standards de Wikipédia. N'hésitez pas à l'améliorer.
+La loi de Poiseuille (également appelée loi de Hagen-Poiseuille) décrit l'écoulement laminaire (c'est-à-dire à filets de liquide parallèles) d'un liquide visqueux dans une conduite cylindrique. Découverte indépendamment en 1844 par le médecin et physicien français Jean-Léonard-Marie Poiseuille[1] et par l’ingénieur prussien Gotthilf Hagen[2], elle constitue la première tentative de dépasser la notion de vitesse moyenne d'un écoulement, jusque-là en usage (cf. formules de Chézy et de Prony).
+Un écoulement de Poiseuille est un écoulement qui suit une loi de Poiseuille.
+De manière générale la loi de Poiseuille énonce de façon théorique la relation entre le débit d'un écoulement et la viscosité du fluide, la différence de pression aux extrémités de la canalisation, la longueur et le rayon de cette canalisation. Cette relation est vérifiée expérimentalement dans les canalisations de rayons faibles et est souvent utilisée dans les viscosimètres car elle énonce notamment que le débit est inversement proportionnel à la viscosité.
+Sommaire
+1 Principe
+2 Champ de vitesse dans un tube
+3 Champ de vitesse entre deux plaques
+4 Démonstration (dans le cas du tube)
+5 Notes et références
+5.1 Sources
+6 Annexes
+Principe[modifier | modifier le code]
+Le principe fondamental est le sens de la grandeur nommée viscosité. Un "liquide" dans un tube de dentifrice est plus visqueux que de l'huile d'olive qui est plus visqueuse que de l'eau. On peut dire "plus" ou "moins" mais en physique on exprime cela de manière mathématique par des équations avec des quantités comme "viscosité" que l'on notera ci-dessous avec une seule lettre en grec.
+Tout le développement "académique" ci-dessous indiquera que la vitesse d'écoulement au centre est proportionnelle à l'inverse de la viscosité (pour ces cas très simples).
+Il faut retenir que la viscosité est une grandeur qui est un produit entre une pression et un temps (le Poiseuille). C'est une grandeur qui associe une grandeur dynamique (le temps, un déplacement) et une pression mécanique (une force/surface: Newton/mètre^2).
+Un écoulement dépend aussi de la forme (tube, plaque...) et des propriétés de surface comme la rugosité.
+Un fluide visqueux newtonien, s'il est en écoulement lent dans un tuyau de petit diamètre ou entre deux plaques proches, est en écoulement de Stokes. En première approximation, si le tuyau est cylindrique ou que les plaques sont parallèles :
+l'écoulement du fluide est partout parallèle aux parois (approximation de lubrification) ;
+le frottement aux parois implique qu'aux échelles macroscopiques, la vitesse du fluide y est nulle (condition de non-glissement) ;
+la pression ne varie pas dans l'épaisseur de l'écoulement (approximation de lubrification).
+Ces trois conditions impliquent que l'écoulement s'organise selon un champ de vitesse parabolique : vitesse nulle aux parois et maximale à mi-hauteur.
+Ci-dessous, on considère deux problèmes différents qui donnent lieu à un écoulement de Poiseuille :
+l'écoulement dans un tube de section circulaire et de rayon constant ,
+l'écoulement entre deux plaques planes et parallèles, distantes de  ; ce calcul permet notamment d'évaluer la force entre deux objets (par exemple deux disques) immergés dans un fluide visqueux et s'approchant à une vitesse donnée.
+On notera par ailleurs que :
+Un cas particulier qui découle des précédents est celui de l'écoulement visqueux d'une couche mince sur une plaque, tel que la surface supérieure est libre (problème voisin des problèmes en canal découvert). Dans ce cas, le cisaillement est nul à la surface supérieure, et le profil de vitesse est le même que celui obtenu pour un écoulement entre deux plaques, mais en ne considérant que la moitié du profil entre une des plaques, et le milieu. En résumé, Poiseuille avec une plaque, c'est "la moitié de Poiseuille avec deux plaques".
+la nature parabolique des vitesses dans l'écoulement de Poiseuille provient du fait qu'on néglige les cisaillements autres que le long du tuyau (ou des plaques). Les couches de fluides sont supposées s'écouler parallèles les unes aux autres dans le tuyau, en sorte que la seule composante de la dérivée de la vitesse est la dérivée de la vitesse longitudinale (parallèle aux parois), prise le long de la section verticale. Cependant, cette approximation de vitesse parallèles à l'axe longitudinal, et ne variant que suivant l'axe transversal peut s'étendre au cas d'un solide. Taylor a fait remarquer qu'un solide incompressible, poussé entre deux plaques, satisfait aux mêmes hypothèses que l'écoulement de Poiseuille. Cependant, dans ce cas, ce n'est pas la vitesse qui varie paraboliquement, mais la déformation. Ainsi, un solide poussé dans un tuyau ou entre deux plaques aura un profil de déformation "de Poiseuille", solide, et réversible (élastique).
+Champ de vitesse dans un tube[modifier | modifier le code]
+La vitesse est parallèle à l'axe du tube (noté ) : .
+Équation du profil de vitesse :
+où la vitesse maximale (au centre du tube) est liée au gradient de pression, à la viscosité dynamique et au rayon :
+La démonstration de ce résultat est donnée plus bas.
+Champ de vitesse entre deux plaques[modifier | modifier le code]
+On suppose que le gradient de pression est orienté selon l'axe
+et que la normale aux plaques est orientée selon , avec les plaques situées en
+et
+. La vitesse est alors parallèle aux plaques, et plus précisément orientée selon l'axe  : .
+Équation du profil de vitesse [3]:
+où la vitesse maximale (au milieu de la couche) est liée au gradient de pression, à la viscosité dynamique et à la distance entre les plaques :
+(vitesse maximale positive pour gradient de pression négatif).
+La démonstration de ce résultat est similaire à celle donnée ci-dessous dans le cas du tube circulaire.
+Démonstration (dans le cas du tube)[modifier | modifier le code]
+1. Par symétrie, la vitesse de l'écoulement ne varie ni en , ni en
+, et dans le cas d'un régime stationnaire, elle ne dépend pas non plus du temps :
+2. Par conséquent, les seuls efforts de cisaillement sont des forces selon
+transmises radialement (selon ) :
+3. Par invariance par translation selon , la variation de la pression est constante le long de l'axe  :
+4. Considérons les efforts subis par une zone cylindrique de rayon
+et de longueur .
+Les efforts de pression sur les deux faces circulaires du cylindre ont une résultante égale à :
+Les contraintes de cisaillement sur le bord du cylindre lui transmettent une force orientée selon son axe  :
+Le gradient de pression se transmet aux parois en tant que contrainte de cisaillement.
+La force totale exercée sur le cylindre de liquide est nulle puisque l'écoulement est permanent. Ainsi :
+5. Il s'ensuit que le gradient de vitesse est linéaire en  :
+6. Autrement dit, le champ de vitesse est parabolique :
+7. Compte tenu de la condition de non-glissement () :
+La vitesse est plus importante au centre du conduit malgré le signe négatif, étant donné que la vitesse est orientée à l'encontre du gradient de pression. Écoulement dans le sens positif pour un gradient négatif... CQFD

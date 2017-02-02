@@ -1,0 +1,243 @@
+Dynamique des fluides — Wikipédia
+Dynamique des fluides
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Hydrodynamique)
+Aller à :					navigation, 					rechercher
+La dynamique des fluides est l'étude des mouvements des fluides, qu'ils soient liquides ou gazeux. Elle fait partie de la mécanique des fluides avec l'hydrostatique (statique des fluides).
+La résolution d'un problème de dynamique des fluides demande normalement de calculer diverses propriétés des fluides comme la vitesse, la viscosité, la densité, la pression et la température en tant que fonctions de l'espace et du temps.
+Sommaire
+1 Perspectives actuelles
+2 Étude des phénomènes
+3 Applications de la dynamique des fluides
+4 L'hypothèse de la continuité
+5 Équations de la dynamique des fluides
+5.1 Choix d'une description du fluide
+5.2 Fluide compressible et incompressible
+5.3 La viscosité
+5.4 Écoulement stationnaire et instationnaire
+5.5 Écoulement laminaire et turbulence
+5.6 Autres approximations
+6 Articles connexes
+6.1 Champs d'étude
+6.2 Équations mathématiques
+6.3 Type d'écoulement des fluides
+6.4 Propriétés des fluides
+6.5 Nombres sans dimension décrivant un écoulement
+7 Sources
+7.1 Bibliographie
+Perspectives actuelles[modifier | modifier le code]
+On connaît parfaitement les équations qui gouvernent les fluides : il s'agit des équations de Navier-Stokes, ou des dérivés. Mais à l'heure actuelle, le problème ne se situe plus là. Malgré leur (relative) simplicité, ces équations peuvent générer des comportements extrêmement complexes, comme la turbulence. On ne peut aborder ces phénomènes chaotiques que d'un point de vue statistique, en utilisant un arsenal de méthodes théoriques (bases de filtres, fractales…), mais il reste difficile de prévoir à partir des équations, les comportements fins de la turbulence. Or la très grande majorité des écoulements qui nous entourent (eau, air) sont turbulents - c'est dire à quel point l'importance de ce problème est grande.
+Il est également intéressant d'étudier la transition entre un comportement simple des fluides (écoulement laminaire) et un comportement chaotique (écoulement turbulent).
+Étude des phénomènes[modifier | modifier le code]
+Lire le média
+Machine à fumée d'Étienne-Jules Marey permettant d’observer l’écoulement d’un fluide lors de la rencontre d’un obstacle
+L'étude de ces phénomènes est aujourd'hui bien souvent numérique : on simule des solutions des équations, qui ressemblent effectivement à des écoulements réels - sauf que c'est comme si on disposait d'un système de mesure parfait, qui pourrait tout mesurer sans rien perturber.
+Une autre voie de recherche très utilisée est l'étude en soufflerie. En mettant un modèle à étudier dans un fort flux d'air, et en étudiant l'écoulement par divers moyens (mesure de la vitesse d'écoulement par anémomètre ou tube de Pitot, mesure des efforts par des dynamomètres, visualisation des lignes de courant), on peut faire de nombreux calculs et améliorer les paramètres aérodynamiques de l'objet).
+Parallèlement, les études d'hydrodynamique sur les navires, les installations pétrolières en mer ou les ouvrages portuaires utilisent souvent des bassins dans lesquels on peut représenter des vagues réalistes. Comme en soufflerie, les essais s'effectuent généralement sur un modèle réduit.
+Cela pose donc, dans les deux cas, des problèmes de similitude qui nécessitent d'abord une analyse critique des phénomènes pour mettre en évidence les paramètres pertinents et ceux que l'on peut négliger, ensuite leur prise en compte à l'aide de nombres sans dimension.
+Il existe également d'autres méthodes expérimentales pour étudier des écoulements : strioscopie, vélocimétrie laser, …
+Applications de la dynamique des fluides[modifier | modifier le code]
+Écoulement autour d'une aile
+La dynamique des fluides et ses sous-disciplines comme l'aérodynamique, l'hydrodynamique, et l'hydraulique ont des applications très diverses. Par exemple, elles sont utilisées dans le calcul des forces et des moments dans l'aéronautique ou pour les prévisions météorologiques.
+Le concept de fluide est étonnamment général. Par exemple, certains des concepts mathématiques de base concernant la gestion du trafic sont dérivés en considérant le trafic comme un fluide continu.
+L'hypothèse de la continuité[modifier | modifier le code]
+Les gaz sont composés de molécules qui se heurtent entre elles comme des objets pleins. L'hypothèse de continuité, cependant, considère les fluides comme étant continus. C'est-à-dire que l'on admet que des propriétés telles que la densité, la pression, la température, et la vitesse sont prises pour étant bien définies à des points infiniment petits, et changent progressivement d'un point à l'autre. La nature discrète et moléculaire d'un fluide est donc ignorée.
+Ces problèmes pour lesquels l'hypothèse de continuité ne donne pas des réponses avec l'exactitude désirée sont résolus grâce à la mécanique statistique. Afin de déterminer s'il faut employer la dynamique liquide conventionnelle (une sous-discipline de la mécanique des milieux continus) ou de la mécanique statistique, le nombre de Knudsen est évalué pour résoudre le problème. Les problèmes pour lesquels le nombre de Knudsen est égal ou supérieur à 1 doivent être traités par la mécanique statistique pour donner des réponses fiables.
+Équations de la dynamique des fluides[modifier | modifier le code]
+Les axiomes fondamentaux de la dynamique des fluides sont les lois de conservations comme la conservation de la masse (aussi appelée équation de continuité), la conservation de la quantité de mouvement (plus connue sous le nom de seconde loi de Newton), et la conservation de l'énergie. Ils constituent la base de la mécanique newtonienne et sont aussi importants en mécanique relativiste.
+Les équations les plus importantes sont les équations de Navier-Stokes, qui sont des équations différentielles non linéaires décrivant le mouvement des fluides. Ces équations, lorsqu'elles ne sont pas simplifiées n'ont pas de solutions analytiques et ne sont donc utiles que pour des simulations numériques. Ces équations peuvent être simplifiées de diverses manières ce qui rend ces équations plus faciles à résoudre. Certaines simplifications permettent de trouver des solutions analytiques à des problèmes de dynamique des fluides. De plus, des résultats récents en recherche à résoudre le problème du millénium qui leur est associé indiquent que les équations de Navier-Stokes seraient mal posées.
+Choix d'une description du fluide[modifier | modifier le code]
+Pour décrire mathématiquement la cinématique d'un fluide, c'est-à-dire le mouvement des particules, indépendamment des propriétés du fluide, on fait appel à la géométrie analytique. Deux systèmes cohabitent, l'un et l'autre présentant des avantages dans des situations particulières. Il s'agit de :
+la description lagrangienne ;
+la description eulérienne.
+Tandis que la première consiste à décrire les trajectoires suivies par les particules au cours du temps, la seconde décrit le champ de vitesses à un instant donné.
+Comme dans d'autres domaines, la cinématique sert de base à la dynamique, calcul des mouvements en fonction des forces appliquées. Les deux descriptions sont alors liées mathématiquement par la relation des dérivées
+où le terme , dérivée totale appelée « dérivée particulaire », « dérivée totale » ou encore « dérivée lagrangienne », représente la dérivée dans la description lagrangienne (ie. « ressentie » par une particule en mouvement), et le terme
+de dérivée partielle ou « eulérienne » représente la dérivée dans la description eulérienne (ie. « vue » par un observateur en un point fixe).
+Fluide compressible et incompressible[modifier | modifier le code]
+Un fluide est appelé compressible si les changements de la densité du fluide ont des effets significatifs sur l'ensemble de la solution. Dans le cas contraire, il s'agit d'un fluide incompressible et les changements de densité sont ignorés.
+Afin de savoir si le fluide est compressible ou incompressible, on calcule le nombre de Mach. Approximativement, les effets de la compression peuvent être ignorés pour les nombres de Mach en dessous de 0,3. Presque tous les problèmes impliquant des liquides se trouvent dans cette catégorie, à commencer par l'eau, et sont définis comme incompressibles.
+Les équations de Navier-Stokes incompressible sont des simplifications des équations de Navier-Stokes dans lesquelles la densité est considérée comme constante. Elles peuvent être utilisées pour résoudre les problèmes impliquant des fluides incompressibles de manière prépondérante, ce qui peut être assez restrictif.
+Par exemple, en acoustique, la vitesse du son dans l'air étant finie, le fluide « air » doit être traité comme compressible. En effet, supposons que l'air soit un fluide incompressible : il se déplacerait alors en bloc et propagerait toute modification de pression locale à une vitesse infinie. La vitesse du son
+dans un fluide compressible s'écrit d'ailleurs comme fonction de sa compressibilité  :
+La viscosité[modifier | modifier le code]
+Les problèmes dus à la viscosité sont ceux dans lesquels les frottements du fluide ont des effets significatifs sur la solution. Dans le cas où les frottements peuvent être négligés, le fluide est appelé non-visqueux.
+Le nombre de Reynolds peut être employé pour estimer quel type d'équation est approprié pour résoudre un problème donné. Un nombre de Reynolds élevé indique que les forces d'inertie sont plus importantes que les forces de frottement. Cependant, même lorsque le nombre de Reynolds est élevé, certains problèmes nécessitent de prendre en compte les effets de la viscosité. En particulier, dans les problèmes où l'on calcule les forces exercées sur un corps (comme les ailes d'un avion), il faut prendre en compte la viscosité. Comme illustré par le Paradoxe de D’Alembert, un corps immergé dans un fluide non visqueux n'est soumis à aucune force.
+Les équations normalement utilisées pour l'écoulement d'un fluide non visqueux sont les équations d'Euler. Dans la dynamique des fluides numérique, on emploie les équations d'Euler lorsqu'on est loin du corps et équations tenant compte de la couche limite lorsqu'on est à proximité du corps.
+Les équations d'Euler peuvent être intégrées le long d'une ligne de flux pour aboutir à l'équation de Bernoulli. Quand l'écoulement est partout irrotationnel et non visqueux, l'équation de Bernoulli peut être employée pour résoudre le problème.
+Écoulement stationnaire et instationnaire[modifier | modifier le code]
+Une autre simplification des équations de la dynamique des fluides est de considérer toutes les propriétés du fluide comme étant constantes dans le temps. Ceci s'appelle alors un fluide stationnaire et est une bonne approximation pour de nombreux problèmes, tels que la poussé ou la traînée d'une aile ou un fluide traversant un tuyau. Dans le cas particulier d'un fluide stationnaire, les équations de Navier-Stokes et d'Euler se simplifient donc.
+Si un fluide est à la fois incompressible, non visqueux et stationnaire, il peut être résolu avec l'écoulement potentiel découlant de l'équation de Laplace. Les problèmes de cette classe ont des solutions qui sont des combinaisons d'écoulements linéaires élémentaires.
+Lorsqu'un corps est accéléré dans un fluide, s'introduit la notion de masse ajoutée.
+Écoulement laminaire et turbulence[modifier | modifier le code]
+La turbulence est un écoulement dominé par des remous, et un aspect aléatoire apparent. Lorsqu'il n'y a pas de turbulences on dit que l'écoulement est laminaire.
+La turbulence des fluides obéit à l'équation de Navier-Stokes. Cependant, les problèmes d'écoulement sont si complexes qu'il n'est pas possible actuellement de les résoudre numériquement en partant des principes de base. La turbulence est plutôt modélisée à l'aide d'un des nombreux modèles de turbulence et couplée avec un résolveur de flux qui suppose que le flux est laminaire en dehors de la région de turbulence. L'étude du Nombre de Reynolds permet de déterminer le caractère turbulent ou laminaire d'un écoulement.
+Dans un circuit ou système hydraulique l'écoulement doit toujours si possible être laminaire au-delà il est en phase dite critique et ensuite en régime turbulent, ce qui transforme l'énergie mécanique en température plutôt qu'en énergie hydraulique, le rendement à ce moment chute considérablement
+Autres approximations[modifier | modifier le code]
+Il y a un grand nombre d'autres approximations possibles faces aux problèmes de la dynamique des fluides. Un écoulement de Stokes est l'écoulement d'un fluide dont le nombre de Reynolds est très bas, de sorte que les forces d'inertie peuvent être négligées face aux forces de frottement. L'approximation de Boussinesq néglige les forces de compression excepté pour calculer les forces de flottabilité.
+Articles connexes[modifier | modifier le code]
+Champs d'étude[modifier | modifier le code]
+Acoustique (utilise les dérivés de la dynamique des fluides)
+Aérodynamique
+Élasticité
+Aéronautique
+Étude de la dynamique des fluides par ordinateur
+Géosciences
+Mesure des flux
+Hémodynamique
+Hydraulique
+Hydrodynamique navale
+Rhéologie
+Équations mathématiques[modifier | modifier le code]
+Théorème de Bernoulli
+Approximation de Boussinesq
+Équations d'Euler
+Théorème de Helmholtz
+Équations de Navier-Stokes
+Loi de Poiseuille
+Type d'écoulement des fluides[modifier | modifier le code]
+Écoulement compressible
+Écoulement incompressible
+Écoulement de Couette
+Écoulement de Poiseuille
+Écoulement de Stokes
+Écoulement laminaire
+Écoulement turbulent
+Écoulement potentiel
+Écoulement supersonique
+Ecoulements complexes
+Propriétés des fluides[modifier | modifier le code]
+Couches Limites
+Effet Coanda
+Effet Boycott
+Loi de conservation
+Traînée
+Portance (mécanique des fluides)
+Fluide newtonien
+Mur du son
+Onde de choc
+Ligne de courant
+Tension de surface
+Turbulence
+Pression des gaz
+Effet Venturi
+Vitesse des fluides
+Trainée d'onde
+Nombres sans dimension décrivant un écoulement[modifier | modifier le code]
+Nombre de Froude
+Nombre de Knudsen
+Nombre de Mach
+Nombre de Prandtl
+Nombre de Richardson
+Nombre de Reynolds
+Nombre de Strouhal
+Sources[modifier | modifier le code]
+G. Batchelor (1967) An Introduction to Fluid Dynamics, Cambridge University Press (ISBN 0521663962)
+E. Guyon, J-P. Hulin, L. Petit (1991) Hydrodynamique physique, Savoirs Actuels (ISBN 2868835023)
+L. Landau et E. Lifshitz (1998) Mécanique des fluides, Ellipses, (ISBN 2729894233)
+Bibliographie[modifier | modifier le code]
+E. Guyon, J. P. Hulin, L. Petit (2001), Hydrodynamique physique nouvelle édition revue et augmentée. Collection savoirs actuels, EDP sciences et CNRS ed., Paris, pp. 674
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Dynamique_des_fluides&oldid=107357865 ».
+Catégories : Dynamique des fluidesMécanique des fluidesHydromécaniqueCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Galego
+עברית
+हिन्दी
+Hrvatski
+Հայերեն
+Bahasa Indonesia
+Ido
+Italiano
+ქართული
+Қазақша
+한국어
+Latviešu
+Македонски
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Oromoo
+Polski
+Português
+Română
+Русский
+සිංහල
+Simple English
+Slovenčina
+Shqip
+Српски / srpski
+Svenska
+தமிழ்
+ไทย
+Tagalog
+Türkçe
+Українська
+اردو
+Tiếng Việt
+Winaray
+中文
+Modifier les liens
+Dernière modification de cette page le 11 septembre 2014 à 20:01.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

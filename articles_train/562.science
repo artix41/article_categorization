@@ -1,0 +1,358 @@
+Géométrie différentielle des surfaces — Wikipédia
+Géométrie différentielle des surfaces
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Vous lisez un « bon article ».
+En mathématiques, la géométrie différentielle des surfaces est la branche de la géométrie différentielle qui traite des surfaces (les objets géométriques de l'espace usuel E3, ou leur généralisation que sont les variétés de dimension 2), munies éventuellement de structures supplémentaires, le plus souvent une métrique riemannienne.
+Outre les surfaces classiques de la géométrie euclidienne (sphères, cônes, cylindres, etc.), des surfaces apparaissent naturellement en tant que graphes de fonctions de deux variables, ou sous forme paramétrique, comme ensembles décrits par une famille de courbes de l'espace. Les surfaces ont été étudiées à partir de divers points de vue : de façon extrinsèque, en s'intéressant à leur plongement dans l'espace euclidien, et de façon intrinsèque, en ne se préoccupant que des propriétés qui peuvent être déterminées à partir des distances mesurées le long de courbes tracées sur la surface. Un des concepts fondamentaux découverts ainsi est la courbure de Gauss, étudiée en profondeur par Carl Friedrich Gauss (entre 1825 et 1827), qui montra son caractère intrinsèque.
+Dans l'esprit du programme d'Erlangen, les groupes de Lie, plus précisément les groupes de symétrie du plan euclidien, de la sphère et du plan hyperbolique, ont joué un rôle important dans l'étude des surfaces. Ces groupes permettent de décrire les surfaces de courbure constante ; ils forment aussi un outil essentiel dans l'approche moderne de la géométrie différentielle intrinsèque à l'aide de connexions. Les propriétés extrinsèques dépendant du plongement d'une surface dans l'espace euclidien ont été également largement étudiées. Les relations entre ces deux approches sont bien illustrées par le cas des équations d'Euler-Lagrange du calcul des variations : bien qu'Euler ait utilisé les équations à une variable pour déterminer les géodésiques, que l'on peut définir de manière intrinsèque, l'une des applications principales que fit Lagrange des équations à deux variables fut l'étude des surfaces minimales, un concept extrinsèque qui n'a de sens que pour les plongements.
+Carl Friedrich Gauss en 1828
+Sommaire
+1 Histoire de la théorie des surfaces
+2 Courbure des surfaces de E3
+3 Exemples
+3.1 Surfaces de révolution
+3.2 Quadriques
+3.3 Surfaces réglées
+3.4 Surfaces minimales
+3.5 Surfaces de courbure constante
+4 Structure métrique locale
+4.1 Éléments de longueur et d'aire
+4.2 Seconde forme fondamentale
+4.3 Opérateur de forme
+5 Géodésiques sur une surface
+5.1 Géodésiques
+5.2 Courbure géodésique
+5.3 Le problème du plongement isométrique
+5.4 Coordonnées orthogonales
+6 Coordonnées géodésiques polaires
+6.1 Application exponentielle
+6.2 Calcul de coordonnées normales
+6.3 Lemme de Gauss
+6.4 Theorema egregium
+6.5 Équation de Gauss-Jacobi
+6.6 Opérateur de Laplace-Beltrami
+7 Formule de Gauss-Bonnet
+7.1 Triangles géodésiques
+7.2 Théorème de Gauss-Bonnet
+7.3 Courbure et plongements
+8 Surfaces de courbure constante
+8.1 Géométrie euclidienne
+8.2 Géométrie sphérique
+8.3 Géométrie hyperbolique
+8.4 Uniformisation
+9 Surfaces de courbure négative
+9.1 L'inégalité d'Alexandrov
+9.2 Existence et unicité des géodésiques
+9.3 Théorème de Von Mangoldt-Hadamard
+10 Connexion riemannienne et transport parallèle
+10.1 Dérivée covariante
+10.2 Transport parallèle
+10.3 1-forme de connexion
+11 Géométrie différentielle globale des surfaces
+12 Notes et références
+12.1 Notes
+12.2 Références
+12.2.1 En français
+12.2.2 Autres
+Histoire de la théorie des surfaces[modifier | modifier le code]
+Certaines propriétés des surfaces de révolution étaient déjà connues d'Archimède. Le développement du calcul infinitésimal au XVIIe siècle permit de les analyser de manière plus systématique, obtenant par exemple les théorèmes de Guldin. Des surfaces plus générales furent étudiées par Euler ; en 1760(Euler 1760), il obtint une formule donnant la courbure d'une section plane d'une surface quelconque, et en 1771(Euler 1771), il s'intéressa aux surfaces représentées sous une forme paramétrique. Monge énonça les principes fondamentaux de cette théorie dans son mémoire classique L'Application de l'analyse à la géométrie, qui parut en 1795.
+La contribution véritablement fondatrice de la théorie des surfaces vint de Gauss dans deux articles remarquables écrits en 1825 et 1827(Gauss 1827). Pour la première fois, Gauss y considérait la géométrie intrinsèque d'une surface, c'est-à-dire les propriétés déterminées seulement par la distance géodésique entre les points, indépendamment du plongement particulier de la surface dans l'espace euclidien ambiant[N 1]. Le couronnement de ce travail, le theorema egregium, montrait que la courbure de Gauss est un invariant intrinsèque, inchangé par des isométries locales. Ce point de vue fut étendu aux espaces de dimension supérieure par Bernhard Riemann, aboutissant à ce qui est aujourd'hui appelé la géométrie riemannienne.
+Le XIXe siècle fut l'âge d'or de la théorie des surfaces, que ce soit du point de vue topologique ou différentiel, la plupart des géomètres s'étant alors intéressés à leur étude. Darboux réunit beaucoup de leurs résultats dans son traité en quatre volumes Théorie des surfaces (1887–1896)[1]. Au tournant du siècle, Poincaré devait faire progresser encore la théorie, en la combinant (entre autres) avec les méthodes de la topologie algébrique.
+À partir des années 1920, la théorie des surfaces se voyait dotée d'un cadre conceptuel plus puissant par l'introduction de la notion de connexion, sous l'impulsion de Tullio Levi-Civita, Élie Cartan et Hermann Weyl (motivés en particulier par des idées venues de la physique, et plus précisément de la relativité générale).
+Courbure des surfaces de E3[modifier | modifier le code]
+Les courbures principales en un point d'une surface
+L'application de Gauss envoie un point de la surface sur le vecteur normal unitaire dirigé vers l'extérieur, représenté par un point deS2
+Articles détaillés : courbure de Gauss, courbure moyenne et application de Gauss.
+Initialement, Gauss définissait (de manière non rigoureuse) la courbure d'une surface à l'aide de celle de certaines courbes planes lui étant associées. Il découvrit par la suite un ensemble de définitions équivalentes ; l'une de celles-ci utilisait les propriétés de transformation de l'aire par l'application de Gauss, application envoyant la surface sur une sphère (de dimension 2). Cependant, pour pouvoir obtenir une définition plus intrinsèque en termes d'aire et de périmètre de petits triangles, Gauss devait étudier en profondeur les propriétés des géodésiques de la surface, c'est-à-dire des chemins de plus courte longueur entre deux points donnés[N 2], comme on le verra ci-dessous.
+La courbure de Gauss en un point d'une surface (lisse) plongée dans l'espace euclidien usuel E3 (identifié à R3 par un système de coordonnées cartésiennes) et donnée localement dans E3 par l'équation z = F(x,y) est définie comme le produit des courbures principales en ce point(Berger 2003) ; la courbure moyenne est définie comme étant leur demi-somme. Les courbures principales sont les courbures maximum et minimum des courbes (planes) obtenues en coupant la surface par des plans perpendiculaires au plan tangent au point étudié. Si ce point est choisi comme origine du repère, (0, 0, 0), et que le plan tangent est donné par z = 0, alors, après une rotation convenable autour de l'axe des z annulant le terme en xy, F admet le développement en série de Taylor
+Dans ce cas, les courbures principales sont k1 et k2, la courbure de Gauss est donnée par , et la courbure moyenne par .
+Comme K et Km sont invariants par les isométries de E3, on obtient finalement dans le cas général
+et
+,
+où les dérivées partielles sont prises au point étudié(Eisenhart 2004, p. 123).
+Pour une surface orientée, l’application de Gauss envoie chaque point de la surface vers le vecteur normal unitaire au plan tangent en ce point (dirigé vers l'extérieur), ce vecteur étant identifié à un point de la sphère unité. Cette application envoie donc le point de coordonnées
+vers  ; un calcul direct(Singer et Thorpe 1967, p. 223) montre alors que la courbure de Gauss est la jacobienne de l'application de Gauss.
+Exemples[modifier | modifier le code]
+Surfaces de révolution[modifier | modifier le code]
+La surface de révolution obtenue par rotation de la courbe x = 2 + cos z autour de l'axe des z
+Article détaillé : surface de révolution.
+Une surface de révolution peut par exemple être obtenue en faisant tourner une courbe du plan xz autour de l'axe des z, en supposant que la courbe ne coupe pas cet axe. Supposant que la courbe soit donnée par
+(avec t variant de a à b), et que le point paramétré par t se déplace sur la courbe à vitesse unité (t est donc la longueur de l'arc), c'est-à-dire que . La surface de révolution est alors l'ensemble de points
+La courbure de Gauss et la courbure moyenne sont alors données par(do Carmo 1976, p. 161-162) :
+Les géodésiques d'une surface de révolution obéissent à la relation de Clairaut :
+constante.
+Quadriques[modifier | modifier le code]
+Une quadrique (un ellipsoïde, correspondant à a, b et c positifs)
+Article détaillé : quadrique.
+Soit la quadrique définie par
+Cette surface peut être paramétrée(Eisenhart 2004, p. 228-229) par
+où u et v sont deux réels (rendant les radicandes positifs)
+La courbure de Gauss et la courbure moyenne sont alors données par
+Surfaces réglées[modifier | modifier le code]
+Un hyperboloïde à une nappe, surface doublement réglée
+Article détaillé : surface réglée.
+Une surface réglée est une surface qui peut être engendrée par le déplacement d'une ligne droite dans E3[2]. Choisissant une directrice sur la surface, c'est-à-dire une courbe différentiable c(t), parcourue à vitesse unité, et orthogonale aux droites, et choisissant ensuite des vecteurs unitaires u(t) directeurs en chaque point c(t) de la droite passant par ce point, le vecteur vitesse v(t) =ct vérifie
+La surface est formée des points
+avec s et t quelconques.
+Alors, en posant
+(où, comme pour v, ut désigne la dérivée par rapport à t), la courbure de Gauss et la courbure moyenne sont données par
+La courbure de Gauss s'annule si et seulement si les deux vecteurs ut et v sont colinéaires(do Carmo 1976, p. 194). Cette condition est équivalente à ce que la surface soit l'enveloppe de la famille des plans définis par les points de la courbe, le vecteur tangent v et le vecteur orthogonal u, c'est-à-dire à ce que la surface soit développable le long de la courbe(Eisenhart 2004, p. 61-65). Plus généralement, une surface de E3 est de courbure de Gauss nulle au voisinage d'un point si et seulement si elle est développable près de ce point(Eisenhart 2004) (une condition équivalente utilisant la métrique sera donnée plus bas).
+Surfaces minimales[modifier | modifier le code]
+Article détaillé : surface minimale.
+En 1760, Lagrange généralisa au cas de deux variables les résultats d'Euler concernant le calcul des variations pour les intégrales à une variable[3]. Il cherchait à résoudre le problème suivant : « Étant donnée une courbe fermée de E3, déterminer une surface d'aire minimale ayant cette courbe comme frontière. » Une telle surface s'appelle une surface minimale.
+En 1776, Meusnier montra que l'équation différentielle obtenue par Lagrange était équivalente à une condition sur la courbure moyenne : « Une surface est minimale si et seulement si sa courbure moyenne en tout point est nulle. »
+Les surfaces minimales ont une interprétation physique concrète : elles ont la forme que prend un film de savon s'appuyant sur un fil métallique. Cela permet d'obtenir expérimentalement des solutions dans les cas simples, méthode employée par le physicien belge Joseph Plateau au milieu du XIXe siècle ; la question de savoir si, pour un contour donné, il existe toujours une surface minimale, fut appelée le problème de Plateau, et fut résolue (par l'affirmative) en 1930 par Jesse Douglas et Tibor Radó ; Douglas reçut pour ce travail une des premières médailles Fields en 1936[4].
+On connait de nombreux exemples explicites de surfaces minimales, telles que la caténoïde, l'hélicoïde, la surface de Scherk et la surface d'Enneper. C'est un domaine de recherche étendu, dont on trouvera une synthèse dans (Osserman 2002). En particulier, un résultat d'Osserman montre que pour toute surface minimale non plane, son image par l'application de Gauss est dense dans S2.
+Surfaces de courbure constante[modifier | modifier le code]
+Surfaces ayant des courbures de Gauss constantes : de gauche à droite, courbure négative, nulle et positive
+Une surface de courbure constante est une surface ayant la même courbure de Gauss en chaque point[5].
+La sphère unité de E3 est de courbure constante +1.
+Le plan euclidien et le cylindre sont de courbure constante nulle. Les cônes, et plus généralement, toutes les surfaces développables, fournissent d'autres exemples de surfaces de courbure nulle.
+Les surfaces de révolution engendrées (avec les notations précédentes) par une courbe x= φ(t) telle que la dérivée seconde φtt soit égale à  φ sont de courbure constante –1 ; des cas particuliers sont φ(t) = C cosh t, C sinh t et C et[6]. Le dernier cas correspond à la pseudosphère classique engendrée par rotation d'une tractrice autour de son asymptote. En 1868, Eugenio Beltrami montra que la géométrie de la pseudosphère était directement liée à celle du plan hyperbolique, découverte indépendamment par Lobachevsky (en 1830) et Bolyai (en 1832). Dès 1840, F. Minding, un élève de Gauss, avait obtenu des relations trigonométriques pour la pseudosphère identiques à celles du plan hyperbolique(Stillwell 1996, p. 1-5). Cette surface est à présent mieux comprise en utilisant la métrique de Poincaré sur le demi-plan ou sur le disque unité, et est également décrite par d'autres modèles tels que le modèle de Klein ou le modèle de Minkowski obtenu en considérant l'hyperboloïde à deux nappes q(x, y, z) = x2 + y2–z2 = −1 dans l'espace de Minkowski à trois dimensions(Wilson 2008).
+Chacune de ces surfaces possède un groupe de symétries qui est un groupe de Lie transitif. Ce résultat a de nombreuses conséquences, d'autant plus importantes que ces surfaces particulières jouent un rôle central dans l'étude de la géométrie des surfaces générales, en raison du théorème d'uniformisation de Poincaré, comme on le verra plus loin.
+Structure métrique locale[modifier | modifier le code]
+Une carte pour l'hémisphère supérieur de la 2-sphère, obtenue en la projetant sur le plan x-y.
+Les changements de coordonnées entre différentes cartes locales doivent être différentiables
+Article détaillé : variété riemannienne.
+Pour toute surface plongée dans l'espace euclidien de dimension 3 ou plus, il est possible de mesurer la longueur d'une courbe de la surface, l'angle entre deux courbes, et l'aire d'une région quelconque bornée de la surface. Cette structure peut être représentée « infinitésimalement » par une métrique riemannienne mesurant sur la surface les « éléments de longueur » et les « éléments d'aire ». Jusqu'au début du XXe siècle, seules les surfaces plongées dans R3 étaient envisagées, et la métrique était donnée par une matrice définie positive d'ordre 2, définie en chaque point (de façon différentiable) dans une représentation paramétrique locale de la surface. Ces idées de représentations paramétriques locales permettant un changement de coordonnées furent par la suite formalisées pour aboutir à la notion moderne de variété différentielle, où la structure différentielle est donnée par une collection de cartes locales de la variété, exactement comme la Terre est actuellement représentée par des atlas[N 3]. Le recollement, par changement de coordonnées entre différentes cartes de la même région, doit être différentiable. Pour chaque carte locale, une métrique riemannienne est donnée par une matrice (définie positive d'ordre 2) en chaque point ; ces matrices se transforment, en passant d'une carte à une autre, à l'aide de la matrice jacobienne du changement de coordonnées. On définit ainsi une variété riemannienne de dimension 2.
+Éléments de longueur et d'aire[modifier | modifier le code]
+En projetant par exemple la surface sur le plan - (d'équation ), on obtient une carte locale pour laquelle les éléments de longueur
+et d'aire
+peuvent s'écrire
+et
+,
+L'expression
+est appelée la première forme fondamentale(Eisenhart 2004).
+La matrice
+doit être définie positive, et ses coefficients doivent être des fonctions dérivables de
+et .
+Plus généralement, il est ainsi possible, par l'intermédiaire des cartes locales, d'associer des éléments différentiels de longueur et d'aire à chaque point d'une variété riemannienne (abstraite) de dimension 2.
+Seconde forme fondamentale[modifier | modifier le code]
+Article détaillé : seconde forme fondamentale.
+La géométrie extrinsèque des surfaces étudie les propriétés des surfaces plongées dans un espace euclidien, en général E3. Du point de vue de la géométrie intrinsèque, deux surfaces sont « les mêmes » s'il est possible d'étaler l'une sur l'autre sans l'étirer, c'est-à-dire qu'il existe une application de l'une vers l'autre préservant les distances. Ainsi, un cylindre est localement « semblable » au plan. En géométrie extrinsèque, deux surfaces sont « les mêmes » si elles sont congruentes dans l'espace euclidien ambiant, c'est-à-dire qu'il existe une isométrie de E3 envoyant l'une sur l'autre. Cette définition plus rigide différencie le cylindre du plan.
+Bien que les principaux invariants dans l'étude de la géométrie intrinsèque d'une surface soient la métrique (la première forme fondamentale) et la courbure de Gauss, d'autres propriétés dépendent du plongement dans un espace euclidien. L'exemple le plus important est la seconde forme fondamentale, définie classiquement ainsi[7] : soit un point (x, y) de la surface dans une carte locale. Le carré de la distance (euclidienne) entre un point proche (x + dx, y + dy) et le plan tangent en (x, y), c'est-à-dire le carré de la distance de ce point à sa projection orthogonale, est de la forme
+e dx2 + 2f dx dy + g dy2
+à des corrections d'ordre supérieur près. Cette expression, une forme bilinéaire symétrique en chaque point (mais qui n'est pas définie positive en général), est la seconde forme fondamentale. Elle peut se représenter par une matrice symétrique d'ordre 2 :
+dont les coefficients dépendent (de façon différentiable) de x et y. La courbure de Gauss est alors donnée par le quotient des déterminants des deux formes fondamentales :
+Ce nombre est un invariant intrinsèque ; ce fait remarquable fut démontré par Gauss (c'est son theorema egregium, qui sera discuté plus loin).
+La courbure moyenne Km, définie comme la demi-somme des courbures principales, est un autre invariant extrinsèque important (mais il n'est pas intrinsèque : la courbure moyenne d'un cylindre est non nulle, contrairement à celle du plan). Elle est donnée par la formule(Eisenhart 2004, p. 123) :
+Les coefficients des deux formes fondamentales satisfont certaines conditions de compatibilité connues sous le nom d'équations de Gauss-Codazzi, lesquelles font intervenir les symboles de Christoffel
+associés à la première forme fondamentale(Eisenhart 2004, p. 156) :
+Ces équations peuvent aussi être obtenues (de manière plus succincte[8]) dans le langage des formes de connexion dû à Élie Cartan(O'Neill 1997, p. 257). Pierre Bonnet montra que deux formes quadratiques satisfaisant les équations de Gauss-Codazzi déterminent toujours (localement) une surface plongée et une seule(do Carmo 1976, p. 309-314). Pour cette raison, ces équations sont souvent appelées les équations fondamentales des plongements de surfaces, identifiant précisément l'origine des courbures intrinsèques et extrinsèques. Elles possèdent des généralisations aux surfaces plongées dans des variétés riemanniennes quelconques.
+Opérateur de forme[modifier | modifier le code]
+Wilhelm Blaschke (1885-1962)
+La différentielle df de l'application de Gauss f permet de définir une autre sorte de courbure extrinsèque, appelée opérateur de forme[9], ou application de Weingarten. Cet opérateur apparut d'abord sous forme implicite dans les travaux de Wilhelm Blaschke, et fut par la suite explicité dans un traité écrit par Burali-Forti et Burgati(Gray, Abbena et Salamon 2006, p. 386).
+Comme en chaque point x de la surface, le plan tangent est muni d'un produit scalaire, l'opérateur de forme Sx peut être défini comme une application linéaire de cet espace par la formule
+pour tous les vecteurs tangents v et w (le produit scalaire est bien défini, df(v) et w étant des vecteurs de E3)[N 4]. Le membre de droite est symétrique en v et w, aussi l'opérateur de forme est un endomorphisme autoadjoint de l'espace tangent. Les valeurs propres de Sx sont les courbures principales k1 et k2 en x, et il en résulte que le déterminant de l'opérateur de forme est la courbure de Gauss, tandis que sa trace est le double de la courbure moyenne. Les vecteurs propres déterminent les directions des courbures principales, c'est-à-dire celles qu'une courbe tracée sur la surface doit suivre pour avoir les courbures maximales et minimales.
+L'opérateur de forme est relié aux coefficients des formes fondamentales par les équations de Weingarten(Gray, Abbena et Salamon 2006, p. 394) :
+Géodésiques sur une surface[modifier | modifier le code]
+Articles détaillés : géodésique et longueur d'un arc.
+Les courbes d'une surface qui minimisent la longueur entre leurs extrémités sont appelées des géodésiques ; elles ont la forme que prendrait un ruban élastique tendu entre deux points. Leur détermination mathématique revient à la résolution d'équations aux dérivées partielles venant du calcul des variations. Elles constituent un outil essentiel pour l'étude de la géométrie différentielle des surfaces. Par exemple, la question de savoir si toute métrique riemannienne sur une surface peut provenir d'un plongement (local) dans un espace tridimensionnel est toujours ouverte ; la théorie des géodésiques a permis de montrer que ce résultat est vrai dans le cas important où les composantes de la métrique sont analytiques.
+Géodésiques[modifier | modifier le code]
+Un triangle géodésique sur la sphère. Les géodésiques sont des arcs de grands cercles.
+Étant donné un arc paramétré dérivable par morceaux c(t) = (x(t), y(t)) pour t dans [a, b] (les coordonnées étant prises dans une carte locale), sa longueur est définie par :
+et son énergie[N 5] par
+La longueur ne dépend pas du paramétrage choisi. D'après les équations d'Euler-Lagrange du calcul des variations, si c(t) est un chemin de longueur minimale, paramétré par la longueur de l'arc (l'abscisse curviligne), il doit satisfaire les relations :
+où les symboles de Christoffel
+sont donnés par
+avec , , , et où
+est la matrice inverse de . Un chemin qui satisfait ces équations est appelé une géodésique.
+D'après l'inégalité de Cauchy-Schwarz, un chemin minimisant l'énergie est une géodésique paramétrée par la longueur d'arc ; plus généralement, pour toute géodésique, le paramètre t est proportionnel à la longueur d'arc[10].
+Courbure géodésique[modifier | modifier le code]
+Article connexe : repère de Darboux.
+La courbure géodésique
+en un point d'une courbe c(t) d'une surface orientée, paramétrée par la longueur d'arc, est définie par[11] :
+où n(t) est le vecteur unitaire normal à la courbe « principale », construit en faisant tourner dans le plan tangent le vecteur unitaire tangent à la courbe, , d'un angle droit positif.
+La courbure géodésique en un point est un invariant intrinsèque, ne dépendant que de la métrique au voisinage du point.
+Une courbe parcourue à vitesse constante sur une surface est une géodésique si et seulement si sa courbure géodésique s'annule en tout point.
+Une courbe c(t) parcourue à vitesse constante sur une surface plongée dans l'espace est une géodésique si et seulement si son vecteur accélération
+est normal à la surface en tout point.
+La courbure géodésique mesure précisément en chaque point l'écart entre une courbe et la géodésique tangente en ce point.
+Le problème du plongement isométrique[modifier | modifier le code]
+Article connexe : théorème de plongement de Nash.
+Un résultat de (Jacobowitz 1972) et (Poznjak 1973) montre que toute structure métrique sur une surface vient d'un plongement local dans E4. En dehors de certains cas particuliers, la question de savoir si cela est toujours possible dans E3 reste ouverte, et est connue comme le « problème de Weyl »(Han et Hong 2006). En 1926, Maurice Janet montra que ce résultat était vrai si E, F et G sont analytiques ; peu de temps après, Élie Cartan généralisa ce résultat aux plongements locaux des variétés riemanniennes de dimension n dans Em, avec m = ½(n2 +n). Pour démontrer le théorème de Janet au voisinage de (0,0), le théorème de Cauchy-Kowalevski est utilisé deux fois pour construire des géodésiques analytiques orthogonales à l'axe des y et à l'axe des x, puis pour effectuer un changement de coordonnées analytique après lequel E=1 et F=0 : un plongement isométrique u doit vérifier
+En dérivant, on obtient les trois équations supplémentaires
+avec u(0,y) et ux(0,y) fixés. Ces équations peuvent être résolues près de (0,0) grâce au théorème de Cauchy-Kowalevski, donnant une solution au problème de plongement initial.
+Cependant, la résolution effective globale de ce problème, même dans le cas simple du tore « plat » (c'est-à-dire de la variété quotient de R2 par Z2) a longtemps semblé inaccessible ; après la démonstration de l'existence de solutions globales[12] par John Nash et Nicolaas Kuiper vers 1960, l'utilisation de nouvelles techniques (dont l'intégration convexe, due à Mikhaïl Gromov) a finalement permis en 2012 la construction de programmes graphiques permettant de visualiser la surface correspondante[13].
+Coordonnées orthogonales[modifier | modifier le code]
+En coordonnées orthogonales, φ est l'angle entre l'axe des x et la tangente L à la géodésique C.
+Lorsque le coefficient F de la métrique est nul, les parallèles aux axes des x et des y sont orthogonales et construisent un système de coordonnées orthogonales. Si on pose , la courbure de Gauss est donnée par[14]
+Si, de plus, E=1 (et donc ), l'angle
+d'intersection entre la géodésique (x(t),y(t)) et la droite y = constante est donné par l'équation
+La dérivée de
+est donnée par la formule classique due à Gauss[15] : .
+Coordonnées géodésiques polaires[modifier | modifier le code]
+Carl Jacobi (1804–1851)
+Une métrique étant donnée sur une surface, et un point fixé pris pour origine, il y a une géodésique unique reliant l'origine à chaque point voisin suffisamment proche ; réciproquement, la direction de cette géodésique à l'origine et la distance déterminent uniquement le point atteint. Ces deux réels déterminent un unique vecteur tangent à l'origine, et l'application ainsi définie, allant de l'ensemble des vecteurs tangents vers les points de la surface, est différentiable et a pour image un voisinage de l'origine ; cette application est appelée l'application exponentielle et elle définit un système de coordonnées locales près de l'origine.
+L'image de l'application exponentielle possède des propriétés analogues à celles des boules de l'espace usuel ; ainsi, deux points quelconques sont reliés par une géodésique unique, une propriété connue sous le nom de « convexité géodésique ». Les coordonnées correspondantes, appelées « coordonnées normales », ou coordonnées géodésiques polaires, généralisent les coordonnées polaires usuelles.
+Le calcul explicite des coordonnées normales peut se faire à l'aide de l'équation différentielle satisfaite par les géodésiques. La propriété de convexité est conséquence d'un lemme dû à Gauss et de ses généralisations. La courbure de Gauss est alors donnée par les déviations (au second ordre) de la métrique par rapport à la métrique euclidienne ; en particulier, c'est un invariant de la métrique. Ce résultat est le célèbre theorema egregium de Gauss.
+Une façon commode d'envisager la courbure part d'une équation différentielle, étudiée d'abord par Gauss, puis généralisée par Jacobi, apparaissant lorsqu'on détermine le changement de coordonnées normales entre deux points distincts. Cette équation donne un autre moyen de calculer la courbure de Gauss ; en termes géométriques, elle décrit l'évolution d'une géodésique partant d'un point fixe lorsque son autre extrémité décrit un petit arc de courbe ; on peut à partir de cette image « dériver » les géodésiques, obtenant un champ de vecteurs tangents appelé le champ de Jacobi(do Carmo 1976, p. 357). Marston Morse a donné une interprétation plus conceptuelle du champ de Jacobi en termes de dérivées secondes de la fonction énergie sur la variété de Hilbert des chemins(Milnor 1963).
+Application exponentielle[modifier | modifier le code]
+Article détaillé : application exponentielle.
+La théorie des équations différentielles ordinaires montre que si f(t, v) est différentiable, l'équation différentielle dv/dt = f(t,v) avec pour conditions initiales v(0) = v0 a une solution unique pour |t| assez petit, et que la solution dépend de façon différentiable de t et v0. Cela entraîne que, en un point donné p = (x0,y0), et pour des vecteurs tangents v assez petits, il y a une géodésique cv(t) définie sur (−2,2) avec cv(0) = (x0,y0) et v(0) = v. De plus, si |s| ≤ 1, alors csv = cv(st). L’application exponentielle est alors définie par
+expp(v) = cv (1) ;
+c'est un difféomorphisme entre un disque ||v|| < δ et un voisinage de p ; plus généralement, l'application envoyant (p,v) vers expp(v) est un difféomorphisme local sur un voisinage de (p,v). L'application exponentielle permet de construire des coordonnées normales géodésiques près de p(Wilson 2008).
+Calcul de coordonnées normales[modifier | modifier le code]
+On trouvera par exemple dans (Berger 2003) la méthode suivante pour calculer le changement de variables amenant à des coordonnées normales u, v en un point : si les coordonnées x, y en (0,0) sont localement orthogonales, on écrit
+x(u,v) = α u + L(u,v) + λ(u,v) + ···
+y(u,v) = β v + M(u,v) + μ(u,v) + ···
+où L, M sont des polynômes homogènes de degré 2 et λ, μ des polynômes homogènes de degré 3 en u et v. Si u et v sont fixés, x(t) =x(tu,tv) et y(t) = y(tu, tv) peuvent être vus comme des séries formelles solutions des équations d'Euler ; cela détermine (de manière unique) α, β, L, M, λ et μ.
+Lemme de Gauss[modifier | modifier le code]
+En coordonnées polaires géodésiques, les géodésiques partant de l'origine coupent à angle droit les cercles correspondant à un rayon constant. Les distances radiales sont identiques aux distances réelles, mais les petits arcs des cercles concentriques ont pour longueur H(r,θ) = G(r,θ)½ fois l'angle qu'ils sous-tendent.
+Article détaillé : lemme de Gauss (géométrie riemannienne).
+Dans ces coordonnées, la matrice g(x) vérifie g(0) = I et les « droites »
+sont des géodésiques passant par 0. Les équations d'Euler entraînent l'équation matricielle g(v)v = v ; ce résultat essentiel est généralement appelé le lemme de Gauss. Géométriquement, il affirme que
+Les géodésiques passant par l'origine sont orthogonales aux cercles ayant pour centre l'origine.
+En coordonnées polaires (r,θ), il en résulte que la métrique est de la forme ds2 = dr2 + G(r,θ) dθ2.
+En coordonnées géodésiques, les géodésiques (passant par 0) minimisent la longueur. La topologie de la variété riemannienne est donc donnée par une distance d(p, q), valant la borne inférieure des longueurs des chemins entre p et q ; cette distance est réalisée localement par des géodésiques, et donc, en coordonnées normales, d(0,v) = ||v||. Si le rayon δ est suffisamment petit, un léger raffinement du lemme de Gauss montre que l'image U du disque ||v|| < δ par l'application exponentielle est géodésicalement convexe, c'est-à-dire que deux points de U sont reliés par une géodésique unique entièrement contenue dans U(Berger 2003).
+Theorema egregium[modifier | modifier le code]
+Article détaillé : Theorema egregium.
+En prenant des coordonnées telles que l'équation d'une surface de E3 soit z= F(x,y) = k1 x2 + k2 y2 + ···, la métrique, en coordonnées normales (u, v), est (au second ordre près)(Berger et Gostiaux 1992)
+ds2 = du2 + dv2 + K(u dv – v du)2 + o(u2 + v2).
+Ce résultat de Gauss, le theorema egregium (« théorème remarquable », en latin), montre que la courbure de Gauss d'une surface peut être calculée uniquement à l'aide de la métrique, et est donc un invariant intrinsèque (ne dépendant pas de son plongement dans E³). En particulier, les isométries préservent la courbure de Gauss(Berger 2003).
+Équation de Gauss-Jacobi[modifier | modifier le code]
+Article principal : Champ de Jacobi.
+Un changement de coordonnées passant des coordonnées normales en p à celles en un point voisin q amène à une équation de Sturm–Liouville vérifiée par , équation découverte par Gauss et généralisée par la suite par Jacobi,
+La matrice jacobienne de ce changement de coordonnées est égale (en q) à . Cela donne une autre démonstration du caractère intrinsèque de la courbure de Gauss : comme
+peut être interprétée comme la longueur d'un élément de géodésique dans la direction θ, l'équation de Gauss–Jacobi montre que la courbure en un point mesure la façon dont les géodésiques s'écartent quand on s'éloigne de ce point(O'Neill 1997, p. 395).
+Opérateur de Laplace-Beltrami[modifier | modifier le code]
+Eugenio Beltrami (1835-1899)
+Pour une surface de métrique locale
+ayant pour opérateur de Laplace-Beltrami
+où H2 = EG – F 2, la courbure de Gauss en un point est donnée par :
+r désignant la distance géodésique à partir de ce point. Puisque Δ est un invariant intrinsèque, cela donne encore une autre démonstration du caractère intrinsèque de la courbure de Gauss.
+En coordonnées isothermales, lesquelles furent envisagées d'abord par Gauss, la métrique prend la forme particulière
+Dans ce cas, l'opérateur de Laplace-Beltrami est donné par
+et
+vérifie l'équation de Liouville(O'Neill 1997, p. 286)
+Les coordonnées isothermales existent au voisinage de tout point de la surface, mais les seules preuves connues de ce résultat reposent sur des résultats non triviaux de la théorie des équations aux dérivées partielles(do Carmo 1976, p. 227). Cependant, il en existe une démonstration élémentaire dans le cas des surfaces minimales(Osserman 2002, p. 31–32).
+Formule de Gauss-Bonnet[modifier | modifier le code]
+Article détaillé : Formule de Gauss-Bonnet.
+Une triangulation du tore
+L'aire d'un triangle sphérique sur la sphère unité est α + β + γ - π.
+Sur une sphère ou un hyperboloïde, l'aire d'un triangle dont tous les côtés sont des géodésiques est proportionnelle à la différence entre la somme des angles intérieurs et π. La constante de proportionnalité est la courbure de Gauss (laquelle est constante pour ces surfaces). Sur un tore ou un cylindre, la différence est nulle, tout comme la courbure de Gauss. Gauss généralisa ces résultats à une surface arbitraire en montrant que l'intégrale de la courbure de Gauss sur l'intérieur d'un triangle géodésique est encore égale à cette différence angulaire. Il est donc possible de calculer cette intégrale sur la surface entière en la décomposant en triangles, et, cas particulier de ce qui est à présent connu comme le théorème de Gauss-Bonnet, Gauss montra que cette intégrale est toujours un multiple entier de 2π, obtenant ainsi un invariant topologique de la surface appelé la caractéristique d'Euler. Cette relation inattendue entre l'analyse et la topologie devait être suivie de nombreux résultats géométriques du même ordre, culminant avec le théorème de l'indice d'Atiyah-Singer.
+Triangles géodésiques[modifier | modifier le code]
+Gauss montra que, si Δ est un triangle géodésique d'angles α, β et γ aux sommets A, B et C (c'est-à-dire que, par exemple, AB et AC sont des géodésiques dont les vecteurs tangents en A forment un angle de α), alors
+.
+En effet, se plaçant en coordonnées polaires géodésiques d'origine A, avec AB et AC d'angles polaires 0 et α,
+,
+où la seconde égalité résulte de l'équation de Gauss–Jacobi et la quatrième de la formule de dérivation de Gauss dans les coordonnées orthogonales (r,θ).
+La formule de Gauss montre que la courbure en un point peut être calculée comme la limite du quotient de l’excès angulaire α + β + γ − π par l’aire pour des triangles géodésiques de plus en plus petits entourant le point. En particulier, qualitativement, le signe de la courbure est le même que celui de l'excès angulaire pour des triangles assez petits(Eisenhart 2004).
+Théorème de Gauss-Bonnet[modifier | modifier le code]
+La caractéristique d'Euler de la sphère, calculée sur une triangulation icosaédrique, est S - A + F = 12 - 30 + 20 = 2.
+Comme toute surface compacte orientable M peut être triangulée par de petits triangles géodésiques, il s'ensuit que
+où χ(M) est la caractéristique d'Euler de la surface ; s'il y a F faces, A arêtes et S sommets, alors 3F = 2A et l'intégrale vaut π(2S – F) = 2π(S – A + F) = 2π.χ(M).
+Ce résultat est le célèbre théorème de Gauss-Bonnet : il montre que l'intégrale de la courbure de Gauss est un invariant topologique de la surface. Ce théorème admet de nombreuses interprétations ; parmi ses conséquences les plus lointaines se trouve le théorème de l'indice pour un opérateur elliptique sur M, lui-même un des cas les plus simples du théorème de l'indice d'Atiyah-Singer. Un autre résultat important pouvant être démontré à l'aide de la formule de Gauss-Bonnet est le théorème de Poincaré-Hopf concernant les champs de vecteurs sur M s'annulant en un nombre fini de points : il affirme que la somme des indices[N 6] en ces points est égal à la caractéristique d'Euler de M(Eisenhart 2004).
+Courbure et plongements[modifier | modifier le code]
+Si la courbure de Gauss d'une surface M est partout positive, sa caractéristique d'Euler est positive, et donc M est homéomorphe (et même difféomorphe) à la sphère S2. Si de plus la surface est plongée isométriquement dans E3, l'application de Gauss est un difféomorphisme explicite. Comme l'a observé Hadamard, la surface est alors convexe ; ce critère de convexité peut être vu comme une généralisation à deux dimensions du critère de convexité des courbes planes utilisant la dérivée seconde. Hilbert montra que toute surface compacte plongée isométriquement admet au moins un point de courbure positive. Ainsi, une surface fermée de courbure négative ne peut être plongée isométriquement dans E3 ; cependant, comme Adriano Garsia (en) l'a montré en utilisant l'équation de Beltrami pour les applications quasi-conformes, ce plongement est toujours possible pour une métrique conformément équivalente à la métrique initiale[16].
+Surfaces de courbure constante[modifier | modifier le code]
+Les surfaces simplement connexes de courbure constante 0, +1 et –1 sont le plan euclidien, la sphère unité E3 et le plan hyperbolique. Chacune de ces surfaces possède un groupe d'isométries (préservant l'orientation) qui est un groupe de Lie G, et qui permet d'étudier leur géométrie. Plus généralement, toute surface M de courbure constante admettra l'une de ces trois surfaces comme revêtement universel. D'après le théorème d'uniformisation de Poincaré, il en résulte que toute variété riemannienne orientable compacte de dimension 2 est conformément équivalente à une surface de courbure constante 0, +1 ou –1 (ce nombre étant le signe de la caractéristique d'Euler de la variété)[17], d'où l'intérêt de l'étude des trois géométries correspondantes[N 7].
+Géométrie euclidienne[modifier | modifier le code]
+Un triangle du plan
+Dans le cas du plan euclidien, le groupe des symétries est le groupe des déplacements, produit semi-direct du groupe des translations par le groupe des rotations[18]. Les géodésiques sont les droites, et la géométrie se ramène aux formules élémentaires de trigonométrie (elles-mêmes liées à l'existence d'un produit scalaire), telles que la formule d'Al Kashi pour un triangle de côtés a, b, c et d'angles α, β, γ :
+Les surfaces compactes de courbure nulle sont les tores, obtenus en prenant le quotient de R2 par un réseau, c'est-à-dire un sous-groupe de rang 2. Ces surfaces ne peuvent être plongées isométriquement dans E3, mais cela est possible dans E4 ; cela vient de ce qu'un tore s'identifie à un produit de deux cercles de E2 (do Carmo 1976).
+Géométrie sphérique[modifier | modifier le code]
+Sur une sphère, la somme des angles intérieurs d'un triangle n'est pas égale à 180°. Cependant, dans un petit triangle, la somme des angles se rapproche de la valeur euclidienne de 180°.
+Un triangle sphérique
+Article détaillé : géométrie sphérique.
+Le groupe d'isométries de la sphère unité de E'3, S2, est le groupe orthogonal O(3), produit semi-direct du groupe des rotations SO(3) avec l'application antipodale envoyant x vers –x[19]. Le groupe SO(3) agit transitivement sur S2. Le stabilisateur du vecteur unité (0,0,1) peut être identifié à SO(2), et donc S2 = SO(3)/SO(2).
+Les géodésiques entre deux points de la sphère sont des arcs de grand cercle. Si les points ne sont pas antipodaux, il y a un arc unique minimisant la distance entre eux.
+Un triangle géodésique de la sphère est appelé un triangle sphérique. Il est défini par trois points A, B, C, les côtés BC, CA, AB étant des arcs de grands cercles de longueur inférieure à π. Si les longueurs des côtés sont a, b, c et les angles entre les côtés[N 8] α, β, γ, alors la formule des cosinus (que l'on peut voir comme un analogue sphérique de la formule d'Al-Kashi) dit que
+L'aire du triangle est α + β + γ - π.
+À l'aide d'une projection stéréographique à partir du pôle nord, la sphère peur être identifiée à la sphère de Riemann C
+{∞}. La forme explicite de cette application est
+Par cette application, chaque rotation de S2 correspond à une transformation de Möbius du groupe spécial unitaire SU(2), unique au signe près[20]. Dans les coordonnées du plan complexe (u, v), la métrique de la sphère devient(Eisenhart 2004, p. 110)
+La sphère unité est la seule variété compacte de courbure constante +1. Le quotient SO(3)/O(2) peut être identifié au plan projectif réel. Il est non orientable et s'identifie également au quotient de S2 par la multiplication par –1. La sphère est simplement connexe, alors que le groupe fondamental du plan projectif est Z2. Les sous-groupes finis de SO(3), correspondant aux sous-groupes finis de O(2) et aux groupes de symétries des solides platoniciens, n'agissent pas librement sur S2 ; les quotients correspondants ne sont donc pas des variétés, mais seulement des orbifolds.
+Géométrie hyperbolique[modifier | modifier le code]
+Article détaillé : géométrie hyperbolique.
+Felix Klein (1849-1925)
+Henri Poincaré (1854-1912)
+La géométrie non euclidienne[21] fit sa première apparition dans des lettres de Gauss au début du XIXe siècle ; il en construisit d'importants développements analytiques qui circulèrent à titre privé seulement. Lobatchevski en 1830 et, indépendamment, Bolyai (fils d'un des correspondants de Gauss) en 1832, publièrent des approches synthétiques de cette nouvelle géométrie, qui leur valurent de sévères critiques. Cependant, il fallut attendre 1868 pour que Beltrami, suivi par Klein en 1871 et Poincaré en 1882, donnent des modèles analytiques concrets de ce que Klein baptisa la géométrie hyperbolique. Quatre modèles de la géométrie hyperbolique à deux dimensions furent ainsi construits :
+le modèle de Beltrami-Klein ;
+le modèle de l'hyperboloïde dans l'espace de Minkowski à trois dimensions, dû à Wilhelm Killing.
+le disque de Poincaré ;
+le demi-plan de Poincaré ;
+Le premier de ces modèles, basé sur un disque, a pour géodésiques de véritables droites euclidiennes (ou, plus précisément, l'intersection de ces droites avec le disque unité ouvert). Le deuxième utilise une construction complètement analogue à celle de la géométrie sphérique (c'est en fait une géométrie sphérique « imaginaire »). Cependant, en raison de leurs applications à l'analyse complexe, les modèles de Poincaré sont les plus fréquemment utilisés ; ils sont interchangeables, en raison des transformations de Möbius entre le disque et le demi-plan.
+Soit
+le disque unité dans le plan complexe, muni de la métrique de Poincaré
+En coordonnées polaires (r, θ), la métrique est donnée par
+La longueur d'une courbe γ:[a,b]
+D est donnée par
+Le groupe G = SU(1,1) donné par
+agit transitivement sur D par les transformations de Möbius, et le stabilisateur de 0 est le groupe des rotations
+Le groupe quotient SU(1,1)/±I est le groupe des isométries de D préservant l'orientation. Deux points quelconques z et w de D sont reliés par une géodésique unique, portée par la droite ou le cercle passant par z et w qui est orthogonal au cercle unité frontière de D. La distance entre z et w est donnée par
+En particulier, d(0,r) = 2 tanh−1 r, et c(t) = tanh t/2 est la géodésique correspondant à l'axe des réels, paramétrée par la longueur d'arc.
+La topologie définie par cette métrique est la topologie usuelle, mais, en tant qu'espace métrique, (D,d) est complet.
+Un triangle hyperbolique dans le disque de Poincaré
+Un triangle hyperbolique est un triangle géodésique pour cette métrique. Si les côtés sont de longueurs a, b, c, les angles correspondants étant notés α, β, γ, alors la « formule d'Al-Kashi hyperbolique » est
+L'aire de ce triangle vaut[22] π – α – β – γ.
+Le disque unité et le demi-plan supérieur
+sont en bijection conforme par les transformations de Möbius (liées à la transformation de Cayley)
+Par cette correspondance, l'action de SL(2,R) sur H correspond à celle de SU(1,1) sur D. La métrique sur H est donnée par
+Les cercles étant préservés par les transformations de Möbius, les géodésiques sont des droites ou des cercles orthogonaux à l'axe des réels.
+Le disque unité muni de la métrique de Poincaré est la seule surface orientable simplement connexe de courbure constante -1. Les autres surfaces orientables M de courbure constante -1 admettent D comme revêtement universel. Leur groupe fondamental peut être identifié à un sous-groupe compact sans torsion Γ de SU(1,1), tel que
+Γ est alors un groupe de présentation finie. On peut coder les générateurs de ce groupe et leurs relations à l'aide d'un polygone géodésique fondamental de D (ou de H), dont les côtés correspondent à des géodésiques fermées de M.
+Cette construction donne, par exemple, la surface de Bolza, de genre 2, la quartique de Klein, de genre 3, la surface de Macbeath, de genre 7, ou encore le premier triplet de Hurwitz, de genre 14.
+Uniformisation[modifier | modifier le code]
+Étant donnée une surface fermée orientable M de courbure de Gauss K, la métrique de M peut être changée de façon conforme en la multipliant par un facteur e2u. La nouvelle courbure K’ est alors donnée par
+où Δ est le laplacien de la métrique initiale. Ainsi, pour montrer qu'une surface donnée est conformément équivalente à une métrique de courbure constante K’, il suffit de résoudre la variante suivante de l'équation de Liouville :
+Quand M est de caractéristique d'Euler nulle, et donc difféomorphe à un tore, K’ = 0, et cela revient à résoudre
+La théorie classique des opérateurs elliptiques montre que ces solutions existent, car l'intégrale de K sur M est nulle, d'après le théorème de Gauss-Bonnet[23].
+Lorsque M est de caractéristique d'Euler négative, K’ = -1, et l'équation devient :
+Utilisant la continuité de l'application exponentielle sur les espaces de Sobolev, un résultat dû à Neil Trudinger, on montre que cette équation non linéaire possède toujours des solutions[24].
+Enfin, dans le cas de la 2-sphère, K’ = 1 et l'équation devient :
+Cette équation non linéaire n'a pas encore été analysée directement, mais des résultats classiques tels que le théorème de Riemann-Roch permettent de montrer qu'elle admet toujours des solutions. La méthode du flot de Ricci, développée par Richard Hamilton, donne une autre preuve basée sur l'étude des équations aux dérivées partielles non linéaires[25]. En fait, le flot de Ricci sur les métriques conformes de S2 est défini pour des fonctions u(x, t) par
+Chow a démontré que K’ devient positif en un temps fini ; des résultats antérieurs de Hamilton permettent alors de montrer que K’ converge vers +1[26].
+Surfaces de courbure négative[modifier | modifier le code]
+Dans une région de la surface où K≤0, les triangles géodésiques vérifient les inégalités de la géométrie de comparaison des espaces CAT(0) (en), ou espaces de Hadamard (en), étudiée par Cartan, Alexandrov et Toponogov (en), et envisagée par la suite d'un point de vue différent (en) par Bruhat et Tits ; grâce aux travaux de Gromov, cette caractérisation de la courbure négative en termes de la distance géodésique a eu un profond impact sur la géométrie moderne, et en particulier sur la théorie géométrique des groupes.
+L'inégalité d'Alexandrov[modifier | modifier le code]
+La forme la plus simple des inégalités de comparaison, d'abord démontrée pour les surfaces de courbure négative par Alexandrov vers 1940, affirme que :
+La distance entre un sommet d'un triangle géodésique et le milieu du côté opposé est toujours inférieure à la longueur de la médiane correspondante du triangle de comparaison, c'est-à-dire du triangle euclidien ayant les mêmes longueurs de côtés.
+Cette inégalité résulte de ce que si c(t) décrit une géodésique paramétrée par la longueur d'arc, et a est un point fixé, alors
+f(t) = d(a,c(t))2 − t2
+est une fonction convexe, et donc
+En coordonnées polaires géodésiques d'origine a, avec ||c(t)|| = r(t), la convexité est équivalente à
+En coordonnées normales u, v à c(t), cette inégalité devient
+u2 + H − 1 Hr v2 ≥ 1,
+où (u,v) correspond au vecteur unitaire .
+Cela résulte de l'inégalité Hr ≥ H, conséquence de ce que la dérivée du wronskien de H et r (venant de la théorie de Sturm-Liouville) est non positive[27].
+Existence et unicité des géodésiques[modifier | modifier le code]
+George Birkhoff (1884-1944)
+Sur une surface connexe complète, deux points sont toujours reliés par au moins une géodésique. C'est un cas particulier du théorème de Hopf-Rinow, lequel s'applique à des variétés de dimension quelconque. L'hypothèse de complétude est nécessaire : dans le plan euclidien privé d'un point, il n'y a pas de géodésique reliant deux points symétriques par rapport à celui-ci.
+Si de plus la surface est de courbure partout strictement négative, la géodésique joignant deux points quelconques est unique. Bien qu'on connaisse des approches classiques de ce résultat(Milnor 1963), George Birkhoff en a trouvé une démonstration qui s'applique plus généralement à n'importe quelle variété riemannienne de courbure négative ; elle s'appuie sur sa méthode de raccourcissement, publiée en 1917, qui devait lui valoir le prestigieux prix Bôcher et avoir une profonde influence sur le développement par Marston Morse de la théorie de Morse en dimension infinie(Milnor 1963), ainsi que sur la théorie des systèmes dynamiques.
+Théorème de Von Mangoldt-Hadamard[modifier | modifier le code]
+Pour des surfaces compactes de courbure négative, von Mangoldt (1881) et Hadamard (1898) ont démontré que l'application exponentielle en un point est un revêtement, et donc que le revêtement universel de la variété est E². Ce résultat fut généralisé en dimension supérieure par Cartan et, sous cette forme, est connu sous le nom de théorème de Cartan-Hadamard (en). Pour les surfaces, il découle des trois importants résultats suivants[28] :
+La jacobienne de l'application exponentielle ne s’annule jamais pour des surfaces de courbure négative, puisque Hr ne s'annule pas.
+Les géodésiques « s'étendent à l'infini », c'est-à-dire que c(t) ne se rapproche pas d'un point limite quand t tend vers l'infini ; c'est une autre conséquence du théorème de Hopf-Rinow.
+Chaque classe d'homotopie de l'ensemble des chemins reliant deux points ne contient qu'une géodésique, comme on l'a vu précédemment.
+Bernhard Riemann (1826-1866)
+Connexion riemannienne et transport parallèle[modifier | modifier le code]
+Tullio Levi-Civita (1873-1941)
+Articles détaillés : connexion ; connexion riemannienne sur une surface (en)
+Les concepts de variété riemannienne (introduit par Bernhard Riemann vers 1850) et de connexion (développé par Tullio Levi-Civita, Élie Cartan et Hermann Weyl au début du XXe siècle) devaient permettre une approche plus conceptuelle et uniforme de la notion de courbure que l'approche classique de Gauss[29], non seulement généralisable à des variétés de dimension supérieure, mais permettant de définir de nouveaux invariants géométriques, les classes caractéristiques[30].
+Dérivée covariante[modifier | modifier le code]
+Les connexions sur une surface peuvent être définies par plusieurs méthodes équivalentes. La connexion riemannienne, également appelée la connexion de Levi-Civita(Levi-Civita 1917) se comprend peut-être plus facilement comme relèvement de champs de vecteurs, considérés comme des opérateurs différentiels du premier ordre (agissant sur les fonctions définies sur la variété), vers des opérateurs du fibré tangent ou du fibré des repères (en).
+Dans le cas d'une surface plongée dans R3, ce relèvement, appelé la dérivée covariante, se décrit simplement à l'aide de la projection orthogonale. Un champ de vecteurs sur la surface peut être considéré comme une fonction allant de la surface vers R3. Un autre champ de vecteurs agit alors comme un opérateur différentiel sur chaque composante. Le champ résultant n'est pas tangent à la surface, mais il suffit de le projeter en chaque point sur le plan tangent correspondant. Comme Ricci et Levi-Civita s'en rendirent compte, cette procédure ne dépend que de la métrique, et peut s'exprimer localement à l'aide des symboles de Christoffel.
+Transport parallèle[modifier | modifier le code]
+Transport parallèle d'un vecteur autour d'un triangle géodésique de la sphère.
+La notion de transport parallèle d'un vecteur le long d'une courbe fut introduite ensuite par Levi-Civita(Levi-Civita 1917). On peut la définir comme la monodromie de l'équation différentielle définie sur la courbe par la dérivée covariante par rapport au vecteur vitesse de la courbe. Le long de géodésiques, cela revient à dire que le transport parallèle d'un vecteur d'un plan tangent est l'unique champ de vecteurs le contenant, formé de vecteurs de norme constante, et faisant un angle constant avec le vecteur tangent à la géodésique. Pour une courbe générale, une description analogue est possible, utilisant la courbure géodésique(Berger 2003) :
+Un champ de vecteurs v(t), le long d'une courbe c(t) parcourue à vitesse unité, de courbure géodésique kg(t), est dit parallèle (le long de la courbe) si
+il est de norme constante
+l'angle θ(t) avec le vecteur vitesse
+vérifie .
+Cette approche permet de montrer l'existence du transport parallèle, θ(t) pouvant être calculé comme l'intégrale de la courbure géodésique. Comme elle dépend continument de la norme L2 de kg, le transport parallèle pour une courbe arbitraire peut aussi être obtenu comme limite de transports parallèles sur des approximations par des courbes géodésiques par morceaux[31].
+La connexion peut ainsi être décrite par des relèvements des chemins de la variété vers des chemins du fibré tangent ou du fibré des repères, formalisant la théorie classique du « repère mobile (en) »(Darboux 1887). Le relèvement de lacets autour d'un point donne naissance au groupe d'holonomie en ce point. La courbure de Gauss peut être obtenue par des relèvements de lacets de plus en plus petits, ou, de façon équivalente, calculée directement de manière « infinitésimale » grâce aux crochets de Lie des relèvements des champs de vecteurs.
+1-forme de connexion[modifier | modifier le code]
+L'approche de Cartan et de Weyl, utilisant des 1-formes de connexion sur le fibré des repères (en) de M, est encore une autre voie pour définir les connexions riemanniennes.
+Ils remarquèrent que le transport parallèle impose que le relèvement d'un chemin sur la surface soit un chemin dans le fibré des repères tel que ses vecteurs tangents appartiennent à un sous-espace bien précis de codimension 1 dans l'espace tangent tridimensionnel du fibré. La projection sur ce sous-espace est définie par une 1-forme différentielle sur le fibré des repères, la forme de connexion (en). Ceci permet de coder les propriétés de courbure de la surface à l'aide de formes différentielles, et de formules mettant en jeu leurs dérivées extérieures.
+Cette approche est particulièrement simple dans le cas d'une surface plongée dans E3. Grâce à un résultat de (Kobayashi 1956), on montre que la forme de connexion est alors simplement l'image réciproque, par l'application de Gauss, de la forme de connexion sur S2 (Kobayashi et Nomizu 1969). Identifiant S2 avec l'espace homogène SO(3)/SO(2), cette forme est une composante de la forme de Maurer-Cartan (en) sur SO(3)(Ivey et Landsberg 2003).
+Géométrie différentielle globale des surfaces[modifier | modifier le code]
+Bien que la caractérisation de la courbure ne mette en jeu que la géométrie locale d'une surface, on a vu qu'elle est liée à d'importants aspects globaux tels que le théorème de Gauss-Bonnet ou le théorème d'uniformisation. D'autres questions globales passent également par ces méthodes[32] ; en voici quelques exemples.
+L'étude du rayon d'injectivité, défini comme le plus grand r tel que deux points à une distance inférieure à r soient joints par une géodésique unique. Wilhelm Klingenberg montra en 1959 que le rayon d'injectivité d'une surface fermée est minoré par
+(où K est la courbure de Gauss) et par la longueur de sa plus petite géodésique. C'était une amélioration d'un résultat de Bonnet de 1855, montrant que le diamètre d'une surface fermée de courbure positive était toujours majoré par δ, autrement dit, qu'une géodésique entre deux points réalisant la distance minimale ne pouvait être de longueur supérieure à δ.
+Rigidité. En 1927, Cohn-Vossen montra que si deux surfaces fermées de E3 de courbures positives sont isométriques, elles sont nécessairement congruentes par une isométrie de E3. De plus, une telle surface, de courbure moyenne constante, est nécessairement une sphère (Liebmann 1899). Heinz Hopf montra en 1950 qu'une surface de courbure moyenne constante et homéomorphe à une sphère en est une ; enfin, en 1955, Alexandrov montra qu'on pouvait se passer de l'hypothèse topologique.
+La conjecture de Carathéodory : cette conjecture affirme qu'une surface fermée convexe trois fois différentiable admet au moins deux points ombilicaux, c'est-à-dire des points où les deux courbures principales sont égales.
+Systole sur un tore
+Inégalités isopérimétriques. En 1939, Schmidt montra que l'inégalité isopérimétrique classique pour les courbes planes est encore valable sur la sphère ou dans le plan hyperbolique, c'est-à-dire que parmi toutes les courbes bornant un domaine d'aire fixée, le périmètre minimal est atteint pour des cercles (au sens de la métrique). D'autres généralisations sont abordées dans l'article Théorème isopérimétrique.
+Inégalités systoliques. La systole d'une surface fermée est la plus petite longueur d'une courbe non contractible tracée sur elle. En 1949, Charles Loewner montra une inégalité torique concernant les métriques, à savoir que l'aire du tore divisée par le carré de sa systole est minoré par , l'égalité ayant lieu quand la courbure est constante. Des inégalités similaires existent pour le plan projectif (avec une borne inférieure de 2/π) et pour la bouteille de Klein (avec une borne inférieure de ) ; plus généralement, Mikhail Gromov a établi des bornes (non optimales) pour des surfaces de genre g quelconque(Katz 2007).

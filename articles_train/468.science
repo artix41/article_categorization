@@ -1,0 +1,136 @@
+Analyse complexe — Wikipédia
+Analyse complexe
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'analyse complexe est un domaine des mathématiques traitant des fonctions à valeurs complexes (ou, plus généralement, à valeurs dans un C-espace vectoriel) et qui sont dérivables par rapport à une ou plusieurs variables complexes.
+Les fonctions dérivables sur un ouvert du plan complexe sont appelées holomorphes et satisfont de nombreuses propriétés plus fortes que celles vérifiées par les fonctions dérivables en analyse réelle. Entre autres, toute fonction holomorphe est analytique et vérifie le principe du maximum.
+Le principe des zéros isolés permet de définir le corps des fonctions méromorphes comme ensemble des quotients de fonctions entières, c'est-à-dire de fonctions holomorphes définies sur tout le plan complexe. Parmi ces fonctions méromorphes, les fonctions homographiques forment un groupe qui agit sur la sphère de Riemann, constituée du plan complexe muni d'un point à l'infini.
+Le prolongement analytique mène à la définition des surfaces de Riemann, qui permettent de ramener à de vraies fonctions (dont elles sont le support) les fonctions multivaluées telles que la racine carrée ou le logarithme complexe.
+L'étude des fonctions de plusieurs variables complexes ouvre la voie à la géométrie complexe.
+Sommaire
+1 Dérivée complexe
+2 Intégrale curviligne
+3 Fonctions entières
+4 Prolongement analytique
+5 Extensions : surfaces de Riemann, analyse complexe à plusieurs variables, géométrie complexe
+6 Références
+7 Voir aussi
+Dérivée complexe[modifier | modifier le code]
+La définition de la dérivée complexe est en tout point semblable à celle de la dérivée réelle, si ce n'est que les opérations de corps (-, /) sont remplacées par celles des complexes :
+La dérivabilité complexe a des conséquences beaucoup plus fortes que celle de la dérivabilité réelle. Par exemple, toute fonction holomorphe est développable en série entière sur tout disque ouvert inclus dans son domaine de définition qui doit être un ouvert, et est ainsi équivalente à une fonction analytique. En particulier, les fonctions holomorphes sont indéfiniment dérivables, ce qui en général n'est pas le cas pour les fonctions réelles dérivables. La plupart des fonctions élémentaires, telles que les fonctions polynomiales, la fonction exponentielle, et les fonctions trigonométriques, sont holomorphes.
+Certaines opérations en revanche posent des difficultés nouvelles, ainsi la recherche de primitive ou de fonction réciproque, et a fortiori la résolution d'équation différentielle. La nature topologique du domaine de définition (questions de connexité, de simple connexité) est à prendre en compte pour pouvoir effectuer ces opérations.
+Intégrale curviligne[modifier | modifier le code]
+Un outil puissant en analyse complexe est l'intégrale curviligne. L'intégrale, sur un chemin fermé, d'une fonction qui est holomorphe partout à l'intérieur du secteur délimité par le chemin fermé, est toujours nulle ; c'est le théorème intégral de Cauchy. La valeur d'une fonction holomorphe en un point peut être calculée par une certaine intégrale curviligne sur un chemin fermé autour de ce point. Ce dernier résultat, connu sous le nom de formule intégrale de Cauchy est essentiel pour établir les résultats théoriques sur les fonctions holomorphes.
+Les intégrales sur un chemin dans le plan complexe sont souvent employées pour déterminer des intégrales généralisées réelles, par le biais de la théorie des résidus. Si une fonction a une singularité en un certain point (pôle ou singularité essentielle), ce qui signifie que ses valeurs « explosent » et qu'elle ne prend pas une valeur finie à cet endroit, alors nous pouvons définir le résidu de la fonction en ce point, et ces résidus peuvent être utilisés pour calculer des intégrales, suivant des chemins, impliquant la fonction ; c'est le contenu du puissant théorème des résidus.
+Le comportement remarquable des fonctions holomorphes près des singularités essentielles est décrit par le théorème de Weierstrass-Casorati. Les fonctions qui n'ont que des pôles et aucune singularité essentielle s'appellent des fonctions méromorphes. Les séries de Laurent sont analogues aux séries de Taylor mais sont employées pour étudier le comportement des fonctions holomorphes près des singularités.
+Fonctions entières[modifier | modifier le code]
+Une fonction entière (c'est-à-dire holomorphe dans le plan complexe tout entier) et bornée est nécessairement constante ; c'est l'énoncé du théorème de Liouville. Il peut être utilisé pour fournir une preuve courte et naturelle du théorème fondamental de l'algèbre (ou théorème de d'Alembert-Gauss) qui affirme que le corps des nombres complexes est algébriquement clos, autrement dit que tout polynôme à coefficients complexes, de degré supérieur ou égal à 1, admet au moins une racine.
+Prolongement analytique[modifier | modifier le code]
+Une propriété importante des fonctions holomorphes est que si une fonction est holomorphe sur un domaine connexe, alors ses valeurs sont entièrement déterminées par ses valeurs sur n'importe quel sous-domaine plus petit. La fonction définie sur le domaine le plus grand est dite prolongée analytiquement à partir de ses valeurs sur le domaine plus petit. Ceci permet l'extension de la définition des fonctions telles que la fonction ζ de Riemann qui sont au départ définies en termes de sommes de séries qui convergent seulement sur des domaines limités, à presque tout le plan complexe. Parfois, comme dans le cas du logarithme complexe, il est impossible de prolonger analytiquement en une fonction holomorphe sur un domaine non simplement connexe dans le plan complexe, mais il est possible de la prolonger en une fonction holomorphe sur une surface étroitement liée, appelée surface de Riemann.
+Extensions : surfaces de Riemann, analyse complexe à plusieurs variables, géométrie complexe[modifier | modifier le code]
+La théorie du prolongement analytique amène à des difficultés inattendues pour des fonctions aussi simples que la racine carrée ou le logarithme complexe. La notion de fonction multivaluée, introduite pour les résoudre, s'est heurtée à de nombreux problèmes techniques, qui n'ont pu être surmontés que par Bernhard Riemann, grâce à l'introduction des surfaces qui portent son nom, et dont l'étude constitue une généralisation naturelle de l'analyse complexe.
+Il existe également une théorie très riche de l'analyse complexe des fonctions de plusieurs variables complexes, dans laquelle les propriétés analytiques, comme le développement en série entière, restent toujours vraies tandis que la plupart des propriétés géométriques des fonctions holomorphes à une seule variable complexe (comme la représentation conforme) ne sont plus vérifiées. Le théorème de représentation de Riemann sur la conformité des relations entre certains domaines dans le plan complexe, qui est sans doute le résultat le plus important dans la théorie unidimensionnelle, échoue complètement dans des dimensions plus élevées.
+L'analyse complexe est l'une des branches classiques des mathématiques qui pose ses fondations au XIXe siècle et un peu avant. Les bâtisseurs les plus importants de cette théorie sont les mathématiciens Euler, Gauss, Riemann, Cauchy, Weierstrass ; de nombreux autres du XXe siècle vinrent apporter leur pierre. Traditionnellement, l'analyse complexe, en particulier la théorie des représentations conformes, a beaucoup d'applications en technologie, mais elle est également employée dans la théorie analytique des nombres.
+Dans les temps modernes, elle est devenue très populaire par une nouvelle poussée de la dynamique complexe et des images fractales produites le plus souvent en itérant des fonctions holomorphes, la plus populaire étant l'ensemble de Mandelbrot. Une autre application importante de l'analyse complexe aujourd'hui est la théorie des cordes qui est un invariant conforme (en) de la théorie quantique des champs.
+Références[modifier | modifier le code]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Complex analysis » (voir la liste des auteurs).
+Henri Cartan, Théorie élémentaire des fonctions analytiques d'une ou plusieurs variables complexes [détail des éditions]
+Jean Dieudonné, Calcul infinitésimal [détail des éditions]
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Analyse complexe, sur Wikimedia Commons
+Analyse complexe, sur Wikiversity
+Cours de Michèle Audin, « Analyse complexe » [PDF], sur Université de Strasbourg
+v · d · m
+Domaines des mathématiques
+Algèbre • Algèbre commutative • Algèbre homologique • Algèbre linéaire • Analyse • Analyse réelle • Analyse complexe • Analyse fonctionnelle • Analyse numérique • Calcul quantique • Combinatoire • Géométrie • Géométrie algébrique • Géométrie différentielle • Géométrie non commutative • Optimisation • Physique mathématique • Probabilités • Statistiques • Systèmes dynamiques • Théorie des nombres • Théorie de Galois • Théorie des groupes • Topologie • Topologie algébrique
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Analyse_complexe&oldid=102688756 ».
+Catégorie : Analyse complexeCatégories cachées : Article contenant un appel à traduction en anglaisCatégorie Commons avec lien local identique sur WikidataPortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Български
+Català
+Čeština
+Cymraeg
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+עברית
+हिन्दी
+Magyar
+Íslenska
+Italiano
+日本語
+ქართული
+한국어
+Lumbaart
+Malti
+Nederlands
+Ирон
+Polski
+Português
+Română
+Русский
+සිංහල
+Slovenčina
+Shqip
+Српски / srpski
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 6 avril 2014 à 19:11.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

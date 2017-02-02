@@ -1,0 +1,86 @@
+Ferromagnétisme — Wikipédia
+Ferromagnétisme
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Ne doit pas être confondu avec Ferrimagnétisme.
+Le ferromagnétisme est la propriété qu'ont certains corps de s'aimanter très fortement sous l'effet d'un champ magnétique extérieur, et pour certains (les aimants, matériaux magnétiques durs) de garder une aimantation importante même après la disparition du champ extérieur. Cette propriété résulte du couplage collectif des spins entre centres métalliques d'un matériau ou d'un complexe de métaux de transition, les moments de tous les spins étant orientés de la même façon au sein d'un même domaine de Weiss.
+Sommaire
+1 Susceptibilité magnétique et champ magnétique
+2 Influence de la température
+3 Courbe de première aimantation
+4 Cycles d'hystérésis
+4.1 Matériaux magnétiques doux
+4.2 Matériaux magnétiques durs
+4.3 Modèles d'hystérésis magnétique
+5 Corps ferromagnétiques
+6 Notes et références
+7 Voir aussi
+7.1 Article connexe
+7.2 Bibliographie
+Susceptibilité magnétique et champ magnétique[modifier | modifier le code]
+Articles détaillés : Susceptibilité magnétique et champ magnétique.
+Un matériau ferromagnétique plongé dans un champ magnétique génère un nouveau champ magnétique au sein de celui-ci. Ce phénomène est plus communément appelé aimantation.
+Le champ induit par l'aimantation s'ajoute au champ initial, et c'est la somme des deux qui est observée. Dans un tel cas, le terme de champ magnétique désigne le champ total, et le champ initial prend le nom d'excitation magnétique.
+En d'autres termes, on est parfois amené à distinguer le champ initial, l'excitation magnétique, notée H, du champ total, noté B, reliés l'un à l'autre par :
+avec μ0 la perméabilité magnétique du vide et M l'aimantation du milieu.
+Pour un matériau ferromagnétique, la susceptibilité magnétique χ, définie par la formule
+,
+est très élevée.
+L'aimantation est une fonction dépendant de nombreux paramètres, comme la température, le champ magnétique, et même des champs magnétiques appliqués précédemment (cycle d'hystérésis, voir ci-dessous).
+Représentation très schématique de l'évolution des domaines de Weiss avec un champ magnétique extérieur croissant
+Influence de la température[modifier | modifier le code]
+Article détaillé : Loi de Curie.
+Températures de Curie de matériaux ferromagnétiques (* = ferrimagnétiques)[1]
+Matériaux
+Temp. de Curie (K)
+Co
+1388
+Fe
+1043
+FeOFe2O3*
+858
+MnBi
+630
+Ni
+627
+MnSb
+587
+MnOFe2O3*
+573
+CrO2
+386
+MnAs
+318
+Gd
+292
+Dy
+88
+EuO
+69
+D'une manière générale, quand la température augmente, les moments magnétiques deviennent de moins en moins liés au réseau cristallin et s'orientent plus facilement sous l'effet d'un champ extérieur. La susceptibilité magnétique augmente ainsi rapidement à l'approche de la température de Curie, notée TC. Elle atteint sa plus grande valeur à TC, puis s'annule brutalement: c'est le pic d'Hopkinson ou effet Hopkinson, signe d'une transition de phase du second ordre.
+Au-delà de sa température de Curie, le matériau (re)devient paramagnétique et l'aimantation spontanée est nulle. Sa susceptibilité suit alors la loi de Curie-Weiss,
+.
+À T = TC, la susceptibilité tend vers l'infini, ce qui est conforme à l'expérience.
+Courbe de première aimantation[modifier | modifier le code]
+Lorsqu'un corps est aimanté pour la première fois, son aimantation croît selon sa courbe de première saturation jusqu'à sa valeur de saturation.
+Pour les faibles valeurs de l'aimantation M la courbe d'aimantation suit une fonction de la forme :
+,
+connue sous le nom de loi de Rayleigh[2], où χ H et ξ |H|2décrivent respectivement les variations réversible et irréversible de l'aimantation.
+Cycles d'hystérésis[modifier | modifier le code]
+Lorsque l'on a magnétisé un échantillon de matériau jusqu'à la saturation et que l'on fait décroître l'excitation H, on constate que B décroît également mais en suivant une courbe différente qui se situe au-dessus de la courbe de première aimantation. Ceci est le fait d'un retard à la désaimantation. On dit qu'il y a hystérésis
+Lorsque H est ramené à 0, il subsiste un champ magnétique Br appelé champ rémanent[3]. Pour annuler ce champ rémanent, il est nécessaire d'inverser le courant dans le solénoïde, c’est-à-dire d'imposer à H une valeur négative. Le champ magnétique s'annule alors pour une valeur de l'excitation Hc appelée excitation coercitive.
+Matériaux magnétiques doux[modifier | modifier le code]
+Article détaillé : Fer doux.
+Ce sont en général des matériaux doux mécaniquement. Ces matériaux ont des cycles très étroits : l'excitation coercitive ne dépasse pas 100 A·m−1. Ils possèdent une grande perméabilité. Quelques exemples :
+SuperMalloy (fer, nickel, molybdène, etc.) : Hc = 0,16 A.m−1, Br = 1,2 T (l'un des plus doux).
+Fer + 3 % de Silicium, grains orientés : Hc = 8 A·m−1 (55 selon l'université de Lille), Br = 1,0 T.
+Certains alliages métalliques amorphes à base de fer.
+Les matériaux magnétiques doux sont utilisés pour réaliser des électroaimants (leur aimantation doit pouvoir facilement être annulée) ou des circuits magnétiques fonctionnant en régime alternatif (machines électriques, transformateurs), car ce phénomène d'hystérésis est responsable de pertes d'énergie.
+Matériaux magnétiques durs[modifier | modifier le code]
+Contrairement aux précédents, les cycles sont extrêmement larges : plusieurs centaines de kA·m−1. Il est impossible de les dessiner dans un même repère que les précédents.
+Certains de ces matériaux à base de terres rares (alliages samarium-cobalt ou néodyme-fer-bore), ne se désaimantent pas, même lorsqu'on annule le champ magnétique interne (l'excitation vaut alors HcB). Pour annuler (en fait inverser) l'aimantation, il est nécessaire de fournir une excitation magnétique que l'on appelle excitation de désaimantation irréversible, notée HcM.
+L'application des propriétés de ces matériaux est la réalisation d'aimants permanents de très forte puissance.
+Modèles d'hystérésis magnétique[modifier | modifier le code]
+Les modèles empiriques les plus connus d'hystérésis sont les modèles de Preisach et de Jiles-Atherton. Ces modèles permettent une modélisation précise de la boucle d'hystérésis et sont largement utilisés dans l'industrie. Toutefois, ces modèles empiriques perdent la connexion avec la thermodynamique et la cohérence énergétique n'est pas assurée. Pour pallier ce défaut, les derniers modèles s'appuyent sur une formulation thermodynamique cohérente. Le modèle VINCH[4] s'est inspiré des lois de la plasticité et de la thermodynamique des processus irréversibles. En particulier, en plus de fournir une modélisation précise, l'énergie magnétique stockée et l'énergie dissipée sont connues à tout moment. La formulation incrémentale est obtenue via une formulation variationelle cohérente, i.e. toutes les variables internes découlent de la minimisation d'un potentiel thermodynamique. Cela permet d'obtenir facilement un modèle vectoriel alors que les modèles de Jiles-Atherton et Preisach sont fondamentalement des modèles scalaires.
+Corps ferromagnétiques[modifier | modifier le code]
+Pour l'usage industriel, seul le fer, le cobalt et le nickel sont ferromagnétiques. Certaines terres rares (Lanthanides dans la classification périodique) sont également ferromagnétiques à basse température. En ce qui concerne les alliages, la situation est très complexe : certains alliages de fer et de nickel ne le sont pas alors que l'alliage de Heusler, constitué uniquement de métaux non ferromagnétiques (61 % Cu, 24 % Mn, 15 % Al), est ferromagnétique. Enfin, il faut ajouter les ferrites dont la composition est de la forme (MO ; Fe2O3) ou M est un métal divalent et dont le représentant le plus ancien est la magnétite Fe3O4 (FeO ; Fe2O3) du nom de la ville de Magnésie, en Asie Mineure.

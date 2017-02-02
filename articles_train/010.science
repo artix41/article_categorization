@@ -1,0 +1,111 @@
+Écrouissage — Wikipédia
+Écrouissage
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Laminage : l'amincissement provoque un durcissement du métal.
+L'écrouissage d'un métal est le durcissement d'un métal sous l'effet de sa déformation plastique (définitive). Ce mécanisme de durcissement explique en grande partie les différences entre les pièces métalliques obtenues par corroyage (c'est-à-dire par déformation plastique : laminage, tréfilage, forgeage) et les pièces de fonderie.
+L'écrouissage correspond aux modifications qu'il subit lorsque les contraintes qui lui sont appliquées sont suffisamment fortes pour provoquer des déformations plastiques, permanentes. Ces modifications sont d'ordre métallurgique (modification de la structure interne du métal) et ont généralement une influence sur ses propriétés mécaniques.
+L'écrouissage ne se produit que sur les matériaux ductiles et dans le domaine plastique.
+L'écrouissage se caractérise par une augmentation de la limite d'élasticité et de la dureté ; le matériau devient aussi plus fragile. Suivant les métaux considérés les propriétés mécaniques peuvent évoluer vers une augmentation de la résistance (cas des aciers alliés) jusqu'à un certain point (seuil de rupture) ou à l'inverse vers sa diminution (cas des aciers peu alliés).
+Sommaire
+1 Coefficient d'écrouissage
+2 Concentration de contraintes et écrouissage local
+3 Multiplication des dislocations
+4 Techniques d'écrouissage
+Coefficient d'écrouissage[modifier | modifier le code]
+Courbe de traction rationnelle σ = ƒ(ε)
+La capacité d'un métal à s'écrouir est estimée par le coefficient d'écrouissage n : lors d'un essai de traction, on trace la courbe de traction rationnelle c'est-à-dire la courbe :
+où
+est la contrainte réelle prenant en compte la diminution de l'aire de la section,
+étant la force de traction et
+l'aire;
+ε est la déformation longitudinale prenant en compte le cumul des allongements infinitésimaux
+étant la longueur initiale de l'éprouvette, et
+la longueur sous charge.
+Cette courbe présente une « partie droite » dans la zone plastique, un point d'inflexion.
+Le coefficient d'écrouissage n est la pente de cette partie linéaire.
+Si n est élevé, cela signifie que la contrainte σ croît rapidement lorsque la déformation ε augmente, c'est-à-dire que la force nécessaire pour continuer à étirer le métal augmente beaucoup.
+Concentration de contraintes et écrouissage local[modifier | modifier le code]
+Lorsque la pièce comporte une variation de section ou un défaut — cavité, inclusion (précipité) plus dur ou moins dur que le reste du matériau — il peut se produire localement une concentration de contraintes. Alors que l'on pense être dans le domaine élastique, on entre localement dans le domaine plastique.
+Il peut donc se produire un écrouissage local. Ce phénomène est une des principales causes de la naissance de fissures dans les phénomènes de fatigue.
+Multiplication des dislocations[modifier | modifier le code]
+La déformation plastique d'une pièce métallique se fait par le mouvement des dislocations.
+Ces dislocations se multiplient selon le mécanisme de Frank et Read :
+Elles sont épinglées (par des défauts ponctuels, des précipités ou d'autres dislocations normales au plan de mouvement) ;
+Les parties épinglées restent fixes, les parties mobiles s'étendent autour de l'épinglage ;
+Lorsque les parties mobiles se rejoignent, cela forme une boucle de dislocation qui bouge (s'étend) librement tandis que la partie épinglée recommence le cycle.
+Or, les dislocations se gênent mutuellement : si elles sont dans le même plan de glissement, elles s'attirent ou se repoussent, limitant leurs propagations et, si elles sont dans des plans orthogonaux, elles s'épinglent mutuellement (phénomène des « arbres de la forêt »). Donc plus il y a de dislocations, plus il y a de déformations possibles, mais moins les dislocations sont mobiles car elles se gênent.
+La perte de mobilité des dislocations entraîne une élévation de la limite d'élasticité, donc de la dureté, ce qui constitue l'écrouissage.
+Techniques d'écrouissage[modifier | modifier le code]
+le matage
+le roulage
+le galetage
+le grenaillage
+Portail des sciences des matériaux
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Écrouissage&oldid=110196465 ».
+Catégorie : MétallurgieCatégories cachées : Portail:Matériaux/Articles liésPortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Deutsch
+Ελληνικά
+English
+Español
+Eesti
+فارسی
+Suomi
+Gaeilge
+Italiano
+日本語
+Nederlands
+Português
+Русский
+Svenska
+Українська
+Modifier les liens
+Dernière modification de cette page le 23 décembre 2014 à 15:52.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

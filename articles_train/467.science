@@ -1,0 +1,98 @@
+Théorie de la mesure — Wikipédia
+Théorie de la mesure
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Ne doit pas être confondu avec métrologie.
+Cet article est une ébauche concernant l'analyse.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+La théorie de la mesure est la branche des mathématiques qui traite des espaces mesurés et est le fondement axiomatique de la théorie des probabilités.
+Sommaire
+1 Histoire
+2 Intégration selon une mesure
+2.1 Notation
+2.2 Mesure à densité
+3 Voir aussi
+3.1 Bibliographie
+Histoire[modifier | modifier le code]
+Article détaillé : théorie de l'intégration.
+En 1894, Émile Borel énonce la première définition d'ensemble négligeable. En 1897, il définit les ensembles mesurables. En 1901, Henri-Léon Lebesgue introduit la notion de mesure. La théorie se développe jusque dans les années 1950. Andreï Kolmogorov proposera une axiomatisation du calcul des probabilités basée notamment sur l'intégrale définie à partir d'une mesure.
+Lebesgue et ses successeurs ont été amenés à généraliser la notion d'intégrale au point d'en faire ce que certains appellent une intégrale abstraite. L'aire sous une courbe est calculée par une somme de petits rectangles dont la hauteur représente la valeur moyenne de la fonction sur un intervalle et la base la mesure de l'intervalle. Sur une droite réelle, la mesure de Lebesgue d'un intervalle est la différence des distances par rapport à l'origine. Mais une mesure est une fonction, et cela a donc amené les mathématiciens de l'époque à généraliser l'intégrale non plus selon une mesure particulière, celle de Lebesgue, mais selon n'importe quelle mesure. C'est comme si pour mesurer un intervalle on utilisait un abaque (mesures discrètes) ou tout autre instrument plutôt qu'un mètre-ruban.
+Intégration selon une mesure[modifier | modifier le code]
+Article détaillé : Intégrale de Lebesgue.
+Notation[modifier | modifier le code]
+Soit
+un espace mesuré. Une intégrale selon une mesure s'écrit :
+ou
+Mesure à densité[modifier | modifier le code]
+Lorsque la mesure représente l'intégrale d'une fonction, on parle de mesure à densité :
+On démontre par le théorème de Radon-Nikodym-Lebesgue que l'intégrale selon cette mesure peut alors s'exprimer de la manière suivante :
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Théorie de la mesure, sur Wikiversity
+Cours de L3 de mesure et d'intégration à l'université Joseph Fourier (Grenoble) - http://www-fourier.ujf-grenoble.fr/enseignement/IMG/pdf/integrationa.pdf
+Bibliographie[modifier | modifier le code]
+Th. Hawkins, The Lebesgue's Theory of Integration, Madison, 1970.
+A. Michel, Constitution de la théorie moderne de l'intégration, Paris, 1992.
+Jean-Pascal Ansel, Yves Ducel , Exercices corrigés en théorie de la mesure et de l'intégration , Ellipses 1995, ISBN 2-7298-9550-7.
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Théorie_de_la_mesure&oldid=107926286 ».
+Catégorie : Théorie de la mesureCatégories cachées : Wikipédia:ébauche analysePortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+Español
+Suomi
+Nederlands
+Polski
+Português
+Slovenčina
+Modifier les liens
+Dernière modification de cette page le 3 octobre 2014 à 08:34.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

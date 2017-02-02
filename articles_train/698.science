@@ -1,0 +1,1119 @@
+Groupe fonctionnel — Wikipédia
+Groupe fonctionnel
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En chimie, les composés organiques peuvent être considérés comme constitués d'un squelette relativement non réactif appelé l'alcane parent en nomenclature substitutive, et d’un ou plusieurs groupes fonctionnels. Le groupe fonctionnel est un atome, ou un groupe d'atomes, qui a des propriétés chimiques similaires chaque fois qu'il est présent dans des composés différents. Il définit les propriétés caractéristiques physiques et chimiques des familles de composés organiques[1].
+Cette manière de considérer les molécules est utilisée dans la nomenclature[2],[3] et dans l'estimation des propriétés physico-chimiques des composés chimiques.
+Si le groupe fonctionnel possède un hétéroatome, il est également possible de le considérer comme un groupe caractéristique[3],[4].
+Les composés cycliques avec au moins un hétéroatome dans le cycle (hétérocycles) ne sont pas traités ici, car il existe une nomenclature qui leur est propre.
+On trouve parfois à tort le terme « groupement », utilisé comme synonyme de groupe fonctionnel. Il désigne en fait plutôt une fraction importante d'une molécule, de l'ordre de la moitié (d'où le terme « moiety » en anglais) de sa taille ou plus[5], comme par exemple, dans le cas d'un ester R1COOR2, le groupement alcool est R2O.
+Sommaire
+1 Généralités et Notations
+2 Tableaux généraux
+2.1 Hydrocarbures
+2.2 Groupes de l'oxygène
+2.3 Groupes de l'azote
+2.4 Groupes du soufre
+2.5 Groupes du phosphore
+2.6 Groupes du silicium
+2.7 Groupes du sélénium
+2.8 Groupes du tellure
+2.9 Groupes de l'oxygène et de l'azote
+2.10 Groupes de l'oxygène et du soufre
+2.11 Groupes de l'oxygène et du phosphore
+2.12 Groupes de l'oxygène et du silicium
+2.13 Groupes de l'oxygène et du sélénium
+2.14 Groupe de l'oxygène et du tellure
+2.15 Groupes de l'azote et du soufre
+2.16 Groupes de l'azote et du sélénium
+2.17 Groupes de l'azote et du tellure
+2.18 Autres
+2.19 Anciens groupes
+3 Notes et références
+Généralités et Notations[modifier | modifier le code]
+Les liaisons simples C–C et C–H propres aux alcanes ne sont pas considérées comme des groupes fonctionnels[6]. Toutefois, l'hybridation des atomes est importante pour l'estimation des propriétés de composés chimiques. Ceci implique qu'une liaison multiple entre deux atomes de carbone est un groupe fonctionnel en elle-même ou modifie le groupe fonctionnel dont elle fait partie.
+On distingue le groupe fonctionnel, qui peut inclure une partie du squelette carboné, et le reste du squelette qui lui est attaché et qui est considéré comme un substituant du groupe fonctionnel. Le (ou les) substituant(s) est plus souvent désigné par la lettre R (pour un groupe alkyle) ou Ar (pour un groupe aryle, c'est-à-dire un groupe aromatique). Si plusieurs groupes R ou Ar différents sont utilisés, on leur ajoute soit :
+Une ou plusieurs apostrophes : R, R' (R prime), R'' (R seconde), R''' (R ter) ; ce système est un peu désuet.
+Un chiffre arabe en exposant après R ou Ar : R, R1, R2, R3, R4 etc. Il est encore assez commun de voir le chiffre indiqué en indice ; cette pratique est fortement déconseillée parce qu'un nombre indiqué en indice correspond au nombre de fois qu'un atome/groupe est répété, ce qui entraîne une ambiguïté.
+Sauf indication contraire et explicite, en spécifiant la nature exacte des liaisons, les groupes R ou Ar sont monovalents, c'est-à-dire qu'ils forment une liaison simple avec le reste de la structure.
+La formule semi-développée RR1NH décrit une amine secondaire où R et R1 forment tous les deux une liaison simple avec l'atome d'azote. On peut également écrire RNHR1, R–NH–R1, RN(H)R1 etc. En revanche, on ne peut pas écrire R,R1–NH qui est structurellement incorrect.
+La formule R=NR1 indique clairement que le groupe R est divalent (à cause de la double liaison). Comme rien n'est indiqué pour R1, il est supposé monovalent. Cette structure est celle d'une imine. On pourrait également écrire R=N–R1 mais pas RN–R1 ni RNR1.
+Famille de composés
+Alcènes
+Alcools
+Acides carboxyliques
+Structure moléculaire
+R,R¹−C=C−R²,R³
+R-OH
+R-COOH
+Groupe fonctionnel
+>C=C<
+-OH
+-COOH
+Tableaux généraux[modifier | modifier le code]
+Les tableaux ci-dessous regroupent les groupes fonctionnels usuels en fonction des atomes impliqués dans la structure. Dans les formules, les symboles R,R1, R2,... désignent n'importe quel groupement d'atomes.
+L'utilisation des groupes ainsi que la nomenclature définie dans les tableaux suivants respectent la nomenclature IUPAC[7]. Pour plus de détails, voir la Nomenclature des composés organiques. Certains préfixes ou suffixes sont également donnés d'après les règles de nomenclature de Chemical Abstracts Service et sont signalés entre parenthèses par les initiales CA.
+Hydrocarbures[modifier | modifier le code]
+Famille chimique
+Groupe (abréviation)
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Alcène
+Alcényle
+RR¹C=CR²R³
+alcényl-
+-ène
+éthène
+Vinyle
+H−CH=CH−R
+vinyl-
+-
+chlorure de vinyle, styrène
+Allyle (All)
+CH2=CH−CH2−R
+allyl-
+-
+chlorure d'allyle
+Alcyne
+Alcynyle
+R−C≡C−R¹
+alcynyl-
+-yne
+éthyne
+Aryle
+Phényle (Ph)
+R−C6H5
+phényl-
+-
+triphénylméthane
+Benzyle (Bn)
+R−CH2−C6H5
+benzyl-
+-
+bromure de benzyle
+Tolyle (Tol)
+R−C6H4−CH3
+tolyl-
+-
+crésol
+tri(o-tolyl)phosphine
+Benzylidène
+RR¹CH−C6H5
+benzylidène-
+-
+chlorure de benzylidène
+(dichlorométhyl)benzène
+R=CH−C6H5
+benzylidène-
+-
+-
+Mésityle (Mes)
+R−C6H5(CH3)3
+mésityl-
+-
+Benzhydryle
+R−CH(C6H5)2
+benzhydryl-
+-
+3-benzhydryl-4-pipéridone
+bromure de benzhydryle
+Phénéthyle
+R−CH2-CH2-C6H5
+phénéthyl-
+-
+acétate de phénéthyle
+Trityle (Tr)
+R−C(C6H5)3
+trityl-
+-
+chlorure de trityle
+S-trityl-L-cystéine
+Autre
+Styryle
+R-CH=CH-C6H5
+styryl-
+-
+2-styryl-1,3-dioxane
+Cinnamyle
+R-CH2-CH=CH-C6H5
+cinnamyl-
+-
+acétate de cinnamyle
+Groupes de l'oxygène[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Alcool
+Alcool primaire
+R-CH2−OH
+hydroxy-
+-ol
+éthanol
+acide 2-hydroxybenzoïque
+Alcool secondaire
+R,R¹-CH−OH
+Alcool tertiaire
+R,R¹,R²-C−OH
+Composé carbonylé
+Aldéhyde
+R−C(=O)H
+R−[C](=O)H
+formyl-
+oxo-
+-carbaldéhyde
+-al
+butanal
+Cétone
+R−[C](=O)−R¹
+oxo-
+-one
+acétone
+Benzoyle
+R−CO−C6H5
+benzoyl-
+-
+chlorure de benzoyle
+Acide carboxylique
+Carboxyle
+R−C(=O)-OH
+R−[C](=O)-OH
+carboxy-
+-
+acide R-carboxylique
+acide R-oïque
+acide cyclohexanecarboxylique
+acide hexanoïque
+Anhydride d'acide
+R−C(=O)-O-C(=O)-R'
+anhydride R-ique
+anhydride maléique
+Acide peroxycarboxylique
+Percarboxyle
+R−C(=O)-OOH
+R−[C](=O)-OOH
+acide R-peroxycarboxylique
+acide peroxy-R-oïque
+acide méta-chloroperoxybenzoïque
+Éther-oxyde
+R−O−R'
+R-oxy-R'[8]
+R,R'-éther
+éther diéthylique
+éthoxyéthane
+diéthyléther
+Ester
+R−C(=O)O−R'
+R-oxycarbonyl- (R-O-(CO)-)
+acyloxy- (R-CO-O-)
+R-oate de R'-yle
+éthanoate de propyle
+acide 3-propoxycarbonylpentanoïque
+acide 3-propoyloxypentanoïque
+Ester de carbonate
+Carbonate
+R−O-C(=O)O−R'
+Carbonate d'alkyle
+Dicarbonate de diméthyle
+Orthoester
+R−C(OR')(OR²)−O−R³
+orthoR-oate de R'
+orthoformiate d'éthyle
+Peroxyde
+Peroxyle
+R−O-O-R'
+peroxy-
+-
+peroxyde de benzoyle
+Hydroperoxyde
+Hydroperoxyle
+R−O-O-H
+hydroperoxy-
+hydroperoxyde de R
+(-peroxol)
+hydroperoxyde de tert-butyle
+Ozonure
+-
+R−O-O-O−R'
+Cétène
+R,R'−C=C=O
+-
+-cétène
+diphénylcétène
+Acétal
+Acétal
+R−C(H)(O-R¹)(O-R²)
+-
+R-al R¹-yl R²-yl acétal
+1,1-diéthoxyéthane, dioxolane
+Cétal
+R,R¹−C(O-R²)(O-R³)
+-
+Hémiacétal
+Hémiacétal
+R−C(H)(OH)-O-R'
+-
+R-al R¹-yl hémiacétal
+lamivudine
+Hémicétal
+R,R'−C(OH)-O-R²
+-
+Groupes de l'azote[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Amine
+Amine primaire
+R−NH2
+amino-
+-amine
+méthylamine
+Amine secondaire
+R−N(−H)−R'
+diméthylamine
+Amine tertiaire
+R−N−R'R²
+triméthylamine
+Ion ammonium quaternaire
+R1R2−N+−R3R4
+choline, tétraméthylammonium
+Ynamine
+R-C≡C-N-R',R²
+ynamino-
+-ynamine
+Azo
+Azo
+R-N=N-R'
+azo-
+-diazène
+azobenzène, diméthyldiazène
+Diazo
+R,R'-C=N+=N-
+diazo-
+-
+diazométhane, diazoacétate d'éthyle
+Triazène
+Diazoamino
+R-N=N-N-R',R²
+diazoamino-
+-triazène
+dacarbazine
+Azoture
+R-N=N=N
+azido-, azoture de
+-azide
+Zidovudine, azoture de triméthylsilyle
+Nitrile
+Nitrile
+R−C≡N
+cyano-
+-nitrile
+cyanoéthyne, benzonitrile
+Isocyanure
+R−N+≡C-
+isocyano-
+-isonitrile
+Imine/Énamine
+Aldimine primaire
+R−C(H)=N-H
+imino-
+-imine
+Aldimine secondaire
+R−C(H)=N-R'
+Cétimine primaire
+R,R'−C=N−H
+Cétimine secondaire
+R,R'−C=N−R²
+Hydrazine
+R-NH-NH2
+hydrazino-
+-hydrazine
+phénylhydrazine
+Hydrazone
+R=N-NH2
+hydrazono-
+-hydrazone
+Amidine
+R-C(=NH)-NH2
+amidino-
+carbaimidoyl-
+-amidine
+-carboxamidine
+DAPI
+Guanidine
+R1R2-N-C(=NR5)-NR3R4
+guanido
+-guanidine
+arginine
+Carbodiimide ou Cyanamide
+R-N=C=N-R'
+cyanamide
+-carbodiimide, -cyanamide
+Cyanamide hydrogène, Dicyclohexylcarbodiimide
+Aminal
+R,R¹-C(NR²)(NR³)
+Groupes du soufre[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Thiol
+Sulfhydryle
+R−SH
+mercapto- (CA)
+sulfanyl- (IUPAC)
+-thiol
+éthanethiol, thiophénol, cystéine
+Thioéther/sulfure
+R−S−R'
+R-ylsulfanyl-
+sulfure de R-yle et de R¹-yle
+sulfure de diméthyle, méthylthioéthane
+Disulfure
+R−S-S−R'
+R-yldithio-
+disulfure de R-yle et R¹-yle
+disulfure d'allyle, cystine
+Thiocétone ou Thione
+R−[C](=S)−R'
+thioxo-
+-thione
+thiobenzophénone
+Thioaldéhyde
+R−C(=S)−H
+R−[C](=S)−H
+thioformyl-
+thioxo
+-carbothialdéhyde
+-thial
+Thiocétène
+R,R'−C=C=S
+-thiocétène
+Groupes du phosphore[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Phosphorane
+R,R',R²,R³,R⁴−P
+-phosphorane
+chloro(méthyl)triphénylphosphorane
+Ylure de phosphore
+R,R',R²−P=C-R³,R⁴
+dichlorométhylènetriphénylphosphorane
+Phosphine
+R,R',R²−P
+-phosphine
+Triphénylphosphine
+Diphosphène
+R−P=P-R'
+-diphosphène
+bis[tris(triméthylsilyl)méthyl]diphosphène
+(en) Diphosphenes
+Groupes du silicium[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Silane
+R,R', R²,R³−Si
+silyl-
+-silane
+tétraméthylsilane, silane
+Silène
+R,R'-C=Si-R²,R³
+Disilènes
+R,R'-Si=Si-R²,R³
+Disilène
+Groupes du sélénium[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Sélénol
+R−Se-H
+sélényl- (CA)
+sélanyl- (IUPAC)
+hydroséléno- (ancien)
+-sélénol
+sélénocystéine
+Sélénoéther
+R−Se-R'
+R-ylsélanyl-
+séléniure de R-yle et R¹-yle
+séléniure d'hydrogène, sélénométhionine
+Diséléniure
+R−Se-Se-R'
+R-yldiséléno-
+diséléniure de R-yle et R¹-yle
+sélénocystine
+Sélénocétone,Sélone[9]
+R−[C](=Se)-R'
+sélénoxo-
+-sélone
+Sélénoaldéhyde
+R−C(=Se)-H
+R−[C](=Se)-H
+sélénoformyl-
+sélénoxo-
+-carbosélénaldéhyde
+-sélénal
+Sélénocétène
+R,R¹−C=C=Se
+Groupes du tellure[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Tellurol
+R−Te-H
+telluryl- (CA)
+tellanyl- (IUPAC)
+hydrotelluro- (ancien)
+-tellurol
+Telluroéther
+R−Te-R'
+R-yltellanyl-
+tellurure de R-yle et R¹-yle
+Ditellurure
+R−Te-Te-R'
+R-ylditelluro-
+ditellurure de R-yle et R¹-yle
+Tellurocétone, Tellone[9]
+R−[C](=Te)-R'
+telluroxo-
+-tellone
+Telluroaldéhyde
+R−C(=Te)-H
+R−[C](=Te)-H
+telluroformyl-
+telluroxo-
+-carbotelluraldéhyde
+-tellural
+Tellurocétène
+R,R¹−C=C=Te
+Groupes de l'oxygène et de l'azote[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Amide
+Amide primaire ou carboxamide
+R−C(=O)NH2
+R−[C](=O)NH2
+carbamoyl-
+-
+-carboxamide
+-amide
+acétamide
+Amide secondaire
+R−C(=O)-N(-R)-C(=O)−R'
+Amide tertiaire
+[R−C(=O)]3N
+Imide
+Amide secondaire cyclique
+R−C(=O)-N(-R)-C(=O)−R'
+imido-
+-imide
+succinimide
+Hydrazide
+R-C(=O)-NR'-N(R²)-R³
+acylhydrazino-
+-ohydrazide
+isoniazide
+Carbamate
+R-NH-C(=O)-O-R'
+R-carbamate de R'
+N-R, O- R' carbamate
+butylcarbamate d'iodopropynyle, chlorprophame, éfavirenz
+Urée/Carbamide
+R,R'-NC(=O)-N-R²R³
+linuron, acide cyanurique
+Semicarbazide
+R1R2-C-N-NR3C(=O)-N-R4R5
+phénicarbazide
+Semicarbazone
+R1R2-C=N-NR3C(=O)-N-R4R5
+nitrofurazone
+Carbazone
+R1N=N-C(=O)-NR2-N-R3R4
+diphénylcarbazone
+Carbazate
+R,R'-N-NH-C(=O)-O-R²
+Cyanate
+Cyanate
+R−O−C≡N
+cyanate de
+-
+cyanate d'ammonium
+Isocyanate
+R−N=C=O
+isocyanate de
+-
+isocyanate de méthyle
+Fulminate
+R−C≡N+−O-
+-
+fulminate de
+-
+fulminate de mercure
+Cyanhydrine
+R,R¹-C(OH)(CN)
+cyanhydrine d'acétone
+Nitro
+R-NO2
+nitro-
+-
+nitrométhane, trinitrotoluène
+Nitroso
+Nitrosyle
+R-NO
+nitroso-
+-
+nitrosobenzène, ENU
+Hydroxylamine
+R-NH-OH
+hydroxyamino-
+-hydroxylamine
+N,N-diéthylhydroxylamine, adrafinil
+Acide hydroxamique
+R-C(=O)-NH-OH
+Vorinostat
+Oxime
+Cétoxime
+R,R'-C=N-OH
+hydroxyimino-
+-(n)one-oxime
+périllartine, fluvoxamine
+Aldoxime
+R-C(=N-OH)-H
+-aldéhyde-oxime
+cinnamaldéhyde-oxime
+Hémiaminal
+R,R¹-C(NR²)(OH)
+Nitrone
+R,R'-C=N(-O)-R²
+Nitrate d'alkyle
+(ester de nitrate)
+R-ONO2
+nitrate d'amyle, nitroglycérine
+Nitrite d'alkyle
+(ester de nitrite)
+R-ON=O
+nitrite d'amyle
+Nitramine
+R-N-NO2
+Nitrosamine
+R,R'-N-N=O
+Nitrosamide
+R,R'-C(=O)-N-N=O
+Groupes de l'oxygène et du soufre[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Sulfoxyde
+Sulfinyle
+R−S(=O)-R'
+sulfinyl-
+-sulfoxyde
+diméthylsulfoxyde, ajoène
+Sulfone
+Sulfonyle
+R−SO2−R'
+sulfonyl-
+-sulfone
+dapsone
+Acide sulfénique
+R−S−O−H/R−S(=O)−H
+sulféno-
+acide -sulfénique
+Ester sulfénique
+R−S−O-R'
+R-sulfénate de R'
+Acide sulfinique
+R−S(=O)−O−H
+sulfino-
+acide -sulfinique
+acide toluène-4-sulfinique
+Ester sulfinique
+Sulfinate
+R−S(=O)−O−R'
+R-sulfinate de R'
+Acide sulfonique
+R−SO2−O−H
+sulfo-
+acide -sulfonique
+acide 2,3-dimercapto-1-propanesulfonique
+acide benzènesulfonique
+Ester sulfonique
+R−SO2−O−R'
+R-sulfonate de R'
+chlorofénizon, bleu de bromothymol
+Ester de sulfite
+R−O-SO2−O−R'
+sulfite de RR'
+endosulfan, sulfite de diméthyle
+Acide thiosulfinique
+R−S(=O)−S−H
+thiosulfino-
+acide -thiosulfinique
+Ester thiosulfinique
+Thiosulfinate
+R−S(=O)−S−R'
+R-thiosulfinate de R'
+allicine
+Acide thiosulfonique
+R−SO2−S−H
+thiosulfo-
+acide -thiosulfonique
+Ester thiosulfonique
+R−SO2−S−R'
+R-thiosulfonate de R'
+bensultap
+Thioacide
+S-thioacide
+R−C(=O)-S-H
+R−[C](=O)-S-H
+hydroxy(thiosulfanyl)-
+-
+acide S-...-carbothioïque
+acide S-...-thioïque
+O-thioacide
+R−C(=S)-O-H
+R−[C](=S)-O-H
+hydroxy(thiocarbonyl)-
+-
+acide O-...-carbothioïque
+acide O-...-thioïque
+Dithioacide
+R−C(=S)-S-H
+R−[C](=S)-S-H
+dithiocarboxy-
+-
+acide -carbodithioïque
+acide -dithioïque
+Thioester
+S-thioester (thioloester)
+R−C(=O)-S-R'
+fluticasone
+O-thioester (thionoester)
+R−C(=S)-O-R'
+Dithioester
+R−C(=S)-S-R'
+Thiocarbonate
+Monothiocarbonate
+R−O-C(=O)-S-R'
+Dithiocarbonate
+R−O-C(=S)-S-R'
+Xanthate
+Trithiocarbonate
+R−S-C(=S)-S-R'
+Sulfine
+R,R'−C=S=O
+Thioacétal
+R−C(H)(S-R¹)(O-R²)
+Dithioacétal
+R−C(H)(S-R¹)(S-R²)
+bis(méthylthio)méthane
+Thiohémiacétal
+R−C(H)(OH)-S-R'
+R−C(H)(SH)-O-R'
+Dithiohémiacétal
+R−C(H)(SH)-S-R'
+Thiocétal
+R,R¹−C(S-R²)(O-R³)
+Dithiocétal
+R,R¹−C(S-R²)(S-R³)
+Thiohémicétal
+R,R¹−C(OH)-S-R'
+R,R¹−C(SH)-O-R'
+Dithiohémicétal
+R,R'−C(SH)-S-R²
+Acide sulfonoperoxoïque
+R−S(=O)2OOH
+hydroperoxysulfonyl-
+acide R-sulfonoperoxoïque
+Acide sulfinoperoxoïque
+R−S(=O)OOH
+hydroperoxysulfinyl-
+acide R-sulfinoperoxoïque
+Acide sulfénoperoxoïque
+R−SOOH
+hydroperoxythio-
+acide R-sulfénoperoxoïque
+Groupes de l'oxygène et du phosphore[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Acide phosphonique
+R-P(=O)(OH)2
+phosphono-
+acide R-phosphonique
+Acide phosphinique
+R,R¹-P(=O)(OH)
+acide R,R¹-phosphinique
+Acide phosphoneux
+R-P(OH)2
+acide R-phosphoneux
+Acide phosphineux
+R,R¹-P(OH)
+acide R,R¹-phosphineux
+Oxyde de phosphine
+R,R¹,R²−P=O
+Trichlorure de phosphoryle
+oxyde de triphénylphosphine
+Phosphinate
+R-O-P(=O)-R¹,R²
+R¹-ylR²-ylphosphinate de R-yle
+éthylméthylphosphinate de méthyle
+Phosphonate
+(RO),(R¹O)-P(=O)-R²
+R-oxy-R¹-oxyphosphoryl-
+(R-oxy-R²-ylphosphoryl)oxy-
+R²-ylphosphonate de R-yle et de R¹-yle
+méthylphosphonate de diméthyle
+méthylphosphonate de méthyle et d'éthyle
+acide 3-(diméthoxyphosphoryl)propanoïque
+acide 3-[(méthoxyméthylphosphoryl)oxy]propanoïque
+Phosphate
+(RO),(R¹O),(R²O)-P=O
+adénosine monophosphate
+Phosphinite
+R-O-P-R¹,R²
+adénosine monophosphate
+Phosphonite
+(RO),(R¹O)-P-R²
+Phosphite
+(RO),(R¹O),(R²O)-P
+Phosphodiester
+R−OP(=O)2O−R'
+ATP
+Groupes de l'oxygène et du silicium[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Silanone
+R,R'-Si=O
+Éther de silyle
+R,R',R"C-O-Si,R', R²,R³
+R', R²,R³-siloxy
+Groupes de l'oxygène et du sélénium[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Sélénoxyde
+séléninyle
+R−Se(=O)-R'
+(R)séléninyl-(R')
+-sélénoxyde
+méthylséléninyléthyle
+Sélénone
+sélénonyle
+R−SeO2-R'
+(R)sélénonyl-(R')
+-sélénone
+méthylsélénonyléthyle
+Acide sélénénique
+R−Se-OH
+sélénèno-
+acide -sélénénique
+Ester sélénénique
+R−Se-O-R'
+R-sélénénate de R'
+Acide séléninique
+R−Se(=O)-OH
+sélénino-
+aide -séléninique
+Ester séléninque
+R−Se(=O)-O-R'
+R-séléninate de R'
+Acide sélénonique
+R−SeO2-OH
+sélénono-
+acide -sélénonique
+Ester sélènonique
+R−SeO2-O-R'
+R-sélénonate de R'
+Sélénine
+R,R'−C=Se=O
+Acide sélénonoperoxoïque
+R−Se(=O)2OOH
+hydroperoxysélénonyl-
+acide R-sélénonoperoxoïque
+Acide séléninoperoxoïque
+R−Se(=O)OOH
+hydroperoxyséléninyl-
+acide R-séléninoperoxoïque
+Acide sélénénoperoxoïque
+R−SeOOH
+hydroperoxyséléno-
+acide R-sélénénoperoxoïque
+Groupe de l'oxygène et du tellure[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Telluroxyde
+R−Te(=O)-R'
+(R)tellurinyl-R'
+-telluroxyde
+méthyltellurinyléthyle
+Tellurone
+R−TeO2-R'
+(R)telluronyl-R'
+-tellurone
+méthyltelluronyléthyle
+Acide tellurénique
+R−Te-OH
+telluréno-
+acide -tellurénique
+Ester tellurénique
+R−Te-O-R'
+R-tellurénate de R'
+Acide tellurinique
+R−Te(=O)-OH
+tellurino-
+acide -tellurinique
+Ester tellurinique
+R−Te(=O)-O-R'
+R-tellurinate de R'
+Acide telluronique
+R−TeO2-OH
+tellurono-
+acide -telluronique
+Ester telluronique
+R−TeO2-O-R'
+R-telluronate de R'
+Tellurine
+R,R'−C=Te=O
+Acide telluronoperoxoïque
+R−Te(=O)2OOH
+hydroperoxytelluronyl-
+acide R-telluronoperoxoïque
+Acide tellurinoperoxoïque
+R−Te(=O)OOH
+hydroperoxytellurinyl-
+acide R-tellurinoperoxoïque
+Acide tellurénoperoxoïque
+R−TeOOH
+hydroperoxytelluro-
+acide R-tellurénoperoxoïque
+Groupes de l'azote et du soufre[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Sulfénamide
+R1−S−N-R2R3
+Cyclohexylthiophthalimide
+Thiocyanate
+Thiocyanate
+R−S−C≡N
+thiocyanate de
+-
+thiocyanate d'ammonium
+Isothiocyanate
+R−N=C=S
+isothiocyanate de
+-
+isothiocyanate d'allyle
+Thioamide
+Thioamide primaire
+R−C(=S)NH2
+thioacétamide, chlorthiamide
+Thioamide secondaire
+R−C(=S)N(H)-R'
+Thioamide tertiaire
+R−C(=S)N(-R')-R²
+zirame, disulfirame
+Thiourée/thiocarbamide
+R−N-C(=S)-N-R²
+thiouracile
+Groupes de l'azote et du sélénium[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Sélénocyanate
+Sélénocyanate
+R−Se-C≡N
+Isosélénocyanate
+R−N=C=Se
+Sélénoamide
+Sélénoamide primaire
+R−C(=Se)NH2
+Sélénoamide secondaire
+R−C(=Se)NH-R'
+Sélénoamide tertiaire
+R−C(=Se)N-R',R²
+Groupes de l'azote et du tellure[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Tellurocyanate
+Tellurocyanate
+R−Te-C≡N
+Isotellurocyanate
+R−N=C=Te
+Telluroamide
+Telluroamide primaire
+R−C(=Te)NH2
+Telluroamide secondaire
+R−C(=Te)NH-R'
+Telluroamide tertiaire
+R−C(=Te)N-R',R²
+Autres[modifier | modifier le code]
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Halogène
+Halogénure
+R-F
+R-Cl
+R-Br
+R-I
+fluoro-
+chloro-
+bromo-
+iodo-
+-
+chloroforme, trichlorofluorométhane
+Halogénure d'acyle
+R-C(=O)-F
+R-C(=O)-Cl
+R-C(=O)-Br
+R-C(=O)-I
+halogénocarbonyl-
+-
+halogénure de -carbonyle
+halogénure de -oyle
+bromure de cyclohexanecarbonyle
+bromure de propanoyle
+???
+R-ClO
+R-ClO2
+R-ClO3
+chlorosyl-
+chloryl-
+perchloryl-
+-
+Composé iodoso
+R-I=O
+iodosyl-
+-
+iodosyléthane
+Composé iodyle
+R-IO2
+iodyl-
+-
+Phosphazène
+R,R',R²-P=N-R³
+-phosphazène
+Sulfonamide
+R-S(O)2-N-R,R'
+-sulfonamido-
+-sulfonamide
+pipotiazine
+Sulfinamide
+R-S(O)-NH2
+-sulfinamido-
+-sulfinamide
+Trifluorométhanesulfonyle
+R-SO2-CF3
+triflyl-
+triflyle de R
+Trifluorométhylsulfonate
+R-O-SO2-CF3
+triflate de R
+Triflate de triméthylsilyle
+Anciens groupes[modifier | modifier le code]
+Ces groupes ne sont plus reconnus ou n'ont jamais été reconnus par la nomenclature UICPA et ne sont donnés qu'à titre indicatif.
+Famille chimique
+Groupe
+Formule
+Image
+Préfixe
+Suffixe
+Exemple
+Alcène
+Allényle
+R,R¹−C=C=C−R²,R³
+-
+-
+Alcyne
+Propargyle
+H−C≡C−CH2−R
+propargyl-
+-
+chlorure de propargyle
+Homopropargyle
+H−C≡C−CH2−CH2−R
+homopropargyl-
+-
+Aryle
+Xylyle
+R−C6H3(−CH3)−CH3
+xylyl-
+-
+xylidine

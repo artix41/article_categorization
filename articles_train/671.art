@@ -1,0 +1,381 @@
+Enregistrement sonore — Wikipédia
+Enregistrement sonore
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'enregistrement sonore est l'opération qui consiste à garder une trace durable d'un son sur un support en vue de l'écouter plus tard.
+L'objectif de conserver une mémoire fiable des sons s'inscrit dans l'histoire des cultures qui utilisent une écriture phonétique, raffinée en Europe avec les notations de l'écriture musicale. Les connaissances scientifiques et techniques ont permis, dans la deuxième moitié du XIXe siècle, l'utilisation de moyens mécaniques pour le réaliser. Jusqu'à ce moment, on ne savait enregistrer, par l'écriture, que l'interprétation qu'une personne faisait du son.
+Les industries du téléphone, de la radio, de la télévision et du cinéma ont recouru à de nombreux procédés différents d'enregistrement, toutes basées sur la transformation du son capté par un microphone en signal électrique.
+La possibilité de reproduire, rapidement et à peu de frais, les enregistrements sonores a créé l'industrie phonographique, pour la production et la diffusion d'enregistrements de musique.
+Sommaire
+1 Analyse
+2 Historique des procédés
+2.1 Enregistrement mécanique
+2.2 Enregistrement et reproduction électriques
+2.2.1 Support mécanique
+2.2.2 Reproduction électrique
+2.2.3 Support optique
+2.2.4 Support magnétique
+2.2.5 Support numérique/informatique
+3 La prise de son
+3.1 Prise de son dite classique
+3.2 Prise de son avec une tête artificielle
+3.3 Prise de son multipistes
+4 Supports de l'enregistrement
+4.1 Supports analogiques
+4.2 Supports numériques
+5 Caractéristiques techniques de l'enregistrement
+5.1 Bruit de fond
+5.2 Distorsion
+5.3 Dynamique sonore
+5.4 Caractéristiques spécifiques à l'enregistrement analogique
+5.5 Caractéristiques spécifiques à l'enregistrement numérique
+5.5.1 Échantillonnage
+5.5.2 Quantification
+5.5.3 Compression de débit
+6 Voir aussi
+6.1 Bibliographie
+6.2 Articles connexes
+6.3 Liens externes
+6.4 Notes et références
+Analyse[modifier | modifier le code]
+L'enregistrement sonore comporte trois phases fondamentales :
+Captation : un ou plusieurs transducteurs, installés sur la scène sonore, transforment les ondes sonores en signal ;
+Traitement : un dispositif de traitement du signal adapte et prépare le signal ;
+Enregistrement : un ou plusieurs transducteurs transforment le signal en une forme matérielle, stable.
+Une phase de reproduction de cette forme matérielle peut s'y ajouter afin de permettre la diffusion sans autres phases intermédiaires.
+Aujourd'hui, la captation s'effectue universellement au moyen de microphones, qui transforment les ondes sonores en signal électrique analogique.
+Le traitement du signal peut le convertir en un flux de données numériques. Il comprend au moins la fixation du début et de la fin de l'enregistrement, et le plus souvent l'amplification avec réglage du niveau et le réglage de la tonalité (équaliseur), de la dynamique (compresseur), le mélange de différents signaux (mixage). Il s'adapte au support retenu pour l'enregistrement.
+Le signal peut être enregistré sous forme mécanique, magnétique, optique, électronique. À ce stade, il pourrait être analogique ou numérique ; mais toutes les combinaisons n'ont pas été exploitées.
+Media d'enregistrement
+Analogique
+Numérique
+Mécanique
+disque vinyle
+pas réalisé
+Magnétique
+bande magnétique
+bande magnétique, disque dur informatique
+Optique
+son optique du cinéma
+son optique du cinéma, disque compact
+Électronique
+pas réalisé
+mémoires Flash
+On appelle aussi « enregistrement sonore » le support enregistré. À l'époque actuelle, la fabrication d'un enregistrement comporte la plupart du temps une première phase, de production, pendant laquelle des enregistrements sont effectués sur un support de travail, et une seconde phase, de post-production, où les enregistrements sont assemblés et mélangés, pour fournir un produit qui est ensuite reporté sur un support de diffusion.
+Inversement, à la restitution, on trouve :
+un dispositif de lecture du support ;
+un dispositif de traitement du signal, qui offre en général moins de possibilités d'ajustements que celui utilisé à l'enregistrement ;
+un dispositif de transformation du signal électrique en onde sonores construit autour de haut-parleurs.
+Historique des procédés[modifier | modifier le code]
+Fichier audio
+Au clair de la lune, de 1860 (info)
+Désolé, soit votre navigateur a JavaScript désactivé, soit il ne dispose d’aucun lecteur pris en charge.
+Vous pouvez télécharger le clip ou télécharger un lecteur pour lire le clip dans votre navigateur.
+Des problèmes pour écouter le fichier ?
+Article détaillé : Histoire de l'enregistrement sonore.
+Depuis les origines de l'enregistrement sonore, deux techniques ont été employées :
+l'enregistrement mécanique,
+l'enregistrement électrique, d'abord analogique, puis numérique.
+Enregistrement mécanique[modifier | modifier le code]
+Le phonautographe d'Édouard-Léon Scott de Martinville.
+L'enregistrement mécanique a été la première forme d'enregistrement sonore et aussi la plus simple.
+Le français Édouard-Léon Scott de Martinville invente le premier dispositif permettant l'enregistrement du son, sans toutefois pouvoir le restituer. Il dépose en 1857 un brevet sous le nom de phonautographe. L'appareil se compose d'un pavillon relié à un diaphragme qui recueille les vibrations acoustiques transmises à un stylet qui les grave sur une feuille de papier enduite de noir de fumée, enroulée autour d'un cylindre tournant. On voit les lignes sinueuses représentant le son. Des chercheurs de l'université de l'Indiana ont réussi en 2008 à restituer, le son d'enregistrements papier réalisés en 1860 et déposés à l'Académie des sciences. L'analyse informatique des tracés des premiers exemplaires fait entendre une voix qui serait celle de Martinville lui-même chanter Au clair de la lune[1].
+Le phonographe de Thomas Edison.
+L'américain Thomas Edison dépose en 1877 le brevet de son phonographe, premier appareil à pouvoir enregistrer et restituer un son. Comme la machine de de Martinville, qu'Edison n'a pas connu, un diaphragme, ici en mica, transmet les vibrations sonores à un stylet. Celui-ci grave directement ces vibrations sur un cylindre d'étain. Inversement, le passage de l'aiguille sur le sillon gravé à l'enregistrement fait vibrer le diaphragme, permettant d'entendre faiblement le son enregistré. Le premier enregistrement reproductible date de 1878[2].
+L'allemand Émile Berliner met au point entre 1886 et 1889 son Gramophone, qui, suivant le même principe de burin vibrant sous l'effet d'un diaphragme mu par l'onde sonore grave un sillon, apporte les solutions qui permettront la diffusion de masse des enregistrements sonore. Le gramophone imprime le son sur un disque, et le burin se déplace latéralement et non en profondeur comme celui d'Edison.
+Le procédé de Berliner avait l'avantage de la facilité de rangement, et surtout de la possibilité de reproduction en masse, qui ouvrait la possibilité du développement du commerce des enregistrements. Le procédé d'enregistrement commercial se décomposait en trois phases au moins
+enregistrement sur un disque recouvert de cire ;
+transformation par galvanoplastie de l'original en cire imprimée en creux en matrice zinc imprimée en relief ;
+pressage de copies à partir de la matrice.
+Pour les nombreuses séries, on fabriquait des intermédiaires supplémentaires pour épargner la matrice originale.
+La Phonogrammarchiv (de) créée par l'Académie autrichienne des sciences en 1899 est le plus ancien fonds d'archives du monde, enregistrant à l'origine les voix de poètes germanophones à l'aide de phonographes[3].
+Enregistrement et reproduction électriques[modifier | modifier le code]
+Peu après l'invention du phonographe et celle du gramophone, celle du téléphone implique celle du microphone et la possibilité qui en découle de transformer le son en signal électrique et de pouvoir le transporter.
+Support mécanique[modifier | modifier le code]
+La captation électrique du son se combina d'abord avec la technique de l'enregistrement mécanique ; le signal électrique issu du microphone actionnait, grâce à un électro-aimant un burin qui gravait un disque, soit recouvert de cire pour les enregistrements destinés à la reproduction commerciale, soit recouvert d'acétate de cellulose pour les enregistrements uniques.
+Les premiers disques produits de cette manière, de 24 ou 30 cm de diamètre, tournant à 78 tours par minute, restaient compatibles avec une reproduction entièrement mécanique.
+Reproduction électrique[modifier | modifier le code]
+La généralisation de l'électricité permet la reproduction du son par un système d'amplificateur, avec deux conséquences :
+Il n'est pas nécessaire de prélever dans le mouvement de l'aiguille sur le disque l'énergie nécessaire à la production d'un son audible : on réduit la pression sur le disque et donc son usure. On peut employer des matériaux moins durs, et générant moins de bruit de frottement.
+Les haut-parleurs ne sont pas nécessairement proches du plateau de lecture. On peut donc en prévoir plusieurs, en vue de reconstituer non seulement un son, mais encore un espace sonore.
+La porte est désormais ouverte pour le disque microsillon (33 tours et de 45 tours) et la stéréophonie.
+Support optique[modifier | modifier le code]
+Article détaillé : Bande son.
+L'industrie du cinéma mit au point à la fin des années 1920 un procédé d'enregistrement optique du signal sur film de cinéma, qui ouvrait la possibilité de synchroniser avec exactitude des signaux, et par conséquent, de les assembler au montage, de constituer des enregistrements multipistes (les signaux simultanés de plusieurs microphones enregistrés sur plusieurs pistes du même support) afin de mélanger leurs signaux au mixage.
+Des appareils enregistrant uniquement le son en utilisant le procédé mis en œuvre dans les films de cinéma ont été fabriqués et utilisés entre les années 1930 et 1940 : le procédé de la firme autrichienne Selenophon utilise le procédé photographique du cinéma[4], on lui préféra souvent l'enregistreur mécanique Philips-Miller (1936), où un stylet grave la piste transparente à largeur variable sur un film noir, qui n'a pas besoin d'être ensuite développé[5].
+L'enregistrement optique se combine avec les technologies numériques dans le CD (inventé en 1979, produit à partir de 1982).
+Support magnétique[modifier | modifier le code]
+Valdemar Poulsen avait breveté son enregistreur sur fil magnétique appelé « telegraphone » au Danemark dès 1898 ; il montra son invention à l'Exposition universelle de Paris en 1900. Cependant, son brevet expira avant que l'invention ait trouvé un débouché commercial.
+Dans les années 1930, les compagnies allemandes AEG et Telefunken développèrent un enregistreur sur bande, un procédé beaucoup plus léger, moins coûteux, et dont les performances ne tardèrent pas à dépasser celles de l'enregistrement sur disque et celles de l'enregistrement optique, avec l'invention en 1941 de la prémagnétisation haute fréquence. À la fin de la deuxième guerre mondiale, l'enregistrement magnétique prend le pas sur les autres procédés dans les applications professionnelles.
+Dans les années 1960, l'introduction de la cassette audio, d'abord pour un dictaphone[6] popularise le procédé. Elle met l'enregistrement à la portée du grand public.
+L'introduction par Sony en 1979 du baladeur, permettant d'écouter individuellement de la musique enregistrée sur cassette en tous lieux, accélère l'essor de la cassette audio.
+L'usage de la cassette comme support pour la musique entraîne de nombreuses améliorations qualitatives. L'oxyde ferromagnétique est remplacé par le bi-oxyde de chrome, le ferro-chrome, le cobalt, jusqu'au métal pur pour améliorer les caractéristiques techniques au prix d'une transformation des appareils d'enregistrement, dont il existe rapidement des versions cherchant à tirer le meilleur parti possible de la cassette. La mécanique de celle-ci est aussi étudiée, pour permettre un mouvement de la bande régulier et silencieux. Des circuits de réduction de bruit Dolby ont, dès son invention, équipé la plupart des magnétophones et lecteurs de K7. Les magnétocassettes les plus performants de la dernière génération disposaient ainsi des Dolby A, Dolby B, Dolby C, Dolby S, le Dolby HX-Pro ainsi que de circuits supplémentaires de traitement spécifique des aigus (dont la restitution a toujours constitué le point faible de la K7).
+Support numérique/informatique[modifier | modifier le code]
+C'est au milieu des années 1970 que se diffuse l'enregistrement numérique stéréo. Celui-ci ne sera d'abord utilisé que par les studios professionnels. En 1979, Sony propose une machine qui permet d'enregistrer l'audio numérique sur des cassettes vidéo à têtes rotatives (PCM-1600). Ce format profite de la bande passante de la vidéo ; le découpage du flux audio numérique en segments correspondant à une image vidéo détermine la fréquence d'échantillonnage de 44 100 Hz adoptée dans le CD mis au point par Sony et Philips. Au début de 1982, Sony commercialise le format DASH (en) (Digital Audio Stationary Head) et ses premiers enregistreurs multipistes PCM 3324. L'enregistrement sous forme de fichiers audio (Audio file) se généralise aux alentours du XXIe siècle.
+La baisse du prix des volumes de stockage informatique permet d'abord l'enregistrement sur disque dur d'enregistrement sonores traités comme tout autre type de données. Le développement des mémoires flash permet la généralisation des baladeurs numériques permettant d'écouter des enregistrements au format mp3, puis celui d'enregistreurs portables à prix accessibles pour le grand public.
+La fin des années 1990 marquera l'explosion des home studio permettant de réaliser, avec un investissement modéré, des enregistrements suivant les mêmes principes que les studios professionnels : graveurs de CD, enregistreurs DAT, enregistreurs de minidisque numérique, enregistrement direct-to-disc (direct sur disque dur) avec un ordinateur personnel.
+La prise de son[modifier | modifier le code]
+Les théoriciens de la prise de son l'abordent de deux manières opposées :
+Reproduire du mieux possible une scène sonore - cette ambition oriente la pratique et la critique surtout dans les années 1950 au début de la prise de son stéréo, on l'appelle aussi: captation.
+L'enregistrement est une étape dans la création d'un « objet sonore », selon l'expression de Pierre Schaeffer, dont la réalité ne pourra être qu'électroacoustique, c’est-à-dire diffusée par des haut-parleurs ; cet objet se réfère à la musique ou au texte théâtral, mais pas à la situation dans laquelle le son a été produit à l'origine.
+Prise de son dite classique[modifier | modifier le code]
+Une prise de son requiert au minimum un microphone, ou un couple de microphones pour la prise de son stéréophonique[7].
+Les caractéristiques du ou des microphones revêtent une importance primordiale. Il est impossible de réaliser un enregistrement de qualité si au départ, le microphone fournit un signal qui interprète mal le champ sonore. Outre les critères de qualité, qui se traduisent par un prix souvent élevé, un genre de micro est généralement mieux approprié pour chaque usage. La directivité, la taille de la capsule, le principe de transduction amènent, à qualité égale, à des caractères différents. Un micro ou un couple de micros n'est pas nécessairement le meilleur pour tout type de champ sonore.
+Le preneur de son doit également trouver le bon placement des micros, et certaines conditions d'enregistrement sont souvent sources de véritables casse-tête.
+le couple stéréo
+Dans le style d'enregistrement naturaliste le plus rigoureux, aux deux pistes stéréophoniques correspondent deux micros, et c'est tout. Ils peuvent être aussi proches que possible, ou un peu éloignés.
+prise de son stéréo couple + micros d'appoint
+Si la prise de son monophonique peut sembler assez aisée à mettre en œuvre, il n'en est pas de même de la prise de son stéréophonique dite "naturelle"; c’est-à-dire celle qui utilise une base stéréophonique (2 microphones disposés en couple) principale et plusieurs micros d'appoint dont le but est de préciser certaines sources. Une des principales difficultés réside alors dans le placement optimal du couple principal, car toute erreur ne pourra plus être corrigée lors de la phase de post-production. Cette difficulté est décuplée lorsque l'on multiplie les bases stéréophoniques dans le but de simuler des effets de plans sonores. Par ailleurs, dès lors qu'il s'agit de multiplier les sources principales (prise de son de proximité), d'autres phénomènes interviennent. En effet, plus on augmente le nombre de microphones, et plus se posent des problèmes de rotation de phase lors de leur mélange. D'autre part le fait de rapprocher une source d'un capteur modifie sa courbe de réponse en fréquence : c'est ce qu'on appelle l'effet de proximité qui tend à amplifier les basses fréquences ; effet d'autant plus marqué que le microphone est directif. Lorsqu'il s'agit par exemple d'enregistrer un orchestre, le placement des micros et ensuite les dosages au niveau de la table de mixage peuvent requérir des heures de préparation et d'essais dont on ne peut pas faire l'économie même lors d'un enregistrement multipiste permettant d'enregistrer chaque instrument individuellement et de réaliser le mixage ultérieurement. On parle alors de post-mixage de montage ou de post-production.
+Article détaillé : Son stéréophonique.
+Prise de son avec une tête artificielle[modifier | modifier le code]
+enregistrement binaural
+Holophonie
+Prise de son multipistes[modifier | modifier le code]
+Graduellement les labels classiques passent à la prise de son multi micro qui se développent d'autant plus avec l'apparition des enregistreurs multipiste. La technique devient double: d'une part des micro rapprochés (close) et au-dessus, différentes variations de prise de son dite classique. Le Decca tree est l'une des techniques les plus populaires de par le monde, d'autant plus qu'apparaissent des systèmes multicanaux (5.1) dans le public.
+Des dispositifs électroniques permettent de simuler des espaces à partir d'enregistrements de micros proches ne comportant pas assez de réverbération et le montage, assisté par d'autres dispositifs électroniques, permet de raccorder finement des enregistrements faits à des moments différents.
+Article détaillé : Son multicanal.
+Supports de l'enregistrement[modifier | modifier le code]
+Supports analogiques[modifier | modifier le code]
+Enregistrement magnétique:
+Fil magnétique
+Bande magnétique
+Bande libre
+Cartouche (Cart machines)
+Cartouche 8 pistes
+Cassette audio compacte ou minicassette
+Microcassette
+Enregistrement optique:
+Cinématographe
+Enregistrement mécanique (phonographique):
+Cylindre
+Disque
+Disque 78 tours
+Disque microsillon
+Supports numériques[modifier | modifier le code]
+Enregistrement linéaire magnétique:
+Digital Audio Stationary Head (en) (DASH)
+Digital Audio Tape (DAT)
+Digital Compact Cassette (DCC)
+Enregistrement magnétique non-linéaire
+Disque dur
+Enregistrement mécanique
+Prototype disque numérique de Thomson
+Enregistrement optique
+Disque compact (CD)
+Disque magnéto-optique (MO)
+Minidisc (MD)
+Digital Versatile Disc (DVD)
+Super Audio Compact Disc (SA-CD)
+Disque numérique polyvalent de haute densité (HD-DVD)
+Disque Blu-ray (Blu-ray)
+ADAT (Alesis Digital Audio Tape. Format d'enregistrement numérique 8 pistes)
+Enregistrement électronique
+SSD, pour solid-state drive, constitué de mémoire flash ou de DRAM
+cartes à mémoire Flash (souvent sur Clé USB)
+Caractéristiques techniques de l'enregistrement[modifier | modifier le code]
+Dans le cas d'un enregistrement analogique comme dans celui d'un enregistrement numérique, transformer une onde sonore en une grandeur électrique, puis mécanique ou magnétique qu'on puisse enregistrer, ou en données informatiques, introduit des contraintes techniques et des limitations dues aux moyens d'enregistrement.
+Bruit de fond[modifier | modifier le code]
+Article détaillé : Bruit de fond.
+Tous les dispositifs, mécaniques et électriques, produisent un bruit en fonctionnant. Les parties mobiles des mécaniques vibrent, les pointes de lecture des disques frottent sur le sillon, les composants électroniques, même un simple conducteur, produisent un faible bruit[8]. À ces bruits propres aux circuits s'ajoutent diverses interférences de l'extérieur.
+Un système bien conçu ne présente qu'un faible bruit, peu rugueux et peu fluctuant.
+On évalue généralement le bruit de fond d'un système en observant le signal à la sortie alors qu'on ne présente aucun signal à l'entrée. Plus rigoureusement, on peut présenter à l'entrée un signal juste mesurable à la sortie, et déduire le bruit de fond de ce qui se trouve en sortie. Avec cet essai plus réaliste, puisqu'en pratique le bruit de fond ne gêne qu'en présence d'un signal, on tient compte du fait qu'un système n'est pas nécessairement linéaire à faible niveau, et qu'il peut être conçu pour supprimer le signal de sortie en dessous d'un certain seuil de signal d'entrée.
+Distorsion[modifier | modifier le code]
+Article détaillé : Distorsion (audio).
+Tous les appareils et systèmes qui concourent à enregistrer et à reproduire un son modifient involontairement le signal. On appelle cette modification distorsion. On distingue deux sortes de distorsion :
+La distorsion linéaire vient du fait que tout circuit est, d'une certaine façon, un filtre. Certaines fréquences sont affaiblies. En principe, ce type de distorsion peut être compensé par l'application d'un filtre inverse, qui amplifie ce qui a été affaibli.
+La distorsion non-linéaire ajoute dans le signal des éléments qui en dépendent, mais qui ne s'y trouvaient pas. Avec des signaux harmoniques, c'est-à-dire dont les fréquences sont des multiples d'une fréquence fondamentale, elle se manifeste par la distorsion harmonique. Avec les autres, elle crée en plus de la distorsion d'intermodulation. Ces distorsions ne peuvent pas être retirées du signal après qu'elles ont été produites. Les éléments amplificateurs, les diodes, les circuits magnétiques à noyau introduisent des distorsions non linéaires. La proportion de distorsions non-linéaires augmente avec l'amplitude du signal[9]. Des circuits de correction par contre-réaction permettent d'éviter cette augmentation, mais en contrepartie, celle-ci devient catastrophique quand l'amplitude du signal atteint la limite du système.
+Les deux types de distorsion existent ensemble dans les appareils. elles interagissent de façon assez complexe, de sorte que les évaluations simples, avec des sons purs, ne donnent pas nécessairement un résultat qui reflète les essais où l'on demande l'opinion d'auditeurs.
+En enregistrement numérique, le produit d'intermodulation entre la fréquence d'échantillonnage et le signal produit une distorsion non-linéaire appelée repliement de spectre.
+Pour évaluer un système d'enregistrement sonore, on s'efforce d'éliminer les distorsions dues aux systèmes de captation et de reproduction : microphones, amplificateurs, haut-parleurs.
+Dynamique sonore[modifier | modifier le code]
+Articles détaillés : Dynamique sonore et Rapport signal sur bruit.
+La « dynamique » ou portée dynamique d'un système d'enregistrement désigne le rapport entre les amplitudes minimum et maximum que le système peut ou enregistrer et reproduire convenablement. Ce rapport ne peut dépasser celui de l'élément où il est le plus faible, du microphone, qui convertit le son en signal électrique, au haut-parleur qui convertit le signal en son, en passant par les amplificateurs et le support de l'enregistrement, disque, bande magnétique, ordinateur, etc. Il est affecté par les adaptations entre maillons successifs de la chaîne.
+La dynamique s'établit par rapport à des conventions de qualité du signal. Le niveau maximal est celui où le signal atteint un niveau de distorsion défini comme la limite ; le niveau minimal est celui où le bruit de fond gêne la perception du signal. En général, les documents commerciaux assimilent la dynamique au Rapport signal sur bruit.
+rapports signal-bruit selon le procédé d'enregistrement  :
+La dynamique du disque microsillon est d'environ 45 dB[10].
+Un enregistrement sur bande magnétique donne 55 dB, ou plus en utilisant des systèmes de réduction du bruit perçu.
+Un enregistrement sur CD, avec dither peut donner une dynamique de 92 dB.
+Caractéristiques spécifiques à l'enregistrement analogique[modifier | modifier le code]
+Les enregistrements analogiques souffrent des défauts de la mécanique autour de laquelle ils sont construits :
+le frottement des organes de lecture sur le médium d'enregistrement produit un bruit, aiguille dans le sillon du disque ou glissement de la bande sur les têtes magnétiques ;
+les pièces mobiles provoquent une vibration (rumble) ;
+dans un disque, la différence d'angle entre le mouvement radial du burin de gravure et celui, généralement circulaire, de l'aiguille de lecture produit une distorsion ;
+les irrégularités du mouvement provoquent une distorsion non-linéaire (Pleurage et scintillement).
+Ces caractéristiques donnent lieu à des mesures.
+Caractéristiques spécifiques à l'enregistrement numérique[modifier | modifier le code]
+Un signal numérique se caractérise d'abord par son débit binaire (nombre de bits par seconde), c'est-à-dire le produit de sa fréquence d'échantillonnage par le nombre de bits par échantillon.
+Selon les termes de la théorie de l'information, un signal pourrait être aussi bien décrit par n'importe quelle combinaison de fréquence d'échantillonnage et de nombre de bits de même produit, à condition que la fréquence d'échantillonnage soit supérieure au double de la plus haute fréquence contenue dans le signal. En pratique, toutefois, les conversions ne se font pas tout-à-fait sans pertes ; mais le débit numérique constitue un indicateur de la meilleure qualité possible avec un système donné.
+Débits numériques par procédé d'enregistrement sans compression
+CD
+DVD
+Super Audio CD
+meilleur existant
+Usage
+diffusion
+diffusion
+diffusion
+production
+Fréquence d'échantillonnage
+44,1 kHz
+48 kHz
+2 822,4 kHz
+192 kHz
+Nombre de bits
+16 bits × 2
+16 bits × n
+1 bit × n
+24 bit × n
+Débit numérique
+705 600 × 2
+768 000 × n
+2 822 400 × n
+4 608 000 × n
+Les méthodes de compression de données permettent de réduire le débit numérique.
+Échantillonnage[modifier | modifier le code]
+Article détaillé : Échantillonnage (signal).
+L'échantillonnage consiste à découper l'information sonore qui arrive sous forme électrique analogique à intervalles de temps réguliers. La fréquence ou cadence d'échantillonnage est le nombre des prélèvements par seconde. Le théorème d'échantillonnage indique que pour représenter correctement le signal, la fréquence d'échantillonnage doit être supérieure à deux fois la plus haute fréquence présente dans le signal. On considère en général que les fréquences audibles sont comprises entre 20 Hz et 20 000 Hz. Une petite marge est nécessaire pour filtrer suffisamment les fréquences supérieures à 20 kHz qui se trouveraient dans le signal.
+Quantification[modifier | modifier le code]
+Article détaillé : Quantification.
+La quantification consiste à réduire la valeur de l'échantillon obtenu par l'échantillonnage à une des valeurs prises dans une liste de valeurs possibles. Un nombre entier pourra représenter cette valeur. Sauf pour la quantification d'un signal représentant la parole (voir Loi A et Loi µ), on procède simplement à un arrondi à la valeur la plus proche dans une échelle régulièrement espacée.
+La différence abandonnée au moment de cet arrondi constitue un bruit qui s'ajoute, à la reconstitution, au signal analogique.
+Pour un signal quantifié sur n bits, la valeur efficace du bruit de quantification, par rapport à celle d'un signal sinusoïdal à pleine échelle, est de
+soit en décibels 6 × n + 1,8, ce qui donne 98 dB pour 16 bits[11]. Mais ce bruit est en fait une distorsion, car il dépend du signal (on dit qu'il est corrélé au signal. On évite ce défaut en ajoutant au signal un bruit appelé dither (un mot qui signifie inquiétude), qui sera moins gênant, et d'autant moins audible qu'on aura eu soin d'y faire prédominer des fréquences élevées, auxquelles l'oreille est moins sensible.
+Dans la chaîne de l'enregistrement sonore, le bruit de fond des microphones est généralement supérieur au bruit de quantification.
+Compression de débit[modifier | modifier le code]
+Articles détaillés : Compression de données audio, Ogg Vorbis, Monkey's Audio, Free Lossless Audio Codec, MPEG-1/2 Audio Layer 3 et Advanced Audio Coding.
+L'enregistrement des sons à pour destination des auditeurs. Cette propriété essentielle permet de limiter la quantité d'information transmise.
+On ne transmet pas les fréquences inaudibles, en dehors de la bande 16 Hz-20 kHz.
+Les sons intelligibles comportent des fréquences particulières (et leurs harmoniques), qui persistent pendant quelque temps (des fractions de secondes, en général). Ces fréquences constituent des redondances dans le signal. Les algorithmes de compression des données informatiques comme le format ZIP peuvent ainsi réduire la taille des enregistrements sonores. Des systèmes de compression spécifique au son, se basant sur les évènements déjà survenus, tentent de prédire ce qui va se produire, et ne transmettent ensuite que les écarts par rapport à cette prédiction. On peut ainsi, avec un débit en général moindre, transmettre tout le signal[12].
+Les études psychoacoustiques ont montré que les composantes du son influent les unes sur les autres. Notamment, un son peut en masquer un autre. Également, la capacité humaine de différencier des fréquences différentes est fortement diminuée au delà de 5 kHz, c'est-à-dire dans la partie du signal qui exige le plus de données. Enfin, l'intelligence auditive (inconsciente) permet aux auditeurs de reconstituer des parties du son qui devraient s'y trouver. Des algorithmes dits « destructifs » car ils abandonnent une partie non perceptible ou peu perceptible du signal au profit de la réduction du débit, tirent parti de ces caractères de la perception humaine. On parvient ainsi à des réductions de débit de 1÷5 sans guère de différence audible et atteignant 1÷20 avec un son encore identifiable, quoique de qualité inférieure.
+Voir aussi[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Jacques Attali, Bruits : essai sur l'économie politique de la musique, nouvelle édition revue et augmentée, Paris, Fayard,‎ 2001 (1re éd. 1977)
+Robert Caplain, Techniques de prise de son, 6e édition Dunod, 2013 (ISBN 9782100493593)
+Jacques Fournet et Michel Calmet, « L’enregistrement magnétique », dans Denis Mercier (direction), Le Livre des Techniques du Son, tome 1- Notions fondamentales, Paris, Eyrolles,‎ 1987, 1e éd. (présentation en ligne)
+Georges Kisselhoff, « La prise de son stéréophonique », dans Denis Mercier (direction), Le Livre des Techniques du Son, tome 3- L'exploitation, Paris, Eyrolles,‎ 1993, 1e éd., p. 11-74
+Daniel Lesueur, Histoire du disque et de l'enregistrement sonore, Éditions Carnot
+Vincent Magnier, Guide de la prise de son pour l'image : Reportage, documentaire, fiction en radio et télévision, Dunod,‎ 2011, 2e éd. (1re éd. 2007) (présentation en ligne)
+Vincent Magnier, Pratique des liaisons HF pour la prise de son et la sonorisation : En tournage, en concert, en conférence, Dunod,‎ 2014 (présentation en ligne)
+Christian Orsini, « Le disque », dans Denis Mercier (direction), Le Livre des Techniques du Son, tome 3- L'exploitation, Paris, Eyrolles,‎ 1993, 1e éd., p. 75-112
+Ludovic Tournès, Du phonographe au MP3 : Une histoire de la musique enregistrée, Paris, Autrement,‎ 2008 (ISBN 9782746711211, lire en ligne)
+Articles connexes[modifier | modifier le code]
+Son (physique)
+Son stéréophonique
+Bande son au cinéma
+Ingénieur du son
+Format de fichiers audio
+Quantification (signal)
+Technologies des musiques amplifiées
+Principes de classement des documents musicaux
+Studio d'enregistrement
+Sonorisation
+Musique numérisée
+Decca tree
+Liens externes[modifier | modifier le code]
+Audiosonica - Cours pour ingénieurs du son en ligne sous licence Creative Commons
+Sonatura audioblog - Sons de la nature
+Phonothèque de la Maison méditerranéenne des sciences de l'homme - Voir aussi : Les carnets de la Phonothèque
+(en) Audio Engineering Society
+Notes et références[modifier | modifier le code]
+↑ FirstSounds.org ; Au clair de la Lune : le plus vieil enregistrement sonore au monde
+↑ « Un enregistrement de 1878 découvert et présenté au public », sur France Info,‎ 26 octobre 2012. Restauré à l'aide d'un scanner optique pour ne pas endommager la feuille d'étain, cet enregistrement d'une minute et dix huit secondes a été dévoilé en 2012 au Musée de l'Innovation et des Sciences (en) dans l'État de New York ((en)Optical Imaging Study of the 1878 St. Louis Edison Tinfoil Recording from the miSci (museum of innovation and science) Schenectady, New York).
+↑ Registre international de la mémoire du monde
+↑ Science et industries photographiques, janvier 1929, p. 215.
+↑ Pierre Hemardinquer, « Le premier phonographe à film : le Sélénophone », La Nature, n°2856, 1 mai 1931 ; Aristide Frascarolo, « Enregistrements sonores », dans De fil en aiguille, Charles Cros et les autres : exposition, Bibliothèque nationale 15 décembre 1988-1er avril 1989, BnF,‎ 1989 (lire en ligne).
+↑ (en) AES recoding history notes
+↑ La musique électronique, qui effectue des synthèses de signaux sonores n'est pas à proprement parler un enregistrement sonore.
+↑ Le bruit thermique ; voir aussi Bruit de grenaille, Bruit de scintillation, Bruit en créneaux, Bruit d'avalanche.
+↑ À l'exception de la distorsion de raccordement entre les parties positives et les parties négatives du signal.
+↑ Alain Fromentel, « Les périphériques », dans Daniel Mercier (dir.), Le livre des techniques du son, tome 2, la technologie, Paris, Eyrolles,‎ 1988, 1e éd., p. 196
+↑ Mario Rossi, Audio, Lausanne, Presses Polytechniques et Universitaires Romandes,‎ 2007, 1e éd., p. 637
+↑ Souvent ces algorithmes se basent sur la décomposition du signal en ondelettes.
+voir
+Supports d'enregistrement audio
+Analogique
+Cylindre phonographique (1877) · Disque phonographique (1920) · Magnétophone (1930) · Disque vinyle (1946) · Cassette audio (1948) · 8-track (1963) · Microcassette (1964) · Elcaset (1969)
+Numérique
+Disque compact (1978) · Digital Audio Tape (1982) · MiniDisc (1987) · Digital Compact Cassette (1991) · Super Audio CD (1999) · DVD-Audio (1999)
+Informatique
+Mémoire interne (1940) · Disque dur (1956) · Carte mémoire (1980) · Mémoire flash (1999) · Clé USB (2000)
+Portail de la musique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Enregistrement_sonore&oldid=112019529 ».
+Catégories : Enregistrement sonoreDocumentSource historiqueCatégories cachées : Article contenant un appel à traduction en anglaisArticle contenant un appel à traduction en allemandPortail:Musique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+አማርኛ
+العربية
+Български
+Català
+Deutsch
+Ελληνικά
+English
+Español
+فارسی
+Suomi
+Gaeilge
+עברית
+हिन्दी
+Magyar
+Italiano
+日本語
+Қазақша
+한국어
+Bahasa Melayu
+Norsk nynorsk
+Norsk bokmål
+Português
+Русский
+Simple English
+Svenska
+ไทย
+Türkçe
+Українська
+اردو
+Winaray
+中文
+Modifier les liens
+Dernière modification de cette page le 20 février 2015 à 11:18.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobile

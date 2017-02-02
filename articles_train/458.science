@@ -1,0 +1,177 @@
+Topologie algébrique — Wikipédia
+Topologie algébrique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la topologie et l'algèbre.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+La topologie algébrique, anciennement appelée topologie combinatoire, est une branche des mathématiques appliquant les outils de l'algèbre dans l'étude des espaces topologiques. Plus exactement, elle cherche à associer de manière naturelle des invariants algébriques aux structures topologiques associées. La naturalité signifie que ces invariants vérifient des propriétés de fonctorialité au sens de la théorie des catégories.
+Sommaire
+1 Invariants algébriques
+2 Applications de la topologie algébrique
+3 Topologues algébriques notables
+4 Importants théorèmes en topologie algébrique
+5 Référence
+6 Article connexe
+Invariants algébriques[modifier | modifier le code]
+L'idée fondamentale est de pouvoir associer à tout espace topologique des objets algébriques (nombre, groupe, espace vectoriel…), de sorte qu'à deux espaces homéomorphes soient associées deux structures isomorphes. De tels objets sont appelés des invariants algébriques. En termes savants, il s'agit d'étudier des foncteurs depuis la catégorie des espaces topologiques sur une catégorie algébrique, comme les catégories de groupes, algèbres, groupoïdes, etc. Des résultats de topologie passent alors par la démonstration plus abordable de propriétés algébriques.
+Parmi les invariants notables, citons :
+Le groupe fondamental d'un espace topologique X en un point x : l'ensemble des classes d'homotopie des lacets de X de base x, la loi de composition interne étant la concaténation des lacets ;
+Les groupes d'homotopie supérieure d'un espace topologique X en un point x ;
+Les groupes d'homologie ou de cohomologie d'un espace topologique X ;
+Les classes caractéristiques d'un fibré vectoriel réel, complexe, euclidien ou hermitien.
+Applications de la topologie algébrique[modifier | modifier le code]
+Le théorème du point fixe de Brouwer : toute application continue du disque unité de
+dans lui-même admet un point fixe.
+Le théorème de la boule chevelue : tout champ continu de vecteurs tangents à une sphère de dimension paire s'annule en au moins un point, en conséquence un tokamak ne peut avoir une géométrie sphérique.
+Le théorème de Borsuk-Ulam : pour toute application continue de la sphère Sn dans
+il existe un couple de points antipodaux qui prennent la même valeur par cette application. Par exemple, à tout instant, il existe deux points à la surface de la Terre diamétralement opposés ayant même température et même pression.
+Topologues algébriques notables[modifier | modifier le code]
+Frank Adams
+Enrico Betti
+Armand Borel
+Karol Borsuk
+Luitzen Egbertus Jan Brouwer
+William Browder
+Ronald Brown (en)
+Henri Cartan
+Charles Ehresmann
+Samuel Eilenberg
+Hans Freudenthal
+Peter Freyd
+Pierre Gabriel
+Alexander Grothendieck
+Friedrich Hirzebruch
+Heinz Hopf
+Michael J. Hopkins (en)
+Witold Hurewicz
+Egbert van Kampen
+Daniel Kan (en)
+Hermann Künneth
+Solomon Lefschetz
+Jean Leray
+Saunders Mac Lane
+J. Peter May
+Barry Mazur
+John Milnor
+John Coleman Moore
+Emmy Noether
+Sergueï Novikov
+Grigori Perelman
+Henri Poincaré
+Lev Pontriaguine
+Mikhail Postnikov
+Daniel Quillen
+Jean-Pierre Serre
+Stephen Smale
+Edwin Spanier
+Norman Steenrod
+Dennis Sullivan
+René Thom
+Hiroshi Toda (en)
+Leopold Vietoris
+J. H. C. Whitehead
+Hassler Whitney
+Importants théorèmes en topologie algébrique[modifier | modifier le code]
+Théorème d'approximation cellulaire (en)
+Théorème de Borsuk-Ulam
+Théorème du point fixe de Brouwer
+Théorème des coefficients universels (en)
+Théorème d'Eilenberg-Zilber
+Théorème de suspension de Freudenthal
+Théorème d'Hurewicz
+Théorème de Künneth
+Théorème de dualité de Poincaré
+Théorème de van Kampen
+Théorème de Whitehead
+Référence[modifier | modifier le code]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Algebraic topology » (voir la liste des auteurs).
+Article connexe[modifier | modifier le code]
+CW-complexe
+v · d · m
+Géométrie
+Formules mathématiques simples • Géométrie projective • Géométrie affine • Géométrie euclidienne • Géométrie non euclidienne • Géométrie elliptique • Géométrie hyperbolique • Programme d'Erlangen • Géométrie synthétique • Géométrie algébrique • Topologie algébrique • Topologie différentielle • Géométrie riemannienne • Géométrie différentielle • Géométrie symplectique
+v · d · m
+Domaines des mathématiques
+Algèbre • Algèbre commutative • Algèbre homologique • Algèbre linéaire • Analyse • Analyse réelle • Analyse complexe • Analyse fonctionnelle • Analyse numérique • Calcul quantique • Combinatoire • Géométrie • Géométrie algébrique • Géométrie différentielle • Géométrie non commutative • Optimisation • Physique mathématique • Probabilités • Statistiques • Systèmes dynamiques • Théorie des nombres • Théorie de Galois • Théorie des groupes • Topologie • Topologie algébrique
+Portail des mathématiques
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Topologie_algébrique&oldid=107045583 ».
+Catégories : AlgèbreTopologieTopologie algébriqueCatégories cachées : Wikipédia:ébauche topologieWikipédia:ébauche algèbreArticle contenant un appel à traduction en anglaisPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Català
+Čeština
+Deutsch
+English
+Esperanto
+Español
+فارسی
+Suomi
+עברית
+Hrvatski
+Հայերեն
+Italiano
+日本語
+ქართული
+한국어
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Русский
+Srpskohrvatski / српскохрватски
+Slovenčina
+Српски / srpski
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 31 août 2014 à 21:18.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

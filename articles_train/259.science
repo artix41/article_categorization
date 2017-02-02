@@ -1,0 +1,157 @@
+Expérience de Michelson-Morley — Wikipédia
+Expérience de Michelson-Morley
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'expérience de Michelson-Morley est une expérience d'optique qui a tenté de démontrer l'existence de l'éther luminifère. Pour y parvenir, Albert Abraham Michelson et Edward Morley ont cherché à mettre en évidence la différence de vitesse de la lumière entre deux directions perpendiculaires et à deux périodes espacées de 6 mois, et concluent que cette différence était inférieure à ce que le dispositif permettait de mesurer (l'effet attendu étant environ 4 fois supérieur à la précision du dispositif).
+En fait, il s'agit de toute une série d'expériences entre 1881 (Michelson seul) et 1887 (ensemble), date à laquelle le résultat est définitivement admis (bien que cette expérience soit régulièrement refaite à chaque fois qu'un progrès technique permet de gagner en précision, avec toujours le même résultat).
+L'interprétation de ce résultat a conduit les physiciens à mettre en doute l'existence de l'éther (qui était supposé être le support matériel des vibrations d'une onde électromagnétique comme la lumière) ou tout au moins de son mouvement. Cela montrait aussi que la vitesse de la lumière était la même dans toutes les directions jusqu'au deuxième ordre en (v/c), qui était la précision de l'expérience.
+C'est dans l'histoire de la physique une des plus importantes et une des plus célèbres expériences, elle valut à Michelson le prix Nobel de physique en 1907.
+Sommaire
+1 Principe
+2 Interprétation
+3 Sources
+4 Articles connexes
+Principe[modifier | modifier le code]
+Cette expérience a été conçue par Michelson pour mesurer la vitesse de la lumière dans son support supposé (l'éther) et en se basant sur la loi classique d'addition des vitesses. Il est apparu que la Terre sur son orbite avec une vitesse d'environ 30 km/s par rapport au Soleil était le laboratoire idéal pour déceler une variation de la vitesse de la lumière sur des parcours identiques en longueur mais qui devaient être différents en temps selon qu'ils seraient dans le sens du mouvement ou perpendiculairement au vent d'éther.
+Illustration de l'expérience de Michelson-Morley
+On construit l'appareil de telle sorte que les miroirs M1 et M2 soient à égale distance, D, de la lame séparatrice.
+Alors, si la Terre est immobile par rapport à l'éther, les deux trajets dans les deux directions perpendiculaires sont égaux (même distance parcourue, même durée de trajet).
+Si, en revanche, la Terre est en mouvement par rapport à l'éther, à la vitesse v dans une direction (vers M1 par exemple), alors les deux trajets ne sont pas faits à la même vitesse, et la distance parcourue n'est pas la même dans les deux directions :
+un aller et retour dans le sens de la marche de la Terre (vers M1) nécessite un temps
+t1=
+soit, en négligeant les termes de second ordre :
+un aller-retour perpendiculairement à la marche de la Terre (vers M2) nécessite un temps
+t2=
+ou, dans la même approximation, :
+.
+La différence de temps de parcours entre les deux trajets est alors: .
+L'écart de temps attendu est trop faible pour être directement mesuré : la vitesse de lumière était déjà connue pour être de l'ordre de 3.108 m/s, la vitesse de la Terre par rapport au Soleil, donc par rapport à l'éther, de l'ordre 3.104 m/s, et la dimension du dispositif de l'ordre de 10 m. Soit finalement une mesure de l'ordre de 10 x 109 / 1025 soit 10-15 s. Il s'agit donc d'une quantité trop petite pour être mesurable avec une grande précision. On peut en revanche espérer la mettre en évidence par l'observation des franges d'interférence. En effet, le chemin optique - ou la différence de marche -
+est tel que . On calcule l'ordre d'interférence
+par définition, et compte tenu de la vitesse orbitale de la Terre sur son orbite 30 km/s :
+ou encore
+avec .
+Par exemple, dans le domaine visible pour la longueur d'onde , et pour un bras D = 10 mètres
+ce qui serait très visible et donc parfaitement observable. Michelson construisit un appareil auquel on a donné son nom, l'interféromètre de Michelson pour mesurer cette différence de phase. Or, l'expérience de Michelson-Morley n'a jamais permis une telle mesure : le résultat était toujours négatif.
+De plus, l'appareil n'étant pas parfait, on ne peut assurer que la distance entre la lame séparatrice et le miroir soit parfaitement égale dans les deux directions, et de ce fait l'apparition de franges ne permet pas de conclure directement. En revanche, on peut faire la différence entre les franges dues à l'appareil, et celles dues au phénomène qu'on veut mettre en évidence : il suffit pour cela de faire tourner l'appareil d'un quart de tour pour intervertir les deux trajets, et d'observer si les franges se modifient.
+Enfin, comme on ne sait pas a priori quelle est la vitesse de la Terre par rapport à l'éther, ni même si l'on n'est pas, par hasard, dans un endroit et à un moment où sa vitesse est nulle, il faut refaire l'expérience dans plusieurs directions, et avec plusieurs mois d'écart pour profiter du fait que la vitesse de la Terre par rapport à l'éther est modifiée.
+Le premier interféromètre monté par Michelson n'étant pas assez précis pour conclure, c'est avec Morley que finalement les deux chercheurs purent affirmer que
+« s'il y a un mouvement relatif entre la Terre et l'éther luminifère, il doit être petit »
+En physique, cette expérience est sans doute la plus célèbre des expériences négatives (donnant un résultat contraire à ce qui était recherché).
+Interprétation[modifier | modifier le code]
+Plusieurs tentatives d'explications classiques échouèrent et c'est Ernst Mach qui le premier émit l'hypothèse qu'il fallait rejeter le concept d'éther.
+Parallèlement, des progrès théoriques permettaient, par la contraction des longueurs de Fitzgerald-Lorentz, d'expliquer le résultat expérimental, mais c'est finalement ce qui est devenu la relativité restreinte d'Einstein postulant l'invariance de c qui a permis d'expliquer l'étonnant résultat de Michelson et Morley.
+L'expérience de Trouton-Noble est considérée comme l'équivalent en électrostatique de l'expérience de Michelson et Morley.
+Sources[modifier | modifier le code]
+(en) A. A. Michelson and E.W. Morley, Philos. Mag. S.5, 24(151): 449-463 (1887) [lire en ligne]
+(en) A. A. Michelson et al., « Conference on the Michelson-Morley Experiment », Astrophysical Journal 68, 341 (1928)
+(en) Robert S. Shankland et al., « New Analysis of the Interferometer Observations of Dayton C. Miller », Reviews of Modern Physics, 27(2): 167-178 (1955)
+(en) Claude Semay et Bernard Silvestre-Brac, Relativité restreinte, Dunod, page 10.
+Articles connexes[modifier | modifier le code]
+Relativité restreinte
+Transformations de Lorentz
+Vitesse de la lumière
+v · d · m
+Relativité
+Galiléenne
+Théorie du repos absolu · Principe de Copernic · Référentiel galiléen · Transformations de Galilée · Vitesse relative
+Restreinte et générale
+Principe de relativité · Vitesse de la lumière · Transformations de Lorentz · Espace-temps · E=mc2 · Temps · Petites expériences de pensée · Paradoxe des jumeaux · Paradoxe du train · Effet Doppler relativiste · Principe de Mach · Principe d’équivalence
+Physique des particules
+Cyclotron · Accélérateur de particules · Feynman · Mécanique quantique relativiste · Électrodynamique quantique · gravité quantique
+Personnalités
+Galilée · Einstein · Michelson · Voigt · Lorentz · Mach · Poincaré · Hilbert
+Histoire de la physique
+Histoire de la relativité restreinte · Histoire de la relativité générale · Controverse sur la paternité de la relativité ·
+Critiques de la théorie de la relativité · Expérience de Michelson-Morley · Expérience d’Ives-Stilwell · Éther · Tests de la relativité restreinte · Théorie de l'éther de Lorentz
+Portail de la physique
+Portail de l’optique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Expérience_de_Michelson-Morley&oldid=110243723 ».
+Catégories : Expérience de physiqueRelativité restreinteCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Optique/Articles liésBon article en allemand
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Alemannisch
+العربية
+Беларуская
+Български
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Español
+Eesti
+فارسی
+Suomi
+Galego
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Bahasa Indonesia
+Italiano
+日本語
+Қазақша
+한국어
+Lietuvių
+മലയാളം
+Nederlands
+Polski
+Português
+Română
+Русский
+Simple English
+Slovenčina
+Српски / srpski
+Svenska
+தமிழ்
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 25 décembre 2014 à 19:36.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

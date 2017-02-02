@@ -1,0 +1,129 @@
+Couche électronique — Wikipédia
+Couche électronique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un atome est composé d'un noyau (les protons et les neutrons) et d'électrons qui « gravitent » autour. Ces électrons vont occuper des zones autour du noyau qui sont appelées couches électroniques. Ces couches ont pour caractéristiques d'avoir chacune un nombre défini d'électrons. Lorsqu'une couche est remplie, elle est saturée. Le nombre de couches électroniques croit avec le numéro atomique (Z). La notion de couche électronique correspond physiquement à l'énergie des électrons de la couche. En d'autres termes, deux électrons sur une même couche ont besoin de la même énergie pour se faire éjecter de l'atome. (En fait c'est une approximation, puisqu'une couche se divise en sous-couches qui diffèrent par leur moment cinétique orbital).
+Les couches électroniques sont symbolisées par des lettres, suivant l'alphabet de façon croissante à partir de la lettre K, en partant de la plus proche du noyau à la plus éloignée. Il existe une formule pour connaitre la capacité d'une couche : si n est le numéro d'ordre de la couche visée (K = 1, L = 2, etc.), le nombre d'électrons qu'elle peut contenir jusqu'à saturation est 2n2. La couche électronique ne doit pas être confondue avec la période. En effet, une période est une ligne dans la classification périodique des éléments. Lorsque l'on cherche un élément dans la classification périodique, sa période (le numéro de la ligne) donne le nombre de couches électronique (ex : l'hydrogène est sur la période 1, les électrons de l'hydrogène se répartissent donc sur une seule couche électronique à l'état fondamental, l'uranium est sur la 7e période (famille des actinides), les électrons de l'uranium se répartissent donc sur 7 couches électroniques à l'état fondamental. La formule pour trouver le nombre maximum d'électrons est 2n2. Mais à partir de la 4e période, il existe de nombreuses règles.
+la première est la couche K, capacité : 2 ; n = 1 ; c'est la plus proche du noyau (Kernel signifie « noyau » en anglais, d'où l'utilisation de K) ;
+ensuite vient la couche L, capacité : 8 ; n = 2 ;
+puis la couche M, capacité : 18 ; n = 3 ;
+puis la couche N, capacité : 32 ; n = 4 ;
+puis la couche O, capacité : 31 ; n = 5 ;(32 e- sur la dernière couche est un maximum)
+puis la couche P, capacité : 17 ; n = 6 ;
+puis la couche Q, capacité : 8 ; n=7;
+La couche K est la seule couche électronique commune à tous les éléments. Ainsi, le nombre de couches électroniques d'un atome dépend du nombre d'électrons de cet atome. Mais la capacité des couches électroniques d'un atome ne laisse pas présager de la répartition par couche de ses électrons. En effet, seuls les 18 premiers éléments chimiques du tableau périodique (de l'hydrogène (Z=1) à l'argon (Z=18)) suivent un remplissage linéaire tendant vers la saturation de leurs couches électroniques : K, L et M.
+Limites du modèle des couches électroniques[modifier | modifier le code]
+À partir du potassium (Z=19), cela devient plus complexe. En effet, le potassium possède 19 électrons. Sa répartition électronique par couche est la suivante : K=2, L=8, M=8 et N=1. Malgré le fait que la couche M puisse contenir 18 électrons, on constate que le dernier électron s'est mis sur une nouvelle couche plutôt que de se mettre sur la couche M, alors qu'elle peut encore accueillir 10 électrons. Cela présage de l'existence de sous-couches électroniques et cet exemple montre les limites du modèle planétaire des couches électroniques développé ici. Aujourd'hui, on ne considère plus que les électrons sont en orbites autour du noyau comme une planète autour d'un soleil. On considère qu'un électron occupe un espace appelé orbitale atomique, c'est-à-dire une zone autour du noyau où l'électron a 95 % de chances de se trouver. Cette approche plus abstraite et plus réaliste de la structure électronique d'un atome ne signifie pas pour autant que les couches électroniques mentionnées ici (K, L, M, ...) sont tombées en désuétude. Elles sont une réalité, mais ces couches ne constituent qu'un seul des quatre paramètres nécessaires pour définir l'état d'un électron. Ce paramètre est noté n, et c'est le nombre quantique principal. Les 3 autres nombres quantiques sont : l le nombre quantique azimutal (qui peut prendre des valeurs de 0, à n-1), m le nombre quantique magnétique (qui peut prendre des valeurs de -l à +l), et s le moment cinétique intrinsèque de spin (qui peut prendre 2 valeurs : +1/2 ou -1/2).
+Exemple[modifier | modifier le code]
+Exemples :
+Oxygène (Z = 8) : (K)2(L)6
+Aluminium (Z = 13) : (K)2(L)8(M)3
+Argon (Z = 18) : (K)2(L)8(M)8
+Potassium (Z = 19) : (K)2(L)8(M)8(N)1
+Calcium (Z = 20) : (K)2(L)8(M)8(N)2
+Scandium (Z = 21) : (K)2(L)8(M)9(N)2
+Titane (Z = 22) : (K)2(L)8(M)10(N)2
+Cobalt (Z = 27) : (K)2(L)8(M)15(N)2
+Cuivre (Z = 29) : (K)2(L)8(M)18(N)1
+Zinc (Z = 30) : (K)2(L)8(M)18(N)2
+Gallium (Z = 31) : (K)2(L)8(M)18(N)3
+Article connexe[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+les couches électroniques, sur Wikimedia Commons
+Configuration électronique
+Portail de la physique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Couche_électronique&oldid=108931991 ».
+Catégories : Physique des particulesAtomeCatégories cachées : Catégorie Commons avec lien local différent sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Chimie/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Български
+বাংলা
+Català
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Bahasa Indonesia
+日本語
+Қазақша
+한국어
+Македонски
+Plattdüütsch
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Runa Simi
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Тоҷикӣ
+ไทย
+Türkçe
+ئۇيغۇرچە / Uyghurche
+Українська
+اردو
+Oʻzbekcha
+中文
+粵語
+Modifier les liens
+Dernière modification de cette page le 7 novembre 2014 à 20:20.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

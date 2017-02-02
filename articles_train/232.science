@@ -1,0 +1,138 @@
+Particule dans une boîte — Wikipédia
+Particule dans une boîte
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En physique, la particule dans une boîte (ou puits de potentiel carré) est une représentation simple d'un système relevant de la mécanique quantique. On étudie une particule confinée dans une région finie de l'espace grâce à des murs de potentiel infini aux bords de cette région. La particule n'est soumise à aucune force à l'intérieur de la boîte, mais y est retenue par une force infinie aux bords. C'est une situation similaire à un gaz confiné dans un contenant. Pour simplifier, le cas unidimensionnel sera premièrement traité. On en déduira les équations des cas bi- et tridimensionnel.
+La solution de l'équation de Schrödinger pour une particule dans le problème d'une boîte révèle des comportements quantiques qui sont en accord avec l'expérience, mais contraires aux prédictions de la mécanique classique. C'est une illustration utile puisque ce comportement n'est pas « forcé » par le système, il provient naturellement des conditions initiales.
+Sommaire
+1 Comportement de la particule
+2 Réalisation
+3 Le cas de la particule dans une boîte unidimensionnelle
+4 La particule dans une boîte à 2 ou 3 dimensions
+5 Propagation libre
+Comportement de la particule[modifier | modifier le code]
+Le comportement quantique d'une particule libre dans une boîte consiste en:
+La quantification de l'énergie - La particule ne peut prendre que certaines valeurs d'énergie bien définies (discrétisation de l'énergie). Le résultat d'un tel système en mécanique classique démontrerait que le système peut prendre toutes les valeurs d'énergie possibles (valeurs continues, ou continuum).
+Un état fondamental d'énergie non nulle - L'énergie la plus basse est strictement supérieure à la valeur du plus bas potentiel.
+Nœuds - À l'inverse de la mécanique classique, l'équation de Schrödinger prédit que certains états possèdent des nœuds, donnant lieu à des positions où la particule ne peut pas être trouvée.
+Réalisation[modifier | modifier le code]
+La réalisation est souvent effectuée à l'aide de la croissance de cristaux sur un substat semiconducteur (Silicium, GaAs ...). On obtient ainsi une sorte d'atome artificiel, bien plus grand en fait (~100x), mais dont on peut à loisir choisir les raies d'absorption (couleur et propriétés physiques). Une de ces boîtes quantiques est utilisée industriellement dans un émetteur à fréquence variable dont un effort sur le cristal entraîne une modification de la fréquence.
+Le cas de la particule dans une boîte unidimensionnelle[modifier | modifier le code]
+Pour le cas unidimensionel, par exemple dans la direction de l'axe , l'équation de Schrödinger indépendante du temps peut-être écrite comme:
+où
+où h est la constante de Planck, m est la masse de la particule, ψ est la fonction d'onde (pouvant être complexe) que nous devons trouver, V(x) est une fonction décrivant le potentiel pour chaque valeur de x et E est l'énergie, un nombre réel. Pour le cas de la particule dans une boîte unidimensionelle de longueur L, le potentiel est zéro à l'intérieur de la boîte, et vaut l'infini en x = 0 et x = L. Pour la région à l'intérieur de la boîte V(x) = 0 et l'équation 1 se réduit à:
+Le potentiel est nul dans la boîte et infini ailleurs
+Il s'agit là d'un problème bien connu de valeurs propres dont la solution générale est
+où A et B sont des nombres complexes, et k est un nombre réel (k doit être réel parce que E est réel).
+Maintenant, pour trouver les solutions spécifiques pour le problème d'une particule dans un puits de potentiel, nous devons spécifier les conditions aux limites et trouver les valeurs de A et de B qui satisfont ces conditions. Premièrement, on impose ψ égale zéro pour x = 0 et x = L. Ces conditions peuvent être interprétées comme une valeur infinie du potentiel en ces positions, donc il est impossible de retrouver la particule à ces endroits. Ainsi, la probabilité de retrouver la particule, soit |ψ|2, doit être petite dans ces régions et diminue lorsque le potentiel augmente. Dans le cas d'un potentiel infini, |ψ|2 doit être nulle, d'où ψ doit être nulle dans cette région. En résumé,
+Deuxièmement, on trouvera les solutions correspondant à la section de propagation libre à la fin de cet article : ce cas de figure ne contraint pas la fonction d'onde à s'annuler aux limites. Cela signifie que quand la particule atteint une frontière du puits, elle disparaît instantanément de ce côté du puits pour réapparaître de l'autre côté, comme si le puits était une sorte de tore. La valeur des solutions est discutée dans la partie appropriée. Nous reprenons maintenant la dérivation avec des conditions d'annulation à la frontière.
+En remplaçant la solution générale de l'équation 3 dans l'équation 2 et en se plaçant en x = 0 (ψ = 0), nous trouvons que B = 0 (car sin(0) = 0 et cos(0) = 1). Il s'ensuit que la fonction d'onde doit être de la forme :
+et en x = L nous trouvons :
+Une solution pour l'équation 6 est A = 0, cependant, cette « solution triviale » impliquerait que ψ = 0 en tout point (i.e. la particule n'est pas dans la boîte) et peut être mise à l'écart. Si A ≠ 0 alors sin(kL) = 0, ce qui est seulement vrai quand :
+(remarquez que n = 0 ne convient pas car alors ψ=0 en tout point, correspondant au cas où la particule n'est pas dans la boîte). Les valeurs négatives de n sont aussi négligées, car elles changent simplement le signe de sin(nx). Maintenant afin de trouver A, on utilise le fait que la probabilité de trouver la particule quelque part est égale à 1. D'où la valeur de l'intégrale de |ψ|2 sur l'axe x :
+d'où
+Ainsi, A peut être tout nombre complexe de norme √(2/L); ces différentes valeurs de A correspondent au même état physique. On choisit donc A = √(2/L) pour simplifier.
+Finalement, en remplaçant les résultats de l'équation 7 et 8 dans l'équation 3 on obtient la solution complète pour le problème d'une particule unidimensionnelle dans une boîte :
+Remarquons que, comme mentionné précédemment, seuls des niveaux d'énergie « quantifiés » sont possibles. Aussi, puisque n ne peut être nul, la plus basse énergie d'après l'équation 9, est aussi non nulle. Cet état fondamental d'énergie non nulle peut être expliqué par le principe d'incertitude. Puisque la particule est astreinte à se déplacer dans une région finie, la variance dans ses positions est majorée. Ainsi selon le principe d'incertitude la variance de l'impulsion (quantité de mouvement) de la particule ne peut être nulle, la particule possède donc une certaine quantité d'énergie qui augmente que quand la longueur de la boîte, L, diminue.
+Aussi, puisque ψ est composée d'ondes sinusoïdales, pour quelques valeurs de n supérieures à un, il y a des régions dans la boîte pour lesquels ψ ainsi que ψ2 sont égales à 0, indiquant ainsi que pour ces niveaux d'énergie, des nœuds existent dans la boîte où la probabilité de trouver une particule est nulle.
+La particule dans une boîte à 2 ou 3 dimensions[modifier | modifier le code]
+Pour le cas bidimensionnel, la particule est confinée dans une surface rectangulaire de longueur Lx dans la direction x et Lydans la direction y. Le potentiel est encore nul dans la « boîte » et infini sur les murs. Pour la zone intérieure de la boîte, où le potentiel est nul, l'expression bidimensionnelle analogue à l'équation 2 s'écrit:
+Dans ce cas ψ est une fonction de x et de y, d'où ψ=ψ(x,y). Pour résoudre l'équation 11, on utilise une méthode de séparation des variables. D'abord, nous supposons que ψ peut s'exprimer comme un produit de deux fonctions indépendantes, la première dépendant seulement de x et la seconde seulement de y, i.e.:
+En remplaçant l'équation 12 dans l'équation 11 et en évaluant les dérivées partielles (qui deviennent des dérivées simples, X ne dépendant que de x et Y de y) :
+ce qui lors de la division par XY et en posant d2X/dx2 = X"et d2Y/dy2= Y" devient :
+On remarque maintenant que puisque X"/X est indépendant de y, une variation de y peut seulement changer le terme Y"/Y. Cependant, d'après l'équation 14, faire varier Y"/Y sans faire varier X"/X, change aussi E, or E est constant, donc Y"/Y doit aussi être une constante indépendante de Y. Le même raisonnement peut être utilisé pour montrer que X"/X est indépendant de x. Puisque X"/X et Y"/Y sont constants, on peut écrire :
+où Ex + Ey = E. En utilisant la notation précédente pour X" et Y" on obtient:
+chacune de ces équation est de la même forme que l'équation de Schrödinger unidimensionnelle (équation 2) que nous avons résolue dans la section précédente. Ainsi, d'après la partie précédente nous avons :
+Finalement, puisque ψ=XY et E = Ex + Ey, on obtient les solutions :
+La même technique de séparation de variables peut être appliquée au cas tri-dimensionnel pour donner la solution :
+Une propriété intéressante des solutions ci-dessus est que quand deux ou plus des longueurs sont les mêmes (eg.Lx = Ly), il y a plusieurs fonctions d'onde correspondant à la même énergie totale. Par exemple la fonction d'onde avec nx = 2, ny = 1 a la même énergie que la fonction d'onde avec nx = 1, ny = 2. Cette situation est appelée dégénérescence. Pour le cas où exactement deux fonctions d'onde dégénérées ont la même énergie, ce niveau d'énergie est dit doublement dégénéré. La dégénérescence résulte de la symétrie du système. Pour le cas ci-dessus, deux des longueurs sont égales, le système est donc symétrique avec une rotation de 90°.
+Propagation libre[modifier | modifier le code]
+Si le potentiel est nul (ou constant) en tout point, on définit une particule libre. Ceci apporte quelques difficultés de normalisation de la fonction d'onde. Une manière de contourner le problème est de contraindre la particule dans un volume fini V de grandeur arbitraire, dans lequel il n'y a pas d'obstacle à la propagation. Il faut que lorsque V→ ∞, on récupère la particule libre, tout en permettant dans les calculs intermédiaires l'utilisation des états correctement normalisés. Aussi, quand nous décrivons par exemple une particule se déplaçant dans un solide, on ne s'attend pas à des états localisés spatialement mais au contraire à des états complètement délocalisés (dans le solide), ce qui signifie que la particule se propage à travers lui (puisqu'elle peut être partout avec la même probabilité, à l'inverse des solutions sinusoïdales que nous avons rencontrées lorsque la particule a des emplacements préférés). Cette interprétation découle des solutions de l'équation de Schrödinger pour un potentiel nul avec les conditions aux limites dites "Von-Karman boundary conditions", en d'autres termes la fonction d'onde prend les mêmes valeurs sur les faces opposées de la boîte, mais pas nécessairement nulles. On vérifie ensuite que les fonctions suivantes sont solution de l'équation 1:
+L'énergie reste
+(cf. eq. 3) mais ici les k ont des valeurs doubles de ceux de la solution précédente (cf. eq. 7). C'est parce que, dans le cas précédent, n était strictement positif alors qu'ici il peut être négatif ou nul (l'état fondamental). Les solutions où la fonction sinusoïdale ne se superpose pas sur elle-même après une translation de L ne peuvent pas être trouvés à l'aide d'une exponentielle, puisque dans cette interprétation d'une particule qui se propage, la dérivée est discontinue aux bords, cela veut dire que la particule acquiert une vitesse infinie à cet endroit. Cela montre que les deux interprétations traduisent des comportements intrinsèquement différents.
+v · d · m
+Mécanique quantique
+Concepts fondamentaux
+Décohérence · Dualité · Effet tunnel · État quantique · Fonction d'onde · Intrication · Observable · Correspondance · Superposition quantique · Complémentarité · Principe d'incertitude · Mesure · Spin
+Expériences
+Fentes de Young · Expérience de Davisson et Germer · Expérience de Stern et Gerlach · Chat de Schrödinger · Gomme quantique · Paradoxe EPR · Téléportation quantique · Expérience d'Aspect · Expérience d’Afshar
+Formalisme
+Notation bra-ket · Équation de Schrödinger · Matrice densité · Représentation de Schrödinger · Représentation de Heisenberg · Représentation d'interaction · Diagramme de Feynman · Équation de Rarita-Schwinger · Équation de Dirac · Matrice de Dirac · Symbole de Levi-Civita
+Statistiques
+Maxwell-Boltzmann · Échange · Fermi-Dirac · Fermion · Bose-Einstein · Boson
+Théories avancées
+Théorie quantique des champs · Axiomes de Wightman · Électrodynamique quantique · Chromodynamique quantique · Gravité quantique · Trou noir virtuel
+Interprétations
+Problème de la mesure · Copenhague · Ensemble · Variables cachées · Ontologique (Bohm-Hiley) · Transactionnelle · Mondes multiples · Histoires consistantes · Logique quantique
+Physiciens
+Bohr · Bohm · Born · de Broglie · Dirac · Einstein · Everett · Feynman · Heisenberg · Mosharafa · von Neumann · Pauli · Penrose · Planck · Schrödinger
+Postulats de la mécanique quantique · Histoire de la mécanique quantique
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Particule_dans_une_boîte&oldid=96888176 ».
+Catégorie : Modèle quantiqueCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Deutsch
+Ελληνικά
+English
+Español
+Suomi
+עברית
+Italiano
+日本語
+한국어
+Bahasa Melayu
+Polski
+Português
+Русский
+Svenska
+Українська
+اردو
+中文
+Modifier les liens
+Dernière modification de cette page le 22 septembre 2013 à 14:20.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,63 @@
+Gluon — Wikipédia
+Gluon
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Gluon
+Propriétés générales
+Classification
+Boson
+Composition
+Élémentaire
+Groupe
+Boson de jauge
+Interaction(s)
+Forte
+Propriétés physiques
+Masse
+0
+Charge électrique
+0
+Spin
+1
+Durée de vie
+Stable
+Historique
+Prédiction
+Han (en), Nambu et Greenberg (en), 1965
+Découverte
+1979
+modifier
+Le gluon est le boson responsable de l'interaction forte. Les gluons confinent les quarks ensemble en les liant très fortement. Ils permettent ainsi l'existence des protons et des neutrons, ainsi que des autres hadrons et donc de l'univers que nous connaissons.
+Sommaire
+1 Caractéristiques de charge et masse des gluons
+2 Pourquoi n'y a-t-il que 8 gluons au lieu de 9 ?
+3 Preuve expérimentale
+4 Origine des gluons
+5 Voir aussi
+5.1 Articles connexes
+5.2 Liens externes
+5.3 Notes et références
+Caractéristiques de charge et masse des gluons[modifier | modifier le code]
+Leur masse est probablement nulle (quoiqu'il n'est pas exclu qu'ils puissent avoir une masse de quelques MeV)
+Leur charge électrique est nulle
+Ils ne possèdent qu'un spin 1.
+Chaque gluon porte une charge de couleur (rouge, vert ou bleu, comme les quarks) et une anti-charge de couleur (comme les anti-quarks). Il y a 8 différentes sortes de gluons, en fonction de leur charge et de leur anti-charge de couleur.
+Dans la théorie de la chromodynamique quantique (quantum chromodynamics, ou QCD), qui est utilisée aujourd'hui pour décrire l'interaction forte, les gluons sont échangés lorsque des particules possédant une charge de couleur interagissent. Lorsque deux quarks échangent un gluon, leur charge de couleur change ; le gluon se chargeant d'une anti-couleur compensant la perte du quark, de même que la nouvelle charge de couleur du quark. Étant donné que les gluons portent eux-mêmes une charge (et une anti-charge) de couleur, ils peuvent aussi interagir avec d'autres gluons, ce qui rend l'analyse mathématique de l'interaction forte très compliquée.
+Pourquoi n'y a-t-il que 8 gluons au lieu de 9 ?[modifier | modifier le code]
+À priori il pourrait y avoir 9 types de gluons, un pour chaque combinaison de charge et d'anti-charge de couleur (rouge, vert, bleue, et anti-rouge, anti-vert, anti-bleue), ce qui donnerait les gluons suivants :
+.
+En fait, du point de vue mathématique il existe un nombre infini de gluons, chacun pouvant être représenté par une combinaison linéaire des 9 états fondamentaux (aussi appelés états propres) listés ci-dessus. Par exemple, un gluon pourrait être représenté par l'état combiné . Ce genre de combinaisons d'états est assez courant en mécanique quantique.
+Cependant, la chromodynamique quantique nous apprend que la relation linéaire suivante lie 3 des états fondamentaux, du fait que les états complètement neutres du point de vue de la couleur n'interagissent pas par interaction forte :
+Ceci implique alors que les 9 états fondamentaux cités plus haut ne sont plus tous indépendants. Cette relation réduit de 1 le nombre de degrés de liberté correspondants. Il n'y a plus que 8 degrés de liberté disponibles, donc 8 états fondamentaux linéairement indépendants, donc 8 gluons.
+Preuve expérimentale[modifier | modifier le code]
+La première trace expérimentale des gluons a été découverte en 1979 dans l'accélérateur de particules PETRA (collisions électron-positron) du laboratoire DESY à Hambourg, lorsque la preuve d'une collision à 3 jets fut faite : le troisième jet fut ainsi attribué à l'émission d'un gluon par un des quarks produits.
+Origine des gluons[modifier | modifier le code]
+Selon la théorie du Big Bang, l'Univers primordial était à une température et une pression telles que les quarks et les gluons devaient être totalement libres (« déconfinés »). Cet état est dit Plasma de Quarks et de Gluons (PQG), puis alors que ce plasma se refroidissait, les gluons ont confiné les quarks ensemble, ce qui permet l'existence des protons et des neutrons, ainsi que des autres hadrons. Une expérience de Physique nucléaire et hadronique nommée ALICE vise à étudier ce plasma, pour mieux comprendre la ChromoDynamique Quantique. Ce plasma sera produit au LHC (Large Hadron Collider) du CERN, par collisions (collision nucléon-nucléon) d’ions lourds (de plomb) à très haute énergie. Ces collisions devraient produire une température plus de 100 000 fois supérieures à celle qui règne au cœur du Soleil ce qui devrait en quelque sorte faire "fondre" les protons et les neutrons de la matière, libérant les quarks de l’emprise des gluons et créant un état de la matière encore jamais observé ; le plasma de quarks et de gluons[1],[2].
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Bosons
+Interaction forte.
+Chromodynamique quantique
+Projet ALICE
+Liens externes[modifier | modifier le code]
+[PDF](en) Caractéristiques du gluon (Particle Data Group)

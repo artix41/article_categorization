@@ -1,0 +1,63 @@
+Lyophilisation — Wikipédia
+Lyophilisation
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Dans un diagramme de phase, la frontière entre l’état liquide et l’état gazeux va du point critique au point triple. La lyophilisation (flèche bleue) « contourne » le point triple, évitant ainsi la transition directe liquide → gaz (vaporisation), comme c’est habituellement le cas dans un séchage atmosphérique (flèche verte).
+La lyophilisation, ou anciennement cryodessiccation, est la dessiccation d’un produit préalablement surgelé, par sublimation. Le solvant sublimé est généralement de l’eau, mais ce peut être également un alcool.
+Sommaire
+1 Histoire
+2 Principe de la lyophilisation
+3 Lyophilisation industrielle
+3.1 Le produit à lyophiliser
+3.1.1 Produit en vrac
+3.1.2 Les flacons (vials)
+3.1.3 « Blisters »
+3.2 Congélation
+3.3 Phase de sublimation, ou dessiccation primaire
+3.4 Dessiccation secondaire
+4 Applications
+5 Voir aussi
+6 Notes et références
+7 Liens externes
+Histoire[modifier | modifier le code]
+Le procédé de lyophilisation a été inventé en 1906 par les Français Arsène d’Arsonval et F. Bordas - son préparateur - au laboratoire de biophysique du Collège de France à Paris[1],[2]. Cependant, la déshydratation était déjà utilisée par les Indiens des Andes au XIIIe siècle pour faire du chuño.
+Principe de la lyophilisation[modifier | modifier le code]
+La lyophilisation consiste à ôter l’eau d’un produit liquide, pâteux ou solide, à l’aide de la surgélation puis une évaporation sous vide de la glace sans la faire fondre. Le principe de base est que lorsqu’on réchauffe de l’eau à l’état solide à très basse pression, l’eau se sublime, c’est-à-dire qu’elle passe directement de l’état solide à l’état gazeux. La vapeur d’eau (ou de tout autre solvant) quitte le produit et on la capture par congélation à l’aide d’un condenseur, ou piège froid. Cette technique permet de conserver à la fois le volume, l’aspect et les propriétés du produit traité. Elle peut avoir lieu naturellement (séchage en montagne), ou, plus rapidement, dans un lyophilisateur.
+On distingue trois phases majeures dans un cycle de lyophilisation :
+la congélation, où les produits sont réfrigérés à des températures de l’ordre de −20 °C à −80 °C ; l’eau se transforme alors en glace.
+la dessiccation primaire, sous vide, qui consiste à sublimer la glace libre (interstitielle), donc sans effet d’ébullition (pas d’eau en phase liquide).
+la dessiccation secondaire, qui permet d’extraire par désorption les molécules d’eau piégées à la surface des produits séchés.
+À la fin du cycle, le produit ne contient plus que 1 % à 5 % d’eau, ce qui est extrêmement faible.
+Lyophilisation industrielle[modifier | modifier le code]
+Le produit à lyophiliser[modifier | modifier le code]
+Le type de produit et son contenant conditionnent énormément le processus de lyophilisation et par là, la structure de la machine qui réalisera l’opération. Après lyophilisation, le produit obtenu est appelé lyophilisat, ou cake. Le produit à lyophiliser peut être en vrac (bulk) dans des grands bacs, enflaconné, ou encore en blister (conditionnement sous membrane plastifiée).
+Produit en vrac[modifier | modifier le code]
+Pour les produits liquides ou pâteux, on utilise de grands bacs en inox posés sur les étagères de congélation. Les bacs ont le défaut de ne jamais être parfaitement plats et donc de ne toucher l’étagère qu’en quelques points. La plupart de l’énergie de l’étage est donc transmise au bac puis au produit par radiation, ce qui représente une très petite partie de l’énergie à fournir au liquide caloporteur. De plus, il n’est pas toujours facile d’instrumenter les lots pour suivre le processus : le risque de décollement des sondes de température est important. Pour pallier ce risque, il faudra donc multiplier les capteurs et donc compliquer l’informatique et la mécanique de la machine, ou il faudra utiliser une méthode de contrôle globale de la vapeur d’eau résiduelle du type Lyotrack. En revanche, ce système de stockage permet de lyophiliser des centaines de kilos de produit par cycle.
+Pour les produits solides (bois mouillé, papier, plantes…), ils sont soit posés directement sur étagère si leur poids le permet, soit dans une enceinte à parois réfrigérantes.
+Les flacons (vials)[modifier | modifier le code]
+Les flacons sont généralement en verre, matière qui présente un faible taux de dégazage sous vide. Ils sont équipés de bouchons spéciaux, qui ne dégazent pas, qui laissent passer les gaz pendant la lyophilisation et qui assurent l’étanchéité après bouchage. Ces flacons sont posés directement sur les étagères d’inox. Le transfert thermique est meilleur que pour le vrac et on peut éviter les problèmes de décollage des capteurs à thermocouple ou PT100, en les assujettissant aux bouchons si une telle méthode est utilisée. Par contre, le volume de produit sera plus faible qu’en vrac et la manipulation des flacons avant et après lyophilisation peut demander beaucoup de main d’œuvre ou des machines de manutention coûteuses, sans compter les risques de casse ou de contamination humaine.
+« Blisters »[modifier | modifier le code]
+Il s’agit de bacs de plastique thermoformé. Le produit (si possible très pâteux) est placé dans de petites alvéoles. Le temps de lyophilisation est alors très court. Par contre le remplissage et la manipulation des blisters doit être automatisée pour ne pas renverser le produit.
+Congélation[modifier | modifier le code]
+La congélation est la phase la plus critique du cycle de lyophilisation. Elle consiste à diminuer de manière lente la température du produit à une valeur comprise entre −20 °C et −80 °C, de façon à bloquer l’eau sous forme solide (sans cristaux) dans la situation où elle se trouvait à l’état liquide ; on évite ainsi la lésion des cellules, vaccins, enzymes, ou tout autre principe actif.
+À l’inverse, la congélation trop rapide d’un produit très liquide, produira de petits cristaux de glace qui pousseront le produit actif vers le haut, ce qui peut également dénaturer le produit.
+Cette phase est donc essentielle, car elle doit garantir que le produit à lyophiliser ne sera pas altéré.
+Article détaillé : Solidification.
+Phase de sublimation, ou dessiccation primaire[modifier | modifier le code]
+Elle consiste à extraire l’eau dite libre, qui est sous forme de glace libre (ou interstitielle). Sous un vide situé aux environs de 100 µbar mais pouvant varier fortement d’un produit à l’autre (de 5 µbar à 500 µbar), on apporte de la chaleur au produit afin que la glace se sublime. Notons au passage qu’à ces niveaux de vide, la chaleur est principalement apportée par radiation ou conduction avec les étagères contenant le fluide caloporteur, la convection pouvant être considérée comme nulle.
+Suivant le produit et les besoins de production on peut faire varier la température pendant le cycle. La vapeur d’eau est captée par un « piège froid  » ou «condenseur » et la déshydratation du produit se poursuivra en continu. Le niveau de vide, la température du produit et le temps de dessiccation sont des paramètres importants car ils déterminent le flux de sublimation à l’intérieur de la machine. Un flux de vapeur trop élevé peut emporter avec lui le produit que l’on cherche à lyophiliser. Un cycle trop court laissera trop d’eau dans le produit, qui pourra être dégradé lors de la dessiccation secondaire. À l’inverse, un cycle trop long peut dégrader certaines molécules actives. Lorsque la plus grande partie de l’eau s’est sublimée, le produit initial a perdu environ 80 à 90 % de son eau.
+Article détaillé : Sublimation.
+Dessiccation secondaire[modifier | modifier le code]
+Elle consiste à enlever l’eau « captive » du produit par désorption, car des molécules d’eau restent piégées en surface. C’est une étape délicate, car poussée trop loin, elle peut dénaturer le produit. Dans cette étape, le vide est poussé jusqu’aux environs de 5 µbar. On maintient ou on augmente la température du produit (jusqu’à des valeurs positives) pour arracher les molécules. On peut compléter l’opération en baignant le produit dans une atmosphère d’azote pur, dont les molécules prendront la place des quelques molécules d’eau restantes. À la fin du cycle, le produit est sec à 95 % ou plus.
+Les paramètres du processus de lyophilisation sont déterminés en laboratoire et expérimentés sur des lyophilisateurs dits « pilotes » avant d’être industrialisés. La description des étapes de la lyophilisation est appelée « une recette ».
+Une recette peut durer de plusieurs heures à plusieurs jours.
+Applications[modifier | modifier le code]
+Café soluble
+Le procédé est très onéreux, du fait des machines à mettre en œuvre, mais aussi de leur consommation en eau de refroidissement, en azote et en énergie. C’est pourquoi on l’emploie pour des produits à très forte valeur ajoutée, dans l’industrie pharmaceutique ou pour les produits biologiques altérables tels que les vaccins, les enzymes ou les éléments sanguins, et en particulier les anticorps, les hormones… Dans l’état actuel des connaissances, la lyophilisation du sang complet n’est pas encore possible : pour ne pas détruire les globules rouges, la congélation doit être effectuée à très basse température (sans quoi les cristaux de glace détruisent les cellules) ce qui oblige à sublimer à des niveaux de vide inférieurs à 1 µbar. Des recherches continuent pour dérouler le processus de lyophilisation dans de tels niveaux de vide et de température.
+L’industrie agroalimentaire est très utilisatrice de ce type de procédé (café soluble, champignons, céréales, etc.). Plus marginalement, on utilise aussi la lyophilisation pour la conservation de documents anciens endommagés par l’eau, pour préserver des vestiges archéologiques retrouvés en milieu humide ou pour conserver de petits animaux ou végétaux. Une entreprise canadienne est également connue pour ses bouquets de fleurs lyophilisés.
+Bien que les lyophilisateurs soient très coûteux (plusieurs millions d’euros pour les plus gros et jusqu’à 2 500 kWh⋅m-3 d’eau à évaporer), cette technique est utilisée pour les produits à forte marge. Les procédés sont soit discontinus, soit continus.
+Voir aussi[modifier | modifier le code]
+lyophilisateur
+déshydratation
+sublimation
+Conservation de la viande

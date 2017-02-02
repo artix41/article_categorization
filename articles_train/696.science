@@ -1,0 +1,106 @@
+Estérification — Wikipédia
+Estérification
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'estérification est une réaction de chimie organique au cours de laquelle un groupe fonctionnel ester -COOR est obtenu par condensation d'un groupe acide carboxylique -COOH et d'un groupe alcool -OH.
+La réaction de base est la condensation d'un alcool sur un acide carboxylique avec élimination d'une molécule d'eau, auquel cas la réaction est réversible (rétro-estérification) et renversable (saponification, quand l'hydrolyse de l'ester se réalise dans des conditions basiques, l'H2O est remplacée par l'ion hydroxyde HO¯[1]), mais elle peut s'effectuer à partir d'autres réactifs, en particulier à la place de l'acide carboxylique un de ses dérivés, chlorure d'acyle ou anhydride d'acide, changeant le type de réaction et son rendement. Il existe un certain nombre d'autres voies de synthèses impliquant des amides, des nitriles, des éthers, des aldéhydes, des cétones ou d'autres esters[2].
+Sommaire
+1 Estérification des acides carboxyliques
+1.1 Réaction
+1.2 Mécanisme
+1.2.1 Alcools primaires et secondaires
+1.2.2 Alcools tertiaires
+1.3 Propriétés
+1.4 Rendement
+1.5 Cinétique
+2 Estérification de dérivés d'acides carboxyliques
+2.1 Réactions
+2.2 Propriétés
+2.3 Mécanismes
+3 Synthèse à partir d'autres esters (Transestérification)
+3.1 Réaction
+3.2 Utilité
+4 Notes et références
+5 Lien externe
+Estérification des acides carboxyliques[modifier | modifier le code]
+Réaction[modifier | modifier le code]
+Cette réaction, appelée aussi estérification de Fischer ou estérification de Fischer-Speier consiste en la production d'un ester et d'eau, à partir d'un alcool et d'un acide carboxylique. L'équation générale de cette réaction est :
+La réaction inverse, appelée rétro-estérification est une hydrolyse de l'ester. Les réactions dans les deux sens sont très lentes en absence d'un catalyseur, le proton « libre » (ion hydrogène H +, se présentant sous la forme d'un ion hydronium H3O+ en solution aqueuse) provenant soit d'un acide fort (molécule qui possède un proton se dissociant en solution aqueuse), ou de l'eau dans laquelle l’acide carboxylique est en solution (l'estérification est d'autant plus lente que le pH de cette solution est élevé puisque pH=-log[H+]).
+Mécanisme[modifier | modifier le code]
+En fonction de la classe de l'alcool, il existe différents mécanismes.
+Le premier mécanisme présenté est valable pour les alcools primaires et secondaires, le second pour les alcools tertiaires.
+On prend ici le cas général et on choisit pour catalyseur H+.
+Alcools primaires et secondaires[modifier | modifier le code]
+Ce mécanisme se décrit en cinq étapes (dont deux équilibres de protonation-déprotonation rapides).
+Première étape : protonation de l'acide carboxylique. Deux possibilités se présentent :
+la protonation du groupe carbonyle
+Ici, l'ion formé est stabilisé par mésomérie :
+la protonation du groupe hydroxyle
+Ici non seulement l'ion formé (ion acyloxonium) ne possède pas de forme mésomère qui le stabilise, mais en plus cet état ne permet pas de poursuivre la réaction. Comme en plus cette réaction est un équilibre, les éventuelles formes protonées au niveau du groupement hydroxyle sont consommées pour former l'autre forme protonée qui sera elle consommée par les étapes suivantes (déplacement de l'équilibre, principe de Le Châtelier).
+La première étape est donc la protonation du groupe carbonyle (équilibre rapidement atteint):
+La deuxième étape est l'attaque nucléophile de l'alcool sur le site électrophile de l'acide carboxylique protoné :
+remarque: pour cette étape, on est directement parti de la 2e forme mésomère de l'acide protoné, afin de simplifier le mécanisme.
+La troisième étape est le transfert du proton (H+) du groupe issu de l'alcool sur un des groupes hydroxyles (réaction acide-base interne ou prototropie)
+La quatrième étape, cinétiquement limitante, est le départ d'une molécule d'eau (H2O).
+La dernière étape est une simple déprotonation (restitution du catalyseur)
+Remarque : le mécanisme a été vérifié en utilisant de l'eau avec un isotope 18O, en suivant la réaction par spectrométrie de masse.
+Alcools tertiaires[modifier | modifier le code]
+Ici aussi le mécanisme a lieu en 4 étapes
+Première étape: protonation de l'alcool
+Deuxième étape: départ de H2O, formation du carbocation tertiaire.
+Ces deux étapes (surtout la 2e) sont impossibles avec un alcool primaire ou secondaire, le carbocation formé n'étant pas assez stable.
+Troisième étape : addition du carbocation sur la fonction carbonyle de l'acide carboxylique.
+L'intermédiaire ainsi substitué est relativement stable, car il possède plusieurs formes mésomères :
+(on part d'ailleurs de la dernière forme mésomère pour la dernière étape)
+Dernière étape: il s'agit juste de la déprotonation de l'intermédiaire précédent (restitution du catalyseur).
+Propriétés[modifier | modifier le code]
+Cette réaction est renversable (saponification) et réversible (rétro-estérification ou hydrolyse acide de l'ester), lente et limitée (à cause justement de sa réaction inverse, l'hydrolyse).
+Elle est aussi quasiment athermique[3] (elle ne dégage ni n'absorbe de chaleur).
+La réaction étant presque athermique, une variation de la température n'a aucune influence sur l'état d'équilibre (Loi expérimentale de Van't Hoff). De même, une variation de la pression n'entraîne aucun déplacement de l'équilibre (vu que dans quasiment tous les cas, les réactifs et les produits sont des liquides, Loi expérimentale de Le Châtelier).
+Par contre, une augmentation de la température accélère la réaction et permet d'atteindre plus rapidement l'état d'équilibre.
+Rendement[modifier | modifier le code]
+Le rendement dépend très peu de la nature de l'acide carboxylique utilisé. Il dépend surtout de la classe de l'alcool utilisé : pour des réactifs introduits en quantités équimolaires, il est de 67 % avec un alcool primaire (méthanol par exemple), de 60 % avec un alcool secondaire (ex : propan-2-ol) et de seulement 5 % si l'alcool est tertiaire[4](ex : tertbutanol ou 2-méthylpropan-2-ol).
+Note historique: ces résultats, expérimentaux, (athermiticité, rendement dépendant de la classe de l'alcool et peu de l'acide carboxylique, etc.) sont dus en grande partie aux travaux de Marcellin Berthelot et de Léon Péan de Saint-Gilles (Mémoire de Berthelot et Péan de Saint-Gilles, 1861).
+Pour augmenter le rendement, il existe différentes méthodes :
+Augmenter la quantité du réactif en excès (en général le moins cher), ce qui modifiera le taux d'avancement final, donc le rendement.
+Toutes les méthodes permettant d'empêcher l'hydrolyse de se produire, et donc permettant de déplacer l'équilibre dans le sens direct (estérification). On peut au choix :
+Distiller l'ester au fur et à mesure de sa formation, s'il est le plus volatil (ce qui est souvent le cas).
+Éliminer l'eau (pour éviter son ionisation source de protons catalyseurs inverses). Pour cela deux méthodes sont possibles :
+Réaliser un entraînement à la vapeur, en ajoutant au système réactionnel un solvant relativement volatil et formant avec l'eau un hétéroazéotrope. On choisit en général du cyclohexane ou du toluène, et on utilise pour cette méthode l'appareil de Dean Stark.
+Incorporer au mélange réactionnel une substance déshydratante. Cela pose plus de problèmes, car d'une part, même s'il est mis en excès, toute l'eau peut ne pas être consommée. D'autre part, il faut par la suite séparer l'ester de ce produit, ce qui peut entraîner des complications (et en plus faire baisser le rendement).
+Cinétique[modifier | modifier le code]
+La réaction non catalysée est assez lente (pour atteindre le rendement maximal, il faut plusieurs mois). La vitesse évolue aussi selon la classe des alcools : elle décroît quand on passe d'un alcool primaire à un alcool secondaire, puis à un alcool tertiaire. Quoi qu'il en soit, on cherche donc des moyens d'accélérer la réaction :
+Augmentation de la température : si elle n'a aucune influence sur le rendement, elle améliore grandement la cinétique.
+Utilisation d'un catalyseur. On utilise pour cela un acide, qui permet d'augmenter le caractère électrophile du groupe carboxyle.
+La plupart des réactions permettent d'utiliser de l'acide sulfurique, mais cela n'est pas le cas de toutes (certains composés ne "supportent" pas le "traitement de choc" à l'acide sulfurique à chaud, puissant oxydant, qui risque donc d'oxyder l'alcool, ou même de le déshydrater). On peut utiliser aussi HCl anhydre, ou un acide moins fort, comme l'acide phosphorique, H3PO4, ou l'acide paratoluènesulfonique (APTS), voire, s'il est assez fort (exemple : l'acide méthanoïque, pKA=3,77), l'acide carboxylique réactif (autocatalyse), mis en excès. Cela présente un double avantage : il catalyse ainsi la réaction, et en plus, comme on l'a vu précédemment, cela permet d'améliorer le rendement.
+Estérification de dérivés d'acides carboxyliques[modifier | modifier le code]
+La synthèse des esters à partir d'acides carboxyliques présente de nombreux inconvénients : un rendement maximal de l'ordre de 2/3 dans les cas les plus favorables (alcools primaires) et plus que médiocre dans les cas les plus défavorables (5 % pour les alcools tertiaires), une cinétique lente, même catalysée (si la réaction est arrêtée trop rapidement, le rendement baisse encore plus).
+Une solution consiste donc à utiliser plutôt des dérivés d'acides, comme les chlorures d'acyles ou les anhydrides d'acides.
+Réactions[modifier | modifier le code]
+À partir des chlorures d'acyles :
+À partir des anhydrides d'acide :
+Propriétés[modifier | modifier le code]
+Avantages :
+Ces réactions sont totales.
+Elles sont en général relativement rapides, mais nécessitent assez régulièrement une catalyse. Les catalyseurs ne servent qu'à activer et rendre encore plus réactif le dérivé d'acide. Typiquement, dans le cas de l'utilisation d'un chlorure d'acyle, les catalyseurs utilisés sont la pyridine ou la triéthylamine (qui jouent alors le rôle de piège à HCl).
+Inconvénients :
+Les chlorures d'acyle et les anhydrides d'acides réagissent facilement avec l'eau (ils s'hydrolisent très facilement). Cela oblige à prendre des précautions de manipulation (éviter tout contact avec les muqueuses).
+Bien qu'à la base, les réactions soient totales, le rendement n'est pas de 100 %. En effet, une fois la réaction faite, il faut extraire l'ester du milieu, et les étapes pour y arriver sont généralement des équilibres physico-chimiques.
+Les réactions à partir de chlorures d'acyles sont vives : on a besoin de refroidir le mélange.
+On a de plus besoin de piéger le HCl formé :
+en utilisant par exemple une base telle la pyridine ou la triéthylamine.
+un piège constitué d'un flacon contenant de la soude.
+Les réactions à partir d'anhydrides sont moins vives et moins rapides (les anhydrides sont moins réactifs).
+En industrie, on utilise donc plutôt la voie des acides carboxyliques, plus facile dans la mise en œuvre. Cependant, dans le cas de l'industrie pharmaceutique ou cosmétique, les chlorures d'acyle ou les anhydrides peuvent être utilisés car les produits sont à haute valeur ajoutée.
+Mécanismes[modifier | modifier le code]
+À partir des chlorures d'acyle
+1re étape : addition nucléophile de l'alcool sur le chlorure d'acyle.
+2e étape : départ de HCl
+À partir des anhydrides d'acide
+1re étape : addition nucléophile de l'alcool sur l'anhydride.
+2e étape : départ de RCOOH
+Synthèse à partir d'autres esters (Transestérification)[modifier | modifier le code]
+La transestérification transforme un ester et un alcool en un autre ester et autre alcool. Un acide ou une base est souvent utilisé comme catalyseur.
+Réaction[modifier | modifier le code]
+Utilité[modifier | modifier le code]
+La transestérification est utilisée dans la fabrication du polyester et du biodiesel. C'est aussi le mécanisme qui permet l'épissage des introns lors de la maturation des ARNm.

@@ -1,0 +1,101 @@
+Résonance paramagnétique électronique — Wikipédia
+Résonance paramagnétique électronique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir ESR.
+Spectromètre à résonance paramagnétique électronique.
+La résonance paramagnétique électronique (RPE), résonance de spin électronique (RSE), ou en anglais electron spin resonance (ESR) désigne la propriété de certains électrons à absorber, puis réémettre l'énergie d'un rayonnement électromagnétique lorsqu'ils sont placés dans un champ magnétique. Cette propriété est analogue à celle des noyaux atomiques en résonance magnétique nucléaire (RMN). Seuls les électrons non-appariés (ou électrons célibataires), présents dans des espèces chimiques radicalaires ainsi que dans les sels et complexes des métaux de transition, présentent cette propriété.
+Ce phénomène est utilisé dans la spectroscopie par résonance paramagnétique électronique. Celle-ci permet de mettre en évidence la présence d'électrons non-appariés dans des solides, des liquides ou des gaz et de déterminer l'environnement de ces derniers. Il sera possible, par exemple, de connaître le type de noyaux atomiques à proximité de ces électrons non-appariés et d'en déduire éventuellement la structure d'une molécule.
+La majorité des espèces chimiques stables possédant des paires d'électrons appariés, cette technique permettra de mettre en évidence les espèces chimiques possédant des électrons non appariés de manière très spécifique. Par ailleurs, du fait de l'importance du moment magnétique de spin de l'électron, cette technique est également très sensible.
+Sommaire
+1 Terminologie
+2 Historique
+3 Principe
+3.1 Levée de dégénérescence entre moments magnétiques
+3.2 Distribution de Maxwell-Boltzmann
+3.3 Absorption et émission d'onde électromagnétique
+4 Obtention des spectres de résonance
+5 Couplage hyperfin
+6 Équipement
+7 Applications
+7.1 Analyse des matériaux
+7.2 Datation archéologique
+7.3 Études de mécanismes réactionnels
+7.4 Autres
+8 Notes et références
+9 Annexes
+9.1 Bibliographie
+9.2 Articles connexes
+9.3 Lien externe
+Terminologie[modifier | modifier le code]
+L'expression « spectroscopie par résonance paramagnétique électronique » laisse imaginer que seules des interactions paramagnétiques peuvent être étudiées. En réalité, des interactions de type ferromagnétiques, ferrimagnétiques ou antiferromagnétiques interviennent, surtout dans le cas des matériaux magnétiquement concentrés. Il serait donc préférable de désigner ce type de spectroscopie par l'expression plus générale de « spectroscopie par résonance de spin électronique » (RSE). Néanmoins, les applications utilisant cette spectroscopie concernent essentiellement des espèces paramagnétiques, d'où l'usage de « RPE » plus fréquent que celui de « RSE ».
+Par ailleurs, dans le reste de cet article, l'expression « résonance de spin électronique » pourra désigner indifféremment la propriété électronique ou la spectroscopie associée.
+Historique[modifier | modifier le code]
+La résonance de spin électronique a été découverte en 1944 par le physicien soviétique Yevgeny Zavoisky de l'université d'État de Kazan[1] ainsi que de manière concomitante et indépendante par Brebis Bleaney à l'Université d'Oxford. La technique de la RSE en onde continue a longtemps été la plus utilisée. Dans celle-ci, le système est irradié en continu par un rayonnement micro-onde à une fréquence donnée. La RSE impulsionnelle est de plus en plus utilisée, notamment en biologie structurale où elle permet de connaître les distances entre radicaux, en science des matériaux pour connaître la structure locale autour de défauts paramagnétiques.
+Principe[modifier | modifier le code]
+Levée de dégénérescence entre moments magnétiques[modifier | modifier le code]
+Séparation des niveaux d'énergie (pour le cas d'un spin S = 1/2) en présence d'un champ magnétique externe.
+Le principe de la RSE repose sur l'effet Zeeman : soumis à l'action d'un champ magnétique extérieur H, les niveaux d'énergie d'un spin S se séparent en (2S + 1) états, chacun affecté d'un nombre quantique de spin
+( = -S, -S+1, -S+2, ..., S). Cette séparation des niveaux est d'autant plus grande que H est intense (voir figure). Cette levée de dégénérescence d'états de spin électronique est identique à la levée de dégénérescence d'états de spin nucléaire qui permet la RMN.
+Ainsi, pour le cas d'un ion paramagnétique ne présentant qu'un seul électron célibataire (donc pour lequel S = 1/2), la présence du champ magnétique extérieur donne lieu à (2S + 1) = 2 états, correspondant à
+et . L'énergie magnétique associée à chacun de ces états est , où
+est la valeur du nombre quantique de spin (+1/2 ou -1/2 pour l'électron libre)
+est le facteur de Landé. Pour un électron libre, ge = 2,0023
+(parfois noté β) est le magnéton de Bohr ( = 9,2741 × 10-24 J.T-1).
+est valeur du champ magnétique
+Distribution de Maxwell-Boltzmann[modifier | modifier le code]
+Les électrons présents dans le système vont pouvoir occuper les différents niveaux électroniques. Au niveau macroscopique, la présence dans l'un ou l'autre niveau est déterminé par la statistique de Maxwell-Boltzmann :
+avec :
+la constante de Boltzmann
+la température de l'échantillon
+la différence d'énergie entre les niveaux dégénérés.
+Le niveau
+est de ce fait légèrement plus peuplé que le niveau supérieur. Le rapport entre les populations de chacun des deux niveaux vaut 0,998, pour une énergie de 40 µeV (différence d'énergie observée pour un électron dans un champ de 3350 Gauss) et une température de 298 K. De ce fait, la perturbation induite par le champ magnétique est relativement faible.
+Absorption et émission d'onde électromagnétique[modifier | modifier le code]
+En présence d'une onde électromagnétique de fréquence ν (champ hyperfréquence ou micro-onde) perpendiculaire au premier et d'amplitude beaucoup plus faible, un photon peut être absorbé ou émis si son énergie hν est égale à la différence entre les niveaux
+-1/2 et 1/2 (soit ).
+Ainsi, la condition de résonance se résume par :
+avec les mêmes notations que précédemment ainsi que
+la constante de Planck ( = 6,6261 × 10-34 J.S) ;
+la fréquence du champ micro-onde
+D'une façon plus générale, lorsqu'il y a plus que 2 états, les transitions permises sont celles pour lesquelles les états (initial et final) satisfont aux conditions (appelées règle de sélection) ΔS = 0 et ΔmS = ± 1. Les autres transitions sont généralement interdites, sauf en cas de mélange entre les états quantiques.
+La condition de résonance exprimée ci-dessus (Éq. 1) peut également s'écrire :
+où γ désigne le rapport gyromagnétique.
+Obtention des spectres de résonance[modifier | modifier le code]
+Spectres typiques d'absorption (courbe du haut) et de la dérivée première de l'absorption (courbe du bas) obtenus à fréquence fixe (bande X à 9388,2 MHz) et en faisant varier le champ magnétique statique externe.
+La recherche de la résonance peut être effectuée en fixant le champ magnétique H et en faisant varier la fréquence de l'onde électromagnétique ν, comme cela est couramment réalisé en RMN. Une autre possibilité, plus fréquemment employée, est de fixer la fréquence de l'onde électromagnétique (elle sera, par exemple, à 9388,2 MHz pour un spectromètre utilisant la bande X) et de faire varier le champ magnétique.
+De ce fait, les diagrammes présentent de manière classique l'absorbance ou sa dérivée en ordonnée et le champ magnétique statique H en abscisse, exprimé en Gauss, comme cela est illustré par la figure ci-contre.
+La plupart des spectromètres de RSE utilisent une détection synchrone, c'est-à-dire que le champ magnétique est modulé autour d'une valeur centrale telle que
+Le signal d'absorption peut s'écrire à l'ordre 1 sous la forme :
+En filtrant la fréquence correspondant à ω, la courbe dérivée
+est obtenue.
+Chaque signal ainsi enregistré est caractéristique de l'élément magnétique en présence et des interactions que cet élément ressent. Ces informations s'obtiennent à partir de :
+la valeur du champ de résonance (qui informe sur le facteur g de l'ion magnétique en question) ;
+l'aire en dessous de la courbe d'absorption (qui informe, entre autres, sur le nombre de spins présents) ;
+la mi-largeur à mi-hauteur de la courbe d'absorption (qui informe sur les interactions auxquelles les spins sont soumis).
+Couplage hyperfin[modifier | modifier le code]
+Le nombre de signaux indique parfois le nombre de site ou bien des interactions hyperfines avec un (ou plusieurs) spins nucléaires (pour des détails, voir Hyperfine structure (en)).
+En effet, l'hamiltonien d'un électron de spin
+couplé à un champ magnétique , entouré de
+noyaux à spin non nuls , est donné par la somme de trois termes[2] :
+Les termes
+et
+peuvent être regroupés et approximés dans le cadre de la théorie de la perturbation par le terme : , avec
+une matrice hermitienne carrée de dimension 3.
+Le terme de structure hyperfine, lui-même constitué de deux composantes : le terme d'interaction magnétique dipôle-dipôle et le terme d'interaction par contact de Fermi ((en) Fermi contact interaction) lié au fait que l'électron a une probabilité non-nulle de se trouver au niveau du noyau.
+Afin de simplifier certains spectres, il peut être opportun d'ajouter un rayonnement radiofréquence du type de ceux utilisés en RMN. Il s'agit alors de résonance double électronique et nucléaire, ou ENDOR ((en) ENDOR).
+Équipement[modifier | modifier le code]
+De la même manière que la spectroscopie RMN, cette technique utilise des champs magnétiques de l'ordre de grandeur du tesla. Pour cela, des bobines constituées de matériaux supra-conducteurs sont employées, dans lesquelles est introduite une intensité électrique importante. La circulation de ce courant électrique dans une bobine est à l'origine de ce champ magnétique. Afin de permettre la supraconductivité de ces matériaux, les bobines sont refroidies par de l'hélium liquide.
+Le champ radiofréquence est, lui, généré par des bobines conventionnelles.
+Applications[modifier | modifier le code]
+Analyse des matériaux[modifier | modifier le code]
+La RSE est utile pour l'étude de la structure locale de l'ensemble des matériaux pouvant présenter en leur sein un élément paramagnétique, utile pour pouvoir décrire l'environnement local. Elle peut servir à l'étude, par exemple, de défauts créés par le passage d'un rayonnement (α, β, γ, particules chargées...), donnant ainsi une mesure absolue de leur concentration dans la structure (à condition d'avoir un étalon). On peut étudier des ions paramagnétiques dans les structures de complexes dans les composés organiques ou de minéraux. De nombreux objets peuvent ainsi être étudiés grâce à cette technique, allant des matériaux désordonnés (verres) à des structures cristallines (minéraux) en passant par des matériaux organiques.
+L'exploitation des spectres RSE passe parfois par une étape de simulation afin de pouvoir en déduire les différentes informations concernant l'environnement des éléments paramagnétiques présents et de suivre l'évolution du système en fonction des conditions expérimentales et de mesure.
+Datation archéologique[modifier | modifier le code]
+La RSE est également utilisée dans le cadre de datations en archéologie préhistorique. Elle s'applique en particulier à l'émail dentaire de grands mammifères fossiles, à des grains de quartz extraits de sédiments archéologiques ou à des carbonates (stalagmites, coraux, etc.). Son champ d'application est très étendu, d'environ 20 000 ans à un million d'années.
+Études de mécanismes réactionnels[modifier | modifier le code]
+La RPE permet de sonder les intermédiaires réactionnels lors de réactions chimiques par voie radicalaire. Cela permet de progresser dans la connaissance des mécanismes réactionnels.
+Autres[modifier | modifier le code]
+La RSE s'applique aussi aux modèles biologiques.
+La RPE s'est avérée une technique de choix pour déterminer les paramètres associés à la fluidité membranaire.
+La RPE a été utilisée pour mesurer la quantité d'énergie appliquée à l'échelle moléculaire lors de réactions mécanochimiques[3].

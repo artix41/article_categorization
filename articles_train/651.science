@@ -1,0 +1,29 @@
+Marquage des acides nucléiques — Wikipédia
+Marquage des acides nucléiques
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la biologie cellulaire et moléculaire.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Il existe deux principales méthodes de marquage des acides nucléiques. L'une nécessite l'utilisation de monomères des acides nucléiques (ADN ou ARN), les nucléotides, rendus radioactifs. Ceux-ci sont incorporés par la cellule dans les brins d'acides nucléiques néosynthétisés et les rendent radioactifs. L'autre se fait par le biais d'agents intercalants fluorescents. Ces éléments s'intercalent entre les bases des brins d'acides nucléiques, et les rendent ainsi fluorescents sous rayons UV.
+Sommaire
+1 Le marquage in vivo
+2 In vitro
+2.1 Marquage interne
+3 Notes et références
+Le marquage in vivo[modifier | modifier le code]
+Le marquage In vivo peut être réalisé à l'aide de nucléotides radioactifs.
+Si l'on souhaite marquer spécifiquement l'ADN, on utilise de la thymidine car celle-ci n'est pas présente dans l'ARN. Elle est rendue radioactive en remplaçant un atome d'hydrogène par un atome de tritium. Elle est ensuite phosphorylée pour donner de la thymidine monophosphate (TMP). Ce précurseur peut alors être introduit In vivo et entrer ainsi en contact avec les cellules. La machinerie cellulaire continue la phosphorylation, formant successivement de la thymidine diphosphate puis de la thymidine triphosphate. Cette dernière molécule est susceptible d'être incorporée dans un brin d'ADN lors de sa synthèse. Le brin d'ADN néosynthétisé devient alors radioactif et donc détectable.
+Pour marquer spécifiquement l'ARN, on utilise l'uridine. L'uridine peut être également marquée au tritium.
+Pour marquer l'ADN et l'ARN en même temps, il est possible d'utiliser le phosphate radioactif. Il suffit de mettre dans le milieu du 32PO43-. Il pénètre dans la cellule et est incorporé dans les différents précurseurs.
+Ces trois méthodes ont pour caractéristique de ne marquer que les brins d'acides nucléiques en cours de synthèse.
+In vitro[modifier | modifier le code]
+Le gel est exposé à des rayonnements ultraviolets, le BET colore l'ADN en une couleur rouge-orangée.
+In vitro, il est possible de marquer l'ADN dans sa masse. C’est-à-dire que l'on peut insérer des atomes radioactifs soit dans sa longueur (marquage interne), soit aux extrémités.
+On peut également utiliser des marqueurs fluorescents comme le bromure d'éthidium ou l'iodure de propidium, qui sont des agents intercalants des acides nucléiques, souvent employés pour révéler les électrophorèses par exemple.
+Marquage interne[modifier | modifier le code]
+Marquage par translation de coupure (nick translation)
+On utilise pour cela:
+l'endonucléase DNase I qui provoque des coupures simple brin au hasard sur l'ADN;
+le fragment de Klenow de l'ADN polymérase I (= enzyme) isolée d'Escherichia coli. Il est capable en utilisant comme modèle le brin complémentaire, d'ajouter des nucléotides à une extrémité 3'-OH lorsqu'un brin d'une molécule d'ADN est coupé (activité polymérase 5'→3'). Cette enzyme a aussi une activité 3'→5' exonucléasique (qui élimine des nucléotides en allant vers le côté 5'-P de la coupure);
+des nucléotides marqués au 32P à haute radioactivité spécifique.
+On obtient finalement de l'ADN bicaténaire dont certaines régions sont fortement marquées.

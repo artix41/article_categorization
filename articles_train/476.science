@@ -1,0 +1,174 @@
+Optimisation (mathématiques) — Wikipédia
+Optimisation (mathématiques)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'optimisation est une branche des mathématiques et de l'informatique en tant que disciplines, cherchant à modéliser, à analyser et à résoudre analytiquement ou numériquement les problèmes qui consistent à déterminer quelles sont la ou les solution(s) satisfaisant un objectif quantitatif tout en respectant d’éventuelles contraintes.
+L’optimisation joue un rôle important en recherche opérationnelle (domaine à la frontière entre l'informatique, les mathématiques et l'économie), dans les mathématiques appliquées (fondamentales pour l'industrie et l'ingénierie), en analyse et en analyse numérique, en statistique pour l’estimation du maximum de vraisemblance d’une distribution, pour la recherche de stratégies dans le cadre de la théorie des jeux, ou encore en théorie du contrôle et de la commande.
+Aujourd'hui, tous les systèmes susceptibles d’être décrits par un modèle mathématique sont optimisés. La qualité des résultats et des prédictions dépend de la pertinence du modèle, de l’efficacité de l’algorithme et des moyens pour le traitement numérique.
+Sommaire
+1 Domaines d’application
+2 Définitions
+2.1 Minimisation
+2.2 Maximisation
+2.3 Solution locale
+2.4 Optimisation combinatoire
+3 Quelques classes de problèmes
+4 Méthodes numériques
+4.1 Simplifications
+4.2 Recherche des zéros du gradient
+4.3 Méthodes analytiques directes
+4.4 Techniques de l’optimisation combinatoire
+4.5 Heuristiques et métaheuristiques
+4.6 Techniques de l’optimisation multiobjectif
+5 Utilisations
+6 Historique
+7 Annexes
+7.1 Notes et références
+7.2 Articles connexes
+7.3 Ouvrages généraux
+7.4 Liens externes
+Domaines d’application[modifier | modifier le code]
+Ils sont extrêmement variés : optimisation d’un trajet, de la forme d’un objet, d’un prix de vente, d’une réaction chimique, du contrôle aérien, du rendement d’un appareil, du fonctionnement d'un moteur, de la gestion des lignes ferroviaires, du choix des investissements économiques, de la construction d’un navire, etc. L’optimisation de ces systèmes permet de trouver une configuration idéale, d’obtenir un gain d’effort, de temps, d’argent, d’énergie, de matière première, ou encore de satisfaction.
+Très loin de constituer une liste exhaustive, ces quelques exemples attestent de la variété des formulations et préfigure la diversité des outils mathématiques susceptibles de résoudre ces problèmes.
+Définitions[modifier | modifier le code]
+Minimisation[modifier | modifier le code]
+Plus formellement, l'optimisation est l’étude des problèmes qui s'expriment de la manière suivante.
+Problème d'optimisation — Étant donné une fonction
+définie sur un ensemble
+à valeurs dans l'ensemble
+des nombres réels (éventuellement dans la droite achevée ), trouver un élément
+de
+tel que
+pour tous les
+dans .
+On dit que l'on cherche à minimiser la fonction
+sur l'ensemble .
+La fonction
+porte divers noms : fonction-coût ou simplement coût, fonction-objectif ou simplement objectif, critère, etc. Cela permet de varier le vocabulaire.
+L'ensemble
+est appelé l'ensemble admissible et les points de
+sont appelés les points admissibles du problème (surtout lorsqu'il s'agit d'une partie d'un autre ensemble
+et que l'on ne veut pas que
+appartienne au complémentaire ). On dit que le problème est réalisable si
+est non vide (l'ensemble admissible étant souvent défini de manière implicite, son caractère non vide n'est pas nécessairement évident, ce qui justifie le besoin de ce concept de réalisabilité).
+Le point
+est appelé solution du problème d'optimisation (ou minimum ou minimiseur). On l'appelle aussi parfois une solution globale pour le distinguer des notions locales introduites ci-dessous. On dit qu'il s'agit d'un minimum strict si
+et
+pour tout .
+On peut écrire ce problème de différentes manières :
+On note parfois
+l'ensemble des solutions du problème.
+L'ensemble
+est une partie de
+(ou de
+si
+est valeurs dans ) et sa borne inférieure (ou infimum)
+est appelée la valeur optimale du problème. Cette valeur optimale est atteinte (c'est-à-dire qu'il existe un
+tel que ) si, et seulement si, le problème d'optimisation a une solution. Si , on dit que le problème est borné.
+Maximisation[modifier | modifier le code]
+Le problème décrit ci-dessus est un problème de minimisation. Comme on a
+un problème de maximisation d'une fonction
+(à gauche ci-dessus) est équivalent au problème de minimisation de
+(à droite ci-dessus). L'équivalence veut dire ici que les solutions sont les mêmes et que les valeurs optimales sont opposées. En particulier, une méthode pour analyser/résoudre un problème de minimisation pourra être utilisée pour analyser/résoudre un problème de maximisation.
+Solution locale[modifier | modifier le code]
+Extrema locaux : un maximum local
+est défini comme un point de
+pour lequel il existe un voisinage
+de
+tel que pour tout ,  ; dans ce voisinage de , les valeurs de la fonction dominent la valeur en ce point. Lorsque
+est un sous-ensemble de , ou plus généralement d’un espace vectoriel normé, la définition est équivalente à l’existence d’un
+tel que, pour tout
+satisfaisant , on a . Un minimum local est défini semblablement.
+Il est en général facile de déterminer numériquement des maxima locaux (ils peuvent être nombreux). Pour vérifier que la solution trouvée est un maximum global, il est parfois possible de recourir à des connaissances additionnelles sur le problème. Selon la nature de
+et/ou de la fonction , divers théorèmes (principe du maximum) assurent des propriétés particulières de la solution qui simplifient sa recherche.
+Optimisation combinatoire[modifier | modifier le code]
+Le plus souvent,
+est un sous-ensemble de l’espace euclidien . Lorsqu’il est constitué des vecteurs dont les coordonnées satisfont un certain nombre de contraintes (de type égalité ou inégalité). On parle d'optimisation combinatoire lorsque
+est un sous-ensemble de
+ou de .
+Quelques classes de problèmes[modifier | modifier le code]
+L’optimisation est découpée en sous-disciplines qui se chevauchent, suivant la forme de la fonction objectif et celle des contraintes : l'optimisation en dimension finie ou infinie (on parle ici de la dimension de l'espace vectoriel des variables à optimiser), l'optimisation continue ou combinatoire (les variables à optimiser sont discrètes dans ce dernier cas), l'optimisation différentiable ou non lisse (on qualifie ici la régularité des fonctions définissant le problème), l'optimisation linéaire (fonctions affines), quadratique (objectif quadratique et contraintes affines), semi-définie positive (la variable à optimiser est une matrice dont on requiert la semi-définie positivité), copositive (la variable à optimiser est une matrice dont on requiert la copositivité), conique (généralisation des disciplines précédentes, dans laquelle on minimise une fonction linéaire sur l'intersection d'un cône et d'un sous-espace affine), convexe (fonctions convexes), non linéaire, la commande optimale, l'optimisation stochastique (en) et robuste (en) (présence d'aléas), l'optimisation multicritère (un compromis entre plusieurs objectifs contradictoires est recherché), l'optimisation algébrique (fonctions polynomiales), l'optimisation bi-niveaux, l'optimisation sous contraintes de complémentarité, l'optimisation disjonctive (l'ensemble admissible est une réunion d'ensembles), etc.
+Cette abondance de disciplines provient du fait que pratiquement toute classe de problèmes modélisables peut conduire à un problème d'optimisation, pourvu que l'on y introduise des paramètres à optimiser. Par ailleurs, les conditions d'optimalité de ces problèmes d'optimisation apportent parfois des expressions mathématiques originales qui, par le mécanisme précédent, conduisent à leur tour à de nouveaux problèmes d'optimisation.
+L'optimisation linéaire étudie le cas où la fonction objectif et les contraintes caractérisant l’ensemble
+sont linéaires. C’est une méthode très employée pour établir les programmes des raffineries pétrolières, mais aussi pour déterminer la composition la plus rentable d’un mélange salé, sous contraintes, à partir des prix de marché du moment.
+L'optimisation linéaire en nombres entiers étudie les problèmes d'optimisation linéaire dans lesquels certaines ou toutes les variables sont contraintes de prendre des valeurs entières. Ces problèmes peuvent être résolus par différentes méthodes : séparation et évaluation, méthode des plans sécants.
+L'optimisation quadratique étudie le cas où la fonction objectif est une forme quadratique (avec contraintes linéaires pour )
+L'optimisation non linéaire étudie le cas général dans lequel l’objectif ou les contraintes (ou les deux) contiennent des parties non linéaires, éventuellement non-convexes.
+L'optimisation stochastique (en) étudie le cas dans lequel certaines des contraintes dépendent de variables aléatoires. En optimisation robuste, les aléas sont supposés être situés dans des intervalles autour de positions nominales et on cherche à optimiser le système soumis à de tels aléas, dans le pire des cas.
+La programmation dynamique utilise la propriété qu’une solution se compose nécessairement de sous-solutions optimales (attention : le contraire n'est pas vrai en général) pour décomposer le problème en évitant l’explosion combinatoire. Elle est utilisable lorsque la fonction objectif est une somme de fonctions monotones croissantes dont les arguments sont des inconnues distinctes. C’est la programmation dynamique qui permet par exemple
+aux avionneurs de trouver les plans de décollage optimaux de leurs engins,
+aux ingénieurs de bassin de répartir la production minière entre leurs différents puits,
+aux producteurs d’électricité de planifier la marche des usines hydroélectriques,
+aux media planners de répartir efficacement un budget de publicité entre différents supports.
+Méthodes numériques[modifier | modifier le code]
+Une technique de résolution d’un problème d’optimisation mathématique désigne ici
+la transformation du problème d’origine en un problème équivalent,
+une méthode théorique dont la description permet l’élaboration d’un algorithme numériquement applicable.
+Le choix d’une technique appropriée dépend de
+la nature de la fonction objectif , de sa régularité (continuité, dérivabilité), de propriétés spécifiques (parité, convexité), de la connaissance de voisinages de ses extrema,
+des contraintes caractérisant l'ensemble
+des points admissibles.
+Simplifications[modifier | modifier le code]
+Le problème d’origine est remplacé par un problème équivalent. Par exemple un changement de variables permettant de décomposer le problème en sous-problèmes ou la substitution d’inconnues permettant d’en réduire le nombre.
+La technique du multiplicateur de Lagrange permet de s’affranchir de certaines contraintes ; cette méthode revient en effet à introduire des pénalités croissantes à mesure que le point se rapproche des contraintes. Un algorithme dû à Hugh Everett permet de mettre à jour de façon cohérente les valeurs des multiplicateurs à chaque itération pour garantir la convergence. Celui-ci a également généralisé l'interprétation de ces multiplicateurs pour les appliquer à des fonctions qui ne sont ni continues, ni dérivables. Le lambda exprime un coefficient de pénalité (notion de coût marginal d’une contrainte en économie).
+Recherche des zéros du gradient[modifier | modifier le code]
+De nombreuses méthodes et algorithmes permettent de trouver un zéro de la dérivée de
+(certains sont spécifiques aux fonctions d’une variable) ou de son gradient . Elles s’appliquent valablement dans des situations où les contraintes sur
+restent peu actives.
+Toutes ces méthodes se développent dans le cadre d’un procédé itératif.
+Ces approches peuvent souffrir de quelques défauts :
+La fonction doit être assez régulière (au moins localement) pour être dérivable (ou encore deux fois dérivable pour accéder à la matrice hessienne ou une approximation de celle-ci).
+Il n’est pas toujours possible d’exprimer explicitement le gradient de la fonction objectif.
+Des conditions de départ doivent être fixées avant d’amorcer le processus itératif. Le choix initial peut considérablement influencer le résultat (divergence du procédé itératif). Les méthodes à convergence rapide sont en général plus sensibles de ce point de vue.
+Dans certains cas, la vitesse de convergence peut se révéler désastreuse : les itérations successives cheminent laborieusement (stagnation) le long d’une vallée étroite (fonction de Rosenbrock).
+Si la solution obtenue est bien un extremum (après vérification qu’il ne s’agisse pas d’un point selle), celui-ci peut s’avérer être local.
+Cas particulier : Lorsque
+est polynomiale de degré 2 dans ses arguments (forme quadratique et linéaire) et sans contrainte, annuler le gradient revient à résoudre un système linéaire (cf Catégorie:Analyse numérique matricielle).
+Méthodes analytiques directes[modifier | modifier le code]
+Dans cette catégorie, la plupart des algorithmes généraux s’appliquent aux situations où les contraintes sur
+restent peu actives. Ils se basent sur quelques idées dominantes :
+Déplacements le long d’une ligne portée par un gradient.
+Approximation de
+par une fonction plus simple (par exemple le développement de Taylor d’ordre 2), mise à jour au cours des itérations.
+Divers perfectionnements ont été apportés afin d’éviter :
+les stagnations (par exemple méthode du gradient conjugué en optimisation non linéaire (en))
+le calcul explicite ou trop fréquent de la matrice hessienne (par exemple BFGS)
+Les mêmes défauts que ceux mentionnés dans la catégorie précédente peuvent aussi se présenter ici.
+La Catégorie:Algorithme d'optimisation présente une liste et donne accès à ces méthodes.
+Techniques de l’optimisation combinatoire[modifier | modifier le code]
+Ces techniques concernent des problèmes où une partie (au moins) des variables de l’ensemble
+prennent des valeurs discrètes. On les rencontre dans le cadre de
+la théorie des graphes (chemin optimal dont le problème du voyageur de commerce)
+la théorie des jeux (stratégies performantes)
+la théorie du contrôle, de la régulation et de l’automatique (cf Catégorie:Automatique)
+l’optimisation multidisciplinaire
+Heuristiques et métaheuristiques[modifier | modifier le code]
+Pour résoudre des problèmes difficiles (par exemple ceux qui présentent de nombreux extrema locaux pauvres), des techniques ont été conçues pour déterminer des points qui ne sont pas rigoureusement optimaux, mais qui s’en approchent. Ces méthodes se basent généralement sur des phénomènes physiques, biologiques, socio-psychologiques ou font appel au hasard. Les domaines d’application sont vastes et s’étendent souvent bien au-delà des problèmes pour lesquels elles ont été initialement conçues.
+le recuit simulé
+la méthode de Nelder-Mead avec recuit simulé
+les algorithmes de colonies de fourmis
+les algorithmes génétiques
+les algorithmes évolutionnistes
+les méthodes d’optimisation par essaims particulaires
+La Catégorie:Métaheuristique présente une liste et donne accès à ces méthodes.
+Techniques de l’optimisation multiobjectif[modifier | modifier le code]
+Ces problèmes sortent du cadre strict de la définition donnée plus haut : à un point admissible, la fonction objectif n’associe pas une valeur numérique, mais un point d’un ensemble qui sera le plus souvent associé à un vecteur. L'objectif est alors d'optimiser simultanément l'ensemble des composantes de ce vecteur. On peut aussi voir l’optimisation multiobjectif comme un ensemble de problèmes d'optimisation portant sur les mêmes paramètres, ayant des objectifs éventuellement contradictoires, et que l'on cherche à résoudre au mieux.
+En général, l'espace dans lequel est exprimé le vecteur solution est muni d’un ordre partiel faisant intervenir des critères de dominance (par exemple en rapport avec la frontière de Paréto). La résolution consiste à trouver un point admissible dont l’objectif n’est dominé par aucun autre.
+Utilisations[modifier | modifier le code]
+Les problèmes de la dynamique des corps rigides (en) (surtout la dynamique des corps rigides articulés) ont souvent besoin de techniques d'optimisation mathématique, puisqu'on peut voir la dynamique des corps rigides comme résolution d'une équation différentielle ordinaire sur une variété contrainte ; les contraintes sont diverses contraintes géométriques non linéaires telles que « ces deux points doivent toujours coïncider », ou « ce point doit toujours être sur cette courbe ». Aussi, le problème de calculer les forces de contact peut être achevé en résolvant un problème de complémentarité linéaire, qui peut aussi être vu comme un problème d'optimisation quadratique.
+Plusieurs problèmes de conception peuvent aussi être exprimés sous forme de problèmes d’optimisation. Cette application est appelée l’optimisation de forme. Un sous-ensemble récent et croissant de ce domaine s’appelle l’Optimisation multidisciplinaire qui, bien qu’utile en plusieurs problèmes, a été particulièrement appliquée aux problèmes d'ingénierie et technologie spatiale.
+Un autre domaine qui utilise les techniques d’optimisation est la recherche opérationnelle.
+L’optimisation est un des outils centraux de la microéconomie qui est basée sur le principe de la rationalité et de l’optimisation des comportements, le profit pour les entreprises, et l’utilité pour les consommateurs.
+En mécanique on distingue trois formes d'optimisation[1] :
+l'optimisation de taille ou optimisation paramétrique, qui consiste à optimiser des dimensions (longueur, épaisseur, diamètre…) de la structure mécanique ;
+l'optimisation de forme, qui consiste à optimiser l'enveloppe d'une pièce sans changer la topologie, c'est-à-dire sans ajouter de trous dans la pièce ;
+l'optimisation topologique, qui consiste à faire varier la répartition de matière au sein d'un volume de départ donné.
+Historique[modifier | modifier le code]
+Les premiers problèmes d'optimisation auraient été formulés par Euclide, au IIIe siècle avant notre ère, dans son ouvrage historique Éléments. Trois cent ans plus tard, Héron d'Alexandrie dans Catoptrica énonce le principe du plus court chemin dans le contexte de l'optique[2]. (voir figure)
+Le plus court chemin pour aller de A à C en passant par un point B de la droite est obtenu lorsque l'angle d'incidence est égal à l'angle réfléchi (sur la figure, il s'agit du chemin vert).
+Au XVIIe siècle, l'apparition du calcul différentiel entraîne l'invention de techniques d'optimisation, ou du moins en fait ressentir la nécessité. Newton met au point une méthode itérative permettant de trouver les extrémums locaux d'une fonction en faisant intervenir la notion de dérivée, issue de ses travaux avec Leibniz[3]. Cette nouvelle notion permet de grandes avancées dans l'optimisation de fonctions car le problème est ramené à la recherche des racines de la dérivée.
+Durant le XVIIIe siècle, les travaux des mathématiciens Euler et Lagrange mènent au calcul des variations, une branche de l'analyse fonctionnelle regroupant plusieurs méthodes d'optimisation. Ce dernier invente une technique d'optimisation sous contraintes : les multiplicateurs de Lagrange.
+Le XIXe siècle est marqué par l'intérêt croissant des économistes pour les mathématiques. Ceux-ci mettent en place des modèles économiques qu'il convient d'optimiser, ce qui accélère le développement des mathématiques. Depuis cette période, l'optimisation est devenue un pilier des mathématiques appliquées et le foisonnement des techniques est tel qu'il ne saurait être résumé en quelques lignes.
+On peut tout de même évoquer l'invention de plusieurs méthodes itératives utilisant le gradient de la fonction, ainsi que l'utilisation du terme programmation mathématique, pour désigner des problèmes d'optimisation.
+Historiquement, le premier terme introduit fut celui de programmation linéaire, inventé par George Dantzig vers 1947[4]. Le terme programmation dans ce contexte ne réfère pas à la programmation informatique (bien que les ordinateurs soient largement utilisés de nos jours pour résoudre des programmes mathématiques). Il vient de l’usage du mot programme par les forces armées américaines pour établir des horaires de formation et des choix logistiques, que Dantzig étudiait à l’époque. L’emploi du terme programmation avait également un intérêt pour débloquer des crédits en une époque où la planification devenait une priorité des gouvernements. L'expression programmation mathématique, qui requiert la longue explication ci-dessus, tend à être abandonnée. Par exemple, en juin 2010, la société savante internationale qui représente cette discipline a vu son nom précédent Mathematical Programming Society changé en Mathematical Optimization Society ; pour la même raison, on préfère aujourd'hui utiliser les locutions optimisation linéaire/quadratique/… au lieu de programmation linéaire/quadratique/….
+Annexes[modifier | modifier le code]

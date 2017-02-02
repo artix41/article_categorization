@@ -1,0 +1,147 @@
+Repère de Frenet — Wikipédia
+Repère de Frenet
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En cinématique ou en géométrie différentielle, le repère de Frenet ou repère de Serret-Frenet est un outil d'étude du comportement local des courbes. Il s'agit d'un repère local associé à un point P, décrivant une courbe (C). Son mode de construction est différent selon que l'espace ambiant est de dimension 2 (courbe plane) ou 3 (courbe gauche) ; il est possible également de définir un repère de Frenet en toute dimension, pourvu que la courbe vérifie des conditions différentielles simples.
+Le repère de Frenet, et les formules de Frenet donnant les dérivées des vecteurs de ce repère, permettent de mener de façon systématique des calculs de courbure, de torsion pour les courbes gauches et d'introduire des concepts géométriques associés aux courbes : cercle osculateur, plan osculateur (en), parallélisme des courbes (en)…
+Sommaire
+1 Arc paramétré plan
+1.1 La courbure et les formules de Frenet
+1.2 Cas d'un paramétrage euclidien quelconque
+1.3 Propriétés d'invariance
+1.4 Exemples
+2 Courbe gauche
+2.1 Introduction du repère de Frenet
+2.2 Formules de Frenet
+2.3 La torsion
+3 Applications
+4 Voir aussi
+Arc paramétré plan[modifier | modifier le code]
+Le cadre est le plan euclidien orienté rapporté à un repère orthonormal, les coordonnées étant notées x et y et l'origine O. L'arc est supposé défini par des fonctions de classe , et régulier. Pour simplifier l'étude, il faut utiliser un paramétrage normal M(s)=(x(s),y(s)).
+On se place en un point s particulier. Comme l'arc est paramétré par l'abscisse curviligne, le vecteur dérivé en s est unitaire et tangent à la courbe, il est dirigé dans le sens du mouvement. Il porte le nom de vecteur tangent unitaire à la courbe et est noté traditionnellement T(s).
+Le vecteur normal unitaire N(s) complète T(s) en une base orthonormale directe, appelée base de Frenet. Il s'obtient en effectuant une rotation de
+(quart de tour dans le sens direct) du vecteur T(s). Le repère de Frenet est constitué en prenant en outre pour origine le point M(s). Très souvent on abrège les notations en omettant le paramètre.
+Le trièdre de Frenet est un repère mobile (en) puisque les éléments de ce repère changent selon le point considéré. En physique, il ne faut pas confondre cette notion avec celle de référentiel : puisque les vecteurs de Frenet se déplacent avec le point, s'il s'agissait d'un référentiel alors le vecteur position serait le vecteur nul, et la vitesse serait également nulle.
+Remarque : il arrive qu'on introduise le vecteur N comme , en plongeant le plan euclidien dans un espace de dimension trois, et en notant k un vecteur complétant la base (i,j) du plan en une base orthonormale directe. Les deux façons de procéder sont équivalentes.
+La courbure et les formules de Frenet[modifier | modifier le code]
+Article détaillé : courbure d'un arc.
+Tangente et cercle osculateur en un point P de la courbe C
+Repère de Frenet en deux points de la courbe. Le vecteur δT indique l'évolution du vecteur tangent.
+Comme les vecteurs de la base de Frenet forment en permanence une base orthonormale, leurs dérivées vérifient un certain nombre de relations. Notamment le vecteur dérivé de T est orthogonal à T ; il existe donc pour le point de paramètre s un coefficient γ(s) tel que
+On donne à γ(s) le nom de courbure (algébrique) de la courbe. Son inverse est souvent utilisé en cinématique et porte le nom de rayon de courbure algébrique R.
+On peut également interpréter la courbure comme la vitesse de rotation de la base de Frenet par rapport à une direction fixe (encore une fois, en paramétrage normal) : voir à ce sujet l'article courbure d'un arc.
+On appelle centre de courbure Ω de la courbe au point P le point de coordonnées (0,R) dans le repère de Frenet. Vectoriellement, il est obtenu de la façon suivante (exceptionnellement, on utilise ici les flèches pour noter les vecteurs)
+Le cercle de centre Ω et de rayon |R| est appelé cercle de courbure ou cercle osculateur à la courbe en P. Il approche en général la courbe mieux que ne le fait la tangente. Courbure et cercle de courbure donnent non seulement une idée de la direction dans laquelle la courbe avance (direction de la tangente), mais aussi de sa tendance à tourner de part et d'autre de cette tangente.
+Les formules de Frenet donnant les dérivées des vecteurs de la base de Frenet s'écrivent à l'aide de la courbure
+Cas d'un paramétrage euclidien quelconque[modifier | modifier le code]
+Reprenant un arc paramétré f(t)=(x(t),y(t)) birégulier, sans le supposer donné en paramétrage normal, il suffit pour exploiter les formules de Frenet de faire le lien entre la dérivation par rapport à t ou à s, ce qui se fait au moyen de la vitesse scalaire
+Il est alors possible d'expliciter les vecteurs vitesse et accélération dans la base de Frenet
+On retrouve que le vecteur vitesse est tangentiel, allant dans le sens du mouvement. La première composante du vecteur accélération dans la base de Frenet est appelée accélération tangentielle  ; elle rend compte de la variation de la vitesse scalaire. L'autre composante, accélération normale , est influencée par la géométrie de la courbe :
+est d'autant plus forte que le virage effectué est plus serré, et aussi que la vitesse est élevée.
+Démonstration
+Démonstration de la formule donnant l'accélération
+Il est donc possible d'évaluer le rayon de courbure algébrique R en formant le déterminant de ces deux vecteurs
+On retrouve la proposition VI des Principia de Newton.
+On vérifie l'homogénéité des dimensions :
+Propriétés d'invariance[modifier | modifier le code]
+Il est important de réaliser que le repère de Frenet a été défini à partir d'un paramétrage normal de la courbe. Tous les reparamétrages préservant l'orientation donneront la même base de Frenet, et la même valeur de la courbure. Il y a également invariance par changement du repère fixe de référence.
+En revanche les changements d'orientation de la courbe ou de l'espace ambiant renversent certains signes. Précisément
+si on renverse l'orientation de la courbe, l'abscisse curviligne est changée en son opposé, le vecteur T, le vecteur N également. La courbure algébrique est elle aussi renversée, de sorte que le cercle osculateur reste, lui, inchangé.
+si on renverse l'orientation de l'espace ambiant, l'abscisse curviligne et le vecteur T sont inchangés, mais le vecteur N est changé en son opposé, ainsi que la courbure.
+Exemples[modifier | modifier le code]
+Considérons un mouvement circulaire accéléré
+Le vecteur dérivé s'écrit sous la forme vT avec
+Le vecteur normal unitaire est donc
+Et la courbure vaut γ=1. Le rayon de courbure est constant, égal à 1. Le cercle osculateur coïncide en permanence avec le cercle sur lequel la trajectoire est inscrite. On aurait pu éviter tous ces calculs en utilisant le reparamétrage u=t2.
+Si la courbe est donnée en coordonnées polaires paramétriques r(t),θ(t), les vecteurs vitesse et accélération peuvent être calculés dans la base mobile. On note par un point la dérivation par rapport au paramètre t
+La courbure (inverse à une longueur) est donnée par
+et le rayon de courbure (L) par :
+Courbe gauche[modifier | modifier le code]
+Introduction du repère de Frenet[modifier | modifier le code]
+Repère de Frenet et plan osculateur d'une courbe gauche.
+On considère cette fois une courbe de l'espace euclidien orienté à trois dimensions, paramétrée par l'abscisse curviligne f(s)=(x(s),y(s),z(s)). Le repère de Frenet au point de paramètre s, souvent appelé aussi trièdre de Frenet est défini par trois vecteurs unitaires T, N, B formant une base orthonormale directe, et en prenant encore comme origine le point de paramètre s.
+Le vecteur T, vecteur tangent unitaire, est introduit comme dans le plan.
+On suppose de nouveau l'arc birégulier. Alors le vecteur
+est orthogonal au vecteur tangent unitaire, et non nul. On définit cette fois le vecteur normal unitaire et la courbure simultanément en posant
+On complète enfin en une base orthonormale directe en prenant pour troisième vecteur de base, appelé vecteur binormal
+Cette fois la description géométrique est la suivante : le vecteur T dirige la tangente à la courbe. Le couple (T,N) engendre un plan appelé plan osculateur (en) à la courbe. Ce plan contient la tangente et le cercle osculateur à la courbe. Par la convention de positivité de la courbure, le vecteur N est cette fois dirigé vers le centre de courbure. Les formules donnant vitesse et accélération dans la base de Frenet sont identiques à celles obtenues pour une courbe plane.
+Formules de Frenet[modifier | modifier le code]
+Le vecteur normal unitaire, le vecteur binormal sont par construction des fonctions dérivables de s. En outre, comme T, N, B constituent une base orthonormale pour toute valeur de s les vecteurs dérivés vérifient un certain nombre de relations. Finalement, il existe un coefficient appelé torsion au point de paramètre s tel que les relations suivantes soient vérifiées
+En ajoutant la formule de dérivation de T indiquée au-dessus, on obtient un ensemble de trois formules appelées formules de Frenet pour les courbes gauches. On peut les résumer symboliquement en utilisant une matrice
+L'orthonormalité des vecteurs de la base de Frenet se traduit par l'antisymétrie de la matrice : il s'agit en fait ici d'un résultat général sur les bases mobiles (en).
+La torsion[modifier | modifier le code]
+Le facteur τ a néanmoins une interprétation géométrique : il s'agit de la tendance à s'écarter du plan osculateur (de même que la courbure mesure la tendance à s'écarter de la tangente). La torsion est donc ce qui fait que la courbe est non plane. Il convient de voir dans ces « corrections successives » du comportement de la courbe, courbure et torsion, les termes successifs d'un développement limité au point de paramètre s.
+On peut donner l'expression de la courbure et de la torsion, pour un paramétrage quelconque f(t)
+où le crochet désigne le produit mixte.
+Applications[modifier | modifier le code]
+En cinématique du point, la courbe considérée est la trajectoire parcourue par le point. le vecteur vitesse est toujours colinéaire au vecteur tangent.
+On peut par ailleurs décomposer le vecteur accélération en une composante normale et une composante tangentielle, en le projetant sur le repère de Frenet. La composante normale décrit le changement de direction de la trajectoire (courbure), et le vecteur tangentiel décrit la variation de la norme du vecteur vitesse.
+Articles détaillés : Accélération normale et Accélération tangentielle.
+Voir aussi[modifier | modifier le code]
+Repère de Darboux
+Centre instantané de rotation
+Portail de la géométrie
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Repère_de_Frenet&oldid=106102023 ».
+Catégories : MécaniqueGéométrie différentielle classiqueCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Géométrie/Articles liésProjet:Mathématiques/ArticlesPortail:Sciences/Articles liésPortail:Physique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Deutsch
+English
+עברית
+日本語
+한국어
+Nederlands
+Polski
+Português
+Русский
+Svenska
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 8 août 2014 à 17:35.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

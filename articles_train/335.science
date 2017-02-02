@@ -1,0 +1,190 @@
+Nombre de Reynolds — Wikipédia
+Nombre de Reynolds
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Le nombre de Reynolds
+est un nombre sans dimension utilisé en mécanique des fluides. Il a été mis en évidence en 1883 par Osborne Reynolds. Il caractérise un écoulement, en particulier la nature de son régime (laminaire, transitoire, turbulent).
+Sommaire
+1 Définition
+2 Nombre de Reynolds et régimes d'écoulement
+3 Exemples
+3.1 En médecine
+3.2 En hydromécanique
+4 La similitude des fluides
+5 Références
+6 Voir aussi
+Définition[modifier | modifier le code]
+Le nombre de Reynolds représente le rapport entre les forces d'inertie et les forces visqueuses. Ce nombre sans dimension apparaît naturellement en adimensionnant les équations de Navier-Stokes.
+On le définit de la manière suivante :
+,
+avec :
+- vitesse caractéristique du fluide [m/s]
+- dimension caractéristique [m]
+- viscosité cinématique du fluide [m2/s]
+avec :
+- masse volumique du fluide [kg/m3]
+- viscosité dynamique du fluide [Pa⋅s ou kg/(m⋅s) ou poiseuille Pl]
+d'où la formulation classique :
+.
+Les unités sont indiquées à titre purement indicatif, un nombre sans dimension ayant la même valeur dans tout système d'unités cohérent.
+Le nombre de Reynolds représente également le rapport (qualitatif) du transfert par convection au transfert par diffusion de la quantité de mouvement.
+Il est important de noter que le nombre de Reynolds ne donne qu'un ordre de grandeur. Les taille et vitesse caractéristiques qui interviennent dans la formule sont également des ordres de grandeur. Ainsi, pour un fluide circulant dans un tuyau cylindrique de rayon R, on pourra prendre L = R (rayon) ou L = 2R (diamètre) ou tout autre distance de cet ordre de grandeur selon la convention choisie, mais le nombre de Reynolds correspondant restera du même ordre de grandeur.
+Les essais de maquette de navires ou d'avion sont effectués en analogie de Reynolds, ce qui veut dire qu'aux conditions d'essais le nombre de Reynolds de la maquette est égal ou voisin de celui du modèle réel.
+En magnétohydrodynamique, il est aussi possible de définir un nombre de Reynolds : le nombre de Reynolds magnétique. Cependant, celui-ci n'est pas plus proche du nombre de Reynolds dans sa définition que d'autres nombres adimensionnés utilisés en hydrodynamique pour quantifier l'importance relative de deux effets, comme par exemple le nombre de Grashof.
+Nombre de Reynolds et régimes d'écoulement[modifier | modifier le code]
+En fonction des nombres de Reynolds croissants, on distingue quatre régimes principaux : régime de Stokes, régime laminaire, régime transitoire, régime turbulent.
+L'écoulement de Stokes correspond aux très faibles valeurs du Reynolds (inférieures à 1). Dans ce cas les forces d'inertie liées aux vitesses étant négligeables, les forces visqueuses et les forces de pression s'équilibrent. Cette notion correspond au domaine de la microfluidique. Pour des valeurs plus élevées, les forces d'inertie entrent en jeu : c'est le domaine de la dynamique des fluides.
+On observe d'abord un écoulement laminaire avec des lignes de courant bien identifiées. Dans ce type d'écoulement l'effet de la viscosité s'atténue au fur et à mesure que l'on s'éloigne des parois, les vitesses du fluide tendant à s'homogénéiser. Il est alors souvent commode de considérer que l'approximation du fluide parfait (non visqueux) est suffisante hors d'une zone proche d'une paroi, appelée couche limite. Cette dernière concentre les effets visqueux qui peuvent y être modélisés sous une forme simplifiée.
+À partir d'un certain Reynolds se produit une transition qui fait apparaître des instabilités dues à l'amplification des perturbations. La valeur du Reynolds de transition et la nature des instabilités dépendent essentiellement du type d'écoulement considéré.
+Ensuite, les instabilités augmentent au point de donner naissance à un phénomène chaotique dans lequel il est difficile de voir une organisation : c'est la turbulence.
+Exemples[modifier | modifier le code]
+Dans une conduite à section circulaire, la dimension caractéristique est le diamètre. L'écoulement est laminaire lorsque le nombre de Reynolds est inférieur à une valeur critique pour laquelle se produit une transition assez brutale vers le turbulent. 2 300 est la valeur généralement retenue pour cette transition mais, dans des conditions soignées (paroi particulièrement lisse, stabilité de la vitesse), la transition peut se produire pour une valeur plus élevée. On considère souvent que la transition peut se produire entre 2 000 et 3 000.
+Sur un cylindre à section circulaire placé dans un écoulement, la dimension caractéristique est le diamètre. On obtient un écoulement proprement laminaire qui s'ajuste parfaitement à l'obstacle jusqu'à un nombre de Reynolds de l'ordre de 1 ; un sillage turbulent apparaît à l'aval aux environs de 3 000. Entre les deux, la transition se fait à travers diverses formes de sillages tourbillonnaires.
+Avec une plaque plane située dans le lit de l'écoulement, la dimension caractéristique est la distance d'un point au bord d'attaque. Ce paramètre permet de décrire l'évolution de la couche limite. Si le bord d'attaque présente une arête émoussée, la couche limite est turbulente dès le début. Dans le cas d'un bord effilé, la couche limite est laminaire sur une certaine longueur, puis devient turbulente ensuite. Cette laminarité se maintient jusqu'à une distance qui correspond au Reynolds critique de l'ordre de 5×105 marquant la transition du type d'écoulement, la zone située au-delà développant une couche limite turbulente.
+Lorsque la plaque plane est remplacée par un profil d'aile, la distribution d'épaisseur le long de la corde (et le gradient de pression négative associé) de certains profils dits « laminaires » stabilise la laminarité et permet de reculer le point de transition bien au-delà de 5×105 : des valeurs de 7×106 sont possibles dans des conditions aérologiques non turbulentes (difficiles à obtenir en soufflerie) sur une surface parfaitement lisse (ailes de planeurs).
+Un corps profilé comme un fuselage (Piaggio P180 Avanti) peut avoir une transition reculée jusqu'à 50×106, également dans des conditions idéales.
+En médecine[modifier | modifier le code]
+Les modifications de régime d'écoulement entraînées par la compression d'une artère, en règle générale l'artère humérale, lors de la prise de la pression artérielle sont responsables d'un bruit (« bruits de Korotkoff ») et permettent, par l'auscultation de l'artère en aval de la compression, de connaître la pression systolique -apparition du bruit-, et la pression diastolique -disparition du bruit.
+En hydromécanique[modifier | modifier le code]
+Dans un circuit ou système hydraulique ou oléohydraulique l'écoulement doit toujours être, si possible, laminaire avec, comme seule dissipation d'une partie de l'énergie mécanique, sa transformation en chaleur. Au-delà il est en phase dite critique, puis en régime turbulent qui utilise une partie de l'énergie mécanique pour créer des mouvements de plus en plus désordonnés, le rendement chutant alors considérablement.
+Sur un schéma hydraulique pour calculer les pertes en charges et le rendement d'un système hydraulique, il faut soit ajouter chaque élément pour obtenir le nombre de Reynolds complet, soit utiliser un abaque pour définir les diamètres des tuyauteries, raccords et flexibles hydraulique
+La similitude des fluides[modifier | modifier le code]
+Deux écoulements à géométrie équivalente pour lesquels les nombres de Reynolds sont égaux sont dits semblables. Pour qu'une expérience de modèle réduit d'un écoulement donne bien un écoulement semblable (c'est-à-dire identique à changements d'échelles de temps, de distance et de masse près) à l'écoulement en grandeur nature, il faut que :
+Les valeurs marquées d'une astérisque « * » font référence à l'écoulement dans le modèle réduit et les autres valeurs à l'écoulement en grandeur nature. Ceci est utile pour les expériences sur les modèles réduits en veine liquide ou en tunnel aérodynamique où on récupère les données pour les écoulements en grandeur réelle. Pour les fluides compressibles, les nombres de Mach doivent aussi être égaux pour les deux fluides afin qu'ils puissent être considérés comme équivalents. De manière générale, il faut que les nombres sans dimension caractéristiques de l'écoulement soient identiques dans les deux écoulements.
+Références[modifier | modifier le code]
+(en) Peter Smith Stevens (trad. J. Matricon, D. Morello), Les Formes dans la Nature [« Patterns in Nature »], Seuil, coll. « Science ouverte »,‎ 1976 (réimpr. 1978), 22×27 cm, 240 p. (ISBN 2-02-004813-2), chap. 3 (« Écoulements »), p. 59-68
+offre une présentation simple et détaillée du nombre de Reynolds et du phénomène de tourbillon.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Nombre de Reynolds, sur Wikimedia Commons
+Grandeur sans dimension
+Traînée
+Portance
+Loi de Poiseuille
+Équation de Darcy-Weisbach
+Nombre de Reynolds magnétique
+Profil laminaire
+Analyse dimensionnelle
+Calcul hydraulique
+Système hydraulique
+Oléohydraulique
+Schéma hydraulique
+Hydromécanique
+v · d · m
+Grandeurs sans dimension en mécanique des fluides
+Par ordre alphabétique
+absorption · accélération · Alfven · Archimède · Atwood · Bagnold · Bansen · Bejan · Blake · Bodenstein · Boltzmann · Bond · Boussinesq · Brinkman · Bulygin · Cameron · capillaire · capillarité · Cauchy · cavitation · Clausius · condensation · Cowling · Crocco · Damköhler · Dean · Deborah · Eckert · Ekman · Ellis · Elsasser · Eötvös · Euler · Fedorov · Froude · Galilée · Goucher · Graetz · Grashof · Gukhman · Hatta · Hagen · Hartmann · Hedström · Hersey · Jeffreys · Joule · Karlovitz · Kirpichev · Kirpitcheff · Knudsen · Kutateladze · Laplace · Lewis · Lundquist · Mach · Mach critique · Marangoni · Morton · Newton · Nusselt · Ohnesorge · Péclet · Prandtl · puissance · Rayleigh · Reech · Reynolds (magnétique) · Richardson · Rossby · Rouse · Schiller · Schmidt · Sherwood · Stanton · Stewart · Stokes · Strouhal · Taylor · Thring · Weber · Womersley
+-- Catégorie:Nombre adimensionnel utilisé en mécanique des fluides --
+v · d · m
+Mécanique des fluides
+Fluides
+Fluide caloporteur • Fluide de Stokes • Fluide hydraulique • Fluide incompressible • Fluide parfait • Fluide électrorhéologique
+Écoulements
+Écoulement complexe • Écoulement de Couette • Écoulement de Poiseuille • Écoulement incompressible • Écoulement laminaire • Écoulements torrentiel et fluvial • Écoulement polyphasique
+Équations
+Équations de Navier-Stokes • Théorème de Bernoulli • Équation de Darcy-Weisbach • Équation de Prony • Équation de Rankine-Hugoniot • Équation de Schlichting • Écoulement de Stokes • Équations d'Euler • Équation de continuité • Équations primitives atmosphériques
+Principaux
+nombres sans dimension
+Nombre d'Archimède • Nombre capillaire • Nombre d'Ekman • Nombre d'Ellis • Nombre de Bond • Nombre de Bulygin • Nombre de Cameron • Nombre de Fedorov • Nombre de Froude • Nombre de Galilée • Nombre de Grashof • Nombre de Goucher • Nombre de Hartmann • Nombre de Hedström • Nombre de Hersey • Nombre de Karlovitz • Nombre de Kutateladze • Nombre de Lewis • Nombre de Mach • Nombre d'Ohnesorge • Nombre de Prandtl • Nombre de Rayleigh • Nombre de Reech • Nombre de Reynolds • Nombre de Rossby • Nombre de Rouse • Nombre de Schmidt • Nombre de Stewart • Nombre de Strouhal • Nombre de Taylor • Nombre de Weber
+Portail de la physique
+Portail de la météorologie
+Portail de l’aéronautique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Nombre_de_Reynolds&oldid=106841962 ».
+Catégories : Nombre adimensionnel utilisé en mécanique des fluidesThéorie météorologiqueAérodynamique appliquée à l'avionHydromécaniqueCatégories cachées : Catégorie Commons avec lien local identique sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Météorologie/Articles liésPortail:Aéronautique/Articles liésPortail:Transports/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Башҡортса
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Gaeilge
+Galego
+עברית
+Hrvatski
+Magyar
+Bahasa Indonesia
+Italiano
+日本語
+ქართული
+Қазақша
+한국어
+Lietuvių
+Latviešu
+മലയാളം
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+தமிழ்
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 25 août 2014 à 15:14.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

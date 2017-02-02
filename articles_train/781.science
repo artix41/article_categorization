@@ -1,0 +1,667 @@
+Acide aminé — Wikipédia
+Acide aminé
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Structure générique des acides α-aminés.
+L-citrulline.
+Acide L-pyroglutamique.
+L-ornithine.
+Acide γ-aminobutyrique.
+Acide domoïque.
+Les acides aminés (ou aminoacides) sont une classe de composés chimiques possédant deux groupes fonctionnels : à la fois un groupe carboxyle –COOH et un groupe amine –NH2. Parmi ceux-ci, les acides α-aminés se définissent par le fait que leur groupe amine est lié à l'atome de carbone adjacent au groupe acide carboxylique (le carbone α), ce qui leur confère la structure générique H2N–CHR–COOH, où R représente la chaîne latérale, qui identifie l'acide α-aminé.
+Les acides α-aminés jouent un rôle fondamental en biochimie comme constituants élémentaires des protéines : ils polymérisent en formant des liaisons peptidiques qui aboutissent à de longues chaînes macromoléculaires appelées peptides :
+H2N–CHRa–COOH   +   H2N–CHRb–COOH   →   H2O   +   H2N–CHRa–CO–NH–CHRb–COOH,   où Ra et Rb sont deux chaînes latérales distinctes.
+Les protéines et les enzymes — ces dernières étant des protéines pourvues d'une activité catalytique — sont en premier lieu constituées de chaînes polypeptidiques où des dizaines, voire des centaines, d'acides aminés se suivent linéairement dans un ordre précis, appelé séquence peptidique, qui correspond à la structure primaire de ces macromolécules.
+Les chaînes polypeptidiques se replient sur elles-mêmes selon une conformation tridimensionnelle déterminée par leur séquence en acides aminés, ce qui constitue leur structure secondaire — c'est-à-dire l'organisation locale des acides aminés, typiquement en hélices α ou en feuillets β — et leur structure tertiaire — c'est-à-dire la conformation générale de la protéine. De nombreuses protéines et enzymes sont constituées de plusieurs chaînes polypeptidiques agencées de façon précise les unes par rapport aux autres, ce qui constitue leur structure quaternaire, laquelle peut être sensible au pH, à la température. ou encore à la concentration de divers effecteurs allostériques.
+Toutes les protéines de tous les êtres vivants connus ne sont constituées — à quelques exceptions près — que de 22 acides aminés différents, parfois légèrement modifiés. Parmi eux, 19 acides aminés ne contiennent que quatre éléments chimiques : le carbone, l'hydrogène, l'oxygène et l'azote ; deux acides aminés contiennent en plus un atome de soufre, et un acide aminé assez rare contient un atome de sélénium. La séquence de ces acides aminés dans les protéines est déterminée par les gènes à travers le code génétique, qui établit une relation entre les codons de trois bases nucléiques et chacun de ces acides aminés.
+Outre ces 22 acides aminés codés génétiquement, il existe plusieurs dizaines d'autres acides α-aminés biologiques dont certains dérivent des précédents par modification post-traductionnelle sur les protéines — par exemple la citrulline, qui dérive de l'arginine, et l'acide pyroglutamique, par lactamisation de l'acide glutamique, représentés ci-contre à droite — ou n'entrent pas dans la constitution des protéines — par exemple la DOPA et l'ornithine — et des dizaines d'autres acides aminés ayant leur groupe fonctionnel amine sur les carbones plus éloignés du carboxyle (carbones β, γ, δ, etc.) — par exemple, l'acide γ-aminobutyrique, un neurotransmetteur du système nerveux central, qui est un acide γ-aminé. Certains acides α-aminés peuvent également être toxiques, comme l'acide domoïque, qui est une phycotoxine.
+Sommaire
+1 Les 22 acides aminés protéinogènes
+1.1 Histoire
+1.2 Nature et structure
+1.3 Protéogenèse et code génétique
+2 Propriétés générales
+2.1 Stéréoisomérie
+2.2 Solubilité
+2.3 Propriétés ioniques
+2.4 Absorption de la lumière
+2.5 Propriétés du groupe carboxyle
+2.5.1 Amidation
+2.5.2 Décarboxylation
+2.6 Propriétés du groupement amino
+2.6.1 Acétylation
+2.6.2 Réaction avec les aldéhydes
+2.6.3 Arylation
+2.6.4 Formation d'urées ou de thiourées
+2.6.5 Réactions avec des esters de N-hydroxysuccinimide et de para-nitrophényl
+2.7 Propriétés dues à la présence simultanée du -COOH et du -NH2
+2.7.1 Formation de complexes métalliques (chélation)
+2.7.2 Décarboxylation et désamination oxydatives. Réaction avec la ninhydrine
+3 Présence et fonctions en biochimie
+3.1 Acides aminés standards
+3.2 Acides aminés aromatiques
+4 Métabolisme
+5 Notes et références
+6 Annexes
+6.1 Articles connexes
+6.2 Liens externes
+Les 22 acides aminés protéinogènes[modifier | modifier le code]
+En biochimie, le terme « acide aminé » renvoie toujours implicitement aux acides α-aminés.
+Histoire[modifier | modifier le code]
+Les premiers acides aminés furent découverts au début du XIXe siècle. En 1806, les chimistes Pierre-Jean Robiquet et Louis-Nicolas Vauquelin isolèrent une substance dans l'asperge qui s'avéra être de l'asparagine, le tout premier acide aminé découvert. En 1810, la cystine fut découverte, puis en 1884, la glycine et la leucine.
+Nature et structure[modifier | modifier le code]
+Les acides aminés nécessaires à la synthèse des protéines sont au nombre de 21 chez les eucaryotes et la plupart des procaryotes, et de 22 chez certaines archées méthanogènes. Vingt acides aminés sont directement spécifiés par un codon d'ADN ou d'ARN. Les deux restants — la sélénocystéine et la pyrrolysine — sont insérés lorsqu'un codon STOP particulier est associé à une séquence d'insertion en épingle à cheveux, ou « tige-boucle », appelée élément SECIS et élément PYLIS respectivement.
+Les acides aminés sont souvent distingués d'après les propriétés de leur chaîne latérale :
+les acides aminés apolaires (ou aliphatiques, hydrophobes) tendent à occuper le cœur des protéines, ou offrent des points d'adhérence à leur surface,
+les acides aminés polaires (hydrophiles) tendent à occuper la surface des protéines, et, parmi ceux-ci, certains sont acides, d'autre basiques, d'autres encore sont neutres.
+La planche ci-dessous présente la structure chimique des 22 acides aminés protéinogènes :
+L-Alanine
+L-Arginine
+L-Asparagine
+L-Aspartate
+L-Cystéine
+L-Glutamate
+L-Glutamine
+Glycine
+L-Histidine
+L-Isoleucine
+L-Leucine
+L-Lysine
+L-Méthionine
+L-Phénylalanine
+L-Proline
+L-Pyrrolysine
+L-Sélénocystéine
+L-Sérine
+L-Thréonine
+L-Tryptophane
+L-Tyrosine
+L-Valine
+Structure des 22 acides aminés protéinogènes. La pyrrolysine et la sélénocystéine (ci-dessus grisées) sont spécifiques à certaines protéines :
+- la pyrrolysine ne se rencontre que chez certaines archées méthanogènes,
+- la sélénocystéine est présente même chez les eucaryotes mais a priori dans quelques enzymes de la famille des oxydo-réductases.
+Les 20 autres acides aminés sont en revanche universellement distribués chez tous les êtres vivants connus.
+Le tableau ci-dessous résume les principales données caractéristiques de ces 22 acides aminés (les codes et abréviations indiqués sont ceux spécifiés par le comité de nomenclature commun IUPAC - IUBMB) :
+Code
+Abrév.
+Acide aminé
+Masse
+molaire
+pI
+pKa
+(α-COOH)
+pKb
+(α-NH3)
+pKc
+(chaîne
+latérale)
+Nature
+Codons
+d'ARN messager
+Occurrence
+(% protéines
+humaines)
+Abondance
+×106 molécules
+chez E. coli
+A
+Ala
+Alanine
+89,0940
+6,01
+2,35
+9,87
+-
+Apolaire, aliphatique
+GCU, GCC, GCA, GCG
+7,8
+290
+C
+Cys
+Cystéine
+121,1540
+5,05
+1,92
+10,70
+8,18
+Polaire
+UGU, UGC
+1,9
+52
+D
+Asp
+Acide aspartique
+133,1038
+2,85
+1,99
+9,90
+3,90
+Acide
+GAU, GAC
+5,3
+140
+E
+Glu
+Acide glutamique
+147,1307
+3,15
+2,10
+9,47
+4,07
+Acide
+GAA, GAG
+6,3
+150
+F
+Phe
+Phénylalanine
+165,1918
+5,49
+2,20
+9,31
+-
+Apolaire, aromatique
+UUU, UUC
+3,9
+110
+G
+Gly
+Glycine
+75,0671
+6,06
+2,35
+9,78
+-
+Apolaire, aliphatique
+GGU, GGC, GGA, GGG
+7,2
+350
+H
+His
+Histidine
+155,1563
+7,60
+1,80
+9,33
+6,04
+Basique, aromatique
+CAU, CAC
+2,3
+54
+I
+Ile
+Isoleucine
+131,1746
+6,05
+2,32
+9,76
+-
+Apolaire, aliphatique
+AUU, AUC, AUA
+5,3
+170
+K
+Lys
+Lysine
+146,1893
+9,60
+2,16
+9,06
+10,54
+Basique
+AAA, AAG
+5,9
+200
+L
+Leu
+Leucine
+131,1746
+6,01
+2,33
+9,74
+-
+Apolaire, aliphatique
+UUA, UUG, CUU, CUC, CUA, CUG
+9,1
+260
+M
+Met
+Méthionine
+149,2078
+5,74
+2,13
+9,28
+-
+Apolaire
+AUG
+2,3
+88
+N
+Asn
+Asparagine
+132,1190
+5,41
+2,14
+8,72
+-
+Polaire
+AAU, AAC
+4,3
+140
+O
+Pyl
+Pyrrolysine
+255,3134
+Polaire
+UAG associé à un élément PYLIS
+-
+-
+P
+Pro
+Proline
+115,1319
+6,30
+1,95
+10,64
+-
+Apolaire
+CCU, CCC, CCA, CCG
+5,2
+130
+Q
+Gln
+Glutamine
+146,1459
+5,65
+2,17
+9,13
+-
+Polaire
+CAA, CAG
+4,2
+150
+R
+Arg
+Arginine
+174,2027
+10,76
+1,82
+8,99
+12,48
+Basique
+CGU, CGC, CGA, CGG, AGA, AGG
+5,1
+170
+S
+Ser
+Sérine
+105,0934
+5,68
+2,19
+9,21
+-
+Polaire
+UCU, UCC, UCA, UCG, AGU, AGC
+6,8
+120
+T
+Thr
+Thréonine
+119,1203
+5,60
+2,09
+9,10
+-
+Polaire
+ACU, ACC, ACA, ACG
+5,9
+150
+U
+Sec
+Sélénocystéine
+168,053
+5,73
+Polaire
+UGA associé à un élément SECIS
+-
+-
+V
+Val
+Valine
+117,1478
+6,00
+2,39
+9,74
+-
+Apolaire, aliphatique
+GUU, GUC, GUA, GUG
+6,6
+240
+W
+Trp
+Tryptophane
+204,2284
+5,89
+2,46
+9,41
+-
+Apolaire, aromatique
+UGG (et UGA chez les mycoplasmes)
+1,4
+33
+Y
+Tyr
+Tyrosine
+181,1912
+5,64
+2,20
+9,21
+10,46
+Polaire, aromatique
+UAU, UAC
+3,2
+79
+Protéogenèse et code génétique[modifier | modifier le code]
+Articles détaillés : synthèse des protéines et code génétique.
+La séquence des acides aminés dans les protéines est codée par les gènes constitués de l'ADN présent dans les chromosomes des cellules eucaryotes ou dispersé dans le cytosol des procaryotes — certains virus ont un génome constitué d'ARN. ADN et ARN sont des biomolécules de très grande taille formées par l'enchaînement linéaire de centaines de milliers de nucléotides de quatre types différents :
+l'ADN est un polymère de dAMP, TMP, dGMP et dCMP, symbolisées par les lettres A, T, G et C ;
+l'ARN est constitué d'AMP, UMP, GMP et CMP, symbolisées par les lettres A, U, G et C.
+Ces nucléotides sont eux-mêmes formés respectivement d'une unité 2-désoxy-D-ribose-5-phosphate pour l'ADN et D-ribose-5-phosphate pour l'ARN, à laquelle est fixée une base nucléique : adénine (A), thymine (T), uracile (U), guanine (G) et cytosine (C) selon les cas. L'ADN et l'ARN sont constitués d'une chaîne continue respectivement de désoxyribose-phosphate et de ribose-phosphate sur laquelle sont fixés les quatre types de bases nucléiques, une base sur chaque ribose ou désoxyribose.
+(en) ARN de transfert de phénylalanine de levure, montrant les bases nucléiques modifiées en bleu :
+- m2G : 2-méthylguanosine
+- D : 5,6-dihydro-uridine
+- m22G : N2-diméthylguanosine
+- Cm : O2'-méthylcytdine
+- Gm : O2'-méthylguanosine
+- T : 5-méthyluridine (Ribothymidine)
+- Y : wybutosine (Y-base)
+- Ψ : pseudo-uridine
+- m5C : 5-méthylcytidine
+- m7G : 5-méthylguanosine
+- m1A : 1-méthyladénosine.
+Structure d'un brin d'ADN. Les quatre bases nucléiques C, G, A et T sont liées à une chaîne poly(2-désoxy-D-ribose-5-phosphate).
+Structure d'un brin d'ARN. Les quatre bases nucléiques C, G, A et U sont liées à une chaîne poly(D-ribose-5-phosphate).
+C'est l'ordre dans lequel ces bases sont disposées sur l'ADN ou l'ARN qui contient l'information génétique codant la séquence d'acides aminés dans les protéines, chaque suite de trois bases nucléiques, appelée codon, représentant un acide aminé précis : tout repose sur le fait que ces quatre bases peuvent s'apparier deux à deux, adénine avec thymine (ADN) ou uracile (ARN) et guanine avec cytosine, ce qui fait qu'une séquence nucléotidique donnée peut être dupliquée indéfiniment, théoriquement sans perte d'information, et peut également être lue par des ARN de transfert qui portent chacun un acide aminé donné sur leur extrémité 3' et une séquence nucléotidique déterminée, appelée anticodon, qui se fixe sur le codon de l'ARN messager transcrit depuis l'ADN ou l'ARN du matériel génétique ; ces ARN de transfert, spécifiques chacun à un acide aminé bien précis, réalisent ainsi la traduction de l'information génétique, portée par la succession des codons des ARN messagers, en séquences d'acides aminés dans les protéines.
+Appariement sélectif des paires de bases G≡C et A=U par liaisons hydrogène.
+La synthèse des protéines se déroule en deux temps :
+Les gènes sont transcrits en ARN messager par l’ARN polymérase, ce qui a lieu dans le noyau cellulaire chez les eucaryotes ; cet ARN messager subit un épissage éliminant notamment les introns et qui le finalise comme matrice pour l'étape suivante.
+L'ARN messager est ensuite traduit par les ribosomes dans le cytoplasme chez les eucaryotes, les ARN de transfert apportant les acides aminés en fonction des codons successifs qui se présentent sur l'ARN messager.
+Transcription de l'ADN en ARN messager
+La correspondance entre les codons de l'ARN messager et les acides aminés est appelée code génétique et est quasiment universelle :
+2e base
+U
+C
+A
+G
+1re base
+U
+UUU
+F Phe
+UCU
+S Ser
+UAU
+Y Tyr
+UGU
+C Cys
+U
+3e base
+UUC
+F Phe
+UCC
+S Ser
+UAC
+Y Tyr
+UGC
+C Cys
+C
+UUA
+L Leu
+UCA
+S Ser
+UAA
+STOP Ocre
+UGA
+STOP Opale / U Sec / W Trp
+A
+UUG
+L Leu / START
+UCG
+S Ser
+UAG
+STOP Ambre / O Pyl
+UGG
+W Trp
+G
+C
+CUU
+L Leu
+CCU
+P Pro
+CAU
+H His
+CGU
+R Arg
+U
+CUC
+L Leu
+CCC
+P Pro
+CAC
+H His
+CGC
+R Arg
+C
+CUA
+L Leu
+CCA
+P Pro
+CAA
+Q Gln
+CGA
+R Arg
+A
+CUG
+L Leu
+CCG
+P Pro
+CAG
+Q Gln
+CGG
+R Arg
+G
+A
+AUU
+I Ile
+ACU
+T Thr
+AAU
+N Asn
+AGU
+S Ser
+U
+AUC
+I Ile
+ACC
+T Thr
+AAC
+N Asn
+AGC
+S Ser
+C
+AUA
+I Ile
+ACA
+T Thr
+AAA
+K Lys
+AGA
+R Arg
+A
+AUG
+M Met & START
+ACG
+T Thr
+AAG
+K Lys
+AGG
+R Arg
+G
+G
+GUU
+V Val
+GCU
+A Ala
+GAU
+D Asp
+GGU
+G Gly
+U
+GUC
+V Val
+GCC
+A Ala
+GAC
+D Asp
+GGC
+G Gly
+C
+GUA
+V Val
+GCA
+A Ala
+GAA
+E Glu
+GGA
+G Gly
+A
+GUG
+V Val / START
+GCG
+A Ala
+GAG
+E Glu
+GGG
+G Gly
+G
+Acide aminé apolaire
+Acide aminé polaire
+Acide aminé acide
+Acide aminé basique
+Codon STOP
+Ce tableau présente le code génétique standard, ainsi que quelques codages alternatifs notables en petits caractères, après une barre oblique.
+Propriétés générales[modifier | modifier le code]
+Cette section ne cite pas suffisamment ses sources. Pour l'améliorer, ajouter en note des références vérifiables ou les modèles {{Référence nécessaire}} ou {{Référence souhaitée}} sur les passages nécessitant une source.
+Stéréoisomérie[modifier | modifier le code]
+Ces deux molécules d'alanine sont symétriques par rapport à un plan, ne sont pas identiques car non superposables : ce sont des énantiomères.
+À part la glycine, pour laquelle R = H, les acides aminés existent sous la forme de deux énantiomères, traditionnellement appelés D et L, selon que le groupe (–NH2) se trouve respectivement à droite (D) ou à gauche (L) dans la projection de Fischer, la fonction acide étant figurée en haut de la figure. En l'occurrence, comme l'ordre de priorité des groupements est généralement (selon les règles de Cahn, Ingold et Prelog) :
+L'azote de la fonction amine (–NH2).
+Le carbone de la fonction acide (–COOH).
+Le carbone du radical R (variable), si ce carbone ne porte pas un atome de numéro atomique supérieur à celui de l'oxygène.
+L’hydrogène.
+Les acides aminés L naturels ont le plus souvent une configuration absolue S tandis que les D sont R.
+La cystéine où R = CH2SH est une exception à ce schéma car, dans ce cas, le radical R est prioritaire par rapport à COOH (C-S l'emporte sur C-O). La L-cystéine possède donc un carbone asymétrique R.
+Ces énantiomères sont optiquement actifs : chaque isomère dévie la lumière plane polarisée et est dextrogyre (+) ou lévogyre (-) suivant que la rotation du plan de polarisation de la lumière suit un sens horaire ou antihoraire. Il n'y a pas de corrélation entre le sens de rotation du plan de polarisation (ou pouvoir rotatoire) et la configuration de l'acide aminé : ainsi la L-alanine est lévogyre et se note L(-)-alanine. Par convention, il y a correspondance entre la représentation des oses et celle des acides aminés.
+Certains de ces acides aminés, comme la thréonine et l'isoleucine, possèdent un 2e carbone asymétrique. Dans ce cas, le composé naturel (2S,3R) est appelé L, son énantiomère (2R,3S) est appelé D, les 2 autres stéréoisomères (2S,3S et 2R,3R) dont les positions relatives des substituants sont différentes sont appelés allo.
+Les acides aminés L représentent la quasi-totalité des acides aminés qui se trouvent dans les protéines. En effet, des enzymes dégradent les acides aminés D qui pourraient être fatals, sauf dans certaines régions bien spécifiques (Ex: MP)[1]. Ceux-ci ne sont pas présents dans les protéines. Les acides aminés D se rencontrent dans certaines protéines produites par des organismes exotiques au fond des océans, comme certains mollusques. Ce sont également des composants abondants des parois cellulaires des bactéries.
+Solubilité[modifier | modifier le code]
+Diagramme de Venn des propriétés des acides aminés.
+La plupart des acides aminés subissent facilement la solvatation par les solvants polaires tels que l'eau, ou l'alcool (particulièrement proline et hydroxyproline) dans lesquels ils sont solubles. D'autre part, les acides α-aminés sont solubles, mais à moindre degré dans les solvants non polaires. Il est important de retenir que cette solubilité est largement dépendante des propriétés de la chaîne latérale : la solubilité diminue avec le nombre d'atomes de carbone du radical, mais inversement augmente si ce radical R est porteur de fonctions polaires (NH2, COOH) ou hydrophiles (OH). Exemple de solubilité : La tyrosine, par son noyau aromatique, est peu soluble dans l'eau : 0,04 %. De même, la cystéine, la leucine.
+Propriétés ioniques[modifier | modifier le code]
+Les acides aminés dont les chaînes latérales ne sont pas ionisables sont caractérisés par deux couples acidobasiques dont les pKA sont respectivement de l’ordre de 2 et de 9 :
+NH3+–CHR–COOH + H2O
+NH3+–CHR–COO- + H3O+,
+Ka1 ~ 10-2.
+NH3+–CHR–COO- + H2O
+NH2–CHR–COO- + H3O+,
+Ka2 ~ 10-9.
+Si on applique une différence de potentiel entre deux électrodes plongeant dans une solution d’aminoacide, ce dernier migre vers l’anode ou vers la cathode suivant le pH. Pour un pH particulier, appelé point isoélectrique, il n’y a pas de migration de l’aminoacide car les concentrations en anions et en cations sont identiques :
+[NH3+–CHR–COOH] = [NH2–CHR–COO-]. (1)
+Comme :
+[NH3+–CHR–COOH] = [NH3+–CHR–COO-] * [H3O+] / Ka1,
+et :
+[NH2–CHR–COO-] = [NH3+–CHR–COO-] * Ka2 / [H3O+],
+l'égalité (1) conduit à :
+[H3O+]2 = Ka1 * Ka2,
+soit, en prenant l'opposé du logarithme décimal de l'expression précédente :
+pHi = 1/2 (pKa1 + pKa2).
+L'ion neutre NH3+–CHR–COO- est appelé zwitterion.
+Lorsque R est ionisable, un couple acidobasique supplémentaire apparaît. Un exemple caractéristique est celui de l'acide aspartique :
+NH3+–CH(COOH)–CH2–COOH + H2O
+NH3+–CH(COO-)–CH2–COOH + H3O+,
+Ka1 ~ 10-1,99.
+NH3+–CH(COO-)–CH2–COOH + H2O
+NH3+–CH(COO-)–CH2–COO- + H3O+,
+Ka2 ~ 10-3,90.
+NH3+–CH(COO-)–CH2–COO- + H2O
+NH2–CH(COO-)–CH2–COO- + H3O+,
+Ka3 ~ 10-9,90.
+Le point isoélectrique est obtenu lorsque [NH3+–CH(COOH)–CH2–COOH] = [NH3+–CH(COO-)–CH2–COO-],
+et donc :
+pHi = 1/2(pKa1 + pKa2), soit 2,85.
+Absorption de la lumière[modifier | modifier le code]
+Les solutions d'acides aminés sont incolores. Les acides aminés aromatiques absorbent dans l’UV entre 260 et 280 nm. Au-dessus de 260 nm, la plus grande partie de l'absorption ultraviolette des protéines provient de leur teneur en tryptophane et parfois en tyrosine et en phénylalanine. Ces acides aminés ont une telle absorption à cause de leur groupe aromatique.
+Propriétés du groupe carboxyle[modifier | modifier le code]
+Amidation[modifier | modifier le code]
+Le carboxyle peut former des amides avec les amines.
+Ra–COOH + RbNH2 → Ra–CO–NHRb + H2O
+Asparagine et glutamine sont deux exemples de dérivés physiologiques formés suivant cette réaction. L'amidation peut être obtenue in vitro en utilisant des carbodiimides (Ra–N=C=N–Rb). Le groupe carboxyle est dans une première étape activé par la carbodiimide, puis le dérivé activé ainsi formé réagit avec l'amine.
+Décarboxylation[modifier | modifier le code]
+Chimique ou enzymatique par une décarboxylase. Décarboxylation sous forme de CO2. Les décarboxylases sont spécifiques de chaque acide aminé. La décarboxylation est importante en biochimie car elle aboutit aux « amines biologiques » correspondantes très actives :
+Exemples :
+Histidine décarboxylée en histamine (choc, allergie) ;
+5OH tryptophane décarboxylée en sérotonine (hypertension).
+Propriétés du groupement amino[modifier | modifier le code]
+Ce sont des propriétés générales d'amines primaires. Deux types de groupes aminos peuvent être distingués: les amines en alpha et l'amine en epsilon de la chaîne latérale de la lysine dont le pK est légèrement plus basique (>8). La différence des valeurs de pK peut être utilisée pour des modifications sélectives, en contrôlant le pH du milieu réactionnel.
+Acétylation[modifier | modifier le code]
+L'acétylation des groupements aminos des acides aminés par l'anhydride acétique réduit leurs charges positives et change leurs interactions avec les composants de l'environnement.
+Réaction avec les aldéhydes[modifier | modifier le code]
+Avec le méthanal : il se forme le dérivé hydroxyméthyl de l'acide aminé. Avec les aldéhydes aromatiques, on obtient des bases de Schiff (imine).
+Une réaction du même type peut se produire in vivo entre acides aminés et oligosaccharides (réaction de glycation des protéines avec les résidus d'acides aminés ayant une fonction amine libre). Dans les enchainements saccharidiques, le sucre réducteur terminal existe de façon prédominante sous forme cyclique, avec seulement des traces sous forme ouverte. Une base de Schiff (imine) peut se former avec cette forme minoritaire, consommant ainsi la forme cyclique.
+In vitro, cette réaction avec les saccharides est généralement réalisée en présence de cyanoborohydrure de sodium (NaCNBH3). La base de Schiff (imine) formée est ainsi rapidement réduite par les anions cyanoborohydrure en amine secondaire plus stable.
+Arylation[modifier | modifier le code]
+La substitution d'un atome d'hydrogène de la fonction amine primaire –NH2 par un groupe aryle (aromatique) conduit à une fonction amine secondaire –NH–. Par exemple, avec le dinitrofluorobenzène (réactif de Sanger, ou DNFB) il se forme un dinitrophényl-acide aminé coloré, donc dosable. Il s'agit d'une substitution nucléophile aromatique d'ordre 2, le groupe partant étant l'ion fluorure F–.
+Cette réaction peut également se produire avec un acide aminé incorporé dans une protéine. Les dinitrophényl-acides aminés formés correspondent aux acides aminés dont les groupes NH2 sont libres dans la protéine (extrémité N-terminale de la chaîne polypeptidique).
+Cette réaction a permis en 1953 à Frederick Sanger d'établir la première structure primaire d'une hormone peptidique, l'insuline, ce pour quoi il a obtenu le prix Nobel de chimie en 1958.
+Formation d'urées ou de thiourées[modifier | modifier le code]
+Représentation plane du PITC
+Elle a lieu avec les isocyanates, en particulier le phénylisothiocyanate (PITC).
+Le PITC est particulièrement utilisé pour déterminer l'enchaînement des acides aminés dans les chaînes peptidiques. Le phénylthiocarbamyl-aminoacide (PTC-AA) (thiourée) résultant est un composé caractéristique de chaque acide aminé (nature du groupement R). Il est très stable et détectable dans l'ultraviolet (245 nm).
+Exemple :
+C6H5–N=C=S + H2N-CH2–COOH → C6H5–NH–CS–NH–CH2–COOH.
+Réactions avec des esters de N-hydroxysuccinimide et de para-nitrophényl[modifier | modifier le code]
+Ces réactions permettent de transformer l'amine de l'acide aminé en amide, protégeant l'amine ou y fixant un groupement acyle ayant des propriétés intéressantes (fluorescence...), avec élimination du groupement réactif: Il s'agit d'une transamidification
+Ces réactions sont utilisées pour la synthèse de dérivés d'acides aminés ou de protéines "marquées" sur leurs fonctions amines libres (dérivés fluorescents, biotinylation par la biotine-N-hydroxysuccinimide...); pour la synthèse de supports chromatographiques par greffage d'acides aminés ou de protéines...
+Propriétés dues à la présence simultanée du -COOH et du -NH2[modifier | modifier le code]
+Formation de complexes métalliques (chélation)[modifier | modifier le code]
+Ces chélates stables sont utilisés pour effectuer des réactions chimiques au niveau de R, en synthèse.
+Décarboxylation et désamination oxydatives. Réaction avec la ninhydrine[modifier | modifier le code]
+Certains oxydants attaquent l'acide aminé et réalisent une désamination associée à une décarboxylation. Au cours de la réaction il y a production de CO2, de NH3 et d'un aldéhyde ayant un atome de carbone de moins que l'acide aminé dont il provient.
+Les oxydants sont variés : eau oxygénée, hypochlorite etc. Pour rendre cette réaction quantitative, on peut doser CO2 par alcalimétrie ou NH3 par colorimétrie. L'oxydant le plus utilisé est la ninhydrine (voir la page correspondante).
+Lorsqu'un acide aminé en solution est chauffé en présence de ninhydrine en excès, il conduit à un chromophore avec un maximum d'absorption à 570 nm (bleu-violet). L'intensité de la coloration est à la base d'une méthode quantitative pour doser les acides aminés. La réaction s'effectue en 3 étapes. La 1re correspond à l'action d'une première molécule de ninhydrine sur l'acide aminé conduisant à un iminoacide et à une molécule de ninhydrine réduite. La 2e correspond à l'action d'une 2e molécule de ninhydrine sur l'iminoacide pour donner un aldéhyde. Cette 2e molécule se condense finalement avec la molécule de ninhydrine réduite pour former le chromophore.
+La coloration n'est pas spécifique des acides aminés. Elle se produit avec d'autres composés ayant des groupements aminos libres : glucosamine, peptides et protéines. Cette méthode colorimétrique est une bonne technique pour le dosage d'un acide aminé pur, mais elle est moins valable pour un dosage global car les acides aminés réagissent en donnant des colorations d'intensité variable. Les iminoacides donnent avec la ninhydrine, une coloration jaune.
+Présence et fonctions en biochimie[modifier | modifier le code]
+Acides aminés standards[modifier | modifier le code]
+Articles connexes : Structure primaire et Modification post-traductionnelle.
+La structure primaire d'une protéine est une chaine d'acides aminés.
+Condensation de deux acides aminés pour former un dipeptide.
+Les acides aminés sont les unités de base de construction des protéines. Ils forment soit des chaînes courtes d'acides aminés appelés peptides (si la chaîne est inférieure à 50 acides aminés) soit des chaînes longues appelées polypeptides ou des protéines (si la chaîne est supérieure à cinquante acides aminés). Ces polymères sont linéaires et non ramifiés. Le processus de fabrication des protéines est appelé traduction et se fait par ajouts successifs d'acides aminés à une protéine en cours de construction par une chaîne de ribozymes que l'on appelle un ribosome[2]. L'ordre dans lequel les acides aminés sont ajoutés est déterminé par le code génétique de l'ARNm qui est une copie d'ARN de l'un des gènes de l'organisme. Vingt acides aminés sont codés par le code génétique standard et sont appelés acides aminés standards.
+Acides aminés aromatiques[modifier | modifier le code]
+Les acides aminés aromatiques forment une famille d’acides aminés ayant des propriétés physico-chimiques particulières (ils sont notamment les seuls capables d’absorber dans l’ultraviolet entre 250 et 280 nm : bande R). Dans les protéines, on retrouve trois acides aminés aromatiques (la phénylalanine, la tyrosine et le tryptophane), mais il en existe d’autres, comme la thyroxine. La phénylalanine absorbe dans l'ultraviolet à 257 nm, la tyrosine à 275 nm, le maximum d'absorption étant pour le tryptophane, à 280 nm.
+L’histidine, bien qu’elle comporte un cycle aromatique (un cycle imidazole), n’est pas incluse dans cette famille. En effet elle ne partage pas ses propriétés spécifiques car elle n'absorbe que faiblement à 280 nm, réagit différemment dans la réaction xanthoprotéique (les trois précédents sont nitrés sur le cycle benzénique) et ne possède pas les mêmes précurseurs biologiques (le chorismate pour les trois précédents, le cycle pyrimidine de l'ATP et un ribose pour l'histidine).
+Par convention, cette famille regroupe donc uniquement les acides aminés à cycle benzénique.
+Métabolisme[modifier | modifier le code]
+Acides aminés essentiels
+chez l'homme :
+- histidine,
+- isoleucine,
+- leucine,
+- lysine,
+- méthionine,
+- phénylalanine,
+- thréonine,
+- tryptophane,
+- valine.
+Les acides aminés qui ne peuvent être synthétisés par l'organisme et doivent être apportés par l'alimentation sont appelés acides aminés essentiels. Chez l'homme, ils sont au nombre de neuf (encadré ci-contre). Les douze autres sont produits in vivo par le métabolisme des cellules — l'un d'entre eux, contenant un atome de sélénium, est même « finalisé » alors qu'il est déjà sur son ARN de transfert. Certains régimes alimentaires ne permettent pas de synthétiser en quantité suffisante tous les acides aminés non essentiels, et certains d'entre eux doivent alors également être apportés par l'alimentation[3] : l'arginine[4], la cystéine, le glutamate, la glycine et la tyrosine.
+Article détaillé : Acide aminé essentiel.
+Lorsque les protéines se décomposent dans l'intestin, les acides aminés sont « libérés » du « collier ». Ainsi, ils peuvent pénétrer la paroi intestinale. Ils se mélangent par la suite à d'autres acides aminés (notamment ceux provenant des protéines corporelles dégradées) pour former le pool des acides aminés. De ce pool sont choisis les acides aminés dont l'organisme a besoin pour synthétiser les protéines qui lui manquent. Une fois choisis, ils sont liés dans le ribosome des cellules qui, eux, déterminent l'ordre des différentes "perles" à partir de l'information détenue dans l'ADN.
+D'autres acides aminés du pool sont aussi utilisés pour produire du glucose et des acides gras. Le processus par lequel l'organisme synthétise du glucose à partir des acides aminés s'appelle la néoglucogenèse. Il consiste tout d'abord en la suppression du groupe amino (la partie NH2) grâce à une réaction impliquant de la pyridoxine (vitamine B6). Le groupe amino, qui est maintenant sous forme d'ammoniac (NH3) est tout de suite transformé en urée par le foie car cette substance est toxique. Le foie transforme ensuite le restant du groupe (appelé chaîne carbonée) en glucose ou en acides gras (qui sont les éléments de bases des lipides), ou aucun. Cela dépend si la chaîne carbonée est glucogénique (transformable en glucose) ou cétogénique (transformable en acides gras). Cette capacité est importante dans les cas d'une glycémie trop faible.

@@ -1,0 +1,103 @@
+Fonction hyperbolique — Wikipédia
+Fonction hyperbolique
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Trigonométrie hyperbolique)
+Aller à :					navigation, 					rechercher
+Une demi-droite passant par l'origine intersecte l'hyperbole d'équation x2 – y2 = 1 au point (cosha, sinha), où a est le double de l'aire algébrique de la surface délimitée par la demi-droite, l'hyperbole et l'axe des x. Voir aussi une version animée de ce schéma, avec une comparaison avec les fonctions trigonométriques.
+En mathématiques, on appelle fonctions hyperboliques les fonctions cosinus hyperbolique, sinus hyperbolique et tangente hyperbolique. Les noms « sinus », « cosinus » et « tangente » proviennent de leur ressemblance avec les fonctions trigonométriques (dites « circulaires ») et le terme « hyperbolique » provient de leur relation avec l'hyperbole d'équation x2 – y2 = 1.
+Elles sont utilisées en analyse pour le calcul intégral, la résolution des équations différentielles mais aussi en géométrie hyperbolique.
+Sommaire
+1 Histoire
+2 Définitions
+2.1 Sinus hyperbolique
+2.2 Cosinus hyperbolique
+2.3 Tangente hyperbolique
+2.4 Cotangente hyperbolique
+2.5 Sécante hyperbolique
+2.6 Cosécante hyperbolique
+2.7 Tableau de variations
+3 Propriétés
+4 Applications réciproques
+4.1 Argument sinus hyperbolique
+4.2 Argument cosinus hyperbolique
+4.3 Argument tangente hyperbolique
+4.4 Argument cotangente hyperbolique
+4.5 Démonstrations de ces résultats
+5 Notes et références
+6 Voir aussi
+6.1 Article connexe
+6.2 Lien externe
+Histoire[modifier | modifier le code]
+Les fonctions hyperboliques ont été inventées par le jésuite Vincenzo Riccati dans les années 1760 alors qu'il cherchait, avec son collègue Saladini, à calculer l'aire sous l'hyperbole d'équation x2 – y2 = 1. La méthode géométrique qu'il employa alors était très similaire à celle que l'on peut utiliser pour calculer l'aire d'un cercle d'équation x2 + y2 = 1. Le calcul de l'aire du cercle fait intervenir les fonctions trigonométriques classiques que Riccati nommait cosinus et sinus circulaires. Par analogie, il appela alors les fonctions qu'il venait de créer cosinus et sinus hyperboliques. Ce fut un choix heureux, car cette ressemblance ne s'arrête pas à la méthode de calcul d'aire mais aussi à toutes les formules trigonométriques. Cependant, pourtant au fait du travail de son contemporain Euler, il n'utilisa pas la fonction exponentielle pour les définir mais seulement des considérations géométriques. L'autre grand mathématicien ayant étudié les fonctions hyperboliques est Jean-Henri Lambert, qui en fit une étude complète en 1770. Cette quasi simultanéité fait que l'on attribue parfois à Lambert la paternité des fonctions hyperboliques, bien que les écrits de Riccati lui soient antérieurs de quelques années.
+Définitions[modifier | modifier le code]
+Les fonctions hyperboliques sont analogues aux fonctions trigonométriques ou fonctions circulaires. Ce sont les fonctions :
+Sinus hyperbolique
+Cosinus hyperbolique
+Tangente hyperbolique
+Sinus hyperbolique[modifier | modifier le code]
+Article détaillé : Sinus hyperbolique.
+Définie comme étant la partie impaire de la fonction exponentielle, c’est-à-dire par :
+sinh — ou sh — est une bijection de classe C∞ de ℝ dans ℝ strictement croissante, et impaire. Sa dérivée est le cosinus hyperbolique. Son application réciproque est l'argument sinus hyperbolique.
+Cosinus hyperbolique[modifier | modifier le code]
+Article détaillé : Cosinus hyperbolique.
+Définie comme étant la partie paire de la fonction exponentielle, c’est-à-dire par :
+cosh — ou ch — est une application de ℝ dans [1, +∞[ strictement croissante sur ℝ+, et paire. cosh est de classe C∞ sur ℝ et sa dérivée est le sinus hyperbolique. Sa restriction à ℝ+ est une bijection à valeurs dans [1, +∞[ dont l'application réciproque est l'argument cosinus hyperbolique.
+Tangente hyperbolique[modifier | modifier le code]
+Article détaillé : Tangente hyperbolique.
+Définie par :
+th — ou tanh — est une bijection de classe C∞ de ℝ dans ]–1, 1[ strictement croissante, et impaire. Sa dérivée est . Son application réciproque est l'argument tangente hyperbolique.
+Cotangente hyperbolique[modifier | modifier le code]
+Définie par :
+coth est une bijection de classe C∞ de ℝ* dans ]–∞, –1[∪]1, +∞[. Sa dérivée est . Son application réciproque est l'argument cotangente hyperbolique.
+Sécante hyperbolique[modifier | modifier le code]
+Définie par :
+Cosécante hyperbolique[modifier | modifier le code]
+Définie par :
+Tableau de variations[modifier | modifier le code]
+Les fonctions sh, th, et coth sont impaires et la fonction ch est paire, on peut donc réduire leur domaine d'étude à [0, +∞[.
+x
+0
++
+ch x
+1
++
+sh x
+0
++
+th x
+0
++1
+coth x
++
++1
+Propriétés[modifier | modifier le code]
+Par construction,
+On en déduit la formule suivante :
+De même que les points (cosx, sinx) décrivent un cercle lorsque x parcourt ℝ, les points (chx, shx) décrivent une branche d'hyperbole.
+Le paramètre x ne peut pas être interprété comme un angle, ni comme une longueur d'arc ; les fonctions hyperboliques sont périodiques, mais de période imaginaire pure.
+La fonction ch admet 1 pour minimum, en 0.
+La fonction sh est impaire et ainsi sh(0) = 0.
+Les fonctions hyperboliques satisfont à des relations, très ressemblantes aux identités trigonométriques. En fait, la règle d'Osborn[1] dit que l'on peut convertir n'importe quelle identité trigonométrique en une identité hyperbolique en la développant complètement à l'aide de puissances entières de sinus et cosinus, changeant sin en sh et cos en ch, et remplaçant le signe de chaque terme qui contient un produit de deux sinus en son opposé.
+Cela nous permet d'obtenir par exemple, les formules d'addition et de soustraction :
+et des « formules d'angle moitié » (la deuxième étant valide si x est positif ou nul) :
+De ces expressions on déduit les formules suivantes relatives à la tangente hyperbolique :
+On a de même :
+La fonction cosinus hyperbolique est convexe. Elle intervient dans la définition de la chaînette, laquelle correspond à la forme que prend un câble suspendu à ses extrémités et soumis à son propre poids.
+Puisque la fonction exponentielle peut être prolongée à l'ensemble des nombres complexes, nous pouvons aussi étendre les définitions des fonctions hyperboliques à l'ensemble des nombres complexes. Les fonctions sinus hyperbolique et cosinus hyperbolique sont alors holomorphes et même entières.
+Des formules d'Euler, on obtient immédiatement:
+Ou encore:
+D'autres relations entre fonctions hyperboliques et circulaires sont données par la fonction de Gudermann ou Gudermannien.
+Applications réciproques[modifier | modifier le code]
+Argument sinus hyperbolique[modifier | modifier le code]
+Argument sinus hyperbolique
+argsh — ou argsinh[2] — est l'application réciproque de sh. C'est une bijection de ℝ dans ℝ, impaire et strictement croissante. argsh est dérivable sur ℝ et sa dérivée est . argsh admet la forme logarithmique suivante :
+Argument cosinus hyperbolique[modifier | modifier le code]
+Argument cosinus hyperbolique
+argch[3] est l'application réciproque de la restriction de ch dans ℝ+. C'est une bijection de [1, +∞[ dans ℝ+, strictement croissante. argch est dérivable sur ]1, +∞[ et sa dérivée est . argch admet une forme logarithmique :
+Argument tangente hyperbolique[modifier | modifier le code]
+Argument tangente hyperbolique
+argth — ou argtanh[4] — est l'application réciproque de th. C'est une bijection de ]–1, 1[ dans ℝ, impaire, strictement croissante. argth est dérivable sur ]–1, 1[ et sa dérivée est . argth admet une forme logarithmique :
+Argument cotangente hyperbolique[modifier | modifier le code]
+argcoth[5] est l'application réciproque de coth. C'est une bijection de ]–∞, –1[∪]1, +∞[ dans ℝ*. argcoth est dérivable sur ]–∞, –1[∪]1, +∞[ et sa dérivée est . argcoth admet une forme logarithmique :
+Démonstrations de ces résultats[modifier | modifier le code]
+Le calcul explicite de ces formes logarithmiques revient à résoudre, par exemple, l'équation  ; posant , on est amené à l'équation du second degré , dont la seule solution positive est , mais il peut être plus simple de remarquer que, puisque , on aura .

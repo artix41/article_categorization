@@ -1,0 +1,47 @@
+Mécanique newtonienne — Wikipédia
+Mécanique newtonienne
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La mécanique newtonienne est une branche de la physique. Depuis les travaux d'Albert Einstein, elle est souvent qualifiée de mécanique classique.
+Théorie
+Grands domaines
+Concepts
+Mécanique newtonienne
+Cinématique - Lois du mouvement de Newton - Mécanique analytique - Mécanique des fluides - Mécanique du point - Mécanique du solide - Transformations de Galilée - Mécanique des milieux continus
+Dimension - Espace - Temps - Longueur - Vitesse - Vitesse relative - Masse - Force - Énergie - Moment angulaire - Couple - Loi de conservation - Oscillateur harmonique - Onde - Travail - Puissance
+Sommaire
+1 Histoire
+2 Classification
+3 Notes et références
+3.1 Source
+4 Voir aussi
+4.1 Articles connexes
+4.2 Lien externe
+Histoire[modifier | modifier le code]
+Avant de devenir une science à part entière, la mécanique a longtemps été une section des mathématiques.
+De nombreux mathématiciens y ont apporté une contribution souvent décisive, parmi eux des grands noms tels que Euler, Cauchy, Lagrange... Jusqu'à la fin du XVIIIe siècle, la mécanique a été le domaine applicatif naturel des mathématiques, le domaine dans lequel on pouvait tenter de faire entrer les faits expérimentaux dans le cadre rigoureux des mathématiques. Inversement, certains problèmes de mécanique ont donné naissance ou orienté l'intérêt des mathématiciens vers des théories telles que la géométrie ou les équations différentielles.
+Courbes balistiques de Tartaglia (1606), selon la théorie de l'impetus, une version améliorée de la physique d'Aristote
+Courbe balistique parabolique suivant les équations dorénavant acceptées en mécanique classique
+Historiquement, la mécanique statique a été le premier domaine étudié par les savants. De l'antiquité jusqu'au Moyen Âge des notions fondamentales telles que « l'équilibre », le célèbre « bras de levier » d'Archimède ou encore la notion beaucoup plus abstraite de « force » ont été étudiées. Plus tard, l'intérêt s'est porté vers la « dynamique », c'est-à-dire les phénomènes qui régissent le mouvement des solides, domaine dans lequel Galilée, pour la chute des corps, et Newton dans ses célèbres Philosophiae Naturalis Principia Mathematica ont apporté des contributions décisives.
+Toutefois, jusqu'à la fin du XVIIIe siècle, la mécanique se séparait en deux branches : la mécanique du point d'un côté et la mécanique des fluides de l'autre. Dans le cas de la mécanique du point, les objets étudiés sont supposés implicitement indéformables et le mouvement du solide complet peut alors être décrit par le mouvement d'un de ces points remarquables : le « centre de gravité ». Il a fallu attendre le courant du XIXe siècle pour voir apparaître les premières théories des solides déformables qui allaient permettre de réunir la mécanique des solides et la mécanique des fluides dans un même cadre, celui de la mécanique des milieux continus.
+Parallèlement, un autre formalisme prenait naissance pour expliciter le mouvement des solides : Lagrange, dans un premier temps, puis Hamilton ont développé une approche dite analytique qui prenait comme axiome non plus l'équilibre des forces et de l'accélération mais l'existence d'un potentiel d'énergie minimal auquel obéit tout mouvement de solide. On peut démontrer que cette approche est rigoureusement équivalente à l'approche newtonienne ; elle permet toutefois de développer un formalisme radicalement différent. Les principaux domaines de la physique ayant recours à la « mécanique analytique » sont la physique du solide et le mouvement de mécanismes complexes tels que les bras de robot.
+Au début du XXe siècle, Einstein a développé sa célèbre théorie de la relativité et a mis en évidence les insuffisances de la mécanique telle qu'elle a été décrite par Newton. Toutefois, il s'avère que cette dernière constitue un cas particulier de la théorie de la relativité dès lors que l'on considère des vitesses relativement faibles. On a alors défini la mécanique newtonienne, ou mécanique classique, comme le domaine de la physique qui décrit les mouvements des corps à des vitesses faibles devant celle de la lumière (soit très inférieures à 300 000 km/s environ). Dans ce domaine, tout en étant plus simple, elle fournit des résultats très voisins de ceux de la relativité restreinte, adaptée quant à elle à tous les domaines de vitesse.
+Conceptuellement, la mécanique a connu trois révolutions :
+la prise de conscience que c'est l'accélération qui est proportionnelle à la force (on pensait initialement que c'était la vitesse) ;
+la prise de conscience que le mouvement des planètes est régi par le même phénomène que la chute des corps, la fameuse attraction universelle de Newton ;
+la modélisation de la gravitation non plus par une force, mais par une déformation de l'espace avec la théorie de la relativité générale d'Einstein.
+Au XXIe siècle, les développements en mécanique classique se trouvent entre autres en théorie du chaos[1].
+Classification[modifier | modifier le code]
+La mécanique newtonienne est classiquement découpée en domaines selon le point de vue adopté :
+découpage selon les propriétés étudiées :
+cinématique : étude du mouvement indépendamment de sa cause (notions mouvement, de trajectoire, de vitesse, d'accélération),
+statique : étude des corps à l'équilibre (immobiles ou en mouvement rectiligne uniforme dans un référentiel galiléen, notions de forces, de moments),
+dynamique : étude des causes du mouvement (relations entre la cinématique et les forces et moments, notion d'énergies cinétique, mécanique),
+mécanique ondulatoire : étude des ondes mécaniques ;
+découpage selon l'objet étudié :
+mécanique du point,
+mécanique du solide indéformable, et déformable
+mécanique des milieux continus,
+résistance des matériaux, mécanique du solide déformable,
+mécanique des fluides.
+On distingue ainsi la cinématique du point de la cinématique du solide, …

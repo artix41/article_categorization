@@ -1,0 +1,230 @@
+Équation aux dérivées partielles — Wikipédia
+Équation aux dérivées partielles
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En mathématiques, plus précisément en calcul différentiel, une équation aux dérivées partielles (EDP) est une équation dont les solutions sont les fonctions inconnues vérifiant certaines conditions concernant leurs dérivées partielles.
+Une EDP a souvent de très nombreuses solutions, les conditions étant moins strictes que dans le cas d'une équation différentielle ordinaire (à une seule variable) ; les problèmes incluent souvent des conditions aux limites qui restreignent l'ensemble des solutions. Alors que les ensembles de solutions d'une équation différentielle ordinaire sont paramétrées par un ou plusieurs paramètres correspondant aux conditions supplémentaires, dans le cas des EDP les conditions aux limites se présentent plutôt sous la forme de fonction ; intuitivement cela signifie que l'ensemble des solutions est beaucoup plus grand, ce qui est vrai dans la quasi-totalité des problèmes.
+Les EDP sont omniprésentes dans les sciences, puisqu'elles apparaissent aussi bien en dynamique des structures, mécanique des fluides que dans les théories de la gravitation de l'électromagnétisme (équations de Maxwell) ou des mathématiques financières (équation de Black-Scholes). Elles sont primordiales dans des domaines tels que la simulation aéronautique, la synthèse d'images, ou la prévision météorologique. Enfin, les équations les plus importantes de la relativité générale et de la mécanique quantique sont également des EDP.
+L'un des sept problèmes du prix du millénaire consiste à montrer l'existence et la continuité par rapport aux données initiales d'un système d'EDP appelé équations de Navier-Stokes. Ces équations servent énormément en mécanique des fluides.
+Sommaire
+1 Introduction
+2 Notations
+2.1 En mathématiques
+2.2 En physique
+3 Exemples d'EDP
+3.1 Équation de Laplace
+3.2 Équation de propagation (ou équation des cordes vibrantes)
+3.3 Équation de Fourier
+3.4 Équation de Poisson
+3.5 Équation d'advection
+3.6 Équation d'onde de Langmuir
+3.7 Équation de Stokes
+3.8 Équation de Schrödinger
+3.9 Équation de Klein-Gordon
+4 Méthodes de résolution numérique
+5 Articles connexes
+6 Bibliographie
+Introduction[modifier | modifier le code]
+Une équation différentielle très simple est :
+où u est une fonction inconnue de x et y. Cette relation implique que les valeurs u(x,y) sont indépendantes de x. Les solutions de cette équation sont :
+où f est une fonction de y.
+L'équation ordinaire :
+a pour solution :
+avec c une valeur constante (indépendante de x). Ces deux exemples illustrent qu'en général, la solution d'une équation différentielle ordinaire met en jeu une constante arbitraire, tandis que les équations aux dérivées partielles mettent en jeu des fonctions arbitraires. Une solution des équations aux dérivées partielles n'est généralement pas unique.
+Trois catégories importantes d'EDP sont les équations aux dérivées partielles linéaires et homogènes du second-ordre dites elliptiques (en), hyperboliques et paraboliques (en).
+Notations[modifier | modifier le code]
+En mathématiques[modifier | modifier le code]
+Pour les EDP, par souci de simplification, il est d'usage d'écrire u la fonction inconnue et Dxu (notation française) ou ux (notation anglo-saxonne, plus répandue) sa dérivée partielle par rapport à x, soit avec les notations habituelles du calcul différentiel :
+et pour les dérivées partielles secondes :
+En physique[modifier | modifier le code]
+Les opérateurs de l'analyse vectorielle sont utilisés.
+Résumé d'analyse vectorielle
+L'opérateur nabla
+représente le jeu des dérivées partielles d'ordre 1
+Pour une fonction vectorielle , en lui appliquant le produit scalaire par , on définit la divergence:
+En utilisant le produit vectoriel, on définit le rotationnel
+Pour une fonction qui à tout point de l'espace associe un nombre scalaire, , on définit le gradient:
+On utilise également l'opérateur Laplacien, analogue de la divergence pour la dérivation d'ordre 2
+voir aussi l'opérateur Laplacien vectoriel
+Exemples d'EDP[modifier | modifier le code]
+Équation de Laplace[modifier | modifier le code]
+L'équation de Laplace est une EDP de base très importante :
+où u(x,y,z) désigne la fonction inconnue.
+En notation d'analyse vectorielle, en utilisant l'opérateur laplacien
+Soit , fonction d'onde.
+Équation de propagation (ou équation des cordes vibrantes)[modifier | modifier le code]
+Cette EDP, appelée équation de propagation des ondes, décrit les phénomènes de propagation des ondes sonores et des ondes électromagnétiques (dont la lumière). La fonction d'onde inconnue est notée u(x,y,z,t), t représentant le temps :
+Le nombre c représente la célérité ou vitesse de propagation de l'onde u.
+En notation d'analyse vectorielle, en utilisant l'opérateur laplacien  :
+Soit , fonction d'onde.
+Équation d'onde, forme générale
+Onde
+Partie longitudinale
+Partie transversale
+Propagation
+Dissipation
+Voir aussi onde sismique, onde mécanique, Son, Onde sur une corde vibrante, Onde stationnaire dans un tuyau, Equations de Maxwell
+Équation de Fourier[modifier | modifier le code]
+Cette EDP est également appelée équation de la chaleur. La fonction u représente la température. La dérivée d'ordre 1 par rapport au temps traduit l'irréversibilité du phénomène. Le nombre
+est appelé diffusivité thermique du milieu.
+En notation d'analyse vectorielle, en utilisant l'opérateur laplacien  :
+Soit , fonction d'onde de température.
+Équation de Poisson[modifier | modifier le code]
+En utilisant l'opérateur laplacien  :
+Soient , fonction d'onde et
+densité de charge.
+Équation d'advection[modifier | modifier le code]
+L'équation d'advection en dimension 1 d'espace et de temps décrit le transport de la quantité
+par la vitesse d'advection
+Elle a pour solution
+pour
+où
+est la condition initiale à .
+L'équation d'advection joue un rôle fondamental dans l'étude des méthodes de résolution numérique par la méthode des volumes finis des systèmes hyperboliques de lois de conservation comme par exemple les équations d'Euler en dynamique des fluides compressibles.
+Équation d'onde de Langmuir[modifier | modifier le code]
+Soient , fonction d'onde et
+densité de charge.
+Cette équation décrit des ondes électriques longitudinales en propagation dans un plasma.
+Équation de Stokes[modifier | modifier le code]
+L'équation de Stokes, qui décrit l'écoulement d'un fluide newtonien incompressible en régime permanent et à faible nombre de Reynolds, s'écrit :
+,
+Notations :
+est la vitesse du fluide ;
+est la pression dans le fluide ;
+est la masse volumique du fluide
+est la viscosité dynamique du fluide;
+est une force massique s'exerçant dans le fluide (par exemple : pesanteur) ;
+et
+sont respectivement les opérateurs différentiels gradient et laplacien.
+Équation de Schrödinger[modifier | modifier le code]
+Article détaillé : Équation de Schrödinger.
+Notations :
+, fonction d'onde.
+constante de Planck réduite.
+m est la masse de la particule.
+nombre complexe imaginaire tel que .
+V opérateur potentiel (représente le potentiel en tout point), en général électrique.
+est le laplacien.
+Équation de Klein-Gordon[modifier | modifier le code]
+Article détaillé : Équation de Klein-Gordon.
+Soit , fonction d'onde.
+Notations :
+, fonction d'onde.
+constante de Planck réduite.
+m est la masse de la particule.
+c est la vitesse de la lumière
+est le laplacien.
+Méthodes de résolution numérique[modifier | modifier le code]
+Les méthodes numériques les plus couramment utilisées pour la résolution des équations aux dérivées partielles sont :
+Méthode des différences finies
+Méthode des éléments finis
+Méthode des volumes finis
+Méthode des caractéristiques
+Articles connexes[modifier | modifier le code]
+Théorème de Frobenius
+Théorème de Cauchy-Kowalevski
+Opérateur différentiel
+Opérateur pseudo-différentiel
+Transformée de Laplace
+Principe fondamental d'Ehrenpreis
+Bibliographie[modifier | modifier le code]
+Lars Hörmander ; The analysis of linear partial differential operators, Springer-Verlag (1983 à 1985). Traité de référence en quatre volumes, par le récipiendaire de la médaille Fields 1962. Le volume I est sous-titré : Distribution theory and Fourier analysis, et le volume II : Differential operators with constant coefficients. Les volumes III et IV sont consacrés à la théorie moderne via les opérateurs pseudo-différentiels.
+Lars Hörmander ; Linear Partial Differential Operators, Springer-Verlag (1963). Le livre qui contient les travaux pour lesquels l'auteur a obtenu la médaille Fields en 1962.
+Yu.V. Egorov & M.A. Shubin ; Foundations of the Classical Theory of Partial Differential Equations, Springer-Verlag (2ème édition - 1998), ISBN 3-540-63825-3. Premier volume d'une série qui en comporte neuf, écrits pour l' Encylopaedia of Mathematical Sciences. Les volumes suivants sont consacrés à la théorie moderne via les opérateurs pseudo-différentiels.
+Michael E. Taylor ; Partial Differential Equations - Basic Theory, Series: Texts in Applied Mathematics, Vol. 23, Springer-Verlag (2ème édition - 1999), ISBN 0-387-94654-3. Premier volume d'une série qui en comporte trois. Les volumes suivants sont consacrés à la théorie moderne via les opérateurs pseudo-différentiels.
+Vladimir I. Arnold ; Lectures on partial differential equations, Springer-Verlag (2004), ISBN 3-540-40448-1.
+v · d · m
+Analyse vectorielle
+Objets d'étude
+Champ de vecteurs • Champ scalaire • Équation aux dérivées partielles (de Laplace et de Poisson)
+Opérateurs
+Nabla • Gradient • Rotationnel • Divergence • Laplacien scalaire • Bilaplacien • Laplacien vectoriel • D'alembertien • Advection
+Théorèmes
+de Green • de Stokes • de Helmholtz • de flux-divergence • du gradient • du rotationnel
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Équation_aux_dérivées_partielles&oldid=108475339 ».
+Catégories : Équation aux dérivées partiellesAnalyse fonctionnelleCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Bosanski
+Català
+Čeština
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+فارسی
+Suomi
+עברית
+हिन्दी
+Հայերեն
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Bahasa Melayu
+Nederlands
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Српски / srpski
+Svenska
+Tagalog
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 24 octobre 2014 à 08:53.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

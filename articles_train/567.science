@@ -1,0 +1,1311 @@
+Loi normale — Wikipédia
+Loi normale
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Vous lisez un « bon article ».
+Ne doit pas être confondu avec : des théorèmes et lemmes de Gauss parfois appelés lois de Gauss, les autres lois de Laplace ou les autres sens du terme Normal.
+Loi normale
+Densité de probabilité (ou fonction de masse)
+La courbe rouge représente la fonction ,
+densité de probabilité de la loi normale centrée réduite.
+Fonction de répartition
+La courbe rouge représente la fonction ,
+fonction de répartition de la loi normale centrée réduite.
+Paramètres
+, moyenne (nombre réel)
+, variance (nombre réel)
+Support
+Densité de probabilité (fonction de masse)
+Fonction de répartition
+Espérance
+Médiane
+Mode
+Variance
+Asymétrie
+0
+Kurtosis normalisé
+0
+Entropie
+Fonction génératrice des moments
+Fonction caractéristique
+modifier
+En théorie des probabilités et en statistique, la loi normale est l'une des lois de probabilité les plus adaptées pour modéliser des phénomènes naturels issus de plusieurs événements aléatoires. Elle est en lien avec de nombreux objets mathématiques dont le mouvement brownien, le bruit blanc gaussien ou d'autres lois de probabilité. Elle est également appelée loi gaussienne, loi de Gauss ou loi de Laplace-Gauss des noms de Laplace (1749-1827) et Gauss (1777-1855), deux mathématiciens, astronomes et physiciens qui l'ont étudiée.
+Plus formellement, c'est une loi de probabilité absolument continue qui dépend de deux paramètres : son espérance, un nombre réel noté , et son écart type, un nombre réel positif noté . La densité de probabilité de la loi normale est donnée par :
+La courbe de cette densité est appelée courbe de Gauss ou courbe en cloche, entre autres. C'est la représentation la plus connue de cette loi. La loi normale de moyenne nulle et d'écart type unitaire est appelée loi normale centrée réduite ou loi normale standard.
+Lorsqu'une variable aléatoire
+suit la loi normale, elle est dite gaussienne ou normale et il est habituel d'utiliser la notation avec la variance  :
+Parmi les lois de probabilité, elle prend une place particulière grâce au théorème central limite. En effet, elle correspond au comportement, sous certaines conditions, d'une suite d'expériences aléatoires similaires et indépendantes lorsque le nombre d'expériences est très élevé. Grâce à cette propriété, la loi normale permet d'approcher d'autres lois et ainsi de modéliser de nombreuses études scientifiques comme des mesures d'erreurs ou des tests statistiques, en utilisant par exemple les tables de la loi normale.
+Sommaire
+1 Définition et explications informelles
+2 Histoire
+3 Loi normale centrée réduite
+3.1 Définition par la fonction de densité
+3.2 Définition par la fonction de répartition
+3.3 Définition par la fonction caractéristique
+3.4 Définition par la fonction génératrice des moments
+4 Loi normale générale
+4.1 Définition
+4.2 Remarques et propriétés immédiates
+5 Propriétés
+5.1 Autres caractérisations
+5.2 Moments
+5.3 Théorèmes de convergence
+5.4 Stabilités et famille normale
+5.5 Entropie et quantité d'information
+5.6 Approximation de la fonction de répartition
+5.7 Tables numériques et calculs
+6 Liens avec d'autres lois
+6.1 Lois usuelles
+6.2 Lois normales généralisées
+6.3 Constructions à partir de la loi normale
+7 Utilisations
+7.1 Balistique
+7.2 Quotient intellectuel
+7.3 Anatomie humaine
+7.4 Traitement du signal et mesures physiques
+7.5 Économie
+7.6 Mathématiques
+8 Tests et estimations
+8.1 Critères de normalité
+8.2 Tests de normalité
+8.3 Estimations des paramètres
+9 Simulation
+9.1 Approches à éviter
+9.2 Approches efficientes
+10 Mise en œuvre dans des logiciels de calcul
+11 Hommages
+12 Notes et références
+12.1 Notes
+12.2 Références
+13 Voir aussi
+13.1 Bibliographie
+13.2 Articles connexes
+13.3 Liens externes
+Définition et explications informelles[modifier | modifier le code]
+Les diagrammes en bâtons représentent les lois discrètes de la somme de 1, 2, 3, 4 ou 5 dés. La courbe noire est la densité de la loi normale vue comme limite des diagrammes en bâtons.
+Les lois de probabilité permettent de décrire de manière théorique le caractère aléatoire d'une expérience qui est considérée comme aléatoire. La loi normale en est un cas particulier. La manière historique de l'aborder est par approximation[1].
+Lorsque le résultat de cette expérience aléatoire est à valeurs discrètes, par exemple la somme du lancer de deux dés vaut 2, 3… ou 12, une loi dite discrète modélise l'expérience. Les probabilités d'apparition de chaque valeur peuvent être représentées par des diagrammes en bâtons ou histogrammes (voir la figure ci-contre). Une question que se sont posés plusieurs scientifiques (voir Histoire de la loi normale) est d'effectuer un grand nombre d'expériences et de s'intéresser au comportement de la loi de probabilité associée. Il apparaît que les fréquences d'apparition des valeurs possibles sont de plus en plus « lissées »[2] (voir la figure ci-contre). Il existe une certaine répartition autour d'une valeur centrale, ces probabilités peuvent être alors représentées par la fameuse courbe de Gauss ou courbe en cloche obtenue par calcul ou par expérience[3]. Cette courbe est la densité de probabilité de la loi normale, c'est-à-dire que l'aire sous la courbe vaut 1. Le rôle central de cette loi de probabilité vient du fait qu'elle est la limite d'un grand nombre de lois de probabilité, comme le montre le théorème central limite.
+Une autre manière visuelle de voir apparaître cette courbe est par la planche de Galton. Des billes sont lâchées en haut de la planche, à chaque étage elles ont deux possibilités : aller à droite ou aller à gauche, après plusieurs étages elles ont donc eu plusieurs choix aléatoires. Lorsque le nombre de billes est grand, la répartition des billes suivant leur position est approximativement une loi normale.
+Ainsi, des mesures faites sur une population de grande taille donnent des valeurs qui sont distribuées selon une loi similaire à la loi normale, par exemple la taille des femmes adultes d'une population donnée[4] ou le poids des graines de pois de senteur[3].
+La loi normale est alors devenue une loi de probabilité dont plusieurs définitions équivalentes existent : par la densité de probabilité (la courbe de Gauss), la fonction de répartition, la fonction caractéristique, etc. La loi normale dépend de deux paramètres : le premier donne la moyenne, c'est-à-dire la valeur « centrale » des valeurs possibles[5] (par exemple, c'est la valeur 7 pour la somme des deux dés) ; le deuxième paramètre renseigne sur la dispersion des valeurs autour de cette valeur centrale[5], plus ce paramètre est faible plus les valeurs proches de la valeur centrale auront une forte probabilité d'apparaître. Beaucoup de grandeurs physiques peuvent être représentées par ces deux paramètres[6].
+Lors de l'étude statistique, une valeur observée peut être considérée comme aléatoire et de loi normale. La moyenne de la loi normale est alors considérée comme la valeur « réelle » de la valeur observée, la dispersion de la loi renseigne alors sur l'« erreur » d'observation[7]. C'est-à-dire qu'il est possible de calculer[7] une valeur approchée de la probabilité qu'une variable suivant une loi normale soit dans un intervalle
+autour de la moyenne . Il s'agit de pouvoir obtenir une approximation de la valeur de l'expérience observée en considérant les erreurs dues aux instruments de mesures ou autres[2].
+Histoire[modifier | modifier le code]
+Le théorème central limite, Pierre-Simon de Laplace, Essai sur la philosophie des probabilités,‎ 1840, 6e éd., p. 90
+Articles détaillés : Histoire de la loi normale et Histoire des probabilités.
+Une des premières apparitions de la loi normale est due[a 1] à Abraham de Moivre en 1733 en approfondissant l'étude de la factorielle
+lors de l'étude d'un jeu de pile ou face. Il publie The Doctrine of Chances en 1756 dans lequel la loi normale apparaît comme limite d'une loi binomiale, ce qui sera à l'origine du théorème central limite[a 2]. En 1777, Pierre-Simon de Laplace reprend ces travaux et obtient une bonne approximation de l'erreur entre cette loi normale et la loi binomiale grâce à la fonction gamma d'Euler[a 1]. Dans son ouvrage publié en 1781, Laplace donne une première table de cette loi. En 1809, Carl Friedrich Gauss assimile des erreurs d'observation en astronomie à la courbe, dite des erreurs, de la densité de la loi normale[a 2].
+La loi normale est alors pleinement définie lorsque le premier théorème central limite, alors appelé théorème de Laplace, est énoncé par Laplace en 1812[a 1]. Son nom « normale » est donné par Henri Poincaré à la fin du XIXe siècle[8]. La loi porte également les noms de loi de Gauss ou loi de Laplace-Gauss[9] en fonction de l'attribution de la paternité de la création de cette loi ; la dénomination de deuxième loi de Laplace est également utilisée occasionnellement[10].
+La loi normale est toujours une loi étudiée. Par exemple, de nouvelles tables numériques sont données en 1948 par Egon Sharpe Pearson, en 1952 par le National Bureau of Standards et en 1958 par Greenwood et Hartley[11].
+Loi normale centrée réduite[modifier | modifier le code]
+La loi normale est une loi de probabilité (c'est-à-dire une mesure
+de masse totale unitaire[a 3]) unidimensionnelle (c'est-à-dire à support réel ). C'est une loi absolument continue, c'est-à-dire que la mesure est absolument continue par rapport à la mesure de Lebesgue. Autrement dit, il existe une densité de probabilité, souvent notée
+pour la loi normale centrée réduite, telle que : . Elle est généralisée par la loi normale multidimensionnelle. La loi normale centrée réduite est appelée loi normale standard[12].
+Définition par la fonction de densité[modifier | modifier le code]
+Fonction de densité de la loi normale centrée réduite (dite courbe de Gauss ou courbe en cloche).
+Articles détaillés : Fonction gaussienne et Intégrale de Gauss.
+La loi normale centrée réduite est la loi de probabilité absolument continue dont la densité de probabilité est donnée par la fonction
+définie par[13] :
+, pour tout .
+Cette loi est dite centrée puisque son moment d'ordre 1 (espérance) vaut 0 et réduite puisque son moment d'ordre 2 (écart type ou variance) vaut 1. Le graphe de la densité
+est appelé fonction gaussienne, courbe de Gauss ou courbe en cloche. Cette loi est notée grâce à la première lettre de « normal », une variable aléatoire X qui suit la loi normale centrée réduite est notée :
+.
+Quelques remarques et propriétés immédiates (voir également les propriétés ci-dessous) :
+le calcul de l'intégrale de Gauss permet de démontrer que la fonction
+est une densité de probabilité par la formule :  ;
+la densité
+est continue, uniformément bornée et paire[14] ;
+le maximum de la fonction
+est atteint en la moyenne 0 et vaut[14]  ;
+la fonction vérifie :  ;
+la densité
+est infiniment dérivable, un raisonnement par récurrence permet d'obtenir la formule[15] :
+où
+est le n-ième polynôme d'Hermite ;
+la densité possède[a 3] deux points d'inflexion en 1 et en -1. Ce sont les points en lesquels la dérivée seconde
+s'annule et change de signe. Les deux points se situent approximativement aux trois cinquièmes de la hauteur totale.
+Définition par la fonction de répartition[modifier | modifier le code]
+Fonction de répartition de la loi normale centrée réduite.
+Historiquement, la loi normale est apparue comme loi limite dans le théorème central limite à l'aide de sa fonction de répartition. Il est alors utile de définir la loi par cette fonction. La loi normale est la loi de probabilité dont la fonction de répartition est donnée par la fonction
+définie par[16] :
+, pour tout .
+Elle donne la probabilité qu'une variable aléatoire de loi normale appartienne à un intervalle  : . (pour plus de détails de calcul, voir la section Tables numériques et calculs)
+Quelques remarques et propriétés immédiates :
+il n'existe pas d'expression analytique de la fonction de répartition , c'est-à-dire qu'elle ne s'exprime pas à partir de fonctions usuelles mais devient elle-même une fonction usuelle[17] ;
+elle s'exprime en fonction de la fonction d'erreur grâce aux deux formules équivalentes suivantes[a 4] :
+,
+;
+elle est dérivable une infinité de fois et vérifie . L'écriture équivalente
+permet de définir l'intégrale de Lebesgue-Stieltjes par rapport à la loi normale ;
+elle est absolument continue et strictement croissante, c'est donc une bijection[a 5] de
+dans . Sa réciproque
+existe et s'appelle la fonction probit. Cette fonction est utilisée pour le modèle Probit (en)[18] ;
+par parité de la loi,
+et ainsi . Ceci montre[a 5] que la médiane de la loi normale centrée réduite est 0 ;
+par définition de la fonction de répartition,
+lorsque la variable aléatoire X suit la loi normale centrée réduite, . Pour obtenir les valeurs de cette probabilité, il faut approcher cette fonction par d'autres fonctions usuelles et il existe des tables de valeurs (voir la section Table de la loi normale ci-dessous).
+Définition par la fonction caractéristique[modifier | modifier le code]
+Fonction caractéristique et fonction génératrice des moments de la loi normale centrée réduite.
+La caractérisation de la loi normale par sa fonction caractéristique présente un intérêt pour démontrer certaines propriétés telles que la stabilité par la somme (voir la section ci-dessous) ou le théorème central limite. La loi normale est la loi de probabilité dont la fonction caractéristique est donnée par
+définie par[19],[20] :
+, pour tout .
+Cette fonction caractéristique est égale, à une constante près, à la densité de probabilité de la loi. On dit que la fonction caractéristique d'une gaussienne est gaussienne[a 3]. Elle possède de « bonnes » propriétés et permet de démontrer certaines propriétés, comme la stabilité par addition ou le théorème central limite.
+Quelques remarques et propriétés immédiates :
+la fonction caractéristique de la loi normale peut s'obtenir à partir de la fonction de densité par les égalités[16] :
+;
+si une variable aléatoire X suit la loi normale centrée réduite de fonction caractéristique
+définie ci-dessus, alors[21] la transformation linéaire
+admet pour fonction caractéristique : . C'est donc une variable aléatoire de loi normale de moyenne
+et de variance .
+Définition par la fonction génératrice des moments[modifier | modifier le code]
+Une autre manière de définir la loi normale est par l'utilisation de sa fonction génératrice des moments. C'est la loi de probabilité dont la fonction génératrice des moments est donnée par
+définie par[22] :
+, pour tout .
+Son intérêt est de pouvoir calculer les moments de la loi normale[23] (voir la section Moments ci-dessous).
+Quelques remarques et propriétés immédiates :
+la fonction génératrice des moments de la loi normale peut s'obtenir à partir de la fonction de densité[22] :
+;
+si une variable aléatoire X suit la loi normale centrée réduite de fonction génératrice des moments
+définie ci-dessus, alors la transformation linéaire
+admet pour fonction génératrice des moments : . C'est donc une variable aléatoire de loi normale[23] de moyenne
+et de variance .
+Loi normale générale[modifier | modifier le code]
+Définition[modifier | modifier le code]
+Plus généralement que la loi normale centrée réduite, la loi normale (non centrée et non réduite) est la loi de probabilité absolument continue dont l'un des quatre points suivants est vérifié :
+la densité de probabilité est donnée par la fonction
+définie par[13] :
+, pour tout  ;
+la fonction de répartition est donnée par
+définie par :
+, pour tout  ;
+la fonction caractéristique est donnée par
+définie par[19] :
+, pour tout  ;
+la fonction génératrice des moments est donnée par
+définie par[24] :
+, pour tout ,
+où
+et .
+Pour le cas où , les fonctions de densité et de répartition ne sont pas définies. Ce cas correspond à un comportement dégénéré de la loi normale, parfois appelée la loi normale impropre[19]. C'est alors la mesure de Dirac au point .
+La valeur
+est la moyenne de la loi et
+est l'écart type alors que
+en est la variance. Cette loi est notée grâce à la première lettre de « normal », une variable aléatoire X qui suit la loi normale centrée réduite est notée de deux manières différentes suivant les auteurs[25],[12] :
+ou .
+La deuxième notation a l'intérêt de pouvoir noter la stabilité par addition de manière simple[a 5], elle sera utilisée dans cet article.
+Remarques et propriétés immédiates[modifier | modifier le code]
+Si la variable aléatoire X suit une loi normale centrée réduite , alors la variable aléatoire
+suit une loi normale
+de moyenne
+et de variance . Réciproquement, si Y suit une loi normale , alors
+suit une loi normale centrée réduite[1]. Dit autrement, toute loi normale peut s'obtenir par translation (shifting en anglais) et par dilatation (scaling en anglais) d'une loi centrée réduite.
+Cette première propriété permet d'obtenir la formule très utile[26] :
+.
+Il est alors possible de déduire les propriétés de la loi normale à partir de celles de la loi normale centrée réduite, et vice versa. La variable
+est parfois[27] appelée la « standardisation » de Y ou variable Y centrée réduite.
+La densité
+est symétrique par rapport à [14].
+Le maximum de la fonction
+est atteint en
+et vaut[14] .
+La décroissance de la densité à droite et à gauche de
+est surexponentielle[14].
+Puisque la loi normale est une loi de probabilité absolument continue, l'événement
+est négligeable, c'est-à-dire que presque sûrement une variable aléatoire de loi normale X n'est jamais égale à une valeur fixée . Ceci se traduit mathématiquement par : .
+La largeur à mi-hauteur permet de donner une valeur d'amplitude de la loi. C'est la largeur de la courbe à une hauteur qui vaut la moitié de la hauteur totale. Cette largeur à mi-hauteur de la loi normale est proportionnelle à l'écart type[a 6] : . Le facteur 2 est issu de la propriété de symétrie de la loi normale.
+La densité possède[a 3] deux points d'inflexion en
+et en . Ce sont les points en lesquels la dérivée seconde
+s'annule et change de signe. Les deux points se situent approximativement aux trois cinquièmes de la hauteur totale.
+La loi normale est une loi de la famille exponentielle, c'est-à-dire que sa densité s'écrit sous la forme :
+ou, de manière équivalente, sous la forme[28]
+avec , ,
+et .
+Propriétés[modifier | modifier le code]
+Autres caractérisations[modifier | modifier le code]
+En addition de la densité de probabilité, de la fonction de répartition, de la fonction caractéristique et de la fonction génératrice des moments, il existe d'autres caractérisations de la loi normale.
+Caractérisation due à Georges Darmois (1951) et Sergeï Bernstein (1954)[a 2] : si deux variables aléatoires
+et
+sont indépendantes et de même loi et si les deux variables aléatoires
+et
+sont également indépendantes, alors la loi commune
+et
+est la loi normale.
+Caractérisation due à Charles Stein (1972)[a 3] : la loi normale est l'unique loi de probabilité (mesure de probabilité)
+telle que, pour toute fonction
+de classe C¹ (c'est-à-dire dérivable et de dérivée continue) :
+Moments[modifier | modifier le code]
+Le moment d'ordre un est appelé la moyenne () et est donné en paramètre dans la loi normale . Le deuxième paramètre est son écart type (), c'est-à-dire la racine carrée de la variance qui est par définition la moyenne des carrés des écarts à la moyenne. Il est alors également intéressant d'obtenir les moments centrés de la loi normale, ils sont donnés par[23] :
+pour
+et X une variable aléatoire de loi normale . Le moment centré d'ordre n peut s'obtenir comme une fonction des moments d'ordre inférieur à n, ainsi le moment d'ordre n peut s'obtenir à partir des moments d'ordre inférieur à n-1 et du moment centré d'ordre n. Les premiers moments de la loi normale sont alors[29] :
+;
+;
+.
+Calcul direct
+Grâce à la symétrie autour de
+de la fonction de densité de la loi normale, les moments centrés d'ordre impair sont tous nuls[23].
+Les moments d'ordre pairs de la loi normale centrée réduite
+peuvent s'obtenir à partir de la relation de récurrence
+qui provient de l'intégration par parties suivante, pour  :
+.
+S'en déduit la formule des moments centrés réduits[16]
+ainsi que la formule des moments centrés : .
+Par la fonction génératrice des moments
+Les moments centrés
+d'une loi peuvent s'obtenir à partir de la fonction génératrice des moments centrés. Pour la loi , le changement de variable
+permet d'obtenir les formules[23] :
+d'une part et
+d'autre part.
+Densités de probabilités de lois de kurtosis différents. Loi de Laplace en rouge, loi sécante hyperbolique en orange, loi logistique en vert, loi normale en noir, loi du cosinus surélevé en cyan, loi du demi-cercle en bleu et loi uniforme en violet.
+Par l'identification des coefficients des deux séries, cela implique que les moments d'ordre impair sont nuls, , et donne une formule pour les moments d'ordre pair : .
+Asymétrie et aplatissement
+L'asymétrie , le kurtosis
+et le kurtosis normalisé
+s'obtiennent à partir des formules des moments[30] :
+;
+;
+.
+La loi normale sert de point de référence pour la comparaison des épaisseurs de traîne : si une loi possède un kurtosis normalisé , alors la loi possède une traîne plus épaisse que la loi normale et est dite leptokurtique ; à l'inverse si , la loi possède une traîne moins épaisse que la loi normale et est appelée platikurtique ; les lois de kurtosis normalisé nul possèdent une traîne comparable à la loi normale et sont dites mésokurtiques.
+Cumulants
+La fonction caractéristique permet d'obtenir la fonction génératrice des cumulants par la formule
+et permet d'obtenir les cumulants[31] : ,
+et
+pour .
+Théorèmes de convergence[modifier | modifier le code]
+Lorsque le nombre
+de variables augmente, la densité de probabilité de la variable
+(centrée réduite) se rapproche de la courbe en cloche de la loi normale.
+Articles détaillés : Théorème central limite et Théorème de De Moivre-Laplace.
+La première version du théorème central limite, appelé alors théorème de De Moivre-Laplace, a été énoncée dans le cas de variables aléatoires de loi de Bernoulli. De manière plus générale, si
+sont des variables indépendantes et identiquement distribuées de variance finie et si la somme est notée , alors[17] pour tout
+où
+est la densité de probabilité de la loi normale centrée réduite.
+Ce théorème signifie que tout ce qui peut être considéré comme étant la somme d'une grande quantité de petites valeurs aléatoires indépendantes est approximativement de loi normale[4]. Ceci montre le caractère central de la loi normale en théorie des probabilités. Un énoncé physique de ce théorème peut être formulé[32] :
+Si une grandeur physique subit l'influence d'un nombre important de facteurs indépendants et si l'influence de chaque facteur pris séparément est petite, alors la distribution de cette grandeur est une distribution gaussienne.
+Ce théorème central limite est valide pour toute loi de probabilité initiale des variables iid
+ayant un écart type fini, il permet d'obtenir de bonne approximation de la somme , par exemple[33] :
+si les variables
+sont de loi de Bernoulli : , alors
+suit approximativement une loi normale . Cette approximation est satisfaisante[34] dans le cas où  ;
+si les variables
+sont de loi du χ² : , alors
+suit approximativement une loi normale  ;
+si les variables
+sont de loi exponentielle : , alors
+suit approximativement une loi normale .
+Il existe des versions plus générales de ce théorème, par exemple en considérant des variables aléatoires indépendantes, pas de même loi mais ayant des variances petites comparées à celle de leur moyenne[35]. Un théorème de Gnedenko (de) et Kolmogorov (1954) stipule qu'une variable aléatoire normale est la somme d'un grand nombre de variables aléatoires indépendantes petites dont aucune n'est prépondérante :
+Théorème — Considérons une suite de variables aléatoires
+dont chacune est la somme d'un nombre fini de variables aléatoires
+avec . Pour tout , introduisons la variable aléatoire tronquée :
+et supposons
+(en probabilité) ;
+Pour tout ,
+et .
+Alors la loi de
+converge vers la loi normale .
+Stabilités et famille normale[modifier | modifier le code]
+Stabilité par additivité (propriété de conservation[a 2])
+La loi normale est stable par additivité, c'est-à-dire que la somme de deux variables aléatoires indépendantes de lois normales est elle-même une variable aléatoire de loi normale. Plus explicitement : si ,
+et
+et
+sont indépendantes, alors la variable aléatoire
+suit la loi normale .
+Cette propriété se généralise pour n variables, c'est-à-dire si pour tout , les variables aléatoires
+suivent la loi normale
+et sont indépendantes, alors[36] la somme
+suit la loi normale .
+Cette propriété se démontre directement au moyen des fonctions caractéristiques. La densité de probabilité de la somme de deux variables indépendante de loi normale est donnée par la convolution des deux densités. Ceci se traduit par les formules de convolution de fonctions[19] ou de convolution de mesures normales[37] que l'on note  :
+et .
+Il ne faut pas confondre avec la loi dont la densité est la somme de densité de loi normale (voir la section Constructions à partir de la loi normale ci-dessous).
+Différentes densités de probabilité de lois stables dont la loi normale est un cas particulier : la courbe noire est la courbe en cloche.
+Famille normale
+L'ensemble de fonctions
+forme la famille dite famille normale. La famille normale est également le nom de l'ensemble des lois normales[37] . La famille de fonctions est fermée pour la convolution au sens où[38] : la fonction
+est la seule qui engendre la famille ; si la convolution de deux densités est dans la famille alors les deux fonctions sont dans la famille ; et toute densité convolée un nombre suffisamment grand de fois et convenablement renormalisée est proche d'une fonction de la famille normale. Les trois théorèmes suivants donnent plus de précisions mathématiques.
+Théorème[38] : si pour une fonction de densité
+de moyenne 0 et d'écart type 1, il existe
+et
+satisfaisant : , alors
+est la densité de la loi normale centrée réduite.
+Théorème de Lévy-Cramér (1936) (conjecturé par Paul Lévy en 1935)[39],[a 2] : si deux fonctions de densités
+et
+vérifient : , alors
+et
+avec
+et . Autrement dit, si la somme de deux variables aléatoires indépendantes est normale, alors les deux variables sont de lois normales.
+Théorème[39] : si
+est la densité commune de n variables aléatoires indépendantes de moyenne 0 et d'écart type 1, alors la convolée n fois de
+converge uniformément en x :
+(ce théorème est équivalent au théorème central limite). Il ne faut pas confondre cette famille normale avec la famille normale de fonctions holomorphes.
+Stabilité par linéarité
+La loi normale est stable par linéarité : si
+et
+sont deux réels et , alors[40] la variable aléatoire
+suit la loi normale .
+Grâce aux stabilités par addition et par linéarité, la loi normale est un cas particulier de loi stable[a 7] avec pour paramètre de stabilité . Parmi les lois stables, la loi normale, la loi de Lévy () et la loi de Cauchy () sont les seules à posséder une expression analytique de leur fonction de densité.
+Stabilité par moyenne
+La loi normale est stable par moyennisation, c'est-à-dire si
+sont des variables aléatoires indépendantes suivant respectivement les lois normales , alors la moyenne
+suit la loi
+Convexité
+La loi normale n'est pas convexe[41], c'est-à-dire que l'inégalité
+pour tous boréliens A et B n'est pas vérifiée lorsque la mesure
+est normale. Cependant, lorsque l'on normalise cette inégalité avec l'inverse de la fonction de répartition de la loi normale centrée réduite, on obtient le théorème (inégalité de Ehrhard) :
+Pour la mesure normale standard , pour tous intervalles A et B et pour tout ,
+Entropie et quantité d'information[modifier | modifier le code]
+Entropie de Shannon
+L'entropie de Shannon d'une loi de probabilité absolument continue de densité donnée par
+permet de mesurer une quantité d'information et est définie par :
+Dans l'ensemble des lois absolument continues de variance
+fixée, les lois normales
+sont d'entropie maximum[a 8]. L'entropie maximum, pour une loi normale donc, est donnée par : . Ainsi la théorie de maximisation de l'entropie dit que, même si elle n'est pas la meilleure loi adaptée aux valeurs, la loi normale ajustée aux valeurs est adéquate pour prendre une décision.
+Il y a également une connexion entre la convergence de suites de lois de probabilité vers la loi normale et la croissance de l'entropie, ce qui en fait un outil majeur dans la théorie de l'information[a 2].
+La quantité d'information de Fisher
+L'information de Fisher d'une loi à densité de probabilité est une autre notion de quantité d'information. Pour une densité , elle est donnée par :
+Pour toute densité suffisamment régulière d'une loi centrée réduite, cette information vérifie . La loi normale se distingue des autres densités puisque l'inégalité précédente est une égalité si et seulement si la densité est celle de la loi normale centrée réduite[a 2].
+Distance entre lois
+La divergence de Kullback-Leibler entre deux lois permet de mesurer une distance entre les deux lois, ou une perte d'information entre les deux lois. La divergence de Kullback-Leibler entre les deux lois normales
+et
+est :
+.
+Cette divergence est nulle pour
+et  ; de plus elle croît lorsque
+croît[a 9].
+Approximation de la fonction de répartition[modifier | modifier le code]
+Il n'existe pas d'expression analytique pour la fonction de répartition
+de la loi normale centrée réduite, c'est-à-dire qu'il n'existe pas de formule simple entre la fonction de répartition et les fonctions classiques telles que les fonctions polynomiales, exponentielle, logarithmique, trigonométriques, etc. Cependant la fonction de répartition apparaît dans plusieurs résultats à vocation à être appliqués, il est donc important de mieux cerner cette fonction. Différentes écritures sous forme de séries ou de fractions continues généralisées sont possibles[42].
+Pour les valeurs de , la fonction de répartition de la loi normale centrée réduite s'écrit sous la forme[a 10] :
+ou sous la forme :
+Pour , la fonction de répartition de la loi normale centrée réduite s'écrit sous la forme[42],[a 10] :
+avec .
+De manière plus numérique et facilement calculable, les approximations suivantes donnent des valeurs de la fonction de répartition
+de la loi normale centrée réduite avec :
+une erreur de l'ordre de[43]  : pour ,
+où  ;
+une erreur de l'ordre de[43]  : pour  :  ;
+une erreur de l'ordre de[a 10]  : .
+Voici un exemple d'algorithme[a 4] pour le langage C :
+double Phi(double x){
+long double s=x,t=0,b=x,q=x*x,i=1;
+while(s!=t)
+s = (t=s) + (b*=q/(i+=2));
+return 0.5 + s*exp(-0.5*q - 0.91893853320467274178L);
+}
+Une autre écriture de la fonction de répartition de la loi normale centrée réduite utilise une fraction continue généralisée[a 4] :
+Tables numériques et calculs[modifier | modifier le code]
+Comme mentionné dans la section précédente, il est utile de bien connaître la fonction de répartition
+pour les applications numériques. Des tables de valeurs ont alors été calculées pour la fonction de répartition, mais également pour son inverse, ce qui permet d'obtenir les quantiles et les intervalles de confiance pour un seuil de tolérance fixé.
+Table de valeurs de la fonction de répartition
+La table suivante donne les valeurs de la fonction de répartition , lorsque X suit la loi normale centrée réduite .
+Les valeurs en début de lignes donnent la première partie de la variable, les valeurs en début de colonnes donnent la deuxième partie. Ainsi la case de la deuxième ligne et troisième colonne donne : .
+La courbe en cloche est la fonction de densité. La droite verticale est la valeur . La surface de la partie colorée sous la courbe est la valeur de .
+La courbe en cloche est la fonction de densité. Les droites verticales sont les valeurs
+et . La surface de la partie colorée sous la courbe est la valeur de .
+La courbe en cloche est la fonction de densité. La droite verticale est la valeur . La surface de la partie colorée sous la courbe est la valeur de .
+0,00
+0,01
+0,02
+0,03
+0,04
+0,05
+0,06
+0,07
+0,08
+0,09
+0,0
+0,50000
+0,50399
+0,50798
+0,51197
+0,51595
+0,51994
+0,52392
+0,52790
+0,53188
+0,53586
+0,1
+0,53983
+0,54380
+0,54776
+0,55172
+0,55567
+0,55962
+0,56356
+0,56749
+0,57142
+0,57535
+0,2
+0,57926
+0,58317
+0,58706
+0,59095
+0,59483
+0,59871
+0,60257
+0,60642
+0,61026
+0,61409
+0,3
+0,61791
+0,62172
+0,62552
+0,62930
+0,63307
+0,63683
+0,64058
+0,64431
+0,64803
+0,65173
+0,4
+0,65542
+0,65910
+0,66276
+0,66640
+0,67003
+0,67364
+0,67724
+0,68082
+0,68439
+0,68793
+0,5
+0,69146
+0,69497
+0,69847
+0,70194
+0,70540
+0,70884
+0,71226
+0,71566
+0,71904
+0,72240
+0,6
+0,72575
+0,72907
+0,73237
+0,73565
+0,73891
+0,74215
+0,74537
+0,74857
+0,75175
+0,75490
+0,7
+0,75804
+0,76115
+0,76424
+0,76730
+0,77035
+0,77337
+0,77637
+0,77935
+0,78230
+0,78524
+0,8
+0,78814
+0,79103
+0,79389
+0,79673
+0,79955
+0,80234
+0,80511
+0,80785
+0,81057
+0,81327
+0,9
+0,81594
+0,81859
+0,82121
+0,82381
+0,82639
+0,82894
+0,83147
+0,83398
+0,83646
+0,83891
+1,0
+0,84134
+0,84375
+0,84614
+0,84849
+0,85083
+0,85314
+0,85543
+0,85769
+0,85993
+0,86214
+1,1
+0,86433
+0,86650
+0,86864
+0,87076
+0,87286
+0,87493
+0,87698
+0,87900
+0,88100
+0,88298
+1,2
+0,88493
+0,88686
+0,88877
+0,89065
+0,89251
+0,89435
+0,89617
+0,89796
+0,89973
+0,90147
+1,3
+0,90320
+0,90490
+0,90658
+0,90824
+0,90988
+0,91149
+0,91309
+0,91466
+0,91621
+0,91774
+1,4
+0,91924
+0,92073
+0,92220
+0,92364
+0,92507
+0,92647
+0,92785
+0,92922
+0,93056
+0,93189
+1,5
+0,93319
+0,93448
+0,93574
+0,93699
+0,93822
+0,93943
+0,94062
+0,94179
+0,94295
+0,94408
+1,6
+0,94520
+0,94630
+0,94738
+0,94845
+0,94950
+0,95053
+0,95154
+0,95254
+0,95352
+0,95449
+1,7
+0,95543
+0,95637
+0,95728
+0,95818
+0,95907
+0,95994
+0,96080
+0,96164
+0,96246
+0,96327
+1,8
+0,96407
+0,96485
+0,96562
+0,96638
+0,96712
+0,96784
+0,96856
+0,96926
+0,96995
+0,97062
+1,9
+0,97128
+0,97193
+0,97257
+0,97320
+0,97381
+0,97441
+0,97500
+0,97558
+0,97615
+0,97670
+2,0
+0,97725
+0,97778
+0,97831
+0,97882
+0,97932
+0,97982
+0,98030
+0,98077
+0,98124
+0,98169
+2,1
+0,98214
+0,98257
+0,98300
+0,98341
+0,98382
+0,98422
+0,98461
+0,98500
+0,98537
+0,98574
+2,2
+0,98610
+0,98645
+0,98679
+0,98713
+0,98745
+0,98778
+0,98809
+0,98840
+0,98870
+0,98899
+2,3
+0,98928
+0,98956
+0,98983
+0,99010
+0,99036
+0,99061
+0,99086
+0,99111
+0,99134
+0,99158
+2,4
+0,99180
+0,99202
+0,99224
+0,99245
+0,99266
+0,99286
+0,99305
+0,99324
+0,99343
+0,99361
+2,5
+0,99379
+0,99396
+0,99413
+0,99430
+0,99446
+0,99461
+0,99477
+0,99492
+0,99506
+0,99520
+2,6
+0,99534
+0,99547
+0,99560
+0,99573
+0,99585
+0,99598
+0,99609
+0,99621
+0,99632
+0,99643
+2,7
+0,99653
+0,99664
+0,99674
+0,99683
+0,99693
+0,99702
+0,99711
+0,99720
+0,99728
+0,99736
+2,8
+0,99744
+0,99752
+0,99760
+0,99767
+0,99774
+0,99781
+0,99788
+0,99795
+0,99801
+0,99807
+2,9
+0,99813
+0,99819
+0,99825
+0,99831
+0,99836
+0,99841
+0,99846
+0,99851
+0,99856
+0,99861
+3,0
+0,99865
+0,99869
+0,99874
+0,99878
+0,99882
+0,99886
+0,99889
+0,99893
+0,99896
+0,99900
+3,1
+0,99903
+0,99906
+0,99910
+0,99913
+0,99916
+0,99918
+0,99921
+0,99924
+0,99926
+0,99929
+3,2
+0,99931
+0,99934
+0,99936
+0,99938
+0,99940
+0,99942
+0,99944
+0,99946
+0,99948
+0,99950
+3,3
+0,99952
+0,99953
+0,99955
+0,99957
+0,99958
+0,99960
+0,99961
+0,99962
+0,99964
+0,99965
+3,4
+0,99966
+0,99968
+0,99969
+0,99970
+0,99971
+0,99972
+0,99973
+0,99974
+0,99975
+0,99976
+3,5
+0,99977
+0,99978
+0,99978
+0,99979
+0,99980
+0,99981
+0,99981
+0,99982
+0,99983
+0,99983
+3,6
+0,99984
+0,99985
+0,99985
+0,99986
+0,99986
+0,99987
+0,99987
+0,99988
+0,99988
+0,99989
+3,7
+0,99989
+0,99990
+0,99990
+0,99990
+0,99991
+0,99992
+0,99992
+0,99992
+0,99992
+0,99992
+3,8
+0,99993
+0,99993
+0,99993
+0,99994
+0,99994
+0,99994
+0,99994
+0,99995
+0,99995
+0,99995
+3,9
+0,99995
+0,99995
+0,99996
+0,99996
+0,99996
+0,99996
+0,99996
+0,99996
+0,99997
+0,99997
+Tables de valeurs des quantiles
+Les deux tables suivantes donnent[44] les valeurs du quantile
+de la loi normale centrée réduite
+défini par .
+Les valeurs en début de ligne donne la première partie de la variable, les valeurs en début de colonne donne la deuxième partie. Ainsi la case de la deuxième ligne et troisième colonne donne : .
+0,00
+0,01
+0,02
+0,03
+0,04
+0,05
+0,06
+0,07
+0,08
+0,09
+0,50
+0,0000
+0,0251
+0,0502
+0,0753
+0,1004
+0,1257
+0,1510
+0,1764
+0,2019
+0,2275
+0,60
+0,2533
+0,2793
+0,3055
+0,3319
+0,3585
+0,3853
+0,4125
+0,4399
+0,4677
+0,4959
+0,70
+0,5244
+0,5534
+0,5828
+0,6128
+0,6433
+0,6745
+0,7063
+0,7388
+0,7722
+0,8064
+0,80
+0,8416
+0,8779
+0,9154
+0,9542
+0,9945
+1,036
+1,080
+1,126
+1,175
+1,227
+0,90
+1,282
+1,341
+1,405
+1,476
+1,555
+1,645
+1,751
+1,881
+2,054
+2,326
+Cette table donne les valeurs des quantiles pour p grand.
+p
+0,975
+0,995
+0,999
+0,9995
+0,9999
+0,99995
+0,99999
+0,999995
+1,9600
+2,5758
+3,0902
+3,2905
+3,7190
+3,8906
+4,2649
+4,4172
+Les tables sont données pour les valeurs positives de la loi normale centrée réduite. Grâce aux formules de la fonction de répartition, il est possible d'obtenir d'autres valeurs.
+Les valeurs négatives de la fonction de répartition sont données par la formule[11] . Par exemple :
+pour .
+Les valeurs de la fonction de répartition de la loi générale s'obtiennent par la formule[45] . Par exemple[46] :
+, pour
+La table de valeurs permet également d'obtenir la probabilité qu'une variable aléatoire de loi normale
+appartienne à un intervalle donné
+par la formule : . Par exemple :
+pour .
+pour .
+Plages de normalité, intervalles de confiance
+Un des intérêts de calculer des probabilités sur des intervalles est l'utilisation des intervalles de confiance pour les tests statistiques. La loi normale est définie par deux valeurs : la moyenne
+et l'écart type . Ainsi il est utile de s'intéresser aux intervalles[47] du type .
+pour .
+Table de valeurs des intervalles de confiance
+La courbe en cloche est la densité de probabilité. Les surfaces des zones colorées sous la courbe correspondent aux probabilités des intervalles .
+La table suivante s'obtient grâce aux tables précédentes[47] et donne les probabilités :
+pour
+r
+0,0
+0,5
+1,0
+1,5
+2,0
+2,5
+3,0
+3,5
+0,00
+0,3829
+0,6827
+0,8664
+0,9545
+0,9876
+0,9973
+0,9995
+Représentation d'une boîte à moustaches et le lien avec les quantiles d'une loi normale.
+Cette table de valeurs des intervalles de confiance permet d'obtenir les plages de normalité pour un niveau de confiance donné. Pour , le tableau donne[7] :
+.
+L'intervalle
+est la plage de normalité au niveau de confiance 68 % ;
+.
+L'intervalle , H étant la largeur à mi-hauteur, est la plage de normalité au niveau de confiance 76 % ;
+L'intervalle
+est la plage de normalité au niveau de confiance 95 % ;
+L'intervalle
+est la plage de normalité au niveau de confiance 99 %.
+Inversement, lorsque la valeur de la probabilité
+est fixée, il existe[a 5] une unique valeur
+telle que : . L'intervalle
+est appelé plage de normalité ou intervalle de confiance au niveau de confiance . Pour une loi normale
+et le seuil
+donnés, la méthode pour retrouver cette valeur
+consiste[48] à utiliser le tableau de valeur des quantiles (ci-dessus) pour trouver la valeur
+telle que , l'intervalle de confiance est alors : .
+Par exemple, la plage de normalité au niveau de confiance 95 % d'une loi normale
+est l'intervalle
+où
+vérifie , soit , l'intervalle est donc :
+aux arrondis près.
+Liens avec d'autres lois[modifier | modifier le code]
+Grâce à son rôle central parmi les lois de probabilité et dans les applications, la loi normale possède beaucoup de liens avec les autres lois. Certaines lois sont même construites à partir de la loi normale pour mieux correspondre aux applications.
+Lois usuelles[modifier | modifier le code]
+Différentes lois du
+et
+Lois
+en fonction de variables de loi normale
+loi du χ²
+loi du χ² non centrée
+loi du χ
+loi du χ non centrée
+Lois unidimensionnelles
+Si une variable aléatoire
+suit la loi normale , alors[49] la variable aléatoire
+suit la loi log-normale.
+Si U et V sont deux variables aléatoires indépendantes de loi uniforme sur [0,1], alors les deux variables aléatoires
+et
+sont de loi normale centrée réduite[45]. De plus X et Y sont indépendantes. Ces deux formules sont utilisées pour simuler la loi normale.
+Si les variables
+sont indépendantes et de loi commune , alors[50] la somme de leur carré :
+suit une loi du χ² à n degrés de liberté : . La formule s'étend pour des variables normales non centrées et non réduites. De plus, le même type de lien existe avec la loi du χ² non centrée, la loi du χ et la loi du χ non centrée (voir le tableau ci-contre).
+Si la variable U suit une loi normale centrée réduite : , si V suit une loi du χ² à n degrés de liberté :
+et si U et V sont indépendantes, alors[50] la variable
+suit une loi de Student à n degrés de liberté : .
+Si
+est une variable aléatoire de loi normale centrée réduite et
+de loi uniforme sur [0,1], alors
+est de loi dite de Slash[a 11].
+Pour une variable aléatoire
+de loi normale centrée réduite , la variable
+est de loi normale puissance p. Pour , cette variable est de loi normale centrée réduite[a 11].
+Si
+et
+sont deux variables aléatoires indépendantes de loi normale centrée réduite, alors[51] le quotient
+suit la loi de Cauchy de paramètre 0 et 1 : .
+Lois multidimensionnelles
+Il existe une version multidimensionnelle de la loi normale, appelée loi normale multidimensionnelle, loi multinormale ou loi de Gauss à plusieurs variables. Lorsque
+sont des variables aléatoires de lois normales, alors la loi de probabilité du vecteur aléatoire
+est de loi normale multidimensionnelle. Sa densité de probabilité prend la même forme que la densité de la loi normale mais avec une écriture matricielle. Si le vecteur aléatoire
+est de loi normale multidimensionnelle
+où
+est le vecteur des moyennes et
+est la matrice de variance-covariance, alors la loi conditionnelle
+de
+sachant que
+est la loi normale[52]  :
+Si , alors
+avec
+et
+La loi de la norme d'un vecteur dont les coordonnées sont indépendantes et de lois normales centrées réduites est la loi de Rayleigh[a 2].
+Il est à noter que la loi inverse-gaussienne et loi inverse-gaussienne généralisée n'ont pas de lien avec une formule simple créée à partir de variables de loi normale, mais ont une relation avec le mouvement brownien.
+Lois normales généralisées[modifier | modifier le code]
+Articles détaillés : Loi normale généralisée, Loi normale asymétrique, Loi tronquée, Loi normale rectifiée et Loi normale repliée.
+Plusieurs généralisations de la loi normale ont été introduites afin de changer sa forme, son asymétrie, son support, etc.
+Un nouveau paramètre
+dit de forme a été introduit dans la loi normale pour obtenir une loi normale généralisée. Cette famille de lois contient la loi normale, c'est le cas pour , mais également la loi de Laplace pour . La nouvelle densité de probabilité est donnée par[a 12] :
+.
+Il existe une manière de changer l'asymétrie de la loi normale afin d'obtenir la loi dite loi normale asymétrique (skew normal distribution en anglais)[a 13]. L'introduction d'un paramètre
+permet d'obtenir la loi normale lorsque , une asymétrie vers la droite lorsque
+et une asymétrie vers la gauche lorsque . La densité de cette loi est donnée par :
+.
+Afin de changer le support de la loi normale et notamment de le rendre borné, une modification possible de la loi est de la tronquer. Elle est alors changée d'échelle pour que les parties coupées se répartissent sur l'ensemble des valeurs gardées (à la différence de la loi repliée, voir ci-dessous). La loi normale centrée réduite tronquée en -T et en T a pour support l'intervalle
+et sa fonction de densité se définit par[a 14] :
+Il est également possible de tronquer la loi normale d'un seul côté. Elle est alors appelée « loi normale rectifiée ». Si une variable aléatoire
+suit une loi normale , alors
+suit la loi normale rectifiée[a 15].
+Une autre manière de changer le support de la loi normale est de « replier » la densité à partir d'une valeur, la loi obtenue est la loi normale repliée. Les valeurs retirées, par exemple , sont alors réparties proche de la valeur charnière, 0 ici (à la différence de la loi tronquée, voir ci-dessus). La densité de probabilité de la loi normale repliée en 0 est donnée par[a 16] :
+Une version généralisée de la loi log-normale permet d'obtenir une famille de lois comprenant la loi normale comme cas particulier[53]. La famille est définie à partir de trois paramètres : un paramètre de position , un paramètre d'échelle
+et un paramètre de forme . Lorsque , cette loi log-normale généralisée est la loi normale. La densité est donnée par :
+, où .
+Différentes formes pour la densité de la loi normale généralisée.
+Différentes formes pour la densité de la loi normale asymétrique.
+Loi normale centrée réduite tronquée en 1,5 pour la courbe rouge et en 2,5 pour la courbe bleue.
+En vert, la densité de la loi normale repliée en 0.
+Différentes formes pour la densité de la loi log-normale.
+Constructions à partir de la loi normale[modifier | modifier le code]
+Mélange de lois
+Article détaillé : Modèle de mélanges gaussiens.
+En bleu : densité d'une combinaison linéaire de deux densités normales.
+Un mélange gaussien est une loi de probabilité dont la densité est définie par une combinaison linéaire de deux densités de loi normales. Si on note
+la densité de
+et
+la densité de , alors
+est la densité d'une loi de probabilité dite mélange gaussien[54].
+Il ne faut pas confondre la combinaison linéaire de deux variables aléatoires indépendantes de loi normale, qui reste une variable gaussienne, et la combinaison linéaire de leurs deux densités, qui permet d'obtenir une loi qui n'est pas la loi normale.
+Les modes des deux lois normales sont donnés par
+et , le mélange gaussien est alors une loi bimodale. Ses maxima locaux sont proches de mais non égaux[54] aux valeurs
+et .
+Généralités
+Il est possible de construire d'autres densités de probabilité grâce à la densité
+de la loi normale centrée réduite. Harald Cramér énonce en 1926 un résultat général[55] : si une densité de probabilité
+est deux fois dérivable, si l'intégrale
+converge et si , alors la fonction
+peut être développée en une série absolument et uniformément convergente en fonction des dérivées de la densité de la loi normale centrée réduite et des polynômes d'Hermite  :
+.
+Utilisations[modifier | modifier le code]
+Historiquement, la loi normale est introduite lors d'études d'objets célestes ou de jeux de hasard. Elle est ensuite étudiée et généralisée mathématiquement puis elle est utilisée dans de nombreuses autres applications : en mathématiques, dans d'autres sciences exactes, dans des sciences plus appliquées ou des sciences humaines et sociales. Voici une sélection d'exemples.
+Balistique[modifier | modifier le code]
+Au XIXe siècle, pour améliorer les précisions des tirs de l'artillerie, de nombreux tirs de canons sont réalisés. Il est observé que la direction et la portée sont assimilables à des lois normales[a 17]. Cette compréhension permet de mieux entraîner les servants pour régler les tirs. Cette loi normale provient de différents facteurs comme les conditions climatiques, mais également de l'usure du matériel militaire. La dispersion des points d'impact, et donc de la loi, renseigne sur l'état du matériel et sur le nombre éventuel de tirs anormaux. L'ajustement à la loi normale est alors effectué par le test de Lhoste sur une série de 200 tirs. Le mathématicien Jules Haag applique la méthode pour 2 680 tirs de différentes portées et de différentes directions[a 17].
+Quotient intellectuel[modifier | modifier le code]
+Le quotient intellectuel (QI) a pour objectif de donner une valeur numérique à l’intelligence humaine. En 1939, David Wechsler donne une définition à ce quotient de manière statistique. Une note de 100 est donnée à la moyenne des valeurs obtenues dans une population de même âge et 15 points sont retranchés pour un écart égal à l'écart type obtenu à partir des valeurs de la population testée[56]. Pour cette raison, en pratique, la courbe de répartition du QI est modélisée par la courbe en cloche de la loi normale centrée en 100 et d'écart type 15 : . Cependant cette modélisation est remise en cause par certains scientifiques. En effet, les résultats des tests seraient dépendants des classes sociales de la population ; la population ne serait donc plus homogène, c'est-à-dire que la propriété d'indépendance des individus ne serait pas vérifiée[a 18]. Le quotient intellectuel ne serait alors qu'une approximation de mesure de l'intelligence humaine dont on ne connaît pas l'erreur.
+Anatomie humaine[modifier | modifier le code]
+Exemple de courbe de croissance du poids.
+Un caractère observable et mesurable dans une population d'individus comparables a souvent une fréquence modélisée par une loi normale. C'est le cas par exemple de la taille humaine pour un âge donné (en séparant les hommes et les femmes)[57], de la taille des becs dans une population d'oiseaux comme les pinsons de Darwin étudiés par Darwin[58]. Plus précisément, un caractère mesurable dans une population peut être modélisé à l'aide d'une loi normale s'il est codé génétiquement par de nombreux allèles ou par de nombreux loci[58] ou si le caractère dépend d'un grand nombre d'effets environnementaux[59].
+Les courbes de croissance données par l'OMS, et présentes par exemple dans les carnets de santé, sont issues de modélisations grâce à la loi normale. Grâce à une étude détaillée des centiles mesurés dans une population d'âge fixé et grâce à des tests statistiques d'adéquation, les répartitions du poids et de la taille par tranche d'âge ont été modélisées par des lois de probabilité. Parmi ces lois on retrouve la loi normale, la loi normale de Box-Cox (en) (généralisation de la loi normale), la loi Student de Box-Cox (généralisation de la loi normale de Box-Cox) ou encore la loi exponentielle-puissance de Box-Cox[a 19]. Graphiquement, pour chaque âge, c'est-à-dire pour chaque axe vertical, la médiane
+est représentée (elle donne la courbe centrale) et les deux valeurs de
+et
+où
+est l'écart type, donnent les deux courbes et ainsi représentent l'évolution d'un intervalle de confiance.
+Traitement du signal et mesures physiques[modifier | modifier le code]
+Un filtre gaussien a été appliqué à l'image du haut, issue d'un journal, pour obtenir l'image du bas, plus lisse, moins granuleuse.
+Lorsqu'un signal est transmis, une perte d'information apparaît à cause du moyen de transmission ou du décodage du signal. Lorsqu'une mesure physique est effectuée, une incertitude sur le résultat peut provenir d'une imprécision de l'appareil de mesure ou d'une impossibilité à obtenir la valeur théorique. Une méthode pour modéliser de tels phénomènes est de considérer un modèle déterministe (non aléatoire) pour le signal ou la mesure et d'y ajouter ou multiplier un terme aléatoire qui représente la perturbation aléatoire, parfois appelée erreur ou bruit. Dans beaucoup de cas cette erreur additive est supposée de loi normale, de loi log-normale dans le cas multiplicatif[60]. C'est le cas, par exemple, pour la transmission d'un signal à travers un câble électrique[27]. Lorsque le processus dépend du temps, le signal ou la mesure est alors modélisé grâce à un bruit blanc (voir ci-dessus)[61].
+En traitement d'images, la loi normale est utilisée pour améliorer les images et notamment diminuer le bruit, c'est-à-dire les imperfections de l'image. Un lissage grâce à un filtre gaussien est alors utilisé.
+Économie[modifier | modifier le code]
+Les prix de certaines denrées sont données par une bourse, c'est le cas du cours du blé, du coton brut ou de l'or. Au temps , le prix
+évolue jusqu'au temps
+par l'accroissement . En 1900, Louis Bachelier postule que cet accroissement suit une loi normale de moyenne nulle et dont la variance dépend de
+et . Cependant ce modèle satisfait peu l'observation faite des marchés financiers. D'autres mathématiciens proposent alors d'améliorer ce modèle en supposant que c'est l'accroissement
+qui suit une loi normale[a 7], c'est-à-dire que l'accroissement du prix suit une loi log-normale. Ce modèle est encore amélioré, par Benoît Mandelbrot notamment, en supposant que l'accroissement suit une loi stable (la loi normale est un cas particulier de loi stable). Il apparaît alors le mouvement brownien dont l'accroissement est de loi normale et le processus de Lévy (stable) dont l'accroissement stable pour modéliser les courbes des marchés[a 7].
+Mathématiques[modifier | modifier le code]
+Bruit blanc gaussien unidimensionnel.
+La loi normale est utilisée dans plusieurs domaines des mathématiques. Le Bruit blanc gaussien est un processus stochastique tel qu'en tout point, le processus est une variable aléatoire de loi normale indépendante du processus aux autres points[62]. Le mouvement brownien
+est un processus stochastique dont les accroissements sont indépendants, stationnaires et de loi normale[a 7]. Notamment pour une valeur
+fixée, la variable aléatoire
+suit la loi normale . Ce processus aléatoire possède de nombreuses applications, il fait un lien ente l'équation de la chaleur et la loi normale[a 3]. Lorsque l'extrémité d'une tige métallique est chauffée pendant un court instant, la chaleur se propage le long de la tige sous la forme d'une courbe en cloche.
+La loi normale a également des applications dans des domaines mathématiques non aléatoires comme la théorie des nombres. Tout nombre entier n peut s'écrire comme la multiplication de puissances de nombres premiers. Notons
+le nombre de nombres premiers différents dans cette décomposition. Par exemple, puisque , . Le théorème d'Erdős-Kac assure[a 3] que cette fonction
+pour
+est apparentée à la densité de la loi normale . C'est-à-dire que pour un grand nombre de l'ordre de , il y a une forte probabilité pour que le nombre de diviseurs premiers soit 3, puisque .
+Tests et estimations[modifier | modifier le code]
+Critères de normalité[modifier | modifier le code]
+Quatre valeurs ainsi que la droite de Henry représentées sur un papier gausso-arithmétique.
+Il est important de savoir si des valeurs sont distribuées suivant la loi normale. Quelques critères peuvent être étudiés avant de réaliser un test statistique (voir la section Tests de normalité ci-dessous).
+Le premier critère, le plus simple, consiste à tracer le diagramme en bâtons de la distribution et à vérifier visuellement si le diagramme est en forme de « cloche ». Ce critère, subjectif, permet cependant d'éliminer une partie des distributions jugées alors non gaussiennes.
+De manière plus précise, l'utilisation des plages de normalité permet de comparer avec les fréquences observées facilement calculables. Le critère consiste à utiliser les plages de normalité ou intervalles de confiance. Lorsque des valeurs suivent la loi normale :
+68 % d'entre elles sont dans l'intervalle  ;
+95 % d'entre elles sont dans l'intervalle  ;
+99,7 % d'entre elles sont dans l'intervalle .
+Si ce n'est pas le cas, le choix de modéliser la loi des valeurs observées par la loi normale n'est pas conseillé.
+La droite de Henry permet de faire un ajustement des valeurs observées avec une loi normale. C'est-à-dire qu'en représentant la droite de Henry, il est possible de porter un diagnostic sur la nature normale ou non de la distribution et, dans le cas où celle-ci a des chances d'être normale, elle permet d'en déterminer la moyenne et l'écart type. Les valeurs
+sont observées et représentées par leur fonction de répartition empirique . Elles sont gaussiennes si les points
+représentés sur un papier gausso-arithmétique sont alignés suivant une droite dite de Henri[63]. Un papier gausso-arithmétique est gradué avec une échelle arithmétique en abscisse et graduée suivant l'inverse de la fonction de répartition de la loi normale centrée réduite
+en ordonnée[64].
+Ces critères sont nécessaires mais non suffisants. Cependant, il ne suffit pas de remplir les critères pour affirmer que les valeurs suivent la loi normale.
+Tests de normalité[modifier | modifier le code]
+Articles détaillés : Test statistiques et Test de normalité.
+Grâce à son rôle dans le théorème central limite, la loi normale se retrouve dans de nombreux tests statistiques dits gaussiens ou asymptotiquement gaussiens. L'hypothèse dite de normalité est faite sur une loi a priori dans un test d'adéquation pour indiquer que cette loi suit, approximativement, une loi normale[a 17]. Il existe plusieurs tests de normalité.
+Un test du χ² d'adéquation à la loi normale est possible pour tester si une série de k valeurs observées suit une loi normale[65]. Dans ce type de test, l'hypothèse nulle est : la distribution observée peut être approchée par la loi normale. Après avoir regroupé les k valeurs observées en classes, il faut calculer les probabilités qu'une variable aléatoire de loi normale appartienne à chaque classe en estimant les paramètres de la loi grâce aux valeurs observées. Ces probabilités peuvent être obtenues avec les tables numériques de la loi normale. Si l'hypothèse nulle est vraie, la statistique du χ² calculée à partir des valeurs observées et des probabilités précédentes suit une loi du χ². Le nombre de degré de liberté est k-1 si la moyenne et l'écart type sont connus, k-2 si l'un des deux paramètres est inconnu, ou k-3 si les deux paramètres sont inconnus. L'hypothèse nulle est rejetée si la statistique du χ² est supérieure à la valeur obtenue grâce à la table de la loi du χ² au seuil .
+Le test de Lilliefors est basé sur la comparaison entre la fonction de répartition de la loi normale et la fonction de répartition empirique, c'est une adaptation du test de Kolmogorov-Smirnov. Les avis sont partagés sur la puissance de ce test, il est performant autour de la moyenne mais l'est moins pour la comparaison des queues de distribution[a 20]. Les valeurs observées
+sont rangées par ordre croissant , les valeurs
+sont les fréquences théoriques de la loi normale centrée réduite associées aux valeurs standardisées. Si la statistique :
+est supérieure à une valeur critique calculée grâce au seuil
+et à la taille de l'échantillon, alors l'hypothèse de normalité est rejetée au seuil .
+Le test de Anderson-Darling (en) est une autre version du test de Kolmogorov-Smirnov mieux adaptée à l'étude des queues de distribution[a 20]. En reprenant les mêmes notations que le test de Lilliefors, si la statistique :
+est supérieure à une valeur critique calculée grâce au seuil
+et à la taille de l'échantillon, alors l'hypothèse de normalité est rejetée au seuil .
+Le test de D'Agostino (en) est basé sur les coefficients de symétrie et d'aplatissement. Il est particulièrement efficace à partir de
+valeurs observées[a 20]. Même si l'idée de ce test est simple, les formules sont plus compliquées à écrire. L'idée est de construire des modifications des coefficients de symétrie et d'aplatissement pour obtenir des variables
+et
+de loi normale centrée réduite. Il faut alors effectuer un test du χ² avec la statistique .
+Le test de Jarque Bera est également basé sur les coefficients de symétrie et d'aplatissement. ce test n'est intéressant que pour un nombre élevé de valeurs observées[a 20]. En considérant les deux estimateurs :
+et ,
+comme précédemment, il faut effectuer un test du χ² avec la statistique .
+Le test de Shapiro-Wilk (proposé en 1965) est efficace pour les petits échantillons de moins de 50 valeurs[a 20]. Les valeurs observées
+sont rangées par ordre croissant
+et des coefficients
+sont calculés à partir de quantiles, moyenne, variance et covariance d'une loi normale. Si la statistique
+est inférieure à une valeur critique calculée grâce au seuil
+et à la taille de l'échantillon, alors l'hypothèse de normalité est rejetée au seuil .
+Estimations des paramètres[modifier | modifier le code]
+Lorsqu'un phénomène aléatoire est observé et qu'il est considéré comme pouvant être modélisé par une loi normale, une des questions que l'on peut se poser est : que valent les paramètres
+et
+de la loi normale  ? Une estimation est alors à effectuer. Les observations récupérées lors de l'observation du phénomène sont notées par des variables aléatoires , les notations de la moyenne arithmétique et de la moyenne des carrés sont également utiles[66] :
+et
+.
+Ces deux valeurs sont respectivement des estimateurs de la moyenne et de l'écart type qui se calculent à partir des valeurs observées. Puisque les variables
+sont de loi normale, alors
+est de loi
+et
+est de loi du χ² : [66].
+Estimation de la moyenne
+(lorsque l'écart type
+est connu)
+Une méthode est de chercher un intervalle de confiance à un seuil
+autour de la moyenne théorique . En utilisant les quantiles d'ordre
+et , la formule définissant les quantiles permet d'obtenir[66] :
+.
+Grâce aux valeurs observées et aux tables numériques de la loi normale centrée réduite (voir la table), il est alors possible de donner les valeurs numériques de l'intervalle
+au seuil .
+Estimation de la moyenne
+(lorsque l'écart type
+est inconnu)
+Une méthode est d'utiliser une variable intermédiaire qui peut s'écrire à l'aide de nouvelles variables aléatoires
+de loi
+et
+de loi  :
+est de loi de Student . En utilisant les quantiles d'ordre
+et , la formule définissant les quantiles permet d'obtenir[67] :
+.
+Grâce aux valeurs observées et aux tables numériques de la loi normale centrée réduite (voir la table), il est alors possible de donner les valeurs numériques de l'intervalle
+au seuil .
+Estimation de l'écart type
+(lorsque la moyenne
+est inconnue)
+La méthode est la même que la précédente. L'introduction de la variable aléatoire
+de loi du χ² à
+degrés de liberté permet d'obtenir[68] :
+où
+et
+sont les quantiles de la loi du χ² à
+degrés de liberté que l'on peut obtenir à partir de la table numérique du χ². L'intervalle
+est l'intervalle de confiance au seuil .
+Simulation[modifier | modifier le code]
+Pour étudier un phénomène aléatoire dans lequel intervient une variable normale dont les paramètres sont connus ou estimés, une approche analytique est souvent trop complexe à développer. Dans un tel cas, il est possible de recourir à une méthode de simulation, en particulier à la méthode de Monte-Carlo qui consiste à générer un échantillon artificiel de valeurs indépendantes de la variable, ceci à l’aide d’un ordinateur. Les logiciels ou les langages de programmation possèdent en général un générateur de nombres pseudo-aléatoires ayant une distribution uniforme sur ]0,1[. Il s’agit alors de transformer cette variable de loi
+en une variable
+(l’adaptation à d’autres valeurs des paramètres ne pose pas de problème).
+Approches à éviter[modifier | modifier le code]
+De manière générale, on peut exploiter la fonction réciproque de la fonction de répartition : en l'occurrence, la variable aléatoire
+suit la loi normale centrée réduite ; cette méthode est cependant malcommode, faute d'expressions simples des fonctions
+et  ; par ailleurs, les résultats sont numériquement insatisfaisants.
+Si
+sont douze variables indépendantes de loi uniforme sur , alors la variable
+est de moyenne nulle et d'écart type unitaire. Ainsi, grâce au théorème central limite, cette variable suit approximativement la loi normale centrée réduite[a 21]. C'est une manière simple de générer une loi normale, cependant l'approximation reste imprécise.
+Approches efficientes[modifier | modifier le code]
+Un meilleur algorithme est la méthode de Box-Muller qui utilise une représentation polaire de deux coordonnées uniformes donnée par les formules :
+Si
+alors
+et les deux variables obtenues sont indépendantes. Cet algorithme est simple à réaliser, mais le calcul d'un logarithme, d'une racine carrée et d'une fonction trigonométrique ralenti le traitement[a 21].
+Une amélioration a été proposée par Marsaglia et Bray en 1964, en remplaçant les cosinus et sinus par les variables
+et
+où
+et
+sont indépendantes de loi
+et , ainsi :
+Cet algorithme n'est pas plus lourd à mettre en œuvre et la simulation gagne en vitesse[a 21].
+Pour un grand nombre de tirages aléatoires, la méthode Ziggourat est encore plus rapide, mais sa mise en œuvre plus complexe.
+Mise en œuvre dans des logiciels de calcul[modifier | modifier le code]
+La loi normale a été intégrée dans de nombreux logiciels de calcul.
+Tableurs
+Les tableurs Microsoft Excel (propriétaire), OpenOffice.org Calc et LibreOffice Calc (libres et gratuits) disposent des fonctions suivantes :
+LOI.NORMALE(x ; mu ; sigma ; cumulative) (ou en anglais NORMDIST) donne :
+si cumulative est le booléen FAUX, la densité de probabilité de la loi normale d'espérance mu et d'écart type sigma en x,
+si cumulative est le booléen VRAI, la fonction de répartition de la loi normale d'espérance mu et d'écart type sigma en x ;
+PHI(x) (idem) donne la densité de probabilité de la loi normale centrée réduite φ en x ;
+LOI.NORMALE.STANDARD(x) (NORMSDIST) donne la fonction de répartition de la loi normale centrée réduite Φ en x ;
+LOI.NORMALE.INVERSE(p ; mu ; sigma) (NORMINV) : donne le quantile q d'une loi normale pour une probabilité p ;
+LOI.NORMALE.STANDARD.INVERSE(p) (NORMSINV) : idem avec la loi normale centrée réduite ;
+CENTREE.REDUITE(x ; mu ; sigma) (STANDARDIZE) : renvoie (x - mu)/sigma ;
+Langage de programmation de statistiques S
+Le langage S, mis en œuvre dans les logiciels R (libre et gratuit) et S-PLUS (propriétaire), propose les fonctions suivantes :
+dnorm() : densité de probabilité de la loi normale :
+dnorm(x) : pour une loi normale centrée réduite en x ; dnorm(x, log=TRUE) donne le logarithme népérien de la valeur,
+dnorm(x, mu, sigma) ou dnorm(x, mean = mu, sd = sigma) : pour une loi normale d'espérance mu et d'écart type sigma en x ; on peut y adjoindre l'option log = TRUE,
+pnorm() : fonction de répartition d'une loi normale :
+pnorm(q) : pour une loi normale centrée réduite ; l'option lower.tail = FALSE donne le complémentaire 1 - Φ, l'option log.p = TRUE donne le logarithme népérien de la valeur
+pnorm(q, mu, sigma) ou pnorm(q, mean = mu, sd = sigma) : idem pour une loi normale d'espérance mu et d'écart type sigma en x ;
+qnorm() : donne les quantiles d'une loi normale :
+qnorm(p) : pour une loi normale centrée réduite ; l'option lower.tail = FALSE donne le quantile du complémentaire 1 - Φ, l'option log.p = TRUE donne le logarithme népérien de la valeur
+qnorm(p, mu, sigma) ou qnorm(p, mean = mu, sd = sigma) : idem pour une loi normale d'espérance mu et d'écart type sigma ;
+rnorm() : générateur de nombre aléatoire suivant une distribution normale
+rnorm(n) : génère n nombres aléatoires selon une loi normale centrée réduite ;
+rnorm(n, mu, sigma) ou rnorm(n, mean = mu, sd = sigma) : idem avec une loi normale d'espérance mu et d'écart type sigma ;
+ks.test(A, "dnorm") : test de normalité de Kolmogorov-Smirnov.
+Matlab/Octave
+Le logiciel Matlab (propriétaire, ou sa variante libre: GNU Octave) propose les commandes suivantes :
+randn(n) : génère n nombres aléatoires selon une loi normale centrée réduite ;
+randn(m, n) génère une matrice m×n ;
+normcdf(x, mu, sigma), cdf('norm', x, mu, sigma) et cdf('Normal', x, mu, sigma) : fonction de répartition en x de la loi normale d'espérance mu et d'écart type sigma (cumulative distribution function) ;
+normpdf(x, mu, sigma), pdf('norm', x, mu, sigma) et pdf('Normal', x, mu, sigma) : densité de probabilité en x de la loi normale d'espérance mu et d'écart type sigma (probability distribution function)
+[mu, sigma] = normfit(X) : détermine l'espérance et l'écart type d'un jeu de données X par régression.
+Scilab
+Le logiciel Scilab (libre et gratuit) propose les commandes suivantes :
+rand(m, n, "normal") : matrice m×n de nombres aléatoires tirés suivant une loi normale centrée réduite ; rand(A, "normal") donne une matrice de même dimension que la matrice A ;
+grand(m, n, "nor", mu, sigma) : matrice m×n de nombres aléatoires tirés suivant une loi normale d'espérance mu et d'écart type sigma ;
+cdfnor("PQ", x, mu, sigma) : valeur p de la fonction de répartition (cumulative distribution function) en x pour une loi normale d'espérance mu et d'écart type sigma ;
+cdfnor("X", mu, sigma, p, 1 - p) : valeur du quantile q pour une probabilité p ;
+cdfnor("Mean", sigma, p, 1 - p, x) : espérance d'une loi normale dont l'écart type vaut sigma, et la probabilité cumulée en x vaut p ;
+cdfnor("Std", p, 1 - p, x, mu) : écart type d'une loi normale dont la probabilité cumulée en x vaut p et l'espérance vaut mu.
+Les options "Mean" et "Std" effectuent une régression si x et p sont des vecteurs.
+L'extension Atoms CASCI fournit d'autres fonctions ayant une syntaxe plus simple :
+cdfnormal(x) : fonction de répartition Φ de la loi normale centrée réduite ;
+cdfnormal(x, mu, sigma) : fonction de répartition d'une loi normale d'espérance mu et d'écart type sigma ;
+idfnormal(p) : quantile Φ-1 de la loi centrée réduite (inverse cumulative distribution function) ;
+idfnormal(p, mu, sigma) : idem pour une loi d'espérance mu et d'écart type sigma ;
+pdfnormal(x) : densité de probabilité φ de la loi normale centrée réduite (probability distribution function) ;
+pdfnormal(x, mu, sigma) : idem pour une loi d'espérance mu et d'écart type sigma ;
+rndnormal(n) : génère n nombres aléatoires selon une loi normale centrée réduite ; rndnormal(m, n) génère une matrice m×n ;
+rndnormal(n, mu, sigma), rndnormal(m, n, mu, sigma) : idem pour une loi d'espérance mu et d'écart type sigma.
+Hommages[modifier | modifier le code]
+Une peinture à l'huile contenant la courbe en cloche.
+Par son utilisation généralisée dans les sciences, la loi normale, souvent par l'utilisation de la courbe en cloche, est mise en avant dans différents contextes et est utilisée pour représenter l'universalité d'une répartition statistique, entre autres.
+Carl Friedrich Gauss et la courbe en cloche sur un billet de dix Deutsche Mark.
+Francis Galton parle de la loi normale dans son œuvre Natural Inheritence de 1889 en ces termes élogieux[a 2] :
+« Je ne connais rien d'autre si propre à frapper l'imagination que cette merveilleuse forme d'ordre cosmique donnée par la Loi de Fréquence des Erreurs... Elle règne avec sérénité et en toute abnégation au milieu de la confusion sauvage[b 1]. »
+— Francis Galton
+En 1989, un hommage est rendu à Carl Friedrich Gauss en imprimant un billet à son effigie, la courbe en cloche est également présente sur le billet. Des pierres tombales portent le signe de la courbe en cloche, c'est le cas pour certains mathématiciens.
+Le statisticien William Youden (en) écrit[69] en 1962 une explication du but et de la position de la loi normale dans les sciences. Il la présente sous forme de courbe en cloche :
+THE
+NORMAL
+LAW OF ERROR
+STANDS OUT IN THE
+EXPERIENCE OF MANKIND
+AS ONE OF THE BROADEST
+GENERALIZATIONS OF NATURAL
+PHILOSOPHY ♦ IT SERVES AS THE
+GUIDING INSTRUMENT IN RESEARCHES
+IN THE PHYSICAL AND SOCIAL SCIENCES AND
+IN MEDICINE AGRICULTURE AND ENGINEERING ♦
+IT IS AN INDISPENSABLE TOOL FOR THE ANALYSIS AND THE
+INTERPRETATION OF THE BASIC DATA OBTAINED BY OBSERVATION AND EXPERIMENT
+« La loi normale des erreurs se distingue dans l'expérience de l'humanité comme une des plus larges généralisations de la philosophie naturelle ♦ Elle sert de guide dans la recherche en sciences physique et sociale, en médecine, en agriculture et en ingénierie ♦ C'est un outil indispensable pour l'analyse et l'interprétation des données de base obtenues par l'observation et l'expérience. »

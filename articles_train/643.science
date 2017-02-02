@@ -1,0 +1,76 @@
+Électrophorèse sur gel de polyacrylamide — Wikipédia
+Électrophorèse sur gel de polyacrylamide
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Page.
+L'électrophorèse sur gel de polyacrylamide ou PAGE (acronyme de l'anglais poly-acrylamide gel electrophoresis) est une application de l'électrophorèse de zone, elle est très utilisée pour l'étude des protéines ou pour le séquençage de l'ADN.
+Sommaire
+1 Utilisation
+2 Composition
+3 Gels de séparation
+4 Préparation
+4.1 Pour préparer 10 ml d'une solution mère à 10 % de polyacrylamide (en séparation)
+4.2 Pour préparer 10 ml d'une solution mère à 5 % de polyacrylamide (stacking)
+5 Précaution d'emploi
+6 Notes et références
+7 Voir aussi
+Utilisation[modifier | modifier le code]
+Un gel de polyacrylamide est une matrice de séparation utilisée en électrophorèse de biomolécules, telles que les protéines ou les fragments d'ADN. Les techniques traditionnelles de séquençage de l'ADN telles que les méthodes de Maxam-Gilbert ou de Sanger utilisent les gels de polyacrylamide pour séparer des fragments d'ADN: ceux-ci possèdent un pouvoir résolutif de 1 paire de bases)][1]. Une autre méthode de séparation de l'ADN utilise l'électrophorèse en gels d'agarose, mais n'est cependant pas adaptée à la séparation de petits fragments.
+La méthode PAGE est actuellement la méthode la plus utilisée en immunologie et en analyse des protéines, pour visualiser différentes protéines séparées en bandes distinctes en fonction de leur poids moléculaire. Celles-ci peuvent alors être transférées sur membrane de nitrocellulose ou de PVDF pour être mises en contact avec des anticorps spécifiques. Cette technique s'appelle le Western blot.
+Composition[modifier | modifier le code]
+Les gels de polyacrylamide peuvent varier en composition. Ils sont constitués d'acrylamide qui est l'unité de base et de bisacrylamide ( N, N methylène-bisacrylamide) qui est l'agent pontant. En fonction des différents taux de ces deux substances on obtient différents maillages et donc différentes densités de gel. La réaction de polymérisation se fait grâce à l'ajout de deux substances réactives : le "TEMED" et "l'ammonium persulfate" qui, en réagissant avec la lumière, deviennent des anions hyper réactifs enclenchant la polymérisation.
+Des niveaux supérieurs de polymérisation aboutissent à une structure de gel plus dense, ce qui permet une meilleure séparation des protéines. Des niveaux plus bas minimisent la rétention des protéines, mais sont souvent requis pour séparer des protéines de poids moléculaires proches. Ces gels sont utilisés pour évaluer visuellement le poids moléculaire des protéines par rapport à celui de protéines connues.
+Gels de séparation[modifier | modifier le code]
+Typiquement les gels de séparation sont faits à 6 %, 8 %, 10 %, 12 % ou 15 %. Un gel de concentration (stacking gel) (5 %) est coulé en haut du gel de séparation pour permettre une entrée homogène de l'échantillon dans le gel de séparation. Des pistes individuelles sont réalisées par l'utilisation d'un "peigne" qui sépare le gel en portions égales destinées à la migration de chaque échantillon. Le pourcentage choisi dépend de la taille de la protéine que l'on veut identifier ou de la sonde dans l'échantillon. Plus le poids connu est petit, plus le pourcentage devra être élevé.
+Préparation[modifier | modifier le code]
+Les mélanges ci-dessous ne polymériseront pas tant que le TEMED n'aura pas été ajouté, mais s'il est stocké de façon non polymérisée assez longtemps, le mélange peut ne pas polymériser correctement. La taille standard du gel est de 3x5x0.2 pouces, et en tenant compte des fuites qui se produisent généralement, il faut à peu près 8 ml de solution pour un gel de séparation et 2 ml pour un gel de concentration. Pour les longues migrations, ou des longs temps d'exposition aux champs électriques, il convient d'immerger entièrement le gel dans un bain de solution afin d'éviter la déshydratation du gel à la borne positive due à la migration des molécules d'eau dans le champ électrique.
+Pour préparer 10 ml d'une solution mère à 10 % de polyacrylamide (en séparation)[modifier | modifier le code]
+(Comme pour toute solution biologique, l'eau est de préférence distillée et désionisée - en abrégé, ddH2O)
+Composant
+Volume
+ddH20
+4,0 ml
+mélange d'acrylamide 30 %
+3,3 ml
+1,5M Tris pH 8.8
+2,5 ml
+10 % SDS
+0,1 ml
+10 % ammonium persulfate
+0,1 ml
+TEMED
+0,004 ml
+Pour préparer 10 ml d'une solution mère à 5 % de polyacrylamide (stacking)[modifier | modifier le code]
+Composant
+Volume
+ddH20
+5,65 ml
+mélange à 30 % d'acrylamide
+1,65 ml
+1,0M Tris pH 6.8
+2,5 ml
+10 % SDS
+0,1 ml
+10 % ammonium persulfate
+0,1 ml
+TEMED
+0,004 ml
+Toutefois, de tels volumes de stacking gel sont rarement nécessaires en pratique.
+Par exemple, pour examiner approximativement 15 échantillons, on préfère en fabriquer 4 ml. Les volumes nécessaires donnés sont en ce cas :
+Composant
+Volume
+ddH20
+2,7 ml
+mélange à 30 % d'acrylamide
+0,67 ml
+1,0M Tris pH 6.8
+0,5 ml
+10 % SDS
+0,04 ml
+10 % ammonium persulfate
+0,04 ml
+TEMED
+0,004 ml
+Précaution d'emploi[modifier | modifier le code]
+L'acrylamide en poudre ou à l'état liquide est extrêmement toxique, particulièrement pour le système nerveux, lorsqu'il est ingéré, et est absorbé très facilement par la peau, d'où la nécessité de prendre des précautions lors de la manipulation.
+En revanche, l'acrylamide une fois polymérisé n'est plus absorbable, mais il faut tout de même prendre soin de la façon dont on se débarrasse du gel.

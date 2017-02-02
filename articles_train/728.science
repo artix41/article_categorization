@@ -1,0 +1,295 @@
+Cristallographie aux rayons X — Wikipédia
+Cristallographie aux rayons X
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Diffractométrie de rayons X)
+Aller à :					navigation, 					rechercher
+Cliché de diffraction de la protéase virale 3CLpro cristallisée
+La cristallographie aux rayons X ou diffractométrie de rayons X (DRX, on utilise aussi souvent l'abréviation anglaise XRD pour X-ray diffraction) est une technique d'analyse fondée sur la diffraction des rayons X sur la matière. La diffraction n'ayant lieu que sur la matière cristalline, on parle aussi de radiocristallographie. Pour les matériaux non-cristallins, on parle de diffusion. La diffraction fait partie des méthodes de diffusion élastique.
+Cette méthode utilise un faisceau de rayons X qui rencontre le cristal provoquant la dispersion du faisceau lumineux dans des directions spécifiques. Par la mesure des angles et de l'intensité des rayons réfractés, il est possible d'obtenir une image tridimensionnelle de la densité électronique dans le cristal. À partir de cette densité, la position moyenne des atomes du cristal peut être déterminée, ainsi que leurs liaisons chimiques, leur entropie et d'autres informations.
+Exemple de diffractogramme de poudre
+L'appareil de mesure s'appelle un diffractomètre. Les données collectées forment le diagramme de diffraction ou diffractogramme.
+Sommaire
+1 Présentation générale
+1.1 Champ d'application
+1.2 Méthode
+1.3 Applications
+2 Interaction rayons X-matière
+3 Applications de la DRX sur poudres
+3.1 Identification de phases cristallines
+3.1.1 Principes de l'identification des phases
+3.1.2 Problèmes rencontrés
+3.1.3 Algorithmes manuels d'identification des phases
+3.1.3.1 Méthode d'Hanawalt
+3.1.3.2 Méthode Fink
+3.1.4 Algorithmes informatiques d'identification des phases
+3.2 Analyse quantitative
+3.2.1 Méthode des surfaces de pic
+3.2.2 Rapport d'intensité de référence
+3.2.3 Méthode de Rietveld
+3.3 Mesure de contraintes
+3.4 Mesure de la texture
+4 Détermination de structures cristallographiques
+5 Références
+6 Annexes
+6.1 Bibliographie
+6.2 Articles connexes
+6.3 Liens externes
+Présentation générale[modifier | modifier le code]
+Champ d'application[modifier | modifier le code]
+La diffractométrie de rayons X est une méthode d'analyse physico-chimique. Elle ne fonctionne que sur la matière cristallisée (minéraux, métaux, céramiques, polymères semi-cristallins, produits organiques cristallisés), mais pas sur la matière amorphe (liquides, polymères amorphes, verres) ; toutefois, la matière amorphe diffuse les rayons X, et elle peut être partiellement cristallisée, la technique peut donc se révéler utile dans ces cas-là. Par contre, elle permet de reconnaître des produits ayant la même composition chimique brute, mais une forme de cristallisation différente, par exemple de distinguer les différentes silices (qui ont toutes la même formule brute SiO2 : quartz, cristobalite…), les différents aciers (acier ferritique, austénite…) ou les différentes alumines (qui ont toutes la même formule brute Al2O3 : corindon/alumine α, γ, δ, θ…).
+Méthode[modifier | modifier le code]
+On prépare l'échantillon sous la forme d'une poudre aplanie dans une coupelle, ou bien sous la forme d'une plaquette solide plate. On envoie des rayons X sur cet échantillon, et un détecteur fait le tour de l'échantillon pour mesurer l'intensité des rayons X selon la direction. Pour des raisons pratiques, on fait tourner l'échantillon en même temps, ou éventuellement on fait tourner le tube produisant les rayons X.
+Applications[modifier | modifier le code]
+La technique est utilisée pour caractériser la matière. Cela concerne :
+la recherche : lorsque l'on crée un nouveau matériau (souvent des céramiques), que l'on veut connaître le résultat d'une réaction chimique ou physique (par exemple en métallurgie, pour reconnaître les produits de corrosion ou savoir quel type d'acier on a fabriqué), en géologie (géochimie) pour reconnaître la roche prélevée à un endroit, en biologie, pour étudier la structure des protéines par exemple ;
+pour le suivi de production dans une usine (contrôle de la qualité du produit) : dans les cimenteries, les fabriques de céramiques, etc. ;
+l'industrie pharmaceutique :
+en recherche : les nouvelles molécules sont cristallisées, et les cristaux sont étudiés par diffractométrie de rayons X ;
+en production : cela sert notamment à vérifier que l'on n'a pas fabriqué une autre molécule de même formule, mais de forme différente (on parle de polymorphisme).
+Interaction rayons X-matière[modifier | modifier le code]
+Les rayons X, comme toutes les ondes électromagnétiques, provoquent un déplacement du nuage électronique par rapport au noyau dans les atomes. Ces oscillations induites provoquent une ré-émission d'ondes électromagnétiques de même fréquence : ce phénomène est appelé diffusion Rayleigh.
+Article détaillé : Interaction rayonnement-matière.
+La longueur d'onde des rayons X étant de l'ordre de grandeur des distances interatomiques (quelques angström), les interférences des rayons diffusés vont être alternativement constructives ou destructives. Selon la direction de l'espace, on va donc avoir un flux important de photons X, ou au contraire très faible ; ces variations selon les directions forment le phénomène de diffraction des rayons X.
+Ce phénomène a été découvert par Max von Laue (Prix Nobel en 1914) et longuement étudié par sir William Henry Bragg et son fils sir William Lawrence Bragg (prix Nobel commun en 1915).
+Les directions dans lesquelles les interférences sont constructives, appelées « pics de diffraction », peuvent être déterminées très simplement par la formule suivante, dite loi de Bragg :
+avec
+d = distance interréticulaire, c'est-à-dire distance entre deux plans cristallographiques ;
+θ = demi-angle de déviation (moitié de l'angle entre le faisceau incident et la direction du détecteur) ;
+n = ordre de réflexion (nombre entier) ;
+λ = longueur d'onde des rayons X.
+Comme les plans cristallographiques peuvent être repérés par les indices de Miller {hkl}, on peut indexer les pics de diffraction selon ces indices.
+Article détaillé : Théorie de la diffraction sur un cristal.
+Applications de la DRX sur poudres[modifier | modifier le code]
+Identification de phases cristallines[modifier | modifier le code]
+Principes de l'identification des phases[modifier | modifier le code]
+L'idée d'utiliser la diffraction des rayons X pour identifier une phase fut développée au début du XXe siècle de manière indépendante par Albert W. Hull[1],[2] en 1919 d'une part, et par Peter Debye et Paul Scherrer d'autre part[3]. En raison de la guerre, la publication et la diffusion des journaux scientifiques était difficile ; chronologiquement, c'est Hull qui publia le premier ses travaux, mais la méthode porte le nom de Debye et Scherrer.
+Une poudre formée d'une phase cristalline donnée va toujours donner lieu à des pics de diffraction dans les mêmes directions, suivant un certain angle incident, pour un certain rayonnement incident (rayon X = 0,5 ≤ λ ≤ 2 Angström), afin de satisfaire la loi de Bragg. Les intensités relatives des pics de diffraction restent à peu près constantes d'une mesure d'échantillon à une autre. Ce diagramme de diffraction forme ainsi une véritable signature de la phase cristalline. Il est donc possible de déterminer la nature de chaque phase cristalline au sein d'un mélange (mélange de poudre ou échantillon massif polyphasique), à condition d'avoir auparavant déterminé la signature de chaque phase.
+La détermination de cette signature peut se faire soit de manière expérimentale (mesure d'un produit pur dans des conditions idéales), soit par simulation numérique à partir de la structure cristallographique connue — structure ayant elle-même pu être déterminée par diffraction X (cf. ci-dessous). Cette signature est consignée dans une fiche sous la forme d'une liste de pics ; la position en 2θ est convertie en distance interréticulaire d par la loi de Bragg, afin d'avoir une valeur indépendante de la longueur d'onde des rayons X (et donc du type de source de rayons X utilisée). L'intensité I de chaque pic est exprimée en pourcent %, parfois en pourmille ‰, 100 % (ou 1 000 ‰) étant la hauteur du pic le plus intense. Cette liste de pics est souvent désignée par le terme « liste de d—I » . On constitue ainsi des bases de données, et le diagramme mesuré sur le produit inconnu est comparé de manière informatique à toutes les fiches de la base de données. La base de données la plus complète à l'heure actuelle (2004) est la Powder diffraction file (PDF) de l'ICDD (ex-JCPDS : Joint committee on powder diffraction standards, ex- comité E4 de l'ASTM), avec plus de 150 000 fiches (dont cependant de nombreuses redondances).
+L'intérêt de cette méthode est qu'elle permet de distinguer les différentes formes de cristallisation d'un même composé (par exemple pour la silice, distinguer le quartz de la cristobalite). Cependant, elle ne peut généralement pas permettre d'identifier des composés amorphes. Cette technique est donc complémentaire de l'analyse élémentaire.
+La procédure d'identification des phases se fait en deux étapes : une étape de recherche dans une base (search), puis une confrontation des fiches probables avec ce qui est possible chimiquement (match) ; on parle donc fréquemment de search/match pour désigner cette procédure.
+Finalement, c'est l'utilisateur qui détermine si un produit est présent ou pas : en raison des possibilités de confusion (plusieurs produits très différents pouvant avoir des signatures très proches), un algorithme automatisé ne peut pas prendre seul la décision. C'est en dernier ressort la compétence de l'utilisateur, son habileté et sa connaissance de l'échantillon qui interviennent.
+Dans certains domaines, on veut simplement savoir si l'on n'a que la ou les phases prévues et pas d'autre (notamment, problème des polymorphes) dans le suivi de la production pharmaceutique. Dans ce contexte, il suffit d'établir une liste de pics sur le diffractogramme du produit inconnu, que l'on compare à une liste de pics établie sur le diffractogramme d'un produit étalon (c'est-à-dire dont la composition chimique est maîtrisée).
+Problèmes rencontrés[modifier | modifier le code]
+Dans le cas d'un produit réellement inconnu et dont on cherche à identifier toutes les phases, on est confronté principalement à trois problèmes :
+l'écart de la signature d'un produit par rapport à sa signature théorique ou idéale :
+les positions en 2θ des pics d'une phase peuvent être décalés :
+problème d'alignement du diffractomètre ;
+problème de hauteur de la surface de l'échantillon ;
+problème de variation des paramètres de la maille cristalline, en raison des contraintes ou de la solution solide — produit non pur,
+les hauteurs relatives des pics ne sont que rarement respectées :
+orientation préférentielle ;
+nombre de cristallites insuffisants pour avoir une bonne statistique ;
+superposition de pics ;
+le mélange des pics est parfois complexe, avec des superpositions ;
+il faut comparer le diffractogramme avec plusieurs centaines de milliers de fiches de référence.
+Algorithmes manuels d'identification des phases[modifier | modifier le code]
+Méthode d'Hanawalt[modifier | modifier le code]
+Le premier algorithme fut inventé par Hanawalt en 1936[4],[5],[6]. À l'époque, les fiches de référence étaient sous forme papier. Hanawalt regroupa les fiches dont le pic principal (dit « pic à 100 % ») étaient au même endroit (ou plus précisément dans une même zone 2θ restreinte), les catégories ainsi créées étant classées par ordre croissant de position 2θ ; puis, dans une catégorie de fiches, il regroupa les fiches dont le second pic le plus intense étaient au même endroit, classant de même les sous-catégories, et dans une sous-catégorie, il classa les fiches par ordre de position du troisième pic le plus intense. Pour dépouiller un diffractogramme, il procédait donc ainsi :
+on déterminait les trois pics les plus intenses, et on recherchait dans la liste d'Hanawalt la ou les fiches pouvant correspondre ;
+le premier produit étant identifié, on éliminait les trois pics considérés et on recommençait.
+Cette méthode porte aussi le nom de « méthode ASTM »[7].
+Cependant, il fallait aussi prendre en compte les possibles superpositions de pics, donc la possibilité qu'un pic appartenant à une phase déjà identifiée appartienne également à une autre phase. De fait, l'identification devenait extrêmement complexe au-delà d'un mélange de trois phases, et était peu performante pour détecter les phases présentes en faible quantité, c'est-à-dire générant des pics de faible hauteur.
+Méthode Fink[modifier | modifier le code]
+La méthode Fink[8] fut développée par W. Bigelow et J. V. Smith de l'ASTM au début des années 1960, qui lui donnèrent le nom de William Fink, un référent du JCPDS. L'idée est de considérer les quatre pics les plus intenses d'une fiche, d'appliquer toutes les permutations possibles, puis de classer toutes ces solutions par ordre de d croissant. Lors d'une recherche, l'opérateur prend la première valeur de d rencontrée sur le diffractogramme, puis cherche dans l'index les fiches auxquelles ce pic pourrait appartenir. Les autres pics de chaque fiche sont ensuite confrontés au diffractogramme.
+Algorithmes informatiques d'identification des phases[modifier | modifier le code]
+L'informatique a permis d'automatiser les procédures manuelles, notamment avec des algorithmes de recherche automatique de pics et des comparaisons avec les fiches sous formes électroniques. Elle a aussi permis d'améliorer l'algorithme, en multipliant les comparaisons possibles au lieu de se contenter des trois pics les plus intenses. Elle a aussi permis de croiser les informations sur les pics avec des informations sur la composition chimique (recherche dite « booléenne » car elle utilise des opérations logiques du type « et », « non » et « ou »).
+Les premiers programmes sont apparus au milieu des années 1960, avec des limitations inhérentes à la qualité des diffractogrammes et aux capacités de calcul des ordinateurs : les programmes devaient considérer des possibilités d'erreur importantes sur les valeurs de d et de I.
+M. C. Nichols[9],[10] adapte ainsi l'algorithme d'Hanawalt en 1966. G. G. Johnson Jr. et V. Vand adoptent quant à eux une approche résolument nouvelle en 1965[9],[11] : ils comparent de manière systématique toutes les fiches de la base de données avec la liste de d–I extraite du diffractogramme, et donnent une note à la fiche (FOM, figure of merit). Les fiches de la base de données sont donc classées par ordre de note de correspondance, puis les « meilleurs élèves » sont affichés (typiquement, on affiche les 50 premiers), classés selon le nombre de pics communs à la fiche et à la liste de d–I extraite du diffractogramme, puis selon la note.
+En 1982, le fabricant Philips développe un algorithme propriétaire (non publié) construit sur la méthode des moindres carrés[12] : la note pour chaque fiche est calculée en fonction de l'écart entre les pics de la fiche de référence et la liste de d–I extraite du diffractogramme.
+L'amélioration récente la plus importante a eu lieu en 1986[13],[14],[15], avec le programme commercial Eva (suite logicielle DIFFRAC-AT, puis DIFFRACplus) de la société Socabim, une PME française travaillant essentiellement pour le fabricant Siemens. Cet algorithme propriétaire (non publié) reprend la logique de Johnson et Vand ; cependant, il ne se contente pas d'extraire une liste de pics du diffractogramme, mais compare chaque fiche avec le diffractogramme lui-même pour donner une note à la fiche (mieux la fiche correspond au diffractogramme, plus la note est basse). Les fiches de la base de données sont donc classées par ordre de correspondance, puis les « meilleurs élèves » sont affichés (typiquement, on affiche les 50 premiers) ; l'utilisateur superpose ensuite les fiches (représentées sous la forme de bâtons) au diffractogramme pour déterminer les fiches qu'il retient. Ainsi, l'algorithme utilise la totalité des points mesurés, et notamment la ligne de fond[16], au lieu de se contenter d'une liste restreinte de sommet de pics ; il prend en compte la superposition des pics (si le bâton d'une fiche se trouve dans une zone où le signal est au-dessus de la ligne de fond, peu importe qu'il soit seul ou qu'il y ait d'autres bâtons) et permet de détecter les phases minoritaires. D'autres sociétés ont par la suite développé des algorithmes similaires.
+Analyse quantitative[modifier | modifier le code]
+Méthode des surfaces de pic[modifier | modifier le code]
+La théorie indique que dans un mélange, la surface nette des pics d'une phase (dite aussi « intensité intégrale ») est proportionnelle à la concentration de la phase moyennant un terme d'absorption : les rayons X sont absorbés par la matière selon une loi de Beer-Lambert, donc 1 % d'un matériau donné ne donne pas le même signal selon les 99 % restant.
+On peut donc écrire une loi de la forme :
+où
+ci est la concentration de la phase i ;
+Ii est l'intensité intégrale d'un pic donné de i ;
+mi est un coefficient d'étalonnage, une constante de du couple appareil/phase ;
+A est le terme d'absorption, qui est le même pour toutes les phases (puisque l'on travaille en rayonnement monochromatique).
+Le coefficient d'étalonnage évolue avec l'âge de l'appareil, et notamment le vieillissement du tube à rayons X.
+On peut s'abstraire de l'absorption de deux manières (méthodes de Chung) :
+en introduisant un étalon interne : si l'échantillon est sous forme de poudre, on peut mélanger une quantité donnée et connue d'une phase de stable r, et l'on travaille alors en rapport d'intensité et de concentration :
+en utilisant une équation supplémentaire : si toutes les phases soient mesurables et mesurées, la somme des concentrations est égale à 100 %, on a alors autant d'équations que d'inconnues.
+Ces deux méthodes permettent également de s'abstraire du vieillissement du tube.
+Si les échantillons sont quasiment identiques, on peut considérer que le terme d'absorption est toujours le même et se contenter d'intégrer celui-ci dans le coefficient d'étalonnage. Cependant, cette méthode devient erronée si l'on sort d'une gamme de concentrations restreinte, et il faut refaire l'étalonnage régulièrement pour prendre en compte le vieillissement du tube, ou bien déterminer la variation d'intensité pour la corriger, méthode dite de « correction de dérive » (drift correction).
+Rapport d'intensité de référence[modifier | modifier le code]
+Si l'on choisit une méthode de préparation de référence avec un étalon interne donné, il est possible d'établir un coefficient d'étalonnage par défaut ; c'est la méthode dite RIR, pour « rapport d'intensité de référence » (reference intensity ratio).
+La méthode qui fait référence est la suivante :
+on prépare l'échantillon sous forme de poudre ;
+on le mélange avec 50 % de corindon (alumine α-Al2O3) et on le mesure ;
+on fait le rapport entre le pic le plus grand de la phase et le pic le plus grand de corindon.
+Ce rapport d'intensité est appelé , et constitue le coefficient d'étalonnage de référence.
+Si maintenant on considère les équations ci-dessus, on a, comme  :
+soit
+Dans le cas général , on a donc :
+En faisant le rapport pour deux phases
+et , on obtient :
+On voit alors que les concentration et intensité du corindon disparaissent des formules. On peut donc mesurer l'échantillon inconnu sans ajouter de corindon et utiliser tout de même les coefficients d'étalonnage établis avec le corindon.
+Cette méthode est dite « semi-quantitative » car il n'est pas possible de définir l'erreur commise sur la mesure. En effet, comme les échantillons de référence n'ont pas la même nature que l'échantillon inconnu et n'ont pas subi la même préparation, il n'est pas possible d'utiliser l'écart type obtenu sur l'étalonnage pour avoir une estimation de l'erreur. Par ailleurs, l'écart type sur l'étalonnage n'est en général pas fourni.
+Méthode de Rietveld[modifier | modifier le code]
+La cristallographie aux rayons X permet de localiser la position de chaque atome de la zéolithe, un aluminosilicate utilisé dans d'importantes applications, telles que la purification de l'eau.
+On peut également faire de la quantification par la méthode de Rietveld : on part de concentrations arbitraires, et on simule le diffractogramme que l'on obtiendrait, en utilisant la théorie de la diffraction. Puis, on ajuste les concentrations afin de rapprocher le diffractogramme simulé du diffractogramme mesuré (méthode des moindres carrés).
+La méthode de Rietveld est une méthode sans étalon, mais elle nécessite d'acquérir un diffractogramme sur une grande plage angulaire avec une bonne précision (donc une mesure longue), alors que la méthode de l'intensité intégrale permet de ne mesurer que des plages de quelques degrés autour des pics intéressants. Mais la méthode de Rietveld est la seule exploitable si l'on ne peut pas utiliser de pic isolés (problèmes de superposition de pics).
+Pour obtenir informatiquement le spectre théorique voulu à l'aide de la méthode de Rietveld, l'expérimentateur peut affiner plusieurs paramètres :
+le bruit de fond (polynôme de degré 5 en général) ;
+le décalage d'origine ;
+et pour chaque phase présente dans l'échantillon :
+les paramètres de maille ;
+le taux de cristallinité ;
+la forme des pics (Gaussien ou Lorentzien) et ajustant le coefficient eta (dans le cas de la pseudo-Voigt, une fonction mathématique possible pour décrire la forme des pics) ;
+la forme du pied des pics (Coefficients de Caglioti) ;
+le facteur d'échelle ;
+la position des atomes dans la maille, afin de déterminer la hauteur des pics.
+Mesure de contraintes[modifier | modifier le code]
+Si le cristal est comprimé ou étiré, les distances interréticulaires varient. Ceci entraîne une variation de la position des pics.
+En mesurant les déplacement des pics, on peut en déduire la déformation de la maille, et donc, à partir des coefficients élastiques, la contrainte résiduelle dans le matériau.
+En faisant varier l'orientation de l'échantillon par rapport au vecteur de diffraction (bissectrice entre faisceau incident et faisceau détecté), on peut mesurer la variation de cette contrainte selon l'orientation de l'échantillon, et donc déterminer le tenseur des contraintes.
+Article détaillé : Détermination du tenseur des contraintes par diffraction.
+Mesure de la texture[modifier | modifier le code]
+Une des hypothèses de la diffraction de poudre avec géométrie de Bragg-Brentano est que toutes les orientations cristallines doivent être respectées. En effet, comme le vecteur de diffraction est toujours perpendiculaire à la surface de l'échantillon, un plan (hkl) ne peut donner un pic que s'il existe des cristallites dont le plan (hkl) est parallèle à la surface.
+Si l'échantillon n'est pas isotrope, alors certains plans donneront des pics moins élevés, d'autres plus élevés qu'une poudre isotrope. Par ailleurs, si l'on incline l'échantillon, le nombre de cristallites dont le plan (hkl) diffracte va varier ; ainsi, en mesurant la hauteur de deux pics pour plusieurs orientations de l'échantillon, on peut déterminer l'orientation globale des cristallites, c'est-à-dire la texture.
+Détermination de structures cristallographiques[modifier | modifier le code]
+Article détaillé : Détermination d'une structure cristalline.
+À partir des intensités diffractées et de la relation inverse (réseau réciproque—réseau réel), il est possible, à partir d'une série d'images de diffraction sur un monocristal, de déterminer l'arrangement tridimensionnel des atomes d'une structure cristalline. Cette méthode a pris une importance considérables ces dernières années pour la détermination de la structure des protéines biologiques.
+On part de figure de diffraction sur monocristal (clichés de Laue). À l'aide d'un logiciel (par exemple Denzo ou XDS[17]), il est possible de déterminer les axes et centres de symétrie d'un cristal et de proposer le système cristallin le plus probable parmi les sept existants (triclinique, monoclinique, orthorhombique, trigonal, tétragonal=quadratique, hexagonal, cubique). C'est ensuite à l'utilisateur de choisir le groupe d'espace le plus approprié : le système choisi est généralement celui qui a la plus haute symétrie afin d'avoir la meilleure résolution (c'est généralement à la fin de l'analyse, lorsque toutes les positions atomiques sont déterminées que peut être précisé le groupe d'espace). Des paramètres de maille sont alors proposés.
+Le facteur de fiabilité R (reliability) permet de calculer le degré de fiabilité de la maille proposée par rapport à la structure cristalline réelle. Quand il atteint une valeur suffisamment faible cela signifie que le modèle de maille est acceptable ; on peut alors passer à l'étape suivante, c'est-à-dire l'intégration des intensités diffractées et l'affinement des paramètres de maille.
+Les amplitudes diffractées sont caractéristiques de la nature et de la position des atomes, en fait de la densité électronique en tout point de la maille. Plus exactement, espace réel (de la structure cristalline) et réciproque (des directions de diffraction) sont liés par transformation de Fourier. Malheureusement, une partie importante de l'information est perdue lors de la collection des images de diffraction, puisque seule la norme des intensités complexes est mesurable par les détecteurs. Les phases, qui portent une part très importante de l'information structurale, sont perdues et doivent être déterminées (expérimentalement et/ou informatiquement). Il est nécessaire d'intégrer un grand nombre de « taches », correspondant à l'intensité des réflexions sur le réseau cristallin.
+Pour les petits composés (mailles contenant peu d'atomes), des procédures ab initio ont été mises au point. Par contre, pour des composés de masse molaire (ou poids moléculaire) plus importante, on utilise des méthodes :
+de dérivation aux atomes lourds ;
+anomales ;
+ou bien de remplacement moléculaire, quand la structure (de l'unité asymétrique) est partiellement connue.
+Par itérations successives, il est alors possible de déterminer les phases manquantes, et par là même d'affiner la structure cristallographique du composé.
+Dans certains cas, on peut utiliser la méthode de Rietveld sur des diffractogrammes de poudre. La préparation est bien moins contraignante — il n'est pas nécessaire d'obtenir un « gros » monocristal —, mais le diffractogramme de poudres contient moins d'informations qu'un cliché de Laue, puisque l'on perd la répartition de l'intensité autour du vecteur de diffraction.
+Références[modifier | modifier le code]
+↑ (en) DOI:A New Method of Chemical Analysis, A. W. Hull, J. Am. Chem. Soc. 41, pp1168–1195 (1919)
+↑ (en) [PDF] Autobiography, A. W. Hull, Fifty Years of X-Ray Diffraction, IUCr
+↑ (en) [PDF] Personal Reminescences, P. Scherrer, Fifty Years of X-Ray Diffraction, IUCr
+↑ (en) Elements of X-ray Diffraction, B. D. Cullity, éd. Addison-Wesley, 1956, p 379
+↑ (en) Introduction to X-ray Powder Diffraction, R. Jenkins, R. L. Snyder, éd. Wiley Interscience, 1996, p335
+↑ (en) DOI:Chemical Analysis by X-Ray Diffraction, J. D. Hannawalt, H. W. Rinn et L. K. Fevel, Ind. Eng. Chem., Anal. Ed. 10, pp 457–512 (1938)
+↑ Méthodes physiques d'étude des minéraux et des matériaux, J.-P. Eberhart, éd. Doin éditeurs, 1976, p209
+↑ (en) Introduction to X-ray Powder Diffraction, R. Jenkins, R. L. Snyder, éd. Wiley Interscience, 1996, p341
+↑ a et b (en) Introduction to X-ray Powder Diffraction, R. Jenkins, R. L. Snyder, éd. Wiley Interscience, 1996, p347
+↑ (en) DOI:A computerized powder identification system, G. G. Johnson Jr., V. Vand, Ind. Eng. Chem vol. 59, p19 (1965)
+↑ (en) A Fortran II program for the identification of X-ray powder diffraction patterns, M. C. Nichols, UCRL-70078, 1966
+↑ (en) DOI:A new minicomputer search/match/identify program for qualitative phase analysis with the powder diffractometer, W. N. Schreiner, C. Surdukowski, R. Jenkins, J. Appl. Crystallogr. vol. 15, pp 513–523 (1982)
+↑ (en) Introduction to X-ray Powder Diffraction, R. Jenkins, R. L. Snyder, éd. Wiley Interscience, 1996, p349-350
+↑ (en) Using digitized X-ray powder diffraction scans as input for a new PC-AT Search/match program, P. Caussin, J. Nusinovici, D. W. Beard, Adv. X-Ray Anal. vol. 31, pp 423–430, 1988
+↑ (en) DOI:Powder diffraction, J. Ian Ianford, D. Louër, Rep. Prog. Phys. vol. 59, pp 131—234 (1996)
+↑ Le bruit de fond suit une loi de Poisson ; ainsi, connaissant le niveau moyen de la ligne de fond (déterminé visuellement par l'utilisateur), on peut connaître l'amplitude des oscillations du fond et donc la taille du plus petit pic détectable
+↑ (en) Wolfgang Kabsch, « XDS », Acta Cryst. D, vol. 66,‎ 2010, p. 125-132 (DOI 10.1107/S0907444909047337, lire en ligne)
+Annexes[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Cristallographie aux rayons X, sur Wikimedia Commons
+Bibliographie[modifier | modifier le code]
+Méthodes physiques d'étude des minéraux et des matériaux, J.-P. Eberhart, éd. Doin éditeurs, 1976
+Elements of X-ray Diffraction, B. D. Cullity, éd. Addison-Wesley, 1956
+Introduction to X-ray Powder Diffraction, R. Jenkins, R. L. Snyder, éd. Wiley Interscience, 1996
+A computerized powder identification system, G. G. Johnson Jr., V. Vand, Ind. Eng. Chem vol. 59, p19, 1965
+A Fortran II program for the identification of X-ray powder diffraction patterns, M. C. Nichols, UCRL-70078, 1966
+A new minicomputer search/match/identify program for qualitative phase analysis with the powder diffractometer, W. N. Schreiner, C. Surdukowski, R. Jenkins, J. Appl. Crystallogr. vol. 15, pp 513–523, 1982
+Using digitized X-ray powder diffraction scans as input for a new PC-AT Search/match program, P. Caussin, J. Nusinovici, D. W. Beard, Adv. X-Ray Anal. vol. 31, pp 423–430, 1988
+Powder diffraction, J. Ian Ianford, D. Louër, Rep. Prog. Phys. vol. 59, pp 131–234, 1996
+Chemical Analysis by X-Ray Diffraction, J. D. Hannawalt, H. W. Rinn et L. K. Fevel, Ind. Eng. Chem., Anal. Ed. 10, pp 457–512, 1938
+A New Method of Chemical Analysis, A. W. Hull, J. Am. Chem. Soc. 41, pp 1168–1195, 1919
+[PDF] Autobiography, A. W. Hull, Fifty Years of X-Ray Diffraction, IUCr
+[PDF] Personal Reminescences, P. Scherrer, Fifty Years of X-Ray Diffraction, IUCr
+[PDF] Fast residual stress mapping using energydispersive synchrotron X-ray diffraction, Alexander M. Korsunsky, Steve P. Collins, R. Alexander Owen, Mark R. Daymond, Saïda Achtioui et Karen E. James 2002
+Articles connexes[modifier | modifier le code]
+Cristallographie
+Ajustement de courbe
+Tube à rayons X#Cas de la diffraction X
+Générateur de rayons X
+Abaque de Greninger
+Méthode de Debye-Scherrer
+Liens externes[modifier | modifier le code]
+(fr) Diffraction des rayons X
+(en) X-ray based methods of analysis, K. Janssens, Université d'Anvers
+(en) CCP14 : Collaborative Computational Project For Single Crystal and Powder Diffraction
+ICDD (International center for diffraction data, ex-JCPDS : Joint commitee on powder diffraction standards)
+(en) Fifty Years of X-Ray Diffraction, IUCr
+(en) Australian X-ray Analytical Association (AXAA)
+(en) X-Ray Interactions With Matter
+Portail de la chimie
+Portail de la physique
+Portail des minéraux et roches
+Portail des sciences des matériaux
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Cristallographie_aux_rayons_X&oldid=109154782 ».
+Catégories : RadiocristallographieDiffractionRayons XMéthode d'analyseCatégories cachées : Catégorie Commons avec lien local identique sur WikidataPortail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Physique/Articles liésPortail:Minéraux et roches/Articles liésPortail:Géologie/Articles liésPortail:Matériaux/Articles liésBon article en anglaisArticle de qualité en espagnol
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Català
+Čeština
+Deutsch
+English
+Español
+فارسی
+Suomi
+עברית
+हिन्दी
+Hrvatski
+Bahasa Indonesia
+Italiano
+Latviešu
+Norsk nynorsk
+Norsk bokmål
+Occitan
+Polski
+Português
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Српски / srpski
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 15 novembre 2014 à 21:24.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

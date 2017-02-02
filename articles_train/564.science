@@ -1,0 +1,205 @@
+Écart type — Wikipédia
+Écart type
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Vous lisez un « bon article ».
+L'écart type (standard deviation en anglais), aussi orthographié écart-type, est une notion mathématique définie en probabilités et appliquée à la statistique. En probabilité, l'écart type est une mesure de la dispersion d'une variable aléatoire ; en statistique, il est une mesure de dispersion de données. Il est défini comme la racine carrée de la variance, ou de manière équivalente comme la moyenne quadratique des écarts par rapport à la moyenne. Il a la même dimension que la variable aléatoire ou la variable statistique en question.
+Les écarts types sont rencontrés dans tous les domaines où sont appliquées les probabilités et la statistique, en particulier dans le domaine des sondages, en physique, en biologie ou dans la finance. Ils permettent en général de synthétiser les résultats numériques d'une expérience répétée. Tant en probabilités qu'en statistique, il sert à l'expression d'autres notions importantes comme le coefficient de corrélation, le coefficient de variation ou la répartition optimale de Neyman.
+Quand l'écart type d'une population est inconnu, sa valeur est approchée à l'aide d'estimateurs.
+Sommaire
+1 Histoire
+2 Contexte général
+3 Applications
+4 En probabilités
+4.1 Définition
+4.2 Exemples
+4.3 Propriétés
+4.4 Usage
+4.4.1 Variable centrée réduite
+4.4.2 Coefficient de corrélation
+4.4.3 Inégalité de Bienaymé-Tchebychev
+5 En statistique
+5.1 Estimateurs
+5.2 Propriétés des estimateurs
+5.3 Écart type des moyennes
+5.4 Écart type des écarts types empiriques
+5.5 Interprétation d'un écart type élevé
+5.6 Sondages d'opinion
+6 En algorithmique
+7 Notes et références
+7.1 Notes
+7.2 Références
+7.2.1 Ouvrages spécialisés
+7.2.2 Articles de revue
+8 Voir aussi
+8.1 Bibliographie
+8.2 Articles connexes
+8.3 Liens externes
+Histoire[modifier | modifier le code]
+fig. 01 - Exemple de deux échantillons ayant la même moyenne mais des écarts types différents illustrant l'écart type comme mesure de la dispersion autour de la moyenne.
+L'écart-type est une grandeur dont l'invention remonte à la période du XIXe siècle qui vit la statistique se développer au Royaume-Uni.
+C'est à Abraham de Moivre qu'est attribuée la découverte du concept de mesure de la dispersion qui apparaît dans son ouvrage The Doctrine of Chances en 1718[b 1]. Mais le terme d'écart type (« standard deviation ») a été employé pour la première fois par Karl Pearson en 1893 devant la « London Royal Society »[b 2]. C'est aussi Karl Pearson qui utilisa pour la première fois le symbole
+pour représenter l'écart type[b 2]. En 1908, William Gosset, plus connu sous le pseudonyme de Student, définit l'écart type empirique d'un échantillon et montre qu'il est important de le distinguer de l'écart type d'une population[b 2]. La variance est une notion qui apparut plus tard, en 1918, dans un texte de Ronald Fisher intitulé The Correlation between Relatives on the Supposition of Mendelian Inheritance[i 1].
+Contexte général[modifier | modifier le code]
+En statistique comme en probabilités, on définit des critères de position ainsi que des critères de dispersion. Dans le domaine des probabilités, la dispersion d'une variable aléatoire réelle X autour de sa moyenne est mesurée par divers indicateurs comme l'écart interquartile, l'étendue, la variance, l'écart type, etc.[b 3].
+En statistique descriptive, où l'étude porte sur une population finie parfaitement connue, la moyenne et la médiane sont utilisées comme critères de position et l'écart type, l'écart moyen, l'étendue, etc. comme critères de dispersion. Tous ces critères aident ensemble à résumer l'échantillon statistique[b 4].
+Dans la pratique, on préfère l'écart type
+(lettre grecque sigma) à la variance , car l'écart type peut être comparé à l'ordre de grandeur des valeurs, ce qui n'est pas le cas de la variance[b 5].
+Applications[modifier | modifier le code]
+fig. 02 - Représentation graphique d'une loi normale. Chaque bande colorée a la largeur d'un écart type.
+L'écart type sert à mesurer la dispersion d'un ensemble de données. Plus il est faible, plus les valeurs sont regroupées autour de la moyenne. Par exemple pour la répartition des notes d'une classe, plus l'écart type est faible, plus la classe est homogène. À l'inverse, s’il est plus important, les notes sont moins resserrées. Dans le cas d'une notation de 0 à 20, l'écart type minimal est 0 (notes toutes identiques), et peut valoir jusqu'à 10 si la moitié de la classe a 0/20 et l'autre moitié 20/20[Note 1].
+En sciences, il est fréquent de considérer que les valeurs se répartissent selon une courbe de Gauss. Dans le cas des sciences sociales, par exemple, la moyenne et l'écart type permettent de déterminer un intervalle dans lequel on trouve une majorité de la population. En effet, si la moyenne est
+et l'écart type est , on trouve 95 % de la population dans l'intervalle
+et on trouve 68,2 % de la population dans l'intervalle [b 6].
+L'écart type est aussi utilisé pour construire un intervalle de confiance attribuable à un échantillon. Si l'on se réfère à la figure ci-contre, on voit qu'un sigma d'écart de part et d'autre de la valeur moyenne recouvre 68,2% de la distribution, deux sigmas d'écart ([, ], 13,6+34,1+34,1+13,6 =) 95,4%, 3 sigmas d'écart ([, ], 2,1+13,6+34,1+34,1+13,6+2,1 =) 99,6% et ainsi de suite... C'est l'usage notamment en physique des particules, où la détection d'évènements est quantifiée en nombre de sigmas, et où un résultat notamment est considéré comme significatif par l'obtention de 5 sigmas, représentant une probabilité d'erreur inférieure à 0,00003 % (niveau de confiance de plus de 99.99997%)[i 2].
+fig.03 - La moyenne mobile est en rouge et les bandes de Bollinger, calculées à l'aide de l'écart type, sont en bleu.
+Dans le domaine de l'analyse technique des cours de la bourse, l'écart type est une mesure de la volatilité des cours [b 7]. Les bandes de Bollinger sont des outils facilitant l'analyse des prévisions boursières. John Bollinger a construit la courbe des moyennes mobiles sur 20 jours et les courbes, de part et d'autre de cette courbe, situées à deux fois l'écart type sur ces 20 jours. John Bollinger a utilisé une définition adaptée de l'écart type[i 3]. En outre, le risque d'un actif boursier et le risque associé au marché sont mesurés par l'écart type de la rentabilité attendue, dans le modèle d'évaluation des actifs financiers de Harry Markowitz[i 4].
+Dans l'industrie, l'écart type intervient dans le calcul de l'indice de qualité des produits manufacturés ou dans l'indice de fidélité d'un appareil de mesure[i 5],[i 6].
+Enfin, en mécanique quantique, le principe d'incertitude d'Heisenberg exprime que le produit des écarts types de la position x et de l'impulsion p d'une particule est supérieur ou égal à la constante de Planck réduite divisée par deux, soit
+[i 7].
+En probabilités[modifier | modifier le code]
+Dans la formulation moderne des probabilités, à la suite des travaux de Henri Lebesgue et à la mise en place de l'axiomatique de Kolmogorov, une variable aléatoire X est une application à valeurs réelles, ou vectorielles[Note 2], suivant une loi de probabilité P. L'application X ne joue pas un rôle fondamental ; seule sa loi importe : l'image de P par X, notée PX. Il s'agit d'une mesure sur
+ou sur [b 8].
+Définition[modifier | modifier le code]
+Si X est une variable aléatoire de carré intégrable, appartenant donc à l'espace [Note 3], son écart type, généralement noté , est défini comme la racine carrée de l'espérance mathématique de (X−E[X])² , soit:
+[Note 4],[i 8].
+L'élévation au carré pour le membre de droite désigne implicitement la norme euclidienne au carré dans le cas où X est à valeurs vectorielles.
+Enfin, l'écart type élevé au carré est égal à la variance.
+Exemples[modifier | modifier le code]
+Cette identité se spécialise dans un grand nombre de cas particuliers, dont celui des variables aléatoires discrètes. Si la variable X prend un nombre fini de valeurs réelles x₁, …, xn, avec des probabilités respectives p₁, …, pn, l'écart type est donné par
+,
+où
+désigne la moyenne . En particulier, si la loi de X est uniforme sur un ensemble fini de valeurs, c'est-à-dire si
+[b 9],
+alors
+,
+où cette fois, .
+Ces formules se généralisent immédiatement en dimension supérieure en remplaçant l'élévation au carré par la norme euclidienne au carré.
+La loi PX est dite continue lorsque la probabilité que X appartienne au segment ]a,b[ est
+où ƒ est une fonction localement intégrable, pour la mesure de Lebesgue par exemple, mais pas nécessairement une fonction continue[b 10]. Cette fonction ƒ s'appelle la densité de probabilité de la loi PX. L'écart type de X est défini par
+où
+et la formule
+est équivalente aussi.
+Avec ces formules et la définition le calcul des écarts types pour les lois couramment rencontrées est aisée. Le tableau suivant donne les écarts types de quelques-unes de ces lois :
+Nom de la loi
+Paramètre(s)
+Description
+Écart type
+Loi de Bernoulli[b 9]
+p
+Loi discrète de valeurs 0 avec probabilité 1-p et 1 avec probabilité p
+Loi binomiale[b 11]
+p et
+Loi de la somme de n variables indépendantes suivant la loi de Bernoulli de paramètre p
+Loi géométrique[b 12]
+p
+Loi discrète sur
+telle que la probabilité d'obtenir l'entier n soit (1-p)pn
+Loi uniforme sur un segment[b 13]
+a<b
+Loi uniformément continue sur
+de densité un multiple de la fonction indicatrice de [a;b]
+Loi exponentielle[b 13]
+p
+Loi uniformément continue de support
+de densité la fonction
+Loi de Poisson[b 14]
+Loi sur
+de densité la fonction
+où
+Loi du χ²[b 15]
+Loi sur
+de densité la fonction
+pour tout x positif où
+est la fonction gamma
+Si la variable X suit une loi log-normale alors
+suit une loi normale et l'écart type de X est relié à l'écart type géométrique[b 16].
+Mais toutes les lois de probabilité n'admettent pas forcément un écart type fini : la loi de Cauchy (ou loi de Lorentz) n'a pas d'écart type, ni même d'espérance mathématique[b 17].
+Propriétés[modifier | modifier le code]
+L'écart type est toujours positif ou nul, celui d'une constante est nul. L'écart type d'une variable aléatoire X à laquelle a été ajoutée une constante [Note 5] est égal à l'écart type de la variable X. Cette propriété est nommée invariance par translation. L'écart type d'une variable multipliée par une constante est égal à la valeur absolue de la constante multipliée par l'écart type de la variable. Cette propriété est nommée invariance par dilatation[Note 6],[b 18]. Ceci peut se résumer par .
+L'écart type de la somme algébrique de deux variables est égal à
+où
+est le coefficient de corrélation entre les deux variables X et Y[b 19].
+La fonction
+admet son minimum au point
+et prend donc pour valeur en ce point l'écart type de la variable [b 20].
+Usage[modifier | modifier le code]
+L'écart type intervient en probabilité pour comparer des variables ou des distributions entre elles.
+Variable centrée réduite[modifier | modifier le code]
+fig.04 - exemples de distributions asymétriques
+fig.05 - exemples de distributions plus ou moins aplaties
+Si X est une variable aléatoire d'écart type non nul, on peut lui faire correspondre la variable centrée et réduite Z définie par . Deux variables aléatoires centrées et réduites
+et
+sont aisées à comparer, puisque
+et [b 21].
+Le théorème central limite a pour objet la limite d'une suite de variables aléatoires centrées réduites[b 22], les coefficients de dissymétrie et d'aplatissement d'une densité de probabilité, , permettent de comparer des distributions différentes[b 23].
+Coefficient de corrélation[modifier | modifier le code]
+Article détaillé : Corrélation (statistiques).
+Le coefficient de corrélation est une autre application de l'écart type en probabilité. Si X et Y sont deux variables aléatoires, on appelle coefficient de corrélation le rapport
+où
+est la covariance des variables X et Y. D'après l'inégalité de Cauchy-Schwarz,  ; ce qui permet de dire que
+prend ses valeurs dans l'intervalle [b 24]. Si
+les deux variables ne sont pas corrélées, si
+les deux variables sont linéairement dépendantes[b 25].
+Inégalité de Bienaymé-Tchebychev[modifier | modifier le code]
+Article détaillé : Inégalité de Bienaymé-Tchebychev.
+C'est grâce à l'inégalité de Bienaymé-Tchebychev que l'écart type apparaît comme une mesure de la dispersion autour de la moyenne. En effet, cette inégalité exprime que [b 3] et montre que la probabilité pour que X s'écarte de E(X) de plus de k fois l'écart type est inférieure à [b 26].
+En statistique[modifier | modifier le code]
+fig.06 - L'écart type sert à indiquer, à l'aide de barres d'erreur, l'incertitude du positionnement du barycentre de chaque groupe d'iris de l'échantillon le long de la direction indiquée par la largeur des sépales.
+Pour une population finie - relativement faible en nombre - le calcul de l'écart type est purement algébrique, sans référence aux probabilités, et le statisticien emploie l'écart type empirique défini par [b 27].
+Mais, en statistique, la population étudiée est souvent très importante en nombre, et il n'est pas possible de connaître toutes les valeurs de la caractéristique considérée. Le statisticien procède par échantillonnage et estimation pour évaluer les grandeurs analysées telles que l'écart type.
+Estimateurs[modifier | modifier le code]
+Un estimateur est une fonction permettant d'approcher un paramètre d'une population à l'aide d'un échantillon tiré au hasard[b 28].
+Deux estimateurs de l'écart type sont généralement utilisés. Ces estimateurs sont notés
+(ou S) et
+(ou S′ ) et s'expriment en fonction des valeurs de l'échantillon par
+et .
+est l'estimateur privilégié[b 29],[b 27].
+En effet, une bonne estimation de l'écart type réel serait
+,
+où
+désigne la moyenne vraie de la distribution des . Malheureusement, le plus souvent on ne connaît pas
+et on doit l'estimer à partir de l'échantillon lui-même grâce à l'estimateur suivant : .
+L'estimateur de l'écart-type se calcule alors par la formule :
+Le fait de faire intervenir non pas n mais n-1 au dénominateur vient du fait que déterminer la moyenne de x à partir de l'échantillon fait perdre un degré de liberté puisque la formule
+relie
+aux valeurs . On a donc seulement n-1 valeurs indépendantes après le calcul de .
+Propriétés des estimateurs[modifier | modifier le code]
+Ainsi, deux propriétés importantes des estimateurs sont la convergence et l'absence de biais[b 27].
+Si
+est un estimateur du paramètre , le biais est la quantité . Si cette quantité est différente de zéro, cela signifie que
+se positionne autour de
+au lieu de se positionner autour de . L'estimateur
+est alors entaché d'erreur. Un bon estimateur n'a pas de biais[b 30]. Un estimateur naturel de l'écart type est
+biaisé mais dont le biais est acceptable[b 31],[Note 7],[i 9].
+Si ,
+converge vers a quand n tend vers l'infini[Note 8]. Or,
+et
+sont des estimateurs convergents de σ², ce qui reflète l'approximation de σ² par ces deux séries lorsque n devient de plus en plus grand[b 30]. Grâce au théorème de continuité, stipulant que si f est continue , la fonction racine carrée étant continue, les estimateurs
+et
+sont convergents eux aussi[Note 9],[b 32]. Ce qui conforte le statisticien à utiliser ces estimateurs.
+Écart type des moyennes[modifier | modifier le code]
+Pour estimer la précision de l'estimation de la moyenne d'une variable, la méthode du calcul de l'écart type de la distribution d'échantillonnage des moyennes est utilisée. Appelé aussi erreur type de la moyenne (« Standard error »), noté , c'est l'écart type des moyennes des échantillons de tailles identiques d'une population. Si n est la taille des échantillons prélevés sur une population d'écart type , et si N est la taille de la population, alors [b 33]. Lorsque l'écart type
+de la population est inconnu, il peut être remplacé par l'estimateur [b 33]. Quand n est suffisamment grand (), la distribution d'échantillonnage suit approximativement une loi de Laplace-Gauss, ce qui permet de déduire un intervalle de confiance, fonction de , permettant de situer la moyenne de la population par rapport à la moyenne de l'échantillon[b 34],[b 35].
+Écart type des écarts types empiriques[modifier | modifier le code]
+En général, il est très difficile de calculer la loi de distribution des écarts types empiriques. Mais si
+est une suite de variables aléatoires distribuées selon la loi normale , alors
+suit une loi du
+à n degrés de liberté[b 15],[Note 10]. Cette loi a pour écart type
+et donc l'écart type de la distribution des écarts types de variables normales a pour expression [b 15].
+Interprétation d'un écart type élevé[modifier | modifier le code]
+La notion d'écart type élevé n'a aucun sens dans l'absolu. Elle ne traduit une forte dispersion que si on rend la valeur adimensionnelle en la divisant par la moyenne [b 5].
+Un écart type élevé peut éventuellement signaler l'existence d'une valeur aberrante. Un critère consiste à rejeter les valeurs qui diffèrent de la moyenne par plus de 3 fois l'écart type, ce qui correspond selon la loi normale à une probabilité de dépassement de l'ordre de 3/1000 [b 36].
+Sondages d'opinion[modifier | modifier le code]
+Dans les sondages d'opinion, l'écart type
+évalue l'incertitude des variations accidentelles de
+inhérentes au sondage, ce qu'on appelle la marge d'erreur due aux variations accidentelles[i 10].
+De plus, avec la méthode d'échantillonnage représentatif, lorsque les différentes strates ont des écarts types très différents, l'écart type est utilisé pour calculer la répartition optimale de Neyman qui permet d'évaluer la population dans les différentes strates en fonction de leur l'écart type ; en d'autres termes
+est la taille de l'échantillon dans la strate i, où n est la taille totale de l'échantillon,
+est la taille de la strate i,
+l'écart type de la strate i[i 10].
+En algorithmique[modifier | modifier le code]
+Le calcul de l'écart type par un programme d'ordinateur peut aboutir à des résultats incohérents si on n'utilise pas un algorithme adapté aux données, comme lorsqu'on utilise celui qui exploite directement la formule
+sur des grands échantillons de valeurs comprises entre 0 et 1[i 11],[i 12].
+Un des meilleurs algorithmes est celui de B.P. Welford qui est décrit par Donald Knuth dans son livre The Art of Computer Programming, Vol 2[i 13],[i 14].
+Une approximation de l'écart type de la direction du vent est donnée par l'algorithme de Yamartino dont on se sert dans les anémomètres modernes[i 15],[i 16].

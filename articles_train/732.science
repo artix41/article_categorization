@@ -1,0 +1,90 @@
+Électrolyse — Wikipédia
+Électrolyse
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Des informations de cet article ou section devraient être mieux reliées aux sources mentionnées dans la bibliographie ou en liens externes.
+Améliorez sa vérifiabilité en les associant par des références.
+Cet article concerne le processus chimique. Pour la méthode épilatoire, voir Épilation#Épilation_définitive.
+Représentation symbolique d'un électrolyseur dans un circuit
+L'électrolyse est une méthode qui permet de réaliser des réactions chimiques grâce à une activation électrique. C'est le processus de conversion de l'énergie électrique en énergie chimique. Elle permet par ailleurs, dans l'industrie chimique, la séparation d'éléments ou la synthèse de composés chimiques.
+L'électrolyse est utilisée dans divers procédés industriels, tels que la production de dihydrogène par électrolyse de l'eau, la production d'aluminium ou de chlore, ou encore pour le placage d'objets par galvanoplastie.
+Sommaire
+1 Historique
+2 Principe
+3 Applications
+3.1 Production d'hydrogène par électrolyse de l'eau
+3.2 Production de chlore
+3.3 Placage
+3.4 Production de cuivre et d'aluminium
+3.5 Production d'ozone
+4 Fondateurs
+5 Épilation
+6 Notes et références
+7 Sources
+8 Voir aussi
+9 Articles connexes
+10 Liens externes
+Historique[modifier | modifier le code]
+La première électrolyse par courant continu (électrolyse de l'eau) a été réalisée le 2 mai 1800 par deux chimistes britanniques, William Nicholson (1753-1815) et Sir Anthony Carlisle (1768-1842), quelques jours après l'invention de la première pile électrique (publication soumise le 20 mars 1800 dans une lettre en français au président de la Royal Society, Joseph Banks) par Alessandro Volta et grâce à celle-ci. J. R. Deiman et A. Paets van Troostwijk avaient déjà réalisé une électrolyse de l'eau en 1789[1] au moyen d'une machine électrostatique et d'une bouteille de Leyde sans réussir à interpréter la réaction observée.
+Principe[modifier | modifier le code]
+Schéma de la synthèse d'hydrogène et d'oxygène par électrolyse de l'eau.
+La matière à décomposer ou à transférer est dissoute dans un solvant approprié, ou fondue de sorte que ses ions constitutifs soient disponibles dans la solution.
+Une différence de potentiel électrique est appliquée entre deux électrodes immergées dans cette solution.
+La cathode est le siège d'une réduction et, l'anode le siège d'une oxydation. Le potentiel de l'anode étant supérieur -ou égal dans une pile court circuitée- au potentiel de la cathode on peut dire que l'anode est la borne positive et que la cathode est la borne négative. Notons que ces bornes sont inversées dans le cas d'une pile.
+Lors du passage d'un courant électrique continu, les électrodes attirent à elles les ions de charge opposée. Mais il est faux de dire que l'électrolyse se résume à l'oxydation des anions à l'anode et à la réduction des cations à la cathode. En effet, il est aussi possible d'oxyder des cations à l'anode. Par exemple :
+ou de réduire des anions à la cathode, par exemple hexacyanoferrate(III) donne hexacyanoferrate (II) :
+.
+De même, des molécules neutres peuvent réagir aux électrodes ; par exemple la para-quinone est réduite en para-dihydroquinone:
+Cela est possible car le transport des espèces à l'électrode peut se faire par trois mécanismes différents : par migration qui entraine le déplacement des espèces chimiques chargées (ions) dans le champ électrique au sein de la cellule d'électrolyse, par diffusion qui concerne toutes les espèces chimiques pour lequel il existe un gradient de concentration et par convection naturelle ou forcée selon que l'agitation de la solution est due à l'agitation thermique ou à une agitation mécanique.
+Applications[modifier | modifier le code]
+Production d'hydrogène par électrolyse de l'eau[modifier | modifier le code]
+Article détaillé : Électrolyse de l'eau.
+Schéma du voltamètre d'Hoffmann utilisé pour l'électrolyse de l'eau.
+L'électrolyse peut être utilisée pour décomposer l'eau (H2O) en dihydrogène (H2) et en dioxygène (O2).
+Réactions :
+Oxydation à l'anode (reliée au pôle + du générateur) :
+Réduction à la cathode (reliée au pôle - du générateur) :
+Globalement, nous avons :
+Néanmoins, si cette méthode est efficace (rendement Faraday de 90 % en solution alcaline), elle n'est pas la moins chère pour produire du dioxygène et du dihydrogène industriellement. On préfère souvent extraire le dioxygène de l'air, et le dihydrogène par reformage du méthane : CH4. Mais contrairement à l'électrolyse, cette méthode produit également du CO2 (voir l'article dihydrogène)
+Remarque : lorsque de l'eau est électrolysée, l'eau lourde (contenant l'isotope lourd deutérium à la place de 1H) a tendance à se dissocier en fin d'électrolyse, puisque la liaison D-O est légèrement plus forte que le liaison 1H-O de l'eau légère (eau "normale" 1H2O).
+Production de chlore[modifier | modifier le code]
+Article détaillé : Électrolyse chlore-soude.
+Le dichlore est un gaz jaunâtre toxique. On utilise actuellement des électrolyseurs qui utilisent l'électrolyse d'une solution aqueuse de NaCl pour produire des ions hypochlorites à l'usage du traitement de l'eau des piscines.
+Placage[modifier | modifier le code]
+La galvanoplastie, ou placage d'objets par électrolyse, consiste à recouvrir des objets d'une mince couche régulière d'un métal généralement précieux ou d'un alliage: dorure, argenture, nickelage, chromage, cadmiage, cuivrage...
+Par exemple, une bague est plongée dans une solution de chlorure d'argent (Ag+ + Cl-) reliée à un générateur.
+Les ions d'argent vont se déposer sur l'anneau selon la réaction d'oxydo-réduction : Ag+(aq) + e- → Ag(s). On obtient ainsi un anneau plaqué argent, cette technique s'appelle l'argenture.
+Plus généralement, les dérivés chimiques d'un métal donné peuvent être utilisés à des fins de placage avec ce dernier. Ainsi, on peut couvrir un objet métallique de cuivre avec le bain de sulfate de cuivre qu'on utilise d'ordinaire pour traiter la vigne.
+On peut tester avec l'expérience suivante avec:
+Une source de courant continu réglable, capable de délivrer de 1 à 10 ampères.
+Un récipient pour le bain (ne doit pas être métallique).
+La cathode (-) est reliée à la pièce à plaquer, l'anode (+) est reliée à un morceau de cuivre qui servira à alimenter le placage. Les deux électrodes sont plongées dans le bain, à quelques centimètres l'une de l'autre, et on fait passer le courant autant de temps que nécessaire.
+Facteurs favorisant le phénomène :
+Concentration du bain : plus le bain est concentré, plus le placage est rapide.
+Surface de la pièce à plaquer : plus la surface de la pièce est grande, plus l'intensité électrique doit être élevée.
+La vitesse du dépôt : elle est proportionnelle à la quantité de courant traversant la pièce à plaquer.
+La température : la chaleur favorise le rendement du bain.
+Le chromage de pièce en acier se déroule ainsi :
+La pièce métallique constituant la cathode est plongée avec une anode en chrome dans une solution (l'électrolyte) contenant des ions de chrome (Cr3+) ;
+Le générateur positionné entre l'anode et la cathode délivre un courant continu ;
+La pièce métallique gagne des électrons et attire les ions de chrome qui adhérent à sa surface.
+Production de cuivre et d'aluminium[modifier | modifier le code]
+Article détaillé : Réduction électrolytique de l'aluminium.
+L’aluminium primaire est obtenu par électrolyse de l’alumine .Le procédé consiste à réduire par électrolyse de l’alumine dissoute dans un bain de cryolithe (fluorure double d’aluminium et de sodium – AlF3, 3NaF) fondue à environ 950 °C, dans une cuve traversée par un courant électrique de haute intensité. Soumis à l’action du courant électrique continu, les ions sont transportés aux deux électrodes.
+L’électrode positive attire les ions négatifs, l’oxygène (O2-). L’anode est placée en haut du creuset où s’effectue l’électrolyse ; l’oxygène peut ainsi se dégager sous forme de CO2 gazeux, après avoir brûlé le carbone qui constitue l’anode.
+L’électrode négative, attire les ions positifs, l’aluminium (Al3+). La cathode est située au fond du creuset où l’aluminium plus lourd que le bain se dépose et reste sous forme d’une couche de métal liquide à haute température. Ce métal liquide est régulièrement aspiré et transporté en fonderie, pour être solidifié sous forme de demi-produit (lingot, billette, plaque de laminage).
+Le phénomène global se traduit par la réaction : 2 Al2O3 + 3 C = 4 Al + 3CO2
+L'affinage industriel du cuivre brut s'effectue par électrolyse d'anodes de cuivre brut dans un bain de sulfate de cuivre. Le cuivre pur (jusqu'à 99,95 %) se fixe sur la cathode, les impuretés restant dans le bain.
+Production d'ozone[modifier | modifier le code]
+Le passage de courant électrique permet de décomposer l'eau en ses différents éléments : Oxygène et Hydrogène. Les atomes libres d’oxygène sont très réactifs : ceux-ci peuvent se recombiner en ozone (O3). La quantité d'ozone généré est proportionnelle à la charge qui traverse la cellule (suivant la loi de Faraday), donc proportionnelle au courant électrique. Remarque : la dissolution de l'ozone dans l'eau étant plus efficace lorsque la température diminue et lorsque l'eau présente le moins d'électrolytes possible, il est recommandé d'utiliser de l'eau déminéralisée et rafraîchie (l'idéal serait une eau dont la température avoisinerait 1°C).
+Fondateurs[modifier | modifier le code]
+Les scientifiques pionniers de l'électrolyse sont :
+William Nicholson (1753-1815) et Sir Anthony Carlisle (1768-1840) réalisèrent la première électrolyse le 2 mai 1800.
+Michael Faraday, scientifique britannique, est l'un des créateurs de l'électrochimie, avec Humphry Davy et avec le scientifique italien Carlo Matteucci.
+Svante Arrhenius
+Adolph Wilhelm Hermann Kolbe
+Épilation[modifier | modifier le code]
+Des médecins ont développé une technique d'épilation basée sur l'utilisation de l'électrolyse:
+le Dr Charles Eugene Michel, ophtalmologiste américain, a eu l'idée en 1875 d'insérer une fine aiguille chargée de courant galvanique dans les follicules pileux chez un de ses patient, à des fins d'épilation.
+le Professeur Paul M. Kree, technicien et inventeur, a mis sur pied en 1916 le type d'appareil à multiples aiguilles.
+Van Zeynik fut en 1899 le premier à observer que les tissus organiques peuvent être chauffés par un courant de haute fréquence.

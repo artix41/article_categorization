@@ -1,0 +1,149 @@
+Électrophorèse en gel d'agarose — Wikipédia
+Électrophorèse en gel d'agarose
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cuve remplie de tampon et transformateur utilisés pour l'électrophorèse en gel d'agarose
+L'électrophorèse en gel d'agarose est une méthode utilisée en biochimie et en biologie moléculaire pour séparer l'ADN, l'ARN ou des protéines en fonction de leur poids moléculaire.
+La technique de l'électrophorèse en gel d'agarose est basée sur la séparation des acides nucléiques chargés négativement sous l'effet d'un champ électrique. Cette séparation s'effectue à travers la matrice du gel d'agarose : les molécules de plus petites tailles se déplacent plus rapidement et migreront plus loin que les molécules de tailles supérieures[1].
+Sommaire
+1 Applications
+2 Facteurs affectant la migration
+3 Gel d'agarose
+3.1 Agarose
+3.2 Tampons
+3.3 Préparation
+3.4 Révélation de l'ADN
+3.5 Limites de résolution
+4 Analyse du gel
+5 Références
+Applications[modifier | modifier le code]
+Estimation du poids moléculaire de fragment d'ADN après une digestion par des enzymes de restriction
+Analyse d'ADN après une amplification par PCR
+Séparation de fragments ADN digérés avant Southern blot ou d'ARN dans le cas de Northern Blot.
+Les avantages de l'électrophorèse en gel d'agarose sont les suivants:
+préparation aisée, rapide, et peu coûteuse des gels d'agarose
+pas de dénaturation des échantillons
+l'agarose plus ferme et moins toxique que le gel de polyacrylamide
+les échantillons peuvent être récupérés en vue d'analyses supplémentaires
+Facteurs affectant la migration[modifier | modifier le code]
+Le facteur le plus important est la longueur de la molécule d'ADN : la séparation se fait en fonction du poids moléculaire et donc de la taille de l'ADN. Toutefois la conformation de l'ADN est aussi un facteur important. Ainsi pour éviter les problèmes liés à cette conformation, n'est séparé sur gel d'agarose uniquement que de l'ADN linéaire (fragment d'ADN issu d'une digestion, ADN amplifié par PCR ou encore de l'ADNc).
+L'augmentation de la concentration d'agarose dans un gel réduit la vitesse de migration et permet la séparation de fragment d'ADN de plus petite taille. Plus le voltage est important, plus la vitesse de migration augmente. Toutefois le voltage est limité en intensité, effectivement un fort voltage induit une augmentation de température ce qui peut faire fondre le gel.
+La conformation d'ADN plasmidique, non digéré par une enzyme de restriction, migre à différentes vitesses (du plus lent au plus rapide) : ADN circulaire, ADN linéaire et ADN superenroulé.
+Gel d'agarose[modifier | modifier le code]
+On utilise généralement un gel 1 % m/V (1 g d'agarose pour 100 ml de volume final) en électrophorèse. Plus on veut un gel discriminant, plus on augmentera le pourcentage d'agarose.
+Agarose[modifier | modifier le code]
+L’agarose est un polymère à base d'agar purifié. Différentes puretés d'agarose sont disponibles auprès des fournisseurs. En général, de l'agarose de grande pureté à la solidification lente est utilisé lorsque l'ADN doit être extrait du gel après migration.
+Tampons[modifier | modifier le code]
+Il existe un nombre très varié de tampons. Les plus souvent utilisés sont le Tris/Acétate/EDTA (TAE), le Tris/Borate/EDTA (TBE) et le sodium borate (SB).
+Le TAE possède le plus faible pouvoir tampon mais produit une meilleure séparation pour les fragments d'ADN de grande taille.
+Le SB est relativement nouveau et inefficace pour la séparation de fragments d'ADN d'une taille supérieure à 5000 paires de bases (5 kb). Cependant sa faible conductivité permet l'utilisation d'un plus fort voltage (jusqu'à 35V/cm), ceci réduisant considérablement le temps de migration.
+Des fragments d'ADN avec seulement quelques paires de bases de différences sont séparés en utilisant un gel d'agarose à 3 % et avec un tampon SB de très faible conductivité (1 mM lithium borate)[2].
+Préparation[modifier | modifier le code]
+Exemple pour un mini-gel de 50 ml destiné à séparer des fragments de 2 à 6 kb
+Préparer le moule et le peigne appropriés au nombre et au volume des échantillons à séparer.
+Préparer suffisamment de tampon (TAE, TBE) pour remplir la cuve (par exemple 200 ml) et préparer le gel (50 ml).
+Dans une fiole Erlenmeyer, peser la quantité d'agarose déterminée d'après le tableau suivant et en fonction de la taille des fragments à séparer:
+Pouvoir de séparation d'ADN linéaire, double brin, selon la concentration d'agarose du gel[3]
+Concentration d'agarose (% en m/V)
+Gamme de tailles idéales (en kb)
+0.3
+5 – 60
+0.6
+1 – 20
+0.7
+0.8 – 10
+0.9
+0.5 – 7
+1.2
+0.4 – 6
+1.5
+0.2 – 3
+2.0
+0.1 – 2
+Pour l'exemple, il faudra donc fondre 600 mg d'agarose dans 50 ml de tampon: concentration finale de 1,2 %, idéale pour séparer des fragments de 0.6 à 6 kb.
+Dissoudre complètement l'agarose dans le tampon, en plaçant l'Erlenmeyer soit au four à micro-ondes, soit encore dans un bain marie d'eau bouillante, et en agitant de temps en temps. L'agarose est totalement dissout lorsque les grains, initialement visibles sous forme de petites lentilles, ont complètement disparu.
+Mettre sous agitation et laisser refroidir, ou placer dans un bain-marie à environ 50°C (température supportable au toucher). Éventuellement, refroidir plus rapidement en laissant couler un filet d'eau froide le long de l'Erlenmeyer, en agitant constamment. Il est particulièrement important de refroidir l'agarose en dessous de 60°C lors de l'utilisation de moules en PMMA, qui risquent sinon de fondre.
+Si désiré, du bromure d'éthidium peut maintenant être rajouté, à une concentration finale de 0.5 µg/ml. Il est cependant déconseillé d'ajouter à la place du bromure d'éthidium certains autres révélateurs (par exemple du SYBR Gold, un fluorophore semblable au (SYBR Green I) directement dans le gel, car ceux-ci peuvent affecter la mobilité des acides nucléiques lors de l'électrophorèse.
+Couler l'agarose dans le moule avec le peigne et laisser refroidir. Un gel froid et figé prêt à l'emploi se reconnaît par son apparence opalescente lorsqu'il est observé par la tranche, par rapport à un gel encore liquide qui est parfaitement translucide. Emballé dans du film plastique ou dans du tampon (TAE, TBE ou SB), le gel peut alors être conservé à 4°C au réfrigérateur pendant plusieurs jours, avant qu'il ne perde trop d'eau par évaporation. La conservation de gels contenant du bromure d'éthidium dans du tampon n'en contenant pas peut conduire à la diffusion du révélateur hors du gel. Ceci peut faire que la distribution du bromure d'éthidium dans le gel soit inhomogène, ce qui finalement peut affecter l'apparence des bandes (les acides nucléiques, de charge négative, migreront plus vite là où la concentration du révélateur, de charge positive, sera plus faible).
+Juste avant d'effectuer l'électrophorèse, placer le gel dans la cuve et s'assurer qu'il est recouvert de tampon. Retirer ensuite le peigne, charger les échantillons et les standards, et faire migrer en appliquant une tension ou un courant adaptés. La vitesse de migration des acides nucléiques dépendant du champ électrique, on fixe généralement la tension entre 1 et 5 V par cm (distance entre les électrodes) et on laisser varier le courant (parce que la conductivité du gel varie au cours du temps).
+Révélation de l'ADN[modifier | modifier le code]
+Gel d'électrophorèse sous UV
+La méthode de révélation la plus utilisée est la révélation au bromure d'éthidium ou BET. Le bromure d'éthidium est un agent d'intercalation couramment utilisé comme marqueur d'acide nucléique dans les laboratoires de biologie moléculaire. Lorsqu'il est exposé à des rayonnements ultraviolets, il devient fluorescent avec une couleur rouge-orangée, 20 fois plus intense lorsqu'il est lié à l'ADN. Cet effet serait dû à l'augmentation de l'hydrophobie de l'environnement, plutôt qu'à une rigidification du cycle benzénique, celui-ci n'étant pas situé entre les paires de bases.
+Alternativement, le gel peut être incubé dans un bain contenant du SYBR Green I (pour les acides nucléiques doubles brins) ou du SYBR Green II (pour détecter aussi les acides nucléiques simples brins). Le SYBR Green présente l'avantage d'une moindre toxicité et d'une sensibilité plus élevée permettant de détecter des quantités plus faibles d'acides nucléiques.
+Limites de résolution[modifier | modifier le code]
+L'électrophorèse en gel d'agarose permet théoriquement la séparation de fragments d'ADN d'une taille allant de 50 paires de bases à plusieurs millions. Cependant, elle est généralement utilisée pour la séparation de fragment d'une taille allant de 100 pb à 20 kpb. La durée moyenne de migration est d'une heure.
+Les petits fragments d'acides nucléiques sont mieux séparés par électrophorèse sur gel de polyacrylamide. Les fragments de tailles importantes sont plus difficiles à séparer. En général, l'utilisation de gel d'agarose à forte concentration (3 à 4 %) est alors nécessaire pour des fragments inférieurs à 150 pb, car elle permet une meilleure séparation et résolution des différentes bandes en fonction de leur différence de taille. Le principal désavantage est le temps de migration, qui peut aller jusqu'à plusieurs jours. Pour pallier ces problèmes, il est avantageux d'effectuer une électrophorèse en champ pulsé ou bien une électrophorèse en champ inversé.
+Analyse du gel[modifier | modifier le code]
+Échelle de marqueur de poids moléculaire.
+Après la migration d'électrophorèse, le gel est éclairé sous ultraviolet afin d'observer les bandes d'ADN fluorescente.
+Les bandes peuvent être alors découpées et séparées du gel, puis dissoutes afin de récupérer l'ADN purifié. L'estimation de la taille des fragments est faite grâce à la comparaison avec l'échelle de marqueur de taille moléculaire (DNA-ladder) utilisée simultanément dans un autre puits lors de la migration.
+Le gel est généralement pris en photo avec un appareil photo numérique. Bien que la couleur de l'ADN fluorescent soit rouge-orangée, les photographies sont publiées en noir et blanc (voir schéma ci-dessous).
+Les gels d'électrophorèse utilisés en vue de publications sont le plus souvent analysés en utilisant des logiciels informatiques, comme par exemple ImageJ.
+1
+2
+3
+Un gel d'agarose avant éclairage sous ultraviolets
+Le gel est exposé à des rayonnements ultraviolets, le BET colore l'ADN en une couleur rouge-orangée.
+du gel. Puits 1. Échelle de marqueur de poids moléculaire (1kbplus), Puits 2. vide, Puits 3. Un produit de PCR d'une taille légèrement supérieure à 500 paires de bases, Puits 4. Fragment d'environ 4.5kb d'un Plasmide digéré par une enzyme de restriction
+Références[modifier | modifier le code]
+↑ Sambrook J, Russel DW (2001). Molecular Cloning: A Laboratory Manual 3rd Ed. Cold Spring Harbor Laboratory Press. Cold Spring Harbor, NY.
+↑ Brody JR, Calhoun ES, Gallmeier E, Creavalle TD, Kern SE (2004). Ultra-fast high-resolution agarose electrophoresis of DNA and RNA using low-molarity conductive media. Biotechniques. 37:598-602. [1]
+↑ Sambrook J, Russel DW (2001). Molecular Cloning: A Laboratory Manual 3rd Ed. Cold Spring Harbor Laboratory Press. Cold Spring Harbor, NY.
+Portail de la biochimie
+Portail de la biologie cellulaire et moléculaire
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Électrophorèse_en_gel_d%27agarose&oldid=110087662 ».
+Catégories : ÉlectrophorèseProtéomiqueTechnique de biologie moléculaireCatégories cachées : Portail:Biochimie/Articles liésPortail:Biologie/Articles liésPortail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Biologie cellulaire et moléculaire/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Català
+Deutsch
+English
+Italiano
+日本語
+Slovenščina
+Modifier les liens
+Dernière modification de cette page le 19 décembre 2014 à 16:42.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

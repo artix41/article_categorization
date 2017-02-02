@@ -1,0 +1,135 @@
+Hotte (laboratoire) — Wikipédia
+Hotte (laboratoire)
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir hotte.
+Cet article est une ébauche concernant la chimie et la science.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Une sorbonne
+Une hotte de laboratoire est un dispositif qui permet l'extraction des vapeurs toxiques des produits utilisés lors de manipulations. Sa fonction première est de protéger le manipulateur. Les vapeurs sont extraites du volume de travail puis, soit traitées par une filtration (à charbon et/ou à particules), soit rejetées vers l'extérieur.
+Le système d'évacuation de l'air vicié dans un laboratoire se fait par ce que le commun des mortel appelle une hotte. En réalité, il y a lieu de différencier deux types d'appareillages :
+la hotte : initialement une évacuation en forme d'entonnoir entraînant l'évacuation de l'air par dépression naturelle. Aujourd'hui, elle est toujours équipée d'un ventilateur permettant une évacuation régulière et pour plus d'efficacité, souvent de parois latérales. Elle s'utilise au-dessus d'appareils (fours, appareils de distillation, etc.) ou de postes de travail nécessitant de l'espace (manipulations difficiles telles que soudures…) ;
+la sorbonne : dont le nom vient directement de l'université du même nom, est une hotte munie de parois latérales, mais aussi d'une paroi frontale (presque toujours à guillotine) et d'un registre de fond permettant l'aspiration haute et basse des vapeurs. Elle offre la meilleure protection à l'opérateur et à l'environnement.
+Sommaire
+1 Typologie
+2 Autres types de hottes
+2.1 Hotte à flux laminaire
+2.2 Poste de sécurité microbiologique
+2.3 Poste de pesée sécurisé
+3 Article connexe
+Typologie[modifier | modifier le code]
+Il existe deux types de hottes de laboratoire :
+les hottes à filtration sur charbons actifs (norme ETRAF), sans raccordement sur l'extérieur, donc à recyclage permanent dans le local de travail. Celles-ci fonctionnent sur le principe de l'adsorption chimique. Leurs limites : la spécificité des filtres et leur saturation ;
+les hottes et sorbonnes à extraction vers l'extérieur.
+Le choix se fait selon la valeur moyenne d'exposition (VME) du produit le plus toxique utilisé :
+VME supérieure à 400 ppm : hotte d'aspiration, sans registre ni glace frontale ;
+VME comprise entre 1 et 400 ppm : sorbonne de laboratoire ;
+VME inférieure à 1 ppm : système clos et étanche type boîte à gants.
+Les VME des produits chimiques peuvent être consultées sur le site Internet de l'INRS.
+Une hotte ou sorbonne de laboratoire (sauf à filtre CA) doit être équipée d'un extracteur (ventilateur) aspirant les vapeurs pour les rejeter à l'extérieur. La norme européenne NF EN 14 175 et son extension française XPX 15 206 imposent des contraintes bien précises sur la fabrication des sorbonnes. Depuis 2006, elles ne contiennent plus aucune indication de vitesse minimale d'air en façade des sorbonnes. La seule contrainte chiffrée incluse dans la norme française concerne la mesure de confinement.
+Autres types de hottes[modifier | modifier le code]
+Hotte à flux laminaire[modifier | modifier le code]
+Article détaillé : Hotte à flux laminaire.
+En biologie, on trouve des hottes à flux laminaire. Une hotte à flux laminaire génère un air purifié en particules (par exemple, une hotte équipée d'un filtre absolu type HEPA arrête 99,99 % des particules supérieures à 0,3 μm) et surtout, sans perturbations aérauliques. Ici, un flux est dit « laminaire », si en chaque point de la section du flux, la vitesse ne diffère pas de la vitesse moyenne du flux de +/- 20 %. Un flux laminaire est donc unidirectionnel et homogène. Il existe deux grandes catégories de hottes à flux laminaire :
+les flux laminaires horizontaux : l'air traité sur le (ou les) filtre(s) est soufflé vers le manipulateur. Cette technique protège le produit mais pas le manipulateur ni l'environnement des contaminants ;
+les flux laminaires verticaux : l'air est soufflé du « plafond » de la hotte par un filtre à haute efficacité (HEPA). Il ressort soit par la façade (protection idem au flux horizontal), soit il est repris par des perforations sur les parois latérales ou arrière, l'empêchant de ressortir vers le manipulateur et l'environnement. Dans ce cas, l'air rejeté (30 % du flux total) est évacué après passage sur un second filtre absolu.
+Poste de sécurité microbiologique[modifier | modifier le code]
+Article détaillé : Poste de sécurité microbiologique.
+La norme NF EN 12469 (2000) est consacrée à la description des performances des postes de sécurité microbiologique (PSM) qui sont des hottes à flux laminaire verticales ou horizontales selon le type, généralement utilisées pour la maîtrise des risques biologiques et bactériologiques. La norme définit trois types de PSM :
+PSM de type I : protège l'opérateur et l'environnement, flux d'air en aspiration par une ouverture frontale permettant la manipulation à l'intérieur du poste. Le flux d'air sortant est lui aussi filtré ;
+PSM de type II : protège l'opérateur, la manipulation et l'environnement. Le flux d'air est soufflé verticalement à travers un filtre HEPA sur le plan de manipulation(l'air est de ce fait « propre » et donc empêche la contamination des échantillons). Des perforations de reprises, ou du plan de travail selon les fabricants aspirent le débit l'air soufflé du filtre plus un débit supplémentaire provenant de l'ouverture frontale de manipulation. Ce débit d'air frontal aspiré par la hotte permet de protéger le manipulateur en évitant toute sortie de danger microbiologique. Enfin l'air est rejeté au travers d'un autre filtre HEPA protégeant l'environnement de toute éventuelle pollution ;
+PSM de type III : enceinte complètement fermée assurant une séparation physique totale entre le manipulateur et l'intérieur de la hotte. Les manipulations se font par le biais de gants, d'où le nom de « boîtes à gants ». À l'intérieur l'air est filtré et donc « propre ». L'air rejeté est également filtré de manière à empêcher toute pollution.
+D'une manière générale, les principes de hotte de laboratoire sont repris dans la maîtrise de l'aérocontamination de salles complètes : les salles « propres » (à environnement maîtrisé).
+Poste de pesée sécurisé[modifier | modifier le code]
+Dans les laboratoires de R&D des industries pharmaceutiques entre autres, le processus de pesée peut exposer les manipulateurs à des substances CMR. Pour les protéger, ainsi que leur environnement de travail, il convient d'utiliser des postes de pesée sécurisés. Le principe est de contenir à l'intérieur d'une hotte toutes les émanations de poudres ou de vapeurs toxiques. L'air de la cabine est aspiré vers des filtres qui les retiennent. Pour les particules (y compris les nanoparticules pour certains modèles de poste), un filtre absolu HEPA H14 efficace à 99,995 % est utilisé.
+Dans le cas du pesage sous flux d'air, les balances de microanalyse (jusqu'à 1 μg) ne doivent pas être perturbées. Le flux laminaire horizontal entrant, une embase massive et rigide en céramique et un ensemble de ventilation déporté peuvent être utilisés.
+Le système comporte aussi un changement sécurisé du filtre de façon à ne pas contaminer le laboratoire lors des opérations de maintenance.
+Article connexe[modifier | modifier le code]
+Salle blanche
+v · d · m
+Équipement de laboratoire
+Équipement de sécurité en laboratoire
+Boîte à gants · Couverture antifeu · Chaussures de sécurité · Déclencheur d'alarme incendie · Détecteur et avertisseur autonome de fumée · Douche de sécurité · Douche portative de sécurité · EPI · Extincteur · Hotte · Oxymètre
+Équipement de laboratoire
+(hors sécurité)
+Agitateur · Appareil de mesure d'épaisseur de revêtement · Autoclave · Automate · Bain-marie · Bain thermostaté · Balance · Bec Auer · Bec Bunsen · Bec Meker · Boy · Calorimètre · Centrifugeuse · Chambre d'essais · Chauffe-ballon · Chronomètre · Colorimètre · Cryostat · Échangeur d'ions · Enregistreur de données · Étuve · Évaporateur rotatif · Fabricants · Lecteur de plaques · Machine de traction · Manomètre · Marbre · Microscope · Minuterie · Paillasse · Papier essuie-tout · Papier Joseph · Papier lentille · Plaque chauffante · pH-mètre · Pompe à vide · Presse hydraulique · Réfractomètre · Réfractomètre hyperfréquence · Réfrigérateur · Soude sachet · Spatule · Spectromètre · Spectrophotomètre · Tamiseuse · Thermocycleur · Thermo-hygrographe · Thermomètre · Thermostat · Titrateur · Trompe à eau · Viscosimètre
+Verrerie de laboratoire
+Ampoule à brome · Ampoule à décanter · Ballon · Bécher · Boîte de Petri · Burette · Colonne de Vigreux · Colonne desséchante · Creuset · Cristallisoir · Cuvette · Dame-jeanne · Dean Stark · Débitmètre · Dessiccateur · Entonnoir · Entonnoir Büchner · Éprouvette graduée · Erlenmeyer · Eudiomètre · Fiole à vide · Fiole jaugée · Flacon laveur · Hydromètre · Mortier et pilon · Pipette * Pipette automatique * Pipette Pasteur · Pissette · Plaque microtitre · Pycnomètre · Rampe à vide · Réfrigérant · Soxhlet · Tube à essai * Microtube * Tube de 15 ml * Tube de 50 ml * Tube de Nessler · Tube de sûreté (tube Thistle) · Tube de Thiele · Vase Dewar · Verre de montre
+Portail de la chimie
+Portail des sciences
+Portail de la biologie
+Portail de la biochimie
+Portail de la biologie cellulaire et moléculaire
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Hotte_(laboratoire)&oldid=109995461 ».
+Catégorie : Équipement de laboratoireCatégories cachées : Wikipédia:ébauche chimieWikipédia:ébauche sciencePortail:Chimie/Articles liésPortail:Sciences/Articles liésPortail:Biologie/Articles liésPortail:Biochimie/Articles liésPortail:Biologie cellulaire et moléculaire/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Čeština
+Dansk
+Deutsch
+English
+Español
+فارسی
+Suomi
+עברית
+Hrvatski
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Lietuvių
+Nederlands
+Norsk nynorsk
+Polski
+Português
+Русский
+Simple English
+Svenska
+中文
+Modifier les liens
+Dernière modification de cette page le 16 décembre 2014 à 03:22.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

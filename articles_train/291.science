@@ -1,0 +1,152 @@
+Extensivité - intensivité — Wikipédia
+Extensivité - intensivité
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Les grandeurs extensives et intensives sont des catégories de grandeurs physiques. Intuitivement, une propriété d'une chose considérée est extensive si elle est proportionnelle à la quantité de cette chose : par exemple, la masse ou le volume. Une propriété est intensive si elle est indépendante de la quantité : par exemple, la température ou la pression. Si deux chevaux courent côte à côte et chacun à 60 km/h, à eux deux ils font un ensemble allant aussi à 60 km/h (la vitesse est intensive), par contre à eux deux ils font un passage deux fois plus imposant qu'un cheval seul (débit, puissance et masse sont doublés : ce sont des grandeurs extensives).
+Le produit d'une variable intensive (par ex. la pression P) par une extensive (par exemple le volume V) donne une variable extensive (P.V est une énergie) ; le quotient de deux variables extensives (par exemple la masse divisée par le volume) donne une variable intensive (la masse volumique).
+Cette catégorisation est imparfaite : certaines variables ne sont pas parfaitement extensives. Par exemple, la masse d'un corps n'est pas la somme des masses de ses particules car une partie de leur masse est utilisée sous forme d'énergie de liaison. Il en est de même de variables intensives définies comme quotient de deux variables imparfaitement extensives.
+Sommaire
+1 Introduction
+2 Extensivité
+2.1 Définition
+2.2 Exemples
+2.3 Limite thermodynamique et approche mathématique
+2.4 Exemple : l'énergie interne
+2.4.1 « Preuve » élémentaire
+2.4.2 Preuve rigoureuse ?
+3 Intensivité
+3.1 Définition
+3.2 Exemples
+3.3 Remarque
+4 Lien entre grandeurs extensives et grandeurs intensives
+5 Partition macroscopique
+5.1 Additivité
+6 Notes et références
+7 Articles connexes
+8 Bibliographie
+Introduction[modifier | modifier le code]
+Les propriétés physiques des systèmes, des objets, et des matériaux existant dans la Nature sont souvent décrits à l'aide des notions d'extensivité et d'intensivité, selon une terminologie ancienne mais réintroduite de manière plus systématique par le physicien Richard C. Tolman vers 1917. Ces notions réfèrent au type de dépendance relativement à la taille ou à l'extension spatiale des objets étudiés. Plus précisément, l'étendue spatiale étant divisible (jusqu'à une certaine limite - voir mousse quantique -) cette distinction est basée sur la dépendance de l'objet étudié relativement à la divisibilité de l'étendue spatiale.
+Ainsi une propriété intensive réfère à l'indépendance d'un système relativement à la taille ou la quantité de matière présente dans le système: la température, l'indice de réfraction, la densité etc. sont des variables intensives. Quand un diamant est coupé, les parties générées par cette subdivision gardent leurs propriétés physiques (jusqu'à une certaine limite imposée par la nature du diamant).
+Une propriété extensive est au contraire additive (relativement à ses parties indépendantes et sans intéractions)[1], autrement dit la propriété est proportionnelle à la quantité de matière présente dans le système. Par exemple la masse et le volume du diamant sont des propriétés extensives, mais pas sa dureté.
+Le rapport de deux variables extensives est donc invariant d'échelle, c'est une propriété intensive.
+Extensivité[modifier | modifier le code]
+Définition[modifier | modifier le code]
+En thermodynamique d'équilibre, un paramètre extensif (ou une grandeur extensive) est un paramètre, caractérisant un système physique, qui est proportionnel à la taille de ce système, le système étant supposé à l'équilibre et homogène.
+De manière générale, on dit d'une grandeur G qu'elle est extensive lorsque la somme des valeurs de cette grandeur pour deux systèmes disjoints est égale à la valeur de la grandeur pour la réunion des systèmes.
+Pour cette raison on qualifie aussi souvent les grandeurs extensives d'additives bien que les deux termes ne soient synonymes qu'à la limite thermodynamique.
+De la même manière on peut écrire que G est une variable extensive dépendant par exemple de la quantité de matière n et du volume V si : .
+Exemples[modifier | modifier le code]
+On compte parmi les grandeurs extensives courantes :
+la masse ;
+le nombre de particules ;
+le volume (la surface, la longueur) ;
+la charge électrique ;
+l'avancement chimique ;
+l'entropie ;
+la capacité thermique ;
+l'enthalpie ;
+le débit ;
+les forces.
+En général une grandeur extensive est associée à au moins une grandeur intensive. L'association est d'ailleurs simple puisque le rapport de deux variables extensives est toujours une variable intensive.
+La phrase : « une variable qui n'est pas extensive est une variable intensive », est fausse, car il existe des grandeurs ni extensives, ni intensives comme le carré du volume, par exemple, qui ne respectent pas la condition de linéarité. Même en faisant abstraction du cas académique où l'on prend une puissance arbitraire d'une quantité extensive, on trouve des systèmes thermodynamiques où des quantités fondamentales ne sont ni intensives ni extensives. Par exemple, en thermodynamique des trous noirs, la surface d'un trou noir est proportionnelle au carré de sa masse et non à sa masse. Sa variable conjuguée, la gravité de surface, proportionnelle à la température de Hawking n'est elle aussi ni extensive ni intensive.
+Limite thermodynamique et approche mathématique[modifier | modifier le code]
+Soit un système
+et une grandeur G définie par exemple par le nombre de particule n. G est dite extensive si et seulement si le rapport de G sur n a une limite finie quand n tend vers l'infini :
+On appelle cela le passage à la limite thermodynamique.
+est la densité du système, supposée indépendante de n. La grandeur
+est alors une grandeur intensive associée à G et n.
+On retrouve bien le fait qu'une grandeur extensive est, à la limite thermodynamique, proportionnelle à la taille du système :
+Exemple : l'énergie interne[modifier | modifier le code]
+« Y a-t-il deux fois plus d'énergie dans deux litres d'essence que dans un litre ? »
+La réponse à cette question, qui peut sembler anodine, n'est pas triviale du tout. Elle n'a de chance d'être positive qu'à la limite thermodynamique seulement ; en effet, l'énergie interne U d'un liquide ordinaire est une grandeur extensive bien qu'elle ne soit pas additive !
+« Preuve » élémentaire[modifier | modifier le code]
+Considérons une partition du liquide
+en deux sous-systèmes macroscopiques
+et
+ayant en commun la surface-frontière S. On peut écrire pour l'énergie interne du liquide
+la relation exacte :
+où :
+est l'énergie interne du sous-système .
+est l'énergie interne d'interaction, qui provient de la somme des énergies potentielles d'interactions entre certaines molécules du sous-système
+et d'autres du sous-système
+proches de la frontière, car dans un liquide ordinaire, les forces d'interaction entre molécules semblent à courte portée. La présence de cette énergie d'interaction non-nulle montre clairement que l'énergie interne n'est pas additive en général.
+Montrons cependant que cette énergie d'interaction tend vers zéro à la limite thermodynamique des grands systèmes. Soit l la longueur caractéristique de la portée de l'interaction. Les molécules qui contribuent à l'énergie d'interaction
+sont situées dans un volume v de l'ordre du produit de la surface de séparation S multiplié par la longueur 2 l :
+Soit
+une longueur caractéristique du liquide , de telle sorte que son volume total
+soit de l'ordre de :
+Alors, la surface de séparation S est de l'ordre de :
+de telle sorte que le volume de la zone d'interaction est de l'ordre
+Les forces d'interaction étant supposées à courte portée,
+et on obtient :
+Plus précisément, il vient à la limite thermodynamique :
+On aura donc une énergie d'interaction nulle à la limite thermodynamique :
+Preuve rigoureuse ?[modifier | modifier le code]
+Dans la réalité, les molécules du liquide sont constituées à l'échelle fondamentale de protons, de neutrons et d'électrons, et ces particules interagissent essentiellement via des forces coulombiennes et gravitationnelles qui sont de portée infinie. Il n'est a priori pas du tout évident que les interactions intermoléculaires « résiduelles » soient bien à courtes portées, ce qui rend la « preuve » élémentaire précédente caduque. Plus grave, nous savons que la matière doit être décrite par la mécanique quantique à l'échelle microscopique.
+La première tentative sérieuse de preuve de l'extensivité de l'énergie interne a été proposée en 1950[2]. Mais, dans le cadre de la mécanique statistique classique, cet auteur utilisait un potentiel d'interaction intermoléculaire de type « cœur-dur », donc peu réaliste.
+En 1969 a été démontré[3] dans le cadre de la mécanique quantique qu'un système de N particules en interaction gravitationnelle possédait un état fondamental d'énergie :
+pour des bosons.
+pour des fermions.
+Autrement dit, l'énergie interne n'est jamais extensive dans le cas d'interactions purement gravitationnelles, qui sont toujours attractives.
+En 1967, il a été montré[4] que, dans le cadre de la mécanique quantique d'un système de N particules en interaction électrostatique, ce système possédait un état fondamental d'énergie :
+si toutes les particules d'un des signes de la charge électrique étaient des fermions. L'énergie interne a alors dans ce cas une chance d'être extensive. Mais, dans le cas contraire où il existerait des bosons possédant les deux signes de charge, ces deux auteurs réussissaient seulement à estimer : , ce qui suffit à montrer que l'énergie interne n'est encore pas extensive.
+Intensivité[modifier | modifier le code]
+Définition[modifier | modifier le code]
+En physique et en chimie, une variable intensive est une quantité qui ne dépend pas de la quantité de matière. C'est le contraire d'une variable extensive.
+Une grandeur physique
+est dite intensive si et seulement si pour toute partie d'un système homogène sa valeur reste identique :
+La réciproque est également vraie: on qualifie un système d'homogène si toutes les variables intensives y prennent une valeur identique dans toutes ses sous-parties.
+Exemples[modifier | modifier le code]
+On compte parmi les grandeurs intensives courantes :
+La vitesse ;
+l'accélération ;
+la pression ;
+la température ;
+la densité de particule ;
+la masse volumique ;
+la tension superficielle ;
+l'affinité chimique.
+En général une grandeur intensive est associée à une grandeur extensive.
+Remarque[modifier | modifier le code]
+Le rapport de deux grandeurs extensives étant intensif (par exemple : les densités comme la masse volumique, la densité surfacique de charge, etc.), il est toujours possible de caractériser un système par un jeu de grandeurs ne dépendant pas de la taille ou du nombre de particules du système. En toute rigueur d'ailleurs, une fonction thermodynamique ne doit s'exprimer qu'en fonction de grandeurs intensives afin de rendre la description du système la plus générale possible. On retrouve ce principe dans la théorie des maquettes où la description s'appuie sur des nombres sans dimension (donc naturellement intensifs) afin d'étudier des propriétés transposables aux objets à taille réelle.
+Lien entre grandeurs extensives et grandeurs intensives[modifier | modifier le code]
+En général une grandeur extensive est associée à une grandeur intensive, et vice versa : la température
+est associée à l'entropie , la pression
+est associée au volume , le potentiel chimique
+est associé au nombre de particules , etc.
+En effet, le passage de la description
+d'un système thermodynamique à
+variables
+( à ) en fonction d'une variable extensive
+vers une description
+en fonction de la variable intensive
+associée à
+s'effectue grâce à la transformation de Legendre :
+avec
+.
+On dit que les variables
+et
+sont des variables conjuguées.
+Par exemple, considérons le cas de l'énergie interne . D'après , on voit que
+est la grandeur conjuguée de  :
+Le calcul de l'énergie libre
+consiste donc à faire une transformation de Legendre de l'énergie interne.
+En conclusion, une grandeur extensive est conjuguée à une grandeur intensive, et vice versa.
+Partition macroscopique[modifier | modifier le code]
+Soit
+un système macroscopique. On appelle partition macroscopique de
+un ensemble
+constitué de n sous-systèmes macroscopiques
+tels que :
+ces sous-systèmes sont deux-à-deux disjoints :
+Plus précisément, dans l'espace physique usuel à trois dimensions, deux sous-systèmes macroscopiques
+et
+de volumes finis peuvent avoir au plus une surface-frontière en commun.
+la réunion de ces sous-systèmes donne le système
+tout entier :
+Additivité[modifier | modifier le code]
+Une grandeur physique
+est dite additive si et seulement si pour toute partition macroscopique de , on a la relation d'additivité :
+Par exemple, le volume
+et le nombre de particules
+sont des grandeurs additives.

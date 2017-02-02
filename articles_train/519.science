@@ -1,0 +1,104 @@
+Fonction L — Wikipédia
+Fonction L
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Fonctions L)
+Aller à :					navigation, 					rechercher
+La théorie des fonctions L est devenue une branche très substantielle, et encore largement conjecturelle, de la théorie analytique des nombres contemporaine. On y construit de larges généralisations de la fonction zêta de Riemann et même des séries L pour un caractère de Dirichlet et on y énonce de manière systématique leurs propriétés générales, qui dans la plupart des cas sont encore hors de portée d'une démonstration.
+Sommaire
+1 Les fonctions L
+2 Exemples de fonctions L
+2.1 Information conjecturelle
+2.2 L'exemple de la conjecture de Birch et Swinnerton-Dyer
+2.3 Essor de la théorie générale
+3 Références
+4 Article connexe
+Les fonctions L[modifier | modifier le code]
+Pour commencer, il faut distinguer la série L (par exemple la série de Dirichlet pour la fonction zêta de Riemann), et la fonction L, la fonction qui est son prolongement analytique au plan complexe. Les constructions générales démarrent avec une série L, d'abord définie comme une série de Dirichlet, puis développée en un produit eulérien, indexé par des nombres premiers. Des estimations sont requises pour démontrer que ceci converge dans une moitié droite du plan complexe.
+Il est alors sensé de conjecturer un prolongement méromorphe dans le plan complexe, qu'on appellera une fonction L. Dans les cas classiques, on sait que l'information utile est contenue dans les valeurs et le comportement de la fonction L aux points où la série diverge. Le terme général de fonction L comprend beaucoup de types connus de fonctions zêta. La classe de Selberg (en) est une tentative pour axiomatiser les propriétés essentielles des fonctions L et encourager l'étude des propriétés communes à toutes ces fonctions plutôt que de chaque fonction L isolément.
+Exemples de fonctions L[modifier | modifier le code]
+la fonction ζ de Riemann, qui est l'exemple le plus classique ;
+les fonctions L associées aux formes modulaires via la transformation de Mellin ;
+les fonctions L associées aux caractères, qui permettent notamment de démontrer le théorème de Dirichlet sur les nombres premiers dans les progressions arithmétiques ;
+les fonctions L des motifs.
+Information conjecturelle[modifier | modifier le code]
+On peut lister les caractéristiques des exemples connus de fonctions L que l'on souhaiterait voir généralisées :
+localisation des zéros et des pôles ;
+équation fonctionnelle (fonction L) relative à certaines droites verticales Re (s) = constante ;
+valeurs intéressantes aux valeurs entières.
+Un travail détaillé a produit un grand corps de conjectures plausibles, par exemple à propos du type exact d'équation fonctionnelle qui devrait être vérifiée. Comme la fonction zêta de Riemann est reliée, par ses valeurs aux entiers positifs pairs et négatifs impairs, aux nombres de Bernoulli, on recherche une généralisation appropriée de ce phénomène. Sur cette question, des résultats ont été obtenus pour ce que l'on appelle les fonctions L p-adiques (en), qui décrivent certains modules de Galois.
+L'exemple de la conjecture de Birch et Swinnerton-Dyer[modifier | modifier le code]
+Article détaillé : Conjecture de Birch et Swinnerton-Dyer.
+Un des exemples les plus influents, tant pour l'histoire des fonctions L les plus générales que comme problème de recherche encore ouvert, est la conjecture développée par Bryan Birch et Peter Swinnerton-Dyer au début des années 1960. Elle s'applique à une courbe elliptique E, et le problème qu'elle essaie de résoudre est la prédiction du rang d'une courbe elliptique sur l'ensemble des nombres rationnels, c'est-à-dire le nombre de générateurs libres de son groupe de points rationnels. Beaucoup de travaux précédents dans ce domaine ont commencé à être unifiés autour d'une meilleure connaissance des fonctions L. Ceci joua le rôle d'un exemple paradigmatique dans la théorie naissante des fonctions L.
+Essor de la théorie générale[modifier | modifier le code]
+Ce développement précéda le programme de Langlands de quelques années, et peut être considéré comme complémentaire : le travail de Langlands est largement lié aux fonctions L d'Artin, qui, comme celles de Hecke, avaient été définies plusieurs décennies plus tôt.
+Graduellement il devint plus clair dans quel sens on pouvait faire fonctionner la construction de Hasse-Weil pour obtenir des fonctions L valides : dans le sens analytique ; les données de départ devaient venir de l'analyse, plus précisément de l'analyse automorphe. Le cas général unifie maintenant à un niveau conceptuel de nombreux programmes de recherche différents.
+Quelques liens pour aller plus loin :
+Hypothèse de Riemann généralisée
+Conjecture d'Artin sur les fonctions L
+Conjecture de Shimura-Taniyama-Weil
+Références[modifier | modifier le code]
+Jean-Pierre Serre, Cours d'arithmétique [détail des éditions]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « L-function » (voir la liste des auteurs).
+Article connexe[modifier | modifier le code]
+Valeurs spéciales de fonctions L (en)
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Fonction_L&oldid=108107885 ».
+Catégories : Fonction zêtaThéorie analytique des nombresCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Deutsch
+English
+Español
+Italiano
+日本語
+Nederlands
+Português
+Svenska
+中文
+Modifier les liens
+Dernière modification de cette page le 10 octobre 2014 à 16:19.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

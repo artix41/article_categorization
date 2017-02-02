@@ -1,0 +1,149 @@
+Équations de Navier-Stokes — Wikipédia
+Équations de Navier-Stokes
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Stokes.
+En mécanique des fluides, les équations de Navier-Stokes sont des équations aux dérivées partielles non linéaires qui sont censées décrire le mouvement des fluides « newtoniens » (liquide et gaz visqueux ordinaires) dans l’approximation des milieux continus. La résolution de ces équations modélisant un fluide comme un milieu continu à une seule phase incompressible, si elle est possible, est ardue. La cohérence mathématique de ces équations non linéaires n'est pas démontrée. Mais elles permettent souvent par une résolution approchée de proposer une modélisation des courants océaniques et des mouvements des masses d'air de l'atmosphère pour les météorologistes, la simulation numérique du comportement des gratte-ciel ou des ponts sous l'action du vent pour les architectes et ingénieurs, des avions, trains ou voitures à grandes vitesse pour leurs bureaux d'études concepteurs, mais aussi le trivial écoulement de l'eau dans un tuyau et de nombreux autres phénomènes d'écoulement de divers fluides.
+Elles sont nommées d'après deux scientifiques du XIXe siècle, le mathématicien et ingénieur des Ponts, Henri Navier, et le physicien George Gabriel Stokes, le choix oubliant le rôle intermédiaire du physicien Barré de Saint-Venant. Pour un gaz peu dense, il est possible de dériver ces équations à partir de l’équation de Boltzmann, décrivant un comportement moyen des particules dans le cadre de sa théorie cinétique des gaz.
+La résolution des équations de Navier-Stokes constitue l'un des problèmes du prix du millénaire[1].
+Sommaire
+1 Lois de conservation
+1.1 Formulation différentielle
+1.2 Expression en coordonnées cartésiennes
+2 Fluide newtonien, hypothèse de Stokes
+3 Expression pour les écoulements de fluides compressibles
+4 Expression pour les écoulements de fluides incompressibles
+4.1 Expression en coordonnées cartésiennes (x, y, z)
+4.2 Expression en coordonnées cylindriques (, , )
+4.3 Expression en coordonnées sphériques (, , )
+4.4 Quelques solutions exactes des équations de Navier-Stokes incompressibles
+5 Interprétation
+6 Origine du terme d'advection
+7 Notes et références
+7.1 Notes
+7.2 Références
+8 Annexes
+8.1 Bibliographie
+8.2 Articles connexes
+Lois de conservation[modifier | modifier le code]
+Formulation différentielle[modifier | modifier le code]
+Il existe bien des formes des équations de Navier-Stokes. Nous n'en présenterons que certaines. Ces formes dépendent aussi des notations utilisées. Ainsi, il existe plusieurs façons équivalentes d'exprimer les équations de conservation en termes d’opérateurs différentiels.
+La formulation différentielle générale de ces équations est :
+Équation de continuité (ou équation de bilan de la masse)
+Équation de bilan de la quantité de mouvement
+Équation de bilan de l'énergie
+Dans ces équations :
+t représente le temps (unité SI : s) ;
+ρ désigne la masse volumique du fluide (unité SI :  kg⋅m-3) ;
+désigne la vitesse eulérienne d'une particule fluide (unité SI : m⋅s-1) ;
+p désigne la pression (unité SI : Pa) ;
+est le tenseur des contraintes visqueuses (unité SI :  Pa) ;
+désigne la résultante des forces massiques s'exerçant dans le fluide (unité SI :  N⋅kg-1) ;
+e est l'énergie totale par unité de masse (unité SI :  J⋅kg-1) ;
+est le flux de chaleur perdu par conduction thermique (unité SI :  J⋅m-2⋅s-1) ;
+r représente la perte de chaleur volumique due au rayonnement (unité SI : J⋅m-3⋅s-1).
+Remarques :
+L'énergie totale peut se décomposer en énergie interne u et en énergie cinétique selon
+L'opérateur nabla, qui s'exprime sous la forme
+en coordonnées cartésiennes, est un opérateur de dérivation spatiale du 1er ordre. Les opérateurs gradient, divergence et laplacien peuvent s'écrire à l'aide de cet opérateur :
+;
+;
+.
+Expression en coordonnées cartésiennes[modifier | modifier le code]
+En coordonnées cartésiennes , les équations de conservation s'écrivent :
+Équation de continuité :
+Équation de bilan de la quantité de mouvement ()
+Équation de bilan de l'énergie
+Fluide newtonien, hypothèse de Stokes[modifier | modifier le code]
+En première approximation, pour de nombreux fluides usuels comme l'eau et l'air, le tenseur des contraintes visqueuses est proportionnel à la partie symétrique du tenseur des taux de déformation (hypothèse du fluide newtonien)
+et le flux de chaleur est proportionnel au gradient de la température (loi de Fourier), c'est-à-dire
+où :
+désigne la viscosité dynamique du fluide (unité SI :  Pa⋅s) ;
+désigne la viscosité de volume du fluide (unité SI :  Pa⋅s) ;
+désigne le tenseur unité ;
+désigne la conductivité thermique du fluide (unité SI :  W⋅K-1⋅m-1) ;
+désigne la température (unité SI : K).
+Les viscosités dynamiques et de volume sont supposées constantes. L'ensemble des fluides pour lesquels cette hypothèse est vérifiée sont appelés fluides newtoniens. On lui adjoint généralement l’hypothèse de Stokes :
+.
+Cette hypothèse n'est vraie que pour des fluides simples comme l'eau, l'air et des gaz comme le méthane.
+On peut alors réecrire l'équation de quantité de mouvement sous la forme:
+Remarque :
+De nombreux fluides complexes, tels que les polymères, les hydrocarbures lourds, le miel, ou encore la pâte de dentifrice, ne vérifient pas ces hypothèses : on recourt alors à d'autres lois de comportement visqueux, dites non newtoniennes (par exemple la loi du fluide de Bingham). La science chargée d'étudier les relations entre contrainte et déformation pour de tels fluides s'appelle la rhéologie.
+Expression pour les écoulements de fluides compressibles[modifier | modifier le code]
+L'écoulement d'un fluide est dit incompressible lorsque l'on peut négliger ses variations de masse volumique au cours du temps. Cette hypothèse est vérifiée pour l'eau liquide et les métaux en fusion. Elle est aussi vérifiée pour les gaz lorsque le nombre de Mach
+est faible. En général, on considère l'écoulement incompressible lorsque . Dans le cas contraire, c'est-à-dire pour un écoulement compressible, on adjoint pour fermer le système une équation d'état du fluide, de la forme
+Pour un gaz parfait, cette équation d'état s'écrit
+où
+désigne la constante des gaz parfaits et
+la masse molaire du fluide.
+Ainsi, en négligeant les pertes de chaleur par rayonnement, pour un écoulement compressible de fluide visqueux newtonien vérifiant l'hypothèse de Stokes et la loi des gaz parfaits, on obtient un système de 6 équations à 6 inconnues: , , et :
+L'énergie totale par unité de masse
+est reliée à la pression, la masse volumique et à la vitesse par l'équation
+où
+désigne l'exposant isentropique du gaz parfait.
+Expression pour les écoulements de fluides incompressibles[modifier | modifier le code]
+Pour un fluide visqueux newtonien incompressible, l'équation de l'énergie est découplée des équations de continuité et de quantité de mouvement, c'est-à-dire qu'on peut déterminer la vitesse et la pression indépendamment de l'équation de l'énergie. L'expression des équations de continuité et de quantité de mouvement sont considérablement simplifiées. On obtient alors
+Équation de continuité appelée alors équation d'incompressibilité
+Équation de bilan de la quantité de mouvement
+où
+désigne la viscosité cinématique du fluide (unité SI : ) et
+est le terme de convection.
+Expression en coordonnées cartésiennes (x, y, z)[modifier | modifier le code]
+et
+Expression en coordonnées cylindriques (, , )[modifier | modifier le code]
+et
+Expression en coordonnées sphériques (, , )[modifier | modifier le code]
+et
+Quelques solutions exactes des équations de Navier-Stokes incompressibles[modifier | modifier le code]
+Écoulement stationnaire incompressible laminaire d'un fluide visqueux newtonien :
+dans un tube cylindrique avec une différence de pression entre l'entrée et la sortie (écoulement de Poiseuille),
+entre deux plans dont l'un est en mouvement permanent par rapport à l'autre (écoulement de Couette).
+Interprétation[modifier | modifier le code]
+L'équation de conservation de la quantité de mouvement se déduit de la relation fondamentale de la dynamique (aussi appelée seconde loi de Newton) :
+en l'appliquant dans le contexte des milieux continus.
+Le membre de droite fait apparaître deux types de forces :
+Les forces intérieures (ou contraintes) :
+liés à la pression, qui existent même lorsque le fluide n'est pas en mouvement (on parle de contrainte hydrostatique).
+liés à la viscosité, qui traduisent la résistance du fluide à la déformation. Le terme contenant la viscosité de volume
+disparaît si le fluide est incompressible : les déformations se font alors à volume constant (on parle de fluide isovolume).
+Les forces extérieures :
+Les efforts volumiques, qui peuvent être des forces de gravité () ou électromagnétiques () par exemple.
+Les efforts surfaciques, qui correspondent la plupart du temps aux conditions aux limites imposées par un obstacle ou une paroi solide.
+Le membre de gauche exprime l'accélération du fluide.
+Pour comprendre d'où provient cette expression, il est utile de rappeler que deux points de vue peuvent être adoptés pour décrire le mouvement dans un milieu continu :
+La description lagrangienne suit chaque particule[note 1] le long de sa trajectoire : la valeur d'une variable (température, pression, vitesse…) dépend de l'instant
+et de la particule considérée (identifiée par sa position
+à l'instant
+de référence).
+La description eulérienne est associée à un repère indépendant du mouvement du fluide, généralement fixe : la valeur des variables fluides dépend alors du temps
+et de la position d'observation .
+La description lagrangienne est peut-être plus intuitive mais revêt un inconvénient majeur pour décrire les fluides : contrairement aux solides, les particules peuvent se déplacer librement dans la totalité d'un domaine fluide. L'analyse d'un écoulement est alors une tâche très ardue (on ne peut même pas exprimer un gradient par exemple, car on ne connait pas les particules voisines !). On préfère donc très largement utiliser un point de vue eulérien pour décrire le mouvement d'un fluide. La difficulté réside alors dans le fait que la conservation de la quantité de mouvement est physiquement vérifiée uniquement si l'on considère une particule fluide. Or la particule
+(variable de Lagrange) coïncidant avec le point d'observation
+(variable d'Euler) change à chaque instant t. En termes plus imagés, le randonneur qui observe un point fixe de la rivière n'a jamais les mêmes particules fluides sous les yeux. En particulier, il n'y a aucune raison pour qu'au point
+il voie la même particule aux instants
+et . Comment peut-il alors calculer la vitesse ou l'accélération de la particule fluide qu'il a instantanément sous les yeux ?
+À la lumière des explications ci-dessus, on peut justement interpréter le membre de gauche comme l'expression de l'accélération d'une particule fluide
+exprimée à l'aide des variables d'Euler . Il s'agit de ce que l'on appelle la dérivée particulaire de la vitesse, à laquelle on doit recourir pour établir les équations de conservation en formulation eulérienne :
+On voit apparaître deux termes :
+la dérivée locale
+qui caractérise l'évolution temporelle intrinsèque de la variable vitesse (nulle si l'écoulement est stationnaire) ;
+la dérivée convective
+qui caractérise la modification de la variable due à son déplacement vers une région différente (nulle si le champ est uniforme).
+La résolution de l'équation de Navier-Stokes est extrêmement difficile. Elle reste l'un des grands problèmes mathématiques non résolus à ce jour. Elle fait partie des problèmes du prix du millénaire. À la complexité inhérente aux équations aux dérivées partielles couplées (vitesse, pression, voire température si le fluide est compressible) s'ajoute la non-linéarité du terme d'auto-advection de la vitesse, à l'origine du phénomène de turbulence.
+Les écoulements rampants (viscosité infinie) ainsi que les écoulements potentiels (dérivant d'un gradient) permettent parfois de résoudre analytiquement un problème (simple) de mécanique des fluides. Le reste du temps, on a recours à des simulations numériques.
+Origine du terme d'advection[modifier | modifier le code]
+Le terme d'advection caractéristique des équations de Navier-Stokes a une origine mathématique simple inhérente à la relation entre une différentielle totale exacte et les dérivées partielles. En effet, pour une particule fluide l'accélération est donnée par:
+avec
+la densité du fluide,
+le vecteur vitesse et
+les coordonnées spatiales considérées.
+En coordonnées cartésiennes on obtient donc :
+En coordonnées cylindriques de même on obtient :
+En coordonnées sphériques :
+Quelles que soient les coordonnées, on retrouve donc le terme d'advection :
+Le terme
+disparaît si une hypothèse permettant d'annuler la divergence de la vitesse est faite (isovolume, écoulement incompressible).
+Comme souvent, la formulation de l'accélération sous forme de dérivées partielles permet une recherche plus facile de solutions à des problèmes particuliers, l'intégration de dérivées partielles étant grandement facilitée en comparaison des équations comportant des différentielles totales exactes. Ici cette démarche conduit à l'apparition du terme d'advection qui rend compte du transport de matière, découplé de la variation intrinsèque de la vitesse dû à des forces externes au fluide.
+Dans le cas d'un fluide incompressible, ce terme d'advection peut se décomposer
+On peut alors définir le pseudovecteur vorticité :
+On peut aussi définir le vecteur, dit de Lamb:

@@ -1,0 +1,147 @@
+Cycle cellulaire — Wikipédia
+Cycle cellulaire
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Le cycle cellulaire est l'ensemble des étapes qui constituent et délimitent la vie d'une cellule. Ce cycle est composé de plusieurs phases de croissance dans lesquelles la cellule grossit et duplique son matériel génétique (interphase) et d'une phase où celle-ci se divise (mitose ou méiose) pour donner naissance à deux cellules filles identiques (dans le cas de la mitose). Les cellules filles reproduiront ce cycle, et ainsi de suite.
+Sommaire
+1 Durées
+2 Phases du cycle cellulaire
+2.1 Introduction : notations quantitatives
+2.2 L'interphase
+2.3 La Mitose
+2.4 Méiose
+3 Mécanismes de régulation
+3.1 Complexes Cdk-Cycline
+3.1.1 Structure et fonctions
+3.1.2 Kinases activatrices
+3.1.3 Phosphatases activatrices
+3.1.4 Kinases inhibitrices
+3.1.5 Inhibiteurs (CKI)
+4 Processus de régulation
+4.1 Transition de G0 à G1
+4.2 Phase G1
+4.3 Passage de G1 à S
+4.4 Passage de la phase G2 à M
+5 Identification des différentes phases
+6 Importance
+7 Notes et références
+8 Voir aussi
+Durées[modifier | modifier le code]
+Les durées des différentes phases du cycle cellulaire ont pu être mesurées in vitro en condition optimale[1] :
+Chez les procaryotes (bactéries) : 20 minutes
+Chez les eucaryotes :
+levure : 1h30 à 2 heures
+fibroblastes humains 16 à 24 heures.
+Avec, selon les espèces et les types cellulaires :
+Phase G1 : 10 à 12 heures.
+Phase S : 5 à 6 heures.
+Phase G2 : 3 à 4 heures.
+Phase M : 30 minutes à 1 heure.
+Phases du cycle cellulaire[modifier | modifier le code]
+Introduction : notations quantitatives[modifier | modifier le code]
+Les différentes phases du cycle cellulaire.
+Le génome des eucaryotes comprend un nombre N de types de chromosomes. Ce nombre diffère d'une espèce à l'autre.
+Chaque cellule diploïde contient deux chromosomes homologues (ayant les mêmes fonctions) par type – un en provenance du père et un en provenance de la mère – au total 2 fois N, abrégé « 2N », chromosomes.
+Chaque cellule haploïde ne contient qu'un chromosome par type – un mélange de gènes du père et de la mère obtenu par le processus d'enjambement , voir ci-dessous – au total 1 fois N, abrégé « 1N » chromosomes.
+Les chromosomes produits par le processus de réplication sont appelés « chromatides » ou « chromatides-sœurs » et ne reprennent leur nom de « chromosome » qu'après leur séparation en mitose/anaphase ou en méiose/anaphase2. D'autres sources n'utilisent le vocable « chromatide » qu'à partir du moment où les centromères des chromosomes sont en contact l'un avec l'autre.
+Le nombre de chromatides par type de chromosome dans une cellule est indiqué par un chiffre, suivi de la lettre C. Par exemple, « 4C » pour 4 chromatides par type de chromosome.
+Quelques exemples :
+Une cellule diploïde à deux chromatides (avant la phase S et en mitose : télophase) sera donc notée : « 2N-2C »
+Une cellule diploïde à quatre chromatides (mitose : prophase à anaphase) : « 2N-4C »
+Une cellule haploïde à deux chromatides (méiose : télophase1 à anaphase2) : « 1N-2C »
+Une cellule haploïde à une chromatide (méiose : télophase2) : « 1N-1C »
+Note : Par souci de clarté, les illustrations et les textes qui suivent sont rédigés comme s'il n'existait qu'un type de chromosomes. Il faut évidemment retenir qu'ils s'appliquent à l'ensemble des N types de chromosomes.
+L'interphase[modifier | modifier le code]
+L'interphase est le moment où la cellule vit et effectue tout ce pourquoi elle est programmée. Elle se prépare aussi à se diviser. Les étapes de la division sont détaillées ci-dessous :
+phase G1 : Vient d'un mot anglais "GAP" (=intervalle). Pendant cette phase, la cellule effectue son métabolisme normal, elle grossit jusqu’à atteindre une taille critique qui va donner le signal pour passer à la phase S. La cellule n’ayant plus que la moitié de tout son matériel génétique et cytoplasmique va synthétiser des protéines pour répondre à la fonction à laquelle elle est génétiquement programmée. C’est aussi la mise en place du processus qui va lui permettre de répliquer son ADN, au cours de la phase suivante. Le point de contrôle G1 détermine si son code génétique ne comporte pas d'erreur et donc si la cellule peut ou non passer en phase S. Lorsque l'on regarde les chromosomes au Microscope Électronique (ME), puisqu'elle n'est pas encore visible au Microscope Optique (MO), on voit des filaments fins enchevêtrés d'une seule molécule d'ADN.
+phase S : pendant les quatre heures que dure cette phase, l’ADN va être entièrement répliqué, grâce à l’ADN polymérase. On y voit la transcription de beaucoup d'ARNm codant pour les protéines d'histones qui seront utilisées pour compacter la molécule d'ADN. Au début de la phase le chromosome est fait d'une chromatide et en fin de phase le chromosome sera composé de deux chromatides. Ces deux chromatides sont assemblées au centromère. Puisque la molécule d'ADN ne fait que 30 nm de diamètre il n'est pas encore possible de la voir au MO, il faut utiliser un ME. Dans le cytoplasme de la cellule animale, le complexe centriolaire (le centrosome) se réplique durant la phase S. Chaque centriole père donne naissance à un centriole fils, chaque centriole père et fils s'assemblent et les centrioles fils s'entourent de microtubules rayonnants et deviennent des centrioles pères à leur tour. Cette réplication des centrioles est dite semi-conservative. Les deux centrosomes formés vont s'écarter pour former les deux pôles.
+phase G2 : une fois la réplication de l’ADN terminée, la phase G2 commence. Ici, la croissance de la cellule est terminée, mais elle continuera à remplir ses fonctions. Pendant cette phase, les centrosomes se répliquent, ils permettront le bon déroulement de la mitose. Cette phase se termine en passant le point de contrôle G2, où la mitose commence.
+La Mitose[modifier | modifier le code]
+Article détaillé : Mitose.
+Les étapes du cycle cellulaire: La mitose. On représente la cellule par un ovale et le noyau par un cercle vert. Les chromosomes paternels sont bleus, les maternels sont rouges. On ne montre qu'un type de chromosome.
+La mitose est le moment où la cellule vit et effectue tout ce pourquoi elle est programmée. Elle se prépare aussi à se diviser. Le but de la mitose (division cellulaire avec ou sans multiplication cellulaire) est essentiellement la croissance et la régénération – par réplication chromosomique et division cellulaire – du tissu cellulaire de chaque organe de l'organisme. Cette croissance va de paire avec la différenciation cellulaire.
+Lors de la division mitotique, la cellule-mère donne naissance à deux cellules-filles génétiquement identiques. Une des cellules-filles reste au stade de différenciation de la cellule-mère, alors que l'autre acquiert au cours de ce processus sa propriété fonctionnelle. Un tissu est donc constitué par deux sortes de cellules : celles qui assurent la lignée et celles qui assurent la fonction. Par exemple, les cellules souches sont le produit de lignées sans différenciation, alors que les cellules fonctionnelles sont programmées pour mourir. Ce sont les derniers travaux sur la cellule qui ont validé la théorie du docteur André Gernez, qui date des années 1971-72. Les étapes de la division sont détaillées ci-dessous :
+Prophase (2N-4C) : Au cours de la prophase, les chromatides sœurs, qui jusqu'à présent apparaissaient sous forme de filaments dispersés dans le noyau, se condensent et forment des paires de bâtonnets reliés entre eux au niveau du centromère. L'enveloppe du noyau se dissout (ceci étant dû à un phénomène de phosphorylation de protéines situées à la face interne de la membrane nucléaire : les lamines nucléaires ; on retrouve alors des fragments de membrane nucléaire sous forme de vésicules baignant dans le cytoplasme) et deux centrosomes (qui avaient été répliqués peu avant, dès la phase S du cycle cellulaire) prennent position aux deux pôles de la cellule, à partir desquels sont projetés des microtubules vers le centre de la cellule, formant le fuseau mitotique. Les microtubules kinétochoriens s'attachent aux chromatides au niveau des kinétochores, structures riches en protéines, voisines des centromères. Les microtubules polaires ont une trajectoire similaire à celle des microtubules kinétochoriens, mais ne sont pas rattachés aux chromosomes. Enfin, les microtubules astraux ont leur origine aux centrosomes, mais n'entrent pas dans la constitution du fuseau mitotique.
+N.B. : il existe en réalité une phase intermédiaire de « prométaphase » au cours de laquelle est observée la rupture de l'enveloppe nucléaire, ainsi que la pénétration des microtubules kinétochoriens et polaires dans la « zone nucléaire » (il est plus simple de ne pas considérer cette phase).
+Métaphase (2N-4C) : Les microtubules positionnent les chromosomes sur le plan équatorial de la cellule par leurs mouvements mécaniques: les microtubules kinétochores rétrécissent par désassemblage et enlèvement de modules au niveau du kinétochore et les microtubules non-kinétochores s'allongent par ajout de modules au niveau du plan équatorial. C'est à ce stade qu'on peut réaliser un caryotype grâce à la grande condensation des chromosomes.
+Anaphase (2N-4C) : Toujours sous l'effet des microtubules kinétochoriens, les centromères se déchirent et les chromatides sœurs se séparent et migrent en sens opposé vers les centrioles. On retrouve donc aux extrémités de la cellule des paires de ce qui sont redevenus des « chromosomes homologues », en provenance de parents différents. L'élongation des microtubules polaires allongent la cellule en division. L'anneau contractile commence à se former, amorçant la cytodiérèse.
+Télophase (2N-2C) : Une enveloppe nucléaire se forme aux deux extrémités de la cellule, autour des chromosomes qui reprennent leur forme filamenteuse. La cellule se divise par cytodiérèse. Les chromosomes homologues se retrouvent respectivement dans une des deux cellules filles (de retour en phase G0 ou G1); disparition des microtubules kinétochoriens, réapparition du nucléole, de l'appareil de Golgi, ainsi que du réticulum endoplasmique qui se sont séparés en deux quantités égales.
+Interphase (repos) : Les deux cellules-filles se séparent ; c'est la cytodiérèse. Les filaments d'ADN s'enroulent autour des protéines appelées nucléosomes. Deux nucléofilaments se dédoublent pour former un futur chromosome.
+Méiose[modifier | modifier le code]
+Article détaillé : méiose.
+Les étapes du cycle cellulaire: La méiose. On représente la cellule par un ovale et le noyau par un cercle vert. On ne montre qu'un type de chromosome. Les rayures bleues-rouges des chromosomes suggèrent le mélange des gènes paternels et maternels obtenus par enjambement en Prophase1.
+Le but de la méiose est double: d'une part le mélange du génome paternel et maternel, assurant ainsi une variation génétique maximale, et d'autre part la production de cellules haploïdes à une chromatide pour la reproduction sexuée.
+Prophase I (2N-4C) : Comme pour la prophase de la mitose on a au départ une paire de chromatides sœurs paternelles et une paire de chromatides sœurs maternelles. C'est à ce stade que se produit l'enjambement permettant le mélange du génome maternel et paternel. Jusqu'à présent les chromosomes du père et de la mère se côtoyaient. Maintenant ils s'unissent. Lors du processus appelé « synapse », les chromatides sont alignées côte à côte. Les chromatides homologues forment des chiasmas (croisements) au niveau desquels des segments de chromatide sont échangés et recombinés par coupures et sutures successives.
+Métaphase I (2N-4C) : Les paires de chromatides sont alignées sur le plan équatorial du noyau. Comme pour la mitose, un fuseau de microtubules se forme à partir des pôles du noyau. Des microtubules kinétochores s'attachent aux kinétochores de chaque chromatide. L'enveloppe nucléaire se dissout.
+Anaphase I (2N-4C) : Les deux paires de chromatides sont attirées chacune vers un pôle de la cellule. À ce stade seules les paires de chromatides sont séparées mais non pas les chromatides sœurs elles-mêmes.
+Télophase I (1N-2C) : Une nouvelle enveloppe nucléaire se forme autour des paires de chromatides respectives, formant deux noyaux haploïdes, contenant chacun une seule paire de chromatides. Cette division est appelée « réductionnelle » parce qu'elle implique un passage de diploïde à haploïde. La cellule se divise à son tour par cytokinèse.
+Prophase II (1N-2C) : Chaque cellule haploïde formée lors de la télophase 1 contient une paire de chromatides d'origine maternelle ou paternelle, mais dont les gènes sont constitués d'éléments mixtes suite au phénomène d'enjambement.
+Métaphase II (1N-2C) : Comme lors de la métaphase mitotique, les fuseaux de microtubules se forment et maintiennent les centromères des chromatides au niveau du plan équatorial.
+Anaphase II (1N-2C) : Contrairement à la division « réductionnelle » de l'anaphase 1 qui sépare deux paires de chromatides, la division « équatoriale » de l'anaphase 2 sépare les chromatides sœurs, comme dans l'anaphase de la mitose.
+Télophase II (1N-1C) : Une enveloppe nucléaire se reforme autour de chacune des deux chromatides et la cellule se divise donnant naissance à deux cellules, toujours haploïdes, mais ne contenant chacune qu'une chromatide.
+Lors de la fécondation une cellule 1N-1C fusionnera avec un gamète d'un autre organisme pour produire un zygote 2N-2C.
+Mécanismes de régulation[modifier | modifier le code]
+Légende :
+ATP : Adénosine TriPhosphate
+ADP : Adénosine DiPhosphate
+Cdk : Cyclin-Dependent Kinase (en français : kinase dépendante des cyclines) ;
+CdKi : Cyclin-dependent Kinase inhibitors (en français : inhibiteurs des kinases dépendantes des cyclines) ;
+CAK : Cdk Activating Kinase (en français : kinase activatrice des CDK) ;
+Chk1 : Checkpoint1 (en français : point de contrôle no1) ;
+Chk2 : Checkpoint2 (en français : point de contrôle no2) ;
+Un p suivi d'un chiffre désigne une protéine (par exemple, p. 21 signifie protéine 21).
+Complexes Cdk-Cycline[modifier | modifier le code]
+Mécanismes de régulation du cycle cellulaire.
+Mécanismes de régulation du cycle cellulaire.
+Structure et fonctions[modifier | modifier le code]
+Les mécanismes de la régulation du cycle cellulaire reposent essentiellement sur deux structures protéiques complémentaires appelées Cdk (Cycline-dependent kinase) et cycline. La Cdk est la composante de base, mais, comme son nom l'indique, elle a besoin d'une cycline pour activer ses fonctions. Les Cdk et les cyclines s'associent et forment des complexes hétéro-dimériques.
+Il existe plusieurs sortes de Cdk et de cyclines. Les premières sont identifiées par des chiffres et les secondes par des lettres. Pour un complexe on notera, par exemple: Cdk4-CyclineD. Une Cdk peut former des complexes avec plusieurs cyclines différentes et inversement. À chaque phase du cycle cellulaire correspondent un ou plusieurs complexes Cdk-cycline.
+Une Cdk est constituée de deux lobes: le lobe N, essentiellement constitué de feuillets bêta et le lobe C, essentiellement constitué d'hélices alpha. À l'intersection des deux lobes se trouve un site catalytique où se produit la phosphorylation qui active les protéines qui jouent un rôle dans le cycle cellulaire ( fragmentation de l’enveloppe nucléaire, compaction des chromosomes, réplication de l’ADN, etc.). Pour cela la Cdk a besoin de cyclines et de diverses protéines de régulation. Le site comprend deux poches juxtaposées: l'une pour accueillir le substrat (la protéine à phosphoryler), l'autre pour recevoir l'ATP. En substance, la phosphorylation se fait par transfert du phosphate-γ de l'ATP vers le substrat. L'ADP résultant et le substrat phosphorylé sont ensuite relâchés.
+À l'état inactif, l'entrée du site catalytique est bloquée par deux boucles de protéine: le domaine PSTAIRE (nommé ainsi d'après les initiales des acides aminés constituants) et la boucle T (T-loop).
+Lors de l'association avec la cycline, la boucle PSTAIRE subit une rotation qui façonne la poche ATP afin d'obtenir une orientation adéquate du triphosphate lors de la phosphorylation du substrat.
+En même temps, la boucle T est déplacée, ce qui expose certains acides aminés de la CDK (la thréonine 161, la thréonine 14 et la tyrosine 15) aux kinases régulatrices.
+Les cyclines sont les activateurs primordiaux des complexes Cdk-cycline. En outre, elles sont régulées par un nombre de kinases et phosphatases activatrices et inhibitrices, ainsi que par des molécules inhibitrices appelées les CKI (cyclin-dependent kinase inhibitor).
+Kinases activatrices[modifier | modifier le code]
+CAK (Cdk-activating kinase), en phosphorylant la thréonine 161 exposée au sommet de la boucle T, induit une reconfiguration de la boucle qui rend la poche substrat accessible. Il semble pourtant que l'effet régulateur de CAK soit négligeable, étant donné que sa concentration est maintenue à un niveau élevé et constant pendant tout le cycle cellulaire. En revanche, CAK jouerait un rôle essentiel dans la régulation de la transcription par l'ARN polymérase II.
+Phosphatases activatrices[modifier | modifier le code]
+Les phosphatases Cdc25, en déphosphorylant les acides aminés thréonine 14 et tyrosine 15, permettent l'accès à la poche ATP et l'activation des complexes Cdk-cyclines. Chez l'homme, la famille Cdc25 comporte différents membres spécialisés par transition du cycle:
+Cdc25 A pour G1-S et G2-M
+Cdc25B et Cdc25C essentiellement pour G2-M
+Kinases inhibitrices[modifier | modifier le code]
+Wee 1, en phosphorylant la tyrosine 15, empêche l'accès à la poche ATP. Myt1 joue le même rôle, mais pour tyrosine 15 et thréonine 14 en même temps.
+Chk1 et Chk2 inhibent Cdk1-CyclineB:
+par séquestration de CDC25 dans le cytoplasme, loin de Cdk1-CyclineB qui n'est donc plus activé
+par inhibition de Polo Kinase 1 qui cesse d'activer Cdc25 l´activateur de la Cdk1-CyclineB
+ATR (kinase Ataxia-Telangiectasia Related, liée à l'ADN), inhibe Cdk1-CyclineB par l'intermédiaire de Chk1
+protéine ATM (kinase Ataxia-Telangiectasia Mutated, liée à l'ADN), par l'intermédiaire de Chk2, active p. 53, qui active p. 21, qui inhibe Cdk1-CyclineB
+Inhibiteurs (CKI)[modifier | modifier le code]
+CKi p. 16, en s'associant à Cdk4 et Cdk6, empêche la liaison avec la cycline D.
+CKi p. 21, dont la transcription est dépendante de p. 53, inhibe Cdk2-CyclineE, Cdk2-CyclineA et Cdk1-Cycline B
+par association avec la cycline, ce qui bloque la poche ATP
+en diminuant le taux de CAK
+Processus de régulation[modifier | modifier le code]
+Transition de G0 à G1[modifier | modifier le code]
+Lors de la transition a lieu la transcription des gènes essentiels pour G1 et l'entrée en division. Cette transcription est stimulée par deux voies de signalisation:
+Des facteurs de croissance, par l'intermédiaire de récepteurs transmembranaires du type tyrosine kinase ainsi que des stimuli mitogènes, par l'intermédiaire de récepteurs couplés à des protéines G, déclenchent des cascades de type MapKKK/MapKK/MapK, qui stimulent la transcription de gènes tels que CyclineD et Cdk4&6.
+Un dimère constitué par les protéines Myc et Max active la transcription des gènes de Cdc25 A, Cdk4, Cdk6, CyclineD, CyclineE, E2F.
+Phase G1[modifier | modifier le code]
+Les gènes des cyclines D et E ainsi que les protéines p. 21 et p. 27 sont transcrits, dont cycline E sous le contrôle de E2F.
+Passage de G1 à S[modifier | modifier le code]
+Ce passage est sous le contrôle du point R, lui-même sous le contrôle de plusieurs protéines : Rb, E2F, cdk2, cdk4. En G1, Rb non phosphorylé se lie à E2F et l'inhibe. Pendant le passage cycD/cdk4 et cycE/cdk2 hyperphosphorylent Rb (4 sites de phosporylation), qui libère E2F. E2F libre forme un heterodimere avec la protéine DP. Ensemble ils jouent le rôle de facteur de transcription et induisent des gènes cibles, permettant la progression de S.
+Passage de la phase G2 à M[modifier | modifier le code]
+Ce passage est régulé par le complexe Cdk1-CyclineB.
+Au début, la cycline B se fixe au Cdk1 qui va provoquer l'« ouverture » du bras permettant l'accès au site ATPasique de Cdk1. Le complexe cycline B-Cdk1 va être phosphorylé par l'enzyme Wee1 sur la thréonine 14 et la tyrosine 15 de Cdk1 qui empêche l'accès de l'ATP au site ATPasique.
+Puis, l'enzyme CAK phosphoryle le complexe sur la thréonine 161 de Cdk1 qui permet l'« ouverture » du bras permettant au substrat l'accès au site substrat de Cdk1. Puisque l'accès au site ATP est bloqué, la Cdk reste inactive, donc ne peut pas encore phosphoryler le substrat. À ce stade, le complexe est phosphorylé 3 fois. Cela forme le pré-MPF.
+Pour que ce dernier devienne actif et induise donc le passage en mitose, il doit être déphosphorylé sur les résidus 14 et 15 par Cdc25: cela provoque l'« ouverture » du bras permettant l'accès au site ATPasique. En effet, le complexe phosphorylé uniquement sur le résidu 161 de Cdk1 forme le MPF actif.
+L'ATP au site ATPasique cède son groupement phosphate au substrat qui est ainsi phosphorylé. En fonction de la nature du substrat, cette phosphorylation va inhiber ou activer ce substrat.
+Il y a donc une véritable compétition entre Wee1, qui est une kinase et qui va donc avoir tendance à phosphoryler sur les résidus 14 et 15 et ainsi inactiver le MPF, et Cdc25, qui est une phosphatase et qui va donc tendre à déphosphoryler les résidus 14 et 15 et ainsi activer le pré-MPF en MPF actif. Il y a entrée en phase de mitose.
+Wee1 est actif quand il n'est pas phosphorylé, alors que Cdc25 est actif uniquement lorsqu'il est phosphorylé. Il y a donc l'intervention d'autres protéines kinase et phosphatase.
+Identification des différentes phases[modifier | modifier le code]
+La mitose : une identification morphologique est possible au microscope : absence d'enveloppe nucléaire.
+La phase S : autoradiographie à la thymidine H3.
+Principe : la thymidine radioactive tritiée (H3), se dirige vers le noyau, et ne s'incorpore que dans les cellules dont l'ADN incorpore des nucléotides, c'est-à-dire les cellules en phase S. L'intérêt de la thymidine est qu'elle s'incorpore dans l'ADN, mais pas dans l'ARN. Après rinçage du milieu de culture puis incubation, on peut mesurer la proportion de cellules comportant de la thymidine radioactive.
+Les autres phases : on utilise la cytofluorométrie.
+Principe : on incube les cellules avec un colorant fluorescent de l'ADN. La quantité de fluorescence est proportionnelle à l'intensité de la fluorescence. On utilise un fluorimètre. La durée de la phase G1 peut ainsi être calculée. On obtient la durée de chaque phase en combinant les trois techniques.
+Importance[modifier | modifier le code]
+La régulation du cycle cellulaire doit être très fine. Par exemple, les cancers sont caractérisés par une prolifération anarchique due au dérèglement du système de contrôle du cycle cellulaire. Voir oncogènes, qui sont souvent des gènes codant des protéines responsables du contrôle du cycle cellulaire.
+NB : Lors du cycle cellulaire, il existe des points de contrôle qui permettent à la cellule de vérifier qu'aucune modification au niveau génétique (réplication de l'ADN incorrecte) et structurale (fuseau mitotique mal formé) n'ait été commise. Ces systèmes sont très importants pour l'intégrité de notre patrimoine génétique. Ces points de contrôle peuvent empêcher l'avancement du cycle si les conditions ne sont pas réunies et par ce fait engagent la cellule en apoptose (mort programmée cellulaire). Ces points de contrôle peuvent être altérés et empêcher toute régulation du cycle cellulaire. En effet, il existe une réponse qui est instantanée, et une autre qui est différée. Dans tous les cas, les deux réponses sont sont activées.La réponse qui est dite rapide, fonctionne avec des phosphorylations tandis que la réponse dite différée fait intervenir un facteur de transcription.

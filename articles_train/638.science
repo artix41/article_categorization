@@ -1,0 +1,89 @@
+Chip on chip — Wikipédia
+Chip on chip
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La méthode de Chromatin ImmunoPrecipitation on Chip (abrégée ChIP on chip ou ChIP-chip) permet l'étude des protéines interagissant avec la molécule d'ADN. Il s'agit d'une combinaison de la technique de Chromatin Immunoprécipitation avec la méthode des puces à ADN.
+Elle est en général utilisée pour repérer des sites de fixation de facteurs de transcription. Elle permet donc de localiser ces sites et d'étudier les séquences d'ADN correspondantes.
+Contrairement aux autres techniques classiques d'étude des interactions protéines - ADN, l'ADN utilisé ici est directement récupéré in vivo.
+Sommaire
+1 Principe
+1.1 ChIP
+1.2 Etude du résultat de la partie ChIP
+2 Utilisation
+3 Analyses et logiciels
+4 Références
+Principe[modifier | modifier le code]
+On peut décomposer le "protocole" en trois étapes : la partie ChIP, suivie d'une expérience classique sur puce et enfin, l'analyse de la puce.
+ChIP[modifier | modifier le code]
+Liaison covalente in vivo des protéines à l'ADN, en général par l'utilisation de formaldéhyde
+Extraction de l'ADN de la cellule
+Découpage de l'ADN en courts brins(Par exemple par sonication)
+Sélection des fragments (associés à la protéine étudiée) grâce à un anticorps correspondant
+Précipitation des complexes ADN-protéine-anticorps, élimination du surnageant (i.e. ADN non associé à la protéine d'intérêt)
+Séparation du complexe ADN-protéine pour ne garder que l'ADN (avec de la protéinase K par exemple)
+On obtient ainsi une collection de fragments d'ADN d'assez courte taille et dont on sait qu'ils interagissent avec une protéine d'intérêt (celle sélectionnée par l'anticorps en (4)).
+Etude du résultat de la partie ChIP[modifier | modifier le code]
+On utilise ensuite une puce à ADN en vue d'identifier les fragments recueillis dans la première partie. On a en effet une collection de fragments dont on sait qu'ils interagissent avec une protéine d'intérêt. Il est évidemment intéressant de mieux caractériser ces fragments, dans le but de les localiser sur le génome ou d'étudier leur séquence même. Des caractéristiques communes des fragments (polarité, séquences consensus...) peuvent être mises en évidence. D'autre part, on peut mettre en évidence de nouveaux gènes régulés par la protéine d'intérêt.
+La méthode ChIP est suivie, dans la technique "ChIP on chip", d'une analyse sur puce. Il est néanmoins à noter que l'utilisation de puces à ADN pour l'identification et la caractérisation des fragments n'est pas obligatoire. On peut aussi utiliser une classique PCR pour identifier des fragments connus et vérifier leur présence ou leur absence.
+L'utilisation de puce à ADN en deuxième partie permet cependant d'accélérer le processus d'identification des séquences, puisqu'on teste potentiellement plusieurs milliers de séquences à la fois. La PCR restreint l'étude à un fragment à la fois, mais est moins coûteuse.
+Utilisation[modifier | modifier le code]
+L'utilisation la plus classique est l'identification de facteurs de transcription. L'originalité et l'intérêt de cette méthode viennent du fait que l'extraction d'ADN se fait in vivo, ce qui permet d'avoir une idée plus réaliste des processus à l'œuvre dans les cellules lors de l'initiation de la transcription.
+Analyses et logiciels[modifier | modifier le code]
+CoCAS: un logiciel libre adapté aux puces Agilent.
+Références[modifier | modifier le code]
+bioinformatics.oxfordjournals Touati Benoukraf, Pierre Cauchy, Romain Fenouil, Adrien Jeanniard, Frederic Koch, Sébastien Jaeger, Denis Thieffry, Jean Imbert, Jean-Christophe Andrau, Salvatore Spicuglia, and Pierre Ferrier , CoCAS: a ChIP-on-chip analysis suite, Bioinformatics Advance Access published on April 1, 2009, DOI 10.1093/bioinformatics/btp075, Bioinformatics 25: 954-955.
+Portail de la biologie cellulaire et moléculaire
+Portail de la biochimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Chip_on_chip&oldid=89884249 ».
+Catégories : Biologie moléculaireBio-informatiqueCatégories cachées : Portail:Biologie cellulaire et moléculaire/Articles liésPortail:Biologie/Articles liésPortail:Biochimie/Articles liésPortail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Deutsch
+English
+Italiano
+Modifier les liens
+Dernière modification de cette page le 12 mars 2013 à 23:54.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

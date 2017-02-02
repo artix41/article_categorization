@@ -1,0 +1,250 @@
+Équation de Schrödinger — Wikipédia
+Équation de Schrödinger
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L'équation de Schrödinger, conçue par le physicien autrichien Erwin Schrödinger en 1925, est une équation fondamentale en mécanique quantique. Elle décrit l'évolution dans le temps d'une particule massive non relativiste, et remplit ainsi le même rôle que la relation fondamentale de la dynamique en mécanique classique.
+Sommaire
+1 Naissance de l'équation
+1.1 Contexte historique
+1.2 La dérivation historique
+2 Formulation moderne
+3 Résolution de l'équation
+3.1 Recherche des états propres
+3.2 Rareté d'une résolution analytique exacte
+4 Généralisation
+5 Bibliographie
+6 Notes
+7 Articles connexes
+Naissance de l'équation[modifier | modifier le code]
+Contexte historique[modifier | modifier le code]
+Au début du XXe siècle, il était devenu clair que la lumière présente une dualité onde-corpuscule, c'est-à-dire qu'elle pouvait se manifester, selon les circonstances, soit comme une particule, le photon, soit comme une onde électromagnétique. Louis de Broglie proposa de généraliser cette dualité à toutes les particules connues bien que cette hypothèse eût pour conséquence paradoxale la production d'interférences par les électrons — à l'instar de la lumière — ce qui fut vérifié ultérieurement par l'expérience de Davisson-Germer. Par analogie avec le photon, Louis de Broglie associa ainsi à chaque particule libre d'énergie
+et de quantité de mouvement
+une fréquence
+et une longueur d'onde  :
+L'équation de Schrödinger, établie par le physicien Erwin Schrödinger en 1925, est une fonction d'onde qui généralise l'approche de de Broglie ci-dessus aux particules massives non relativistes soumises à une force dérivant d'une énergie potentielle, dont l'énergie mécanique totale est classiquement :
+.
+Le succès de l'équation, déduite de cette extension par utilisation du principe de correspondance, fut immédiat quant à l'évaluation des niveaux quantifiés d'énergie de l'électron dans l'atome d'hydrogène, car elle permit d'expliquer les raies d'émission de l'hydrogène : séries de Lyman, Balmer, Brackett, Paschen, etc.
+L'interprétation physique communément admise de la fonction d'onde de Schrödinger ne fut donnée qu'en 1926 par Max Born. En raison du caractère probabiliste qu'elle introduisait, la mécanique ondulatoire de Schrödinger suscita initialement de la méfiance chez quelques physiciens de renom comme Albert Einstein, pour qui « Dieu ne joue pas aux dés ».
+La dérivation historique[modifier | modifier le code]
+Le schéma conceptuel utilisé par Schrödinger pour dériver son équation repose sur une analogie formelle entre l'optique et la mécanique :
+En optique physique, l'équation de propagation dans un milieu transparent d'indice réel n variant lentement à l'échelle de la longueur d'onde conduit - lorsqu'on cherche une solution monochromatique dont l'amplitude varie très lentement devant la phase - à une équation approchée dite de l'eikonale. C'est l'approximation de l'optique géométrique, à laquelle est associé le principe variationnel de Fermat.
+Dans la formulation hamiltonienne de la mécanique classique, il existe une équation dite de Hamilton-Jacobi. Pour une particule massive non relativiste soumise à une force dérivant d'une énergie potentielle, l'énergie mécanique totale est constante et l'équation de Hamilton-Jacobi pour la "fonction caractéristique de Hamilton" ressemble alors formellement à l'équation de l'eikonale (le principe variationnel associé étant le principe de moindre action.)
+Ce parallèle avait été noté dès 1834 par Hamilton, mais celui-ci n'avait alors pas de raison de douter de la validité de la mécanique classique. Après l'hypothèse de De Broglie de 1923, Schrödinger s'est dit[1] : l'équation de l'eikonale étant une approximation de l'équation d'onde de l'optique physique, cherchons l'équation d'onde de la "mécanique ondulatoire" (à construire) dont l'approximation soit l'équation de Hamilton-Jacobi. Ce qu'il a fait, d'abord pour une onde stationnaire (E = cte), puis pour une onde quelconque[2].
+Remarque : Schrödinger avait en fait commencé par traiter le cas d'une particule relativiste - comme d'ailleurs de Broglie avant lui[3]. Il a alors obtenu l'équation connue aujourd'hui sous le nom de Klein-Gordon, mais son application au cas du potentiel coulombien donnant des niveaux d'énergie incompatibles avec les résultats expérimentaux de l'atome d'hydrogène[4], il se serait rabattu sur le cas non relativiste, avec le succès que l'on connaît.
+Dérivation élémentaire
+Une fois établi le parallèle entre l'optique et la mécanique hamiltonienne - i.e. la partie non triviale du raisonnement -, la fin de la dérivation est relativement élémentaire. En effet, l'équation d'onde satisfaite par l'amplitude spatiale d'une onde monochromatique de pulsation
+fixée dans un milieu d'indice n lentement variable s'écrit :
+On introduit le nombre d'onde k dans le milieu d'indice n, tel que :
+On obtient alors l'équation de Helmholtz :
+La longueur d'onde dans le milieu est définie par . L'équation de Helmholtz se réécrit :
+On utilise alors la relation de de Broglie pour une particule non relativiste, pour laquelle la quantité de mouvement p = m v  :
+Or, l'énergie cinétique s'écrit pour une particule non relativiste :
+d'où l'équation de Schrödinger stationnaire :
+En introduisant le quantum d'action , on la met sous la forme habituelle :
+Il ne reste plus qu'à réintroduire le temps t en explicitant la dépendance temporelle pour une onde monochromatique, puis en utilisant la relation de Planck-Einstein  :
+On obtient finalement l'équation de Schrödinger générale :
+Formulation moderne[modifier | modifier le code]
+En mécanique quantique, l'état à l'instant t d'un système est décrit par un élément
+de l'espace complexe de Hilbert — est utilisée la notation bra-ket de Paul Dirac. Le carré de
+représente les densités de probabilités de résultats de toutes les mesures possibles d'un système.
+L'évolution temporelle de
+est décrite par l'équation de Schrödinger :
+où
+est l'unité imaginaire :  ;
+est la constante de Planck réduite :  ;
+est l'hamiltonien, dépendant du temps en général, l'observable correspondant à l'énergie totale du système ;
+est l'observable position ;
+est l'observable impulsion.
+Contrairement aux équations de Maxwell gérant l'évolution des ondes électromagnétiques, l'équation de Schrödinger est non relativiste. Cette équation est un postulat. Elle a été supposée correcte après que Davisson et Germer eurent confirmé expérimentalement l'hypothèse de Louis de Broglie.
+Résolution de l'équation[modifier | modifier le code]
+L'équation de Schrödinger étant une équation vectorielle on peut la réécrire de façon équivalente dans une base particulière de l'espace des états. Si on choisit par exemple la base
+correspondant à la représentation de position définie par
+alors la fonction d'onde
+satisfait à l'équation suivante
+où
+est le laplacien. En effet l'observable position
+ne dépend pas du temps, donc ses états propres n'en dépendent pas non plus : .
+Sous cette forme on voit que l'équation de Schrödinger est une équation aux dérivées partielles faisant intervenir des opérateurs linéaires, ce qui permet d'écrire la solution générique comme la somme des solutions particulières. L'équation est dans la grande majorité des cas trop compliquée pour admettre une solution analytique de sorte que sa résolution est approchée et/ou numérique.
+Recherche des états propres[modifier | modifier le code]
+Les opérateurs apparaissant dans l'équation de Schrödinger sont des opérateurs linéaires ; il s'ensuit que toute combinaison linéaire de solutions est solution de l'équation. Cela mène à favoriser la recherche de solutions qui ont un grand intérêt théorique et pratique : à savoir les états qui sont propres de l'opérateur hamiltonien.
+Ces états sont donc solutions de l'équation aux états et valeurs propres,
+qui porte parfois le nom d’équation de Schrödinger indépendante du temps. L'état propre
+est associé à la valeur propre
+, scalaire réel, énergie de la particule dont
+est l'état.
+Les valeurs de l'énergie peuvent être discrètes comme les solutions liées d'un puits de potentiel (par ex. niveaux de l'atome d'hydrogène) ; il en résulte une quantification des niveaux d'énergie. Elles peuvent aussi correspondre à un spectre continu comme les solutions libres d'un puits de potentiel (par ex. un électron ayant assez d'énergie pour s'éloigner à l'infini du noyau de l'atome d'hydrogène).
+Il arrive souvent que plusieurs états
+correspondent à une même valeur de l'énergie : on parle alors de niveaux d'énergie dégénérés.
+D'une façon générale, la détermination de chacun des états propres de l'hamiltonien, , et de l'énergie associée, fournit l'état stationnaire correspondant, solution de l'équation de Schrödinger :
+Une solution de l'équation de Schrödinger peut alors s'écrire très généralement comme une combinaison linéaire de tels états :
+Selon les postulats de la mécanique quantique,
+le scalaire complexe
+est l'amplitude de l'état
+sur l'état  ;
+le réel
+est la probabilité (dans le cas d'un spectre discret) de trouver l'énergie
+lors d'une mesure de l'énergie sur le système.
+Rareté d'une résolution analytique exacte[modifier | modifier le code]
+La recherche des états propres de l'hamiltonien est en général complexe. Même le cas analytiquement soluble de l'atome d'hydrogène ne l'est rigoureusement sous forme simple que si l'on néglige le couplage avec le champ électromagnétique qui va permettre le passage des états excités, solutions de l'équation de Schrödinger de l'atome, vers le fondamental.
+Certains modèles simples, bien que non tout à fait conformes à la réalité, peuvent être résolus analytiquement et s'avèrent très utiles :
+particule libre (potentiel nul) ;
+oscillateur harmonique (potentiel quadratique) ;
+particule se déplaçant sur un anneau ;
+particule dans un puits de potentiel rectangulaire ;
+particule dans un guide d'onde annulaire ;
+particule dans un potentiel à symétrie sphérique ;
+particule dans un réseau unidimensionnel (potentiel périodique).
+Dans les autres cas, il faut faire appel aux diverses techniques d'approximation :
+la théorie des perturbations fournit des expressions analytiques sous la forme de développements asymptotiques autour d'un problème non perturbé exactement soluble.
+l'analyse numérique permet d'explorer des situations inaccessibles par la théorie de perturbation.
+Généralisation[modifier | modifier le code]
+La généralisation de l'équation au domaine relativiste mena à l'équation de Klein-Gordon, puis à l'équation de Dirac ; cette dernière établit naturellement l'existence du spin et des antiparticules. Cependant, il n'existe aucune interprétation entièrement cohérente de ces équations d'ondes relativistes dans le cadre d'une théorie décrivant une seule particule ; le cadre pertinent pour le théorique quantique relativiste est la théorie quantique des champs.
+Il existe d'autres équations de type Schrödinger, non-linéaires, comme l'Équation de Schrödinger semi-linéaire, ou comme l'Équation de Gross-Pitaevskii, qui interviennent en théorie des atomes ultra froids, des plasmas, des lasers, etc...
+Bibliographie[modifier | modifier le code]
+Erwin Schrödinger ; Mémoires sur la mécanique ondulatoire, Félix-Alcan (Paris-1933). Réédition Jacques Gabay (1988), ISBN 2-87647-048-9. Contient la traduction française par Alexandre Proca des mémoires historiques de 1926 :
+Quantification et valeurs propres (I) et (II), Annalen der Physik (4) 79 (1926) ;
+Sur les rapports qui existent entre la mécanique quantique de Heisenberg-Born-Jordan et la mienne, Annalen der Physik (4) 79 (1926) ;
+Quantification et valeurs propres (III) - Théorie des perturbations avec application à l'effet Stark des raies de Balmer, Annalen der Physik (4) 80 (1926) ;
+Quantification et valeurs propres (IV), Annalen der Physik (4) 81 (1926) ; ainsi que les articles suivants :
+Le passage continu de la micro-mécanique à la mécanique macroscopique, Die Naturwissenschaften, 14 Jahrg., Heft 28 (1926), 664-666 ;
+Sur l'effet Compton, Annalen der Physik (4) 82(1927) ;
+Le théorème de la conservation d'énergie et de quantité de mouvement pour les ondes matérielles, Annalen der Physik (4) 82 (1927) ;
+Échanges d'énergie d'après la mécanique ondulatoire, Annalen der Physik (4) 83 (1927).
+Préface de Marcel Brillouin. Avant-propos de l'Auteur et notes inédites spécialement écrites pour cette traduction.
+(en) Erwin Schrödinger, « An Undulatory Theory of the Mechanics of Atoms and Molecules », Phys. Rev., vol. 28, no 6,‎ décembre 1926, p. 1049-1070 (DOI 10.1103/PhysRev.28.1049).
+Notes[modifier | modifier le code]
+↑ Schrödinger discute en détail des relations entre mécanique hamiltonienne et optique dans le deuxième mémoire de 1926 (cf. bibliographie). Cf. Walter Moore ; Schrödinger - Life & Thought, Cambridge University Press (1989).
+↑ Pour les curieux, cette dérivation est détaillée dans : Herbert Goldstein ; Classical mechanics, Addison-Wesley (2e édition-1980), paragraphe 10.8, p. 484-492.
+↑ Abraham Païs ; Inward Bound, Oxford University Press (1986).
+↑ La formule de Balmer obtenue est correcte, mais la structure fine est incorrecte.
+Articles connexes[modifier | modifier le code]
+Erwin Schrödinger
+Atome d'hydrogène
+Physique quantique
+Propagateur de l'équation de Schrödinger
+Potentiel quantique
+Unitarité
+Intégrale de chemin
+Équation de Klein-Gordon
+Équation de Dirac
+v · d · m
+Mécanique quantique
+Concepts fondamentaux
+Décohérence · Dualité · Effet tunnel · État quantique · Fonction d'onde · Intrication · Observable · Correspondance · Superposition quantique · Complémentarité · Principe d'incertitude · Mesure · Spin
+Expériences
+Fentes de Young · Expérience de Davisson et Germer · Expérience de Stern et Gerlach · Chat de Schrödinger · Gomme quantique · Paradoxe EPR · Téléportation quantique · Expérience d'Aspect · Expérience d’Afshar
+Formalisme
+Notation bra-ket · Équation de Schrödinger · Matrice densité · Représentation de Schrödinger · Représentation de Heisenberg · Représentation d'interaction · Diagramme de Feynman · Équation de Rarita-Schwinger · Équation de Dirac · Matrice de Dirac · Symbole de Levi-Civita
+Statistiques
+Maxwell-Boltzmann · Échange · Fermi-Dirac · Fermion · Bose-Einstein · Boson
+Théories avancées
+Théorie quantique des champs · Axiomes de Wightman · Électrodynamique quantique · Chromodynamique quantique · Gravité quantique · Trou noir virtuel
+Interprétations
+Problème de la mesure · Copenhague · Ensemble · Variables cachées · Ontologique (Bohm-Hiley) · Transactionnelle · Mondes multiples · Histoires consistantes · Logique quantique
+Physiciens
+Bohr · Bohm · Born · de Broglie · Dirac · Einstein · Everett · Feynman · Heisenberg · Mosharafa · von Neumann · Pauli · Penrose · Planck · Schrödinger
+Postulats de la mécanique quantique · Histoire de la mécanique quantique
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Équation_de_Schrödinger&oldid=108771731 ».
+Catégories : Mécanique quantiqueÉquation en physiqueCatégories cachées : Bon article en chinoisPortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+مصرى
+Български
+বাংলা
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Galego
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Հայերեն
+Interlingua
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+한국어
+Lietuvių
+Latviešu
+Bahasa Melayu
+Malti
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Shqip
+Српски / srpski
+Svenska
+தமிழ்
+Tagalog
+Türkçe
+Татарча/tatarça
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 2 novembre 2014 à 21:38.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

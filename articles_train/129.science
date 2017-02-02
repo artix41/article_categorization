@@ -1,0 +1,241 @@
+Titrage — Wikipédia
+Titrage
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Montage d'un titrage.
+La titrimétrie ou titrage est une technique de dosage utilisée en chimie analytique afin de déterminer la concentration d'une espèce chimique en solution (ou titre d'une solution).
+La méthode de titrage la plus utilisée est la volumétrie ou titrage volumétrique. Elle consiste à utiliser une solution de concentration connue (appelée titrant) afin de neutraliser une espèce contenue dans la solution inconnue (appelée analyte ou espèce titrée).
+Les titrages volumétriques les plus répandus sont les titrages acide-base (titrages acidimétriques) : l'opérateur fait couler goutte à goutte un acide dans un volume déterminé de base. Ainsi les réactifs réagissent mole à mole. Les titrages base-acide (titrages alcalimétriques) sont aussi possibles. D'autres exemples de titrages sont les titrages d'oxydo-réduction, de complexation et de précipitation.
+Le point de neutralisation est connu entre autres, grâce à un indicateur coloré ajouté dans la solution inconnue (cet indicateur change de couleur au moment de la neutralisation) ou grâce à une variation du potentiel ou du pH (mesuré au moyen d'une électrode trempant dans la solution inconnue).
+Sommaire
+1 Définition de l'équivalence
+2 Titrages direct et indirect
+3 Matériel nécessaire
+4 Titrage en solution aqueuse
+4.1 Titrage colorimétrique
+4.2 Titrage pH-métrique
+4.2.1 Titrage d'un acide fort par une base forte
+4.3 Titrage conductimétrique
+5 Calculs
+5.1 Méthode mathématique
+5.2 Tableau d'avancement
+6 Calcul d'un excès
+6.1 Rappels
+6.2 Exemple de calcul
+7 Bibliographie
+8 Liens externes
+Définition de l'équivalence[modifier | modifier le code]
+Avant l'équivalence, la solution titrante, immédiatement consommée, est limitante. Il y a diminution de la concentration en ions titrés, et augmentation de la concentration en ions témoins de la solution titrante, ce qui entraîne une diminution ou une augmentation (si les ions témoins sont plus conducteurs que les ions titrés) de la conductivité de la solution.
+À l'équivalence, la solution titrante et la solution titrée ont réagi dans les proportions stœchiométriques. Les deux réactifs sont limitants et entièrement consommés (à l'exception des ions témoins).
+Après l'équivalence, l'espèce dont on cherche le titre, totalement consommée, devient limitante. Par conséquent, si l'on continue d'ajouter de la solution titrante le réactif titrant n'est pas consommé ce qui permet de savoir que l'équivalence a été dépassé.
+L'équivalence est donc le changement de réactif limitant.
+Titrages direct et indirect[modifier | modifier le code]
+Titrage direct : l'analyte A réagit directement avec le réactif titrant B :
+A + B → C + D.
+Titrage indirect : l'analyte A réagit dans une première réaction chimique et l'équivalence est déterminée avec une autre réaction chimique :
+Titrage en retour : l'analyte A réagit en premier lieu avec B en excès connu, on titre ensuite l'excès restant de B par un nouveau réactif E.
+A + B en excès connu → C + D
+B restant + E → F + G
+Titrage par déplacement : l'analyte A réagit en premier lieu avec B en excès inconnu, ensuite le produit C formé par cette réaction est titré par un nouveau réactif E.
+A + B en excès inconnu → C + D
+C formé + E → F + G
+Matériel nécessaire[modifier | modifier le code]
+Montage pour faire un titrage. La burette contient une solution titrante, et l'erlen la solution à titrer.
+On utilise en général une burette graduée quand le titrage est manuel ou un titrimètre automatique quand on souhaite améliorer la répétabilité et la traçabilité. Le volume de l'échantillon est prélevé au moyen d'une pipette de volume déterminé et est placé dans un Erlenmeyer. La burette contient toujours la solution de réactif titrante dont on connaît la concentration. La burette donne le volume versé de solution titrante et donc nous donnera le point à l'équivalence. La solution à doser sera toujours dans un bécher ou autre récipient propre, elle sera en volume exactement connu.
+Titrage en solution aqueuse[modifier | modifier le code]
+Pour réaliser un titrage, on réalise une réaction chimique où l'espèce en solution réagit avec une autre substance. L'espèce à doser est appelée réactif titré et la substance ajoutée est appelée réactif titrant
+Selon la méthode utilisée pour la détection du point de neutralisation, il est possible de réaliser un titrage colorimétrique, un titrage conductimétrique, un titrage potentiométrique ([pH-métrique dans le cas d'un titrage acide-base)...
+Titrage colorimétrique[modifier | modifier le code]
+Article détaillé : Titrage par indicateurs colorés.
+Titrage pH-métrique[modifier | modifier le code]
+Dosage d'un acide fort par une base faible en présence d'un indicateur coloré.
+Ce type de titrage est réalisable uniquement avec des acides et des bases, faibles ou forts, et sous présence d'un pH-mètre.
+Titrage d'un acide fort par une base forte[modifier | modifier le code]
+En solution, les acides forts comme l'acide chlorhydrique sont totalement dissociés et donnent des ions . De même, les bases fortes se dissocient totalement pour libérer des ions .
+Les ions
+et
+réagissent de la façon suivante :
+(équation générale de neutralisation).
+Au volume à l'équivalence tous les ions
+et
+ont réagi, la seule réaction qui se produit est celle de l'autoprotolyse de l'eau. Le pH est alors égal à 7. L'équivalence est indiquée soit par un indicateur de pH, soit indirectement par une courbe représentant le pH en fonction du volume de base versé. On doit pour cela relever les valeurs du PH-mètre pour chaque mL de solution versée. Quand le pH commence à augmenter de façon significative, versez alors 0,2 ml de solution entre chaque mesure de pH. Une fois que le pH sera redevenu relativement stable reprenez une mesure de pH tous les ml. En traçant la courbe du pH en fonction du volume de base versée, on obtient la courbe représentée comme sur le dessin ci-contre. Pour retrouver le volume à l'équivalence, on doit tracer deux tangentes de part et d'autre du point d'inflexion (qui correspond à l'équivalence). Les tangentes doivent être parallèles. Tracer une perpendiculaire à ces deux droites, puis grâce à un compas, tracer la médiatrice de la perpendiculaire. La médiatrice doit être parallèle aux tangentes. Le volume à l'équivalence est l'endroit où la médiatrice et la courbe se rencontrent, pour un pH de 7.
+Titrage conductimétrique[modifier | modifier le code]
+Un titrage conductimétrique utilise la capacité des ions à conduire le courant électrique dans un milieu aqueux, on mesure alors la conductance de la solution grâce à une électrode. Comme chaque ion conduit le courant différemment, la conductance varie pendant le dosage. Cette notion est directement liée avec la concentration des ions présents. Par exemple : l'ion
+conduit mieux le courant que l'ion . Si on fait réagir les ions , la conductance de la solution va baisser car ces ions disparaissent (la concentration des ions
+diminue). Puis si on continue le titrage au-delà du point d'équivalence, la conductance va monter, car les ions
+seront de plus en plus nombreux (la concentration des ions
+augmente). En relevant les valeurs indiquées par le conductimètre, on peut tracer la droite de la conductance en fonction du volume versé. Il se dessine alors deux droites adjacentes, en forme de V. Le point adjacent indique le volume à l'équivalence.
+Calculs[modifier | modifier le code]
+Le but d'un titrage est de trouver la concentration en un élément donné. Il existe pour cela deux moyens possibles : par le calcul et par un tableau d'avancement. Dans les deux cas il faut connaître l'équation bilan de la réaction.
+Méthode mathématique[modifier | modifier le code]
+À l'équivalence, on a :
+→ .
+Donc :
+×
+× .
+D'où :
+×
+× .
+Donc :
+.
+Avec :
+: concentration de la solution inconnue en mol.L-1 ;
+: volume d'échantillon utilisé en litres (L) ;
+: concentration de la solution connue en mol.L-1 ;
+: volume de titrant coulé en litres (L) ;
+et  : coefficients stœchiométriques ;
+Cette formule est générale quels que soient les coefficients (ou nombres) stœchiométriques.
+En raisonnant avec les concentrations, les coefficients stœchiométriques interviennent.
+Tableau d'avancement[modifier | modifier le code]
+Le bilan de la réaction s'écrit comme ceci :
+État initial
+État intermédiaire
+État final
+Au début du titrage, (quand on n'a encore rien versé), on n'a que des réactifs et aucun produit de réaction. Au fur et à mesure que la réaction se déroule, une quantité x de réactif disparaît, alors qu'en même temps une quantité x de produit apparaît. C'est l'application de la loi de Lavoisier. À la fin du titrage, c'est-à-dire quand un des réactifs a totalement disparu (celui se trouvant dans l'erlenmeyer) on a atteint l'avancement maximal, la réaction ne peut pas aller plus loin.
+À ce moment-là :
+donc :
+.
+Ce tableau permet de comprendre ce qui se passe pendant la réaction et de ne pas se tromper avec les coefficients. En effet, on a juste à les reporter devant le X. Normalement quand on a de l'eau dans la réaction on doit écrire « en excès » (on a toujours plus d'eau qu'il n'en faut pour que la réaction se déroule).
+Calcul d'un excès[modifier | modifier le code]
+Au départ la solution titrée est en excès. Après l'équivalence, c'est la solution titrante qui est en excès. Pour une réaction acido-basique, l'acide est limitant au début et pour une oxydo-réduction, c'est l'oxydant qui est limitant avant l'équivalence.
+Un excès est une partie des réactifs qui ne réagit pas pendant une réaction chimique et qui se retrouve donc dans les produits de la réaction. On peut doser l'excès de réactif avec une deuxième réaction chimique : c'est un dosage en retour.
+Rappels[modifier | modifier le code]
+Le nombre de mole
+correspond à la quantité de matière d'une espèce chimique.
+La masse molaire
+d'un élément est la quantité de matière qu'il faut pour avoir une mole de cet élément.
+Exemple :
+, il faut 12 grammes de carbone pour avoir 1 mole.
+La masse
+est la quantité de matière pesée.
+×
+La concentration
+est la quantité de matière contenue dans un litre de solution. Elle est exprimée en mol/L ou en g/L.
+ou :
+.
+Exemple de calcul[modifier | modifier le code]
+On fait réagir du chlorure de sodium
+avec du nitrate d'argent .
+On verse 10 ml de NaCl à 0,2 mol/L dans un bécher contenant 20 ml de
+à 0,2 mol/L.
+=47 g/mol
+= 14 g/mol
+= 16 g/mol
+Détermination de la masse de l'excès d' :
++
+=
+État initial
+×
+×
+État intermédiaire
+×
+×
+État final
+×
+×
+-
+×
+×
+×
+× .
+Bibliographie[modifier | modifier le code]
+[PDF] L. Lopes, « Réactions "totales" en solution aqueuse », Bulletin de l’union des physiciens, vol. 99, no 872(1),‎ mars 2005, p. 385-396 (lire en ligne)
+Liens externes[modifier | modifier le code]
+[PDF] L. Lopes, Titrages acidobasiques de mélanges contenant une espèce forte et une espèce faible : successifs ou simultanés ?
+(en) Titrages pH-métriques - résolution ou simulation avec Excel
+Graphe de Gran : linéarisation graphique permettant la détermination du point d'équivalence, du pKW (ou pKa) et autres paramètres
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Titrage&oldid=109810573 ».
+Catégories : Chimie analytiqueTechnique de laboratoireMélange chimiqueCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Bosanski
+Català
+کوردی
+Čeština
+Cymraeg
+Dansk
+Deutsch
+English
+Español
+Eesti
+فارسی
+Suomi
+Gaeilge
+עברית
+हिन्दी
+Hrvatski
+Kreyòl ayisyen
+Magyar
+Bahasa Indonesia
+Ido
+Italiano
+日本語
+한국어
+Latviešu
+Македонски
+മലയാളം
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Русский
+Sicilianu
+Srpskohrvatski / српскохрватски
+සිංහල
+Simple English
+Slovenčina
+Српски / srpski
+Svenska
+ไทย
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 9 décembre 2014 à 17:05.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

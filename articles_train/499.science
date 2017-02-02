@@ -1,0 +1,186 @@
+Histoire des statistiques — Wikipédia
+Histoire des statistiques
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant les probabilités et la statistique et l’histoire des sciences.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+On attribue à l'histoire des statistiques la date de commencement de 1749, bien que l'interprétation du terme « statistique » a changé au cours du temps. Aux temps plus anciens, cette science ne consistait qu'à la collection d'informations sur les états, d'où l'étymologie du nom, de l'allemand Staatskunde. Plus tard, cette définition est étendue à tout type d'information collectée et, encore plus tard, les sciences statistiques incluent l'analyse et l'interprétation de ces données. En termes modernes, les statistiques incluent les ensembles de données, telles celles de la comptabilité nationale et les registres de températures (en), ainsi que le travail d'analyse, lequel requiert les méthodes de l'inférence statistique.
+Sommaire
+1 Origines : collecte de données
+1.1 Monde antique jusqu'au XVIIe siècle
+1.2 Civilisations précolombiennes
+2 XVIIIe siècle
+3 XIXe siècle
+3.1 Démographie
+3.2 Statistiques mathématiques
+3.3 Informatique
+3.4 Physique
+3.4.1 Astronomie
+3.4.2 Thermodynamique
+4 XXe siècle
+5 Contributeurs importants aux statistiques
+6 Bibliographie
+7 Références
+8 Voir aussi
+Origines : collecte de données[modifier | modifier le code]
+Monde antique jusqu'au XVIIe siècle[modifier | modifier le code]
+Exemple de quipu.
+La science statistique semble exister dès la naissance des premières structures sociales. D'ailleurs, les premiers textes écrits retrouvés étaient des recensements du bétail, des informations sur son cours et des contrats divers. On a ainsi trace de recensements en Chine au XXIIIe siècle av. J.-C. ou en Égypte au XVIIIe siècle av. J.-C.. Ce système de recueil de données se poursuit jusqu'au XVIIe siècle. En Europe, le rôle de collecteur est souvent tenu par des guildes marchandes, puis par les intendants de l'État.
+Civilisations précolombiennes[modifier | modifier le code]
+La civilisation Inca (1400-1530) a développé un système de numération positionnel en base 10 (donc similaire à celui utilisé aujourd'hui). Ne connaissant pas l'écriture[1], ils utilisaient des quipus pour « écrire » les statistiques de l'État. Un quipu est un encordage dont les cordes présentent trois types de nœuds symbolisant respectivement l'unité, la dizaine et la centaine[2]. Un agencement des nœuds sur une corde donne un nombre entre 1 et 999 ; les ajouts de cordes permettant de passer au millier, au million, etc.
+Le jésuite et chroniqueur espagnol Bernabé Cobo (1983 [1653]: 253–254)[3], venu au Pérou après la conquête (1532), rapporte un témoignage comme quoi les quipucamayocs (maîtres du Quipu) étaient chargés de recenser toutes les données relatives aux recoltes. Dans une étude approfondie du quipu VA 42527 (Museum für Völkerkunde, Berlin), Sáez-Rodríguez (2013)[4] démontre que les écritures comptables de clôture des comptes se rapportant aux greniers (à grains) permettaient au quipucamayoc (chargé de la comptabilité) de les faire correspondre au calendrier lunaire[5].
+XVIIIe siècle[modifier | modifier le code]
+Ce n'est qu'au XVIIIe siècle que l'on voit apparaître le rôle prévisionnel des statistiques avec la construction des premières tables de mortalité. Antoine Deparcieux écrit en 1746 l'Essai sur les probabilités de la durée de vie humaine. Elle va d'abord servir aux compagnies d'assurances sur la vie qui se créent alors[6].
+XIXe siècle[modifier | modifier le code]
+Démographie[modifier | modifier le code]
+La statistique est aussi un appui pour l'histoire prospective ou rétrospective de la démographie notamment. Ainsi en 1842, le Baron de Reiffenberg présentait-il[7] à l'Académie ses calculs rétrospectifs de population chez des peuples gaulois, d'après des chiffres donnés par Jules César dans sa conquête des gaules (De bello Gallico, v.).
+Diagramme des causes de mortalité au sein de l'armée en Orient par Florence Nightingale.
+Florence Nightingale est une pionnière de la présentation visuelle de l'information. Elle utilise entre autres les diagrammes circulaires, développés par William Playfair en 1801. Après la Guerre de Crimée, elle se met à utiliser une version améliorée de ces diagrammes (équivalant aux histogrammes circulaires d'aujourd'hui), afin d'illustrer les causes saisonnières de mortalité des patients de l'hôpital militaire qu'elle gère. Par la suite, Nightingale réalise une étude statistique complète du système sanitaire dans les campagnes indiennes et est la figure majeure de l'amélioration des soins médicaux et des services publics de santé en Inde.
+Statistiques mathématiques[modifier | modifier le code]
+Le théorème central limite établit la convergence de la somme d'une suite de variables aléatoires vers la loi normale : toute somme de variables aléatoires indépendantes et identiquement distribuées tend vers une variable aléatoire gaussienne.
+Les statistiques mathématiques s'appuyaient sur les premiers travaux concernant les probabilités développés par Fermat et Pascal. C'est probablement chez Thomas Bayes que l'on vit apparaître un embryon de statistique inférentielle. Condorcet et Laplace parlaient encore de probabilité là où l'on parlerait aujourd'hui de fréquence. Mais c'est à Adolphe Quetelet que l'on doit l'idée que la statistique est une science s'appuyant sur les probabilités.
+Pierre-Simon de Laplace fait entrer l'analyse dans la théorie des probabilités dans sa théorie analytique des probabilités de 1812 qui restera longtemps un monument. Son livre donne une première version du théorème central limite qui ne s'applique alors que pour une variable à deux états, par exemple pile ou face mais pas un dé à 6 faces. Il faudra attendre 1901 pour en voir apparaître la première version générale par Liapounov. C'est aussi dans ce traité qu'apparaît la méthode de Laplace pour l'évaluation asymptotique de certaines intégrales.
+Sous l'impulsion de Quetelet, qui ouvre en 1841 le premier bureau statistique le Conseil Supérieur de Statistique, les statistiques se développent et deviennent un domaine à part entière des mathématiques qui s'appuie sur les probabilités mais n'en font plus partie.
+La théorie moderne des probabilités ne prend réellement son essor qu'avec la notion de mesure et d'ensembles mesurables qu'Émile Borel introduit en 1897.
+Informatique[modifier | modifier le code]
+Carte perforée à 80 colonnes.
+Le XIXe siècle voit cette activité prendre son plein essor. Des règles précises sur la collecte et l'interprétation des données furent édictées. La première application industrielle des statistiques eut lieu lors du recensement américain de 1890, qui mit en œuvre la carte perforée inventée par le statisticien Herman Hollerith. Celui-ci avait déposé un brevet au bureau américain des brevets.
+Physique[modifier | modifier le code]
+Ajustement d'un modèle
+par la méthode des moindres carrés.
+Astronomie[modifier | modifier le code]
+Legendre en 1805[8] 1811[9] puis Gauss en 1809[10] introduisent, sur des problèmes d'astronomie, la méthode des moindres carrés, ensemble de méthodes qui deviendront fondamentales en statistiques.
+Thermodynamique[modifier | modifier le code]
+Article détaillé : Histoire de la thermodynamique classique.
+Ludwig Boltzmann formalise mathématiquement en 1872 l'évolution d'un gaz peu dense hors équilibre. L'« équation de Boltzmann » est l'équation intégro-différentielle de la théorie cinétique permettant d'évaluer la répartition des énergies cinétiques, à une température donnée, des molécules d'un gaz[11].
+Boltzmann considère que le système étudié est composé d'un grand nombre de « petits » systèmes isolés de même nature se distingant les uns des autres par leur phase — à savoir leur configuration et leur vitesse. Ne pouvant suivre l'évolution de l'un de ces systèmes, il « détermine la distribution de l'ensemble des systèmes parmi toutes les phases qu'ils peuvent prendre à un instant quelconque ». Ces considérations statistiques sont les prémices de l'établissement de la physique statistique[12].
+XXe siècle[modifier | modifier le code]
+Article connexe : Histoire des ordinateurs.
+En 1956, IBM produit le premier système à base de disque dur, le Ramac 305 (Random Access Method of Accounting and Control).
+Ramac 305 à l'arsenal de Red River de l'U.S. Army. Au premier plan : deux lecteurs de 350 disques ; au fond : console 380 et unité de calcul 305.
+Au XXe siècle, ces applications industrielles se développèrent d'abord aux États-Unis, qui étaient en avance sur les sciences de gestion, puis seulement après la Première Guerre mondiale en Europe. Le régime nazi employa des méthodes statistiques à partir de 1934 pour le réarmement. En France, on était moins au fait de ces applications.
+L'application industrielle des statistiques en France se développe avec la création de l'Insee, qui remplaça le Service National des Statistiques créé par René Carmille.
+L'avènement de l'informatique dans les années 1940 (aux États-Unis), puis en Europe (dans les années 1960) permit de traiter un plus grand nombre de données, mais surtout de croiser entre elles des séries de données de types différents. C'est le développement de ce qu'on appelle l'analyse multidimensionnelle. Au cours du siècle, plusieurs courants de pensée vont s'affronter :
+les objectivistes ou fréquentistes (en) qui pensent que les probabilités fournissent un modèle permettant d'idéaliser la distribution en fréquence et que là s'arrête leur rôle ;
+les subjectivistes (en) qui voient les probabilités comme un moyen de mesurer la confiance que l'on peut avoir dans une prévision ;
+les néo-bayesiens qui soutiennent que les données statistiques seules ne permettent pas de donner le modèle probabiliste idéalisant la distribution en fréquence: il est nécessaire de proposer au départ une forme générale du modèle.
+Contributeurs importants aux statistiques[modifier | modifier le code]
+Article connexe : Liste de statisticiens.
+Thomas Bayes
+George E. P. Box
+Pafnuty Chebyshev
+David Cox
+Gertrude Cox
+Harald Cramér
+Francis Ysidro Edgeworth
+Bradley Efron
+Bruno de Finetti
+Ronald Aylmer Fisher
+Francis Galton
+Carl Friedrich Gauss
+William Gosset ou « Student »
+Andrey Kolmogorov
+Pierre-Simon Laplace
+Erich L. Lehmann
+Aleksandr Lyapunov
+Abraham De Moivre
+Jerzy Neyman
+Florence Nightingale
+Blaise Pascal
+Karl Pearson
+Charles S. Peirce
+Adolphe Quetelet
+C. R. Rao
+Walter A. Shewhart
+Charles Spearman
+Thorvald Nicolai Thiele
+John Tukey
+Abraham Wald
+Bibliographie[modifier | modifier le code]
+(en) Stephen Stigler, The History of Statistics : The Measurement of Uncertainty Before 1900, The Belknap Press,‎ 1990
+Alain Desrosières, La Politique des grands nombres : Histoire de la raison statistique, Paris, La Découverte,‎ 2000, 2e éd. (1re éd. 1993) (ISBN 978-2-7071-3353-3)
+(en) David Salsburg, The Lady Tasting Tea : How statistics revolutionized science in the twentieth century, Holt McDougal,‎ mai 2002, 1e éd. (ISBN 978-0805071344)
+(en) Stephen Stigler, Statistics on the Table : The History of Statistical Concepts and Methods, Harvard University Press,‎ 2002
+Références[modifier | modifier le code]
+↑ Seules les données archéologiques apportent des informations sur leur organisation.
+↑ Marcia Ascher, Mathématiques d'ailleurs, Nombres, Formes et Jeux dans les sociétés traditionnelles, Éditions du Seuil, 1998.
+↑ Cobo, B. (1983 [1653]). Obras del P. Bernabé Cobo. Vol. 1. Edited and preliminary study By Francisco Mateos. Biblioteca de Autores Españoles, vol. 91. Madrid: Ediciones Atlas.
+↑ Sáez-Rodríguez. A. (2012). An Ethnomathematics Exercise for Analyzing a Khipu Sample from Pachacamac (Perú). Revista Latinoamericana de Etnomatemática. 5(1):62–88.
+↑ Sáez-Rodríguez. A. (2013). Knot numbers used as labels for identifying subject matter of a khipu. Revista Latinoamericana de Etnomatemática. 6(1): 4-19.
+↑ Almanach des Français, traditions et variations, page 194.
+↑ Essai sur la statistique ancienne de la Belgique. I. Population. - II. Architecture. - III. Mobbilier, Costumes. Par le Baron de Reiffenberg, Seconde partie séance de l'académie du 3 novembre 1832, Bruxelles, PDF, 142 pages
+↑ Legendre, Nouvelles méthodes pour la détermination des orbites des comètes, Appendice: sur la méthodes des moindres carrés, Paris, Courcier, 1805
+↑ Legendre, Méthodes des moindres carrés, lu le 24 février 1811
+↑ Gauss, Theoria motus corporum coelestium in sectionibus conicis solem ambientium, 1809
+↑ Gérard Bordes, Encyclopédie de A à Z, Paris, Atlas,‎ 1979, volume 3, p. 860.
+↑ Robert Locqueneux, Préhistoire & histoire de la thermodynamique classique, ENS-LSH Editions,‎ 2004 (ISBN 978-2-84788-058-8), chap. 13 - La mécanique statistique de Gibbs, p. 297.
+Voir aussi[modifier | modifier le code]
+Histoire de la statistique française
+Histoire des mathématiques
+v · d · m
+Histoire des sciences
+Chronologie
+Algèbre · Astronomie (Stellaire · Système solaire) · Biologie · Botanique · Chimie · Entomologie · Optique · Ornithologie · Place des femmes en science · Santé et médecine · Techniques
+Sciences et techniques anciennes
+Byzance · Chine · Grèce · Inde · Islam · Moyen Âge
+Histoire
+Anthropologie · Astronomie · Biologie · Chimie (Électrochimie · Éléments) · Écologie · Économie · Électricité · Électrophysiologie · Géométrie · Ichtyologie · Logique · Mathématiques · Mécanique quantique · Médecine · Optique · Physique · Relativité restreinte · Sciences du langage · Techniques
+Portail de l’histoire des sciences
+Portail des mathématiques
+Portail des probabilités et de la statistique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Histoire_des_statistiques&oldid=103879812 ».
+Catégories : Histoire des mathématiquesStatistiquesCatégories cachées : Wikipédia:ébauche probabilités et statistiquesWikipédia:ébauche histoire des sciencesArticle contenant un appel à traduction en anglaisPortail:Histoire des sciences/Articles liésPortail:Sciences/Articles liésPortail:Histoire/Articles liésPortail:Mathématiques/Articles liésProjet:Mathématiques/ArticlesPortail:Probabilités et statistiques/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Català
+English
+Español
+Euskara
+Italiano
+Português
+Modifier les liens
+Dernière modification de cette page le 17 mai 2014 à 10:53.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

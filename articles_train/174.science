@@ -1,0 +1,388 @@
+Acide gras — Wikipédia
+Acide gras
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Acide et Gras.
+En chimie, un acide gras est un acide carboxylique à chaîne aliphatique. Les acides gras naturels possèdent une chaîne carbonée de 4 à 36 atomes de carbone (rarement au-delà de 28) et typiquement en nombre pair, car la biosynthèse des acides gras, catalysée par l'acide gras synthase, procède en ajoutant de façon itérative de groupes de deux atomes de carbone à l'acétyl-CoA. Par extension, le terme est parfois utilisé pour désigner tous les acides carboxyliques à chaîne hydrocarbonée non-cyclique. On parle d'acides gras à longue chaîne pour une longueur de 14 à 24 atomes de carbone et à très longue chaîne s'il y a plus de 24 atomes de carbone. Les acides gras sont présents dans les graisses animales et les graisses végétales, les huiles végétales ou les cires, sous forme d'esters[1].
+En biochimie, les acides gras sont une catégorie de lipides qui comprend notamment les acides carboxyliques aliphatiques et leurs dérivés (acides gras méthylés, hydroxylés, hydroperoxylés, etc.) et les eicosanoïdes. Ces derniers dérivent de l'acide eicosapentaénoïque (oméga-3) ou de l'acide arachidonique (oméga-6) et ont souvent un rôle d'hormones. Les acides gras jouent un rôle structurel fondamental dans toutes les formes de vies connues à travers divers types de lipides (phosphoglycérides, sphingolipides, …) qui, en milieu aqueux, s'organisent en réseaux bidimensionnels structurant toutes les membranes biologiques (membrane cellulaire, plasmique, mitochondriale, du réticulum endoplasmique, des thylacoïdes, etc.).
+Ils constituent également des sources importantes d'énergie métabolique : les acides gras permettent aux être vivants de stocker environ 37 kJ d'énergie (9 kcal) par gramme de lipides, contre environ 17 kJ pour les glucides (4 kcal). Ils sont stockés par l'organisme sous forme de triglycérides, dans lesquels trois molécules d'acides gras forment un ester avec une molécule de glycérol. Lorsqu'ils ne sont pas liés à d'autres molécules, les acides gras sont dits « libres ». Leur dégradation produit de grandes quantités d'ATP, molécule énergétique privilégiée des cellules : la β-oxydation suivie de la dégradation par le cycle de Krebs d'un acide gras saturé à n = 2p atomes de carbone libère en effet (10p – 2) ATP + (p – 1) × (FADH2 + NADH+H+), soit l'équivalent énergétique de 106 ATP pour une molécule d'acide palmitique CH3(–CH2)14–COOH, qui contient 16 atomes de carbone (n = 16, et donc p = 8).
+Les acides gras peuvent être synthétisés par l'organisme à travers un ensemble de processus métaboliques appelés lipogenèse. Ils sont également apportés en grande quantité par l'alimentation. En moyenne, les besoins énergétiques quotidiens s'élèvent à 2 000 kcal pour une femme et 2 500 kcal pour un homme adultes[2], dont les matières grasses ne devraient idéalement pas représenter plus de 35 %[3], soit 65 g pour une femme et 90 g pour un homme adultes[4]. L'alimentation humaine occidentale apporte néanmoins bien davantage de matières grasses, les valeurs annuelles individuelles pour la France, toutes tranches d'âges confondues, s'élevant en moyenne à 125 g par jour et par personne[5], autrement dit 160 % de la quantité maximale recommandée pour un adulte.
+Sommaire
+1 Nomenclature et classification
+1.1 Nomenclature des acides gras
+1.2 Acides gras saturés
+1.2.1 Structure et propriétés
+1.2.2 Effets physiologiques
+1.2.3 Apports alimentaires
+1.3 Acides gras insaturés
+1.3.1 Acides gras trans
+1.3.2 Acides gras cis
+1.4 Acides gras essentiels, oméga-3 et oméga-6
+1.5 Eicosanoïdes
+1.6 Autres types d'acides gras et dérivés
+2 Rôle des acides gras
+3 Métabolisme des acides gras
+3.1 Lipogenèse
+4 Acides gras, nutrition et maladies cardio-vasculaires
+5 Traçeurs dans l'écosystème et la chaine alimentaire
+6 Historique
+7 Notes et références
+8 Voir aussi
+8.1 Articles connexes
+8.2 Liens externes
+8.3 Bibliographie
+Nomenclature et classification[modifier | modifier le code]
+Nomenclature des acides gras[modifier | modifier le code]
+Il existe plusieurs nomenclatures parallèles pour désigner les acides gras.
+Nom d'usage : les plus communs des acides gras ont des noms d'usage non systématiques sous lesquels ils sont désignés dans la littérature. Ces noms ne suivent généralement aucune règle mais sont concis et non ambigus, désignant un diastéréoisomère précis d'un acide gras donné.
+Exemples : acide palmitique, acide palmitoléique, acide arachidique, acide arachidonique, etc.
+Nom IUPAC : tous les acides gras s'inscrivent également dans la nomenclature des composés organiques publiée en 1979 par l'IUPAC en complément de recommandations destinées spécifiquement à la nomenclature des lipides publiée en 1977[6]. Les atomes de carbone sont comptés à partir de l'extrémité carboxylique –COOH et la diastéréoisomérie des doubles liaisons est indiquée par la notation cis / trans ou par la notation (Z) / (E).
+Exemples : acide cis-9-hexadécénoïque ou acide (Z)-hexadéc-9-énoïque pour l'acide palmitoléique.
+Nomenclature Δx : la nomenclature « delta-x » concerne les acides gras insaturés, pour lesquels chaque double liaison est indiquée par le signe Δ précédé de sa configuration cis ou trans et suivi en exposant par la position de la double liaison le long de la chaîne aliphatique de l'acide gras depuis l'extrémité carboxylique –COOH de la molécule.
+Exemples : acide cis-Δ9-hexadécénoïque pour l'acide palmitoléique ; acide cis-Δ9,cis-Δ12-octadécadiénoïque, acide cis,cis-Δ9Δ12-octadécadiénoïque, acide cis,cis-Δ9,12-octadécadiénoïque, ou encore acide tout-cis-Δ9,12-octadécadiénoïque pour l'acide linoléique.
+Nomenclature biochimique : en biochimie, les acides gras sont souvent désignés par des numéros de la forme C:D dans laquelle C représente le nombre d'atomes de carbone de l'acide et D le nombre de doubles liaisons qu'il contient. Cette désignation est très souvent complétée par une mention de la forme n-x dans laquelle n symbolise le nombre d'atomes de carbone et x la position de la première double liaison comptée depuis l'extrémité méthyle –CH3 de la molécule — c'est-à-dire dans l'autre sens que celui qui prévaut pour la nomenclature IUPAC et la nomenclature Δx. Dans le grand public, la désignation n-x, préconisée par l'IUPAC, est généralement écrite « ω-x » ou « oméga-x ». Cette nomenclature est imprécise, plusieurs acides gras différents pouvant être décrits par les mêmes numéros C:D n-x, mais des acides gras de mêmes numéros auront souvent des propriétés biochimiques ou physiologiques semblables : les oméga-3 et oméga-6 sont ainsi bien connus du public pour leurs effets sur la santé.
+Exemples : 16:1 n-7 pour l'acide palmitoléique ; 18:2 n-6 ou 18:2 ω-6 pour l'acide linoléique, un oméga-6 essentiel ; 18:3 n-6 pour l'acide pinolénique, l'acide γ-linolénique (GLA) ou encore l'acide jacarique, respectivement diastéréoisomères tout-cis-Δ5,9,12, tout-cis-Δ6,9,12 et cis,trans,cis-Δ8,10,12 de l'acide octadécatriénoïque (18:3) — le GLA est en fait le seul des trois à être habituellement rangé parmi les oméga-6.
+Numérotation des atomes de carbone de l'acide stéaridonique, un acide gras oméga-3, selon les nomenclatures chimique (en bleu) et biochimique (en rouge).
+Acides gras saturés[modifier | modifier le code]
+Article détaillé : Acide gras saturé.
+Structure et propriétés[modifier | modifier le code]
+Exemples d'acides gras saturés
+Nom d'usage
+Structure
+C:D
+Acide caprylique
+CH3(–CH2)6–COOH
+8:0
+Acide caprique
+CH3(–CH2)8–COOH
+10:0
+Acide laurique
+CH3(–CH2)10–COOH
+12:0
+Acide myristique
+CH3(–CH2)12–COOH
+14:0
+Acide palmitique
+CH3(–CH2)14–COOH
+16:0
+Acide stéarique
+CH3(–CH2)16–COOH
+18:0
+Acide arachidique
+CH3(–CH2)18–COOH
+20:0
+Acide béhénique
+CH3(–CH2)20–COOH
+22:0
+Acide lignocérique
+CH3(–CH2)22–COOH
+24:0
+Acide cérotique
+CH3(–CH2)24–COOH
+26:0
+Un acide gras saturé est un acide carboxylique aliphatique comportant typiquement de 12 à 24 atomes de carbone et aucune double liaison carbone-carbone : tous les atomes de carbone sont saturés en hydrogène, la formule semi-développée d'un tel acide gras à n atomes de carbone étant H3C(–CH2)n-2–COOH.
+Les molécules de ces composés organiques sont linéaires de longueur variable. Plus les membranes biologiques sont riches en acides gras saturés et plus les lipides qui portent ces acides gras auront tendance à « cristalliser » en formant des réseaux ordonnés dont la fluidité est entravée par de nombreuses liaisons hydrogène ; le taux d'acides gras saturés est un moyen de réguler la fluidité des membranes biologiques en fonction de la température. Un excès d'acides gras saturés dans les membranes cellulaires peut cependant altérer leur fonction d'interfaces biologiques entre le cytoplasme et le milieu extracellulaire, par exemple en réduisant la perméabilité de ces membranes ou en modifiant le comportement de certains récepteurs membranaires.
+Représentation 3D de la molécule d'acide myristique, un acide gras du lait de vache à 14 atomes de carbone. Comme tous les acides gras saturés, sa molécule est linéaire, de formule CH3(–CH2)12–COOH.
+Effets physiologiques[modifier | modifier le code]
+Chez l'humain, les acides gras saturés sont globalement hypercholestérolémiants, mais l'effet de chaque acide gras doit être individualisé. L'acide laurique (12:0) et l'acide myristique (14:0) seraient les plus délétères de ce point de vue, ce dernier étant le plus nocif des deux mais avec un effet moins prononcé lorsqu'il se trouve en position 2 (centrale) du résidu de glycérol du triglycéride, ce qui est souvent le cas dans les matières grasses des produits laitiers[7]. L'acide palmitique (16:0) aurait un effet moins prononcé voire inexistant — avec cependant tendance à accroître le taux sérique de lipoprotéines de basse densité (LDL) lorsqu'il est en position centrale des triglycérides — et les acides gras saturés plus longs (acide stéarique 18:0 et au-delà) seraient neutres quant à la cholestérolémie totale.
+Apports alimentaires[modifier | modifier le code]
+Dans l'alimentation humaine occidentale, ce sont les matières grasses des viandes et des produits laitiers ainsi que celles introduites dans les produits de panification industrielle et les viennoiseries qui apportent le plus d'acides gras saturés[8] :
+Les huiles végétales alimentaires contiennent une fraction d'acides gras saturés relativement faible : un peu plus de 10 % des acides gras totaux pour l'huile de tournesol, 13 % pour l'huile de maïs et pour l'huile d'olive, 15 % pour l'huile de soja, mais 92 % pour l'huile de coco (ou de coprah).
+La fraction d'acides gras saturés des viandes de volaille et des poissons se situe typiquement entre 20 et 35 %, tandis que celle des viandes de porc et de bœuf se situe entre 30 et 45 %.
+La fraction d'acides gras saturés des biscuits, pâtisseries, barres chocolatées et autres viennoiseries est de l'ordre de 50 à 60 % du total des acides gras.
+Les produits laitiers contiennent généralement entre 60 et 65 % d'acides gras saturés ; 100 g de lait de vache entier contiennent typiquement 3,25 g de matières grasses comprenant 2,87 g d'acides gras dont 1,865 g d'acides gras saturés (dont environ 0,79 g d'acide palmitique, 0,31 g d'acide myristique et 0,29 g d'acide stéarique), soit 65 % du total.
+Une tablette de chocolat noir contient typiquement un tiers de matières grasses comprenant environ 75 % d'acide palmitique (16:0) et d'acide stéarique (18:0), deux acides gras saturés.
+Il est recommandé de ne pas absorber plus de 11 % de ses besoins énergétiques sous formes d'acides gras saturés[3], soit pas plus de 20 g d'acides gras saturés par jour pour une femme et 30 g par jour pour un homme[9].
+Acides gras insaturés[modifier | modifier le code]
+Article détaillé : Acide gras insaturé.
+Comparaison des diastéréoisomères trans (en haut, A : acide élaïdique) et cis (en bas, B : acide oléique) d'un même acide gras monoinsaturé, le Δ9 18:1.
+Un acide gras insaturé est un acide gras qui comporte une ou plusieurs doubles liaisons carbone-carbone. Ces doubles liaisons peuvent être réduites en liaisons covalentes simples par l'addition de deux atomes d'hydrogène, conduisant à un acide gras saturé. Elles introduisent une isomérie cis-trans au niveau de chacune d'elles, la configuration cis étant privilégiée dans les structures biologiques tandis que la configuration trans demeure assez rare dans le milieu naturel et est généralement le fruit d'une manipulation humaine sur la structure des acides gras.
+Acides gras trans[modifier | modifier le code]
+Article détaillé : Acide gras trans.
+Une configuration trans signifie que les atomes de carbone adjacents à la double liaison sont situés de part et d'autre de cette dernière. La chaîne hydrocarbonée adopte une configuration rectiligne très semblable à celle de l'acide gras saturé correspondant. La plupart des acides gras trans ne sont pas synthétisés naturellement par les organismes vivants et sont produits industriellement par des procédés tels que l'hydrogénation partielle, par exemple dans les procédés de l'industrie agroalimentaire destinés à donner une meilleure tenue aux aliments (viennoiseries plus « croustillantes ») et une plus grandes résistance au rancissement (à la peroxydation des lipides en particulier), les acides gras insaturés étant particulièrement sensibles à cet égard.
+Acides gras cis[modifier | modifier le code]
+Une configuration cis signifie que les atomes de carbone adjacents à la double liaison sont situés du même côté de cette dernière. Cette configuration introduit une courbure de la chaîne hydrocarbonée de l'acide gras tout en réduisant sa flexibilité mécanique. Plus un acide gras possède de doubles liaisons, qui sont naturellement cis, plus sa chaîne aliphatique est tordue et rigide : avec une double liaison, la molécule d'acide oléique (cis-Δ9 18:1) est coudée en son milieu, tandis que, avec deux doubles liaisons, la molécule d'acide linoléique (tout-cis-Δ9,12 18:2) présente une forme gauchie et, avec trois doubles liaisons, la molécule d'acide α-linolénique (tout-cis-Δ9,12,15 18:3) a une forme en crochet.
+Ces formes particulières, associées à la plus grande rigidité de ces molécules, réduisent la faculté de ces dernières à constituer des réseaux de molécules ordonnées interagissant entre elles par liaisons hydrogène, ce qui tend à abaisser la température de fusion des structures biologiques qui contiennent de telles molécules, notamment des membranes, dont la fluidité augmente avec leur taux d'acides gras insaturés.
+Représentations 3D de molécules d'acides gras insaturés naturels
+Acide oléique
+Acide linoléique
+Acide α-linolénique
+Acide arachidonique
+Acide eicosapentaénoïque
+Exemples d'acides gras insaturés
+Nom d'usage
+Formule semi-développée
+Δx
+C:D
+n−x
+Acide myristoléique
+CH3(–CH2)3–CH=CH(–CH2)7–COOH
+cis-Δ9
+14:1
+n−5
+Acide palmitoléique
+CH3(–CH2)5–CH=CH(–CH2)7–COOH
+cis-Δ9
+16:1
+n−7
+Acide sapiénique
+CH3(–CH2)8–CH=CH(–CH2)4–COOH
+cis-Δ6
+16:1
+n−10
+Acide oléique
+CH3(–CH2)7–CH=CH(–CH2)7–COOH
+cis-Δ9
+18:1
+n−9
+Acide élaïdique
+CH3(–CH2)7–CH=CH(–CH2)7–COOH
+trans-Δ9
+18:1
+n−9
+Acide trans-vaccénique
+CH3(–CH2)5–CH=CH(–CH2)9–COOH
+trans-Δ11
+18:1
+n−7
+Acide linoléique
+LA
+CH3(–CH2)3(–CH2–CH=CH)2(–CH2)7–COOH
+tout-cis-Δ9,12
+18:2
+n−6
+Acide linolélaïdique
+CH3(–CH2)3(–CH2–CH=CH)2(–CH2)7–COOH
+tout-trans-Δ9,12
+18:2
+n−6
+Acide α-linolénique
+ALA
+CH3(–CH2–CH=CH)3(–CH2)7–COOH
+tout-cis-Δ9,12,15
+18:3
+n−3
+Acide γ-linolénique
+GLA
+CH3(–CH2)3(–CH2–CH=CH)3(–CH2)4–COOH
+tout-cis-Δ6,9,12
+18:3
+n−6
+Acide dihomo-γ-linolénique
+DGLA
+CH3(–CH2)3(–CH2–CH=CH)3(–CH2)6–COOH
+tout-cis-Δ8,11,14
+20:3
+n−6
+Acide arachidonique
+AA
+CH3(–CH2)3(–CH2–CH=CH)4(–CH2)3–COOHNIST
+tout-cis-Δ5,8,11,14
+20:4
+n−6
+Acide eicosapentaénoïque
+EPA
+CH3(–CH2–CH=CH)5(–CH2)3–COOH
+tout-cis-Δ5,8,11,14,17
+20:5
+n−3
+Acide clupanodonique
+DPA
+CH3(–CH2–CH=CH)5(–CH2)5–COOH
+tout-cis-Δ7,10,13,16,19
+22:5
+n−3
+Acide docosahexaénoïque
+DHA
+CH3(–CH2–CH=CH)6(–CH2)2–COOH
+tout-cis-Δ4,7,10,13,16,19
+22:6
+n−3
+Acides gras essentiels, oméga-3 et oméga-6[modifier | modifier le code]
+Articles principaux : Acide gras essentiel, Oméga-3 et Oméga-6.
+Les acides gras essentiels sont appelés ainsi parce qu'ils ne peuvent être biosynthétisés en quantité suffisante par le corps humain. Parmi ceux-ci, les acides gras oméga-3 et oméga-6 sont des acides gras insaturés dont la première double liaison comptée depuis le méthyle –CH3 terminal se trouve respectivement sur la troisième (ω-3) et sur la sixième (ω-6) liaison carbone-carbone.
+Chez l'humain, seuls l'acide α-linolénique (ALA, tout-cis-Δ9,12,15 18:3, un acide gras ω-3) et l'acide linoléique (LA, tout-cis-Δ9,12 18:2, un acide gras ω-6) sont strictement essentiels, car ils ne sont pas synthétisés par l'organisme et doivent par conséquent lui être intégralement fournis par l'alimentation ; les autres acides gras qualifiés d'essentiels le sont en réalité selon les circonstances, car ils peuvent être synthétisés par l'organisme à partir d'autres acides gras mais en quantité qui peut être insuffisante, d'où la nécessité de pallier ce manque éventuel par l'apport alimentaire :
+Ω-3 : l'acide α-linolénique peut donner de l'acide eicosapentaénoïque (EPA, tout-cis-Δ5,8,11,14,17 20:5), lequel peut donner à son tour de l'acide docosahexaénoïque (DHA, tout-cis-Δ4,7,10,13,16,19 22:6),
+Ω-6 : l'acide linoléique peut donner de l'acide γ-linolénique (tout-cis-Δ6,9,12 18:3), lequel peut donner à son tour de l'acide dihomo-γ-linolénique (tout-cis-Δ8,11,14 20:3), ainsi que de l'acide arachidonique (tout-cis-Δ5,8,11,14 20:4), la synthèse de ce dernier diminuant avec l'âge.
+Ces acides gras agissent de manière complexe dans l'organisme. Les métabolites issus des oméga-6 sont pro-inflammatoires, prothrombotiques et hypertenseurs tandis que ceux issus des oméga-3 ont globalement un effet inverse. Le rapport alimentaires optimal entre ces deux classes d'acides gras est généralement estimé entre 1 et 4 fois plus d'oméga-6 que d'oméga-3[10]. Cependant, l'alimentation humaine occidentale apporte en moyenne 16 fois plus d'oméga-6 que d'oméga-3[10], avec des valeurs pouvant dépasser 30 fois dans certains régimes alimentaires particulièrement déséquilibrés. Un excès trop prononcé d'oméga-6 par rapport aux oméga-3 tendrait à favoriser le développement de diverses maladies telles que les maladies cardiovasculaires, des cancers et diverses maladies inflammatoires et auto-immunes.
+Eicosanoïdes[modifier | modifier le code]
+Article principal : Eicosanoïde.
+Les eicosanoïdes sont des lipides participant à la signalisation cellulaire issus de l'oxydation d'acides gras polyinsaturés à 20 atomes de carbone. Ils agissent de façon complexe sur de nombreux processus physiologiques, essentiellement l'inflammation et le système immunitaire, et comme messagers dans le système nerveux central. Ils dérivent d'acides gras essentiels oméga-3 ou oméga-6 selon les cas. Les eicosanoïdes ω-6 sont généralement pro-inflammatoires, tandis que les eicosanoïdes ω-3 le sont sensiblement moins. L'équilibre entre ces deux types d'eicosanoïdes oriente les fonctions physiologiques gouvernées par ces molécules, un déséquilibre pouvant avoir des effets sur les maladies cardio-vasculaires, le taux sérique de triglycérides, la pression artérielle ou encore l'arthrite. Les anti-inflammatoires non stéroïdiens tels que l'aspirine agissent en réduisant la synthèse des eicosanoïdes.
+Il existe quatre familles d'eicosanoïdes — les prostaglandines, les prostacyclines, les thromboxanes et les leucotriènes — ayant chacune deux ou trois séries de composés dérivées d'un acide gras essentiel ω-3 ou ω-6 :
+l'acide eicosapentaénoïque (EPA), un ω-3 à cinq doubles liaisons,
+l'acide arachidonique (AA), un ω-6 à quatre doubles liaisons,
+l'acide dihomo-γ-linolénique, un ω-6 à trois doubles liaisons.
+L'activité physiologique de ces différentes séries rend largement compte des effets que peuvent avoir les acides gras ω-3 et ω-6 sur la santé[11],[12],[13].
+Autres types d'acides gras et dérivés[modifier | modifier le code]
+Certains acides gras insaturés naturels possèdent une ou plusieurs triples liaisons dans leur chaîne carbonée. C'est par exemple le cas de l'acide crépénynique, issu de l'acide oléique par déshydrogénation de la double liaison cis-Δ12 par une enzyme spécifique, la Δ12-acide gras déshydrogénase (EC 1.14.99.33).
+Si les acides gras les plus courants dans les structures biologiques ont une chaîne aliphatique linéaire, il existe cependant, chez les bactéries, les algues et certaines plantes, ainsi que chez les animaux en petite quantité, des acides gras à chaîne hydrocarbonée ramifiée ou cyclique, tels que l'acide tuberculostéarique (acide 10-méthylstéarique), l'acide phytanique (un terpénoïde), l'acide lactobacillique (cyclopropanique), l'acide malvalique (cyclopropénique), l'acide 11-cyclohexylundécanoïque (terminé par un cyclohexane), l'acide 13-phényltridécanoïque (terminé par un groupe phényle), ou encore l'acide chaulmoogrique (terminé par un cyclobutène). Il existe également des acides gras furaniques, synthétisés par des végétaux mais qui se retrouvent chez un très grand nombre d'êtres vivants, notamment les animaux, chez qui ils jouent un rôle d'antioxydant protecteur contre les radicaux libres. Par ailleurs, certaines éponges des côtes australiennes renferment des acides gras dits « amphimiques » (du nom du genre d'éponges Amphimedon) qui contiennent un groupe méthylènecyclopropane. Enfin, on relèvera l'existence d'acides gras de type ladderane, dont le premier à avoir été découvert est l'acide pentacycloanammoxique.
+Exemples d'acides gras particuliers
+Acide crépénynique.
+Acide tuberculostéarique.
+Acide phytanique.
+Acide lactobacillique.
+Acide malvalique.
+Acide chaulmoogrique.
+Acide gorlique.
+Acide 11-cyclohexylundécanoïque.
+Acide 13-phényltridécanoïque.
+Acides gras furaniques.
+Exemples d'acides amphimiques.
+Acide pentacycloanammoxique.
+Rôle des acides gras[modifier | modifier le code]
+Rôle métabolique : les acides gras sont une source d'énergie importante pour l'organisme. Ils sont stockés sous forme de triglycérides dans les tissus adipeux. Lors d'un effort, en particulier lors d'un effort de longue durée, l'organisme va puiser dans ces stocks et dégrader les acides gras afin de produire de l'énergie sous forme d'ATP.
+Rôle structural : les acides gras servent à la synthèse d'autres lipides, notamment les phospholipides qui forment les membranes autour des cellules et des organites. La composition en acides gras de ces phospholipides donne aux membranes des propriétés physiques (élasticité, viscosité) particulières.
+Rôle de messager : les acides gras sont les précurseurs de plusieurs messagers intra- et extracellulaires. Par exemple, l'acide arachidonique est le précurseur des eicosanoïdes, hormones intervenant dans l'inflammation, la coagulation sanguine, etc.
+Autres rôles : les acides gras sont stockés sous forme de triglycérides dans les bosses du chameau et de dromadaire. Leur dégradation amène à la formation de l'eau. De cette manière, les acides gras constituent une réserve d'eau pour ces animaux.
+Métabolisme des acides gras[modifier | modifier le code]
+Le métabolisme des acides gras comprend deux voies métaboliques principales :
+La lipogenèse, ou synthèse de novo, qui consiste à synthétiser un acide gras par condensation de molécules d'acide acétique CH3–COOH (ou unités acétyle CH3–CO–) à deux atomes de carbone en consommant de l'énergie sous forme d'ATP et du pouvoir réducteur sous forme de NADPH+H+. Les unités acétyle sont activées sous la forme d'acétyl-coenzyme A.
+La β-oxydation, qui consiste à dégrader des acides gras en unités acétyle afin de libérer de l'énergie métabolique et du pouvoir réducteur sous la forme d'ATP, de NADH+H+ et de FADH2.
+Lipogenèse[modifier | modifier le code]
+Article détaillé : Lipogenèse.
+Synthèse de la malonyl-CoA à partir de l'acétyl-CoA par l'acétyl-CoA carboxylase. Il s'agit de la première étape de la synthèse des acides gras.
+Synthèse de l'acide palmitique sur l'acyl carrier protein (ACP).
+La lipogenèse permet la synthèse d'acides gras saturés par condensation de molécules d'acétate à deux atomes de carbone. Chez les mammifères, ce processus a lieu dans le cytoplasme des cellules, principalement du foie, des tissus adipeux et des glandes mammaires. Cependant, il ne permet pas la biosynthèse des acides gras saturés à plus de 16 atomes de carbone (acide palmitique) ni des acides gras insaturés. L'ensemble de la synthèse est réalisée au niveau d'un complexe multi-enzymatique appelé acide gras synthase[14]. Le bilan de la synthèse de l'acide palmitique est :
+8 Acétyl-CoA + 7 ATP + 14 NADPH+H+ → Acide palmitique (16:0) + 8 CoA + 7 (ADP + Pi) + 14 NADP+ + 6 H2O.
+Cette synthèse est consommatrice d'énergie sous forme d'ATP et nécessite comme cofacteurs de la coenzyme A (CoA) et du nicotinamide adénine dinucléotide phosphate (NADP). La coenzyme A permet de faciliter l'utilisation de l'acétate par la cellule. L'acétyl-CoA provient principalement des mitochondries, où elle est synthétisée à partir du pyruvate par le cycle de Krebs. Le NADP est le réducteur de la synthèse des acides gras. De fait, il est oxydé à la fin de la réaction et doit être régénéré.
+L'élongation des acides gras saturés au-delà de 16 atomes de carbone est réalisée dans le réticulum endoplasmique et les mitochondries. Dans le premier cas, l'élongation implique des acide gras élongases. Dans le second cas, l'élongation implique paradoxalement certaines enzymes de la lipolyse.
+La synthèse des acides gras insaturés à partir des acides gras saturés a lieu au niveau de la membrane du réticulum endoplasmique par des acide gras désaturases. La désaturation est consommatrice d'oxygène moléculaire O2 et utilise comme cofacteur du nicotinamide adénine dinucléotide (NAD) :
+Acide stéarique (18:0) + 2 NADH+H+ + O2 → Acide oléique (18:1) + NAD+ + 2 H2O.
+Tous les organismes ne synthétisent pas nécessairement tous les acides gras saturés et insaturés existants. Ainsi, les humains ne peuvent synthétiser l'acide linoléique et l'acide α-linolénique : ces acides gras sont dits essentiels et doivent être apportés par l'alimentation.
+Acides gras, nutrition et maladies cardio-vasculaires[modifier | modifier le code]
+L'alimentation est une source importante d'acides gras. Cet apport est vital pour maintenir une lipidémie stable et pour fournir au corps les acides gras essentiels. Les acides gras qualifiés d'essentiels incluent les oméga-3 et oméga-6. Le corps humain ne sachant pas les synthétiser, ou les synthétisant en quantité insuffisante, un apport minimal et régulier par l'alimentation est nécessaire.
+Actuellement, selon l'AFSSA, l'alimentation apporte assez d'oméga-6 et trop peu d'oméga-3, avec un rapport oméga-3 / oméga-6 insuffisant.
+En revanche, de nombreuses études ont montré qu'un excès d'acides gras (en particulier les gras insaturés trans) pouvait avoir des conséquences sur la santé et notamment augmenter de façon très significative les risques de maladies cardio-vasculaires[15]. Certaines études portent sur la consommation excessive d'acides gras insaturés trans issus de procédés industriels (voir Comparaison acides gras trans naturels et industriels) comme l'hydrogénation partielle d'acides gras d'origine végétale (huiles).
+Composition en acides gras de quelques matières grasses[16],[17],[18]
+Acides gras :
+saturés
+mono-
+insaturés
+poly-
+insaturés
+oméga-3[19]
+oméga-6[19]
+Cholestérol
+Vitamine E
+g / 100 g
+g / 100 g
+g / 100 g
+g / 100 g
+g / 100 g
+mg / 100 g
+mg / 100 g
+Graisses animales
+Lard
+40,8
+43,8
+9,6
+93
+0,0
+Beurre
+54,0
+19,8
+2,6
+230
+2,0
+Graisses végétales
+Huile de coco
+85,2
+6,6
+1,7
+0
+0,7
+Huile de palme
+45,3
+41,6
+8,3
+0
+33,1
+Huile de coton
+25,5
+21,3
+48,1
+0
+42,8
+Huile de germe de blé
+18,8
+15,9
+60,7
+8
+53
+0
+136,7
+Huile de soja
+14,5
+23,2
+56,5
+5
+50
+0
+16,3
+Huile d'olive
+14,0
+69,7
+11,2
+0
+7,5
+0
+5,1
+Huile de maïs
+12,7
+24,7
+57,8
+0
+17,4
+Huile de tournesol
+11,9
+20,2
+63,0
+0
+62
+0
+49,0
+Huile de carthame
+10,2
+12,6
+72,1
+0,1-6
+63-72
+0
+40,7
+Huile de colza
+5,3
+64,3
+21-28
+6-10
+21-23
+0
+22,2
+Dans un avis publié en 1992[20], l'American Heart Association (AHA) a fait les recommandations suivantes :
+l'apport énergétique quotidien provenant des matières grasses ne devrait pas dépasser 30 % de l'apport journalier recommandé;
+ces matières grasses devraient contenir
+50 % d'acide gras monoinsaturés de type oméga-9
+25 % d'acide gras polyinsaturés de type oméga-3 et oméga-6
+25 % d'acides gras saturés;
+une partie des acides gras saturés peut être remplacée par des acides gras mono-insaturés
+Nb: Pour les analyses réalisées dans le cadre de la répression des fraudes, on détermine l'origine de la matière grasse en fonction du profil en acides gras, et en fonction des stérols (insaponifiables). Les acides gras à chaîne carbonée impaire sont très minoritaires et ne sont souvent pas quantifiés dans les analyses courantes.
+Traçeurs dans l'écosystème et la chaine alimentaire[modifier | modifier le code]
+Certaines sortes de lipides (acides gras, alcools gras, hydrocarbures ou stérols) n'étant produits que par certaines plantes, leur suivi (et/ou celui de leurs descendants métaboliques) dans les réseaux trophiques peut permettre d'identifier des sources et puits de certaines matières organiques dans l'alimentation d'un individu, d'une espèces, d'une population et dans les apports de nutriments ou de carbone dans un compartiment d'un écosystème et d'en mieux comprendre certaines dynamiques(Pimm et al., 1991 cités par Napolitano[21]), en complément d'autres moyens d'études par exemple basé sur l'inspection du contenu stomacal, intestinal ou des fèces, sur des marqueurs biochimiques, immunologiques (Grisley et Boyle, 1985, cités par Napolitano[21]) ou des analyses isotopiques (d'isotopes stables naturels ou de marqueurs isotopiques artificiels (Peterson et Fry, 1987 cités par Napolitano[21]). Quand le lipide (acide gras ici) est métaboliquement stable et/ou qu'il conserve sa structure de base après avoir été digéré ou intégré, il peut permettre de tracer les transferts de carbone et d'énergie dans une chaîne alimentaire, et de par exemple affiner la connaissance d'une relation prédateur-proie[21].
+Historique[modifier | modifier le code]
+1769: découverte du cholestérol dans des calculs biliaires par François Poulletier de La Salle[22];
+1804: Nicolas Théodore de Saussure réalise une expérience montrant que l'oxygène peut se condenser à l'huile de lin[23]. Ceci est un premier pas vers la découverte des acides gras insaturés;
+1813 : Eugène Chevreul décrit le concept d'acide gras.
+1816 : Le même savant expérimentateur est le premier à découvrir et affirmer la structure du savon (sels métalliques d'acides gras).
+1818 : Eugène Chevreul nomme « cholestérine » le lipide découvert par Poulletier de la Salle;
+1823 : Eugène Chevreul publie son travail Recherches chimiques sur les corps gras d'origine animale, où il décrit pour la première fois de nombreux acides gras, dont les acides butyrique, caproïque, stéarique et oléique[24];
+1827: William Prout est le premier à reconnaitre les graisses comme un important nutriment dans l'alimentation, au même titre que les protéines ou les sucres[25];
+1847 : Théodore Nicolas Gobley isole la lécithine du jaune d'œuf[26]. Il est de fait le découvreur des phospholipides;
+1869: Hippolyte Mège-Mouriès invente la margarine après que Napoléon III eut lancé un concours afin de trouver un substitut au beurre[27];
+1903 : Wilhelm Normann dépose un brevet pour la « conversion des acides gras insaturés ou de leurs glycérides en composés saturés » par un procédé d'hydrogénation;
+1909: découverte de l'acide arachidonique par Percival Hartley[28];
+1913: McCollum et Davis montrent la nécessité de certains lipides dans l'alimentation lors de la croissance[29];
+1930: George et Mildred Burr découvrent que certains acides gras polyinsaturés sont essentiels[30];
+1957: Keys, Anderson et Grande montrent une relation entre le taux de cholestérol sanguin et la prise alimentaire de graisse[31];
+1964: Konrad Bloch et Feodor Lynen reçoivent le prix Nobel de médecine pour « leur découverte concernant le mécanisme de régulation des métabolismes du cholestérol et des acides gras »[32];
+1972: Bang et Dyerberg montrent grâce aux Eskimos du Groenland qui ont des taux bas de cholestérol, de LDL et de triglycérides dans le sang que ceux-ci sont corrélés avec un risque bas d'infarctus du myocarde, en comparaison avec la population danoise[33];
+1982: Sune K. Bergström, Bengt I. Samuelsson et John R. Vane reçoivent le prix Nobel de médecine pour « leur découverte concernant les prostaglandines et les substances biologiquement actives associées »[34];
+1985: Michael S. Brown et Joseph L. Goldstein reçoivent le prix Nobel de médecine pour « leur découverte portant sur la régulation du métabolisme du cholestérol »[35].

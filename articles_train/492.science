@@ -1,0 +1,58 @@
+Algèbre multilinéaire — Wikipédia
+Algèbre multilinéaire
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Algèbre (homonymie).
+En mathématiques, l’algèbre multilinéaire étend les méthodes de l’algèbre linéaire. Tout comme l’algèbre linéaire est bâtie sur le concept de vecteur et développe la théorie des espaces vectoriels, l’algèbre multilinéaire est bâtie sur le concept de tenseur et développe la théorie des espaces tensoriels. Dans les applications, de nombreux types de tenseurs surviennent. La théorie se veut exhaustive et comprend l'étude d'un certain nombre d'espaces et l'exposé de leurs relations.
+Sommaire
+1 Historique de la notion d’algèbre multilinéaire
+2 Conclusion sur l’approche abstraite
+3 Contenu de l’algèbre multilinéaire
+4 Du point de vue des applications
+5 Voir aussi
+6 Notes et références
+Historique de la notion d’algèbre multilinéaire[modifier | modifier le code]
+L'algèbre multilinéaire a des racines variées plongeant dans ce qui a été appelé au XIXe siècle l’analyse tensorielle ou le « calcul tensoriel des champs tensoriels ». Elle s’est développée à partir de l’utilisation des tenseurs en géométrie différentielle, en relativité générale, et dans de nombreuses branches des mathématiques appliquées. Vers le milieu du XXe siècle, l’étude des tenseurs est reformulée plus abstraitement. Le traité d’algèbre multilinéaire du groupe Bourbaki (le chapitre 3 du livre d'Algèbre, intitulé plus précisément Algèbres tensorielles, algèbres extérieures, algèbres symétriques) est particulièrement influent — en fait le terme algèbre multilinéaire a probablement été inventé là.
+Une des raisons de cette nouvelle formulation est une nouvelle aire d’application, l’algèbre homologique. Le développement de la topologie algébrique durant les années 1940 donne une incitation additionnelle au développement d’un traitement purement algébrique du produit tensoriel. Le calcul des groupes homologiques du produit de deux espaces topologiques utilise le produit tensoriel ; mais c'est seulement dans les cas les plus simples, tel que celui d’un tore, que les groupes homologiques peuvent être calculés directement de cette façon (voir le théorème de Künneth). Les phénomènes topologiques, assez subtils, sont à la source d’une nouvelle réflexion sur les concepts fondamentaux du calcul tensoriel.
+Le matériel à organiser est dense, incluant des idées remontant à Hermann Günther Grassmann, et des idées venant de la théorie des formes différentielles qui avaient mené à la cohomologie de De Rham, ainsi qu’à des notions plus élémentaires telles que le produit extérieur qui généralise le produit vectoriel.
+La description qui résulte du travail de Bourbaki, axiomatique, rejette entièrement l'approche vectorielle (utilisée par exemple dans la construction des quaternions), c’est-à-dire, dans le cas général, la relation entre les espaces tensoriels et les groupes de Lie. Bourbaki suit, au contraire, une approche nouvelle basée sur la théorie des catégories[1], dans laquelle le groupe de Lie ne fournit qu'une description secondaire. Puisque cela mène à un traitement beaucoup plus rigoureux, il n’y aura probablement, en mathématiques, plus de retour en arrière.
+Cette approche revient essentiellement à définir les espaces tensoriels comme les constructions requises dans le but de réduire les problèmes multilinéaires à des problèmes linéaires. Cette attaque purement algébrique ne transfère aucune intuition géométrique.
+Le bénéfice de cette formalisation est qu’en réexprimant des problèmes en termes d’algèbre multilinéaire, il y a une « meilleure solution » claire et bien définie : les contraintes que la solution exerce sont exactement celles dont on a besoin en pratique. En général il n’y a pas besoin d’invoquer une quelconque construction ad hoc, idée géométrique ou autre pour coordonner des systèmes. Dans le vocabulaire de la théorie des catégories, tout est entièrement naturel.
+Conclusion sur l’approche abstraite[modifier | modifier le code]
+En principe l’approche abstraite peut recouvrir tout ce qui est fait via l’approche traditionnelle. En pratique cela peut ne pas sembler si simple. D’autre part la notion de transformation naturelle est compatible avec le principe de la covariance générale de la relativité générale. Ce dernier fait affaire aux champs tensoriels (les tenseurs variant de point en point sur une variété), mais la covariance affirme que le langage des tenseurs est essentiel à la formulation propre de la relativité générale.
+Quelques décennies plus tard le point de vue plus abstrait venant de la théorie des catégories fut lié à l’approche qui avait été développée dans les années 1930 par Hermann Weyl (dans son livre célébré et difficile Les groupes classiques). En un sens, cela compléta la théorie, regroupant les points de vue anciens et nouveaux.
+Contenu de l’algèbre multilinéaire[modifier | modifier le code]
+Le contenu de l’algèbre multilinéaire a changé bien moins que la présentation, à travers les ans. Voici d’autres pages qui y sont centralement pertinentes :
+Espace dual
+Opérateur bilinéaire
+Produit intérieur
+Application multilinéaire
+Déterminant
+Règle de Cramer
+Delta de Kronecker
+Contraction tensorielle
+Tenseur mixte
+Symbole de Levi-Civita
+Algèbre tensorielle
+Algèbre symétrique
+Produit extérieur, Puissance extérieure
+Algèbre de Grassmann
+Dérivée extérieure
+Notation d'Einstein
+Tenseur symétrique
+Tenseur métrique
+Du point de vue des applications[modifier | modifier le code]
+Consultez ces articles pour certains moyens dans lesquels les concepts de l’algèbre multilinéaire sont appliqués, dans diverses guises :
+Tenseur dyadique
+Notation bra-ket
+algèbre géométrique
+Algèbre de Clifford
+Pseudoscalaire
+Pseudovecteur
+Spineur
+Produit extérieur
+Nombre hypercomplexe
+Courbure
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Algèbre multilinéaire, sur Wikiversity

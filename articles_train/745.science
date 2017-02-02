@@ -1,0 +1,77 @@
+Spectrométrie par torche à plasma — Wikipédia
+Spectrométrie par torche à plasma
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Torche à plasma (chimie))
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir ICP et Torche à plasma.
+La spectrométrie par torche à plasma est une méthode physique d'analyse chimique permettant de doser la quasi-totalité des éléments simultanément (l'analyse prend quelques minutes, hors préparation).
+Sommaire
+1 Principe
+2 Préparation des échantillons
+2.1 Dissolution acide (aussi appelée minéralisation par voie humide)
+2.2 Ablation laser
+3 Types d'analyseur
+3.1 Spectrométrie d'émission optique
+3.2 Spectrométrie de masse
+4 Avantages et inconvénients
+5 Notes et références
+6 Annexes
+7 Voir aussi
+7.1 Articles connexes
+7.2 Liens externes
+7.3 Bibliographie
+Principe[modifier | modifier le code]
+La méthode consiste à ioniser l'échantillon en l'injectant dans un plasma d'argon, ou parfois d'hélium, c'est-à-dire que les atomes de la matière à analyser sont transformés en ions par une sorte de flamme extrêmement chaude : jusqu'à 8 000 K, mais en général autour de 6 000 K pour les applications géochimiques. Certains appareils sont cependant dotés d'une option dite « à plasma froid », qui chauffent à plusieurs centaines de K tout de même, permettant l'analyse de molécules organiques qui seraient autrement détruites.
+L'échantillon pénètre généralement dans le plasma sous une forme condensée (liquide ou solide), et doit donc subir les changements d'état suivants : fusion (pour les solides), vaporisation, ionisation. L'introduction a lieu au centre du plasma, parallèlement au flux de gaz plasmagène.
+L'échantillon doit être introduit dans le plasma sous une forme finement divisée, car les puissances utilisées (généralement inférieures à 2 000 W de puissance incidente) ne permettent pas de traiter des particules de taille supérieure au micromètre durant leur temps de résidence au sein du plasma ; si l'on veut analyser un solide, il faut donc d'abord le transformer en une suspension de fines particules, portées par un courant de gaz plasmagène.
+La spectrométrie de masse a un principe équivalent
+Préparation des échantillons[modifier | modifier le code]
+Dissolution acide (aussi appelée minéralisation par voie humide)[modifier | modifier le code]
+Article connexe : Fusion au peroxyde.
+La voie la plus fréquemment employée a été celle de la dissolution, en général dans un acide, afin d'analyser la solution. Celle-ci est injectée dans le plasma sous la forme d'un fin aérosol, généré par un dispositif pneumatique (nébuliseur), ultrasonique ou physico-chimique (électrospray).
+Les particules les plus fines sont ensuite sélectionnées par des méthodes de ségrégation physiques (centrifugation, impact sur un obstacle, sédimentation) dans une chambre de nébulisation. Récemment, certains nébuliseurs dits « à injection directe » ont été développés, permettant la formation de l'aérosol directement au sein du plasma, avec l'avantage d'économiser la partie de l'échantillon autrement perdue dans la chambre de nébulisation et augmentant ainsi le rendement de l'aérosol généré allant au plasma.
+Ablation laser[modifier | modifier le code]
+Depuis quelques années, l'ablation laser permet l'échantillonnage direct de solides, avec une bonne résolution spatiale.
+Principe
+On focalise en surface de l'échantillon un faisceau laser pulsé de longueur d'onde ultra-violette à infrarouge. Au point d'impact (quelques dizaine de µm à quelques µm de diamètre), la lumière cohérente désagrège la matière et la sublime en un aérosol très fin de nanoparticules.
+La physique de l'interaction lumière-matière à ce stade est encore mal comprise. Selon les études empiriques disponibles, la composition de l'aérosol est d'autant plus éloignée de celle de l'échantillon que la longueur d'onde utilisée est haute, et que la durée de l'impulsion est plus longue. Dans le premier cas, il se forme une zone de fusion qui fractionne les éléments selon leur volatilité, et dans le second cas, il se forme un plasma de couplage qui absorbe l'énergie incidente, résultant en une baisse d'efficacité de l'ablation (voir Ablation laser indirecte).
+Les lasers de plus faibles longueurs d'onde sont des lasers à source excimère à 193 ou 157 nm (pas de phénomène de fusion). Certains génèrent des impulsions de l'ordre de la femtoseconde (10-15s), empêchant l'allumage du plasma de couplage par manque de temps. Les énergies délivrées par les lasers sont de l'ordre du millijoule, mais la concentration du faisceau sur un point microscopique permet d'atteindre les densités d'énergie nécessaires à l'ablation (plusieurs mégajoules par cm³).
+L'aérosol formé est entraîné du point d'ablation au plasma d'analyse par un flux constant de gaz plasmagène.
+L'énergie de l'impulsion est intégrée dans l'échantillon en quelques nano- pico- ou femtosecondes. Elle est brutalement transformée en chaleur. Il en résulte une « micrexplosion » sous la surface avec éjection de vapeurs, petites goutelettes et fragments solides.
+Si toute la matière de l'échantillon était éjectée sous forme de vapeur, l'analyseur ICP donnerait des résultats exacts, mais les grandes gouttelettes et les fragments solides (souvent des éléments réfractaires) sont perdus en cours de transport, ou ne sont pas entièrement évaporés et ionisés dans l'ICP. Il en résulte des analyses incomplètes, en raison d'un fractionnement insuffisant.
+L'ablation laser « indirecte » (ou LINA-Spark Atomizer) résout ce problème de fractionnement : l'impulsion laser infrarouge (1 064 nm) est utilisée pour créer un plasma d'argon à la surface de l'échantillon. Presque toute l'énergie de l'impulsion (typiquement 250 mJ) est absorbée dans ce plasma pendant la durée de l'impulsion (typiquement 8 ns). Pendant sa durée de vie (quelques microsecondes), le plasma évapore du matériau de la surface de l'échantillon. Ces vapeurs se recondensent immédiatement et forment des « clusters » de très petite dimension (5–10 nm). Ces clusters sont amenés par le gaz porteur dans l'ICP, où ils sont facilement évaporés et ionisés. Après une dizaine d'impulsions, la surface de l'échantillon est bien nettoyée et préparée pour une analyse ICP exacte puisque la composition de cet aérosol correspond exactement à la composition de l'échantillon.
+L'ablation indirecte se fait par le plasma, et non par le faisceau du laser. Les échantillons ayant une dimension d'environ 0,8 mm de diamètre, on perd la bonne résolution spatiale X-Y.
+Pour améliorer l'exactitude de l'analyse, l'instrument permet de balayer l'échantillon sur une surface de 4 mm de diamètre.
+Types d'analyseur[modifier | modifier le code]
+Quelle que soit la préparation, les atomes sont ensuite injectés dans l'analyseur, puis détectés. Les deux principales techniques utilisées sont la spectrométrie d'émission optique et la spectrométrie de masse.
+Spectrométrie d'émission optique[modifier | modifier le code]
+Un spectromètre ICP-AES.
+Pour la spectrométrie d'émission optique, on parle d'ICP-optique, d'ICP-AES (ICP atomic emission spectrometry) ou d'ICP-OES (ICP optical emission spectrometry).
+Dans ce cas, on utilise le fait que les électrons des atomes excités (ionisés), lorsqu'ils retournent à l'état fondamental, émettent un photon dont l'énergie (donc la longueur d'onde, voir Constante de Planck) est caractéristique de l'élément. La lumière émise par le plasma est en ce cas analysée par un ou plusieurs monochromateurs, par un réseau polychromateur, ou encore une combinaison des deux.
+La lumière émise par l'élément recherché est alors détectée et mesurée, et son intensité comparée à celle émise par le même élément contenu dans un échantillon de concentration connue (étalon, standard en anglais), analysé dans les mêmes conditions (voir Étalonnage).
+La sensibilité intrinsèque de la méthode et la présence de très nombreuses raies adjacentes, parfois peu ou pas séparées par les mono- et polychromateurs, font que cette technique est appliquée essentiellement pour l'obtention rapide et précise des compositions en éléments majeurs (concentrations supérieures au pourcentage en poids) des échantillons minéraux.
+Spectrométrie de masse[modifier | modifier le code]
+Pour la spectrométrie de masse, on parle d'ICP-MS (ICP mass spectrometry). Cette technique utilise le fait que des ions peuvent être séparés les uns des autres par applications de champs électromagnétiques, en fonction de leur masse atomique, de leur charge électrique et de leur vitesse.
+Partant du principe que les ions générés par les plasma d'argon sont en général ionisés une seule fois, et sous réserve d'adopter soit un dispositif d'analyse peu sensible à la variation initiale de vitesse, soit de filtrer les ions en fonction de cette vitesse avant l'analyse, il est possible de séparer les ions du plasma en fonction de leur seule masse atomique. Bien que plusieurs éléments chimiques puissent avoir la même masse (on parle alors d'isobare), chaque élément possède une composition isotopique, c’est-à-dire une distribution de ses atomes entre plusieurs isotopes, unique. Cette caractéristique permet de s'affranchir des interférences isobariques (c'est-à-dire la superposition à la même masse mesurée des signaux de deux éléments partageant un isobare), et de certifier que le signal mesuré correspond à l'élément recherché.
+Les appareils couramment utilisés font appel à deux technologies d'analyseurs différentes : le secteur magnétique, et le quadrupôle. Depuis le milieu des années 1990 cependant, et avec l'évolution de la vitesse de l'électronique d'acquisition, sont apparus sur le marché des spectromètres de masse à temps de vol, TOF-ICP-MS (time-of-flight ICP-MS).
+Les ICP-MS permettent de doser en routine la plupart des éléments à des concentrations de l'ordre de 1 μg·l-1, soit de l'ordre de la partie par milliard en masse (ou ppb, part per billion). Les dernières générations d'instruments, avec divers dispositifs d'augmentation de la sensibilité et de réduction des interférences isobariques liées au gaz plasmagène, sont capables de travailler en routine sur des concentrations de l'ordre de la partie par billion en masse (ppq : part per quadrillion)[1] dans des matrices simples, comme des éléments en solution diluée.
+Dans ce cas, la principale source d'erreur est la préparation, il faut travailler en salle blanche pour espérer doser des traces à de telles teneurs.
+Avantages et inconvénients[modifier | modifier le code]
+Les trois grands avantages de la torche à plasma sont :
+analyse rapide de la quasi-totalité des éléments du tableau périodique ;
+limite de détection extrêmement faible ;
+possibilité de quantifier des ratios isotopiques (voir Isotope), utilisés par exemple dans la géolocalisation chimique, lors de couplage par spectrométrie de masse haute résolution.
+Les principaux inconvénients :
+son prix : que ce soit le prix à l'achat ou le prix de l'analyse en elle-même (grande quantité de gaz utilisé à chaque analyse - environ 6 l·min-1 d'argon) ;
+les éléments du tableau périodique non analysables comme l'hydrogène, les gaz rares et d'autres éléments difficiles à mettre en solution (carbone, oxygène, azote, etc.) ou extrêmement instables ou volatils (comme le mercure qui possède entre autres un énorme effet mémoire) ;
+la préparation, qui peut être délicate : l'échantillon doit se présenter sous forme liquide même si certains dispositifs pour l'utilisation directe de solide très homogène existent.
+Les industriels et laboratoires peuvent préférer :
+des méthodes plus spécifiques comme :
+analyseur dédié Carbone, Hydrogène, Azote, Oxygène, (Soufre) (appelé aussi CHNOS ou méthode Dumas) ;
+des méthodes moins chères à l'achat et à l'utilisation :
+SAA (Spectrométrie d'absorption atomique) ;
+fluorescence atomique (pour arsenic, sélénium, mercure, hydrures) ;
+des méthodes sans préparations d'échantillons :
+fluorescence X (souvent utilisée en pétrochimie) (hors fusion alcaline) ;
+analyseur de mercure en phase solide ;
+spectroscopie sur plasma induit par laser (LIBS).

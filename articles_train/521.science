@@ -1,0 +1,134 @@
+Trigonométrie sphérique — Wikipédia
+Trigonométrie sphérique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La trigonométrie sphérique est un ensemble de relations analogues à celles de la trigonométrie euclidienne mais portant sur les angles et distances repérés sur une sphère.
+La figure de base est le triangle sphérique, délimité non plus par des segments de droites mais par des arcs de grands cercles de cette sphère. Les règles habituelles de la trigonométrie euclidienne ne sont pas applicables ; par exemple la somme des angles d'un triangle situé sur une sphère est supérieure à 180 degrés.
+Sommaire
+1 Le triangle sphérique
+1.1 Formules fondamentales
+1.1.1 Conventions
+1.1.2 Formule des cosinus et relation duale
+1.1.3 Formule des sinus
+1.1.4 Troisième formule fondamentale et relation duale
+1.1.5 Formule des cotangentes
+1.2 Autres formules
+1.2.1 Formules des demi-angles et demi-côtés
+1.2.2 Formules de Gauss
+1.2.3 Analogies de Napier
+1.2.4 Aire du triangle sphérique
+1.2.5 Formule de l'Huilier
+2 Triangle polaire
+3 Aperçu historique
+4 Applications
+5 Notes et références
+6 Voir aussi
+6.1 Articles connexes
+6.2 Liens externes
+Le triangle sphérique[modifier | modifier le code]
+Formules fondamentales[modifier | modifier le code]
+triangle sphérique
+Conventions[modifier | modifier le code]
+On considère trois points A, B et C sur une sphère comme représentés par la figure ci-contre, ainsi que les arcs de grands cercles qui les relient. On note α, parfois , l'angle du triangle au sommet A, et de façon analogue pour les autres sommets. On note a, b et c les angles sous-tendus au centre O de la sphère par la partie de grand cercle correspondante. Ainsi a désigne l'angle BOC, etc. Un angle de 2π correspond à un grand cercle entier. Bien entendu les longueurs se déduisent de a, b et c en les multipliant par le rayon de la sphère.
+Formule des cosinus et relation duale[modifier | modifier le code]
+L'une des relations les plus importantes de la trigonométrie sphérique, donnée par François Viète en 1593 dans son De Varorium[1] est la formule des cosinus, qui relie la longueur d'un côté à celles de deux autres côtés ainsi qu'à l'angle entre eux :
+qu'il ne faut pas confondre avec la relation duale, obtenue en remplaçant dans cette relation tous les grands cercles par leurs points polaires :
+La formule des cosinus se démontre de plusieurs façons. L'une d'elle consiste à exprimer de différentes manières le produit scalaire, dans l'espace euclidien ambiant, entre les vecteurs reliant le centre O de la sphère aux points A et B. Une autre est détaillée ci dessous.
+Dans le cas particulier où le triangle est rectangle en C, on obtient
+,
+formule correspondant au théorème de Pythagore pour la trigonométrie sphérique. On remarque que si le triangle est suffisamment petit pour que l'on puisse remplacer les cosinus par leur développement limité au deuxième ordre, on retrouve effectivement le théorème de Pythagore.
+La formule des cosinus permet notamment de calculer la distance entre deux points A et B sur la Terre en fonction de leurs latitudes et longitudes. Pour cela, on place C au pôle nord, de sorte que a est le complémentaire de la latitude
+de A, b le complémentaire de celle
+de B, et
+la différence de longitude . On obtient directement[2]
+(où
+= 6 400 km est le rayon terrestre).
+Formule des sinus[modifier | modifier le code]
+On remarque que d'après la relation duale évoquée précédemment, un triangle sphérique est déterminé par ses trois angles, ce qui est très différent du cas du triangle euclidien (plan). Il y a une analogie parfaite (de dualité), dans le triangle sphérique, entre longueurs des côtés et angles aux sommets. La formule des sinus illustre cette analogie :
+ou encore
+ce qui doit se comprendre comme « les trois quantités de gauche sont dans les mêmes proportions que les trois quantités de droite (le rapport entre deux quelconques à gauche est le même que le rapport correspondant à droite) ».
+Troisième formule fondamentale et relation duale[modifier | modifier le code]
+La formule des cosinus peut également s'écrire sous la forme
+Des expressions analogues pour
+et
+on déduit ce qui est parfois appelé[réf. nécessaire] la troisième formule fondamentale de la trigonométrie sphérique (les deux premières étant celles des cosinus et des sinus), qui relie trois longueurs à deux angles du triangle :
+Il est intéressant de remarquer la similarité avec la formule des cosinus .
+La relation duale peut quant à elle s'écrire
+à comparer avec la relation duale de la formule des cosinus .
+Formule des cotangentes[modifier | modifier le code]
+À partir de la troisième formule fondamentale, on obtient aisément la dernière formule dite des cotangentes, qui relie quatre éléments successifs du triangle sphérique :
+Pour obtenir cette formule, il suffit de diviser la relation duale de la troisième formule fondamentale par
+puis d'utiliser la formule des sinus.
+Démonstration des formules fondamentales
+a, b et c désignent les longueurs, A, B et C désignent les sommets, α, β et γ désignent les angles du triangle sphérique.
+1) On forme deux repères orthonormés directs R et R' de même premier vecteur, et tels que A soit le pôle nord du système de coordonnées sphériques associé au premier repère et B le pôle nord du second.
+Détail de cette construction
+On note
+et
+avec
+On prend alors
+On en déduit
+La formule du double produit vectoriel conduit à
+De même,
+2) Le changement de repère (de R vers R') est une rotation dans l'espace autour de l'axe commun aux deux repères. Comme l'angle entre
+et
+est c, on en déduit que la matrice de passage est
+3) On donne maintenant les coordonnées de C dans le repère R.
+On remarque que b est la colatitude dans le repère sphérique de pôle nord A associé au repère cartésien, alors que α désigne l'angle (au pôle) entre le vecteur
+et le demi-plan vertical (A,O,C), donc la longitude vaut α-(π/2).
+On en déduit que C, de coordonnées sphériques , a pour coordonnées cartésiennes dans le premier repère
+4) On donne de même les coordonnées de C dans le second repère R'.
+Cette fois, le pôle nord est le point B, la colatitude est a, et β est l'angle que fait le demi-plan vertical (B,O,C) avec le vecteur , donc la longitude vaut (π/2)-β.
+On en déduit que C, de coordonnées sphériques , a pour coordonnées cartésiennes dans le second repère
+5) La formule de changement de base s'écrit alors :
+On en déduit d'un seul coup la formule des sinus, la troisième formule fondamentale de la trigonométrie sphérique et la formule des cosinus :
+Autres formules[modifier | modifier le code]
+Formules des demi-angles et demi-côtés[modifier | modifier le code]
+Soit
+le demi-périmètre du triangle. Alors on a
+et pour les formules duales, avec  :
+.
+Ces formules qui, comme la relation fondamentale, lient un angle au centre aux trois côtés du triangle sphérique ne contiennent pas de somme. Elles étaient très utilisées pour les calculs pratiques à l'aide de tables de logarithmes.
+Formules de Gauss[modifier | modifier le code]
+On a
+et
+ainsi que
+et
+On en déduit la loi des tangentes en trigonométrie sphérique :
+Analogies de Napier[modifier | modifier le code]
+Elles s'obtiennent en combinant deux à deux les formules de Gauss :
+Aire du triangle sphérique[modifier | modifier le code]
+En anglais, elle est connue sous le nom de formule de Girard. De façon remarquable, l'aire du triangle sphérique se calcule très simplement à partir de ses trois angles : elle est exactement égale à son « défaut d'euclidianité » (différence entre la somme des angles du triangle et ) multiplié par le carré du rayon R de la sphère. Soit :
+Remarque : ε est un angle solide s'exprimant en stéradians (pour
+et
+exprimés en radians). Cette formule se montre de façon élémentaire[3]. Elle se fait en trois étapes :
+Lorsque la sphère est découpée en 4 secteurs (« fuseaux » ou « lunes » chez Legendre) par deux plans diamétraux, l'aire d'un des secteurs ainsi découpé est proportionnelle à l'angle
+des deux plans. Elle vaut donc
+.
+Les trois plans diamétraux qui définissent un triangle sphérique découpent sur la sphère douze fuseaux dont six contiennent ce triangle ou son symétrique, de même aire, par rapport au centre la sphère. Ces six fuseaux recouvrent la sphère, le triangle et son symétrique étant recouverts trois fois chacun, le reste ne l'étant qu'une seule fois. Ainsi, la somme des aires des six fuseaux est celle de la sphère augmentée quatre fois de celle du triangle. Il s'en déduit :
+.
+Ainsi, après transformation :
+Cette formule, découverte par Thomas Harriot, mais non publiée, fut donnée pour la première fois par Albert Girard vers 1625.
+Formule de l'Huilier[modifier | modifier le code]
+Cette formule est analogue à la formule de Héron qui calcule l'aire d'un triangle euclidien en fonction de ses côtés, et elle fait la même chose pour le triangle sphérique :
+(on rappelle qu'on a appelé s=(a+b+c)/2 le demi-périmètre).
+Triangle polaire[modifier | modifier le code]
+Triangle (ABC) et son triangle polaire (A'B'C'). (OC') est l'axe de rotation du grand cercle (AB), etc.
+Sur une sphère de centre O, on considère deux points A et B distincts et non diamétralement opposés. La droite passant par O et orthogonale au plan OAB rencontre la sphère en deux points qui sont appelés les pôles du plan (OAB).
+Pour un triangle ABC tracé sur une sphère, on appelle C' le pôle du plan (OAB) situé sur le même hémisphère que C. On construit de même les points A' et B'. Le triangle (A'B'C') est appelé le triangle polaire du triangle ABC.
+Par construction, les grands cercles (C'B') et (C'A') coupent le grand cercle (AB) en angle droit. Il en est de même des deux grands cercles (B'A') et (B'C') pour le grand cercle (AC), etc. Les côtés du triangle polaire sont donc perpendiculaires chacun à deux côtés du triangle d'origine.
+La transformation qui, a un triangle, associe son triangle polaire est une application involutive[4], c'est-à-dire que le triangle polaire du triangle (A'B'C') est le triangle (ABC).
+Les côtés du triangle (A'B'C') sont les supplémentaires des angles du triangle (ABC). Ce qui s'exprime par les égalités suivantes[4]:
+et par propriété de l'involution, les angles du triangle polaire sont les supplémentaires des côtés du triangle (ABC). Soit
+Ces relations permettent de déduire, à partir des formules fondamentales, les formules duales citées plus haut.
+Aperçu historique[modifier | modifier le code]
+Article détaillé : Histoire des fonctions trigonométriques.
+La trigonométrie, et en particulier la trigonométrie sphérique, doit beaucoup aux astronomes et mathématiciens grecs Hipparque de Nicée[5] ainsi que Ménélaos d'Alexandrie[6], mais aussi aux mathématiciens persans de langue arabe et indiens. Parmi les plus célèbres figurent Bhāskara II[réf. nécessaire], Abu Nasr Mansur, Abu l-Wafa et Al-Biruni qui démontrent la règle des sinus pour un triangle quelconque ainsi que les formules pour le triangle rectangle[7]. La trigonométrie sphérique occupe une place importante dans les traités d'astronomie arabe et des traités spécifiques lui sont consacrés comme le traité de trigonométrie sphérique d'Ibn Muʿādh al-Jayyānī (XIe siècle), un mathématicien de l'Andalousie alors sous domination musulmane ou celui de Nasir ad-Din at-Tusi (XIIIe siècle)[6].
+Applications[modifier | modifier le code]
+Calculs de coordonnées :
+en astronomie, pour les changements relatifs aux divers systèmes de coordonnées angulaires : déclinaison, ascension droite, angle horaire, azimut et distance zénithale (ou hauteur) ;
+Article détaillé : Système de coordonnées célestes.
+en géographie (latitude et longitude) ;
+en optique pour l'utilisation de la sphère de Poincaré ;
+en statistiques sur la sphère de l'iconographie des corrélations.
+Considérons également l'application aux panneaux solaires plans.

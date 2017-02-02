@@ -1,0 +1,145 @@
+Spectre sonore — Wikipédia
+Spectre sonore
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Exemple de son et le spectre sonore correspondant (à droite)
+Le spectre sonore d'un son est le tableau ou la représentation graphique des partiels qui, s'ajoutant les uns aux autres, permettent de reconstituer ce son.
+Un son pur est une vibration périodique de l'air à une certaine fréquence et une certaine amplitude. Tous les sons peuvent se décomposer en une somme de sons purs, qu'on appelle partiels de ce son, qu'on dit complexe s'il est la somme de plus d'un partiel.
+Les partiels peuvent être des multiples entiers d'une fréquence fondamentale ; on parle alors d'harmoniques, et de spectre harmonique.
+Les sons musicaux possèdent en général une décomposition spectrale approximativement harmonique ; mais le son d'instruments sonores comme une cloche ou un gong peut souvent se décomposer en partiels inharmoniques. Celui d'instruments de percussion, comme celui de sons naturels comme le bruit des vagues sur la plage ou du vent dans les feuilles, se décomposent en une infinité de partiels donnant un spectre continu.
+La découverte de cette décomposition spectrale remonte au XIXe siècle, et son étude s'est beaucoup améliorée.
+Sommaire
+1 Instruments intellectuels
+1.1 Mathématiques
+1.2 Limites du spectre sonore
+2 Instruments d'expérimentation et de mesure
+2.1 Sonagraphe
+2.2 Analyse par octave et tiers d'octave
+2.3 Analyseur de spectre
+3 Compléments
+3.1 Articles connexes
+3.2 Lien externe
+3.3 Références
+Instruments intellectuels[modifier | modifier le code]
+Mathématiques[modifier | modifier le code]
+En 1822, le mathématicien Joseph Fourier montre que toute fonction décrivant un phénomène périodique peut se décrire par une série, c'est-à-dire une suite, finie ou infinie, de coefficients de fonctions sinus et cosinus dont la fréquence est un multiple entier de celle du phénomène en question. Dans les années qui suivent, ce résultat est étendu à toute fonction par la transformation de Fourier. Tout phénomène évoluant sans discontinuité dans le temps, et qui peut donc être théoriquement décrit par une fonction, même si on ne sait pas définir mathématiquement celle-ci, possède donc une description en fréquences. Cette description est son spectre.
+Lorsque le phénomène, et donc, la fonction qui le décrit, est périodique, son spectre est discontinu : il ne présente de valeurs différentes de zéro que pour les fréquences multiples de sa fréquence globale, appelée fréquence fondamentale. Dans les autres cas, le spectre évolue continûment entre les fréquences les plus basses et les plus hautes.
+Ces mathématiques ne s'appliquent rigoureusement qu'aux fonctions définies pour tout nombre. Mais les sons ont un début et une fin, et ils ne nous intéressent que parce qu'ils changent sans arrêt. On peut calculer, pour un échantillon sonore, un spectre d'autant plus précis que sa durée est grande[1]. Mais plus un son dure, plus ses caractères ont de chances de changer, et plus son spectre représente une moyenne de ses caractéristiques.
+Pour décrire convenablement un son réel par son spectre il faut donc un compromis entre la précision avec laquelle on connaît le moment où un évènement sonore survient, qu'on appelle résolution temporelle, et le degré de détail avec lequel on connaît les fréquences qui sont présentes, appelée résolution fréquentielle.
+Limites du spectre sonore[modifier | modifier le code]
+Limites du spectre sonore (Castellengo 1994, p. 64)
+Pour situer les valeurs nécessaires à ce compromis, la psychoacoustique a étudié les limites temporelles et fréquentielles de l'audition humaine, qui sont celles du spectre sonore :
+L'évènement sonore le plus court que les personnes puissent isoler dure au moins 10 ms[2].
+Le domaine des fréquences auxquelles l'oreille humaine est plus ou moins sensible s'étend d'environ 16 Hz à environ 16 000 Hz[3].
+Dans le meilleur des cas, l'oreille humaine peut arriver à distinguer des sons différant en fréquence d'environ deux savarts, soit une proportion de 1 à 1,002. Cette performance se dégrade progressivement jusqu'à la proportion de 1 à 1,25 aux limites de l'aire audible, du côté des basses, des aigües, et des sons de faible intensité[4].
+Pour d'autres espèces animales, les limites de l'audition sont différentes, et l'analyse des sons doit en tenir compte.
+Instruments d'expérimentation et de mesure[modifier | modifier le code]
+On savait depuis l'antiquité que la hauteur des sons musicaux dépend de la longueur des tuyaux ou des cordes qui les produisent. Au dix-septième siècle, des savants comme Marin Mersenne relient cette dimension à la notion de fréquence de vibration.
+Expérience de Chladni
+En étudiant la propagation du son dans les solides, Ernst Chladni fournit dès 1787 ses “Klangsbilder”, une image correcte, mais figée, des vibrations sonores ; à partir de la répartition en cours d’ébranlement vibratoire d’un amas de sable sur des plaques métalliques, Chladni procurait une figure acoustique des nœuds et des ventres de la vibration.
+Vers 1850, de Martinville invente le phonautographe, qui donne une trace, sur papier, de l'onde sonore, représentée dans le domaine temporel. Les ondulations d'un son aigu apparaissent plus serrées que celles d'un son grave, et on peut, en analysant mathématiquement une forme d'onde périodique, déterminer très approximativement quelles sont les harmoniques qu'elle contient.
+Quelques années plus tard, Hermann von Helmholtz fabrique des résonateurs calibrés qui permettent de décomposer, auditivement, un son complexe en partiels, et met en évidence l'importance de cette répartition dans la perception de la différence de timbre entre des sons musicaux continus comme, par exemple, ceux de la flûte et du violon.
+Sonagraphe[modifier | modifier le code]
+Article détaillé : sonagraphe.
+Sonagraphe des années 1970
+Sonagramme d'un chant de merle bleu
+Grâce à l’électronique, cette construction purement intellectuelle et éminemment rationalisatrice, allait devenir une conceptualisation expérimentale de premier ordre en s’inscrivant dans l’évolution temporelle. On ne disposait pas encore du “film”, mais déjà d’un instantané plus précis, qui n’était plus uniquement une vue de l’esprit.
+En 1939, le vocoder mis au point par l'équipe de Homer Dudley aux laboratoires Bell analyse la voix humaine en découpant le spectre de la voix humaine transmise par téléphone, de 300 Hz à 3 400 Hz, en douze bandes de fréquences, pour chacune desquelles on transmet les amplitudes, avec une fréquence maximale de 10 Hz par fréquence. À la réception, on combine des bruits filtrés avec les mêmes bandes de fréquence selon les coefficients transmis. On opère ainsi une analyse et une synthèse de la parole (surtout au niveau des voyelles) ; mais c'est une représentation formantique assez grossière, quoique nettement améliorée vers 1950 quand Manfred Schroeder a l'idée de transmettre la fondamentale, dans la bande des 150 Hz à 300 Hz, et de s'en servir pour générer des harmoniques à la réception qui sont ensuite filtrés et pondérés à la place des bruits utilisés précédemment.
+Le sonagraphe inventé dans les années 1940 dans les mêmes laboratoires permet la visualisation du spectre sonore. Les sonagrammes produits donnent une représentation visuelle de l'intensité sonore en fonction de la fréquence et du temps. Limités au départ à quelques secondes, enregistrées et analysées ensuite en plusieurs minutes, ils sont devenus capables de donner une indication en temps réel, et peuvent servir la représentation du signal dans des programmes d'enregistrement informatique.
+Analyse par octave et tiers d'octave[modifier | modifier le code]
+Article détaillé : Bande d'octave.
+En 1952, Émile Leipp présenta son Intégrateur de densité spectrale destiné à l'analyse des sons instrumentaux, qui présentait le spectre sonore sur huit bandes[5]. À la même époque, les recherches sur le bruit de Eberhard Zwicker (de) l'amènent à analyser le spectre sonore en 24 bandes, selon la sensibilité de l'oreille et l'effet psychoacoustique de masquage d'un son par un autre de fréquence proche[6]. Les possibilités ouvertes par l'électronique à circuit intégré firent des variantes de ces instruments, avec désormais la possibilité de mesure en temps réel, l'outil d'analyse spectrale le plus répandu à partir de 1990.
+Des bancs de filtres, analogiques ou numériques, permettent d'évaluer la répartition de la puissance sonore entre les bandes de fréquences. Les filtres doivent avoir un gain nul à la fréquence centrale de leur bande, et diviser la puissance par deux à la moitié de l'écart relatif entre deux bandes, de façon à permettre une évaluation correcte de la puissance totale. Les valeurs doivent ensuite décroître suffisamment rapidement pour que les bandes au delà de la bande adjacente affichent une valeur négligeable pour la fréquence centrale.
+Exemple: filtre d'octave centré sur 250 Hz  :
+Un filtre d'octave centré sur 250 Hz doit passer intégralement un son pur à 250 Hz.
+La largeur de la bande étant de une octave, la bande supérieure est centrée sur 500 Hz. Une fréquence de 250×√2= 354 Hz doit être atténuée de 3 dB.
+La norme internationale ISO 266 (1997) prévoit les valeurs et des courbes de réponse pour les filtres d'octave et de tiers d'octave.
+Les appareils affichent un histogramme où chaque barre verticale représente la valeur mesurée dans une bande de fréquences.
+Analyseur de spectre[modifier | modifier le code]
+Article détaillé : Analyseur de spectre.
+Le déveleloppement du traitement numérique du signal permet d'afficher en temps réel la densité spectrale de puissance du signal sonore.
+Compléments[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Harmonique
+Acoustique
+Acoustique musicale
+Lien externe[modifier | modifier le code]
+Exemples de sonagrammes de chants d'oiseaux
+Références[modifier | modifier le code]
+↑ (en) Dennis Gabor, « Theory of communication : Part 1: The analysis of information », Journal of the Institute of Electrical Engineering, London, vol. 93-3, no 26,‎ 1946, p. 429-457 (lire en ligne)
+↑ Pour obtenir cette valeur, on demande aux sujets de compter des clics, de plus en plus rapprochés, dans des séquences où ils sont irrégulièrement espacés. Quand ils en manque un, par rapport au nombre généré par la machine, on conclut que le sujet a confondu en un seul évènement les deux plus rapprochés. Voir Émile Leipp, La machine à écouter : Essai de psycho-acoustique, Paris, Masson,‎ 1977.
+↑ Michèle Castellengo, « La perception auditive des sons musicaux », dans Arlette Zenatti, Psychologie de la musique, Paris, Presse Universitaire de France, coll. « Psychologie d'aujourd'hui »,‎ 1994
+↑ Castellengo 1994, p. 65
+↑ L'intégrateur de densité spectrale ; Gérard Pelé, Études sur la perception auditive, Paris,‎ 2012, p. 40.
+↑ (en) Hugo Fastl et Eberhard Zwicker, Psychoacoustics: Facts and Models, Springer,‎ 2006 (ISBN 978-3-540-23159-2) ; voir Bark.
+Portail de la physique
+Portail de la musique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Spectre_sonore&oldid=108239477 ».
+Catégories : AcoustiqueSpectroscopieCatégories cachées : Article contenant un appel à traduction en allemandPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Musique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+Čeština
+Deutsch
+English
+Esperanto
+Español
+فارسی
+Galego
+Italiano
+日本語
+Lietuvių
+Nederlands
+Polski
+Português
+Русский
+Svenska
+ไทย
+中文
+Modifier les liens
+Dernière modification de cette page le 15 octobre 2014 à 10:16.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,77 @@
+Basic Local Alignment Search Tool — Wikipédia
+Basic Local Alignment Search Tool
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis BLAST)
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Blast.
+BLAST
+Développeur
+Altschul S.F., Gish W., Miller E.W., Lipman D.J., NCBI
+Dernière version
+2.2.25 (15 mars 2011)
+Environnement
+Multiplate-forme
+Type
+Outil bio-informatique
+Licence
+Domaine public
+Site web
+Serveur FTP de NCBI
+modifier
+BLAST (acronyme de basic local alignment search tool) est une méthode de recherche heuristique utilisée en bio-informatique permettant de trouver les régions similaires entre deux ou plusieurs séquences de nucléotides ou d'acides aminés et de réaliser un alignement de ces régions homologues. Ce programme permet de retrouver rapidement dans des bases de données, les séquences ayant des zones de similitude avec une séquence donnée (introduite par l'utilisateur)[1].
+BLAST est utilisé pour trouver des relations fonctionnelles ou évolutives entre les séquences et peut aider à identifier les membres d'une même famille de gènes.
+Sommaire
+1 Historique
+2 Principe
+2.1 Création du dictionnaire de k-uplets
+2.2 Recherche et extension de l'homologie
+2.3 Analyse du score et évaluation de la pertinence
+3 Variations
+3.1 Des données utilisées
+3.2 De l'algorithme
+4 Notes et références
+5 Voir aussi
+5.1 Articles connexes
+5.2 Liens externes
+Historique[modifier | modifier le code]
+Ce programme a été développé par Stephen Altschul, Warren Gish et David Lipman au National Center for Biotechnology Information (NCBI). La publication originale parue en octobre 1990, Basic local alignment search tool [2], a été citée plus de 20 000 fois, ce qui en fait l'une des plus citées dans le monde scientifique.
+Principe[modifier | modifier le code]
+BLAST recherche dans une base de données de séquence des segments qui sont localement homologues à une séquence-test fournie par l'utilisateur (query sequence). BLAST utilise une matrice de similarité pour calculer des scores d'alignement. Il fournit un score pour chaque alignement trouvé et utilise ce score pour donner une évaluation statistique de la pertinence de cet alignement (probabilité qu'il soit dû au hasard).
+Le principe de fonctionnement de BLAST, peut se décomposer en trois étapes[3] :
+La décomposition de la séquence-test en segments de longueur k (k-uplets) chevauchants et la recherche pour chacun d'eux de tous les k-uplets possibles ayant un score d'homologie supérieur à un seuil donné. BLAST constitue ainsi un dictionnaire de tous les k-uplets donnant une homologie locale minimum.
+Le balayage de la banque avec le dictionnaire ainsi constitué. Chaque fois que BLAST identifie une coïncidence dans la banque, il tente d'étendre l'homologie en amont et en aval du k-uplet initialement trouvé.
+Après extension de l'homologie, il évalue à partir du score obtenu la probabilité que celle-ci soit due au hasard (ou plus exactement, son espérance mathématique).
+Création du dictionnaire de k-uplets[modifier | modifier le code]
+La séquence analysée est d'abord découpée en k-uplets chevauchants. Pour une séquence de protéine, on utilise typiquement des quadruplets d'acides aminés. Un segment de séquence comme FATCATY est par exemple découpé en :
+FATC, ATCA, TCAT & CATY
+Chacun de ces k-uplets est ensuite analysé pour identifier tous les k-uplets possibles qui donneraient un score d'alignement supérieur à une valeur seuil, fixée par l'utilisateur. Pour calculer ce score d'alignement, on utilise une matrice de similarité, M(a,b), souvent BLOSUM62 (avec a et b les deux acides aminés comparés). Par exemple, si on reprend le quadruplet FATC évoqué ci-dessus, le score qu'on obtient en l'alignant avec lui-même est de 24 si on utilise la matrice BLOSUM62 :
+score(FATC,FATC) = M(F,F) + M(A,A) + M(T,T) + M(C,C) = 6 + 4 + 5 + 9 = 24
+Quelques autres quadruplets donnent de bons scores d'alignement avec FATC, par exemple YATC, FASC ou FSTC, qui donnent des scores d'alignement supérieurs à 20 :
+score(FATC,YATC) = 21 ; score(FATC,FASC) = 20 ; score(FATC,FSTC) = 21
+En revanche, la grande majorité des autres quadruplets donne des scores d'alignements très mauvais, le plus souvent négatifs. Si on fixe un seuil élevé, comme 18 ou 20 dans notre exemple, on n'aura donc que quelques quadruplets possibles qui vont donner un score d'alignement supérieur à ce seuil.
+BLAST va donc, pour chaque k-uplet de la séquence analysée, constituer un dictionnaire de tous les k-uplets possibles donnant un score supérieur au seuil. Le dictionnaire va également indiquer la position dans la séquence de référence où se trouve se trouve le k-uplet d'origine. Une fois constitué, ce dictionnaire contient la liste de tous les k-uplets possibles qui permettent d'obtenir un score initial d'alignement supérieur au seuil.
+Recherche et extension de l'homologie[modifier | modifier le code]
+À partir d'un k-uplet homologue à la séquence d'intérêt, BLAST essaie d'étendre l'homologie dans les deux directions. Si cette extension est possible et que le score augmente, un alignement local est identifié
+Une fois construit le dictionnaire de tous les k-uplets présentant un score seuil d'homologie avec la séquence de référence, BLAST va balayer la banque de séquences à analyser, en regardant successivement tous les k-uplets qui composent chaque séquence. À chaque fois, il vérifie si le k-uplet de la banque est présent dans le dictionnaire. S'il n'en fait pas partie, il passe au suivant. S'il est présent dans le dictionnaire, cela signifie qu'il existe un embryon de région homologue entre la séquence de référence et la séquence de la banque en cours d'analyse. Cette homologie présente un score minimum égal au seuil fixé dans la première étape.
+BLAST va alors essayer de voir si cette région homologue s'étend au delà du k-uplet de départ. Il va alors essayer d'étendre en amont et en aval la région pour voir si le score d'homologie augmente avec cette tentative d'extension. Si les deux séquences présentent effectivement une homologie locale autour du k-uplet de départ, l'extension va conduire à une augmentation effective du score, car de nouveaux acides aminés vont se trouver alignés. Si au contraire la tentative d'extension ne permet pas d'augmenter le score, parce que l'homologie ne continue pas, BLAST s'arrête. Si le score final après extension est supérieur à un seuil donné, l'alignement est conservé pour l'analyse finale.
+Ce processus est effectué pour tous les k-uplets des séquences présentes dans la banque analysée, qui est balayée séquentiellement.
+Analyse du score et évaluation de la pertinence[modifier | modifier le code]
+BLAST et ses versions dérivées (voir ci-dessous) est utilisé pour rechercher des séquences homologues à une séquence d'intérêt, introduite par l'utilisateur, à l'intérieur d'une banque de données de séquence. Ces banques de données, comme GenBank ou UniProt, sont très grandes, contenant typiquement plusieurs centaines de millions de séquences. La recherche exhaustive avec BLAST retourne en général plusieurs dizaines d'alignements avec la séquence d'intérêt. La question qui est alors posée est celle de la pertinence biologique de ces alignements : l'alignement est il simplement le résultat du hasard, parce qu'on a analysé un très grand nombre de séquence, où bien est il le reflet d'une véritable conservation biologique ?
+Pour cela, au cours de la recherche, BLAST effectue une analyse de la distribution des scores d'alignement entre la séquence d'intérêt et la banque. Il ajuste cette distribution à une fonction de densité théorique, ce qui lui permet de calculer la probabilité et l'espérance mathématique de trouver un alignement donnant un score donné dans la banque, uniquement du fait du hasard. Les paramètres de cette fonction de densité varient en fonction des compositions en nucléotides ou acides aminés de la séquence et de la banque analysée.
+Typiquement, BLAST va indiquer, pour chaque alignement, la valeur de cette espérance appelée E-value. Pour des alignements biologiquement pertinents, la E-value prend des valeurs infinitésimales (de 10-10 à 10-200), ce qui signifie qu'il est hautement improbable que le score d'alignement obtenu soit le fait du hasard.
+Exemple d'alignement produit par BLAST avec indication des paramètres d'alignement. L'alignement montré correspond à une région homologue entre le récepteur nucléaire humain aux œstrogènes et le récepteur nucléaire humain à la vitamine D. La E-value de cet alignement est de 4.0 x 10-21, ce qui correspond à un alignement biologiquement significatif
+Variations[modifier | modifier le code]
+Des données utilisées[modifier | modifier le code]
+Le terme blast peut être modifié en fonction de la nature de la séquence d'entrée, et de la base de donnée utilisée :
+blast de nucléotides, séquence nucléotidique contre une base de données de séquences nucléotidiques ;
+blast de protéines, séquence de protéine contre une base de données de séquences de protéines ;
+blastx, séquence nucléotidique traduite en séquence de protéine contre une base de données de séquences de protéines ;
+tblastn, séquence de protéine contre une base de données de séquences nucléotidiques traduites en séquences de protéines ;
+tblastx, séquence nucléotidique traduite en séquence de protéine contre une base de données de séquences nucléotidiques traduites en séquences de protéines.
+De l'algorithme[modifier | modifier le code]
+Depuis sa création, différentes versions de l'algorithme ont été développées :
+BlastN, blast de séquences nucléotidiques, lent mais permet de retrouver des similarité localisées uniquement sur une partie des séquences ;
+BlastP, blast de séquences de protéines ;
+Megablast, rapide, permet de retrouver des séquences hautement similaires ;
+PSI-Blast (position-specific iterated BLAST), Blast relancé plusieurs fois par itération. À chaque itération une séquence consensus est déterminée à partir des résultats, et utilisée comme séquence source pour l'itération suivante ;
+PHI-BLAST (pattern hit initiated Blast), programme utilisant comme source une séquence protéique et un motif, celui-ci étant utilisé comme point de départ des recherches de similarité avec les séquences présentes dans les bases de données.

@@ -1,0 +1,164 @@
+Statistique de Maxwell-Boltzmann — Wikipédia
+Statistique de Maxwell-Boltzmann
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La statistique de Maxwell-Boltzmann est une loi de probabilité ou distribution utilisée en physique statistique pour déterminer la répartition des particules entre différents niveaux d'énergie. Elle est notamment à la base de la théorie cinétique des gaz.
+Sommaire
+1 Énoncé
+1.1 Formulation discrète
+1.2 Formulation continue
+2 Température de Boltzmann
+3 Limitations
+4 Applications
+4.1 Cas des gaz parfaits
+4.2 Biophysique
+5 Voir aussi
+5.1 Articles connexes
+Énoncé[modifier | modifier le code]
+Formulation discrète[modifier | modifier le code]
+On se donne un système de
+particules n'interagissant pas entre elles et pouvant prendre les différents états d'énergie discrets . A l'équilibre thermodynamique, le nombre
+de particules dans un état d'énergie donné
+est :
+où
+est la dégénérescence de l'état d'énergie Ei, c'est-à-dire le nombre d'états possédant l'énergie  ;
+est la constante de Boltzmann ;
+est la température du système (celui-ci doit donc être à l'équilibre) ;
+est la fonction de partition du système.
+Formulation continue[modifier | modifier le code]
+On considère un système de
+particules sans interaction entre elles et pouvant prendre continûment tout état d'énergie entre zéro et l'infini. Le nombre d de particules possédant une énergie entre
+et
+est :
+où :
+est la dégénérescence du système (densité de probabilité des états ayant une énergie comprise entre
+et ) ;
+;
+est la fonction de partition du système.
+Température de Boltzmann[modifier | modifier le code]
+Cette température est associée à deux états de particules identiques, en général à deux états entre lesquels une transition optique peut être observée. Le rapport des populations N2 / N1 de ces deux états, et la différence des énergies de ces états E2 - E1 définissent la température de Boltzmann TB par l'équation:
+Lorsque N2 est supérieur à N1, c'est-à-dire lorsqu'il y a « inversion des populations », le résultat est une température négative qui est acceptée par convention. En spectroscopie, un rayon de fréquence ν est amplifié par le milieu si TB est négatif ou si TB est supérieur à la température du rayon déduite, par la loi de Planck, de sa fréquence et de sa radiance.
+Limitations[modifier | modifier le code]
+La statistique de Maxwell-Boltzmann a été bâtie en supposant l'absence d'interaction entre les particules concernées : elle n'est donc valable en toute rigueur que pour un gaz parfait classique. Elle est toutefois utilisable aussi comme approximation du comportement d'un gaz réel quand il est possible de négliger les interactions entre ses particules, mais ne peut s'appliquer, par exemple, à aucun liquide.
+De plus, cette statistique est construite dans le cadre de la mécanique classique; elle ne s'applique donc que lorsque les effets quantiques sont négligeables, par exemple à des températures suffisamment hautes. À basse température, elle doit être remplacée par la statistique de Bose-Einstein pour les bosons et la statistique de Fermi-Dirac pour les fermions.
+Pour comparer ces trois statistiques, il est utile de reformuler la statistique de Maxwell-Boltzmann en posant :
+d'où :
+Applications[modifier | modifier le code]
+Cas des gaz parfaits[modifier | modifier le code]
+Article détaillé : Théorie cinétique des gaz.
+Biophysique[modifier | modifier le code]
+En électrophysiologie cellulaire, on décrit souvent les mécanismes d'ouverture et de fermeture des canaux ioniques par une fonction de Boltzmann simplifiée quand ceux-ci sont dépendants du voltage transmembranaire souvent appelé « Potentiel de repos ».
+Lorsqu'on étudie la dépendance du phénomène d'ouverture (activation) d'un canal ionique en fonction du voltage transmembranaire imposé par l'expérimentateur, la formule utilisée (appelée « Fonction de Boltzmann ») est :
+,
+où
+V est le voltage transmembranaire ;
+G(V) est la conductance ionique associée aux canaux, dépendante du voltage transmembranaire ;
+Gmax est la conductance maximale ;
+V1/2 est le voltage transmembranaire pour lequel la moitié des canaux sont ouverts, ici c'est le voltage de demi-activation ;
+k décrit la dépendance de l'ouverture des canaux par rapport au changement de voltage, nommé dans la littérature « constante de pente ».
+La même formule peut représenter la dépendance du phénomène de fermeture (inactivation) d'un canal ionique en fonction du voltage transmembranaire, V1/2 est alors le voltage de demi-inactivation.
+Dans les deux cas ci-dessus, la fonction de Boltzmann décrit les valeurs de la « variable d'activation » ou de la « variable d'inactivation », en fonction du voltage transmembranaire. Elle ne s'applique qu'aux mesures faites à l'état stable, on parle donc de « variable d'activation à l'état stable » ou de « variable d'inactivation à l'état stable ». Cette fonction prend des valeurs réelles dans l'intervalle ]0;1[.
+La fonction de Boltzmann est ici utilisée pour décrire les résultats expérimentaux issus de la mesure des courants ioniques de membrane en conditions de voltage imposé (en anglais voltage-clamp), par la technique à double microélectrode ou par celle dite du patch-clamp. On peut ainsi déterminer les propriétés des différentes catégories de courants ioniques membranaires. Les paramètres V1/2 et k servent à caractériser les propriétés d'un canal ionique et à la modélisation informatique des propriétés électriques d'une cellule.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Statistique de Maxwell-Boltzmann, sur Wikiversity
+Articles connexes[modifier | modifier le code]
+Généralisation en physique quantique
+Statistique de Bose-Einstein
+Statistique de Fermi-Dirac
+Physique statistique
+Théorie cinétique des gaz
+Physique des plasmas
+Atmosphère isotherme
+Biophysique des canaux ioniques
+Électrophysiologie
+Loi de distribution des vitesses de Maxwell
+v · d · m
+Mécanique quantique
+Concepts fondamentaux
+Décohérence · Dualité · Effet tunnel · État quantique · Fonction d'onde · Intrication · Observable · Correspondance · Superposition quantique · Complémentarité · Principe d'incertitude · Mesure · Spin
+Expériences
+Fentes de Young · Expérience de Davisson et Germer · Expérience de Stern et Gerlach · Chat de Schrödinger · Gomme quantique · Paradoxe EPR · Téléportation quantique · Expérience d'Aspect · Expérience d’Afshar
+Formalisme
+Notation bra-ket · Équation de Schrödinger · Matrice densité · Représentation de Schrödinger · Représentation de Heisenberg · Représentation d'interaction · Diagramme de Feynman · Équation de Rarita-Schwinger · Équation de Dirac · Matrice de Dirac · Symbole de Levi-Civita
+Statistiques
+Maxwell-Boltzmann · Échange · Fermi-Dirac · Fermion · Bose-Einstein · Boson
+Théories avancées
+Théorie quantique des champs · Axiomes de Wightman · Électrodynamique quantique · Chromodynamique quantique · Gravité quantique · Trou noir virtuel
+Interprétations
+Problème de la mesure · Copenhague · Ensemble · Variables cachées · Ontologique (Bohm-Hiley) · Transactionnelle · Mondes multiples · Histoires consistantes · Logique quantique
+Physiciens
+Bohr · Bohm · Born · de Broglie · Dirac · Einstein · Everett · Feynman · Heisenberg · Mosharafa · von Neumann · Pauli · Penrose · Planck · Schrödinger
+Postulats de la mécanique quantique · Histoire de la mécanique quantique
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Statistique_de_Maxwell-Boltzmann&oldid=106273624 ».
+Catégorie : Physique statistiqueCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+Čeština
+Deutsch
+English
+Español
+Suomi
+עברית
+日本語
+Қазақша
+한국어
+Nederlands
+Polski
+Português
+Русский
+Slovenčina
+Slovenščina
+Svenska
+Татарча/tatarça
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 15 août 2014 à 01:58.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

@@ -1,0 +1,31 @@
+Southern blot — Wikipédia
+Southern blot
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un transfert d'ADN[1] est une méthode de biologie moléculaire permettant l'analyse de l'ADN. Elle a été inventée par Edwin Southern, un professeur britannique de biologie moléculaire.
+C'est ce nom (Southern blot) qui a, par jeu de mot, inspiré l'appellation d'autres techniques : western blot, northern blot et Far-eastern blot.
+Sommaire
+1 Principe
+2 Méthode
+3 Résultat
+4 Notes et références
+5 Voir aussi
+6 Lien externe
+Principe[modifier | modifier le code]
+Nous partons des fragments d'ADN obtenus par les enzymes de restriction. On va appliquer la technique du transfert de Southern pour fixer les sondes aux fragments leur correspondant ; une sonde étant un fragment d'ADN auquel on a marqué une base grâce à des composés radioactifs, fluorescents ou un anticorps qui sert à localiser une séquence de l'ADN qui nous intéresse. Le transfert de Southern sert donc à repérer des fragments d'ADN. D'une façon plus générale, ces fragments obtenus vont présenter des polymorphismes de restriction. Un polymorphisme de restriction est une variation individuelle de la séquence des bases du génome des eucaryotes modifiant un ou plusieurs sites de restriction. Donc, ces polymorphismes de restriction (mutations) vont, dans les faits, être intéressants pour déterminer des variations géniques, des tests de paternité par exemple.
+Méthode[modifier | modifier le code]
+L'ADN est digéré par les enzymes de restriction.
+Les fragments d'ADN sont placés dans les puits d'un gel d'électrophorèse (gel d'agarose à faible concentration → 0,6 à 0,8 %).
+Le gel est alors mis dans une cuve horizontale contenant une solution tampon et deux électrodes (+ et -). On procède alors à une migration en mettant le courant (90 mV pendant une heure).
+Une fois la migration effectuée, on trempe le gel (contenant les fragments d'ADN) dans une solution de bromure d'éthidium (BET).
+Révélation des fragments d'ADN sous rayons UV.
+Le gel d'électrophorèse est ensuite trempé dans une solution alcaline (contenant habituellement de l'hydroxyde de sodium ou plus communément "soude") afin de permettre la dénaturation de l'ADN bicaténaire (séparation de l'ADN double-brin en simple-brin). (Le BET s'intercalant entre les deux brins d'ADN, cette étape a aussi pour effet de séparer le BET de la molécule d'ADN )
+Une feuille de membrane en nitrocellulose (ou encore en nylon) est placée sur le gel. Une pression est appliquée au gel en plaçant une pile de serviettes de papier et par un poids sur la membrane et le gel, par exemple. Ceci va permettre le déplacement de l'ADN contenu dans le gel sur la membrane par capillarité grâce à une solution saline. L'ADN va se fixer sur la membrane.
+La membrane est alors chauffée, dans le cas de nitrocellulose, ou exposée au rayonnement ultraviolet si c'est du nylon, et ce, afin de fixer de manière permanente l'ADN sur la membrane (formation de liaisons covalentes entre l'ADN et la membrane).
+La membrane est ensuite mise en contact avec une sonde spécifique de la séquence d'ADN recherchée ( fragment d'ADN complémentaire de la séquence ciblée ). La sonde est au préalable marquée de sorte qu'elle puisse être détectée, par incorporation de radioisotopes ou par "étiquetage" de la molécule avec un fluorophore ou un antigène tel que la digoxygénine. Dans certains cas, la sonde peut être faite à partir d'ARN, plutôt que d'ADN.
+Après hybridation, la sonde en excès est éliminée de la membrane par différents lavages, et l'hybridation est visualisée par autoradiographie, dans le cas d'une sonde radioactive ou fluorescente.
+Résultat[modifier | modifier le code]
+La sonde va révéler la position sur la membrane des fragments d'ADN recherchés. Plusieurs situations peuvent se présenter :
+Les fragments d'ADN sont semblables au lieu d'hybridation de la sonde et à proximité de celui-ci et les fragments sont de même taille : il n'y a pas de polymorphisme.
+Un site de restriction au voisinage de la sonde n'est présent que chez l'un des deux individus ; les fragments n'ont pas la même taille et ne sont donc pas à la même hauteur sur le gel : il y a polymorphisme de sites de restriction.
+Les sites de restriction sont identiques, mais une séquence supplémentaire est présente chez l'un des deux fragments. Les vitesses de migration des fragments et donc leur position sur le gel sont donc, ici aussi, différentes : il y a polymorphisme d'insertion/délétion.

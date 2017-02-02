@@ -1,0 +1,104 @@
+Spectrométrie d'absorption — Wikipédia
+Spectrométrie d'absorption
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La spectrométrie d'absorption est une méthode physique d'analyse chimique. Elle s'utilise principalement sur les liquides.
+La couleur d'un corps en transmission (transparence) représente sa capacité à absorber certaines longueurs d'onde. L'absorption d'une longueur d'onde λ par un produit est modélisée par la loi de Beer-Lambert :
+où
+I0 est l'intensité incidente de la radiation λ, et I est l'intensité sortante ;
+µ est le coefficient d'absorption, qui dépend du produit et de λ ;
+ρ est la masse volumique du produit ;
+x est le chemin parcouru dans le produit.
+On peut typiquement étudier les propriétés des substances chimiques en fonction de la concentration de différentes espèces (analyse quantitative) et/ou de l'environnement chimique de l'échantillon (analyse qualitative).
+Sommaire
+1 Analyse qualitative
+2 Analyse quantitative
+3 Applications
+4 Annexes
+4.1 Articles connexes
+Analyse qualitative[modifier | modifier le code]
+Connaissant la densité d'un produit et le chemin x parcouru par la lumière, si l'on mesure l'intensité sortant du produit, on peut déterminer le coefficient d'absorption pour la longueur d'onde considérée.
+Les pics d'absorption (maxima de µ) correspondent à des transitions électroniques (quantifiées), et sont donc caractéristiques de la nature des atomes et de leurs liaisons chimiques.
+Ceci permet de reconnaître la nature chimique de certains produits. C'est notamment l'absorption de longueurs d'onde données de la lumière solaire qui a permis de découvrir que le Soleil était entouré de gaz, ce qui amena à la découverte de l'hélium.
+Analyse quantitative[modifier | modifier le code]
+Supposons que l'on ait :
+un produit 1 ayant un coefficient d'absorption µ1 très important pour une longueur d'onde λ1 et négligeable pour λ2 ;
+un produit 2 ayant à l'inverse un coefficient µ2 d'absorption négligeable pour λ1 mais très important pour λ2 ;
+alors, pour un mélange des produits 1 et 2, avec une masse volumique respective ρ1 et ρ2, on aura :
+.
+La mesure des intensités respectives de λ1 et λ2 permet donc de déterminer ρ1 et ρ2, et donc de déterminer les proportions du mélange. Cela nécessite un étalonnage afin de s'abstraire de l'intensité I0(λ) et de l'absorption propre de l'appareil. On travaille en général en rapport d'intensité :
+soit
+.
+La deuxième équation est celle donnant la masse volumique totale ρ :
+ρ = ρ1 + ρ2.
+D'une manière générale, si l'on a un mélange de n produits ayant chacun un pic d'absorption caractéristique pour une longueur d'onde donnée λi, on a alors un système de n équations à résoudre :
+et
+.
+Applications[modifier | modifier le code]
+Outre l'analyse chimique, on utilise cette méthode pour déterminer le pourcentage d'oxygénation du sang (oxymétrie).
+Annexes[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Spectrométrie d'absorption des rayons X et XANES
+EXAFS (Extended X-Ray Absorption Fine Structure)
+Spectrométrie d'absorption atomique
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Spectrométrie_d%27absorption&oldid=106264516 ».
+Catégories : SpectroscopieChimie environnementaleRayonnementCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Bosanski
+Català
+English
+Hrvatski
+Italiano
+Latina
+Русский
+Srpskohrvatski / српскохрватски
+Српски / srpski
+Türkçe
+Modifier les liens
+Dernière modification de cette page le 14 août 2014 à 19:13.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

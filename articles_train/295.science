@@ -1,0 +1,292 @@
+Mouvement brownien — Wikipédia
+Mouvement brownien
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Mouvement brownien d'une particule.
+Le mouvement brownien, ou processus de Wiener, est une description mathématique du mouvement aléatoire d'une « grosse » particule immergée dans un fluide et qui n'est soumise à aucune autre interaction que des chocs avec les « petites » molécules du fluide environnant. Il en résulte un mouvement très irrégulier de la grosse particule, qui a été décrit pour la première fois en 1827 par le botaniste Robert Brown en observant des mouvements de particules à l'intérieur de grains de pollen de Clarkia pulchella (une espèce de fleur sauvage nord-américaine), puis de diverses autres plantes[1].
+La description physique la plus élémentaire du phénomène est la suivante :
+entre deux chocs, la grosse particule se déplace en ligne droite avec une vitesse constante ;
+la grosse particule est accélérée lorsqu'elle rencontre une molécule de fluide ou une paroi.
+Ce mouvement permet de décrire avec succès le comportement thermodynamique des gaz (théorie cinétique des gaz), ainsi que le phénomène de diffusion. Il est aussi très utilisé dans des modèles de mathématiques financières.
+Sommaire
+1 Aspects historiques
+2 Approche mathématique
+2.1 Notion de processus stochastique
+2.2 Définition
+2.3 Descriptions dimensionnelles
+2.4 Propriétés
+2.5 Construction mathématique
+2.5.1 Au moyen du Théorème de Consistance de Kolmogorov
+2.5.2 Au moyen d'une marche aléatoire
+2.5.3 Au moyen d'une série de Fourier
+2.5.4 Excursion brownienne
+2.6 Formule d'Einstein
+2.7 Considérations énergétiques
+3 Quelques modélisations dans un espace euclidien
+3.1 Équation de Langevin (1908)
+4 Processus d’Ornstein-Uhlenbeck
+4.1 Marches aléatoires
+4.2 Marche aléatoire à une dimension d'espace (Exemple)
+4.2.1 Probabilités de transition conditionnelle
+4.2.2 Convergence vers le mouvement brownien. Équation de Fokker-Planck
+4.2.3 Solution de l'équation de Fokker-Planck
+5 Mouvement brownien sur une variété riemannienne
+6 Notes et références
+7 Voir aussi
+7.1 Bibliographie
+7.2 Articles connexes
+7.3 Liens externes
+Aspects historiques[modifier | modifier le code]
+Le philosophe et poète latin Lucrèce (60 av. J.-C.) donne une remarquable description du mouvement des particules selon les principes d'Épicure dans son œuvre De la nature :
+« [2,80] Si tu penses que les atomes, principes des choses, peuvent trouver le repos et dans ce repos engendrer toujours de nouveaux mouvements, tu te trompes et t'égares loin de la vérité. Puisqu'ils errent dans le vide, il faut qu'ils soient tous emportés, soit par leur pesanteur propre, soit par le choc d'un autre corps. Car s'il leur arrive dans leur agitation de se rencontrer avec choc, aussitôt ils rebondissent en sens opposés: ce qui n'a rien d'étonnant puisqu'ils sont des corps très durs, pesants, denses, et que rien derrière eux ne les arrête. Et pour mieux comprendre comment s'agitent sans fin [2,90] tous les éléments de la matière, souviens-toi qu'il n'y a dans l'univers entier aucun fond ni aucun lieu où puissent s'arrêter les atomes, puisque l'espace sans limite ni mesure est infini en tous sens, ainsi que je l'ai montré abondamment avec la plus sûre doctrine. Puisqu'il en est ainsi, il ne peut y avoir aucun repos pour les atomes à travers le vide immense; au contraire agités d'un mouvement continuel et divers, ils se heurtent, puis rebondissent, les uns à de grandes distances, les autres faiblement, et s'éloignent peu. »
+Mouvement de sphères (20 nm de diamètre) de latex fluorescentes dans de l'eau.
+À l'été 1827, le naturaliste écossais Robert Brown aperçut dans le fluide situé à l’intérieur des grains de pollen de la Clarkia pulchella, de très petites particules agitées de mouvements apparemment chaotiques et non pas les grains de pollen eux-mêmes comme souvent mentionné. Brown n'est pas exactement le premier à avoir fait cette observation. Il signale lui-même que plusieurs auteurs avaient suggéré l’existence d’un tel mouvement (en lien avec les théories vitalistes de l'époque). Parmi ceux-ci, certains l’avaient effectivement décrit. On peut mentionner en particulier l’abbé John Turberville Needham (1713-1781), célèbre à son époque pour sa grande maîtrise du microscope, qui attribua ce mouvement à une activité vitale.
+La réalité des observations de Brown a été discutée tout au long du XXe siècle. Compte tenu de la médiocre qualité de l'optique dont il disposait, certains ont contesté qu'il ait pu voir véritablement le mouvement brownien, qui intéresse des particules de quelques micromètres au plus. Les expériences ont été refaites par l’Anglais Brian Ford au début des années 1990, avec le matériel employé par Brown et dans les conditions les plus semblables possibles[2]. Le mouvement a bien été observé dans ces conditions, ce qui valide les observations de Brown.
+En 1901, Louis Bachelier propose un premier modèle mathématique du mouvement brownien et l'applique à la finance.
+En 1905, Albert Einstein donne une description quantitative du mouvement brownien et indique notamment que des mesures faites sur le mouvement permettent d'en déduire leur dimension moléculaire. Jean Perrin réalise ce programme et publie en 1909 une valeur du nombre d'Avogadro, ce qui lui vaut un prix Nobel en 1926. Il décrit également l'extrême irrégularité des trajectoires qui n'ont de tangente en aucun point. On peut trouver un célèbre dessin de Perrin d'observations de particules (voir la page anglaise).
+"C’est un cas où il est vraiment naturel de penser à ces fonctions continues sans dérivées que les mathématiciens ont imaginées, et que l’on regardait à tort comme de simples curiosités mathématiques, puisque l’expérience peut les suggérer." (Perrin)
+Dans cette même période, le physicien français Paul Langevin développe une théorie du mouvement brownien suivant sa propre approche (1908).
+Norbert Wiener donne une définition mathématique en 1923 en construisant une mesure de probabilité sur l'espace des fonctions continues réelles. Il étudie, de manière mathématique, la continuité et non-dérivabilité des trajectoires du mouvement brownien. Il définit également l'intégrale de Wiener (l'intégrale par rapport au mouvement brownien).
+En 1933, Paul Lévy démontre que le mouvement brownien est un cas particulier de martingale continue, notion inventée par Jean Ville en 1933, celui où le carré de ce mouvement soustrait de sa valeur temps reste une martingale. Il démontre également que ce cas particulier est le seul parmi les martingales à avoir ces deux propriétés. Ce faisant, il donne la définition du mouvement brownien, c'est-à-dire ses conditions nécessaires et suffisantes. En 1948, il publie le premier grand ouvrage sur le mouvement brownien Processus stochastiques et mouvement brownien. Il apporte alors de nombreux résultats.
+Depuis, des études fines sur le mouvement brownien ont été réalisées par de nombreux auteurs. Citons Volker Strassen ainsi que Kiyoshi Itō, lequel développe un calcul différentiel spécifique au mouvement brownien : le calcul stochastique.
+Plus récemment, David Baker et Marc Yor ont démontré, à partir du processus Carr-Ewald-Xiao décrit en 2008, que les descriptions de processus aléatoires temporels et continus, en particulier les flux financiers, par le mouvement brownien procédaient bien souvent d'une naïveté basée sur une définition empirique du mouvement brownien[3], les aléas ne pouvant pas toujours être définis de manières indépendantes c'est-à-dire que le drap brownien à n dimensions utilisé l'est abusivement dans un phénomène qui ne possède pas ces n dimensions.
+Approche mathématique[modifier | modifier le code]
+Notion de processus stochastique[modifier | modifier le code]
+La difficulté de modélisation du mouvement brownien réside dans le fait que ce mouvement est aléatoire et que statistiquement, le déplacement est nul : il n'y a pas de mouvement d'ensemble, contrairement à un vent ou un courant. Plus précisément :
+à un instant donné, la somme vectorielle des vitesses de toutes les particules s'annule (il n'y a pas de mouvement d'ensemble) ;
+si l'on suit une particule donnée au cours du temps, le barycentre de sa trajectoire est son point de départ, elle « virevolte » autour du même point.
+Il est difficile dans ces conditions de caractériser le mouvement. La solution fut trouvée par Louis Bachelier, et présentée dans sa thèse soutenue le 29 mars 1900. Il démontra que ce qui caractérise le mouvement, ce n'est pas la moyenne arithmétique des positions <X> mais la moyenne quadratique  : si x(t) est la distance de la particule à sa position de départ à l'instant t, alors :
+On démontre que le déplacement quadratique moyen est proportionnel au temps[4] :
+où d est la dimension du mouvement (linéaire, plan, spatial), D le coefficient de diffusion, et t le temps écoulé.
+Définition[modifier | modifier le code]
+Un mouvement brownien est une martingale telle que
+cette martingale est continue dans le temps
+son carré soustrait de son temps est une martingale
+est un mouvement brownien si et seulement si
+est une martingale continue telle que
+est une martingale.
+Descriptions dimensionnelles[modifier | modifier le code]
+Approximation d'un mouvement brownien 2-dimensionnel par une marche aléatoire de 3000 pas dont chaque pas est gaussien en abscisse et en ordonnée.
+Lire le média
+Approximation d'un mouvement brownien 3-dimensionnel par une marche aléatoire de 1000 pas dont chaque pas est gaussien en abscisse, en ordonnée et en côte.
+Définition uni-dimensionnelle
+Le mouvement brownien unidimensionnel
+est un processus stochastique dépendant du temps t et vérifiant :
+(accroissements indépendants) Quels que soient les temps t et s tels que t > s, l'accroissement
+est indépendant du processus
+avant le temps s.
+(accroissements stationnaires et gaussiens) Quels que soient les temps t et s tels que t > s, l'accroissement
+est une variable aléatoire normale de moyenne nulle et de variance t−s.
+est presque sûrement continu, c'est-à-dire pour presque toute réalisation, la fonction
+est continue.
+Il est souvent supposé que . On dit alors que le mouvement brownien est standard.
+Définition équivalente
+Le mouvement brownien unidimensionnel
+est un processus stochastique dépendant du temps t et vérifiant :
+Le processus
+est un processus gaussien, c'est-à-dire pour tous temps , le vecteur
+est un vecteur gaussien.
+est presque sûrement continu. C'est-à-dire pour toute réalisation, la fonction
+est continue.
+pour tous s et t, la moyenne est
+et la covariance est .
+Définition multi-dimensionnelle
+Le mouvement brownien d-dimensionnel est un processus
+où les processus
+sont des mouvements browniens indépendants.
+Autrement dit le mouvement brownien d-dimensionnel est à valeurs dans
+et ses projections sur les espaces
+sont respectivement des mouvements browniens uni-, bi-, ..., d-1-dimensionnels.
+Définition de la mesure de Wiener
+Considérons
+l'espace des fonctions continues de
+dans
+et
+un espace probabilisé. Le mouvement brownien est l'application
+.
+La mesure de Wiener (ou loi du mouvement brownien), souvent notée , est la mesure-image de
+par cette application B.
+Autrement dit, c'est la mesure de probabilité W sur
+telle que pour tout ,
+.
+Remarques
+Le mouvement brownien est un Processus de Lévy à accroissements gaussiens.
+Cette définition permet de démontrer des propriétés du mouvement brownien, comme par exemple sa continuité (presque sure), le fait que presque surement, la trajectoire n'est différentiable nulle part, et de nombreuses autres propriétés.
+On pourrait également définir le mouvement brownien par rapport à sa variation quadratique moyenne. Cette définition, classiquement appelée théorème de Levy, donne la caractérisation suivante: un processus stochastique à trajectoires continues dont la variation quadratique est
+est un mouvement brownien. Ceci se traduit mathématiquement par le fait que pour une filtration donnée,
+et
+sont des martingales.
+Propriétés[modifier | modifier le code]
+Les trajectoires du mouvement brownien sont presque-sûrement nulle part dérivables, c'est-à-dire que pour presque tout , la fonction
+est une fonction continue nulle part dérivable.
+La covariance est donnée par
+pour tous réels s et t.
+Le mouvement brownien a la propriété de Markov forte : pour tout temps d'arrêt T, conditionnellement à , le processus
+est un mouvement brownien indépendant du processus .
+Sa transformée de Fourier ou fonction caractéristique est donnée par
+. On retrouve le fait que le mouvement brownien soit un processus de Lévy sans drift, sans sauts et de coefficient quadratique 1/2.
+Le mouvement brownien est homogène en temps : pour tout s > 0,
+est un mouvement brownien indépendant de .
+Le processus -B est un mouvement brownien.
+(Propriété de stabilité) Pour tout c > 0, le processus
+est un mouvement brownien. On dit que le mouvement brownien est stable d'indice 2.
+(Inversion du temps) Le processus
+qui s'annule en t=0 est un mouvement brownien.
+(Récurrence) Le mouvement brownien d-dimensionnel est récurrent si et seulement si d=1 ou d=2. C'est-à-dire
+si , l'ensemble
+est non borné pour tout
+et tout ,
+si
+presque sûrement.
+(Principe de réflexion)
+Construction mathématique[modifier | modifier le code]
+Donnons d'autres manières de construire le mouvement brownien.
+Au moyen du Théorème de Consistance de Kolmogorov[modifier | modifier le code]
+Soit
+une famille de fonctions à valeurs réelles appartenant à . Posons alors :
+Alors, la fonction satisfait la propriété suivante :
+et tous , la matrice
+est symétrique et semi-définie positive.
+Au moyen du Théorème de Consistance de Kolmogorov, on peut construire un processus gaussien
+dont la fonction moyenne
+est arbitraire et dont la fonction de covariance est
+définie au-dessus.
+Lorsque
+où
+est une constante ne dépendant pas de t et où
+est la fonction indicatrice sur . Il résulte alors de l'expression de
+que pour tout  :
+Dans ce cas-là, la matrice
+est symétrique et définie positive pour tout
+et
+2 à 2 distincts.
+On dit qu'un processus gaussien à valeur réelle indexé par
+est un Mouvement Brownien (MB) lorsque le processus est centré (ie. l'application
+est nulle identiquement) et que sa fonction de covariance
+est donnée ci-dessus. D'habitude, un MB est noté par . Signalons que . Lorsque , le MB est dit Mouvement Brownien Standard.
+Au moyen d'une marche aléatoire[modifier | modifier le code]
+Le Théorème de Donsker (1951) montre qu'une marche aléatoire convenablement renormalisée (voir article Théorème de Donsker) converge en loi vers le mouvement brownien.
+où [.] est la partie entière et les variables aléatoires (Un, n ≥ 1) sont iid, centrées, de carré intégrable et de variance σ2. La convergence
+est la convergence en loi dans l'espace C ([0,1]) des fonctions continues sur [0,1] muni de sa tribu borélienne.
+Cette convergence donne une définition du MB comme l'unique limite (en loi) de marches aléatoires renormalisées.
+Au moyen d'une série de Fourier[modifier | modifier le code]
+Donnons une construction du mouvement brownien fondée sur les séries de Fourier.
+Soient deux suites indépendantes
+et
+de variables aléatoires indépendantes de Loi normale . Le processus
+défini par la série
+est un mouvement brownien.
+Excursion brownienne[modifier | modifier le code]
+en haut : simulation d'un pont brownien standard.
+en bas : simulation d'une excursion brownienne normalisée.
+Considérons
+l'ensemble des zéros du mouvement brownien unidimensionnel (ensemble des temps où le MB s'annule). Le complémentaire de
+est une suite d'intervalles ouverts que l'on note . Chaque intervalle a une longueur notée .
+Pour chaque n ≥ 1, on définit les processus
+et
+par
+pour tout ,
+pour tout .
+est appelée l'excursion brownienne,
+est l'excursion brownienne normalisée (voir le livre de Itô et McKean[5]).
+Les excursions sont soit "au-dessus" de 0 (s'il existe un t tel que ) soit "au-dessous" de 0 (s'il existe un t tel que ).
+Propriétés
+Les excursions
+sont indépendantes et de même loi. De même pour .
+est markovien avec :
+.
+Les signes des excursions sont indépendantes et de loi .
+Il existe des liens entre l'excursion brownienne et le Pont brownien.
+Formule d'Einstein[modifier | modifier le code]
+La formule précédente permet de calculer le coefficient de diffusion d'un couple particule-fluide. En connaissant les caractéristiques de la particule diffusante ou du fluide, on peut en déduire les caractéristiques de l'autre. En connaissant les caractéristiques des deux, on peut évaluer le nombre d'Avogadro à l'aide de la formule d'Einstein (1905) :
+où
+est la température,
+la viscosité du fluide,
+le rayon de la particule,
+la constante des gaz parfaits et
+le nombre d'Avogadro : le physicien Jean Perrin évalua ce dernier nombre en 1908 grâce à cette formule.
+Considérations énergétiques[modifier | modifier le code]
+La quantité d'énergie mise en œuvre par le mouvement brownien est négligeable à l'échelle macroscopique. On ne peut pas en tirer de l'énergie pour réaliser un mouvement perpétuel de seconde espèce, et violer ainsi le deuxième principe de la thermodynamique.
+Toutefois, il a été démontré que certains processus biologiques à l'échelle cellulaire peuvent orienter le mouvement brownien afin d'en soutirer de l'énergie [6]. Cette transformation ne contrevient pas au deuxième principe de la thermodynamique tant et aussi longtemps qu'un échange de rayonnement peut maintenir la température du milieu donc la vitesse moyenne des particules. Il faut aussi considérer que la dissipation de ce mouvement brownien sous forme d'énergie utilisable engendre une croissance de l'entropie globale du système (ou de l'univers).
+Quelques modélisations dans un espace euclidien[modifier | modifier le code]
+Équation de Langevin (1908)[modifier | modifier le code]
+Article détaillé : Équation de Langevin.
+Dans l'approche de Langevin[7], la grosse particule brownienne de masse m animée à l'instant t d'une vitesse
+est soumise à deux forces :
+une force de frottement fluide du type , où k est une constante positive ;
+un bruit blanc gaussien
+Bruit blanc gaussien :
+Un bruit blanc gaussien
+est un processus stochastique de moyenne nulle  :
+et totalement décorrélé dans le temps ; sa fonction de corrélation à deux points vaut en effet :
+Dans cette formule,
+est une constante positive, et
+est la distribution de Dirac.
+Dans ces deux formules, la moyenne est prise sur toutes les réalisations possibles du bruit blanc gaussien. On peut formaliser ceci en introduisant une intégrale fonctionnelle, encore appelée intégrale de chemin d'après Feynman, définie pour la mesure gaussienne dite « mesure de Wiener »[8]. Ainsi, on écrit :
+où
+est la dérivée de
+par rapport au temps t.
+Le principe fondamental de la dynamique de Newton conduit à l'équation stochastique de Langevin :
+Processus d’Ornstein-Uhlenbeck[modifier | modifier le code]
+Le processus d'Ornstein-Uhlenbeck est un processus stochastique décrivant (entre autres) la vitesse d'une particule dans un fluide, en dimension 1.
+On le définit comme étant la solution
+de l'équation différentielle stochastique suivante : , où
+est un mouvement brownien standard, et avec
+une variable aléatoire donnée. Le terme
+traduit les nombreux chocs aléatoires subis par la particule, alors que le terme
+représente la force de frottement subie par la particule.
+La formule d'Itô appliquée au processus
+nous donne : , soit, sous forme intégrale :
+Par exemple, si
+vaut presque sûrement , la loi de
+est une loi gaussienne de moyenne
+et de variance , ce qui converge en loi quand
+tend vers l'infini vers la loi gaussienne centrée réduite.
+Marches aléatoires[modifier | modifier le code]
+Article détaillé : Marche aléatoire.
+On peut aussi utiliser un modèle de marche aléatoire (ou au hasard), où le mouvement se fait par sauts discrets entre positions définies (on a alors des mouvements en ligne droite entre deux positions), comme par exemple dans le cas de la diffusion dans les solides. Si les xi sont les positions successives d'une particule, alors on a après n sauts :
+Marche aléatoire à une dimension d'espace (Exemple)[modifier | modifier le code]
+Considérons la marche aléatoire d'une particule sur l'axe Ox. On suppose que cette particule effectue des sauts de longueur a entre deux positions contigües situées sur le réseau :
+de maille a sur l'axe, chaque saut ayant une durée .
+Il faut encore se donner un nombre p tel que : 0 < p < 1. L'interprétation physique de ce paramètre est la suivante :
+p représente la probabilité que la particule fasse un saut vers la droite à chaque instant ;
+q = 1 - p représente la probabilité que la particule fasse un saut vers la gauche à chaque instant.
+Le cas du mouvement brownien correspond à faire l'hypothèse d'isotropie spatiale. Toutes les directions de l'espace physique étant a priori équivalentes, on pose l'équiprobabilité :
+La figure ci-dessous montre un exemple typique de résultat : on trace les positions successives x(k) de la particule aux instants k, partant de la condition initiale x(0)=0.
+Probabilités de transition conditionnelle[modifier | modifier le code]
+On définit la probabilité de transition conditionnelle :
+comme étant la probabilité de trouver la particule au site ma à l'instant
+sachant qu'elle était au site na à l'instant initial 0.
+L'hypothèse d'isotropie conduit à écrire la loi d'évolution de cette probabilité de transition conditionnelle :
+On en déduit la relation suivante :
+Convergence vers le mouvement brownien. Équation de Fokker-Planck[modifier | modifier le code]
+Prenons la limite continue de l'équation précédente lorsque les paramètres :
+On verra à la fin du calcul que la combinaison
+doit en fait rester constante dans cette limite continue.
+Il vient, en réintroduisant le paramètre adéquat pour faire un développement limité :
+D'autre part, on peut écrire :
+de telle sorte que le crochet se réduise à :
+On en déduit l'équation de Fokker-Planck :
+qu'on peut réécrire :
+en introduisant le coefficient de diffusion :
+Solution de l'équation de Fokker-Planck[modifier | modifier le code]
+En plus de l'équation de Fokker-Planck, la densité de probabilité de transition conditionnelle
+doit vérifier les deux conditions supplémentaires suivantes :
+la normalisation des probabilités totales :
+la condition initiale :
+où
+est la distribution de Dirac.
+La densité de probabilité de transition conditionnelle
+est donc essentiellement une fonction de Green de l'équation de Fokker-Planck. On peut démontrer qu'elle s'écrit explicitement :
+Moments de la distribution :
+Posons
+pour simplifier. La densité de probabilité de transition conditionnelle
+permet le calcul des divers moments :
+La fonction
+étant paire, tous les moments d'ordre impair sont nuls. On peut facilement calculer tous les moments d'ordre pair en posant :
+et en écrivant que :
+On obtient explicitement :
+On retrouve notamment pour le moment d'ordre deux :
+Mouvement brownien sur une variété riemannienne[modifier | modifier le code]
+On appelle mouvement brownien sur une variété riemannienne V le processus stochastique continu markovien dont le semigroupe de transition à un paramètre est engendré par , où
+est l'opérateur de Laplace-Beltrami sur la variété V.

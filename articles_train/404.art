@@ -1,0 +1,310 @@
+Perspective conique — Wikipédia
+Perspective conique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir perspective.
+Cet article ne cite pas suffisamment ses sources (octobre 2011).
+Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les références utiles à sa vérifiabilité et en les liant à la section « Notes et références » (modifier l'article).
+La perspective conique est le mode de représentation du monde environnant qui imite le mieux celui d'une photographie. La découverte des règles qui en gouvernent l'élaboration a été faite en Italie au quattrocento et a ouvert la voie à la Renaissance artistique.
+Elle porte son nom du fait que les droites reliant l'œil de l'observateur aux contours d'un objet forment un cône. On parle aussi de projection ou perspective centrale, et encore de perspective linéaire pour désigner la même méthode.
+Sommaire
+1 Généralités
+1.1 Éléments d'histoire
+1.2 Perspective et photographie
+1.3 Synthèse d'images 3D
+2 Projection centrale
+3 Raccourcissement perspectif
+3.1 Points de fuite
+3.2 Lignes de fuite
+3.3 Distance de la ligne de fuite d'un plan - Points de distance
+3.4 Orthogonalité - directions perpendiculaires
+3.5 Ligne de terre
+3.6 Récapitulatif
+4 Différents types de perspective linéaire
+5 Quelques tracés en perspective conique
+5.1 Carrelages plans
+5.2 Pavages carrés - points de distance d'une droite du plan
+5.3 Perspective à trois points de fuite et point de fuite principal
+5.4 Perspective à trois points de fuite et homologie
+5.5 La méthode du géométral
+5.6 La méthode de Monge
+5.7 Limitation du champ
+6 Éléments projectifs - Le birapport
+6.1 Transformation des longueurs
+6.2 Transformation des angles
+7 Notes et références
+8 Articles connexes
+Généralités[modifier | modifier le code]
+La Cité idéale, d'abord attribuée à Piero della Francesca.
+Le tableau ci-dessus date de 1476, son auteur n'est pas certain, on hésite entre Luciano Laurana, Piero della Francesca et Alberti. Piero della Francesca est l'un des tout premiers artistes à avoir représenté des tableaux construits selon les règles de la perspective linéaire, au point qu'on lui en a longtemps attribué l'invention, d'autant plus qu'il a théorisé sa pratique dans un ouvrage.
+On remarque que les lignes horizontales perpendiculaires au tableau fuient toutes vers un point unique, situé sur la porte du bâtiment central. Les horizontales de direction droite gauche et les verticales sont grossièrement parallèles. L'ensemble constitue donc une perspective correcte (dite à un point de fuite, compte tenu de ce qu'une seule des trois directions principales présente un point de convergence fini).
+Annonciation de Carlo Crivelli (1486).
+Le tableau ci-contre également du XVe siècle Italien, confirme la fascination exercée à cette époque sur les artistes par la découverte de la loi du raccourcissement perspectif. On y utilise le confinement de l'espace par des murs pour rehausser l'impression de profondeur.
+Dans son ensemble, l'œuvre fournit ainsi une agréable illustration de la notion de point de fuite (toutes les lignes parallèles à la direction du regard semblent fuir vers la fenêtre du fond de la cour).
+On pourra noter qu'à la différence du tableau de Piero della Francesca, celui de Crivelli est comme excentré : le point de fuite de la direction frontale est franchement éloigné du centre du tableau, preuve que peu après la découverte de règles les artistes en ont exploité les possibilités.
+Ce type d'effet pictural est rare en photographie, où il ne peut se rendre qu'à l'aide de dispositifs spéciaux peu communs, permettant d'excentrer l'objectif dans la chambre, ou en découpant la photo à l'épreuve. C'est pourquoi notre sensibilité y est moins accoutumée.
+Éléments d'histoire[modifier | modifier le code]
+Tombe de (de) Neb-amon (it) (- 1370 av JC) – Pour mieux figurer certains détails de l'action, le corps humain est "cassé" en plusieurs parties vues sous différents angles, comme si souvent dans l'art égyptien. Par ailleurs, tout est peint à plat sans aucun effet perspectif. La différence de taille entre le chasseur et sa femme assise sur la barque est évidemment utilisée dans un tout autre but que de donner de la profondeur à la représentation : elle reflète une hiérarchie d'importance dans le rôle joué dans la scène évoquée (chasse du défunt).
+Altamira (env. 15 000 av JC) – Le manque de perspective de la représentation n'empêche de communiquer ni la vie ni le mouvement...
+La représentation perspective n'a pas toujours été la règle et n'a pas empêché la création d'œuvres magnifiques ou au moins respectables au fil des siècles.
+Theo van Doesburg - Un témoin parmi tant d'autres de l'abandon de la quête perspective dans l'art du XXe siècle.
+Salle des masques de la maison d'Auguste au Palatin. L'artiste a bien saisi la nécessité de dessiner des lignes obliques pour communiquer de la profondeur au portique. Cependant, les obliques du sol et celles du plafond ne sont pas coordonnées de manière adéquate.
+Le château de Mehun dans Les Très Riches Heures du duc de Berry, musée Condé, Chantilly, ms.65, f.161v, vers 1410-1416 - Le caractère convergeant des lignes du château lui communique une grande profondeur, mais le manque de cohérence dans la manière dont cette convergence est arrangée sur les divers murs donne à l'ensemble une allure bancale, non sans charme d'ailleurs.[réf. nécessaire]
+On qualifie de raccourcissement perspectif le fait que les lignes qui sont parallèles dans la réalité paraissent converger au loin vers des points.
+Ce fait a été plus ou moins reconnu depuis longtemps et on le voit clairement pris en compte sur certaines fresques romaines.
+Cette tradition de raccourcissement sera utilisée très longtemps "au senti", c'est-à-dire sans méthode systématique, comme on peut le voir également sur l'exemple ci-contre tiré de l'illustration des très riches heures du duc de Berry (début XVe siècle).
+Van Eyck Les Époux Arnolfini (1434) - Si on prolonge par la pensée les côtés de la fenêtre, ils déterminent un point de fuite. Cependant, si on prolonge également les lignes définissant les lamelles du parquet, on trouve certes un point de fuite, mais il est différent du premier. La fuyante du baldaquin fuit encore ailleurs, etc... Ce célébrissime tableau, quoique communiquant au spectateur l'impression d'un grande profondeur, se trouve ainsi être une hérésie pour ce qui est de la rigueur de sa perspective.
+Si la notion vague de raccourcissement perspectif est sentie depuis longtemps, il en va différemment des règles gouvernant l'arrangement et l'unicité de ces points lointains, et le magnifique tableau de Van Eyck ci-contre représentant les époux Arnolfini, d'ailleurs souvent cité pour cette particularité, permettra de s'en convaincre (voir note explicative).
+On s’accorde généralement de ce que l'invention de règles correctes gouvernant l'élaboration de la perspective est due aux artistes peintres, sculpteurs, et architectes italiens du XVe siècle, et d'ailleurs plus particulièrement aux Florentins.
+On dit que c’est l’architecte Leon d'Alberti le premier à en avoir exposé correctement certains principes. L’original de son écrit fondateur, un traité intitulé « della pittura », semble perdu, et nous ne possédons de l’ouvrage qu’une édition imprimée du début du XVIe. Le manuscrit d’origine daterait de la première moitié du XVe siècle (1435).
+La réflexion de d’Alberti serait partie d’une attraction spectaculaire que Brunelleschi avait organisée à Florence[1]en 1415. Ce dernier avait en effet réalisé un tableau si précis du baptistère, qu’il avait pu inviter les badauds à venir le regarder et le comparer à la réalité. Son tableau était équipé d’un dispositif oculaire obligeant le passant à positionner son œil de manière à observer le même paysage sur la peinture et dans la réalité. Cette attraction aurait eu un impact considérable sur les Florentins du XVe siècle, d’autant que Brunelleschi se vantait d’avoir utilisé une méthode à lui pour dessiner son tableau : la célèbre Costruzione legittima.
+D’Alberti en aurait été témoin et en serait demeuré fort impressionné.
+Pour ce qui est de sa pratique en peinture et dessin, la perspective conique fut tenue d'application quasi-obligatoire par les peintres, jusqu'à la vulgarisation de la photographie (seconde moitié du XIXe siècle). Elle constitue de nos jours encore un élément indispensable de la formation aux arts graphiques, même si la toute-puissance de ses règles est depuis longtemps déchue.
+Après avoir été l'objet d'études par des artistes illustres tels Piero della Francesca, Albrecht Dürer, ou Léonard de Vinci, la théorie de la perspective fut également analysée par des géomètres célèbres des XVIIe et XVIIIe siècles, notamment Simon Stevin, Girard Desargues, Blaise Pascal, Willem Jacob 's Gravesande, Brook Taylor et Jean-Henri Lambert.
+Jusqu'aux années 1650, les savants ayant traité de la perspective ne sont pas considérés distincts de ceux qui de près ou de loin ont traité d’optique et la valeur de leurs travaux a été fort estimée. Le Révérend Père Nicéron, indique bien dans la préface de son traité la place importante qui était alors dévolue à la perspective en tant que branche de l’optique :
+… la science de la Perspective est la première en dignité, et la plus excellente de toutes, puisqu'elle s'occupe à considérer les effets de la lumière, qui donne la beauté à toutes les choses sensibles et que par ce moyen l'on trace si à propos des lignes sur un plan donné, qu'elles expriment des figures solides qui trompent les yeux, et qui déçoivent quasi le jugement et la raison…
+Le tableau suivant présente un certain nombre d'ouvrages importants dans l'évolution de la théorie de la perspective qui va petit à petit, du XVe au XVIIIe siècle, être reconnue comme relevant de règles purement géométriques ou presque :
+Auteur
+année
+ouvrage
+Leon Battista Alberti
+1435
+01012 de pictura
+Piero della Francesca
+1470
+01012 de prospectiva pingendi
+Albrecht Dürer
+1525
+01012 Underweysung der Messung mit dem Zirckel und Richtscheyt
+Daniele Barbaro
+1559
+01012 La practica della perspettiva
+Jacopo Barozzi da Vignola
+1583
+01012 Le due regole della prospettiva practica con i commentarii del Ignazio Danti
+Guidobaldo del Monte
+1600
+01012 e Marchionibus montis perspectiva libri VI
+Simon Stevin
+1605
+01012 Derde Stuck der Wisconstighe ghedachtnissen. Van de Deursichtighe
+Girard Desargues
+1636
+01012 Exemple de l'une des manières universelles de SGDL touchant la pratique de la perspective
+Jean-François Niceron
+1638
+01012 La perspective curieuse ou magie artificielle des effets merveilleux
+Willem Jacob 's Gravesande
+1711
+01012 Essai de perspective
+Brook Taylor
+1719
+01012 New principles of linear perspective
+Johann Heinrich Lambert
+1759
+01012 La perspective affranchie de l'embarras du plan géométral
+Son étude va voir son objet se modifier au cours du XIXe siècle. À cette époque, en effet, les mathématiciens vont grossièrement se poser la question suivante : "en quoi la conception de l'espace que l'on se fait de sa représentation en perspective diffère-t-elle de celle dérivée de la géométrie d'Euclide?".
+L'étude mathématique de la perspective donnera ainsi naissance à la géométrie projective, et plus généralement aux géométries abstraites, avec les participations de savants comme Poncelet, von Staudt, Möbius, Plücker, Chasles, Klein, Hilbert, etc., formant ainsi une des bases du prodigieux développement de la géométrie au XIXe siècle.
+Perspective et photographie[modifier | modifier le code]
+La notion de perspective linéaire de l'espace est liée d'extrêmement près à la notion même d'espace.
+En optique, on qualifie la différence entre l'image produite par la physique et celle qu'aurait fournie une perspective linéaire d'aberration géométrique. Les systèmes optiques qui sont par trop affectés de ce défaut sont accusés de distordre les images.
+Le réalisme de la représentation perspective de l'espace est ressenti de manière si prégnante par beaucoup, que le fait de ne pas le respecter en photographie est considéré comme un défaut suffisamment important pour que l'on entreprenne parfois de le corriger numériquement par les techniques de traitement d'images.
+Synthèse d'images 3D[modifier | modifier le code]
+Avec l'avènement des ordinateurs, les méthodes de dessin automatique ont vu le jour. L'infographie 3D, parfois appelé "3D" pour abréger, met en œuvre de manière automatique les méthodes de la perspective conique.
+Projection centrale[modifier | modifier le code]
+Le fondement de la perspective conique repose sur le principe de la projection centrale sur un plan qu'on appelle plan du tableau. (voir schéma ci-contre). Une perspective est une projection.
+On y suppose que les points de l'espace sont représentés de la manière suivante : l'image a de la représentation du point A est l'intersection avec le plan du tableau, de la droite joignant le point de vue au point A.
+Albrecht Dürer : Underweysung der Messung, 1525
+Autrement dit, dans la mesure où la lumière se propage en ligne droite, à l'inversion près des figures, une projection centrale est exactement ce qui serait réalisé sur un écran plat disposé dans une chambre noire équipée d'un diaphragme ponctuel. On sait qu'un tel dispositif ne marche pas, car les phénomènes de diffraction et de dispersion interviennent. Néanmoins, cette disposition est assez bien approchée par l'œil dont la pupille n'a que quelques millimètres de diamètre, et dont l'analyse d'image semble se faire principalement sur la fovée.
+On peut montrer assez facilement que dans la projection centrale, une droite de la réalité se projette en une droite sur le dessin, dès lors qu'elle n'est pas vue de bout.
+Cet état de fait a été reconnu très tôt comme constituant la base véritable de la représentation en perspective (voir le célèbre dessin de Dürer ci-contre où des fils sont tirés entre la mandoline réelle et l'œil du peintre). La construction d'une perspective selon les méthodes strictes de la projection centrale au travers d'une fenêtre de vision a constitué ce que d'Alberti a qualifié de costruzione legittima (construction légitime), pour la distinguer des méthodes faisant appel aux points de fuite qu'il avait introduites, et qu'il nommait costruzione abbreviata.
+Illustration par Albrecht Dürer de la méthode de la costruzione legittima. L'artiste imagine dans l'espace une fenêtre dont il tente de reproduire l'alignement des points avec son œil. Des outils spécifiques peuvent l'assister dans cette quête.
+D'un point de vue mathématique, l'opération que l'on fait subir à l'espace lors d'une projection centrale est une réduction de sa dimension. La projection centrale conçue comme correspondance entre des points de l'espace et des points du plan est une application projective. Elle conserve l'alignement et le birapport mais pas le parallélisme ni les milieux.
+Albrecht Dürer perspectographe
+Raccourcissement perspectif[modifier | modifier le code]
+La route semble rétrécir jusqu'à l'horizon où elle ne forme plus qu'un point.
+Dans la conscience que nous avons du monde environnant, les objets lointains paraissent plus petits que les objets proches toutes choses égales d'ailleurs : plus un objet est lointain, plus il paraît petit. (voir la largeur de la route sur la photo ci-contre).
+Points de fuite[modifier | modifier le code]
+Article détaillé : point de fuite.
+En idéalisant la situation, on en vient à dire que lorsqu'un objet est situé à l'infini, il est assimilable à un point, que l'on appelle point de fuite[2]. L'expérience précédente de la route peut alors être décrite en disant que sur leur représentation en perspective, deux droites parallèles se rejoignent en un point de fuite sur la perspective.
+On peut ainsi dégager une conception particulière de l'espace géométrique et l'assimiler à un espace constitué de deux sortes de points, les points ordinaires, et les points de fuite (appelés points à l'infini par les mathématiciens). C'est ce qu'on appelle la conception projective de l'espace.
+Des droites parallèles convergent vers un seul et unique point de fuite, qui est ainsi caractéristique d'une direction de l'espace. (Voir la différence déjà soulignée entre le tableau de la cité idéale et celui des époux Arnolfini, où justement les droites parallèles ne convergeaient pas en un point unique). Du fait qu'elles semblent "fuir" vers leur point de fuite, on appelle parfois fuyantes les droites représentées sur le tableau.
+On appelle point de fuite principal de la perspective le point de fuite déterminé par la direction perpendiculaire au plan du tableau.
+Lignes de fuite[modifier | modifier le code]
+Article détaillé : ligne de fuite.
+Ligne de fuite(LF) - Point de fuite principal de la perspective FP - distance de la perspective D
+Construction de la ligne d'horizon d'une perspective par De Hondt (1573 - 1650). On y voit clairement l'alignement des points de fuite de diverses directions horizontales sur la ligne de fuite.
+Lorsqu'on représente un plan en perspective, les directions de ce plan sont représentées par une infinité de points de fuite, qui forment sur la perspective une ligne droite appelée ligne de fuite du plan.
+Un exemple de ligne de fuite est donné par la ligne d'horizon. (certains appellent d'ailleurs les lignes de fuite lignes d'horizon)
+Deux plans parallèles ont même ligne de fuite.
+La ligne de fuite d'un plan est donc l'intersection du tableau avec le plan parallèle passant par le point de vue (ce plan se projette selon une droite qui est donc sa ligne de fuite).
+Sur la figure de droite, la ligne de fuite d'un plan (LF) a été représentée par l'intersection avec le tableau d'un plan parallèle à ce plan passant par le point de vue.
+On appelle angle de fuite du plan l'angle complémentaire de celui formé entre la normale au plan et la normale au plan du tableau (c'est l'angle θ de la figure - Lorsque l'angle de fuite est nul, le plan ne fuit pas l'observateur. On dit qu'il est frontal).
+On appelle point de fuite principal du plan le point F intersection de la perpendiculaire à (LF) passant par le point de fuite principal de la perspective FP.
+Un point de fuite quelconque M du plan peut être repéré par sa distance FM au point de fuite principal du plan. On appelle angle de fuite du point M l'angle η.
+On appelle distance de la perspective la longueur D = O FP. La distance fournit une sorte d'échelle de mesure des angles sur la ligne de fuite.
+Distance de la ligne de fuite d'un plan - Points de distance[modifier | modifier le code]
+Point de distance : La longueur FF' est égale à la distance D' du peintre à la ligne de fuite, du fait que le triangle OFF' est rectangle isocèle.
+Lorsque l'angle de fuite du point situé sur une ligne de fuite vaut 45°, la longueur F F' est égale à la distance de l'observateur à la ligne de fuite OF, ainsi qu'il ressort de l'examen de la figure ci-contre en prenant en compte le fait que le triangle OFF' est rectangle isocèle.
+La longueur FF' est appelée distance du plan. F' est le point de distance de la ligne de fuite.
+Lorsque l'angle de fuite est maximal, c'est-à-dire lorsque le regard est parallèle au plan à représenter, cette distance est minimale et d'ailleurs égale à la distance du peintre au sujet du tableau.
+Un tel plan est qualifié de plan principal de la perspective ou encore de plan géométral. Le point de fuite principal d'un géométral est le point de fuite principal de la perspective. Ses points de distance sont les points de distance de la perspective, et sont éloignés du point de fuite principal d'une longueur égale à celle de la distance du peintre au tableau.
+La méthode de construction d'un plan principal carrelé en utilisant des carreaux dont les diagonales fuient aux deux points de distance est due à Alberti. C'est la fameuse costruzione abbreviata, parfois appelée perspective à deux points de fuite (voir ci-dessous).
+Cette construction permet de déterminer très rapidement le raccourcissement perspectif d'un plan géométral. C'est la plus simple des constructions de base de la perspective conique.
+Lorsque le plan est un plan géométral, les fuyantes représentant les lignes selon la direction perpendiculaire sont elles-mêmes perpendiculaires à la ligne de fuite et parallèles entre elles.
+Orthogonalité - directions perpendiculaires[modifier | modifier le code]
+Revenant à notre schéma général, nous pouvons pour un plan quelconque écrire la relation :
+Il en résulte que pour le point M' situé sur la ligne de fuite dans la direction orthogonale à M, on aura
+et par conséquent:
+On peut y voir une relation de Newton, et on en déduit que les points M et M' caractérisant deux directions orthogonales du plan forment avec les points de distance de ce plan une division harmonique sur la ligne de fuite.
+Dès qu'on connaît la position des points de distance F et F' on peut donc construire la perpendiculaire à une fuyante donnée par de multiples méthodes dont la plus simple est probablement la suivante.
+F' et F étant connus, on trace le cercle de centre F de rayon FF'. Il ne reste qu'à tracer le cercle dont le centre est sur la ligne de fuite, passant par M et l'intersection de la perpendiculaire en F
+Ligne de terre[modifier | modifier le code]
+L'intersection d'un plan avec le plan du tableau définit une droite que l'on appelle ligne de terre.
+La ligne de terre d'un plan est parallèle à sa ligne de fuite. On appelle hauteur de la perspective du plan la distance entre la ligne de terre d'un plan et sa ligne de fuite.
+Lorsque le plan considéré est un plan principal, la ligne de terre du plan est une ligne de terre de la perspective. (Lorsqu'on ne précise pas, la ligne de terre est en général comprise la ligne de terre horizontale de la perspective.)
+La distance entre la ligne de terre et la ligne de fuite d'un plan principal de la perspective est la même quel que soit l'angle fait par le plan avec l'horizontale. On l'appelle hauteur de la perspective.
+Le rapport entre les longueurs mesurées sur une ligne de terre et les longueurs réelles est l'échelle de la perspective.
+La donnée de la ligne de fuite, de son point de distance, et de la ligne de terre d'un plan principal définit entièrement la projection centrale ainsi que l'échelle qu'on a utilisées dans la représentation. Autrement dit, de telles données définissent entièrement la perspective. (Noter que si le plan n'est pas un plan principal, il faut de plus se donner la distance de son point de fuite principal au point de fuite principal de la perspective).
+Récapitulatif[modifier | modifier le code]
+Ce que nous avons dit se retrouve sur le schéma ci-contre d'une situation de vue en perspective :
+Le point FP est le point de fuite principal, dit aussi centre de la perspective.
+Le plan carrelé à représenter étant parallèle à la direction du regard est un plan géométral.
+La ligne de terre LT est l'intersection de ce plan avec le tableau.
+La ligne de fuite est la parallèle à la ligne de terre. De ce que le plan est principal, cette ligne passe par le point de fuite principal.
+La distance D est celle de l'observateur au tableau.
+La hauteur h est la distance entre la ligne de terre et la ligne de fuite.
+Différents types de perspective linéaire[modifier | modifier le code]
+La pratique du dessin d'architecture notamment conduit à une terminologie spécifique pour les représentations présentant trois directions privilégiées orthogonales, tels les alignements d'édifices disposés parallèlement (directions d'un repère orthogonal). On y distingue plusieurs cas[3]:
+la perspective à un point de fuite (lorsque le tableau est parallèle à une des faces du cube de référence),
+la perspective à deux points de fuite (lorsque le tableau est perpendiculaire à une des faces du cube de référence),
+la perspective à trois points de fuite (lorsque le tableau n'est perpendiculaire à aucune face du cube de référence).
+Perspective à un point de fuite.(FRONTAL)GB.
+Perspective à 2 points de fuite - (OBLIQUE)GB. Le point de fuite droit sort des limites du tableau.
+Perspective à 3 points de fuite. (SPATIAL)GB.(vue en plongée).
+Perspective à 3 points de fuite (vue en contre-plongée).
+Ces distinctions sont encore valables dans le cas où on voudrait représenter des objets à arêtes parallèles (empilements de parallélépipèdes), ce qui est très souvent le cas pour les alignements d'immeubles situés le long de rues.
+Pour la représentation d'objets de natures différentes, c'est-à-dire pour des objets présentant de multiples lignes dont aucune n'est véritablement dominante, il n'y a pas lieu de distinguer de ces divers types de perspectives.
+Chaque direction de l'espace détermine un point de fuite, sauf les directions qui sont parallèles au visage du peintre. Pour ces dernières directions, il n'y a pas à proprement parler de point de fuite, mais les droites parallèles de la réalité restent parallèles sur le tableau. On dit aussi que les points de fuite sont rejetés à l'infini du tableau (sur lequel deux droites parallèles se coupent à l'infini).
+Tant qu'on n'a pas besoin d'exactitude géométrique, il suffit de connaître la perspective d'un assez petit nombre de points pour représenter le reste au senti. Comme les constructions à un et deux points de fuite sont les plus faciles à faire, on les utilise au maximum dans la pratique du dessin à la main. Les perspectives générales peuvent représenter un casse-tête assez prenant, en accord avec le fait que la représentation d'objets présentant un grand nombre de lignes est plus difficile à effectuer que celle de simples parallélépipèdes.
+Quelques tracés en perspective conique[modifier | modifier le code]
+Carrelages plans[modifier | modifier le code]
+Pérugin, Christ remettant les clés à saint Pierre , 1481-1482, (Chapelle Sixtine). L'arche du bâtiment central est à peu près au point de fuite princial. Les arches des arcs de triomphe latéraux sont situés environ aux points de distance
+Le tracé de carrelages plans est un thème tout à fait fréquent des perspectives de la renaissance.
+C'est qu'un carrelage plan définit entièrement la projection centrale, donc le point de vue, dès lors que le plan carrelé est un plan géométral: les cercles dont les diamètres définissent respectivement les points de fuite des côtés des carrés et leurs diagonales se coupent sur le cercle dont le rayon est égal à la distance et le centre est situé au point de fuite principal (voir schéma).
+Le cercle de centre F et de rayon FF' définit le point de vue, et peut être construit à partir d'un carrelage rectangle donné arbitraire.
+Pavages carrés - points de distance d'une droite du plan[modifier | modifier le code]
+Construction des points de fuite des diagonales d'un pavage carré
+La construction précédente ne fournit que celle d'un carrelage rectangle dans le cas où la perspective est déjà définie. Lorsque les points de distance du plan sont imposés par ailleurs, on a recours à une autre technique, qui provient du fait que les pavages carrés présentent des diagonales fuyant dans des directions situées à 45° des côtés.
+La construction la plus simple est probablement celle de la figure ci-contre. Pour construire le point de fuite D' des diagonales du pavage carré fuyant aux points X et Y, il suffit de s'aviser de ce que XD'=XO.
+(On obtiendrait un pavage différent mais carré également en utilisant le point D tel que YD=YO au lieu du point D'.)
+Perspective à trois points de fuite et point de fuite principal[modifier | modifier le code]
+Points de fuite et orthocentre
+construction d'un pavage cubique de l'espace
+Sur une perspective conique à trois points de fuite, le point de fuite principal est situé à l'orthocentre du triangle formé par les points de fuite (c'est-à-dire au point de concours des trois hauteurs).
+Le point de fuite de la diagonale d'un cube est situé au centre du cercle inscrit au triangle des points de fuite.
+Perspective à trois points de fuite et homologie[modifier | modifier le code]
+Principe de la construction par homologie. Le plan en vrai grandeur (carrelé en gris) définit une face d'un parallelépipède, alors que le plan géométral de la perspective est situé selon le pavage en rouge. Les lignes diagonales de la troisième face fuient au centre de l'homologie qui permet de définir une correspondance entre les deux plans de couleurs différentes, dont l'un est vu de dessus et l'autre est vu en perpsective
+Comme le montre la figure de droite, deux plans carrelés peuvent toujours être mis en correspondance au moyen d'une projection centrale plane. (Il suffit de s'imaginer ces deux plans représentant deux faces d'un trièdre trirectangle. Une diagonale de la troisième face visible du parallélépipède fuit nécessairement vers un point qui permet de mettre les deux carrelages initiaux en correspondance - voir figure ci-contre.)
+La correspondance ainsi mise en évidence porte le nom d'homologie. Elle permet notamment de tracer des perspectives d'objets cylindriques dont on connait la section, et a été largement utilisée en architecture par le passé sous le nom de méthode du géométral.
+La méthode du géométral[modifier | modifier le code]
+Illustration de la méthode dite du géométral
+La construction présentée ici a été très utilisée par les architectes avant l'avènement des machines de dessin automatique. Elle est basée sur l'idée qu'il existe une relation d'homologie entre le plan d'un bâtiment (vue de dessus), et la vue en perspective de ce plan.
+Sur le schéma ci-contre, on suppose connus les points a, b, c, et d, définissant un rectangle vu en plan. Pour représenter ce même rectangle vu en perspective, il suffit de s'imaginer les points de la vue de dessus représentés par l'intersection de deux lignes imaginaires, l'une fuyant à 90° , l'autre à 45°.
+Dans la perspective la première série de ces lignes fuira vers le point de fuite principal, et la seconde vers le point de distance.
+Les droites issues des points de la vue de dessus de l'objet à représenter coupent donc la ligne de terre (LT) en des points qu'il suffit de joindre aux points de fuite pour obtenir la perspective de ces lignes.
+L'intersection des deux lignes ainsi obtenues dans la vue en perspective du plan permettra, elle, de dessiner les points a', b', c', et d' de la vue en perspective du rectangle.
+Sous l'hypothèse que la vue de dessus utilisée, représente un plan géométral, les distances vues en perspective selon la direction perpendiculaire sont vues en vraie grandeur et ne requièrent dont pas de correction perspective. (Cette hypothèse complémentaire est à l'origine du nom de la méthode.)
+Pour la réalisation de vues plongeantes ou de contre-plongées, la méthode du géométral nécessite quelques aménagements, d'ailleurs assez simples.
+La méthode de Monge[modifier | modifier le code]
+Représentation perspective d'un tétraèdre suivant la méthode de Monge. Les vues en plan et en élévation sont disposées sur la gauche/ La perspective apparaît dans l'encart situé en haut à droite.
+Comme pour la perspective cylindrique, Monge, avec sa géniale idée de géométrie descriptive, a donné une méthode originale de construction des perspectives coniques, méthode qui s'apparente à la costruzzione legittima.
+Cette méthode est d'une application effroyablement lourde comme on s'en convaincra en observant la complexité de la représentation d'un simple tétraèdre.
+Néanmoins, c'est l'une des rares méthodes de construction ne présentant pas de recours aux points de fuite, ce qui n'est pas sans quelque mérite, tout de même.
+Limitation du champ[modifier | modifier le code]
+La représentation de la réalité en utilisant les règles de la perspective conique présente une limitation tout à fait nette ; celle du champ d'observation.
+Lorsque la réalité représentée en perspective conique dépasse un certain angle, les objets situés en périphérie de l'image paraissent très déformés. La pratique académique suggère de ne pas dépasser la soixantaine de degrés pour le champ dessiné sur le tableau.
+Même avec cette valeur, la déformation présentée par une représentation en perspective conique est significative. (On peut en première analyse attribuer cet effet à l'angle du champ de vision de l'œil humain, et au caractère sphérique de notre rétine. Néanmoins la réalité est vraisemblablement plus subtile, car le champ de vision de l'œil est un concept qui ne s'éclaircit pas entièrement dans ce sens lorsqu'on tente de l'approfondir : on se voit obligé de distinguer de plusieurs visions de natures différentes selon le champ d'observation.)
+Éléments projectifs - Le birapport[modifier | modifier le code]
+Rapport anharmonique
+Transformation des longueurs[modifier | modifier le code]
+Ainsi qu'il a déjà été signalé, la perspective linéaire conserve les alignements de points. Autrement dit, des points alignés dans la réalité le restent sur la perspective. Cependant, elle ne conserve ni les distances ni les rapports de distance. Autrement dit, si deux distances sont égales en réalité, elles ne le sont que rarement sur la perspective. Même les rapports de longueur de segments de points alignés ne sont pas conservés sur une perspective linéaire, alors qu'ils le sont par une perspective axonométrique. Cependant, lorsqu’on projette centralement quatre points alignés sur un plan, le rapport anharmonique se conserve. Cette grandeur est aussi appelée birapport. Autrement dit,
+reste égal à
+Transformation des angles[modifier | modifier le code]
+La perspective ne conserve pas davantage les angles que les longueurs. Cependant, elle conserve le rapport anharmonique des sinus des angles défini par :
+La perspective linéaire n'est pas la transformation la plus générale qui conserve ces quantités. En effet la transformation par homologie, déjà évoquée est plus générale. L'homologie est la plus générale des transformations géométriques qui transforme toute droite en une droite et qui conserve un plan de l'espace entier.
+On peut facilement s'imaginer des transformations qui généralisent encore l'homologie. On les appelle transformations projectives ou encore homographies. Ces transformations sont des "perspectives de perspectives", autrement dit des vues en perspective conique de dessins représentant une réalité vue en perspective conique. (La généralisation s'arrête là, car on comprendra qu'une "perspective de perspective de perspective" est identique à une simple homographie, à condition de choisir la seconde perspective de manière adéquate.)
+Leur étude constitue l'objet principal de la géométrie projective. À la différence des notions géométriques élémentaires présentées ici, la géométrie projective se construit dans des espaces de dimensions supérieures à 3. Elle nécessite d'admettre la notion d'existence de points à l'infini, mais peut par contre être considérée comme plus générale que la géométrie d'Euclide, puisque l'on requiert moins d'axiomes pour la fonder.
+Notes et références[modifier | modifier le code]
+↑ (pt)(fr) « La perspective conique », sur www.profcardy.com (consulté le 3 octobre 2010)
+↑ Les mathématiciens ont dérivé de cette notion celle de point à l'infini et en ont tiré plusieurs notions fondamentales des mathématiques modernes (géométrie projective, compactification etc...)
+↑ Mathématiquement, la perspective "à un point de fuite" présente deux points de fuite à l'infini, et celle "à deux points de fuite" a un point de fuite à l'infini.
+Articles connexes[modifier | modifier le code]
+Perspective (représentation)
+Perspective axonométrique
+Perspective cavalière
+Perspective curviligne
+Perspective isométrique
+Perspective (perception visuelle)
+Projection orthogonale
+Point de fuite
+Ligne de fuite
+Infographie 3D
+Portail de la géométrie
+Portail de la peinture
+Portail de l’architecture et de l’urbanisme
+Portail de la médecine
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Perspective_conique&oldid=109706220 ».
+Catégories : Technique picturaleGéométrie projectivePerspectivePhysiologie de la visionCatégories cachées : Article manquant de référence depuis octobre 2011Article manquant de référence/Liste complèteArticle contenant un appel à traduction en allemandArticle contenant un appel à traduction en italienArticle à référence nécessairePortail:Géométrie/Articles liésProjet:Mathématiques/ArticlesPortail:Sciences/Articles liésPortail:Peinture/Articles liésPortail:Arts/Articles liésPortail:Architecture et urbanisme/Articles liésPortail:Médecine/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Català
+Deutsch
+English
+Español
+Modifier les liens
+Dernière modification de cette page le 5 décembre 2014 à 20:41.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobile

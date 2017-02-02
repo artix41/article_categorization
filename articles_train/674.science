@@ -1,0 +1,194 @@
+Alignement de séquences — Wikipédia
+Alignement de séquences
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Alignement.
+En bio-informatique, l'alignement de séquences (ou alignement séquentiel) est une manière de représenter deux ou plusieurs séquences de macromolécules biologiques (ADN, ARN ou protéines) les unes sous les autres, de manière à en faire ressortir les régions homologues ou similaires. L'objectif de l'alignement est de disposer les composants (nucléotides ou acides aminés) pour identifier les zones de concordance. Ces alignements sont réalisés par des programmes informatiques dont l'objectif est de maximiser le nombre de coïncidences entre nucléotides ou acides aminés dans les différentes séquences. Ceci nécessite en général l'introduction de "trous" à certaines positions dans les séquences, de manière à aligner les caractères communs sur des colonnes successives. Ces trous correspondent à des insertions ou des délétions (appelés indel) de nucléotides ou d'acides aminés dans les séquences biologiques. Le résultat final est traditionnellement représenté comme des lignes d'une matrice.
+Alignement de séquences de récepteurs nucléaires. Les acides aminés conservés sont surlignés en bleu et en vert. Par endroits, on a inséré des trous, symbolisés par des tirets "-", pour permettre un alignement optimal
+L'interprétation des alignements des séquences biologiques repose sur la théorie darwinienne de l'évolution. En général les séquences alignées correspondant à des molécules remplissant des fonctions similaires, il peut s'agir par exemple de la même enzyme chez différentes espèces, dont on suppose qu'elles dérivent d'un même ancêtre commun. Les divergences entre les séquences sont interprétées comme résultant de mutations. Les régions contenant des nucléotides ou des acides aminés conservés sont supposées correspondre à des zones où s'exerce une pression de sélection pour maintenir la fonction de la macromolécule.
+L'alignement à plusieurs utilisations importantes en bioinformatique car il permet un certain nombre de prédictions. Il permet notamment d'identifier des sites fonctionnels (site catalytique, zone d'interaction...) qui correspondent en général aux régions les plus conservées, car ce sont elles sur lesquelles la pression de sélection est la plus grande. On peut aussi utiliser l'alignement de séquence pour prédire la ou les fonctions d'une protéine, si on détecte une homologie avec une protéine de fonction connue. Si la structure secondaire ou tertiaire de cette protéine de fonction homologue est connue, l'alignement peut être utilisé pour prédire la structure d'une protéine. Enfin, en cas d'alignements multiples au sein d'une famille de protéines, ceux-ci peuvent permettre d'établir une phylogénie entre elles.
+Sommaire
+1 Utilisation
+2 Représentations
+3 Score et matrices de similarité
+4 Alignements locaux et globaux
+5 Alignement par paire
+5.1 Méthode par matrices de pixels
+5.2 Programmation dynamique
+5.3 Méthodes par mots
+6 Alignement séquentiel multiple
+6.1 Programmation dynamique
+6.2 Méthodes progressives
+6.3 Méthodes itératives
+6.4 Trouver le motif
+6.5 Techniques issues de l'informatique
+7 Alignement structurel
+7.1 DALI
+7.2 SSAP
+7.3 Extension combinatoire
+8 Analyse phylogénétique
+9 Méthodes et algorithmes
+10 FPGA Version accélérée
+11 Voir aussi
+Utilisation[modifier | modifier le code]
+Dans la compréhension du fonctionnement de la vie, les protéines jouent un rôle essentiel. On part donc de l'hypothèse que des protéines comportant des séquences similaires risquent fort de posséder des propriétés physico-chimiques identiques. À partir de l'identification de similarités entre la séquence d'une première protéine dont on connaît le mécanisme d'action et celle d'une deuxième protéine dont on ne connaît pas le mécanisme de fonctionnement, on peut inférer des similarités structurelles ou fonctionnelles sur la séquence non connue et proposer de vérifier de manière expérimentale le comportement d'action supposé.
+Représentations[modifier | modifier le code]
+Les alignements sont habituellement représentés soit graphiquement soit en format texte. Dans la plupart des représentations des alignements séquentiels, les séquences sont écrites en lignes, disposées pour que les composantes communes apparaissent dans des colonnes successives. En format texte, les colonnes alignés contiennent des caractères identiques ou similaires, indiqués par un système cohérent de symboles. Un astérisque est utilisé pour montrer l'identité entre colonnes. Beaucoup de programmes utilisent de la couleur pour différencier l'information. Pour les ADN ou ARN, l'utilisation de couleur permet de différencier les nucléotides. Pour les alignements de protéines, elle permet d'indiquer les propriétés des acides aminés, ce qui aide à conclure sur la conservation du rôle d'un acide aminé substitué.
+Lorsque plusieurs séquences sont mises en jeu, une dernière ligne est ajoutée pour conclure un consensus.
+On distingue deux types d'alignements qui diffèrent suivant leur complexité
+l'alignement par paires qui consiste à aligner deux séquences peut être réalisé grâce à un algorithme de complexité polynomiale. Il est possible de réaliser un alignement :
+global, c'est-à-dire entre les deux séquences sur toute leur longueur (exemple : algorithme de Needleman-Wunsch)
+local, entre une séquence et une partie de l'autre séquence (exemple : algorithme de Smith-Waterman)
+l'alignement multiple, qui est un alignement global, consiste à aligner plus de deux séquences et nécessite un temps de calcul et un espace de stockage exponentiels en fonction de la taille des données.
+Un alignement de séquence réalisé par ClustalW entre deux protéines humaines.
+Les alignements séquentiels peuvent être fournis dans une large variété de formats de fichiers, dépendant par exemple du programme spécifique utilisé : FASTA format, GenBank... Toutefois, dans les laboratoires de recherche, l'utilisation spécifique d'outils techniques peut réduire le choix de format.
+Score et matrices de similarité[modifier | modifier le code]
+La plupart des méthodes d'alignement de séquences biologiques, et en particulier les méthodes d'alignement de séquence de protéines cherchent à optimiser un score d'alignement. Ce score est relié au taux de similarité entre les deux séquences comparées. Il tient compte d'une part du nombre d'acide aminés identiques entre les deux séquences et d'autre part du nombre d'acides aminés similaires sur le plan physico-chimique. Lorsque dans les deux séquences, on trouve ainsi alignés deux acides aminés très proches, comme Lysine (K) et Arginine (R), on parle de remplacement conservatif (les chaînes latérales de ces deux acides aminés portent toutes les deux une charge positive).
+Ceci a nécessité la définition formelle d'un score d'identité ou de similarité entre deux acides aminés donnés. Ceci a donné naissance à des matrices de similarité, M, qui recensent l'ensemble des scores M(a,b) obtenus lorsqu'on substitue l'acide aminé a par l'acide b. Il existe plusieurs de ces matrices 20 x 20 (pour les 20 acides aminés), avec des modes de construction différents. On peut citer les plus classiques :
+Les matrices de Dayhoff, appelées PAM (probability of acceptable mutations), basées sur des distances évolutives entre espèces
+Les matrices de Henikoff, appelées BLOSUM, basées sur le contenu en information des substitutions
+Dans chaque famille, il existe plusieurs séries de matrices, de stringence variable, et donc plus ou moins tolérantes aux substitutions d'acides aminés.
+Ces matrices sont en général complétées par des fonctions de score pour quantifier l'introduction des indels dans les alignements
+Alignements locaux et globaux[modifier | modifier le code]
+l'alignement global tente d'aligner les séquences sur toute leur longueur, tandis que l'alignement local se focalise sur les zones de forte homologie
+Les méthodes d'alignement peuvent soit essayer d'aligner les séquences sur la totalité de leur longueur, on parle alors d'alignement global, soit se restreindre à des régions limitées dans lesquelles la similarité est forte, à l'exclusion du reste des séquences, on parle alors d'alignement local.
+Les alignements globaux sont plus souvent utilisés quand les séquences mises en jeu sont similaires et de tailles comparables. Une technique générale, appelée algorithme de Needleman-Wunsch et basée sur la programmation dynamique permet de réaliser des alignements globaux de manière optimale.
+Exemple d'homologie locale entre protéines. Le domaine rouge brique est conservé entre ces deux protéines, mais le reste de la structure est différent
+Lorsqu'il s'agit de séquences protéiques, il arrive cependant fréquemment que la région homologue soit limitée à une partie des séquences. C'est le cas lorsque deux protéines partagent un domaine homologue, associé à une fonction commune, mais que le reste de leurs séquences sont dissemblables (voir l'exemple sur la figure à droite). On utilise alors une méthode d'alignement local, comme l'algorithme de Smith-Waterman basé aussi sur la programmation dynamique, ou le programme BLAST, une méthode heuristique rapide permettant d'effectuer des recherches dans les bases de données. Les méthodes locales utilisent une méthode de calcul du score adaptée qui évite de pénaliser les régions non-homologues et ne calculent le score que sur la région conservée
+Avec des séquences très voisines, les résultats obtenus par les méthodes d'alignement local ou global sont très proches. Pour cette raison, les méthodes d'alignement local, plus flexibles, sont plus souvent utilisées aujourd'hui. Elles permettent à la fois d'aligner des séquences localement ou globalement similaires.
+Des méthodes hybrides, des méthodes semi-locales, s'avèrent utiles quand il s'agit de favoriser la mise en évidence de structures ou de zones fonctionnelles, habituellement masquées par la recherche du meilleur alignement (en termes de score).
+Exemple :
+Score favorisé :
+AGCTGCTATGATACCGACGAT
+A--T-C-AT-A----------
+Alignement semi-local : AGCTGCTATGATACCGACGAT
+-------ATCATA--------
+Malgré le "mismatch" pénalisant le score entre G et C, cet alignement montre une région conservée pouvant traduire une similarité de structure ou de fonction (malgré une petite mutation évolutive).
+Alignement par paire[modifier | modifier le code]
+Les méthodes d'alignement par paires sont utilisées pour trouver comparer des séquences deux à deux. Elles sont utilisées pour rechercher une homologie entre une séquence test et une séquence de référence, souvent extraite d'une base de donnée. Elles sont les plus simples à mettre en œuvre, et ce sont les seules pour lesquelles il existe des solutions algorithmiques optimales, basées sur la programmation dynamique. Il existe également des méthodes heuristiques rapides, qui permettent d'effectuer des recherches systématiques dans les banques de séquence. Dans ce cas, on compare une séquence inconnue à toutes les séquences de la base, en les testant successivement une par une.
+Méthode par matrices de pixels[modifier | modifier le code]
+Dot-plot de la séquence d'un facteur de transcription humain contenant des doigts de zinc (GenBank ID NM_002383). La diagonale principale montre l'alignement de la séquence avec elle-même ; les diagonales secondaires montrent des répétitions internes du motif des doigts de zincs.
+Les méthodes par matrices de pixels ou dot-plot, sont des méthodes graphiques de représentation des homologies entre deux séquences, mais ne sont pas à proprement parler des méthodes d'alignement. Les ressemblances ou homologies entre deux séquences données de longueur l et m sont représentées sous forme d'une matrice de pixels l x m. Chaque pixel de coordonnées (i,, j)de la matrice est allumé ou éteint (noir ou blanc), en fonction d'une identité ou d'une homologie entre la position i de la première séquence et de la position j de la seconde séquence. Des techniques de filtrage ou de seuil sont souvent appliquées pour limiter le bruit de fond.
+Dans cette représentation, les zones d'homologie de séquence apparaissent comme des segments diagonaux sur la matrice de pixels.
+Programmation dynamique[modifier | modifier le code]
+La programmation dynamique est une technique algorithmique pour optimiser des sommes de fonctions monotones croissantes sous contrainte.
+Elle a été désignée par ce terme pour la première fois dans les années 1940 par Richard Bellman. Elle s'applique à des problèmes d'optimisation dont la fonction objectif se décrit comme « la somme de fonctions monotones croissantes des ressources ».
+Elle a d'emblée connu un grand succès, car la plupart des fonctions économiques de l'industrie étaient de ce type : maximisation du tonnage de charbon (ou de barils de pétrole) produit à partir de plusieurs puits à budget donné, par exemple.
+Méthodes par mots[modifier | modifier le code]
+Cette section est vide, insuffisamment détaillée ou incomplète. Votre aide est la bienvenue !
+Alignement séquentiel multiple[modifier | modifier le code]
+Programmation dynamique[modifier | modifier le code]
+Méthodes progressives[modifier | modifier le code]
+Méthodes itératives[modifier | modifier le code]
+Trouver le motif[modifier | modifier le code]
+Techniques issues de l'informatique[modifier | modifier le code]
+Alignement structurel[modifier | modifier le code]
+DALI[modifier | modifier le code]
+SSAP[modifier | modifier le code]
+Extension combinatoire[modifier | modifier le code]
+Analyse phylogénétique[modifier | modifier le code]
+Méthodes et algorithmes[modifier | modifier le code]
+Les alignements par paires peuvent être réalisés de manière totalement rationnelle, en utilisant les algorithmes de programmation dynamique. La méthode la plus utilisée est connue comme l'algorithme de Needleman-Wunsch (J Mol Biol. 1970 Mar;48(3):443-5) qui réalise le meilleur alignement global entre deux séquences. Pour obtenir un alignement local optimal, la méthode a été développée par Smith et Waterman (J Mol Evol. 1981;18(1):38-46). Des implémentations de ces algorithmes se retrouvent notamment dans la suite logicielle OpenSource EMBOSS, respectivement sous les noms "needle" et "water".
+FPGA Version accélérée[modifier | modifier le code]
+D'autres travaux récents réalisés par Progeniq démontrent l'accélération de l'algorithme de Smith-Waterman en utilisant une plate-forme de calcul reconfigurable basée sur des morceaux de FPGA. Le FPGA a basé la version des speedups des expositions FPGA d'algorithme jusqu'à 100x au-dessus d'un processeur de 2.2 gigahertz Opteron. White Paper
+Voir aussi[modifier | modifier le code]
+Phylo, jeu vidéo conçu pour faire calculer des alignements multiples par crowdsourcing.
+v · d · m
+Algorithmique du texte
+Recherche de sous-chaîne
+Algorithme de Knuth-Morris-Pratt • Algorithme de Boyer-Moore • Algorithme de Boyer-Moore-Horspool • Algorithme de Raita • Algorithme de Baeza-Yates-Gonnet • Algorithme Z • Algorithme de Rabin-Karp • Algorithme d'Aho-Corasick
+Alignement de chaînes
+Algorithme de Needleman-Wunsch • Algorithme de Smith-Waterman • Transformée de Burrows-Wheeler
+Mesure de similarité (en)
+Distance de Jaro-Winkler • Distance de Levenshtein • Distance de Hamming
+Arbre des suffixes
+Algorithmes de Weiner et de McCreight • Algorithme d'Ukkonen (en) • Tableau des suffixes
+v · d · m
+Bio-informatique
+Bases de données
+Banques de séquences : GenBank, EMBL Nucleotide Sequence Database et DNA Data Bank of Japan (DDBJ)
+Bases de données secondaires : UniProt, base de donnée de séquences protéiques regroupant Swiss-Prot, TrEMBL et Protein Information Resource (PIR)
+Quelques autres bases de données : Protein Data Bank · Ensembl · InterPro
+Bases de données génomiques spécialisées : Saccharomyces Genome Database, FlyBase, WormBase, The Arabidopsis Information Resource, Zebrafish Information Network
+Divers
+Algorithme : BLAST · FASTA · Smith-Waterman · Serveur : ExPASy
+Institutions
+Institut européen de bio-informatique (EBI) · Centre américain pour les informations biotechnologiques (NCBI) · Institut suisse de bioinformatique · Institut japonais de génétique
+Séquençage · Alignement de séquences · Phylogénie moléculaire
+Portail de la biologie cellulaire et moléculaire
+Portail de l’informatique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Alignement_de_séquences&oldid=108501512 ».
+Catégories : GénétiqueBiomathématiquesBio-informatiqueCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Biologie cellulaire et moléculaire/Articles liésPortail:Biologie/Articles liésPortail:Informatique/Articles liésArticle de qualité en espagnol
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+Čeština
+Deutsch
+Ελληνικά
+English
+Español
+فارسی
+Galego
+עברית
+Italiano
+日本語
+한국어
+Nederlands
+Norsk bokmål
+Polski
+Português
+Русский
+Srpskohrvatski / српскохрватски
+Српски / srpski
+Svenska
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 25 octobre 2014 à 07:56.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

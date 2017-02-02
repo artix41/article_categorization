@@ -1,0 +1,82 @@
+Topologie différentielle — Wikipédia
+Topologie différentielle
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant l'analyse.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+La topologie différentielle est une branche des mathématiques qui étudie les fonctions différentiables définies sur des variétés différentielles, ainsi que les applications différentiables entre variétés différentielles. Elle est reliée à la géométrie différentielle, discipline avec laquelle elle se conjugue pour construire une théorie géométrique des variétés différentiables.
+Description[modifier | modifier le code]
+La topologie différentielle s'intéresse aux propriétés et aux structures qui requièrent une structure différentiable sur une variété. Les variétés différentiables sont plus « lisses » que les variétés simplement munies de structures géométriques, ces dernières pouvant agir en tant qu'obstructions à certains types d'équivalence ou de déformation qui existent en topologie différentielle. Par exemple, le volume et la courbure riemannienne sont des invariants qui permettent de distinguer des structures géométriques distinctes sur une même variété différentielle. Autrement dit, ces invariants peuvent, de manière lisse, « aplatir » certaines variétés, mais cela peut se faire au prix d'une distorsion de l'espace et le volume ou la courbure peuvent être affectés.
+Réciproquement, les variétés différentielles sont souvent plus rigides que les variétés topologiques. Certaines variétés topologiques ne possèdent aucune structure différentiable (voir, sur ce sujet, le théorème de Donaldson), tandis que d'autres variétés topologiques peuvent recevoir plusieurs structures différentiables distinctes (i.e. non difféomorphes : c'est le cas des sphères dites exotiques : ce phénomène ne se produit pas en basse dimension, et commence à s'observer sur les sphères à partir de , la sphère unité de l'espace linéaire à 8 dimensions). Certaines constructions en théorie des structures différentiables, par exemple l'existence des fibrés tangents, peuvent être réalisées dans le cadre purement topologique avec quelque effort, pour d'autres c'est impossible.
+L'un des principaux sujets de la topologie différentielle est l'étude de certains types d'applications lisses entre variétés, par exemple les immersions, les plongements et les submersions. Un outil important dans l'étude de l'intersection des sous-variétés est la notion de transversalité. La théorie de Morse est une autre branche de la topologie différentielle, dans laquelle l'information topologique sur une variété est déduite des changements observés sur le rang du jacobien d'une fonction.
+Intrinsèque ou extrinsèque[modifier | modifier le code]
+Au commencement et jusqu'au milieu du XIXe siècle, la géométrie différentielle était étudiée du point de vue de l'extérieur : les courbes, les surfaces étaient considérées comme des objets situés dans un espace euclidien d'une dimension supérieure (par exemple une surface dans un espace ambiant de dimensions trois). Les résultats les plus simples sont ceux obtenus en géométrie différentielle des courbes. Commençant par le travail de Riemann, le point de vue intrinsèque fut développé, dans l’impossibilité de parler de déplacement à l'extérieur de l'objet géométrique parce qu'il était considéré comme un tout.
+Le point de vue intrinsèque est plus flexible, par exemple il est utile en relativité où l'espace-temps ne peut naturellement pas être pris comme extrinsèque. Avec le point de vue intrinsèque il est plus facile de définir la courbure et d'autres structures telles que vues sur ce plan. Ces deux points de vue peuvent être réconciliés, en effet la géométrie extrinsèque peut être considérée comme une structure additionnelle à l'intrinsèque (voyez le théorème de Nash).
+v · d · m
+Géométrie
+Formules mathématiques simples • Géométrie projective • Géométrie affine • Géométrie euclidienne • Géométrie non euclidienne • Géométrie elliptique • Géométrie hyperbolique • Programme d'Erlangen • Géométrie synthétique • Géométrie algébrique • Topologie algébrique • Topologie différentielle • Géométrie riemannienne • Géométrie différentielle • Géométrie symplectique
+Portail des mathématiques
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Topologie_différentielle&oldid=89927816 ».
+Catégorie : Topologie différentielleCatégories cachées : Wikipédia:ébauche analysePortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Български
+Català
+Deutsch
+English
+Español
+עברית
+Hrvatski
+Italiano
+日本語
+Nederlands
+Português
+Slovenčina
+Slovenščina
+中文
+Modifier les liens
+Dernière modification de cette page le 13 mars 2013 à 07:11.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

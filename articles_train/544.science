@@ -1,0 +1,342 @@
+Théorème fondamental de l'algèbre — Wikipédia
+Théorème fondamental de l'algèbre
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Théorème de d'Alembert-Gauss)
+Aller à :					navigation, 					rechercher
+Vous lisez un « bon article ».
+Pour les articles homonymes, voir Théorème de Gauss.
+En mathématiques, le théorème fondamental de l'algèbre, aussi appelé théorème de d'Alembert-Gauss et théorème de d'Alembert, indique que tout polynôme non constant, à coefficients complexes, admet au moins une racine. En conséquence, tout polynôme à coefficients entiers, rationnels ou encore réels admet au moins une racine complexe, car ces nombres sont aussi des complexes. Une fois ce résultat établi, il devient simple de montrer que sur ℂ, le corps des nombres complexes, tout polynôme P est scindé, c'est-à-dire constant ou produit de polynômes de degré 1.
+Le temps a rendu l'expression de théorème fondamental de l'algèbre un peu paradoxale. Il n'existe en effet aucune démonstration purement algébrique de ce théorème. Il est nécessaire de faire usage de résultats topologiques ou analytiques pour sa démonstration. L'expression provient d'une époque où l'algèbre s'identifiait essentiellement avec la théorie des équations, c'est-à-dire la résolution des équations polynomiales. Les frontières de l'algèbre ont maintenant changé mais le nom du théorème est resté.
+Les conséquences du théorème sont nombreuses ; en algèbre linéaire ce résultat est essentiel pour la réduction d'endomorphisme ; en analyse, il intervient dans la décomposition en éléments simples des fonctions rationnelles utilisée pour trouver une primitive. On les retrouve aussi en théorie algébrique des nombres, dans un résultat basique indiquant que toute extension algébrique du corps des rationnels peut être considérée comme un sous-corps de celui des complexes.
+Jean le Rond D'Alembert est le premier à ressentir la nécessité de démontrer le théorème fondamental de l'algèbre. Sa motivation est entièrement analytique, il recherche une méthode pour trouver une primitive d'une fonction rationnelle. Sa preuve comporte une lacune, qui ne sera comblée qu'au XIXe siècle.
+L'histoire du théorème indique l'importance du résultat aux yeux des mathématiciens du XVIIIe siècle. Les plus grands noms, comme ceux de d'Alembert, Euler, Lagrange ou Gauss se sont attelés à sa démonstration, avec des fortunes diverses. La variété et la richesse des méthodes conçues dans ce but fut un moteur puissant pour l'évolution de la recherche en mathématiques et particulièrement pour une meilleure compréhension des nombres complexes.
+Sommaire
+1 Énoncés
+2 Usages
+2.1 Analyse
+2.2 Algèbre linéaire
+2.3 Arithmétique
+3 Démonstrations
+3.1 Preuve directe
+3.2 Théorème de Liouville
+3.3 Théorème de Rouché
+3.4 Homotopie
+3.5 Corps réel clos
+4 Éléments d'histoire
+4.1 Les origines
+4.2 L'émergence des nombres complexes
+4.3 Les preuves d'Euler et de Lagrange
+4.4 Gauss et la rigueur
+4.5 La théorie de Galois
+4.6 Démonstrations itératives et effectivité
+5 Notes, références et bibliographie
+5.1 Notes
+5.2 Références
+5.3 Bibliographie
+6 Voir aussi
+6.1 Liens externes
+6.2 Bibliographie complémentaire
+Énoncés[modifier | modifier le code]
+Le théorème fondamental de l'algèbre admet plusieurs énoncés équivalents.
+Théorème de d'Alembert-Gauss[1] — Tout polynôme non constant, à coefficients complexes, admet au moins une racine complexe.
+Par exemple, 1 + i est une racine du polynôme X4 + 4. Sous cette forme, le théorème affirme l'existence d'une racine du polynôme P(X) mais n'explique pas comment trouver explicitement cette racine. Cet énoncé existentiel décrit plus une propriété du corps des nombres complexes. Un corps est dit algébriquement clos si tout polynôme de degré strictement positif et à coefficients dans ce corps admet au moins une racine. Le théorème se reformule donc ainsi :
+(i) Le corps ℂ est algébriquement clos.
+Ce résultat se reformule aussi en termes de factorisation des polynômes à coefficients complexes :
+(ii) Tout polynôme à coefficients complexes est scindé[2].
+Ces résultats indiquent qu'un polynôme à coefficients complexes de degré n, que l'on peut écrire anXn + ... + a1X + a0 s'écrit aussi an(X – α1)...(X – αn). Ici, la famille (αk), pour k variant de 1 à n, est celle des racines. Certains nombres αk peuvent être égaux ; on parle alors de racines multiples.
+Le théorème fondamental de l'algèbre équivaut à chacun des énoncés suivants :
+(iii) Tout polynôme non constant à coefficients réels admet au moins une racine complexe.
+(iv) Les polynômes irréductibles à coefficients réels sont exactement les polynômes de degré 1, et les polynômes de degré 2 à discriminant strictement négatif (s'écrivant aX2 + bX + c, avec a non nul et b2 – 4ac < 0).
+(v) Tout polynôme non constant à coefficients réels s'écrit comme un produit de polynômes à coefficients réels de degrés 1 ou 2.
+Démonstration des équivalences
+(i) ⇒ (ii) : Démontrons (ii) par récurrence sur n, le degré d'un polynôme, à partir de (i). Si n est égal à 0, il n'y a rien à démontrer. Supposons le résultat établi pour tout polynôme de degré n et soit P un polynôme de degré n + 1. (i) implique l'existence d'une racine α de P. Le polynôme s'écrit alors P(X) = (X – α)Q(X) avec Q de degré n donc scindé par hypothèse de récurrence, si bien que P est également scindé, donc (ii) est démontré.
+(ii) ⇒ (v) : D'après (ii), tout polynôme P à coefficients réels est scindé sur ℂ. Si α est une racine complexe (non réelle) de P(X), son conjugué α l'est aussi, avec même ordre de multiplicité, et (X – α)(X – α) est à coefficients réels. On obtient donc (v) en regroupant les termes pour chaque racine complexe.
+(v) ⇒ (iv) : D'après (v), si P est irréductible, il ne peut être que de degré 1 ou 2. S'il est de degré 1, il est en effet irréductible. S'il est de degré 2, il est irréductible (sur ℝ) si, et seulement si son discriminant est strictement négatif.
+(iv) ⇒ (iii) : Un polynôme P non constant à coefficients réels admet au moins un diviseur R irréductible sur ℝ. Un tel R est, d'après (iv), de degré 1 ou 2, et admet donc une racine complexe, qui est alors aussi racine de P.
+(iii) ⇒ (i) : Soit P(X) un polynôme à coefficients complexes, et P*(X) le polynôme obtenu en remplaçant chaque coefficient de P(X) par son conjugué. Alors P(X)P*(X) = R(X) est à coefficients réels. D'après (iii), R(X) admet une racine complexe α, donc P(α)P*(α) = 0. Donc, si α n'est pas une racine de P, alors P*(α) = 0, ce qui donne P(α) = P*(α) = 0 = 0. Donc, α ou son conjugué est une racine de P, ce qui prouve (i).
+Usages[modifier | modifier le code]
+Analyse[modifier | modifier le code]
+Article détaillé : Décomposition en éléments simples.
+Il apparaît parfois nécessaire de calculer une primitive d'une fonction rationnelle, c'est-à-dire d'une fonction quotient de deux fonctions polynôme. On peut considérer la fonction f définie par[3] :
+Un corollaire du théorème fondamental indique que le dénominateur se factorise en éléments du premier degré[Note 1] ; ici on trouve :
+Une décomposition en éléments simples de la fonction montre l'existence de trois valeurs a, b et c telles que :
+Un rapide calcul montre que a = 3/2, b = 1 et c = 5/2 ; le calcul de la primitive devient alors aisément réalisable.
+Algèbre linéaire[modifier | modifier le code]
+Article détaillé : Réduction d'endomorphisme.
+La réduction d'endomorphisme fait appel aux polynômes. On peut choisir comme cas particulier un endomorphisme autoadjoint a d'un espace euclidien E pour illustrer l'usage du théorème. Sa matrice dans une base orthonormale est donc symétrique et toutes ses valeurs propres sont réelles. Le polynôme caractéristique de a admet, d'après le théorème fondamental de l'algèbre, une racine λ. Il s'agit d'une valeur propre de a. En remarquant que l'espace orthogonal F à l'espace propre de valeur propre λ est stable par a on comprend que l'endomorphisme est diagonalisable. En effet, il suffit d'appliquer maintenant la même réduction à la restriction de a à F, qui est aussi autoadjointe. Pas à pas l'endomorphisme a est ainsi diagonalisé.
+Cet exemple est choisi parmi de nombreux autres. La diagonalisation d'un endomorphisme apparaît souvent comme la conséquence de l'existence d'une racine du polynôme caractéristique ou minimal.
+Arithmétique[modifier | modifier le code]
+L'un des objets de la théorie algébrique des nombres traditionnelle est l'étude des corps de nombres, c'est-à-dire des extensions finies du corps ℚ des rationnels. Tous ces corps sont algébriques sur ℚ donc se plongent dans sa clôture algébrique, le corps ℚ des nombres algébriques. D'après le théorème fondamental de l'algèbre, ℚ se plonge lui-même dans ℂ.
+Démonstrations[modifier | modifier le code]
+Preuve directe[modifier | modifier le code]
+La preuve proposée ici fait appel à un bagage mathématique minimal ; elle détaille celle de Cauchy[4],[5].
+On considère un polynôme de degré n > 0 à coefficients complexes, P(X) = a0 + a1X + … + anXn.
+Dans un premier temps, l'existence d'un minimum global pour la fonction qui à z associe le module de P(z) est établie. Pour cela, on remarque que si le module de z est suffisamment grand, le module de P(z) l'est aussi et la zone des valeurs minimales pour P(z) est nécessairement bornée. Ensuite, on utilise le fait qu'un fermé borné de ℂ est compact et qu'une fonction continue d'un compact dans ℝ a une image elle-même compacte, donc fermée et bornée, ce qui implique qu'elle atteint sa borne inférieure, en un certain point z0.
+Enfin, on raisonne par l'absurde, on suppose que l'image de z0 par P est non nulle. On trouve une direction c (un nombre complexe non nul) telle que la fonction de ℝ dans ℝ qui à t associe le module de P(z0 + tc) soit, pour tout t > 0 assez petit, strictement inférieure à sa valeur en 0. Cette contradiction permet de conclure.
+Cette preuve repose donc essentiellement sur le fait que ℝ possède la propriété de la borne supérieure.
+Démonstration détaillée
+Montrons tout d'abord un lemme, qui correspond à un cas particulier d'équation polynomiale.
+L'équation xn = a, où a est un nombre complexe et n un entier strictement positif, admet au moins une racine[Note 2] :
+En écrivant a sous sa forme polaire[Note 3]
+puis en utilisant la formule de De Moivre, on obtient bien, en posant
+Étudions maintenant le cas général.
+Il existe un point z0 en lequel le minimum du module de P(z) est atteint :
+La fonction qui à z associe le module de P(z) est à valeurs dans les réels positifs. L'image de cette fonction est une partie non vide et minorée de ℝ ; elle admet donc une borne inférieure, notée ici m.
+Montrons qu'il existe une valeur M tel que si le module de z est plus grand que M, alors |P(z)| est supérieur à 2m. L'inégalité triangulaire montre que :
+Si le module de z est suffisamment grand, disons supérieur à une valeur M > 1, le terme Kz est plus grand que |an|/2 et |P(z)| est plus grand que Mn|an|/2. Si M est choisi plus grand que 4m/|an|, tout point z de module supérieur à M est tel que |P(z)| est plus grand que 2m. Ceci montre que le minimum de |P(z)| sur les complexes de module inférieur à M est aussi le minimum de |P(z)| sur ℂ (à supposer que ce minimum existe).
+Les complexes de modules inférieurs à M forment un compact, la fonction |P(z)| est continue, elle atteint sa borne inférieure (qui est donc son minimum) sur les compacts, il existe donc un complexe z0 tel que |P(z0)| soit égal à m, ce qui démontre la proposition.
+Notons Q(z) le polynôme qui à z, associe la valeur P(z0 + z). C'est un polynôme de même degré que P, et dont le module prend au point 0 sa valeur minimum, laquelle vaut m. On utilise les notations :
+Ici, k désigne le plus petit indice strictement positif tel que le coefficient bk soit non nul. Cet indice existe, car le polynôme est non constant.
+Le lemme permet d'établir la proposition suivante, qui aboutit à une conclusion de la démonstration.
+Le point z0 n'est pas le minimum du module de P(z) si m n'est pas nul :
+Soit f(t) la fonction de la variable réelle à valeurs réelles, qui à t associe |Q(tc)| ; ici, c désigne un complexe tel que ck soit égal au produit de –b0 et du conjugué de bk (d'après le lemme). La fonction f s'écrit :
+ce qui montre que, si t est suffisamment petit en valeur absolue et plus petit que 1 :
+Dans l'égalité précédente, N désigne un majorant de la somme des modules des ci. Si les valeurs de t sont, en valeur absolue, choisies plus petites que m|bk|2/(2N), on obtient la majoration :
+En conséquence, si t0 est choisi strictement positif et suffisamment petit, f(t0) est strictement plus petit que m, ce qui revient à dire que le module de l'image de z0 + t0c est strictement plus petit que m, ce qui montre que m n'est pas le minimum et termine la démonstration.
+Si m n'est pas nul, ce n'est pas le minimum de la fonction |P(z)|, ce qui est absurde car c'est sa définition. Autrement dit, m est nécessairement nul et P admet au moins une racine z0.
+Théorème de Liouville[modifier | modifier le code]
+Article détaillé : Théorème de Liouville (variable complexe).
+Une preuve très concise repose sur le théorème de Liouville en analyse complexe. À cet effet, on considère un polynôme P à coefficients complexes, de degré au moins égal à 1. On suppose qu'il n'a aucune racine : dès lors, la fonction rationnelle 1/P est entière et bornée (car elle tend vers 0 à l'infini, d'après la démonstration précédente) ; du théorème de Liouville, on déduit qu'elle est constante, ce qui contredit l'hypothèse sur le degré, et prouve ainsi par l'absurde l'existence d'au moins une racine de P[6].
+Théorème de Rouché[modifier | modifier le code]
+Article détaillé : Théorème de Rouché.
+Une autre preuve concise s'appuie sur le théorème de Rouché en analyse complexe. On considère le polynôme p à valeurs dans ℂ défini par :
+en supposant que le coefficient an est non nul. Il suffit ensuite de comparer ce polynôme à anzn sur un cercle suffisamment grand pour en déduire, en appliquant le théorème de Rouché, que p possède autant de zéros que anzn, c'est-à-dire n.
+Homotopie[modifier | modifier le code]
+Article détaillé : Homotopie.
+Une homotopie entre deux lacets est une déformation continue permettant de passer du premier lacet au deuxième. L'article détaillé montre que si P est un polynôme de degré n et si ρ est un nombre réel suffisamment grand, le lacet α défini sur le cercle unité par :
+fait n fois le tour du cercle. Si le polynôme P n'avait pas de racine, ce lacet serait homotope à un point. Cette contradiction est la base de la démonstration proposée dans l'article détaillé[7].
+Corps réel clos[modifier | modifier le code]
+Article détaillé : Corps réel clos.
+Il n'existe pas de démonstration purement algébrique du « théorème fondamental de l'algèbre » car, à un endroit ou à un autre, des considérations de continuité interviennent nécessairement. Ce point n'a été complètement clarifié qu'en 1927, par Emil Artin et Otto Schreier, avec la théorie des corps ordonnables[8],[9],[10] et des corps réel clos[11]. Ces auteurs ont abouti au théorème d'algèbre suivant, « attribué » par N. Bourbaki[12] à Euler et Lagrange :
+Théorème — Pour tout corps commutatif K, les deux propriétés suivantes sont équivalentes :
+K vérifie les deux conditions suivantes :(1.a) K est euclidien, c'est-à-dire que ses carrés forment les éléments positifs d'un ordre total compatible avec sa structure de corps ;(1.b) tout polynôme de degré impair dans K[X] admet une racine dans K.
+–1 n'est pas un carré dans K et K(i), où i est une racine carrée de –1, est algébriquement clos.
+On dit alors que K est un « corps ordonné maximal », ou encore un « corps réel clos ».
+Démonstration de 1 ⇒ 2[13]
+Remarquons d'abord que pour tout corps K totalement ordonnable, –1 n'est pas une somme de carrés dans K (en particulier, K est de caractéristique 0 et donc infini). Il reste à montrer si K vérifie même (1.a) et (1.b), alors K(i) est algébriquement clos.
+Étape 1 : toute équation du second degré à coefficients dans K(i) a ses deux solutions dans K(i) : il suffit de montrer que son discriminant a + bi (a, b ∈ K) est un carré dans K(i). Or il est le carré de c + di donné par
+avec c, d ∈ K — par (1.a) — et choisis de façon cohérente pour que 2cd ait non seulement même carré que b, mais même signe.
+Étape 2 : tout polynôme F non constant à coefficients dans K possède une racine dans K(i) : on note n son degré, puis on pose n = 2pq, où q est impair. La preuve est une récurrence sur p. Pour p = 0, F admet une racine dans K d'après (1.b). Supposons p > 0 et le résultat connu pour tous les polynômes dans K[X] de degré non divisible par 2p. Soit E un corps de décomposition de F ; on note alors xi (1 ≤ i ≤ n) les racines de F dans E (répétées autant de fois qu'elles sont multiples). Pour chaque élément c de K, on introduit le polynôme
+Ce polynôme est de degré n(n – 1)/2 = 2p–1q(n – 1) qui n'est pas divisible par 2p. Les coefficients de Gc sont par ailleurs des éléments de K : en effet, ce sont des polynômes symétriques à coefficients dans K en les xi donc — d'après les relations entre coefficients et racines[14] — ce sont des polynômes à coefficients dans K en les coefficients de F, qui appartiennent aussi à K. On peut dès lors appliquer l'hypothèse de récurrence à Gc et conclure qu'il possède au moins une racine dans K(i). On peut donc isoler deux indices i(c) et j(c) tels que
+Le corps K est infini, alors que l'ensemble des couples d'indices est fini ; il existe donc deux éléments c et d de K tels que i(c) = i(d) et j(c) = j(d) ; on note i = i(c) = i(d) et j = j(c) = j(d). Comme xi + xj + cxixj et xi + xj + dxixj appartiennent à K(i) avec c ≠ d, on en déduit que xi + xj et xixj appartiennent également à K(i), puis que xi et xj sont à leur tour racines d'un polynôme du second degré à coefficients dans K(i). En conséquence de l'étape 1, xi et xj appartiennent à K(i). On a bien trouvé une racine dans K(i) pour F (et même deux).
+Conclusion : K(i) est algébriquement clos : se déduit de l'étape 2 comme (i) se déduisait de (iii) à la fin du § Énoncés, la conjugaison étant ici le K-automorphisme de K(i) distinct de l'identité.
+Pour le corps ℝ, les conditions (1.a) et (1.b) sont satisfaites, d'après deux théorèmes d'analyse se déduisant du théorème des valeurs intermédiaires[15],[16]. Par suite, le corps ℂ des complexes, obtenu en lui adjoignant i = √–1, est algébriquement clos.
+Remarques
+La démonstration ci-dessus est une réécriture moderne de celle conçue par Lagrange[17]. Il s'agit d'une ingénieuse combinatoire, que Laplace fut le premier à utiliser pour mettre au point la stratégie d'Euler[18]. Une démonstration plus courte fait appel à la théorie de Galois (voir ci-dessous).
+Tout corps réel clos K vérifie les mêmes propriétés du premier ordre que ℝ. En particulier, les seuls polynômes irréductibles de K[X] sont les polynômes du premier degré et les polynômes du second degré ayant un discriminant < 0, et K vérifie la propriété des valeurs intermédiaires pour les polynômes de K[X]. En revanche, ℝ est le seul corps totalement ordonné possédant la propriété (du second ordre) de la borne supérieure, qui fonde la « preuve directe ».
+Éléments d'histoire[modifier | modifier le code]
+Les origines[modifier | modifier le code]
+François Viète, en découvrant le calcul littéral, ouvre une nouvelle ère dans l'histoire de l'algèbre.
+À l'époque de François Viète (1540 - 1603), le calcul littéral vient d'être découvert[Note 4] par ce mathématicien ainsi que les relations entre coefficients et racines[19]. Il remarque aussi qu'il est toujours possible de construire une équation ayant exactement n racines données. En 1608, Peter Roth prétend que le nombre de racines d'une équation polynomiale est borné par son degré(Remmert 1998). Par « racine », il n'entendait pas forcément des racines de la forme a+ib. Un premier énoncé correct est donné par Albert Girard (1595 - 1632), qui, en 1629, dans son traité intitulé Inventions nouvelles en l'algèbre(Dahan et Peiffer 1986, p. 248), annonce que :
+« Toutes les équations d'algèbre reçoivent autant de solutions que la dénomination de la plus haute quantité le démontre. »
+Cette idée est reprise dans la Géométrie de René Descartes (1596 - 1650), qui utilise pour la première fois le terme imaginaire, pour qualifier des racines : « ... quelquefois seulement imaginaires c'est-à-dire que l'on peut toujours en imaginer autant que j'ai dit en chaque équation, mais qu'il n'y a quelquefois aucune quantité qui corresponde à celle qu'on imagine... »[20]. Albert Girard les appelait, pour sa part, des inexplicables. Leur compréhension est encore insuffisante pour donner un sens à l'idée d'une démonstration. Un nombre imaginaire est ici un nombre fictif, qui, pour les polynômes de degrés supérieurs, joueraient le même rôle que le symbole √-1 formalisé par Bombelli pour les équations de petit degré.
+À cette époque et pendant plus d'un siècle, ce type de propos n'est pas sujet à démonstration, et prouver une définition, ou encore pire une imagination, n'a pas le moindre sens(Dahan et Peiffer 1986, p. 248-249).
+L'émergence des nombres complexes[modifier | modifier le code]
+René Descartes, avec Albert Girard, donne un premier sens au terme nombre imaginaire.
+Article détaillé : Histoire des nombres complexes.
+Il faut plus d'un siècle pour passer des nombres imaginaires, fictifs ou impossibles de Girard et Descartes, aux nombres complexes que nous connaissons, c'est-à-dire de la forme a + ib, où a et b sont des nombres réels. Petit à petit, les nombres complexes sont apprivoisés par les mathématiciens. À l'aide d'un développement en série, Gottfried Leibniz (1646 - 1716) donne un sens univoque à l'égalité de Bombelli(Dahan et Peiffer 1986, p. 253) :
+L'usage de l'unité imaginaire i devient de plus en plus fréquent, et cela dans des contextes bien différents de celui de la théorie des équations. Le mathématicien Abraham de Moivre démontre la formule qui porte son nom et éclaire la relation entre la trigonométrie et les nombres complexes[21]. Enfin, la célèbre formule d'Euler eiπ + 1 = 0, publiée en 1748, achève de convaincre les plus sceptiques.
+En 1746, Jean le Rond D'Alembert exprime le besoin de démontrer le théorème fondamental de l'algèbre. Sa motivation n'est en rien algébrique, il souhaite démontrer l'existence d'une décomposition en éléments simples de n'importe quelle fonction rationnelle, afin d'en obtenir des primitives. Si le monde mathématique admet immédiatement le bien-fondé de la nécessité d'une démonstration, l'approche de D'Alembert ne séduit pas. Son procédé se fonde sur des convergences de suites et de familles de courbes, une approche purement analytique. Elle est de plus incomplète, et suppose sans preuve qu'une fonction continue sur un compact et à valeurs réelles atteint son minimum. Elle suppose aussi démontré un résultat sur la convergence de séries, maintenant connu sous le nom de théorème de Puiseux. Les grands noms de son époque souhaitent une démonstration algébrique, de même nature que le théorème[22].
+La preuve de D'Alembert fut révisée par Argand en 1814[23]. Ce dernier remplaça le théorème de Puiseux par une simple inégalité, connue aujourd'hui sous le nom d'inégalité d'Argand[24]. Mais la preuve reste incomplète jusqu'au milieu du XIXe siècle[25].
+Les preuves d'Euler et de Lagrange[modifier | modifier le code]
+Joseph-Louis Lagrange complète partiellement une preuve esquissée par Euler.
+Deux tentatives de preuves sont l'œuvre de Leonhard Euler (1707 - 1783) et de Joseph-Louis Lagrange (1736 - 1813). Elles se suivent et celle plus tardive de Lagrange vise à combler certaines lacunes laissées par Euler.
+Les démonstrations utilisent que si le degré n d'un polynôme à coefficients réels est impair, il est « évident » que le polynôme admet une racine réelle, car si une grandeur est suffisamment grande, l'image par le polynôme de cette grandeur et de son opposé sont de signes opposés. Il faudra attendre les travaux de Bernard Bolzano de 1816 pour obtenir une démonstration du théorème des valeurs intermédiaires rigoureuse et pour que ce résultat ne soit plus une « évidence »[26].
+Si n n'est plus impair mais de la forme 2pq avec q impair, l'objectif d'Euler et Lagrange est de montrer, par récurrence sur p (cf. ci-dessus, § Corps réel clos), que toutes les racines imaginaires, au sens de Girard ou Descartes, sont complexes au sens où elles sont combinaisons linéaires à coefficients réels de 1 et de i. La démonstration d'Euler est rigoureuse pour le degré 4, mais à peine esquissée dans le cas général, celle de Lagrange se fonde sur des fonctions rationnelles invariantes par ce que l'on appelle maintenant un groupe de permutations des racines(Dahan et Peiffer 1986, p. 250). D'autres tentatives de même nature sont l'œuvre de Foncenex (it) et de Laplace.
+Gauss et la rigueur[modifier | modifier le code]
+Carl Friedrich Gauss présente des preuves rigoureuses du théorème.
+Carl Friedrich Gauss (1777 - 1855) écrit sa thèse de doctorat sur le sujet en 1799[27]. Il reproche une démarche peu rigoureuse de la part de ses prédécesseurs, à l'exception de d'Alembert qui utilise un raisonnement analytique de nature différente (mais ayant aussi des lacunes). Ils supposent tous l'existence de n racines et montrent que ces racines sont des nombres complexes. Le sens à donner à ces n racines laisse Gauss perplexe, il s'exprime ainsi : « L'hypothèse de base de la démonstration, l'axiome est que toute équation possède effectivement n racines possibles ou impossibles. Si l'on entend par possibles réels et par impossibles, complexes, cet axiome est inadmissible puisque c'est justement ce qu'il s'agit de démontrer. Mais si l'on entend par possibles les quantités réelles et complexes et par impossibles tout ce qui manque pour qu'on ait exactement n racines, cet axiome est acceptable. Impossible signifie alors quantité qui n'existe pas dans tout le domaine des grandeurs(Dahan et Peiffer 1986, p. 252). » La faiblesse, c'est que, si elles n'existent pas, et cela dans tout le domaine des grandeurs, est-il raisonnable de calculer dessus comme le font Euler et Lagrange ?
+La première preuve de Gauss, présentée en 1799 et fondée sur le canevas de d'Alembert, reste encore incomplète. À l'époque, l'existence d'un minimum atteint par une fonction continue définie sur un compact n'est pas démontrée. En 1814, un amateur suisse du nom de Jean-Robert Argand présente une preuve à la fois solide et simple[23],[28], fondée sur le canevas de d'Alembert. Cette preuve est reprise par Cauchy dans son Cours d'Analyse (en)[4]. Comme à son habitude, il n'éprouve pas le besoin de citer Argand, le véritable auteur[29].
+Selon Remmert(Remmert 1998), cette première preuve de Gauss est une belle preuve géométrique, mais reste encore incomplète. Les zéros sont interprétés comme les intersections des deux courbes algébriques réelles Re P = 0 et Im P = 0. En l'infini, ces courbes ont 2n branches qui s'alternent (partie facile de la preuve). Malheureusement, en déduire l'existence de n points d'intersections comptées avec multiplicité n'est pas une application directe du théorème des valeurs intermédiaires. Elle sera seulement donnée par Ostrowski en 1920.
+La deuxième preuve de Gauss, en 1815, fait appel à la démarche d'Euler et de Lagrange. Cette fois-ci, il remplace les racines par des indéterminées, ce qui aboutit à une preuve rigoureuse[30], mais plus tardive que celle d'Argand. Les deux seules hypothèses que fait Gauss sont (i) toute équation algébrique de degré impair a une racine réelle ; (ii) toute équation quadratique à coefficients complexes a deux racines complexes.
+La troisième preuve de Gauss date de 1816. Il s'agit en réalité d'un résultat sur la localisation des zéros des fonctions polynomiales, dont la généralisation (en 1862) aux fonctions holomorphes est le théorème de Rouché.
+La quatrième preuve de Gauss date de 1849. Il s'agit d'une variante de la première preuve, où Gauss envisage cette fois des polynômes à coefficients complexes[31].
+La théorie de Galois[modifier | modifier le code]
+Article détaillé : Théorie de Galois.
+L'histoire finit par combler la lacune de la démonstration de Lagrange. Évariste Galois (1811 - 1832) réutilise les idées de Lagrange sous un angle plus novateur et qui préfigure l'algèbre moderne[32]. Ces idées, reprises par Ernst Kummer et Leopold Kronecker, débouchent sur l'existence d'un corps contenant toutes les racines du polynôme, et cela indépendamment de toute construction sur les nombres complexes. Ce corps est appelé corps de décomposition, son usage permet la reprise des idées de Lagrange, de manière tout à fait rigoureuse(Dahan et Peiffer 1986, p. 252).
+Remmert(Remmert 1998, p. 100) attribue cette réactualisation de la preuve de Lagrange à Adolf Kneser[33]. Une version moderne[34] due à Artin[35],[36],[37], utilisant la théorie de Galois et le premier théorème de Sylow, redémontre[Note 5] que les seules extensions finies de ℝ sont ℝ et ℂ.
+Démonstrations itératives et effectivité[modifier | modifier le code]
+Une façon de représenter l'ensemble de Julia, ici pour un polynôme de la forme P(z)=z2+ c, où c est à l'extérieur (et proche de la frontière) de l'ensemble de Mandelbrot.
+Même complétée et corrigée, la démonstration de D'Alembert et d'Argand n'est pas constructive : elle utilise le fait que le module d'un polynôme atteint son minimum, sans préciser en quel point. Il serait pourtant souhaitable de pouvoir approcher les racines des polynômes, par exemple en disposant d'une démonstration qui explicite une manière d'exhiber une racine, ou une suite de nombres complexes qui converge vers une racine. Des théorèmes de localisation sur les zéros des fonctions holomorphes peuvent être déduits du théorème des résidus dû à Cauchy, mais ne sont pas réellement effectifs : il est difficile d'implémenter un algorithme d'approximation fondé sur ceux-ci (et ils sont inutilisables en pratique sans ordinateurs puissants) ; on trouvera une analyse plus précise de ces méthodes dans cette section de l'article Hypothèse de Riemann, car ce sont les seules utilisables pour localiser les zéros de la fonction .
+Selon Remmert, la première tentative significative fut proposée par Weierstrass en 1859[38]. Bien que la méthode proposée ne fonctionne pas bien, l'idée est intéressante : il s'agit d'itérer la fonction
+.
+Ceci donne lieu à une suite qui, si elle converge, converge vers un zéro de P. Cette idée est exploitée pour montrer le théorème du point fixe pour les fonctions contractantes par exemple. Cependant, la convergence n'est, ici, pas automatique : l'ensemble des valeurs de x pour lesquelles la suite itérée est bornée n'est pas ℂ en général ; même en se limitant à un domaine borné, il arrive fréquemment que la suite diverge pour presque tout point de départ ; ceux pour lesquels elle reste bornée forment d'ailleurs une des « fractales » les plus connues : l'ensemble de Julia (rempli) associé à P, et qui est souvent une poussière de Cantor, de dimension de Hausdorff nulle ; c'est par exemple le cas du polynôme P(X) = –X2 + X – 1.
+D'un point de vue pratique, une autre suite convergeant plus souvent est donnée par la méthode de Müller ; elle demande à chaque étape le calcul d'une racine carrée (complexe).
+Si les racines du polynôme P étudié sont simples (ce qui est une condition générique), la méthode de Newton peut être appliquée. Elle consiste à itérer la fonction
+qui à x associe le « point d'annulation de la tangente de P en x ». Encore une fois, si cette suite converge, sa limite est un zéro de P et, cette fois, la convergence est assurée si la valeur initiale est choisie suffisamment proche d'une racine de P.
+Une importante correction a été apportée par Morris Hirsch et Stephen Smale en 1979[39]. Elle consiste à itérer la fonction
+où la fonction H est définie en fonction du polynôme P par la formule
+Les ai sont les coefficients de P, et C est une fonction rationnelle d'une variable réelle. Hirsch et Smale démontrèrent que la suite obtenue zk converge toujours vers un zéro du polynôme P, quelle que soit la valeur initiale z0.
+Weierstrass propose également en 1891[40] une méthode itérative, connue actuellement sous le nom de méthode de Durand-Kerner (en), plus puissante qui converge (dans de bonnes conditions) non pas vers une seule racine mais vers l'ensemble des n racines simples  :
+qui est proche de l'itération de
+qui a pour point fixe les racines.
+Notes, références et bibliographie[modifier | modifier le code]
+Notes[modifier | modifier le code]
+↑ En réalité, cette méthode ne permet d'obtenir directement des primitives que dans ℂ ; pour des primitives réelles, la factorisation peut fait apparaître également des trinômes du second degré à discriminant négatif, conduisant à des éléments simples de seconde espèce, intégrables à l'aide de la fonction arc tangente.
+↑ Une variante sophistiquée de la preuve de Cauchy, proposée par Littlewood en 1941, permet d'éviter le recours à ce lemme. Elle est décrite dans l'article Racine d'un nombre complexe. Voir aussi (en) O. Rio Branco de Oliveira, « The Fundamental Theorem of Algebra: From the Four Basic Operations », Amer. Math. Monthly, vol. 119, no 9,‎ 2012, p. 753-758 (lire en ligne).
+↑ Voir l'article Nombre complexe pour plus de détails.
+↑ Voir l'article Théorie des équations (histoire des sciences).
+↑ Le théorème de Frobenius de 1877 montrait de plus que la seule autre algèbre associative à division de dimension finie sur ℝ est le corps non commutatif ℍ des quaternions.
+Références[modifier | modifier le code]
+↑ V. F. Bayart, « Théorème de D'Alembert-Gauss », sur bibmath.net : si l'énoncé est conforme à celui que l'on trouve dans la littérature, les remarques historiques sont contredites, par exemple par Dahan et Peiffer 1986.
+↑ On trouve ce corollaire dans : C. Antonini et al., Résultats liés à la compacité sur le site mathématiques.net.
+↑ Cet exemple est issu de : Décomposition en éléments simples d'une fonction rationnelle par le site Homéomath.
+↑ a et b A. L. Cauchy, Cours d'Analyse de l'École Royale Polytechnique, 1re partie : Analyse Algébrique, 1821, chap. X, début du § 1, p. 331-339.
+↑ Pour des variantes de cette preuve, voir par exemple (en) A. Bogomolny, « Details of the proof by Cauchy », sur Cut The Knot ou (en) « Proof of fundamental theorem of algebra (due to Cauchy) », sur PlanetMath.
+↑ Régine et Adrien Douady, Algèbre et théories galoisiennes [détail des éditions], p. 283.
+↑ On trouve cette démonstration dans (en) Allen Hatcher, Algebraic Topology, CUP,‎ 2001 (ISBN 978-0-521-79540-1, lire en ligne), p. 31.
+↑ Jean Guéridon et Jean Dieudonné, « L'algèbre et la géométrie jusqu'en 1840 », § III.A, in Jean Dieudonné, Abrégé de l'histoire des mathématiques, Hermann, 1986.
+↑ E. Artin et O. Schreier, Algebraische Konstruktion reeller Körper, Abh. Math. Sem. Hansischen Univ., vol. 5, 1927, p. 85-99 [1], traduction en français par le groupe de travail : « Aux sources de la Géométrie Algébrique Réelle » de l'IRMAR.
+↑ Serge Lang, Algèbre [détail des éditions], p. 272-273, chap. X, Thm. 2.5, p. 453.
+↑ (en) Hans Zassenhaus, « On the fundamental theorem of algebra », Amer. Math. Monthly, vol. 74, no 5,‎ 1967, p. 485-497 (lire en ligne). Cet article a obtenu un Paul R. Halmos-Lester R. Ford Award de la MAA en 1968.
+↑ N. Bourbaki, Algèbre, ch. 6 (Groupes et corps ordonnés), § 2, théorème 3 p. 25.
+↑ Cf. par exemple N. Bourbaki, Algèbre, ch. 6 (Groupes et corps ordonnés), § 2, proposition 8, p. 26.
+↑ N. Bourbaki, Algèbre, ch. 4 (Polynômes et fractions rationnelles), § 6, théorème 3 p. 58.
+↑ N. Bourbaki, Topologie générale, ch. 4 (Nombres réels), p. 12.
+↑ N. Bourbaki, Topologie générale, ch. 8 (Nombres complexes), Théorème 1, p. 1.
+↑ Pierre Samuel, Théorie algébrique des nombres [détail de l’édition], p. 53-54.
+↑ (en) David A. Cox, Galois Theory, John Wiley & Sons,‎ 2012, 2e éd. (ISBN 978-1-11821842-6, lire en ligne), p. 64.
+↑ F. Duffaud, Viète et les techniques algébriques sur le site Math93.
+↑ R. Descartes, La géométrie, 1637.
+↑ V. F. Bayart, Abraham de Moivre, sur bibmath.net.
+↑ Les idées de ce paragraphe proviennent de Dahan et Peiffer 1986, p. 249-250.
+↑ a et b Argand, « Philosophie mathématique. Réflexions sur la nouvelle théorie des imaginaires, suivies d'une application à la démonstration d'un théorème d'analise », Annales de Gergonne, vol. 5, 1814, p. 197-209.
+↑ Christian Gilain, « Le théorème fondamental de l'algèbre et la théorie géométrique des nombres complexes au XIXe siècle », dans François-Georges Dreyfus, Réformisme et révisionnisme dans les socialismes allemand, autrichien et français, Maison des sciences de l'homme,‎ 1984 (ISBN 978-2-73510053-8, lire en ligne), p. 51-74.
+↑ Les idées de ce paragraphe proviennent de Remmert 1998.
+↑ Michel Guillemot, « Bolzano et la démonstration du théorème des valeurs intermédiaires », dans La démonstration mathématique dans l'histoire, IREM de Lyon.
+↑ (la) C. F. Gauss, Demonstratio nova theorematis…
+↑ Odile Kouteynikoff, « La démonstration par Argand du théorème fondamental de l'algèbre », Bulletin de l'APMEP, n° 462, 2006, p. 122-137.
+↑ Il mentionne cependant Legendre, Théorie des nombres, 1re partie, § XIV.
+↑ Une version moderne de cette preuve, celle par les corps réel clos, est proposée dans J. Y. Briend, « Le théorème fondamental de l'algèbre (T.D. de M1) », sur Université de Provence Aix-Marseille I,‎ 2006. Voir aussi (en) Another new proof of the theorem… (traduction de l'article de Gauss de 1815).
+↑ (en) H.-D. Ebbinghaus, H. Hermes, F. Hirzebruch, M. Koecher, K. Mainzer, J. Neukirch et A. Remmert, Numbers, Springer, coll. « GTM » (no 123),‎ 1991 (lire en ligne), p. 108.
+↑ C'est l'opinion d'Alain Connes pour qui la pensée de Galois préfigure le formalisme moderne : A. Connes, La pensée d'Évariste Galois et le formalisme moderne, 2005.
+↑ (de) Adolf Kneser, « Arithmetische Begründung einiger algebraischer fundamental Sätze », Journal de Crelle, vol. 102,‎ 1888, p. 20-55 (lire en ligne).
+↑ Voir par exemple (en) Winfried Scharlau (de), Quadratic and Hermitian forms, Springer,‎ 1985, Thm. 2.3, p. 113.
+↑ (en) David S. Dummit et Richard M. Foote, Abstract algebra, 3e éd., chap. 14, p. 617.
+↑ Cox 2012, p. 218-219.
+↑ Serge Lang, Algèbre [détail des éditions], p. 272-273 de l'édition en anglais de 2002 (chap. Galois Theory, § Examples and applications, Example 5).
+↑ (de) Weierstrass, Neuer Beweiss des Fundamentalsatzes der Algebra, Math. Werke 1 (1859) p. 247-256.
+↑ (en) Morris W. Hirsch et Stephen Smale, « On algorithms for solving f(x)=0 », Comm. Pure Appl. Math. (en), vol. 32,‎ 1979, p. 281-312.
+↑ (de) K. Weierstrass, « Neuer Beweis des Satzes, dass jede ganze rationale Function einer Veränderlichen dargestellt werden kann als ein Product aus linearen Functionen derselben Veränderlichen », Sitzungsberichte der königlich preussischen Akademie der Wissenschaften zu Berlin,‎ 1891 (lire en ligne).
+Bibliographie[modifier | modifier le code]
+A. Dahan-Dalmedico et J. Peiffer (lb), Une histoire des mathématiques – Routes et dédales,‎ 1986 [détail des éditions]
+Reinhold Remmert, « Le théorème fondamental de l'algèbre », dans H.-D. Ebbinghaus (de), H. Hermes (de), F. Hirzebruch, M. Koecher (en), K. Lamotke (de), K. Mainzer (de), J. Neukirch, A. Prestel et R. Remmert, Les nombres, leur histoire, leur place et leur rôle de l'Antiquité aux recherches actuelles, Vuibert,‎ 1998 (ISBN 978-2-71178901-6), p. 91-117 (trad. de Zahlen, Springer-Verlag, 1983)
+Voir aussi[modifier | modifier le code]
+Liens externes[modifier | modifier le code]
+L. Euler, Recherches sur les racines imaginaires des équations Histoire de l'Académie Royale des Sciences et des Belles-Lettres de Berlin 1751
+(en) John H. Mathews et Russell Howell, « Complex Analysis Project for Undergraduate Students — The Fundamental Theorem of Algebra: Internet Resources and Bibliography », sur CSU, Fullerton
+(en) Harel Cain, « C. F. Gauss's proofs of the fundamental theorem of algebra », sur Université hébraïque de Jérusalem
+A. Frabetti, « Formulaire sur les nombres complexes », sur Université Claude-Bernard Lyon 1
+Bibliographie complémentaire[modifier | modifier le code]
+(en) Benjamin Fine et Gerhard Rosenberger, The Fundamental Theorem of Algebra, Springer, 1997 (ISBN 978-0-38794657-3) [lire en ligne]
+Christian Gilain, « Sur l'histoire du théorème fondamental de l'algèbre : théorie des équations et calcul intégral », Arch. Hist. Exact Sci. (en), vol. 4, no 2,‎ 1991, p. 91-136 (JSTOR 41133900)
+Roger Godement, Analyse mathématique, Springer,‎ 2003 (ISBN 3540006559)
+Cet article est reconnu comme « bon article » depuis sa version du 30 avril 2009 (comparer avec la version actuelle).
+Pour toute information complémentaire, consulter sa page de discussion et le vote l'ayant promu.
+La version du 30 avril 2009 de cet article a été reconnue comme « bon article », c'est-à-dire qu'elle répond à des critères de qualité concernant le style, la clarté, la pertinence, la citation des sources et l'illustration.
+v · d · m
+Travaux de Carl Friedrich Gauss
+Algèbre
+Lemme de Gauss • Élimination de Gauss-Jordan • Méthode de Gauss-Seidel • Somme de Gauss • Théorème de d'Alembert-Gauss
+Analyse
+Algorithme de Gauss-Newton • Théorème de Gauss-Lucas • Fonction gaussienne • Intégrale de Gauss • Méthodes de quadrature de Gauss
+Théorie des nombres
+Opérateur de Gauss-Kuzmin-Wirsing • Constante de Gauss • Lemme de Gauss • Entier de Gauss • Loi de réciprocité quadratique
+Statistiques
+Théorème de Gauss-Markov • Fonction de Gauss
+Géométrie
+Formule de Gauss-Bonnet • Équations de Gauss-Codazzi • Courbure de Gauss
+Physique
+Théorème de Gauss • Théorème de Gauss en électromagnétisme • Faisceau gaussien
+Portail des mathématiques
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Théorème_fondamental_de_l%27algèbre&oldid=109633505 ».
+Catégories : Équation polynomialeNombre complexeThéorème d'algèbreCarl Friedrich GaussCatégories cachées : Page utilisant des arguments dupliqués dans les appels de modèleArticle contenant un appel à traduction en allemandArticle contenant un appel à traduction en anglaisArticle contenant un appel à traduction en italienArticle contenant un appel à traduction en luxembourgeoisBon articlePortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesBon article dans une autre langue
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+বাংলা
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Español
+فارسی
+Suomi
+עברית
+Magyar
+Íslenska
+Italiano
+日本語
+ქართული
+Қазақша
+한국어
+Кыргызча
+Lumbaart
+Монгол
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Simple English
+Slovenčina
+Slovenščina
+Српски / srpski
+Svenska
+ไทย
+Türkçe
+Українська
+Oʻzbekcha
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 3 décembre 2014 à 01:32.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

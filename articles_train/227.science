@@ -1,0 +1,200 @@
+Fentes d'Young — Wikipédia
+Fentes d'Young
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Fentes de Young)
+Aller à :					navigation, 					rechercher
+Simulation des interférences obtenues après les fentes d'Young : les deux points en bas de l'image sont les sources de lumière.
+Les fentes d'Young (ou interférences d'Young) désignent en physique une expérience qui consiste à faire interférer deux faisceaux de lumière issus d'une même source, en les faisant passer par deux petits trous percés dans un plan opaque. Cette expérience fut réalisée pour la première fois par Thomas Young en 1801 et permit de comprendre le comportement et la nature de la lumière. Sur un écran disposé en face des fentes d'Young, on observe un motif de diffraction qui est une zone où s'alternent des franges sombres et illuminées.
+Cette expérience permet alors de mettre en évidence la nature ondulatoire de la lumière. Elle a été également réalisée avec de la matière, comme les électrons, neutrons, atomes, molécules, avec lesquels on observe aussi des interférences. Cela illustre la dualité onde-particule : les interférences montrent que la matière présente un comportement ondulatoire, mais la façon dont ils sont détectés (impact sur un écran) montre leur comportement particulaire.
+En 1961, Claus Jönsson à Tübingen produisait des interférences avec un fil d'araignée métallisé séparant un faisceau d'électrons en deux. Une expérience semblable, avec un fil d'araignée métallisé, était réalisée en 1956 par Faget et Fert à l'université de Toulouse. En 1989, Akira Tonomura et al. ont envoyé un électron sur un biprisme à électrons. Ils ont observé la figure d'interférence prédite par la théorie.
+Sommaire
+1 Interprétation classique du phénomène
+1.1 Cas d'un écran éloigné
+1.2 Cas d'un écran à l'infini
+1.3 Rôle de la diffraction par chaque fente
+1.4 Représentation du phénomène par des lignes de flux d'énergie
+2 Interprétation quantique du phénomène
+2.1 Destruction de la figure d'interférence. Problème de la mesure
+3 Notes
+4 Voir aussi
+4.1 Articles connexes
+4.2 Liens externes
+4.3 Bibliographie
+Interprétation classique du phénomène[modifier | modifier le code]
+Schéma de principe des fentes d'Young.
+Illustration de l'apparition de franges d'interférences.
+Une propriété fondamentale des ondes est leur capacité à interagir entre-elles, c'est-à-dire de s'additionner si elles sont en phases ou de s'annuler en cas de déphasage, exactement comme le feraient 2 vagues identiques se croisant, dont la vague résultante serait soit 2 fois plus haute (les crêtes d'une vague correspondent aux crêtes de l'autre), soit inexistante (les crêtes de l'une correspondent aux creux de l'autre). Or, l'expérience d'Young a montré que 2 rayons lumineux sont capables de s'additionner (frange brillante) ou de s'annuler (frange sombre) lorsqu'ils sont mis en relation, prouvant ainsi la nature ondulatoire de la lumière.
+Dans l'expérience d'Young, on utilise une source lumineuse S monochromatique[1] et on interpose une plaque percée de 2 fentes. Celles-ci se comportent comme des sources secondaires S1 et S2. On observe alors, sur un écran placé derrière, des franges alternativement sombres et claires : les ondes issues de S1 et S2 interfèrent entre elles.
+Considérons maintenant un point M situé sur l'écran. Il est éclairé par les ondes lumineuses émises par S1 et S2 qui peuvent s'écrire respectivement, au point M :
+et
+,
+où
+est l'amplitude[2], ω la pulsation des ondes, Δφ leur déphasage et t le temps.
+Δφ caractérise le fait qu'une onde a un certain retard par rapport à l'autre. En effet, pour arriver au point M, le chemin à parcourir n'est pas de la même longueur pour la lumière qui provient d'une source ou de l'autre.
+Si Δφ est un multiple de 2π, les ondes s'ajoutent et on obtient une frange lumineuse sur l'écran, ce que l'on appelle une interférence constructive. En revanche si Δφ est un multiple impair de π alors les ondes s'annulent et on obtient une frange sombre sur l'écran, c'est alors une interférence destructive. Cela explique pourquoi on observe, sur l'écran, des franges successivement claires et sombres. Mais il n'y a pas, a priori, de formule simple permettant de décrire ces franges. Pour simplifier le problème, il est possible de supposer que l'écran est placé loin des fentes.
+Cas d'un écran éloigné[modifier | modifier le code]
+Supposer que l'écran est éloigné des fentes revient, plus précisément, à poser que la distance D entre l'écran et les fentes est grande devant la distance d entre les fentes (c'est-à-dire D ≫ d).
+Cette approximation est utile dans le calcul de Δφ. En effet, les distances de M à S1 et de M à S2, notées respectivement r1 et r2, vérifient alors :
+où x est la distance de M au centre de l'écran.
+Cette différence de trajet, souvent appelée différence de marche, correspond à un déphasage entre les deux rayons :
+.
+On peut alors montrer que l'intensité reçue au niveau de l'écran est proportionnelle à :
+L'intensité est donc répartie de manière périodique  : les franges sont séparées d'une distance e = D * λ / d. Cela correspond, pour une lumière visible, à des franges séparées d'un millimètre sur un écran placé à deux mètres.
+Cas d'un écran à l'infini[modifier | modifier le code]
+Relations géométriques dans le cas d'un écran à l'infini
+Pour pousser l'approximation à sa limite, on peut étudier le cas où les rayons interfèrent à l'infini, c'est-à-dire lorsqu'ils sont parallèles entre eux. Dans la pratique, cela s'obtient en plaçant l'écran à plusieurs mètres des fentes, ou bien en plaçant l'écran au foyer image d'une lentille convergente.
+Dans ce cas, on montre rapidement (voir la figure ci-contre) que la différence de marche entre deux rayons interférant entre eux vaut :
+.
+Le même raisonnement que dans la partie précédente donne un angle entre les franges valant λ/d.
+Ces résultats aboutissent aux observations suivantes :
+plus les fentes sont éloignées l'une de l'autre, plus les franges sont rapprochées ;
+plus l'écran est éloigné, plus les franges sont espacées.
+Rôle de la diffraction par chaque fente[modifier | modifier le code]
+Figure observée.
+Les calculs précédents montrent que l'intensité des franges est partout égale. Or on observe (voir figure ci-contre) que leur intensité diminue lorsqu'on s'éloigne du centre de l'écran. Deux phénomènes sont à l'origine de cette observation.
+Premièrement, les fentes ont une certaine largeur, ce qui implique un phénomène de diffraction par chacune des fentes. En effet, une lumière envoyée sur un petit trou n'en ressort pas de façon isotrope (on observe une tache d'Airy). Cela se traduit par le fait que la lumière est majoritairement dirigée vers l'avant. Cet effet se répercute sur la figure observée après les fentes d'Young : l'intensité des franges décroît au fur et à mesure que l'on s'éloigne du centre. Pour en tenir compte, il faut rajouter le facteur suivant à l'intensité reçue par l'écran :
+où sinc est la fonction sinus cardinal et l est la largeur de chaque fente.
+Simulation d'un profil d'intensité avec une longueur d'onde λ = 630 nm (rouge), une distance entre les fentes d = 0,5 µm, une distance fente-écran D = 1 m et une largeur de fente de 0,05 µm ; A = 1,26 m
+Le second phénomène à prendre en compte est le fait que les ondes émises en S1 et S2 sont des ondes sphériques, c'est-à-dire que leur amplitude décroît au fur-et-à-mesure qu'elles avancent. Ainsi l'amplitude de E1 et de E2 ne sera pas la même au point M. Cela donne un nouveau facteur à rajouter à l'intensité :
+On a donc finalement
+.
+Représentation du phénomène par des lignes de flux d'énergie[modifier | modifier le code]
+En complément de la théorie ondulatoire de Fresnel, il est possible de représenter le phénomène d'interférences des fentes d'Young par des lignes de flux d'énergie (pour une onde monochromatique dans le vide).
+Simulation de 20 rayons lumineux correspondant à une onde plane monochromatique de lumière (λ= 0,5 μm) dont les positions initiales ont été tirées au hasard sur les deux fentes (d=5 μm). On retrouve évidemment les franges d'interférence.
+Les lignes de flux d’énergie ont été définies depuis longtemps comme il est rappelé dans le célèbre cours de Max Born et Emil Wolf Principes of Optics [3]. Ces lignes de flux d'énergie sont obtenues par l'équation
+où < S > est la moyenne temporelle du vecteur de Poynting représentant le flux d'énergie et < u > la moyenne temporelle de la densité d'énergie.
+Pour des ondes monochromatiques dans le vide, ces lignes de flux d'énergie sont une généralisation des rayons de l'optique géométrique. En effet, si nous diminuons la longueur d'onde de la lumière, le phénomène ondulatoire disparaît et les lignes de flux d'énergie convergent vers les rayons rectilignes de l'optique géométrique. Par analogie, on les appelle les rayons lumineux de l'optique physique[4].
+Évolution des lignes de flux d'énergie quand la longueur d'onde décroit : λ= 0,5 μm; λ= 50 nm; λ= 5 nm.
+Interprétation quantique du phénomène[modifier | modifier le code]
+Les franges d'interférence se constituent petit à petit
+L'expérience originelle de Thomas Young pouvait être interprétée de manière « classique » (voir ci-dessus), en utilisant les simples lois de Fresnel, et mettait en évidence le caractère ondulatoire de la lumière.
+L'expérience d'Young a par la suite été affinée, notamment faisant en sorte que la source S émette un quantum à la fois. Par exemple, on peut à l'heure actuelle émettre des photons ou des électrons un par un. Ceux-ci sont détectés un par un sur l'écran placé après les fentes d'Young : on observe alors que ces impacts forment petit à petit la figure d'interférences. Selon des lois classiques concernant les trajectoires de ces corpuscules, il est impossible d'interpréter ce phénomène.
+L'interprétation quantique du phénomène est la suivante : le quantum émis prend un état superposé lors du franchissement de la plaque : |quantum passe par S1> + |quantum passe par S2> (voir Notation bra-ket). De la fonction d'onde résultante, on peut déterminer pour chaque point de la plaque la probabilité que le quantum y soit détecté. On peut démontrer que la distribution des probabilités suit la figure d'interférence. Autrement dit, le quantum passerait par les deux fentes à la fois, et interfèrerait avec lui-même.
+Densité de probabilité d'un électron au passage des deux fentes
+La figure ci-contre montre l'évolution de la fonction d'onde d'un électron au passage des deux fentes. Les niveaux de gris représentent la densité de probabilité de présence de l'électron. La taille réelle de l'électron est en fait bien plus petite que sa zone de probabilité de présence (en forme de cercle) initiale. On voit nettement que l'électron « interfère avec lui-même » : les franges d'interférences sont bien visibles aux sorties des deux fentes (l'électron possède aussi une certaine probabilité de « rebondir » et de former également une figure d'interférence vers l'arrière).
+Destruction de la figure d'interférence. Problème de la mesure[modifier | modifier le code]
+L'interprétation quantique de l'expérience repose sur le fait qu'un photon individuel se retrouve dans un état superposé à la suite du franchissement des fentes. On peut interpréter ce fait en disant que le photon est passé par les deux fentes en même temps. Mais que se passe-t-il si, insatisfait par cette interprétation des choses, on cherche à détecter par quelle fente le photon « est réellement passé » ?
+Destruction de la figure d'interférence
+Le résultat net de l'expérience (reproduite par Frabboni et al.)[réf. souhaitée][5] est qu'on détecte bien que le photon passe soit dans la fente de droite, soit dans la fente de gauche, mais alors la figure d'interférence disparait : le photon n'est plus dans un état superposé à cause de l'interaction avec un autre photon en vue d'une mesure (qu'on détecte le photon ou non). L'interaction du photon avec un autre au niveau de l'une des fentes provoque un « effondrement de la fonction d'onde » et de l'état superposé. Il n'existe aucun moyen de savoir de quel côté le quantum est passé sans éliminer le phénomène d'interférence.
+L'expérience d'Young permet donc également de mettre en évidence le problème de la mesure quantique. Ce problème est que les lois quantiques ne prévoient pas directement cet effondrement, et qu'il n'existe donc pas de définition objective et rigoureuse de ce qu'est une "mesure" (voir traitement complet de ce problème dans les articles Chat de Schrödinger et Problème de la mesure quantique).
+Exemple de fullerène, aussi appelé « footballène »
+À l'heure actuelle, des développements sur le sujet permettent de réaliser des expériences très similaires sur des objets de plus en plus volumineux, comme les atomes, les molécules, les condensats de Bose-Einstein.
+En particulier, on a observé des interférences avec des molécules de fullerène[6]. Ces expériences démontrent que la vision purement corpusculaire de la matière n'est pas satisfaisante avec des objets de plus en plus gros, d'où la question récurrente de la dualité onde-corpuscule en physique quantique.
+Notes[modifier | modifier le code]
+↑ Dans la pratique, on peut utiliser une lampe à vapeur atomique, une lampe blanche muni d'un filtre de couleur, ou encore un laser.
+↑ On suppose, pour simplifier, que les deux ondes interfèrent dans une zone où leurs amplitudes sont les mêmes.
+↑ (en) Max Born, Emil Wolf, Principles of Optics: Electromagnetic Theory of Propagation, Interference and Diffraction of Light, Cambridge, Cambridge University Press,‎ 1999, 7e éd. (1re éd. 1959) (ISBN 978-0-521-64222-4), p. 575-577
+↑ (en) Gondran M., Gondran A., « Energy flow lines and the spot of Poisson-Arago », American Journal of Physics, vol. 78, no 6,‎ 2010, p. 598-602 (ISSN 0002-9505, lire en ligne)
+↑ (en) Frabboni et al., « Ion and electron beam nanofabrication of the which-way double-slit experiment in a transmission electron microscope », Applied Physics Letters, no 97,‎ 2010 (lire en ligne)
+↑ Nairz O, Arndt M, and Zeilinger A. Quantum interference experiments with large molecules. American Journal of Physics, 2003; 71:319-325. http://scitation.aip.org/getabs/servlet/GetabsServlet?prog=normal&id=AJPIAS000071000004000319000001&idtype=cvips&gifs=yes
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Optique physique
+Interférométrie
+Mécanique quantique
+Problème de la mesure quantique
+Dualité onde-corpuscule
+Liens externes[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Fentes d'Young, sur Wikimedia Commons
+(en) « Un résumé de l'expérience de Tonomura sur le site de Hitachi » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-03-29
+http://physicsweb.org/articles/world/15/9/1/1
+Un site interactif reproduisant l'expérience d'Young
+Une vidéo montrant et expliquant l'expérience des fentes d'Young
+Simulation complète des principaux dispositifs d'interférométrie. Université Paris XI
+Huyghens, Young, Fresnel, Maxwell, la lumière et l'électricité.
+Bibliographie[modifier | modifier le code]
+Les clichés des franges d'électrons réalisées par Faget et Fert (il s'agit du père d'Albert Fert, prix Nobel 2007) sont reproduites dans le livre de Physique Atomique de B. Cagnac et J.C. Pebay-Peroula, publié en 1975 chez Dunod, récemment réédité.
+Claus Jönsson, Zeitschrift für Physik 161, 454-474 (1961); Claus Jönsson, 1974 Electron diffraction at multiple slits American Journal of Physics 42 4-11:
+« http://www.physik.uni-muenchen.de/leifiphysik/web_ph12/versuche/09joensson/joensson.htm » (Archive • Wikiwix • Archive.is • Google • Que faire ?)
+A Tonomura, J Endo, T Matsuda, T Kawasaki and H Ezawa 1989 Demonstration of single-electron build-up of an interference pattern American Journal of Physics 57 117-120
+F. Frémont et al.,Interférences de type Young avec un seul électron, C.R. Académie des Sciences, 2008, Physique, 9
+Portail de la physique
+Portail de l’optique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Fentes_d%27Young&oldid=110158502 ».
+Catégories : InterféromètreMécanique quantiqueExpérience de physiqueCatégories cachées : Article à référence souhaitéeCatégorie Commons avec lien local identique sur WikidataArticle contenant un lien mortPortail:Physique/Articles liésPortail:Sciences/Articles liésPortail:Optique/Articles liésBon article en chinois
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+עברית
+Magyar
+Հայերեն
+Bahasa Indonesia
+Italiano
+日本語
+ქართული
+한국어
+Lietuvių
+Nederlands
+ଓଡ଼ିଆ
+Polski
+Português
+Română
+Русский
+Sicilianu
+Simple English
+Slovenčina
+Svenska
+தமிழ்
+Tagalog
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 22 décembre 2014 à 12:53.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

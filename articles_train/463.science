@@ -1,0 +1,202 @@
+Analyse numérique — Wikipédia
+Analyse numérique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+L’analyse numérique est une discipline des mathématiques. Elle s’intéresse tant aux fondements théoriques qu’à la mise en pratique des méthodes permettant de résoudre, par des calculs purement numériques, des problèmes d’analyse mathématique.
+Plus formellement, l’analyse numérique est l’étude des algorithmes permettant de résoudre les problèmes de mathématiques continues (distinguées des mathématiques discrètes). Cela signifie qu’elle s’occupe principalement de répondre numériquement à des questions à variable réelle ou complexe comme l’algèbre linéaire numérique sur les champs réels ou complexes, la recherche de solution numérique d’équations différentielles et d’autres problèmes liés survenant dans les sciences physiques et l’ingénierie.
+Sa mise en œuvre pratique et ses domaines d’application sont décrits plus complètement dans l’article calcul numérique.
+Simulation numérique d'un crash de véhicule
+Sommaire
+1 Introduction générale
+1.1 La génération et la propagation des erreurs
+2 Domaines d’études
+2.1 Calcul des valeurs de fonctions
+2.2 Interpolation, extrapolation et régression
+2.3 Résolution d’équations et systèmes d'équations
+2.4 Optimisation
+2.5 Évaluation des intégrales
+2.6 Équations différentielles
+3 Annexes
+3.1 Note
+3.2 Articles connexes
+3.3 Références
+4 Liens externes
+Introduction générale[modifier | modifier le code]
+Certains problèmes de mathématiques peuvent être résolus numériquement (c.-à-d., sur ordinateur) de façon exacte par un algorithme en un nombre fini d'opérations. Ces algorithmes sont parfois appelés méthodes directes ou qualifiés de finis. Des exemples sont l’élimination de Gauss-Jordan pour la résolution d’un système d’équations linéaires et l’algorithme du simplexe en optimisation linéaire.
+Cependant, aucune méthode directe n’est connue pour certains problèmes (de plus, pour une classe de problèmes dits NP-complets, aucun algorithme de calcul direct en temps polynomial n'est connu à ce jour). Dans de tels cas, il est parfois possible d’utiliser une méthode itérative pour tenter de déterminer une approximation de la solution. Une telle méthode démarre depuis une valeur devinée ou estimée grossièrement et trouve des approximations successives qui devraient converger vers la solution sous certaines conditions. Même quand une méthode directe existe, une méthode itérative peut être préférable car elle est souvent plus efficace et même souvent plus stable (notamment elle permet le plus souvent de corriger des erreurs mineures dans les calculs intermédiaires)
+Par ailleurs, certains problèmes continus peuvent parfois être remplacés par un problème discret dont la solution est connue pour approcher celle du problème continu ; ce procédé est appelé discrétisation. Par exemple la solution d’une équation différentielle est une fonction. Cette fonction peut être représentée de façon approchée par une quantité finie de données, par exemple par sa valeur en un nombre fini de points de son domaine de définition, même si ce domaine est continu.
+L’utilisation de l’analyse numérique est grandement facilitée par les ordinateurs. L’accroissement de la disponibilité et de la puissance des ordinateurs depuis la seconde moitié du XXe siècle a permis l’application de l’analyse numérique dans de nombreux domaines scientifiques, techniques et économiques, avec souvent des effets révolutionnaires.
+La génération et la propagation des erreurs[modifier | modifier le code]
+L’étude des erreurs forme une partie importante de l’analyse numérique. Les erreurs introduites dans la solution d’un problème ont plusieurs origines. Les erreurs d’arrondis surviennent car il est impossible de représenter en pratique tous les nombres réels exactement sur une machine à états finis (ce que sont en fin de compte tous les ordinateurs numériques). Les erreurs de troncature sont commises par exemple quand une méthode itérative est terminée et que la solution approchée obtenue diffère de la solution exacte. De façon similaire, la discrétisation (en) d’un problème (aussi appelée quantification dans les applications pratiques de calcul numérique) induit une erreur de discrétisation (en) (erreur de quantification dans les applications pratiques) car la solution du problème discret ne coïncide pas exactement avec la solution du problème continu.
+Une fois que l’erreur est générée, elle se propagera généralement tout au long du calcul. Cela conduit à la notion de stabilité numérique[1] : un algorithme est numériquement stable si une erreur, une fois générée, ne croît pas trop durant le calcul (dans une méthode de calcul itératif, une erreur trop grande peut dans certains cas faire diverger l’algorithme qui ne parviendra pas à approcher la solution). Cela n’est possible que si le problème est bien conditionné, ce qui signifie que la solution ne change que d'une faible quantité si les données du problème sont changées d'un montant faible. Ainsi, si un problème est mal conditionné, alors la moindre erreur dans les données provoquera une erreur très importante dans la solution trouvée.
+Cependant, un algorithme qui résout un problème bien conditionné peut être ou ne pas être numériquement stable. Tout l’art de l’analyse numérique consiste à trouver un algorithme stable pour résoudre un problème mathématique bien posé. Un art apparenté est de trouver des algorithmes stables permettant de résoudre des problèmes mal posés, ce qui requiert généralement la recherche d'un problème bien posé dont la solution est proche de celle du problème mal posé, puis de résoudre à la place ce second problème bien posé.
+Domaines d’études[modifier | modifier le code]
+Le champ de l’analyse numérique est divisé en différentes disciplines suivant le type de problème à résoudre, et chaque discipline étudie diverses méthodes de résolution des problèmes correspondants.
+Parmi les exemples de méthodes d’analyse numérique, en voici quelques-unes utilisées pour discrétiser un système d'équations : la méthode des éléments finis, la méthode des différences finies, la méthode des différences divisées, la méthode des volumes finis…
+Calcul des valeurs de fonctions[modifier | modifier le code]
+Un des problèmes les plus simples est l’évaluation d’une fonction à un point donné. Mais même l’évaluation d’un polynôme approchant n’est pas aussi évidente qu’il y parait : la méthode de Horner est souvent plus efficace que la méthode élémentaire basée sur les coefficients du polynôme développé et la simple somme de ses termes. Généralement, il est important d’estimer à l’avance et de contrôler les erreurs d’arrondis survenant lors de l’utilisation d’opérations arithmétiques en virgule flottante.
+Interpolation, extrapolation et régression[modifier | modifier le code]
+L’interpolation tente de résoudre ou d’approcher la solution au problème suivant : étant donné la valeur connue d'une certaine fonction en un certain nombre de points, quelle valeur prend cette fonction en un autre point quelconque situé entre deux points donnés ? Une méthode très simple est d’utiliser l’interpolation linéaire, qui suppose que la fonction inconnue évolue linéairement entre chaque paire de points successifs connus. Cette méthode peut être généralisée en interpolation polynomiale, qui est parfois plus précise (on peut en chiffer la précision si les dérivées de la fonction sont connues jusqu'à l'ordre N pour une interpolation à N points) et nécessite de plus petites tables de valeurs connues, mais elle souffre du phénomène de Runge.
+D’autres méthodes d’interpolation utilisent des fonctions localisées telles que les splines ou la compression par ondelettes.
+L’extrapolation est très similaire à l’interpolation, sauf que cette fois on veut déterminer la valeur d’une fonction en un point situé hors de l’intervalle des points connus. Dans certains cas (par exemple pour l’extrapolation de valeurs de fonctions cycliques, logarithmiques ou exponentielles), il est possible de réduire un problème d’extrapolation dans un domaine de définition très étendu voire infini, à un problème d’interpolation dans le sous-espace fini contenant les points connus.
+La régression est aussi similaire, mais prend en compte le fait que les données connues sont aussi imprécises. Étant donné certains points, et la mesure de la valeur d’une fonction à ces points (avec une erreur maximale estimée), on veut déterminer la fonction inconnue. La méthode des moindres carrés est une façon populaire de procéder.
+Résolution d’équations et systèmes d'équations[modifier | modifier le code]
+Un autre problème fondamental est le calcul des solutions d’une équation donnée. Deux cas sont communément distingués, suivant que l’équation est linéaire ou non.
+De nombreux efforts ont été consacrés au développement de méthodes de résolution de systèmes d’équations linéaires. Les méthodes standards incluent l’élimination de Gauss-Jordan, et la décomposition LU. Les méthodes itératives telles que la méthode du gradient conjugué sont généralement préférées sur les larges systèmes d’équations.
+Les algorithmes de recherche de racines d’une fonction sont utilisés pour résoudre les équations non linéaires (elles sont nommées ainsi car la racine d’une fonction est un argument pour lequel la fonction retourne zéro). Si la fonction est différentiable et que sa dérivée est connue, alors la méthode de Newton est un choix populaire. La linéarisation est une autre technique pour la résolution d’équations non linéaires.
+Optimisation[modifier | modifier le code]
+Article détaillé : Optimisation (mathématiques).
+Dans les problèmes d’optimisation, on recherche un point d'un ensemble en lequel une fonction définie sur cet ensemble est minimale (ou maximale). Cet ensemble est souvent défini comme une partie d'un espace vectoriel délimitée par des contraintes, c'est-à-dire par des égalités, des inégalités, des appartenances, définies au moyen d'autres fonctions.
+L’optimisation est découpée en sous-disciplines qui se chevauchent, suivant la forme de la fonction objectif et celle des contraintes : l'optimisation en dimension finie ou infinie (on parle ici de la dimension de l'espace vectoriel des variables à optimiser), l'optimisation continue ou combinatoire (les variables à optimiser sont discrètes dans ce dernier cas), l'optimisation différentiable ou non lisse (on qualifie ici la régularité des fonctions définissant le problème), l'optimisation linéaire (fonctions affines), quadratique (objectif quadratique et contraintes affines), {semi-définie (la variable à optimiser est une matrice dont on requiert la semi-définie positivité), conique (généralisation du problème précédent, dans lequel on minimise une fonction linéaire sur l'intersection d'un cône et d'un sous-espace affine), convexe (fonctions convexes), non linéaire, la commande optimale, l'optimisation stochastique et robuste (en) (présence d'aléas), l'optimisation multicritère (un compromis entre plusieurs objectifs contradictoires est recherché), l'optimisation algébrique (fonctions polynomiales), l'optimisation bi-niveaux, l'optimisation sous contraintes de complémentarité, l'optimisation disjonctive (l'ensemble admissible est une réunion d'ensembles), etc. Cette abondance de disciplines provient du fait que pratiquement toute classe de problèmes modélisables peut conduire à un problème d'optimisation, pourvu que l'on y introduise des paramètres à optimiser. Par ailleurs, les conditions d'optimalité de ces problèmes d'optimisation apportent parfois des expressions mathématiques originales qui, par le mécanisme précédent, conduisent à leur tour à de nouveaux problèmes d'optimisation.
+L'analyse et la résolution numérique des problèmes d'optimisation différentiable avec contraintes passe souvent par l'écriture de ses conditions d'optimalité. Celles-ci font apparaître des variables cachées (les multiplicateurs ou variables duales) qui ne sont pas présentes dans l'énoncé du problème original, mais qui apportent une information précieuse sur celui-ci (les coûts marginaux). Les multiplicateurs de Lagrange ont fait leur apparition au XVIIIe siècle pour traiter les problèmes d’optimisation avec contraintes d'égalité. Pour les problèmes avec contraintes d'inégalité, ces multiplicateurs ont été mis en évidence au milieu du XXe siècle par de nombreux auteurs, dont Karush, Kuhn et Tucker.
+Les problèmes d'optimisation étant très divers par leur nature et leur structure, les méthodes numériques de résolution de ces problèmes sont nombreuses. Beaucoup de problèmes d'optimisation sont NP-difficiles ; c'est déjà le cas pour un problème d'optimisation quadratique non convexe.
+Évaluation des intégrales[modifier | modifier le code]
+Article détaillé : Calcul numérique d'une intégrale.
+L’intégration numérique, également connue comme quadrature numérique, recherche la valeur d’une intégrale définie. Les méthodes populaires sont basées sur les formules de Newton-Cotes (avec par exemple la méthode du point médian ou la méthode des trapèzes) ou utilisent les méthodes de quadrature de Gauss. Cependant si la dimension du domaine d’intégration devient large, ces méthodes deviennent aussi prohibitivement onéreuses. Dans cette situation, on peut utiliser une méthode de Monte-Carlo, une méthode de quasi-Monte-Carlo ou, dans des dimensions modestement larges, la méthode des grille incomplète (en).
+Équations différentielles[modifier | modifier le code]
+Articles détaillés : Résolution numérique des équations différentielles et Résolution numérique des équations aux dérivées partielles (en)
+L'analyse numérique traite également du calcul (de façon approchée) des solutions d’équations différentielles, que ce soit des équations différentielles ordinaires, ou des équations aux dérivées partielles.
+Les équations aux dérivées partielles sont résolues en discrétisant d’abord l’équation, en l’amenant dans un sous-espace de dimension finie. Ceci peut être réalisé par une méthode des éléments finis, une méthode des différences finies ou, particulièrement dans l’ingénierie, une méthode des volumes finis. La justification théorique de ces méthodes implique souvent des théorèmes de l’analyse fonctionnelle. Ceci réduit le problème à la résolution d’une équation algébrique.
+Annexes[modifier | modifier le code]
+Note[modifier | modifier le code]
+↑ (en) N.J. Higham (en), Accuracy and Stability of Numerical Algorithms, Philadelphia, SIAM Publication,‎ 2002.
+Articles connexes[modifier | modifier le code]
+Calcul numérique
+Méthode de la fausse position
+Liste de sujets sur l’analyse numérique (en)
+Liste de publications importantes en analyse numérique (en)
+Références[modifier | modifier le code]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Numerical analysis » (voir la liste des auteurs).
+(en) Nick Trefethen (en), The definition of numerical analysis, paru dans SIAM News, novembre 1992.
+(de)/(en) Numerische Mathematik : copies complètes numérisées en ligne des volumes 1-66, couvrant les années 1959 à 1994, d’un journal bien connu d’analyse numérique.
+Liens externes[modifier | modifier le code]
+Méthodes d'analyse numérique, Pascal Viot, UPMC: introduction aux méthodes d'analyse numérique utilisées en physique afin de résoudre les équations algébriques ou différentielles.
+Analyse numérique, Catherine Bolley, Ecole Centrale de Nantes
+(en) Numerical analysis DMOZ category
+Cours d'analyse numérique
+v · d · m
+Domaines des mathématiques
+Algèbre • Algèbre commutative • Algèbre homologique • Algèbre linéaire • Analyse • Analyse réelle • Analyse complexe • Analyse fonctionnelle • Analyse numérique • Calcul quantique • Combinatoire • Géométrie • Géométrie algébrique • Géométrie différentielle • Géométrie non commutative • Optimisation • Physique mathématique • Probabilités • Statistiques • Systèmes dynamiques • Théorie des nombres • Théorie de Galois • Théorie des groupes • Topologie • Topologie algébrique
+Portail de l’analyse
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Analyse_numérique&oldid=109939602 ».
+Catégorie : Analyse numériqueCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Analyse/Articles liésProjet:Mathématiques/Articles
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+Alemannisch
+Aragonés
+العربية
+Башҡортса
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Gaeilge
+Galego
+עברית
+हिन्दी
+Fiji Hindi
+Hrvatski
+Magyar
+Bahasa Indonesia
+Italiano
+日本語
+ქართული
+Қазақша
+한국어
+Latina
+Lëtzebuergesch
+Lietuvių
+Latviešu
+മലയാളം
+Монгол
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Occitan
+Polski
+پنجابی
+Português
+Română
+Русский
+Sardu
+Srpskohrvatski / српскохрватски
+සිංහල
+Simple English
+Slovenčina
+Slovenščina
+Српски / srpski
+Basa Sunda
+Svenska
+தமிழ்
+ไทย
+Tagalog
+Türkçe
+Татарча/tatarça
+Українська
+اردو
+Oʻzbekcha
+Tiếng Việt
+Winaray
+ייִדיש
+中文
+粵語
+Modifier les liens
+Dernière modification de cette page le 14 décembre 2014 à 10:33.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

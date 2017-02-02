@@ -1,0 +1,245 @@
+Température — Wikipédia
+Température
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Température (homonymie).
+La température est une grandeur physique mesurée à l’aide d’un thermomètre et étudiée en thermométrie. Dans la vie courante, elle est reliée aux sensations de froid et de chaud, provenant du transfert thermique entre le corps humain et son environnement. En physique, elle se définit de plusieurs manières : comme fonction croissante du degré d’agitation thermique des particules (en théorie cinétique des gaz), par l’équilibre des transferts thermiques entre plusieurs systèmes ou à partir de l’entropie (en thermodynamique et en physique statistique). La température est une variable importante dans d’autres disciplines : météorologie et climatologie, médecine, et chimie.
+L’échelle de température la plus répandue est le degré Celsius, dans laquelle la glace (formée d'eau) fond à 0 °C et l'eau bout à environ 100 °C dans les conditions standard de pression. Dans les pays utilisant le système impérial (anglo-saxon) d’unités, on emploie le degré Fahrenheit où la glace fond à 32 °F et l'eau bout à 212 °F. L’unité du système international d'unités (SI), d’utilisation scientifique et définie à partir du zéro absolu, est le kelvin[1] dont la graduation est presque identique à celle des degrés centigrades.
+Comparaison des échelles de température : zéro absolu, fusion de la glace et ébullition de l'eau dans les conditions de pression standard
+Échelle
+°C
+°F
+K
+Zéro absolu
+-273,15
+-459,67
+0
+Fusion
+0
+32
+273,15
+Ébullition
+99,98
+212
+373,13
+Sommaire
+1 Introduction
+1.1 Origine physique
+1.2 Vocabulaire
+1.3 Quelques ordres de grandeurs
+2 Définition en thermodynamique
+3 Mesure de la température : la thermométrie
+3.1 Histoire de la thermométrie
+3.2 Échelles
+3.2.1 Conversion
+3.2.2 Comparaison des échelles de température
+3.3 Techniques de mesure
+4 Contrôle
+5 En météorologie
+6 En biologie et médecine
+7 En physique
+8 Aspects sociopsychologiques
+9 Notes et références
+10 Voir aussi
+10.1 Articles connexes
+Introduction[modifier | modifier le code]
+Origine physique[modifier | modifier le code]
+L'agitation thermique des molécules d'un gaz donne un aperçu de leur température.
+Les particules qui composent un système matériel (molécules ou atomes) ne sont jamais au repos. Elles sont en vibration permanente et possèdent donc une certaine énergie cinétique. La température est une mesure indirecte du degré d'agitation microscopique des particules. Par ailleurs, un espace vide de matière mais dans lequel de la lumière se propage contient lui aussi de l'énergie. Dans de bonnes conditions[2], on peut associer une température à ce rayonnement qui mesure l'énergie moyenne des particules qui le constituent. Un exemple important de rayonnement thermique est celui du corps noir dont un exemple est donné par les étoiles dont le rayonnement révèle la température des atomes qui sont à sa surface.
+Lorsque deux corps entrent en contact, ils échangent spontanément de l'énergie thermique : l'un des deux corps a des particules qui ont plus d'énergie cinétique, en les mettant en contact, les chocs entre particules font que cette énergie cinétique microscopique se transmet d'un corps à l'autre. C'est ce transfert d'énergie qui, en sciences physiques, est appelé chaleur. Ces transferts d'énergie mènent spontanément à un état d'équilibre thermique où les deux corps en présence ont la même température.
+Vocabulaire[modifier | modifier le code]
+La température ambiante est la température de l'environnement, c'est-à-dire tout l'univers sauf le système considéré.
+Néanmoins, en pratique, dans les domaines de la physique et de la chimie, il est courant de parler température ambiante pour une température courante, moyenne. Par exemple, on dit « l'eau est liquide à la température ambiante ». Mais cette dénomination n'est pas très formalisée et la valeur de la température ambiante est rarement précisée (le plus souvent évaluée de manière commune à 25 °C).
+La température normale signifie en général le 0 de l'échelle courante : c'est le plus souvent 0 °C.
+Quelques ordres de grandeurs[modifier | modifier le code]
+Article détaillé : Ordre de grandeur.
+Définition en thermodynamique[modifier | modifier le code]
+Article détaillé : Température thermodynamique.
+En thermodynamique, la température est définie à partir de l'énergie totale d'un système (appelée dans ce contexte énergie interne) et du nombre d'états que celui-ci peut posséder pour une valeur fixée de cette énergie, qui est donnée par la notion d'entropie. On parle alors de température thermodynamique, qui se mesure en Kelvin et dont le minimum est le zéro absolu, inaccessible en pratique du fait de propriétés quantiques. 450 pK (soit 0,45 nK ou 0,00000000045 K), c'est-à-dire -273,14999999955 °C, est le record atteint en 2003[3] au laboratoire de recherches du Massachusetts Institute of Technology (MIT) par une équipe codirigée par le prix Nobel de physique Wolfgang Ketterle.
+Dans certaines expériences de physique, le calcul de la température au moyen de sa définition thermodynamique peut exceptionnellement aboutir à des valeurs négatives. Ces valeurs négatives sont extrêmement faibles (de l'ordre de quelques picokelvins à quelques nanokelvins). Elles apparaissent dans la mesure de certains systèmes quantiques très particuliers dont l'entropie, après avoir atteint un maximum, se met à diminuer à mesure qu'on leur ajoute encore de l'énergie[4],[5]. Le signe moins n'apparaît donc que parce que le sens de la variation utilisée dans la formule a fini par s'inverser. Les échantillons pour lesquels on mesure de telles températures absolues négatives ne sont pas « plus froids » que le zéro absolu puisqu'ils fourniraient de la chaleur à tout autre système qui viendrait à leur contact. Les températures absolues négatives ne signifient pas non plus que la température est passée à un moment quelconque par le zéro absolu, « ce dernier restant impossible à atteindre »[6].
+Mesure de la température : la thermométrie[modifier | modifier le code]
+Article détaillé : Thermométrie.
+Histoire de la thermométrie[modifier | modifier le code]
+Article détaillé : Histoire de la thermométrie.
+Échelles[modifier | modifier le code]
+L'unité légale de température dans le système international est le kelvin de symbole K (noter l'absence du symbole ° car ce n'est pas une échelle de mesure). Il existe d'autres systèmes de mesures antérieurs et toujours utilisés : les échelles Celsius centigrade, Fahrenheit et Rankine.
+Le Kelvin
+il est défini à partir du point triple de l'eau : un kelvin est égal à 1/273,16 fois la température du point triple de l'eau[7]. Le zéro absolu, correspondrait à la limite à une absence totale d'agitation microscopique et à une température de −273,15 °C ; mais on ne peut jamais l'atteindre (penser que l'entité physique est plutôt 1/T, et on ne peut jamais atteindre l'infini). Cette unité permet de définir une échelle absolue des températures.
+Article détaillé : Kelvin.
+Le Celsius
+c'est le kelvin auquel on retire 273,15 K[7]. Son unité est le °C. Elle est une simple translation de l'échelle absolue (voir ci-après). La température du point triple de l'eau y a donc pour valeur 0,01 °C.
+Article détaillé : Degré Celsius.
+Les échelles centigrades
+l'échelle de mesure est telle que 0 et 100 sont fixés. Elle est appelée centigrade car les deux points de référence sont distants de 100°. Entre les deux, c'est la dilatation du mercure qui définit l'échelle.
+Par exemple dans l'échelle centigrade, le zéro correspond à la température de la glace fondante et 100 degrés centigrades correspond à la température d'ébullition de l'eau sous une pression de 1 atmosphère.
+Article détaillé : Degré centigrade.
+L'échelle Fahrenheit
+son symbole est °F. Elle attribue une plage de 180 °F entre la température de solidification de l'eau et sa température d'ébullition. On la déduit de l'échelle Celsius par une fonction affine (voir ci-après). Elle fixe le point de solidification de l'eau à 32 °F et le point d'ébullition à 212 °F.
+Article détaillé : Fahrenheit.
+L'échelle Rankine
+c'est une simple homothétie de l'échelle absolue avec un facteur 9/5 (voir ci-après).
+Article détaillé : Échelle Rankine.
+Conversion[modifier | modifier le code]
+Le tableau ci-dessous résume les formules permettant de convertir une température entre les différentes échelles.
+À partir de :
+Kelvin
+Celsius
+Fahrenheit
+Rankine
+Réaumur
+.
+Comparaison des échelles de température[modifier | modifier le code]
+Comparaison des échelles de température[a]
+Commentaire
+kelvin[b]
+Celsius
+centigrade
+Fahrenheit originelle
+Fahrenheit historique
+Fahrenheit moderne (actuelle)
+Rankine
+Delisle
+Newton
+Réaumur
+Rømer
+Zéro absolu
+0
+−273,15
+−273,197
+−459,67
+0
+559,725
+−90,14
+−218,52
+−135,90
+Plus basse température naturelle enregistrée à la surface de la Terre[c]
+180,0
+−93,2
+-135,8
+323,9
+289,8
+-30,8
+-74,6
+-41,4
+Mélange eau/sel de Fahrenheit
+0
+Origine de l'échelle Celsius moderne
+273,15
+0
+32
+491,67
+150
+0
+0
+7,5
+Température de fusion de l’eau (à la pression standard)[d]
+273,150 089(10)
+0,000 089(10)
+0
+32
+32
+32,000 160(18)
+491,670 160(18)
+≈ 150
+≈ 0
+≈ 0
+≈ 7,5
+Température du point triple de l’eau
+273,16
+0,01
+32,018
+Température moyenne à la surface de la Terre
+288
+15
+59
+518,67
+127,5
+4,95
+12
+15,375
+Température moyenne du corps humain
+309,95
+36,8
+98,24
+557,91
+94,8
+12,144
+29,44
+26,82
+Plus haute température naturelle enregistrée à la surface de la Terre[e]
+329,8
+56,7
+134
+593,67
+67,5
+18,7
+45,3
+33,94
+Température de vaporisation de l’eau (à la pression standard)
+373,1339
+99,9839
+100
+≈ 212
+212
+211,971
+671,641
+0
+33
+80
+60
+Température de fusion du titane
+1 941
+1 668
+3 034
+3 494
+−2 352
+550
+1 334
+883
+Température estimée de la surface du Soleil
+5 800
+5 526
+9 980
+10 440
+−8 140
+1 823
+4 421
+2 909
+↑ Certains nombres de ce tableau ont été arrondis. Les valeurs en gras sont celles qui, par définition des différentes échelles, sont exactes (= qui ont un nombre infini de chffres significatifs).
+↑ La désignation de l’échelle « kelvin » est tout en minuscules car c’est une unité du Système international, même si elle porte le nom de Lord Kelvin. Par contre le symbole est un K majuscule.
+↑ Enregistrée par satellite en Antarctique le 10 août 2010 [8]
+↑ La température étant aujourd'hui définie par le point triple de l'eau fixé à 0,01°C, il en résulte que la température de fusion de l'eau mesurée précisément est de 0,000 089(10) °C.
+↑ Enregistrée à Furnace Creek aux États-Unis le 10 juillet 1913[9].
+Techniques de mesure[modifier | modifier le code]
+Capteur thermométrique
+Thermoscope
+Thermomètre
+Thermomètre à résistance de platine
+Thermocouple
+Thermomètre infrarouge
+Pyromètre
+Thermistance
+Thermomètre à minimum et maximum
+Contrôle[modifier | modifier le code]
+Thermostat
+Climatisation
+Réfrigération, Réfrigérateur, Froid industriel, Production du froid
+Bain thermostaté, Étuve de laboratoire, Four, etc.
+Cryogénie, Cryostat
+En météorologie[modifier | modifier le code]
+Dans le domaine de la météorologie, la température s'écrit souvent T° et on parle de température éolienne, pour exprimer la température ressentie sous l'effet du vent, aussi connue sous température subjective, impression de chaud ou froid, ou encore température au vent (pour plus de détails, voir Refroidissement éolien).
+La température sèche correspond à la température classique donné par un thermomètre mais protégé de l'humidité et des radiations. Sur un diagramme de l'air humide, la courbe de température constante est une droite verticale.
+On mesure la température humide, ou température du thermomètre mouillé, avec un thermomètre sur lequel de l'eau s'évapore. On utilise généralement de la mousse mouillée que l'on ventile. La température humide est toujours inférieure à la température sèche ; elles sont d'autant plus égales que l'humidité relative est proche de 100 %. L'instrument utilisé pour mesurer simultanément températures sèche et humide est le psychromètre.
+Voir aussi :
+Amplitude thermique
+Records de température sur Terre
+Point de rosée
+Point de givrage
+En biologie et médecine[modifier | modifier le code]
+Animaux homéothermes, poïkilothermes
+Température corporelle
+En physique[modifier | modifier le code]
+Il existe de nombreuses définitions de la température dès que l'objet considéré n'est pas à l'équilibre thermique. On repère par des noms caractéristiques diverses températures signalant un changement brutal de propriétés d'un corps. Voir Température (homonymie)  pour plus de détails.
+Aspects sociopsychologiques[modifier | modifier le code]
+Selon la culture, la chaleur de l'environnement, d'un habitat, de vêtements, d'objets ou de la nourriture évoque différentes choses et favorise différents comportements sociaux. Les mots « chaleureux » ou « froid » ou des expressions telles que « à mains froides cœur chaud » montrent l'importance sous-jacente de la chaleur dans les interactions humaines.
+Des expériences ont montré qu'un sujet tenant une tasse de café chaud tend à trouver les autres plus chaleureux et attentionnés que s'il tient un café glacé. Il offrira plus volontiers un cadeau à son entourage après avoir tenu un café chaud, alors qu'il tendra à s'occuper de lui après avoir tenu un café glacé[10].

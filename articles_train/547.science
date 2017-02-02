@@ -1,0 +1,445 @@
+Décomposition en valeurs singulières — Wikipédia
+Décomposition en valeurs singulières
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Vous lisez un « bon article ».
+En mathématiques, le procédé d'algèbre linéaire de décomposition en valeurs singulières (ou SVD, de l'anglais : Singular Value Decomposition) d'une matrice est un outil important de factorisation des matrices rectangulaires réelles ou complexes. Ses applications s'étendent du traitement du signal aux statistiques, en passant par la météorologie.
+Le théorème spectral énonce qu'une matrice normale peut être diagonalisée par une base orthonormée de vecteurs propres. On peut voir la décomposition en valeurs singulières comme une généralisation du théorème spectral à des matrices arbitraires, qui ne sont pas nécessairement carrées.
+Sommaire
+1 Contexte mathématique
+1.1 Énoncé du théorème
+1.2 Existence
+1.2.1 Preuve utilisant l'algèbre
+1.2.2 Caractérisation alternative
+1.3 Valeurs singulières et vecteurs singuliers
+1.4 Exemple
+1.5 Lien avec la décomposition en valeurs propres
+1.6 Interprétation géométrique
+1.7 Interprétation statistique
+2 Histoire
+3 Variantes
+3.1 SVD/ICA
+3.2 Décomposition généralisée
+3.3 Décomposition 2D
+3.4 Décomposition 3D
+3.5 Décompositions réduites
+3.5.1 SVD « fine »
+3.5.2 SVD « compacte »
+3.5.3 SVD « tronquée »
+4 Normes
+4.1 Normes de Ky Fan
+4.2 Norme de Hilbert-Schmidt
+5 Opérateurs bornés sur les espaces de Hilbert
+5.1 Valeurs singulières et opérateurs compacts
+6 Utilisations
+6.1 Calcul du pseudo-inverse
+6.2 Image, rang et noyau
+6.3 Approximations de matrices, le théorème d'Eckart Young
+6.4 Application aux langues naturelles
+6.5 Cinématique inverse
+6.5.1 Énoncé du problème
+6.5.2 Résolution
+6.5.3 Résolution alternative
+6.6 Autres exemples
+7 Calcul de la SVD
+8 Voir aussi
+8.1 Bibliographie
+8.2 Articles connexes
+8.3 Liens externes
+8.3.1 Implémentations
+8.3.2 Cours et conférences
+8.3.3 Explications et applications
+9 Notes et références
+Contexte mathématique[modifier | modifier le code]
+Énoncé du théorème[modifier | modifier le code]
+Soit
+une matrice m×n dont les coefficients appartiennent au corps K, où K = ℝ ou K = ℂ. Alors il existe une factorisation de la forme :
+,
+avec
+une matrice unitaire m×m sur K,
+une matrice m×n dont les coefficients diagonaux sont des réels positifs ou nuls et tous les autres sont nuls, et
+est la matrice adjointe à , matrice unitaire n×n sur K. On appelle cette factorisation la décomposition en valeurs singulières de .
+Décomposition en valeurs singulières dans le cas d'une matrice réelle à 2 dimensions M. Cette transformation déforme, par exemple, un cercle unitaire bleu ci-dessus à gauche en une ellipse dans le coin supérieur droit de l'image. La transformation M peut alors être décomposée en une rotation V* suivie d'une compression ou étirement Σ le long des axes de coordonnées suivie en fin d'une nouvelle rotation U. Les valeurs singulières σ1 et σ2 correspondent aux longueurs des grand et petit axes de l'ellipse.
+La matrice
+contient un ensemble de vecteurs de base orthonormés de Kn, dits « d'entrée » ou « d'analyse » ;
+La matrice
+contient un ensemble de vecteurs de base orthonormés de Km, dits « de sortie » ;
+La matrice
+contient dans ses coefficients diagonaux les valeurs singulières de la matrice .
+Une convention courante est de ranger les valeurs i,i par ordre décroissant. Alors, la matrice
+est déterminée de façon unique par
+(mais
+et
+ne le sont pas).
+Existence[modifier | modifier le code]
+Une valeur propre λ d'une matrice est caractérisée par la relation M u = λ u. Quand M est hermitienne, une autre caractérisation différente est envisageable. Soit M une matrice n × n symétrique réelle. On pose f: Rn → R telle que f(x) = xT M x. Cette fonction est continue et atteint son maximum en un certain vecteur u quand elle est restreinte à la boule unité fermée { ||x|| ≤ 1}. D'après le théorème des multiplicateurs de Lagrange, u vérifie :
+On montre facilement que la relation ci-dessus donne M u = λ u. Ainsi, λ est la plus grande valeur propre de M. Les mêmes opérations sur le complément orthogonal de u donne la seconde plus grande valeur, et ainsi de suite. Le cas d'une matrice complexe hermitienne est similaire, avec f(x) = x* M x, fonction de 2n variables à valeurs réelles.
+Les valeurs singulières sont similaires, en tant qu'elles peuvent être décrites de façon algébrique ou à partir de principes variationnels. En revanche, au contraire du cas des valeurs propres, l'hermiticité et la symétrie de M ne sont plus nécessaires.
+Preuve utilisant l'algèbre[modifier | modifier le code]
+Soit M une matrice complexe m×n. Alors M*M est positive semi-définie, donc hermitienne. D'après le théorème spectral, il existe une matrice unitaire carrée de côté n, notée V, telle que :
+,
+où D est diagonale, définie positive et de même rang r que M. En écrivant V de façon appropriée :
+avec V1 matrice n×r de rang r et V2 matrice n×(n-r).
+Ainsi, V*1M*MV1 = D, et MV2 = 0. On pose :
+Alors on a :
+On constate que c'est presque le résultat attendu, à ceci près que U1 est une matrice r×m d'une isométrie partielle (U1U*1 = I). Pour achever la démonstration, on complète U1 pour la rendre unitaire. On choisit U2 tel que
+soit unitaire. Un calcul montre que :
+ce qui correspond au résultat attendu, en prenant pour U la matrice adjointe de .
+On aurait également pu commencer la démonstration en diagonalisant MM* au lieu de M*M, on aurait alors montré directement que MM* et M*M ont même valeurs propres non-nulles.
+Caractérisation alternative[modifier | modifier le code]
+Les valeurs singulières peuvent également être caractérisées comme maxima de uTMv, considérée comme une fonction de u et v, sur des sous-espaces particuliers. Les vecteurs singuliers sont les valeurs de u et v pour lesquelles ces maxima sont atteints.
+Soit M une matrice réelle m × n. Soit
+et
+l'ensemble des vecteurs unitaires (selon la norme 2) de Rm et Rn respectivement. On pose la fonction :
+,
+pour les vecteurs u ∈
+et v ∈ .
+On considère la fonction σ restreinte à
+× . Puisqu'à la fois
+et
+sont des ensembles compacts, leur produit est également compact. En outre, puisque σ est continue, elle atteint son maximum pour au moins une paire de vecteurs u ∈
+et v ∈ . Ce maximum est noté σ1, et les vecteurs correspondants sont notés u1 et v1. Puisque
+est la plus grande valeur de , elle est positive : si elle était négative, en changeant le signe de u1 ou de v1, on la rendrait positive - et donc plus grande.
+Lemme — u1 et v1 sont respectivement vecteurs singuliers à gauche et à droite pour M associés à σ1.
+Démonstration — De même que pour le cas des valeurs propres, en supposant que les deux vecteurs vérifient l'équation de Lagrange :
+.
+On montre que cela donne :
+, et
+.
+En multipliant la première équation à gauche par , et la seconde à gauche par , en prenant , on a :
+,
+.
+Ainsi, σ1 = 2 λ1 = 2 λ2. On a donc :
+, et de même, .
+D'autres vecteurs singuliers et valeurs singulières peuvent être obtenus en maximisant σ(u, v) sur u, v, qui sont orthogonaux à u1 et v1, respectivement.
+On peut de même traiter le cas de matrices complexes.
+Valeurs singulières et vecteurs singuliers[modifier | modifier le code]
+On appelle valeur singulière de M toute racine carrée d'une valeur propre de M*M, autrement dit tout réel positif σ tel qu'il existe un vecteur unitaire u dans Km et un vecteur unitaire v dans Kn vérifiant :
+et
+Les vecteurs u et v sont appelés vecteur singulier à gauche et vecteur singulier à droite pour σ, respectivement.
+Dans toute décomposition en valeurs singulières,
+,
+les coefficients diagonaux de Σ sont égaux aux valeurs singulières de M. Les colonnes de U et de V sont, respectivement, vecteur singulier à gauche et à droite pour les valeurs singulières correspondantes.
+Par conséquent, le théorème ci-dessus énonce que :
+Une matrice M de type m × n possède au moins une et au plus p = min(m,n) valeurs singulières distinctes ;
+Il est toujours possible de trouver une base unitaire pour Km constituée des vecteurs singuliers à gauche de M ;
+Il est toujours possible de trouver une base unitaire pour Kn constituée des vecteurs singuliers à droite de M ;
+Une valeur singulière pour laquelle on peut trouver deux vecteurs singuliers à gauche (respectivement, à droite) qui ne sont pas linéairements indépendants est dite dégénérée.
+Les valeurs singulières non-dégénérées ont toujours un unique vecteur singulier à gauche et à droite, à un déphasage près, c’est-à-dire à une multiplication par un facteur de la forme eiφ près (pour des réels, à un signe près). Par conséquent, si toutes les valeurs singulières de M sont non-dégénérées et non-nulles, alors sa décomposition en valeurs singulières est unique, à une multiplication d'une colonne de U et de la colonne de V correspondante par un même de déphasage.
+Les valeurs singulières dégénérées, par définition, possèdent plusieurs vecteurs singuliers. De plus, si u1 et u2 sont deux vecteurs singuliers à gauche qui correspondent à une même valeur singulière σ, alors tout vecteur unitaire obtenu par combinaison linéaire de ces deux vecteurs est également un vecteur singulier à gauche pour σ. Il en est de même pour les vecteurs singuliers à droites. Ainsi, si M possède des valeurs singulières dégénérées, alors sa décomposition en valeurs singulières n'est pas unique.
+Exemple[modifier | modifier le code]
+Soit la matrice :
+La décomposition en valeurs singulières de M est alors :
+(les valeurs non entières sont en fait des approximations à 10−3 près :
+et )
+Ainsi, on a :
+On vérifie que
+ne possède des valeurs non nulles que sur sa diagonale. De plus, comme montré ci-dessous, en multipliant les matrices
+et
+par leurs transposées, on obtient la matrice identité :
+Et de même :
+Lien avec la décomposition en valeurs propres[modifier | modifier le code]
+La décomposition en valeurs singulières est très générale, dans le sens où elle s'applique à toute matrice rectangulaire m × n. La décomposition en valeurs propres, en revanche, ne fonctionne que pour certaines matrices carrées. Néanmoins, quand elles sont toutes les deux définies, elles sont liées.
+Dans le cas d'une matrice
+hermitienne semi-définie positive, c'est-à-dire dont toutes les valeurs propres sont des réels positifs, alors les valeurs singulières et vecteurs singuliers correspondent aux valeurs propres et vecteurs propres de M :
+Plus généralement, étant donnée une décomposition en valeurs singulières de M, alors on a :
+et
+Le côté droit de ces relations décrit la décomposition en valeurs propres du côté gauche. Ainsi, le carré du module de chaque valeur singulière non-nulle de M est égal au module de la valeur propre non-nulle correspondante de
+et de . En outre, les colonnes de U (vecteurs singuliers à gauche) sont vecteurs propres pour , et les colonnes de V (vecteurs singuliers à droite) sont vecteurs propres de .
+Interprétation géométrique[modifier | modifier le code]
+Puisque U et V sont unitaires, on sait que les colonnes u1,...,um de U forment une base orthonormée de Km et que les colonnes v1,...,vn de V forment une base orthonormée de Kn (par rapport au produit scalaire sur ces espaces).
+La transformation linéaire T: Kn → Km, qui à chaque vecteur x associe Mx, a une expression relativement simple dans ces bases orthonormées : T(vi) = σi ui, pour i = 1,...,min(m,n), où σi est le i-ème coefficient diagonal de Σ, et T(vi) = 0 pour i > min(m,n).
+Le contenu géométrique du théorème de décomposition en valeurs singulières peut être résumé ainsi : pour toute application linéaire T : Kn → Km, on peut trouver une base orthonormale pour Kn et une base orthonormale pour Km telles que T associe au i-ème vecteur de base de Kn un multiple positif du i-ème vecteur de base de Km, les vecteurs restants ayant pour image 0. Dans ces bases, l'application T est ainsi représentée par une matrice diagonale dont les coefficients sont des réels positifs.
+Interprétation statistique[modifier | modifier le code]
+Les valeurs de la diagonale de la matrice Σ, rapidement décroissantes, peuvent être comprises comme des coefficients d'énergie. En sélectionnant uniquement les premières, on peut construire un modèle simplifié, empirique, décrivant les données.
+On peut également interpréter cette décomposition dans l'esprit de l'étude statistique d'un ensemble de données. Alors, les principales colonnes de U représentent les tendances de l'ensemble d'étude (les vecteurs de U représentent les « directions de plus grande variation » de l'ensemble). Les valeurs diagonales de Σ sont alors analogues à l'« énergie » ou la « représentativité » qui va pondérer ces comportements ; elles décroissent d'autant plus vite que l'ensemble statistique est ordonné.
+On peut considérer, par exemple dans l'optique du data mining, que les informations « importantes » de l'ensemble sont celles qui présentent une structure plus marquée. Alors, en annulant la diagonale de Σ au-delà d'un certain indice, puis en reconstituant la matrice de départ, on obtient des données filtrées, représentant l'information dominante de l'ensemble de départ. De façon équivalente, on peut considérer nulles des données d'énergie inférieure à un certain seuil.
+Effet de la décomposition SVD sur un ensemble de données, ici la largeur (W) et la hauteur (L) de visages humains. Les vecteurs U1 et U2 sont les deux premiers de la matrice U.
+Ainsi, la SVD permet de construire un modèle empirique, sans théorie sous-jacente, d'autant plus précis qu'on y injecte de termes.
+Il est par ailleurs possible de reconstruire, en utilisant une base de vecteurs singuliers d'un premier jeu de données, un autre jeu de données avec plus ou moins de précision, afin de déterminer la similarité entre les deux. Selon ce principe, des systèmes de décomposition, de reconnaissance et de reconstruction faciale ont été développés[1].
+L'efficacité de la méthode dépend en particulier de la manière dont on lui présente les informations. Dans l'exemple d'un visage, si on utilise naïvement la luminosité des différents pixels d'une photographie pour construire une base de vecteurs singuliers, alors il sera difficile de reconstruire le même visage dans une pose légèrement différente (ou si l'éclairement du visage a varié) : les pixels ont changé - parfois beaucoup - mais pas l'information implicite (à savoir le visage). On préfère, dans ces domaines d'application, traiter les données dans l'espace, d'où l'ajout d'un système de reconnaissance en 3D, qui permet d'« expliquer » les variations observées en reliant celles-ci, et de les relier aux données connues[1].
+Histoire[modifier | modifier le code]
+La décomposition en valeurs singulières fut développée à l'origine par les mathématiciens étudiant la géométrie différentielle, qui désiraient déterminer si une forme bilinéaire réelle pouvait en égaler une autre par des transformations orthogonales indépendantes des deux espaces concernés.
+Eugenio Beltrami et Camille Jordan ont découvert indépendamment, en 1873 et 1874 respectivement[2], que les valeurs singulières des formes bilinéaires, représentées sous forme matricielle, constituaient un ensemble complet d'invariants pour les formes bilinéaires subissant des substitutions orthogonales.
+James Joseph Sylvester s'intéressa également à la décomposition en valeurs singulières en 1889[2] pour les matrices réelles carrées, apparemment indépendamment des travaux de Beltrami et Jordan. Sylvester donna aux valeurs singulières le nom de « multiplicateurs canoniques » d'une matrice A.
+Le quatrième mathématicien à l'origine de la découverte de cette décomposition est Autonne[3], en 1915. Il aboutit à ce résultat au travers de la décomposition polaire.
+La première preuve de la décomposition en valeurs singulières pour les matrices rectangulaires et complexes est attribuée à Eckart et à Young, en 1936.
+En 1907, Erhard Schmidt définit l'analogue des valeurs singulières pour les opérateurs intégraux[2] (qui, à certaines conditions près, sont compacts) ; il semble qu'il ne connaissait pas les travaux parallèles sur les valeurs singulières des matrices de dimension finie. Cette théorie fut développée encore par le mathématicien français Émile Picard en 1910, qui est à l'origine du terme moderne de « valeurs singulières » qu'il notait [2],[4].
+Avant 1965, aucune méthode efficace de calcul de cette décomposition n'était connue. Gene H. Golub (de) et William Kahan proposèrent un premier algorithme cette année[5], puis, en 1970, Golub et Christian Reinsch publièrent une variante de l'algorithme Golub-Kahan qui demeure aujourd'hui le plus utilisé[6].
+La généralisation de cette décomposition à deux, trois ou N dimensions est encore un sujet de recherche active, puisqu'elle se révèle d'un intérêt majeur dans de nombreux domaines.
+Variantes[modifier | modifier le code]
+SVD/ICA[modifier | modifier le code]
+Il est courant d'associer les résultats de la décomposition en valeurs singulières à ceux de l'analyse en composantes indépendantes (ou ICA)[7]. Les algorithmes qui exploitent une combinaison des deux sont couramment appelés SVD/ICA. En effet, l'analyse en composantes indépendantes tient compte des termes d'ordre supérieurs ou égaux à 2 négligés par la décomposition en valeurs singulières.
+Décomposition généralisée[modifier | modifier le code]
+Le procédé de décomposition en valeurs singulières généralisée, ou GSVD, étend le concept de la décomposition en valeurs singulières en utilisant des seminormes quadratiques et s'applique aux systèmes linéaires.
+Une matrice A m × n et une matrice B p × n réelles ou complexes étant données, leur décomposition généralisée est :
+et
+avec
+et
+des matrices unitaires et
+une matrice triangulaire supérieure, non-singulière, carrée r × r, en notant
+le rang de .
+Par ailleurs,
+et
+sont des matrices m × r et p × r respectivement, nulles partout sauf sur leur diagonale principale, qui contient les réels
+et
+respectivement, tels que :
+et .
+Les rapports
+sont analogues aux valeurs singulières. Dans le cas particulier, mais important, où B est carrée et inversible, elles sont les valeurs singulières, U
+et
+sont alors les vecteurs singuliers de la matrice .
+Décomposition 2D[modifier | modifier le code]
+On peut généraliser la décomposition en valeurs singulières à plusieurs dimensions, en particulier pour traiter les images. Ici, une image puis ses valeurs singulières (3DSVD). Ici encore, elles décroissent rapidement.
+Il est possible d'étendre le concept de décomposition en valeurs singulières à des matrices complexes, ou, de manière équivalente à des matrices constituées de vecteurs 2D. Le calcul est proche de celui de la décomposition en valeurs singulières simple. On parle de décomposition en valeurs singulières 2D, ou 2DSVD.
+De même que pour le cas simple, il existe des algorithmes spécialisés qui donnent une approximation d'un ensemble de matrices de rang faible, par exemple des images ou des cartes météorologiques.
+Soit
+un ensemble de réels (c'est-à-dire de vecteurs 1D). Pour la décomposition en valeurs singulières, on construit la matrice de covariance et la matrice de Gram :
+, .
+On calcule ensuite leurs vecteurs propres
+et . Puisque , on a :
+.
+En ne gardant que les
+vecteurs propres principaux de U et V, on obtient ainsi une approximation de rang faible de la matrice . Pour les algorithmes de 2DSVD, on travaille avec des matrices 2D, c'est-à-dire un ensemble de matrices . On construit les matrices de covariance ligne-ligne et colonne-colonne :
+, .
+Pour ce faire, on agit de la même façon que pour la décomposition classique, et on calcule leurs vecteurs propres
+et . On approche les  :
+par une méthode identique à celle de la décomposition en valeurs singulières.
+On obtient ainsi une approximation de
+par la fonction :
+Les algorithmes de 2DSVD sont principalement utilisés en compression et représentation d'images. L'utilisation de la SVD pour la compression d'images a toutefois été montrée comme étant sous-optimale par rapport à une DCT, notamment à cause de l'obligation de transmettre la transformée elle-même, en plus des données image[8]. Son rôle dans le domaine de la compression est de fait marginal.
+Décomposition 3D[modifier | modifier le code]
+En considérant l'utilisation de matrices dépliées, on peut étendre la décomposition en valeurs singulières aux cas tridimensionnels, ou 3DSVD. De tels algorithmes sont utilisés en sismologie, en météorologie et en acoustique, où l'analyse de données 3D (ou 2D dépendant du temps) est souvent nécessaire.
+Décompositions réduites[modifier | modifier le code]
+Dans les utilisations, il est assez rare de devoir utiliser la forme complète de la décomposition en valeurs singulières, y compris la décomposition complète du noyau sous forme unitaire. Il est en effet courant, plus rapide, et moins coûteux en termes de mémoire, d'utiliser des versions réduites de la SVD. Les décompositions suivantes sont valables pour les matrices m × n de rang r.
+SVD « fine »[modifier | modifier le code]
+Seuls les n vecteurs colonnes de U correspondant aux vecteurs lignes de V* sont calculés. Les vecteurs colonnes restant de U ne sont pas calculés, ce qui économise une quantité importante de calculs si . La matrice Un est ainsi m × n, Σn est diagonale n × n et V est n × n.
+La première étape du calcul d'une SVD « fine » est la décomposition QR de M, qui peut être optimisée pour .
+SVD « compacte »[modifier | modifier le code]
+Seuls les r vecteurs colonnes de U et les r vecteurs lignes de V* correspondants aux valeurs singulières non-nulles Σr sont calculés. On obtient un résultat plus rapidement qu'avec la SVD « fine » si . La matrice Ur est ainsi m × r, Σr est diagonale r × r et Vr* est r × n.
+SVD « tronquée »[modifier | modifier le code]
+Seuls les t vecteurs colonnes de U et les t vecteurs lignes de V* correspondants aux t plus grandes valeurs singulières Σr sont calculées. C'est un calcul encore plus rapide que la SVD « compacte » si . La matrice Ut est ainsi m×t, Σt est diagonale t × t et Vt* est t × n.
+Cependant, cette décomposition « tronquée » n'est plus une décomposition exacte de la matrice d'origine M, mais la matrice obtenue, , est la meilleure approximation de M obtenue par une matrice de rang t, pour la norme d'opérateur subordonnée aux normes euclidiennes de Rn et Rm.
+Normes[modifier | modifier le code]
+Normes de Ky Fan[modifier | modifier le code]
+La somme des k plus grandes valeurs singulières de M est une norme sur l'espace vectoriel des matrices, appelée norme de Ky Fan ou norme k de M.
+La première des normes de Ky Fan, la norme 1 de Ky Fan, est la même que la norme d'opérateur de M en tant qu'opérateur linéaire, selon les normes euclidiennes de Km et Kn. En d'autres termes, la norme 1 de Ky Fan est la norme d'opérateur induite par le produit intérieur euclidien standard l2. Pour cette raison, on l'appelle également norme 2 d'opérateur. On peut facilement vérifier la relation en la norme 1 de Ky Fan et les valeurs singulières. C'est vrai en général, pour un opérateur borné M sur un espace de Hilbert (potentiellement infini) :
+Cependant, dans le cas des matrices, M*M½ est une matrice normale, donc ||M*M||½ est la plus grande valeur propre de M*M½, donc la plus grande valeur singulière de M.
+La dernière norme de Ky Fan, qui est égale à la somme de toutes les valeurs singulières, est la norme de trace définie par ||M|| = Tr (M*M)½.
+On considère la forme linéaire définie dans l'algèbre des matrices d'ordre n par:
+On considère la norme spectrale
+des matrices et l'on définit la norme duale de
+par:
+On vérifie alors aisément que cette norme duale est en fait la norme trace de X définie ci-dessus. De plus, cette norme est une norme d'algèbre.
+Norme de Hilbert-Schmidt[modifier | modifier le code]
+Les valeurs singulières sont liées à une autre norme sur l'espace des opérateurs. On considère le produit intérieur de Hilbert-Schmidt sur les matrices n × n, défini par <M, N> = Tr N*M. Alors la norme induite est ||M|| = <M, M>½ = (Tr M*M)½. La trace étant un invariant d'équivalence unitaire, cela implique que :
+,
+où les si sont les valeurs singulières de M. On l'appelle norme de Frobenius, norme 2 de Schatten ou norme de Hilbert-Schmidt de M. On montre également que si :
+,
+alors cette norme coïncide avec :
+.
+Opérateurs bornés sur les espaces de Hilbert[modifier | modifier le code]
+La factorisation
+peut être étendue comme opérateur borné M sur un espace de Hilbert H. D'une façon générale, pour tout opérateur borné M, il existe une isométrie partielle U, un vecteur unitaire V, un espace de mesure (X, μ) et f mesurable positive telle que :
+où
+est la multiplication par f sur L2(X, μ).
+On peut le montrer en travaillant l'argument d'algèbre linéaire utilisé pour le cas matriciel. VTf V* est l'unique racine positive de M*M, donnée par l'analyse fonctionnelle de Borel, pour les opérateurs auto-adjoints. La raison pour laquelle U n'a pas besoin d'être unitaire est liée au fait que, contrairement au cas de dimension finie, étant donnée une isométrie U1 avec un noyau non trivial, une isométrie U2 existe telle que :
+est un opérateur unitaire.
+Puisque, pour les matrices, la décomposition en valeurs singulières est équivalente à la décomposition polaire pour les opérateurs, on peut réécrire cela sous la forme :
+et remarquer que U V* est encore une isométrie partielle tant que VTf V* est positif.
+Valeurs singulières et opérateurs compacts[modifier | modifier le code]
+Pour étendre la notion de valeur singulière et de vecteurs singuliers au cas des opérateurs, on doit se restreindre aux opérateurs compacts sur les espaces de Hilbert. On rappelle certaines propriétés utiles :
+Les opérateurs compacts sur les espaces de Banach, donc de Hilbert, possèdent un spectre discret ;
+Si T est compact, tout λ de son spectre, non-nul, est une valeur propre ;
+Un opérateur compact auto-adjoint peut être diagonalisé par ses vecteurs propres ;
+Si M est compact, alors M*M l'est également.
+En utilisant la diagonalisation, l'image unitaire de la racine carrée positive de M, notée Tf, possède une famille orthonormale de vecteurs propres {ei}, correspondants aux valeurs propres strictement positives {σi}. Pour tout ψ ∈ H,
+quand la série converge normalement dans H. On remarque que cette expression est proche de celle dans le cas de dimension finie.
+Les σi sont appelées valeurs singulières de M. {U ei} et {V ei} sont analogues aux vecteurs singuliers à gauche et à droite respectivement pour M.
+Utilisations[modifier | modifier le code]
+Calcul du pseudo-inverse[modifier | modifier le code]
+La décomposition en valeurs singulières permet de calculer le pseudo-inverse d'une matrice. En effet, le pseudo-inverse d'une matrice M connaissant sa décomposition en valeurs singulières , est donné par :
+avec Σ+ la transposée de Σ où tout coefficient non-nul est remplacé par son inverse. Le pseudo-inverse lui-même permet de résoudre la méthode des moindres carrés.
+Image, rang et noyau[modifier | modifier le code]
+Une autre utilisation de la décomposition en valeurs singulières est la représentation explicite de l'image et du noyau d'une matrice M. Les vecteurs singuliers à droite correspondant aux valeurs singulières nulles de M engendrent le noyau de M. Les vecteurs singuliers à gauche correspondant aux valeurs singulières non-nulles de M engendrent son image.
+Par conséquent, le rang de M est égal au nombre de valeurs singulières non-nulles de M. De plus, les rangs de M, de
+et de
+sont égaux.
+et
+ont les mêmes valeurs propres non-nulles.
+En algèbre linéaire, on peut prévoir numériquement le rang effectif d'une matrice, puisque les erreurs d'arrondi pourraient autrement engendrer des valeurs petites mais non-nulles, faussant le calcul du rang de la matrice.
+Approximations de matrices, le théorème d'Eckart Young[modifier | modifier le code]
+Approximations successives d'une image, avec 1, 2, 4, 8, 16, 32, 64, 128 puis toutes les valeurs singulières (image originale à gauche).
+Certaines applications pratiques ont besoin de résoudre un problème d'approximation de matrices
+à partir d'une matrice
+ayant un rang donné, égal à r. Dans le cas où on tente de minimiser la distance au sens de la norme spectrale (ou aussi de Frœbenius) entre
+et , en gardant , on constate que la solution est la décomposition en valeurs singulières de , c'est-à-dire :
+avec
+égale à , si ce n'est qu'elle ne contient que les
+plus grandes valeurs singulières, les autres étant remplacées par 0. Voici une démonstration :
+Démonstration
+On se limite aux matrices carrées par souci de simplification. On utilise le symbole norme triple pour représenter la norme spectrale. On prouve le théorème d'Eckart Young tout d'abord pour la norme spectrale. Sans perte de généralité, on peut supposer que A est une matrice diagonale et donc que U et V sont la matrice identité. On pose donc . Les termes diagonaux de A sont notés . Ils sont triés par ordre décroissant. On a donc
+On considère une matrice B quelconque de rang r. On considère le sous-espace vectoriel E de
+engendrés par les vecteurs
+où chacun des
+est le vecteur
+non nul au rang i. Ce sous-espace vectoriel est de dimension r+1. Comme la matrice B est de rang r, le noyau de B est de rang n-r. Par un argument simple aux dimensions, l'intersection de E et du noyau de B n'est pas nulle. On considère un vecteur normalisé x appartenant à cette intersection. On définit
+On a alors
+Comme les vecteurs
+sont orthogonaux et normés, on obtient:
+Par définition de la norme spectrale, on déduit donc que quelle que soit la matrice B, on a
+On conclut la preuve en choisissant . n constate alors aisément que .
+Donc
+est la matrice de rang r qui minimise la norme spectrale de A - B.
+En ce qui concerne la preuve pour la norme de Frœbenius, on garde les mêmes notations et on remarque que
+La preuve est alors similaire.
+Ainsi, , matrice de rang r, est la meilleure approximation de
+au sens de la norme de Frobenius (ou spectrale) quand . De plus, ses valeurs singulières sont les mêmes que celles de .
+Application aux langues naturelles[modifier | modifier le code]
+Une des principales utilisation de la décomposition en valeurs singulières dans l'étude des langues naturelles est l'analyse sémantique latente (ou LSA, de l'anglais latent semantic analysis), une méthode de la sémantique vectorielle. Ce procédé a pour but l'analyse des relations entre un ensemble de documents et des termes ou expressions qu'on y trouve, en établissant des « concepts » communs à ces différents éléments.
+Brevetée en 1988[9], on parle également d'indexation sémantique latente (LSI). Voici une description sommaire du principe de cet algorithme.
+Dans un premier temps, on construit une matrice représentant les différentes occurrences des termes (d'un dictionnaire prédéterminé, ou extraits des documents), en fonction des documents. Par exemple, prenons trois œuvres littéraires :
+Document 1 : « J'adore Wikipédia »
+Document 2 : « J'adore le chocolat »
+Document 3 : « Je déteste le chocolat »
+Alors la matrice M associée à ces documents sera :
+J'
+Je
+adore
+déteste
+le
+Wikipédia
+chocolat
+Document 1
+1
+0
+1
+0
+0
+1
+0
+Document 2
+1
+0
+1
+0
+1
+0
+1
+Document 3
+0
+1
+0
+1
+1
+0
+1
+Éventuellement, on peut réduire certains mots à leur radical ou à un mot équivalent, ou même négliger certains termes trop courts pour avoir un sens ; la matrice contient alors Je, adorer, détester, Wikipédia, chocolat. Les coefficients (ici 1 ou 0) sont en général non pas un décompte mais une valeur proportionnelle au nombre d'occurrences du terme dans le document, on parle de pondération « tf-id » (term frequency — inverse document frequency).
+Alors M sera de la forme :
+On peut également travailler avec la transposée de M, que l'on note N. Alors les vecteurs lignes de N correspondent à un terme donné, et donnent accès à leur « relation » à chaque document :
+Et de même, une colonne de la matrice N représente un document donné, et donne accès à sa relation à chaque terme :
+On accède à la corrélation entre les termes de deux documents en effectuant leur produit scalaire. La matrice symétrique obtenue en calculant le produit
+contient tous ces produits scalaires. L'élément de S d'indice
+contient le produit :
+.
+De même, la matrice symétrique
+contient les produits scalaires entre tous les documents, qui donne leur corrélation selon les termes :
+.
+On calcule maintenant la décomposition en valeurs singulières de la matrice N, qui donne les matrices telles que :
+Alors les matrices de corrélation deviennent :
+La matrice U contient les vecteurs propres de S, la matrice V contient ceux de Z. On a alors :
+Les valeurs singulières,
+peuvent alors être sélectionnées, pour obtenir une « approximation » de la matrice à un rang k arbitraire, qui permet une analyse plus ou moins précise des données.
+Cinématique inverse[modifier | modifier le code]
+En robotique, le problème de la cinématique inverse, qui consiste essentiellement à savoir « comment bouger pour atteindre un point, » peut être abordé par la décomposition en valeurs singulières.
+Énoncé du problème[modifier | modifier le code]
+On peut considérer — c'est un modèle très général — un robot constitué de bras articulés, indicés i, formant un angle θi entre eux, dans un plan. On note X le vecteur représentant la position du « bout » de cette chaine de bras, qui en pratique est une pince, une aiguille, un aimant… Le problème va être de déterminer le vecteur θ, contenant tous les θi, de sorte que X soit égal à une valeur donnée X0.
+Résolution[modifier | modifier le code]
+On définit le jacobien de X par :
+.
+On a alors :
+.
+Si J est inversible (ce qui est, en pratique, toujours le cas), on peut alors accéder à la dérivée de θ :
+.
+Si J n'est pas inversible, on peut de toute façon utiliser la notion de pseudo-inverse. Néanmoins, son utilisation ne garantit pas que l'algorithme converge, il faut donc que le jacobien soit nul en un nombre réduit de points. En notant (U,Σ,V) la décomposition en valeurs singulières de J, l'inverse (le pseudo-inverse si J n'est pas inversible) de J est donné par :
+(cas inversible) ;
+(cas pseudo-inversible).
+On a noté Σ+ la matrice diagonale comportant l'inverse des valeurs singulières non-nulles. Dans la suite, la notation J−1 renverra sans distinction à l'inverse ou au pseudo-inverse de J.
+Le calcul des vecteurs colonne de J peut être effectué de la manière qui suit :
+On note Xi la position de l'articulation i ;
+On note ez le vecteur unitaire de même direction que l'axe de rotation de l'articulation ;
+Alors .
+On peut alors discrétiser l'équation, en posant :
+Et en ajoutant Δθ à θ à chaque itération, puis en recalculant ΔX et Δθ, on atteint peu à peu la solution désirée.
+Résolution alternative[modifier | modifier le code]
+Il est également possible d'utiliser la décomposition en valeurs singulières de J autrement pour obtenir Δθ :
+En multipliant successivement à gauche par J puis par sa transposée, pour enfin utiliser la décomposition en valeurs singulières de JTJ, on a :
+Soit en conclusion :
+.
+Autres exemples[modifier | modifier le code]
+Une utilisation courante de la décomposition en valeurs singulières est la séparation d'un signal sur deux sous-espaces supplémentaires, par exemple un sous-espace « signal » et un sous-espace de bruit. La décomposition en valeurs singulières est beaucoup utilisée dans l'étude de l'inversion de matrices, très pratique dans les méthodes de régularisation. On l'emploie également massivement en statistique, en traitement du signal, en reconnaissance de formes et dans le traitement informatique des langues naturelles.
+De grandes matrices sont décomposées au travers de cet algorithme en météorologie, pour l'algorithme de Lanczos par exemple.
+L'étude géologique et sismique, qui a souvent à faire avec des données bruitées, fait également usage de cette décomposition - et de ses variantes multidimensionnelles - pour « nettoyer » les spectres obtenus. Étant donnés un certain nombre d'échantillons connus, certains algorithmes peuvent, au moyen d'une décomposition en valeurs singulières, opérer une déconvolution sur un jeu de données.
+Les valeurs singulières sont également utilisées en automatique. Elle permettent de généraliser le principe de gain d'une fonction de transfert à un système multi-entrées multi-sorties (MIMO. Les valeurs singulières sont utilisées dans le calcul de la norme H∞ pour l'élaboration d'une commande H∞.
+Calcul de la SVD[modifier | modifier le code]
+Le calcul explicite, analytique, de la décomposition en valeurs singulières d'une matrice est difficile dans le cas général. On utilise, en particulier dans les applications, des algorithmes spécialisés.
+La procédure DGESVD[10] de la bibliothèque LAPACK propose une approche courante pour le calcul de la décomposition en valeurs singulières d'une matrice. Si la matrice possède plus de lignes que de colonnes, on effectue tout d'abord une décomposition QR. Le facteur R est ensuite réduit sous forme bidiagonale. Pour ceci, on peut effectuer des transformations de Householder alternativement sur les colonnes et sur les lignes de la matrice. Les valeurs singulières et vecteurs singuliers sont alors trouvés en effectuant une itération de type QR bidiagonale avec la procédure DBDSQR[11].
+GNU Scientific Library propose trois alternatives : l'algorithme de Golub-Reinsch, l'algorithme de Golub-Reinsch modifié (plus rapide pour les matrices possédant bien plus de lignes que de colonnes) et l'orthogonalisation de Jacobi[12].
+Voir aussi[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+(en) Hervé Abdi, « Singular Value Decomposition (SVD) and Generalized Singular Value Decomposition (GSVD) », dans Encyclopedia of Measurement and Statistics, Thousand Oaks, Sage Publications,‎ 2007, 907-912 p. (ISBN 978-1-4129-1611-0, lire en ligne)
+(en) James Demmel et W. Kahan, « Accurate Singular Values of Bidiagonal Matrices », SIAM Journal on Scientific and Statistical Computing, vol. 11, no 5,‎ 1990, p. 873-912 (ISSN 0196-5204, OCLC 4633509299, lire en ligne)
+(en) Gene H. Golub et Charles F. Van Loan, Matrix computations, Baltimore, Johns Hopkins University Press, coll. « Johns Hopkins studies in the mathematical sciences »,‎ 1996, 3e éd., 694 p. (ISBN 978-0-8018-5413-2)
+(en) Carl Eckart et Gale Young, « The approximation of one matrix by another of lower rank », Psychometrika, vol. 1, no 3,‎ septembre 1936, p. 211-218 (ISSN 0090-7499, lire en ligne)
+(en) Halldor Bjornsson et Silvia A. Venegas, « A manual for EOF and SVD analyses of climate data », CCGCR Report, Montréal, McGill University, vol. 97, no 1,‎ février 1997 (lire en ligne)
+(en) Per Christian Hansen, « The truncated SVD as a method for regularization », BIT, vol. 27,‎ 1987, p. 34–553 (lire en ligne)
+(en) Roger A. Horn et Charles R. Johnson, « The polar form and the singular value decomposition », dans Matrix analysis, Cambridge, Cambridge University Press,‎ 1985 (ISBN 978-0-521-30586-0), p. 411-427
+(en) Roger A. Horn et Charles R. Johnson, « Chapter 3 - Singular value inequalities », dans Topics in matrix analysis, Cambridge, Cambridge University Press,‎ 1994 (ISBN 978-0-521-46713-1, lire en ligne), p. 134-238
+(en) Gilbert Strang, Introduction to linear algebra, Wellesley, Wellesley-Cambridge Press,‎ 1993, 472 p. (ISBN 978-0-9614088-5-5)
+(en) Chris Ding et Jieping Ye, « Two-Dimensional Singular Value Decomposition (2DSVD) for 2D Maps and Images », Proc. SIAM Int'l Conf. Data Mining, vol. 5,‎ 3 octobre 2004, p. 32-43 (lire en ligne)
+(en) Jieping Ye, « Approximations de faible rang de matrices généralisées », Machine Learning, vol. 61,‎ 9 juin 2005, p. 167-191 (ISSN 1573-0565, lire en ligne)
+(de) Günter Gramlich, Anwendungen der linearen Algebra : mit MATLAB ; mit 68 Beispielen und 41 Aufgaben, Leipzig, Carl-Hanser-Verl., coll. « Mathematik-Studienhilfen »,‎ 2004, 179 p. (ISBN 978-3-446-22655-5)
+Articles connexes[modifier | modifier le code]
+Analyse en composantes principales
+Analyse en composantes indépendantes
+Théorème spectral
+Algèbre linéaire
+Liens externes[modifier | modifier le code]
+Implémentations[modifier | modifier le code]
+(en) ALGLIB propose une adaptation de LAPACK dans différents langages ;
+(en) « : bibliothèque Java SVD » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-11-06 ;
+(en) Opencv : bibliothèque d'analyse d'images en C/C++ ;
+(en) Eigen : bibliothèque d'algèbre linéaire en C++ ;
+(en) PROPACK : programme de calcul de la SVD ;
+(en) Script Java calculant la SVD ;
+(en) SVDPACK : bibliothèque ANSI FORTRAN 77 qui propose 4 implémentations intératives de la SVD ;
+(en) SVDLIBC : adaptation de SVDPACK en C ;
+(en) BlueBit propose une bibliothèque .NET capable de calculer la SVD.
+Calcul de SVD pour le langage Python :
+(en) NumPy : gère les matrices réelles ou complexes
+(en) SciPy : gère les matrices réelles ou complexes
+(en) Gensim, implémentation basée sur NumPy : permet une SVD tronquée sur des matrices creuses plus grandes que la mémoire vive
+(en) SVDLIBC : ré-écriture de SVDPACK, avec des bogues réparés
+(en) sparsesvd : wrapper autour de SVDLIBC
+(en) SVD-Python : en Python pur, sous GNU GPL.
+Cours et conférences[modifier | modifier le code]
+Cours sur la SVD, ses variantes et ses applications ;
+SVD, 2DSVD, 3DSVD et applications ;
+« Décomposition en valeurs singulières » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-11-06 ;
+(en) « La SVD et ses applications » (Archive • Wikiwix • Archive.is • Google • Que faire ?). Consulté le 2013-11-06 ;
+(en) Conférence vidéo au MIT, par Gilbert Strang. La Lecture #29 porte sur la SVD ;
+(en) Introduction à la décomposition en valeurs singulières par Todd Will, Université du Wisconsin-La Crosse ;
+(de) Preuve de l'existence.
+Explications et applications[modifier | modifier le code]
+SVD : application à la restauration d'images ;
+Utilisations de la SVD ;
+INRIA : Applications de la SVD aux ondes sismiques ;
+(en) Applications de la SVD ;
+(en) « SVD for genome-wide expression data processing and modeling », université Stanford : analyse des gènes avec la SVD ;
+(en) université Stanford : analyse de l'influence de certains gènes sur le cancer, au moyen de la SVD ;
+(en) Los Alamos group : analyse de données génétiques ;
+(en) LSA : applications, explications et possibilité de l'utiliser ;
+(en) Présentation et exemple d'utilisation ;
+(en) SVD, explications supplémentaires;
+(en) Manuel LAPACK : détails sur les procédures de calculs ;
+(en) Plus d'informations sur les implémentations en C de la SVD.

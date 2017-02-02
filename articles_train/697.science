@@ -1,0 +1,183 @@
+Formule topologique — Wikipédia
+Formule topologique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+À ne pas confondre avec la notion d'espace topologique en mathématiques.
+Représentation topologique de la clérodine
+La formule topologique est une représentation moléculaire simplifiée utilisée en chimie organique et développée par le chimiste organicien Friedrich August Kekulé von Stradonitz. Une formule topologique fait abstraction de la représentation des atomes d'hydrogène et de carbone pour ne montrer que la structure du squelette.
+Sommaire
+1 Le squelette
+2 Carbones et hydrogènes implicites
+3 Hétéroatomes
+4 Groupements d'atomes
+4.1 Éléments
+4.2 Groupes fonctionnels
+4.3 Groupements alkyle et aryle
+4.3.1 Groupements alkyle
+4.4 Substituants aromatiques
+4.4.1 Autres
+5 Liaisons multiples
+6 Benzène et cycles aromatiques
+7 Stéréochimie
+8 Liaisons partielles
+8.1 Liaisons hydrogène
+8.2 Demi-liaisons
+9 Articles connexes
+10 Références
+Le squelette[modifier | modifier le code]
+Le squelette d'un composé organique est la chaîne d'atomes qui, connectés les uns aux autres, forme l'essentiel de la structure du composé représenté alors que les groupes fonctionnels sont considérés comme des substituants (des "rajouts") du squelette. Ce squelette peut comporter une ou plusieurs chaînes, branches ou cycles. Les atomes autre que le carbone sont appelés hétéroatomes[1].
+Un composé organique a des atomes d'hydrogène ou d'autres substituants connectés aux atomes de carbone. L'hydrogène est l'atome le plus couramment lié à un carbone et n'est pas explicitement représenté. Les hétéroatomes et les groupements d'atomes sont appelés groupes fonctionnels. Ils sont connus sous le terme général de substituant, car ils remplacent un atome d'hydrogène qui aurait pu être présent à la même place.
+Carbones et hydrogènes implicites[modifier | modifier le code]
+Dans l'image ci-dessous, par exemple, la formule topologique de l'hexane est représentée. Le carbone marqué C1 n'a qu'une seule liaison. Il doit donc y avoir trois hydrogènes aussi liés à cet atome de carbone, pour respecter la valence de quatre. Le carbone C3 a deux liaisons explicites à deux autres carbones. Il doit donc être aussi lié à deux hydrogènes. Une représentation boules et bâtons de la même molécule d'hexane est montrée pour comparaison. Les carbones sont représentés par des boules noires, et les hydrogènes par des boules blanches.
+Les hydrogènes liés à un atome autre qu'un carbone sont explicitement représentés. Dans l'éthanol, C2H5OH, par exemple, l'atome d'hydrogène lié à l'oxygène est signalé par le symbole H, alors que les autres hydrogènes liés aux carbones ne seront pas représentés. Les lignes représentant les liaisons hétéroatome-hydrogène sont généralement omises pour plus de clarté. Ainsi le groupement hydroxyle est généralement écrit -OH et non -O-H. Elles peuvent toutefois être représentés lorsque leur présence permet d'expliciter un mécanisme.
+L'image ci-dessous est une comparaison des différentes représentations de la molécule d'éthanol, à gauche la représentation tridimensionnelle, au centre la structure de Lewis et à droite la formule topologique.
+Hétéroatomes[modifier | modifier le code]
+Tous les atomes qui ne sont pas des carbones ou des hydrogènes, appelés hétéroatomes, sont représentés par leur symbole chimique: O pour l'oxygène, N pour l'azote ou encore Cl pour le chlore par exemple. Les symboles chimiques sont toujours écrits avec une majuscule sur le premier caractère et une minuscule pour le second (seuls les éléments artificiels non encore nommés portent un troisième caractère qui est aussi en minuscule) ; c'est ce que l'on appelle la casse. Cela signifie que, même dans une phrase écrite entièrement en majuscules, le symbole d'un élément doit obéir à ces règles de casse.
+Contrairement aux atomes de carbone et d'hydrogène, les hétéroatomes sont toujours représentés avec les atomes d'hydrogène qu'ils portent, s'il y en a, mais on utilise une présentation compacte, c'est-à-dire qu'on représente rarement les liaisons chimiques entre l'hétéroatome et ses atomes d'hydrogène.
+Groupements d'atomes[modifier | modifier le code]
+Des groupements d'atomes sont des formules semi-développées attachées à la structure topologique du squelette carboné pour des raisons de clarté et/ou pour diminuer la taille de l'objet représenté. On utilise beaucoup d'abréviations dans ce domaine à la place de formules semi-développées fausses ou ambiguës.
+Éléments[modifier | modifier le code]
+On note certains atomes ou certaines familles d'atomes par une abréviation :
+X pour un atome d'halogène (F, Cl, Br ou I)
+M pour n'importe quel atome métallique
+D pour le deuterium, ou 2H
+T pour le tritium, ou 3H
+Groupes fonctionnels[modifier | modifier le code]
+Les groupes fonctionnels sont représentés sous une forme semi-développée, une abréviation, ou un mélange des deux. L'ordre des atomes et des abréviations est différent selon que le groupe est à gauche ou à droite du squelette car l'atome/groupe le plus proche du squelette est celui qui est considéré comme formant une liaison avec le squelette. Dans l'exemple ci-dessous, les structures 1, 2 et 3 sont parfaitement identiques chimiquement mais on peut remarquer que dans 1, les deux groupes acétate (AcO ou acyloxy) sont écrits différemment à gauche et à droite du cycle cyclohexane. Ceci s'explique par le fait que c'est l'atome d'oxygène qui forme une liaison avec le cycle (ce qui est bien visible dans 2 et 3) et c'est donc lui qui doit apparaître dans la liaison oxygène-cycle. À gauche, on note dans l'ordre Ac–O–cycle alors qu'à droite on écrit cycle–O–Ac.
+Sur ce même schéma (exemple (a)), on peut remarquer la façon de définir une abréviation, bien que ce ne soit pas nécessaire dans ce cas : en notation linéaire, le tiret est utilisé pour indiquer l'atome avec lequel se forme la liaison ; en notation "topologique", on utilise plutôt une liaison en zigzag (ou en vagues) pour indiquer cet atome.
+Groupements alkyle et aryle[modifier | modifier le code]
+Les groupements alkyle et aryle sont des structures d'atomes principalement constituées de carbone et d'hydrogène mais qui ne sont pas utiles à la discussion autour du squelette qui a été choisi. On les note soit :
+R pour un groupe alkyle ;
+Ar pour un groupe aryle.
+La différence entre les deux est que si le premier atome de R ou Ar est aromatique, alors on utilise "Ar", sinon on utilise "R". Par exemple, R–OH est la formule générale d'un alcool, alors que Ar–OH est la formule générale d'un phénol.
+Groupements alkyle[modifier | modifier le code]
+Au lieu de l'abréviation R, on peut utiliser :
+Me pour le groupement méthyle
+Et pour le groupement éthyle
+Pr, n-Pr ou Prn pour le groupement propyle
+i-Pr ou Pri pour le groupement isopropyle
+Bu pour le groupement butyle en général
+n-Bu ou Bun pour le groupement n-butyle
+i-Bu ou Bui pour le groupement isobutyle
+s-Bu ou Bus pour le groupement sec-butyle
+t-Bu ou Bus pour le groupement tert-butyle
+Pn pour le groupement pentyle
+Hx pour le groupement hexyle
+Hp pour le groupement heptyle
+Cy pour le groupement cyclohexyle
+Bn pour le groupement benzyle
+Substituants aromatiques[modifier | modifier le code]
+Ar pour n'importe quel substituant aromatique
+Mes pour le groupement mésityle
+Ph pour le groupement phényle
+Tol pour le groupement tolyle (parfois précédé de o, m, p pour spécifier l'isomère ; par défaut, il s'agit de l'isomère para)
+Cp pour le groupement cyclopentadiényle
+Cp* pour le groupement pentaméthylcyclopentadiényle
+Autres[modifier | modifier le code]
+Ac pour le groupement acétyle
+Bs pour le groupement brosyle
+Ns pour le groupement nosyle
+Bz pour le groupement benzoyle
+Tf pour le groupement trifyle
+Ts pour le groupement tosyle (parfois précédé de o, m, p pour spécifier l'isomère ; par défaut, il s'agit de l'isomère para)
+Liaisons multiples[modifier | modifier le code]
+Deux atomes peuvent être liés par plus d'une paire d'électrons. Le carbone peut former des liaisons simples, doubles ou triples. Les liaisons simples sont représentées par un seul trait plein entre deux atomes. Les doubles liaisons sont formées de deux traits parallèles, et les triples liaisons de trois. Dans certaines théories avancées, des valeurs non-entières d'ordre de liaison existent. Dans ces cas, une combinaison de traits pleins et en pointillés indique respectivement les parts entière et non-entière de la liaison.
+L'hex-3-ène a une double liaison carbone-carbone interne
+L'hex-1-ène a une double liaison terminale
+L'hex-3-yne a une triple liaison interne.
+L'hex-1-yne a une triple liaison terminale
+N.B. Dans ces illustrations, les doubles liaisons sont marquées en rouge et les triples en bleu. Ceci a été ajouté pour plus de clarté : les liaisons multiples ne sont normalement pas colorées lors d'une représentation sous forme topologique.
+Les liaisons doubles (voir orbitales moléculaires) forcent les groupes à être d'un côté ou de l'autre de la double liaison. Lorsqu'il n'y a qu'un seul groupe de chaque côté, on peut utiliser la notation cis, trans, sinon il faut utiliser la nomenclature générale E, Z.
+Benzène et cycles aromatiques[modifier | modifier le code]
+Les cycles benzéniques sont communément trouvés dans les composés organiques. Pour représenter la délocalisation des électrons sur les six carbones du cycle, un cercle est dessiné à l'intérieur de l'hexagone formé par les liaisons simples.
+Un autre style est la représentation selon Kekulé. Bien qu'elle puisse être considéré comme imprécise, puisqu'elle implique la présence fixe de trois liaisons simples et de trois doubles (le benzène serait alors le 1,3,5-cyclohexatriène), tous les chimistes sont pleinement conscient du phénomène de délocalisation dans le benzène. Les structures de Kékulé sont principalement utilisées pour expliciter des mécanismes réactionnels. Ces deux représentations peuvent s'appliquer à tous les cycles aromatiques, tels que la pyridine
+Stéréochimie[modifier | modifier le code]
+La représentation de la stéréochimie d'une molécule suit des règles définies[2] :
+Les traits pleins signifient que la liaison se trouve dans le plan du papier ou de l'écran ;
+Les liaisons en gras (noir) représentent une liaison qui sort au-dessus du plan, vers l'observateur ;
+Les traits en pointillés montrent une liaison qui sort en dessous du plan, à s'éloigner de l'observateur ;
+Les traits simples sur un centre asymétrique représente soit des liaisons dont l'orientation n'est pas connue, soit un mélange de stéréoisomères. Les vagues, initialement prévues pour les double liaisons (voir ci-dessous), ont peu à peu pris le pas pour mieux mettre en évidence le caractère inconnu d'un centre asymétrique.
+2-chloro-2-fluoropentane
+La formule topologique du 2-chloro-2-fluoropentane représentant la stéréochimie
+Représentation topologique de l'amphétamine, mélange des deux stéréoisomères R et S
+Une formule topologique peut aussi définir les isomères cis et trans ou Z et E des alcènes. Contrairement à d'autres centres asymétriques, le simple fait d'orienter une simple liaison d'un côté ou de l'autre de la double liaison signifie que l'on sait que la double liaison est de configuration E ou Z, or cela n'est pas toujours le cas. Ceci a mené à l'invention de deux notations différentes : la double liaison croisée et la liaison en vagues (ou en zigzag). Dans la mesure où la liaison en vagues a plus réussi à séduire, même pour d'autres utilisations (voir ci-dessus), c'est devenu la règle et la double liaison croisée est maintenant déconseilléeIUPAC[2].
+Liaisons partielles[modifier | modifier le code]
+Liaisons hydrogène[modifier | modifier le code]
+Les liaisons hydrogène sont parfois représentées par une ligne en pointillés. En fait, cette ligne en pointillé représente plutôt une "liaison électrostatique", mais la liaison hydrogène fait partie de cette catégorie.
+Demi-liaisons[modifier | modifier le code]
+Il arrive assez souvent que certaines liaisons correspondent, d'après les observations et/ou les calculs, à des liaisons dites "demi-entières" d'ordre 0,5 ou 1,5 en général. C'est notamment le cas dans le benzène. On observe expérimentalement que les six liaisons sont équivalentes : ce ne sont donc pas 3 liaisons simples et trois liaisons double (formule de Kékulé) mais bien six liaisons qui sont, en moyenne, des "1,5 liaisons" (ordre 1,5). On dessine alors chaque liaison comme une liaison double mais avec l'un des deux traits dessiné en pointillés.
+Articles connexes[modifier | modifier le code]
+Les différents systèmes de représentation des molécules
+Chimie organique
+Références[modifier | modifier le code]
+↑ IUPAC Recommendations 1999, Revised Section F: Replacement of Skeletal Atoms
+↑ a et b (en) J. Brecher, « Graphical representation of stereochemical configuration (IUPAC Recommendations 2006) », Pure Appl. Chem., vol. 78, no 10,‎ 2006, p. 1897–1970 (DOI 10.1351/pac200678101897, lire en ligne)
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Skeletal formula » (voir la liste des auteurs).
+v · d · m
+Les représentations de molécules
+Brute · Lewis (Gilbert Lewis) · Développée plane · Semi-développée · SMILES · Topologique · Cram ( Donald Cram) · Newman (Melvin S. Newman) · Fischer (Emil Fischer) · Haworth (Norman Haworth)
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Formule_topologique&oldid=110251118 ».
+Catégorie : Représentation des moléculesCatégories cachées : Portail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Català
+Dansk
+Deutsch
+English
+Español
+Eesti
+فارسی
+Suomi
+Português
+Русский
+Svenska
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 26 décembre 2014 à 01:15.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

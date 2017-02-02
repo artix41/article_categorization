@@ -1,0 +1,234 @@
+Théorème central limite — Wikipédia
+Théorème central limite
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir TCL.
+La loi normale, souvent appelée la « courbe en cloche »
+Le théorème central limite (aussi appelé théorème de la limite centrale ou centrée) établit la convergence en loi de la somme d'une suite de variables aléatoires vers la loi normale. Intuitivement, ce résultat affirme que toute somme de variables aléatoires indépendantes et identiquement distribuées tend vers une variable aléatoire gaussienne.
+La première démonstration de ce théorème, publiée en 1809, est due à Pierre-Simon de Laplace[1],[2], mais le cas particulier où les variables suivent la loi de Bernoulli de paramètre p = 0,5 était connu depuis les travaux de De Moivre[3], en 1733. Le nom du théorème fait référence à un document scientifique écrit par George Pólya en 1920, intitulé Über den zentralen Grenzwertsatz der Wahrscheinlichkeitsrechnung und das Momentenproblem[4] [Sur le théorème central du calcul probabiliste, parmi ceux ayant rapport à la notion de limite, et le problème des moments]. Historiquement, et conformément à la traduction du titre, c'est donc bien le théorème qui est central, ce qui rend l'appellation « théorème de la limite centrale » impropre en toute rigueur. Elle est cependant souvent employée, les mathématiciens français considérant que l'adjectif « central » s'applique au centre de la distribution, par opposition à sa queue[4].
+Le théorème central limite admet plusieurs généralisations qui donnent la convergence de sommes de variables aléatoires sous des hypothèses beaucoup plus faibles. Ces généralisations ne nécessitent pas des lois identiques mais font appel à des conditions qui assurent qu'aucune des variables n'exerce une influence significativement plus importante que les autres. Telles sont la condition de Lindeberg (en) et la condition de Lyapounov. D'autres généralisations autorisent même une dépendance « faible ». De plus, une généralisation due à Gnedenko (de) et Kolmogorov stipule que la somme d'un certain nombre de variables aléatoires avec une queue de distribution décroissante selon
+avec
+(ayant donc une variance infinie) tend vers une loi de Lévy tronquée symétrique et stable quand le nombre de variables augmente. Cet article se limitera au théorème central limite concernant les lois à variance finie.
+Ainsi, ce théorème et ses généralisations offrent une explication de l'omniprésence de la loi normale dans la nature : de nombreux phénomènes sont dus à l'addition d'un grand nombre de petites perturbations aléatoires.
+Sommaire
+1 Illustration
+2 Théorème central limite
+2.1 Démonstration du théorème central limite
+2.2 Convergence vers la limite
+2.3 Application à la statistique mathématique
+2.4 Autres formulations du théorème
+2.4.1 Densités de probabilité
+2.4.2 Produits de variables aléatoires
+3 Généralisations du théorème central limite
+3.1 Condition de Lyapounov
+3.2 Condition de Lindeberg
+3.3 Cas des variables dépendantes
+3.4 Cas des vecteurs aléatoires
+4 Intérêt de ce théorème
+5 Notes et références
+6 Voir aussi
+6.1 Articles connexes
+6.2 Liens externes
+Illustration[modifier | modifier le code]
+Tirage à pile ou face.
+Fréquence d'apparition d'une valeur pour la somme de n tirages à pile ou face (1 ≤ n ≤ 4).
+Idem pour 1 à 12 tirages. La courbe de fréquence tend vers une courbe en cloche symétrique.
+Fréquence d'apparition des valeurs pour la somme de n dés à six faces (nd6)
+Fréquence d'apparition des valeurs pour la somme de tirage de dés polyédriques à 4, 6, 8, 10, 12 et 20 faces (d4 + d6 + d8 + d10 + d12 + d20).
+Ce théorème est évident si les variables aléatoires suivent une loi normale d'espérance (ou moyenne) μ : on imagine bien que la somme de n variables puisse suivre une loi normale de paramètre nμ.
+Dans le cas de variables ne suivant pas une loi normale, le théorème peut sembler étonnant au premier abord. Nous allons donc en faire une illustration ne nécessitant pas de connaissance particulière en statistiques, mais uniquement du dénombrement.
+Considérons le jeu de pile ou face et mettons des valeurs sur les faces de la pièce, par exemple 0 pour pile et 1 pour face ; on s'intéresse à la somme de n tirages. La pièce est équilibrée, chaque face a une chance sur deux d'être tirée. Si l'on fait un seul tirage, nous avons donc le tirage n°1 (et aucun autre), et son résultat peut être 0 ou 1 ; nous faisons la somme d'une seule valeur.
+Résultats d'un tirage
+Résultat
+tirage n°1
+Somme
+0
+0
+1
+1
+Nous avons donc n = 2 possibilités pour la valeur de la somme, apparaissant avec les fréquences suivantes :
+Fréquences pour tirage
+Valeurs de
+la somme
+Nombre
+d'apparitions
+Fréquence
+0
+1
+1/2 = 0,5 (50 %)
+1
+1
+1/2 = 0,5 (50 %)
+Avec deux tirages, chaque tirage peut donner 0 ou 1, ce qui donne le tableau suivant :
+Résultats de deux tirages
+Résultat
+tirage n°1
+Résultat
+tirage n°2
+Somme
+0
+0
+0
+0
+1
+1
+1
+0
+1
+1
+1
+2
+nous avons n = 4 possibilités, soit le tableau des fréquences.
+Fréquences pour deux tirages
+Valeurs de
+la somme
+Nombre
+d'apparitions
+Fréquence
+0
+1
+1/4 = 0,25 (25 %)
+1
+2
+2/4 = 0,5 (50 %)
+2
+1
+1/4 = 0,25 (25 %)
+Et ainsi de suite :
+Résultats et fréquences de trois tirages
+Résultat
+tirage n°1
+Résultat
+tirage n°2
+Résultat
+tirage n°3
+Somme
+Valeurs de
+la somme
+Nombre
+d'apparitions
+Fréquence
+0
+0
+0
+0
+0
+1
+0,125 (12,5 %)
+0
+0
+1
+1
+1
+3
+0,375 (37,5 %)
+0
+1
+0
+1
+2
+3
+0,375 (37,5 %)
+0
+1
+1
+2
+3
+1
+0,125 (12,5 %)
+1
+0
+0
+1
+1
+0
+1
+2
+1
+1
+0
+2
+1
+1
+1
+3
+Graphiquement, on constate que plus le nombre de tirages augmente, plus la courbe de fréquence se rapproche d'une courbe en cloche symétrique, caractéristique de la densité de probabilité de la loi normale.
+On obtient un résultat similaire en jetant plusieurs dés à six faces (d6) et en en faisant la somme, mais le dénombrement est plus fastidieux (il y a six valeurs par dé).
+On obtient également une courbe en cloche lorsque l'on additionne des dés ayant un nombre de faces différent (dés polyédriques).
+Dans toutes les situations ci-dessus, on a des lois uniformes ; et pourtant, la somme d'un grand nombre d'événements tend graphiquement vers une courbe en cloche symétrique. Et cela est vrai même lorsque les lois sont différentes (cas des dés polyédriques).
+En effet, on ne s'intéresse pas au tirage en lui-même, mais à la somme du tirage. De ce point de vue, plusieurs tirages sont équivalents, donc une valeur de somme peut être obtenue par plusieurs tirages ; par exemple, pour deux dés à six faces (2d6), on peut obtenir 7 par 1+6, 2+5, 3+4, 4+3, 5+2 et 6+1, il y a six tirages équivalents. Or, il y a toujours plus de combinaisons permettant d'obtenir une valeur moyenne qu'une valeur extrême, ce qui donne la courbe en cloche.
+Quelle que soit la forme de la distribution de la po­pulation, la distribution d'échantillonnage est gaussienne, et sa dispersion est donnée par le théorème central limite (Illustration extraite du livre Calcul d'incertitudes).
+Théorème central limite[modifier | modifier le code]
+Soit X1, X2, … une suite de variables aléatoires réelles définies sur le même espace de probabilité, indépendantes et identiquement distribuées suivant la même loi D. Supposons que l'espérance μ et l'écart-type σ de D existent et soient finis avec σ ≠ 0.
+Considérons la somme
+Sn = X1 + X2 + … + Xn.
+Alors
+l'espérance de Sn est n μ et
+son écart-type vaut .
+De plus, quand n est assez grand, la loi normale
+est une bonne approximation de la loi de Sn.
+Afin de formuler mathématiquement cette approximation, nous allons poser
+Xn = Sn / n = (X1 + X2 + … + Xn) / n
+et
+,
+de sorte que l'espérance et l'écart-type de Zn valent respectivement 0 et 1 : la variable est ainsi dite centrée et réduite.
+Le théorème central limite stipule alors que la suite de variables aléatoires Z1, Z2,..., Zn,... converge en loi vers une variable aléatoire Z, définie sur le même espace probabilisé, et de loi normale centrée réduite
+lorsque n tend vers l'infini.
+Cela signifie que si Φ est la fonction de répartition de , alors pour tout réel z :
+ou, de façon équivalente :
+Démonstration du théorème central limite[modifier | modifier le code]
+Pour un théorème d'une telle importance en statistiques et en probabilité appliquée, il existe une démonstration particulièrement simple utilisant les fonctions caractéristiques. Cette démonstration ressemble à celle d'une des lois des grands nombres. Pour une variable aléatoire Y d'espérance 0 et de variance 1, la fonction caractéristique de Y admet le développement limité :
+Si Yi vaut , il est facile de voir que la moyenne centrée réduite des observations :
+X1, X2, …, Xn
+est simplement :
+D'après les propriétés élémentaires des fonctions caractéristiques, la fonction caractéristique de Zn est
+lorsque n → ∞.
+Mais cette limite est la fonction caractéristique de la loi normale centrée réduite , d'où l'on déduit le théorème central limite grâce au théorème de continuité de Lévy, qui affirme que la convergence simple des fonctions caractéristiques implique la convergence en loi.
+Convergence vers la limite[modifier | modifier le code]
+Comparaison de l'évolution de la somme de 10 tirages consécutifs entre 0 et 100 réalisés N fois. La distribution se rapproche d'une distribution normale quand N augmente.
+La convergence de la fonction de répartition de Zn est uniforme, en vertu du deuxième théorème de Dini. Si le moment centré d'ordre 3,
+existe et est fini, alors la vitesse de convergence est au moins d'ordre
+(voir le théorème de Berry-Esseen).
+Images d'une loi lissées par sommation qui montrent la distribution de la loi originale et trois sommations successives (obtenues par convolution) :
+Dans les applications pratiques, ce théorème permet en particulier de remplacer une somme de variables aléatoires en nombre assez grand mais fini par une approximation normale, généralement plus facile à manipuler. Il est donc intéressant de voir comment la somme s'approche de la limite. Les termes utilisés sont expliqués dans l'article Variable aléatoire.
+Une somme de variables continues est une variable continue dont on peut comparer la densité de probabilité à celle de la limite normale.
+Interprétation du théorème dans le cas de variables aléatoires discrètes.
+Avec une somme de variables discrètes, il est parfois commode de définir une pseudo-densité de probabilité mais l'outil le plus efficace est la fonction de probabilité représentée par un diagramme en bâtons. On peut constater graphiquement une certaine cohérence entre les deux diagrammes, difficile à interpréter. Dans ce cas, il est plus efficace de comparer les fonctions de répartition.
+D'autre part, l'approximation normale est particulièrement efficace au voisinage des valeurs centrales. Certains disent même qu'en matière de convergence vers la loi normale, l'infini commence souvent à six[réf. nécessaire].
+La précision se dégrade à mesure qu'on s'éloigne de ces valeurs centrales. C'est particulièrement vrai pour une somme de variables positives par nature : la loi normale fait toujours apparaître des valeurs négatives avec des probabilités faibles mais non nulles. Même si c'est moins choquant, cela reste vrai en toutes circonstances : alors que toute grandeur physique est nécessairement bornée, la loi normale qui couvre un intervalle infini n'est qu'une approximation utile.
+Enfin, pour un nombre donné de termes de la somme, l'approximation normale est d'autant meilleure que la distribution est plus symétrique.
+Application à la statistique mathématique[modifier | modifier le code]
+Ce théorème de probabilités possède une interprétation en statistique mathématique. Cette dernière associe une loi de probabilité à une population. Chaque élément extrait de la population est donc considéré comme une variable aléatoire et, en réunissant un nombre n de ces variables supposées indépendantes, on obtient un échantillon. La somme de ces variables aléatoires divisée par n donne une nouvelle variable nommée la moyenne empirique. Celle-ci, une fois réduite, tend vers une variable normale réduite lorsque n tend vers l'infini.
+Autres formulations du théorème[modifier | modifier le code]
+Densités de probabilité[modifier | modifier le code]
+La densité de probabilité de la somme de plusieurs variables indépendantes s'obtient par convolution de leurs densités (si celles-ci existent). Ainsi on peut interpréter le théorème central limite comme une formulation des propriétés des densités de probabilité soumises à une convolution : sous les conditions établies précédemment, la convoluée d'un certain nombre de densités de probabilité tend vers la densité normale lorsque leur nombre croît indéfiniment.
+Comme la fonction caractéristique d'une convolution est le produit des fonctions caractéristiques des variables en cause, le théorème central limite peut se formuler d'une manière différente : sous les conditions précédentes, le produit des fonctions caractéristiques de plusieurs densités de probabilité tend vers la fonction caractéristique de la loi normale lorsque le nombre de variables croît indéfiniment.
+Produits de variables aléatoires[modifier | modifier le code]
+Le théorème central limite nous dit à quoi il faut s'attendre en matière de sommes de variables aléatoires indépendantes ; mais qu'en est-il des produits ? Eh bien, le logarithme d'un produit (à facteurs strictement positifs) est la somme des logarithmes des facteurs, de sorte que le logarithme d'un produit de variables aléatoires (à valeurs strictement positives) tend vers une loi normale, ce qui entraîne une loi log-normale pour le produit lui-même.
+Bon nombre de grandeurs physiques (en particulier la masse et la longueur, c'est une question de dimension, ne peuvent être négatives) sont le produit de différents facteurs aléatoires, de sorte qu'elles suivent une loi log-normale. Il en va de même pour le cours en bourse d'un actif risqué.
+Généralisations du théorème central limite[modifier | modifier le code]
+Condition de Lyapounov[modifier | modifier le code]
+Superposition de la probabilité de la somme de plusieurs dés et de la loi normale de même espérance et écart type. Mise en évidence de la convergence.
+Soit Xn une séquence de variables définies sur le même espace de probabilité, indépendantes. Supposons que Xn ait une espérance finie μn et un écart-type fini σn. Nous définissons
+Supposons que les moments centrés d'ordre 3
+soient finis pour tout n et que
+(C'est la condition de Lyapounov).
+Considérons de nouveau la somme
+Sn = X1 + X2 + … + Xn.
+L'espérance mathématique de Sn est
+et son écart-type sn . Si nous normalisons Sn en posant
+alors la loi de Zn converge vers la loi normale centrée réduite
+comme ci-dessus.
+Condition de Lindeberg[modifier | modifier le code]
+Avec les mêmes définitions et les mêmes notations que précédemment, nous pouvons remplacer la condition de Lyapounov par la suivante qui est plus faible[5].
+Théorème (Lindeberg (en), 1920) — Si, pour tout ε > 0
+où 1{…} est la fonction indicatrice, alors la loi de Zn converge vers la loi normale centrée réduite .
+Cas des variables dépendantes[modifier | modifier le code]
+Il existe quelques théorèmes qui traitent le cas de sommes de variables aléatoires réelles dépendantes, par exemple le théorème central limite pour les suites m-dépendantes, le théorème central limite pour les martingales et le théorème central limite pour les processus mélangeants.
+Cas des vecteurs aléatoires[modifier | modifier le code]
+Il existe une généralisation à des vecteurs aléatoires indépendants et de même loi, dont les composantes sont de carrés intégrables, la limite étant alors un vecteur gaussien. Une première version de ce théorème central limite vectoriel, due à Pierre-Simon de Laplace, parait en 1812[6]. Parmi les nombreuses conséquences de ce théorème, on compte par exemple la convergence vers la loi du χ², cruciale, par exemple, pour ses applications en statistiques, ou encore la convergence des marches aléatoires vers le mouvement Brownien.
+Intérêt de ce théorème[modifier | modifier le code]
+On peut parfois lire dans la presse générale que la courbe en cloche représente la loi du hasard, ce qui n'a pas grande signification. Le succès sans égal de la loi de Gauss est la conséquence directe du théorème central limite et il est renforcé par la commodité relative d'utilisation de cette loi.
+En elle-même, la convergence vers la loi normale de nombreuses sommes de variables aléatoires lorsque leur nombre tend vers l'infini n'intéresse que le mathématicien. Pour le praticien, il est intéressant de s'arrêter un peu avant la limite : la somme d'un grand nombre de ces variables est presque gaussienne, ce qui fournit une approximation souvent plus facilement utilisable que la loi exacte.
+En s'éloignant encore plus de la théorie, on peut dire que bon nombre de phénomènes naturels sont dus à la superposition de causes nombreuses, plus ou moins indépendantes. Il en résulte que la loi normale les représente de manière raisonnablement efficace.
+À l'inverse, on peut dire qu'aucun phénomène concret n'est vraiment gaussien car il ne peut dépasser certaines limites, en particulier s'il est à valeurs positives.

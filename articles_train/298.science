@@ -1,0 +1,147 @@
+Statistique de Fermi-Dirac — Wikipédia
+Statistique de Fermi-Dirac
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la physique quantique.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Consultez la liste des tâches à accomplir en page de discussion.
+En mécanique quantique et en physique statistique, la statistique de Fermi-Dirac désigne la distribution statistique de fermions indiscernables (tous similaires) sur les états d'énergie d'un système à l'équilibre thermodynamique. La distribution en question tient à une particularité des fermions : les particules de spin demi-entier sont assujetties au principe d'exclusion de Pauli, à savoir que deux particules ne peuvent occuper simultanément un même état quantique.
+Sommaire
+1 Note historique : un problème de statistique
+2 Statistique de Fermi-Dirac
+3 Utilisation de cette distribution
+4 Limite classique et comparaison avec les bosons
+5 Gaz de fermions quantiques
+6 Effet de la température sur la distribution de Fermi-Dirac
+7 Références
+8 Voir également
+Note historique : un problème de statistique[modifier | modifier le code]
+Avant l'avènement de la distribution de Fermi-Dirac dans les années 1920, notre compréhension du comportement des électrons dans les métaux était très rudimentaire. Ainsi on ne comprenait pas très bien pourquoi les électrons participent en grand nombre dans la conduction du courant électrique dans un métal et que ce nombre devenait extrêmement réduit quand il s'agit de contribuer à la capacité calorifique du même métal. Il y a manifestement ici un problème de statistique qui se pose dans l'évaluation de la capacité calorifique des métaux. L'explication fut apportée précisément par la distribution de Fermi-Dirac qui révéla que seuls les états situés près du niveau de Fermi, étaient sollicités pour la contribution à la capacité calorifique du métal.
+Statistique de Fermi-Dirac[modifier | modifier le code]
+La statistique de Fermi-Dirac a été introduite en 1926 par Enrico Fermi et Paul Dirac. En 1927 elle fut appliquée aux électrons dans un métal par Arnold Sommerfeld. Statistiquement, le nombre ni de particules dans l'état d'énergie Ei est donné par :
+où :
+gi   est la dégénérescence de l'état d'énergie Ei , à savoir le nombre d'états possédant cette énergie ;
+μ   est le potentiel chimique ;
+kB   est la constante de Boltzmann ;
+T   est la température absolue.
+Utilisation de cette distribution[modifier | modifier le code]
+Les distributions de Bose-Einstein et de Fermi-Dirac sont utilisées lorsque les effets quantiques sont pris en compte, et lorsque les particules sont considérées comme indiscernables. Cela correspond à une concentration de particules (N/V) supérieure à une certaine densité d'état, c'est-à-dire que la distance intermoléculaire est inférieure à celle de la longueur d'onde thermique de de Broglie. Les fonctions d'onde peuvent « se toucher » mais pas se superposer.
+Distribution de Fermi-Dirac en fonction de ε/μ et de différentes températures
+Représentation de
+pour les bosons (courbe du haut) et les fermions (courbe du bas).
+Limite classique et comparaison avec les bosons[modifier | modifier le code]
+À haute température, lorsque les effets quantiques ne se font plus sentir, la statistique de Fermi-Dirac tend vers la statistique de Maxwell-Boltzmann ; il en est de même pour la statistique de Bose-Einstein qui régit les bosons. À basse température, si les particules occupent en priorité les niveaux d'énergie les plus faibles, les statistiques diffèrent cependant. Par exemple, à température nulle :
+avec la statistique de Fermi-Dirac, le niveau de plus basse énergie, E0 , est occupé par au plus g0 fermions; les états de basse énergie Ei sont ensuite occupés chacun dans l'ordre croissant des énergies par au plus gi fermions jusqu'à épuisement de ces derniers;
+avec la statistique de Bose-Einstein, le niveau de plus basse énergie contient tous les bosons (cas limite du condensat de Bose-Einstein).
+Gaz de fermions quantiques[modifier | modifier le code]
+Les électrons dans les solides forment un gaz de fermions dont la description requiert la statistique de Fermi-Dirac. Récemment, le refroidissement de gaz d'atomes dilués fermioniques jusqu'à des températures de l'ordre du K a permis d'obtenir des gaz de fermions dégénérés, uniquement descriptibles par cette statistique.
+Effet de la température sur la distribution de Fermi-Dirac[modifier | modifier le code]
+En bas de page de ce cours, une application interactive animée, écrite en langage java, montre l'effet de la température T sur la distribution de Fermi-Dirac. On y voit notamment pourquoi seuls les états près du niveau de Fermi sont sollicités lors de la conduction.
+Références[modifier | modifier le code]
+Charles Kittel (trad. Nathalie Bardou, Évelyne Kolb), Physique de l’état solide [« Solid state physics »],‎ 1998 [détail des éditions]
+Voir également[modifier | modifier le code]
+Autres distributions statistiques en mécanique quantique
+en mécanique quantique : statistique de Bose-Einstein
+en mécanique classique : statistique de Maxwell-Boltzmann
+physique statistique
+physique quantique
+v · d · m
+Mécanique quantique
+Concepts fondamentaux
+Décohérence · Dualité · Effet tunnel · État quantique · Fonction d'onde · Intrication · Observable · Correspondance · Superposition quantique · Complémentarité · Principe d'incertitude · Mesure · Spin
+Expériences
+Fentes de Young · Expérience de Davisson et Germer · Expérience de Stern et Gerlach · Chat de Schrödinger · Gomme quantique · Paradoxe EPR · Téléportation quantique · Expérience d'Aspect · Expérience d’Afshar
+Formalisme
+Notation bra-ket · Équation de Schrödinger · Matrice densité · Représentation de Schrödinger · Représentation de Heisenberg · Représentation d'interaction · Diagramme de Feynman · Équation de Rarita-Schwinger · Équation de Dirac · Matrice de Dirac · Symbole de Levi-Civita
+Statistiques
+Maxwell-Boltzmann · Échange · Fermi-Dirac · Fermion · Bose-Einstein · Boson
+Théories avancées
+Théorie quantique des champs · Axiomes de Wightman · Électrodynamique quantique · Chromodynamique quantique · Gravité quantique · Trou noir virtuel
+Interprétations
+Problème de la mesure · Copenhague · Ensemble · Variables cachées · Ontologique (Bohm-Hiley) · Transactionnelle · Mondes multiples · Histoires consistantes · Logique quantique
+Physiciens
+Bohr · Bohm · Born · de Broglie · Dirac · Einstein · Everett · Feynman · Heisenberg · Mosharafa · von Neumann · Pauli · Penrose · Planck · Schrödinger
+Postulats de la mécanique quantique · Histoire de la mécanique quantique
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Statistique_de_Fermi-Dirac&oldid=95938093 ».
+Catégories : Physique quantiquePhysique statistiqueCatégories cachées : Wikipédia:ébauche physique quantiquePortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Bosanski
+Català
+Čeština
+Deutsch
+English
+Español
+Eesti
+فارسی
+Suomi
+Gaeilge
+עברית
+Hrvatski
+Magyar
+Հայերեն
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Nederlands
+Norsk nynorsk
+Polski
+Português
+Русский
+Slovenčina
+Slovenščina
+Svenska
+Türkçe
+Татарча/tatarça
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 19 août 2013 à 20:25.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

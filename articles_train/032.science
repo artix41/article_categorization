@@ -1,0 +1,492 @@
+Capacité thermique — Wikipédia
+Capacité thermique
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La capacité thermique (ou capacité calorifique) d'un corps est une grandeur permettant de quantifier la possibilité qu'a un corps d'absorber ou restituer de l'énergie par échange thermique au cours d'une transformation pendant laquelle sa température varie. La capacité thermique est l'énergie qu'il faut apporter à un corps pour augmenter sa température d'un kelvin. Elle s'exprime en joule par kelvin (J/K). C'est une grandeur extensive : plus la quantité de matière est importante plus la capacité thermique est grande. Toutes choses étant égales par ailleurs, plus la capacité thermique d'un corps est grande, plus grande sera la quantité d'énergie échangée au cours d'une transformation s'accompagnant d'une variation de la température de ce corps.
+Sommaire
+1 Histoire
+2 Capacités intensives
+3 Capacité thermique molaire à volume constant
+4 Capacité thermique molaire à pression constante
+5 Relation de Mayer
+6 Variation avec la température pour un gaz parfait
+7 Capacité thermique des éléments
+8 Physique appliquée
+8.1 En construction
+9 Voir aussi
+10 Notes et références
+Histoire[modifier | modifier le code]
+Avant le développement de la thermodynamique moderne, on pensait que la chaleur était un fluide (vision dite substantialiste) : le fluide calorique. Les corps étaient donc susceptibles de contenir une certaine quantité de ce fluide d'où l'appellation capacité calorifique. Pour des raisons historiques, la calorie[1] était définie comme la « chaleur » nécessaire pour élever de 15 °C à 16 °C la température d'un gramme d'eau, d'où le nom de capacité calorifique.
+Aujourd'hui, on considère que l'énergie interne des systèmes est constituée des énergies cinétique et potentielle microscopiques. La chaleur n'est plus un fluide, c'est un transfert d'énergie désordonnée à l'échelle microscopique. La capacité calorifique est désormais appelée capacité thermique.
+Capacités intensives[modifier | modifier le code]
+On peut déduire de la capacité thermique (notée C) d'un corps de masse m et de quantité de matière n, trois grandeurs associées intensives :
+La capacité thermique massique  : rapportée à un kilogramme du corps considéré (en joule par kilogramme-kelvin) ;
+La capacité thermique volumique  : rapportée à un mètre cube du corps considéré (en joule par mètre cube-kelvin) ;
+La capacité thermique molaire  : rapportée à une mole du corps considéré (en joule par mole-kelvin).
+Capacité thermique molaire à volume constant[modifier | modifier le code]
+On appelle capacité thermique molaire à volume constant , le rapport de la quantité d'énergie transmise par chaleur
+nécessaire pour faire monter la température d'une mole de corps pur d'une petite quantité
+par cette petite quantité
+soit :
+en  J⋅mol-1⋅K-1.
+Il convient toujours de préciser que lors d'une petite variation d'un état
+à un autre état voisin , il y a un autre coefficient très important, appelé coefficient calorifique de chaleur latente de dilatation :
+, en pascals (valant
+formule de Clapeyron).
+L'énergie thermique échangée au cours d'une transformation est donc :
+où
+n'est qu'une forme différentielle et non pas la différentielle d'une fonction d'état. D'après le premier principe de la thermodynamique, , où
+est le travail mis en jeu dans la transformation et U la fonction énergie interne. On retrouve donc sous une forme mathématique le fait qu'il n'existe pas de « chaleur » de la tasse à café chaude, malgré tout ce que peut véhiculer le langage ordinaire. Toutefois si seules les forces de pression sont susceptibles de travailler, , et on obtient dans le cas d'une transformation à volume constant , d'où la définition plus précise de la capacité thermique isochore d'un corps pur monophasé :
+Capacité thermique molaire à pression constante[modifier | modifier le code]
+C'est le même raisonnement mais en gardant cette fois la pression
+constante. Pratiquement, c'est aussi plus facile à mesurer.
+On introduit alors un coefficient de chaleur latente de compression  :
+, avec , formule de Clapeyron
+Plus précisément la capacité thermique isobare d'un corps pur monophasé est définie à partir de son enthalpie  :
+Relation de Mayer[modifier | modifier le code]
+et
+sont liés entre eux et aux coefficients thermoélastiques par la relation de Mayer.
+Variation avec la température pour un gaz parfait[modifier | modifier le code]
+Dans le cas d'un gaz parfait,
+ne dépend pas de , car un gaz parfait est un gaz de Joule. Il reste à déterminer la variation avec la température :
+pour un gaz parfait monoatomique (GPM), on considère que . Bien sûr, sous pression atmospherique, aucun corps pur ne peut être GPM à basse température : il finit par se liquéfier ;
+pour un gaz parfait diatomique (GPD), on considère que dans une plage de température comprise entre , l'on a .
+Capacité thermique des éléments[modifier | modifier le code]
+Le tableau suivant donne la capacité thermique des corps purs simple pris dans leur état standard de référence en J⋅mol-1⋅K-1 à une température de 25 °C et une pression de 100 kPa[2] : ("H, N, O, F, Cl, Br, I" sont (resp.) H2, N2, O2, F2, Cl2, Br2 et I2 )
+Valeur max = 37,03 J⋅mol-1⋅K-1 pour le gadolinium
+Valeur min = 8,517 J⋅mol-1⋅K-1 pour le carbone
+H
+28,836
+He
+20,786
+Li
+24,86
+Be
+16,443
+B
+11,087
+C
+8,517
+N
+29,124
+O
+29,378
+F
+31,304
+Ne
+20,786
+Na
+28,23
+Mg
+24,869
+Al
+24,2
+Si
+19,789
+P
+23,824
+S
+22,75
+Cl
+33,949
+Ar
+20,786
+K
+29,6
+Ca
+25,929
+Sc
+25,52
+Ti
+25,06
+V
+24,89
+Cr
+23,35
+Mn
+26,32
+Fe
+25,1
+Co
+24,81
+Ni
+26,07
+Cu
+24,44
+Zn
+25,39
+Ga
+25,86
+Ge
+23,222
+As
+24,64
+Se
+25,363
+Br
+36,057
+Kr
+20,786
+Rb
+31,06
+Sr
+26,4
+Y
+26,53
+Zr
+25,36
+Nb
+24,6
+Mo
+24,06
+Tc
+Ru
+24,06
+Rh
+24,98
+Pd
+25,98
+Ag
+25,35
+Cd
+26,02
+In
+26,74
+Sn
+27,112
+Sb
+25,23
+Te
+25,73
+I
+36,888
+Xe
+20,786
+Cs
+32,21
+Ba
+28,07
+*
+Hf
+25,73
+Ta
+25,36
+W
+24,27
+Re
+25,48
+Os
+24,7
+Ir
+25,1
+Pt
+25,86
+Au
+25,418
+Hg
+27,8419
+Tl
+26,32
+Pb
+26,65
+Bi
+25,52
+Po
+At
+Rn
+Fr
+Ra
+20,786
+**
+Rf
+Db
+Sg
+Bh
+Hs
+Mt
+Ds
+Rg
+Cn
+Uut
+Fl
+Uup
+Lv
+Uus
+Uuo
+*
+La
+27,11
+Ce
+26,94
+Pr
+27,2
+Nd
+27,45
+Pm
+Sm
+29,54
+Eu
+27,66
+Gd
+37,03
+Tb
+28,91
+Dy
+27,7
+Ho
+27,15
+Er
+28,12
+Tm
+27,03
+Yb
+26,74
+Lu
+26,86
+**
+Ac
+27,2
+Th
+26,23
+Pa
+U
+27,665
+Np
+Pu
+Am
+Cm
+Bk
+Cf
+Es
+Fm
+Md
+No
+Lr
+Les mêmes valeurs converties en  J⋅g-1⋅K-1 donnent :
+Valeur max = 14,304 J⋅g-1⋅K-1 pour l'hydrogène
+Valeur min = 0,094 J⋅g-1⋅K-1 pour le radium
+H
+14,304
+He
+5,193
+Li
+3,582
+Be
+1,825
+B
+1,026
+C
+0,709
+N
+1,04
+O
+0,918
+F
+0,824
+Ne
+1,03
+Na
+1,228
+Mg
+1,023
+Al
+0,897
+Si
+0,712
+P
+0,769
+S
+0,708
+Cl
+0,479
+Ar
+0,52
+K
+0,757
+Ca
+0,647
+Sc
+0,568
+Ti
+0,523
+V
+0,489
+Cr
+0,449
+Mn
+0,479
+Fe
+0,449
+Co
+0,421
+Ni
+0,444
+Cu
+0,385
+Zn
+0,388
+Ga
+0,373
+Ge
+0,32
+As
+0,329
+Se
+0,321
+Br
+0,474
+Kr
+0,248
+Rb
+0,363
+Sr
+0,306
+Y
+0,298
+Zr
+0,278
+Nb
+0,265
+Mo
+0,251
+Tc
+Ru
+0,238
+Rh
+0,243
+Pd
+0,246
+Ag
+0,235
+Cd
+0,232
+In
+0,233
+Sn
+0,227
+Sb
+0,27
+Te
+0,202
+I
+0,214
+Xe
+0,158
+Cs
+0,242
+Ba
+0,204
+*
+Hf
+0,144
+Ta
+0,14
+W
+0,132
+Re
+0,137
+Os
+0,13
+Ir
+0,131
+Pt
+0,133
+Au
+0,129
+Hg
+0,1388
+Tl
+0,129
+Pb
+0,13
+Bi
+0,122
+Po
+At
+Rn
+Fr
+Ra
+0,094
+**
+Rf
+Db
+Sg
+Bh
+Hs
+Mt
+Ds
+Rg
+Cn
+Uut
+Fl
+Uup
+Lv
+Uus
+Uuo
+*
+La
+0,195
+Ce
+0,192
+Pr
+0,193
+Nd
+0,19
+Pm
+Sm
+0,197
+Eu
+0,182
+Gd
+0,236
+Tb
+0,182
+Dy
+0,173
+Ho
+0,165
+Er
+0,168
+Tm
+0,16
+Yb
+0,155
+Lu
+0,154
+**
+Ac
+0,12
+Th
+0,118
+Pa
+U
+0,116
+Np
+Pu
+Am
+Cm
+Bk
+Cf
+Es
+Fm
+Md
+No
+Lr
+Physique appliquée[modifier | modifier le code]
+En construction[modifier | modifier le code]
+D'une manière générale :
+Un matériau dense est meilleur conducteur de chaleur et présente une capacité thermique volumique élevée ;
+Un matériau léger est plus isolant et présente une capacité thermique volumique faible.
+Appliquée à un matériau de construction, une paroi, un local ou un bâtiment, la capacité thermique représente la quantité de chaleur que ceux-ci emmagasinent lorsque leur température augmente d'un degré. La capacité thermique entre donc dans les calculs de diffusivité thermique et de l'effusivité thermique, les deux grandeurs essentielles pour quantifier l'inertie thermique.
+La capacité thermique volumique est donc éventuellement renseignée pour les matériaux entrant dans la construction des bâtiments.
+Voir aussi[modifier | modifier le code]
+Capacité thermique massique
+Capacité thermique volumique
+Capacité thermique isobare
+Capacité thermique isochore
+Conductivité thermique
+Formules de thermodynamique
+Loi de Dulong et Petit
+Diffusivité thermique
+Effusivité thermique
+Inertie thermique

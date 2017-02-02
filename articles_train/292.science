@@ -1,0 +1,198 @@
+Fonction de partition — Wikipédia
+Fonction de partition
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En physique statistique, la fonction de partition Z est une grandeur fondamentale qui englobe les propriétés statistiques d'un système à l'équilibre thermodynamique.
+C'est une fonction de la température et d'autres paramètres, tels que le volume contenant un gaz par exemple. La plupart des variables thermodynamiques du système, telles que l'énergie totale, l'entropie, l'énergie libre ou la pression peuvent être exprimées avec cette fonction et ses dérivées.
+Il y a en réalité plusieurs types de fonction de partition, chacune correspondant à un ensemble statistique (ou de façon équivalente, à différents types d'énergie libre). La fonction de partition canonique s'applique à un ensemble canonique dans lequel le système peut échanger de la chaleur avec son environnement à température, volume et nombre de particules fixe. La fonction de partition grand canonique s'applique à un ensemble grand canonique dans lequel le système peut échanger de la chaleur et des particules avec son environnement à température, volume et potentiel chimique fixé. D'autres types de fonction de partition peuvent être utilisés au besoin.
+Sommaire
+1 Fonction de partition canonique
+1.1 Définition
+1.2 Signification et interprétation
+1.3 Calcul de l'énergie thermodynamique totale
+1.4 Relation avec les variables thermodynamiques
+1.5 Fonctions de partition de sous-systèmes
+2 Fonction de partition grand canonique
+2.1 Définition
+2.2 Expressions spécifiques
+2.3 Relations avec les variables thermodynamiques
+3 Références
+4 Voir aussi
+Fonction de partition canonique[modifier | modifier le code]
+Définition[modifier | modifier le code]
+Supposons un système thermodynamique dont le volume et le nombre de particules sont fixes qui est en contact thermique constant avec l’environnement, lequel a une température T. Ce système est appelé ensemble canonique. Étiquetons les états d’énergie exacts (les micro-états) que le système peut occuper par j=1, 2, 3, etc. et notons Ej l’énergie correspondant à chaque micro-état j. Généralement, ces micro-états sont considérés comme des états quantiques discrets du système.
+La fonction de partition canonique pour une seule particule est :
+où la température inverse est par convention définie par :
+où
+est la constante de Boltzmann. En mécanique classique, il n’est pas vraiment correct d’exprimer la fonction de partition comme une somme discrète de termes. En effet, en mécanique classique, la position et la quantité de mouvement peuvent varier continûment, et donc l’ensemble des micro-états est en réalité non dénombrable. Dans ce cas, une forme grossière de discrétisation peut être appliquée, qui revient essentiellement à traiter deux états mécaniques différents comme un seul si la différence de leur quantité de mouvement et de leur position n’est "pas trop grande".
+Par exemple, la fonction de partition d’un gaz de N particules indiscernables est :
+où h représente une grandeur infinitésimale exprimée en unité d'action (et prise habituellement égale à la constante de Planck pour garder la cohérence avec la mécanique quantique) et H est le hamiltonien classique du système. Pour les détails du facteur N! voir plus bas.
+Par simplicité, nous utiliserons la forme discrète de la fonction de partition, mais les résultats demeurent valides pour la forme continue. En mécanique quantique la fonction partition peut être décrite formellement comme la trace d’un opérateur sur un espace d'états (elle est indépendante du choix de la base) :
+où
+est l’opérateur hamiltonien quantique. L’exponentielle d’un opérateur est définie – avec quelques précautions mathématiques – par la série de puissances usuelle.
+Signification et interprétation[modifier | modifier le code]
+L'importance de la fonction de partition telle que nous venons de la décrire peut ne pas sauter aux yeux. Tout d'abord, considérons ses paramètres. Elle est fonction, tout d'abord, de la température T; ensuite, des énergies E1, E2, E3,… Les énergies des micro-états sont déterminées par d'autres variables thermodynamiques, telles que le nombre de particules et le volume, aussi bien que par des quantités microscopiques comme la masse des particules le constituant. Cette dépendance à l'égard de paramètres microscopiques est le point central de la mécanique statistique.
+Avec un modèle des constituants microscopiques du système, on calcule l'énergie des micro-états, et ainsi la fonction de partition, qui nous permet de remonter aux autres propriétés thermodynamiques du système. La fonction de partition peut être reliée aux propriétés thermodynamiques parce qu'elle a une signification statistique très importante. La probabilité Pj que le système occupe un micro-état j est:
+C'est le facteur de Boltzmann (pour des détails sur ce résultat, voir dérivation de la fonction de partition). La fonction de partition joue alors le rôle d'une constante de normalisation (elle ne dépend pas de j) et assure que la somme des probabilités vaut 1. C'est la raison pour laquelle on appelle Z "fonction de partition" :
+Elle contient la façon dont les probabilités sont réparties entre les micro-états individuels, pour former une partition au sens mathématique. Le terme « fonction de partition » correspond aussi au terme anglais « partition function ». Un autre nom français pour Z est somme statistique, surtout aux références plus anciennes. La lettre Z est l'abréviation de l'allemand Zustandssumme (« somme sur les états »).
+Calcul de l'énergie thermodynamique totale[modifier | modifier le code]
+Pour démontrer l'utilité de la fonction de partition, calculons la valeur thermodynamique de l'énergie totale. C'est tout simplement l'espérance mathématique, ou la moyenne d'ensemble de l'énergie, qui est la somme de toutes les énergies de micro-états pondérées par leur probabilité :
+ou de façon équivalente :
+Incidemment, on doit noter que si les énergies des micro-états dépendent d'un paramètre λ de la façon suivante :
+alors la valeur de A attendue est :
+Ceci nous fournit une astuce pour calculer les valeurs de nombreuses quantités microscopiques.
+Nous ajoutons la quantité artificiellement aux énergies des micro-états (ou en langage de la mécanique quantique à l'hamiltonien), nous calculons la nouvelle fonction et la valeur attendue, puis posons
+dans l'expression finale.
+Ceci est analogue à la méthode des champs sources utilisée dans la formulation des intégrales de chemin en théorie quantique des champs.
+Relation avec les variables thermodynamiques[modifier | modifier le code]
+Dans cette section on établira les relations entre la fonction de partition et les divers paramètres thermodynamiques du système. Ces résultats peuvent être établis en utilisant la méthode décrite dans la section précédente et les diverses relations thermodynamiques. Comme nous l'avons vu précédemment :
+L'énergie thermodynamique est :
+La variance de l'énergie (ou fluctuation de l'énergie) est :
+La capacité calorifique est :
+L'entropie est :
+L'expression ci-dessus nous autorise à identifier l'énergie libre de Helmholtz F (définie comme F = E – TS où E est l'énergie totale et S est l'entropie) comme
+Fonctions de partition de sous-systèmes[modifier | modifier le code]
+Supposons un système divisé en N sous-systèmes avec des énergies d'interaction négligeables.
+Si les fonctions de partition des sous-systèmes sont , alors la fonction de partition du système complet est le produit des fonctions de partition individuelles
+Si les sous-systèmes ont les mêmes propriétés physiques, alors leurs fonctions de partition sont égales auquel cas
+Cependant il y a des exceptions bien connues à cette règle. Si les sous-systèmes sont en fait des particules identiques, au sens de la mécanique quantique, c’est-à-dire impossibles à distinguer même en principe, la fonction de partition totale doit être divisée par N!(factorielle N)
+Ceci afin d'éviter de surreprésenter les micro-états. Il est nécessaire de préserver l'existence d'une limite thermodynamique pour de tels systèmes. C'est le paradoxe de Gibbs.
+Fonction de partition grand canonique[modifier | modifier le code]
+Définition[modifier | modifier le code]
+De même que pour l'ensemble canonique, nous pouvons définir une fonction de partition grand canonique pour l'ensemble grand canonique qui échange à la fois de la chaleur et des particules avec l'environnement, avec une température T, un volume V et un potentiel chimique μ constants. La fonction de partition grand canonique, quoique conceptuellement plus élaborée, simplifie les calculs physiques sur les systèmes quantiques. La fonction de partition grand canonique Z s'écrit :
+où N est le nombre total de particules dans le volume V, l'indice i parcourt tous les micro-états du système, ni étant le nombre de particules dans l'état i et ei est l'énergie de l'état i. {ni} est l'ensemble de tous les nombres d'occupation possibles pour chaque micro-état, tel que . Par exemple, considérons le terme N = 3 dans la somme ci-dessus. Un ensemble possible de nombres d'occupation serait {ni} = 0, 1, 0, 2, 0… et la contribution de ce nombre d'occupation au terme N = 3 serait
+Pour des bosons, le nombre d'occupation peut prendre n'importe quelle valeur entière du moment que leur somme est égale à N. Pour les fermions, le principe de Pauli nécessite que les nombres d'occupation soient 0 ou 1, et que la somme soit N.
+Expressions spécifiques[modifier | modifier le code]
+L'expression ci-dessus de la fonction de partition grand canonique est équivalente à :
+(Le produit-ci dessus est parfois pris avec des états ayant tous la même énergie, plutôt que sur tous les états, auquel cas les fonctions de partitions individuelles doivent être élevées à une puissance gi, où gi est le nombre de tels états. gi est souvent baptisé dégénérescence de l'état i.)
+Pour un système composé de bosons :
+et pour un système composé de fermions :
+Pour le cas d'un gaz de Maxwell-Boltzmann, nous devons utiliser le décompte exact de Maxwell-Boltzmann et diviser le facteur par ni! :
+Relations avec les variables thermodynamiques[modifier | modifier le code]
+De même que pour la fonction de partition canonique, la fonction de partition grand canonique peut être utilisée pour calculer les variables thermodynamiques et statistiques du système. Comme avec l'ensemble canonique les quantités thermodynamiques ne sont pas fixées mais présentent une distribution statistique autour d'une moyenne ou d'une valeur attendue.
+En définissant α = – βμ , les nombres d'occupation les plus probables sont :
+Pour des particules de Boltzmann ceci donne :
+Pour des bosons :
+Pour des fermions :
+Ce sont exactement les résultats obtenus en utilisant l'ensemble canonique pour la statistique de Maxwell-Boltzmann, la statistique de Bose-Einstein et la statistique de Fermi-Dirac (nota : la dégénérescence gi disparaît des équations ci-dessus, car l'indice i est sommé sur les micro-états et non pas sur les énergies).
+Le nombre total de particules est :
+La variance du nombre total de particules est :
+L'énergie interne est :
+La variance de l'énergie interne est :
+La pression est :
+L'équation d'état mécanique est :
+Références[modifier | modifier le code]
+Lev Landau et Evgueni Lifchits, Physique théorique, tome 5 : Physique statistique, éd. MIR, Moscou [détail des éditions]
+Integrale de configuration (mecanique statistique); "Configuration integral (statistical mechanics)"
+Voir aussi[modifier | modifier le code]
+Physique statistique
+Statistique de Maxwell-Boltzmann
+Statistique de Fermi-Dirac
+Statistique de Bose-Einstein
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Partition function (statistical mechanics) » (voir la liste des auteurs).
+v · d · m
+Théorie quantique des champs
+Concepts fondamentaux
+Théorie de jauge · Théorie des champs · Transformations de Poincaré · Mécanique quantique · Brisure spontanée de symétrie
+Symétries
+(en) Croisements · Symétrie C · Parité · Symétrie T
+Outils
+Anomalie · Axiomes de Wightman · Théorie effective · Valeur moyenne dans le vide · Champ fantôme de Faddeev–Popov-DeWitt · Diagramme de Feynman · Théorie de jauge sur réseau · Formule de réduction de LSZ · Fonction de partition · Propagateur · Quantification · Renormalisation · Vide quantique · Théorème de Wick
+Équations
+Équation de Dirac · Équation de Klein-Gordon · Action de Proca · Equation de Wheeler–DeWitt
+Modèle standard
+Interaction électrofaible · Mécanisme de Higgs · Chromodynamique quantique · Électrodynamique quantique · Théorie de Yang-Mills · Diagramme de Feynman
+Théories incomplètes
+Gravité quantique · Théorie des cordes · Supersymétrie · Technicolor · Théorie du tout
+Physiciens
+Adler · Bethe · Bogolioubov · Callan · Candlin · Coleman · DeWitt · Dirac · Dyson · Fermi · Fierz · Feynman · Fröhlich · Gell-Mann · Goldstone · Gross · 't Hooft · Jackiw · Klein · Landau · Lee · Lehmann · Majorana · Nambu · Parisi · Polyakov · Salam · Schwinger · Skyrme · Stueckelberg · Symanzik · Tomonaga · Veltman · Weinberg · Weisskopf · Wilson · Wilczek · Witten · Yang · Yukawa · Zimmermann · Zinn-Justin
+Diagrammes de Feynman - Histoire de la théorie quantique des champs
+v · d · m
+Physique statistique
+Formalisme
+Hypothèse ergodique · Micro-état / macro-état · Fonction de partition · Matrice densité
+Ensembles statistiques
+microcanonique · canonique · grand-canonique · T-p
+Statistiques quantiques
+Maxwell-Boltzmann · Échange · Fermi-Dirac · Fermion · Bose-Einstein · Boson
+Potentiel
+Énergie interne · Énergie libre · Enthalpie · Enthalpie libre · Entropie
+Gaz de particules
+Gaz de fermions dégénéré · Condensat de Bose-Einstein · Loi de Planck
+Modèles
+Einstein · Debye · Ising · Ginzburg-Landau
+Physiciens
+Kelvin · Maxwell · Gibbs · Boltzmann · Planck · Pauli · Dirac · Bose · Einstein
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Fonction_de_partition&oldid=108186420 ».
+Catégorie : Physique statistiqueCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Български
+Deutsch
+Ελληνικά
+English
+Español
+فارسی
+Galego
+עברית
+Bahasa Indonesia
+Italiano
+日本語
+Қазақша
+한국어
+Bahasa Melayu
+Polski
+Português
+Русский
+Slovenščina
+Türkçe
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 13 octobre 2014 à 08:59.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

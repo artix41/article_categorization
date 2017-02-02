@@ -1,0 +1,100 @@
+Fluide incompressible — Wikipédia
+Fluide incompressible
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Un fluide est dit incompressible lorsque son volume demeure constant sous l'action d'une pression externe.
+Sommaire
+1 Existence
+2 Écriture mathématique
+3 Cas des gaz
+4 Articles connexes
+Existence[modifier | modifier le code]
+En réalité, tous les fluides sont compressibles, certains plus que d'autres. La compressibilité d'un fluide mesure la variation de volume d'une certaine quantité de ce fluide lorsqu'il est soumis à une pression extérieure. Ainsi si l'on bouche l'orifice de sortie d'une pompe à vélo et que l'on pousse sur la pompe, on voit que l'on peut comprimer l'air contenu à l'intérieur. En revanche si l'on faisait la même expérience avec de l'eau à l'intérieur, on ne pourrait quasiment pas déplacer la pompe: c'est parce que la compressibilité de l'eau (et de tous les liquides) est très faible. On peut par exemple utiliser une seringue sans aiguille, la remplir d'eau et boucher l'ouverture avec le pouce : on ne peut pas faire avancer le piston.
+Écriture mathématique[modifier | modifier le code]
+Pour simplifier les équations de la mécanique des fluides, on considère souvent que les liquides sont incompressibles. Ceci est valide dans le cas où le nombre de Mach de l'écoulement est faible. En termes mathématiques, l'incompressibilité se traduit par une masse volumique constante :
+L'équation de conservation des masses prend alors une forme particulièrement simple:
+sous forme intégrale sur une surface fermée :
+qui indique l'égalité des débits volumiques entrant et sortant.
+Sous forme locale
+Cette dernière propriété du champ de vitesse est fondamentale et permet l'utilisation d'un grand nombre d'outils mathématiques. On montre en particulier que dans des géométries bi-dimensionnelles ou cylindriques le champ de vitesse peut alors s'écrire comme le rotationnel d'une fonction de courant.
+Plus concrètement, l'incompressibilité d'un fluide implique que le débit volumique
+dans une conduite de section variable
+est constant. Dans un rétrécissement, la vitesse augmente, dans un élargissement, elle diminue. Le théorème de Bernoulli montre alors que la pression diminue dans un rétrécissement. C'est l'effet Venturi, mis en application par exemple dans la trompe à eau, dispositif utilisé pour créer un vide partiel dans un récipient.
+Cas des gaz[modifier | modifier le code]
+L'hypothèse de fluide incompressible peut être également utilisée pour des écoulements de gaz, à condition que le nombre de Mach soit faible.
+Articles connexes[modifier | modifier le code]
+Écoulement incompressible
+Compressibilité
+Dynamique des fluides
+v · d · m
+Mécanique des fluides
+Fluides
+Fluide caloporteur • Fluide de Stokes • Fluide hydraulique • Fluide incompressible • Fluide parfait • Fluide électrorhéologique
+Écoulements
+Écoulement complexe • Écoulement de Couette • Écoulement de Poiseuille • Écoulement incompressible • Écoulement laminaire • Écoulements torrentiel et fluvial • Écoulement polyphasique
+Équations
+Équations de Navier-Stokes • Théorème de Bernoulli • Équation de Darcy-Weisbach • Équation de Prony • Équation de Rankine-Hugoniot • Équation de Schlichting • Écoulement de Stokes • Équations d'Euler • Équation de continuité • Équations primitives atmosphériques
+Principaux
+nombres sans dimension
+Nombre d'Archimède • Nombre capillaire • Nombre d'Ekman • Nombre d'Ellis • Nombre de Bond • Nombre de Bulygin • Nombre de Cameron • Nombre de Fedorov • Nombre de Froude • Nombre de Galilée • Nombre de Grashof • Nombre de Goucher • Nombre de Hartmann • Nombre de Hedström • Nombre de Hersey • Nombre de Karlovitz • Nombre de Kutateladze • Nombre de Lewis • Nombre de Mach • Nombre d'Ohnesorge • Nombre de Prandtl • Nombre de Rayleigh • Nombre de Reech • Nombre de Reynolds • Nombre de Rossby • Nombre de Rouse • Nombre de Schmidt • Nombre de Stewart • Nombre de Strouhal • Nombre de Taylor • Nombre de Weber
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Fluide_incompressible&oldid=89893117 ».
+Catégorie : Mécanique des fluidesCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Deutsch
+English
+Español
+Italiano
+日本語
+Português
+Русский
+Svenska
+தமிழ்
+中文
+Modifier les liens
+Dernière modification de cette page le 13 mars 2013 à 01:10.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

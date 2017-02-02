@@ -1,0 +1,241 @@
+Diapason — Wikipédia
+Diapason
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article concerne l'outil de musicien. Pour les autres significations, voir Diapason (homonymie).
+En musique, le diapason (tiré de l'expression grecque διά πασω̃ν χορδω̃ν συμφωνία, diá pasōn khordōn symphōnía, « toutes les cordes, toutes les notes (de l'octave) ») est un outil de musicien donnant la hauteur (fréquence en hertz) d'une note-repère conventionnelle, en général le la, afin que celui-ci accorde son instrument. Par extension, le diapason désigne la hauteur absolue de la note de référence mondialement acceptée (actuellement la fréquence du la3 est de 440 Hz).
+Sommaire
+1 Instrument
+1.1 Calcul de la fréquence fondamentale
+2 Hauteur du la du diapason
+3 Évolution
+4 Notes et références
+5 Voir aussi
+5.1 Articles connexes
+6 Lien externe
+Instrument[modifier | modifier le code]
+Diapason en la3
+Petit et pratique d’emploi, le diapason est constitué de deux lames (branches) épaisses parallèles, soudées en forme de U et prolongées par une tige. Les branches en métal élastique (usuellement l'acier) en vibrant émettent un son à la fréquence étalonnée ; ce son est amplifié si l’on pose la base du diapason sur une cavité résonnante, comme la caisse d’une guitare, ou sur une table. Son invention est attribuée au trompettiste et luthiste anglais John Shore (1662-1752) en 1711.
+La principale raison de la forme du diapason est qu'il produit une note pratiquement pure. La majeure partie de l'énergie de vibration se retrouve dans la fréquence fondamentale, et très peu dans les harmoniques, contrairement aux autres résonateurs. La raison de cela est que la fréquence de la première harmonique est d'environ 52/22 = 25/4 = 6 1/4 fois la fondamentale (environ 2 1/2 octaves au-dessus de la fondamentale)[1]. Par comparaison, la première harmonique d'une corde vibrante est d'une octave au-dessus de la fondamentale. Ainsi lorsque le diapason est excité, peu d'énergie se répartit dans les harmoniques ; celles-ci s'amortissent en conséquence plus rapidement, laissant vibrer la fondamentale. Il est plus facile d'accorder d'autres instruments avec cette note pure.
+Diapason avec résonateur
+Une autre raison de la forme du diapason est que, lorsqu'il vibre, la tige vibre longitudinalement alors que les branches se déplacent de part et d'autre, en opposition de phase, dans leur plan commun. Il y a donc un nœud de pression (point de non vibration, et non pas nœud de vitesse) à la base commune des branches. Le mouvement de la tige est insensible, ce qui permet de tenir le diapason par celle-ci sans amortir les vibrations : la tige peut donc transmettre les vibrations au résonateur (par exemple une boite rectangulaire creuse), qui amplifie le son du diapason. Sans un résonateur, le son est très faible. La raison en est que les ondes sonores produites par chaque branche ont des phases décalées de 180° l'une de l'autre ; à une certaine distance du diapason (soit à égale distance des deux branches de celui-ci, donc dans un plan perpendiculaire au plan de vibration des branches), elles interfèrent et s'annihilent l'une l'autre (« court-circuit » acoustique, observable également dans le plan de vibration d'une cymbale). Si un obstacle absorbant le son est glissé perpendiculairement entre les branches du diapason excité, celui-ci réduit l'onde déphasée de 180° venant de l'autre branche ; le volume perçu alors croît, car il y a réduction du phénomène d'interférence (absorption du « court-circuit » acoustique).
+Calcul de la fréquence fondamentale[modifier | modifier le code]
+La fréquence fondamentale du diapason dépend de ses dimensions et du matériau dont il est fait[2]:
+et, si les branches sont cylindriques, ,
+où :
+f est la fréquence fondamentale avec laquelle le diapason vibre, exprimé en hertz (Hz).
+A est l'aire de la section des branches, exprimée en mètres carrés (m2).
+l est la longueur des branches, exprimée en mètres (m).
+E est le module de Young du matériau dont est fait le diapason, exprimé en pascals (Pa).
+ρ est la masse volumique du matériau dont est fait le diapason, exprimé en kilogrammes par mètre cube (kg/m3).
+R est le rayon des branches, exprimé en mètres (m).
+Hauteur du la du diapason[modifier | modifier le code]
+En 1859, la fréquence du « la » est normalisée d'abord en France à 435 Hz à la température de 18 °C, puis internationalement réglementée en 1885 à la Conférence de Vienne. Mais les instruments ont alors des cordes soumises à des contraintes de plus en plus fortes si bien que cette fréquence de référence est augmentée, variant même d'un pays à l'autre[3].
+La Conférence internationale de Londres en 1953 a fixé la fréquence du la3 à 440 Hz. Un diapason de référence avait toutefois déjà été établi en 1939 par la Fédération internationale des associations nationales de standardisation (ancêtre de l'Organisation internationale de normalisation), avec 440 Hz pour le la3 à une température de 20 °C. L'Orchestre philharmonique royal utilisait jusqu'alors une fréquence de 439 Hz pour l'accord. Le standard fut rapidement adopté par la BBC qui généra électroniquement le signal à la bonne fréquence via un cristal piézoélectrique[4] et demanda à l'orchestre de se caler sur cette nouvelle référence. La norme a été rééditée en janvier 1975 (ISO 16:1975[5]).
+Cette norme est généralement adoptée par tous les instrumentistes, exception faite de beaucoup d’ensembles spécialisés dans la musique baroque, qui choisissent de nombreux diapasons, les plus courants allant de 392 à 415 Hz — ils nécessitent une tension moindre des cordes d’instruments tels que violes, luths, guitares, clavecins. Il faut noter que les écarts de fréquence entre 440 Hz et 415 Hz d'une part, entre 415 Hz et 392 Hz d'autre part correspondent à un intervalle de demi-ton. Certains clavecins possèdent deux la, que l'on obtient par un mécanisme de déplacement du clavier. Le « la 415 » est communément appelé « la baroque », mais il n'est qu'une convention et ne correspond en réalité à aucun diapason historique attesté.
+On sait que la hauteur du diapason a beaucoup varié dans les siècles passés, et d’un lieu à l’autre. On parvient à déterminer les valeurs grâce aux instruments d’époque qui ne se désaccordent pas : les instruments à vent tels que flûtes, trompettes, orgues, les cloches, etc.
+Dès le début du XVIIIe siècle, grâce aux travaux de Joseph Sauveur, les acousticiens ont su mesurer la fréquence d'un son entendu. En 1704, un la a ainsi été relevé à 405,3 Hz dans l'orchestre de l'Opéra de Paris. En 1938, un relevé effectué dans un orchestre de Vienne permit de mesurer un la à 450,85 Hz[6].
+On suppose que le diapason n’a pas cessé d’augmenter pour rendre la sonorité plus brillante. Cette dérive vers l’aigu se remarque particulièrement pour les pianos solistes — désormais généralement accordés à 442 Hz[réf. nécessaire] — et les groupes de musique moderne.
+À défaut de diapason : généralement (mais pas toujours), la tonalité d'invitation à numéroter du téléphone fixe en France a une fréquence de 440 Hz correspondant au la3 moderne.
+Évolution[modifier | modifier le code]
+Avant la normalisation de 1953, le la de référence a pris toutes sortes de valeurs aussi arbitraires qu'imprévisibles. En voici quelques-unes :[réf. nécessaire]
+Année
+Hertz
+Lieu
+1495
+506
+Orgue de la cathédrale de Halberstadt
+1511
+377
+Schlick organiste à Heidelberg
+1543
+481
+Sainte-Catherine Hambourg
+1636
+504
+Mersenne ton de chapelle
+1636
+563
+Mersenne ton de chambre
+1640
+458
+Orgues des franciscains à Vienne
+1648
+403
+Épinette Mersenne
+1688
+489
+Saint-Jacques Hambourg
+1700
+404
+Paris ton moyen
+1750
+390
+Orgue Dallery de l'abbaye de Valloires
+1751
+423
+Diapason Haendel
+1780
+422
+Diapason Mozart
+1810
+432
+Paris diapason moyen
+1819
+434
+Cagniard de La Tour
+1823
+428
+Opéra comique Paris
+1834
+440
+Scheibler congrès de Stuttgart
+1856
+449
+Opéra de Paris Berlioz
+1857
+445
+San Carlo Naples
+1859
+435
+Diapason français arrêtés ministériels
+1859
+456
+Vienne
+1863
+440
+Tonempfindungen Helmholtz
+1879
+457
+Pianos Steinway USA
+1885
+435
+Conférence de Vienne (fréquence internationalement réglementée)
+1899
+440
+Covent Garden
+1939
+440
+Diapason international normal
+1953
+440
+Conférence de Londres
+Dans certains pays, il existait au même moment plusieurs types de diapason. Dans le cas de la Grande-Bretagne, on distinguait le « diapason grave » (435 Hz) du « diapason aigu » (452 Hz). Cette pratique cessa après 1930[7].
+Notes et références[modifier | modifier le code]
+↑ John Tyndall, Sound, New York, D. Appleton & Co.,‎ 1915, p.156 p. (lire en ligne)
+↑ Tuning Forks For Vibrant Teaching
+↑ Rémi Huppert, Le manager musicien, Éditions Eyrolles,‎ 2011, p. 78
+↑ A Brief History of the Establishment of International Standard Pitch A=440 Hertz
+↑ ISO 16:1975 Acoustics - Standard tuning frequency (Standard musical pitch)
+↑ Guide de la théorie de la musique, Claude Abromont, éd. Fayard/Henri-Lemoine, 2010, p. 342.
+↑ La Partition intérieure, Jacques Siron, page 108
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Diapason, sur Wikimedia Commons
+diapason, sur le Wiktionnaire
+Articles connexes[modifier | modifier le code]
+Glossaire théorique et technique de la musique occidentale
+Solfège
+Karl Rudolf Koenig
+Dulcitone, piano composé de diapasons
+Lien externe[modifier | modifier le code]
+Un article de Muse Baroque sur le diapason à l'époque baroque
+Portail de la musique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Diapason&oldid=111241014 ».
+Catégories : Accessoire de musiqueOutil (facture instrumentale)AcoustiqueCatégories cachées : Article à référence nécessaireCatégorie Commons avec lien local identique sur WikidataPortail:Musique/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Autres projets
+Wikimedia Commons
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+Català
+Čeština
+Kaszëbsczi
+Dansk
+Deutsch
+English
+Esperanto
+Español
+Eesti
+فارسی
+Suomi
+Nordfriisk
+Gaeilge
+Galego
+עברית
+हिन्दी
+Magyar
+Հայերեն
+Bahasa Indonesia
+Ido
+Italiano
+日本語
+Basa Jawa
+Lietuvių
+മലയാളം
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Occitan
+Polski
+Português
+Русский
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenščina
+Српски / srpski
+Svenska
+தமிழ்
+Тоҷикӣ
+Українська
+中文
+Modifier les liens
+Dernière modification de cette page le 25 janvier 2015 à 10:11.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobile

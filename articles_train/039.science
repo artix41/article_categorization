@@ -1,0 +1,86 @@
+Loi de Joule-Thomson — Wikipédia
+Loi de Joule-Thomson
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article a une forme trop académique.
+La forme ressemble trop à un extrait de cours et nécessite une réécriture afin de correspondre aux standards de Wikipédia. N'hésitez pas à l'améliorer.
+Un gaz suit la loi de Joule-Thomson (ou deuxième loi de Joule) si son enthalpie ne dépend que de la température. L'expérience permettant de déterminer si un gaz suit la loi de Joule et Thomson est appelée détente de Joule et Thomson. Tous les gaz parfaits vérifient cette loi et un gaz ne vérifiant pas cette loi ne peut pas être parfait.
+Sommaire
+1 Conséquence sur l'équation d'état
+2 Identification de la température absolue du gaz parfait T' avec la température thermodynamique
+3 Critère de Joule-Thomson
+4 Comportement des gaz réels
+5 Voir aussi
+Conséquence sur l'équation d'état[modifier | modifier le code]
+D'après la relation de Clapeyron (cf. formules de thermodynamique), on a :
+; donc
+Identification de la température absolue du gaz parfait T' avec la température thermodynamique[modifier | modifier le code]
+Rappel : un gaz parfait est par définition un gaz de Joule-Thomson (V.f(p) = NkT) et un gaz de Mariotte (pV = NkT') avec T' = g(T) monotone, puisque T' est une échelle de température.
+D'où f(p)/p = T/g(T) = cste ; mais quand p→0 f(p)→p donc T = g(T)= T'.
+Critère de Joule-Thomson[modifier | modifier le code]
+On étudie une détente stationnaire d'un gaz réel dans un tuyau calorifugé où la surpression est compensée par un étranglement (en général une simple bourre de coton). Comme le régime est stationnaire, il est facile de démontrer (cf. Premier principe de la thermodynamique des systèmes ouverts) que l'enthalpie à l'entrée est égale à l'enthalpie de sortie H(p1,T1) = H(p2,T2). C'est l'expérience dite de Joule-Thomson.
+C'est un critère pour savoir si un gaz est un gaz de Joule-Thomson :
+En effet s'il l'est, H(T1) = H(T2) et comme H varie de manière monotone avec T, cela entraîne T1=T2.
+Réciproquement, si T1 = T2, on aura H(p1,T1) = H(p2,T1), et cela par induction pour tout T1,ce qui revient à dire que H ne dépend pas de p.
+Comportement des gaz réels[modifier | modifier le code]
+Ce fut là le triomphe de la théorie : il est facile de mesurer . Pour une petite détente (p1-p2), il était donc facile de prévoir T2-T1 =
+(p1-p2) où
+est appelé le coefficient de Thomson et vaut ()V/ : l'expérience confirma cette prévision théorique.
+Mieux encore, l'expérience prouve qu'il existe une courbe d'inversion de l'effet : échauffement si T et P sont trop élevés, et refroidissement si T et P sont faibles. Ce système permet de refroidir un gaz sans pièce en mouvement.
+Pour un gaz pV = NkT + Nb(T)p, traçons la courbe b(T), concave. Soit la tangente à cette courbe menée depuis l'origine et soit Ti l'abscisse de ce point : il est facile de démontrer que c'est la température d'inversion à basse pression de l'effet Joule-Thomson, elle se vérifie bien expérimentalement.
+Voir théorie cinétique des gaz pour l'interprétation microscopique.
+Un exercice classique est de tracer la courbe d'inversion, en coordonnées (P,T), d'un gaz de Van der Waals (voir gaz réel), c'est-à-dire le lieu des états pour lesquels . La courbe est qualitativement juste, mais pas quantitativement : un gaz de Van der Waals est une bonne représentation de la réalité, qualitativement mais pas quantitativement.
+Voir aussi[modifier | modifier le code]
+Loi de Joule
+Réfrigérateur
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Loi_de_Joule-Thomson&oldid=98192636 ».
+Catégorie : Loi en thermodynamiqueCatégories cachées : Article à désacadémiserPortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Modifier les liens
+Dernière modification de cette page le 9 novembre 2013 à 16:04.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

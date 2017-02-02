@@ -1,0 +1,54 @@
+Force de van der Waals — Wikipédia
+Force de van der Waals
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+En chimie, une force de van der Waals, interaction de van der Waals ou liaison de van der Waals est une interaction électrique de faible intensité entre atomes, molécules, ou entre une molécule et un cristal. Bien qu'il soit possible de décrire sommairement cette interaction en considérant les forces électriques qui sont présentes entre tous les couples de charges électriques qui forment ces atomes et ces molécules en définitive, c'est un phénomène qui ne peut bien se comprendre que dans le cadre de la physique quantique. Ces forces ont été nommées en l'honneur du physicien néerlandais Johannes Diderik van der Waals (1837 — 1923), prix Nobel de physique 1910, qui fut le premier à introduire leurs effets dans les équations d'état des gaz en 1873 (voir Gaz de van der Waals et Équation d'état de van der Waals).
+On retrouve les effets de cette force à l'extrémité des pattes du gecko, assurant ainsi leur forte adhésion sur du verre.
+Sommaire
+1 Formulation
+2 Effets
+3 Notes et références
+4 Annexes
+4.1 Bibliographie
+5 Voir aussi
+Formulation[modifier | modifier le code]
+Les forces de van der Waals ont trois origines :
+L'interaction électrostatique attractive ou répulsive entre deux multipôles permanents selon leurs orientations (effets d'orientation). On les appelle les forces de Keesom.
+L'interaction attractive entre un multipôle permanent et un multipôle induit (effets d'induction). On les appelle les forces de Debye.
+L'interaction électrostatique attractive entre deux multipôles induits (effets de dispersion). On les appelle les forces de London.
+L'énergie des forces de van der Waals
+peut donc se formuler de la façon suivante :
+Les trois termes de cette expression peuvent être décomposés de la manière suivante :
+Cette énergie est liée aux forces de Keesom, dues à l'interaction entre deux molécules polaires.
+L’interaction dipôle-dipôle est beaucoup plus faible qu’une interaction ion-dipôle puisque l'interaction se produit entre charges partielles. L’énergie potentielle typique de ce type d’interaction est de l’ordre de 2 kJ/mol. Elle varie de façon inversement proportionnelle avec la distance à la puissance 6 entre le centre des dipôles de chacune de ces molécules[1].
+Cette énergie est liée aux forces de Debye, dues à l'interaction entre une molécule polaire et un dipôle induit.
+Cette énergie est liée aux forces de London, dues à l'interaction entre deux dipôles induits.
+Ici, on a utilisé les notations suivantes :
+est la constante diélectrique du vide ;
+la constante de Planck ;
+la constante de Boltzmann ;
+la température absolue ;
+la distance moyenne entre les molécules considérées ;
+les moments dipolaires des molécules considérées ;
+, la fréquence électronique d'absorption (Hz) ;
+les polarisabilités électroniques.
+Ces forces peuvent s'exprimer de manière différente, lorsque les distances entre les molécules mises en jeu deviennent plus grandes que quelques nanomètres. Il faut alors prendre en compte les effets de retard dus à la propagation de la lumière avec une vitesse finie (forces de Casimir-Polder).
+L’interaction ion-dipôle et l’hydratation des cations en solutions
+L’interaction ion-dipôle résulte de l’attraction d’un anion orientée par la charge partielle positive d’un dipôle ou de l’attraction d’un cation orientée par la charge partielle négative d’un dipôle. L’énergie potentielle est négative et augmente à l’inverse du carré de la distance comme l’indique la formule suivante :
+[2]
+où :
+est le moment dipolaire ;
+est la charge de l’ion ;
+est la permittivité du vide ;
+est la distance séparant le milieu du dipôle et l’ion.
+L’énergie potentielle typique de ce type d’interactions est d’environ 15 kJ/mol. Cette attraction devient nulle à grande distance (entre le dipôle et l’ion). Cette interaction est responsable de l’hydratation des cations en solution[3].
+Les forces de van der Waals s'obtiennent en divisant l'expression de l'énergie de van der Waals par . Il s'ensuit qu'elles varient en .
+Elles permettent également d'expliquer la rondeur de la Terre ou d'un liquide en apesanteur.
+Effets[modifier | modifier le code]
+Dans le cas de molécules polaires, cette force s'ajoute à la force purement électrostatique (de même comportement) entre les dipôles permanents. Dans le cas de molécules à symétrie sphérique, d'atomes, etc. la force de van der Waals est la seule qui entre en jeu pour ces distances.
+À très longue distance, où il ne peut plus être question de liaison chimique, les forces de van der Waals entrent dans le cadre de l'électrodynamique quantique : à courte et longue distance, elles se décrivent proprement comme dues à l'échange des particules virtuelles entre les atomes. On entre alors dans le cadre des forces de Casimir, décroissant en .
+Les liaisons de van der Waals n'entrent pas dans le cadre des liaisons chimiques, en ce sens que les électrons restent sur leurs atomes (ou molécules) respectifs (les termes d'échanges restent négligeables). Elles sont l'origine du terme de pression négative intervenant en correctif dans l'équation du gaz parfait. Elles sont essentielles pour appréhender les forces entre atomes de gaz noble.
+Pour les très courtes distances on entre alors dans le domaine de la chimie, où les diverses liaisons (liaison hydrogène, liaison métallique...) deviennent compétitives, et peuvent l'emporter.
+Les forces de van der Waals participent ainsi à la physisorption, et entrent en jeu dans le phénomène de capillarité.
+Les échanges de particules virtuelles, qui sont leur fondement théorique, se retrouvent dans des phénomènes de même type : forces entre deux surfaces (voir les articles Frottement et Modélisation des actions de contact).
+Les forces de van der Waals peuvent expliquer le phénomène responsable de la capacité des geckos à rester collé aux surfaces. Par plusieurs moyens, des chercheurs tentent de mettre en application cette qualité sous la forme d’un produit adhésif. Le but que les chercheurs se sont fixé est de créer un produit étant deux cents fois plus adhérant que le matériel naturel (gecko)[4],[5]. DARPA (Defense Advanced Research Projects Agency) est présentement en train de développer un moyen qui permettrait à un soldat de grimper un mur à une vitesse de 0,5 m/s dans le cadre du projet Z-Man. Les expériences en laboratoire mettent à l’essai de nouvelles technologies nano adhésives reprenant les propriétés des forces de van der Waals. Des chercheurs tels que les Dr. Ali Dhinojwala, Betul Yurdumakan, Nachiket Raravikar et Pulickel Ajayan à l’Université d’Akron et l’Institut Polytechnique Rensselaer de New-York aux États-Unis ont mis au point un matériel à base de colonnes de nanotubes qui réagirait un peu comme les pattes d’un gecko bien que quatre fois plus collant que celles-ci. L’avantage de cette nanotechnologie est le fait que le matériel adhère solidement mais qu’il peut ensuite être retiré sans perdre aucune adhérence et par conséquent être réutilisé[6]. Les développements financés par la DARPA auprès de l'Université du Massachusetts (UMass) ont donné lieu à la création en février 2012 d'un matériau baptisé "Geckskin" (litt. peau de gecko) capable de supporter plusieurs centaines de kilogrammes avec environ 100 cm2 de produit[7].

@@ -1,0 +1,276 @@
+Moment d'une force (mécanique) — Wikipédia
+Moment d'une force (mécanique)
+Un article de Wikipédia, l'encyclopédie libre.
+(Redirigé depuis Moment (mécanique))
+Aller à :					navigation, 					rechercher
+Pour les articles homonymes, voir Moment.
+Moment d'une force
+Données clés
+Symbole usuel
+Unités SI
+N.m
+Dimension
+M.L2.T-2
+Unités de base SI
+kg.m2.s-2
+Grandeur conservative
+Non
+Nature
+vecteur
+Expressions
+Le moment d'une force par rapport à un point donné est une grandeur physique vectorielle traduisant l'aptitude d'une force à faire tourner un système mécanique autour de ce point, appelé souvent pivot. Il s'exprime en N.m (newton-mètre).
+La projection de ce moment sur un axe (Δ) (orienté) contenant le point pivot s'appelle le moment de la force par rapport à l'axe (Δ): c'est une grandeur scalaire algébrique ayant les mêmes unités, et traduisant de même la faculté de la force appliquée à faire tourner le système mécanique autour de l'axe (Δ), le signe du moment par rapport à l'axe traduisant le sens de la rotation par rapport à l'orientation choisie de l'axe.
+Sommaire
+1 Approche élémentaire : translation du point d'application d'une force
+2 Moment d'une force par rapport à un point
+2.1 Définition
+2.2 Cas de nullité du moment
+2.3 Translation du pivot : formule de Varignon
+3 Moment par rapport à un axe
+4 Moment d'un couple de forces
+4.1 Définition
+4.2 Cas général
+4.3 Théorème de Varignon
+5 Théorème du moment cinétique
+6 Voir aussi
+6.1 Articles connexes
+6.2 Lien externe
+Approche élémentaire : translation du point d'application d'une force[modifier | modifier le code]
+Basculera, basculera pas ?
+Soit une planche en équilibre au bord d'un muret. Pour la déséquilibrer, on peut poser une charge sur la partie en porte-à-faux, au-dessus du vide. La capacité de cette charge à faire basculer la planche n'est pas la même suivant qu'elle est posée près du muret ou au bout de la planche. De même on peut, au même endroit, placer une charge plus lourde et constater une différence de basculement.
+Le « pouvoir de basculement » dépend donc de l'intensité de la force, mais également de la position relative du point d'application de la force, et du point de rotation réel ou virtuel considéré.
+On intègre ces trois composantes du problème par le modèle de moment d'une force, qui représente l'aptitude d'une force à faire tourner un système mécanique autour d'un point donné, qu'on nommera pivot.
+Moment d'une force par rapport à un point[modifier | modifier le code]
+Le vecteur moment
+est normal au plan formé par la force
+et le bipoint
+ou . Sa norme est égale au double des surfaces en gris foncé. Ce dessin montre que le moment ne varie pas lorsque le point d'application de la force se déplace le long de sa ligne d'action (en pointillés).
+Dans ce cas particulier illustrant la définition de la torsion, le vecteur position
+est orthogonal à la force . La norme du moment
+est égale au produit des normes des deux vecteurs
+et . Le moment est souvent représenté par une flèche circulaire dont le sens correspond à celui de la rotation due à la force.
+Définition[modifier | modifier le code]
+Le moment d'une force
+s'exerçant au point
+par rapport au pivot , est le pseudovecteur :
+.
+où
+désigne le produit vectoriel.
+Remarque sur la notation
+Il existe plusieurs variantes de notation des moments de force ; certaines (comme sur l'image ci-contre) comportent des parenthèses autour du vecteur, parfois autour de l'ensemble. D'autres ajoutent même à la notation l'élément agissant et l'élément subissant l'action. Une notation plus compacte consiste à nommer la force par la même lettre que celle désignant le point d'application, ce qui rend plus rapide l'identification des cas de nullité de moments.
+Ce pseudovecteur, à la fois orthogonal à
+et au bipoint , est finalement normal au plan dans lequel se déroule la rotation que peut provoquer la force (il est colinéaire à l'axe de cette rotation). Son sens donne le sens de rotation (la rotation est positive dans le plan orienté par ).
+Si
+est la distance orthogonale du pivot
+à la droite d'action, c’est-à-dire , alors la norme du moment vaut :
+.
+La longueur
+est appelée bras de levier. Dans le cas bidimensionnel, il est d'usage d'assimiler la norme du moment au moment lui-même, celui-ci ne comportant qu'une composante non nulle.
+Les composantes et la norme d'un moment de force sont exprimées en newton-mètre (Nm), dans le système international d'unités et leurs dimensions sont  ; formellement, cette unité a la dimension d'une énergie, et pourrait donc s'exprimer comme valant 1 joule (voir l'article Couple (physique)).
+Cas de nullité du moment[modifier | modifier le code]
+Puisqu'il s'agit ensuite d'établir la somme nulle des moments, on peut naturellement s'intéresser aux cas de nullité individuelle des moments de force ; de par les propriétés du produit vectoriel :
+la force est nulle ;
+le bipoint
+est . La force est donc appliquée en .
+et
+sont colinéaires ; alors la droite d'action passe par , ce qui inclut aussi le cas précédent.
+Translation du pivot : formule de Varignon[modifier | modifier le code]
+Lorsque le moment d'une force (appliquée en P) est connu en un point O, il est possible de le recalculer en n'importe quel point Q de l'espace. Cette opération est inévitable lors de la manipulation des torseurs d'actions mécaniques. Cela revient à poser une rallonge au levier . Il vient alors: , d'où la formule dite de Varignon:
+Il est souvent retenu en place de la formule de Varignon un moyen mémo-technique : la formule "BABAR" :
+avec
+la force (la Résultante), B le point vers lequel on veut déplacer notre moment, et A le point d'origine.
+Il se déduit de cette formule la relation d'équiprojectivité des moments de force :
+.
+En réalité une force est modélisée par un vecteur (représentant la force) et son point d'application. Il est possible de représenter cette action mécanique par le couple de vecteurs force et moment en un point, qui sont les éléments de réduction du torseur d'action mécanique. La relation d'équilibre liée au principe fondamental de la statique devient une somme de torseurs ; en pratique, on effectuera parallèlement la somme des forces, et la somme des moments tous exprimés au même point, d'où l'intérêt de la formule de transport de moments.
+Moment par rapport à un axe[modifier | modifier le code]
+Lorsqu'un solide est animé d'un mouvement de rotation effectif autour d'un axe (cas d'une roue guidée par un palier) il est intéressant de ne considérer que la partie utile du moment d'une force. On définit le moment de la force par rapport à l'axe
+par
+,
+où
+est un vecteur unitaire de ,
+est un point quelconque de
+et où les crochets dénotent le produit mixte.
+En résumé il s'agit de la composante suivant
+du moment de
+exercé en . De ce fait il s'agit d'un nombre scalaire : «  » est une opération de projection sur l'axe . Sur le plan mécanique, c'est la seule composante (dans le cas d'une liaison parfaite au pivot) susceptible de fournir (ou consommer) une puissance. Le « reste » du moment sera subi par le palier. Cette partie complémentaire intéressera le technologue qui prendra en compte ces valeurs pour le dimensionnement du palier.
+Le moment par rapport à l'axe est nul si
+le moment par rapport au point est nul (cas général précédent).
+la force est dans la direction de l'axe considéré.
+Moment d'un couple de forces[modifier | modifier le code]
+Article détaillé : Couple (physique).
+Définition[modifier | modifier le code]
+De façon générale, un ensemble de forces
+de points d'application
+constitue un couple de force si sa résultante est nulle: , mais dont la somme des moments ne l'est pas.
+L'exemple le plus simple est celui de deux forces opposées
+appliquée en
+et
+appliquée en , points distincts d'un même système: leur somme est évidemment nulle. Cet exemple est au demeurant à la base de l’appellation "couple de forces".
+La nullité de la résultante d'un couple de forces n'implique en effet absolument pas la nullité de la somme des moments de ces forces, appelée simplement "moment du couple de force", ou tout simplement couple résultant.
+En effet, dans l'exemple donné il vient:
+.
+Le moment du couple de force est indépendant du point de pivot
+considéré. Cette quantité
+est appelée couple. Il n'est pas besoin de préciser le point de rotation. Les deux forces constituent alors un couple de forces.
+Outre les autres cas évidents, le couple est nul lorsque les deux forces ont la même droite d'action. Le couple augmente avec l'intensité commune des forces, mais aussi avec l'éloignement des points. Il est maximal lorsque
+et
+sont orthogonaux.
+Cas général[modifier | modifier le code]
+En réalité le couple n'existe pas intrinsèquement. Il est toujours associé à un ensemble de forces s'annulant vectoriellement mais dont les moments s'ajoutent sans s'annuler. C'est par exemple le résultat de l'action du vent sur une éolienne, ou l'action des forces électromagnétiques sur l'induit d'un moteur électrique.
+En aucun cas il n'est possible de déduire que « somme des moments = moment de la somme ». Cela n'est vrai que pour un ensemble de forces appliquées au même point. Cela montre enfin qu'une action mécanique n'est pas représentable par un seul vecteur force. La considération du point d'application est primordiale.
+Théorème de Varignon[modifier | modifier le code]
+Le moment en
+de la résultante
+de plusieurs forces
+concourantes en
+est égal à la somme des moments en
+de ces différentes forces :
+,
+avec .
+En effet :
+Théorème du moment cinétique[modifier | modifier le code]
+Article détaillé : Moment angulaire.
+Article détaillé : Théorème du moment cinétique.
+En dynamique, il est possible de montrer que le moment des forces est la dérivée du moment cinétique par rapport au temps :
+Ce résultat est le théorème du moment cinétique et est l'équivalent du principe fondamental de la dynamique (deuxième loi de Newton) pour la dynamique de rotation.
+Il est également possible de montrer que si
+est le vecteur vitesse angulaire, c'est-à-dire le vecteur
+colinéaire à l'axe de rotation
+fixe dans (R),
+dont la norme est la vitesse angulaire
+et orienté de façon que l'orientation positive d'un plan normal correspond au sens de rotation
+alors :
+où
+est le moment d'inertie du solide par rapport à l'axe de rotation .
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Barycentre (physique)
+Moment angulaire
+Moment d'inertie
+Moment de flexion
+Statique
+Statique du point
+Statique du solide
+Couple (physique)
+Pseudovecteur
+Levier (mécanique)
+Lien externe[modifier | modifier le code]
+(histoire des sciences) L'étude de la notion de couple et de moment par Poinsot (1803), en ligne et commenté sur BibNum.
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Moment_d%27une_force_(mécanique)&oldid=107844784 ».
+Catégories : Grandeur physiqueMécanique classiqueMécanique du solideStatiqueRotationCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Afrikaans
+العربية
+Asturianu
+Azərbaycanca
+Беларуская
+Беларуская (тарашкевіца)‎
+Български
+বাংলা
+Bosanski
+Català
+Čeština
+Cymraeg
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+فارسی
+Suomi
+Gaeilge
+Galego
+עברית
+हिन्दी
+Hrvatski
+Kreyòl ayisyen
+Magyar
+Հայերեն
+Bahasa Indonesia
+Ido
+Íslenska
+Italiano
+日本語
+Қазақша
+한국어
+Latina
+Lietuvių
+Latviešu
+മലയാളം
+मराठी
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+پنجابی
+Português
+Română
+Русский
+Scots
+Srpskohrvatski / српскохрватски
+Simple English
+Slovenčina
+Slovenščina
+Shqip
+Српски / srpski
+Svenska
+தமிழ்
+Türkçe
+Українська
+اردو
+Tiếng Việt
+ייִדיש
+中文
+粵語
+Modifier les liens
+Dernière modification de cette page le 29 septembre 2014 à 23:43.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

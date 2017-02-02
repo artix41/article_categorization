@@ -1,0 +1,275 @@
+Poussée d'Archimède — Wikipédia
+Poussée d'Archimède
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+La poussée d'Archimède est la force particulière que subit un corps plongé en tout ou en partie dans un fluide (liquide ou gaz) soumis à un champ de gravité. Cette force provient de l'augmentation de la pression du fluide avec la profondeur (effet de la gravité sur le fluide, voir l'article hydrostatique) : la pression étant plus forte sur la partie inférieure d'un objet immergé que sur sa partie supérieure, il en résulte une poussée globalement verticale orientée vers le haut. C'est à partir de cette poussée qu'on définit la flottabilité d'un corps.
+Sommaire
+1 Histoire et légende
+1.1 Archimède
+1.2 La couronne du roi Hiéron II
+1.3 La solution au problème
+1.4 Autres propositions du traité des corps flottants
+2 Formulation du théorème d'Archimède
+3 Démonstration
+3.1 Expérience par la pensée
+3.2 Idée de calcul
+3.3 Démonstration plus générale
+4 Applications
+4.1 Exemple d'un solide entièrement immergé
+4.2 Exemple d'un solide flottant à la surface d'un liquide
+4.2.1 Application au cas d'un iceberg
+4.2.2 Un glaçon qui fond dans un verre
+4.3 Autres exemples d'application de la poussée d'Archimède
+4.4 Point d'application
+5 Notes
+6 Voir aussi
+6.1 Articles connexes
+6.2 Lien externe
+Histoire et légende[modifier | modifier le code]
+Archimède[modifier | modifier le code]
+Article détaillé : Archimède.
+Archimède comparant l'or et l'argent
+Archimède est un savant grec qui vécut à Syracuse (Sicile) de 287 av. J.-C. à 212 av. J.-C. Il est connu pour ses multiples travaux scientifiques, théoriques ou pratiques, que ce soit en mathématique ou en physique. Parmi ces derniers, son Traité des corps flottants jette les bases de ce qui sera plus tard la science nommée hydrostatique. C'est notamment dans cet ouvrage qu'il étudie avec rigueur l'immersion d'un corps, solide ou fluide, dans un fluide de densité inférieure ou , égale supérieure. Le théorème qui portera plus tard le nom du savant y est ainsi énoncé (ce théorème fut ensuite démontré au XVIe siècle).
+La couronne du roi Hiéron II[modifier | modifier le code]
+Vitruve[1] rapporte que le roi Hiéron II de Syracuse (306-214) aurait demandé à son jeune ami et conseiller scientifique Archimède (âgé alors de 22 ans seulement) de vérifier si une couronne d'or, qu'il s'était fait confectionner comme offrande à Zeus, était totalement en or ou si l'artisan y avait mis de l'argent. La vérification avait bien sûr pour contrainte de ne pas détériorer la couronne. La forme de celle-ci était en outre trop complexe pour effectuer un calcul du volume de l'ornement. Archimède aurait trouvé le moyen de vérifier si la couronne était vraiment en or, alors qu'il était au bain public, en observant comment des objets y flottaient. Il serait alors sorti dans la rue entièrement nu en s'écriant le célèbre « Eurêka ! » (j'ai trouvé !).
+La constatation d'Archimède au bain public est que, pour un même volume donné, les corps n'ont pas le même poids apparent, c'est-à-dire une masse par unité de volume différente. On parle de nos jours de masse volumique. L'argent (masse volumique 10 500 kg·m-3) étant moins dense que l'or (masse volumique 19 300 kg·m-3), il a donc une masse volumique plus faible : pour obtenir un poids voulu il faudra une plus grande quantité d'argent que d'or. De là, Archimède déduit que si l'artisan a caché de l'argent dans la couronne du roi, la couronne serait plus grande que si, pour le même poids, elle avait été faite exclusivement d'or, alors elle a une masse volumique plus faible qu'une couronne de même taille seulement en or. Ainsi fut découverte la supercherie du joaillier.
+La solution au problème[modifier | modifier le code]
+Pour répondre à la question du roi Hiéron, Archimède a donc pu comparer les volumes d'eau déplacés par la couronne et une quantité d'or de poids identique. Si les deux déplacent le même volume d'eau, leur masse volumique est alors égale et on peut en conclure que les deux sont composés du même métal. Pour réaliser l'expérience, on peut imaginer plonger la masse d'or dans un récipient rempli à ras-bord (et muni d'un bec verseur pour mieux observer la chose). Une certaine quantité d'eau débordera alors du récipient (on peut la recueillir pour la mesurer). Ensuite, on retire l'or et on le remplace par la couronne à étudier. Si la couronne est bien totalement en or, alors l'eau ne débordera pas. En revanche, si sa densité est plus faible et donc son volume plus important pour la même masse, de l'eau supplémentaire débordera.
+Le volume d'eau déplacé dépendra de la proportion d'argent dans l'or ; l'or étant approximativement deux fois plus dense que l'argent, remplacer 10 % en poids d'or par de l'argent conduit à une hausse de volume de 10 %[2]. Mais du fait de la forte masse volumique de l'or, son volume est très faible : le volume d'une couronne de 1 kg d'or n'est que d'un peu plus de 50 cm³ et substituer 10 % d'or par de l'argent ne produit une différence que d'environ de 5 cm³ (quelques dés à coudre).
+La méthode ainsi décrite par Vitruve présente deux inconvénients. Le premier est qu'elle ne fait ici intervenir en rien le principe d'Archimède. Le second problème est qu'avec des conditions réalistes, en raison de la densité de l'or et du volume faible de la couronne, le volume d'eau déplacée est très faible et sa mesure est perturbée par l'eau qui peut être perdue dans les différentes opérations. Il est donc peu probable qu'Archimède ait pu tirer des conclusions significatives à partir d'une telle expérience.
+Une méthode plus réaliste est la suivante. On équilibre une balance avec la couronne d'un côté et de l'or pur de l'autre, dont les poids sont égaux. Ensuite, on immerge complètement les objets pesés (pour s'affranchir de l'influence des plateaux de la balance, on peut s'assurer que ceux-ci sont bien strictement identiques, ou, mieux, les supprimer en les remplaçant par un fil fin et de densité proche de celle de l'eau). Si la couronne n'est pas en or pur, elle est de volume un peu plus grand, donc elle produit une force d'Archimède vers le haut un peu plus importante que le même poids d'or pur et l'équilibre initial de la balance est rompu. Là encore, la différence de poids est faible; dans les conditions imaginées plus haut elle correspond au poids de 5 cm³ d'eau, soit 5 grammes.ll faut donc une balance capable de détecter une telle variation de poids, ce qui est difficile mais pas irréaliste.
+Autres propositions du traité des corps flottants[modifier | modifier le code]
+Le traité des corps flottants contient d'autres propositions relatives au théorème d'Archimède :
+Proposition III : Un solide de même volume et de même poids (en fait de même masse volumique) que le liquide dans lequel il est abandonné y enfoncera de façon à n’émerger nullement au-dessus de la surface, mais à ne pas descendre plus bas.
+Proposition IV : Aucun corps plus léger que le liquide où il est abandonné ne sera complètement immergé, mais restera en partie au-dessus de la surface du liquide.
+Proposition V : Un solide plus léger que le liquide dans lequel on l’abandonne s'y enfonce de telle façon qu’un volume de liquide égal à la partie immergée a le même poids que le solide entier.
+Proposition VI : Lorsqu’un corps est plus léger que le liquide où on l’enfonce et remonte à la surface, la force qui pousse en haut ce corps a pour mesure la quantité dont le poids d’un égal volume de liquide surpasse le poids même du corps.
+Proposition VII : Un corps plus lourd que le liquide où on l’abandonne descendra au fond et son poids, dans le liquide, diminuera d’une quantité mesurée par ce que pèse un volume de liquide égal à celui du corps.
+Formulation du théorème d'Archimède[modifier | modifier le code]
+« Tout corps plongé dans un fluide au repos, entièrement mouillé par celui-ci ou traversant sa surface libre, subit une force verticale, dirigée de bas en haut et opposée au poids du volume de fluide déplacé ; cette force est appelée poussée d'Archimède. »
+Pour que le théorème s'applique il faut que le fluide immergeant et le corps immergé soient au repos. Il faut également qu'il soit possible de remplacer le corps immergé par du fluide immergeant sans rompre l'équilibre, le contre-exemple étant le bouchon d'une baignoire remplie d'eau : si celui-ci est remplacé par de l'eau, il est clair que la baignoire se vide et que le fluide n'est alors plus au repos. Le théorème ne s'applique pas puisque nous sommes dans un cas où le bouchon n'est pas entièrement mouillé par le liquide et ne traverse pas sa surface libre.
+Une fois les conditions précédentes respectées, dans un champ de pesanteur uniforme, la poussée d'Archimède PA est donnée par la formule suivante :
+,
+où M f est la masse du fluide contenu dans le volume V déplacé, et g la valeur du champ de pesanteur.
+Si la masse volumique ρ du fluide est elle aussi uniforme, on aura :
+ou encore, si l'on considère les normes des forces :
+La poussée d'Archimède PA s'exprimera en newton (N) si la masse volumique ρ est en kg/m3, le volume de fluide déplacé V en m3 et la valeur de la pesanteur g en N/kg (ou m/s2).
+Démonstration[modifier | modifier le code]
+Expérience par la pensée[modifier | modifier le code]
+Considérons un fluide au repos. Délimitons, par la pensée, un certain volume de forme quelconque au sein de ce fluide. Ce volume est lui aussi au repos : malgré son poids, ce volume ne tombe pas. Cela signifie donc que son poids est rigoureusement équilibré par une force opposée, qui le maintient sur place, et qui provient du fluide extérieur. Remplaçons maintenant, toujours dans notre expérience en pensée, ce volume par un corps quelconque. Comme la force qui maintenait le fluide en équilibre est une force de pression agissant à la surface du volume, il est possible de supposer que cette même force s'applique encore au corps immergé : elle est toujours opposée au poids de fluide déplacé. C'est la poussée d'Archimède. Le fait que les champs de force soient identiques pour le fluide homogène au repos et pour le corps immergé dans le fluide au repos est appelé « théorème de solidification ».
+Idée de calcul[modifier | modifier le code]
+Supposons un cube d'arête a entièrement immergé dans un liquide, sa face du haut étant horizontale et située à une profondeur z1 > 0 (le sens positif est vers le bas).
+Dans le cas d'un liquide incompressible au repos soumis à un champ de pesanteur uniforme, la pression absolue p vaut
+,
+où po est la pression atmosphérique et ph la pression hydrostatique.
+À une profondeur z, la pression hydrostatique correspond au poids P d'une colonne de liquide (que l'on peut imaginer cylindrique) de hauteur z et de base A, divisé par la base. Or
+,
+où m est la masse de la colonne, zA son volume, ρ la masse volumique (supposée uniforme) du liquide et g l'accélération de la gravité, ce qui donne
+.
+La pression absolue vaut donc
+.
+Par symétrie, les forces de pression exercées sur les quatre faces verticales du cube s'annulent deux à deux.
+La force F 1 exercée vers le bas sur la face du haut, d'aire A = a2, vaut
+.
+La force F2 exercée vers le haut sur la face du bas, située à la profondeur z2 = z1 + a, vaut
+.
+La résultante F de toutes les forces de pression vaut donc
+,
+où V = a 3 est le volume du cube, c'est-à-dire en l'occurrence le volume immergé, et Mf la masse du fluide contenu dans un volume V. La grandeur de la force résultante est donc bien égale à celle du poids Mfg du volume de fluide déplacé ; cette force étant négative, elle est bien orientée verticalement vers le haut.
+Il est possible de généraliser la démonstration précédente à un volume de forme quelconque. Il suffit de décomposer la surface bordant le volume en une infinité d'éléments infinitésimaux dS supposés plans, puis de faire la somme, à l'aide du calcul intégral, de toutes les forces infinitésimales df exercées sur chaque élément de surface.
+Démonstration plus générale[modifier | modifier le code]
+Cet article ou cette section peut contenir un travail inédit ou des déclarations non vérifiées.
+Vous pouvez aider en ajoutant des références. Voir la page de discussion pour plus de détails.
+Supposons un volume quelconque , délimité par une surface fermée , plongé entièrement dans un fluide de masse volumique
+soumis à un champ de pesanteur uniforme .
+On cherche à déterminer la résultante des forces de pression exercées sur le volume :
+.
+Par définition de la pression , on a
+où
+est un élément infinitésimal de la surface considérée, orienté par convention vers l'extérieur de cette surface, et
+l'élément infinitésimal de force qui s'y exerce. On cherche donc à déterminer
+Pour les besoins de la démonstration, considérons maintenant l'intégrale
+suivante, où l'on supposera que
+représente un champ de vecteurs uniforme et non nul :
+étant uniforme, on peut aussi bien écrire
+Selon le théorème de flux-divergence,
+Or, d'après l'une des formules de Leibniz de l'analyse vectorielle,
+Et puisque la divergence d'un champ de vecteurs uniforme est nulle, on a
+Par conséquent,
+étant uniforme, on peut aussi bien écrire :
+On en déduit donc que
+Or, d'après la loi fondamentale de l'hydrostatique,
+D'où
+La résultante des forces de pression est donc égale en grandeur au poids du volume de fluide déplacé, mais orientée dans le sens contraire du poids, c'est-à-dire vers le haut.
+Applications[modifier | modifier le code]
+Exemple d'un solide entièrement immergé[modifier | modifier le code]
+Trois solides de densités différentes peuvent subir une poussée d'Archimède inférieure, égale ou supérieure à leur poids.
+Immergeons entièrement un solide de volume V, de masse m et de masse volumique ρ dans un fluide de masse volumique ρf uniforme, puis relâchons-le à partir du repos. Au départ, la vitesse étant nulle, deux forces seulement agissent sur le solide : son poids Fp (vers le bas) et la poussée d'Archimède Fa (vers le haut).
+Fp = ρV g
+Fa = ρfV g
+Fp / Fa = ρ / ρf
+Le rapport des masses volumiques est en l'occurrence équivalent à celui des densités.
+Si la densité du solide est supérieure à celle du fluide, alors Fp > Fa et le solide coule.
+Si la densité du solide est égale à celle du fluide, alors Fp = Fa et le solide demeure immobile ; il est en équilibre neutre ou indifférent.
+Si la densité du solide est inférieure à celle du fluide, alors Fp < Fa et le solide remonte vers la surface.
+Dans les deux cas où le solide n'est pas en équilibre, son mouvement ultérieur est déterminé par trois forces : son poids, la poussée d'Archimède (opposée au poids) et une force de frottement visqueux Ff (opposée à la vitesse).
+Selon la deuxième loi du mouvement de Newton, on a alors :
+Fp – Fa ± Ff = m a (le sens positif est vers le bas)
+où a est l'accélération du solide.
+Comme la force de frottement visqueux n'est pas constante, mais qu'elle augmente avec la vitesse, l'accélération diminue graduellement, de sorte que le solide atteint[3] plus ou moins rapidement une vitesse limite, lorsque la résultante des forces est nulle.
+Exemple d'un solide flottant à la surface d'un liquide[modifier | modifier le code]
+La poussée d'Archimède équilibre le poids du solide.
+En réalité, le point d'application[4] de la poussée d'Archimède devrait se trouver au centre du volume immergé, donc plus bas que le centre de gravité du solide.
+Considérons un solide de volume V et de masse volumique ρS flottant à la surface d'un liquide de masse volumique ρL. Si le solide flotte, c'est que son poids est équilibré par la poussée d'Archimède :
+Fa = Fp .
+La poussée d'Archimède étant égale (en grandeur) au poids du volume de liquide déplacé (équivalent au volume V i immergé), on peut écrire :
+ρLV i g = ρSV g.
+Le volume immergé vaut donc
+V i = ( ρS / ρL ) V .
+Puisque V > V i, il s'ensuit que ρS < ρL .
+Application au cas d'un iceberg[modifier | modifier le code]
+Considérons un morceau de glace pure à 0 °C flottant dans de l'eau de mer. Soit ρS = 0,917 kg/dm3 et ρL = 1,025 kg/dm3 (on aurait ρL = 1,000 kg/dm3 pour de l'eau pure à 3,98 °C). Le rapport ρS / ρL (c’est-à-dire la densité relative) est de 0,895, si bien que le volume immergé V i représente près de 90% du volume total V de l'iceberg.
+Un glaçon qui fond dans un verre[modifier | modifier le code]
+Le volume de glace immergée correspond au volume d'eau produit par la fonte du glaçon.
+Il est facile de vérifier que la fonte d'un morceau de glace pure flottant sur de l'eau pure se produit sans changement de niveau de l'eau. Le volume de glace immergé correspond en effet au volume d'eau liquide nécessaire pour égaler le poids du glaçon. En fondant, le glaçon produit (par conservation de la masse) exactement ce volume d'eau, qui « bouche le trou laissé par la disparition de la glace solide ». Le niveau d'eau reste le même. Sur la figure ci-contre, le volume délimité en pointillé est, dans le verre de gauche, le volume de glace immergée, et dans le verre de droite, le volume d'eau liquide produit par la fonte du glaçon.
+On peut également faire le calcul suivant : si on considère, par exemple, un glaçon de 1 cm3 et de masse volumique 0,917 g·cm-3 (qui contient donc 0,917 g d'eau), le volume immergé sera de 0,917 cm3 (comme pour un iceberg, la majeure partie est sous l'eau). Lorsque le glaçon aura fondu, ces 0,917 g d'eau qui auront désormais une masse volumique de 1 g·cm-3 occuperont exactement le volume qu'occupait la partie immergée du glaçon.
+Autres exemples d'application de la poussée d'Archimède[modifier | modifier le code]
+La salinité de la mer Morte permet à une personne de flotter tout en étant couchée.
+Le principe d'Archimède s'applique à des fluides, c’est-à-dire aussi bien à des liquides qu'à des gaz. C'est ainsi grâce à la poussée d'Archimède qu'une montgolfière ou un dirigeable peuvent s'élever dans les airs (dans les deux cas, un gaz de masse volumique plus faible que l'air est utilisé, que ce soit de l'air chauffé ou de l'hélium).
+Un plongeur se met à « couler » vers -12 m dans l'Atlantique ou la Méditerranée car sa densité augmente avec la profondeur (à cause de la compression croissante, particulièrement des bulles contenues dans le néoprène de sa combinaison : sa masse ne change pas mais son volume diminue) jusqu'à atteindre et dépasser celle du milieu ambiant.
+L'eau douce ayant une masse volumique plus faible que l'eau salée, la poussée d'Archimède est plus forte dans la mer Morte (mer la plus salée du monde) que dans un lac. Il est donc plus facile d'y flotter.
+Les spationautes s'entraînent aux exercices dans l'espace dans des piscines où, grâce à la poussée d'Archimède qui équilibre leur poids, ils peuvent connaître un état qui s'apparente jusqu'à un certain point à l'impesanteur.
+Le poids des navires (et donc leur masse volumique) variant suivant qu'ils soient en charge ou sur lest, la poussée d'Archimède va également varier. Pour maintenir un niveau de flottaison (tirant d'eau) constant et assurer une meilleure stabilité, les navires sont pourvus de ballasts qu'ils peuvent remplir ou vider suivant leur cargaison ou la salinité de l'eau dans laquelle ils naviguent.(Voir aussi carène).
+Les sous-marins contrôlent leur masse volumique en utilisant également des ballasts.
+Le ludion.
+Le thermomètre de Galilée.
+L'hydromètre qui permet la mesure de la masse volumique d'un liquide.
+Point d'application[modifier | modifier le code]
+Tout se passe comme si la poussée d'Archimède s'appliquait au centre de carène, c'est-à-dire au centre de gravité du volume de fluide déplacé[4].
+Cette caractéristique est importante pour le calcul de la stabilité d'un sous-marin en plongée ou d'un aérostat : sous peine de voir l'engin se retourner, il est nécessaire que le centre de carène soit situé au-dessus du centre de gravité du sous-marin.
+Pour ce qui est d'un navire, en revanche, le centre de carène est souvent situé au-dessous du centre de gravité (par exemple pour une planche à voile). Cependant, lorsque la pénétration de l'objet dans le fluide évolue, le centre de carène se déplace, créant un couple qui vient s'opposer au mouvement. La stabilité est alors assurée par la position du métacentre, qui est le point d'application des variations de la poussée. Ce métacentre doit se trouver au-dessus du centre de gravité.
+De façon anecdotique, on peut remarquer que les concepteurs de sous-marins doivent s'assurer simultanément de deux types d'équilibres pour leurs engins.
+Notes[modifier | modifier le code]
+↑ Vitruve, « De Architectura, Livre IX, chap.3, paragraphes 9–12 », Université de Chicago (consulté le 2009-05-08)
+↑ On enlève 10 % du volume en or, on ajoute deux fois 10 % = 20 % du volume en argent ; –10 % + 20 % = +10 % en volume
+↑ Mathématiquement, le solide tend de façon asymptotique vers une vitesse limite. En pratique, on considère la vitesse limite atteinte quand l'accélération n'est plus perceptible.
+↑ a et b Comme le poids, la poussée d'Archimède n'est pas une force unique, mais une résultante. Elle n'a donc pas à proprement parler de point d'application.
+Voir aussi[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Hydrostatique :
+Fréquence de Brunt-Väisälä
+Équilibre hydrostatique
+Balance hydrostatique
+Mécanique des fluides :
+L'expérience du ludion
+Archimède
+Vis d'Archimède
+Axiome d'Archimède
+Force ascensionnelle
+Lien externe[modifier | modifier le code]
+Archimède : histoire et physique
+Sur les autres projets Wikimedia :
+Poussée d'Archimède, sur Wikimedia Commons
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Poussée_d%27Archimède&oldid=108379764 ».
+Catégories : Mécanique des fluidesLoi en physiqueThéorie de la plongéeThéorème de physiqueArchimèdeCatégories cachées : Article pouvant contenir un travail inéditCatégorie Commons avec lien local identique sur WikidataPortail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Alemannisch
+العربية
+Беларуская
+Català
+Čeština
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Eesti
+Euskara
+Suomi
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Հայերեն
+Italiano
+日本語
+ქართული
+Қазақша
+한국어
+Lietuvių
+Latviešu
+Македонски
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Occitan
+Polski
+Piemontèis
+Română
+Русский
+Srpskohrvatski / српскохрватски
+සිංහල
+Simple English
+Slovenčina
+Slovenščina
+Shqip
+Српски / srpski
+Svenska
+Kiswahili
+தமிழ்
+Тоҷикӣ
+ไทย
+Türkçe
+Українська
+Oʻzbekcha
+Tiếng Việt
+Wolof
+中文
+Modifier les liens
+Dernière modification de cette page le 20 octobre 2014 à 18:03.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

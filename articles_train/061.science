@@ -1,0 +1,121 @@
+Théorie des bandes — Wikipédia
+Théorie des bandes
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Représentation schématique des bandes d'énergie d'un solide.
+Lire le média
+Animation sur le point de vue quantique sur les métaux et isolants liée à la théorie des bandes
+En physique du solide, la théorie des bandes est une modélisation des valeurs d'énergie que peuvent prendre les électrons d'un solide à l'intérieur de celui-ci. De façon générale, ces électrons n'ont la possibilité de prendre que des valeurs d'énergie comprises dans certains intervalles, lesquels sont séparés par des "bandes" d'énergie interdites. Cette modélisation conduit à parler de bandes d'énergie ou de structure de bandes.
+Selon la façon dont ces bandes sont réparties, il est possible d'expliquer au moins schématiquement les différences de comportement électrique entre un isolant, un semi-conducteur et un conducteur.
+Sommaire
+1 Généralités
+2 Métal, isolant, semi-conducteur
+2.1 Selon le remplissage des bandes à T = 0 K
+2.2 Relation avec le niveau de Fermi
+2.3 Le gaz d'électrons quasi libres
+2.4 La théorie des liaisons fortes
+3 Voir aussi
+3.1 Liens externes
+3.2 Articles connexes
+Généralités[modifier | modifier le code]
+Dans un atome isolé, l'énergie des électrons ne peut posséder que des valeurs discrètes et bien définies. Par contraste, dans le cas d'un électron parfaitement libre (non lié à un atome), elle peut prendre n'importe quelle valeur positive. Dans un solide, la situation est intermédiaire : l'énergie d'un électron peut avoir n'importe quelle valeur à l'intérieur de certains intervalles. Cette propriété conduit à dire que le solide possède des bandes d'énergies permises, séparées par des bandes interdites. Cette représentation en bandes d'énergie est une représentation simplifiée et partielle de la densité d'états électroniques. Les électrons du solide se répartissent dans les niveaux d'énergie autorisés ; cette répartition dépend de la température et obéit à la statistique de Fermi-Dirac.
+Lorsque la température du solide tend vers le zéro absolu, deux bandes d'énergie permises jouent un rôle particulier. La dernière bande complètement remplie est appelée « bande de valence ». La bande d'énergie permise qui la suit est appelée « bande de conduction ». Elle peut être vide ou partiellement remplie. L'énergie qui sépare la bande de valence de la bande de conduction est appelée le « gap » (fossé, interstice en anglais).
+Les électrons de la bande de valence contribuent à la cohésion locale du solide (entre atomes voisins) et sont dans des états localisés. Ils ne peuvent pas participer aux phénomènes de conduction électrique. À l'inverse, les électrons de la bande de conduction sont délocalisés. Ce sont ces électrons qui participent à la conduction électronique. Les propriétés électroniques du solide dépendent donc essentiellement de la répartition des électrons dans ces deux bandes, ainsi que de la valeur du gap : dans le cas des isolants, les deux bandes sont séparées par un gap important. Pour les conducteurs, le gap n'existe pas et la bande de conduction se superpose à une partie de la bande de valence. Les semi-conducteurs possèdent quant à eux un gap suffisamment faible pour que des électrons aient une probabilité non négligeable de le franchir par simple excitation thermique lorsque la température augmente.
+Les bandes de valence et de conduction jouent des rôles identiques à celui des orbitales moléculaires HOMO (highest occupied molecular orbital) et LUMO (lowest unoccupied molecular orbital) dans la théorie des orbitales frontières.
+Métal, isolant, semi-conducteur[modifier | modifier le code]
+Selon le remplissage des bandes à T = 0 K[modifier | modifier le code]
+Lorsque la température tend vers 0 kelvin, on distingue donc trois cas selon le remplissage des bandes et la valeur du gap.
+Premier cas : la bande de conduction est vide et le gap est grand (de l'ordre de 10 eV par exemple). Le solide ne contient alors aucun électron capable de participer à la conduction. Le solide est isolant.
+Deuxième cas : la bande de conduction est vide mais le gap est plus faible (de l'ordre de 1 à 2 eV). Le solide est donc isolant à température nulle, mais une élévation de température permet de faire passer des électrons de la bande de valence à la bande de conduction. La conductivité augmente avec la température : c'est la caractéristique d'un semi-conducteur.
+Troisième cas : lorsque le gap est nul, la bande de conduction est obligatoirement non vide, puisque dans ce cas les deux bandes "partagent" leurs électrons, et le solide est conducteur.
+Relation avec le niveau de Fermi[modifier | modifier le code]
+L'occupation des différents états d'énergie par les électrons suit la distribution de Fermi-Dirac. Il existe une énergie caractéristique, le niveau de Fermi, qui fixe, lorsque le matériau est à une température de zéro kelvin, le niveau d'énergie jusqu'où on trouve les électrons, c'est-à-dire le niveau d'énergie du plus haut niveau occupé. Le niveau de Fermi représente le potentiel chimique du système. Son positionnement dans le diagramme des bandes d'énergie est relié à la façon dont les bandes sont occupées.
+Dans les conducteurs, le niveau de Fermi est dans une bande permise qui est dans ce cas la bande de conduction. Les électrons peuvent alors se déplacer dans le système électronique, et donc circuler d'atomes en atomes.
+Dans les isolants et les semi-conducteurs, le niveau de Fermi est situé dans la bande interdite qui sépare les bandes de valence et de conduction.
+Le gaz d'électrons quasi libres[modifier | modifier le code]
+Apparition de la bande interdite dans le cadre d'un gaz d'électron quasi libre.
+Dans le cas du gaz d'électrons quasi libres, on considère le potentiel électrostatique périodique créé par les noyaux atomiques comme faible. On le traite comme une perturbation affectant un gaz d'électrons libres. Le traitement de ce problème entre dans le cadre de la théorie des perturbations. On résout donc l'équation de Schrödinger avec le potentiel périodique créé par les noyaux et on trouve les fonctions propres et les énergies propres des électrons dans le cristal. Ce traitement est approprié dans le cas des métaux nobles, des métaux alcalins et de l'aluminium, par exemple.
+La théorie des liaisons fortes[modifier | modifier le code]
+Dans le cadre de la théorie des liaisons fortes, on tente d'obtenir les propriétés du solide à partir des orbitales atomiques. On part des états électroniques des atomes séparés et on considère la manière dont ils sont modifiés par le voisinage des autres atomes. Les effets à prendre en compte sont notamment l'élargissement des bandes (un état a une énergie discrète dans la limite atomique, mais occupe une bande d'énergie dans le solide) et l'hybridation entre les bandes d'énergies proches.
+Voir aussi[modifier | modifier le code]
+Liens externes[modifier | modifier le code]
+Animation, applications et recherches liées à la théorie des bandes entre autres (Université Paris Sud)
+Articles connexes[modifier | modifier le code]
+Densité d'états électroniques
+Semi-conducteur
+Isolant
+Conducteur
+Énergie de Fermi
+Orbitales frontières
+Niveau du vide
+Portail de la physique
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Théorie_des_bandes&oldid=109752597 ».
+Catégories : Physique de la matière condenséeThéoriePhysique du solideSemi-conducteurCatégories cachées : Portail:Physique/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+বাংলা
+Català
+Čeština
+Deutsch
+English
+Español
+فارسی
+עברית
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Polski
+Português
+Русский
+Slovenščina
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 7 décembre 2014 à 16:19.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

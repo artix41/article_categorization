@@ -1,0 +1,111 @@
+Dendrimère — Wikipédia
+Dendrimère
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article est une ébauche concernant la chimie.
+Vous pouvez partager vos connaissances en l’améliorant (comment ?) selon les recommandations des projets correspondants.
+Un dendrimère [1],[2]est une molécule dont la forme reprend celle des branches d'un arbre. Le nom vient du grec "δενδρον"/dendron, signifiant "arbre". En 1979, le premier dendrimère a été synthétisé par D.A. Tomalia[3] et d'autres chercheurs de la Dow Chemical Company, et des dendrimères ont depuis été étudiés partout dans le monde pour leur forme unique.
+Sommaire
+1 Synthèse
+2 Propriétés et applications
+3 Voir aussi
+4 Références
+Synthèse[modifier | modifier le code]
+Synthèse convergente
+Synthèse divergente
+Dans la synthèse des dendrimères, les monomères mènent à un polymère monodisperse, tel un arbre[4]. Il y a deux méthodes définies de synthèse des dendrimères: synthèse divergente[5],[6] et synthèse convergente[7]. La première assemble la molécule du noyau jusqu'à la périphérie et le second de l'extérieur vers le noyau.
+Cependant, parce qu'une réaction répétée composée de beaucoup d'étapes est nécessaire pour protéger l'emplacement actif, il est difficile de synthétiser des dendrimères même si les deux méthodes sont employées. C'est pourquoi il y a des obstacles à la synthèse de grandes quantités de dendrimères, toutefois de nombreux progrès ont été accomplis. Suivant les travaux de Sharpless, les méthodes "click" ont récemment permis un nouvel essor vers des voies de synthèse plus aisées et particulièrement efficaces, notamment avec des étapes de purifications simples permettant d'envisager un avenir industriel[8],[9]. Les méthodes "click" comprennent tout d'abord la réaction historique CuAAC[10] (consistant en une cycloaddition de Huisgen catalysée par du Cu(I)), mais aussi celles de Diels-Alder (DA) [11] ou le couplage Thiol-Ene (TEC)[12]. Récemment, quelques séquences employant ces trois différentes méthodes afin d'obtenir aisément des macromolécules fonctionnalisées ont vu le jour, notamment par synthèse "one-pot"[13].
+exemple de synthèse divergente : L'arborol
+Propriétés et applications[modifier | modifier le code]
+Les propriétés des dendrimères sont engendrées par les structures moléculaires présentes sur sa surface. Par exemple, un dendrimère peut être hydrosoluble quand son extrémité-groupe est un groupe hydrophile, comme un groupe carboxylique. Il est théoriquement possible de concevoir un dendrimère hydrosoluble avec l'hydrophobicité interne, qui lui permettrait de porter un composé hydrophobe dans son intérieur (afin de transporter un composé thérapeutique hydrophobe dans le sang par exemple).
+Une autre propriété est que le volume d'un dendrimère augmente quand il a une charge positive. Si cette propriété peut être appliquée, des dendrimères peuvent être employés pour les systèmes de transport d'éléments chimiques qui peuvent donner le médicament à la partie visée à l'intérieur du corps d'un patient directement (tumeur par exemple).
+Les applications sont très diverses comme un élément organique électroluminescent, comme substitut sanguin, traitement anti-cancer, outils pour la multiplication de cellules, mais aussi en matériaux lors d'associations avec des nanotubes ou comme sondes sélectives et efficaces.
+Dendritech [14] vend actuellement un certain nombre de dendrimères de type PAMAM, ainsi que Polymer Factory[15] de type bis-MPA.
+Une revue complète sur les fonctions et applications des dendrimères a été publiée en 2010 à Chemical Reviews[2].
+Voir aussi[modifier | modifier le code]
+Dendrimers (2,2-bis (methylol) Propionic Acid)
+(en) Cambridge display technology (anglophone)
+Références[modifier | modifier le code]
+↑ J. M. J. Fréchet, D. A. Tomalia, Dendrimers and Other Dendritic Polymers, John Wiley & Sons, Ltd. NY, NY, 2001.
+↑ a et b (en) D. Astruc, E. Boisselier, C. Ornelas, « Dendrimers Designed for Functions: From Physical, Photophysical, and Supramolecular Properties to Applications in Sensing, Catalysis, Molecular Electronics, and Nanomedicine », Chem. Rev., vol. 110,‎ 2010, p. 1857-1959 (DOI 10.1021/cr900327d)
+↑ (en) D. A. Tomalia, H. Baker, J. Dewald, M. Hall, G. Kallos, S. Martin, J. Roeck, J. Ryder, P. Smith, « A New Class of Polymers: Starburst-Dendritic Macromolecules », Polymer (journal), vol. 17,‎ 1985, p. 117 (DOI 10.1295/polymj.17.117)
+↑ Groupe Nanosciences Moléculaires et Catalyse
+↑ (en) Egon Buhleier, Winfried Wehner, Fritz Vögtle, « "Cascade"- and "Nonskid-Chain-like" Syntheses of Molecular Cavity Topologies », Synthesis,‎ 1978, p. 155–158 (DOI 10.1055/s-1978-24702)
+↑ Polyphenylene Dendrimers: From Three-Dimensional to Two-Dimensional Structures Angewandte Chemie International Edition in English Volume 36, Issue 6, Date: April 4, 1997, Pages: 631-634 Frank Morgenroth, Erik Reuther, Klaus Müllen DOI:10.1002/anie.199706311
+↑ (en) C. J. Hawker, J. M. J. Fréchet, « Preparation of polymers with controlled molecular architecture. A new convergent approach to dendritic macromolecules », J. Am. Chem. Soc., vol. 112,‎ 1990, p. 7638 (DOI 10.1021/ja00177a027)
+↑ P. Antoni, Y. Hed, A. Nordberg, D. Nyström, H. von Holst, A. Hult, M. Malkoch, Bifunctional Dendrimers: From Robust Synthesis and Accelerated One-Pot Postfunctionalization Strategy to Potential Applications Angew. Int. Ed., 2009, 48 (12), pp 2126-2130 DOI:10.1002/anie.200804987
+↑ (en) G. Franc, A. K. Kakkar, « Click Methodologies: Efficient, Simple and Greener Routes to Design Dendrimers », Chemical Society Reviews,‎ 2010 (DOI 10.1039/b913281n)
+↑ (en) G. Franc, A. K. Kakkar, « Dendrimers Design Using CuI-Catalyzed Alkyne–Azide "Click" Chemistry », Chemical Communications,‎ 2008, p. 5267-5276 (DOI 10.1039/b809870k)
+↑ (en) G. Franc, A. K. Kakkar, « Diels-Alder "Click" Chemistry in Designing Dendritic Macromolecules », Chemistry: A European Journal, vol. 15,‎ 2009, p. 5630-5639 (DOI 10.1002/chem.200900252)
+↑ (en) K. L. Killops, L. M. Campos, C. J. Hawker, « Robust, Efficient, and Orthogonal Synthesis of Dendrimers via Thiol-Ene "Click" Chemistry », J. Am. Chem. Soc., vol. 130,‎ 2008, p. 5062-5064 (DOI 10.1021/ja8006325)
+↑ (en) X. Q. Xiong, « Efficient Synthesis of Dendritic Architectures by One-Pot Double Click Reactions », Australian Journal of Chemistry, vol. 62,‎ 2009, p. 1371 (DOI 10.1071/CH09052)
+↑ Dendritech
+↑ Polymer Factory AB, Stockholm, Sweden Polymer Factory
+Portail de la chimie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Dendrimère&oldid=91479002 ».
+Catégories : PolymèreChimie supramoléculaireCatégories cachées : Wikipédia:ébauche chimiePortail:Chimie/Articles liésPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+Беларуская
+Dansk
+Deutsch
+English
+Español
+Eesti
+فارسی
+עברית
+Magyar
+Italiano
+日本語
+Nederlands
+Polski
+Piemontèis
+Português
+Русский
+中文
+Modifier les liens
+Dernière modification de cette page le 30 mars 2013 à 16:07.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil

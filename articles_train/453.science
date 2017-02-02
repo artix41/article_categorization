@@ -1,0 +1,177 @@
+Géométrie différentielle — Wikipédia
+Géométrie différentielle
+Un article de Wikipédia, l'encyclopédie libre.
+Aller à :					navigation, 					rechercher
+Cet article ou cette section concernant les mathématiques doit être recyclé.
+Une réorganisation et une clarification du contenu est nécessaire. Discutez des points à améliorer en page de discussion.
+En mathématique, la géométrie différentielle est l'application des outils du calcul différentiel à l'étude de la géométrie. Les objets d'étude de base sont les variétés différentielles, ensembles ayant une régularité suffisante pour envisager la notion de dérivation, et les fonctions définies sur ces variétés.
+La géométrie différentielle trouve sa principale application physique dans la théorie de la relativité générale où elle permet une modélisation d'une courbure de l'espace-temps.
+Sommaire
+1 Points de vue intrinsèque et extrinsèque
+2 Explication mathématique
+3 Branches de la géométrie différentielle
+3.1 Géométrie riemannienne
+3.2 Géométrie de Finsler
+3.3 Géométrie symplectique
+3.4 Géométrie de contact
+4 Voir aussi
+4.1 Articles connexes
+4.2 Liens externes
+4.3 Ouvrages de référence
+Points de vue intrinsèque et extrinsèque[modifier | modifier le code]
+Jusqu'au milieu du XIXe siècle, la géométrie différentielle avait essentiellement un point de vue extrinsèque au sujet des variétés rencontrées, ce qui signifie que celles-ci étaient définies comme un sous-ensemble d'un espace vectoriel topologique (le plus souvent de dimension finie). Par exemple, on étudiait les propriétés d'une courbe pour donner un sens aux notions de tangence, de courbure, etc.
+Le point de vue intrinsèque a l'avantage d'être bien plus flexible que le point de vue extrinsèque, ne serait-ce que parce qu'il ne force pas à trouver un espace pouvant « contenir » la variété considérée, ce qui peut parfois se révéler difficile. Par exemple la bouteille de Klein est une surface (c'est-à-dire une variété de dimension 2) mais pour la plonger dans un espace ambiant il faut choisir R4. De même, il n'est pas évident de trouver un espace « contenant » l'espace-temps courbé. Cependant, la flexibilité gagnée se traduit en une abstraction et une difficulté accrues pour définir les notions géométriques comme la courbure ou topologiques comme la connexité.
+Explication mathématique[modifier | modifier le code]
+La géométrie différentielle couvre l'analyse et l'étude de divers concepts :
+l'étude des variétés
+les fibrés tangents et cotangents
+les formes différentielles
+les dérivées extérieures
+les intégrales des p-formes sur des p-variétés
+le théorème de Stokes
+les dérivées de Lie
+la courbure
+Tous sont en rapport avec l'analyse à plusieurs variables, mais pour les applications géométriques, il est nécessaire de raisonner sans privilégier un système de coordonnées. Ces concepts distincts de la géométrie différentielle peuvent être considérés comme ceux qui englobent la nature géométrique de la dérivée seconde, c'est-à-dire les caractéristiques de la courbure.
+Une variété différentielle dans un espace topologique est une collection d'homéomorphismes d'ensembles ouverts vers une sphère unitaire Rn tels que les ensembles ouverts couvrent l'espace et que si f, g sont des homéomorphismes alors la fonction f-1 ∘ g d'un sous-ensemble ouvert de la sphère unitaire vers la sphère ouverte unitaire est infiniment différentiable. On dit que la fonction d'une variété vers R est infiniment différentiable si la composition de chaque homéomorphisme résulte en une fonction infiniment différentiable de la sphère ouverte unitaire dans R.
+En chaque point de la variété se trouve un espace tangent à ce point constitué de toutes les vitesses (direction et intensité) possibles et avec lesquelles il est possible de s'écarter de ce point. Pour une variété à n dimensions, l'espace tangent en tout point est un espace vectoriel à n dimensions ou, en d'autres termes, une copie de Rn. L'espace tangent a plusieurs définitions. Une définition possible est l'espace vectoriel des chemins qui passent en ce point, quotienté par la relation d'équivalence qui identifie deux chemins ayant le même « vecteur vitesse » en ce point (c'est-à-dire la même dérivée si on les compose avec une carte quelconque).
+Un champ de vecteurs est une fonction d'une variété vers l'union disjointe de ses espaces tangents (l'union en elle-même est une variété connue comme le fibré tangent) de telle manière que, en chaque point, la valeur obtenue est un élément de l'espace tangent en ce point. Une telle relation est appelée section d'un fibré. Un champ vectoriel est différentiable si pour chaque fonction différentiable, l'application du champ en chaque point produit une fonction différentiable. Les champs vectoriels peuvent être perçus comme des équations différentielles indépendantes du temps. Une fonction différentiable des réels vers la variété est une courbe sur la variété. Cela définit une fonction des réels vers les espaces tangents : la vitesse de la courbe sur chacun des points qui la constitue. Une courbe est une solution du champ vectoriel si, pour chaque point, la vitesse de la courbe est égale au champ vectoriel en ce point ; on dit que la courbe est un chemin intégral du champ vectoriel.
+Une k-forme linéaire alternée est un élément de la ke puissance d'un tenseur antisymétrique du dual E* d'un espace vectoriel E. Une k-forme différentielle d'une variété est un choix, en chaque point de la variété, d'une telle k-forme alternée où E est l'espace tangent en ce point. Elle sera différentiable si le résultat, après une opération sur des k-champs vectoriels différentiables, est une fonction différentiable de la variété vers les réels.
+Branches de la géométrie différentielle[modifier | modifier le code]
+Géométrie riemannienne[modifier | modifier le code]
+La géométrie riemannienne est l'étude des métriques riemaniennes : une telle métrique est une famille de produits euclidiens sur une variété différentielle. Cette structure supplémentaire fait apparaître la variété comme un espace euclidien selon un point de vue infinitésimal. Elle permet de généraliser les notions de longueur de la courbe et de mesure de Lebesgue, l'analyse du gradient d'une fonction, de la divergence, etc. Son fort développement durant la seconde moitié du XXe siècle s'explique par l'intérêt que lui ont porté aussi bien les géomètres que les analystes ou les physiciens. De plus, les métriques riemanniennes peuvent être arbitrairement introduites pour mener à bien les calculs sur les variétés.
+Géométrie de Finsler[modifier | modifier le code]
+La géométrie de Finsler est une extension de la géométrie riemannienne, qui prend tout son sens en dimension infinie (par exemple pour l'étude des groupes de difféomorphismes sur une variété). Le principal objet d'étude est la variété de Finsler, c'est-à-dire une variété différentielle munie d'une métrique de Finsler, une norme de Banach définie sur chaque espace tangent.
+Géométrie symplectique[modifier | modifier le code]
+La géométrie symplectique est l'étude des formes symplectiques, i.e. des « formes différentielles fermées non dégénérées ». Ces objets ont été introduits dans l'optique d'une formulation mathématique de la mécanique classique. Si les motivations physiques remontent à Lagrange et Hamilton, la géométrie symplectique s'est formée comme domaine d'études à part entière depuis les années 1960 et est aujourd'hui devenu un domaine actif de recherche. Contrairement à la géométrie riemannienne, des questions d'existence des structures se posent. Les principaux moteurs de recherche sont la conjecture d'Arnold, la conjecture de Weinstein et la quantification.
+Géométrie de contact[modifier | modifier le code]
+La géométrie de contact est la sœur de la géométrie symplectique en dimension impaire. Il s'agit essentiellement de l'étude des formes de contact, c'est-à-dire des 1-formes différentielles α telles que α∧(dα)n soit une forme volume (ne s'annule en aucun point). Même si a priori l'objet d'étude semble différent, « sœur » est une dénomination doublement justifiée. D'une part car les géométries symplectique et de contact présentent des résultats « élémentaires » analogues. D'autre part, car des hypersurfaces présentant des structures de contact sont omniprésentes en géométrie symplectique.
+Voir aussi[modifier | modifier le code]
+Sur les autres projets Wikimedia :
+Géométrie différentielle, sur Wikiversity
+Articles connexes[modifier | modifier le code]
+Fibré vectoriel
+Géométrie complexe
+Géométrie différentielle des surfaces
+Géométrie non euclidienne
+Géométrie spectrale
+Groupe de Lie
+Topologie
+Topologie différentielle
+Géométrie différentielle classique
+Liens externes[modifier | modifier le code]
+Frédéric Paulin, Géométrie différentielle élémentaire, (2007) notes de cours [PDF]
+(en) Richard S. Palais (de), A Modern Course on Curves and Surfaces [PDF] (2003) sur le site virtualmathmuseum.org
+(en) Deux galeries d'images de surfaces sur le site virtualmathmuseum.org
+(en) Balázs Csikós, Differential Geometry, notes de cours
+Alain Chenciner, 5 cours sur la géométrie différentielle, école d'été « Maths et Cerveau » de l'Institut de Mathématiques de Jussieu, 2005 pdf.
+Ouvrages de référence[modifier | modifier le code]
+Marcel Berger et Bernard Gostiaux, Géométrie différentielle : variétés, courbes et surfaces [détail des éditions]
+Jacques Lafontaine, Introduction aux variétés différentielles [détail des éditions]
+(en) Michael Spivak (de), (A Comprehensive Introduction to) Differential Geometry [détail des éditions]
+(en) Shoshichi Kobayashi (en), Katsumi Nomizu (en), Foundations of Differential Geometry (en), 2 volumes, Wiley, mars 1996
+(en) Manfredo Do Carmo, Differential Geometry of Curves and Surfaces, 1976
+(en) Manfredo Perdigao do Carmo et Francis Flaherty, Riemannian Geometry, 1994
+(en) John McCleary, Geometry from a Differentiable Viewpoint, 1994
+(en) Ethan D. Bloch, A First Course in Geometric Topology and Differential Geometry, 1996
+(en) Alfred Gray (en), Modern Differential Geometry of Curves and Surfaces with Mathematica, 2e éd., 1998
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Differential geometry » (voir la liste des auteurs).
+v · d · m
+Géométrie
+Formules mathématiques simples • Géométrie projective • Géométrie affine • Géométrie euclidienne • Géométrie non euclidienne • Géométrie elliptique • Géométrie hyperbolique • Programme d'Erlangen • Géométrie synthétique • Géométrie algébrique • Topologie algébrique • Topologie différentielle • Géométrie riemannienne • Géométrie différentielle • Géométrie symplectique
+v · d · m
+Domaines des mathématiques
+Algèbre • Algèbre commutative • Algèbre homologique • Algèbre linéaire • Analyse • Analyse réelle • Analyse complexe • Analyse fonctionnelle • Analyse numérique • Calcul quantique • Combinatoire • Géométrie • Géométrie algébrique • Géométrie différentielle • Géométrie non commutative • Optimisation • Physique mathématique • Probabilités • Statistiques • Systèmes dynamiques • Théorie des nombres • Théorie de Galois • Théorie des groupes • Topologie • Topologie algébrique
+Portail de la géométrie
+Ce document provient de « http://fr.wikipedia.org/w/index.php?title=Géométrie_différentielle&oldid=92532253 ».
+Catégorie : Géométrie différentielleCatégories cachées : Page à recycler (mathématiques)Article contenant un appel à traduction en allemandArticle contenant un appel à traduction en anglaisPortail:Géométrie/Articles liésProjet:Mathématiques/ArticlesPortail:Sciences/Articles liés
+Menu de navigation
+Outils personnels
+Créer un compteSe connecter
+Espaces de noms
+Article
+Discussion
+Variantes
+Affichages
+Lire
+Modifier
+Modifier le code
+Historique
+Plus
+Rechercher
+Navigation
+Accueil
+Portails thématiques
+Article au hasard
+Contact
+Contribuer
+Débuter sur Wikipédia
+Aide
+Communauté
+Modifications récentes
+Faire un don
+Imprimer / exporter
+Créer un livre
+Télécharger comme PDF
+Version imprimable
+Outils
+Pages liées
+Suivi des pages liées
+Importer un fichier
+Pages spéciales
+Adresse de cette version
+Information sur la page
+Élément Wikidata
+Citer cette page
+Autres langues
+العربية
+Беларуская
+Български
+Català
+Čeština
+Dansk
+Deutsch
+Ελληνικά
+English
+Esperanto
+Español
+Euskara
+فارسی
+Suomi
+Galego
+עברית
+हिन्दी
+Hrvatski
+Magyar
+Հայերեն
+Bahasa Indonesia
+Italiano
+日本語
+ქართული
+한국어
+Lietuvių
+Bahasa Melayu
+Nederlands
+Norsk nynorsk
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Scots
+Simple English
+Slovenčina
+Svenska
+Tagalog
+Türkçe
+Українська
+Tiếng Việt
+中文
+Modifier les liens
+Dernière modification de cette page le 27 avril 2013 à 18:33.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons paternité partage à l’identique ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Développeurs
+Version mobil
