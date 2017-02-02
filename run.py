@@ -274,11 +274,6 @@ class Interface (Frame):
 		self.entry_score.grid(row=1,column=1,padx=5,pady=5,sticky="WNS")
 
 
-
-
-
-
-
 def main():
 	window = Tk()
 	interface = Interface(window)
