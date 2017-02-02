@@ -1,6 +1,4 @@
-
-
-#!/bin/bin/python3.4
+#!/usr/bin/python3
 '''===================== Logiciel de catégorisation d'articles ======================
 
 -> Créé dans le cadre du TIPE 2014/2015 par David Laloum et Arthur Pesah
@@ -200,6 +198,7 @@ class Interface (Frame):
 		
 		self.filenames = glob(os.path.join(self.dirname,'*'))
 		filenames_train = self.filenames[:self.nbr_articles_train]
+		print(filenames_train)
 		category_train = [index_of_category((filename[filename.index('.')+1:])) for filename in filenames_train]
 		
 		# ======= Instantie le modèle de gestion du texte =======
